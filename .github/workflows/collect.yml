@@ -1,0 +1,182 @@
+name: Collect Negative News
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "17 * * * *"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: "pnm-collector"
+  cancel-in-progress: false
+
+jobs:
+  collect:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Collect news
+        run: |
+          python -u scripts/fetch_news.py
+
+      - name: Normalize location data
+        run: |
+          python -u scripts/normalize_news.py
+
+      - name: Check news
+        run: |
+          python - <<'PY'
+          import json, os
+          path = "data/news.json"
+          if not os.path.exists(path):
+              raise SystemExit("ERROR: data/news.json tidak ditemukan")
+          with open(path, encoding="utf-8") as f:
+              data = json.load(f)
+          items = data.get("items", [])
+          print("========================================")
+          print("NEWS DATABASE CHECK")
+          print(f"News records : {len(items)}")
+          print("========================================")
+          PY
+
+      - name: Build case clusters
+        run: |
+          python -u scripts/process_cases.py
+
+      - name: Validate data
+        run: |
+          python -u scripts/validate_data.py
+
+      - name: Check case database
+        run: |
+          python - <<'PY'
+          import json, os
+          path = "data/case_clusters.json"
+          if not os.path.exists(path):
+              raise SystemExit("ERROR: case_clusters.json tidak ditemukan")
+          with open(path, encoding="utf-8") as f:
+              data = json.load(f)
+          print("========================================")
+          print("CASE DATABASE CHECK")
+          print(f"Cases    : {len(data.get('cases', []))}")
+          print(f"Articles : {data.get('total_articles', 0)}")
+          print("========================================")
+          PY
+
+      - name: Collect YouTube
+        continue-on-error: true
+        env:
+          YOUTUBE_API_KEY: ${{ secrets.YOUTUBE_API_KEY }}
+        run: |
+          python -u scripts/fetch_social.py
+
+      - name: Check YouTube data
+        run: |
+          echo "========================================"
+          echo "YOUTUBE DATA CHECK"
+          echo "========================================"
+          if [ -f data/social.json ]; then
+            ls -lh data/social.json
+            echo "YouTube data tersedia."
+          else
+            echo "WARNING: data/social.json tidak tersedia."
+          fi
+          echo "========================================"
+
+      - name: Create daily snapshot
+        run: |
+          python -u scripts/create_daily_snapshot.py
+
+      - name: Build archive index
+        run: |
+          python - <<'PY'
+          import json
+          from pathlib import Path
+
+          archive_dir = Path("data/archive")
+          archive_dir.mkdir(parents=True, exist_ok=True)
+
+          files = sorted(
+              [
+                  p.stem
+                  for p in archive_dir.glob("*.json")
+                  if p.name != "index.json"
+              ],
+              reverse=True
+          )
+
+          with open(archive_dir / "index.json", "w", encoding="utf-8") as f:
+              json.dump({"files": files}, f, ensure_ascii=False, indent=2)
+
+          print("========================================")
+          print("ARCHIVE INDEX")
+          print("========================================")
+          print(f"Archives : {len(files)}")
+          for item in files[:10]:
+              print(f" - {item}")
+          print("Output   : data/archive/index.json")
+          print("========================================")
+          PY
+
+      - name: Validate final data
+        run: |
+          python -u scripts/validate_data.py
+
+      - name: Check monitoring data
+        run: |
+          echo "========================================"
+          echo "CHECK MONITORING DATA"
+          echo "========================================"
+          for f in data/news.json data/case_clusters.json data/social.json data/today.json data/archive/index.json; do
+            if [ -f "$f" ]; then
+              echo "$f:"
+              ls -lh "$f"
+            else
+              echo "WARNING: $f tidak ditemukan"
+            fi
+            echo ""
+          done
+          echo "archive:"
+          if [ -d data/archive ]; then
+            find data/archive -maxdepth 1 -type f | sort
+          fi
+          echo "========================================"
+
+      - name: Save monitoring data
+        run: |
+          git config user.name "PNM Bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          git status --short
+
+          git add \
+            data/news.json \
+            data/case_clusters.json \
+            data/social.json \
+            data/today.json \
+            data/archive/ \
+            data/matwil/current.json \
+            scripts/normalize_news.py \
+            scripts/process_cases.py \
+            scripts/create_daily_snapshot.py \
+            scripts/validate_data.py \
+            scripts/update_matwil.py \
+            scripts/location_engine.py \
+            README.md
+
+          if git diff --cached --quiet; then
+            echo "Tidak ada perubahan data."
+          else
+            git commit -m "chore: update monitoring data"
+            git push
+          fi
