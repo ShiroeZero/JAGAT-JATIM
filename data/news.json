@@ -1,32 +1,391 @@
 {
-  "generated_at": "2026-08-26T19:56:18.364145+00:00",
+  "generated_at": "2026-08-26T23:37:03.240325+00:00",
   "platform": "News",
-  "total": 403,
-  "new_records": 21,
-  "last_successful_fetch": "2026-08-26T19:56:18.364145+00:00",
+  "total": 416,
+  "new_records": 13,
+  "last_successful_fetch": "2026-08-26T23:37:03.240325+00:00",
   "last_fetch_mode": "incremental",
   "fetch_status": "success",
   "fetch_statistics": {
     "queries": 224,
     "api_success": 224,
     "api_failed": 0,
-    "skipped_old": 12596,
-    "skipped_duplicate": 14,
-    "skipped_irrelevant": 19,
-    "new_records": 21,
+    "skipped_old": 12562,
+    "skipped_duplicate": 1,
+    "skipped_irrelevant": 1,
+    "new_records": 13,
     "discovery_version": "discovery-v6.1",
     "discovery_families": 9,
     "jatim_polres_count": 39
   },
   "statistics": {
-    "total": 403,
-    "jatim": 88,
-    "negative": 18,
-    "case": 14,
-    "positive": 11,
-    "neutral": 360
+    "total": 416,
+    "jatim": 93,
+    "negative": 19,
+    "case": 15,
+    "positive": 12,
+    "neutral": 370
   },
   "items": [
+    {
+      "id": "177c0cabe632f153c854b78f57bf852cad346923",
+      "title": "Polisi tangkap tersangka pembunuhan satu keluarga di Palu - ANTARA News Sulteng",
+      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNelNMbnlkaXcxNWI2MHl6UlhzaHFlamozWWpxZ09TdGNCOUNJX1JaUzFuOEVmenB3Yk1OOTA2eVItNGhBZmRyYlJkM0dkMHVWVUNTQU5POGpWdDhhU3FNRE4td19xcE5HR1lEb2c1dTlCN2F5NmtSMDJOd08zRktCMlRnb1RJVjBsUEE4RmZLZ0szSGxnTmpHQm1YMzFydHFEWjl6Uw?oc=5",
+      "source": "ANTARA News Sulteng",
+      "published_at": "2026-08-26T23:33:33+00:00",
+      "collected_at": "2026-08-26T23:37:03.240325+00:00",
+      "region": "LUAR JATIM",
+      "area_label": "LUAR JATIM",
+      "is_jatim": false,
+      "polres": null,
+      "category": "NETRAL / LAINNYA",
+      "scope": "neutral",
+      "scope_label": "NETRAL",
+      "priority": "low",
+      "summary": "Polisi tangkap tersangka pembunuhan satu keluarga di Palu ANTARA News Sulteng",
+      "processing_status": "processed",
+      "classifier_version": "news-v6",
+      "classified_at": "2026-08-26T23:37:03.240325+00:00",
+      "case_id": null,
+      "discovery_families": [],
+      "discovery_tags": [],
+      "discovery_hits": [],
+      "discovery_version": "discovery-v6",
+      "case_engine_version": "case-v6.1",
+      "case_processed_at": "2026-08-26T23:39:02.953336+00:00"
+    },
+    {
+      "id": "c1693aa1d69c1a3067513767f1620a34f114686b",
+      "title": "Patroli Diperketat, Polisi Ungkap Dua Pelaku Pembakaran Lahan di Pulang Pisau - Berita Sampit",
+      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPT0Z1TzhJdUphdzl2SUZVRTdhUGVza3FDTjlBMXV2MENEX3hTRnE0cXY0N2pMeHMzeHdtVHlESnotdzVrT3lsQ01hbk9mY1hVSFpkTm1DV0Y2cGgxZkM4VFFta1pKTDM3MEg0dUNCbUFWOFhxZ3hzWkxXOUdwdWVhSGY3bnQ3UzVHcG50eFIwSFlxNm02MHpiX1ZSLUJxRnVTTEtTdU1vNmNvN3FQblJnQTZWVQ?oc=5",
+      "source": "Berita Sampit",
+      "published_at": "2026-08-26T23:20:03+00:00",
+      "collected_at": "2026-08-26T23:37:03.240325+00:00",
+      "region": "LUAR JATIM",
+      "area_label": "LUAR JATIM",
+      "is_jatim": false,
+      "polres": null,
+      "category": "PRESTASI / KEGIATAN POSITIF",
+      "scope": "positive",
+      "scope_label": "POSITIF / KEGIATAN",
+      "priority": "low",
+      "summary": "Patroli Diperketat, Polisi Ungkap Dua Pelaku Pembakaran Lahan di Pulang Pisau Berita Sampit",
+      "processing_status": "processed",
+      "classifier_version": "news-v6",
+      "classified_at": "2026-08-26T23:37:03.240325+00:00",
+      "case_id": null,
+      "discovery_families": [],
+      "discovery_tags": [],
+      "discovery_hits": [],
+      "discovery_version": "discovery-v6",
+      "case_engine_version": "case-v6.1",
+      "case_processed_at": "2026-08-26T23:39:02.957388+00:00"
+    },
+    {
+      "id": "0b097bbe441cbb6a05a590ef45d244f8414bb619",
+      "title": "Ketua DPD PJS Jambi Minta Polisi Usut Dugaan Pengeroyokan Sekretaris DPC PJS Tanjabat - Target Berita",
+      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOSl8wQmltWk4zbWZabUJRcUpKWmdqM21rV3E1RjB6TXBFSE8ySnk5Mi1GMjMtbTl5OXBzVDlZMkRyTFBXUTYtSGdTMUpab2Q3V0VWQnRyOTJpcExRSThrcVpHS3dzNU80M1lPMmlOTTFSNmlTTDk1ZmctTDd2RVd6dWxONXN4M05fdXRLSUprUjFWejI1UlRiaVQ2bkJNU3MtSzhENzNodkxHbkVSTm9mOUFIWQ?oc=5",
+      "source": "Target Berita",
+      "published_at": "2026-08-26T23:18:00+00:00",
+      "collected_at": "2026-08-26T23:37:03.240325+00:00",
+      "region": "LUAR JATIM",
+      "area_label": "LUAR JATIM",
+      "is_jatim": false,
+      "polres": null,
+      "category": "NETRAL / LAINNYA",
+      "scope": "neutral",
+      "scope_label": "NETRAL",
+      "priority": "low",
+      "summary": "Ketua DPD PJS Jambi Minta Polisi Usut Dugaan Pengeroyokan Sekretaris DPC PJS Tanjabat Target Berita",
+      "processing_status": "processed",
+      "classifier_version": "news-v6",
+      "classified_at": "2026-08-26T23:37:03.240325+00:00",
+      "case_id": null,
+      "discovery_families": [],
+      "discovery_tags": [],
+      "discovery_hits": [],
+      "discovery_version": "discovery-v6",
+      "case_engine_version": "case-v6.1",
+      "case_processed_at": "2026-08-26T23:39:02.961490+00:00"
+    },
+    {
+      "id": "8610f76f452472b5930c22eff4748f0c1c035c50",
+      "title": "Polisi amankan WNA Australia yang diduga bertindak asusila di halaman rumah warga - ANTARA News Bali",
+      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPU1A2NzFRXzRhUXl2dHhXTnlEaU9vY19MX1I0SnpPdHFSem1sSzRVTzE2RTBURXFFOVBtVFpWanNta3VoS0VBOFlxZUxYS2tCOGtqeXd3ek9Gd2tPSkl5TG1sLUQxTnFjam1HNUZ6THpJRWxCSGdFQ2Flckp4NkdsaFJzWEppTWdBUzk0RXpyOG4wN2dNZkxCd0FSekVtTG9rblptU0VrWTFYOEQtMUZKeFBLN2tPZWY2U1pqV01uNFDSAcYBQVVfeXFMTnhBNEdrVjMxc3hhcDZiU0x1czdqb0FSTVVsVVFveENBTGRUZ2xrZDJ5VTF5MjYyQ0drakp5dkw0SG5zUVNsLVRtdXdrU0dmeWtmV01MbnNrLUR0Tmo2YU4xV01Ic19OYXByMWRXUFR6VWxteF9LNTBJaUNoSWlPWWJGMUxwOEhiWTRJcmhuMHd6dUZsWGtoWDBGdW9lcW1XdXhWODRYM2czbXByYW03Vk1lQjZaYXVjZkRReHRrSS1iS2hNSFBB?oc=5",
+      "source": "ANTARA News Bali",
+      "published_at": "2026-08-26T22:42:59+00:00",
+      "collected_at": "2026-08-26T23:37:03.240325+00:00",
+      "region": "LUAR JATIM",
+      "area_label": "LUAR JATIM",
+      "is_jatim": false,
+      "polres": null,
+      "category": "OKNUM - ETIK/PERSONAL",
+      "scope": "negative",
+      "scope_label": "NEGATIF / ATENSI",
+      "priority": "medium",
+      "summary": "Polisi amankan WNA Australia yang diduga bertindak asusila di halaman rumah warga ANTARA News Bali",
+      "processing_status": "processed",
+      "classifier_version": "news-v6",
+      "classified_at": "2026-08-26T23:37:03.240325+00:00",
+      "case_id": "CASE-000020",
+      "discovery_families": [
+        "ethics_personal_misconduct"
+      ],
+      "discovery_tags": [
+        "ethics",
+        "sexual_misconduct",
+        "violence"
+      ],
+      "discovery_hits": [
+        "asusila"
+      ],
+      "discovery_version": "discovery-v6",
+      "case_engine_version": "case-v6.1",
+      "case_processed_at": "2026-08-26T23:39:04.390908+00:00"
+    },
+    {
+      "id": "cb1a2d0d023afefea98be2226f1c7b8a5597cd8e",
+      "title": "Buka Paksa Segel TK ABA IV, Ketua dan Wakil Ketua PD Muhammadiyah Dilaporkan ke Polres Pamekasan - Klik Madura",
+      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNQmZ2M1NXclNNTHBudTVMWUlmWFIyeUMyc0pYRFNBQ0lrRkhpZDJieW1xSUd5OWR5WHBiVE9sSUtNMkFOdnJMMWZVUUZEM0p6WDFPU0VxZHFPVE4xZXdGSkhiLVM5ZWpKTDVQNlBRMmJLWFRRSDdteTFGUHJiUHVPLTRTeXRPbFFteUo3U2cxNy13LTg3U0hpLU0waE5keW5jTHQwS2dVQUFTdFE4dmdSalRpOWpkWnJJcXJfX0Zmd3c2WnhqaXRwVw?oc=5",
+      "source": "Klik Madura",
+      "published_at": "2026-08-26T22:33:35+00:00",
+      "collected_at": "2026-08-26T23:37:03.240325+00:00",
+      "region": "Jawa Timur",
+      "area_label": "POLRES PAMEKASAN",
+      "is_jatim": true,
+      "polres": "POLRES PAMEKASAN",
+      "category": "NETRAL / LAINNYA",
+      "scope": "neutral",
+      "scope_label": "NETRAL",
+      "priority": "low",
+      "summary": "Buka Paksa Segel TK ABA IV, Ketua dan Wakil Ketua PD Muhammadiyah Dilaporkan ke Polres Pamekasan Klik Madura",
+      "processing_status": "processed",
+      "classifier_version": "news-v6",
+      "classified_at": "2026-08-26T23:37:03.240325+00:00",
+      "case_id": null,
+      "discovery_families": [],
+      "discovery_tags": [],
+      "discovery_hits": [],
+      "discovery_version": "discovery-v6",
+      "case_engine_version": "case-v6.1",
+      "case_processed_at": "2026-08-26T23:39:02.965506+00:00"
+    },
+    {
+      "id": "21721a9afb8c3ae4f6d2d5f6e29731f775533686",
+      "title": "Buntut Pembukaan Segel TK ABA IV, Ketua dan Wakil Ketua PD Muhammadiyah Dilaporkan ke Polres Pamekasan - Klik Madura",
+      "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxOTlZGNGRKUFk3NEdXMTJ6dkZmRmxyYU94RmJJNE0wREVuLURuTlBqUkNuUGhwVE1hY0ltdmtaOHVfdUN2RXlNN1JsbmJMUmlrMHM0d3FvSDJ5TjdvMFZyazFhT3lFWWxjSFlxaFRiX3A2dXQ3RHQ5UTF5SEVUMnl5aGVlTTd3bHVLM1BqTWVtQlpmQ25uYWNNLUJTN245S1UzRVpiU3VwZzctQ1diS0ZRZ19lMmxQaXBaMDFtRWVyVzRYU1o4ZEZrRDZ6R3ZzanlP?oc=5",
+      "source": "Klik Madura",
+      "published_at": "2026-08-26T22:23:33+00:00",
+      "collected_at": "2026-08-26T23:37:03.240325+00:00",
+      "region": "Jawa Timur",
+      "area_label": "POLRES PAMEKASAN",
+      "is_jatim": true,
+      "polres": "POLRES PAMEKASAN",
+      "category": "NETRAL / LAINNYA",
+      "scope": "neutral",
+      "scope_label": "NETRAL",
+      "priority": "low",
+      "summary": "Buntut Pembukaan Segel TK ABA IV, Ketua dan Wakil Ketua PD Muhammadiyah Dilaporkan ke Polres Pamekasan Klik Madura",
+      "processing_status": "processed",
+      "classifier_version": "news-v6",
+      "classified_at": "2026-08-26T23:37:03.240325+00:00",
+      "case_id": null,
+      "discovery_families": [],
+      "discovery_tags": [],
+      "discovery_hits": [],
+      "discovery_version": "discovery-v6",
+      "case_engine_version": "case-v6.1",
+      "case_processed_at": "2026-08-26T23:39:02.969834+00:00"
+    },
+    {
+      "id": "8d92ad1cb06b0bc006f233c6c2992b3c487e5bd9",
+      "title": "Curhat Kamtibmas Polresta Sidoarjo, Serap Aspirasi Warga Desa Ketegan - Kempalan.com",
+      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQaXo4UjRPUTBEYXY4R2ozd3F0T0lBY09IVWtMaFpfSlY5RFk0NVlEaHVkWlpxNmktT244STNudTZZS0lCZDlTV3pBTWlKYkdFVXVHbG5Fc0R1VTJWdWZ6Nk5MME5YMi1CXzRicUtNNWNWbk5CdTdwSTY2TzlHUUlQNlNGS3BEdWZQakI2UkRrY1NONFhZcVRiT1JtMF9XWXplRVJv?oc=5",
+      "source": "Kempalan.com",
+      "published_at": "2026-08-26T22:18:23+00:00",
+      "collected_at": "2026-08-26T23:37:03.240325+00:00",
+      "region": "Jawa Timur",
+      "area_label": "POLRESTA SIDOARJO",
+      "is_jatim": true,
+      "polres": "POLRESTA SIDOARJO",
+      "category": "NETRAL / LAINNYA",
+      "scope": "neutral",
+      "scope_label": "NETRAL",
+      "priority": "low",
+      "summary": "Curhat Kamtibmas Polresta Sidoarjo, Serap Aspirasi Warga Desa Ketegan Kempalan.com",
+      "processing_status": "processed",
+      "classifier_version": "news-v6",
+      "classified_at": "2026-08-26T23:37:03.240325+00:00",
+      "case_id": null,
+      "discovery_families": [],
+      "discovery_tags": [],
+      "discovery_hits": [],
+      "discovery_version": "discovery-v6",
+      "case_engine_version": "case-v6.1",
+      "case_processed_at": "2026-08-26T23:39:02.973214+00:00"
+    },
+    {
+      "id": "011eb0c0d321e56963e3e074104477271b2b363e",
+      "title": "Perilaku Revaldo Selama Diinterogasi soal Narkoba Jadi Sorotan Polisi - detikHOT",
+      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOMThsaFUtXzFueF96X1pacF8zekNjLXlINkxwVFB5ekROZ1R0a2M4WUwzZFRRSHVPNVYyd2w3SHFJVnotYVEzMk0wUlE4SC1RbHRtcFgtalJUeVBCWXlvUmNKckZmR1pzSGhCLWwzX092aXFHQzlUSEtfLTVFaTJmQklaRW9sQ045R2pEVEF5c2ZNUHJzbVptN1lhYWVKMEo1RHVtNlcxZkJUaVnSAbABQVVfeXFMUFF1elU1NTBQOUpmejNDLW9RMzg5SEI3eXhKRkNDYXlHVXdHM2I2YzRfWEpMYXMwOWJVb0VabjZ3S0tfVmlOTUhHVVNzT3pZSno1STM3bVktQUJYTl9zMnIxLUVIYXFNSlY0Zy1LX1huYTFpMjhWMHU5Y0Vfa0JSVi1nRE1NSjUzbXNsLWxfelhxRTBwZlpKLWZ1NzI5TDRYbmlSLXRXQmdpTm15UmZ2cjc?oc=5",
+      "source": "detikHOT",
+      "published_at": "2026-08-26T22:12:52+00:00",
+      "collected_at": "2026-08-26T23:37:03.240325+00:00",
+      "region": "LUAR JATIM",
+      "area_label": "LUAR JATIM",
+      "is_jatim": false,
+      "polres": null,
+      "category": "NETRAL / LAINNYA",
+      "scope": "neutral",
+      "scope_label": "NETRAL",
+      "priority": "low",
+      "summary": "Perilaku Revaldo Selama Diinterogasi soal Narkoba Jadi Sorotan Polisi detikHOT",
+      "processing_status": "processed",
+      "classifier_version": "news-v6",
+      "classified_at": "2026-08-26T23:37:03.240325+00:00",
+      "case_id": null,
+      "discovery_families": [],
+      "discovery_tags": [],
+      "discovery_hits": [],
+      "discovery_version": "discovery-v6",
+      "case_engine_version": "case-v6.1",
+      "case_processed_at": "2026-08-26T23:39:02.975937+00:00"
+    },
+    {
+      "id": "25aaf7d543dbb48b7f108f13149b960e2e8abf59",
+      "title": "Polisi Kantongi Identitas Penyuplai Sabu ke Aktor Revaldo! - celebrity.okezone.com",
+      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPeEx3d3ZwTnc3SzlmQWN5X1ZYY0R4MG9YTGVBbUtDNjBxY3A3cU5HNUcxdzFnU3hBS3k1UE5ZWFRhN2lVRTBXakR4aWlzdVBYZFpwc3kxSHc4UlQ2VkVnYThaWU0tZnRyRjJfM3MyZTNlSW9CSDVsRUs3WGI4VWh2a1FVVDY0M1AzTS1mYTNtWkEzQm1MRmtneUhRWVhaVEpyZ2FNLWRTRWhTUWVDQkRwRWNUcE_SAbMBQVVfeXFMUFEyTUZVZjFvd3Z0d0p6cG4yN2dtZmktbV9aQmhNVGZoY19qQVZQN0ctVjluNHhucjFrN2NVd2J5c1dHR29jdXFuRk4yTEZfS3dqdFFEREk3VDZxVWRpMVRPZy1DS0EydmJMT3NkZHZDMm5qc1RheWJ1M2JTcjZ0OFlFa3ZVN3Fkc0hpMVVVd2RKQ2NWYTUyck9HYkw3amtmdm5LTWswcUExS1FfX2Z4T2llTVk?oc=5",
+      "source": "celebrity.okezone.com",
+      "published_at": "2026-08-26T22:05:41+00:00",
+      "collected_at": "2026-08-26T23:37:03.240325+00:00",
+      "region": "LUAR JATIM",
+      "area_label": "LUAR JATIM",
+      "is_jatim": false,
+      "polres": null,
+      "category": "NETRAL / LAINNYA",
+      "scope": "neutral",
+      "scope_label": "NETRAL",
+      "priority": "low",
+      "summary": "Polisi Kantongi Identitas Penyuplai Sabu ke Aktor Revaldo! celebrity.okezone.com",
+      "processing_status": "processed",
+      "classifier_version": "news-v6",
+      "classified_at": "2026-08-26T23:37:03.240325+00:00",
+      "case_id": null,
+      "discovery_families": [],
+      "discovery_tags": [],
+      "discovery_hits": [],
+      "discovery_version": "discovery-v6",
+      "case_engine_version": "case-v6.1",
+      "case_processed_at": "2026-08-26T23:39:02.979587+00:00"
+    },
+    {
+      "id": "72e2bd1cafca7f6493ead2ebbc4b0d4fd9f0f05b",
+      "title": "Narkoba Bekasi Beredar Lewat Instagram, Polisi Sita Puluhan Ribu Obat Terlarang - Pikiran Rakyat Koran",
+      "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPTGxXNHR3UlZjTFdBUFpRLXpVNjBubHhIVVJPSl9WRkVJZFViRm8zbDd6bDhPQlV1X3VSRGlrT05BeDNPcDVXWEM4YXNuMEpwLUVXTDhXT0Jid3MzWm9mWjd1U3QxYmVsN2p6Y29vYU1Tb042Ym9RU0ZHak5CREVmOHFDYW5hbjZnNGREWnFGUnVJUUhVcndEU0VkdktMWWxfNE5lMXgxM0pmeVV4ZnV3VWNnWlRFZ2pXRmZlOEFvWWlGTnFlRGI4eDZfSQ?oc=5",
+      "source": "Pikiran Rakyat Koran",
+      "published_at": "2026-08-26T22:00:00+00:00",
+      "collected_at": "2026-08-26T23:37:03.240325+00:00",
+      "region": "LUAR JATIM",
+      "area_label": "LUAR JATIM",
+      "is_jatim": false,
+      "polres": null,
+      "category": "UNGKAP KASUS / PENINDAKAN",
+      "scope": "case",
+      "scope_label": "UNGKAP KASUS",
+      "priority": "low",
+      "summary": "Narkoba Bekasi Beredar Lewat Instagram, Polisi Sita Puluhan Ribu Obat Terlarang Pikiran Rakyat Koran",
+      "processing_status": "processed",
+      "classifier_version": "news-v6",
+      "classified_at": "2026-08-26T23:37:03.240325+00:00",
+      "case_id": "CASE-000021",
+      "discovery_families": [],
+      "discovery_tags": [],
+      "discovery_hits": [],
+      "discovery_version": "discovery-v6",
+      "case_engine_version": "case-v6.1",
+      "case_processed_at": "2026-08-26T23:39:04.390911+00:00"
+    },
+    {
+      "id": "7c9de1cc5a5fbbe0aeced73158bf63de81fba90f",
+      "title": "Heboh Turis Asing Mesum Depan Rumah Warga di Badung, Kini Ditangkap Polisi - detikNews",
+      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPa21TZWhodlNlMFZtUFpjVVZSSUFpNTRkZnFRUUlkcmlMMnBQbmduSWxtUFpaQkhEUVVEOF9VMTBLRlB2b0I1NTJMQ21FSWY5cW0tUm5kWGdwWVBMT05rSG1LOXlHXzI2UFZ0V3VMYWhPODJROWpSTU5CT05oQzVReDE5Y3BlT0xoRGtBdEhtamVoTldmdXpPVEdsMENIZEJ0RWFhSlJ5ZHM0cG5zUjlIZWh6Z9IBuAFBVV95cUxNaTNSM3FSNTlzQldVaUJHRHNSeXRNTm9mT0xTVERnVEMyU3NIdEVjNVU3LXdHckpwZE5zQU5UOEYtNUJWNnp3a0tTX3dfNVR2TV9qTWt5Ti1pay1tRmxBV1lFcENfQWp3cFpmWkg5NDhRS3V5dkhBS1owYy1LWTRaM1pOUUpjQUxQT0d0cmlYd1lZdXFWTDlmaWZFaTg2eF9yTGZuMHRzRHNIa1ZoQUtyLVYzQWtrU0Rs?oc=5",
+      "source": "detikNews",
+      "published_at": "2026-08-26T21:00:56+00:00",
+      "collected_at": "2026-08-26T23:37:03.240325+00:00",
+      "region": "LUAR JATIM",
+      "area_label": "LUAR JATIM",
+      "is_jatim": false,
+      "polres": null,
+      "category": "NETRAL / LAINNYA",
+      "scope": "neutral",
+      "scope_label": "NETRAL",
+      "priority": "low",
+      "summary": "Heboh Turis Asing Mesum Depan Rumah Warga di Badung, Kini Ditangkap Polisi detikNews",
+      "processing_status": "processed",
+      "classifier_version": "news-v6",
+      "classified_at": "2026-08-26T23:37:03.240325+00:00",
+      "case_id": null,
+      "discovery_families": [],
+      "discovery_tags": [],
+      "discovery_hits": [],
+      "discovery_version": "discovery-v6",
+      "case_engine_version": "case-v6.1",
+      "case_processed_at": "2026-08-26T23:39:02.982658+00:00"
+    },
+    {
+      "id": "8e528ccd31d29c8c5dfdfb9d116ea85ccd71ccee",
+      "title": "Polresta Malang Kota Siagakan Personel, Antisipasi Lonjakan Aktivitas Warga 27-28 Agustus - sudut kota",
+      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOc28zYlNiSktyRFhaM1A5RVpvelVkNk5CSVkxa204N3BwTkpWR0k2YjQ4TUJpT1dEX0hfRzVyZWJfTmF2dllZdHBtNVcyUFVMMlZTVnBZUjNWNzRkMXBzeUVhNTJQMm55WG1XMks4MXNCWTRYSlBENDhVR0xwN1RPMWNad1JIcUNDZms4dnlRMkFScHdrU0k3bGk3eFg2TVNTRnhpNkI3UlVIU3FFVGxV?oc=5",
+      "source": "sudut kota",
+      "published_at": "2026-08-26T20:36:26+00:00",
+      "collected_at": "2026-08-26T23:37:03.240325+00:00",
+      "region": "Jawa Timur",
+      "area_label": "POLRESTA MALANG KOTA",
+      "is_jatim": true,
+      "polres": "POLRESTA MALANG KOTA",
+      "category": "NETRAL / LAINNYA",
+      "scope": "neutral",
+      "scope_label": "NETRAL",
+      "priority": "low",
+      "summary": "Polresta Malang Kota Siagakan Personel, Antisipasi Lonjakan Aktivitas Warga 27-28 Agustus sudut kota",
+      "processing_status": "processed",
+      "classifier_version": "news-v6",
+      "classified_at": "2026-08-26T23:37:03.240325+00:00",
+      "case_id": null,
+      "discovery_families": [],
+      "discovery_tags": [],
+      "discovery_hits": [],
+      "discovery_version": "discovery-v6",
+      "case_engine_version": "case-v6.1",
+      "case_processed_at": "2026-08-26T23:39:02.986477+00:00"
+    },
+    {
+      "id": "f4eec1515b43cccb8c813fbf25346636e906f749",
+      "title": "Polres Ngawi Bekali 100 Pelajar SMK PGRI 1 Pahami Pemanfaatan AI - memorandum.disway.id - Memorandum.co.id",
+      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPR3QyZVdLR0tKVzkxUF9MMjZzOHVXeE9KUmg1R3BGU19nRzRBOHN0cTYtVHdycWdBQVU5OWU4ekpZYWY4RVV5Umx2SFJrbFdqTVZRVXpIRTM1NFBaUkZBejNwQmVWRlFOeHlKSC1lRS1xRTZQZ1NPamVhYkpuTHlRZFprMk1UVkx1WWFaSmE4OUcyTDU3Mlp5SGJob3BPRlczdlZjOWNsbDF2Wk9wWEFNV9IBpwFBVV95cUxOVHZ6MjlZNTlDSTVZMTRHZnozajNrcURrQlJxeUJSaEZwMXU3MnFTOE1wNGlkTXk1VkkwaENBNFlhdG9sVHNBLTlzVUpKQUUxMXU2ZDc5M1YwdkhLTmUxTjh5V1hLaFRIR0dwdWh0QnNNcERuenFUWVA0Skc0SUk2OEFCZUhKNE9UdG5vTURZY04xcGFybTVIM2tNRUljUjI3aE1IMlRmSQ?oc=5",
+      "source": "Memorandum.co.id",
+      "published_at": "2026-08-26T20:24:00+00:00",
+      "collected_at": "2026-08-26T23:37:03.240325+00:00",
+      "region": "Jawa Timur",
+      "area_label": "POLRES NGAWI",
+      "is_jatim": true,
+      "polres": "POLRES NGAWI",
+      "category": "NETRAL / LAINNYA",
+      "scope": "neutral",
+      "scope_label": "NETRAL",
+      "priority": "low",
+      "summary": "Polres Ngawi Bekali 100 Pelajar SMK PGRI 1 Pahami Pemanfaatan AI - memorandum.disway.id Memorandum.co.id",
+      "processing_status": "processed",
+      "classifier_version": "news-v6",
+      "classified_at": "2026-08-26T23:37:03.240325+00:00",
+      "case_id": null,
+      "discovery_families": [],
+      "discovery_tags": [],
+      "discovery_hits": [],
+      "discovery_version": "discovery-v6",
+      "case_engine_version": "case-v6.1",
+      "case_processed_at": "2026-08-26T23:39:02.990633+00:00"
+    },
     {
       "id": "54136fd65e99fb0847994d3be28ad9df9ef3d8d4",
       "title": "Ladima Tours & Travel Dilaporkan ke Polres Madiun, Jemaah Tak Kunjung Berangkat Haji - Nusantara Abadi News",
@@ -52,7 +411,7 @@
       "processing_status": "processed",
       "case_id": null,
       "case_engine_version": "case-v6.1",
-      "case_processed_at": "2026-08-26T19:58:49.628970+00:00"
+      "case_processed_at": "2026-08-26T23:39:02.994758+00:00"
     },
     {
       "id": "82e04bc850bd9946084553a3437cf6e7b695787f",
@@ -79,7 +438,7 @@
       "processing_status": "processed",
       "case_id": null,
       "case_engine_version": "case-v6.1",
-      "case_processed_at": "2026-08-26T19:58:49.634043+00:00"
+      "case_processed_at": "2026-08-26T23:39:02.997744+00:00"
     },
     {
       "id": "0ac456732c0e06216e5ac798f93d0462314541f8",
@@ -106,7 +465,7 @@
       "processing_status": "processed",
       "case_id": null,
       "case_engine_version": "case-v6.1",
-      "case_processed_at": "2026-08-26T19:58:49.639854+00:00"
+      "case_processed_at": "2026-08-26T23:39:03.001199+00:00"
     },
     {
       "id": "891cfac0a451bed5caac6979eb72b640b798d81f",
@@ -133,7 +492,7 @@
       "processing_status": "processed",
       "case_id": null,
       "case_engine_version": "case-v6.1",
-      "case_processed_at": "2026-08-26T19:58:49.647044+00:00"
+      "case_processed_at": "2026-08-26T23:39:03.005589+00:00"
     },
     {
       "id": "65a7bad90cddadb69b67c32b2bc214928c2c0146",
@@ -160,7 +519,7 @@
       "processing_status": "processed",
       "case_id": null,
       "case_engine_version": "case-v6.1",
-      "case_processed_at": "2026-08-26T19:58:49.653642+00:00"
+      "case_processed_at": "2026-08-26T23:39:03.009490+00:00"
     },
     {
       "id": "3bcf2cce57d6d1524c5bf176c12e66722f9f6850",
@@ -187,7 +546,7 @@
       "processing_status": "processed",
       "case_id": null,
       "case_engine_version": "case-v6.1",
-      "case_processed_at": "2026-08-26T19:58:49.660758+00:00"
+      "case_processed_at": "2026-08-26T23:39:03.013865+00:00"
     },
     {
       "id": "9c7a72938e32549308514a59a90f03cb481e9453",
@@ -214,7 +573,7 @@
       "processing_status": "processed",
       "case_id": null,
       "case_engine_version": "case-v6.1",
-      "case_processed_at": "2026-08-26T19:58:49.668070+00:00"
+      "case_processed_at": "2026-08-26T23:39:03.018355+00:00"
     },
     {
       "id": "75b0fcd121a4960efbc0d50da30cb0bdeca6bd72",
@@ -241,7 +600,7 @@
       "processing_status": "processed",
       "case_id": null,
       "case_engine_version": "case-v6.1",
-      "case_processed_at": "2026-08-26T19:58:49.675398+00:00"
+      "case_processed_at": "2026-08-26T23:39:03.022879+00:00"
     },
     {
       "id": "0221b86a036dd8461fbef020e50fa436567039e5",
@@ -268,7 +627,7 @@
       "processing_status": "processed",
       "case_id": null,
       "case_engine_version": "case-v6.1",
-      "case_processed_at": "2026-08-26T19:58:49.681215+00:00"
+      "case_processed_at": "2026-08-26T23:39:03.026377+00:00"
     },
     {
       "id": "f35426eb770a58a6a430da5f535f3a8637d16210",
@@ -295,7 +654,7 @@
       "processing_status": "processed",
       "case_id": null,
       "case_engine_version": "case-v6.1",
-      "case_processed_at": "2026-08-26T19:58:49.687880+00:00"
+      "case_processed_at": "2026-08-26T23:39:03.030447+00:00"
     },
     {
       "id": "eb299896e87cd0282a4552d3020c69bf975bec87",
@@ -322,7 +681,7 @@
       "processing_status": "processed",
       "case_id": null,
       "case_engine_version": "case-v6.1",
-      "case_processed_at": "2026-08-26T19:58:49.694423+00:00"
+      "case_processed_at": "2026-08-26T23:39:03.034506+00:00"
     },
     {
       "id": "8be1ca8b4af214988b1b165698411323fc743213",
@@ -349,7 +708,7 @@
       "processing_status": "processed",
       "case_id": null,
       "case_engine_version": "case-v6.1",
-      "case_processed_at": "2026-08-26T19:58:49.702823+00:00"
+      "case_processed_at": "2026-08-26T23:39:03.039645+00:00"
     },
     {
       "id": "ec0511f3e76c7622397e30625ccb6137d2c17998",
@@ -376,7 +735,7 @@
       "processing_status": "processed",
       "case_id": null,
       "case_engine_version": "case-v6.1",
-      "case_processed_at": "2026-08-26T19:58:49.707648+00:00"
+      "case_processed_at": "2026-08-26T23:39:03.042607+00:00"
     },
     {
       "id": "a3d376479be7e633369a388352c2b1930e13f92f",
@@ -403,7 +762,7 @@
       "processing_status": "processed",
       "case_id": null,
       "case_engine_version": "case-v6.1",
-      "case_processed_at": "2026-08-26T19:58:49.714348+00:00"
+      "case_processed_at": "2026-08-26T23:39:03.046714+00:00"
     },
     {
       "id": "5b41057b646a2926d88694e22bc38240d9ea48f9",
@@ -430,7 +789,7 @@
       "processing_status": "processed",
       "case_id": null,
       "case_engine_version": "case-v6.1",
-      "case_processed_at": "2026-08-26T19:58:49.721082+00:00"
+      "case_processed_at": "2026-08-26T23:39:03.050758+00:00"
     },
     {
       "id": "18a9dd4b3b45ec271dcb04110de10438a6db65ee",
@@ -464,7 +823,7 @@
       "processing_status": "processed",
       "case_id": null,
       "case_engine_version": "case-v6.1",
-      "case_processed_at": "2026-08-26T19:58:49.726974+00:00"
+      "case_processed_at": "2026-08-26T23:39:03.054325+00:00"
     },
     {
       "id": "840f074bba58095dc40e5fac874f3b647dff323b",
@@ -491,7 +850,7 @@
       "processing_status": "processed",
       "case_id": null,
       "case_engine_version": "case-v6.1",
-      "case_processed_at": "2026-08-26T19:58:49.733668+00:00"
+      "case_processed_at": "2026-08-26T23:39:03.058380+00:00"
     },
     {
       "id": "20c5388a47c1e296c01b29df1277669b2468f6e7",
@@ -518,7 +877,7 @@
       "processing_status": "processed",
       "case_id": null,
       "case_engine_version": "case-v6.1",
-      "case_processed_at": "2026-08-26T19:58:49.740302+00:00"
+      "case_processed_at": "2026-08-26T23:39:03.062374+00:00"
     },
     {
       "id": "c5cdd51b64abd8a9ee24e1f22888784d0d3328ab",
@@ -545,7 +904,7 @@
       "processing_status": "processed",
       "case_id": null,
       "case_engine_version": "case-v6.1",
-      "case_processed_at": "2026-08-26T19:58:49.746567+00:00"
+      "case_processed_at": "2026-08-26T23:39:03.066081+00:00"
     },
     {
       "id": "4778b1893d249f52a19f1b02e216e1babfaaadb4",
@@ -572,7 +931,7 @@
       "processing_status": "processed",
       "case_id": null,
       "case_engine_version": "case-v6.1",
-      "case_processed_at": "2026-08-26T19:58:49.751434+00:00"
+      "case_processed_at": "2026-08-26T23:39:03.069055+00:00"
     },
     {
       "id": "d5beeeea1b343e19498f0801899c3b0ed30ca3c9",
@@ -599,7 +958,7 @@
       "processing_status": "processed",
       "case_id": null,
       "case_engine_version": "case-v6.1",
-      "case_processed_at": "2026-08-26T19:58:49.759464+00:00"
+      "case_processed_at": "2026-08-26T23:39:03.073857+00:00"
     },
     {
       "id": "391e83906ea1ba6a8de222136c382435bc807628",
@@ -626,7 +985,7 @@
       "processing_status": "processed",
       "case_id": null,
       "case_engine_version": "case-v6.1",
-      "case_processed_at": "2026-08-26T19:58:49.765426+00:00"
+      "case_processed_at": "2026-08-26T23:39:03.077442+00:00"
     },
     {
       "id": "8fa776d1094a9dcce2eeaa988f990ae653c02128",
@@ -651,7 +1010,7 @@
       "processing_status": "processed",
       "case_id": null,
       "case_engine_version": "case-v6.1",
-      "case_processed_at": "2026-08-26T19:58:49.770203+00:00"
+      "case_processed_at": "2026-08-26T23:39:03.080311+00:00"
     },
     {
       "id": "5e3fc1e79199b9f8222b204db8b92a706a23ee7f",
@@ -676,7 +1035,7 @@
       "processing_status": "processed",
       "case_id": null,
       "case_engine_version": "case-v6.1",
-      "case_processed_at": "2026-08-26T19:58:49.775225+00:00"
+      "case_processed_at": "2026-08-26T23:39:03.083314+00:00"
     },
     {
       "id": "61284b2951e42a62d845221abc21981e5515ef01",
@@ -703,7 +1062,7 @@
       "processing_status": "processed",
       "case_id": null,
       "case_engine_version": "case-v6.1",
-      "case_processed_at": "2026-08-26T19:58:49.781979+00:00"
+      "case_processed_at": "2026-08-26T23:39:03.086909+00:00"
     },
     {
       "id": "be193d195e5b65c4adb1f5e358e5775d8dbc3407",
@@ -728,7 +1087,7 @@
       "processing_status": "processed",
       "case_id": null,
       "case_engine_version": "case-v6.1",
-      "case_processed_at": "2026-08-26T19:58:49.787772+00:00"
+      "case_processed_at": "2026-08-26T23:39:03.090425+00:00"
     },
     {
       "id": "cc0da5da57dfdeab1e450a1aca2e846b3c0d1bfb",
@@ -753,7 +1112,7 @@
       "processing_status": "processed",
       "case_id": null,
       "case_engine_version": "case-v6.1",
-      "case_processed_at": "2026-08-26T19:58:49.793473+00:00"
+      "case_processed_at": "2026-08-26T23:39:03.093824+00:00"
     },
     {
       "id": "61ca59c2c9f130a3045f4c9fc0bd2f3c43d26275",
@@ -778,7 +1137,7 @@
       "processing_status": "processed",
       "case_id": null,
       "case_engine_version": "case-v6.1",
-      "case_processed_at": "2026-08-26T19:58:49.799519+00:00"
+      "case_processed_at": "2026-08-26T23:39:03.097481+00:00"
     },
     {
       "id": "721aedff5ee7dda2f371eac611c7a50870e672c5",
@@ -803,7 +1162,7 @@
       "processing_status": "processed",
       "case_id": null,
       "case_engine_version": "case-v6.1",
-      "case_processed_at": "2026-08-26T19:58:49.805112+00:00"
+      "case_processed_at": "2026-08-26T23:39:03.100913+00:00"
     },
     {
       "id": "e6f5a153ada5f2d0483401c6be173c99cb96ca75",
@@ -830,7 +1189,7 @@
       "processing_status": "processed",
       "case_id": null,
       "case_engine_version": "case-v6.1",
-      "case_processed_at": "2026-08-26T19:58:49.808709+00:00"
+      "case_processed_at": "2026-08-26T23:39:03.103047+00:00"
     },
     {
       "id": "4df0a6c7b3a4c5d1de04abcc8d8042adcae25430",
@@ -855,7 +1214,7 @@
       "processing_status": "processed",
       "case_id": null,
       "case_engine_version": "case-v6.1",
-      "case_processed_at": "2026-08-26T19:58:49.815324+00:00"
+      "case_processed_at": "2026-08-26T23:39:03.106755+00:00"
     },
     {
       "id": "d720f3bac24e40b452f23ed61037f98116c45456",
@@ -880,7 +1239,7 @@
       "processing_status": "processed",
       "case_id": null,
       "case_engine_version": "case-v6.1",
-      "case_processed_at": "2026-08-26T19:58:49.821385+00:00"
+      "case_processed_at": "2026-08-26T23:39:03.110342+00:00"
     },
     {
       "id": "cb714810034a72b0e45d54ed8ca9abab9efdbc1f",
@@ -905,7 +1264,7 @@
       "processing_status": "processed",
       "case_id": null,
       "case_engine_version": "case-v6.1",
-      "case_processed_at": "2026-08-26T19:58:49.828244+00:00"
+      "case_processed_at": "2026-08-26T23:39:03.114530+00:00"
     },
     {
       "id": "b433288e5261674b0766014465f804ec851900c5",
@@ -930,7 +1289,7 @@
       "processing_status": "processed",
       "case_id": null,
       "case_engine_version": "case-v6.1",
-      "case_processed_at": "2026-08-26T19:58:49.834951+00:00"
+      "case_processed_at": "2026-08-26T23:39:03.118603+00:00"
     },
     {
       "id": "fda9f2cafe428d09479647814aee619a6eabf789",
@@ -957,7 +1316,7 @@
       "processing_status": "processed",
       "case_id": null,
       "case_engine_version": "case-v6.1",
-      "case_processed_at": "2026-08-26T19:58:49.842102+00:00"
+      "case_processed_at": "2026-08-26T23:39:03.122954+00:00"
     },
     {
       "id": "509628db80f10fc2b83b86196af58d8983cc53d1",
@@ -982,7 +1341,7 @@
       "processing_status": "processed",
       "case_id": null,
       "case_engine_version": "case-v6.1",
-      "case_processed_at": "2026-08-26T19:58:49.849344+00:00"
+      "case_processed_at": "2026-08-26T23:39:03.127414+00:00"
     },
     {
       "id": "b617c3fb20645b87372c80340384b02f015e3627",
@@ -1007,7 +1366,7 @@
       "processing_status": "processed",
       "case_id": null,
       "case_engine_version": "case-v6.1",
-      "case_processed_at": "2026-08-26T19:58:49.856328+00:00"
+      "case_processed_at": "2026-08-26T23:39:03.131649+00:00"
     },
     {
       "id": "e066495ae58e0aad30ff7993c2dcd7489d63d880",
@@ -1035,7 +1394,7 @@
       "processing_status": "processed",
       "case_id": null,
       "case_engine_version": "case-v6.1",
-      "case_processed_at": "2026-08-26T19:58:49.860731+00:00"
+      "case_processed_at": "2026-08-26T23:39:03.134322+00:00"
     },
     {
       "id": "7d432e8ed2fcab56a05852a6a0f516b1acf19779",
@@ -1060,7 +1419,7 @@
       "processing_status": "processed",
       "case_id": null,
       "case_engine_version": "case-v6.1",
-      "case_processed_at": "2026-08-26T19:58:49.866098+00:00"
+      "case_processed_at": "2026-08-26T23:39:03.137594+00:00"
     },
     {
       "id": "d4f2fc571780d56d448c2de6ee24cd4572ef30ca",
@@ -1085,7 +1444,7 @@
       "processing_status": "processed",
       "case_id": null,
       "case_engine_version": "case-v6.1",
-      "case_processed_at": "2026-08-26T19:58:49.874318+00:00"
+      "case_processed_at": "2026-08-26T23:39:03.142226+00:00"
     },
     {
       "id": "259c3adc6bab77302c723ae23471c29e32afc752",
@@ -1112,7 +1471,7 @@
       "processing_status": "processed",
       "case_id": "CASE-000004",
       "case_engine_version": "case-v6.1",
-      "case_processed_at": "2026-08-26T19:58:51.937416+00:00"
+      "case_processed_at": "2026-08-26T23:39:04.390924+00:00"
     },
     {
       "id": "2012faafaa90ac64415d322b73caa221b6aa9d7a",
@@ -1137,7 +1496,7 @@
       "processing_status": "processed",
       "case_id": null,
       "case_engine_version": "case-v6.1",
-      "case_processed_at": "2026-08-26T19:58:49.880702+00:00"
+      "case_processed_at": "2026-08-26T23:39:03.145987+00:00"
     },
     {
       "id": "2142faee05ec7ea0d59bb46b05dc4e7576b7ddb7",
@@ -1162,7 +1521,7 @@
       "processing_status": "processed",
       "case_id": "CASE-000001",
       "case_engine_version": "case-v6.1",
-      "case_processed_at": "2026-08-26T19:58:51.937419+00:00"
+      "case_processed_at": "2026-08-26T23:39:04.390926+00:00"
     },
     {
       "id": "fdc1ef567071157c236445e480eba300ec527b7a",
@@ -1189,7 +1548,7 @@
       "processing_status": "processed",
       "case_id": null,
       "case_engine_version": "case-v6.1",
-      "case_processed_at": "2026-08-26T19:58:49.886813+00:00"
+      "case_processed_at": "2026-08-26T23:39:03.149663+00:00"
     },
     {
       "id": "06983d4be87fff7553a1f34917888f40fe6cf158",
@@ -1214,7 +1573,7 @@
       "processing_status": "processed",
       "case_id": null,
       "case_engine_version": "case-v6.1",
-      "case_processed_at": "2026-08-26T19:58:49.893777+00:00"
+      "case_processed_at": "2026-08-26T23:39:03.153952+00:00"
     },
     {
       "id": "cd8c01046eb8191c8af56ea8e75a1cd032ddd1a5",
@@ -1239,7 +1598,7 @@
       "processing_status": "processed",
       "case_id": null,
       "case_engine_version": "case-v6.1",
-      "case_processed_at": "2026-08-26T19:58:49.900350+00:00"
+      "case_processed_at": "2026-08-26T23:39:03.157786+00:00"
     },
     {
       "id": "ac8b1eb74d73e31ec967d5ad705c6719208a3b96",
@@ -1266,7 +1625,7 @@
       "processing_status": "processed",
       "case_id": null,
       "case_engine_version": "case-v6.1",
-      "case_processed_at": "2026-08-26T19:58:49.906204+00:00"
+      "case_processed_at": "2026-08-26T23:39:03.161234+00:00"
     },
     {
       "id": "964976ed0d7df136365c10157ca4ea3a5108df9e",
@@ -1293,7 +1652,7 @@
       "processing_status": "processed",
       "case_id": null,
       "case_engine_version": "case-v6.1",
-      "case_processed_at": "2026-08-26T19:58:49.911897+00:00"
+      "case_processed_at": "2026-08-26T23:39:03.164707+00:00"
     },
     {
       "id": "8fc3b3edb50e8e4f2db7f1e59e1c9fdc792d36e6",
@@ -1318,7 +1677,7 @@
       "processing_status": "processed",
       "case_id": null,
       "case_engine_version": "case-v6.1",
-      "case_processed_at": "2026-08-26T19:58:49.918720+00:00"
+      "case_processed_at": "2026-08-26T23:39:03.168849+00:00"
     },
     {
       "id": "6c04e9d4c14961066a83e72d875e25aa5a85a996",
@@ -1346,7 +1705,7 @@
       "processing_status": "processed",
       "case_id": null,
       "case_engine_version": "case-v6.1",
-      "case_processed_at": "2026-08-26T19:58:49.927379+00:00"
+      "case_processed_at": "2026-08-26T23:39:03.173670+00:00"
     },
     {
       "id": "65631ed093a23c3bbea504a7b8524899a8b5ed04",
@@ -1371,7 +1730,7 @@
       "processing_status": "processed",
       "case_id": null,
       "case_engine_version": "case-v6.1",
-      "case_processed_at": "2026-08-26T19:58:49.933215+00:00"
+      "case_processed_at": "2026-08-26T23:39:03.177195+00:00"
     },
     {
       "id": "4aba8350bed943f4aa10a983c408ea61b74e3ec2",
@@ -1396,7 +1755,7 @@
       "processing_status": "processed",
       "case_id": null,
       "case_engine_version": "case-v6.1",
-      "case_processed_at": "2026-08-26T19:58:49.940087+00:00"
+      "case_processed_at": "2026-08-26T23:39:03.181390+00:00"
     },
     {
       "id": "0473dbac92bc936910cb607576840792327e47a7",
@@ -1421,7 +1780,7 @@
       "processing_status": "processed",
       "case_id": "CASE-000002",
       "case_engine_version": "case-v6.1",
-      "case_processed_at": "2026-08-26T19:58:51.937423+00:00"
+      "case_processed_at": "2026-08-26T23:39:04.390930+00:00"
     },
     {
       "id": "ae6bf31a548767692accb94af7a138cba146a276",
@@ -1446,7 +1805,7 @@
       "processing_status": "processed",
       "case_id": null,
       "case_engine_version": "case-v6.1",
-      "case_processed_at": "2026-08-26T19:58:49.946363+00:00"
+      "case_processed_at": "2026-08-26T23:39:03.185222+00:00"
     },
     {
       "id": "cc9644d5ea1b1dd4a5ba0f16733d92b7b3c77029",
@@ -1471,7 +1830,7 @@
       "processing_status": "processed",
       "case_id": null,
       "case_engine_version": "case-v6.1",
-      "case_processed_at": "2026-08-26T19:58:49.953148+00:00"
+      "case_processed_at": "2026-08-26T23:39:03.189444+00:00"
     },
     {
       "id": "00acbc96d8952e70bd0fbfdff905f502ee43f06b",
@@ -1496,7 +1855,7 @@
       "processing_status": "processed",
       "case_id": null,
       "case_engine_version": "case-v6.1",
-      "case_processed_at": "2026-08-26T19:58:49.962358+00:00"
+      "case_processed_at": "2026-08-26T23:39:03.192712+00:00"
     },
     {
       "id": "bf7942e7e8572ea6f9374123be99949475b45015",
@@ -1521,7 +1880,7 @@
       "processing_status": "processed",
       "case_id": "CASE-000003",
       "case_engine_version": "case-v6.1",
-      "case_processed_at": "2026-08-26T19:58:51.937426+00:00"
+      "case_processed_at": "2026-08-26T23:39:04.390932+00:00"
     },
     {
       "id": "a807fb33bfc2096f03a3c9651a4875665d96db32",
@@ -1546,7 +1905,7 @@
       "processing_status": "processed",
       "case_id": null,
       "case_engine_version": "case-v6.1",
-      "case_processed_at": "2026-08-26T19:58:49.968425+00:00"
+      "case_processed_at": "2026-08-26T23:39:03.195724+00:00"
     },
     {
       "id": "caea1332c8817ae4b57eb2d3b1717b6926e4b8c9",
@@ -1571,7 +1930,7 @@
       "processing_status": "processed",
       "case_id": null,
       "case_engine_version": "case-v6.1",
-      "case_processed_at": "2026-08-26T19:58:49.974053+00:00"
+      "case_processed_at": "2026-08-26T23:39:03.199090+00:00"
     },
     {
       "id": "8a186148f03cb8ad912ef0f2530d8fa3689a2bcc",
@@ -1596,7 +1955,7 @@
       "processing_status": "processed",
       "case_id": null,
       "case_engine_version": "case-v6.1",
-      "case_processed_at": "2026-08-26T19:58:49.983273+00:00"
+      "case_processed_at": "2026-08-26T23:39:03.202165+00:00"
     },
     {
       "id": "9f2c916ea3c4321760ab374a6eb7bc680c17c29e",
@@ -1621,7 +1980,7 @@
       "processing_status": "processed",
       "case_id": null,
       "case_engine_version": "case-v6.1",
-      "case_processed_at": "2026-08-26T19:58:49.988469+00:00"
+      "case_processed_at": "2026-08-26T23:39:03.205194+00:00"
     },
     {
       "id": "32a6f665839bc59656139f638588dae317177fe9",
@@ -1646,7 +2005,7 @@
       "processing_status": "processed",
       "case_id": null,
       "case_engine_version": "case-v6.1",
-      "case_processed_at": "2026-08-26T19:58:49.993241+00:00"
+      "case_processed_at": "2026-08-26T23:39:03.208136+00:00"
     },
     {
       "id": "55020ec674dafc8d04c21fc500e84064b3596a13",
@@ -1671,7 +2030,7 @@
       "processing_status": "processed",
       "case_id": null,
       "case_engine_version": "case-v6.1",
-      "case_processed_at": "2026-08-26T19:58:49.998428+00:00"
+      "case_processed_at": "2026-08-26T23:39:03.211220+00:00"
     },
     {
       "id": "9c5b38854e83905ad19a042534cfb0570c197e64",
@@ -1696,7 +2055,7 @@
       "processing_status": "processed",
       "case_id": null,
       "case_engine_version": "case-v6.1",
-      "case_processed_at": "2026-08-26T19:58:50.004540+00:00"
+      "case_processed_at": "2026-08-26T23:39:03.214882+00:00"
     },
     {
       "id": "8a783cb2b2e5c6cd5cb1c6563f3ed21cefa1e386",
@@ -1721,7 +2080,7 @@
       "processing_status": "processed",
       "case_id": null,
       "case_engine_version": "case-v6.1",
-      "case_processed_at": "2026-08-26T19:58:50.010691+00:00"
+      "case_processed_at": "2026-08-26T23:39:03.218397+00:00"
     },
     {
       "id": "f293e80700f6be8a1d35871d87df4f283a245c8e",
@@ -1746,7 +2105,7 @@
       "processing_status": "processed",
       "case_id": null,
       "case_engine_version": "case-v6.1",
-      "case_processed_at": "2026-08-26T19:58:50.017003+00:00"
+      "case_processed_at": "2026-08-26T23:39:03.222155+00:00"
     },
     {
       "id": "d0f5baa4035bb594ce50aa4cf44f48c96f2f6776",
@@ -1771,7 +2130,7 @@
       "processing_status": "processed",
       "case_id": null,
       "case_engine_version": "case-v6.1",
-      "case_processed_at": "2026-08-26T19:58:50.022866+00:00"
+      "case_processed_at": "2026-08-26T23:39:03.225503+00:00"
     },
     {
       "id": "2a17b45e970b3a1b29e18eb35a894aa8f73863d4",
@@ -1796,7 +2155,7 @@
       "processing_status": "processed",
       "case_id": null,
       "case_engine_version": "case-v6.1",
-      "case_processed_at": "2026-08-26T19:58:50.029350+00:00"
+      "case_processed_at": "2026-08-26T23:39:03.229358+00:00"
     },
     {
       "id": "1bd0989dbb1610b45775c00aec2b40c12d4d12d2",
@@ -1821,7 +2180,7 @@
       "processing_status": "processed",
       "case_id": null,
       "case_engine_version": "case-v6.1",
-      "case_processed_at": "2026-08-26T19:58:50.035082+00:00"
+      "case_processed_at": "2026-08-26T23:39:03.232811+00:00"
     },
     {
       "id": "b5caa0dea528368fc7949de617304bbd088819ac",
@@ -1846,7 +2205,7 @@
       "processing_status": "processed",
       "case_id": null,
       "case_engine_version": "case-v6.1",
-      "case_processed_at": "2026-08-26T19:58:50.040231+00:00"
+      "case_processed_at": "2026-08-26T23:39:03.235916+00:00"
     },
     {
       "id": "da7f9a315705b2a69f1c08a839897603068e25b9",
@@ -1873,7 +2232,7 @@
       "processing_status": "processed",
       "case_id": null,
       "case_engine_version": "case-v6.1",
-      "case_processed_at": "2026-08-26T19:58:50.044683+00:00"
+      "case_processed_at": "2026-08-26T23:39:03.238523+00:00"
     },
     {
       "id": "316ab7b87bf97821a06e852f2eab12fa491842ff",
@@ -1898,7 +2257,7 @@
       "processing_status": "processed",
       "case_id": null,
       "case_engine_version": "case-v6.1",
-      "case_processed_at": "2026-08-26T19:58:50.050057+00:00"
+      "case_processed_at": "2026-08-26T23:39:03.241731+00:00"
     },
     {
       "id": "d0a2957adbe63ca68f406b3be2c4984fdd595d3b",
@@ -1923,7 +2282,7 @@
       "processing_status": "processed",
       "case_id": null,
       "case_engine_version": "case-v6.1",
-      "case_processed_at": "2026-08-26T19:58:50.057240+00:00"
+      "case_processed_at": "2026-08-26T23:39:03.246197+00:00"
     },
     {
       "id": "5c2f9ba4e5a4ac375a6a6db3b7996aa479b7b9ce",
@@ -1948,7 +2307,7 @@
       "processing_status": "processed",
       "case_id": null,
       "case_engine_version": "case-v6.1",
-      "case_processed_at": "2026-08-26T19:58:50.063727+00:00"
+      "case_processed_at": "2026-08-26T23:39:03.250076+00:00"
     },
     {
       "id": "2581ee0dda7480ecbbdc307e2f2dabad209570fa",
@@ -1973,7 +2332,7 @@
       "processing_status": "processed",
       "case_id": null,
       "case_engine_version": "case-v6.1",
-      "case_processed_at": "2026-08-26T19:58:50.069121+00:00"
+      "case_processed_at": "2026-08-26T23:39:03.253328+00:00"
     },
     {
       "id": "a2ad724f74fc1a2a9d721b4b0538e5e0ce9ad8fc",
@@ -1998,7 +2357,7 @@
       "processing_status": "processed",
       "case_id": null,
       "case_engine_version": "case-v6.1",
-      "case_processed_at": "2026-08-26T19:58:50.075554+00:00"
+      "case_processed_at": "2026-08-26T23:39:03.257166+00:00"
     },
     {
       "id": "80a9f9d401108be1f16c73afd2e5477493f653fe",
@@ -2025,7 +2384,7 @@
       "processing_status": "processed",
       "case_id": null,
       "case_engine_version": "case-v6.1",
-      "case_processed_at": "2026-08-26T19:58:50.081198+00:00"
+      "case_processed_at": "2026-08-26T23:39:03.260517+00:00"
     },
     {
       "id": "67dd3cb59595e6d59f9182bc8c6c5b1d773fbfaf",
@@ -2052,7 +2411,7 @@
       "processing_status": "processed",
       "case_id": null,
       "case_engine_version": "case-v6.1",
-      "case_processed_at": "2026-08-26T19:58:50.086735+00:00"
+      "case_processed_at": "2026-08-26T23:39:03.263853+00:00"
     },
     {
       "id": "2c35cb1af27fd743692d630dbdaddca805cac39c",
@@ -2077,7 +2436,7 @@
       "processing_status": "processed",
       "case_id": null,
       "case_engine_version": "case-v6.1",
-      "case_processed_at": "2026-08-26T19:58:50.091984+00:00"
+      "case_processed_at": "2026-08-26T23:39:03.267032+00:00"
     },
     {
       "id": "5b149e90d97a2ba5591fe04c8674cc8b664fee6d",
@@ -2102,7 +2461,7 @@
       "processing_status": "processed",
       "case_id": null,
       "case_engine_version": "case-v6.1",
-      "case_processed_at": "2026-08-26T19:58:50.097880+00:00"
+      "case_processed_at": "2026-08-26T23:39:03.270552+00:00"
     },
     {
       "id": "7906322b8cf051ef9a70740a156a34c19e971595",
@@ -2127,7 +2486,7 @@
       "processing_status": "processed",
       "case_id": null,
       "case_engine_version": "case-v6.1",
-      "case_processed_at": "2026-08-26T19:58:50.104680+00:00"
+      "case_processed_at": "2026-08-26T23:39:03.274659+00:00"
     },
     {
       "id": "9c7869874c9f0fa7ec95bdf89c5459886722d859",
@@ -2152,7 +2511,7 @@
       "processing_status": "processed",
       "case_id": null,
       "case_engine_version": "case-v6.1",
-      "case_processed_at": "2026-08-26T19:58:50.109999+00:00"
+      "case_processed_at": "2026-08-26T23:39:03.277943+00:00"
     },
     {
       "id": "bd2b438ef5d453ae7405cfb4b9ff32ebc8540133",
@@ -2177,7 +2536,7 @@
       "processing_status": "processed",
       "case_id": null,
       "case_engine_version": "case-v6.1",
-      "case_processed_at": "2026-08-26T19:58:50.115719+00:00"
+      "case_processed_at": "2026-08-26T23:39:03.281402+00:00"
     },
     {
       "id": "ae1b49b56363e4deafae6afe7ba4b1bb6688c69a",
@@ -2202,7 +2561,7 @@
       "processing_status": "processed",
       "case_id": null,
       "case_engine_version": "case-v6.1",
-      "case_processed_at": "2026-08-26T19:58:50.123460+00:00"
+      "case_processed_at": "2026-08-26T23:39:03.286100+00:00"
     },
     {
       "id": "b71341755bcf927cbb8e7a3f24010af80ac6b9e8",
@@ -2227,7 +2586,7 @@
       "processing_status": "processed",
       "case_id": null,
       "case_engine_version": "case-v6.1",
-      "case_processed_at": "2026-08-26T19:58:50.129319+00:00"
+      "case_processed_at": "2026-08-26T23:39:03.289656+00:00"
     },
     {
       "id": "929440e709156ce878c497e12ae1f1fbedf9efad",
@@ -2252,7 +2611,7 @@
       "processing_status": "processed",
       "case_id": null,
       "case_engine_version": "case-v6.1",
-      "case_processed_at": "2026-08-26T19:58:50.136380+00:00"
+      "case_processed_at": "2026-08-26T23:39:03.293958+00:00"
     },
     {
       "id": "f452ea787ba52ec39398963ec8bfd9d57bd054f0",
@@ -2277,7 +2636,7 @@
       "processing_status": "processed",
       "case_id": null,
       "case_engine_version": "case-v6.1",
-      "case_processed_at": "2026-08-26T19:58:50.143338+00:00"
+      "case_processed_at": "2026-08-26T23:39:03.298210+00:00"
     },
     {
       "id": "1b20267b98dfc94fcac02b8c54c171a315722918",
@@ -2302,7 +2661,7 @@
       "processing_status": "processed",
       "case_id": null,
       "case_engine_version": "case-v6.1",
-      "case_processed_at": "2026-08-26T19:58:50.149244+00:00"
+      "case_processed_at": "2026-08-26T23:39:03.301782+00:00"
     },
     {
       "id": "cee324265b2350aa191764decb8ed40d747666d8",
@@ -2329,7 +2688,7 @@
       "processing_status": "processed",
       "case_id": null,
       "case_engine_version": "case-v6.1",
-      "case_processed_at": "2026-08-26T19:58:50.155131+00:00"
+      "case_processed_at": "2026-08-26T23:39:03.305569+00:00"
     },
     {
       "id": "766b10172b2e198ba9dd14198565418ade7b4e2f",
@@ -2357,7 +2716,7 @@
       "processing_status": "processed",
       "case_id": null,
       "case_engine_version": "case-v6.1",
-      "case_processed_at": "2026-08-26T19:58:50.160038+00:00"
+      "case_processed_at": "2026-08-26T23:39:03.308572+00:00"
     },
     {
       "id": "c91eb40f2294936c461d7c6b3c44393a17748de1",
@@ -2384,7 +2743,7 @@
       "processing_status": "processed",
       "case_id": null,
       "case_engine_version": "case-v6.1",
-      "case_processed_at": "2026-08-26T19:58:50.165499+00:00"
+      "case_processed_at": "2026-08-26T23:39:03.311901+00:00"
     },
     {
       "id": "85d81c147ae079a76b07dd09dcf68352136fe8b6",
@@ -2411,7 +2770,7 @@
       "processing_status": "processed",
       "case_id": null,
       "case_engine_version": "case-v6.1",
-      "case_processed_at": "2026-08-26T19:58:50.171231+00:00"
+      "case_processed_at": "2026-08-26T23:39:03.315374+00:00"
     },
     {
       "id": "2cfb5ea28cb0fa2a68cbb3d1ec50af4bec604ee0",
@@ -2436,7 +2795,7 @@
       "processing_status": "processed",
       "case_id": null,
       "case_engine_version": "case-v6.1",
-      "case_processed_at": "2026-08-26T19:58:50.177256+00:00"
+      "case_processed_at": "2026-08-26T23:39:03.319009+00:00"
     },
     {
       "id": "6df2b39fbb4cb7bdb0e74b1803135e5d089376ea",
@@ -2461,7 +2820,7 @@
       "processing_status": "processed",
       "case_id": null,
       "case_engine_version": "case-v6.1",
-      "case_processed_at": "2026-08-26T19:58:50.181664+00:00"
+      "case_processed_at": "2026-08-26T23:39:03.321667+00:00"
     },
     {
       "id": "38b4dd5ef7980f90b0929e48a89d2852f867c2e9",
@@ -2486,7 +2845,7 @@
       "processing_status": "processed",
       "case_id": null,
       "case_engine_version": "case-v6.1",
-      "case_processed_at": "2026-08-26T19:58:50.186850+00:00"
+      "case_processed_at": "2026-08-26T23:39:03.324831+00:00"
     },
     {
       "id": "bad13f0647a37d5da7176189ba6e116c8a81a34c",
@@ -2511,7 +2870,7 @@
       "processing_status": "processed",
       "case_id": null,
       "case_engine_version": "case-v6.1",
-      "case_processed_at": "2026-08-26T19:58:50.191733+00:00"
+      "case_processed_at": "2026-08-26T23:39:03.327805+00:00"
     },
     {
       "id": "a040d172299657d2e837de61d912a7bfb2ffecef",
@@ -2536,7 +2895,7 @@
       "processing_status": "processed",
       "case_id": null,
       "case_engine_version": "case-v6.1",
-      "case_processed_at": "2026-08-26T19:58:50.198392+00:00"
+      "case_processed_at": "2026-08-26T23:39:03.331841+00:00"
     },
     {
       "id": "cbe204133d53b14c4a8b215cde9329f2b8c6bc2a",
@@ -2561,7 +2920,7 @@
       "processing_status": "processed",
       "case_id": null,
       "case_engine_version": "case-v6.1",
-      "case_processed_at": "2026-08-26T19:58:50.203950+00:00"
+      "case_processed_at": "2026-08-26T23:39:03.335175+00:00"
     },
     {
       "id": "4d941281209dbc0e00dcc507adc75e84a1d12261",
@@ -2586,7 +2945,7 @@
       "processing_status": "processed",
       "case_id": null,
       "case_engine_version": "case-v6.1",
-      "case_processed_at": "2026-08-26T19:58:50.208247+00:00"
+      "case_processed_at": "2026-08-26T23:39:03.337780+00:00"
     },
     {
       "id": "fb7c9ba7f85da87e1585dab8c9bdf8cd5783088f",
@@ -2614,7 +2973,7 @@
       "processing_status": "processed",
       "case_id": null,
       "case_engine_version": "case-v6.1",
-      "case_processed_at": "2026-08-26T19:58:50.214123+00:00"
+      "case_processed_at": "2026-08-26T23:39:03.341369+00:00"
     },
     {
       "id": "184a1949fd84ef910b54d1e674f64098a19e5493",
@@ -2639,7 +2998,7 @@
       "processing_status": "processed",
       "case_id": null,
       "case_engine_version": "case-v6.1",
-      "case_processed_at": "2026-08-26T19:58:50.219073+00:00"
+      "case_processed_at": "2026-08-26T23:39:03.344295+00:00"
     },
     {
       "id": "ed40e7e2dd45f43e72b1f34668c0f43c6f768c50",
@@ -2664,7 +3023,7 @@
       "processing_status": "processed",
       "case_id": null,
       "case_engine_version": "case-v6.1",
-      "case_processed_at": "2026-08-26T19:58:50.224334+00:00"
+      "case_processed_at": "2026-08-26T23:39:03.347475+00:00"
     },
     {
       "id": "78a5971d96a6a7b2dff7df2cacb8e9045f5af16f",
@@ -2691,7 +3050,7 @@
       "processing_status": "processed",
       "case_id": null,
       "case_engine_version": "case-v6.1",
-      "case_processed_at": "2026-08-26T19:58:50.231388+00:00"
+      "case_processed_at": "2026-08-26T23:39:03.351698+00:00"
     },
     {
       "id": "ffe4621a5577bfc979c1824774778cf2e8640943",
@@ -2718,7 +3077,7 @@
       "processing_status": "processed",
       "case_id": null,
       "case_engine_version": "case-v6.1",
-      "case_processed_at": "2026-08-26T19:58:50.238777+00:00"
+      "case_processed_at": "2026-08-26T23:39:03.356504+00:00"
     },
     {
       "id": "de21255cea57d5fb30ee0d5e151f986bf71049e9",
@@ -2743,7 +3102,7 @@
       "processing_status": "processed",
       "case_id": null,
       "case_engine_version": "case-v6.1",
-      "case_processed_at": "2026-08-26T19:58:50.244800+00:00"
+      "case_processed_at": "2026-08-26T23:39:03.360161+00:00"
     },
     {
       "id": "4c849c21f7e150f33b3d290ebdf5852b7ed2871a",
@@ -2770,7 +3129,7 @@
       "processing_status": "processed",
       "case_id": "CASE-000004",
       "case_engine_version": "case-v6.1",
-      "case_processed_at": "2026-08-26T19:58:51.937442+00:00"
+      "case_processed_at": "2026-08-26T23:39:04.390944+00:00"
     },
     {
       "id": "556b959dbdbf6ac9b8e93ba6f8b459771e3be414",
@@ -2795,7 +3154,7 @@
       "processing_status": "processed",
       "case_id": null,
       "case_engine_version": "case-v6.1",
-      "case_processed_at": "2026-08-26T19:58:50.249495+00:00"
+      "case_processed_at": "2026-08-26T23:39:03.363083+00:00"
     },
     {
       "id": "8fd07c1a6d04a2d6447f54011864d0a41f1eb64b",
@@ -2820,7 +3179,7 @@
       "processing_status": "processed",
       "case_id": null,
       "case_engine_version": "case-v6.1",
-      "case_processed_at": "2026-08-26T19:58:50.255848+00:00"
+      "case_processed_at": "2026-08-26T23:39:03.366941+00:00"
     },
     {
       "id": "096bcc29804ad9d917c1ae0b564ccee98753ae99",
@@ -2848,7 +3207,7 @@
       "processing_status": "processed",
       "case_id": null,
       "case_engine_version": "case-v6.1",
-      "case_processed_at": "2026-08-26T19:58:50.263224+00:00"
+      "case_processed_at": "2026-08-26T23:39:03.371479+00:00"
     },
     {
       "id": "c8427b323fa2e8095a33c0261f43c45eef793b13",
@@ -2876,7 +3235,7 @@
       "processing_status": "processed",
       "case_id": null,
       "case_engine_version": "case-v6.1",
-      "case_processed_at": "2026-08-26T19:58:50.270576+00:00"
+      "case_processed_at": "2026-08-26T23:39:03.375969+00:00"
     },
     {
       "id": "8bdff9e65fff8f7aea98abd0b54dc7700771df90",
@@ -2901,7 +3260,7 @@
       "processing_status": "processed",
       "case_id": null,
       "case_engine_version": "case-v6.1",
-      "case_processed_at": "2026-08-26T19:58:50.276112+00:00"
+      "case_processed_at": "2026-08-26T23:39:03.379260+00:00"
     },
     {
       "id": "c75a8f4240d512af8560b278617c1f90d89817b6",
@@ -2926,7 +3285,7 @@
       "processing_status": "processed",
       "case_id": null,
       "case_engine_version": "case-v6.1",
-      "case_processed_at": "2026-08-26T19:58:50.281240+00:00"
+      "case_processed_at": "2026-08-26T23:39:03.382332+00:00"
     },
     {
       "id": "0eda807d74b8b32768bdb25071af88ac349944d5",
@@ -2951,7 +3310,7 @@
       "processing_status": "processed",
       "case_id": null,
       "case_engine_version": "case-v6.1",
-      "case_processed_at": "2026-08-26T19:58:50.285490+00:00"
+      "case_processed_at": "2026-08-26T23:39:03.384889+00:00"
     },
     {
       "id": "a3a5bea8fb1c58db512301b4055aee1c24cebe27",
@@ -2979,7 +3338,7 @@
       "processing_status": "processed",
       "case_id": null,
       "case_engine_version": "case-v6.1",
-      "case_processed_at": "2026-08-26T19:58:50.291691+00:00"
+      "case_processed_at": "2026-08-26T23:39:03.388600+00:00"
     },
     {
       "id": "8715899e0f38b3fd3bb22392fe747a177b4f52c1",
@@ -3004,7 +3363,7 @@
       "processing_status": "processed",
       "case_id": null,
       "case_engine_version": "case-v6.1",
-      "case_processed_at": "2026-08-26T19:58:50.298490+00:00"
+      "case_processed_at": "2026-08-26T23:39:03.392692+00:00"
     },
     {
       "id": "7717cb80f7f082db4689e0da9de1f4a4fa9745de",
@@ -3029,7 +3388,7 @@
       "processing_status": "processed",
       "case_id": null,
       "case_engine_version": "case-v6.1",
-      "case_processed_at": "2026-08-26T19:58:50.305482+00:00"
+      "case_processed_at": "2026-08-26T23:39:03.396974+00:00"
     },
     {
       "id": "0a3d8f30ca77926a5bee161a68d84f8f375f2b03",
@@ -3054,7 +3413,7 @@
       "processing_status": "processed",
       "case_id": null,
       "case_engine_version": "case-v6.1",
-      "case_processed_at": "2026-08-26T19:58:50.310067+00:00"
+      "case_processed_at": "2026-08-26T23:39:03.399740+00:00"
     },
     {
       "id": "3f9b41db312007f31510d988b49d3bfd11df742c",
@@ -3079,7 +3438,7 @@
       "processing_status": "processed",
       "case_id": null,
       "case_engine_version": "case-v6.1",
-      "case_processed_at": "2026-08-26T19:58:50.315972+00:00"
+      "case_processed_at": "2026-08-26T23:39:03.403342+00:00"
     },
     {
       "id": "bba38bf4895b16727ca4cc87ebb78f377118e41b",
@@ -3104,7 +3463,7 @@
       "processing_status": "processed",
       "case_id": null,
       "case_engine_version": "case-v6.1",
-      "case_processed_at": "2026-08-26T19:58:50.321555+00:00"
+      "case_processed_at": "2026-08-26T23:39:03.406648+00:00"
     },
     {
       "id": "deeac0906043bd424da490783453c5ac0c86ea7d",
@@ -3129,7 +3488,7 @@
       "processing_status": "processed",
       "case_id": null,
       "case_engine_version": "case-v6.1",
-      "case_processed_at": "2026-08-26T19:58:50.326372+00:00"
+      "case_processed_at": "2026-08-26T23:39:03.409521+00:00"
     },
     {
       "id": "44542cd39c0f75c5030cad243e9ebf0b3cc3eebf",
@@ -3154,7 +3513,7 @@
       "processing_status": "processed",
       "case_id": null,
       "case_engine_version": "case-v6.1",
-      "case_processed_at": "2026-08-26T19:58:50.333187+00:00"
+      "case_processed_at": "2026-08-26T23:39:03.413655+00:00"
     },
     {
       "id": "6ff4eae52121475328a6115b8680f94a2d623684",
@@ -3179,7 +3538,7 @@
       "processing_status": "processed",
       "case_id": null,
       "case_engine_version": "case-v6.1",
-      "case_processed_at": "2026-08-26T19:58:50.337454+00:00"
+      "case_processed_at": "2026-08-26T23:39:03.416165+00:00"
     },
     {
       "id": "873d623bcdd403243592b199b8cf8429ca32d99f",
@@ -3204,7 +3563,7 @@
       "processing_status": "processed",
       "case_id": null,
       "case_engine_version": "case-v6.1",
-      "case_processed_at": "2026-08-26T19:58:50.343297+00:00"
+      "case_processed_at": "2026-08-26T23:39:03.419360+00:00"
     },
     {
       "id": "f08f139562ab7b3bca7f2e23b3d7a7bf3e2fbb9c",
@@ -3229,7 +3588,7 @@
       "processing_status": "processed",
       "case_id": null,
       "case_engine_version": "case-v6.1",
-      "case_processed_at": "2026-08-26T19:58:50.350678+00:00"
+      "case_processed_at": "2026-08-26T23:39:03.423788+00:00"
     },
     {
       "id": "e08db18460ea1dc013b945282e776c462ecd7105",
@@ -3254,7 +3613,7 @@
       "processing_status": "processed",
       "case_id": null,
       "case_engine_version": "case-v6.1",
-      "case_processed_at": "2026-08-26T19:58:50.356672+00:00"
+      "case_processed_at": "2026-08-26T23:39:03.427353+00:00"
     },
     {
       "id": "fafc96eb66341d4bb3bafaf00cd2b93fd36a2473",
@@ -3279,7 +3638,7 @@
       "processing_status": "processed",
       "case_id": null,
       "case_engine_version": "case-v6.1",
-      "case_processed_at": "2026-08-26T19:58:50.363123+00:00"
+      "case_processed_at": "2026-08-26T23:39:03.431281+00:00"
     },
     {
       "id": "5caa306d93ea2ce6850754a65bcd25409659e38d",
@@ -3304,7 +3663,7 @@
       "processing_status": "processed",
       "case_id": null,
       "case_engine_version": "case-v6.1",
-      "case_processed_at": "2026-08-26T19:58:50.369669+00:00"
+      "case_processed_at": "2026-08-26T23:39:03.435145+00:00"
     },
     {
       "id": "d4e30a42358e612ccff4ba50a663949b0cdd716d",
@@ -3329,7 +3688,7 @@
       "processing_status": "processed",
       "case_id": null,
       "case_engine_version": "case-v6.1",
-      "case_processed_at": "2026-08-26T19:58:50.376667+00:00"
+      "case_processed_at": "2026-08-26T23:39:03.439333+00:00"
     },
     {
       "id": "0b048921103366abafa1f7209810c4b82de6e672",
@@ -3354,7 +3713,7 @@
       "processing_status": "processed",
       "case_id": null,
       "case_engine_version": "case-v6.1",
-      "case_processed_at": "2026-08-26T19:58:50.383507+00:00"
+      "case_processed_at": "2026-08-26T23:39:03.443488+00:00"
     },
     {
       "id": "ec9b28abff8a62365af2b9d46c7ad704a72ee076",
@@ -3379,7 +3738,7 @@
       "processing_status": "processed",
       "case_id": null,
       "case_engine_version": "case-v6.1",
-      "case_processed_at": "2026-08-26T19:58:50.388936+00:00"
+      "case_processed_at": "2026-08-26T23:39:03.446954+00:00"
     },
     {
       "id": "080702939317c583382c921cdb28f88a2e151ea6",
@@ -3404,7 +3763,7 @@
       "processing_status": "processed",
       "case_id": null,
       "case_engine_version": "case-v6.1",
-      "case_processed_at": "2026-08-26T19:58:50.394916+00:00"
+      "case_processed_at": "2026-08-26T23:39:03.450551+00:00"
     },
     {
       "id": "8061746e069d6d2c7684bbf5bae550d039cc4b89",
@@ -3429,7 +3788,7 @@
       "processing_status": "processed",
       "case_id": null,
       "case_engine_version": "case-v6.1",
-      "case_processed_at": "2026-08-26T19:58:50.402348+00:00"
+      "case_processed_at": "2026-08-26T23:39:03.455088+00:00"
     },
     {
       "id": "54d2c2194129c925a82978173c794b2bbd907ac9",
@@ -3456,7 +3815,7 @@
       "processing_status": "processed",
       "case_id": null,
       "case_engine_version": "case-v6.1",
-      "case_processed_at": "2026-08-26T19:58:50.408582+00:00"
+      "case_processed_at": "2026-08-26T23:39:03.458865+00:00"
     },
     {
       "id": "ee248aa9532bfd04041bfd08eb57aa5147faffeb",
@@ -3481,7 +3840,7 @@
       "processing_status": "processed",
       "case_id": null,
       "case_engine_version": "case-v6.1",
-      "case_processed_at": "2026-08-26T19:58:50.414398+00:00"
+      "case_processed_at": "2026-08-26T23:39:03.462319+00:00"
     },
     {
       "id": "f43087a09c9313cf0258370abd6003237862f35b",
@@ -3508,7 +3867,7 @@
       "processing_status": "processed",
       "case_id": null,
       "case_engine_version": "case-v6.1",
-      "case_processed_at": "2026-08-26T19:58:50.420007+00:00"
+      "case_processed_at": "2026-08-26T23:39:03.465697+00:00"
     },
     {
       "id": "264bffa5123bc5077d6dd448e3e5926162553020",
@@ -3533,7 +3892,7 @@
       "processing_status": "processed",
       "case_id": null,
       "case_engine_version": "case-v6.1",
-      "case_processed_at": "2026-08-26T19:58:50.424579+00:00"
+      "case_processed_at": "2026-08-26T23:39:03.468409+00:00"
     },
     {
       "id": "0de737e77160d320740e45a8c798aeea88bd06d8",
@@ -3558,7 +3917,7 @@
       "processing_status": "processed",
       "case_id": null,
       "case_engine_version": "case-v6.1",
-      "case_processed_at": "2026-08-26T19:58:50.429223+00:00"
+      "case_processed_at": "2026-08-26T23:39:03.471180+00:00"
     },
     {
       "id": "c57e05fa144011de1064f4dee77b4f896c0146d9",
@@ -3583,7 +3942,7 @@
       "processing_status": "processed",
       "case_id": null,
       "case_engine_version": "case-v6.1",
-      "case_processed_at": "2026-08-26T19:58:50.434568+00:00"
+      "case_processed_at": "2026-08-26T23:39:03.474390+00:00"
     },
     {
       "id": "fd6dd284dc82255a964dca0ba56f7ebf62c480b7",
@@ -3608,7 +3967,7 @@
       "processing_status": "processed",
       "case_id": null,
       "case_engine_version": "case-v6.1",
-      "case_processed_at": "2026-08-26T19:58:50.441367+00:00"
+      "case_processed_at": "2026-08-26T23:39:03.478530+00:00"
     },
     {
       "id": "382f2053a73338c6208288bc0577a98548518756",
@@ -3633,7 +3992,7 @@
       "processing_status": "processed",
       "case_id": null,
       "case_engine_version": "case-v6.1",
-      "case_processed_at": "2026-08-26T19:58:50.445828+00:00"
+      "case_processed_at": "2026-08-26T23:39:03.481149+00:00"
     },
     {
       "id": "13fc92515a0abc02b8c9c75908348c967136af03",
@@ -3658,7 +4017,7 @@
       "processing_status": "processed",
       "case_id": null,
       "case_engine_version": "case-v6.1",
-      "case_processed_at": "2026-08-26T19:58:50.453154+00:00"
+      "case_processed_at": "2026-08-26T23:39:03.485611+00:00"
     },
     {
       "id": "f15d30dff1646b9dcb46077d7f67d695795dd30c",
@@ -3683,7 +4042,7 @@
       "processing_status": "processed",
       "case_id": null,
       "case_engine_version": "case-v6.1",
-      "case_processed_at": "2026-08-26T19:58:50.459081+00:00"
+      "case_processed_at": "2026-08-26T23:39:03.489141+00:00"
     },
     {
       "id": "6583309896901c3c772de25d68d39908f9d1bd8e",
@@ -3708,7 +4067,7 @@
       "processing_status": "processed",
       "case_id": null,
       "case_engine_version": "case-v6.1",
-      "case_processed_at": "2026-08-26T19:58:50.465621+00:00"
+      "case_processed_at": "2026-08-26T23:39:03.493076+00:00"
     },
     {
       "id": "a709eaabd0eb13ba955a1a81d38d1e890fe5171b",
@@ -3733,7 +4092,7 @@
       "processing_status": "processed",
       "case_id": null,
       "case_engine_version": "case-v6.1",
-      "case_processed_at": "2026-08-26T19:58:50.470897+00:00"
+      "case_processed_at": "2026-08-26T23:39:03.496249+00:00"
     },
     {
       "id": "42e70f635f4e4ae4e860dfaac8b2a90662aded29",
@@ -3761,7 +4120,7 @@
       "processing_status": "processed",
       "case_id": null,
       "case_engine_version": "case-v6.1",
-      "case_processed_at": "2026-08-26T19:58:50.476311+00:00"
+      "case_processed_at": "2026-08-26T23:39:03.499480+00:00"
     },
     {
       "id": "bf9c3f2f16f883d3d51765fd49f60fb184a0df82",
@@ -3786,7 +4145,7 @@
       "processing_status": "processed",
       "case_id": null,
       "case_engine_version": "case-v6.1",
-      "case_processed_at": "2026-08-26T19:58:50.481014+00:00"
+      "case_processed_at": "2026-08-26T23:39:03.502310+00:00"
     },
     {
       "id": "3bb0aa325c156e87eda6378826a49eeff85e3392",
@@ -3811,7 +4170,7 @@
       "processing_status": "processed",
       "case_id": null,
       "case_engine_version": "case-v6.1",
-      "case_processed_at": "2026-08-26T19:58:50.485764+00:00"
+      "case_processed_at": "2026-08-26T23:39:03.505075+00:00"
     },
     {
       "id": "45b9c3a677c7e3978084b5c978f5a285f15e16c3",
@@ -3836,7 +4195,7 @@
       "processing_status": "processed",
       "case_id": null,
       "case_engine_version": "case-v6.1",
-      "case_processed_at": "2026-08-26T19:58:50.490885+00:00"
+      "case_processed_at": "2026-08-26T23:39:03.508164+00:00"
     },
     {
       "id": "67b084f0b85c303a43d3e3b3ff52dcb0a109f050",
@@ -3861,7 +4220,7 @@
       "processing_status": "processed",
       "case_id": null,
       "case_engine_version": "case-v6.1",
-      "case_processed_at": "2026-08-26T19:58:50.496666+00:00"
+      "case_processed_at": "2026-08-26T23:39:03.511611+00:00"
     },
     {
       "id": "d4cfc85bc857accb0f8d74cd78864c7b2d962fbc",
@@ -3886,7 +4245,7 @@
       "processing_status": "processed",
       "case_id": null,
       "case_engine_version": "case-v6.1",
-      "case_processed_at": "2026-08-26T19:58:50.501488+00:00"
+      "case_processed_at": "2026-08-26T23:39:03.514539+00:00"
     },
     {
       "id": "020b447d75caaed867fd15b5a9a9cf1d500373fb",
@@ -3911,7 +4270,7 @@
       "processing_status": "processed",
       "case_id": null,
       "case_engine_version": "case-v6.1",
-      "case_processed_at": "2026-08-26T19:58:50.507313+00:00"
+      "case_processed_at": "2026-08-26T23:39:03.518033+00:00"
     },
     {
       "id": "558521ae5bd7ea6b2755c3322e112150046d3a70",
@@ -3936,7 +4295,7 @@
       "processing_status": "processed",
       "case_id": null,
       "case_engine_version": "case-v6.1",
-      "case_processed_at": "2026-08-26T19:58:50.513029+00:00"
+      "case_processed_at": "2026-08-26T23:39:03.521396+00:00"
     },
     {
       "id": "6625303c9ca6d13f3955353da57d17a3d8e1b9b0",
@@ -3964,7 +4323,7 @@
       "processing_status": "processed",
       "case_id": null,
       "case_engine_version": "case-v6.1",
-      "case_processed_at": "2026-08-26T19:58:50.518283+00:00"
+      "case_processed_at": "2026-08-26T23:39:03.524512+00:00"
     },
     {
       "id": "436d611666f7a25d720c7eb460b401e7c44f0a90",
@@ -3989,7 +4348,7 @@
       "processing_status": "processed",
       "case_id": null,
       "case_engine_version": "case-v6.1",
-      "case_processed_at": "2026-08-26T19:58:50.524604+00:00"
+      "case_processed_at": "2026-08-26T23:39:03.528308+00:00"
     },
     {
       "id": "964cc08bdfe6c4c6d14366b20b61b168c3fe9665",
@@ -4014,7 +4373,7 @@
       "processing_status": "processed",
       "case_id": null,
       "case_engine_version": "case-v6.1",
-      "case_processed_at": "2026-08-26T19:58:50.530151+00:00"
+      "case_processed_at": "2026-08-26T23:39:03.531631+00:00"
     },
     {
       "id": "384658795733bcfb23aee48817f09d2e688ba810",
@@ -4041,7 +4400,7 @@
       "processing_status": "processed",
       "case_id": null,
       "case_engine_version": "case-v6.1",
-      "case_processed_at": "2026-08-26T19:58:50.538545+00:00"
+      "case_processed_at": "2026-08-26T23:39:03.536664+00:00"
     },
     {
       "id": "265f856f2ce68c1a102bd5f6874d04fc2eba8fd8",
@@ -4068,7 +4427,7 @@
       "processing_status": "processed",
       "case_id": null,
       "case_engine_version": "case-v6.1",
-      "case_processed_at": "2026-08-26T19:58:50.544264+00:00"
+      "case_processed_at": "2026-08-26T23:39:03.540262+00:00"
     },
     {
       "id": "21984572cc4ca499aa2d62d83816398ae3db099a",
@@ -4096,7 +4455,7 @@
       "processing_status": "processed",
       "case_id": null,
       "case_engine_version": "case-v6.1",
-      "case_processed_at": "2026-08-26T19:58:50.551658+00:00"
+      "case_processed_at": "2026-08-26T23:39:03.544734+00:00"
     },
     {
       "id": "9175c110d34bdea9ed761daf61489e9baa7202d5",
@@ -4124,7 +4483,7 @@
       "processing_status": "processed",
       "case_id": null,
       "case_engine_version": "case-v6.1",
-      "case_processed_at": "2026-08-26T19:58:50.557587+00:00"
+      "case_processed_at": "2026-08-26T23:39:03.548328+00:00"
     },
     {
       "id": "dc279eef887a3ae1d3a04ab6bac4e73c8d3500c9",
@@ -4152,7 +4511,7 @@
       "processing_status": "processed",
       "case_id": null,
       "case_engine_version": "case-v6.1",
-      "case_processed_at": "2026-08-26T19:58:50.565843+00:00"
+      "case_processed_at": "2026-08-26T23:39:03.553374+00:00"
     },
     {
       "id": "a624b4641145b31b5b5efef8aa8716e21e4b7f75",
@@ -4179,7 +4538,7 @@
       "processing_status": "processed",
       "case_id": "CASE-000005",
       "case_engine_version": "case-v6.1",
-      "case_processed_at": "2026-08-26T19:58:51.937453+00:00"
+      "case_processed_at": "2026-08-26T23:39:04.390957+00:00"
     },
     {
       "id": "6f96e1b74f541ad66b149953a0117bf2d7be8e07",
@@ -4204,7 +4563,7 @@
       "processing_status": "processed",
       "case_id": null,
       "case_engine_version": "case-v6.1",
-      "case_processed_at": "2026-08-26T19:58:50.571263+00:00"
+      "case_processed_at": "2026-08-26T23:39:03.556644+00:00"
     },
     {
       "id": "dc7a8f4b153a14546b2eee825c048715d57f743d",
@@ -4229,7 +4588,7 @@
       "processing_status": "processed",
       "case_id": null,
       "case_engine_version": "case-v6.1",
-      "case_processed_at": "2026-08-26T19:58:50.577900+00:00"
+      "case_processed_at": "2026-08-26T23:39:03.560629+00:00"
     },
     {
       "id": "87e10bab0cde2195632d371b3028955f81ff6c17",
@@ -4257,7 +4616,7 @@
       "processing_status": "processed",
       "case_id": null,
       "case_engine_version": "case-v6.1",
-      "case_processed_at": "2026-08-26T19:58:50.584411+00:00"
+      "case_processed_at": "2026-08-26T23:39:03.564545+00:00"
     },
     {
       "id": "7827a036431bd1e25c59cff1fbc6f5e4e8d61857",
@@ -4282,7 +4641,7 @@
       "processing_status": "processed",
       "case_id": null,
       "case_engine_version": "case-v6.1",
-      "case_processed_at": "2026-08-26T19:58:50.590987+00:00"
+      "case_processed_at": "2026-08-26T23:39:03.568541+00:00"
     },
     {
       "id": "f1eb3b36c902d9c09f3505de971152fd17020cc0",
@@ -4309,7 +4668,7 @@
       "processing_status": "processed",
       "case_id": "CASE-000006",
       "case_engine_version": "case-v6.1",
-      "case_processed_at": "2026-08-26T19:58:51.937456+00:00"
+      "case_processed_at": "2026-08-26T23:39:04.390959+00:00"
     },
     {
       "id": "8c807a2d4d35cd543df978b4795b214210517041",
@@ -4334,7 +4693,7 @@
       "processing_status": "processed",
       "case_id": null,
       "case_engine_version": "case-v6.1",
-      "case_processed_at": "2026-08-26T19:58:50.595926+00:00"
+      "case_processed_at": "2026-08-26T23:39:03.571583+00:00"
     },
     {
       "id": "164c161013c1f2c1c97d23caefb375572b988a25",
@@ -4359,7 +4718,7 @@
       "processing_status": "processed",
       "case_id": null,
       "case_engine_version": "case-v6.1",
-      "case_processed_at": "2026-08-26T19:58:50.601115+00:00"
+      "case_processed_at": "2026-08-26T23:39:03.574694+00:00"
     },
     {
       "id": "e3aeb2aa4404b3d3acb12812003dcdeb5521a0ec",
@@ -4384,7 +4743,7 @@
       "processing_status": "processed",
       "case_id": null,
       "case_engine_version": "case-v6.1",
-      "case_processed_at": "2026-08-26T19:58:50.608006+00:00"
+      "case_processed_at": "2026-08-26T23:39:03.578861+00:00"
     },
     {
       "id": "2635f3eb1ce1d0b2fb495ea46f59fc2d31ee3f43",
@@ -4409,7 +4768,7 @@
       "processing_status": "processed",
       "case_id": null,
       "case_engine_version": "case-v6.1",
-      "case_processed_at": "2026-08-26T19:58:50.613715+00:00"
+      "case_processed_at": "2026-08-26T23:39:03.582254+00:00"
     },
     {
       "id": "43acfcb6c9a307507af92bed63998fa02c880561",
@@ -4434,7 +4793,7 @@
       "processing_status": "processed",
       "case_id": null,
       "case_engine_version": "case-v6.1",
-      "case_processed_at": "2026-08-26T19:58:50.620900+00:00"
+      "case_processed_at": "2026-08-26T23:39:03.586764+00:00"
     },
     {
       "id": "d9f66a0eedc64be87ccb328dbff0b6db7edd747b",
@@ -4459,7 +4818,7 @@
       "processing_status": "processed",
       "case_id": null,
       "case_engine_version": "case-v6.1",
-      "case_processed_at": "2026-08-26T19:58:50.627560+00:00"
+      "case_processed_at": "2026-08-26T23:39:03.591034+00:00"
     },
     {
       "id": "6d545a4fe7461750775e8210426a64734df383ed",
@@ -4487,7 +4846,7 @@
       "processing_status": "processed",
       "case_id": null,
       "case_engine_version": "case-v6.1",
-      "case_processed_at": "2026-08-26T19:58:50.633901+00:00"
+      "case_processed_at": "2026-08-26T23:39:03.595016+00:00"
     },
     {
       "id": "1a6de58e671447e1c17238f48d837ea13dfe7f47",
@@ -4514,7 +4873,7 @@
       "processing_status": "processed",
       "case_id": null,
       "case_engine_version": "case-v6.1",
-      "case_processed_at": "2026-08-26T19:58:50.639953+00:00"
+      "case_processed_at": "2026-08-26T23:39:03.599533+00:00"
     },
     {
       "id": "5f9e47c4299819cd73fc4f99b7e111df30ca04c7",
@@ -4539,7 +4898,7 @@
       "processing_status": "processed",
       "case_id": "CASE-000007",
       "case_engine_version": "case-v6.1",
-      "case_processed_at": "2026-08-26T19:58:51.937459+00:00"
+      "case_processed_at": "2026-08-26T23:39:04.390963+00:00"
     },
     {
       "id": "4285acb9f24fe53134e1c9539981224662ee48c7",
@@ -4564,7 +4923,7 @@
       "processing_status": "processed",
       "case_id": null,
       "case_engine_version": "case-v6.1",
-      "case_processed_at": "2026-08-26T19:58:50.644881+00:00"
+      "case_processed_at": "2026-08-26T23:39:03.602534+00:00"
     },
     {
       "id": "a2cec419e1846411e56519abe70521ec70d71273",
@@ -4589,7 +4948,7 @@
       "processing_status": "processed",
       "case_id": "CASE-000008",
       "case_engine_version": "case-v6.1",
-      "case_processed_at": "2026-08-26T19:58:51.937462+00:00"
+      "case_processed_at": "2026-08-26T23:39:04.390965+00:00"
     },
     {
       "id": "58e5384f6adac034a0a69937dfad5364cb23b50d",
@@ -4614,7 +4973,7 @@
       "processing_status": "processed",
       "case_id": null,
       "case_engine_version": "case-v6.1",
-      "case_processed_at": "2026-08-26T19:58:50.649582+00:00"
+      "case_processed_at": "2026-08-26T23:39:03.605358+00:00"
     },
     {
       "id": "02a16cfdc14f3c47b957f15ef68c92dc8958a1c1",
@@ -4639,7 +4998,7 @@
       "processing_status": "processed",
       "case_id": null,
       "case_engine_version": "case-v6.1",
-      "case_processed_at": "2026-08-26T19:58:50.655718+00:00"
+      "case_processed_at": "2026-08-26T23:39:03.609256+00:00"
     },
     {
       "id": "7db07146e1e3c8901469b971e070c1698cf2cebb",
@@ -4667,7 +5026,7 @@
       "processing_status": "processed",
       "case_id": null,
       "case_engine_version": "case-v6.1",
-      "case_processed_at": "2026-08-26T19:58:50.661808+00:00"
+      "case_processed_at": "2026-08-26T23:39:03.612960+00:00"
     },
     {
       "id": "e9430c96d50013929393eda8cf555ce75c191740",
@@ -4695,7 +5054,7 @@
       "processing_status": "processed",
       "case_id": null,
       "case_engine_version": "case-v6.1",
-      "case_processed_at": "2026-08-26T19:58:50.670059+00:00"
+      "case_processed_at": "2026-08-26T23:39:03.618017+00:00"
     },
     {
       "id": "5b9f61965876c5e38df516060dfe51e11336262d",
@@ -4720,7 +5079,7 @@
       "processing_status": "processed",
       "case_id": null,
       "case_engine_version": "case-v6.1",
-      "case_processed_at": "2026-08-26T19:58:50.676724+00:00"
+      "case_processed_at": "2026-08-26T23:39:03.622091+00:00"
     },
     {
       "id": "ee134fcec978a1204bdbe678b98d2ae0360da4a0",
@@ -4745,7 +5104,7 @@
       "processing_status": "processed",
       "case_id": null,
       "case_engine_version": "case-v6.1",
-      "case_processed_at": "2026-08-26T19:58:50.683289+00:00"
+      "case_processed_at": "2026-08-26T23:39:03.626066+00:00"
     },
     {
       "id": "baddc7234d459d8b90a9a9160c21a4406d8d7560",
@@ -4770,7 +5129,7 @@
       "processing_status": "processed",
       "case_id": null,
       "case_engine_version": "case-v6.1",
-      "case_processed_at": "2026-08-26T19:58:50.691388+00:00"
+      "case_processed_at": "2026-08-26T23:39:03.631138+00:00"
     },
     {
       "id": "f61adac8cedfbae1592880707386b8d9669a88e2",
@@ -4795,7 +5154,7 @@
       "processing_status": "processed",
       "case_id": null,
       "case_engine_version": "case-v6.1",
-      "case_processed_at": "2026-08-26T19:58:50.697304+00:00"
+      "case_processed_at": "2026-08-26T23:39:03.634786+00:00"
     },
     {
       "id": "0da90516777b241f1e6fbd54a52020946b1ef5ae",
@@ -4822,7 +5181,7 @@
       "processing_status": "processed",
       "case_id": null,
       "case_engine_version": "case-v6.1",
-      "case_processed_at": "2026-08-26T19:58:50.703852+00:00"
+      "case_processed_at": "2026-08-26T23:39:03.638863+00:00"
     },
     {
       "id": "83b8dbba18fe0cf911ca97b5506ef510a5355d6a",
@@ -4849,7 +5208,7 @@
       "processing_status": "processed",
       "case_id": null,
       "case_engine_version": "case-v6.1",
-      "case_processed_at": "2026-08-26T19:58:50.708377+00:00"
+      "case_processed_at": "2026-08-26T23:39:03.641565+00:00"
     },
     {
       "id": "30496385f8cb7de224e77df0fd4de7de4a3fba90",
@@ -4874,7 +5233,7 @@
       "processing_status": "processed",
       "case_id": null,
       "case_engine_version": "case-v6.1",
-      "case_processed_at": "2026-08-26T19:58:50.715407+00:00"
+      "case_processed_at": "2026-08-26T23:39:03.645883+00:00"
     },
     {
       "id": "bd33018080a361eb75b4a0b0e155dbd1b556a096",
@@ -4899,7 +5258,7 @@
       "processing_status": "processed",
       "case_id": null,
       "case_engine_version": "case-v6.1",
-      "case_processed_at": "2026-08-26T19:58:50.719383+00:00"
+      "case_processed_at": "2026-08-26T23:39:03.648264+00:00"
     },
     {
       "id": "3b0d5e44ae5115a9f8ec620c9fd9cdc9623b67e9",
@@ -4927,7 +5286,7 @@
       "processing_status": "processed",
       "case_id": null,
       "case_engine_version": "case-v6.1",
-      "case_processed_at": "2026-08-26T19:58:50.724409+00:00"
+      "case_processed_at": "2026-08-26T23:39:03.651290+00:00"
     },
     {
       "id": "47de4a4fc6e59ef6624ae320f09dce4b003d942e",
@@ -4952,7 +5311,7 @@
       "processing_status": "processed",
       "case_id": null,
       "case_engine_version": "case-v6.1",
-      "case_processed_at": "2026-08-26T19:58:50.728598+00:00"
+      "case_processed_at": "2026-08-26T23:39:03.653773+00:00"
     },
     {
       "id": "b9af7117eb452a4664143dc39c2c26423b1cea8b",
@@ -4977,7 +5336,7 @@
       "processing_status": "processed",
       "case_id": null,
       "case_engine_version": "case-v6.1",
-      "case_processed_at": "2026-08-26T19:58:50.734653+00:00"
+      "case_processed_at": "2026-08-26T23:39:03.657433+00:00"
     },
     {
       "id": "cd74252bd37a6787a10816fd1903ef9ffd87d218",
@@ -5002,7 +5361,7 @@
       "processing_status": "processed",
       "case_id": null,
       "case_engine_version": "case-v6.1",
-      "case_processed_at": "2026-08-26T19:58:50.740204+00:00"
+      "case_processed_at": "2026-08-26T23:39:03.660760+00:00"
     },
     {
       "id": "57eea86153237a00470b1c98b56fd9c75823b2fa",
@@ -5027,7 +5386,7 @@
       "processing_status": "processed",
       "case_id": null,
       "case_engine_version": "case-v6.1",
-      "case_processed_at": "2026-08-26T19:58:50.747482+00:00"
+      "case_processed_at": "2026-08-26T23:39:03.665492+00:00"
     },
     {
       "id": "931998bac7d7bac393e927622797b2135036daf6",
@@ -5055,7 +5414,7 @@
       "processing_status": "processed",
       "case_id": null,
       "case_engine_version": "case-v6.1",
-      "case_processed_at": "2026-08-26T19:58:50.752229+00:00"
+      "case_processed_at": "2026-08-26T23:39:03.668371+00:00"
     },
     {
       "id": "cef1c899941542240c699ac7b006f58dfae8eabf",
@@ -5080,7 +5439,7 @@
       "processing_status": "processed",
       "case_id": null,
       "case_engine_version": "case-v6.1",
-      "case_processed_at": "2026-08-26T19:58:50.756661+00:00"
+      "case_processed_at": "2026-08-26T23:39:03.671075+00:00"
     },
     {
       "id": "7592bb1c93378993f4e86a78af867046e786c538",
@@ -5107,7 +5466,7 @@
       "processing_status": "processed",
       "case_id": null,
       "case_engine_version": "case-v6.1",
-      "case_processed_at": "2026-08-26T19:58:50.763345+00:00"
+      "case_processed_at": "2026-08-26T23:39:03.675217+00:00"
     },
     {
       "id": "1ccda0031837e31e97755bd4d454f4d288a15926",
@@ -5134,7 +5493,7 @@
       "processing_status": "processed",
       "case_id": null,
       "case_engine_version": "case-v6.1",
-      "case_processed_at": "2026-08-26T19:58:50.771212+00:00"
+      "case_processed_at": "2026-08-26T23:39:03.680031+00:00"
     },
     {
       "id": "0cbce46ec4242cabd0ff5b1034ddd08eb4702f82",
@@ -5161,7 +5520,7 @@
       "processing_status": "processed",
       "case_id": null,
       "case_engine_version": "case-v6.1",
-      "case_processed_at": "2026-08-26T19:58:50.777336+00:00"
+      "case_processed_at": "2026-08-26T23:39:03.683806+00:00"
     },
     {
       "id": "f13d0d67f849fc71a60cc66b50e5ee9a8603d16f",
@@ -5189,7 +5548,7 @@
       "processing_status": "processed",
       "case_id": null,
       "case_engine_version": "case-v6.1",
-      "case_processed_at": "2026-08-26T19:58:50.782789+00:00"
+      "case_processed_at": "2026-08-26T23:39:03.687118+00:00"
     },
     {
       "id": "eb577a5101d9222d0145d69d51112f49f6bf1f58",
@@ -5214,7 +5573,7 @@
       "processing_status": "processed",
       "case_id": null,
       "case_engine_version": "case-v6.1",
-      "case_processed_at": "2026-08-26T19:58:50.788193+00:00"
+      "case_processed_at": "2026-08-26T23:39:03.690513+00:00"
     },
     {
       "id": "989fb2c162d952a96d9e7afb25946eb530f79768",
@@ -5241,7 +5600,7 @@
       "processing_status": "processed",
       "case_id": null,
       "case_engine_version": "case-v6.1",
-      "case_processed_at": "2026-08-26T19:58:50.795051+00:00"
+      "case_processed_at": "2026-08-26T23:39:03.695190+00:00"
     },
     {
       "id": "6e129d51a6e96cab9851745930f3ddcf5d1fac07",
@@ -5266,7 +5625,7 @@
       "processing_status": "processed",
       "case_id": null,
       "case_engine_version": "case-v6.1",
-      "case_processed_at": "2026-08-26T19:58:50.801666+00:00"
+      "case_processed_at": "2026-08-26T23:39:03.700268+00:00"
     },
     {
       "id": "3a10ee6e45df7187bd4a65116ea18e5d74a1a629",
@@ -5293,7 +5652,7 @@
       "processing_status": "processed",
       "case_id": "CASE-000009",
       "case_engine_version": "case-v6.1",
-      "case_processed_at": "2026-08-26T19:58:51.937467+00:00"
+      "case_processed_at": "2026-08-26T23:39:04.390970+00:00"
     },
     {
       "id": "44a1756dcc3559e8c2f54107cbeef7a756ad079b",
@@ -5318,7 +5677,7 @@
       "processing_status": "processed",
       "case_id": null,
       "case_engine_version": "case-v6.1",
-      "case_processed_at": "2026-08-26T19:58:50.807941+00:00"
+      "case_processed_at": "2026-08-26T23:39:03.704204+00:00"
     },
     {
       "id": "3de82beed022fd7a1e6e609441351ad21398af8d",
@@ -5343,7 +5702,7 @@
       "processing_status": "processed",
       "case_id": null,
       "case_engine_version": "case-v6.1",
-      "case_processed_at": "2026-08-26T19:58:50.813303+00:00"
+      "case_processed_at": "2026-08-26T23:39:03.708451+00:00"
     },
     {
       "id": "8e829a1ca4a48d10fcbed106c3ea92aa7f860e45",
@@ -5370,7 +5729,7 @@
       "processing_status": "processed",
       "case_id": null,
       "case_engine_version": "case-v6.1",
-      "case_processed_at": "2026-08-26T19:58:50.820423+00:00"
+      "case_processed_at": "2026-08-26T23:39:03.713638+00:00"
     },
     {
       "id": "e383716f04a53c5411c1922f58f96c2f3039bda5",
@@ -5397,7 +5756,7 @@
       "processing_status": "processed",
       "case_id": "CASE-000010",
       "case_engine_version": "case-v6.1",
-      "case_processed_at": "2026-08-26T19:58:51.937470+00:00"
+      "case_processed_at": "2026-08-26T23:39:04.390972+00:00"
     },
     {
       "id": "ff660ec0b97cc7a1ff9666909cd6af1f8be0950e",
@@ -5422,7 +5781,7 @@
       "processing_status": "processed",
       "case_id": null,
       "case_engine_version": "case-v6.1",
-      "case_processed_at": "2026-08-26T19:58:50.828092+00:00"
+      "case_processed_at": "2026-08-26T23:39:03.718363+00:00"
     },
     {
       "id": "33557a2e634bfd63d06c3547b98aa763f3b08262",
@@ -5447,7 +5806,7 @@
       "processing_status": "processed",
       "case_id": null,
       "case_engine_version": "case-v6.1",
-      "case_processed_at": "2026-08-26T19:58:50.835864+00:00"
+      "case_processed_at": "2026-08-26T23:39:03.723054+00:00"
     },
     {
       "id": "58afa1363f5043680b0c24a7279b31c8e788bed3",
@@ -5472,7 +5831,7 @@
       "processing_status": "processed",
       "case_id": null,
       "case_engine_version": "case-v6.1",
-      "case_processed_at": "2026-08-26T19:58:50.842559+00:00"
+      "case_processed_at": "2026-08-26T23:39:03.727068+00:00"
     },
     {
       "id": "5362eab95a7ff1fd1f115828c82762f20012e000",
@@ -5497,7 +5856,7 @@
       "processing_status": "processed",
       "case_id": null,
       "case_engine_version": "case-v6.1",
-      "case_processed_at": "2026-08-26T19:58:50.849879+00:00"
+      "case_processed_at": "2026-08-26T23:39:03.731493+00:00"
     },
     {
       "id": "84f396e6e502ce29d97d77e66fe52eee1dc21f71",
@@ -5522,7 +5881,7 @@
       "processing_status": "processed",
       "case_id": null,
       "case_engine_version": "case-v6.1",
-      "case_processed_at": "2026-08-26T19:58:50.856855+00:00"
+      "case_processed_at": "2026-08-26T23:39:03.735745+00:00"
     },
     {
       "id": "6390c643ecb934e7c3a1c8c0f85312ac87903a9a",
@@ -5550,7 +5909,7 @@
       "processing_status": "processed",
       "case_id": null,
       "case_engine_version": "case-v6.1",
-      "case_processed_at": "2026-08-26T19:58:50.863722+00:00"
+      "case_processed_at": "2026-08-26T23:39:03.739931+00:00"
     },
     {
       "id": "a0af308a78f2d01a5cadc1c6ed6ba375604c1f62",
@@ -5577,7 +5936,7 @@
       "processing_status": "processed",
       "case_id": null,
       "case_engine_version": "case-v6.1",
-      "case_processed_at": "2026-08-26T19:58:50.870213+00:00"
+      "case_processed_at": "2026-08-26T23:39:03.743830+00:00"
     },
     {
       "id": "e46c161c00f2b83d08f0cf3787ca389cb8e3299c",
@@ -5602,7 +5961,7 @@
       "processing_status": "processed",
       "case_id": null,
       "case_engine_version": "case-v6.1",
-      "case_processed_at": "2026-08-26T19:58:50.876699+00:00"
+      "case_processed_at": "2026-08-26T23:39:03.747766+00:00"
     },
     {
       "id": "a73c92b0321b28abcdece5bbd1c7a705464cb802",
@@ -5629,7 +5988,7 @@
       "processing_status": "processed",
       "case_id": null,
       "case_engine_version": "case-v6.1",
-      "case_processed_at": "2026-08-26T19:58:50.881787+00:00"
+      "case_processed_at": "2026-08-26T23:39:03.750806+00:00"
     },
     {
       "id": "be19ad9cc87ca39496c847dc71c6d3b77defe817",
@@ -5656,7 +6015,7 @@
       "processing_status": "processed",
       "case_id": null,
       "case_engine_version": "case-v6.1",
-      "case_processed_at": "2026-08-26T19:58:50.888128+00:00"
+      "case_processed_at": "2026-08-26T23:39:03.754635+00:00"
     },
     {
       "id": "636aac2be04c548ff2957bab7eaa1af74ba51a64",
@@ -5681,7 +6040,7 @@
       "processing_status": "processed",
       "case_id": null,
       "case_engine_version": "case-v6.1",
-      "case_processed_at": "2026-08-26T19:58:50.893694+00:00"
+      "case_processed_at": "2026-08-26T23:39:03.757940+00:00"
     },
     {
       "id": "c6f3b4cb076f25600c18d4d9029097756df2da2e",
@@ -5709,7 +6068,7 @@
       "processing_status": "processed",
       "case_id": null,
       "case_engine_version": "case-v6.1",
-      "case_processed_at": "2026-08-26T19:58:50.900090+00:00"
+      "case_processed_at": "2026-08-26T23:39:03.761795+00:00"
     },
     {
       "id": "c3bfe756e46bbb4dae08114a438ebcfff671c4d6",
@@ -5737,7 +6096,7 @@
       "processing_status": "processed",
       "case_id": null,
       "case_engine_version": "case-v6.1",
-      "case_processed_at": "2026-08-26T19:58:50.906644+00:00"
+      "case_processed_at": "2026-08-26T23:39:03.765853+00:00"
     },
     {
       "id": "14a7f93a41bc6daaaf45d5d2dd7be15468a19f41",
@@ -5762,7 +6121,7 @@
       "processing_status": "processed",
       "case_id": null,
       "case_engine_version": "case-v6.1",
-      "case_processed_at": "2026-08-26T19:58:50.912826+00:00"
+      "case_processed_at": "2026-08-26T23:39:03.769640+00:00"
     },
     {
       "id": "e03f8688fd923aa2eb1763da46d1983c6b9db9eb",
@@ -5787,7 +6146,7 @@
       "processing_status": "processed",
       "case_id": null,
       "case_engine_version": "case-v6.1",
-      "case_processed_at": "2026-08-26T19:58:50.918817+00:00"
+      "case_processed_at": "2026-08-26T23:39:03.773240+00:00"
     },
     {
       "id": "fb2a077612f05aacbbc1e41115ec5fec717d4761",
@@ -5814,7 +6173,7 @@
       "processing_status": "processed",
       "case_id": null,
       "case_engine_version": "case-v6.1",
-      "case_processed_at": "2026-08-26T19:58:50.925701+00:00"
+      "case_processed_at": "2026-08-26T23:39:03.777369+00:00"
     },
     {
       "id": "c17e45e123233af5ec65d42d85c52617d6bd7959",
@@ -5839,7 +6198,7 @@
       "processing_status": "processed",
       "case_id": null,
       "case_engine_version": "case-v6.1",
-      "case_processed_at": "2026-08-26T19:58:50.931917+00:00"
+      "case_processed_at": "2026-08-26T23:39:03.781101+00:00"
     },
     {
       "id": "42ae2279f4de869ee1120ba3107239ba6a482781",
@@ -5864,7 +6223,7 @@
       "processing_status": "processed",
       "case_id": null,
       "case_engine_version": "case-v6.1",
-      "case_processed_at": "2026-08-26T19:58:50.938967+00:00"
+      "case_processed_at": "2026-08-26T23:39:03.785386+00:00"
     },
     {
       "id": "19a6ae9c880816ef628726d0766bb6ea627a0a52",
@@ -5891,7 +6250,7 @@
       "processing_status": "processed",
       "case_id": null,
       "case_engine_version": "case-v6.1",
-      "case_processed_at": "2026-08-26T19:58:50.944408+00:00"
+      "case_processed_at": "2026-08-26T23:39:03.788598+00:00"
     },
     {
       "id": "eafdce50e4bdb94b1d4ff752b0891039b9400d9f",
@@ -5919,7 +6278,7 @@
       "processing_status": "processed",
       "case_id": null,
       "case_engine_version": "case-v6.1",
-      "case_processed_at": "2026-08-26T19:58:50.950792+00:00"
+      "case_processed_at": "2026-08-26T23:39:03.792435+00:00"
     },
     {
       "id": "6f524f575ce4fb368713dedacd8e5e193a84dfd4",
@@ -5946,7 +6305,7 @@
       "processing_status": "processed",
       "case_id": null,
       "case_engine_version": "case-v6.1",
-      "case_processed_at": "2026-08-26T19:58:50.959094+00:00"
+      "case_processed_at": "2026-08-26T23:39:03.797420+00:00"
     },
     {
       "id": "c4175cdaf5cd973245497a2d3a61f1a7a69f18aa",
@@ -5974,7 +6333,7 @@
       "processing_status": "processed",
       "case_id": null,
       "case_engine_version": "case-v6.1",
-      "case_processed_at": "2026-08-26T19:58:50.964890+00:00"
+      "case_processed_at": "2026-08-26T23:39:03.800915+00:00"
     },
     {
       "id": "001897300e9a0b96028737e1d26cfd67e0530dbd",
@@ -5999,7 +6358,7 @@
       "processing_status": "processed",
       "case_id": null,
       "case_engine_version": "case-v6.1",
-      "case_processed_at": "2026-08-26T19:58:50.970622+00:00"
+      "case_processed_at": "2026-08-26T23:39:03.804382+00:00"
     },
     {
       "id": "d656b73da6fd8f69d0293a0d8f7c5380af747034",
@@ -6028,7 +6387,7 @@
       "processing_status": "processed",
       "case_id": "CASE-000004",
       "case_engine_version": "case-v6.1",
-      "case_processed_at": "2026-08-26T19:58:51.937477+00:00"
+      "case_processed_at": "2026-08-26T23:39:04.390976+00:00"
     },
     {
       "id": "d0194b8f05d3ff0e36afd61515e031ca63d17b1a",
@@ -6053,7 +6412,7 @@
       "processing_status": "processed",
       "case_id": null,
       "case_engine_version": "case-v6.1",
-      "case_processed_at": "2026-08-26T19:58:50.977064+00:00"
+      "case_processed_at": "2026-08-26T23:39:03.808306+00:00"
     },
     {
       "id": "76de469676de52c1e20f19a4bdd7ae706477e1b2",
@@ -6078,7 +6437,7 @@
       "processing_status": "processed",
       "case_id": null,
       "case_engine_version": "case-v6.1",
-      "case_processed_at": "2026-08-26T19:58:50.983464+00:00"
+      "case_processed_at": "2026-08-26T23:39:03.812175+00:00"
     },
     {
       "id": "753efe433661051e467b69a3f4131a5822a62dc0",
@@ -6105,7 +6464,7 @@
       "processing_status": "processed",
       "case_id": null,
       "case_engine_version": "case-v6.1",
-      "case_processed_at": "2026-08-26T19:58:50.988775+00:00"
+      "case_processed_at": "2026-08-26T23:39:03.815328+00:00"
     },
     {
       "id": "57f592eb3df5688973dc3aa92e410c091053b2b9",
@@ -6133,7 +6492,7 @@
       "processing_status": "processed",
       "case_id": "CASE-000004",
       "case_engine_version": "case-v6.1",
-      "case_processed_at": "2026-08-26T19:58:51.937480+00:00"
+      "case_processed_at": "2026-08-26T23:39:04.390977+00:00"
     },
     {
       "id": "f13122ca9bcfa402d0e3130d046c1a20022bf649",
@@ -6158,7 +6517,7 @@
       "processing_status": "processed",
       "case_id": null,
       "case_engine_version": "case-v6.1",
-      "case_processed_at": "2026-08-26T19:58:50.994703+00:00"
+      "case_processed_at": "2026-08-26T23:39:03.818861+00:00"
     },
     {
       "id": "e65eeea7e0f125a1534dffcaa93cb23a8746ffd2",
@@ -6183,7 +6542,7 @@
       "processing_status": "processed",
       "case_id": null,
       "case_engine_version": "case-v6.1",
-      "case_processed_at": "2026-08-26T19:58:50.999855+00:00"
+      "case_processed_at": "2026-08-26T23:39:03.821942+00:00"
     },
     {
       "id": "a3d0cd40ad9fdef432417768cc36c0f4719bb2c8",
@@ -6210,7 +6569,7 @@
       "processing_status": "processed",
       "case_id": null,
       "case_engine_version": "case-v6.1",
-      "case_processed_at": "2026-08-26T19:58:51.004177+00:00"
+      "case_processed_at": "2026-08-26T23:39:03.824506+00:00"
     },
     {
       "id": "7ad84abb2f3158fb50de6d851a783cd537c5053f",
@@ -6235,7 +6594,7 @@
       "processing_status": "processed",
       "case_id": null,
       "case_engine_version": "case-v6.1",
-      "case_processed_at": "2026-08-26T19:58:51.010236+00:00"
+      "case_processed_at": "2026-08-26T23:39:03.828202+00:00"
     },
     {
       "id": "5930898debe55a378cbadf4b67f8a90ef8aa7a9f",
@@ -6262,7 +6621,7 @@
       "processing_status": "processed",
       "case_id": null,
       "case_engine_version": "case-v6.1",
-      "case_processed_at": "2026-08-26T19:58:51.015959+00:00"
+      "case_processed_at": "2026-08-26T23:39:03.831564+00:00"
     },
     {
       "id": "104cb23e36077b9f092e72307845a8e12e42edd3",
@@ -6289,7 +6648,7 @@
       "processing_status": "processed",
       "case_id": null,
       "case_engine_version": "case-v6.1",
-      "case_processed_at": "2026-08-26T19:58:51.021739+00:00"
+      "case_processed_at": "2026-08-26T23:39:03.834973+00:00"
     },
     {
       "id": "8dc7f327db9493e20c4734490ea2194d5f4c5e7d",
@@ -6316,7 +6675,7 @@
       "processing_status": "processed",
       "case_id": null,
       "case_engine_version": "case-v6.1",
-      "case_processed_at": "2026-08-26T19:58:51.026648+00:00"
+      "case_processed_at": "2026-08-26T23:39:03.837907+00:00"
     },
     {
       "id": "5e65353e4f9f6e71eb7ac5632133b3a734764141",
@@ -6343,7 +6702,7 @@
       "processing_status": "processed",
       "case_id": null,
       "case_engine_version": "case-v6.1",
-      "case_processed_at": "2026-08-26T19:58:51.031978+00:00"
+      "case_processed_at": "2026-08-26T23:39:03.841094+00:00"
     },
     {
       "id": "d9fa70a7a6078ab03fa617575a291f846afeed29",
@@ -6371,7 +6730,7 @@
       "processing_status": "processed",
       "case_id": null,
       "case_engine_version": "case-v6.1",
-      "case_processed_at": "2026-08-26T19:58:51.037706+00:00"
+      "case_processed_at": "2026-08-26T23:39:03.844544+00:00"
     },
     {
       "id": "b0eac98732a5f5cf8220db60635e3380345f55fa",
@@ -6398,7 +6757,7 @@
       "processing_status": "processed",
       "case_id": null,
       "case_engine_version": "case-v6.1",
-      "case_processed_at": "2026-08-26T19:58:51.044086+00:00"
+      "case_processed_at": "2026-08-26T23:39:03.848359+00:00"
     },
     {
       "id": "90b434e27fa510a1915dad11b0fc554b837a8bc4",
@@ -6425,7 +6784,7 @@
       "processing_status": "processed",
       "case_id": "CASE-000004",
       "case_engine_version": "case-v6.1",
-      "case_processed_at": "2026-08-26T19:58:51.937485+00:00"
+      "case_processed_at": "2026-08-26T23:39:04.390979+00:00"
     },
     {
       "id": "47dbf6024b9796c27a9e3a725521803631aafc11",
@@ -6450,7 +6809,7 @@
       "processing_status": "processed",
       "case_id": null,
       "case_engine_version": "case-v6.1",
-      "case_processed_at": "2026-08-26T19:58:51.050620+00:00"
+      "case_processed_at": "2026-08-26T23:39:03.852309+00:00"
     },
     {
       "id": "222eb5a62aec2cab43073af6b7cf5139fae9b6b4",
@@ -6478,7 +6837,7 @@
       "processing_status": "processed",
       "case_id": null,
       "case_engine_version": "case-v6.1",
-      "case_processed_at": "2026-08-26T19:58:51.056115+00:00"
+      "case_processed_at": "2026-08-26T23:39:03.855589+00:00"
     },
     {
       "id": "6afa1439423fdd646381bef8bf36e3e6fb42405c",
@@ -6503,7 +6862,7 @@
       "processing_status": "processed",
       "case_id": null,
       "case_engine_version": "case-v6.1",
-      "case_processed_at": "2026-08-26T19:58:51.060877+00:00"
+      "case_processed_at": "2026-08-26T23:39:03.858398+00:00"
     },
     {
       "id": "3938f3abf913cfe67284c7b50f9b313a588b58e2",
@@ -6528,7 +6887,7 @@
       "processing_status": "processed",
       "case_id": null,
       "case_engine_version": "case-v6.1",
-      "case_processed_at": "2026-08-26T19:58:51.066039+00:00"
+      "case_processed_at": "2026-08-26T23:39:03.861460+00:00"
     },
     {
       "id": "041b884b331c6554e1fc1ff2eff954fcef77ae95",
@@ -6553,7 +6912,7 @@
       "processing_status": "processed",
       "case_id": null,
       "case_engine_version": "case-v6.1",
-      "case_processed_at": "2026-08-26T19:58:51.071386+00:00"
+      "case_processed_at": "2026-08-26T23:39:03.864633+00:00"
     },
     {
       "id": "8a4da05562aeab5a73f8ba46d42fe9d9e889e58a",
@@ -6578,7 +6937,7 @@
       "processing_status": "processed",
       "case_id": null,
       "case_engine_version": "case-v6.1",
-      "case_processed_at": "2026-08-26T19:58:51.077023+00:00"
+      "case_processed_at": "2026-08-26T23:39:03.868029+00:00"
     },
     {
       "id": "17190b0e02e5dacde6873c95aeadc006b34985bb",
@@ -6606,7 +6965,7 @@
       "processing_status": "processed",
       "case_id": null,
       "case_engine_version": "case-v6.1",
-      "case_processed_at": "2026-08-26T19:58:51.083362+00:00"
+      "case_processed_at": "2026-08-26T23:39:03.871774+00:00"
     },
     {
       "id": "da8c89798d1dd46fcd1de7e3cbdd2c061a1761bc",
@@ -6631,7 +6990,7 @@
       "processing_status": "processed",
       "case_id": null,
       "case_engine_version": "case-v6.1",
-      "case_processed_at": "2026-08-26T19:58:51.088928+00:00"
+      "case_processed_at": "2026-08-26T23:39:03.875111+00:00"
     },
     {
       "id": "26a8291e0ea27c49c25431bf0c6ba18bf78ae6de",
@@ -6656,7 +7015,7 @@
       "processing_status": "processed",
       "case_id": "CASE-000011",
       "case_engine_version": "case-v6.1",
-      "case_processed_at": "2026-08-26T19:58:51.937489+00:00"
+      "case_processed_at": "2026-08-26T23:39:04.390981+00:00"
     },
     {
       "id": "51d1b1593fc97152405295e04f37d3bf5137770d",
@@ -6681,7 +7040,7 @@
       "processing_status": "processed",
       "case_id": null,
       "case_engine_version": "case-v6.1",
-      "case_processed_at": "2026-08-26T19:58:51.095240+00:00"
+      "case_processed_at": "2026-08-26T23:39:03.878901+00:00"
     },
     {
       "id": "7cffdae5542ff1052f8cb902094d880120163e83",
@@ -6706,7 +7065,7 @@
       "processing_status": "processed",
       "case_id": null,
       "case_engine_version": "case-v6.1",
-      "case_processed_at": "2026-08-26T19:58:51.103206+00:00"
+      "case_processed_at": "2026-08-26T23:39:03.883653+00:00"
     },
     {
       "id": "48ebb63f80011a9ab170167374f11b13d4a3ace8",
@@ -6731,7 +7090,7 @@
       "processing_status": "processed",
       "case_id": null,
       "case_engine_version": "case-v6.1",
-      "case_processed_at": "2026-08-26T19:58:51.108263+00:00"
+      "case_processed_at": "2026-08-26T23:39:03.886657+00:00"
     },
     {
       "id": "fb6ec975c4321c18b92b9814120672900ca6534d",
@@ -6756,7 +7115,7 @@
       "processing_status": "processed",
       "case_id": null,
       "case_engine_version": "case-v6.1",
-      "case_processed_at": "2026-08-26T19:58:51.115276+00:00"
+      "case_processed_at": "2026-08-26T23:39:03.890888+00:00"
     },
     {
       "id": "ac930c858a2762993fcaee09c7c9a485713cac02",
@@ -6781,7 +7140,7 @@
       "processing_status": "processed",
       "case_id": null,
       "case_engine_version": "case-v6.1",
-      "case_processed_at": "2026-08-26T19:58:51.121778+00:00"
+      "case_processed_at": "2026-08-26T23:39:03.894770+00:00"
     },
     {
       "id": "8f18c0ad628706619f400e77edcd4987874eaf93",
@@ -6808,7 +7167,7 @@
       "processing_status": "processed",
       "case_id": null,
       "case_engine_version": "case-v6.1",
-      "case_processed_at": "2026-08-26T19:58:51.127488+00:00"
+      "case_processed_at": "2026-08-26T23:39:03.898109+00:00"
     },
     {
       "id": "0318d6933873f45d2e9f6451cd67abddcb151bb3",
@@ -6833,7 +7192,7 @@
       "processing_status": "processed",
       "case_id": null,
       "case_engine_version": "case-v6.1",
-      "case_processed_at": "2026-08-26T19:58:51.131472+00:00"
+      "case_processed_at": "2026-08-26T23:39:03.900489+00:00"
     },
     {
       "id": "fae2e14b527a8e27f0441670150848fb387ca442",
@@ -6858,7 +7217,7 @@
       "processing_status": "processed",
       "case_id": null,
       "case_engine_version": "case-v6.1",
-      "case_processed_at": "2026-08-26T19:58:51.136789+00:00"
+      "case_processed_at": "2026-08-26T23:39:03.903696+00:00"
     },
     {
       "id": "723a0b468659d193a3c0cb0ab365500b24b18e37",
@@ -6883,7 +7242,7 @@
       "processing_status": "processed",
       "case_id": null,
       "case_engine_version": "case-v6.1",
-      "case_processed_at": "2026-08-26T19:58:51.143761+00:00"
+      "case_processed_at": "2026-08-26T23:39:03.907927+00:00"
     },
     {
       "id": "273c09729242d7c178f39e47d8aa46c6ad738869",
@@ -6908,7 +7267,7 @@
       "processing_status": "processed",
       "case_id": null,
       "case_engine_version": "case-v6.1",
-      "case_processed_at": "2026-08-26T19:58:51.148926+00:00"
+      "case_processed_at": "2026-08-26T23:39:03.911024+00:00"
     },
     {
       "id": "342e1c0d70d9efd8051714f408443dd08f1ce528",
@@ -6933,7 +7292,7 @@
       "processing_status": "processed",
       "case_id": null,
       "case_engine_version": "case-v6.1",
-      "case_processed_at": "2026-08-26T19:58:51.154416+00:00"
+      "case_processed_at": "2026-08-26T23:39:03.914324+00:00"
     },
     {
       "id": "baa593cdc9b566e3896043c96d8b71d44dd7d58b",
@@ -6958,7 +7317,7 @@
       "processing_status": "processed",
       "case_id": null,
       "case_engine_version": "case-v6.1",
-      "case_processed_at": "2026-08-26T19:58:51.160183+00:00"
+      "case_processed_at": "2026-08-26T23:39:03.917771+00:00"
     },
     {
       "id": "9429be340c655edbcbc0e5f992cab546ffa4a55c",
@@ -6983,7 +7342,7 @@
       "processing_status": "processed",
       "case_id": null,
       "case_engine_version": "case-v6.1",
-      "case_processed_at": "2026-08-26T19:58:51.165528+00:00"
+      "case_processed_at": "2026-08-26T23:39:03.920965+00:00"
     },
     {
       "id": "c8c218f84417b697a812f92693c79ff1c0de9c02",
@@ -7008,7 +7367,7 @@
       "processing_status": "processed",
       "case_id": null,
       "case_engine_version": "case-v6.1",
-      "case_processed_at": "2026-08-26T19:58:51.172569+00:00"
+      "case_processed_at": "2026-08-26T23:39:03.925230+00:00"
     },
     {
       "id": "ae6f8d3f7857dc8bace536d164942279cdf57d8f",
@@ -7033,7 +7392,7 @@
       "processing_status": "processed",
       "case_id": null,
       "case_engine_version": "case-v6.1",
-      "case_processed_at": "2026-08-26T19:58:51.179463+00:00"
+      "case_processed_at": "2026-08-26T23:39:03.929444+00:00"
     },
     {
       "id": "bc2b1fad6487f640c779663b4ea9e0f9dcabec8f",
@@ -7061,7 +7420,7 @@
       "processing_status": "processed",
       "case_id": null,
       "case_engine_version": "case-v6.1",
-      "case_processed_at": "2026-08-26T19:58:51.185198+00:00"
+      "case_processed_at": "2026-08-26T23:39:03.932875+00:00"
     },
     {
       "id": "b48112b229338daa968d188a5665819084b3a7a4",
@@ -7086,7 +7445,7 @@
       "processing_status": "processed",
       "case_id": null,
       "case_engine_version": "case-v6.1",
-      "case_processed_at": "2026-08-26T19:58:51.191399+00:00"
+      "case_processed_at": "2026-08-26T23:39:03.936610+00:00"
     },
     {
       "id": "1b4982b940ce06c0fbc2b6dd623ae65e0b6b266d",
@@ -7111,7 +7470,7 @@
       "processing_status": "processed",
       "case_id": null,
       "case_engine_version": "case-v6.1",
-      "case_processed_at": "2026-08-26T19:58:51.196864+00:00"
+      "case_processed_at": "2026-08-26T23:39:03.939820+00:00"
     },
     {
       "id": "cb4bc16c9da6cc1b3ecbc7292a17df7841486ab0",
@@ -7138,7 +7497,7 @@
       "processing_status": "processed",
       "case_id": null,
       "case_engine_version": "case-v6.1",
-      "case_processed_at": "2026-08-26T19:58:51.201899+00:00"
+      "case_processed_at": "2026-08-26T23:39:03.942840+00:00"
     },
     {
       "id": "add383cac143458c56cded11d51614578657e923",
@@ -7163,7 +7522,7 @@
       "processing_status": "processed",
       "case_id": null,
       "case_engine_version": "case-v6.1",
-      "case_processed_at": "2026-08-26T19:58:51.207322+00:00"
+      "case_processed_at": "2026-08-26T23:39:03.946105+00:00"
     },
     {
       "id": "7ce91d861e26d5a158b90bb910994203ef867bab",
@@ -7188,7 +7547,7 @@
       "processing_status": "processed",
       "case_id": null,
       "case_engine_version": "case-v6.1",
-      "case_processed_at": "2026-08-26T19:58:51.215600+00:00"
+      "case_processed_at": "2026-08-26T23:39:03.951303+00:00"
     },
     {
       "id": "dbcd0018dc768b6e7d1be1667740bf775966ec89",
@@ -7213,7 +7572,7 @@
       "processing_status": "processed",
       "case_id": null,
       "case_engine_version": "case-v6.1",
-      "case_processed_at": "2026-08-26T19:58:51.221058+00:00"
+      "case_processed_at": "2026-08-26T23:39:03.954604+00:00"
     },
     {
       "id": "6d8545973e18e3ec2d29983f555b3520f9b58bbf",
@@ -7238,7 +7597,7 @@
       "processing_status": "processed",
       "case_id": null,
       "case_engine_version": "case-v6.1",
-      "case_processed_at": "2026-08-26T19:58:51.229250+00:00"
+      "case_processed_at": "2026-08-26T23:39:03.959546+00:00"
     },
     {
       "id": "ac574943c47766010ff6623fc520f430f69c950a",
@@ -7265,7 +7624,7 @@
       "processing_status": "processed",
       "case_id": null,
       "case_engine_version": "case-v6.1",
-      "case_processed_at": "2026-08-26T19:58:51.234649+00:00"
+      "case_processed_at": "2026-08-26T23:39:03.962682+00:00"
     },
     {
       "id": "76e8bf295a99a81ac1e31326be64b3a29b1c49c0",
@@ -7290,7 +7649,7 @@
       "processing_status": "processed",
       "case_id": null,
       "case_engine_version": "case-v6.1",
-      "case_processed_at": "2026-08-26T19:58:51.241547+00:00"
+      "case_processed_at": "2026-08-26T23:39:03.966811+00:00"
     },
     {
       "id": "aeec6213d82e90c8fc3cfd9b7322ac5ea386e016",
@@ -7317,7 +7676,7 @@
       "processing_status": "processed",
       "case_id": null,
       "case_engine_version": "case-v6.1",
-      "case_processed_at": "2026-08-26T19:58:51.249211+00:00"
+      "case_processed_at": "2026-08-26T23:39:03.971444+00:00"
     },
     {
       "id": "cfe01e562cb990549e621fb2f90cbe255b4bb9ef",
@@ -7342,7 +7701,7 @@
       "processing_status": "processed",
       "case_id": null,
       "case_engine_version": "case-v6.1",
-      "case_processed_at": "2026-08-26T19:58:51.255426+00:00"
+      "case_processed_at": "2026-08-26T23:39:03.975122+00:00"
     },
     {
       "id": "0eec0e70247077bc4554b9a670aee2a27c71edc9",
@@ -7367,7 +7726,7 @@
       "processing_status": "processed",
       "case_id": null,
       "case_engine_version": "case-v6.1",
-      "case_processed_at": "2026-08-26T19:58:51.263276+00:00"
+      "case_processed_at": "2026-08-26T23:39:03.979942+00:00"
     },
     {
       "id": "b9cdb915927ac3d5e102e9c6fa9f0d29b5038096",
@@ -7392,7 +7751,7 @@
       "processing_status": "processed",
       "case_id": null,
       "case_engine_version": "case-v6.1",
-      "case_processed_at": "2026-08-26T19:58:51.268370+00:00"
+      "case_processed_at": "2026-08-26T23:39:03.983074+00:00"
     },
     {
       "id": "02125e260f17c2b4f83307d0d0d91fe4c924c114",
@@ -7417,7 +7776,7 @@
       "processing_status": "processed",
       "case_id": null,
       "case_engine_version": "case-v6.1",
-      "case_processed_at": "2026-08-26T19:58:51.273788+00:00"
+      "case_processed_at": "2026-08-26T23:39:03.986315+00:00"
     },
     {
       "id": "35f8e81586ba84248404de078f383ef3430d4ec0",
@@ -7442,7 +7801,7 @@
       "processing_status": "processed",
       "case_id": null,
       "case_engine_version": "case-v6.1",
-      "case_processed_at": "2026-08-26T19:58:51.282698+00:00"
+      "case_processed_at": "2026-08-26T23:39:03.991708+00:00"
     },
     {
       "id": "a800f5d60ecdc547634ff0162312e1c52900e2f8",
@@ -7467,7 +7826,7 @@
       "processing_status": "processed",
       "case_id": "CASE-000002",
       "case_engine_version": "case-v6.1",
-      "case_processed_at": "2026-08-26T19:58:51.937497+00:00"
+      "case_processed_at": "2026-08-26T23:39:04.390986+00:00"
     },
     {
       "id": "2815d69bfb5a74931b6fc8612a5653e913a0bb9e",
@@ -7492,7 +7851,7 @@
       "processing_status": "processed",
       "case_id": null,
       "case_engine_version": "case-v6.1",
-      "case_processed_at": "2026-08-26T19:58:51.288835+00:00"
+      "case_processed_at": "2026-08-26T23:39:03.995410+00:00"
     },
     {
       "id": "6bcb568098708827e2c4ad065e2890183bb45cb0",
@@ -7517,7 +7876,7 @@
       "processing_status": "processed",
       "case_id": null,
       "case_engine_version": "case-v6.1",
-      "case_processed_at": "2026-08-26T19:58:51.297968+00:00"
+      "case_processed_at": "2026-08-26T23:39:04.000933+00:00"
     },
     {
       "id": "07bf8303f1c6ac4c638b7665f239544d7afc94bb",
@@ -7542,7 +7901,7 @@
       "processing_status": "processed",
       "case_id": null,
       "case_engine_version": "case-v6.1",
-      "case_processed_at": "2026-08-26T19:58:51.303543+00:00"
+      "case_processed_at": "2026-08-26T23:39:04.004269+00:00"
     },
     {
       "id": "df9d3f25604077b3a3e409e7142aa1229c680596",
@@ -7567,7 +7926,7 @@
       "processing_status": "processed",
       "case_id": null,
       "case_engine_version": "case-v6.1",
-      "case_processed_at": "2026-08-26T19:58:51.309470+00:00"
+      "case_processed_at": "2026-08-26T23:39:04.007886+00:00"
     },
     {
       "id": "460ce9988c213dff9fc0a5c100ce15f836e5e34d",
@@ -7592,7 +7951,7 @@
       "processing_status": "processed",
       "case_id": null,
       "case_engine_version": "case-v6.1",
-      "case_processed_at": "2026-08-26T19:58:51.316461+00:00"
+      "case_processed_at": "2026-08-26T23:39:04.012079+00:00"
     },
     {
       "id": "ea436407704529ec650bc269de15e40e6fe363f2",
@@ -7619,7 +7978,7 @@
       "processing_status": "processed",
       "case_id": null,
       "case_engine_version": "case-v6.1",
-      "case_processed_at": "2026-08-26T19:58:51.322997+00:00"
+      "case_processed_at": "2026-08-26T23:39:04.016078+00:00"
     },
     {
       "id": "bc7889a53c6d3a3a1f70f0cc51a770c67d477bf0",
@@ -7646,7 +8005,7 @@
       "processing_status": "processed",
       "case_id": null,
       "case_engine_version": "case-v6.1",
-      "case_processed_at": "2026-08-26T19:58:51.328307+00:00"
+      "case_processed_at": "2026-08-26T23:39:04.019302+00:00"
     },
     {
       "id": "a8110ad3a51c0046a3c191b67afc13555bc62dc5",
@@ -7671,7 +8030,7 @@
       "processing_status": "processed",
       "case_id": null,
       "case_engine_version": "case-v6.1",
-      "case_processed_at": "2026-08-26T19:58:51.334542+00:00"
+      "case_processed_at": "2026-08-26T23:39:04.023097+00:00"
     },
     {
       "id": "a2d0c805bc15f21438783da357f73d6a439376e1",
@@ -7699,7 +8058,7 @@
       "processing_status": "processed",
       "case_id": null,
       "case_engine_version": "case-v6.1",
-      "case_processed_at": "2026-08-26T19:58:51.341181+00:00"
+      "case_processed_at": "2026-08-26T23:39:04.026929+00:00"
     },
     {
       "id": "fc6398c8a4c80564ccd1c3d7a37ee44bec4e555c",
@@ -7724,7 +8083,7 @@
       "processing_status": "processed",
       "case_id": null,
       "case_engine_version": "case-v6.1",
-      "case_processed_at": "2026-08-26T19:58:51.346725+00:00"
+      "case_processed_at": "2026-08-26T23:39:04.030161+00:00"
     },
     {
       "id": "f5e733c12ab8578048a64bb24a3d0ccf48ae785c",
@@ -7752,7 +8111,7 @@
       "processing_status": "processed",
       "case_id": null,
       "case_engine_version": "case-v6.1",
-      "case_processed_at": "2026-08-26T19:58:51.351697+00:00"
+      "case_processed_at": "2026-08-26T23:39:04.033280+00:00"
     },
     {
       "id": "c88b9bb3d9a36980f459c6824144dcb8303a94e1",
@@ -7777,7 +8136,7 @@
       "processing_status": "processed",
       "case_id": null,
       "case_engine_version": "case-v6.1",
-      "case_processed_at": "2026-08-26T19:58:51.358536+00:00"
+      "case_processed_at": "2026-08-26T23:39:04.037480+00:00"
     },
     {
       "id": "a59cc6960259fd66d1fd5ab7e4b851073ad50a2d",
@@ -7805,7 +8164,7 @@
       "processing_status": "processed",
       "case_id": "CASE-000012",
       "case_engine_version": "case-v6.1",
-      "case_processed_at": "2026-08-26T19:58:51.937501+00:00"
+      "case_processed_at": "2026-08-26T23:39:04.390989+00:00"
     },
     {
       "id": "2c9cf5a3f5be6d58c1297a9b979736df6bb0e41b",
@@ -7830,7 +8189,7 @@
       "processing_status": "processed",
       "case_id": "CASE-000002",
       "case_engine_version": "case-v6.1",
-      "case_processed_at": "2026-08-26T19:58:51.937503+00:00"
+      "case_processed_at": "2026-08-26T23:39:04.390990+00:00"
     },
     {
       "id": "926bf053907e4498be056e5bf01f78aaa78c8a93",
@@ -7855,7 +8214,7 @@
       "processing_status": "processed",
       "case_id": null,
       "case_engine_version": "case-v6.1",
-      "case_processed_at": "2026-08-26T19:58:51.363727+00:00"
+      "case_processed_at": "2026-08-26T23:39:04.040630+00:00"
     },
     {
       "id": "52123dc868c545710028deb58e88c29f217c6285",
@@ -7882,7 +8241,7 @@
       "processing_status": "processed",
       "case_id": null,
       "case_engine_version": "case-v6.1",
-      "case_processed_at": "2026-08-26T19:58:51.369584+00:00"
+      "case_processed_at": "2026-08-26T23:39:04.044197+00:00"
     },
     {
       "id": "3b99a319a0a291e4acd48fc18be13b2a44c2ee6b",
@@ -7907,7 +8266,7 @@
       "processing_status": "processed",
       "case_id": null,
       "case_engine_version": "case-v6.1",
-      "case_processed_at": "2026-08-26T19:58:51.375424+00:00"
+      "case_processed_at": "2026-08-26T23:39:04.047741+00:00"
     },
     {
       "id": "22643b7c058f02545f193eef13e38de337992881",
@@ -7934,7 +8293,7 @@
       "processing_status": "processed",
       "case_id": null,
       "case_engine_version": "case-v6.1",
-      "case_processed_at": "2026-08-26T19:58:51.382603+00:00"
+      "case_processed_at": "2026-08-26T23:39:04.052072+00:00"
     },
     {
       "id": "dbe23d540ef32d142e33efb8bf260396cc4442c4",
@@ -7959,7 +8318,7 @@
       "processing_status": "processed",
       "case_id": null,
       "case_engine_version": "case-v6.1",
-      "case_processed_at": "2026-08-26T19:58:51.390140+00:00"
+      "case_processed_at": "2026-08-26T23:39:04.056649+00:00"
     },
     {
       "id": "cabeeff0014fe64338de8d85a86c04fa2b0a6c52",
@@ -7984,7 +8343,7 @@
       "processing_status": "processed",
       "case_id": null,
       "case_engine_version": "case-v6.1",
-      "case_processed_at": "2026-08-26T19:58:51.397270+00:00"
+      "case_processed_at": "2026-08-26T23:39:04.060963+00:00"
     },
     {
       "id": "d36faf3e73e8f70dab19d74b5494aca34b275c66",
@@ -8011,7 +8370,7 @@
       "processing_status": "processed",
       "case_id": null,
       "case_engine_version": "case-v6.1",
-      "case_processed_at": "2026-08-26T19:58:51.404479+00:00"
+      "case_processed_at": "2026-08-26T23:39:04.065251+00:00"
     },
     {
       "id": "5e0b876dc0faaf6750db49819edd2e4283352df2",
@@ -8039,7 +8398,7 @@
       "processing_status": "processed",
       "case_id": null,
       "case_engine_version": "case-v6.1",
-      "case_processed_at": "2026-08-26T19:58:51.410334+00:00"
+      "case_processed_at": "2026-08-26T23:39:04.068753+00:00"
     },
     {
       "id": "fc50deacde3fc028a73b433c13dc50ef22ee4838",
@@ -8066,7 +8425,7 @@
       "processing_status": "processed",
       "case_id": null,
       "case_engine_version": "case-v6.1",
-      "case_processed_at": "2026-08-26T19:58:51.415870+00:00"
+      "case_processed_at": "2026-08-26T23:39:04.072083+00:00"
     },
     {
       "id": "7922ec251b242748118015c70e82d73d65197ee7",
@@ -8093,7 +8452,7 @@
       "processing_status": "processed",
       "case_id": "CASE-000013",
       "case_engine_version": "case-v6.1",
-      "case_processed_at": "2026-08-26T19:58:51.937507+00:00"
+      "case_processed_at": "2026-08-26T23:39:04.390992+00:00"
     },
     {
       "id": "3978c95488206405b0d5e2a535ac8a195cf15b41",
@@ -8118,7 +8477,7 @@
       "processing_status": "processed",
       "case_id": null,
       "case_engine_version": "case-v6.1",
-      "case_processed_at": "2026-08-26T19:58:51.422786+00:00"
+      "case_processed_at": "2026-08-26T23:39:04.076274+00:00"
     },
     {
       "id": "68591b1c5a0e5c42f8c1a0c33469e16498f53d40",
@@ -8146,7 +8505,7 @@
       "processing_status": "processed",
       "case_id": null,
       "case_engine_version": "case-v6.1",
-      "case_processed_at": "2026-08-26T19:58:51.429187+00:00"
+      "case_processed_at": "2026-08-26T23:39:04.080080+00:00"
     },
     {
       "id": "d3954ac724574a38848c69761015f65deaa476c9",
@@ -8171,7 +8530,7 @@
       "processing_status": "processed",
       "case_id": null,
       "case_engine_version": "case-v6.1",
-      "case_processed_at": "2026-08-26T19:58:51.434554+00:00"
+      "case_processed_at": "2026-08-26T23:39:04.083229+00:00"
     },
     {
       "id": "8e507fc10ca88a483f923e2449459c49746c70b5",
@@ -8199,7 +8558,7 @@
       "processing_status": "processed",
       "case_id": null,
       "case_engine_version": "case-v6.1",
-      "case_processed_at": "2026-08-26T19:58:51.441237+00:00"
+      "case_processed_at": "2026-08-26T23:39:04.087222+00:00"
     },
     {
       "id": "4c6ba1a60a1f63fd7a39ab84afd0e74cf76b952c",
@@ -8226,7 +8585,7 @@
       "processing_status": "processed",
       "case_id": null,
       "case_engine_version": "case-v6.1",
-      "case_processed_at": "2026-08-26T19:58:51.447352+00:00"
+      "case_processed_at": "2026-08-26T23:39:04.090942+00:00"
     },
     {
       "id": "f77eabb60aa6b286601d6701cd34dbaf6194cd9c",
@@ -8253,7 +8612,7 @@
       "processing_status": "processed",
       "case_id": null,
       "case_engine_version": "case-v6.1",
-      "case_processed_at": "2026-08-26T19:58:51.453336+00:00"
+      "case_processed_at": "2026-08-26T23:39:04.094516+00:00"
     },
     {
       "id": "ddd57290e6ecba214e45bd347c6849e5beebba71",
@@ -8280,7 +8639,7 @@
       "processing_status": "processed",
       "case_id": null,
       "case_engine_version": "case-v6.1",
-      "case_processed_at": "2026-08-26T19:58:51.461163+00:00"
+      "case_processed_at": "2026-08-26T23:39:04.099232+00:00"
     },
     {
       "id": "593dbd4db9e83906e5ffad0c3bca174e1b9b8e57",
@@ -8307,7 +8666,7 @@
       "processing_status": "processed",
       "case_id": null,
       "case_engine_version": "case-v6.1",
-      "case_processed_at": "2026-08-26T19:58:51.467088+00:00"
+      "case_processed_at": "2026-08-26T23:39:04.102853+00:00"
     },
     {
       "id": "7e8596ff64745c1b7fa12eda377617039ce8a7ab",
@@ -8332,7 +8691,7 @@
       "processing_status": "processed",
       "case_id": null,
       "case_engine_version": "case-v6.1",
-      "case_processed_at": "2026-08-26T19:58:51.475009+00:00"
+      "case_processed_at": "2026-08-26T23:39:04.107758+00:00"
     },
     {
       "id": "52e72d020f9c1acc8b629367f27cec65afe8a797",
@@ -8357,7 +8716,7 @@
       "processing_status": "processed",
       "case_id": null,
       "case_engine_version": "case-v6.1",
-      "case_processed_at": "2026-08-26T19:58:51.480046+00:00"
+      "case_processed_at": "2026-08-26T23:39:04.110749+00:00"
     },
     {
       "id": "70f5c7fea8207755de9dc7e87d441d898eeb710f",
@@ -8385,7 +8744,7 @@
       "processing_status": "processed",
       "case_id": null,
       "case_engine_version": "case-v6.1",
-      "case_processed_at": "2026-08-26T19:58:51.486089+00:00"
+      "case_processed_at": "2026-08-26T23:39:04.114366+00:00"
     },
     {
       "id": "e796b9f3a858b6dd36e506e66829aef93be7696b",
@@ -8410,7 +8769,7 @@
       "processing_status": "processed",
       "case_id": null,
       "case_engine_version": "case-v6.1",
-      "case_processed_at": "2026-08-26T19:58:51.493082+00:00"
+      "case_processed_at": "2026-08-26T23:39:04.118562+00:00"
     },
     {
       "id": "593d1591bd296dcd197c20ca843f882159661378",
@@ -8438,7 +8797,7 @@
       "processing_status": "processed",
       "case_id": null,
       "case_engine_version": "case-v6.1",
-      "case_processed_at": "2026-08-26T19:58:51.499851+00:00"
+      "case_processed_at": "2026-08-26T23:39:04.122696+00:00"
     },
     {
       "id": "9125749cad22b8c0f55bef01bd49cb1f9847da8e",
@@ -8465,7 +8824,7 @@
       "processing_status": "processed",
       "case_id": null,
       "case_engine_version": "case-v6.1",
-      "case_processed_at": "2026-08-26T19:58:51.507056+00:00"
+      "case_processed_at": "2026-08-26T23:39:04.127027+00:00"
     },
     {
       "id": "249633d47ae0a90bf0838302f01fa27529d5b819",
@@ -8493,7 +8852,7 @@
       "processing_status": "processed",
       "case_id": null,
       "case_engine_version": "case-v6.1",
-      "case_processed_at": "2026-08-26T19:58:51.513058+00:00"
+      "case_processed_at": "2026-08-26T23:39:04.130627+00:00"
     },
     {
       "id": "7e928d3471fee2ee0b543794d4a97c4f0c4ee592",
@@ -8518,7 +8877,7 @@
       "processing_status": "processed",
       "case_id": null,
       "case_engine_version": "case-v6.1",
-      "case_processed_at": "2026-08-26T19:58:51.520997+00:00"
+      "case_processed_at": "2026-08-26T23:39:04.135423+00:00"
     },
     {
       "id": "9bbdbaa05d4e58c311dccbfd3185d7cc3477ee93",
@@ -8545,7 +8904,7 @@
       "processing_status": "processed",
       "case_id": "CASE-000004",
       "case_engine_version": "case-v6.1",
-      "case_processed_at": "2026-08-26T19:58:51.937512+00:00"
+      "case_processed_at": "2026-08-26T23:39:04.390994+00:00"
     },
     {
       "id": "e4dbeedbeced3c55c885d7feeaf4738877ae2bb1",
@@ -8572,7 +8931,7 @@
       "processing_status": "processed",
       "case_id": null,
       "case_engine_version": "case-v6.1",
-      "case_processed_at": "2026-08-26T19:58:51.527056+00:00"
+      "case_processed_at": "2026-08-26T23:39:04.139059+00:00"
     },
     {
       "id": "0f4317e0fb72b4bf2f730c16092fb1d0bee77722",
@@ -8597,7 +8956,7 @@
       "processing_status": "processed",
       "case_id": null,
       "case_engine_version": "case-v6.1",
-      "case_processed_at": "2026-08-26T19:58:51.534123+00:00"
+      "case_processed_at": "2026-08-26T23:39:04.143336+00:00"
     },
     {
       "id": "ab5bf2a680587da819a17f2a1c88eccbd0c8a31e",
@@ -8622,7 +8981,7 @@
       "processing_status": "processed",
       "case_id": null,
       "case_engine_version": "case-v6.1",
-      "case_processed_at": "2026-08-26T19:58:51.539341+00:00"
+      "case_processed_at": "2026-08-26T23:39:04.146413+00:00"
     },
     {
       "id": "6fb747c1f9952bf61d6704f53d707de0ce4877a9",
@@ -8647,7 +9006,7 @@
       "processing_status": "processed",
       "case_id": null,
       "case_engine_version": "case-v6.1",
-      "case_processed_at": "2026-08-26T19:58:51.543943+00:00"
+      "case_processed_at": "2026-08-26T23:39:04.149114+00:00"
     },
     {
       "id": "2025b00bb3ef689f35ff923d339470d179a810d3",
@@ -8672,7 +9031,7 @@
       "processing_status": "processed",
       "case_id": null,
       "case_engine_version": "case-v6.1",
-      "case_processed_at": "2026-08-26T19:58:51.550848+00:00"
+      "case_processed_at": "2026-08-26T23:39:04.153318+00:00"
     },
     {
       "id": "eb146279edca9a1b63a5f449034eaf5e1aaf01fc",
@@ -8699,7 +9058,7 @@
       "processing_status": "processed",
       "case_id": null,
       "case_engine_version": "case-v6.1",
-      "case_processed_at": "2026-08-26T19:58:51.559320+00:00"
+      "case_processed_at": "2026-08-26T23:39:04.158468+00:00"
     },
     {
       "id": "5410a567d2af0483ad6a5e6faa62921ffd88eef7",
@@ -8726,7 +9085,7 @@
       "processing_status": "processed",
       "case_id": null,
       "case_engine_version": "case-v6.1",
-      "case_processed_at": "2026-08-26T19:58:51.564358+00:00"
+      "case_processed_at": "2026-08-26T23:39:04.161479+00:00"
     },
     {
       "id": "f439b3ae1aaac24a4fd806b7b02b48c880e04d21",
@@ -8754,7 +9113,7 @@
       "processing_status": "processed",
       "case_id": null,
       "case_engine_version": "case-v6.1",
-      "case_processed_at": "2026-08-26T19:58:51.571201+00:00"
+      "case_processed_at": "2026-08-26T23:39:04.165582+00:00"
     },
     {
       "id": "8b1d50cfe30a434c7b35d15047e58ca630c4485c",
@@ -8779,7 +9138,7 @@
       "processing_status": "processed",
       "case_id": null,
       "case_engine_version": "case-v6.1",
-      "case_processed_at": "2026-08-26T19:58:51.576636+00:00"
+      "case_processed_at": "2026-08-26T23:39:04.168890+00:00"
     },
     {
       "id": "fe854b61ef2a44c03286c8ddc299dfb798595e91",
@@ -8804,7 +9163,7 @@
       "processing_status": "processed",
       "case_id": null,
       "case_engine_version": "case-v6.1",
-      "case_processed_at": "2026-08-26T19:58:51.582155+00:00"
+      "case_processed_at": "2026-08-26T23:39:04.172191+00:00"
     },
     {
       "id": "47fa15c6fa39729635abaa8bf02af4827d531e54",
@@ -8832,7 +9191,7 @@
       "processing_status": "processed",
       "case_id": null,
       "case_engine_version": "case-v6.1",
-      "case_processed_at": "2026-08-26T19:58:51.586837+00:00"
+      "case_processed_at": "2026-08-26T23:39:04.174989+00:00"
     },
     {
       "id": "bb643a412afa5ffa2cd773fa82a76663fdd5c2c0",
@@ -8859,7 +9218,7 @@
       "processing_status": "processed",
       "case_id": null,
       "case_engine_version": "case-v6.1",
-      "case_processed_at": "2026-08-26T19:58:51.591534+00:00"
+      "case_processed_at": "2026-08-26T23:39:04.177744+00:00"
     },
     {
       "id": "d34695fe6761b0d9d0e4498331a9591e0bcd6b1b",
@@ -8886,7 +9245,7 @@
       "processing_status": "processed",
       "case_id": null,
       "case_engine_version": "case-v6.1",
-      "case_processed_at": "2026-08-26T19:58:51.596592+00:00"
+      "case_processed_at": "2026-08-26T23:39:04.180758+00:00"
     },
     {
       "id": "55f569044abf68d2dcda1c44e5997ac235715178",
@@ -8914,7 +9273,7 @@
       "processing_status": "processed",
       "case_id": null,
       "case_engine_version": "case-v6.1",
-      "case_processed_at": "2026-08-26T19:58:51.602619+00:00"
+      "case_processed_at": "2026-08-26T23:39:04.184405+00:00"
     },
     {
       "id": "816c8a1cec51ed7134295df2198e5f73669c74d8",
@@ -8939,7 +9298,7 @@
       "processing_status": "processed",
       "case_id": null,
       "case_engine_version": "case-v6.1",
-      "case_processed_at": "2026-08-26T19:58:51.608873+00:00"
+      "case_processed_at": "2026-08-26T23:39:04.188170+00:00"
     },
     {
       "id": "0798c34067013fbe53ea76daf14125b052bf73ba",
@@ -8964,7 +9323,7 @@
       "processing_status": "processed",
       "case_id": null,
       "case_engine_version": "case-v6.1",
-      "case_processed_at": "2026-08-26T19:58:51.615038+00:00"
+      "case_processed_at": "2026-08-26T23:39:04.191877+00:00"
     },
     {
       "id": "87999315fd91f132404472aa60f91b3a2355459b",
@@ -8989,7 +9348,7 @@
       "processing_status": "processed",
       "case_id": "CASE-000014",
       "case_engine_version": "case-v6.1",
-      "case_processed_at": "2026-08-26T19:58:51.937517+00:00"
+      "case_processed_at": "2026-08-26T23:39:04.390996+00:00"
     },
     {
       "id": "559ca7e4a8c862e45735d82022f05f2aeb789b85",
@@ -9017,7 +9376,7 @@
       "processing_status": "processed",
       "case_id": null,
       "case_engine_version": "case-v6.1",
-      "case_processed_at": "2026-08-26T19:58:51.621441+00:00"
+      "case_processed_at": "2026-08-26T23:39:04.195786+00:00"
     },
     {
       "id": "97b4dc9780b500c5cd58bcf97781e064a4a6ff2d",
@@ -9044,7 +9403,7 @@
       "processing_status": "processed",
       "case_id": "CASE-000004",
       "case_engine_version": "case-v6.1",
-      "case_processed_at": "2026-08-26T19:58:51.937519+00:00"
+      "case_processed_at": "2026-08-26T23:39:04.390997+00:00"
     },
     {
       "id": "7f070a6996781de9142a39fa4b203f69e3837a24",
@@ -9069,7 +9428,7 @@
       "processing_status": "processed",
       "case_id": null,
       "case_engine_version": "case-v6.1",
-      "case_processed_at": "2026-08-26T19:58:51.628702+00:00"
+      "case_processed_at": "2026-08-26T23:39:04.200180+00:00"
     },
     {
       "id": "a9adc46f64449f96c39ac06eab4a112fed3a3fc7",
@@ -9094,7 +9453,7 @@
       "processing_status": "processed",
       "case_id": null,
       "case_engine_version": "case-v6.1",
-      "case_processed_at": "2026-08-26T19:58:51.635472+00:00"
+      "case_processed_at": "2026-08-26T23:39:04.204241+00:00"
     },
     {
       "id": "f1c06dc555a8ef6b005bb509db4dae090cd20291",
@@ -9119,7 +9478,7 @@
       "processing_status": "processed",
       "case_id": null,
       "case_engine_version": "case-v6.1",
-      "case_processed_at": "2026-08-26T19:58:51.644221+00:00"
+      "case_processed_at": "2026-08-26T23:39:04.209579+00:00"
     },
     {
       "id": "be2f9d77a5209ea282979de2e56b2d9dca4e14cd",
@@ -9144,7 +9503,7 @@
       "processing_status": "processed",
       "case_id": null,
       "case_engine_version": "case-v6.1",
-      "case_processed_at": "2026-08-26T19:58:51.649000+00:00"
+      "case_processed_at": "2026-08-26T23:39:04.212471+00:00"
     },
     {
       "id": "94d5191112cf64e6d6dc4075089be8c9c9bf6e3e",
@@ -9171,7 +9530,7 @@
       "processing_status": "processed",
       "case_id": "CASE-000004",
       "case_engine_version": "case-v6.1",
-      "case_processed_at": "2026-08-26T19:58:51.937521+00:00"
+      "case_processed_at": "2026-08-26T23:39:04.390999+00:00"
     },
     {
       "id": "35ed23fca1d3452c8dab4b26c65bf6d830b9fe0f",
@@ -9196,7 +9555,7 @@
       "processing_status": "processed",
       "case_id": null,
       "case_engine_version": "case-v6.1",
-      "case_processed_at": "2026-08-26T19:58:51.657461+00:00"
+      "case_processed_at": "2026-08-26T23:39:04.217636+00:00"
     },
     {
       "id": "7aff0cd9ac49f17c93b811e88b5a96479ea8638c",
@@ -9221,7 +9580,7 @@
       "processing_status": "processed",
       "case_id": null,
       "case_engine_version": "case-v6.1",
-      "case_processed_at": "2026-08-26T19:58:51.664728+00:00"
+      "case_processed_at": "2026-08-26T23:39:04.222016+00:00"
     },
     {
       "id": "4bb866132e622fa13c6de5bb79ff7f0859cdbcf1",
@@ -9249,7 +9608,7 @@
       "processing_status": "processed",
       "case_id": "CASE-000004",
       "case_engine_version": "case-v6.1",
-      "case_processed_at": "2026-08-26T19:58:51.937524+00:00"
+      "case_processed_at": "2026-08-26T23:39:04.391000+00:00"
     },
     {
       "id": "9c9f22fa62d6c0c1308ece67a6c62ca56221753d",
@@ -9274,7 +9633,7 @@
       "processing_status": "processed",
       "case_id": null,
       "case_engine_version": "case-v6.1",
-      "case_processed_at": "2026-08-26T19:58:51.672572+00:00"
+      "case_processed_at": "2026-08-26T23:39:04.226759+00:00"
     },
     {
       "id": "882b5d2527e3e16c6d03ec1af4a636c2f194df9f",
@@ -9299,7 +9658,7 @@
       "processing_status": "processed",
       "case_id": null,
       "case_engine_version": "case-v6.1",
-      "case_processed_at": "2026-08-26T19:58:51.678859+00:00"
+      "case_processed_at": "2026-08-26T23:39:04.230604+00:00"
     },
     {
       "id": "aabf1fd3bdc535b93b49df5992f5c34f1e3a6c23",
@@ -9324,7 +9683,7 @@
       "processing_status": "processed",
       "case_id": null,
       "case_engine_version": "case-v6.1",
-      "case_processed_at": "2026-08-26T19:58:51.684460+00:00"
+      "case_processed_at": "2026-08-26T23:39:04.233983+00:00"
     },
     {
       "id": "328817e21f423562e1406bee0495e6df5dd8937f",
@@ -9349,7 +9708,7 @@
       "processing_status": "processed",
       "case_id": null,
       "case_engine_version": "case-v6.1",
-      "case_processed_at": "2026-08-26T19:58:51.691754+00:00"
+      "case_processed_at": "2026-08-26T23:39:04.238334+00:00"
     },
     {
       "id": "69b6569bd966ddbeb27ccd6db4e647a81bbe9cd8",
@@ -9374,7 +9733,7 @@
       "processing_status": "processed",
       "case_id": null,
       "case_engine_version": "case-v6.1",
-      "case_processed_at": "2026-08-26T19:58:51.697397+00:00"
+      "case_processed_at": "2026-08-26T23:39:04.241680+00:00"
     },
     {
       "id": "fac2f8d3cb4c59a4c79699e9ec6f7ff098528ffb",
@@ -9401,7 +9760,7 @@
       "processing_status": "processed",
       "case_id": "CASE-000004",
       "case_engine_version": "case-v6.1",
-      "case_processed_at": "2026-08-26T19:58:51.937527+00:00"
+      "case_processed_at": "2026-08-26T23:39:04.391002+00:00"
     },
     {
       "id": "ae43596c4ad24ae7e70731b66de584f5f5446adc",
@@ -9428,7 +9787,7 @@
       "processing_status": "processed",
       "case_id": "CASE-000004",
       "case_engine_version": "case-v6.1",
-      "case_processed_at": "2026-08-26T19:58:51.937529+00:00"
+      "case_processed_at": "2026-08-26T23:39:04.391003+00:00"
     },
     {
       "id": "ce2a4a3162477c22794af86064df2d63ac6a0790",
@@ -9455,7 +9814,7 @@
       "processing_status": "processed",
       "case_id": "CASE-000015",
       "case_engine_version": "case-v6.1",
-      "case_processed_at": "2026-08-26T19:58:51.937531+00:00"
+      "case_processed_at": "2026-08-26T23:39:04.391004+00:00"
     },
     {
       "id": "f9edba934d40e192603009eb7c0e097c4bd881e8",
@@ -9482,7 +9841,7 @@
       "processing_status": "processed",
       "case_id": "CASE-000015",
       "case_engine_version": "case-v6.1",
-      "case_processed_at": "2026-08-26T19:58:51.937533+00:00"
+      "case_processed_at": "2026-08-26T23:39:04.391005+00:00"
     },
     {
       "id": "cbab57f40b7b5437f826c6250b14b7580ded92dc",
@@ -9509,7 +9868,7 @@
       "processing_status": "processed",
       "case_id": null,
       "case_engine_version": "case-v6.1",
-      "case_processed_at": "2026-08-26T19:58:51.703739+00:00"
+      "case_processed_at": "2026-08-26T23:39:04.245516+00:00"
     },
     {
       "id": "08c5efee95cf838159daaf2e374733e0cdde7e32",
@@ -9537,7 +9896,7 @@
       "processing_status": "processed",
       "case_id": null,
       "case_engine_version": "case-v6.1",
-      "case_processed_at": "2026-08-26T19:58:51.710394+00:00"
+      "case_processed_at": "2026-08-26T23:39:04.249603+00:00"
     },
     {
       "id": "5f13eb82d506b87136371a75a6f9cd0b67bd2296",
@@ -9562,7 +9921,7 @@
       "processing_status": "processed",
       "case_id": null,
       "case_engine_version": "case-v6.1",
-      "case_processed_at": "2026-08-26T19:58:51.716593+00:00"
+      "case_processed_at": "2026-08-26T23:39:04.253351+00:00"
     },
     {
       "id": "4c74d5ec1aa64a7043068e5274dc07340dc68194",
@@ -9587,7 +9946,7 @@
       "processing_status": "processed",
       "case_id": null,
       "case_engine_version": "case-v6.1",
-      "case_processed_at": "2026-08-26T19:58:51.722765+00:00"
+      "case_processed_at": "2026-08-26T23:39:04.257084+00:00"
     },
     {
       "id": "122065ad2bc2553f3b97c5cc4b4a55f77789d05a",
@@ -9614,7 +9973,7 @@
       "processing_status": "processed",
       "case_id": null,
       "case_engine_version": "case-v6.1",
-      "case_processed_at": "2026-08-26T19:58:51.729206+00:00"
+      "case_processed_at": "2026-08-26T23:39:04.261059+00:00"
     },
     {
       "id": "929fc189e2fb74615d1f40f1f99ca0419db93acd",
@@ -9639,7 +9998,7 @@
       "processing_status": "processed",
       "case_id": null,
       "case_engine_version": "case-v6.1",
-      "case_processed_at": "2026-08-26T19:58:51.734113+00:00"
+      "case_processed_at": "2026-08-26T23:39:04.264014+00:00"
     },
     {
       "id": "904dee76b1be2e4464d1b243c9c9f3402580386b",
@@ -9666,7 +10025,7 @@
       "processing_status": "processed",
       "case_id": null,
       "case_engine_version": "case-v6.1",
-      "case_processed_at": "2026-08-26T19:58:51.740251+00:00"
+      "case_processed_at": "2026-08-26T23:39:04.267769+00:00"
     },
     {
       "id": "3807ffa2046600107bd421bdd2e6070e335ace50",
@@ -9693,7 +10052,7 @@
       "processing_status": "processed",
       "case_id": null,
       "case_engine_version": "case-v6.1",
-      "case_processed_at": "2026-08-26T19:58:51.746297+00:00"
+      "case_processed_at": "2026-08-26T23:39:04.271444+00:00"
     },
     {
       "id": "de4c13d102d88e1f8c631d7ef507b947b2dece47",
@@ -9718,7 +10077,7 @@
       "processing_status": "processed",
       "case_id": null,
       "case_engine_version": "case-v6.1",
-      "case_processed_at": "2026-08-26T19:58:51.753551+00:00"
+      "case_processed_at": "2026-08-26T23:39:04.275813+00:00"
     },
     {
       "id": "393d477a29494dc25419b1cfb8efacfc7f6bc7a7",
@@ -9745,7 +10104,7 @@
       "processing_status": "processed",
       "case_id": "CASE-000016",
       "case_engine_version": "case-v6.1",
-      "case_processed_at": "2026-08-26T19:58:51.937536+00:00"
+      "case_processed_at": "2026-08-26T23:39:04.391007+00:00"
     },
     {
       "id": "2b5d12f9f88428014f2f951566fa1dc5aad1327f",
@@ -9772,7 +10131,7 @@
       "processing_status": "processed",
       "case_id": "CASE-000016",
       "case_engine_version": "case-v6.1",
-      "case_processed_at": "2026-08-26T19:58:51.937538+00:00"
+      "case_processed_at": "2026-08-26T23:39:04.391008+00:00"
     },
     {
       "id": "4c543b22167f1decf6f1560bc8a35a075762001f",
@@ -9797,7 +10156,7 @@
       "processing_status": "processed",
       "case_id": null,
       "case_engine_version": "case-v6.1",
-      "case_processed_at": "2026-08-26T19:58:51.760687+00:00"
+      "case_processed_at": "2026-08-26T23:39:04.280128+00:00"
     },
     {
       "id": "6b2a09e8c19a1ed02c38af626916b50fc11406a8",
@@ -9824,7 +10183,7 @@
       "processing_status": "processed",
       "case_id": null,
       "case_engine_version": "case-v6.1",
-      "case_processed_at": "2026-08-26T19:58:51.764895+00:00"
+      "case_processed_at": "2026-08-26T23:39:04.282593+00:00"
     },
     {
       "id": "f1429139e7b91d5b808a60e9962f816fb9b896ae",
@@ -9849,7 +10208,7 @@
       "processing_status": "processed",
       "case_id": null,
       "case_engine_version": "case-v6.1",
-      "case_processed_at": "2026-08-26T19:58:51.772191+00:00"
+      "case_processed_at": "2026-08-26T23:39:04.286962+00:00"
     },
     {
       "id": "1aa2c708d6a5461806974b5b8bab3c1ddfbb1907",
@@ -9874,7 +10233,7 @@
       "processing_status": "processed",
       "case_id": null,
       "case_engine_version": "case-v6.1",
-      "case_processed_at": "2026-08-26T19:58:51.779360+00:00"
+      "case_processed_at": "2026-08-26T23:39:04.291230+00:00"
     },
     {
       "id": "b29379c6984c26b73f8cfc0e8dc98947f4a3ae51",
@@ -9901,7 +10260,7 @@
       "processing_status": "processed",
       "case_id": null,
       "case_engine_version": "case-v6.1",
-      "case_processed_at": "2026-08-26T19:58:51.784936+00:00"
+      "case_processed_at": "2026-08-26T23:39:04.294527+00:00"
     },
     {
       "id": "7edb0befba4848cfd604a09acbd51e52d83393b8",
@@ -9926,7 +10285,7 @@
       "processing_status": "processed",
       "case_id": null,
       "case_engine_version": "case-v6.1",
-      "case_processed_at": "2026-08-26T19:58:51.792923+00:00"
+      "case_processed_at": "2026-08-26T23:39:04.299329+00:00"
     },
     {
       "id": "032e9da548b8702782ef5bcbbe9cd81e932e5d0a",
@@ -9953,7 +10312,7 @@
       "processing_status": "processed",
       "case_id": "CASE-000004",
       "case_engine_version": "case-v6.1",
-      "case_processed_at": "2026-08-26T19:58:51.937542+00:00"
+      "case_processed_at": "2026-08-26T23:39:04.391009+00:00"
     },
     {
       "id": "d9ee8dcb2681fec2dd90fe6fdffa0cd876744f09",
@@ -9978,7 +10337,7 @@
       "processing_status": "processed",
       "case_id": null,
       "case_engine_version": "case-v6.1",
-      "case_processed_at": "2026-08-26T19:58:51.799695+00:00"
+      "case_processed_at": "2026-08-26T23:39:04.303423+00:00"
     },
     {
       "id": "fdf0d0883ecacf0c12cd7e345880099f7020c523",
@@ -10005,7 +10364,7 @@
       "processing_status": "processed",
       "case_id": null,
       "case_engine_version": "case-v6.1",
-      "case_processed_at": "2026-08-26T19:58:51.806260+00:00"
+      "case_processed_at": "2026-08-26T23:39:04.307509+00:00"
     },
     {
       "id": "44cee2a8a6dc92927eb3089ef0add1f88646a639",
@@ -10032,7 +10391,7 @@
       "processing_status": "processed",
       "case_id": null,
       "case_engine_version": "case-v6.1",
-      "case_processed_at": "2026-08-26T19:58:51.812569+00:00"
+      "case_processed_at": "2026-08-26T23:39:04.311350+00:00"
     },
     {
       "id": "981419c21ada98a1b98fe119029dc79a7ac43b25",
@@ -10059,7 +10418,7 @@
       "processing_status": "processed",
       "case_id": null,
       "case_engine_version": "case-v6.1",
-      "case_processed_at": "2026-08-26T19:58:51.818877+00:00"
+      "case_processed_at": "2026-08-26T23:39:04.315168+00:00"
     },
     {
       "id": "ffa69f45282df0c2638aff5f34eb8899932e1b9c",
@@ -10086,7 +10445,7 @@
       "processing_status": "processed",
       "case_id": null,
       "case_engine_version": "case-v6.1",
-      "case_processed_at": "2026-08-26T19:58:51.824527+00:00"
+      "case_processed_at": "2026-08-26T23:39:04.318637+00:00"
     },
     {
       "id": "e02f2502e0b018afcb484e7363bf9ad26c0579dd",
@@ -10113,7 +10472,7 @@
       "processing_status": "processed",
       "case_id": "CASE-000004",
       "case_engine_version": "case-v6.1",
-      "case_processed_at": "2026-08-26T19:58:51.937544+00:00"
+      "case_processed_at": "2026-08-26T23:39:04.391011+00:00"
     },
     {
       "id": "bd943c81317f17013a88b5ef3772c843eaa504dd",
@@ -10140,7 +10499,7 @@
       "processing_status": "processed",
       "case_id": null,
       "case_engine_version": "case-v6.1",
-      "case_processed_at": "2026-08-26T19:58:51.829868+00:00"
+      "case_processed_at": "2026-08-26T23:39:04.321947+00:00"
     },
     {
       "id": "a1dc8997afefc81ac6a33cdc7e78c3241f84adb0",
@@ -10167,7 +10526,7 @@
       "processing_status": "processed",
       "case_id": null,
       "case_engine_version": "case-v6.1",
-      "case_processed_at": "2026-08-26T19:58:51.837054+00:00"
+      "case_processed_at": "2026-08-26T23:39:04.326316+00:00"
     },
     {
       "id": "3e2f0a8f4ee79894e8fcde5264516c1d88554c19",
@@ -10192,7 +10551,7 @@
       "processing_status": "processed",
       "case_id": "CASE-000017",
       "case_engine_version": "case-v6.1",
-      "case_processed_at": "2026-08-26T19:58:51.937547+00:00"
+      "case_processed_at": "2026-08-26T23:39:04.391012+00:00"
     },
     {
       "id": "afbe12a3d4850d8f07396efcb9df2d88a19d2cc9",
@@ -10219,7 +10578,7 @@
       "processing_status": "processed",
       "case_id": null,
       "case_engine_version": "case-v6.1",
-      "case_processed_at": "2026-08-26T19:58:51.844243+00:00"
+      "case_processed_at": "2026-08-26T23:39:04.330664+00:00"
     },
     {
       "id": "45f96d4f40ee50dc0f5cd8f0f655d15eb52c9fda",
@@ -10247,7 +10606,7 @@
       "processing_status": "processed",
       "case_id": "CASE-000004",
       "case_engine_version": "case-v6.1",
-      "case_processed_at": "2026-08-26T19:58:51.937549+00:00"
+      "case_processed_at": "2026-08-26T23:39:04.391013+00:00"
     },
     {
       "id": "71ec39d19fdb3af1aa995d9dd9d83a3ccecc1afa",
@@ -10274,7 +10633,7 @@
       "processing_status": "processed",
       "case_id": "CASE-000004",
       "case_engine_version": "case-v6.1",
-      "case_processed_at": "2026-08-26T19:58:51.937551+00:00"
+      "case_processed_at": "2026-08-26T23:39:04.391014+00:00"
     },
     {
       "id": "a4397645a81f6bb4f28941bf71efa14a390d3a82",
@@ -10299,7 +10658,7 @@
       "processing_status": "processed",
       "case_id": "CASE-000018",
       "case_engine_version": "case-v6.1",
-      "case_processed_at": "2026-08-26T19:58:51.937553+00:00"
+      "case_processed_at": "2026-08-26T23:39:04.391015+00:00"
     },
     {
       "id": "0eb20704bc936a983556bfd5c1ca5a6ffa127512",
@@ -10327,7 +10686,7 @@
       "processing_status": "processed",
       "case_id": null,
       "case_engine_version": "case-v6.1",
-      "case_processed_at": "2026-08-26T19:58:51.850507+00:00"
+      "case_processed_at": "2026-08-26T23:39:04.334502+00:00"
     },
     {
       "id": "b321bfb5b2a520a21e24b88fba6fb0f96f99eb45",
@@ -10352,7 +10711,7 @@
       "processing_status": "processed",
       "case_id": "CASE-000019",
       "case_engine_version": "case-v6.1",
-      "case_processed_at": "2026-08-26T19:58:51.937555+00:00"
+      "case_processed_at": "2026-08-26T23:39:04.391017+00:00"
     },
     {
       "id": "d4f8da73ecc833e478bd19a82da8ad5d8375624f",
@@ -10377,7 +10736,7 @@
       "processing_status": "processed",
       "case_id": null,
       "case_engine_version": "case-v6.1",
-      "case_processed_at": "2026-08-26T19:58:51.857845+00:00"
+      "case_processed_at": "2026-08-26T23:39:04.338901+00:00"
     },
     {
       "id": "15d735cd5ddadaf5262ecccccdbee87a76b110b7",
@@ -10404,7 +10763,7 @@
       "processing_status": "processed",
       "case_id": null,
       "case_engine_version": "case-v6.1",
-      "case_processed_at": "2026-08-26T19:58:51.864877+00:00"
+      "case_processed_at": "2026-08-26T23:39:04.343145+00:00"
     },
     {
       "id": "4304d1044be8a32dbb3706f04f36ed8d000bb00c",
@@ -10429,7 +10788,7 @@
       "processing_status": "processed",
       "case_id": null,
       "case_engine_version": "case-v6.1",
-      "case_processed_at": "2026-08-26T19:58:51.872552+00:00"
+      "case_processed_at": "2026-08-26T23:39:04.347777+00:00"
     },
     {
       "id": "9ed80c6101c48fc45029dc0d4ec582f12ddba255",
@@ -10456,7 +10815,7 @@
       "processing_status": "processed",
       "case_id": null,
       "case_engine_version": "case-v6.1",
-      "case_processed_at": "2026-08-26T19:58:51.879643+00:00"
+      "case_processed_at": "2026-08-26T23:39:04.352024+00:00"
     },
     {
       "id": "834355798bb94a8970a93e7fc3bfee1364d01605",
@@ -10481,9 +10840,9 @@
       "processing_status": "processed",
       "case_id": null,
       "case_engine_version": "case-v6.1",
-      "case_processed_at": "2026-08-26T19:58:51.886713+00:00"
+      "case_processed_at": "2026-08-26T23:39:04.356291+00:00"
     }
   ],
   "case_engine_version": "case-v6.1",
-  "case_engine_processed_at": "2026-08-26T19:58:51.939317+00:00"
+  "case_engine_processed_at": "2026-08-26T23:39:04.392144+00:00"
 }
