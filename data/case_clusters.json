@@ -1,16 +1,17 @@
 {
   "engine_version": "case-v4",
-  "generated_at": "2026-08-26T14:40:37.623197+00:00",
+  "generated_at": "2026-08-26T14:59:10.065529+00:00",
   "total_cases": 18,
-  "total_articles": 32,
+  "total_articles": 39,
   "last_run": {
     "mode": "INCREMENTAL",
     "rebuild": false,
-    "news_loaded": 380,
-    "already_processed": 380,
+    "news_loaded": 382,
+    "already_processed": 375,
     "pending": 0,
     "matched_existing": 0,
-    "new_cases": 0
+    "new_cases": 0,
+    "recovery_matched": 7
   },
   "cases": [
     {
@@ -24,12 +25,19 @@
       "priority": "low",
       "signature": "Indonesia",
       "incident_terms": [
+        "detikcom",
+        "ditembak",
+        "kaki",
         "kendari",
+        "medan",
         "media",
         "milik",
         "motor",
         "nawala",
-        "pencuri"
+        "ojol",
+        "pencuri",
+        "tunarungu",
+        "wanita"
       ],
       "event_terms": [
         "kendari",
@@ -37,9 +45,10 @@
         "pencuri"
       ],
       "first_seen": "2026-08-24T11:24:05+00:00",
-      "last_seen": "2026-08-24T11:24:05+00:00",
+      "last_seen": "2026-08-25T03:01:50+00:00",
       "article_ids": [
-        "b321bfb5b2a520a21e24b88fba6fb0f96f99eb45"
+        "b321bfb5b2a520a21e24b88fba6fb0f96f99eb45",
+        "816c8a1cec51ed7134295df2198e5f73669c74d8"
       ],
       "articles": [
         {
@@ -52,12 +61,28 @@
           "scope": "case",
           "region": "Indonesia",
           "polres": null,
-          "match_score": 1.0
+          "match_score": 1.0,
+          "category": "UNGKAP KASUS / PENINDAKAN",
+          "is_jatim": false
+        },
+        {
+          "id": "816c8a1cec51ed7134295df2198e5f73669c74d8",
+          "title": "Polisi Tangkap Pencuri Motor Ojol Wanita Tunarungu di Medan, Kaki Ditembak - detikcom",
+          "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNX0lsMEpOZDQxYTk0ODRzMlNMdGxUdnBsWm5ranJKQ2t5TzlRbmZaRW4yWW9pUktKMG1XajhYdkUxU0F2MmhQemYyRlZsQUdPTktOQ0ZOZVM1VEc4UlFCX1V2aWFJWVBvNzJlM3VmWXpwVlVnUm11UHJqbW1qeGhoZmU2dC0wd2p5TVZFMS1ocm9fTS05a0xQYUJ4NXl0WENLSDlvRmxSR3NKLTdOWVZPUHJDYnNqSG1UdmdIaWU0bkpaWXk3V1FUaWpn0gHPAUFVX3lxTFBFakFoVVdjMEhSUWM3djlzNEFvbTZZTFpvWjNTR0JoWFpGQXRVY2NLeXZjV0hHTlRqc19tdjJSUGt2bFJXSGpTWWxyc1R6UHgtcGRtU1Z2cWNnSjRpNHZCV0lySUxaTHBpNndPN1RNZ2dzNHFsOEJnWDFxWUZHbk5Ha0ZOc0NSeTljZXRrOVctby1ndk1MZjhSaWVOYXFtSV9HUnJYQmZsa05NbF9uTkltTVRzLU9MeFpqOTd6RjRfWUt1UERGVXFqYVBFTVVrbw?oc=5",
+          "published_at": "2026-08-25T03:01:50+00:00",
+          "source": "detikcom",
+          "match_score": 0.6625,
+          "priority": "low",
+          "scope": "neutral",
+          "category": "NETRAL / LAINNYA",
+          "region": "Indonesia",
+          "is_jatim": false,
+          "polres": null
         }
       ],
-      "article_count": 1,
+      "article_count": 2,
       "created_at": "2026-08-26T13:26:18.496999+00:00",
-      "updated_at": "2026-08-26T14:40:37.623002+00:00",
+      "updated_at": "2026-08-26T14:59:09.269909+00:00",
       "engine_version": "case-v4"
     },
     {
@@ -112,7 +137,9 @@
           "scope": "negative",
           "region": "Indonesia",
           "polres": null,
-          "match_score": 1.0
+          "match_score": 1.0,
+          "category": "OKNUM - PIDANA",
+          "is_jatim": false
         },
         {
           "id": "3e2f0a8f4ee79894e8fcde5264516c1d88554c19",
@@ -124,12 +151,14 @@
           "scope": "negative",
           "region": "Indonesia",
           "polres": null,
-          "match_score": 0.6294
+          "match_score": 0.6294,
+          "category": "OKNUM - PIDANA",
+          "is_jatim": false
         }
       ],
       "article_count": 2,
       "created_at": "2026-08-26T13:26:18.497490+00:00",
-      "updated_at": "2026-08-26T14:40:37.623024+00:00",
+      "updated_at": "2026-08-26T14:59:04.385996+00:00",
       "engine_version": "case-v4"
     },
     {
@@ -150,8 +179,11 @@
         "bangsaonline",
         "bawa",
         "belum",
+        "beritakan",
+        "berpangkat",
         "bojonegoro",
         "bongkar",
+        "buntut",
         "bunuh",
         "com",
         "datangi",
@@ -164,11 +196,13 @@
         "intimidasi",
         "janji",
         "jatim",
+        "kabarbaik",
         "kapolresta",
         "kecam",
         "kepada",
         "ketik",
         "kirim",
+        "kompol",
         "lagi",
         "layangkan",
         "liputan6",
@@ -178,7 +212,10 @@
         "merdeka",
         "minta",
         "ngopibareng",
+        "periksa",
         "permintaan",
+        "perwira",
+        "pju",
         "polresta",
         "propam",
         "pwi",
@@ -194,6 +231,7 @@
         "tuban",
         "tuntutan",
         "usut",
+        "viva",
         "wartawan"
       ],
       "event_terms": [
@@ -207,7 +245,7 @@
         "wartawan"
       ],
       "first_seen": "2026-08-24T12:08:00+00:00",
-      "last_seen": "2026-08-26T05:40:23+00:00",
+      "last_seen": "2026-08-26T11:22:00+00:00",
       "article_ids": [
         "71ec39d19fdb3af1aa995d9dd9d83a3ccecc1afa",
         "45f96d4f40ee50dc0f5cd8f0f655d15eb52c9fda",
@@ -219,7 +257,10 @@
         "97b4dc9780b500c5cd58bcf97781e064a4a6ff2d",
         "9bbdbaa05d4e58c311dccbfd3185d7cc3477ee93",
         "57f592eb3df5688973dc3aa92e410c091053b2b9",
-        "4c849c21f7e150f33b3d290ebdf5852b7ed2871a"
+        "4c849c21f7e150f33b3d290ebdf5852b7ed2871a",
+        "259c3adc6bab77302c723ae23471c29e32afc752",
+        "d656b73da6fd8f69d0293a0d8f7c5380af747034",
+        "e02f2502e0b018afcb484e7363bf9ad26c0579dd"
       ],
       "articles": [
         {
@@ -232,7 +273,9 @@
           "scope": "negative",
           "region": "Jawa Timur",
           "polres": null,
-          "match_score": 1.0
+          "match_score": 1.0,
+          "category": "OKNUM - PIDANA",
+          "is_jatim": true
         },
         {
           "id": "45f96d4f40ee50dc0f5cd8f0f655d15eb52c9fda",
@@ -244,7 +287,9 @@
           "scope": "negative",
           "region": "Jawa Timur",
           "polres": "POLRESTA TUBAN",
-          "match_score": 0.5524
+          "match_score": 0.5524,
+          "category": "OKNUM - PIDANA",
+          "is_jatim": true
         },
         {
           "id": "032e9da548b8702782ef5bcbbe9cd81e932e5d0a",
@@ -256,7 +301,9 @@
           "scope": "negative",
           "region": "Jawa Timur",
           "polres": null,
-          "match_score": 0.8058
+          "match_score": 0.8058,
+          "category": "OKNUM - PIDANA",
+          "is_jatim": true
         },
         {
           "id": "ae43596c4ad24ae7e70731b66de584f5f5446adc",
@@ -268,7 +315,9 @@
           "scope": "negative",
           "region": "Jawa Timur",
           "polres": "POLRESTA TUBAN",
-          "match_score": 0.6851
+          "match_score": 0.6851,
+          "category": "OKNUM - ETIK/DISIPLIN",
+          "is_jatim": true
         },
         {
           "id": "fac2f8d3cb4c59a4c79699e9ec6f7ff098528ffb",
@@ -280,7 +329,9 @@
           "scope": "negative",
           "region": "Jawa Timur",
           "polres": null,
-          "match_score": 0.7072
+          "match_score": 0.7072,
+          "category": "OKNUM - ETIK/DISIPLIN",
+          "is_jatim": true
         },
         {
           "id": "4bb866132e622fa13c6de5bb79ff7f0859cdbcf1",
@@ -292,7 +343,9 @@
           "scope": "negative",
           "region": "Jawa Timur",
           "polres": "POLRESTA TUBAN",
-          "match_score": 0.7699
+          "match_score": 0.7699,
+          "category": "OKNUM - PIDANA",
+          "is_jatim": true
         },
         {
           "id": "94d5191112cf64e6d6dc4075089be8c9c9bf6e3e",
@@ -304,7 +357,9 @@
           "scope": "negative",
           "region": "Jawa Timur",
           "polres": null,
-          "match_score": 0.7516
+          "match_score": 0.7516,
+          "category": "OKNUM - PIDANA",
+          "is_jatim": true
         },
         {
           "id": "97b4dc9780b500c5cd58bcf97781e064a4a6ff2d",
@@ -316,7 +371,9 @@
           "scope": "negative",
           "region": "Jawa Timur",
           "polres": null,
-          "match_score": 0.7014
+          "match_score": 0.7014,
+          "category": "OKNUM - PIDANA",
+          "is_jatim": true
         },
         {
           "id": "9bbdbaa05d4e58c311dccbfd3185d7cc3477ee93",
@@ -328,7 +385,9 @@
           "scope": "negative",
           "region": "Jawa Timur",
           "polres": "POLRESTA TUBAN",
-          "match_score": 0.8614
+          "match_score": 0.8614,
+          "category": "OKNUM - PIDANA",
+          "is_jatim": true
         },
         {
           "id": "57f592eb3df5688973dc3aa92e410c091053b2b9",
@@ -340,7 +399,9 @@
           "scope": "negative",
           "region": "Jawa Timur",
           "polres": null,
-          "match_score": 0.6636
+          "match_score": 0.6636,
+          "category": "OKNUM - PIDANA",
+          "is_jatim": true
         },
         {
           "id": "4c849c21f7e150f33b3d290ebdf5852b7ed2871a",
@@ -352,12 +413,56 @@
           "scope": "negative",
           "region": "Jawa Timur",
           "polres": "POLRESTA TUBAN",
-          "match_score": 0.9479
+          "match_score": 0.9479,
+          "category": "OKNUM - PIDANA",
+          "is_jatim": true
+        },
+        {
+          "id": "259c3adc6bab77302c723ae23471c29e32afc752",
+          "title": "PWI Tuban Kecam Dugaan Intimidasi Dua Wartawan oleh Perwira Polisi Berpangkat Kompol - VIVA Jatim",
+          "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOWk0wbUpKbzlITHhIMnp3UFBNd1I2WnhHb3lmamdKUU1wY0RENk5EcXpRVjFPVjdjLWpTSTRfVHQ0Z0tMSVh1SDRtcl9ZaDV2NlE2NFYyNUNTTXZpVEdEYnpmcmlXMGkwcks1WWU3VmQwcVZPNGFvWld2ZURZRDF2VzRtWUVEQ090STM1QjFKRzd4TnhXcGYzV01JbGxUOGsxMkwtRWVoZ214NC1YSkNjRWU1QUZ2Y3JJM0xsMFJn?oc=5",
+          "published_at": "2026-08-26T11:22:00+00:00",
+          "source": "VIVA Jatim",
+          "match_score": 0.7468,
+          "priority": "low",
+          "scope": "neutral",
+          "category": "NETRAL / LAINNYA",
+          "region": "Jawa Timur",
+          "is_jatim": true,
+          "polres": null
+        },
+        {
+          "id": "d656b73da6fd8f69d0293a0d8f7c5380af747034",
+          "title": "Propam Periksa Oknum PJU Polresta Tuban Buntut Intimidasi Wartawan - Suara Merdeka Jatim - Suara Merdeka Jatim",
+          "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxObnpwRHhGQllUM0tqTzBzcm9zY0cyQl9PVkRYZGJEUHZNbldJdF8wSEhUbHFydTBVMXpTZzFBSk1Pa0tfblhOdG9ibm5wMjBDdHJvNHRrUWhEek5sRDVwQmVoZXZCV2tKZkRBLVhieXh5b1lFcVZsVWlCcWtVS2c1TjVEemNSNHlyT3RCRFgxR0JpM0RlS3RSQzJWbVVPRFE0MlJLQUMzcmNTX0JQYnUxbXJMcDlSaGfSAbwBQVVfeXFMTm5OUEUzN2RUSUFjUlROMks4VkhQVXAyMzlscnVIVWdLakY2eGR5M0NIU2V1YlhQUWhBZDFHeHF1TzdfLTh2b2RWcVZCcXpad2lYY3VBeEF3a1lHQ2VWYnBsemJEOHhnc1V0RnktbW1tTWFITjNibVBvQ2xTQm5USktHM0VraXc3QXQyT1FGcEdINlUtTnVDSGs5d3ZjR3I4R0VOQWdPVXNqWFN1bnBleVc5dXFVeThYYjA1dEQ?oc=5",
+          "published_at": "2026-08-25T13:30:00+00:00",
+          "source": "Suara Merdeka Jatim",
+          "match_score": 0.8907,
+          "priority": "low",
+          "scope": "neutral",
+          "category": "NETRAL / LAINNYA",
+          "region": "Jawa Timur",
+          "is_jatim": true,
+          "polres": "POLRESTA TUBAN"
+        },
+        {
+          "id": "e02f2502e0b018afcb484e7363bf9ad26c0579dd",
+          "title": "2 Wartawan Tuban Diduga Diintimidasi Oknum Perwira Polisi Usai Beritakan Kasus Tambang Ilegal - KabarBaik.co",
+          "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPaWxPUnlGblNneFV6NXNBMmZMaktSdmMwQThEOVdQLWY0U2tlRjBlYXBqNDYyMTVLYkZpaWhabHZtSHhTSmlsT2JwNGhsc2VqRDhLWTBfRFd1eGlPNUFrY2Exc01YWVRLWko2dDJONjZBQkNYNVpEVjdGbkZGd2tfd3YxOHZWNk5GQ0tHRnBITFZzakUzQnVrUHNQYkgzRjlUdjNhV0ZPbTRGbmhNSXo5aGlSdXBqQQ?oc=5",
+          "published_at": "2026-08-24T12:44:27+00:00",
+          "source": "KabarBaik.co",
+          "match_score": 0.804,
+          "priority": "low",
+          "scope": "neutral",
+          "category": "NETRAL / LAINNYA",
+          "region": "Jawa Timur",
+          "is_jatim": true,
+          "polres": null
         }
       ],
-      "article_count": 11,
+      "article_count": 14,
       "created_at": "2026-08-26T13:26:18.498438+00:00",
-      "updated_at": "2026-08-26T14:40:37.623064+00:00",
+      "updated_at": "2026-08-26T14:59:09.896055+00:00",
       "engine_version": "case-v4"
     },
     {
@@ -404,7 +509,9 @@
           "scope": "case",
           "region": "Indonesia",
           "polres": null,
-          "match_score": 1.0
+          "match_score": 1.0,
+          "category": "UNGKAP KASUS / PENINDAKAN",
+          "is_jatim": false
         },
         {
           "id": "393d477a29494dc25419b1cfb8efacfc7f6bc7a7",
@@ -416,12 +523,14 @@
           "scope": "case",
           "region": "Indonesia",
           "polres": null,
-          "match_score": 0.9517
+          "match_score": 0.9517,
+          "category": "UNGKAP KASUS / PENINDAKAN",
+          "is_jatim": false
         }
       ],
       "article_count": 2,
       "created_at": "2026-08-26T13:26:18.504158+00:00",
-      "updated_at": "2026-08-26T14:40:37.623077+00:00",
+      "updated_at": "2026-08-26T14:59:04.386390+00:00",
       "engine_version": "case-v4"
     },
     {
@@ -436,12 +545,22 @@
       "signature": "Jawa Timur",
       "incident_terms": [
         "350",
+        "abadi",
+        "antara",
         "com",
         "emas",
+        "jatim",
         "jpnn",
         "juta",
+        "kalung",
+        "madiun",
+        "news",
+        "nusantara",
         "pacitan",
-        "pencurian"
+        "pencurian",
+        "rp350",
+        "rp8",
+        "samsung"
       ],
       "event_terms": [
         "350",
@@ -450,10 +569,12 @@
         "pacitan",
         "pencurian"
       ],
-      "first_seen": "2026-08-24T18:19:00+00:00",
-      "last_seen": "2026-08-24T18:19:00+00:00",
+      "first_seen": "2026-08-24T15:54:06+00:00",
+      "last_seen": "2026-08-26T11:11:51+00:00",
       "article_ids": [
-        "ce2a4a3162477c22794af86064df2d63ac6a0790"
+        "ce2a4a3162477c22794af86064df2d63ac6a0790",
+        "fdc1ef567071157c236445e480eba300ec527b7a",
+        "f9edba934d40e192603009eb7c0e097c4bd881e8"
       ],
       "articles": [
         {
@@ -466,12 +587,42 @@
           "scope": "case",
           "region": "Jawa Timur",
           "polres": null,
-          "match_score": 1.0
+          "match_score": 1.0,
+          "category": "UNGKAP KASUS / PENINDAKAN",
+          "is_jatim": true
+        },
+        {
+          "id": "fdc1ef567071157c236445e480eba300ec527b7a",
+          "title": "Kasus Kalung Emas Rp8,5 Juta di Madiun, Polisi Amankan HP Samsung - Nusantara Abadi News",
+          "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPb2oxNTNQREE3dGJmNHU3YTNoNTNNNWhmelBUbVNPWjNadVMwUlBxTUx4aTQ4bFQ0ZGhDNmJLQWZqNzFLZHEzZXk3NmszTV82OFZtNFpWaWFqUVBJeTMzMEhNem56ekE3OVp3UGVZTHVxeGJJOF9oZHZRcG1ITTFZYzljcDluSnN1MXR1Z2pWaXI3dGllWXFzQzNDaldzMkVnd3RQb2FwRWVqdw?oc=5",
+          "published_at": "2026-08-26T11:11:51+00:00",
+          "source": "Nusantara Abadi News",
+          "match_score": 0.6457,
+          "priority": "low",
+          "scope": "neutral",
+          "category": "NETRAL / LAINNYA",
+          "region": "Jawa Timur",
+          "is_jatim": true,
+          "polres": null
+        },
+        {
+          "id": "f9edba934d40e192603009eb7c0e097c4bd881e8",
+          "title": "Polisi ungkap pencurian emas Rp350 juta di Pacitan - Antara News jatim",
+          "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxON3ZYeGVnRUxBOTlSQjhDQjRETDloNDJCdnJSaDVUVU9PUXNJYTFnNUswQU5oaW8tSVlQUWxVYmVISXMtUjBxeGh6UHh1Zmw1dExfOE5td1NSS25QS2RQREFlTkNHQ2d5YWpmQ1IzNElJUU11TnNfU0hXM0s1cEFoczZXX2NfWTZkZGh2c3VrSUtyRUpvM3hXSVRB0gGfAUFVX3lxTE5OcFpLN01PUHZ6QjhaQ05SNmdUcTJpX2JQNjZPMzVFdllac29jc21NcHoyYUNNbEYyV1g5bjFkS04zblhtWkRKZzMwNFZCc0psZGZVQ2U0WURwTm0ybVpGNEhTM2RSME1MTUVZMTE5Z1VjVGkzVEI0N0UzNlBXX1JJSndTVGozLVEwSnM1UmhKR0lCRnBBLURYNlpyMkVnbw?oc=5",
+          "published_at": "2026-08-24T15:54:06+00:00",
+          "source": "Antara News jatim",
+          "match_score": 0.7688,
+          "priority": "low",
+          "scope": "neutral",
+          "category": "NETRAL / LAINNYA",
+          "region": "Jawa Timur",
+          "is_jatim": true,
+          "polres": null
         }
       ],
-      "article_count": 1,
+      "article_count": 3,
       "created_at": "2026-08-26T13:26:18.507659+00:00",
-      "updated_at": "2026-08-26T14:40:37.623085+00:00",
+      "updated_at": "2026-08-26T14:59:09.527119+00:00",
       "engine_version": "case-v4"
     },
     {
@@ -506,12 +657,14 @@
           "scope": "case",
           "region": "Indonesia",
           "polres": null,
-          "match_score": 1.0
+          "match_score": 1.0,
+          "category": "UNGKAP KASUS / PENINDAKAN",
+          "is_jatim": false
         }
       ],
       "article_count": 1,
       "created_at": "2026-08-26T13:26:18.524252+00:00",
-      "updated_at": "2026-08-26T14:40:37.623092+00:00",
+      "updated_at": "2026-08-26T14:59:04.386478+00:00",
       "engine_version": "case-v4"
     },
     {
@@ -550,12 +703,14 @@
           "scope": "case",
           "region": "Indonesia",
           "polres": null,
-          "match_score": 1.0
+          "match_score": 1.0,
+          "category": "UNGKAP KASUS / PENINDAKAN",
+          "is_jatim": false
         }
       ],
       "article_count": 1,
       "created_at": "2026-08-26T13:26:18.530813+00:00",
-      "updated_at": "2026-08-26T14:40:37.623099+00:00",
+      "updated_at": "2026-08-26T14:59:04.386522+00:00",
       "engine_version": "case-v4"
     },
     {
@@ -606,7 +761,9 @@
           "scope": "negative",
           "region": "Indonesia",
           "polres": null,
-          "match_score": 1.0
+          "match_score": 1.0,
+          "category": "OKNUM - PIDANA",
+          "is_jatim": false
         },
         {
           "id": "a800f5d60ecdc547634ff0162312e1c52900e2f8",
@@ -618,7 +775,9 @@
           "scope": "negative",
           "region": "Indonesia",
           "polres": null,
-          "match_score": 0.9555
+          "match_score": 0.9555,
+          "category": "OKNUM - PIDANA",
+          "is_jatim": false
         },
         {
           "id": "0473dbac92bc936910cb607576840792327e47a7",
@@ -630,12 +789,14 @@
           "scope": "negative",
           "region": "Indonesia",
           "polres": null,
-          "match_score": 0.6665
+          "match_score": 0.6665,
+          "category": "OKNUM - PIDANA",
+          "is_jatim": false
         }
       ],
       "article_count": 3,
       "created_at": "2026-08-26T13:26:18.535687+00:00",
-      "updated_at": "2026-08-26T14:40:37.623110+00:00",
+      "updated_at": "2026-08-26T14:59:04.386625+00:00",
       "engine_version": "case-v4"
     },
     {
@@ -675,12 +836,14 @@
           "scope": "case",
           "region": "Indonesia",
           "polres": null,
-          "match_score": 1.0
+          "match_score": 1.0,
+          "category": "UNGKAP KASUS / PENINDAKAN",
+          "is_jatim": false
         }
       ],
       "article_count": 1,
       "created_at": "2026-08-26T13:26:18.539656+00:00",
-      "updated_at": "2026-08-26T14:40:37.623117+00:00",
+      "updated_at": "2026-08-26T14:59:04.386672+00:00",
       "engine_version": "case-v4"
     },
     {
@@ -722,12 +885,14 @@
           "scope": "case",
           "region": "Indonesia",
           "polres": null,
-          "match_score": 1.0
+          "match_score": 1.0,
+          "category": "UNGKAP KASUS / PENINDAKAN",
+          "is_jatim": false
         }
       ],
       "article_count": 1,
       "created_at": "2026-08-26T13:26:18.550401+00:00",
-      "updated_at": "2026-08-26T14:40:37.623123+00:00",
+      "updated_at": "2026-08-26T14:59:04.386717+00:00",
       "engine_version": "case-v4"
     },
     {
@@ -771,12 +936,14 @@
           "scope": "negative",
           "region": "Jawa Timur",
           "polres": null,
-          "match_score": 1.0
+          "match_score": 1.0,
+          "category": "OKNUM - PIDANA",
+          "is_jatim": true
         }
       ],
       "article_count": 1,
       "created_at": "2026-08-26T13:26:18.564053+00:00",
-      "updated_at": "2026-08-26T14:40:37.623129+00:00",
+      "updated_at": "2026-08-26T14:59:04.386774+00:00",
       "engine_version": "case-v4"
     },
     {
@@ -817,12 +984,14 @@
           "scope": "case",
           "region": "Indonesia",
           "polres": null,
-          "match_score": 1.0
+          "match_score": 1.0,
+          "category": "UNGKAP KASUS / PENINDAKAN",
+          "is_jatim": false
         }
       ],
       "article_count": 1,
       "created_at": "2026-08-26T13:26:18.571770+00:00",
-      "updated_at": "2026-08-26T14:40:37.623135+00:00",
+      "updated_at": "2026-08-26T14:59:04.386824+00:00",
       "engine_version": "case-v4"
     },
     {
@@ -865,12 +1034,14 @@
           "scope": "negative",
           "region": "Indonesia",
           "polres": null,
-          "match_score": 1.0
+          "match_score": 1.0,
+          "category": "OKNUM - PIDANA",
+          "is_jatim": false
         }
       ],
       "article_count": 1,
       "created_at": "2026-08-26T13:26:18.578548+00:00",
-      "updated_at": "2026-08-26T14:40:37.623142+00:00",
+      "updated_at": "2026-08-26T14:59:04.386874+00:00",
       "engine_version": "case-v4"
     },
     {
@@ -888,7 +1059,9 @@
         "indonesia",
         "lagi",
         "memo",
+        "pakai",
         "plastik",
+        "rcti",
         "revaldo",
         "sabu",
         "sita"
@@ -896,10 +1069,11 @@
       "event_terms": [
         "sabu"
       ],
-      "first_seen": "2026-08-26T00:58:00+00:00",
+      "first_seen": "2026-08-25T10:10:00+00:00",
       "last_seen": "2026-08-26T00:58:00+00:00",
       "article_ids": [
-        "5f9e47c4299819cd73fc4f99b7e111df30ca04c7"
+        "5f9e47c4299819cd73fc4f99b7e111df30ca04c7",
+        "9429be340c655edbcbc0e5f992cab546ffa4a55c"
       ],
       "articles": [
         {
@@ -912,12 +1086,28 @@
           "scope": "case",
           "region": "Indonesia",
           "polres": null,
-          "match_score": 1.0
+          "match_score": 1.0,
+          "category": "UNGKAP KASUS / PENINDAKAN",
+          "is_jatim": false
+        },
+        {
+          "id": "9429be340c655edbcbc0e5f992cab546ffa4a55c",
+          "title": "Revaldo Kembali Ditangkap Polisi Terkait Narkoba, Diduga Pakai Sabu! - RCTI+",
+          "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPaUc3ajFHLU9JYW04dlVlbm9lYXgtQkZLcmFidm5jMzFyaXlNNlU4R0JQYzI0ZENOZXlXbjJtMmZwRHF1WnA0bm1wLUJDSU9hbk9XUWlNS1h4UHR2ZWZCSXI4cXRYTHhYRjZ0dS1nLXg5T3FXOEh5TkdENkwxZm05Q3B3eXIzc0c5MWhJMU9qbjI2R2FpVmpJd2xQVTBMQzA0ZUFyM2cwdUJwa1JTa1d1SW42Qi01N2pOWmZN?oc=5",
+          "published_at": "2026-08-25T10:10:00+00:00",
+          "source": "RCTI+",
+          "match_score": 0.622,
+          "priority": "medium",
+          "scope": "neutral",
+          "category": "NETRAL / LAINNYA",
+          "region": "Indonesia",
+          "is_jatim": false,
+          "polres": null
         }
       ],
-      "article_count": 1,
+      "article_count": 2,
       "created_at": "2026-08-26T13:26:18.585048+00:00",
-      "updated_at": "2026-08-26T14:40:37.623148+00:00",
+      "updated_at": "2026-08-26T14:59:08.072225+00:00",
       "engine_version": "case-v4"
     },
     {
@@ -963,12 +1153,14 @@
           "scope": "case",
           "region": "Jawa Timur",
           "polres": "POLRES PELABUHAN TANJUNG PERAK",
-          "match_score": 1.0
+          "match_score": 1.0,
+          "category": "UNGKAP KASUS / PENINDAKAN",
+          "is_jatim": true
         }
       ],
       "article_count": 1,
       "created_at": "2026-08-26T13:26:18.591046+00:00",
-      "updated_at": "2026-08-26T14:40:37.623154+00:00",
+      "updated_at": "2026-08-26T14:59:04.386987+00:00",
       "engine_version": "case-v4"
     },
     {
@@ -1013,12 +1205,14 @@
           "scope": "case",
           "region": "Jawa Timur",
           "polres": null,
-          "match_score": 1.0
+          "match_score": 1.0,
+          "category": "UNGKAP KASUS / PENINDAKAN",
+          "is_jatim": true
         }
       ],
       "article_count": 1,
       "created_at": "2026-08-26T13:26:18.598840+00:00",
-      "updated_at": "2026-08-26T14:40:37.623161+00:00",
+      "updated_at": "2026-08-26T14:59:04.387041+00:00",
       "engine_version": "case-v4"
     },
     {
@@ -1064,12 +1258,14 @@
           "scope": "case",
           "region": "Indonesia",
           "polres": null,
-          "match_score": 1.0
+          "match_score": 1.0,
+          "category": "UNGKAP KASUS / PENINDAKAN",
+          "is_jatim": false
         }
       ],
       "article_count": 1,
       "created_at": "2026-08-26T13:26:18.616100+00:00",
-      "updated_at": "2026-08-26T14:40:37.623167+00:00",
+      "updated_at": "2026-08-26T14:59:04.387094+00:00",
       "engine_version": "case-v4"
     },
     {
@@ -1108,12 +1304,14 @@
           "scope": "case",
           "region": "Indonesia",
           "polres": null,
-          "match_score": 1.0
+          "match_score": 1.0,
+          "category": "UNGKAP KASUS / PENINDAKAN",
+          "is_jatim": false
         }
       ],
       "article_count": 1,
       "created_at": "2026-08-26T13:26:18.632516+00:00",
-      "updated_at": "2026-08-26T14:40:37.623173+00:00",
+      "updated_at": "2026-08-26T14:59:04.387142+00:00",
       "engine_version": "case-v4"
     }
   ]

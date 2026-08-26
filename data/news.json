@@ -1,29 +1,73 @@
 {
-  "generated_at": "2026-08-26T14:39:53.611783+00:00",
+  "generated_at": "2026-08-26T14:58:18.600211+00:00",
   "platform": "News",
-  "total": 380,
-  "new_records": 5,
-  "last_successful_fetch": "2026-08-26T14:39:53.611783+00:00",
+  "total": 382,
+  "new_records": 2,
+  "last_successful_fetch": "2026-08-26T14:58:18.600211+00:00",
   "last_fetch_mode": "incremental",
   "fetch_status": "success",
   "fetch_statistics": {
     "queries": 69,
     "api_success": 69,
     "api_failed": 0,
-    "skipped_old": 6650,
-    "skipped_duplicate": 3,
-    "skipped_irrelevant": 4,
-    "new_records": 5
+    "skipped_old": 6748,
+    "skipped_duplicate": 0,
+    "skipped_irrelevant": 0,
+    "new_records": 2
   },
   "statistics": {
-    "total": 380,
+    "total": 382,
     "jatim": 91,
     "negative": 18,
     "case": 14,
     "positive": 9,
-    "neutral": 339
+    "neutral": 341
   },
   "items": [
+    {
+      "id": "391e83906ea1ba6a8de222136c382435bc807628",
+      "title": "Polres Morowali respons aduan warga lewat layanan Polri 110 - ANTARA News Sulteng",
+      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNMDZtRHB6ZmVNYzlvY3dpb0g0M2ZYS3o4MkxJcE93Sm1jRVhQajIxUDNCdTQzcUNKVzBJb0JmSlY4RUZpU096cFlDZmtxR0h3V3RXYVNabmNnakI4bGtlQ2RtaUlMZGc5ZFlBb194X3B3OGNMa2hKbG0wMTU3bVNKT2NMSnV2WnJvXzVhS0F5aHZyWUI3U1pwMk15UEowaW15eTdRU2JsMA?oc=5",
+      "source": "ANTARA News Sulteng",
+      "published_at": "2026-08-26T14:44:20+00:00",
+      "collected_at": "2026-08-26T14:58:18.600211+00:00",
+      "region": "Indonesia",
+      "is_jatim": false,
+      "polres": null,
+      "category": "NETRAL / LAINNYA",
+      "scope": "neutral",
+      "scope_label": "NETRAL",
+      "priority": "low",
+      "summary": "Polres Morowali respons aduan warga lewat layanan Polri 110 ANTARA News Sulteng",
+      "processing_status": "processed",
+      "classifier_version": "news-v1",
+      "classified_at": "2026-08-26T14:58:18.600211+00:00",
+      "case_id": null,
+      "case_processed_at": "2026-08-26T14:59:04.387155+00:00",
+      "case_engine_version": "case-v4"
+    },
+    {
+      "id": "8fa776d1094a9dcce2eeaa988f990ae653c02128",
+      "title": "Polisi Ungkap Alasan Ruben Onsu Tak Ditahan - Kompas.com",
+      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOZjg5cFVybzAtT25uV09fNXMySVE3ZmhwTnJWNmplYmVKcUpVVU1iMkNvR0NSTU1pSklCZlhhWS1oS2ZueC1vWjlXakV5bXAxbXZCZlBpNlA4U1RpRFBMdnowbE5FZkxrM2xfVEltaE5SeU5JVmxUZk1JTVVqTWdBQjEzanZxN0pqaW9mZGhjTXlEM1lMNjY0SjVVV2NwUQ?oc=5",
+      "source": "Kompas.com",
+      "published_at": "2026-08-26T14:44:00+00:00",
+      "collected_at": "2026-08-26T14:58:18.600211+00:00",
+      "region": "Indonesia",
+      "is_jatim": false,
+      "polres": null,
+      "category": "NETRAL / LAINNYA",
+      "scope": "neutral",
+      "scope_label": "NETRAL",
+      "priority": "low",
+      "summary": "Polisi Ungkap Alasan Ruben Onsu Tak Ditahan Kompas.com",
+      "processing_status": "processed",
+      "classifier_version": "news-v1",
+      "classified_at": "2026-08-26T14:58:18.600211+00:00",
+      "case_id": null,
+      "case_processed_at": "2026-08-26T14:59:04.387163+00:00",
+      "case_engine_version": "case-v4"
+    },
     {
       "id": "5e3fc1e79199b9f8222b204db8b92a706a23ee7f",
       "title": "Ruben Onsu Belum Ditahan meski Jadi Tersangka, Polisi: Diperiksa Dulu - Kompas.com",
@@ -416,8 +460,8 @@
       "classifier_version": "news-v1",
       "classified_at": "2026-08-26T12:53:55.268931+00:00",
       "processing_status": "processed",
-      "case_id": null,
-      "case_processed_at": "2026-08-26T13:26:18.496209+00:00",
+      "case_id": "CASE-000003",
+      "case_processed_at": "2026-08-26T14:59:04.665099+00:00",
       "case_engine_version": "case-v4"
     },
     {
@@ -482,8 +526,8 @@
       "classifier_version": "news-v1",
       "classified_at": "2026-08-26T12:53:55.268931+00:00",
       "processing_status": "processed",
-      "case_id": null,
-      "case_processed_at": "2026-08-26T13:26:18.496214+00:00",
+      "case_id": "CASE-000005",
+      "case_processed_at": "2026-08-26T14:59:04.697310+00:00",
       "case_engine_version": "case-v4"
     },
     {
@@ -4618,8 +4662,8 @@
       "classifier_version": "news-v1",
       "classified_at": "2026-08-26T10:49:33.010254+00:00",
       "processing_status": "processed",
-      "case_id": null,
-      "case_processed_at": "2026-08-26T13:26:18.496552+00:00",
+      "case_id": "CASE-000003",
+      "case_processed_at": "2026-08-26T14:59:07.529652+00:00",
       "case_engine_version": "case-v4"
     },
     {
@@ -5432,8 +5476,8 @@
       "classifier_version": "news-v1",
       "classified_at": "2026-08-26T10:49:33.010254+00:00",
       "processing_status": "processed",
-      "case_id": null,
-      "case_processed_at": "2026-08-26T13:26:18.496616+00:00",
+      "case_id": "CASE-000014",
+      "case_processed_at": "2026-08-26T14:59:08.072240+00:00",
       "case_engine_version": "case-v4"
     },
     {
@@ -7082,8 +7126,8 @@
       "classifier_version": "news-v1",
       "classified_at": "2026-08-26T10:49:33.010254+00:00",
       "processing_status": "processed",
-      "case_id": null,
-      "case_processed_at": "2026-08-26T13:26:18.496742+00:00",
+      "case_id": "CASE-000001",
+      "case_processed_at": "2026-08-26T14:59:09.269933+00:00",
       "case_engine_version": "case-v4"
     },
     {
@@ -7544,8 +7588,8 @@
       "classifier_version": "news-v1",
       "classified_at": "2026-08-26T10:49:33.010254+00:00",
       "processing_status": "processed",
-      "case_id": null,
-      "case_processed_at": "2026-08-26T13:26:18.496769+00:00",
+      "case_id": "CASE-000005",
+      "case_processed_at": "2026-08-26T14:59:09.527135+00:00",
       "case_engine_version": "case-v4"
     },
     {
@@ -8072,8 +8116,8 @@
       "classifier_version": "news-v1",
       "classified_at": "2026-08-26T10:49:33.010254+00:00",
       "processing_status": "processed",
-      "case_id": null,
-      "case_processed_at": "2026-08-26T13:26:18.496807+00:00",
+      "case_id": "CASE-000003",
+      "case_processed_at": "2026-08-26T14:59:09.896070+00:00",
       "case_engine_version": "case-v4"
     },
     {
@@ -8386,5 +8430,5 @@
     }
   ],
   "case_engine_version": "case-v4",
-  "case_engine_processed_at": "2026-08-26T14:40:37.627686+00:00"
+  "case_engine_processed_at": "2026-08-26T14:59:10.070962+00:00"
 }

@@ -1,16 +1,18 @@
 {
   "date": "2026-08-26",
   "timezone": "Asia/Jakarta",
-  "updated_at": "2026-08-26T21:40:37.892435+07:00",
-  "last_successful_update": "2026-08-26T21:40:37.892435+07:00",
+  "updated_at": "2026-08-26T21:59:10.332561+07:00",
+  "last_successful_update": "2026-08-26T21:59:10.332561+07:00",
   "news": {
-    "detected": 380,
+    "detected": 382,
     "negative": 18,
     "positive": 9,
-    "neutral": 353,
+    "neutral": 355,
     "jatim": 91,
     "priority_high": 0,
     "article_ids": [
+      "391e83906ea1ba6a8de222136c382435bc807628",
+      "8fa776d1094a9dcce2eeaa988f990ae653c02128",
       "5e3fc1e79199b9f8222b204db8b92a706a23ee7f",
       "61284b2951e42a62d845221abc21981e5515ef01",
       "be193d195e5b65c4adb1f5e358e5775d8dbc3407",
@@ -394,12 +396,13 @@
     ]
   },
   "cases": {
-    "active": 9,
+    "active": 10,
     "priority_high": 0,
-    "jatim": 3,
-    "articles": 21,
+    "jatim": 4,
+    "articles": 28,
     "case_ids": [
       "CASE-000003",
+      "CASE-000005",
       "CASE-000008",
       "CASE-000012",
       "CASE-000013",
@@ -564,9 +567,9 @@
     ]
   },
   "summary": {
-    "news_today": 380,
+    "news_today": 382,
     "negative_today": 18,
-    "cases_today": 9,
+    "cases_today": 10,
     "priority_high": 0,
     "jatim_news": 91,
     "youtube_today": 145
