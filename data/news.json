@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-08-26T13:05:22.280154+00:00",
+  "generated_at": "2026-08-26T13:18:17.979543+00:00",
   "platform": "News",
   "total": 374,
   "new_records": 0,
-  "last_successful_fetch": "2026-08-26T13:01:44.805488+00:00",
+  "last_successful_fetch": "2026-08-26T13:18:17.979543+00:00",
   "last_fetch_mode": "incremental",
-  "fetch_status": "partial",
+  "fetch_status": "success",
   "fetch_statistics": {
     "queries": 69,
-    "api_success": 0,
-    "api_failed": 69,
-    "skipped_old": 0,
+    "api_success": 69,
+    "api_failed": 0,
+    "skipped_old": 6763,
     "skipped_duplicate": 0,
     "skipped_irrelevant": 0,
     "new_records": 0
@@ -8254,5 +8254,5 @@
     }
   ],
   "case_engine_version": "case-v3",
-  "case_engine_processed_at": "2026-08-26T13:14:00.225462+00:00"
+  "case_engine_processed_at": "2026-08-26T13:18:58.591564+00:00"
 }
