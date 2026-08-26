@@ -5,19 +5,13 @@ from urllib.parse import urlencode
 from urllib.request import Request, urlopen
 from urllib.error import HTTPError, URLError
 
-from classify_social import classify, detect_priority
-from location_engine import detect_location
-
 
 OUT = "data/social.json"
-
-API_URL = (
-    "https://www.googleapis.com/youtube/v3/search"
-)
+API_URL = "https://www.googleapis.com/youtube/v3/search"
 
 API_KEY = os.environ.get(
     "YOUTUBE_API_KEY",
-    "",
+    ""
 ).strip()
 
 
@@ -36,20 +30,121 @@ SEARCH_QUERIES = [
 ]
 
 
+# ============================================================
+# TIME
+# ============================================================
+
+def now_utc():
+    return datetime.now(timezone.utc)
+
+
+def iso_z(dt):
+    return dt.strftime(
+        "%Y-%m-%dT%H:%M:%SZ"
+    )
+
+
+# ============================================================
+# LOAD EXISTING DATABASE
+# ============================================================
+
+def load_database():
+
+    if not os.path.exists(OUT):
+
+        return {
+            "generated_at": None,
+            "platform": "YouTube",
+            "total": 0,
+            "new_videos": 0,
+            "last_successful_fetch": None,
+            "items": [],
+        }
+
+    try:
+
+        with open(
+            OUT,
+            "r",
+            encoding="utf-8",
+        ) as file:
+
+            data = json.load(file)
+
+        if not isinstance(data, dict):
+            raise ValueError(
+                "social.json bukan object JSON"
+            )
+
+        if not isinstance(
+            data.get("items"),
+            list,
+        ):
+
+            data["items"] = []
+
+        return data
+
+    except Exception as error:
+
+        raise RuntimeError(
+            "Gagal membaca "
+            + OUT
+            + ": "
+            + str(error)
+        )
+
+
+# ============================================================
+# BUILD INDEX
+# ============================================================
+
+def build_video_index(items):
+
+    index = {}
+
+    for item in items:
+
+        video_id = item.get(
+            "video_id"
+        )
+
+        if not video_id:
+            continue
+
+        index[video_id] = item
+
+    return index
+
+
+# ============================================================
+# YOUTUBE API
+# ============================================================
+
 def youtube_search(
     query,
     published_after,
 ):
 
     params = {
+
         "part": "snippet",
+
         "q": query,
+
         "type": "video",
+
         "order": "date",
+
         "maxResults": 25,
-        "publishedAfter": published_after,
+
+        "publishedAfter":
+            published_after,
+
         "regionCode": "ID",
+
         "relevanceLanguage": "id",
+
         "key": API_KEY,
     }
 
@@ -63,7 +158,7 @@ def youtube_search(
         url,
         headers={
             "User-Agent":
-                "PNM-Social-Monitor/1.0",
+                "PNM-Social-Monitor/1.0"
         },
     )
 
@@ -100,30 +195,9 @@ def youtube_search(
         )
 
 
-def load_existing():
-
-    if not os.path.exists(OUT):
-        return []
-
-    try:
-
-        with open(
-            OUT,
-            "r",
-            encoding="utf-8",
-        ) as file:
-
-            data = json.load(file)
-
-        return data.get(
-            "items",
-            [],
-        )
-
-    except Exception:
-
-        return []
-
+# ============================================================
+# MAIN
+# ============================================================
 
 def main():
 
@@ -132,7 +206,11 @@ def main():
     )
 
     print(
-        "PNM — YOUTUBE SOCIAL MONITOR V4"
+        "PNM — YOUTUBE SOCIAL MONITOR"
+    )
+
+    print(
+        "INCREMENTAL FETCH V1"
     )
 
     print(
@@ -145,44 +223,73 @@ def main():
             "YOUTUBE_API_KEY tidak tersedia."
         )
 
-    now = datetime.now(
-        timezone.utc
+    now = now_utc()
+
+    database = load_database()
+
+    existing_items = database.get(
+        "items",
+        [],
     )
 
-    published_after = (
-        now
-        - timedelta(days=2)
-    ).strftime(
-        "%Y-%m-%dT%H:%M:%SZ"
+    video_index = build_video_index(
+        existing_items
     )
 
-    existing = load_existing()
+    existing_count = len(
+        video_index
+    )
 
-    items_by_video = {}
+    # ========================================================
+    # LAST SUCCESSFUL FETCH
+    # ========================================================
 
-    for item in existing:
+    last_successful_fetch = database.get(
+        "last_successful_fetch"
+    )
 
-        video_id = item.get(
-            "video_id"
+    if last_successful_fetch:
+
+        published_after = (
+            last_successful_fetch
         )
 
-        if video_id:
+        fetch_mode = "INCREMENTAL"
 
-            items_by_video[
-                video_id
-            ] = item
+    else:
+
+        # ----------------------------------------------------
+        # FIRST RUN / MIGRATION
+        #
+        # Kalau timestamp belum ada, ambil 2 hari terakhir.
+        # Data lama tetap dipertahankan dan didedup.
+        # ----------------------------------------------------
+
+        published_after = iso_z(
+            now - timedelta(days=2)
+        )
+
+        fetch_mode = "INITIAL"
 
     print(
-        f"Existing videos : "
-        f"{len(items_by_video)}"
+        f"Existing videos : {existing_count}"
     )
 
     print(
-        f"Searching since  : "
-        f"{published_after}"
+        f"Fetch mode      : {fetch_mode}"
     )
 
-    added = 0
+    print(
+        f"Searching since : {published_after}"
+    )
+
+    # ========================================================
+    # FETCH
+    # ========================================================
+
+    new_items = {}
+
+    total_api_results = 0
 
     for index, query in enumerate(
         SEARCH_QUERIES,
@@ -204,9 +311,12 @@ def main():
             [],
         )
 
+        total_api_results += len(
+            results
+        )
+
         print(
-            f"    Results: "
-            f"{len(results)}"
+            f"    Results: {len(results)}"
         )
 
         for result in results:
@@ -220,45 +330,25 @@ def main():
             if not video_id:
                 continue
 
+            # ------------------------------------------------
+            # EXISTING VIDEO
+            # ------------------------------------------------
+
+            if video_id in video_index:
+
+                continue
+
+            # ------------------------------------------------
+            # DUPLICATE WITHIN CURRENT RUN
+            # ------------------------------------------------
+
+            if video_id in new_items:
+
+                continue
+
             snippet = result.get(
                 "snippet",
                 {},
-            )
-
-            title = snippet.get(
-                "title",
-                "",
-            )
-
-            description = snippet.get(
-                "description",
-                "",
-            )
-
-            channel = snippet.get(
-                "channelTitle",
-                "",
-            )
-
-            published_at = snippet.get(
-                "publishedAt",
-                "",
-            )
-
-            classification = classify(
-                title,
-                description,
-            )
-
-            location = detect_location(
-                title,
-                description,
-            )
-
-            priority = detect_priority(
-                classification,
-                title,
-                description,
             )
 
             item = {
@@ -273,13 +363,22 @@ def main():
                     "video",
 
                 "title":
-                    title,
+                    snippet.get(
+                        "title",
+                        "",
+                    ),
 
                 "channel":
-                    channel,
+                    snippet.get(
+                        "channelTitle",
+                        "",
+                    ),
 
                 "published_at":
-                    published_at,
+                    snippet.get(
+                        "publishedAt",
+                        "",
+                    ),
 
                 "url":
                     (
@@ -295,101 +394,99 @@ def main():
                     ),
 
                 "description":
-                    description[:1500],
+                    snippet.get(
+                        "description",
+                        "",
+                    )[:1500],
 
-                # ------------------------------------------
-                # CLASSIFICATION
-                # ------------------------------------------
+                # ------------------------------------------------
+                # CLASSIFICATION AKAN DIISI TAHAP BERIKUTNYA
+                # ------------------------------------------------
 
-                "scope":
-                    classification[
-                        "scope"
-                    ],
+                "scope": None,
 
-                "category":
-                    classification[
-                        "category"
-                    ],
+                "category": None,
 
-                "role":
-                    classification[
-                        "role"
-                    ],
+                "role": None,
 
                 "classification_confidence":
-                    classification[
-                        "confidence"
-                    ],
+                    None,
 
                 "classification_reason":
-                    classification[
-                        "reason"
-                    ],
+                    [],
 
-                # ------------------------------------------
-                # LOCATION
-                # ------------------------------------------
+                # ------------------------------------------------
+                # LOCATION AKAN DIISI TAHAP BERIKUTNYA
+                # ------------------------------------------------
 
                 "is_jatim":
-                    location[
-                        "is_jatim"
-                    ],
+                    None,
 
                 "region":
-                    location[
-                        "region"
-                    ],
+                    None,
 
                 "polres":
-                    location[
-                        "polres"
-                    ],
+                    None,
 
                 "location_confidence":
-                    location[
-                        "confidence"
-                    ],
+                    None,
 
                 "location_source":
-                    location[
-                        "source"
-                    ],
+                    None,
 
                 "location_evidence":
-                    location[
-                        "evidence"
-                    ],
+                    [],
 
-                # ------------------------------------------
-                # PRIORITY
-                # ------------------------------------------
+                # ------------------------------------------------
+                # PRIORITY AKAN DIISI TAHAP BERIKUTNYA
+                # ------------------------------------------------
 
                 "priority":
-                    priority,
+                    None,
+
+                # ------------------------------------------------
+                # PROCESSING STATE
+                # ------------------------------------------------
+
+                "processing_status":
+                    "new",
+
+                "classifier_version":
+                    None,
+
+                "classified_at":
+                    None,
+
+                "case_id":
+                    None,
 
                 "collected_at":
                     now.isoformat(),
             }
 
-            if video_id in items_by_video:
+            new_items[
+                video_id
+            ] = item
 
-                items_by_video[
-                    video_id
-                ].update(item)
+    # ========================================================
+    # APPEND ONLY NEW ITEMS
+    # ========================================================
 
-            else:
+    for video_id, item in new_items.items():
 
-                items_by_video[
-                    video_id
-                ] = item
+        video_index[
+            video_id
+        ] = item
 
-                added += 1
-
-    items = list(
-        items_by_video.values()
+    all_items = list(
+        video_index.values()
     )
 
-    items.sort(
+    # ========================================================
+    # SORT
+    # ========================================================
+
+    all_items.sort(
         key=lambda item:
             item.get(
                 "published_at",
@@ -398,90 +495,15 @@ def main():
         reverse=True,
     )
 
-    items = items[:1500]
+    # ========================================================
+    # SAVE
+    #
+    # PENTING:
+    # last_successful_fetch BARU
+    # ditulis setelah SEMUA API CALL sukses.
+    # ========================================================
 
-    stats = {
-
-        "total":
-            len(items),
-
-        "new_videos":
-            added,
-
-        "jatim":
-            sum(
-                1
-                for item in items
-                if item.get(
-                    "is_jatim"
-                )
-            ),
-
-        "negative":
-            sum(
-                1
-                for item in items
-                if item.get(
-                    "scope"
-                ) == "negative"
-            ),
-
-        "incident":
-            sum(
-                1
-                for item in items
-                if item.get(
-                    "scope"
-                ) == "incident"
-            ),
-
-        "case":
-            sum(
-                1
-                for item in items
-                if item.get(
-                    "scope"
-                ) == "case"
-            ),
-
-        "neutral":
-            sum(
-                1
-                for item in items
-                if item.get(
-                    "scope"
-                ) == "neutral"
-            ),
-
-        "review":
-            sum(
-                1
-                for item in items
-                if item.get(
-                    "scope"
-                ) == "review"
-            ),
-
-        "noise":
-            sum(
-                1
-                for item in items
-                if item.get(
-                    "scope"
-                ) == "noise"
-            ),
-
-        "high_priority":
-            sum(
-                1
-                for item in items
-                if item.get(
-                    "priority"
-                ) == "high"
-            ),
-    }
-
-    output = {
+    database = {
 
         "generated_at":
             now.isoformat(),
@@ -490,16 +512,22 @@ def main():
             "YouTube",
 
         "total":
-            len(items),
+            len(all_items),
 
         "new_videos":
-            added,
+            len(new_items),
 
-        "statistics":
-            stats,
+        "last_successful_fetch":
+            iso_z(now),
+
+        "last_fetch_mode":
+            fetch_mode,
+
+        "last_api_results":
+            total_api_results,
 
         "items":
-            items,
+            all_items,
     }
 
     os.makedirs(
@@ -514,64 +542,48 @@ def main():
     ) as file:
 
         json.dump(
-            output,
+            database,
             file,
             ensure_ascii=False,
             indent=2,
         )
+
+    # ========================================================
+    # LOG
+    # ========================================================
 
     print(
         "========================================"
     )
 
     print(
+        f"API results      : "
+        f"{total_api_results}"
+    )
+
+    print(
         f"New videos       : "
-        f"{stats['new_videos']}"
+        f"{len(new_items)}"
+    )
+
+    print(
+        f"Existing videos  : "
+        f"{existing_count}"
     )
 
     print(
         f"Total videos     : "
-        f"{stats['total']}"
+        f"{len(all_items)}"
     )
 
     print(
-        f"Jawa Timur       : "
-        f"{stats['jatim']}"
+        f"Fetch mode       : "
+        f"{fetch_mode}"
     )
 
     print(
-        f"Negative Polri   : "
-        f"{stats['negative']}"
-    )
-
-    print(
-        f"Peristiwa        : "
-        f"{stats['incident']}"
-    )
-
-    print(
-        f"Ungkap kasus     : "
-        f"{stats['case']}"
-    )
-
-    print(
-        f"Netral           : "
-        f"{stats['neutral']}"
-    )
-
-    print(
-        f"Review           : "
-        f"{stats['review']}"
-    )
-
-    print(
-        f"Noise            : "
-        f"{stats['noise']}"
-    )
-
-    print(
-        f"Prioritas tinggi : "
-        f"{stats['high_priority']}"
+        f"Last successful  : "
+        f"{iso_z(now)}"
     )
 
     print(
@@ -585,4 +597,5 @@ def main():
 
 
 if __name__ == "__main__":
+
     main()
