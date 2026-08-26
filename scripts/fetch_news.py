@@ -12,7 +12,7 @@ import xml.etree.ElementTree as ET
 
 
 OUT = "data/news.json"
-USER_AGENT = "PNM-Polri-Negative-News-Monitor/4.1"
+USER_AGENT = "PNM-Polri-Negative-News-Monitor/5.0"
 
 
 # ============================================================
@@ -56,9 +56,8 @@ GENERAL_QUERIES = [
 # ============================================================
 # 39 POLRES JAWA TIMUR
 #
-# IMPORTANT:
-# - Alias pertama = indikator institusi/satker yang kuat.
-# - Nama kota/kabupaten TIDAK otomatis menjadi Polres.
+# Alias pertama = indikator institusi/satker yang kuat.
+# Nama kota/kabupaten TIDAK otomatis menjadi Polres.
 # ============================================================
 
 POLRES = {
@@ -101,7 +100,6 @@ POLRES = {
     "POLRESTABES SURABAYA": [
         "polrestabes surabaya",
         "polres kota besar surabaya",
-        "kepolisian resor kota besar surabaya",
         "kepolisian resor kota besar surabaya",
     ],
 
@@ -288,9 +286,6 @@ POLRES = {
 
 # ============================================================
 # WILAYAH JAWA TIMUR
-#
-# Digunakan untuk menentukan REGION.
-# Tidak digunakan langsung untuk menentukan POLRES.
 # ============================================================
 
 JATIM_REGION_TERMS = [
@@ -334,8 +329,6 @@ JATIM_REGION_TERMS = [
 
 # ============================================================
 # NON-JATIM
-#
-# Dipakai untuk mencegah false positive.
 # ============================================================
 
 NON_JATIM_TERMS = [
@@ -489,7 +482,7 @@ CASE_TERMS = [
 
 
 # ============================================================
-# POSITIF
+# POSITIVE
 # ============================================================
 
 POSITIVE_TERMS = [
@@ -536,25 +529,15 @@ def clean(value):
 
 def strip_html(value):
     return clean(
-        re.sub(r"<[^>]+>", " ", value or "")
+        re.sub(
+            r"<[^>]+>",
+            " ",
+            value or ""
+        )
     )
 
 
 def contains_term(text, term):
-    """
-    Pencocokan aman.
-
-    Untuk frasa:
-        'polres jember'
-
-    menggunakan pencarian frasa.
-
-    Untuk satu kata:
-        'jember'
-
-    menggunakan word boundary.
-    """
-
     text = text.lower()
     term = term.lower().strip()
 
@@ -575,12 +558,18 @@ def parse_date(value):
             value
         ).astimezone(
             dt.timezone.utc
-        ).isoformat()
-
+        )
     except Exception:
-        return dt.datetime.now(
-            dt.timezone.utc
-        ).isoformat()
+        return None
+
+
+def iso_or_none(value):
+    parsed = parse_date(value)
+
+    if parsed is None:
+        return None
+
+    return parsed.isoformat()
 
 
 def get(url):
@@ -604,19 +593,6 @@ def get(url):
 # ============================================================
 
 def find_polres(text):
-    """
-    HANYA menggunakan indikator institusi/satker.
-
-    Nama kota/kabupaten tidak digunakan sebagai penentu Polres.
-
-    Alias paling panjang diperiksa terlebih dahulu agar:
-
-        POLRES KEDIRI KOTA
-
-    tidak salah ditangkap sebagai:
-
-        POLRES KEDIRI
-    """
 
     candidates = []
 
@@ -628,6 +604,7 @@ def find_polres(text):
                 text,
                 alias
             ):
+
                 candidates.append(
                     (
                         len(alias),
@@ -638,7 +615,6 @@ def find_polres(text):
     if not candidates:
         return None
 
-    # Alias paling spesifik menang.
     candidates.sort(
         key=lambda x: x[0],
         reverse=True
@@ -652,14 +628,6 @@ def find_polres(text):
 # ============================================================
 
 def detect_region(text, polres):
-    """
-    Menentukan apakah artikel termasuk Jawa Timur.
-
-    Prioritas:
-    1. Nama Polres Jatim eksplisit
-    2. Indikator Jatim
-    3. Jika ada indikator luar Jatim kuat, jangan paksa Jatim
-    """
 
     if polres:
         return True
@@ -682,9 +650,6 @@ def detect_region(text, polres):
         )
     ]
 
-    # Jika ada wilayah luar Jatim yang jelas
-    # dan tidak ada bukti institusi Jatim,
-    # jangan klasifikasikan sebagai Jatim.
     if non_jatim_hits:
         return False
 
@@ -701,33 +666,17 @@ def classify_article(
 ):
 
     text = clean(
-        (
-            title
-            + " "
-            + strip_html(description)
-        )
+        title
+        + " "
+        + strip_html(description)
     ).lower()
 
-    # --------------------------------------------------------
-    # POLRES
-    # --------------------------------------------------------
-
-    polres = find_polres(
-        text
-    )
-
-    # --------------------------------------------------------
-    # REGION
-    # --------------------------------------------------------
+    polres = find_polres(text)
 
     is_jatim = detect_region(
         text,
         polres
     )
-
-    # --------------------------------------------------------
-    # NEGATIVE OKNUM
-    # --------------------------------------------------------
 
     is_negative_oknum = any(
         contains_term(
@@ -736,10 +685,6 @@ def classify_article(
         )
         for term in NEGATIVE_OKNUM_TERMS
     )
-
-    # --------------------------------------------------------
-    # CLASSIFICATION
-    # --------------------------------------------------------
 
     if is_negative_oknum:
 
@@ -774,6 +719,7 @@ def classify_article(
             )
 
         scope = "negative"
+
         scope_label = (
             "NEGATIF / OKNUM"
         )
@@ -791,6 +737,7 @@ def classify_article(
         )
 
         scope = "negative"
+
         scope_label = (
             "NEGATIF / KINERJA"
         )
@@ -808,6 +755,7 @@ def classify_article(
         )
 
         scope = "case"
+
         scope_label = (
             "UNGKAP KASUS"
         )
@@ -825,6 +773,7 @@ def classify_article(
         )
 
         scope = "positive"
+
         scope_label = (
             "POSITIF / KEGIATAN"
         )
@@ -836,13 +785,10 @@ def classify_article(
         )
 
         scope = "neutral"
+
         scope_label = (
             "NETRAL"
         )
-
-    # --------------------------------------------------------
-    # PRIORITY
-    # --------------------------------------------------------
 
     negative_hits = sum(
         1
@@ -915,18 +861,11 @@ def build_queries():
         GENERAL_QUERIES
     )
 
-    # Tambahkan query eksplisit untuk masing-masing Polres.
-    #
-    # Ini meningkatkan kemungkinan berita lokal ditemukan
-    # walaupun judul tidak memakai kata "oknum".
-
     for polres_name in POLRES:
 
         queries.append(
             f'"{polres_name.lower()}" polisi'
         )
-
-    # Deduplicate query.
 
     result = []
     seen = set()
@@ -945,10 +884,146 @@ def build_queries():
 
 
 # ============================================================
+# CURSOR / INCREMENTAL
+# ============================================================
+
+def get_last_successful_fetch(old):
+
+    value = old.get(
+        "last_successful_fetch"
+    )
+
+    if value:
+        try:
+            return dt.datetime.fromisoformat(
+                value.replace(
+                    "Z",
+                    "+00:00"
+                )
+            ).astimezone(
+                dt.timezone.utc
+            )
+        except Exception:
+            pass
+
+    # --------------------------------------------------------
+    # MIGRATION:
+    #
+    # File lama belum mempunyai cursor.
+    #
+    # Gunakan artikel TERBARU sebagai cursor awal.
+    # Jadi seluruh database lama TIDAK diambil ulang.
+    #
+    # Kita mundurkan 5 menit sebagai overlap kecil untuk
+    # menghindari artikel dengan timestamp yang sama.
+    # Dedup akan membuang artikel lama.
+    # --------------------------------------------------------
+
+    existing_dates = []
+
+    for item in old.get(
+        "items",
+        []
+    ):
+
+        if not isinstance(
+            item,
+            dict
+        ):
+            continue
+
+        value = item.get(
+            "published_at"
+        )
+
+        if not value:
+            continue
+
+        try:
+
+            parsed = dt.datetime.fromisoformat(
+                value.replace(
+                    "Z",
+                    "+00:00"
+                )
+            )
+
+            if parsed.tzinfo is None:
+                parsed = parsed.replace(
+                    tzinfo=dt.timezone.utc
+                )
+
+            existing_dates.append(
+                parsed.astimezone(
+                    dt.timezone.utc
+                )
+            )
+
+        except Exception:
+            continue
+
+    if existing_dates:
+
+        latest_existing = max(
+            existing_dates
+        )
+
+        return (
+            latest_existing
+            - dt.timedelta(
+                minutes=5
+            )
+        )
+
+    # --------------------------------------------------------
+    # Benar-benar database kosong.
+    # --------------------------------------------------------
+
+    return (
+        dt.datetime.now(
+            dt.timezone.utc
+        )
+        - dt.timedelta(
+            days=2
+        )
+    )
+
+
+# ============================================================
+# ARTICLE IS NEW ENOUGH?
+# ============================================================
+
+def is_after_cursor(
+    published_at,
+    cursor
+):
+
+    if published_at is None:
+        return True
+
+    if published_at.tzinfo is None:
+
+        published_at = published_at.replace(
+            tzinfo=dt.timezone.utc
+        )
+
+    return (
+        published_at.astimezone(
+            dt.timezone.utc
+        )
+        >= cursor
+    )
+
+
+# ============================================================
 # MAIN
 # ============================================================
 
 def main():
+
+    now = dt.datetime.now(
+        dt.timezone.utc
+    )
 
     old = {
         "items": []
@@ -976,9 +1051,11 @@ def main():
 
         except Exception as exc:
 
-            print(
-                "WARN: gagal membaca data lama:",
-                exc
+            raise RuntimeError(
+                "Gagal membaca "
+                + OUT
+                + ": "
+                + str(exc)
             )
 
     items = old.get(
@@ -990,7 +1067,14 @@ def main():
         items,
         list
     ):
+
         items = []
+
+    # --------------------------------------------------------
+    # EXISTING INDEX
+    #
+    # ID / URL dipakai untuk dedup.
+    # --------------------------------------------------------
 
     seen = set()
 
@@ -1012,92 +1096,67 @@ def main():
                 identity
             )
 
-    collected_at = (
-        dt.datetime.now(
-            dt.timezone.utc
-        ).isoformat()
+    # --------------------------------------------------------
+    # CURSOR
+    # --------------------------------------------------------
+
+    cursor = get_last_successful_fetch(
+        old
     )
 
-    # --------------------------------------------------------
-    # RECLASSIFY EXISTING DATA
-    # --------------------------------------------------------
+    cursor_text = cursor.isoformat()
 
     print(
-        f"Reclassifying {len(items)} existing records..."
+        "=========================================="
     )
 
-    for item in items:
+    print(
+        "PNM — NEWS MONITOR"
+    )
 
-        if not isinstance(
-            item,
-            dict
-        ):
-            continue
+    print(
+        "INCREMENTAL FETCH V1"
+    )
 
-        (
-            is_jatim,
-            polres,
-            category,
-            scope,
-            scope_label,
-            priority,
-        ) = classify_article(
-            item.get(
-                "title",
-                ""
-            ),
-            item.get(
-                "summary",
-                ""
-            )
-        )
+    print(
+        "=========================================="
+    )
 
-        item["is_jatim"] = (
-            is_jatim
-        )
+    print(
+        f"Existing records : {len(items)}"
+    )
 
-        item["region"] = (
-            "Jawa Timur"
-            if is_jatim
-            else "Indonesia"
-        )
+    print(
+        f"Last successful  : {cursor_text}"
+    )
 
-        # Jika Jatim tetapi Polres tidak
-        # terdeteksi, polres tetap None.
-        #
-        # DATA TIDAK DIHAPUS.
+    print(
+        "Mode             : INCREMENTAL"
+    )
 
-        item["polres"] = (
-            polres
-        )
-
-        item["category"] = (
-            category
-        )
-
-        item["scope"] = (
-            scope
-        )
-
-        item["scope_label"] = (
-            scope_label
-        )
-
-        item["priority"] = (
-            priority
-        )
-
-    # --------------------------------------------------------
-    # COLLECT NEW NEWS
-    # --------------------------------------------------------
+    print(
+        "=========================================="
+    )
 
     queries = build_queries()
 
     added = 0
+    skipped_old = 0
+    skipped_duplicate = 0
+    skipped_irrelevant = 0
+    api_success = 0
+    api_failed = 0
 
-    print(
-        f"Running {len(queries)} queries..."
-    )
+    # --------------------------------------------------------
+    # IMPORTANT:
+    #
+    # Kita TIDAK melakukan:
+    #
+    #   Reclassifying 5000 existing records
+    #
+    # Existing records dipertahankan apa adanya.
+    # Hanya artikel baru yang diproses.
+    # --------------------------------------------------------
 
     for index, query in enumerate(
         queries,
@@ -1105,7 +1164,8 @@ def main():
     ):
 
         print(
-            f"[{index}/{len(queries)}] {query}"
+            f"[{index}/{len(queries)}] "
+            f"{query}"
         )
 
         try:
@@ -1123,6 +1183,8 @@ def main():
             root = ET.fromstring(
                 rss_data
             )
+
+            api_success += 1
 
             for article in root.findall(
                 "./channel/item"
@@ -1149,6 +1211,34 @@ def main():
                 if not title or not link:
                     continue
 
+                published_raw = (
+                    article.findtext(
+                        "pubDate"
+                    )
+                )
+
+                published_dt = parse_date(
+                    published_raw
+                )
+
+                # ------------------------------------------------
+                # TIMESTAMP FILTER
+                #
+                # Artikel lama tidak diproses.
+                # ------------------------------------------------
+
+                if not is_after_cursor(
+                    published_dt,
+                    cursor
+                ):
+
+                    skipped_old += 1
+                    continue
+
+                # ------------------------------------------------
+                # ID
+                # ------------------------------------------------
+
                 identity = hashlib.sha1(
                     (
                         title
@@ -1159,17 +1249,24 @@ def main():
                     )
                 ).hexdigest()
 
+                # ------------------------------------------------
+                # DUPLICATE
+                # ------------------------------------------------
+
                 if identity in seen:
+
+                    skipped_duplicate += 1
                     continue
+
+                # ------------------------------------------------
+                # RELEVANCE
+                # ------------------------------------------------
 
                 searchable_text = (
                     title
                     + " "
                     + description
                 ).lower()
-
-                # Pastikan artikel memang berkaitan
-                # dengan polisi/Polri.
 
                 if not any(
                     contains_term(
@@ -1182,13 +1279,13 @@ def main():
                         "oknum",
                     ]
                 ):
+
+                    skipped_irrelevant += 1
                     continue
 
-                published_at = parse_date(
-                    article.findtext(
-                        "pubDate"
-                    )
-                )
+                # ------------------------------------------------
+                # SOURCE
+                # ------------------------------------------------
 
                 source = clean(
                     article.findtext(
@@ -1198,6 +1295,10 @@ def main():
 
                 if not source:
                     source = "Google News"
+
+                # ------------------------------------------------
+                # CLASSIFY NEW ARTICLE ONLY
+                # ------------------------------------------------
 
                 (
                     is_jatim,
@@ -1212,26 +1313,74 @@ def main():
                 )
 
                 item = {
-                    "id": identity,
-                    "title": title,
-                    "url": link,
-                    "source": source,
-                    "published_at": published_at,
-                    "collected_at": collected_at,
-                    "region": (
-                        "Jawa Timur"
-                        if is_jatim
-                        else "Indonesia"
-                    ),
-                    "is_jatim": is_jatim,
-                    "polres": polres,
-                    "category": category,
-                    "scope": scope,
-                    "scope_label": scope_label,
-                    "priority": priority,
-                    "summary": strip_html(
-                        description
-                    )[:700],
+
+                    "id":
+                        identity,
+
+                    "title":
+                        title,
+
+                    "url":
+                        link,
+
+                    "source":
+                        source,
+
+                    "published_at":
+                        (
+                            published_dt.isoformat()
+                            if published_dt
+                            else now.isoformat()
+                        ),
+
+                    "collected_at":
+                        now.isoformat(),
+
+                    "region":
+                        (
+                            "Jawa Timur"
+                            if is_jatim
+                            else "Indonesia"
+                        ),
+
+                    "is_jatim":
+                        is_jatim,
+
+                    "polres":
+                        polres,
+
+                    "category":
+                        category,
+
+                    "scope":
+                        scope,
+
+                    "scope_label":
+                        scope_label,
+
+                    "priority":
+                        priority,
+
+                    "summary":
+                        strip_html(
+                            description
+                        )[:700],
+
+                    # --------------------------------------------
+                    # PROCESSING STATE
+                    # --------------------------------------------
+
+                    "processing_status":
+                        "new",
+
+                    "classifier_version":
+                        "news-v1",
+
+                    "classified_at":
+                        now.isoformat(),
+
+                    "case_id":
+                        None,
                 }
 
                 items.append(
@@ -1246,6 +1395,8 @@ def main():
 
         except Exception as exc:
 
+            api_failed += 1
+
             print(
                 f"WARN: query gagal: "
                 f"{query} -> {exc}"
@@ -1255,9 +1406,9 @@ def main():
             0.15
         )
 
-    # --------------------------------------------------------
+    # ========================================================
     # SORT
-    # --------------------------------------------------------
+    # ========================================================
 
     items.sort(
         key=lambda item:
@@ -1268,13 +1419,169 @@ def main():
         reverse=True
     )
 
-    # Simpan maksimal 5.000 berita terbaru.
+    # ========================================================
+    # LIMIT
+    # ========================================================
 
     items = items[:5000]
 
-    # --------------------------------------------------------
+    # ========================================================
+    # SAFETY:
+    #
+    # last_successful_fetch hanya boleh maju jika SEMUA query
+    # berhasil.
+    #
+    # Kalau ada query gagal:
+    # cursor tetap menggunakan cursor lama.
+    #
+    # Tujuannya supaya berita tidak hilang pada workflow
+    # berikutnya.
+    # ========================================================
+
+    all_queries_success = (
+        api_failed == 0
+    )
+
+    if all_queries_success:
+
+        new_last_successful_fetch = (
+            now.isoformat()
+        )
+
+    else:
+
+        old_cursor = old.get(
+            "last_successful_fetch"
+        )
+
+        if old_cursor:
+
+            new_last_successful_fetch = (
+                old_cursor
+            )
+
+        else:
+
+            new_last_successful_fetch = (
+                cursor.isoformat()
+            )
+
+    # ========================================================
+    # STATISTICS
+    # ========================================================
+
+    statistics = {
+
+        "total":
+            len(items),
+
+        "jatim":
+            sum(
+                1
+                for item in items
+                if item.get(
+                    "is_jatim"
+                )
+            ),
+
+        "negative":
+            sum(
+                1
+                for item in items
+                if item.get(
+                    "scope"
+                ) == "negative"
+            ),
+
+        "case":
+            sum(
+                1
+                for item in items
+                if item.get(
+                    "scope"
+                ) == "case"
+            ),
+
+        "positive":
+            sum(
+                1
+                for item in items
+                if item.get(
+                    "scope"
+                ) == "positive"
+            ),
+
+        "neutral":
+            sum(
+                1
+                for item in items
+                if item.get(
+                    "scope"
+                ) == "neutral"
+            ),
+    }
+
+    # ========================================================
     # SAVE
-    # --------------------------------------------------------
+    # ========================================================
+
+    output = {
+
+        "generated_at":
+            now.isoformat(),
+
+        "platform":
+            "News",
+
+        "total":
+            len(items),
+
+        "new_records":
+            added,
+
+        "last_successful_fetch":
+            new_last_successful_fetch,
+
+        "last_fetch_mode":
+            "incremental",
+
+        "fetch_status":
+            (
+                "success"
+                if all_queries_success
+                else "partial"
+            ),
+
+        "fetch_statistics": {
+
+            "queries":
+                len(queries),
+
+            "api_success":
+                api_success,
+
+            "api_failed":
+                api_failed,
+
+            "skipped_old":
+                skipped_old,
+
+            "skipped_duplicate":
+                skipped_duplicate,
+
+            "skipped_irrelevant":
+                skipped_irrelevant,
+
+            "new_records":
+                added,
+        },
+
+        "statistics":
+            statistics,
+
+        "items":
+            items,
+    }
 
     os.makedirs(
         os.path.dirname(OUT),
@@ -1288,33 +1595,84 @@ def main():
     ) as file:
 
         json.dump(
-            {
-                "generated_at": collected_at,
-                "items": items,
-            },
+            output,
             file,
             ensure_ascii=False,
             indent=2
         )
+
+    # ========================================================
+    # LOG
+    # ========================================================
 
     print(
         "=========================================="
     )
 
     print(
-        f"Existing records : {len(items) - added}"
+        f"API success       : {api_success}"
     )
 
     print(
-        f"New records      : {added}"
+        f"API failed        : {api_failed}"
     )
 
     print(
-        f"Total records    : {len(items)}"
+        f"Skipped old       : {skipped_old}"
     )
 
     print(
-        "==========================================" 
+        f"Skipped duplicate : {skipped_duplicate}"
+    )
+
+    print(
+        f"Skipped irrelevant: {skipped_irrelevant}"
+    )
+
+    print(
+        f"New records       : {added}"
+    )
+
+    print(
+        f"Total records     : {len(items)}"
+    )
+
+    print(
+        f"Jawa Timur        : "
+        f"{statistics['jatim']}"
+    )
+
+    print(
+        f"Negative          : "
+        f"{statistics['negative']}"
+    )
+
+    print(
+        f"Ungkap kasus      : "
+        f"{statistics['case']}"
+    )
+
+    print(
+        f"Positive          : "
+        f"{statistics['positive']}"
+    )
+
+    print(
+        f"Neutral           : "
+        f"{statistics['neutral']}"
+    )
+
+    print(
+        f"Last successful   : "
+        f"{new_last_successful_fetch}"
+    )
+
+    print(
+        f"Output            : {OUT}"
+    )
+
+    print(
+        "=========================================="
     )
 
 
