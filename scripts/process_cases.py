@@ -502,7 +502,171 @@ def needs_rebuild(database):
     # Rebuild automatically when upgrading from V3/older.
     return database.get("engine_version") != ENGINE_VERSION
 
+
+def sync_case_canonical_metadata(news, cases):
+    """
+    STEP 1 ONLY:
+    Make case_clusters.json the canonical bridge between cases and news.
+
+    - Rebuild case -> article links from existing case articles.
+    - Recalculate case priority from every linked news item.
+    - Keep the highest priority found in the incident.
+    - Synchronize news.case_id back to the canonical case.
+    - Do not alter collector fields or clustering decisions.
+    """
+    news_by_id = {
+        item.get("id"): item
+        for item in news
+        if item.get("id")
+    }
+
+    assigned = {}
+
+    for case in cases:
+        case.setdefault("article_ids", [])
+        case.setdefault("articles", [])
+
+        unique_ids = []
+        unique_articles = []
+        seen_ids = set()
+
+        for article in case.get("articles", []):
+            if not isinstance(article, dict):
+                continue
+
+            article_id = article.get("id")
+            if not article_id or article_id in seen_ids:
+                continue
+
+            seen_ids.add(article_id)
+            unique_ids.append(article_id)
+
+            source_news = news_by_id.get(article_id)
+
+            if source_news:
+                # Refresh the compact reference from news.json so
+                # the case never becomes stale relative to the news DB.
+                refreshed = {
+                    "id": source_news.get("id"),
+                    "title": source_news.get("title", ""),
+                    "url": source_news.get("url", ""),
+                    "published_at": source_news.get("published_at"),
+                    "source": source_news.get("source"),
+                    "priority": source_news.get("priority", "low"),
+                    "scope": source_news.get("scope"),
+                    "region": source_news.get("region"),
+                    "polres": source_news.get("polres"),
+                    "match_score": article.get("match_score", 0.0),
+                }
+
+                unique_articles.append(refreshed)
+
+                # Canonical reverse link: news -> case.
+                source_news["processing_status"] = "processed"
+                source_news["case_id"] = case.get("case_id")
+                source_news["case_engine_version"] = ENGINE_VERSION
+
+                assigned[article_id] = case.get("case_id")
+            else:
+                # Keep the reference only when the source article is still
+                # present in the case database. It will be dropped from
+                # article_ids if no compact article record exists.
+                unique_articles.append(article)
+
+        case["articles"] = unique_articles
+        case["article_ids"] = [
+            article.get("id")
+            for article in unique_articles
+            if article.get("id")
+        ]
+        case["article_count"] = len(case["article_ids"])
+
+        # ------------------------------------------------------------
+        # Canonical priority:
+        # highest priority among every linked news article wins.
+        # ------------------------------------------------------------
+        priorities = []
+
+        for article in unique_articles:
+            priority = str(
+                article.get("priority") or "low"
+            ).lower()
+
+            if priority in PRIORITY_ORDER:
+                priorities.append(priority)
+
+        # Also inspect authoritative news.json in case an older case
+        # article reference did not previously store priority.
+        for article_id in case["article_ids"]:
+            source_news = news_by_id.get(article_id)
+            if source_news:
+                priority = str(
+                    source_news.get("priority") or "low"
+                ).lower()
+
+                if priority in PRIORITY_ORDER:
+                    priorities.append(priority)
+
+        if priorities:
+            case["priority"] = max(
+                priorities,
+                key=lambda value: PRIORITY_ORDER.get(value, 1)
+            )
+        else:
+            case["priority"] = str(
+                case.get("priority") or "low"
+            ).lower()
+
+        # ------------------------------------------------------------
+        # Canonical metadata from linked news.
+        # Keep the strongest/most specific values without changing
+        # clustering.
+        # ------------------------------------------------------------
+        linked_news = [
+            news_by_id[article_id]
+            for article_id in case["article_ids"]
+            if article_id in news_by_id
+        ]
+
+        if linked_news:
+            polres_values = [
+                item.get("polres")
+                for item in linked_news
+                if item.get("polres")
+            ]
+
+            if polres_values:
+                # Existing case polres wins unless empty.
+                case["polres"] = (
+                    case.get("polres")
+                    or polres_values[0]
+                )
+
+            region_values = [
+                item.get("region")
+                for item in linked_news
+                if item.get("region")
+            ]
+
+            if region_values and not case.get("region"):
+                case["region"] = region_values[0]
+
+            if any(
+                item.get("is_jatim") is True
+                for item in linked_news
+            ):
+                case["is_jatim"] = True
+
+        case["updated_at"] = now_iso()
+
+    return assigned
+
+
 def save_outputs(news, cases, already_processed, pending_count, matched, created, mode, rebuilt):
+    # STEP 1: synchronize the canonical Case <-> News relationship
+    # immediately before writing both databases.
+    sync_case_canonical_metadata(news, cases)
+
     # Deduplicate article IDs defensively.
     for case in cases:
         seen = set()
