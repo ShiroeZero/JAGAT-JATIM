@@ -1168,12 +1168,13 @@ def main():
         f"{len(cases)}"
     )
 
+    total_articles = sum(
+        case.get("article_count", 0)
+        for case in cases
+    )
+    
     print(
-        f"Total articles   : "
-        f"{sum("
-        f"case.get('article_count', 0)"
-        f" for case in cases"
-        f")}"
+        f"Total articles   : {total_articles}"
     )
 
     print(
