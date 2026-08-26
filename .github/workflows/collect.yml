@@ -83,11 +83,11 @@ jobs:
           fi
 
           echo ""
-          echo "cases.json:"
-          if [ -f data/cases.json ]; then
-            ls -lh data/cases.json
+          echo "case_clusters.json:"
+          if [ -f data/case_clusters.json ]; then
+            ls -lh data/case_clusters.json
           else
-            echo "WARNING: data/cases.json tidak ditemukan"
+            echo "WARNING: data/case_clusters.json tidak ditemukan"
           fi
 
           echo ""
@@ -101,6 +101,7 @@ jobs:
           echo ""
           echo "========================================"
 
+
       # ==========================================
       # 5. SAVE DATA
       # ==========================================
@@ -113,9 +114,15 @@ jobs:
           git config user.email \
             "41898282+github-actions[bot]@users.noreply.github.com"
 
+          echo "========================================"
+          echo "CHECK GIT CHANGES"
+          echo "========================================"
+
+          git status --short
+
           git add \
             data/news.json \
-            data/cases.json \
+            data/case_clusters.json \
             data/social.json
 
           if git diff --cached --quiet; then
