@@ -2,6 +2,7 @@ name: Collect Negative News
 
 on:
   workflow_dispatch:
+
   schedule:
     - cron: "17 * * * *"
 
@@ -13,65 +14,140 @@ concurrency:
   cancel-in-progress: false
 
 jobs:
+
   collect:
+
     runs-on: ubuntu-latest
 
     steps:
+
+      # =====================================================
+      # 1. CHECKOUT
+      # =====================================================
+
       - name: Checkout repository
         uses: actions/checkout@v4
+
+
+      # =====================================================
+      # 2. PYTHON
+      # =====================================================
 
       - name: Setup Python
         uses: actions/setup-python@v5
         with:
           python-version: "3.12"
 
+
+      # =====================================================
+      # 3. COLLECT NEWS
+      # =====================================================
+
       - name: Collect news
         run: |
           python -u scripts/fetch_news.py
+
+
+      # =====================================================
+      # 4. NORMALIZE LOCATION
+      # =====================================================
 
       - name: Normalize location data
         run: |
           python -u scripts/normalize_news.py
 
+
+      # =====================================================
+      # 5. CHECK NEWS
+      # =====================================================
+
       - name: Check news
         run: |
           python - <<'PY'
-          import json, os
+          import json
+          import os
+
           path = "data/news.json"
+
           if not os.path.exists(path):
-              raise SystemExit("ERROR: data/news.json tidak ditemukan")
+              raise SystemExit(
+                  "ERROR: data/news.json tidak ditemukan"
+              )
+
           with open(path, encoding="utf-8") as f:
               data = json.load(f)
+
           items = data.get("items", [])
+
           print("========================================")
           print("NEWS DATABASE CHECK")
+          print("========================================")
           print(f"News records : {len(items)}")
           print("========================================")
           PY
+
+
+      # =====================================================
+      # 6. BUILD CASE CLUSTERS
+      # =====================================================
 
       - name: Build case clusters
         run: |
           python -u scripts/process_cases.py
 
-      - name: Validate data
-        run: |
-          python -u scripts/validate_data.py
+
+      # =====================================================
+      # 7. CHECK CASE DATABASE
+      #
+      # IMPORTANT:
+      # Jangan menjalankan validate_data.py di sini karena
+      # today.json masih merupakan snapshot run sebelumnya.
+      # =====================================================
 
       - name: Check case database
         run: |
           python - <<'PY'
-          import json, os
+          import json
+          import os
+
           path = "data/case_clusters.json"
+
           if not os.path.exists(path):
-              raise SystemExit("ERROR: case_clusters.json tidak ditemukan")
+              raise SystemExit(
+                  "ERROR: case_clusters.json tidak ditemukan"
+              )
+
           with open(path, encoding="utf-8") as f:
               data = json.load(f)
+
+          cases = data.get("cases", [])
+
+          total_articles = sum(
+              int(case.get("article_count", 0) or 0)
+              for case in cases
+          )
+
+          high_cases = sum(
+              1
+              for case in cases
+              if str(
+                  case.get("priority") or ""
+              ).lower() == "high"
+          )
+
           print("========================================")
           print("CASE DATABASE CHECK")
-          print(f"Cases    : {len(data.get('cases', []))}")
-          print(f"Articles : {data.get('total_articles', 0)}")
+          print("========================================")
+          print(f"Cases          : {len(cases)}")
+          print(f"Articles       : {total_articles}")
+          print(f"High priority  : {high_cases}")
           print("========================================")
           PY
+
+
+      # =====================================================
+      # 8. COLLECT YOUTUBE
+      # =====================================================
 
       - name: Collect YouTube
         continue-on-error: true
@@ -80,22 +156,40 @@ jobs:
         run: |
           python -u scripts/fetch_social.py
 
+
+      # =====================================================
+      # 9. CHECK YOUTUBE
+      # =====================================================
+
       - name: Check YouTube data
         run: |
+
           echo "========================================"
           echo "YOUTUBE DATA CHECK"
           echo "========================================"
+
           if [ -f data/social.json ]; then
             ls -lh data/social.json
             echo "YouTube data tersedia."
           else
             echo "WARNING: data/social.json tidak tersedia."
           fi
+
           echo "========================================"
+
+
+      # =====================================================
+      # 10. CREATE DAILY SNAPSHOT
+      # =====================================================
 
       - name: Create daily snapshot
         run: |
           python -u scripts/create_daily_snapshot.py
+
+
+      # =====================================================
+      # 11. BUILD ARCHIVE INDEX
+      # =====================================================
 
       - name: Build archive index
         run: |
@@ -104,7 +198,11 @@ jobs:
           from pathlib import Path
 
           archive_dir = Path("data/archive")
-          archive_dir.mkdir(parents=True, exist_ok=True)
+
+          archive_dir.mkdir(
+              parents=True,
+              exist_ok=True
+          )
 
           files = sorted(
               [
@@ -115,49 +213,116 @@ jobs:
               reverse=True
           )
 
-          with open(archive_dir / "index.json", "w", encoding="utf-8") as f:
-              json.dump({"files": files}, f, ensure_ascii=False, indent=2)
+          with open(
+              archive_dir / "index.json",
+              "w",
+              encoding="utf-8"
+          ) as f:
+              json.dump(
+                  {
+                      "files": files
+                  },
+                  f,
+                  ensure_ascii=False,
+                  indent=2
+              )
 
           print("========================================")
           print("ARCHIVE INDEX")
           print("========================================")
           print(f"Archives : {len(files)}")
+
           for item in files[:10]:
               print(f" - {item}")
-          print("Output   : data/archive/index.json")
+
+          print(
+              "Output   : data/archive/index.json"
+          )
           print("========================================")
           PY
+
+
+      # =====================================================
+      # 12. FINAL VALIDATION
+      #
+      # Di sini today.json SUDAH dibuat ulang.
+      # Jadi validator sekarang membandingkan:
+      #
+      # news.json terbaru
+      #       VS
+      # today.json terbaru
+      # =====================================================
 
       - name: Validate final data
         run: |
           python -u scripts/validate_data.py
 
+
+      # =====================================================
+      # 13. CHECK MONITORING DATA
+      # =====================================================
+
       - name: Check monitoring data
         run: |
+
           echo "========================================"
           echo "CHECK MONITORING DATA"
           echo "========================================"
-          for f in data/news.json data/case_clusters.json data/social.json data/today.json data/archive/index.json; do
+
+          for f in \
+            data/news.json \
+            data/case_clusters.json \
+            data/social.json \
+            data/today.json \
+            data/archive/index.json
+          do
+
             if [ -f "$f" ]; then
               echo "$f:"
               ls -lh "$f"
             else
               echo "WARNING: $f tidak ditemukan"
             fi
+
             echo ""
+
           done
+
           echo "archive:"
+
           if [ -d data/archive ]; then
-            find data/archive -maxdepth 1 -type f | sort
+            find data/archive \
+              -maxdepth 1 \
+              -type f \
+              | sort
           fi
+
+          echo ""
           echo "========================================"
+
+
+      # =====================================================
+      # 14. SAVE MONITORING DATA
+      # =====================================================
 
       - name: Save monitoring data
         run: |
+
           git config user.name "PNM Bot"
-          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          git config user.email \
+            "41898282+github-actions[bot]@users.noreply.github.com"
+
+          echo "========================================"
+          echo "GIT STATUS"
+          echo "========================================"
 
           git status --short
+
+          echo ""
+          echo "========================================"
+          echo "ADDING MONITORING DATA"
+          echo "========================================"
 
           git add \
             data/news.json \
@@ -172,11 +337,26 @@ jobs:
             scripts/validate_data.py \
             scripts/update_matwil.py \
             scripts/location_engine.py \
-            README.md
+            README.md \
+            .gitignore
+
+          echo ""
+          echo "========================================"
+          echo "STAGED CHANGES"
+          echo "========================================"
+
+          git status --short
 
           if git diff --cached --quiet; then
+
+            echo ""
             echo "Tidak ada perubahan data."
+
           else
-            git commit -m "chore: update monitoring data"
+
+            git commit \
+              -m "chore: update monitoring data"
+
             git push
+
           fi
