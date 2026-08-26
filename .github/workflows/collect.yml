@@ -35,7 +35,7 @@ jobs:
 
       - name: Collect news
         run: |
-          python scripts/fetch_news.py
+          python -u scripts/fetch_news.py
 
       # ==========================================
       # 2. BUILD CASES
@@ -43,18 +43,20 @@ jobs:
 
       - name: Build case clusters
         run: |
-          python scripts/process_cases.py
+          python -u scripts/process_cases.py
 
       # ==========================================
-      # 3. PREPARE SOCIAL DATA
+      # 3. YOUTUBE SOCIAL MONITOR
       # ==========================================
 
-      - name: Prepare social monitoring
+      - name: Collect YouTube
+        env:
+          YOUTUBE_API_KEY: ${{ secrets.YOUTUBE_API_KEY }}
         run: |
-          python scripts/fetch_social.py
+          python -u scripts/fetch_social.py
 
       # ==========================================
-      # 4. SAVE ALL DATA
+      # 4. SAVE DATA
       # ==========================================
 
       - name: Save monitoring data
