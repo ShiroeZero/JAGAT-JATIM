@@ -1,29 +1,51 @@
 {
-  "generated_at": "2026-08-26T13:25:40.220132+00:00",
+  "generated_at": "2026-08-26T13:35:21.666844+00:00",
   "platform": "News",
-  "total": 374,
-  "new_records": 0,
-  "last_successful_fetch": "2026-08-26T13:25:40.220132+00:00",
+  "total": 375,
+  "new_records": 1,
+  "last_successful_fetch": "2026-08-26T13:35:21.666844+00:00",
   "last_fetch_mode": "incremental",
   "fetch_status": "success",
   "fetch_statistics": {
     "queries": 69,
     "api_success": 69,
     "api_failed": 0,
-    "skipped_old": 6642,
+    "skipped_old": 6674,
     "skipped_duplicate": 0,
     "skipped_irrelevant": 0,
-    "new_records": 0
+    "new_records": 1
   },
   "statistics": {
-    "total": 374,
+    "total": 375,
     "jatim": 90,
     "negative": 18,
     "case": 14,
     "positive": 8,
-    "neutral": 334
+    "neutral": 335
   },
   "items": [
+    {
+      "id": "721aedff5ee7dda2f371eac611c7a50870e672c5",
+      "title": "3 Tersangka Pembubaran Ibadah GMS Bantul Tak Ditahan, Polisi Ungkap Alasannya - Kompas.com",
+      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNcW11V0JfQzMwQ2d2eVZJRG9QWXFwMGtYYlR5UmV5Y19ZWXVqY2g2X21BenM0VFdvREtzSGluUWx3VktDaFFlTUJMS2x1TmJyTHpxWnZuSnhYSi1Ja0xvNnJDLTAxZG5teDBZMm5tYWV2QVAtNlpnOUpsRGZLNWZxRFdNTDFzWTVsNEQ2ZXd3R0VEWEppQU9LOGtNYUZfTS1jdkNMUi1UbkdFM3VnaE9RNFlYQk5qUmVWWUFzTjUzZw?oc=5",
+      "source": "Kompas.com",
+      "published_at": "2026-08-26T13:30:00+00:00",
+      "collected_at": "2026-08-26T13:35:21.666844+00:00",
+      "region": "Indonesia",
+      "is_jatim": false,
+      "polres": null,
+      "category": "NETRAL / LAINNYA",
+      "scope": "neutral",
+      "scope_label": "NETRAL",
+      "priority": "low",
+      "summary": "3 Tersangka Pembubaran Ibadah GMS Bantul Tak Ditahan, Polisi Ungkap Alasannya Kompas.com",
+      "processing_status": "processed",
+      "classifier_version": "news-v1",
+      "classified_at": "2026-08-26T13:35:21.666844+00:00",
+      "case_id": null,
+      "case_processed_at": "2026-08-26T13:36:03.717731+00:00",
+      "case_engine_version": "case-v4"
+    },
     {
       "id": "e6f5a153ada5f2d0483401c6be173c99cb96ca75",
       "title": "Dapur SPPG Pasanggar Pamekasan Diselidiki Polisi - SIGAP88",
@@ -8254,5 +8276,5 @@
     }
   ],
   "case_engine_version": "case-v4",
-  "case_engine_processed_at": "2026-08-26T13:26:18.634974+00:00"
+  "case_engine_processed_at": "2026-08-26T13:36:03.722060+00:00"
 }
