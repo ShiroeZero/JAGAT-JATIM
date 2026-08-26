@@ -1,53 +1,73 @@
-const cfg = window.PNM_CONFIG || {};
-const supabaseReady = cfg.SUPABASE_URL && !cfg.SUPABASE_URL.includes('YOUR-') && cfg.SUPABASE_PUBLISHABLE_KEY && !cfg.SUPABASE_PUBLISHABLE_KEY.includes('YOUR_');
-const supabase = supabaseReady ? window.supabase.createClient(cfg.SUPABASE_URL, cfg.SUPABASE_PUBLISHABLE_KEY) : null;
-let allNews = [];
-const $ = (id) => document.getElementById(id);
+const DEMO_EMAIL="admin@propam-jatim.go.id", DEMO_PASSWORD="PropamJatim2026!";
+let allNews=[], currentView="dashboard";
 
-function esc(s=''){ return s.replace(/[&<>"']/g, c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#039;'}[c])); }
-function relativeDate(iso){ const d=new Date(iso), diff=Date.now()-d.getTime(); if(!Number.isFinite(diff)) return ''; const h=Math.floor(diff/36e5); if(h<1) return 'baru saja'; if(h<24) return `${h} jam lalu`; const days=Math.floor(h/24); return `${days} hari lalu`; }
-function severityLabel(s){ return s==='high'?'TINGGI':s==='medium'?'SEDANG':'RENDAH'; }
-function newsCard(n){ return `<article class="news-card"><div class="card-main"><div class="meta"><span class="badge ${esc(n.severity)}">${severityLabel(n.severity)}</span><span>${esc(n.category||'lainnya')}</span><span>${esc(n.region||'Indonesia')}</span><span>${relativeDate(n.published_at)}</span></div><h3>${esc(n.title)}</h3><p>${esc(n.summary||'')}</p><div class="source">${esc(n.source||'Sumber')} · <a href="${esc(n.link)}" target="_blank" rel="noopener noreferrer">Buka berita ↗</a></div></div></article>`; }
-function isJatim(n){ return n.region==='Jawa Timur' || n.jatim===true; }
-function render(list, el){ el.innerHTML=list.length?list.map(newsCard).join(''):'<div class="empty">Tidak ada berita yang sesuai filter.</div>'; }
-function filtered(){ const q=($('q')?.value||'').toLowerCase().trim(), r=$('region')?.value||'all', s=$('severity')?.value||'all', c=$('category')?.value||'all'; let out=allNews.filter(n=>(!q || `${n.title} ${n.summary} ${n.source} ${n.city||''}`.toLowerCase().includes(q)) && (r==='all'||(r==='jatim'&&isJatim(n))) && (s==='all'||n.severity===s) && (c==='all'||n.category===c)); const sort=$('sort')?.value||'new'; if(sort==='old') out.sort((a,b)=>new Date(a.published_at)-new Date(b.published_at)); else if(sort==='severity'){const rank={high:0,medium:1,low:2};out.sort((a,b)=>(rank[a.severity]??9)-(rank[b.severity]??9)||new Date(b.published_at)-new Date(a.published_at));} else out.sort((a,b)=>new Date(b.published_at)-new Date(a.published_at)); return out; }
-function updateLists(){ const f=filtered(); $('resultCount').textContent=`${f.length} berita`; render(f,$('newsList')); const j=allNews.filter(isJatim).sort((a,b)=>new Date(b.published_at)-new Date(a.published_at)); render(j,$('jatimList')); }
-async function loadNews(){ try{const r=await fetch(`data/news.json?ts=${Date.now()}`); if(!r.ok) throw new Error('Gagal mengambil data'); const data=await r.json(); allNews=data.items||[]; const stamp=data.generated_at?new Date(data.generated_at).toLocaleString('id-ID'):'belum tersedia'; $('lastUpdated').textContent=`Data: ${stamp}`; const now=Date.now(), day=allNews.filter(n=>now-new Date(n.published_at).getTime()<=864e5); const j=allNews.filter(isJatim); $('statTotal').textContent=allNews.length; $('statJatim').textContent=j.length; $('stat24').textContent=day.length; $('statHigh').textContent=allNews.filter(n=>n.severity==='high').length; $('jatimTotal').textContent=j.length; $('jatim24').textContent=j.filter(n=>now-new Date(n.published_at).getTime()<=864e5).length; $('jatimHigh').textContent=j.filter(n=>n.severity==='high').length; render(allNews.slice().sort((a,b)=>new Date(b.published_at)-new Date(a.published_at)).slice(0,8),$('recentList')); updateLists(); }catch(e){ $('lastUpdated').textContent='Data gagal dimuat'; console.error(e); } }
-function showPage(page){document.querySelectorAll('.page').forEach(x=>x.classList.add('hidden')); $(page+'Page').classList.remove('hidden'); document.querySelectorAll('.nav-item').forEach(x=>x.classList.toggle('active',x.dataset.page===page)); $('pageTitle').textContent={dashboard:'Dashboard',news:'Berita',jatim:'Jawa Timur',settings:'Pengaturan'}[page]||'Dashboard'; if(page==='news'||page==='jatim') updateLists();}
-function setup(){document.querySelectorAll('[data-page]').forEach(b=>b.addEventListener('click',()=>showPage(b.dataset.page))); ['q','region','severity','category','sort'].forEach(id=>$(id)?.addEventListener('input',updateLists)); $('refreshBtn').addEventListener('click',()=>loadNews()); $('configStatus').innerHTML=supabaseReady?'<span class="ok">● Supabase terkonfigurasi</span>':'<span class="warn">● Supabase belum dikonfigurasi — edit config.js</span>';}
-function initAuth(){
-  setup();
-  const DEMO_EMAIL = 'admin@propam-jatim.go.id';
-  const DEMO_PASSWORD = 'PropamJatim2026!';
+const $=id=>document.getElementById(id);
+function esc(s=""){return s.replace(/[&<>"']/g,m=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#039;"}[m]))}
+function relDate(iso){if(!iso)return "-";const d=new Date(iso);return isNaN(d)?"-":d.toLocaleString("id-ID",{dateStyle:"medium",timeStyle:"short"})}
+function card(n){const p=n.priority||"low";return `<article class="news-card"><div class="news-title"><a href="${esc(n.url||"#")}" target="_blank" rel="noopener">${esc(n.title)}</a></div><div class="meta"><span>${esc(n.source||"Unknown")}</span><span>${relDate(n.published_at)}</span><span class="pill ${p}">${p==="high"?"TINGGI":p==="medium"?"SEDANG":"RENDAH"}</span><span class="pill">${esc(n.region||"Indonesia")}</span><span class="pill">${esc(n.category||"Lainnya")}</span></div></article>`}
 
-  // Demo/static login for GitHub Pages.
-  // IMPORTANT: because this is a frontend-only app, these credentials are visible
-  // to anyone who can inspect the deployed JavaScript. Use Supabase/Auth backend
-  // before deploying sensitive/internal data to production.
-  $('loginForm').addEventListener('submit', e => {
-    e.preventDefault();
-    const email = $('email').value.trim().toLowerCase();
-    const password = $('password').value;
-    $('loginMsg').textContent = 'Memeriksa…';
-    if (email === DEMO_EMAIL && password === DEMO_PASSWORD) {
-      sessionStorage.setItem('pnm_logged_in', '1');
-      sessionStorage.setItem('pnm_user_email', DEMO_EMAIL);
-      enter({email: DEMO_EMAIL});
-    } else {
-      $('loginMsg').textContent = 'Email atau password salah.';
-    }
-  });
-
-  $('logoutBtn').addEventListener('click', () => {
-    sessionStorage.removeItem('pnm_logged_in');
-    sessionStorage.removeItem('pnm_user_email');
-    leave();
-  });
-
-  if (sessionStorage.getItem('pnm_logged_in') === '1') {
-    enter({email: sessionStorage.getItem('pnm_user_email') || DEMO_EMAIL});
+async function loadData(){
+  $("statusText").textContent="Mengambil data...";
+  try{
+    const r=await fetch(`data/news.json?t=${Date.now()}`,{cache:"no-store"});
+    if(!r.ok) throw new Error("HTTP "+r.status);
+    const j=await r.json();
+    allNews=Array.isArray(j)?j:(j.items||[]);
+    allNews.sort((a,b)=>new Date(b.published_at||0)-new Date(a.published_at||0));
+    render();
+    const updated=allNews[0]?.collected_at||j.generated_at;
+    $("lastUpdated").textContent=updated?`Update: ${relDate(updated)}`:"Data aktif";
+    $("statusText").textContent="Collector aktif";
+    $("statusDot").style.background="var(--ok)";
+  }catch(e){
+    $("statusText").textContent="Data gagal dimuat";
+    $("statusDot").style.background="var(--danger)";
+    console.error(e);
   }
 }
-function enter(user){$('loginView').classList.add('hidden');$('appView').classList.remove('hidden');$('userEmail').textContent=user.email||'';loadNews();}
-function leave(){ $('appView').classList.add('hidden'); $('loginView').classList.remove('hidden'); $('email').value=''; $('password').value=''; $('loginMsg').textContent=''; }
-initAuth();
+function render(){
+  const now=Date.now(), day=86400000;
+  $("sTotal").textContent=allNews.length;
+  $("sJatim").textContent=allNews.filter(n=>n.is_jatim).length;
+  $("s24").textContent=allNews.filter(n=>now-new Date(n.published_at||0).getTime()<=day).length;
+  $("sHigh").textContent=allNews.filter(n=>n.priority==="high").length;
+  const cats={}; allNews.forEach(n=>cats[n.category||"Lainnya"]=(cats[n.category||"Lainnya"]||0)+1);
+  const topCats=Object.entries(cats).sort((a,b)=>b[1]-a[1]).slice(0,8), max=topCats[0]?.[1]||1;
+  $("categories").innerHTML=topCats.map(([k,v])=>`<div class="bar"><div class="bar-top"><span>${esc(k)}</span><b>${v}</b></div><div class="bar-bg"><div class="bar-fill" style="width:${v/max*100}%"></div></div></div>`).join("")||`<div class="empty">Belum ada data</div>`;
+  $("latest").innerHTML=allNews.slice(0,8).map(card).join("")||`<div class="empty">Belum ada berita. Jalankan GitHub Actions.</div>`;
+  const catsSorted=Object.keys(cats).sort();
+  $("category").innerHTML=`<option value="all">Semua Kategori</option>`+catsSorted.map(c=>`<option>${esc(c)}</option>`).join("");
+  applyFilters();
+}
+function applyFilters(){
+  let x=[...allNews];
+  const q=($("search").value||"").toLowerCase(), reg=$("region").value, pri=$("priority").value, cat=$("category").value;
+  if(q)x=x.filter(n=>[n.title,n.source,n.region,n.category,n.summary].join(" ").toLowerCase().includes(q));
+  if(reg==="jatim")x=x.filter(n=>n.is_jatim);
+  if(reg==="outside")x=x.filter(n=>!n.is_jatim);
+  if(pri!=="all")x=x.filter(n=>n.priority===pri);
+  if(cat!=="all")x=x.filter(n=>n.category===cat);
+  if(currentView==="jatim")x=x.filter(n=>n.is_jatim);
+  if(currentView==="high")x=x.filter(n=>n.priority==="high");
+  $("list").innerHTML=x.map(card).join("")||`<div class="empty">Tidak ada berita yang sesuai filter.</div>`;
+}
+function setView(v){
+  currentView=v;
+  document.querySelectorAll(".nav").forEach(b=>b.classList.toggle("active",b.dataset.view===v));
+  $("dashboardView").classList.toggle("hidden",v!=="dashboard");
+  $("listView").classList.toggle("hidden",v==="dashboard");
+  $("pageTitle").textContent=v==="dashboard"?"Dashboard":v==="jatim"?"Jawa Timur":v==="high"?"Prioritas Tinggi":"Semua Berita";
+  if(v!=="dashboard")applyFilters();
+}
+$("loginForm").addEventListener("submit",e=>{
+  e.preventDefault();
+  if($("email").value.trim()===DEMO_EMAIL && $("password").value===DEMO_PASSWORD){
+    sessionStorage.setItem("pnm_auth","1"); $("login").classList.add("hidden"); $("app").classList.remove("hidden"); loadData();
+  }else $("loginError").textContent="Email atau password salah.";
+});
+$("logout").onclick=()=>{sessionStorage.removeItem("pnm_auth");location.reload()};
+document.querySelectorAll(".nav").forEach(b=>b.onclick=()=>setView(b.dataset.view));
+document.querySelectorAll(".linkbtn").forEach(b=>b.onclick=()=>setView(b.dataset.view));
+["search","region","priority","category"].forEach(id=>$(id).addEventListener("input",applyFilters));
+$("refresh").onclick=loadData;
+if(sessionStorage.getItem("pnm_auth")==="1"){$("login").classList.add("hidden");$("app").classList.remove("hidden");loadData()}

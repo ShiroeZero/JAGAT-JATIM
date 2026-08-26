@@ -1,20 +1,31 @@
 # PNM — Polri Negative News Monitor
 
-## Akun demo
+Versi ini dirancang agar benar-benar berjalan di GitHub Pages + GitHub Actions.
+
+## Login demo
 - Email: `admin@propam-jatim.go.id`
 - Password: `PropamJatim2026!`
 
-## Deploy ke GitHub Pages
+> Login frontend ini hanya untuk demo. Password dapat terlihat oleh orang yang memeriksa source JavaScript. Untuk penggunaan internal/produksi, pindahkan autentikasi ke Supabase Auth atau backend.
+
+## Cara deploy
+
 1. Buat repository GitHub baru.
-2. Upload seluruh isi folder ini.
-3. Masuk **Settings → Pages**.
-4. Pilih **GitHub Actions** sebagai source.
-5. Push ke branch `main`. Workflow Pages akan melakukan build/deploy.
+2. Upload seluruh isi folder ini ke branch `main`.
+3. Buka **Settings → Actions → General** dan pastikan Actions diizinkan.
+4. Buka **Settings → Pages** dan pilih **GitHub Actions** sebagai source.
+5. Setelah push, workflow `Deploy PNM to GitHub Pages` akan membuat situs.
+6. Workflow `Collect Negative News` berjalan setiap jam dan juga dapat dijalankan manual melalui **Actions → Collect Negative News → Run workflow**.
 
-## Monitoring berita
-Workflow `monitor.yml` menjalankan `scripts/fetch_news.py` secara berkala dan memperbarui `data/news.json`. Data dapat difilter menjadi Jawa Timur dari dashboard.
+## Cara kerja collector
 
-## PENTING — keamanan
-Versi ini memakai login **frontend/static** agar langsung dapat dicoba di GitHub Pages tanpa membuat akun Supabase. Email/password berada di JavaScript frontend sehingga **bukan mekanisme keamanan untuk data rahasia**. Jangan gunakan kredensial ini sebagai proteksi data sensitif.
+GitHub Actions menjalankan `scripts/fetch_news.py`.
+Collector mengambil RSS Google News dengan banyak query, menghapus duplikasi, mengklasifikasikan kategori/prioritas, mendeteksi indikasi Jawa Timur, lalu menyimpan hasil ke `data/news.json`.
 
-Untuk versi produksi internal, gunakan Supabase Auth atau backend/API dengan Row Level Security dan jangan menyimpan secret/service-role key di frontend.
+Dashboard GitHub Pages hanya membaca `data/news.json`; browser tidak bertanggung jawab mengoleksi berita.
+
+## Catatan penting
+
+Google News RSS adalah sumber agregasi. Ini bukan jaminan seluruh berita internet akan terambil. Untuk sistem produksi, tambahkan sumber resmi/media yang relevan dan mekanisme arsip/validasi.
+
+Label "negatif", prioritas, kategori, dan deteksi Jawa Timur adalah klasifikasi otomatis; bukan kesimpulan bahwa seseorang bersalah. Artikel perlu diverifikasi sebelum menjadi bahan resmi.

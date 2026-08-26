@@ -3,66 +3,82 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width,initial-scale=1">
-  <title>Polri Negative News Monitor</title>
+  <title>PNM — Polri Negative News Monitor</title>
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <div id="loginView" class="auth-shell">
-    <div class="auth-card">
+  <div id="login" class="login-shell">
+    <div class="login-card">
       <div class="brand-mark">PNM</div>
       <h1>Polri Negative News Monitor</h1>
-      <p class="muted">Monitoring berita negatif terkait oknum/anggota Polri di Indonesia.</p>
+      <p class="muted">Dashboard monitoring berita negatif terkait oknum/anggota Polri.</p>
       <form id="loginForm">
-        <label>Email<input id="email" type="email" autocomplete="username" required placeholder="nama@instansi.go.id"></label>
-        <label>Password<input id="password" type="password" autocomplete="current-password" required placeholder="••••••••"></label>
-        <button class="primary" type="submit">Masuk</button>
-        <div id="loginMsg" class="form-msg"></div>
+        <label>Email</label>
+        <input id="email" type="email" autocomplete="username" required value="admin@propam-jatim.go.id">
+        <label>Password</label>
+        <input id="password" type="password" autocomplete="current-password" required>
+        <button type="submit" class="primary">Masuk</button>
+        <div id="loginError" class="error"></div>
       </form>
-      <div class="auth-note">Login menggunakan Supabase Auth. Kredensial tidak disimpan di GitHub.</div>
+      <p class="demo-note">Akun demo: <b>admin@propam-jatim.go.id</b> · <b>PropamJatim2026!</b></p>
     </div>
   </div>
 
-  <div id="appView" class="app hidden">
+  <div id="app" class="app hidden">
     <aside class="sidebar">
-      <div class="brand"><span class="brand-mark small">PNM</span><div><b>PNM</b><small>News Monitor</small></div></div>
+      <div class="side-brand"><span>PNM</span><small>NEWS MONITOR</small></div>
       <nav>
-        <button class="nav-item active" data-page="dashboard">Dashboard</button>
-        <button class="nav-item" data-page="news">Berita</button>
-        <button class="nav-item" data-page="jatim">Jawa Timur</button>
-        <button class="nav-item" data-page="settings">Pengaturan</button>
+        <button class="nav active" data-view="dashboard">Dashboard</button>
+        <button class="nav" data-view="news">Semua Berita</button>
+        <button class="nav" data-view="jatim">Jawa Timur</button>
+        <button class="nav" data-view="high">Prioritas Tinggi</button>
       </nav>
-      <div class="sidebar-bottom"><span id="userEmail"></span><button id="logoutBtn" class="ghost">Keluar</button></div>
+      <div class="side-bottom">
+        <div class="collector-status"><span id="statusDot"></span><span id="statusText">Memuat data...</span></div>
+        <button id="logout" class="logout">Keluar</button>
+      </div>
     </aside>
 
     <main class="main">
-      <header class="topbar"><div><div class="eyebrow">MONITORING MEDIA</div><h2 id="pageTitle">Dashboard</h2></div><div class="status"><span class="dot"></span><span id="lastUpdated">Memuat data…</span></div></header>
-
-      <section id="dashboardPage" class="page">
-        <div class="hero"><div><div class="eyebrow">POLRI · INDONESIA</div><h1>Deteksi dini berita negatif.</h1><p>Gunakan filter untuk menemukan isu terkait anggota/oknum Polri, lalu fokuskan analisis ke Jawa Timur.</p></div><button id="refreshBtn" class="primary">Perbarui Data</button></div>
-        <div class="stats"><div class="stat"><span>Total terdeteksi</span><strong id="statTotal">—</strong></div><div class="stat"><span>Jawa Timur</span><strong id="statJatim">—</strong></div><div class="stat"><span>24 jam terakhir</span><strong id="stat24">—</strong></div><div class="stat"><span>Prioritas tinggi</span><strong id="statHigh">—</strong></div></div>
-        <div class="panel"><div class="panel-head"><h3>Berita terbaru</h3><button class="text-btn" data-page="news">Lihat semua →</button></div><div id="recentList" class="news-list"></div></div>
-      </section>
-
-      <section id="newsPage" class="page hidden">
-        <div class="filters panel">
-          <div class="filter-grid"><label>Kata kunci<input id="q" placeholder="mis. penembakan, narkoba, pungli"></label><label>Wilayah<select id="region"><option value="all">Indonesia</option><option value="jatim">Jawa Timur</option></select></label><label>Prioritas<select id="severity"><option value="all">Semua</option><option value="high">Tinggi</option><option value="medium">Sedang</option><option value="low">Rendah</option></select></label><label>Kategori<select id="category"><option value="all">Semua</option><option value="pidana">Pidana</option><option value="etik">Etik/Disiplin</option><option value="narkoba">Narkoba</option><option value="kekerasan">Kekerasan</option><option value="korupsi">Korupsi/Pungli</option><option value="lainnya">Lainnya</option></select></label></div>
+      <header class="topbar">
+        <div>
+          <div class="eyebrow">BIDANG MONITORING</div>
+          <h2 id="pageTitle">Dashboard</h2>
         </div>
-        <div class="toolbar"><span id="resultCount">0 berita</span><select id="sort"><option value="new">Terbaru</option><option value="old">Terlama</option><option value="severity">Prioritas</option></select></div>
-        <div id="newsList" class="news-list"></div>
+        <div class="top-actions">
+          <span id="lastUpdated" class="muted"></span>
+          <button id="refresh" class="secondary">↻ Refresh</button>
+        </div>
+      </header>
+
+      <section id="dashboardView" class="view">
+        <div class="hero">
+          <div><span class="eyebrow">POLRI NEGATIVE NEWS MONITOR</span><h1>Monitoring berita nasional & Jawa Timur</h1><p>Data diperbarui oleh GitHub Actions secara berkala dari RSS Google News.</p></div>
+          <div class="hero-badge">LIVE DATA</div>
+        </div>
+        <div class="stats">
+          <div class="stat"><span>Total Berita</span><strong id="sTotal">0</strong></div>
+          <div class="stat"><span>Jawa Timur</span><strong id="sJatim">0</strong></div>
+          <div class="stat"><span>24 Jam</span><strong id="s24">0</strong></div>
+          <div class="stat danger"><span>Prioritas Tinggi</span><strong id="sHigh">0</strong></div>
+        </div>
+        <div class="grid2">
+          <section class="panel"><div class="panel-head"><h3>Berita Terbaru</h3><button class="linkbtn" data-view="news">Lihat semua →</button></div><div id="latest"></div></section>
+          <section class="panel"><div class="panel-head"><h3>Kategori</h3></div><div id="categories" class="bars"></div></section>
+        </div>
       </section>
 
-      <section id="jatimPage" class="page hidden">
-        <div class="hero compact"><div><div class="eyebrow">FILTER OTOMATIS</div><h1>Jawa Timur</h1><p>Berita yang terindikasi berkaitan dengan wilayah Jawa Timur, termasuk Surabaya, Malang, Sidoarjo, Gresik, Pasuruan, Jember, Banyuwangi, Situbondo, Probolinggo, Kediri, Madiun, Mojokerto, Blitar, Tulungagung, Bojonegoro, Tuban, Lamongan, Bangkalan, Sampang, Pamekasan dan Sumenep.</p></div></div>
-        <div class="stats"><div class="stat"><span>Berita Jatim</span><strong id="jatimTotal">—</strong></div><div class="stat"><span>24 jam</span><strong id="jatim24">—</strong></div><div class="stat"><span>Prioritas tinggi</span><strong id="jatimHigh">—</strong></div></div>
-        <div id="jatimList" class="news-list"></div>
-      </section>
-
-      <section id="settingsPage" class="page hidden">
-        <div class="panel"><h3>Konfigurasi</h3><p>URL Supabase dan publishable key dibaca dari <code>config.js</code>. Keduanya aman untuk berada di frontend selama database memakai Row Level Security dan Anda tidak pernah memasukkan service-role key.</p><div class="config-status" id="configStatus"></div><h4>Sumber monitoring</h4><p>Pipeline menggunakan Google News RSS dengan beberapa kombinasi kata kunci Polri/oknum/anggota dan istilah pelanggaran. Ini adalah agregator, bukan jaminan seluruh berita di internet.</p><h4>Catatan analisis</h4><p>Status “negatif” berarti artikel memenuhi aturan deteksi kata kunci. Ini <b>bukan</b> penetapan bahwa personel bersalah. Verifikasi tetap harus dilakukan terhadap isi berita dan sumber resmi.</p></div>
+      <section id="listView" class="view hidden">
+        <div class="filters">
+          <input id="search" placeholder="Cari judul, sumber, wilayah, kategori...">
+          <select id="region"><option value="all">Semua Wilayah</option><option value="jatim">Jawa Timur</option><option value="outside">Luar Jawa Timur</option></select>
+          <select id="priority"><option value="all">Semua Prioritas</option><option value="high">Tinggi</option><option value="medium">Sedang</option><option value="low">Rendah</option></select>
+          <select id="category"><option value="all">Semua Kategori</option></select>
+        </div>
+        <div id="list" class="news-list"></div>
       </section>
     </main>
   </div>
-
   <script src="app.js"></script>
 </body>
 </html>
