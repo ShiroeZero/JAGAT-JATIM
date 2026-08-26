@@ -28,6 +28,7 @@ let activeArchive = null;
 let map = null;
 let mapMarkers = [];
 let initialized = false;
+let reportDate = "";
 
 const $ = (id) => document.getElementById(id);
 const number = (v) => Number.isFinite(Number(v)) ? Number(v).toLocaleString("id-ID") : "0";
@@ -259,25 +260,17 @@ function showView(view) {
 
 function renderHeader() {
   if (!todayData) return;
-  const items = todayJatimItems();
-  const cases = todayJatimCaseSet();
-  const negative = items.filter(x => getScope(x) === "negative").length;
-  const caseScope = items.filter(x => getScope(x) === "case").length;
-  const positive = items.filter(x => getScope(x) === "positive").length;
-  const neutral = items.length - negative - caseScope - positive;
-  const high = cases.filter(c => getPriority(c) === "high").length;
-
-  if ($("todayDate")) $("todayDate").textContent = formatDate(todayData.date);
+  if ($("todayDate")) $("todayDate").textContent = activeArchive ? `Snapshot ${formatDate(activeArchive.date)}` : formatDate(todayData.date);
   if ($("lastUpdated")) $("lastUpdated").textContent = `Update terakhir: ${formatDateTime(todayData.last_successful_update || todayData.updated_at)}`;
-  if ($("sTotal")) $("sTotal").textContent = number(items.length);
-  if ($("sCaseToday")) $("sCaseToday").textContent = number(cases.length);
-  if ($("sHigh")) $("sHigh").textContent = number(high);
-  if ($("sNegative")) $("sNegative").textContent = number(negative);
-  if ($("sCaseUngkap")) $("sCaseUngkap").textContent = number(caseScope);
-  if ($("sPositive")) $("sPositive").textContent = number(positive);
-  if ($("sNeutral")) $("sNeutral").textContent = number(neutral);
+  if ($("sTotal")) $("sTotal").textContent = number(todayData.summary?.news_today);
+  if ($("sCases")) $("sCases").textContent = number(todayData.summary?.cases_today);
+  if ($("sYoutube")) $("sYoutube").textContent = number(todayData.summary?.youtube_today);
+  if ($("sHigh")) $("sHigh").textContent = number(todayData.summary?.case_high ?? todayData.cases?.priority_high ?? 0);
+  if ($("sNegative")) $("sNegative").textContent = number(todayData.summary?.negative_today);
+  if ($("sJatim")) $("sJatim").textContent = number(todayData.summary?.jatim_news);
+  if ($("sCaseHigh")) $("sCaseHigh").textContent = number(todayData.summary?.case_high ?? todayData.cases?.priority_high ?? 0);
+  if ($("sTotalCases")) $("sTotalCases").textContent = number(caseData?.total_cases);
 }
-
 
 function renderAll() {
   renderHeader();
@@ -287,21 +280,102 @@ function renderAll() {
   renderArchiveList();
 }
 
-function todayJatimItems() {
+
+function getJatimTodayItems() {
   return todayItems().filter(isJatim);
 }
 
-function todayJatimCaseSet() {
-  const ids = new Set(todayJatimItems().map(item => item.case_id).filter(Boolean));
-  return globalCases().filter(c => ids.has(c.case_id));
+function renderReportPreview() {
+  const target = $("reportPreview");
+  if (!target) return;
+  const date = $("reportDate")?.value || todayData?.date || dateKey(new Date());
+  const items = getJatimTodayItems();
+  const cases = globalCases().filter(c => !!getLocality(c));
+  const caseIds = new Set(items.map(x => x.case_id).filter(Boolean));
+  const activeCases = cases.filter(c => caseIds.has(c.case_id));
+  const highCases = cases.filter(c => getPriority(c) === "high");
+  const neg = items.filter(x => getScope(x) === "negative").length;
+  const positive = items.filter(x => getScope(x) === "positive").length;
+  const caseNews = items.filter(x => getScope(x) === "case").length;
+  const neutral = items.filter(x => getScope(x) === "neutral").length;
+  const regions = new Map();
+  items.forEach(item => { const name=getLocality(item); if (name) regions.set(name,(regions.get(name)||0)+1); });
+  const regionRows=[...regions.entries()].sort((a,b)=>b[1]-a[1]).slice(0,8);
+  const topCases = highCases.slice().sort((a,b)=>priorityRank(b.priority)-priorityRank(a.priority) || Number(b.priority_score||0)-Number(a.priority_score||0)).slice(0,4);
+  const sourceCounts = new Map();
+  items.forEach(x => { const s=getSource(x); sourceCounts.set(s,(sourceCounts.get(s)||0)+1); });
+  const topSources=[...sourceCounts.entries()].sort((a,b)=>b[1]-a[1]).slice(0,5);
+
+  target.innerHTML = `
+    <div class="report-sheet-head">
+      <div class="report-logo-block"><div class="report-mark large">J<span></span></div><div><strong>JAGAT</strong><small>Jejaring Analisis &amp; Garda Atensi Terpadu</small><em>Jejaring Analisis &amp; Garda Atensi Terpadu</em></div></div>
+      <div class="report-title-block"><div class="eyebrow">LAPORAN HARIAN</div><h2>Situasi Jawa Timur</h2><div class="report-meta"><span><i class="fa-regular fa-calendar"></i> ${escapeHtml(formatDate(date))}</span><span><i class="fa-solid fa-location-dot"></i> Jawa Timur</span><span><i class="fa-regular fa-clock"></i> ${escapeHtml(formatDateTime(todayData?.last_successful_update || todayData?.updated_at || new Date()))}</span></div></div>
+    </div>
+
+    <section class="report-section">
+      <div class="report-section-title"><span></span><h3>Ringkasan Situasi</h3></div>
+      <div class="report-stat-grid">
+        <div class="report-stat"><i class="fa-regular fa-newspaper"></i><small>Berita</small><strong>${number(items.length)}</strong><em>Jatim hari ini</em></div>
+        <div class="report-stat danger"><i class="fa-solid fa-triangle-exclamation"></i><small>Berita Negatif</small><strong>${number(neg)}</strong><em>Jatim hari ini</em></div>
+        <div class="report-stat"><i class="fa-solid fa-layer-group"></i><small>Case Hari Ini</small><strong>${number(activeCases.length)}</strong><em>incident terpantau</em></div>
+        <div class="report-stat warn"><i class="fa-solid fa-bell"></i><small>Prioritas Tinggi</small><strong>${number(highCases.length)}</strong><em>case aktif</em></div>
+      </div>
+    </section>
+
+    <div class="report-two-col">
+      <section class="report-card">
+        <div class="report-section-title compact"><span></span><h3>Komposisi Hari Ini</h3></div>
+        <div class="report-bars">
+          ${[["Negatif",neg,"danger"],["Ungkap Kasus",caseNews,"info"],["Positif",positive,"ok"],["Netral",neutral,"neutral"]].map(([l,v,c])=>`<div class="report-bar"><div><span>${l}</span><b>${number(v)}</b></div><div class="report-bar-bg"><div class="report-bar-fill ${c}" style="width:${items.length?Math.max(2,(v/items.length)*100):0}%"></div></div></div>`).join("")}
+        </div>
+      </section>
+      <section class="report-card">
+        <div class="report-section-title compact"><span></span><h3>Sebaran Berita per Wilayah</h3></div>
+        <div class="report-region-list">
+          ${regionRows.length ? regionRows.map(([r,c])=>`<div class="report-region"><span>${escapeHtml(r)}</span><b>${number(c)}</b></div>`).join("") : '<div class="report-muted">Belum ada temuan Jatim hari ini.</div>'}
+        </div>
+      </section>
+    </div>
+
+    <section class="report-section">
+      <div class="report-section-title"><span></span><h3>Atensi Utama</h3></div>
+      <div class="report-attention-grid">
+        ${topCases.length ? topCases.map(c=>`<div class="report-attention-card ${getPriority(c)}"><div class="report-attention-top"><b>${escapeHtml(getPriority(c).toUpperCase())}</b><span>${c.priority_score!=null?number(c.priority_score):"—"}/100</span></div><h4>${escapeHtml(c.title||"Case")}</h4><p><i class="fa-solid fa-location-dot"></i> ${escapeHtml(getLocality(c)||c.region||"Jawa Timur")} · ${number(c.article_count || (c.articles||[]).length)} sumber</p></div>`).join("") : '<div class="report-muted">Belum ada Case prioritas pada data Jatim hari ini.</div>'}
+      </div>
+    </section>
+
+    <div class="report-two-col bottom">
+      <section class="report-card">
+        <div class="report-section-title compact"><span></span><h3>Rincian Prioritas Aktif</h3></div>
+        <div class="report-table-wrap"><table class="report-table"><thead><tr><th>No</th><th>Case / Isu</th><th>Wilayah</th><th>Skor</th><th>Level</th></tr></thead><tbody>${topCases.length?topCases.map((c,i)=>`<tr><td>${String(i+1).padStart(2,'0')}</td><td>${escapeHtml(c.title||'Case')}</td><td>${escapeHtml(getLocality(c)||c.region||'—')}</td><td>${c.priority_score!=null?number(c.priority_score):'—'}</td><td><span class="level ${getPriority(c)}">${escapeHtml(getPriority(c).toUpperCase())}</span></td></tr>`).join(''):'<tr><td colspan="5" class="report-muted">Belum ada prioritas aktif.</td></tr>'}</tbody></table></div>
+      </section>
+      <section class="report-card">
+        <div class="report-section-title compact"><span></span><h3>Sumber Berita Terbanyak</h3></div>
+        <div class="report-source-list">${topSources.length?topSources.map(([s,c],i)=>`<div class="report-source"><span class="num">${i+1}</span><div><b>${escapeHtml(s)}</b><div class="mini-bar"><span style="width:${Math.max(8,(c/(topSources[0]?.[1]||1))*100)}%"></span></div></div><strong>${number(c)}</strong></div>`).join(''):'<div class="report-muted">Belum ada sumber.</div>'}</div>
+      </section>
+    </div>
+
+    <footer class="report-footer"><div><div class="report-mark">J<span></span></div><strong>JAGAT</strong></div><div><b>Catatan</b><p>Preview disusun otomatis berdasarkan data yang tersedia sampai waktu pembaruan terakhir.</p></div><div><b>Wilayah</b><p>Jawa Timur · ${number(items.length)} berita hari ini</p></div></footer>
+  `;
+  target.classList.remove("hidden");
+}
+
+function initReports() {
+  const input = $("reportDate");
+  if (input) {
+    input.value = todayData?.date || dateKey(new Date());
+    reportDate = input.value;
+  }
+  $("generateReport")?.addEventListener("click", () => { reportDate = $("reportDate")?.value || todayData?.date || dateKey(new Date()); renderReportPreview(); });
+  if (input) input.addEventListener("change", () => { reportDate=input.value; });
 }
 
 function renderDashboard() {
-  const items = todayJatimItems();
+  const items = todayItems();
   renderRegionsToday(items);
   renderCategories(items);
   renderLatest(items);
-  renderLatestCases(items);
+  renderLatestCases();
   initMap();
   renderMap(items);
 }
@@ -315,9 +389,8 @@ function renderRegionsToday(items) {
     if (!groups.has(r)) groups.set(r, { count: 0 });
     groups.get(r).count++;
   });
-  const todayCases = todayJatimCaseSet();
   const byRegion = new Map();
-  todayCases.forEach(c => {
+  globalCases().forEach(c => {
     const r = getLocality(c);
     if (!r) return;
     if (!byRegion.has(r)) byRegion.set(r, { cases: 0, high: 0 });
@@ -400,19 +473,13 @@ function renderLatest(items) {
   bindArticleClicks(target, items);
 }
 
-function renderLatestCases(items = todayJatimItems()) {
+function renderLatestCases() {
   const target = $("latestCases");
   if (!target) return;
-  const ids = new Set(items.map(item => item.case_id).filter(Boolean));
-  const cases = globalCases()
-    .filter(c => ids.has(c.case_id))
-    .slice()
-    .sort((a, b) => priorityRank(b.priority) - priorityRank(a.priority) || new Date(b.last_detected_at || b.last_seen || 0) - new Date(a.last_detected_at || a.last_seen || 0))
-    .slice(0, 6);
-  target.innerHTML = cases.length ? cases.map((c, i) => caseCard(c, i + 1)).join("") : `<div class="empty">Belum ada Case Jatim hari ini.</div>`;
-  bindCaseClicks(target, globalCases(), newsData);
+  const cases = globalCases().slice().sort((a, b) => priorityRank(b.priority) - priorityRank(a.priority) || new Date(b.last_detected_at || b.last_seen || 0) - new Date(a.last_detected_at || a.last_seen || 0)).slice(0, 6);
+  target.innerHTML = cases.length ? cases.map((c, i) => caseCard(c, i + 1)).join("") : `<div class="empty">Belum ada case.</div>`;
+  bindCaseClicks(target, globalCases());
 }
-
 
 function currentMonitoringBase() {
   const { from, to } = currentDateBounds();
@@ -502,7 +569,7 @@ function renderMonitoring() {
   caseTarget.innerHTML = cases.length
     ? `<div class="subsection-head"><div><h3>Case / Incident</h3><div class="muted">Prioritas Case berlaku pada incident, bukan setiap artikel.</div></div></div><div class="case-grid">${cases.map((c, i) => caseCard(c, i + 1)).join("")}</div>`
     : `<div class="case-empty">Tidak ada Case yang memenuhi filter.</div>`;
-  bindCaseClicks(caseTarget, activeCases(), activeNews());
+  bindCaseClicks(caseTarget, activeCases());
 
   const list = $("list");
   list.innerHTML = items.length ? items.map(articleCard).join("") : `<div class="empty">Tidak ada berita yang cocok dengan filter.</div>`;
@@ -546,14 +613,14 @@ function syncModeButtons() {
 function bindArticleClicks(root, dataset = activeNews()) {
   root?.querySelectorAll("[data-article-id]").forEach(el => el.addEventListener("click", () => {
     const article = getArticleById(el.dataset.articleId, dataset);
-    if (article) openArticleDrawer(article, dataset, activeCases());
+    if (article) openArticleDrawer(article, dataset);
   }));
 }
 
-function bindCaseClicks(root, caseDataset = activeCases(), newsDataset = activeNews()) {
+function bindCaseClicks(root, dataset = activeCases()) {
   root?.querySelectorAll("[data-case-id]").forEach(el => el.addEventListener("click", () => {
-    const c = getCaseById(el.dataset.caseId, caseDataset);
-    if (c) openCaseDrawer(c, newsDataset, caseDataset);
+    const c = getCaseById(el.dataset.caseId, dataset);
+    if (c) openCaseDrawer(c, dataset);
   }));
 }
 
@@ -569,8 +636,8 @@ function closeDrawer() {
   $("drawerOverlay")?.classList.add("hidden");
 }
 
-function openArticleDrawer(article, dataset = activeNews(), caseDataset = activeCases()) {
-  const c = getCaseById(article.case_id, caseDataset);
+function openArticleDrawer(article, dataset = activeNews()) {
+  const c = getCaseById(article.case_id, activeCases());
   const url = normalizeUrl(article.url);
   const caseHigh = c && getPriority(c) === "high";
   $("drawerEyebrow").textContent = "DETAIL BERITA";
@@ -594,12 +661,12 @@ function openArticleDrawer(article, dataset = activeNews(), caseDataset = active
       ${c ? `<button class="secondary" id="drawerCaseButton">Lihat Case & Semua Sumber</button>` : ""}
     </div>`;
   openDrawer();
-  $("drawerCaseButton")?.addEventListener("click", () => openCaseDrawer(c, dataset, caseDataset));
+  $("drawerCaseButton")?.addEventListener("click", () => openCaseDrawer(c, activeNews()));
 }
 
-function openCaseDrawer(c, newsDataset = activeNews(), caseDataset = activeCases()) {
+function openCaseDrawer(c, dataset = activeNews()) {
   if (!c) return;
-  const items = caseArticles(c, newsDataset);
+  const items = caseArticles(c, dataset);
   const p = getPriority(c);
   const score = c.priority_score != null ? `${number(c.priority_score)}/100` : "-";
   const reasons = Array.isArray(c.priority_reasons) ? c.priority_reasons : [];
@@ -762,7 +829,7 @@ function renderArchiveNews() {
   const caseTarget = $("archiveCasesList");
   if (caseTarget) {
     caseTarget.innerHTML = relevantCases.length ? `<div class="subsection-head"><div><h3>Case / Incident</h3><div class="muted">Case yang terkait dengan filter snapshot.</div></div></div><div class="case-grid">${relevantCases.map((c, i) => caseCard(c, i + 1)).join("")}</div>` : `<div class="case-empty">Tidak ada Case pada filter ini.</div>`;
-    bindCaseClicks(caseTarget, cases, items);
+    bindCaseClicks(caseTarget, cases);
   }
 
   const target = $("archiveNewsList");

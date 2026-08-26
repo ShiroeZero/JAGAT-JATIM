@@ -4,27 +4,28 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="theme-color" content="#070b12">
-  <meta name="description" content="PNM — Polri Negative News Monitor">
-  <title>PNM — Polri Negative News Monitor</title>
+  <img class="brand-logo" src="assets/jagat-mark.svg" alt="JAGAT"><meta name="description" content="JAGAT — Jejaring Analisis & Garda Atensi Terpadu">
+  <title>JAGAT — Jejaring Analisis &amp; Garda Atensi Terpadu</title>
   <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" crossorigin="">
-  <link rel="stylesheet" href="styles.css?v=5.5">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" crossorigin="anonymous" referrerpolicy="no-referrer">
+  <link rel="stylesheet" href="styles.css?v=6.0">
 </head>
 <body>
   <div id="app" class="app">
     <aside class="sidebar">
       <div class="side-brand">
-        <div class="brand-mark">PNM</div>
+        <div class="brand-mark" aria-label="JAGAT">J<span></span></div>
         <div>
-          <strong>PNM</strong>
-          <small>NEWS MONITOR</small>
+          <strong>JAGAT</strong>
+          <small>MEMBACA APA YANG TERJADI</small>
         </div>
       </div>
 
       <nav class="sidebar-nav" aria-label="Navigasi utama">
-        <button class="nav active" data-view="dashboard"><span class="nav-icon">▦</span><span>Dashboard</span></button>
-        <button class="nav" data-view="monitoring"><span class="nav-icon">▤</span><span>Monitoring</span></button>
-        <button class="nav" data-view="reports"><span class="nav-icon">▣</span><span>Laporan</span></button>
-        <button class="nav" data-view="archive"><span class="nav-icon">▥</span><span>Arsip</span></button>
+        <button class="nav active" data-view="dashboard"><span class="nav-icon"><i class="fa-solid fa-gauge-high"></i></span><span>Dashboard</span></button>
+        <button class="nav" data-view="monitoring"><span class="nav-icon"><i class="fa-solid fa-satellite-dish"></i></span><span>Monitoring</span></button>
+        <button class="nav" data-view="reports"><span class="nav-icon"><i class="fa-solid fa-file-lines"></i></span><span>Laporan</span></button>
+        <button class="nav" data-view="archive"><span class="nav-icon"><i class="fa-solid fa-box-archive"></i></span><span>Arsip</span></button>
       </nav>
 
       <div class="side-bottom">
@@ -32,14 +33,14 @@
           <span id="statusDot"></span>
           <span id="statusText">Memuat data...</span>
         </div>
-        <div class="muted-side">PNM internal monitoring</div>
+        <div class="muted-side">Jejaring Analisis &amp; Garda Atensi Terpadu</div>
       </div>
     </aside>
 
     <main class="main">
       <header class="topbar">
         <div>
-          <div class="eyebrow">BIDANG MONITORING</div>
+          <div class="eyebrow">JAGAT</div>
           <h1 id="pageTitle">Dashboard</h1>
           <div id="todayDate" class="today-date">Memuat tanggal...</div>
         </div>
@@ -52,38 +53,38 @@
       <section id="dashboardView" class="view">
         <div class="hero">
           <div>
-            <span class="eyebrow">POLRI NEGATIVE NEWS MONITOR</span>
-            <h2>Monitoring Hari Ini</h2>
-            <p>Situasi pemberitaan <strong>Jawa Timur</strong> yang terdeteksi <strong>hari ini</strong>. Histori tersedia di Arsip.</p>
+            <span class="eyebrow">JAGAT · SITUASI HARIAN</span>
+            <h2>Situasi Jawa Timur</h2>
+            <p>Ringkasan temuan Jawa Timur hari ini. Fokus pada perkembangan, incident, dan atensi yang perlu diperhatikan.</p>
           </div>
           <span class="hero-badge">TODAY</span>
         </div>
 
         <div class="stats stats-4">
-          <div class="stat"><span>Berita Jatim Hari Ini</span><strong id="sTotal">0</strong></div>
-          <div class="stat"><span>Case Jatim Hari Ini</span><strong id="sCaseToday">0</strong></div>
-          <div class="stat"><span>Ungkap Kasus Jatim</span><strong id="sCaseUngkap">0</strong></div>
-          <div class="stat danger"><span>Prioritas Tinggi Jatim</span><strong id="sHigh">0</strong></div>
+          <div class="stat"><span>Berita Hari Ini</span><strong id="sTotal">0</strong></div>
+          <div class="stat"><span>Case Hari Ini</span><strong id="sCases">0</strong></div>
+          <div class="stat"><span>YouTube Hari Ini</span><strong id="sYoutube">0</strong></div>
+          <div class="stat danger"><span>Prioritas Tinggi</span><strong id="sHigh">0</strong></div>
         </div>
 
         <div class="stats stats-4">
-          <div class="stat"><span>Berita Negatif Jatim</span><strong id="sNegative">0</strong></div>
-          <div class="stat"><span>Positif Jatim</span><strong id="sPositive">0</strong></div>
-          <div class="stat"><span>Netral Jatim</span><strong id="sNeutral">0</strong></div>
-          <div class="stat"><span>Wilayah Jatim Terdeteksi</span><strong id="sRegions">0</strong></div>
+          <div class="stat"><span>Berita Negatif</span><strong id="sNegative">0</strong></div>
+          <div class="stat"><span>Jawa Timur</span><strong id="sJatim">0</strong></div>
+          <div class="stat"><span>Case High</span><strong id="sCaseHigh">0</strong></div>
+          <div class="stat"><span>Total Case Database</span><strong id="sTotalCases">0</strong></div>
         </div>
 
         <div class="grid2">
           <section class="panel">
             <div class="panel-head">
-              <div><h3>Wilayah Terdeteksi Hari Ini</h3><div class="muted">Klik wilayah untuk melihat berita Jatim hari ini.</div></div>
+              <div><h3>Wilayah Terdeteksi Hari Ini</h3><div class="muted">Klik wilayah untuk melihat seluruh berita hari ini.</div></div>
               <button class="linkbtn" data-open-monitoring="jatim">Lihat monitoring →</button>
             </div>
             <div id="regionToday" class="region-list"></div>
           </section>
           <section class="panel">
             <div class="panel-head">
-              <div><h3>Komposisi Hari Ini</h3><div class="muted">Komposisi berita Jatim yang masuk hari ini.</div></div>
+              <div><h3>Komposisi Hari Ini</h3><div class="muted">Klasifikasi artikel yang masuk.</div></div>
             </div>
             <div id="categories" class="bars"></div>
           </section>
@@ -107,14 +108,14 @@
         <div class="grid2">
           <section class="panel">
             <div class="panel-head">
-              <div><h3>Berita Terbaru</h3><div class="muted">Berita Jatim hari ini · klik sekali untuk detail.</div></div>
+              <div><h3>Berita Terbaru</h3><div class="muted">Klik berita sekali untuk detail.</div></div>
               <button class="linkbtn" data-open-monitoring="all">Semua berita →</button>
             </div>
             <div id="latest"></div>
           </section>
           <section class="panel">
             <div class="panel-head">
-              <div><h3>Case Terbaru</h3><div class="muted">Incident Jatim yang terdeteksi hari ini; satu Case dapat memiliki banyak sumber.</div></div>
+              <div><h3>Case Terbaru</h3><div class="muted">Satu incident dapat memiliki banyak sumber.</div></div>
             </div>
             <div id="latestCases"></div>
           </section>
@@ -169,11 +170,25 @@
       </section>
 
       <section id="reportsView" class="view hidden">
-        <section class="panel empty-module">
-          <div class="empty-module-icon">▣</div>
-          <h2>Modul Laporan</h2>
-          <p>Generator laporan harian akan diaktifkan setelah core monitoring stabil. Format resmi Kabidpropam dan Kaden C tetap menjadi acuan.</p>
+        <div class="report-hero">
+          <div>
+            <div class="eyebrow">DOKUMEN HARIAN</div>
+            <h2>Laporan Harian</h2>
+            <p>Ringkasan situasi Jawa Timur yang disusun dari temuan dan Case pada tanggal aktif.</p>
+          </div>
+          <div class="report-brand-lockup"><div class="report-mark">J<span></span></div><div><strong>JAGAT</strong><small>Jejaring Analisis &amp; Garda Atensi Terpadu</small></div></div>
+        </div>
+
+        <section class="report-controls panel">
+          <div class="report-control-grid">
+            <label><span>Tanggal laporan</span><input id="reportDate" type="date"></label>
+            <label><span>Wilayah</span><select id="reportScope"><option value="jatim">Jawa Timur</option></select></label>
+            <button id="generateReport" class="primary report-generate" type="button"><i class="fa-solid fa-wand-magic-sparkles"></i> Generate Laporan</button>
+          </div>
+          <div class="report-note"><i class="fa-solid fa-circle-info"></i> Preview memakai data yang tersedia pada dataset aktif. Format resmi dapat kita kunci setelah substansi laporan final disepakati.</div>
         </section>
+
+        <div id="reportPreview" class="report-sheet hidden"></div>
       </section>
 
       <section id="archiveView" class="view hidden">
@@ -222,10 +237,10 @@
     </main>
 
     <nav class="mobile-nav" aria-label="Navigasi mobile">
-      <button class="nav active" data-view="dashboard"><span class="nav-icon">▦</span><small>Dash</small></button>
-      <button class="nav" data-view="monitoring"><span class="nav-icon">▤</span><small>Monitor</small></button>
-      <button class="nav" data-view="reports"><span class="nav-icon">▣</span><small>Laporan</small></button>
-      <button class="nav" data-view="archive"><span class="nav-icon">▥</span><small>Arsip</small></button>
+      <button class="nav active" data-view="dashboard"><span class="nav-icon"><i class="fa-solid fa-gauge-high"></i></span><small>Dash</small></button>
+      <button class="nav" data-view="monitoring"><span class="nav-icon"><i class="fa-solid fa-satellite-dish"></i></span><small>Monitor</small></button>
+      <button class="nav" data-view="reports"><span class="nav-icon"><i class="fa-solid fa-file-lines"></i></span><small>Laporan</small></button>
+      <button class="nav" data-view="archive"><span class="nav-icon"><i class="fa-solid fa-box-archive"></i></span><small>Arsip</small></button>
     </nav>
   </div>
 
@@ -236,6 +251,6 @@
   </aside>
 
   <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" crossorigin=""></script>
-  <script src="app.js?v=5.5"></script>
+  <script src="app.js?v=6.0"></script>
 </body>
 </html>
