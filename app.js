@@ -140,8 +140,13 @@ function getCasePriorityIds(cases = activeCases()) {
   return new Set(cases.filter(c => getPriority(c) === "high").map(c => c.case_id));
 }
 
+function getEffectivePriority(article, cases = activeCases()) {
+  const related = article?.case_id ? getCaseById(article.case_id, cases) : null;
+  return related ? getPriority(related) : getPriority(article);
+}
+
 function isCaseHighArticle(article, cases = activeCases()) {
-  return !!article?.case_id && getCasePriorityIds(cases).has(article.case_id);
+  return getEffectivePriority(article, cases) === "high";
 }
 
 function caseArticleIds(c) {
@@ -349,8 +354,8 @@ function articleCard(item) {
         <div class="news-card-meta">${escapeHtml(getCategory(item))}${c ? ` · ${escapeHtml(cHigh ? "Case HIGH" : "Terkait Case")}` : " · Belum terkait Case"}</div>
       </div>
       <div class="badges">
-        <span class="pill ${escapeHtml(getPriority(item))}">${escapeHtml(getPriority(item).toUpperCase())}</span>
-        ${c ? `<span class="pill ${cHigh ? "high" : ""}">CASE</span>` : `<span class="pill">${escapeHtml(getScope(item).toUpperCase())}</span>`}
+        <span class="pill ${escapeHtml(getPriority(item))}">ARTIKEL ${escapeHtml(getPriority(item).toUpperCase())}</span>
+        ${c ? `<span class="pill ${cHigh ? "high" : ""}">CASE ${escapeHtml(getPriority(c).toUpperCase())}</span>` : `<span class="pill">${escapeHtml(getScope(item).toUpperCase())}</span>`}
       </div>
     </div>
     <div class="card-action">${url ? "Klik untuk detail · sumber tersedia ↗" : "Klik untuk detail"}</div>
@@ -422,7 +427,7 @@ function applyMonitoringFilters(items, mode) {
   const cases = globalCases();
 
   if (mode === "jatim") out = out.filter(isJatim);
-  if (mode === "high") out = out.filter(x => isCaseHighArticle(x, cases) || (!x.case_id && getPriority(x) === "high"));
+  if (mode === "high") out = out.filter(x => getEffectivePriority(x, cases) === "high");
 
   const search = ($( "search")?.value || "").trim().toLowerCase();
   const region = $("region")?.value || "all";
@@ -434,7 +439,7 @@ function applyMonitoringFilters(items, mode) {
   if (search) out = out.filter(x => [getTitle(x), getSource(x), x.region, x.polres, getLocality(x), getCategory(x), getScope(x)].filter(Boolean).join(" ").toLowerCase().includes(search));
   if (region !== "all") out = out.filter(x => getLocality(x) === region);
   if (polres !== "all") out = out.filter(x => String(x.polres || "") === polres);
-  if (priority !== "all") out = out.filter(x => getPriority(x) === priority);
+  if (priority !== "all") out = out.filter(x => getEffectivePriority(x, cases) === priority);
   if (scope !== "all") out = out.filter(x => getScope(x) === scope);
   if (category !== "all") out = out.filter(x => getCategory(x) === category);
 
@@ -703,11 +708,10 @@ function renderArchiveNews() {
   if (!activeArchive) return;
   const items = activeArchive.news?.items || [];
   const cases = activeArchive.cases?.items || [];
-  const highIds = getCasePriorityIds(cases);
   let results = [...items];
 
   if (archiveMode === "jatim") results = results.filter(isJatim);
-  if (archiveMode === "high") results = results.filter(x => (x.case_id && highIds.has(x.case_id)) || (!x.case_id && getPriority(x) === "high"));
+  if (archiveMode === "high") results = results.filter(x => getEffectivePriority(x, cases) === "high");
 
   const search = ($( "archiveSearch")?.value || "").trim().toLowerCase();
   const region = $("archiveRegion")?.value || "all";
@@ -719,7 +723,7 @@ function renderArchiveNews() {
   if (search) results = results.filter(x => [getTitle(x), getSource(x), x.region, x.polres, getLocality(x), getCategory(x), getScope(x)].filter(Boolean).join(" ").toLowerCase().includes(search));
   if (region !== "all") results = results.filter(x => getLocality(x) === region);
   if (polres !== "all") results = results.filter(x => String(x.polres || "") === polres);
-  if (priority !== "all") results = results.filter(x => getPriority(x) === priority);
+  if (priority !== "all") results = results.filter(x => getEffectivePriority(x, cases) === priority);
   if (scope !== "all") results = results.filter(x => getScope(x) === scope);
   if (category !== "all") results = results.filter(x => getCategory(x) === category);
 

@@ -7,7 +7,7 @@
   <meta name="description" content="PNM — Polri Negative News Monitor">
   <title>PNM — Polri Negative News Monitor</title>
   <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" crossorigin="">
-  <link rel="stylesheet" href="styles.css?v=5.4">
+  <link rel="stylesheet" href="styles.css?v=5.5">
 </head>
 <body>
   <div id="app" class="app">
@@ -138,7 +138,7 @@
             <input id="search" placeholder="Cari judul, sumber, wilayah, kategori, Polres...">
             <select id="region"><option value="all">Semua Wilayah</option></select>
             <select id="polres"><option value="all">Semua Polres Terdeteksi</option></select>
-            <select id="priority"><option value="all">Semua Prioritas Artikel</option><option value="high">Tinggi</option><option value="medium">Sedang</option><option value="low">Rendah</option></select>
+            <select id="priority"><option value="all">Semua Prioritas</option><option value="high">Tinggi</option><option value="medium">Sedang</option><option value="low">Rendah</option></select>
             <select id="scope"><option value="all">Semua Jenis</option><option value="negative">Negatif</option><option value="case">Ungkap Kasus</option><option value="positive">Positif</option><option value="neutral">Netral</option></select>
             <select id="category"><option value="all">Semua Kategori</option></select>
           </div>
@@ -207,7 +207,7 @@
               <input id="archiveSearch" placeholder="Cari berita arsip...">
               <select id="archiveRegion"><option value="all">Semua Wilayah</option></select>
               <select id="archivePolres"><option value="all">Semua Polres</option></select>
-              <select id="archivePriority"><option value="all">Semua Prioritas Artikel</option><option value="high">Tinggi</option><option value="medium">Sedang</option><option value="low">Rendah</option></select>
+              <select id="archivePriority"><option value="all">Semua Prioritas</option><option value="high">Tinggi</option><option value="medium">Sedang</option><option value="low">Rendah</option></select>
               <select id="archiveScope"><option value="all">Semua Jenis</option><option value="negative">Negatif</option><option value="case">Ungkap Kasus</option><option value="positive">Positif</option><option value="neutral">Netral</option></select>
               <select id="archiveCategory"><option value="all">Semua Kategori</option></select>
               <button id="archiveClear" class="secondary">Reset</button>
@@ -236,6 +236,6 @@
   </aside>
 
   <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" crossorigin=""></script>
-  <script src="app.js?v=5.4"></script>
+  <script src="app.js?v=5.5"></script>
 </body>
 </html>

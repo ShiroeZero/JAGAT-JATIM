@@ -13,9 +13,12 @@
   align-items: end;
   gap: 9px;
 }
-.filters input,.filters select,.date-filter input {
-  width:100%;min-width:0;height:40px;padding:9px 10px;background:#090f18;color:var(--text);border:1px solid var(--line);border-radius:9px;outline:none;
+.filter-main input,.filter-main select,.filter-date-row input,.filters input,.filters select {
+  width:100%;min-width:0;height:40px;padding:9px 10px;background:#090f18 !important;color:var(--text) !important;border:1px solid var(--line);border-radius:9px;outline:none;color-scheme:dark;
 }
+.filter-main input::placeholder { color:#687a90; opacity:1; }
+.filter-main select option { background:#0d131d; color:#e9eef5; }
+.filter-date-row input[type="date"] { color-scheme:dark; }
 .date-filter{display:grid;gap:4px;min-width:0}.date-filter label{color:#718096;font-size:9px;line-height:1.2}
 .quick-dates{display:flex;align-items:center;justify-content:flex-start;flex-wrap:wrap;gap:6px;min-height:40px}
 .quick-date{height:40px;padding:0 11px;background:#0c141f;color:#91a1b6;border:1px solid var(--line);border-radius:8px;font-size:10px;cursor:pointer}
@@ -139,4 +142,44 @@
   .filter-reset {
     width: 100%;
   }
+}
+
+
+/* V5.5 FILTER POLISH */
+.filter-main input,
+.filter-main select,
+.filter-date-row input[type="date"] {
+  appearance: none;
+  -webkit-appearance: none;
+  background: #090f18 !important;
+  color: #e9eef5 !important;
+  border: 1px solid #1d2938;
+  color-scheme: dark;
+}
+.filter-main select {
+  background-image: linear-gradient(45deg, transparent 50%, #7188a5 50%), linear-gradient(135deg, #7188a5 50%, transparent 50%);
+  background-position: calc(100% - 15px) 17px, calc(100% - 10px) 17px;
+  background-size: 5px 5px, 5px 5px;
+  background-repeat: no-repeat;
+  padding-right: 30px;
+}
+.filter-main input:focus,
+.filter-main select:focus,
+.filter-date-row input[type="date"]:focus {
+  border-color: #31547e;
+  box-shadow: 0 0 0 3px rgba(49,84,126,.12);
+}
+.filter-date-row {
+  grid-template-columns: minmax(180px,220px) minmax(180px,220px) 1fr auto !important;
+}
+.quick-dates {
+  justify-content: flex-start !important;
+}
+@media (max-width: 900px) {
+  .filter-main { grid-template-columns: 1fr 1fr !important; }
+  .filter-date-row { grid-template-columns: 1fr 1fr !important; }
+}
+@media (max-width: 600px) {
+  .filter-main { grid-template-columns: 1fr !important; }
+  .filter-date-row { grid-template-columns: 1fr !important; }
 }
