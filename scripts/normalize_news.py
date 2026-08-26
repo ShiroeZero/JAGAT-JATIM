@@ -70,7 +70,7 @@ def main():
         if old != new:
             changed += 1
 
-    db["location_engine_version"] = "location-v3"
+    db["location_engine_version"] = "location-v4"
     db["location_normalized_at"] = __import__("datetime").datetime.now(__import__("datetime").timezone.utc).isoformat()
 
     tmp = NEWS_FILE + ".tmp"
@@ -83,7 +83,7 @@ def main():
     print("========================================")
     print(f"Records        : {len(items)}")
     print(f"Updated        : {changed}")
-    print("Engine         : location-v2")
+    print("Engine         : location-v4")
     print(f"Output         : {NEWS_FILE}")
     print("========================================")
 

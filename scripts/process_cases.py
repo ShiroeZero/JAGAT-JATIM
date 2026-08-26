@@ -7,7 +7,7 @@ from difflib import SequenceMatcher
 NEWS_FILE = "data/news.json"
 CASE_FILE = "data/case_clusters.json"
 
-ENGINE_VERSION = "case-v5.2"
+ENGINE_VERSION = "case-v6.0"
 MAX_CASE_AGE_DAYS = 120
 
 # Normal clustering may use one concrete event term when the
@@ -26,16 +26,21 @@ PRIORITY_SCORE_MAX = 100
 SEVERITY_TERMS = {
     "critical": {
         "tewas", "meninggal", "penembakan", "pembunuhan",
-        "kekerasan seksual", "korupsi besar",
+        "kekerasan seksual", "pemerkosaan", "pos polisi dibakar",
+        "mako diserang", "penyerangan kantor polisi",
     },
     "severe": {
-        "intimidasi", "ancam", "ancaman", "pemerasan",
-        "penyalahgunaan", "kekerasan", "narkoba", "suap",
-        "korupsi", "pungli", "seksual", "aborsi",
+        "intimidasi", "ancam", "ancaman", "pemerasan", "penyalahgunaan",
+        "kekerasan", "narkoba", "suap", "gratifikasi", "korupsi",
+        "pungli", "seksual", "aborsi", "pencabulan", "tangkap lepas",
+        "tebusan", "setoran", "upeti", "beking", "dibeking", "dibeckup",
+        "tambang ilegal", "judi sabung ayam", "rokok ilegal", "solar subsidi",
+        "intimidasi wartawan", "demo ricuh", "bentrok", "kerusuhan",
     },
     "moderate": {
-        "penganiayaan", "pelanggaran etik", "pelanggaran disiplin",
-        "tersangka", "ditahan", "diperiksa", "pemeriksaan",
+        "penganiayaan", "perselingkuhan", "nikah siri", "pelanggaran etik",
+        "pelanggaran disiplin", "calo sim", "pungli samsat", "maladministrasi",
+        "tersangka", "ditahan", "diperiksa", "pemeriksaan", "kdrt",
     },
 }
 
@@ -90,6 +95,11 @@ EVENT_WORDS = {
     "curanmor","pencurian","pencuri","motor","emas","celurit","letter",
     "penganiayaan","kekerasan","penembakan","narkoba","sabu","ganja","korupsi",
     "pungli","suap","pemerasan","penyalahgunaan","aborsi","perselingkuhan",
+    "tangkap","tangkap lepas","tebusan","setoran","upeti","beking","dibeking",
+    "dibeckup","intervensi","maladministrasi","calo","satpas","samsat","judi",
+    "judol","sabung ayam","rokok ilegal","solar subsidi","miras","bentrok",
+    "demo ricuh","kerusuhan","mako","pos polisi","molotov","pencabulan",
+    "pemerkosaan","kdrt","nikah siri","asusila",
 }
 
 LOCATION_WORDS = {
@@ -213,6 +223,7 @@ def item_fingerprint(item):
         "title": title,
         "polres": str(item.get("polres") or "").strip().upper(),
         "region": str(item.get("region") or "").strip().lower(),
+        "families": set(item.get("discovery_families") or []),
     }
 
 def case_fingerprint(case):
@@ -222,6 +233,7 @@ def case_fingerprint(case):
         "locations": set(case.get("location_terms", [])),
         "polres": str(case.get("polres") or "").strip().upper(),
         "region": str(case.get("region") or "").strip().lower(),
+        "families": set(case.get("discovery_families") or []),
         "title": str(case.get("title") or ""),
     }
 
@@ -259,6 +271,7 @@ def score_match(item, case):
     shared_events = n["events"] & c["events"]
     shared_locations = n["locations"] & c["locations"]
     shared_rare = n["rare"] & c["rare"]
+    shared_families = n["families"] & c["families"]
     title_score = similarity(n["title"], c["title"])
 
     # Location is an identity signal, not merely a topic.
@@ -267,12 +280,14 @@ def score_match(item, case):
     region_bonus = 0.03 if n["region"] and c["region"] and n["region"] == c["region"] else 0.0
 
     event_score = min(len(shared_events), 3) * 0.18
+    family_score = min(len(shared_families), 2) * 0.08
     rare_score = min(len(shared_rare), 4) * 0.05
     title_score_part = title_score * 0.14
 
     score = min(
         1.0,
         event_score
+        + family_score
         + rare_score
         + title_score_part
         + location_bonus
@@ -284,6 +299,7 @@ def score_match(item, case):
         "shared_events": shared_events,
         "shared_locations": shared_locations,
         "shared_rare": shared_rare,
+        "shared_families": shared_families,
         "title": title_score,
     }
 
@@ -302,6 +318,7 @@ def choose_case(item, cases, recovery=False):
             len(evidence["shared_events"]) >= 1
             and (
                 bool(evidence["shared_locations"])
+                or bool(evidence.get("shared_families")) and bool(n["polres"] and c["polres"] and n["polres"] == c["polres"])
                 or bool(n["polres"] and c["polres"] and n["polres"] == c["polres"])
                 or evidence["title"] >= 0.82
             )
@@ -490,6 +507,7 @@ def make_case(item, cases):
         "incident_terms": sorted(fp["rare"]),
         "event_terms": sorted(fp["events"]),
         "location_terms": sorted(fp["locations"]),
+        "discovery_families": sorted(fp["families"]),
         "first_seen": published.isoformat(),
         "last_seen": published.isoformat(),
         "last_detected_at": (
@@ -724,15 +742,15 @@ def main():
     old_version = old_db.get("engine_version")
 
     print("========================================")
-    print("PNM CASE ENGINE V5.2")
+    print("PNM CASE ENGINE V6.0")
     print("CANONICAL INCIDENT CLUSTERING")
     print("========================================")
     print(f"Total news loaded : {len(news)}")
     print(f"Existing cases    : {len(old_db.get('cases', []))}")
     print(f"Existing engine   : {old_version or 'none'}")
 
-    # V5 intentionally performs one clean rebuild from the current
-    # news database. After V5 is stored, future runs are incremental.
+    # V6 intentionally performs one clean rebuild from the current
+    # news database. After V6 is stored, future runs are incremental.
     rebuild = old_version != ENGINE_VERSION
 
     if rebuild:

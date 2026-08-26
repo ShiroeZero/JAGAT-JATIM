@@ -259,17 +259,25 @@ function showView(view) {
 
 function renderHeader() {
   if (!todayData) return;
-  if ($("todayDate")) $("todayDate").textContent = activeArchive ? `Snapshot ${formatDate(activeArchive.date)}` : formatDate(todayData.date);
+  const items = todayJatimItems();
+  const cases = todayJatimCaseSet();
+  const negative = items.filter(x => getScope(x) === "negative").length;
+  const caseScope = items.filter(x => getScope(x) === "case").length;
+  const positive = items.filter(x => getScope(x) === "positive").length;
+  const neutral = items.length - negative - caseScope - positive;
+  const high = cases.filter(c => getPriority(c) === "high").length;
+
+  if ($("todayDate")) $("todayDate").textContent = formatDate(todayData.date);
   if ($("lastUpdated")) $("lastUpdated").textContent = `Update terakhir: ${formatDateTime(todayData.last_successful_update || todayData.updated_at)}`;
-  if ($("sTotal")) $("sTotal").textContent = number(todayData.summary?.news_today);
-  if ($("sCases")) $("sCases").textContent = number(todayData.summary?.cases_today);
-  if ($("sYoutube")) $("sYoutube").textContent = number(todayData.summary?.youtube_today);
-  if ($("sHigh")) $("sHigh").textContent = number(todayData.summary?.case_high ?? todayData.cases?.priority_high ?? 0);
-  if ($("sNegative")) $("sNegative").textContent = number(todayData.summary?.negative_today);
-  if ($("sJatim")) $("sJatim").textContent = number(todayData.summary?.jatim_news);
-  if ($("sCaseHigh")) $("sCaseHigh").textContent = number(todayData.summary?.case_high ?? todayData.cases?.priority_high ?? 0);
-  if ($("sTotalCases")) $("sTotalCases").textContent = number(caseData?.total_cases);
+  if ($("sTotal")) $("sTotal").textContent = number(items.length);
+  if ($("sCaseToday")) $("sCaseToday").textContent = number(cases.length);
+  if ($("sHigh")) $("sHigh").textContent = number(high);
+  if ($("sNegative")) $("sNegative").textContent = number(negative);
+  if ($("sCaseUngkap")) $("sCaseUngkap").textContent = number(caseScope);
+  if ($("sPositive")) $("sPositive").textContent = number(positive);
+  if ($("sNeutral")) $("sNeutral").textContent = number(neutral);
 }
+
 
 function renderAll() {
   renderHeader();
@@ -279,12 +287,21 @@ function renderAll() {
   renderArchiveList();
 }
 
+function todayJatimItems() {
+  return todayItems().filter(isJatim);
+}
+
+function todayJatimCaseSet() {
+  const ids = new Set(todayJatimItems().map(item => item.case_id).filter(Boolean));
+  return globalCases().filter(c => ids.has(c.case_id));
+}
+
 function renderDashboard() {
-  const items = todayItems();
+  const items = todayJatimItems();
   renderRegionsToday(items);
   renderCategories(items);
   renderLatest(items);
-  renderLatestCases();
+  renderLatestCases(items);
   initMap();
   renderMap(items);
 }
@@ -298,8 +315,9 @@ function renderRegionsToday(items) {
     if (!groups.has(r)) groups.set(r, { count: 0 });
     groups.get(r).count++;
   });
+  const todayCases = todayJatimCaseSet();
   const byRegion = new Map();
-  globalCases().forEach(c => {
+  todayCases.forEach(c => {
     const r = getLocality(c);
     if (!r) return;
     if (!byRegion.has(r)) byRegion.set(r, { cases: 0, high: 0 });
@@ -382,13 +400,19 @@ function renderLatest(items) {
   bindArticleClicks(target, items);
 }
 
-function renderLatestCases() {
+function renderLatestCases(items = todayJatimItems()) {
   const target = $("latestCases");
   if (!target) return;
-  const cases = globalCases().slice().sort((a, b) => priorityRank(b.priority) - priorityRank(a.priority) || new Date(b.last_detected_at || b.last_seen || 0) - new Date(a.last_detected_at || a.last_seen || 0)).slice(0, 6);
-  target.innerHTML = cases.length ? cases.map((c, i) => caseCard(c, i + 1)).join("") : `<div class="empty">Belum ada case.</div>`;
-  bindCaseClicks(target, globalCases());
+  const ids = new Set(items.map(item => item.case_id).filter(Boolean));
+  const cases = globalCases()
+    .filter(c => ids.has(c.case_id))
+    .slice()
+    .sort((a, b) => priorityRank(b.priority) - priorityRank(a.priority) || new Date(b.last_detected_at || b.last_seen || 0) - new Date(a.last_detected_at || a.last_seen || 0))
+    .slice(0, 6);
+  target.innerHTML = cases.length ? cases.map((c, i) => caseCard(c, i + 1)).join("") : `<div class="empty">Belum ada Case Jatim hari ini.</div>`;
+  bindCaseClicks(target, globalCases(), newsData);
 }
+
 
 function currentMonitoringBase() {
   const { from, to } = currentDateBounds();
@@ -478,7 +502,7 @@ function renderMonitoring() {
   caseTarget.innerHTML = cases.length
     ? `<div class="subsection-head"><div><h3>Case / Incident</h3><div class="muted">Prioritas Case berlaku pada incident, bukan setiap artikel.</div></div></div><div class="case-grid">${cases.map((c, i) => caseCard(c, i + 1)).join("")}</div>`
     : `<div class="case-empty">Tidak ada Case yang memenuhi filter.</div>`;
-  bindCaseClicks(caseTarget, activeCases());
+  bindCaseClicks(caseTarget, activeCases(), activeNews());
 
   const list = $("list");
   list.innerHTML = items.length ? items.map(articleCard).join("") : `<div class="empty">Tidak ada berita yang cocok dengan filter.</div>`;
@@ -522,14 +546,14 @@ function syncModeButtons() {
 function bindArticleClicks(root, dataset = activeNews()) {
   root?.querySelectorAll("[data-article-id]").forEach(el => el.addEventListener("click", () => {
     const article = getArticleById(el.dataset.articleId, dataset);
-    if (article) openArticleDrawer(article, dataset);
+    if (article) openArticleDrawer(article, dataset, activeCases());
   }));
 }
 
-function bindCaseClicks(root, dataset = activeCases()) {
+function bindCaseClicks(root, caseDataset = activeCases(), newsDataset = activeNews()) {
   root?.querySelectorAll("[data-case-id]").forEach(el => el.addEventListener("click", () => {
-    const c = getCaseById(el.dataset.caseId, dataset);
-    if (c) openCaseDrawer(c, dataset);
+    const c = getCaseById(el.dataset.caseId, caseDataset);
+    if (c) openCaseDrawer(c, newsDataset, caseDataset);
   }));
 }
 
@@ -545,8 +569,8 @@ function closeDrawer() {
   $("drawerOverlay")?.classList.add("hidden");
 }
 
-function openArticleDrawer(article, dataset = activeNews()) {
-  const c = getCaseById(article.case_id, activeCases());
+function openArticleDrawer(article, dataset = activeNews(), caseDataset = activeCases()) {
+  const c = getCaseById(article.case_id, caseDataset);
   const url = normalizeUrl(article.url);
   const caseHigh = c && getPriority(c) === "high";
   $("drawerEyebrow").textContent = "DETAIL BERITA";
@@ -570,12 +594,12 @@ function openArticleDrawer(article, dataset = activeNews()) {
       ${c ? `<button class="secondary" id="drawerCaseButton">Lihat Case & Semua Sumber</button>` : ""}
     </div>`;
   openDrawer();
-  $("drawerCaseButton")?.addEventListener("click", () => openCaseDrawer(c, activeNews()));
+  $("drawerCaseButton")?.addEventListener("click", () => openCaseDrawer(c, dataset, caseDataset));
 }
 
-function openCaseDrawer(c, dataset = activeNews()) {
+function openCaseDrawer(c, newsDataset = activeNews(), caseDataset = activeCases()) {
   if (!c) return;
-  const items = caseArticles(c, dataset);
+  const items = caseArticles(c, newsDataset);
   const p = getPriority(c);
   const score = c.priority_score != null ? `${number(c.priority_score)}/100` : "-";
   const reasons = Array.isArray(c.priority_reasons) ? c.priority_reasons : [];
@@ -738,7 +762,7 @@ function renderArchiveNews() {
   const caseTarget = $("archiveCasesList");
   if (caseTarget) {
     caseTarget.innerHTML = relevantCases.length ? `<div class="subsection-head"><div><h3>Case / Incident</h3><div class="muted">Case yang terkait dengan filter snapshot.</div></div></div><div class="case-grid">${relevantCases.map((c, i) => caseCard(c, i + 1)).join("")}</div>` : `<div class="case-empty">Tidak ada Case pada filter ini.</div>`;
-    bindCaseClicks(caseTarget, cases);
+    bindCaseClicks(caseTarget, cases, items);
   }
 
   const target = $("archiveNewsList");

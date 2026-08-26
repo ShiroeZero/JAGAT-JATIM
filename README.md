@@ -1,37 +1,81 @@
-# PNM — Polri Negative News Monitor
+# PNM — Polri Negative News Monitor V6
 
-PNM is an internal monitoring dashboard for news, incident/case clustering, Jawa Timur mapping, daily snapshots, and historical archives.
+PNM is an internal monitoring dashboard for news discovery, location normalization, canonical incident/case clustering, Jatim situational awareness, daily snapshots, historical archives, and operational reporting preparation.
 
-## Core architecture
+## V6 architecture
 
 ```text
-News Collector
-    -> Location normalization
+Discovery Matrix
+    -> Google News collection
+    -> Deduplication / relevance filtering
+    -> Discovery-family classification
+    -> Location + Polres normalization
     -> Canonical Incident / Case Engine
+    -> Case Priority (severity + escalation + spread + activity)
     -> Today Snapshot + Archive
     -> Dashboard / Monitoring / Map / Archive
 ```
 
-The frontend does not invent priority or case relationships. Those values come from the canonical data produced by the backend.
+The frontend does not invent priority or case relationships. Article priority and Case priority are separate canonical fields produced by the backend.
+
+## Discovery V6
+
+V6 adds a discovery dictionary derived from the 2026 East Java headline corpora supplied for PNM development. The dictionary groups wording variants into families such as:
+
+- Penanganan perkara / tangkap lepas
+- Pungli / suap / gratifikasi / pemerasan / setoran
+- Penyalahgunaan wewenang / ketidakprofesionalan / intervensi
+- Etik / relasi pribadi / kekerasan seksual / aborsi / KDRT
+- Backing / pembiaran aktivitas ilegal (tambang, judi, miras, rokok, BBM)
+- Jurnalis / kebebasan informasi / intimidasi media
+- Pelayanan SIM / Satpas / Samsat
+- Keamanan / gangguan kamtibmas (demo ricuh, bentrok, serangan mako/pos)
+- Dugaan pelanggaran oknum / Propam / etik-disiplin
+
+Patterns are discovery signals, not factual determinations. Article wording still needs contextual evaluation.
+
+`data/discovery_patterns_v6.json` is the canonical vocabulary used by the collector and Case Engine. The two supplied 2026 source corpora are preserved under `docs/`.
+
+## Search coverage
+
+The collector uses layered discovery rather than relying on a single national keyword query:
+
+```text
+General national queries
+        +
+Discovery-family queries
+        +
+Province discovery queries
+        +
+Jawa Timur Polres queries
+        +
+Active Case follow-up queries
+```
+
+This improves recall while keeping the existing deduplication and relevance filters. Google News remains a discovery source rather than a guarantee of exhaustive nationwide coverage.
 
 ## Main menu
 
-- Dashboard — focused on the current day.
-- Monitoring — one explorer with three modes: Semua, Jawa Timur, Prioritas Tinggi.
+- Dashboard — JAWA TIMUR + current day only.
+- Monitoring — flexible explorer with Semua, Jawa Timur, Prioritas Tinggi, date range, region, Polres, scope, category, and search filters.
 - Laporan — reserved for the report generator phase.
-- Arsip — opens a complete snapshot for a selected date.
+- Arsip — opens an independent snapshot for a selected date.
 
-## Article interaction
+## Article and Case interaction
 
-Every article card is clickable. The detail drawer shows source, time, region, Polres, category, scope, priority, Case ID, and the original URL when available.
+Every article card is clickable. The detail drawer shows source, time, region, Polres, category, scope, article priority, Case, and the original URL when available.
 
-A Case is an incident, not a single article. A Case detail lists all source articles linked to that incident.
+A Case represents one incident, not one article. Opening a Case resolves all linked article IDs against the relevant News dataset so the drawer can show every source belonging to that incident.
+
+## Priority model
+
+Article priority and Case priority are intentionally separate. Case priority is incident-level and considers severity, official escalation/handling, source spread, and current activity. A Medium article may therefore belong to a High-priority Case.
 
 ## Today and Archive
 
 `data/today.json` is the current-day snapshot.
 
-`data/archive/YYYY-MM-DD.json` is an independent snapshot of that date, including the articles and active cases for that day.
+`data/archive/YYYY-MM-DD.json` is an independent snapshot for that date, including the articles and Case relationships available in that snapshot.
 
 `data/archive/index.json` lists available snapshots.
 
@@ -43,7 +87,7 @@ The current Matwil mapping is stored at:
 data/matwil/current.json
 ```
 
-The August 2026 source is the uploaded Sprin:
+The current source PDF is stored at:
 
 ```text
 data/matwil/source.pdf
@@ -67,8 +111,6 @@ python scripts/update_matwil.py
 4. Inspect `data/matwil/current.json`.
 5. Commit the updated JSON and source PDF.
 
-The parser groups the territories according to the operational Unit 1/2/3 anchors in the Sprin. If a future PDF changes its table structure, inspect the generated JSON before committing.
-
 ## Validation
 
 Run:
@@ -77,33 +119,29 @@ Run:
 python scripts/validate_data.py
 ```
 
-This checks:
-
-- duplicate news IDs
-- duplicate Case IDs
-- Case -> article references
-- reverse article -> Case references
-- duplicate article membership across Cases
-- canonical Case priority
-- today snapshot presence
+Validation checks include duplicate news IDs, duplicate Case IDs, Case/article references, duplicate Case membership, canonical Case priority, and current-day snapshot consistency.
 
 ## Workflow
 
-GitHub Actions runs the collector hourly. YouTube collection is allowed to fail without blocking the news/case/snapshot pipeline, so a YouTube quota problem does not erase the daily news snapshot.
+GitHub Actions runs the collector hourly. YouTube collection is allowed to fail without blocking the news/case/snapshot pipeline. Pages deployment is integrated into the same workflow, so a successful collector run also publishes the current frontend/data bundle.
 
-The workflow sequence is:
+The sequence is:
 
 ```text
 Collect News
 Normalize Location
 Build Cases
-Validate Data
+Check Case Database
 Collect YouTube
 Create Daily Snapshot
 Build Archive Index
-Validate Data
+Validate Final Data
+Check Frontend
 Commit Data
+Deploy GitHub Pages
 ```
+
+The older standalone `pages-build-and-deployment` workflow is not required for normal operation.
 
 ## Access note
 

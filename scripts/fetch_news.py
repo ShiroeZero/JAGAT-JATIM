@@ -12,7 +12,26 @@ import xml.etree.ElementTree as ET
 
 
 OUT = "data/news.json"
-USER_AGENT = "PNM-Polri-Negative-News-Monitor/5.0"
+USER_AGENT = "PNM-Polri-Negative-News-Monitor/6.0"
+DISCOVERY_FILE = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), "data", "discovery_patterns_v6.json")
+
+
+def load_discovery_config():
+    try:
+        with open(DISCOVERY_FILE, encoding="utf-8") as f:
+            return json.load(f)
+    except Exception as exc:
+        print(f"WARN: discovery patterns tidak dapat dimuat: {exc}")
+        return {"families": {}, "provinces": []}
+
+
+DISCOVERY_CONFIG = load_discovery_config()
+DISCOVERY_FAMILIES = DISCOVERY_CONFIG.get("families", {})
+DISCOVERY_PROVINCES = DISCOVERY_CONFIG.get("provinces", [])
+DISCOVERY_TERMS = []
+for _family in DISCOVERY_FAMILIES.values():
+    DISCOVERY_TERMS.extend(_family.get("terms", []))
+DISCOVERY_TERMS = sorted(set(DISCOVERY_TERMS), key=lambda x: (len(x), x), reverse=True)
 
 
 # ============================================================
@@ -657,6 +676,36 @@ def detect_region(text, polres):
 
 
 # ============================================================
+# DISCOVERY / ATTENTION SIGNALS
+# ============================================================
+
+POLICE_ANCHORS = [
+    "polisi", "polri", "polda", "polres", "polresta", "polrestabes",
+    "polsek", "propam", "paminal", "provost", "brimob", "satres",
+    "satlantas", "reskrim", "resnarkoba", "jatanras", "mako",
+    "pos polisi", "anggota", "oknum"
+]
+
+
+def has_any_term(text, terms):
+    return any(contains_term(text, term) for term in terms)
+
+
+def discovery_matches(text):
+    text = clean(text).lower()
+    families = []
+    tags = set()
+    matched_terms = []
+    for key, family in DISCOVERY_FAMILIES.items():
+        hits = [term for term in family.get("terms", []) if contains_term(text, term)]
+        if hits:
+            families.append(key)
+            matched_terms.extend(hits[:6])
+            tags.update(family.get("tags", []))
+    return sorted(set(families)), sorted(tags), sorted(set(matched_terms), key=len, reverse=True)[:20]
+
+
+# ============================================================
 # ARTICLE CLASSIFICATION
 # ============================================================
 
@@ -665,189 +714,83 @@ def classify_article(
     description
 ):
 
-    text = clean(
-        title
-        + " "
-        + strip_html(description)
-    ).lower()
-
+    text = clean(title + " " + strip_html(description)).lower()
     polres = find_polres(text)
+    is_jatim = detect_region(text, polres)
+    discovery_families, discovery_tags, discovery_hits = discovery_matches(text)
+    police_context = has_any_term(text, POLICE_ANCHORS)
 
-    is_jatim = detect_region(
-        text,
-        polres
-    )
+    is_negative_oknum = any(contains_term(text, term) for term in NEGATIVE_OKNUM_TERMS)
+    misconduct_families = {
+        "case_handling", "financial_misconduct", "abuse_of_power",
+        "ethics_personal_misconduct", "illegal_activity_backing",
+        "journalist_and_information", "service_corruption",
+        "general_police_misconduct"
+    }
+    if police_context and misconduct_families.intersection(discovery_families):
+        is_negative_oknum = True
 
-    is_negative_oknum = any(
-        contains_term(
-            text,
-            term
-        )
-        for term in NEGATIVE_OKNUM_TERMS
-    )
+    security_direct = "security_public_order" in discovery_families and police_context
+    family_category = {
+        "case_handling": "OKNUM - PENANGANAN PERKARA",
+        "financial_misconduct": "OKNUM - INTEGRITAS/KEUANGAN",
+        "abuse_of_power": "OKNUM - PENYALAHGUNAAN WEWENANG",
+        "ethics_personal_misconduct": "OKNUM - ETIK/PERSONAL",
+        "illegal_activity_backing": "AKTIVITAS ILEGAL / DUGAAN PEMBIARAN",
+        "journalist_and_information": "OKNUM - HUBUNGAN DENGAN PERS",
+        "service_corruption": "OKNUM - LAYANAN/SATPAS/SAMSAT",
+        "general_police_misconduct": "OKNUM - ETIK/DISIPLIN",
+        "security_public_order": "KEAMANAN / KAMTIBMAS",
+    }
+    family_precedence = [
+        "security_public_order",
+        "journalist_and_information",
+        "financial_misconduct",
+        "abuse_of_power",
+        "ethics_personal_misconduct",
+        "service_corruption",
+        "illegal_activity_backing",
+        "case_handling",
+        "general_police_misconduct",
+    ]
+    matched_family = next((name for name in family_precedence if name in discovery_families), None)
 
-    if is_negative_oknum:
-
-        if any(
-            contains_term(
-                text,
-                term
-            )
-            for term in ETHIC_TERMS
-        ):
-
-            category = (
-                "OKNUM - ETIK/DISIPLIN"
-            )
-
-        elif any(
-            contains_term(
-                text,
-                term
-            )
-            for term in ABUSE_TERMS
-        ):
-
-            category = (
-                "OKNUM - PENYALAHGUNAAN WEWENANG"
-            )
-
-        else:
-
-            category = (
-                "OKNUM - PIDANA"
-            )
-
+    if is_negative_oknum or security_direct:
+        category = family_category.get(matched_family, "OKNUM - PIDANA")
         scope = "negative"
-
-        scope_label = (
-            "NEGATIF / OKNUM"
-        )
-
-    elif any(
-        contains_term(
-            text,
-            term
-        )
-        for term in SERVICE_NEGATIVE_TERMS
-    ):
-
-        category = (
-            "KINERJA/LAYANAN POLRI"
-        )
-
+        scope_label = "NEGATIF / ATENSI"
+    elif any(contains_term(text, term) for term in SERVICE_NEGATIVE_TERMS):
+        category = "KINERJA/LAYANAN POLRI"
         scope = "negative"
-
-        scope_label = (
-            "NEGATIF / KINERJA"
-        )
-
-    elif any(
-        contains_term(
-            text,
-            term
-        )
-        for term in CASE_TERMS
-    ):
-
-        category = (
-            "UNGKAP KASUS / PENINDAKAN"
-        )
-
+        scope_label = "NEGATIF / KINERJA"
+    elif any(contains_term(text, term) for term in CASE_TERMS):
+        category = "UNGKAP KASUS / PENINDAKAN"
         scope = "case"
-
-        scope_label = (
-            "UNGKAP KASUS"
-        )
-
-    elif any(
-        contains_term(
-            text,
-            term
-        )
-        for term in POSITIVE_TERMS
-    ):
-
-        category = (
-            "PRESTASI / KEGIATAN POSITIF"
-        )
-
+        scope_label = "UNGKAP KASUS"
+    elif any(contains_term(text, term) for term in POSITIVE_TERMS):
+        category = "PRESTASI / KEGIATAN POSITIF"
         scope = "positive"
-
-        scope_label = (
-            "POSITIF / KEGIATAN"
-        )
-
+        scope_label = "POSITIF / KEGIATAN"
     else:
-
-        category = (
-            "NETRAL / LAINNYA"
-        )
-
+        category = "NETRAL / LAINNYA"
         scope = "neutral"
+        scope_label = "NETRAL"
 
-        scope_label = (
-            "NETRAL"
-        )
+    negative_hits = sum(1 for term in NEGATIVE_OKNUM_TERMS if contains_term(text, term))
+    crime_hits = sum(1 for term in CRIME_TERMS if contains_term(text, term))
+    ethic_hits = sum(1 for term in ETHIC_TERMS if contains_term(text, term))
+    score = negative_hits * 2 + crime_hits + ethic_hits + len(discovery_families)
 
-    negative_hits = sum(
-        1
-        for term in NEGATIVE_OKNUM_TERMS
-        if contains_term(
-            text,
-            term
-        )
-    )
-
-    crime_hits = sum(
-        1
-        for term in CRIME_TERMS
-        if contains_term(
-            text,
-            term
-        )
-    )
-
-    ethic_hits = sum(
-        1
-        for term in ETHIC_TERMS
-        if contains_term(
-            text,
-            term
-        )
-    )
-
-    score = (
-        negative_hits * 2
-        + crime_hits
-        + ethic_hits
-    )
-
-    if (
-        is_negative_oknum
-        and score >= 4
-    ):
-
+    if is_negative_oknum and score >= 4:
         priority = "high"
-
-    elif (
-        is_negative_oknum
-        or score >= 2
-    ):
-
+    elif is_negative_oknum or security_direct or score >= 2:
         priority = "medium"
-
     else:
-
         priority = "low"
 
     return (
-        is_jatim,
-        polres,
-        category,
-        scope,
-        scope_label,
-        priority,
+        is_jatim, polres, category, scope, scope_label, priority,
+        discovery_families, discovery_tags, discovery_hits,
     )
 
 
@@ -855,31 +798,141 @@ def classify_article(
 # QUERY BUILDER
 # ============================================================
 
-def build_queries():
+def priority_weight(value):
+    return {"high": 3, "medium": 2, "low": 1}.get(str(value or "low").lower(), 1)
 
-    queries = list(
-        GENERAL_QUERIES
-    )
 
-    for polres_name in POLRES:
+def parse_dt(value):
+    if not value:
+        return None
+    try:
+        text = str(value).replace("Z", "+00:00")
+        parsed = dt.datetime.fromisoformat(text)
+        if parsed.tzinfo is None:
+            parsed = parsed.replace(tzinfo=dt.timezone.utc)
+        return parsed.astimezone(dt.timezone.utc)
+    except Exception:
+        return None
 
-        queries.append(
-            f'"{polres_name.lower()}" polisi'
-        )
 
-    result = []
-    seen = set()
+def load_case_followup_queries():
+    case_file = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), "data", "case_clusters.json")
+    try:
+        with open(case_file, encoding="utf-8") as f:
+            data = json.load(f)
+    except Exception:
+        return []
 
-    for query in queries:
+    cases = data.get("cases", []) if isinstance(data, dict) else []
+    now = dt.datetime.now(dt.timezone.utc)
+    selected = []
+    generic = {"kasus", "polisi", "polri", "anggota", "oknum", "viral", "diduga", "misteri", "hati", "foto", "warga", "orang", "pelaku", "motor"}
+    followup_anchors = {term.lower() for term in DISCOVERY_TERMS} | {
+        "narkoba", "sabu", "narkotika", "pencurian", "pengeroyokan", "penganiayaan",
+        "kekerasan", "pembunuhan", "penipuan", "judi", "judol", "rokok ilegal",
+        "tambang", "aborsi", "perselingkuhan", "wartawan", "jurnalis", "intimidasi"
+    }
 
-        key = query.lower()
-
-        if key in seen:
+    for case in cases:
+        priority = str(case.get("priority", "low")).lower()
+        article_count = int(case.get("article_count", 0) or 0)
+        if priority not in {"high", "medium"} and article_count < 3:
+            continue
+        last = parse_dt(case.get("last_detected_at") or case.get("last_seen"))
+        if last is None or (now - last).days > 14:
             continue
 
-        seen.add(key)
-        result.append(query)
+        event_terms = [
+            str(x).strip().lower()
+            for x in (case.get("event_terms") or case.get("incident_terms") or [])
+            if len(str(x).strip()) >= 4 and str(x).strip().lower() not in generic
+        ]
+        usable = [term for term in event_terms if term in followup_anchors][:2]
+        if not usable:
+            continue
 
+        polres = str(case.get("polres") or "").strip()
+        region = str(case.get("region") or "").strip()
+        locality = polres or region
+        if locality and locality.lower() not in {"indonesia", "jawa timur"}:
+            query = f'"{locality}" "{" ".join(usable)}"'
+        else:
+            query = f'polisi "{" ".join(usable)}"'
+        selected.append((priority_weight(priority), article_count, last, query))
+
+    selected.sort(key=lambda x: (x[0], x[1], x[2]), reverse=True)
+    return [q for _, _, _, q in selected[:8]]
+
+
+def build_queries():
+    queries = list(GENERAL_QUERIES)
+    representative_terms = [
+        "tangkap lepas", "tebusan", "setoran", "upeti", "pungli",
+        "pemerasan", "suap", "penyalahgunaan wewenang", "intervensi",
+        "maladministrasi", "beking", "tambang ilegal", "judi sabung ayam",
+        "rokok ilegal", "solar subsidi", "perselingkuhan", "aborsi",
+        "pencabulan", "kekerasan seksual", "intimidasi wartawan",
+        "demo ricuh", "bentrok", "pos polisi dibakar", "mako diserang",
+        "pelanggaran etik", "propam", "calo sim", "pungli samsat",
+    ]
+    for term in representative_terms:
+        queries.append(f'"polisi" "{term}"')
+    province_aliases = {
+        "Aceh": "Aceh",
+        "Sumatera Utara": "Sumut",
+        "Sumatera Barat": "Sumbar",
+        "Riau": "Riau",
+        "Kepulauan Riau": "Kepri",
+        "Jambi": "Jambi",
+        "Sumatera Selatan": "Sumsel",
+        "Kepulauan Bangka Belitung": "Babel",
+        "Bengkulu": "Bengkulu",
+        "Lampung": "Lampung",
+        "DKI Jakarta": "Metro Jaya",
+        "Jawa Barat": "Jabar",
+        "Banten": "Banten",
+        "Jawa Tengah": "Jateng",
+        "Daerah Istimewa Yogyakarta": "DIY",
+        "Jawa Timur": "Jatim",
+        "Bali": "Bali",
+        "Nusa Tenggara Barat": "NTB",
+        "Nusa Tenggara Timur": "NTT",
+        "Kalimantan Barat": "Kalbar",
+        "Kalimantan Tengah": "Kalteng",
+        "Kalimantan Selatan": "Kalsel",
+        "Kalimantan Timur": "Kaltim",
+        "Kalimantan Utara": "Kaltara",
+        "Sulawesi Utara": "Sulut",
+        "Gorontalo": "Gorontalo",
+        "Sulawesi Tengah": "Sulteng",
+        "Sulawesi Barat": "Sulbar",
+        "Sulawesi Selatan": "Sulsel",
+        "Sulawesi Tenggara": "Sultra",
+        "Maluku": "Maluku",
+        "Maluku Utara": "Malut",
+        "Papua": "Papua",
+        "Papua Barat": "Papua Barat",
+        "Papua Tengah": "Papua Tengah",
+        "Papua Pegunungan": "Papua Pegunungan",
+        "Papua Selatan": "Papua Selatan",
+        "Papua Barat Daya": "Papua Barat Daya",
+    }
+    for province in DISCOVERY_PROVINCES:
+        alias = province_aliases.get(province, province)
+        queries.append(f'"polisi" "{province}"')
+        queries.append(f'"Polda" "{province}" "oknum"')
+        queries.append(f'"Propam" "{province}"')
+        if alias != province:
+            queries.append(f'"Polda {alias}" oknum')
+            queries.append(f'"Polda {alias}" setoran')
+    for polres_name in POLRES:
+        queries.append(f'"{polres_name.lower()}" polisi')
+    queries.extend(load_case_followup_queries())
+    result=[]; seen=set()
+    for query in queries:
+        key=query.lower().strip()
+        if key in seen: continue
+        seen.add(key); result.append(query)
     return result
 
 
@@ -1115,7 +1168,7 @@ def main():
     )
 
     print(
-        "INCREMENTAL FETCH V1"
+        "INCREMENTAL FETCH V6 — DISCOVERY MATRIX"
     )
 
     print(
@@ -1268,18 +1321,11 @@ def main():
                     + description
                 ).lower()
 
-                if not any(
-                    contains_term(
-                        searchable_text,
-                        term
-                    )
-                    for term in [
-                        "polisi",
-                        "polri",
-                        "oknum",
-                    ]
-                ):
+                relevance_anchor = has_any_term(searchable_text, POLICE_ANCHORS)
+                discovery_anchor = has_any_term(searchable_text, DISCOVERY_TERMS)
+                regional_anchor = has_any_term(searchable_text, JATIM_REGION_TERMS + DISCOVERY_PROVINCES)
 
+                if not (relevance_anchor or (discovery_anchor and regional_anchor)):
                     skipped_irrelevant += 1
                     continue
 
@@ -1307,6 +1353,9 @@ def main():
                     scope,
                     scope_label,
                     priority,
+                    discovery_families,
+                    discovery_tags,
+                    discovery_hits,
                 ) = classify_article(
                     title,
                     description
@@ -1374,13 +1423,25 @@ def main():
                         "new",
 
                     "classifier_version":
-                        "news-v1",
+                        "news-v6",
 
                     "classified_at":
                         now.isoformat(),
 
                     "case_id":
                         None,
+
+                    "discovery_families":
+                        discovery_families,
+
+                    "discovery_tags":
+                        discovery_tags,
+
+                    "discovery_hits":
+                        discovery_hits,
+
+                    "discovery_version":
+                        "discovery-v6",
                 }
 
                 items.append(
@@ -1574,6 +1635,15 @@ def main():
 
             "new_records":
                 added,
+
+            "discovery_version":
+                "discovery-v6",
+
+            "discovery_families":
+                len(DISCOVERY_FAMILIES),
+
+            "national_province_queries":
+                len(DISCOVERY_PROVINCES),
         },
 
         "statistics":

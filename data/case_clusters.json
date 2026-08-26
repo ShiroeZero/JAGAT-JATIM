@@ -1,13 +1,13 @@
 {
-  "engine_version": "case-v5.2",
-  "generated_at": "2026-08-26T18:10:03.076197+00:00",
+  "engine_version": "case-v6.0",
+  "generated_at": "2026-08-26T18:54:56.925797+00:00",
   "total_cases": 19,
   "total_articles": 37,
   "last_run": {
     "mode": "INCREMENTAL",
     "rebuild": false,
-    "news_loaded": 393,
-    "recovery_checked": 356,
+    "news_loaded": 382,
+    "recovery_checked": 345,
     "recovery_matched": 0,
     "matched_existing": 0,
     "new_cases": 0
@@ -37,6 +37,7 @@
         "kekerasan"
       ],
       "location_terms": [],
+      "discovery_families": [],
       "first_seen": "2026-08-26T11:12:57+00:00",
       "last_seen": "2026-08-26T12:53:55.268931+00:00",
       "last_detected_at": "2026-08-26T12:53:55.268931+00:00",
@@ -61,9 +62,9 @@
         }
       ],
       "article_count": 1,
-      "created_at": "2026-08-26T17:23:17.986466+00:00",
-      "updated_at": "2026-08-26T18:10:03.074761+00:00",
-      "engine_version": "case-v5.2",
+      "created_at": "2026-08-26T18:53:32.546277+00:00",
+      "updated_at": "2026-08-26T18:54:56.924767+00:00",
+      "engine_version": "case-v6.0",
       "priority_score": 32,
       "priority_breakdown": {
         "severity": 28,
@@ -113,6 +114,7 @@
       "location_terms": [
         "jeju"
       ],
+      "discovery_families": [],
       "first_seen": "2026-08-25T07:13:22+00:00",
       "last_seen": "2026-08-26T10:49:33.010254+00:00",
       "last_detected_at": "2026-08-26T10:49:33.010254+00:00",
@@ -169,9 +171,9 @@
         }
       ],
       "article_count": 3,
-      "created_at": "2026-08-26T17:23:17.987042+00:00",
-      "updated_at": "2026-08-26T18:10:03.074878+00:00",
-      "engine_version": "case-v5.2",
+      "created_at": "2026-08-26T18:53:32.546687+00:00",
+      "updated_at": "2026-08-26T18:54:56.924845+00:00",
+      "engine_version": "case-v6.0",
       "priority_score": 52,
       "priority_breakdown": {
         "severity": 45,
@@ -219,6 +221,7 @@
         "sabu"
       ],
       "location_terms": [],
+      "discovery_families": [],
       "first_seen": "2026-08-26T09:15:00+00:00",
       "last_seen": "2026-08-26T10:49:33.010254+00:00",
       "last_detected_at": "2026-08-26T10:49:33.010254+00:00",
@@ -243,9 +246,9 @@
         }
       ],
       "article_count": 1,
-      "created_at": "2026-08-26T17:23:17.988041+00:00",
-      "updated_at": "2026-08-26T18:10:03.074926+00:00",
-      "engine_version": "case-v5.2",
+      "created_at": "2026-08-26T18:53:32.547938+00:00",
+      "updated_at": "2026-08-26T18:54:56.924881+00:00",
+      "engine_version": "case-v6.0",
       "priority_score": 32,
       "priority_breakdown": {
         "severity": 28,
@@ -358,6 +361,7 @@
         "bojonegoro",
         "tuban"
       ],
+      "discovery_families": [],
       "first_seen": "2026-08-24T12:08:00+00:00",
       "last_seen": "2026-08-26T12:53:55.268931+00:00",
       "last_detected_at": "2026-08-26T12:53:55.268931+00:00",
@@ -606,12 +610,12 @@
         }
       ],
       "article_count": 15,
-      "created_at": "2026-08-26T17:23:17.989589+00:00",
-      "updated_at": "2026-08-26T18:10:03.075270+00:00",
-      "engine_version": "case-v5.2",
-      "priority_score": 80,
+      "created_at": "2026-08-26T18:53:32.549925+00:00",
+      "updated_at": "2026-08-26T18:54:56.925131+00:00",
+      "engine_version": "case-v6.0",
+      "priority_score": 84,
       "priority_breakdown": {
-        "severity": 31,
+        "severity": 35,
         "escalation": 17,
         "spread": 22,
         "current_activity": 10
@@ -620,6 +624,7 @@
         "unique_sources": 13,
         "active_today_articles": 15,
         "reasons": [
+          "tambang ilegal",
           "ancam",
           "intimidasi",
           "penanganan propam",
@@ -660,6 +665,7 @@
       "location_terms": [
         "situbondo"
       ],
+      "discovery_families": [],
       "first_seen": "2026-08-26T01:48:00+00:00",
       "last_seen": "2026-08-26T10:49:33.010254+00:00",
       "last_detected_at": "2026-08-26T10:49:33.010254+00:00",
@@ -684,9 +690,9 @@
         }
       ],
       "article_count": 1,
-      "created_at": "2026-08-26T17:23:17.991279+00:00",
-      "updated_at": "2026-08-26T18:10:03.075314+00:00",
-      "engine_version": "case-v5.2",
+      "created_at": "2026-08-26T18:53:32.551382+00:00",
+      "updated_at": "2026-08-26T18:54:56.925165+00:00",
+      "engine_version": "case-v6.0",
       "priority_score": 14,
       "priority_breakdown": {
         "severity": 10,
@@ -732,6 +738,7 @@
         "sabu"
       ],
       "location_terms": [],
+      "discovery_families": [],
       "first_seen": "2026-08-26T01:28:55+00:00",
       "last_seen": "2026-08-26T10:49:33.010254+00:00",
       "last_detected_at": "2026-08-26T10:49:33.010254+00:00",
@@ -756,9 +763,9 @@
         }
       ],
       "article_count": 1,
-      "created_at": "2026-08-26T17:23:17.993965+00:00",
-      "updated_at": "2026-08-26T18:10:03.075360+00:00",
-      "engine_version": "case-v5.2",
+      "created_at": "2026-08-26T18:53:32.553300+00:00",
+      "updated_at": "2026-08-26T18:54:56.925197+00:00",
+      "engine_version": "case-v6.0",
       "priority_score": 35,
       "priority_breakdown": {
         "severity": 28,
@@ -802,6 +809,7 @@
         "sabu"
       ],
       "location_terms": [],
+      "discovery_families": [],
       "first_seen": "2026-08-26T00:58:00+00:00",
       "last_seen": "2026-08-26T10:49:33.010254+00:00",
       "last_detected_at": "2026-08-26T10:49:33.010254+00:00",
@@ -826,9 +834,9 @@
         }
       ],
       "article_count": 1,
-      "created_at": "2026-08-26T17:23:17.996443+00:00",
-      "updated_at": "2026-08-26T18:10:03.075395+00:00",
-      "engine_version": "case-v5.2",
+      "created_at": "2026-08-26T18:53:32.555633+00:00",
+      "updated_at": "2026-08-26T18:54:56.925247+00:00",
+      "engine_version": "case-v6.0",
       "priority_score": 32,
       "priority_breakdown": {
         "severity": 28,
@@ -870,6 +878,7 @@
         "motor"
       ],
       "location_terms": [],
+      "discovery_families": [],
       "first_seen": "2026-08-26T00:55:46+00:00",
       "last_seen": "2026-08-26T10:49:33.010254+00:00",
       "last_detected_at": "2026-08-26T10:49:33.010254+00:00",
@@ -894,9 +903,9 @@
         }
       ],
       "article_count": 1,
-      "created_at": "2026-08-26T17:23:17.999419+00:00",
-      "updated_at": "2026-08-26T18:10:03.075432+00:00",
-      "engine_version": "case-v5.2",
+      "created_at": "2026-08-26T18:53:32.558494+00:00",
+      "updated_at": "2026-08-26T18:54:56.925279+00:00",
+      "engine_version": "case-v6.0",
       "priority_score": 14,
       "priority_breakdown": {
         "severity": 10,
@@ -940,6 +949,7 @@
       "location_terms": [
         "batam"
       ],
+      "discovery_families": [],
       "first_seen": "2026-08-25T17:00:05+00:00",
       "last_seen": "2026-08-26T10:49:33.010254+00:00",
       "last_detected_at": "2026-08-26T10:49:33.010254+00:00",
@@ -964,9 +974,9 @@
         }
       ],
       "article_count": 1,
-      "created_at": "2026-08-26T17:23:18.003171+00:00",
-      "updated_at": "2026-08-26T18:10:03.075465+00:00",
-      "engine_version": "case-v5.2",
+      "created_at": "2026-08-26T18:53:32.563748+00:00",
+      "updated_at": "2026-08-26T18:54:56.925302+00:00",
+      "engine_version": "case-v6.0",
       "priority_score": 49,
       "priority_breakdown": {
         "severity": 45,
@@ -1015,6 +1025,7 @@
       "location_terms": [
         "lumajang"
       ],
+      "discovery_families": [],
       "first_seen": "2026-08-25T16:22:00+00:00",
       "last_seen": "2026-08-26T10:49:33.010254+00:00",
       "last_detected_at": "2026-08-26T10:49:33.010254+00:00",
@@ -1039,9 +1050,9 @@
         }
       ],
       "article_count": 1,
-      "created_at": "2026-08-26T17:23:18.007886+00:00",
-      "updated_at": "2026-08-26T18:10:03.075505+00:00",
-      "engine_version": "case-v5.2",
+      "created_at": "2026-08-26T18:53:32.568606+00:00",
+      "updated_at": "2026-08-26T18:54:56.925332+00:00",
+      "engine_version": "case-v6.0",
       "priority_score": 37,
       "priority_breakdown": {
         "severity": 28,
@@ -1083,6 +1094,7 @@
       ],
       "event_terms": [],
       "location_terms": [],
+      "discovery_families": [],
       "first_seen": "2026-08-25T11:23:28+00:00",
       "last_seen": "2026-08-26T10:49:33.010254+00:00",
       "last_detected_at": "2026-08-26T10:49:33.010254+00:00",
@@ -1107,9 +1119,9 @@
         }
       ],
       "article_count": 1,
-      "created_at": "2026-08-26T17:23:18.016057+00:00",
-      "updated_at": "2026-08-26T18:10:03.075538+00:00",
-      "engine_version": "case-v5.2",
+      "created_at": "2026-08-26T18:53:32.574286+00:00",
+      "updated_at": "2026-08-26T18:54:56.925359+00:00",
+      "engine_version": "case-v6.0",
       "priority_score": 14,
       "priority_breakdown": {
         "severity": 10,
@@ -1147,6 +1159,7 @@
       ],
       "event_terms": [],
       "location_terms": [],
+      "discovery_families": [],
       "first_seen": "2026-08-25T07:17:02+00:00",
       "last_seen": "2026-08-26T10:49:33.010254+00:00",
       "last_detected_at": "2026-08-26T10:49:33.010254+00:00",
@@ -1171,9 +1184,9 @@
         }
       ],
       "article_count": 1,
-      "created_at": "2026-08-26T17:23:18.024919+00:00",
-      "updated_at": "2026-08-26T18:10:03.075573+00:00",
-      "engine_version": "case-v5.2",
+      "created_at": "2026-08-26T18:53:32.584843+00:00",
+      "updated_at": "2026-08-26T18:54:56.925385+00:00",
+      "engine_version": "case-v6.0",
       "priority_score": 14,
       "priority_breakdown": {
         "severity": 10,
@@ -1212,6 +1225,7 @@
       "location_terms": [
         "lampung"
       ],
+      "discovery_families": [],
       "first_seen": "2026-08-25T06:31:52+00:00",
       "last_seen": "2026-08-26T10:49:33.010254+00:00",
       "last_detected_at": "2026-08-26T10:49:33.010254+00:00",
@@ -1236,9 +1250,9 @@
         }
       ],
       "article_count": 1,
-      "created_at": "2026-08-26T17:23:18.034148+00:00",
-      "updated_at": "2026-08-26T18:10:03.075605+00:00",
-      "engine_version": "case-v5.2",
+      "created_at": "2026-08-26T18:53:32.592979+00:00",
+      "updated_at": "2026-08-26T18:54:56.925409+00:00",
+      "engine_version": "case-v6.0",
       "priority_score": 14,
       "priority_breakdown": {
         "severity": 10,
@@ -1274,6 +1288,7 @@
         "penganiayaan"
       ],
       "location_terms": [],
+      "discovery_families": [],
       "first_seen": "2026-08-25T02:37:00+00:00",
       "last_seen": "2026-08-26T10:49:33.010254+00:00",
       "last_detected_at": "2026-08-26T10:49:33.010254+00:00",
@@ -1298,9 +1313,9 @@
         }
       ],
       "article_count": 1,
-      "created_at": "2026-08-26T17:23:18.043119+00:00",
-      "updated_at": "2026-08-26T18:10:03.075641+00:00",
-      "engine_version": "case-v5.2",
+      "created_at": "2026-08-26T18:53:32.599155+00:00",
+      "updated_at": "2026-08-26T18:54:56.925434+00:00",
+      "engine_version": "case-v6.0",
       "priority_score": 22,
       "priority_breakdown": {
         "severity": 18,
@@ -1347,6 +1362,7 @@
       "location_terms": [
         "pacitan"
       ],
+      "discovery_families": [],
       "first_seen": "2026-08-24T15:54:06+00:00",
       "last_seen": "2026-08-26T10:49:33.010254+00:00",
       "last_detected_at": "2026-08-26T10:49:33.010254+00:00",
@@ -1387,9 +1403,9 @@
         }
       ],
       "article_count": 2,
-      "created_at": "2026-08-26T17:23:18.074735+00:00",
-      "updated_at": "2026-08-26T18:10:03.075693+00:00",
-      "engine_version": "case-v5.2",
+      "created_at": "2026-08-26T18:53:32.628473+00:00",
+      "updated_at": "2026-08-26T18:54:56.925473+00:00",
+      "engine_version": "case-v6.0",
       "priority_score": 17,
       "priority_breakdown": {
         "severity": 10,
@@ -1435,6 +1451,7 @@
       "location_terms": [
         "tangerang"
       ],
+      "discovery_families": [],
       "first_seen": "2026-08-24T14:47:00+00:00",
       "last_seen": "2026-08-26T10:49:33.010254+00:00",
       "last_detected_at": "2026-08-26T10:49:33.010254+00:00",
@@ -1475,9 +1492,9 @@
         }
       ],
       "article_count": 2,
-      "created_at": "2026-08-26T17:23:18.081064+00:00",
-      "updated_at": "2026-08-26T18:10:03.075748+00:00",
-      "engine_version": "case-v5.2",
+      "created_at": "2026-08-26T18:53:32.633728+00:00",
+      "updated_at": "2026-08-26T18:54:56.925515+00:00",
+      "engine_version": "case-v6.0",
       "priority_score": 17,
       "priority_breakdown": {
         "severity": 10,
@@ -1524,6 +1541,7 @@
         "sula"
       ],
       "location_terms": [],
+      "discovery_families": [],
       "first_seen": "2026-08-24T12:16:00+00:00",
       "last_seen": "2026-08-26T10:49:33.010254+00:00",
       "last_detected_at": "2026-08-26T10:49:33.010254+00:00",
@@ -1548,9 +1566,9 @@
         }
       ],
       "article_count": 1,
-      "created_at": "2026-08-26T17:23:18.100129+00:00",
-      "updated_at": "2026-08-26T18:10:03.075784+00:00",
-      "engine_version": "case-v5.2",
+      "created_at": "2026-08-26T18:53:32.648680+00:00",
+      "updated_at": "2026-08-26T18:54:56.925542+00:00",
+      "engine_version": "case-v6.0",
       "priority_score": 14,
       "priority_breakdown": {
         "severity": 10,
@@ -1597,6 +1615,7 @@
         "seksual"
       ],
       "location_terms": [],
+      "discovery_families": [],
       "first_seen": "2026-08-24T11:49:00+00:00",
       "last_seen": "2026-08-26T10:49:33.010254+00:00",
       "last_detected_at": "2026-08-26T10:49:33.010254+00:00",
@@ -1621,9 +1640,9 @@
         }
       ],
       "article_count": 1,
-      "created_at": "2026-08-26T17:23:18.121081+00:00",
-      "updated_at": "2026-08-26T18:10:03.075816+00:00",
-      "engine_version": "case-v5.2",
+      "created_at": "2026-08-26T18:53:32.665780+00:00",
+      "updated_at": "2026-08-26T18:54:56.925564+00:00",
+      "engine_version": "case-v6.0",
       "priority_score": 49,
       "priority_breakdown": {
         "severity": 45,
@@ -1665,6 +1684,7 @@
       "location_terms": [
         "kendari"
       ],
+      "discovery_families": [],
       "first_seen": "2026-08-24T11:24:05+00:00",
       "last_seen": "2026-08-26T10:49:33.010254+00:00",
       "last_detected_at": "2026-08-26T10:49:33.010254+00:00",
@@ -1689,9 +1709,9 @@
         }
       ],
       "article_count": 1,
-      "created_at": "2026-08-26T17:23:18.127386+00:00",
-      "updated_at": "2026-08-26T18:10:03.075848+00:00",
-      "engine_version": "case-v5.2",
+      "created_at": "2026-08-26T18:53:32.670679+00:00",
+      "updated_at": "2026-08-26T18:54:56.925588+00:00",
+      "engine_version": "case-v6.0",
       "priority_score": 14,
       "priority_breakdown": {
         "severity": 10,
