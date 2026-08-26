@@ -1,29 +1,51 @@
 {
-  "generated_at": "2026-08-26T12:53:55.268931+00:00",
+  "generated_at": "2026-08-26T13:01:44.805488+00:00",
   "platform": "News",
-  "total": 373,
-  "new_records": 16,
-  "last_successful_fetch": "2026-08-26T12:53:55.268931+00:00",
+  "total": 374,
+  "new_records": 1,
+  "last_successful_fetch": "2026-08-26T13:01:44.805488+00:00",
   "last_fetch_mode": "incremental",
   "fetch_status": "success",
   "fetch_statistics": {
     "queries": 69,
     "api_success": 69,
     "api_failed": 0,
-    "skipped_old": 6732,
-    "skipped_duplicate": 3,
-    "skipped_irrelevant": 11,
-    "new_records": 16
+    "skipped_old": 6602,
+    "skipped_duplicate": 0,
+    "skipped_irrelevant": 2,
+    "new_records": 1
   },
   "statistics": {
-    "total": 373,
-    "jatim": 89,
+    "total": 374,
+    "jatim": 90,
     "negative": 18,
     "case": 14,
     "positive": 8,
-    "neutral": 333
+    "neutral": 334
   },
   "items": [
+    {
+      "id": "e6f5a153ada5f2d0483401c6be173c99cb96ca75",
+      "title": "Dapur SPPG Pasanggar Pamekasan Diselidiki Polisi - SIGAP88",
+      "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQUThSZmdqVUJIZFBfTVhMOU9XeUVnVVZKR2pTVjFkQjJHS0JiM2VkRU1zQW1Gbkt2Y2NubDZBcEhsNko1ejVvNUNmdFJqUnF4cVZCaGVIWG1rNmpXNlZyOG00Vlp3bU9TMWRWQlZUak5IdmZ2ZjBsRHBYcWxrN1EwV2xlOXAxUQ?oc=5",
+      "source": "SIGAP88",
+      "published_at": "2026-08-26T13:01:03+00:00",
+      "collected_at": "2026-08-26T13:01:44.805488+00:00",
+      "region": "Jawa Timur",
+      "is_jatim": true,
+      "polres": null,
+      "category": "NETRAL / LAINNYA",
+      "scope": "neutral",
+      "scope_label": "NETRAL",
+      "priority": "low",
+      "summary": "Dapur SPPG Pasanggar Pamekasan Diselidiki Polisi SIGAP88",
+      "processing_status": "processed",
+      "classifier_version": "news-v1",
+      "classified_at": "2026-08-26T13:01:44.805488+00:00",
+      "case_id": null,
+      "case_processed_at": "2026-08-26T13:02:35.455390+00:00",
+      "case_engine_version": "case-v3"
+    },
     {
       "id": "4df0a6c7b3a4c5d1de04abcc8d8042adcae25430",
       "title": "Cegah Karhutla, Polisi Dumai Temukan Pondok Narkoba di Kebun Sawit - HALLORIAU.COM",
@@ -611,12 +633,12 @@
       "scope_label": "UNGKAP KASUS",
       "priority": "medium",
       "summary": "Warung di Muara Enim Jadi Lokasi Transaksi Narkoba, Polisi Sita 19 Butir Ekstasi dan 9 Paket Sabu Akurat Sumsel",
-      "processing_status": "processed",
       "classifier_version": "news-v1",
       "classified_at": "2026-08-26T10:49:33.010254+00:00",
+      "processing_status": "processed",
       "case_id": "CASE-000002",
-      "case_processed_at": "2026-08-26T10:50:12.085561+00:00",
-      "case_engine_version": "case-v2"
+      "case_processed_at": "2026-08-26T13:02:35.456168+00:00",
+      "case_engine_version": "case-v3"
     },
     {
       "id": "a807fb33bfc2096f03a3c9651a4875665d96db32",
@@ -1689,12 +1711,12 @@
       "scope_label": "NEGATIF / OKNUM",
       "priority": "medium",
       "summary": "Datangi Polresta, PWI minta Kapolresta Tuban tindak tegas oknum Polri diduga intimidasi wartawan Elshinta",
-      "processing_status": "processed",
       "classifier_version": "news-v1",
       "classified_at": "2026-08-26T10:49:33.010254+00:00",
+      "processing_status": "processed",
       "case_id": "CASE-000003",
-      "case_processed_at": "2026-08-26T10:50:12.086667+00:00",
-      "case_engine_version": "case-v2"
+      "case_processed_at": "2026-08-26T13:02:35.457089+00:00",
+      "case_engine_version": "case-v3"
     },
     {
       "id": "556b959dbdbf6ac9b8e93ba6f8b459771e3be414",
@@ -2899,12 +2921,12 @@
       "scope_label": "UNGKAP KASUS",
       "priority": "low",
       "summary": "Ciduk Pengedar Sabu dan Okerbaya, Polisi Situbondo Sita 11 Gram Sabu dan 2.336 Pil Koplo ngopibareng.id",
-      "processing_status": "processed",
       "classifier_version": "news-v1",
       "classified_at": "2026-08-26T10:49:33.010254+00:00",
+      "processing_status": "processed",
       "case_id": "CASE-000004",
-      "case_processed_at": "2026-08-26T10:50:12.087989+00:00",
-      "case_engine_version": "case-v2"
+      "case_processed_at": "2026-08-26T13:02:35.458222+00:00",
+      "case_engine_version": "case-v3"
     },
     {
       "id": "6f96e1b74f541ad66b149953a0117bf2d7be8e07",
@@ -3009,12 +3031,12 @@
       "scope_label": "UNGKAP KASUS",
       "priority": "medium",
       "summary": "Operasi Tumpas Narkoba 2026, Polres Pelabuhan Tanjung Perak Amankan 27 Tersangka dan Sita 1 Kilogram Sabu Website Resmi Polri",
-      "processing_status": "processed",
       "classifier_version": "news-v1",
       "classified_at": "2026-08-26T10:49:33.010254+00:00",
+      "processing_status": "processed",
       "case_id": "CASE-000005",
-      "case_processed_at": "2026-08-26T10:50:12.089704+00:00",
-      "case_engine_version": "case-v2"
+      "case_processed_at": "2026-08-26T13:02:35.459566+00:00",
+      "case_engine_version": "case-v3"
     },
     {
       "id": "8c807a2d4d35cd543df978b4795b214210517041",
@@ -3207,12 +3229,12 @@
       "scope_label": "UNGKAP KASUS",
       "priority": "medium",
       "summary": "Revaldo Ditangkap Lagi Kasus Narkoba, Polisi Sita 3 Plastik Bekas Sabu Memo Indonesia",
-      "processing_status": "processed",
       "classifier_version": "news-v1",
       "classified_at": "2026-08-26T10:49:33.010254+00:00",
+      "processing_status": "processed",
       "case_id": "CASE-000006",
-      "case_processed_at": "2026-08-26T10:50:12.091838+00:00",
-      "case_engine_version": "case-v2"
+      "case_processed_at": "2026-08-26T13:02:35.461360+00:00",
+      "case_engine_version": "case-v3"
     },
     {
       "id": "4285acb9f24fe53134e1c9539981224662ee48c7",
@@ -3251,12 +3273,12 @@
       "scope_label": "NEGATIF / OKNUM",
       "priority": "medium",
       "summary": "33 Pemuda dan 26 Motor Diamankan Polisi Diduga Hendak Balap Liar di Lamaru Balikpapan Gerbang Kaltim",
-      "processing_status": "processed",
       "classifier_version": "news-v1",
       "classified_at": "2026-08-26T10:49:33.010254+00:00",
+      "processing_status": "processed",
       "case_id": "CASE-000007",
-      "case_processed_at": "2026-08-26T10:50:12.094580+00:00",
-      "case_engine_version": "case-v2"
+      "case_processed_at": "2026-08-26T13:02:35.463517+00:00",
+      "case_engine_version": "case-v3"
     },
     {
       "id": "58e5384f6adac034a0a69937dfad5364cb23b50d",
@@ -3845,12 +3867,12 @@
       "scope_label": "UNGKAP KASUS",
       "priority": "low",
       "summary": "Tarik Alibi Kolam Renang, Polisi Ungkap Kasus Penganiayaan Balita hingga Tewas di Bengkong Batam KoranBatam",
-      "processing_status": "processed",
       "classifier_version": "news-v1",
       "classified_at": "2026-08-26T10:49:33.010254+00:00",
+      "processing_status": "processed",
       "case_id": "CASE-000008",
-      "case_processed_at": "2026-08-26T10:50:12.098084+00:00",
-      "case_engine_version": "case-v2"
+      "case_processed_at": "2026-08-26T13:02:35.466288+00:00",
+      "case_engine_version": "case-v3"
     },
     {
       "id": "44a1756dcc3559e8c2f54107cbeef7a756ad079b",
@@ -3933,12 +3955,12 @@
       "scope_label": "NEGATIF / OKNUM",
       "priority": "medium",
       "summary": "Dugaan Perintah Aborsi Oknum Polisi Lumajang Disorot, Pengamat: Jika Terbukti Harus Diproses Etik dan Pidana suryaindonesia.net",
-      "processing_status": "processed",
       "classifier_version": "news-v1",
       "classified_at": "2026-08-26T10:49:33.010254+00:00",
+      "processing_status": "processed",
       "case_id": "CASE-000009",
-      "case_processed_at": "2026-08-26T10:50:12.102523+00:00",
-      "case_engine_version": "case-v2"
+      "case_processed_at": "2026-08-26T13:02:35.469788+00:00",
+      "case_engine_version": "case-v3"
     },
     {
       "id": "ff660ec0b97cc7a1ff9666909cd6af1f8be0950e",
@@ -4549,12 +4571,12 @@
       "scope_label": "NEGATIF / OKNUM",
       "priority": "medium",
       "summary": "AJI Bojonegoro Kecam Oknum Polisi Tuban yang Ancam Bunuh 2 Wartawan: Minta Usut Pidana Tribunjatim.com",
-      "processing_status": "processed",
       "classifier_version": "news-v1",
       "classified_at": "2026-08-26T10:49:33.010254+00:00",
+      "processing_status": "processed",
       "case_id": "CASE-000010",
-      "case_processed_at": "2026-08-26T10:50:12.106642+00:00",
-      "case_engine_version": "case-v2"
+      "case_processed_at": "2026-08-26T13:02:35.473067+00:00",
+      "case_engine_version": "case-v3"
     },
     {
       "id": "f13122ca9bcfa402d0e3130d046c1a20022bf649",
@@ -4989,12 +5011,12 @@
       "scope_label": "UNGKAP KASUS",
       "priority": "low",
       "summary": "Polisi gagalkan aksi rampok modus pecah Kaca di Bukittinggi ANTARA News Sumbar",
-      "processing_status": "processed",
       "classifier_version": "news-v1",
       "classified_at": "2026-08-26T10:49:33.010254+00:00",
+      "processing_status": "processed",
       "case_id": "CASE-000011",
-      "case_processed_at": "2026-08-26T10:50:12.110781+00:00",
-      "case_engine_version": "case-v2"
+      "case_processed_at": "2026-08-26T13:02:35.476430+00:00",
+      "case_engine_version": "case-v3"
     },
     {
       "id": "51d1b1593fc97152405295e04f37d3bf5137770d",
@@ -5693,12 +5715,12 @@
       "scope_label": "NEGATIF / OKNUM",
       "priority": "medium",
       "summary": "Foto Viral! Misteri Orang Hilang di Jeju Makin Ngeri, Polisi Diduga Tutup Kasus hingga Korban Ditemukan Tewas VIVA.co.id",
-      "processing_status": "processed",
       "classifier_version": "news-v1",
       "classified_at": "2026-08-26T10:49:33.010254+00:00",
+      "processing_status": "processed",
       "case_id": "CASE-000012",
-      "case_processed_at": "2026-08-26T10:50:12.115965+00:00",
-      "case_engine_version": "case-v2"
+      "case_processed_at": "2026-08-26T13:02:35.480521+00:00",
+      "case_engine_version": "case-v3"
     },
     {
       "id": "2815d69bfb5a74931b6fc8612a5653e913a0bb9e",
@@ -5979,12 +6001,12 @@
       "scope_label": "UNGKAP KASUS",
       "priority": "low",
       "summary": "Karhutla di OKU Timur, Sumsel, Polisi Tangkap 3 Pelaku dan Sita Korek Harian Jogja",
-      "processing_status": "processed",
       "classifier_version": "news-v1",
       "classified_at": "2026-08-26T10:49:33.010254+00:00",
+      "processing_status": "processed",
       "case_id": "CASE-000013",
-      "case_processed_at": "2026-08-26T10:50:12.120689+00:00",
-      "case_engine_version": "case-v2"
+      "case_processed_at": "2026-08-26T13:02:35.484282+00:00",
+      "case_engine_version": "case-v3"
     },
     {
       "id": "2c9cf5a3f5be6d58c1297a9b979736df6bb0e41b",
@@ -6001,12 +6023,12 @@
       "scope_label": "NEGATIF / OKNUM",
       "priority": "medium",
       "summary": "Viral! Misteri Orang Hilang di Jeju Makin Ngeri, Polisi Diduga Tutup Kasus hingga Korban Ditemukan Tewas VIVA.co.id",
-      "processing_status": "processed",
       "classifier_version": "news-v1",
       "classified_at": "2026-08-26T10:49:33.010254+00:00",
+      "processing_status": "processed",
       "case_id": "CASE-000012",
-      "case_processed_at": "2026-08-26T10:50:12.126485+00:00",
-      "case_engine_version": "case-v2"
+      "case_processed_at": "2026-08-26T13:02:35.488878+00:00",
+      "case_engine_version": "case-v3"
     },
     {
       "id": "926bf053907e4498be056e5bf01f78aaa78c8a93",
@@ -6221,12 +6243,12 @@
       "scope_label": "UNGKAP KASUS",
       "priority": "low",
       "summary": "Identitas 3 Anggota Polisi Lampung yang Tertembak, Kini Jalani Operasi detikcom",
-      "processing_status": "processed",
       "classifier_version": "news-v1",
       "classified_at": "2026-08-26T10:49:33.010254+00:00",
+      "processing_status": "processed",
       "case_id": "CASE-000014",
-      "case_processed_at": "2026-08-26T10:50:12.131321+00:00",
-      "case_engine_version": "case-v2"
+      "case_processed_at": "2026-08-26T13:02:35.492750+00:00",
+      "case_engine_version": "case-v3"
     },
     {
       "id": "3978c95488206405b0d5e2a535ac8a195cf15b41",
@@ -6595,12 +6617,12 @@
       "scope_label": "NEGATIF / OKNUM",
       "priority": "medium",
       "summary": "Jadi Korban Intimidasi Oknum Polisi, PWI Tuban Serahkan 8 Tuntutan Kepada Kapolresta Tuban iNews.ID",
-      "processing_status": "processed",
       "classifier_version": "news-v1",
       "classified_at": "2026-08-26T10:49:33.010254+00:00",
+      "processing_status": "processed",
       "case_id": "CASE-000015",
-      "case_processed_at": "2026-08-26T10:50:12.136982+00:00",
-      "case_engine_version": "case-v2"
+      "case_processed_at": "2026-08-26T13:02:35.497317+00:00",
+      "case_engine_version": "case-v3"
     },
     {
       "id": "e4dbeedbeced3c55c885d7feeaf4738877ae2bb1",
@@ -6969,12 +6991,12 @@
       "scope_label": "UNGKAP KASUS",
       "priority": "low",
       "summary": "Polisi Tangkap Pelaku Penganiayaan di Tirtoyudo BACAMALANG.COM -",
-      "processing_status": "processed",
       "classifier_version": "news-v1",
       "classified_at": "2026-08-26T10:49:33.010254+00:00",
+      "processing_status": "processed",
       "case_id": "CASE-000016",
-      "case_processed_at": "2026-08-26T10:50:12.142022+00:00",
-      "case_engine_version": "case-v2"
+      "case_processed_at": "2026-08-26T13:02:35.501346+00:00",
+      "case_engine_version": "case-v3"
     },
     {
       "id": "559ca7e4a8c862e45735d82022f05f2aeb789b85",
@@ -7013,12 +7035,12 @@
       "scope_label": "NEGATIF / OKNUM",
       "priority": "medium",
       "summary": "Bongkar Tambang Ilegal, 2 Wartawan di Tuban Diintimidasi Oknum Polisi Liputan6.com",
-      "processing_status": "processed",
       "classifier_version": "news-v1",
       "classified_at": "2026-08-26T10:49:33.010254+00:00",
+      "processing_status": "processed",
       "case_id": "CASE-000017",
-      "case_processed_at": "2026-08-26T10:50:12.147464+00:00",
-      "case_engine_version": "case-v2"
+      "case_processed_at": "2026-08-26T13:02:35.505575+00:00",
+      "case_engine_version": "case-v3"
     },
     {
       "id": "7f070a6996781de9142a39fa4b203f69e3837a24",
@@ -7123,12 +7145,12 @@
       "scope_label": "NEGATIF / OKNUM",
       "priority": "medium",
       "summary": "PWI Tuban Layangkan 8 Tuntutan Usai Anggotanya Diduga Diintimidasi Oknum Polisi ngopibareng.id",
-      "processing_status": "processed",
       "classifier_version": "news-v1",
       "classified_at": "2026-08-26T10:49:33.010254+00:00",
+      "processing_status": "processed",
       "case_id": "CASE-000018",
-      "case_processed_at": "2026-08-26T10:50:12.153522+00:00",
-      "case_engine_version": "case-v2"
+      "case_processed_at": "2026-08-26T13:02:35.510344+00:00",
+      "case_engine_version": "case-v3"
     },
     {
       "id": "35ed23fca1d3452c8dab4b26c65bf6d830b9fe0f",
@@ -7189,12 +7211,12 @@
       "scope_label": "NEGATIF / OKNUM",
       "priority": "medium",
       "summary": "Oknum Polisi Intimidasi Wartawan, Kapolresta Tuban Janji Kejadian Tak Terulang Lagi - Suara Merdeka Jatim Suara Merdeka Jatim",
-      "processing_status": "processed",
       "classifier_version": "news-v1",
       "classified_at": "2026-08-26T10:49:33.010254+00:00",
+      "processing_status": "processed",
       "case_id": "CASE-000019",
-      "case_processed_at": "2026-08-26T10:50:12.162222+00:00",
-      "case_engine_version": "case-v2"
+      "case_processed_at": "2026-08-26T13:02:35.517197+00:00",
+      "case_engine_version": "case-v3"
     },
     {
       "id": "9c9f22fa62d6c0c1308ece67a6c62ca56221753d",
@@ -7321,12 +7343,12 @@
       "scope_label": "NEGATIF / OKNUM",
       "priority": "medium",
       "summary": "Ada Permintaan Maaf, Ada Oknum Polisi yang Diperiksa Propam: Kasus Intimidasi Dua Wartawan Tuban Belum Tamat Memanggil.co",
-      "processing_status": "processed",
       "classifier_version": "news-v1",
       "classified_at": "2026-08-26T10:49:33.010254+00:00",
+      "processing_status": "processed",
       "case_id": "CASE-000020",
-      "case_processed_at": "2026-08-26T10:50:12.171498+00:00",
-      "case_engine_version": "case-v2"
+      "case_processed_at": "2026-08-26T13:02:35.524641+00:00",
+      "case_engine_version": "case-v3"
     },
     {
       "id": "ae43596c4ad24ae7e70731b66de584f5f5446adc",
@@ -7343,12 +7365,12 @@
       "scope_label": "NEGATIF / OKNUM",
       "priority": "medium",
       "summary": "Kapolresta Tuban Minta Maaf, Oknum Polisi yang Intimidasi Wartawan Tetap Diperiksa Propam Memanggil.co",
-      "processing_status": "processed",
       "classifier_version": "news-v1",
       "classified_at": "2026-08-26T10:49:33.010254+00:00",
+      "processing_status": "processed",
       "case_id": "CASE-000021",
-      "case_processed_at": "2026-08-26T10:50:12.179927+00:00",
-      "case_engine_version": "case-v2"
+      "case_processed_at": "2026-08-26T13:02:35.531110+00:00",
+      "case_engine_version": "case-v3"
     },
     {
       "id": "ce2a4a3162477c22794af86064df2d63ac6a0790",
@@ -7365,12 +7387,12 @@
       "scope_label": "UNGKAP KASUS",
       "priority": "low",
       "summary": "Pencurian Emas Rp 350 Juta di Pacitan, Polisi Tangkap Pelaku JPNN.com",
-      "processing_status": "processed",
       "classifier_version": "news-v1",
       "classified_at": "2026-08-26T10:49:33.010254+00:00",
+      "processing_status": "processed",
       "case_id": "CASE-000022",
-      "case_processed_at": "2026-08-26T10:50:12.186914+00:00",
-      "case_engine_version": "case-v2"
+      "case_processed_at": "2026-08-26T13:02:35.536345+00:00",
+      "case_engine_version": "case-v3"
     },
     {
       "id": "f9edba934d40e192603009eb7c0e097c4bd881e8",
@@ -7607,12 +7629,12 @@
       "scope_label": "UNGKAP KASUS",
       "priority": "low",
       "summary": "Polisi Tangkap Pelaku Curanmor di Tangerang, Bawa Celurit dan Kunci Letter T Halaman 1 Kompas.com",
-      "processing_status": "processed",
       "classifier_version": "news-v1",
       "classified_at": "2026-08-26T10:49:33.010254+00:00",
+      "processing_status": "processed",
       "case_id": "CASE-000023",
-      "case_processed_at": "2026-08-26T10:50:12.196912+00:00",
-      "case_engine_version": "case-v2"
+      "case_processed_at": "2026-08-26T13:02:35.544285+00:00",
+      "case_engine_version": "case-v3"
     },
     {
       "id": "2b5d12f9f88428014f2f951566fa1dc5aad1327f",
@@ -7629,12 +7651,12 @@
       "scope_label": "UNGKAP KASUS",
       "priority": "low",
       "summary": "Polisi Tangkap Pelaku Curanmor di Tangerang, Bawa Celurit dan Kunci Letter T Kompas.com",
-      "processing_status": "processed",
       "classifier_version": "news-v1",
       "classified_at": "2026-08-26T10:49:33.010254+00:00",
+      "processing_status": "processed",
       "case_id": "CASE-000023",
-      "case_processed_at": "2026-08-26T10:50:12.206133+00:00",
-      "case_engine_version": "case-v2"
+      "case_processed_at": "2026-08-26T13:02:35.551693+00:00",
+      "case_engine_version": "case-v3"
     },
     {
       "id": "4c543b22167f1decf6f1560bc8a35a075762001f",
@@ -7783,12 +7805,12 @@
       "scope_label": "NEGATIF / OKNUM",
       "priority": "medium",
       "summary": "Polisi Diduga Intimidasi Wartawan, PWI Tuban Bawa 8 Tuntutan ke Polresta BANGSAONLINE.com",
-      "processing_status": "processed",
       "classifier_version": "news-v1",
       "classified_at": "2026-08-26T10:49:33.010254+00:00",
+      "processing_status": "processed",
       "case_id": "CASE-000024",
-      "case_processed_at": "2026-08-26T10:50:12.215253+00:00",
-      "case_engine_version": "case-v2"
+      "case_processed_at": "2026-08-26T13:02:35.558878+00:00",
+      "case_engine_version": "case-v3"
     },
     {
       "id": "d9ee8dcb2681fec2dd90fe6fdffa0cd876744f09",
@@ -7981,12 +8003,12 @@
       "scope_label": "NEGATIF / OKNUM",
       "priority": "medium",
       "summary": "JPU Tuntut 9 Tahun, Oknum Polisi di Sula Malah Divonis Bebas, Korban Rusak Fasilitas PN Sanana Haliyora.id",
-      "processing_status": "processed",
       "classifier_version": "news-v1",
       "classified_at": "2026-08-26T10:49:33.010254+00:00",
+      "processing_status": "processed",
       "case_id": "CASE-000025",
-      "case_processed_at": "2026-08-26T10:50:12.226160+00:00",
-      "case_engine_version": "case-v2"
+      "case_processed_at": "2026-08-26T13:02:35.568003+00:00",
+      "case_engine_version": "case-v3"
     },
     {
       "id": "afbe12a3d4850d8f07396efcb9df2d88a19d2cc9",
@@ -8025,12 +8047,12 @@
       "scope_label": "NEGATIF / OKNUM",
       "priority": "medium",
       "summary": "PWI Kirim 8 Tuntutan Usai Anggotanya Jadi Korban Dugaan Intimidasi Oknum Polisi Polresta Tuban ketik.com",
-      "processing_status": "processed",
       "classifier_version": "news-v1",
       "classified_at": "2026-08-26T10:49:33.010254+00:00",
+      "processing_status": "processed",
       "case_id": "CASE-000026",
-      "case_processed_at": "2026-08-26T10:50:12.235124+00:00",
-      "case_engine_version": "case-v2"
+      "case_processed_at": "2026-08-26T13:02:35.575124+00:00",
+      "case_engine_version": "case-v3"
     },
     {
       "id": "71ec39d19fdb3af1aa995d9dd9d83a3ccecc1afa",
@@ -8047,12 +8069,12 @@
       "scope_label": "NEGATIF / OKNUM",
       "priority": "medium",
       "summary": "PWI Tuban Minta Kapolresta Tindak Tegas Oknum Polri yang Diduga Intimidasi Wartawan - memorandum.disway.id Memorandum.co.id",
-      "processing_status": "processed",
       "classifier_version": "news-v1",
       "classified_at": "2026-08-26T10:49:33.010254+00:00",
-      "case_id": "CASE-000027",
-      "case_processed_at": "2026-08-26T10:50:12.247232+00:00",
-      "case_engine_version": "case-v2"
+      "processing_status": "processed",
+      "case_id": "CASE-000003",
+      "case_processed_at": "2026-08-26T13:02:35.584667+00:00",
+      "case_engine_version": "case-v3"
     },
     {
       "id": "a4397645a81f6bb4f28941bf71efa14a390d3a82",
@@ -8069,12 +8091,12 @@
       "scope_label": "NEGATIF / OKNUM",
       "priority": "medium",
       "summary": "Oknum Polisi Terdakwa Kasus Kekerasan Seksual Divonis Bebas, Korban Rusaki Fasilitas PN Sanana tandaseru.com",
-      "processing_status": "processed",
       "classifier_version": "news-v1",
       "classified_at": "2026-08-26T10:49:33.010254+00:00",
-      "case_id": "CASE-000028",
-      "case_processed_at": "2026-08-26T10:50:12.259824+00:00",
-      "case_engine_version": "case-v2"
+      "processing_status": "processed",
+      "case_id": "CASE-000027",
+      "case_processed_at": "2026-08-26T13:02:35.594093+00:00",
+      "case_engine_version": "case-v3"
     },
     {
       "id": "0eb20704bc936a983556bfd5c1ca5a6ffa127512",
@@ -8113,12 +8135,12 @@
       "scope_label": "UNGKAP KASUS",
       "priority": "low",
       "summary": "Polisi Tangkap Pelaku Pencuri Motor Milik Anggota Polri di Kendari Nawala Media",
-      "processing_status": "processed",
       "classifier_version": "news-v1",
       "classified_at": "2026-08-26T10:49:33.010254+00:00",
-      "case_id": "CASE-000029",
-      "case_processed_at": "2026-08-26T10:50:12.270769+00:00",
-      "case_engine_version": "case-v2"
+      "processing_status": "processed",
+      "case_id": "CASE-000028",
+      "case_processed_at": "2026-08-26T13:02:35.602480+00:00",
+      "case_engine_version": "case-v3"
     },
     {
       "id": "d4f8da73ecc833e478bd19a82da8ad5d8375624f",
@@ -8231,6 +8253,6 @@
       "case_engine_version": "case-v2"
     }
   ],
-  "case_engine_version": "case-v2",
-  "case_engine_processed_at": "2026-08-26T12:54:39.386783+00:00"
+  "case_engine_version": "case-v3",
+  "case_engine_processed_at": "2026-08-26T13:02:35.606399+00:00"
 }
