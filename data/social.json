@@ -1,13 +1,17 @@
 {
-  "generated_at": "2026-08-26T09:32:01.024739+00:00",
+  "generated_at": "2026-08-26T09:45:48.407194+00:00",
   "platform": "YouTube",
-  "total": 128,
+  "total": 130,
+  "new_videos": 2,
   "statistics": {
-    "new_videos": 36,
-    "jatim": 3,
-    "negative": 57,
+    "total": 130,
+    "jatim": 2,
+    "negative": 58,
+    "incident": 10,
     "case": 10,
-    "noise": 5
+    "neutral": 47,
+    "noise": 4,
+    "high_priority": 33
   },
   "items": [
     {
@@ -32,7 +36,7 @@
       "location_source": null,
       "location_evidence": [],
       "priority": "low",
-      "collected_at": "2026-08-26T09:32:01.024739+00:00"
+      "collected_at": "2026-08-26T09:45:48.407194+00:00"
     },
     {
       "id": "3cebbbe3ab8da71a25afc07ce2d70660aff108a1",
@@ -56,7 +60,7 @@
       "location_source": null,
       "location_evidence": [],
       "priority": "low",
-      "collected_at": "2026-08-26T09:32:01.024739+00:00"
+      "collected_at": "2026-08-26T09:45:48.407194+00:00"
     },
     {
       "id": "1d631dcf47fb554911b3b0d29961498061144728",
@@ -74,17 +78,41 @@
       "polres": null,
       "category": "Oknum / Narkoba",
       "priority": "high",
-      "collected_at": "2026-08-26T09:32:01.024739+00:00",
+      "collected_at": "2026-08-26T09:45:48.407194+00:00",
       "relevance": "high",
       "scope": "negative",
       "classification_score": 100,
       "location_confidence": 0,
       "location_source": "outside",
       "location_evidence": [
-        "LUAR:Lampung",
-        "LUAR:Bandung",
-        "LUAR:Lampung Utara"
+        "LUAR:lampung",
+        "LUAR:lampung utara",
+        "LUAR:bandung"
       ]
+    },
+    {
+      "id": "12f0926b4c40d445a50d593ce040c55196247873",
+      "video_id": "U2uopR5F5Ko",
+      "platform": "YouTube",
+      "type": "video",
+      "title": "Penangkapan Kurir Narkoba, Polisi Sita 30 Kg Sabu dan 20 Ribu Pil Ekstasi",
+      "channel": "CNN Indonesia",
+      "published_at": "2026-08-26T09:15:31Z",
+      "url": "https://www.youtube.com/watch?v=U2uopR5F5Ko",
+      "thumbnail": "https://i.ytimg.com/vi/U2uopR5F5Ko/hqdefault.jpg",
+      "description": "Menghentikan paksa mobil seorang kurir narkoba. Dari pelaku, polisi menyita 30 kilogram sabu-sabu dan 20 ribu butir pil ekstasi ...",
+      "relevance": "high",
+      "scope": "negative",
+      "category": "Oknum / Narkoba",
+      "classification_score": 100,
+      "is_jatim": false,
+      "region": "Indonesia",
+      "polres": null,
+      "location_confidence": 0,
+      "location_source": null,
+      "location_evidence": [],
+      "priority": "high",
+      "collected_at": "2026-08-26T09:45:48.407194+00:00"
     },
     {
       "id": "dcb5589d4659cab107262a4f769173d56b5ae76f",
@@ -102,9 +130,9 @@
       "polres": null,
       "category": "Tidak Relevan",
       "priority": "low",
-      "collected_at": "2026-08-26T09:32:01.024739+00:00",
+      "collected_at": "2026-08-26T09:45:48.407194+00:00",
       "relevance": "noise",
-      "scope": "neutral",
+      "scope": "noise",
       "classification_score": 0,
       "location_confidence": 0,
       "location_source": null,
@@ -126,7 +154,7 @@
       "polres": null,
       "category": "Oknum / Pelanggaran Anggota",
       "priority": "low",
-      "collected_at": "2026-08-26T09:32:01.024739+00:00",
+      "collected_at": "2026-08-26T09:45:48.407194+00:00",
       "relevance": "high",
       "scope": "negative",
       "classification_score": 100,
@@ -148,12 +176,12 @@
       "region": "Indonesia",
       "is_jatim": false,
       "polres": null,
-      "category": "Oknum / Narkoba",
-      "priority": "high",
-      "collected_at": "2026-08-26T09:32:01.024739+00:00",
+      "category": "Peristiwa Melibatkan Polisi",
+      "priority": "low",
+      "collected_at": "2026-08-26T09:45:48.407194+00:00",
       "relevance": "high",
-      "scope": "negative",
-      "classification_score": 100,
+      "scope": "incident",
+      "classification_score": 70,
       "location_confidence": 0,
       "location_source": null,
       "location_evidence": []
@@ -174,9 +202,9 @@
       "polres": null,
       "category": "Tidak Relevan",
       "priority": "low",
-      "collected_at": "2026-08-26T09:32:01.024739+00:00",
+      "collected_at": "2026-08-26T09:45:48.407194+00:00",
       "relevance": "noise",
-      "scope": "neutral",
+      "scope": "noise",
       "classification_score": 0,
       "location_confidence": 0,
       "location_source": null,
@@ -198,15 +226,13 @@
       "polres": null,
       "category": "Oknum / Narkoba",
       "priority": "high",
-      "collected_at": "2026-08-26T09:32:01.024739+00:00",
+      "collected_at": "2026-08-26T09:45:48.407194+00:00",
       "relevance": "high",
       "scope": "negative",
       "classification_score": 100,
       "location_confidence": 0,
-      "location_source": "outside",
-      "location_evidence": [
-        "LUAR:Bali"
-      ]
+      "location_source": null,
+      "location_evidence": []
     },
     {
       "id": "4f17ec55cf14e14d8429db2636984d7a20a64e15",
@@ -224,7 +250,7 @@
       "polres": null,
       "category": "Oknum / Narkoba",
       "priority": "high",
-      "collected_at": "2026-08-26T09:32:01.024739+00:00",
+      "collected_at": "2026-08-26T09:45:48.407194+00:00",
       "relevance": "high",
       "scope": "negative",
       "classification_score": 100,
@@ -246,15 +272,41 @@
       "region": "Indonesia",
       "is_jatim": false,
       "polres": null,
-      "category": "Oknum / Narkoba",
-      "priority": "high",
-      "collected_at": "2026-08-26T09:32:01.024739+00:00",
+      "category": "Peristiwa Melibatkan Polisi",
+      "priority": "low",
+      "collected_at": "2026-08-26T09:45:48.407194+00:00",
       "relevance": "high",
-      "scope": "negative",
-      "classification_score": 100,
+      "scope": "incident",
+      "classification_score": 70,
       "location_confidence": 0,
       "location_source": null,
       "location_evidence": []
+    },
+    {
+      "id": "9f9d1fc808ae195d1aa344172625f8ebcd71cbc6",
+      "video_id": "Iyxfm7bvdso",
+      "platform": "YouTube",
+      "type": "video",
+      "title": "Kondisi Tiga Polisi usai Baku Tembak dengan DPO Narkoba di Lampung : Ada yang Kena Perut",
+      "channel": "Tribun Banten",
+      "published_at": "2026-08-26T08:27:45Z",
+      "url": "https://www.youtube.com/watch?v=Iyxfm7bvdso",
+      "thumbnail": "https://i.ytimg.com/vi/Iyxfm7bvdso/hqdefault.jpg",
+      "description": "Baku tembak antara buron kasus narkoba dan petugas kepolisian terjadi di wilayah Muara Jaya, Kelurahan Kotabumi Udik, ...",
+      "relevance": "high",
+      "scope": "negative",
+      "category": "Oknum / Narkoba",
+      "classification_score": 100,
+      "is_jatim": false,
+      "region": "Indonesia",
+      "polres": null,
+      "location_confidence": 0,
+      "location_source": "outside",
+      "location_evidence": [
+        "LUAR:lampung"
+      ],
+      "priority": "high",
+      "collected_at": "2026-08-26T09:45:48.407194+00:00"
     },
     {
       "id": "789daf2297c32958d5a1ece07a65e82779880b03",
@@ -272,7 +324,7 @@
       "polres": null,
       "category": "Oknum / Korupsi / Pungli",
       "priority": "high",
-      "collected_at": "2026-08-26T09:32:01.024739+00:00",
+      "collected_at": "2026-08-26T09:45:48.407194+00:00",
       "relevance": "high",
       "scope": "negative",
       "classification_score": 100,
@@ -296,15 +348,15 @@
       "polres": null,
       "category": "Berita Polisi Lainnya",
       "priority": "low",
-      "collected_at": "2026-08-26T09:32:01.024739+00:00",
+      "collected_at": "2026-08-26T09:45:48.407194+00:00",
       "relevance": "medium",
       "scope": "neutral",
       "classification_score": 25,
       "location_confidence": 0,
       "location_source": "outside",
       "location_evidence": [
-        "LUAR:Lampung",
-        "LUAR:Lampung Utara"
+        "LUAR:lampung",
+        "LUAR:lampung utara"
       ]
     },
     {
@@ -323,15 +375,15 @@
       "polres": null,
       "category": "Berita Polisi Lainnya",
       "priority": "low",
-      "collected_at": "2026-08-26T09:32:01.024739+00:00",
+      "collected_at": "2026-08-26T09:45:48.407194+00:00",
       "relevance": "medium",
       "scope": "neutral",
       "classification_score": 25,
       "location_confidence": 0,
       "location_source": "outside",
       "location_evidence": [
-        "LUAR:Lampung",
-        "LUAR:Lampung Utara"
+        "LUAR:lampung",
+        "LUAR:lampung utara"
       ]
     },
     {
@@ -350,15 +402,15 @@
       "polres": null,
       "category": "Berita Polisi Lainnya",
       "priority": "low",
-      "collected_at": "2026-08-26T09:32:01.024739+00:00",
+      "collected_at": "2026-08-26T09:45:48.407194+00:00",
       "relevance": "medium",
       "scope": "neutral",
       "classification_score": 25,
       "location_confidence": 0,
       "location_source": "outside",
       "location_evidence": [
-        "LUAR:Lampung",
-        "LUAR:Lampung Utara"
+        "LUAR:lampung",
+        "LUAR:lampung utara"
       ]
     },
     {
@@ -377,15 +429,15 @@
       "polres": null,
       "category": "Berita Polisi Lainnya",
       "priority": "low",
-      "collected_at": "2026-08-26T09:32:01.024739+00:00",
+      "collected_at": "2026-08-26T09:45:48.407194+00:00",
       "relevance": "medium",
       "scope": "neutral",
       "classification_score": 25,
       "location_confidence": 0,
       "location_source": "outside",
       "location_evidence": [
-        "LUAR:Lampung",
-        "LUAR:Lampung Utara"
+        "LUAR:lampung",
+        "LUAR:lampung utara"
       ]
     },
     {
@@ -411,10 +463,10 @@
       "location_evidence": [
         "kabupaten madiun",
         "Jawa Timur/Jatim",
-        "Madiun"
+        "madiun"
       ],
       "priority": "low",
-      "collected_at": "2026-08-26T09:32:01.024739+00:00"
+      "collected_at": "2026-08-26T09:45:48.407194+00:00"
     },
     {
       "id": "7ffe5751242e2a0ff52682671b32a843f220338a",
@@ -432,15 +484,13 @@
       "polres": null,
       "category": "Oknum / Narkoba",
       "priority": "high",
-      "collected_at": "2026-08-26T09:32:01.024739+00:00",
+      "collected_at": "2026-08-26T09:45:48.407194+00:00",
       "relevance": "high",
       "scope": "negative",
       "classification_score": 100,
       "location_confidence": 0,
-      "location_source": "outside",
-      "location_evidence": [
-        "LUAR:Bali"
-      ]
+      "location_source": null,
+      "location_evidence": []
     },
     {
       "id": "56092d63b6f141a3e104b447c6483dfda49b11b8",
@@ -458,15 +508,13 @@
       "polres": null,
       "category": "Oknum / Narkoba",
       "priority": "high",
-      "collected_at": "2026-08-26T09:32:01.024739+00:00",
+      "collected_at": "2026-08-26T09:45:48.407194+00:00",
       "relevance": "high",
       "scope": "negative",
       "classification_score": 100,
       "location_confidence": 0,
-      "location_source": "outside",
-      "location_evidence": [
-        "LUAR:Bali"
-      ]
+      "location_source": null,
+      "location_evidence": []
     },
     {
       "id": "4bd27f07b3d29a51e43a2999f93fc40d0040cedb",
@@ -484,16 +532,14 @@
       "polres": null,
       "category": "Ungkap Kasus",
       "priority": "low",
-      "collected_at": "2026-08-26T09:32:01.024739+00:00",
+      "collected_at": "2026-08-26T09:45:48.407194+00:00",
       "relevance": "high",
       "scope": "case",
       "classification_score": 60,
       "location_confidence": 0,
-      "location_source": "location",
+      "location_source": "outside",
       "location_evidence": [
-        "Batu",
-        "LUAR:OKU",
-        "LUAR:Baturaja"
+        "LUAR:baturaja"
       ]
     },
     {
@@ -512,14 +558,14 @@
       "polres": null,
       "category": "Oknum / Narkoba",
       "priority": "high",
-      "collected_at": "2026-08-26T09:32:01.024739+00:00",
+      "collected_at": "2026-08-26T09:45:48.407194+00:00",
       "relevance": "high",
       "scope": "negative",
       "classification_score": 100,
       "location_confidence": 0,
       "location_source": "outside",
       "location_evidence": [
-        "LUAR:Morowali"
+        "LUAR:morowali"
       ]
     },
     {
@@ -538,9 +584,9 @@
       "polres": null,
       "category": "Tidak Relevan",
       "priority": "low",
-      "collected_at": "2026-08-26T09:32:01.024739+00:00",
+      "collected_at": "2026-08-26T09:45:48.407194+00:00",
       "relevance": "noise",
-      "scope": "neutral",
+      "scope": "noise",
       "classification_score": 0,
       "location_confidence": 0,
       "location_source": null,
@@ -562,15 +608,15 @@
       "polres": null,
       "category": "Oknum / Narkoba",
       "priority": "high",
-      "collected_at": "2026-08-26T09:32:01.024739+00:00",
+      "collected_at": "2026-08-26T09:45:48.407194+00:00",
       "relevance": "high",
       "scope": "negative",
       "classification_score": 100,
       "location_confidence": 0,
       "location_source": "outside",
       "location_evidence": [
-        "LUAR:Padang",
-        "LUAR:Sumatera Barat"
+        "LUAR:padang",
+        "LUAR:sumatera barat"
       ]
     },
     {
@@ -589,7 +635,7 @@
       "polres": null,
       "category": "Oknum / Narkoba",
       "priority": "high",
-      "collected_at": "2026-08-26T09:32:01.024739+00:00",
+      "collected_at": "2026-08-26T09:45:48.407194+00:00",
       "relevance": "high",
       "scope": "negative",
       "classification_score": 100,
@@ -613,14 +659,14 @@
       "polres": null,
       "category": "Oknum / Narkoba",
       "priority": "high",
-      "collected_at": "2026-08-26T09:32:01.024739+00:00",
+      "collected_at": "2026-08-26T09:45:48.407194+00:00",
       "relevance": "high",
       "scope": "negative",
       "classification_score": 100,
       "location_confidence": 0,
       "location_source": "outside",
       "location_evidence": [
-        "LUAR:Morowali"
+        "LUAR:morowali"
       ]
     },
     {
@@ -639,15 +685,13 @@
       "polres": null,
       "category": "Ungkap Kasus",
       "priority": "low",
-      "collected_at": "2026-08-26T09:32:01.024739+00:00",
+      "collected_at": "2026-08-26T09:45:48.407194+00:00",
       "relevance": "high",
       "scope": "case",
       "classification_score": 60,
       "location_confidence": 0,
-      "location_source": "outside",
-      "location_evidence": [
-        "LUAR:Bali"
-      ]
+      "location_source": null,
+      "location_evidence": []
     },
     {
       "id": "02056e636f5efe475bee07afa9dbf42b41af0a4c",
@@ -665,17 +709,17 @@
       "polres": null,
       "category": "Ungkap Kasus",
       "priority": "low",
-      "collected_at": "2026-08-26T09:32:01.024739+00:00",
+      "collected_at": "2026-08-26T09:45:48.407194+00:00",
       "relevance": "high",
       "scope": "case",
       "classification_score": 60,
       "location_confidence": 0,
       "location_source": "outside",
       "location_evidence": [
-        "LUAR:Jakarta Barat",
-        "LUAR:Jakarta",
-        "LUAR:Tangerang Selatan",
-        "LUAR:Tangerang"
+        "LUAR:jakarta",
+        "LUAR:jakarta barat",
+        "LUAR:tangerang",
+        "LUAR:tangerang selatan"
       ]
     },
     {
@@ -694,15 +738,13 @@
       "polres": null,
       "category": "Oknum / Narkoba",
       "priority": "high",
-      "collected_at": "2026-08-26T09:32:01.024739+00:00",
+      "collected_at": "2026-08-26T09:45:48.407194+00:00",
       "relevance": "high",
       "scope": "negative",
       "classification_score": 100,
       "location_confidence": 0,
-      "location_source": "outside",
-      "location_evidence": [
-        "LUAR:Bali"
-      ]
+      "location_source": null,
+      "location_evidence": []
     },
     {
       "id": "69d78352d9221412d1122f452035ed0f6cc57556",
@@ -718,17 +760,17 @@
       "region": "Indonesia",
       "is_jatim": false,
       "polres": null,
-      "category": "Berita Polisi Lainnya",
+      "category": "Peristiwa Melibatkan Polisi",
       "priority": "low",
-      "collected_at": "2026-08-26T09:32:01.024739+00:00",
-      "relevance": "medium",
-      "scope": "neutral",
-      "classification_score": 25,
+      "collected_at": "2026-08-26T09:45:48.407194+00:00",
+      "relevance": "high",
+      "scope": "incident",
+      "classification_score": 70,
       "location_confidence": 0,
       "location_source": "outside",
       "location_evidence": [
-        "LUAR:Lampung",
-        "LUAR:Lampung Utara"
+        "LUAR:lampung",
+        "LUAR:lampung utara"
       ]
     },
     {
@@ -747,7 +789,7 @@
       "polres": null,
       "category": "Oknum / Narkoba",
       "priority": "high",
-      "collected_at": "2026-08-26T09:32:01.024739+00:00",
+      "collected_at": "2026-08-26T09:45:48.407194+00:00",
       "relevance": "high",
       "scope": "negative",
       "classification_score": 100,
@@ -771,7 +813,7 @@
       "polres": null,
       "category": "Oknum / Narkoba",
       "priority": "high",
-      "collected_at": "2026-08-26T09:32:01.024739+00:00",
+      "collected_at": "2026-08-26T09:45:48.407194+00:00",
       "relevance": "high",
       "scope": "negative",
       "classification_score": 100,
@@ -795,7 +837,7 @@
       "polres": null,
       "category": "Oknum / Narkoba",
       "priority": "high",
-      "collected_at": "2026-08-26T09:32:01.024739+00:00",
+      "collected_at": "2026-08-26T09:45:48.407194+00:00",
       "relevance": "high",
       "scope": "negative",
       "classification_score": 100,
@@ -819,7 +861,7 @@
       "polres": null,
       "category": "Oknum / Narkoba",
       "priority": "high",
-      "collected_at": "2026-08-26T09:32:01.024739+00:00",
+      "collected_at": "2026-08-26T09:45:48.407194+00:00",
       "relevance": "high",
       "scope": "negative",
       "classification_score": 100,
@@ -841,16 +883,16 @@
       "region": "Indonesia",
       "is_jatim": false,
       "polres": null,
-      "category": "Berita Polisi Lainnya",
+      "category": "Peristiwa Melibatkan Polisi",
       "priority": "low",
-      "collected_at": "2026-08-26T09:32:01.024739+00:00",
-      "relevance": "medium",
-      "scope": "neutral",
-      "classification_score": 25,
+      "collected_at": "2026-08-26T09:45:48.407194+00:00",
+      "relevance": "high",
+      "scope": "incident",
+      "classification_score": 70,
       "location_confidence": 0,
       "location_source": "outside",
       "location_evidence": [
-        "LUAR:Lampung"
+        "LUAR:lampung"
       ]
     },
     {
@@ -921,12 +963,12 @@
       "region": "Indonesia",
       "is_jatim": false,
       "polres": null,
-      "category": "Ungkap Kasus",
-      "priority": "low",
-      "collected_at": "2026-08-26T09:32:01.024739+00:00",
+      "category": "Oknum / Narkoba",
+      "priority": "high",
+      "collected_at": "2026-08-26T09:45:48.407194+00:00",
       "relevance": "high",
-      "scope": "case",
-      "classification_score": 60,
+      "scope": "negative",
+      "classification_score": 100,
       "location_confidence": 0,
       "location_source": null,
       "location_evidence": []
@@ -943,19 +985,19 @@
       "thumbnail": "https://i.ytimg.com/vi/6DckJnfn2Hk/hqdefault.jpg",
       "description": "Tiga anggota polisi mengalami luka usai terlibat baku tembak dengan seorang buronan kasus narkoba. Peristiwa itu terjadi di ...",
       "relevance": "high",
-      "scope": "negative",
-      "category": "Oknum / Narkoba",
-      "classification_score": 100,
+      "scope": "incident",
+      "category": "Peristiwa Melibatkan Polisi",
+      "classification_score": 70,
       "is_jatim": false,
       "region": "Indonesia",
       "polres": null,
       "location_confidence": 0,
       "location_source": "outside",
       "location_evidence": [
-        "LUAR:Lampung"
+        "LUAR:lampung"
       ],
-      "priority": "high",
-      "collected_at": "2026-08-26T09:32:01.024739+00:00"
+      "priority": "low",
+      "collected_at": "2026-08-26T09:45:48.407194+00:00"
     },
     {
       "id": "0b0d1f64729c39c7e47f4e558d5b74a007116108",
@@ -973,14 +1015,14 @@
       "polres": null,
       "category": "Oknum / Narkoba",
       "priority": "high",
-      "collected_at": "2026-08-26T09:32:01.024739+00:00",
+      "collected_at": "2026-08-26T09:45:48.407194+00:00",
       "relevance": "high",
       "scope": "negative",
       "classification_score": 100,
       "location_confidence": 0,
       "location_source": "outside",
       "location_evidence": [
-        "LUAR:Sumatera Barat"
+        "LUAR:sumatera barat"
       ]
     },
     {
@@ -999,14 +1041,14 @@
       "polres": null,
       "category": "Ungkap Kasus",
       "priority": "low",
-      "collected_at": "2026-08-26T09:32:01.024739+00:00",
+      "collected_at": "2026-08-26T09:45:48.407194+00:00",
       "relevance": "high",
       "scope": "case",
       "classification_score": 60,
       "location_confidence": 0,
       "location_source": "outside",
       "location_evidence": [
-        "LUAR:Sulawesi"
+        "LUAR:sulawesi"
       ]
     },
     {
@@ -1030,10 +1072,10 @@
       "location_confidence": 0,
       "location_source": "outside",
       "location_evidence": [
-        "LUAR:Banten"
+        "LUAR:banten"
       ],
       "priority": "high",
-      "collected_at": "2026-08-26T09:32:01.024739+00:00"
+      "collected_at": "2026-08-26T09:45:48.407194+00:00"
     },
     {
       "id": "779a666b52260844b48b94638385da202459aac0",
@@ -1051,7 +1093,7 @@
       "polres": null,
       "category": "Oknum / Narkoba",
       "priority": "high",
-      "collected_at": "2026-08-26T09:32:01.024739+00:00",
+      "collected_at": "2026-08-26T09:45:48.407194+00:00",
       "relevance": "high",
       "scope": "negative",
       "classification_score": 100,
@@ -1070,20 +1112,18 @@
       "url": "https://www.youtube.com/watch?v=eru7n0BU-Xw",
       "thumbnail": "https://i.ytimg.com/vi/eru7n0BU-Xw/hqdefault.jpg",
       "description": "Download aplikasi berita TribunX di Play Store atau App Store untuk dapatkan pengalaman baru TRIBUNJATIM.COM - Beredar ...",
-      "region": "Jawa Timur",
-      "is_jatim": true,
+      "region": "Indonesia",
+      "is_jatim": false,
       "polres": null,
       "category": "Tidak Relevan",
       "priority": "low",
-      "collected_at": "2026-08-26T09:32:01.024739+00:00",
+      "collected_at": "2026-08-26T09:45:48.407194+00:00",
       "relevance": "low",
       "scope": "neutral",
       "classification_score": 0,
-      "location_confidence": 80,
-      "location_source": "province",
-      "location_evidence": [
-        "Jawa Timur/Jatim"
-      ]
+      "location_confidence": 0,
+      "location_source": null,
+      "location_evidence": []
     },
     {
       "id": "16b5b39332fdeb15d1d65f62dc83a3bb82c5423a",
@@ -1101,15 +1141,13 @@
       "polres": null,
       "category": "Oknum / Narkoba",
       "priority": "high",
-      "collected_at": "2026-08-26T09:32:01.024739+00:00",
+      "collected_at": "2026-08-26T09:45:48.407194+00:00",
       "relevance": "high",
       "scope": "negative",
       "classification_score": 100,
       "location_confidence": 0,
-      "location_source": "outside",
-      "location_evidence": [
-        "LUAR:Bali"
-      ]
+      "location_source": null,
+      "location_evidence": []
     },
     {
       "id": "9574c753da5079a587d956aa61f4cd5d35a9efc9",
@@ -1127,7 +1165,7 @@
       "polres": null,
       "category": "Ungkap Kasus",
       "priority": "low",
-      "collected_at": "2026-08-26T09:32:01.024739+00:00",
+      "collected_at": "2026-08-26T09:45:48.407194+00:00",
       "relevance": "high",
       "scope": "case",
       "classification_score": 60,
@@ -1151,15 +1189,13 @@
       "polres": null,
       "category": "Oknum / Narkoba",
       "priority": "high",
-      "collected_at": "2026-08-26T09:32:01.024739+00:00",
+      "collected_at": "2026-08-26T09:45:48.407194+00:00",
       "relevance": "high",
       "scope": "negative",
       "classification_score": 100,
       "location_confidence": 0,
-      "location_source": "outside",
-      "location_evidence": [
-        "LUAR:Lampung"
-      ]
+      "location_source": null,
+      "location_evidence": []
     },
     {
       "id": "1e01262e7a74cf7c7590728c6492adb0f315f347",
@@ -1177,7 +1213,7 @@
       "polres": null,
       "category": "Oknum / Pelanggaran Anggota",
       "priority": "medium",
-      "collected_at": "2026-08-26T09:32:01.024739+00:00",
+      "collected_at": "2026-08-26T09:45:48.407194+00:00",
       "relevance": "high",
       "scope": "negative",
       "classification_score": 100,
@@ -1201,7 +1237,7 @@
       "polres": null,
       "category": "Ungkap Kasus",
       "priority": "low",
-      "collected_at": "2026-08-26T09:32:01.024739+00:00",
+      "collected_at": "2026-08-26T09:45:48.407194+00:00",
       "relevance": "high",
       "scope": "case",
       "classification_score": 60,
@@ -1225,9 +1261,9 @@
       "polres": null,
       "category": "Tidak Relevan",
       "priority": "low",
-      "collected_at": "2026-08-26T09:32:01.024739+00:00",
+      "collected_at": "2026-08-26T09:45:48.407194+00:00",
       "relevance": "noise",
-      "scope": "neutral",
+      "scope": "noise",
       "classification_score": 0,
       "location_confidence": 0,
       "location_source": null,
@@ -1249,7 +1285,7 @@
       "polres": null,
       "category": "Oknum / Pelanggaran Anggota",
       "priority": "medium",
-      "collected_at": "2026-08-26T09:32:01.024739+00:00",
+      "collected_at": "2026-08-26T09:45:48.407194+00:00",
       "relevance": "high",
       "scope": "negative",
       "classification_score": 100,
@@ -1279,10 +1315,10 @@
       "location_source": "polres",
       "location_evidence": [
         "sampang",
-        "Sampang"
+        "sampang"
       ],
       "priority": "medium",
-      "collected_at": "2026-08-26T09:32:01.024739+00:00"
+      "collected_at": "2026-08-26T09:45:48.407194+00:00"
     },
     {
       "id": "0fba4b4d5c389d7723b0cf7518f5d435288bad04",
@@ -1300,7 +1336,7 @@
       "polres": null,
       "category": "Oknum / Narkoba",
       "priority": "high",
-      "collected_at": "2026-08-26T09:32:01.024739+00:00",
+      "collected_at": "2026-08-26T09:45:48.407194+00:00",
       "relevance": "high",
       "scope": "negative",
       "classification_score": 100,
@@ -1324,15 +1360,13 @@
       "polres": null,
       "category": "Oknum / Narkoba",
       "priority": "high",
-      "collected_at": "2026-08-26T09:32:01.024739+00:00",
+      "collected_at": "2026-08-26T09:45:48.407194+00:00",
       "relevance": "high",
       "scope": "negative",
       "classification_score": 100,
       "location_confidence": 0,
-      "location_source": "outside",
-      "location_evidence": [
-        "LUAR:Bali"
-      ]
+      "location_source": null,
+      "location_evidence": []
     },
     {
       "id": "56c98da54cbf8708b904c5487d0a1e87aa6de658",
@@ -1348,9 +1382,15 @@
       "region": "Indonesia",
       "is_jatim": false,
       "polres": null,
-      "category": "Lainnya",
-      "priority": "medium",
-      "collected_at": "2026-08-26T09:18:13.579401+00:00"
+      "category": "Ungkap Kasus",
+      "priority": "low",
+      "collected_at": "2026-08-26T09:45:48.407194+00:00",
+      "relevance": "high",
+      "scope": "case",
+      "classification_score": 60,
+      "location_confidence": 0,
+      "location_source": null,
+      "location_evidence": []
     },
     {
       "id": "1789d9132d1825242e0faf1889e1d5a430a5d7d8",
@@ -1366,17 +1406,16 @@
       "region": "Indonesia",
       "is_jatim": false,
       "polres": null,
-      "category": "Berita Polisi Lainnya",
-      "priority": "low",
-      "collected_at": "2026-08-26T09:32:01.024739+00:00",
-      "relevance": "medium",
-      "scope": "neutral",
-      "classification_score": 25,
+      "category": "Oknum / Pelanggaran Anggota",
+      "priority": "medium",
+      "collected_at": "2026-08-26T09:45:48.407194+00:00",
+      "relevance": "high",
+      "scope": "negative",
+      "classification_score": 100,
       "location_confidence": 0,
       "location_source": "outside",
       "location_evidence": [
-        "LUAR:Jawa Tengah",
-        "LUAR:Bali"
+        "LUAR:jawa tengah"
       ]
     },
     {
@@ -1408,20 +1447,20 @@
       "url": "https://www.youtube.com/watch?v=y5ojtBciaiw",
       "thumbnail": "https://i.ytimg.com/vi/y5ojtBciaiw/hqdefault.jpg",
       "description": "TRIGGER WARNING: KONTEN INI BERISI GAMBAR/VIDEO INSIDEN, KECELAKAAN, ATAU KEKERASAN YANG MUNGKIN ...",
-      "relevance": "medium",
-      "scope": "neutral",
-      "category": "Berita Polisi Lainnya",
-      "classification_score": 25,
+      "relevance": "high",
+      "scope": "negative",
+      "category": "Oknum / Narkoba",
+      "classification_score": 100,
       "is_jatim": false,
       "region": "Indonesia",
       "polres": null,
       "location_confidence": 0,
       "location_source": "outside",
       "location_evidence": [
-        "LUAR:Lampung"
+        "LUAR:lampung"
       ],
-      "priority": "low",
-      "collected_at": "2026-08-26T09:32:01.024739+00:00"
+      "priority": "high",
+      "collected_at": "2026-08-26T09:45:48.407194+00:00"
     },
     {
       "id": "d32c4553985a0dfd7ab818c5034185ba64b93678",
@@ -1439,7 +1478,7 @@
       "polres": null,
       "category": "Oknum / Narkoba",
       "priority": "high",
-      "collected_at": "2026-08-26T09:32:01.024739+00:00",
+      "collected_at": "2026-08-26T09:45:48.407194+00:00",
       "relevance": "high",
       "scope": "negative",
       "classification_score": 100,
@@ -1463,7 +1502,7 @@
       "polres": null,
       "category": "Berita Polisi Lainnya",
       "priority": "low",
-      "collected_at": "2026-08-26T09:32:01.024739+00:00",
+      "collected_at": "2026-08-26T09:45:48.407194+00:00",
       "relevance": "medium",
       "scope": "neutral",
       "classification_score": 25,
@@ -1487,15 +1526,13 @@
       "polres": null,
       "category": "Tidak Relevan",
       "priority": "low",
-      "collected_at": "2026-08-26T09:32:01.024739+00:00",
+      "collected_at": "2026-08-26T09:45:48.407194+00:00",
       "relevance": "low",
       "scope": "neutral",
       "classification_score": 0,
       "location_confidence": 0,
-      "location_source": "outside",
-      "location_evidence": [
-        "LUAR:Jakarta"
-      ]
+      "location_source": null,
+      "location_evidence": []
     },
     {
       "id": "3f14c09586f063b57397fd176930221d849a6a8a",
@@ -1519,7 +1556,7 @@
       "location_source": null,
       "location_evidence": [],
       "priority": "low",
-      "collected_at": "2026-08-26T09:32:01.024739+00:00"
+      "collected_at": "2026-08-26T09:45:48.407194+00:00"
     },
     {
       "id": "67e7190444f3caf41f95a22ba42e150b43dcb96b",
@@ -1537,7 +1574,7 @@
       "polres": null,
       "category": "Oknum / Pelanggaran Anggota",
       "priority": "low",
-      "collected_at": "2026-08-26T09:32:01.024739+00:00",
+      "collected_at": "2026-08-26T09:45:48.407194+00:00",
       "relevance": "high",
       "scope": "negative",
       "classification_score": 100,
@@ -1567,7 +1604,7 @@
       "location_source": null,
       "location_evidence": [],
       "priority": "low",
-      "collected_at": "2026-08-26T09:32:01.024739+00:00"
+      "collected_at": "2026-08-26T09:45:48.407194+00:00"
     },
     {
       "id": "527b767135bf75a0b9180e5a334aea7586f238c6",
@@ -1591,7 +1628,7 @@
       "location_source": null,
       "location_evidence": [],
       "priority": "low",
-      "collected_at": "2026-08-26T09:32:01.024739+00:00"
+      "collected_at": "2026-08-26T09:45:48.407194+00:00"
     },
     {
       "id": "868c4bfe62586ecd1160f1928679c37409f7e9b2",
@@ -1609,7 +1646,7 @@
       "polres": null,
       "category": "Berita Polisi Lainnya",
       "priority": "low",
-      "collected_at": "2026-08-26T09:32:01.024739+00:00",
+      "collected_at": "2026-08-26T09:45:48.407194+00:00",
       "relevance": "medium",
       "scope": "neutral",
       "classification_score": 25,
@@ -1639,7 +1676,7 @@
       "location_source": null,
       "location_evidence": [],
       "priority": "low",
-      "collected_at": "2026-08-26T09:32:01.024739+00:00"
+      "collected_at": "2026-08-26T09:45:48.407194+00:00"
     },
     {
       "id": "ce654df9fde5b9b7c2fc69179e3159afd1d36bbe",
@@ -1663,7 +1700,7 @@
       "location_source": null,
       "location_evidence": [],
       "priority": "low",
-      "collected_at": "2026-08-26T09:32:01.024739+00:00"
+      "collected_at": "2026-08-26T09:45:48.407194+00:00"
     },
     {
       "id": "cf814dc97b7cc994cc460c326d9ae83cefb893e4",
@@ -1687,7 +1724,7 @@
       "location_source": null,
       "location_evidence": [],
       "priority": "low",
-      "collected_at": "2026-08-26T09:32:01.024739+00:00"
+      "collected_at": "2026-08-26T09:45:48.407194+00:00"
     },
     {
       "id": "ca29703fdc9ff6cbd4a4c6dd2410489bde34082d",
@@ -1705,7 +1742,7 @@
       "polres": null,
       "category": "Oknum / Pelanggaran Anggota",
       "priority": "low",
-      "collected_at": "2026-08-26T09:32:01.024739+00:00",
+      "collected_at": "2026-08-26T09:45:48.407194+00:00",
       "relevance": "high",
       "scope": "negative",
       "classification_score": 100,
@@ -1735,7 +1772,7 @@
       "location_source": null,
       "location_evidence": [],
       "priority": "low",
-      "collected_at": "2026-08-26T09:32:01.024739+00:00"
+      "collected_at": "2026-08-26T09:45:48.407194+00:00"
     },
     {
       "id": "d87171dfc0199a43af8cc4551885d563a7c586d5",
@@ -1753,7 +1790,7 @@
       "polres": null,
       "category": "Oknum / Pelanggaran Anggota",
       "priority": "low",
-      "collected_at": "2026-08-26T09:32:01.024739+00:00",
+      "collected_at": "2026-08-26T09:45:48.407194+00:00",
       "relevance": "high",
       "scope": "negative",
       "classification_score": 100,
@@ -1777,7 +1814,7 @@
       "polres": null,
       "category": "Oknum / Pelanggaran Anggota",
       "priority": "medium",
-      "collected_at": "2026-08-26T09:32:01.024739+00:00",
+      "collected_at": "2026-08-26T09:45:48.407194+00:00",
       "relevance": "high",
       "scope": "negative",
       "classification_score": 100,
@@ -1807,7 +1844,7 @@
       "location_source": null,
       "location_evidence": [],
       "priority": "low",
-      "collected_at": "2026-08-26T09:32:01.024739+00:00"
+      "collected_at": "2026-08-26T09:45:48.407194+00:00"
     },
     {
       "id": "abe2e89cb54966dd8bede8b3f6424b032582961c",
@@ -1825,7 +1862,7 @@
       "polres": null,
       "category": "Tidak Relevan",
       "priority": "low",
-      "collected_at": "2026-08-26T09:32:01.024739+00:00",
+      "collected_at": "2026-08-26T09:45:48.407194+00:00",
       "relevance": "low",
       "scope": "neutral",
       "classification_score": 0,
@@ -1849,7 +1886,7 @@
       "polres": null,
       "category": "Tidak Relevan",
       "priority": "low",
-      "collected_at": "2026-08-26T09:32:01.024739+00:00",
+      "collected_at": "2026-08-26T09:45:48.407194+00:00",
       "relevance": "low",
       "scope": "neutral",
       "classification_score": 0,
@@ -1879,7 +1916,7 @@
       "location_source": null,
       "location_evidence": [],
       "priority": "low",
-      "collected_at": "2026-08-26T09:32:01.024739+00:00"
+      "collected_at": "2026-08-26T09:45:48.407194+00:00"
     },
     {
       "id": "f0d4458589a5cb1fd7ac4e2202ed3618f434f125",
@@ -1897,7 +1934,7 @@
       "polres": null,
       "category": "Tidak Relevan",
       "priority": "low",
-      "collected_at": "2026-08-26T09:32:01.024739+00:00",
+      "collected_at": "2026-08-26T09:45:48.407194+00:00",
       "relevance": "low",
       "scope": "neutral",
       "classification_score": 0,
@@ -1927,7 +1964,7 @@
       "location_source": null,
       "location_evidence": [],
       "priority": "low",
-      "collected_at": "2026-08-26T09:32:01.024739+00:00"
+      "collected_at": "2026-08-26T09:45:48.407194+00:00"
     },
     {
       "id": "f9f9215e7328d3dbf987ea915867cd3f88496661",
@@ -1940,10 +1977,10 @@
       "url": "https://www.youtube.com/watch?v=Ft2QTIV-MFg",
       "thumbnail": "https://i.ytimg.com/vi/Ft2QTIV-MFg/hqdefault.jpg",
       "description": "",
-      "relevance": "medium",
-      "scope": "neutral",
-      "category": "Berita Polisi Lainnya",
-      "classification_score": 25,
+      "relevance": "high",
+      "scope": "incident",
+      "category": "Peristiwa Melibatkan Polisi",
+      "classification_score": 70,
       "is_jatim": false,
       "region": "Indonesia",
       "polres": null,
@@ -1951,7 +1988,7 @@
       "location_source": null,
       "location_evidence": [],
       "priority": "low",
-      "collected_at": "2026-08-26T09:32:01.024739+00:00"
+      "collected_at": "2026-08-26T09:45:48.407194+00:00"
     },
     {
       "id": "a251ff89bea8ffa450b26a25df7554c231d6c40d",
@@ -1969,7 +2006,7 @@
       "polres": null,
       "category": "Tidak Relevan",
       "priority": "low",
-      "collected_at": "2026-08-26T09:32:01.024739+00:00",
+      "collected_at": "2026-08-26T09:45:48.407194+00:00",
       "relevance": "low",
       "scope": "neutral",
       "classification_score": 0,
@@ -1993,7 +2030,7 @@
       "polres": null,
       "category": "Oknum / Korupsi / Pungli",
       "priority": "high",
-      "collected_at": "2026-08-26T09:32:01.024739+00:00",
+      "collected_at": "2026-08-26T09:45:48.407194+00:00",
       "relevance": "high",
       "scope": "negative",
       "classification_score": 100,
@@ -2023,7 +2060,7 @@
       "location_source": null,
       "location_evidence": [],
       "priority": "low",
-      "collected_at": "2026-08-26T09:32:01.024739+00:00"
+      "collected_at": "2026-08-26T09:45:48.407194+00:00"
     },
     {
       "id": "f0b54f7d733dcde617c6c030602ce5e9fea7a1f6",
@@ -2047,7 +2084,7 @@
       "location_source": null,
       "location_evidence": [],
       "priority": "low",
-      "collected_at": "2026-08-26T09:32:01.024739+00:00"
+      "collected_at": "2026-08-26T09:45:48.407194+00:00"
     },
     {
       "id": "2716b3afe6e19cb6042d125b0c417211bf02935f",
@@ -2065,7 +2102,7 @@
       "polres": null,
       "category": "Oknum / Pelanggaran Anggota",
       "priority": "low",
-      "collected_at": "2026-08-26T09:32:01.024739+00:00",
+      "collected_at": "2026-08-26T09:45:48.407194+00:00",
       "relevance": "high",
       "scope": "negative",
       "classification_score": 100,
@@ -2095,7 +2132,7 @@
       "location_source": null,
       "location_evidence": [],
       "priority": "low",
-      "collected_at": "2026-08-26T09:32:01.024739+00:00"
+      "collected_at": "2026-08-26T09:45:48.407194+00:00"
     },
     {
       "id": "ec06fbcd34a4dd0dfa4ac971987685983c6c1a5b",
@@ -2119,7 +2156,7 @@
       "location_source": null,
       "location_evidence": [],
       "priority": "low",
-      "collected_at": "2026-08-26T09:32:01.024739+00:00"
+      "collected_at": "2026-08-26T09:45:48.407194+00:00"
     },
     {
       "id": "14b0790665b61891373d0dffe36dc69e0a12de8d",
@@ -2143,7 +2180,7 @@
       "location_source": null,
       "location_evidence": [],
       "priority": "low",
-      "collected_at": "2026-08-26T09:32:01.024739+00:00"
+      "collected_at": "2026-08-26T09:45:48.407194+00:00"
     },
     {
       "id": "327b3f06860fe5e58b917a6d4fff79cc879f0c0a",
@@ -2161,7 +2198,7 @@
       "polres": null,
       "category": "Berita Polisi Lainnya",
       "priority": "low",
-      "collected_at": "2026-08-26T09:32:01.024739+00:00",
+      "collected_at": "2026-08-26T09:45:48.407194+00:00",
       "relevance": "medium",
       "scope": "neutral",
       "classification_score": 25,
@@ -2191,7 +2228,7 @@
       "location_source": null,
       "location_evidence": [],
       "priority": "low",
-      "collected_at": "2026-08-26T09:32:01.024739+00:00"
+      "collected_at": "2026-08-26T09:45:48.407194+00:00"
     },
     {
       "id": "c91a2380de9755af4cdd562ab47241318252d9f5",
@@ -2209,7 +2246,7 @@
       "polres": null,
       "category": "Oknum / Pelanggaran Anggota",
       "priority": "low",
-      "collected_at": "2026-08-26T09:32:01.024739+00:00",
+      "collected_at": "2026-08-26T09:45:48.407194+00:00",
       "relevance": "high",
       "scope": "negative",
       "classification_score": 100,
@@ -2231,16 +2268,16 @@
       "region": "Indonesia",
       "is_jatim": false,
       "polres": null,
-      "category": "Berita Polisi Lainnya",
+      "category": "Peristiwa Melibatkan Polisi",
       "priority": "low",
-      "collected_at": "2026-08-26T09:32:01.024739+00:00",
-      "relevance": "medium",
-      "scope": "neutral",
-      "classification_score": 25,
+      "collected_at": "2026-08-26T09:45:48.407194+00:00",
+      "relevance": "high",
+      "scope": "incident",
+      "classification_score": 70,
       "location_confidence": 0,
       "location_source": "outside",
       "location_evidence": [
-        "LUAR:Jawa Tengah"
+        "LUAR:jawa tengah"
       ]
     },
     {
@@ -2259,7 +2296,7 @@
       "polres": null,
       "category": "Oknum / Pelanggaran Anggota",
       "priority": "low",
-      "collected_at": "2026-08-26T09:32:01.024739+00:00",
+      "collected_at": "2026-08-26T09:45:48.407194+00:00",
       "relevance": "high",
       "scope": "negative",
       "classification_score": 100,
@@ -2283,7 +2320,7 @@
       "polres": null,
       "category": "Tidak Relevan",
       "priority": "low",
-      "collected_at": "2026-08-26T09:32:01.024739+00:00",
+      "collected_at": "2026-08-26T09:45:48.407194+00:00",
       "relevance": "low",
       "scope": "neutral",
       "classification_score": 0,
@@ -2305,17 +2342,17 @@
       "region": "Indonesia",
       "is_jatim": false,
       "polres": null,
-      "category": "Oknum / Narkoba",
-      "priority": "high",
-      "collected_at": "2026-08-26T09:32:01.024739+00:00",
+      "category": "Peristiwa Melibatkan Polisi",
+      "priority": "low",
+      "collected_at": "2026-08-26T09:45:48.407194+00:00",
       "relevance": "high",
-      "scope": "negative",
-      "classification_score": 100,
+      "scope": "incident",
+      "classification_score": 70,
       "location_confidence": 0,
       "location_source": "outside",
       "location_evidence": [
-        "LUAR:Lampung",
-        "LUAR:Lampung Utara"
+        "LUAR:lampung",
+        "LUAR:lampung utara"
       ]
     },
     {
@@ -2334,7 +2371,7 @@
       "polres": null,
       "category": "Oknum / Pelanggaran Anggota",
       "priority": "low",
-      "collected_at": "2026-08-26T09:32:01.024739+00:00",
+      "collected_at": "2026-08-26T09:45:48.407194+00:00",
       "relevance": "high",
       "scope": "negative",
       "classification_score": 100,
@@ -2358,7 +2395,7 @@
       "polres": null,
       "category": "Kekerasan / Penganiayaan",
       "priority": "medium",
-      "collected_at": "2026-08-26T09:32:01.024739+00:00",
+      "collected_at": "2026-08-26T09:45:48.407194+00:00",
       "relevance": "high",
       "scope": "negative",
       "classification_score": 100,
@@ -2388,7 +2425,7 @@
       "location_source": null,
       "location_evidence": [],
       "priority": "low",
-      "collected_at": "2026-08-26T09:32:01.024739+00:00"
+      "collected_at": "2026-08-26T09:45:48.407194+00:00"
     },
     {
       "id": "6403cb4a53c3f849e75f9cb18ac4f24d40a287cd",
@@ -2406,7 +2443,7 @@
       "polres": null,
       "category": "Oknum / Pelanggaran Anggota",
       "priority": "low",
-      "collected_at": "2026-08-26T09:32:01.024739+00:00",
+      "collected_at": "2026-08-26T09:45:48.407194+00:00",
       "relevance": "high",
       "scope": "negative",
       "classification_score": 100,
@@ -2430,14 +2467,14 @@
       "polres": null,
       "category": "Kekerasan / Penganiayaan",
       "priority": "medium",
-      "collected_at": "2026-08-26T09:32:01.024739+00:00",
+      "collected_at": "2026-08-26T09:45:48.407194+00:00",
       "relevance": "high",
       "scope": "negative",
       "classification_score": 100,
       "location_confidence": 0,
       "location_source": "outside",
       "location_evidence": [
-        "LUAR:Bali"
+        "LUAR:bali"
       ]
     },
     {
@@ -2456,7 +2493,7 @@
       "polres": null,
       "category": "Tidak Relevan",
       "priority": "low",
-      "collected_at": "2026-08-26T09:32:01.024739+00:00",
+      "collected_at": "2026-08-26T09:45:48.407194+00:00",
       "relevance": "low",
       "scope": "neutral",
       "classification_score": 0,
@@ -2480,7 +2517,7 @@
       "polres": null,
       "category": "Tidak Relevan",
       "priority": "low",
-      "collected_at": "2026-08-26T09:32:01.024739+00:00",
+      "collected_at": "2026-08-26T09:45:48.407194+00:00",
       "relevance": "low",
       "scope": "neutral",
       "classification_score": 0,
@@ -2510,7 +2547,7 @@
       "location_source": null,
       "location_evidence": [],
       "priority": "medium",
-      "collected_at": "2026-08-26T09:32:01.024739+00:00"
+      "collected_at": "2026-08-26T09:45:48.407194+00:00"
     },
     {
       "id": "d1dbe6bf57162493254da1ccbcaedfc9c1f0e345",
@@ -2528,7 +2565,7 @@
       "polres": null,
       "category": "Oknum / Pelanggaran Anggota",
       "priority": "medium",
-      "collected_at": "2026-08-26T09:32:01.024739+00:00",
+      "collected_at": "2026-08-26T09:45:48.407194+00:00",
       "relevance": "high",
       "scope": "negative",
       "classification_score": 100,
@@ -2550,16 +2587,16 @@
       "region": "Indonesia",
       "is_jatim": false,
       "polres": null,
-      "category": "Berita Polisi Lainnya",
+      "category": "Peristiwa Melibatkan Polisi",
       "priority": "low",
-      "collected_at": "2026-08-26T09:32:01.024739+00:00",
-      "relevance": "medium",
-      "scope": "neutral",
-      "classification_score": 25,
+      "collected_at": "2026-08-26T09:45:48.407194+00:00",
+      "relevance": "high",
+      "scope": "incident",
+      "classification_score": 70,
       "location_confidence": 0,
       "location_source": "outside",
       "location_evidence": [
-        "LUAR:Jawa Tengah"
+        "LUAR:jawa tengah"
       ]
     },
     {
@@ -2584,7 +2621,7 @@
       "location_source": null,
       "location_evidence": [],
       "priority": "low",
-      "collected_at": "2026-08-26T09:32:01.024739+00:00"
+      "collected_at": "2026-08-26T09:45:48.407194+00:00"
     },
     {
       "id": "86221e912eca53d6c09b7af1abdb2af284ce6791",
@@ -2598,20 +2635,20 @@
       "thumbnail": "https://i.ytimg.com/vi/qrtUZlACQag/hqdefault.jpg",
       "description": "Tiga anggota Polres Lampung Utara tertembak saat menggerebek lokasi yang diduga menjadi tempat peredaran narkoba di ...",
       "relevance": "high",
-      "scope": "negative",
-      "category": "Oknum / Narkoba",
-      "classification_score": 100,
+      "scope": "incident",
+      "category": "Peristiwa Melibatkan Polisi",
+      "classification_score": 70,
       "is_jatim": false,
       "region": "Indonesia",
       "polres": null,
       "location_confidence": 0,
       "location_source": "outside",
       "location_evidence": [
-        "LUAR:Lampung",
-        "LUAR:Lampung Utara"
+        "LUAR:lampung",
+        "LUAR:lampung utara"
       ],
-      "priority": "high",
-      "collected_at": "2026-08-26T09:32:01.024739+00:00"
+      "priority": "low",
+      "collected_at": "2026-08-26T09:45:48.407194+00:00"
     },
     {
       "id": "b1a2e3a1b1ef0099d828215409ff302e12d4d08a",
@@ -2629,7 +2666,7 @@
       "polres": null,
       "category": "Tidak Relevan",
       "priority": "low",
-      "collected_at": "2026-08-26T09:32:01.024739+00:00",
+      "collected_at": "2026-08-26T09:45:48.407194+00:00",
       "relevance": "low",
       "scope": "neutral",
       "classification_score": 0,
@@ -2653,15 +2690,13 @@
       "polres": null,
       "category": "Oknum / Korupsi / Pungli",
       "priority": "high",
-      "collected_at": "2026-08-26T09:32:01.024739+00:00",
+      "collected_at": "2026-08-26T09:45:48.407194+00:00",
       "relevance": "high",
       "scope": "negative",
       "classification_score": 100,
       "location_confidence": 0,
-      "location_source": "outside",
-      "location_evidence": [
-        "LUAR:Bali"
-      ]
+      "location_source": null,
+      "location_evidence": []
     },
     {
       "id": "2e751b551afaca93aa12b5a19a64beb19220a0c3",
@@ -2679,7 +2714,7 @@
       "polres": null,
       "category": "Oknum / Pelanggaran Anggota",
       "priority": "medium",
-      "collected_at": "2026-08-26T09:32:01.024739+00:00",
+      "collected_at": "2026-08-26T09:45:48.407194+00:00",
       "relevance": "high",
       "scope": "negative",
       "classification_score": 100,
@@ -2709,7 +2744,7 @@
       "location_source": null,
       "location_evidence": [],
       "priority": "high",
-      "collected_at": "2026-08-26T09:32:01.024739+00:00"
+      "collected_at": "2026-08-26T09:45:48.407194+00:00"
     },
     {
       "id": "e9c861ad3b9ede077cc0c8f1358c91c9e897c25b",
@@ -2727,7 +2762,7 @@
       "polres": null,
       "category": "Oknum / Pelanggaran Anggota",
       "priority": "low",
-      "collected_at": "2026-08-26T09:32:01.024739+00:00",
+      "collected_at": "2026-08-26T09:45:48.407194+00:00",
       "relevance": "high",
       "scope": "negative",
       "classification_score": 100,
@@ -2751,7 +2786,7 @@
       "polres": null,
       "category": "Tidak Relevan",
       "priority": "low",
-      "collected_at": "2026-08-26T09:32:01.024739+00:00",
+      "collected_at": "2026-08-26T09:45:48.407194+00:00",
       "relevance": "low",
       "scope": "neutral",
       "classification_score": 0,
@@ -2781,7 +2816,7 @@
       "location_source": null,
       "location_evidence": [],
       "priority": "low",
-      "collected_at": "2026-08-26T09:32:01.024739+00:00"
+      "collected_at": "2026-08-26T09:45:48.407194+00:00"
     },
     {
       "id": "b74f0f16fe6a7eeb811b2b21e9d28ed8cc32f191",
@@ -2799,7 +2834,7 @@
       "polres": null,
       "category": "Oknum / Pelanggaran Anggota",
       "priority": "low",
-      "collected_at": "2026-08-26T09:32:01.024739+00:00",
+      "collected_at": "2026-08-26T09:45:48.407194+00:00",
       "relevance": "high",
       "scope": "negative",
       "classification_score": 100,
@@ -2829,7 +2864,7 @@
       "location_source": null,
       "location_evidence": [],
       "priority": "low",
-      "collected_at": "2026-08-26T09:32:01.024739+00:00"
+      "collected_at": "2026-08-26T09:45:48.407194+00:00"
     },
     {
       "id": "3c3200f5c86c90f1609894013903c7c8c2e8748d",
@@ -2847,7 +2882,7 @@
       "polres": null,
       "category": "Tidak Relevan",
       "priority": "low",
-      "collected_at": "2026-08-26T09:32:01.024739+00:00",
+      "collected_at": "2026-08-26T09:45:48.407194+00:00",
       "relevance": "low",
       "scope": "neutral",
       "classification_score": 0,
@@ -2866,7 +2901,7 @@
       "url": "https://www.youtube.com/watch?v=tsFx5qwKC-I",
       "thumbnail": "https://i.ytimg.com/vi/tsFx5qwKC-I/hqdefault.jpg",
       "description": "Caitlin Clark delivered a dominant 37-point performance that completely took over the game, featuring a logo three-pointer ...",
-      "relevance": "noise",
+      "relevance": "low",
       "scope": "neutral",
       "category": "Tidak Relevan",
       "classification_score": 0,
@@ -2877,7 +2912,7 @@
       "location_source": null,
       "location_evidence": [],
       "priority": "low",
-      "collected_at": "2026-08-26T09:32:01.024739+00:00"
+      "collected_at": "2026-08-26T09:45:48.407194+00:00"
     },
     {
       "id": "1d0e999fd75674ab2aa6594e17594f5ee1ae2642",
@@ -2895,7 +2930,7 @@
       "polres": null,
       "category": "Tidak Relevan",
       "priority": "low",
-      "collected_at": "2026-08-26T09:32:01.024739+00:00",
+      "collected_at": "2026-08-26T09:45:48.407194+00:00",
       "relevance": "low",
       "scope": "neutral",
       "classification_score": 0,
@@ -2925,7 +2960,7 @@
       "location_source": null,
       "location_evidence": [],
       "priority": "low",
-      "collected_at": "2026-08-26T09:32:01.024739+00:00"
+      "collected_at": "2026-08-26T09:45:48.407194+00:00"
     },
     {
       "id": "59d2302966b6496b6ae20232a5bde7f7106bd060",
@@ -2949,7 +2984,7 @@
       "location_source": null,
       "location_evidence": [],
       "priority": "low",
-      "collected_at": "2026-08-26T09:32:01.024739+00:00"
+      "collected_at": "2026-08-26T09:45:48.407194+00:00"
     },
     {
       "id": "f91502a173b4288bc45f129308c1e4f315affaad",
@@ -2973,7 +3008,7 @@
       "location_source": null,
       "location_evidence": [],
       "priority": "low",
-      "collected_at": "2026-08-26T09:32:01.024739+00:00"
+      "collected_at": "2026-08-26T09:45:48.407194+00:00"
     },
     {
       "id": "8f90ec498029c6e26cfbd0a6eea6061aa3ee3c0e",
@@ -2991,7 +3026,7 @@
       "polres": null,
       "category": "Tidak Relevan",
       "priority": "low",
-      "collected_at": "2026-08-26T09:32:01.024739+00:00",
+      "collected_at": "2026-08-26T09:45:48.407194+00:00",
       "relevance": "low",
       "scope": "neutral",
       "classification_score": 0,
@@ -3045,7 +3080,7 @@
       "location_source": null,
       "location_evidence": [],
       "priority": "high",
-      "collected_at": "2026-08-26T09:32:01.024739+00:00"
+      "collected_at": "2026-08-26T09:45:48.407194+00:00"
     },
     {
       "id": "55a7ecd27509696a8ec21b7ea1bdf1c803e0b1eb",
@@ -3063,7 +3098,7 @@
       "polres": null,
       "category": "Tidak Relevan",
       "priority": "low",
-      "collected_at": "2026-08-26T09:32:01.024739+00:00",
+      "collected_at": "2026-08-26T09:45:48.407194+00:00",
       "relevance": "low",
       "scope": "neutral",
       "classification_score": 0,
@@ -3087,7 +3122,7 @@
       "polres": null,
       "category": "Oknum / Pelanggaran Anggota",
       "priority": "medium",
-      "collected_at": "2026-08-26T09:32:01.024739+00:00",
+      "collected_at": "2026-08-26T09:45:48.407194+00:00",
       "relevance": "high",
       "scope": "negative",
       "classification_score": 100,
@@ -3111,7 +3146,7 @@
       "polres": null,
       "category": "Oknum / Pelanggaran Anggota",
       "priority": "medium",
-      "collected_at": "2026-08-26T09:32:01.024739+00:00",
+      "collected_at": "2026-08-26T09:45:48.407194+00:00",
       "relevance": "high",
       "scope": "negative",
       "classification_score": 100,
@@ -3135,7 +3170,7 @@
       "polres": null,
       "category": "Ungkap Kasus",
       "priority": "low",
-      "collected_at": "2026-08-26T09:32:01.024739+00:00",
+      "collected_at": "2026-08-26T09:45:48.407194+00:00",
       "relevance": "high",
       "scope": "case",
       "classification_score": 60,
@@ -3157,12 +3192,12 @@
       "region": "Indonesia",
       "is_jatim": false,
       "polres": null,
-      "category": "Berita Polisi Lainnya",
-      "priority": "low",
-      "collected_at": "2026-08-26T09:32:01.024739+00:00",
-      "relevance": "medium",
-      "scope": "neutral",
-      "classification_score": 25,
+      "category": "Kekerasan / Penganiayaan",
+      "priority": "medium",
+      "collected_at": "2026-08-26T09:45:48.407194+00:00",
+      "relevance": "high",
+      "scope": "negative",
+      "classification_score": 100,
       "location_confidence": 0,
       "location_source": null,
       "location_evidence": []
