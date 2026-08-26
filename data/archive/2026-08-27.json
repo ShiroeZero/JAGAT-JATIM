@@ -2,20 +2,20 @@
   "schema_version": "today-v3",
   "date": "2026-08-27",
   "timezone": "Asia/Jakarta",
-  "updated_at": "2026-08-27T02:38:22.219311+07:00",
-  "last_successful_update": "2026-08-27T02:38:22.219311+07:00",
+  "updated_at": "2026-08-27T02:58:52.105707+07:00",
+  "last_successful_update": "2026-08-27T02:58:52.105707+07:00",
   "news": {
-    "detected": 19,
+    "detected": 21,
     "negative": 0,
     "positive": 2,
     "case": 0,
-    "neutral": 17,
-    "jatim": 3,
-    "luar_jatim": 16,
+    "neutral": 19,
+    "jatim": 4,
+    "luar_jatim": 17,
     "priority_high": 0,
     "article_ids": [
       "54136fd65e99fb0847994d3be28ad9df9ef3d8d4",
-      "ac72bc04472d2262d1ca482d5a838f737c29d584",
+      "82e04bc850bd9946084553a3437cf6e7b695787f",
       "0ac456732c0e06216e5ac798f93d0462314541f8",
       "891cfac0a451bed5caac6979eb72b640b798d81f",
       "65a7bad90cddadb69b67c32b2bc214928c2c0146",
@@ -24,6 +24,7 @@
       "75b0fcd121a4960efbc0d50da30cb0bdeca6bd72",
       "0221b86a036dd8461fbef020e50fa436567039e5",
       "f35426eb770a58a6a430da5f535f3a8637d16210",
+      "eb299896e87cd0282a4552d3020c69bf975bec87",
       "8be1ca8b4af214988b1b165698411323fc743213",
       "ec0511f3e76c7622397e30625ccb6137d2c17998",
       "a3d376479be7e633369a388352c2b1930e13f92f",
@@ -32,7 +33,8 @@
       "840f074bba58095dc40e5fac874f3b647dff323b",
       "20c5388a47c1e296c01b29df1277669b2468f6e7",
       "c5cdd51b64abd8a9ee24e1f22888784d0d3328ab",
-      "4778b1893d249f52a19f1b02e216e1babfaaadb4"
+      "4778b1893d249f52a19f1b02e216e1babfaaadb4",
+      "d5beeeea1b343e19498f0801899c3b0ed30ca3c9"
     ],
     "items": [
       {
@@ -41,7 +43,7 @@
         "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNWFdJc0xQdzlvMksyYzJtdFRTQk1CaG83TmtxMC13SnZaVWhMRTVOZFNfVFZURjkwU251cWNWdndCMWNqaVBFNUNUMlpUR0FlNnA0XzVjQ091dDZmbDFfNlM3SFdHdU9JbEN1cHRSNVJjZkp5SzAzQ25QUEozNmFyZHJzN1FRV2lsaHpHUUdOTVZFQlppUGFFdjE2cmZGY3Z1Y1BHVTB5b1NoV2EwWUFOX0dLU3Npc19XY2xwTUc5QWxNdw?oc=5",
         "source": "Nusantara Abadi News",
         "published_at": "2026-08-26T19:05:24+00:00",
-        "collected_at": "2026-08-26T19:36:00.286123+00:00",
+        "collected_at": "2026-08-26T19:56:18.364145+00:00",
         "region": "Jawa Timur",
         "area_label": "POLRES MADIUN",
         "is_jatim": true,
@@ -52,7 +54,7 @@
         "priority": "low",
         "summary": "Ladima Tours & Travel Dilaporkan ke Polres Madiun, Jemaah Tak Kunjung Berangkat Haji Nusantara Abadi News",
         "classifier_version": "news-v6",
-        "classified_at": "2026-08-26T19:36:00.286123+00:00",
+        "classified_at": "2026-08-26T19:56:18.364145+00:00",
         "discovery_families": [],
         "discovery_tags": [],
         "discovery_hits": [],
@@ -60,15 +62,15 @@
         "processing_status": "processed",
         "case_id": null,
         "case_engine_version": "case-v6.1",
-        "case_processed_at": "2026-08-26T19:38:19.462922+00:00"
+        "case_processed_at": "2026-08-26T19:58:49.628970+00:00"
       },
       {
-        "id": "ac72bc04472d2262d1ca482d5a838f737c29d584",
+        "id": "82e04bc850bd9946084553a3437cf6e7b695787f",
         "title": "Polisi Ungkap Alasan Revaldo Pakai Narkoba Lagi - JPNN.com",
-        "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxQQ3RvZ2JXS24zVVlkQWVwQzI5Q3cyRGxNZFphVVhJeGNRdzNjdWo0Vk1xZTVBRWZCVlEzR3hFMnBocHN6aVJlYkpmbFBTTzY3YzNGUFNiQ05HNVAtakhCWXZPRXhNZ1N0Z041bDJmTUhNMGM0RmgyNXNLM3RfTzRwWmhOcTJBREVQODZwSjZrNkdyZ2Y1RmIxX3oyYXBtVjBWRmFIVDFFX2NjNEFBY2pCZDBYSGNDOWVEaENINDcwVlhFYXF4VkZLM1U0bXotTDhVY1ZEVEw2Q3dGZk53b3l6dXg0M2YycEXSAYABQVVfeXFMTUFDR0hDY3Z1c2ZRRE1iZGFjejRQbWtWYTZRRkhmMWF2bE9iQ3dfN21rd2NGSDh5OGVPQkU0TzBNMUtYdWRPYUVpQ1U0M0lXaXp4ckhqN3FpZFA2VnIwRFg5anh5dUk1MjlYdFBjVlQxZzNkQUN2NEdsMmFZMjduUlo?oc=5",
+        "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE95YnYwTVEwbUlGWm5XcVRxOHlsWHFwZFpKOFlUajh0UEtyZlRYU2FQUDBaWlR1Q1Z5bG1neWVSLVNOeUdKS3NEZVg3VDc0OFNzbFZTaGktS0NVVy1FRzl3b1pLbU9NM1hvUU56QkZlbklzbXNOZ09hY1VPXy1ZQdIBgAFBVV95cUxNQUNHSENjdnVzZlFETWJkYWN6NFBta1ZhNlFGSGYxYXZsT2JDd183bWt3Y0ZIOHk4ZU9CRTRPME0xS1h1ZE9hRWlDVTQzSVdpenhySGo3cWlkUDZWcjBEWDlqeHl1STUyOVh0UGNWVDFnM2RBQ3Y0R2wyYVkyN25SWg?oc=5",
         "source": "JPNN.com",
         "published_at": "2026-08-26T19:02:00+00:00",
-        "collected_at": "2026-08-26T19:36:00.286123+00:00",
+        "collected_at": "2026-08-26T19:56:18.364145+00:00",
         "region": "LUAR JATIM",
         "area_label": "LUAR JATIM",
         "is_jatim": false,
@@ -79,7 +81,7 @@
         "priority": "low",
         "summary": "Polisi Ungkap Alasan Revaldo Pakai Narkoba Lagi JPNN.com",
         "classifier_version": "news-v6",
-        "classified_at": "2026-08-26T19:36:00.286123+00:00",
+        "classified_at": "2026-08-26T19:56:18.364145+00:00",
         "discovery_families": [],
         "discovery_tags": [],
         "discovery_hits": [],
@@ -87,7 +89,7 @@
         "processing_status": "processed",
         "case_id": null,
         "case_engine_version": "case-v6.1",
-        "case_processed_at": "2026-08-26T19:38:19.468374+00:00"
+        "case_processed_at": "2026-08-26T19:58:49.634043+00:00"
       },
       {
         "id": "0ac456732c0e06216e5ac798f93d0462314541f8",
@@ -95,7 +97,7 @@
         "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPYUpNRTVGMkUwLVlXYl9HTUNwUEMzcmI1TTRPYXZyMlBEcEVrdXlXVW1yNEdJWE4zdGQ1Qjg0bW5Tbkt1R25SUDAtNG0zaTJVSkdnYnlKRy1mZXFaeUJUdktBdHBETGpnVm5xTjdydFNONkVsVmpZZXBoZGJ2S1dnd0lZcE4xUk5fZU9WUUwtSGxJNno4NlVKTkp2Q0E?oc=5",
         "source": "Kabarindoraya.com",
         "published_at": "2026-08-26T18:13:55+00:00",
-        "collected_at": "2026-08-26T19:36:00.286123+00:00",
+        "collected_at": "2026-08-26T19:56:18.364145+00:00",
         "region": "Jawa Timur",
         "area_label": "POLRES BATU",
         "is_jatim": true,
@@ -106,7 +108,7 @@
         "priority": "low",
         "summary": "Polres Batu Bara Release Ungkap 10 Kasus 3 C Selama dua Bulan Terakhir Kabarindoraya.com",
         "classifier_version": "news-v6",
-        "classified_at": "2026-08-26T19:36:00.286123+00:00",
+        "classified_at": "2026-08-26T19:56:18.364145+00:00",
         "discovery_families": [],
         "discovery_tags": [],
         "discovery_hits": [],
@@ -114,7 +116,7 @@
         "processing_status": "processed",
         "case_id": null,
         "case_engine_version": "case-v6.1",
-        "case_processed_at": "2026-08-26T19:38:19.474704+00:00"
+        "case_processed_at": "2026-08-26T19:58:49.639854+00:00"
       },
       {
         "id": "891cfac0a451bed5caac6979eb72b640b798d81f",
@@ -122,7 +124,7 @@
         "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxPMVFldk5IdWJqWTNNR2k3TzNETkh1UldQdXBoMy0yWm91Q18yOTU5Y195ejNEWDZGZV9sRl9GNjl2SE8zT3FmamV3QUFTaTZrRnNNdXRNUXo0RkExMFptY3p5TEtDamk3XzJRQmtmWXp4X21QUnJiVzh2RW90bkNWYVU5TXVUTzJLWEZaSmM1YTVLV2VVcjVMS0JEQTh0RUFDYTBPZEpzT1pGVzh6VEZ6Z29LNXQxQ05rR21rcEZKWHZxcGUxQ2c0djdwdzNwYnU0cUpIeGIzNUJrNlVOa3BHUnZONmw0dFnSAewBQVVfeXFMTURWek9WdmNXc2R1aURwNXRYOWFhZGpvb0RBM2RnMEFnZVJQNGJzM1FaMlptM1pESEVzYzdZUm51UmNnaGpWcFhUa2Z3Y2hBTldSV2ppR1hKSFJHYkFYdmtadmhIOXNUdVppMDl4VWVJVGVOcHFVcXV3WTdWd2RjMTJFbVVwS1o1azNNYURoMXF2N2xjLWRDaEVhbEpTeFNsdVo4a1lEU2RvNi1aLTBTRHpYTTlxLXRZN2RIRnhEYTRBMnYxLTFJSjdfaV9HM3FnY1ZlNVhzUmRabXNMSEFxZElZWF9IX0ZNZEwwWkM?oc=5",
         "source": "viva.co.id",
         "published_at": "2026-08-26T17:50:00+00:00",
-        "collected_at": "2026-08-26T19:36:00.286123+00:00",
+        "collected_at": "2026-08-26T19:56:18.364145+00:00",
         "region": "LUAR JATIM",
         "area_label": "LUAR JATIM",
         "is_jatim": false,
@@ -133,7 +135,7 @@
         "priority": "low",
         "summary": "Ruben Onsu Belum Konfirmasi Hadiri Pemeriksaan Sebagai Tersangka, Polisi Ungkap Apa yang Terjadi Jika Mangkir viva.co.id",
         "classifier_version": "news-v6",
-        "classified_at": "2026-08-26T19:36:00.286123+00:00",
+        "classified_at": "2026-08-26T19:56:18.364145+00:00",
         "discovery_families": [],
         "discovery_tags": [],
         "discovery_hits": [],
@@ -141,7 +143,7 @@
         "processing_status": "processed",
         "case_id": null,
         "case_engine_version": "case-v6.1",
-        "case_processed_at": "2026-08-26T19:38:19.482475+00:00"
+        "case_processed_at": "2026-08-26T19:58:49.647044+00:00"
       },
       {
         "id": "65a7bad90cddadb69b67c32b2bc214928c2c0146",
@@ -149,7 +151,7 @@
         "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNazgxQkdxMlZVWGJDWXFvSWJ3b3R0UC1fZ2ZqVnU0d3E0QXNZMUlfZHpoZlJyTjFPbDFRYW1Qb25fUEVST3FtNUluc0RXa0RfTElXNlY3VjVSZGVscVpWUzdBZ1NRTFlMc0lZZ3JtOURHNDZ3MndVQk1Obnh3Rlc2cmZEUFRhMmJsN2tpUTJTTmE1dFNFX3hWLXdQQzVVQ0xiaFMwcGl5NG9yT0tVbHc?oc=5",
         "source": "polreskedirikota.com",
         "published_at": "2026-08-26T17:39:10+00:00",
-        "collected_at": "2026-08-26T19:36:00.286123+00:00",
+        "collected_at": "2026-08-26T19:56:18.364145+00:00",
         "region": "LUAR JATIM",
         "area_label": "LUAR JATIM",
         "is_jatim": false,
@@ -160,7 +162,7 @@
         "priority": "low",
         "summary": "Polri Gelar Senam Trauma Healing untuk Bangkitkan Semangat Pengungsi Pascagempa polreskedirikota.com",
         "classifier_version": "news-v6",
-        "classified_at": "2026-08-26T19:36:00.286123+00:00",
+        "classified_at": "2026-08-26T19:56:18.364145+00:00",
         "discovery_families": [],
         "discovery_tags": [],
         "discovery_hits": [],
@@ -168,7 +170,7 @@
         "processing_status": "processed",
         "case_id": null,
         "case_engine_version": "case-v6.1",
-        "case_processed_at": "2026-08-26T19:38:19.489292+00:00"
+        "case_processed_at": "2026-08-26T19:58:49.653642+00:00"
       },
       {
         "id": "3bcf2cce57d6d1524c5bf176c12e66722f9f6850",
@@ -176,7 +178,7 @@
         "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNcFVvWmpUVDJ1RG1PZ1NJNkM2a3lYclkzWG1TSmpoNHhBMFk2TWxabTdCdUViVDNUemZoYmd0QUhHNkpuWUwwaGlMX3FIUTlSemdhUDk4VFpxTWh3d0UyM0ZTRHYzY1FvaVJGRTl3Q1UzYU1adVh4akVNOEdlQ1RUems2cTM5dTZRaFJmbWhac3diNGowei1XbmhDN3YwTXFFS3cyZUVKbFhZQWpYRHRqbXJDMnBGZ1FUM3NF?oc=5",
         "source": "polreskedirikota.com",
         "published_at": "2026-08-26T17:35:07+00:00",
-        "collected_at": "2026-08-26T19:36:00.286123+00:00",
+        "collected_at": "2026-08-26T19:56:18.364145+00:00",
         "region": "LUAR JATIM",
         "area_label": "LUAR JATIM",
         "is_jatim": false,
@@ -187,7 +189,7 @@
         "priority": "low",
         "summary": "Polri Siap Berikan Pelayanan agar Penyampaian Aspirasi Berjalan Damai, Tertib dan Kondusif polreskedirikota.com",
         "classifier_version": "news-v6",
-        "classified_at": "2026-08-26T19:36:00.286123+00:00",
+        "classified_at": "2026-08-26T19:56:18.364145+00:00",
         "discovery_families": [],
         "discovery_tags": [],
         "discovery_hits": [],
@@ -195,7 +197,7 @@
         "processing_status": "processed",
         "case_id": null,
         "case_engine_version": "case-v6.1",
-        "case_processed_at": "2026-08-26T19:38:19.496824+00:00"
+        "case_processed_at": "2026-08-26T19:58:49.660758+00:00"
       },
       {
         "id": "9c7a72938e32549308514a59a90f03cb481e9453",
@@ -203,7 +205,7 @@
         "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPZUp2NS1WNkNNbUlqYkdyOEM3ZXBUYUhXNVAwd25NQ0RvZE9DR1p5UmVQRXg1bVRRV21kUExQVS1NdnBoY2VpSm8zOTJpd2NQTGdfaVYtaHAyNmF4QW9fSnc3TFY2YUtaYmJNVTRmNnYzM2d5cEhYSnl0YXR3bEdONDhpcDNNWm00VFQ0bGl2bFZDNTlReW9Jd2hOa2pZSVNULW04UW5UdFhWR2JKNW84M3BOeHhCUQ?oc=5",
         "source": "polreskedirikota.com",
         "published_at": "2026-08-26T17:33:53+00:00",
-        "collected_at": "2026-08-26T19:36:00.286123+00:00",
+        "collected_at": "2026-08-26T19:56:18.364145+00:00",
         "region": "LUAR JATIM",
         "area_label": "LUAR JATIM",
         "is_jatim": false,
@@ -214,7 +216,7 @@
         "priority": "low",
         "summary": "Polri Tegaskan Komitmen Jaga Demokrasi, Ajak Masyarakat Perkuat Persatuan dan Kesatuan polreskedirikota.com",
         "classifier_version": "news-v6",
-        "classified_at": "2026-08-26T19:36:00.286123+00:00",
+        "classified_at": "2026-08-26T19:56:18.364145+00:00",
         "discovery_families": [],
         "discovery_tags": [],
         "discovery_hits": [],
@@ -222,7 +224,7 @@
         "processing_status": "processed",
         "case_id": null,
         "case_engine_version": "case-v6.1",
-        "case_processed_at": "2026-08-26T19:38:19.504634+00:00"
+        "case_processed_at": "2026-08-26T19:58:49.668070+00:00"
       },
       {
         "id": "75b0fcd121a4960efbc0d50da30cb0bdeca6bd72",
@@ -230,7 +232,7 @@
         "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNOF85R19jR2gzVWo0MkNsdGRWMEdDNGdZR190TEFBY3o3V1hTeGtkRmZ0RlRLUm15UzFPVXRVQzJoeG9qX3Q2X2FwdFRkSVlhb2wtOTRGMnBCMEpqTm9iZXdyOTBwSElFNlJGOUFZSjhzdzkyR014SndobHFPaE5kQnJYSFhLWEdGN1ZwLVlvTFNUM2NidXhhX2g1OG9lamlONHRvaXZVdFBwdnI5Mk9ZOEJCdl9lUjZZS3FKSG83ZFpUZWE1?oc=5",
         "source": "polreskedirikota.com",
         "published_at": "2026-08-26T17:29:20+00:00",
-        "collected_at": "2026-08-26T19:36:00.286123+00:00",
+        "collected_at": "2026-08-26T19:56:18.364145+00:00",
         "region": "Jawa Timur",
         "area_label": "Jawa Timur",
         "is_jatim": true,
@@ -241,7 +243,7 @@
         "priority": "low",
         "summary": "Polsek Mojoroto Kediri Perkuat Patroli Malam, Perbankan hingga Permukiman Jadi Sasaran Pengawasan polreskedirikota.com",
         "classifier_version": "news-v6",
-        "classified_at": "2026-08-26T19:36:00.286123+00:00",
+        "classified_at": "2026-08-26T19:56:18.364145+00:00",
         "discovery_families": [],
         "discovery_tags": [],
         "discovery_hits": [],
@@ -249,7 +251,7 @@
         "processing_status": "processed",
         "case_id": null,
         "case_engine_version": "case-v6.1",
-        "case_processed_at": "2026-08-26T19:38:19.512485+00:00"
+        "case_processed_at": "2026-08-26T19:58:49.675398+00:00"
       },
       {
         "id": "0221b86a036dd8461fbef020e50fa436567039e5",
@@ -257,7 +259,7 @@
         "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNUVBXQUh1dUxJRE1pQUFMdGU0dGYxN0diS0pycTdmMmVKNl8wcnRfWXBXTkIzQTd0VjhuZ3pFTjJxRmV3dHpGajF3VEIwR1dadVZiYjVvcTB2cDZkcEpwVlFvSHVwd0w2ak9SNF9yQ2FRemFGRGU1YjJBWnNzMlhDRXEySF90ZE5qSWdXUVRQblZxQTJwNGdtU0V5R3J6UTZva2NDUElmVUFxc0RJMXR3?oc=5",
         "source": "tinta nusantara",
         "published_at": "2026-08-26T17:18:42+00:00",
-        "collected_at": "2026-08-26T19:36:00.286123+00:00",
+        "collected_at": "2026-08-26T19:56:18.364145+00:00",
         "region": "LUAR JATIM",
         "area_label": "LUAR JATIM",
         "is_jatim": false,
@@ -268,7 +270,7 @@
         "priority": "low",
         "summary": "Konfirmasi Jalan Rusak Berujung Dugaan Pengeroyokan, PJS Desak Polisi Usut Tuntas tinta nusantara",
         "classifier_version": "news-v6",
-        "classified_at": "2026-08-26T19:36:00.286123+00:00",
+        "classified_at": "2026-08-26T19:56:18.364145+00:00",
         "discovery_families": [],
         "discovery_tags": [],
         "discovery_hits": [],
@@ -276,7 +278,7 @@
         "processing_status": "processed",
         "case_id": null,
         "case_engine_version": "case-v6.1",
-        "case_processed_at": "2026-08-26T19:38:19.518612+00:00"
+        "case_processed_at": "2026-08-26T19:58:49.681215+00:00"
       },
       {
         "id": "f35426eb770a58a6a430da5f535f3a8637d16210",
@@ -284,7 +286,7 @@
         "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOcjVoWUR4T3dJUVphWmlrempaYUl5Q1pUTmJwZHRkSmtZb1UxN0FhbUoxdkd2RmFLb2RSUlhEeHlRQmY0V0wyZmxIX1Y0RlJhdnhoTkkyN0w4QUJsOFc2dkFjRU11SjgwbWVOWHlITjZ0am9YT1JpXzZqU1NWR2pTcDVJaG5uc0FQV1BzbTVENGZrYy0zQW5MUkdGVzVySlFaZlEwN0wwYTZZN0VZNXZBTEdB?oc=5",
         "source": "SultengTerkini",
         "published_at": "2026-08-26T16:59:00+00:00",
-        "collected_at": "2026-08-26T19:36:00.286123+00:00",
+        "collected_at": "2026-08-26T19:56:18.364145+00:00",
         "region": "LUAR JATIM",
         "area_label": "LUAR JATIM",
         "is_jatim": false,
@@ -295,7 +297,7 @@
         "priority": "low",
         "summary": "Polisi Tangkap Dua Pencuri iPhone di Palu, Satu Ternyata Residivis Curanmor SultengTerkini",
         "classifier_version": "news-v6",
-        "classified_at": "2026-08-26T19:36:00.286123+00:00",
+        "classified_at": "2026-08-26T19:56:18.364145+00:00",
         "discovery_families": [],
         "discovery_tags": [],
         "discovery_hits": [],
@@ -303,7 +305,34 @@
         "processing_status": "processed",
         "case_id": null,
         "case_engine_version": "case-v6.1",
-        "case_processed_at": "2026-08-26T19:38:19.525602+00:00"
+        "case_processed_at": "2026-08-26T19:58:49.687880+00:00"
+      },
+      {
+        "id": "eb299896e87cd0282a4552d3020c69bf975bec87",
+        "title": "Polresta Sumenep Buka Stand Pembangunan di Madura Night Vaganza 2026, Bukti Polisi Hadir dan Dekat dengan Masyarakat - Detikzone",
+        "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxPaDhSOUdETkNqZzRRcWNmaWRzNC0yZTJnYzhKNnFBUWQ1NTd5RE1FNmJQbFJNT2trb1VoaE13bENyLU1CbEl5R2lqeGlVaUpESk45WW01LTJDTDUySzU1bFFDcWRaM1BYd2p6Tkk4djR3ZTlWZXh3MHpEZHQzeTRXQ18yeXpaRlRVekd2cG9YQVZGN195cjF0Ti1XMDlKa21XdzE2aDZqQjlNWnVJdm1kUlVIemJPVWJwdXpBcGxXVFd5Nm11dlJvSDFYQzA4dkFYeUZyV2YzZmg1SmJsQnR6Vm9B?oc=5",
+        "source": "Detikzone",
+        "published_at": "2026-08-26T16:28:24+00:00",
+        "collected_at": "2026-08-26T19:56:18.364145+00:00",
+        "region": "Jawa Timur",
+        "area_label": "POLRESTA SUMENEP",
+        "is_jatim": true,
+        "polres": "POLRESTA SUMENEP",
+        "category": "NETRAL / LAINNYA",
+        "scope": "neutral",
+        "scope_label": "NETRAL",
+        "priority": "low",
+        "summary": "Polresta Sumenep Buka Stand Pembangunan di Madura Night Vaganza 2026, Bukti Polisi Hadir dan Dekat dengan Masyarakat Detikzone",
+        "classifier_version": "news-v6",
+        "classified_at": "2026-08-26T19:56:18.364145+00:00",
+        "discovery_families": [],
+        "discovery_tags": [],
+        "discovery_hits": [],
+        "discovery_version": "discovery-v6",
+        "processing_status": "processed",
+        "case_id": null,
+        "case_engine_version": "case-v6.1",
+        "case_processed_at": "2026-08-26T19:58:49.694423+00:00"
       },
       {
         "id": "8be1ca8b4af214988b1b165698411323fc743213",
@@ -311,7 +340,7 @@
         "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQZ3VwVHo5UFpLNWxvbE5qc3JnSTBjX2FiZy12UmZJelJSTFgzcFF2OE9ycDhEMzdMejhKYlpUZlMzY19wcWhBZmVKc0x6X3pNSEh3eE1sUVMxRUN3QmxqUGhiTlZSTmtTNHBISWVic2JHQnIydTdHVllHZy1TZUlqNXdVZnFQeWVpMFlOVWFsS1M2dm1YaHhFU09Sd1JOc05mT0t0T1IxQ1g5OVVlTmVCOEw2b2ZuQjc3SUJKM0Zn?oc=5",
         "source": "IndoSatuNews.com",
         "published_at": "2026-08-26T16:05:13+00:00",
-        "collected_at": "2026-08-26T19:36:00.286123+00:00",
+        "collected_at": "2026-08-26T19:56:18.364145+00:00",
         "region": "LUAR JATIM",
         "area_label": "LUAR JATIM",
         "is_jatim": false,
@@ -322,7 +351,7 @@
         "priority": "low",
         "summary": "Masuk DPO, Tiga Polisi Ditembak Oleh Bandar Narkoba Dan Senjata Api Rakitan Di Acara Orgen Musik IndoSatuNews.com",
         "classifier_version": "news-v6",
-        "classified_at": "2026-08-26T19:36:00.286123+00:00",
+        "classified_at": "2026-08-26T19:56:18.364145+00:00",
         "discovery_families": [],
         "discovery_tags": [],
         "discovery_hits": [],
@@ -330,7 +359,7 @@
         "processing_status": "processed",
         "case_id": null,
         "case_engine_version": "case-v6.1",
-        "case_processed_at": "2026-08-26T19:38:19.534540+00:00"
+        "case_processed_at": "2026-08-26T19:58:49.702823+00:00"
       },
       {
         "id": "ec0511f3e76c7622397e30625ccb6137d2c17998",
@@ -338,7 +367,7 @@
         "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNd1djUl92b1lPbWhzODN6cWt2OGRRMlR2WHJjUUQ4NmRHc3Y5ZzJ1M0ZlRFhZRGVSUEFtS25PbEp6LTJBUVBwMGxiWXlMejFwQWw3YjN5UUZwTHBDd0sxMHMwdnFHb3ZucEFudU4zYWY0LXZzVTNYbG9PV2EyRDE4Ujh4SGh5NThTUnltMmlETmFaN25LRWJnZXlwdkxDTUF3V0VFSFpnVkpOdjZyVmVsQjBHMnRjZG5ic2owb1NR?oc=5",
         "source": "Kompas.com",
         "published_at": "2026-08-26T15:55:00+00:00",
-        "collected_at": "2026-08-26T19:36:00.286123+00:00",
+        "collected_at": "2026-08-26T19:56:18.364145+00:00",
         "region": "LUAR JATIM",
         "area_label": "LUAR JATIM",
         "is_jatim": false,
@@ -349,7 +378,7 @@
         "priority": "low",
         "summary": "Kebakaran Kantor BPBD Puncak Papua Diduga Disengaja, Polisi Selidiki Kompas.com",
         "classifier_version": "news-v6",
-        "classified_at": "2026-08-26T19:36:00.286123+00:00",
+        "classified_at": "2026-08-26T19:56:18.364145+00:00",
         "discovery_families": [],
         "discovery_tags": [],
         "discovery_hits": [],
@@ -357,7 +386,7 @@
         "processing_status": "processed",
         "case_id": null,
         "case_engine_version": "case-v6.1",
-        "case_processed_at": "2026-08-26T19:38:19.539641+00:00"
+        "case_processed_at": "2026-08-26T19:58:49.707648+00:00"
       },
       {
         "id": "a3d376479be7e633369a388352c2b1930e13f92f",
@@ -365,7 +394,7 @@
         "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQYVUzQktFaTdNcmE4OFB3WWpxa0o4LS1NRG8wYU1reTdYVVFyT0RPZlhHaDV2MjVUbzU0S1BrUHFEYWxLNXhGbi10MmFMaVRFRm1sMW9NWExqU3Z5QmlWbVdtNHlFWkZJUjVscjdDeE9PWDlNUzVBMEZMVTZhRm5PZk44V1pXNm1ZczdpMjVxVldzclNzRmdQTHRSTEtOUnVucU5qMEdHQkI4Nl9uY1pVSHVwaHpXTGNrUWc?oc=5",
         "source": "Tras Berita Babel",
         "published_at": "2026-08-26T15:51:08+00:00",
-        "collected_at": "2026-08-26T19:36:00.286123+00:00",
+        "collected_at": "2026-08-26T19:56:18.364145+00:00",
         "region": "LUAR JATIM",
         "area_label": "LUAR JATIM",
         "is_jatim": false,
@@ -376,7 +405,7 @@
         "priority": "low",
         "summary": "4,9 Ton Mineral Diduga Ilegal Tertahan di Gerbang Bangka, Polisi Buru Jaringan Pengirimannya Tras Berita Babel",
         "classifier_version": "news-v6",
-        "classified_at": "2026-08-26T19:36:00.286123+00:00",
+        "classified_at": "2026-08-26T19:56:18.364145+00:00",
         "discovery_families": [],
         "discovery_tags": [],
         "discovery_hits": [],
@@ -384,7 +413,7 @@
         "processing_status": "processed",
         "case_id": null,
         "case_engine_version": "case-v6.1",
-        "case_processed_at": "2026-08-26T19:38:19.546806+00:00"
+        "case_processed_at": "2026-08-26T19:58:49.714348+00:00"
       },
       {
         "id": "5b41057b646a2926d88694e22bc38240d9ea48f9",
@@ -392,7 +421,7 @@
         "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNYjZ5VzZUMjZzdEdVcXdOMkx0RFFYUG8tVlhhUkgtQ3RFelEyWWZ6Um93NTR1cHFtVTRvc2Y4MG1pd3Rza3BILUZxS2tHR3p1RjY4YkRfZWR0RDZ4bXlER3NZbi1ESEtxY0tzbVp0OC1NUElickZfUGN1bFZTaDRabUwyMF9HYW5EaXVwZmJRMmRTUDVON0E?oc=5",
         "source": "Sudutpandang.id",
         "published_at": "2026-08-26T15:46:33+00:00",
-        "collected_at": "2026-08-26T19:36:00.286123+00:00",
+        "collected_at": "2026-08-26T19:56:18.364145+00:00",
         "region": "LUAR JATIM",
         "area_label": "LUAR JATIM",
         "is_jatim": false,
@@ -403,7 +432,7 @@
         "priority": "low",
         "summary": "Polisi Ungkap Alasan Ruben Onsu Belum Ditahan Meski Jadi Tersangka Sudutpandang.id",
         "classifier_version": "news-v6",
-        "classified_at": "2026-08-26T19:36:00.286123+00:00",
+        "classified_at": "2026-08-26T19:56:18.364145+00:00",
         "discovery_families": [],
         "discovery_tags": [],
         "discovery_hits": [],
@@ -411,7 +440,7 @@
         "processing_status": "processed",
         "case_id": null,
         "case_engine_version": "case-v6.1",
-        "case_processed_at": "2026-08-26T19:38:19.553886+00:00"
+        "case_processed_at": "2026-08-26T19:58:49.721082+00:00"
       },
       {
         "id": "18a9dd4b3b45ec271dcb04110de10438a6db65ee",
@@ -419,7 +448,7 @@
         "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNTkRpdGJtNlEwV0xJb2JnWDZ4MFZveXhDS1ljdGdJcWdXU212VlJ2c1RGMFhxYVFFZGhtVWcwNFJyLXZMT3l1cmZqeFFnZl9JU24ybmJoSzBzcnUwdlJwMkFQZ21yWk5XNFJfekN6WEJYUnN6WDdTUGJERGVNOUlySnN2X1J5dHNyeXF3c2x0ZHRibFotQXc?oc=5",
         "source": "Malang Posco Media",
         "published_at": "2026-08-26T15:41:25+00:00",
-        "collected_at": "2026-08-26T19:36:00.286123+00:00",
+        "collected_at": "2026-08-26T19:56:18.364145+00:00",
         "region": "LUAR JATIM",
         "area_label": "LUAR JATIM",
         "is_jatim": false,
@@ -430,7 +459,7 @@
         "priority": "low",
         "summary": "Jakarta Digoyang Unjuk Rasa, Malang Gelar Pasukan Kesiapsiagaan Malang Posco Media",
         "classifier_version": "news-v6",
-        "classified_at": "2026-08-26T19:36:00.286123+00:00",
+        "classified_at": "2026-08-26T19:56:18.364145+00:00",
         "discovery_families": [
           "security_public_order"
         ],
@@ -445,7 +474,7 @@
         "processing_status": "processed",
         "case_id": null,
         "case_engine_version": "case-v6.1",
-        "case_processed_at": "2026-08-26T19:38:19.560047+00:00"
+        "case_processed_at": "2026-08-26T19:58:49.726974+00:00"
       },
       {
         "id": "840f074bba58095dc40e5fac874f3b647dff323b",
@@ -453,7 +482,7 @@
         "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOSzFNX2FxTlhDeWt0UllXNnFsNkd2Z1g4Z2ZGSktMaGJJaTVxdVp6bmtUVmcySjRTT3lPeDFjWEh3ZkNiVmJoRXhlaUNndkRzVFBfZlBIX1dfWGhxQ2xOMXFuMklsQlRkeXhxV2RDOUNVVnU3cS1PMHIyTEtvUEJaMHB1cVhxdTZOSy1mVHhsVko5YXo2TVg1bS1zM2pSb1FyeUZka3VsQlRtWk55N1pkcg?oc=5",
         "source": "zonakabar.com",
         "published_at": "2026-08-26T15:31:25+00:00",
-        "collected_at": "2026-08-26T19:36:00.286123+00:00",
+        "collected_at": "2026-08-26T19:56:18.364145+00:00",
         "region": "LUAR JATIM",
         "area_label": "LUAR JATIM",
         "is_jatim": false,
@@ -464,7 +493,7 @@
         "priority": "low",
         "summary": "Pedagang Cimin Diduga Cabuli Tujuh Anak di Cirebon, Polisi Dalami Kemungkinan Korban Lain zonakabar.com",
         "classifier_version": "news-v6",
-        "classified_at": "2026-08-26T19:36:00.286123+00:00",
+        "classified_at": "2026-08-26T19:56:18.364145+00:00",
         "discovery_families": [],
         "discovery_tags": [],
         "discovery_hits": [],
@@ -472,7 +501,7 @@
         "processing_status": "processed",
         "case_id": null,
         "case_engine_version": "case-v6.1",
-        "case_processed_at": "2026-08-26T19:38:19.567097+00:00"
+        "case_processed_at": "2026-08-26T19:58:49.733668+00:00"
       },
       {
         "id": "20c5388a47c1e296c01b29df1277669b2468f6e7",
@@ -480,7 +509,7 @@
         "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQcjJPY3Q2b24waERUXzNETUZPX3pOR1UzWkdVbDYxQ183ZkNaMnNxQ1VKZ0ZCZjk1TEltMzZIQ2ZxeHBHRDdXYmxEaFBrR3RuajZHZXJhVGFGbnc2UkxMV2hHcDhYVVAtRERheHk4Rkp2UHltM1FZcjVEZ2M0THdZM2VpNU1pamo2dkkwLW5jLWQzMW9NckdLcjBUd1hmWXk1a1V0bDAyemt3MEhNU2Q0S9IBswFBVV95cUxNUUxRcEpLQjUwNEJRQmQ0ODkyRGp4RzR0TWJ2aGhWX09aa3Bwb2YwWHUtNkU1VVNFYUl6SWlLd3dKb1RiSnlvalAtWnVhWTlsdXVTT3FHbmdUQ0lBZzBNZFNKejV4cmstOFpVdEMycTB3cDRJWjIwc3lKX0V0aHNoVS00WTdXdTYxeGZTU2VReDgyVm1RZE1WSjFhZUV4dzE1SVpmYW9IX0NSTktXZmctLWpZQQ?oc=5",
         "source": "ANTARA News",
         "published_at": "2026-08-26T15:28:26+00:00",
-        "collected_at": "2026-08-26T19:36:00.286123+00:00",
+        "collected_at": "2026-08-26T19:56:18.364145+00:00",
         "region": "LUAR JATIM",
         "area_label": "LUAR JATIM",
         "is_jatim": false,
@@ -491,7 +520,7 @@
         "priority": "low",
         "summary": "Polisi tangkap terduga pelaku begal gunakan airsoft gun di Pulogadung ANTARA News",
         "classifier_version": "news-v6",
-        "classified_at": "2026-08-26T19:36:00.286123+00:00",
+        "classified_at": "2026-08-26T19:56:18.364145+00:00",
         "discovery_families": [],
         "discovery_tags": [],
         "discovery_hits": [],
@@ -499,7 +528,7 @@
         "processing_status": "processed",
         "case_id": null,
         "case_engine_version": "case-v6.1",
-        "case_processed_at": "2026-08-26T19:38:19.574117+00:00"
+        "case_processed_at": "2026-08-26T19:58:49.740302+00:00"
       },
       {
         "id": "c5cdd51b64abd8a9ee24e1f22888784d0d3328ab",
@@ -507,7 +536,7 @@
         "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOSF9kVHVVWVFIc2VnZmNhSGRjNEhXV2F5cUtuN0gtdG91RjZWNTRlRzhHYWlMUUg5NUpHVHIteFp1NW5YbXBuWTB0Qi0yV0IyZlpIZzcwdUtiYTNkSUxmZmNsSFAtdFpDajlTR2VPUEs5XzhIbE9vY0lBRUljclF1Rlg5WFgtRlVaMndwSkFqYzFVNE9wNHFqS0VQT1o3bmxMUnNWSVVHcVF4VnhWYUZJU3YyWXZYbmRVRGlrOdIBwgFBVV95cUxQNmpjX0tmTktIRUJkOHJrWkNiSnhDZVIxb1lfS2paaTh0LUFjVmhxSUNOVnU4bWlwRFkzUFdMQVFKYXFiWVF4dHlvb1VIcnNnQV9MNEJzMXktamNTZElmUVB5bF9mYnFnZDBraVp6ZDhHY0ttMW1GOHVwVkUtZnUtbUYxRTRlUzNoZGFIdVpnajl2VVQyMm1DTzVDSkFkd2dRTklQUlhVcmN0c01EeXpjbVJSemlqbHY2cFVIVFBDUlRaQQ?oc=5",
         "source": "KapanLagi.com",
         "published_at": "2026-08-26T15:20:00+00:00",
-        "collected_at": "2026-08-26T19:36:00.286123+00:00",
+        "collected_at": "2026-08-26T19:56:18.364145+00:00",
         "region": "LUAR JATIM",
         "area_label": "LUAR JATIM",
         "is_jatim": false,
@@ -518,7 +547,7 @@
         "priority": "low",
         "summary": "Polisi Ungkap Kondisi Kesehatan Revaldo Usai Tes Urine Positif KapanLagi.com",
         "classifier_version": "news-v6",
-        "classified_at": "2026-08-26T19:36:00.286123+00:00",
+        "classified_at": "2026-08-26T19:56:18.364145+00:00",
         "discovery_families": [],
         "discovery_tags": [],
         "discovery_hits": [],
@@ -526,7 +555,7 @@
         "processing_status": "processed",
         "case_id": null,
         "case_engine_version": "case-v6.1",
-        "case_processed_at": "2026-08-26T19:38:19.585618+00:00"
+        "case_processed_at": "2026-08-26T19:58:49.746567+00:00"
       },
       {
         "id": "4778b1893d249f52a19f1b02e216e1babfaaadb4",
@@ -534,7 +563,7 @@
         "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNdm8xbFpYN3ZXLWxNUDJLb3ltZDBySmMxNkpIMWY0eHF6VnRLVkQxMzdnbjFhSGh6VHF2UXNFdG1DTkhNYVZLeGRPeGctNHZ3YlFEME4xa3FJNkFLZWo2QVdkX0NxZnBWSDV4em9SS1pKZVVBMFRBa29hajNDRlU3YXBoSHEtX3ZheXFLX3lWOHZLTTBRV2xtZjJjbmdPeWl1WE56TjBhMA?oc=5",
         "source": "MetroTVNews.com",
         "published_at": "2026-08-26T15:06:36+00:00",
-        "collected_at": "2026-08-26T19:36:00.286123+00:00",
+        "collected_at": "2026-08-26T19:56:18.364145+00:00",
         "region": "LUAR JATIM",
         "area_label": "LUAR JATIM",
         "is_jatim": false,
@@ -545,7 +574,7 @@
         "priority": "low",
         "summary": "Kantor BPBD Puncak Papua Tengah Diduga Dibakar, Polisi Selidiki MetroTVNews.com",
         "classifier_version": "news-v6",
-        "classified_at": "2026-08-26T19:36:00.286123+00:00",
+        "classified_at": "2026-08-26T19:56:18.364145+00:00",
         "discovery_families": [],
         "discovery_tags": [],
         "discovery_hits": [],
@@ -553,7 +582,34 @@
         "processing_status": "processed",
         "case_id": null,
         "case_engine_version": "case-v6.1",
-        "case_processed_at": "2026-08-26T19:38:19.592650+00:00"
+        "case_processed_at": "2026-08-26T19:58:49.751434+00:00"
+      },
+      {
+        "id": "d5beeeea1b343e19498f0801899c3b0ed30ca3c9",
+        "title": "Polisi Bongkar Peredaran Sabu di Terusan Nunyai Lampung Tengah Berkat Laporan Warga - Tribunlampung.co.id",
+        "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOMHlLS205VnpuX2tuN1FNRkstX2E3NFVxQmNzVUh6cGpRSlNMZWpQRkdMQ0VXNlpQRks5MFFWSnJXaXNINFZ6Nk5tZnA4cnczR0Niamsya3BUMW9xVGFFdmxDQ3d0SjBKZnpGVnFKWFdYVmhCSU9hZ1JvRHVNYklSeDlUenAwTmdSYmJQTGppS091dzlrLTF2SFVSb2dELU5STlhUSERSQzlmS1dzRGZDc29VbmZrcVNkRjZwdVg4Q2dKeDlvMzBIY01B?oc=5",
+        "source": "Tribunlampung.co.id",
+        "published_at": "2026-08-26T15:05:00+00:00",
+        "collected_at": "2026-08-26T19:56:18.364145+00:00",
+        "region": "LUAR JATIM",
+        "area_label": "LUAR JATIM",
+        "is_jatim": false,
+        "polres": null,
+        "category": "NETRAL / LAINNYA",
+        "scope": "neutral",
+        "scope_label": "NETRAL",
+        "priority": "low",
+        "summary": "Polisi Bongkar Peredaran Sabu di Terusan Nunyai Lampung Tengah Berkat Laporan Warga Tribunlampung.co.id",
+        "classifier_version": "news-v6",
+        "classified_at": "2026-08-26T19:56:18.364145+00:00",
+        "discovery_families": [],
+        "discovery_tags": [],
+        "discovery_hits": [],
+        "discovery_version": "discovery-v6",
+        "processing_status": "processed",
+        "case_id": null,
+        "case_engine_version": "case-v6.1",
+        "case_processed_at": "2026-08-26T19:58:49.759464+00:00"
       }
     ],
     "jatim_items": [
@@ -563,7 +619,7 @@
         "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNWFdJc0xQdzlvMksyYzJtdFRTQk1CaG83TmtxMC13SnZaVWhMRTVOZFNfVFZURjkwU251cWNWdndCMWNqaVBFNUNUMlpUR0FlNnA0XzVjQ091dDZmbDFfNlM3SFdHdU9JbEN1cHRSNVJjZkp5SzAzQ25QUEozNmFyZHJzN1FRV2lsaHpHUUdOTVZFQlppUGFFdjE2cmZGY3Z1Y1BHVTB5b1NoV2EwWUFOX0dLU3Npc19XY2xwTUc5QWxNdw?oc=5",
         "source": "Nusantara Abadi News",
         "published_at": "2026-08-26T19:05:24+00:00",
-        "collected_at": "2026-08-26T19:36:00.286123+00:00",
+        "collected_at": "2026-08-26T19:56:18.364145+00:00",
         "region": "Jawa Timur",
         "area_label": "POLRES MADIUN",
         "is_jatim": true,
@@ -574,7 +630,7 @@
         "priority": "low",
         "summary": "Ladima Tours & Travel Dilaporkan ke Polres Madiun, Jemaah Tak Kunjung Berangkat Haji Nusantara Abadi News",
         "classifier_version": "news-v6",
-        "classified_at": "2026-08-26T19:36:00.286123+00:00",
+        "classified_at": "2026-08-26T19:56:18.364145+00:00",
         "discovery_families": [],
         "discovery_tags": [],
         "discovery_hits": [],
@@ -582,7 +638,7 @@
         "processing_status": "processed",
         "case_id": null,
         "case_engine_version": "case-v6.1",
-        "case_processed_at": "2026-08-26T19:38:19.462922+00:00"
+        "case_processed_at": "2026-08-26T19:58:49.628970+00:00"
       },
       {
         "id": "0ac456732c0e06216e5ac798f93d0462314541f8",
@@ -590,7 +646,7 @@
         "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPYUpNRTVGMkUwLVlXYl9HTUNwUEMzcmI1TTRPYXZyMlBEcEVrdXlXVW1yNEdJWE4zdGQ1Qjg0bW5Tbkt1R25SUDAtNG0zaTJVSkdnYnlKRy1mZXFaeUJUdktBdHBETGpnVm5xTjdydFNONkVsVmpZZXBoZGJ2S1dnd0lZcE4xUk5fZU9WUUwtSGxJNno4NlVKTkp2Q0E?oc=5",
         "source": "Kabarindoraya.com",
         "published_at": "2026-08-26T18:13:55+00:00",
-        "collected_at": "2026-08-26T19:36:00.286123+00:00",
+        "collected_at": "2026-08-26T19:56:18.364145+00:00",
         "region": "Jawa Timur",
         "area_label": "POLRES BATU",
         "is_jatim": true,
@@ -601,7 +657,7 @@
         "priority": "low",
         "summary": "Polres Batu Bara Release Ungkap 10 Kasus 3 C Selama dua Bulan Terakhir Kabarindoraya.com",
         "classifier_version": "news-v6",
-        "classified_at": "2026-08-26T19:36:00.286123+00:00",
+        "classified_at": "2026-08-26T19:56:18.364145+00:00",
         "discovery_families": [],
         "discovery_tags": [],
         "discovery_hits": [],
@@ -609,7 +665,7 @@
         "processing_status": "processed",
         "case_id": null,
         "case_engine_version": "case-v6.1",
-        "case_processed_at": "2026-08-26T19:38:19.474704+00:00"
+        "case_processed_at": "2026-08-26T19:58:49.639854+00:00"
       },
       {
         "id": "75b0fcd121a4960efbc0d50da30cb0bdeca6bd72",
@@ -617,7 +673,7 @@
         "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNOF85R19jR2gzVWo0MkNsdGRWMEdDNGdZR190TEFBY3o3V1hTeGtkRmZ0RlRLUm15UzFPVXRVQzJoeG9qX3Q2X2FwdFRkSVlhb2wtOTRGMnBCMEpqTm9iZXdyOTBwSElFNlJGOUFZSjhzdzkyR014SndobHFPaE5kQnJYSFhLWEdGN1ZwLVlvTFNUM2NidXhhX2g1OG9lamlONHRvaXZVdFBwdnI5Mk9ZOEJCdl9lUjZZS3FKSG83ZFpUZWE1?oc=5",
         "source": "polreskedirikota.com",
         "published_at": "2026-08-26T17:29:20+00:00",
-        "collected_at": "2026-08-26T19:36:00.286123+00:00",
+        "collected_at": "2026-08-26T19:56:18.364145+00:00",
         "region": "Jawa Timur",
         "area_label": "Jawa Timur",
         "is_jatim": true,
@@ -628,7 +684,7 @@
         "priority": "low",
         "summary": "Polsek Mojoroto Kediri Perkuat Patroli Malam, Perbankan hingga Permukiman Jadi Sasaran Pengawasan polreskedirikota.com",
         "classifier_version": "news-v6",
-        "classified_at": "2026-08-26T19:36:00.286123+00:00",
+        "classified_at": "2026-08-26T19:56:18.364145+00:00",
         "discovery_families": [],
         "discovery_tags": [],
         "discovery_hits": [],
@@ -636,17 +692,44 @@
         "processing_status": "processed",
         "case_id": null,
         "case_engine_version": "case-v6.1",
-        "case_processed_at": "2026-08-26T19:38:19.512485+00:00"
+        "case_processed_at": "2026-08-26T19:58:49.675398+00:00"
+      },
+      {
+        "id": "eb299896e87cd0282a4552d3020c69bf975bec87",
+        "title": "Polresta Sumenep Buka Stand Pembangunan di Madura Night Vaganza 2026, Bukti Polisi Hadir dan Dekat dengan Masyarakat - Detikzone",
+        "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxPaDhSOUdETkNqZzRRcWNmaWRzNC0yZTJnYzhKNnFBUWQ1NTd5RE1FNmJQbFJNT2trb1VoaE13bENyLU1CbEl5R2lqeGlVaUpESk45WW01LTJDTDUySzU1bFFDcWRaM1BYd2p6Tkk4djR3ZTlWZXh3MHpEZHQzeTRXQ18yeXpaRlRVekd2cG9YQVZGN195cjF0Ti1XMDlKa21XdzE2aDZqQjlNWnVJdm1kUlVIemJPVWJwdXpBcGxXVFd5Nm11dlJvSDFYQzA4dkFYeUZyV2YzZmg1SmJsQnR6Vm9B?oc=5",
+        "source": "Detikzone",
+        "published_at": "2026-08-26T16:28:24+00:00",
+        "collected_at": "2026-08-26T19:56:18.364145+00:00",
+        "region": "Jawa Timur",
+        "area_label": "POLRESTA SUMENEP",
+        "is_jatim": true,
+        "polres": "POLRESTA SUMENEP",
+        "category": "NETRAL / LAINNYA",
+        "scope": "neutral",
+        "scope_label": "NETRAL",
+        "priority": "low",
+        "summary": "Polresta Sumenep Buka Stand Pembangunan di Madura Night Vaganza 2026, Bukti Polisi Hadir dan Dekat dengan Masyarakat Detikzone",
+        "classifier_version": "news-v6",
+        "classified_at": "2026-08-26T19:56:18.364145+00:00",
+        "discovery_families": [],
+        "discovery_tags": [],
+        "discovery_hits": [],
+        "discovery_version": "discovery-v6",
+        "processing_status": "processed",
+        "case_id": null,
+        "case_engine_version": "case-v6.1",
+        "case_processed_at": "2026-08-26T19:58:49.694423+00:00"
       }
     ],
     "luar_jatim_items": [
       {
-        "id": "ac72bc04472d2262d1ca482d5a838f737c29d584",
+        "id": "82e04bc850bd9946084553a3437cf6e7b695787f",
         "title": "Polisi Ungkap Alasan Revaldo Pakai Narkoba Lagi - JPNN.com",
-        "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxQQ3RvZ2JXS24zVVlkQWVwQzI5Q3cyRGxNZFphVVhJeGNRdzNjdWo0Vk1xZTVBRWZCVlEzR3hFMnBocHN6aVJlYkpmbFBTTzY3YzNGUFNiQ05HNVAtakhCWXZPRXhNZ1N0Z041bDJmTUhNMGM0RmgyNXNLM3RfTzRwWmhOcTJBREVQODZwSjZrNkdyZ2Y1RmIxX3oyYXBtVjBWRmFIVDFFX2NjNEFBY2pCZDBYSGNDOWVEaENINDcwVlhFYXF4VkZLM1U0bXotTDhVY1ZEVEw2Q3dGZk53b3l6dXg0M2YycEXSAYABQVVfeXFMTUFDR0hDY3Z1c2ZRRE1iZGFjejRQbWtWYTZRRkhmMWF2bE9iQ3dfN21rd2NGSDh5OGVPQkU0TzBNMUtYdWRPYUVpQ1U0M0lXaXp4ckhqN3FpZFA2VnIwRFg5anh5dUk1MjlYdFBjVlQxZzNkQUN2NEdsMmFZMjduUlo?oc=5",
+        "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE95YnYwTVEwbUlGWm5XcVRxOHlsWHFwZFpKOFlUajh0UEtyZlRYU2FQUDBaWlR1Q1Z5bG1neWVSLVNOeUdKS3NEZVg3VDc0OFNzbFZTaGktS0NVVy1FRzl3b1pLbU9NM1hvUU56QkZlbklzbXNOZ09hY1VPXy1ZQdIBgAFBVV95cUxNQUNHSENjdnVzZlFETWJkYWN6NFBta1ZhNlFGSGYxYXZsT2JDd183bWt3Y0ZIOHk4ZU9CRTRPME0xS1h1ZE9hRWlDVTQzSVdpenhySGo3cWlkUDZWcjBEWDlqeHl1STUyOVh0UGNWVDFnM2RBQ3Y0R2wyYVkyN25SWg?oc=5",
         "source": "JPNN.com",
         "published_at": "2026-08-26T19:02:00+00:00",
-        "collected_at": "2026-08-26T19:36:00.286123+00:00",
+        "collected_at": "2026-08-26T19:56:18.364145+00:00",
         "region": "LUAR JATIM",
         "area_label": "LUAR JATIM",
         "is_jatim": false,
@@ -657,7 +740,7 @@
         "priority": "low",
         "summary": "Polisi Ungkap Alasan Revaldo Pakai Narkoba Lagi JPNN.com",
         "classifier_version": "news-v6",
-        "classified_at": "2026-08-26T19:36:00.286123+00:00",
+        "classified_at": "2026-08-26T19:56:18.364145+00:00",
         "discovery_families": [],
         "discovery_tags": [],
         "discovery_hits": [],
@@ -665,7 +748,7 @@
         "processing_status": "processed",
         "case_id": null,
         "case_engine_version": "case-v6.1",
-        "case_processed_at": "2026-08-26T19:38:19.468374+00:00"
+        "case_processed_at": "2026-08-26T19:58:49.634043+00:00"
       },
       {
         "id": "891cfac0a451bed5caac6979eb72b640b798d81f",
@@ -673,7 +756,7 @@
         "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxPMVFldk5IdWJqWTNNR2k3TzNETkh1UldQdXBoMy0yWm91Q18yOTU5Y195ejNEWDZGZV9sRl9GNjl2SE8zT3FmamV3QUFTaTZrRnNNdXRNUXo0RkExMFptY3p5TEtDamk3XzJRQmtmWXp4X21QUnJiVzh2RW90bkNWYVU5TXVUTzJLWEZaSmM1YTVLV2VVcjVMS0JEQTh0RUFDYTBPZEpzT1pGVzh6VEZ6Z29LNXQxQ05rR21rcEZKWHZxcGUxQ2c0djdwdzNwYnU0cUpIeGIzNUJrNlVOa3BHUnZONmw0dFnSAewBQVVfeXFMTURWek9WdmNXc2R1aURwNXRYOWFhZGpvb0RBM2RnMEFnZVJQNGJzM1FaMlptM1pESEVzYzdZUm51UmNnaGpWcFhUa2Z3Y2hBTldSV2ppR1hKSFJHYkFYdmtadmhIOXNUdVppMDl4VWVJVGVOcHFVcXV3WTdWd2RjMTJFbVVwS1o1azNNYURoMXF2N2xjLWRDaEVhbEpTeFNsdVo4a1lEU2RvNi1aLTBTRHpYTTlxLXRZN2RIRnhEYTRBMnYxLTFJSjdfaV9HM3FnY1ZlNVhzUmRabXNMSEFxZElZWF9IX0ZNZEwwWkM?oc=5",
         "source": "viva.co.id",
         "published_at": "2026-08-26T17:50:00+00:00",
-        "collected_at": "2026-08-26T19:36:00.286123+00:00",
+        "collected_at": "2026-08-26T19:56:18.364145+00:00",
         "region": "LUAR JATIM",
         "area_label": "LUAR JATIM",
         "is_jatim": false,
@@ -684,7 +767,7 @@
         "priority": "low",
         "summary": "Ruben Onsu Belum Konfirmasi Hadiri Pemeriksaan Sebagai Tersangka, Polisi Ungkap Apa yang Terjadi Jika Mangkir viva.co.id",
         "classifier_version": "news-v6",
-        "classified_at": "2026-08-26T19:36:00.286123+00:00",
+        "classified_at": "2026-08-26T19:56:18.364145+00:00",
         "discovery_families": [],
         "discovery_tags": [],
         "discovery_hits": [],
@@ -692,7 +775,7 @@
         "processing_status": "processed",
         "case_id": null,
         "case_engine_version": "case-v6.1",
-        "case_processed_at": "2026-08-26T19:38:19.482475+00:00"
+        "case_processed_at": "2026-08-26T19:58:49.647044+00:00"
       },
       {
         "id": "65a7bad90cddadb69b67c32b2bc214928c2c0146",
@@ -700,7 +783,7 @@
         "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNazgxQkdxMlZVWGJDWXFvSWJ3b3R0UC1fZ2ZqVnU0d3E0QXNZMUlfZHpoZlJyTjFPbDFRYW1Qb25fUEVST3FtNUluc0RXa0RfTElXNlY3VjVSZGVscVpWUzdBZ1NRTFlMc0lZZ3JtOURHNDZ3MndVQk1Obnh3Rlc2cmZEUFRhMmJsN2tpUTJTTmE1dFNFX3hWLXdQQzVVQ0xiaFMwcGl5NG9yT0tVbHc?oc=5",
         "source": "polreskedirikota.com",
         "published_at": "2026-08-26T17:39:10+00:00",
-        "collected_at": "2026-08-26T19:36:00.286123+00:00",
+        "collected_at": "2026-08-26T19:56:18.364145+00:00",
         "region": "LUAR JATIM",
         "area_label": "LUAR JATIM",
         "is_jatim": false,
@@ -711,7 +794,7 @@
         "priority": "low",
         "summary": "Polri Gelar Senam Trauma Healing untuk Bangkitkan Semangat Pengungsi Pascagempa polreskedirikota.com",
         "classifier_version": "news-v6",
-        "classified_at": "2026-08-26T19:36:00.286123+00:00",
+        "classified_at": "2026-08-26T19:56:18.364145+00:00",
         "discovery_families": [],
         "discovery_tags": [],
         "discovery_hits": [],
@@ -719,7 +802,7 @@
         "processing_status": "processed",
         "case_id": null,
         "case_engine_version": "case-v6.1",
-        "case_processed_at": "2026-08-26T19:38:19.489292+00:00"
+        "case_processed_at": "2026-08-26T19:58:49.653642+00:00"
       },
       {
         "id": "3bcf2cce57d6d1524c5bf176c12e66722f9f6850",
@@ -727,7 +810,7 @@
         "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNcFVvWmpUVDJ1RG1PZ1NJNkM2a3lYclkzWG1TSmpoNHhBMFk2TWxabTdCdUViVDNUemZoYmd0QUhHNkpuWUwwaGlMX3FIUTlSemdhUDk4VFpxTWh3d0UyM0ZTRHYzY1FvaVJGRTl3Q1UzYU1adVh4akVNOEdlQ1RUems2cTM5dTZRaFJmbWhac3diNGowei1XbmhDN3YwTXFFS3cyZUVKbFhZQWpYRHRqbXJDMnBGZ1FUM3NF?oc=5",
         "source": "polreskedirikota.com",
         "published_at": "2026-08-26T17:35:07+00:00",
-        "collected_at": "2026-08-26T19:36:00.286123+00:00",
+        "collected_at": "2026-08-26T19:56:18.364145+00:00",
         "region": "LUAR JATIM",
         "area_label": "LUAR JATIM",
         "is_jatim": false,
@@ -738,7 +821,7 @@
         "priority": "low",
         "summary": "Polri Siap Berikan Pelayanan agar Penyampaian Aspirasi Berjalan Damai, Tertib dan Kondusif polreskedirikota.com",
         "classifier_version": "news-v6",
-        "classified_at": "2026-08-26T19:36:00.286123+00:00",
+        "classified_at": "2026-08-26T19:56:18.364145+00:00",
         "discovery_families": [],
         "discovery_tags": [],
         "discovery_hits": [],
@@ -746,7 +829,7 @@
         "processing_status": "processed",
         "case_id": null,
         "case_engine_version": "case-v6.1",
-        "case_processed_at": "2026-08-26T19:38:19.496824+00:00"
+        "case_processed_at": "2026-08-26T19:58:49.660758+00:00"
       },
       {
         "id": "9c7a72938e32549308514a59a90f03cb481e9453",
@@ -754,7 +837,7 @@
         "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPZUp2NS1WNkNNbUlqYkdyOEM3ZXBUYUhXNVAwd25NQ0RvZE9DR1p5UmVQRXg1bVRRV21kUExQVS1NdnBoY2VpSm8zOTJpd2NQTGdfaVYtaHAyNmF4QW9fSnc3TFY2YUtaYmJNVTRmNnYzM2d5cEhYSnl0YXR3bEdONDhpcDNNWm00VFQ0bGl2bFZDNTlReW9Jd2hOa2pZSVNULW04UW5UdFhWR2JKNW84M3BOeHhCUQ?oc=5",
         "source": "polreskedirikota.com",
         "published_at": "2026-08-26T17:33:53+00:00",
-        "collected_at": "2026-08-26T19:36:00.286123+00:00",
+        "collected_at": "2026-08-26T19:56:18.364145+00:00",
         "region": "LUAR JATIM",
         "area_label": "LUAR JATIM",
         "is_jatim": false,
@@ -765,7 +848,7 @@
         "priority": "low",
         "summary": "Polri Tegaskan Komitmen Jaga Demokrasi, Ajak Masyarakat Perkuat Persatuan dan Kesatuan polreskedirikota.com",
         "classifier_version": "news-v6",
-        "classified_at": "2026-08-26T19:36:00.286123+00:00",
+        "classified_at": "2026-08-26T19:56:18.364145+00:00",
         "discovery_families": [],
         "discovery_tags": [],
         "discovery_hits": [],
@@ -773,7 +856,7 @@
         "processing_status": "processed",
         "case_id": null,
         "case_engine_version": "case-v6.1",
-        "case_processed_at": "2026-08-26T19:38:19.504634+00:00"
+        "case_processed_at": "2026-08-26T19:58:49.668070+00:00"
       },
       {
         "id": "0221b86a036dd8461fbef020e50fa436567039e5",
@@ -781,7 +864,7 @@
         "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNUVBXQUh1dUxJRE1pQUFMdGU0dGYxN0diS0pycTdmMmVKNl8wcnRfWXBXTkIzQTd0VjhuZ3pFTjJxRmV3dHpGajF3VEIwR1dadVZiYjVvcTB2cDZkcEpwVlFvSHVwd0w2ak9SNF9yQ2FRemFGRGU1YjJBWnNzMlhDRXEySF90ZE5qSWdXUVRQblZxQTJwNGdtU0V5R3J6UTZva2NDUElmVUFxc0RJMXR3?oc=5",
         "source": "tinta nusantara",
         "published_at": "2026-08-26T17:18:42+00:00",
-        "collected_at": "2026-08-26T19:36:00.286123+00:00",
+        "collected_at": "2026-08-26T19:56:18.364145+00:00",
         "region": "LUAR JATIM",
         "area_label": "LUAR JATIM",
         "is_jatim": false,
@@ -792,7 +875,7 @@
         "priority": "low",
         "summary": "Konfirmasi Jalan Rusak Berujung Dugaan Pengeroyokan, PJS Desak Polisi Usut Tuntas tinta nusantara",
         "classifier_version": "news-v6",
-        "classified_at": "2026-08-26T19:36:00.286123+00:00",
+        "classified_at": "2026-08-26T19:56:18.364145+00:00",
         "discovery_families": [],
         "discovery_tags": [],
         "discovery_hits": [],
@@ -800,7 +883,7 @@
         "processing_status": "processed",
         "case_id": null,
         "case_engine_version": "case-v6.1",
-        "case_processed_at": "2026-08-26T19:38:19.518612+00:00"
+        "case_processed_at": "2026-08-26T19:58:49.681215+00:00"
       },
       {
         "id": "f35426eb770a58a6a430da5f535f3a8637d16210",
@@ -808,7 +891,7 @@
         "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOcjVoWUR4T3dJUVphWmlrempaYUl5Q1pUTmJwZHRkSmtZb1UxN0FhbUoxdkd2RmFLb2RSUlhEeHlRQmY0V0wyZmxIX1Y0RlJhdnhoTkkyN0w4QUJsOFc2dkFjRU11SjgwbWVOWHlITjZ0am9YT1JpXzZqU1NWR2pTcDVJaG5uc0FQV1BzbTVENGZrYy0zQW5MUkdGVzVySlFaZlEwN0wwYTZZN0VZNXZBTEdB?oc=5",
         "source": "SultengTerkini",
         "published_at": "2026-08-26T16:59:00+00:00",
-        "collected_at": "2026-08-26T19:36:00.286123+00:00",
+        "collected_at": "2026-08-26T19:56:18.364145+00:00",
         "region": "LUAR JATIM",
         "area_label": "LUAR JATIM",
         "is_jatim": false,
@@ -819,7 +902,7 @@
         "priority": "low",
         "summary": "Polisi Tangkap Dua Pencuri iPhone di Palu, Satu Ternyata Residivis Curanmor SultengTerkini",
         "classifier_version": "news-v6",
-        "classified_at": "2026-08-26T19:36:00.286123+00:00",
+        "classified_at": "2026-08-26T19:56:18.364145+00:00",
         "discovery_families": [],
         "discovery_tags": [],
         "discovery_hits": [],
@@ -827,7 +910,7 @@
         "processing_status": "processed",
         "case_id": null,
         "case_engine_version": "case-v6.1",
-        "case_processed_at": "2026-08-26T19:38:19.525602+00:00"
+        "case_processed_at": "2026-08-26T19:58:49.687880+00:00"
       },
       {
         "id": "8be1ca8b4af214988b1b165698411323fc743213",
@@ -835,7 +918,7 @@
         "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQZ3VwVHo5UFpLNWxvbE5qc3JnSTBjX2FiZy12UmZJelJSTFgzcFF2OE9ycDhEMzdMejhKYlpUZlMzY19wcWhBZmVKc0x6X3pNSEh3eE1sUVMxRUN3QmxqUGhiTlZSTmtTNHBISWVic2JHQnIydTdHVllHZy1TZUlqNXdVZnFQeWVpMFlOVWFsS1M2dm1YaHhFU09Sd1JOc05mT0t0T1IxQ1g5OVVlTmVCOEw2b2ZuQjc3SUJKM0Zn?oc=5",
         "source": "IndoSatuNews.com",
         "published_at": "2026-08-26T16:05:13+00:00",
-        "collected_at": "2026-08-26T19:36:00.286123+00:00",
+        "collected_at": "2026-08-26T19:56:18.364145+00:00",
         "region": "LUAR JATIM",
         "area_label": "LUAR JATIM",
         "is_jatim": false,
@@ -846,7 +929,7 @@
         "priority": "low",
         "summary": "Masuk DPO, Tiga Polisi Ditembak Oleh Bandar Narkoba Dan Senjata Api Rakitan Di Acara Orgen Musik IndoSatuNews.com",
         "classifier_version": "news-v6",
-        "classified_at": "2026-08-26T19:36:00.286123+00:00",
+        "classified_at": "2026-08-26T19:56:18.364145+00:00",
         "discovery_families": [],
         "discovery_tags": [],
         "discovery_hits": [],
@@ -854,7 +937,7 @@
         "processing_status": "processed",
         "case_id": null,
         "case_engine_version": "case-v6.1",
-        "case_processed_at": "2026-08-26T19:38:19.534540+00:00"
+        "case_processed_at": "2026-08-26T19:58:49.702823+00:00"
       },
       {
         "id": "ec0511f3e76c7622397e30625ccb6137d2c17998",
@@ -862,7 +945,7 @@
         "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNd1djUl92b1lPbWhzODN6cWt2OGRRMlR2WHJjUUQ4NmRHc3Y5ZzJ1M0ZlRFhZRGVSUEFtS25PbEp6LTJBUVBwMGxiWXlMejFwQWw3YjN5UUZwTHBDd0sxMHMwdnFHb3ZucEFudU4zYWY0LXZzVTNYbG9PV2EyRDE4Ujh4SGh5NThTUnltMmlETmFaN25LRWJnZXlwdkxDTUF3V0VFSFpnVkpOdjZyVmVsQjBHMnRjZG5ic2owb1NR?oc=5",
         "source": "Kompas.com",
         "published_at": "2026-08-26T15:55:00+00:00",
-        "collected_at": "2026-08-26T19:36:00.286123+00:00",
+        "collected_at": "2026-08-26T19:56:18.364145+00:00",
         "region": "LUAR JATIM",
         "area_label": "LUAR JATIM",
         "is_jatim": false,
@@ -873,7 +956,7 @@
         "priority": "low",
         "summary": "Kebakaran Kantor BPBD Puncak Papua Diduga Disengaja, Polisi Selidiki Kompas.com",
         "classifier_version": "news-v6",
-        "classified_at": "2026-08-26T19:36:00.286123+00:00",
+        "classified_at": "2026-08-26T19:56:18.364145+00:00",
         "discovery_families": [],
         "discovery_tags": [],
         "discovery_hits": [],
@@ -881,7 +964,7 @@
         "processing_status": "processed",
         "case_id": null,
         "case_engine_version": "case-v6.1",
-        "case_processed_at": "2026-08-26T19:38:19.539641+00:00"
+        "case_processed_at": "2026-08-26T19:58:49.707648+00:00"
       },
       {
         "id": "a3d376479be7e633369a388352c2b1930e13f92f",
@@ -889,7 +972,7 @@
         "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQYVUzQktFaTdNcmE4OFB3WWpxa0o4LS1NRG8wYU1reTdYVVFyT0RPZlhHaDV2MjVUbzU0S1BrUHFEYWxLNXhGbi10MmFMaVRFRm1sMW9NWExqU3Z5QmlWbVdtNHlFWkZJUjVscjdDeE9PWDlNUzVBMEZMVTZhRm5PZk44V1pXNm1ZczdpMjVxVldzclNzRmdQTHRSTEtOUnVucU5qMEdHQkI4Nl9uY1pVSHVwaHpXTGNrUWc?oc=5",
         "source": "Tras Berita Babel",
         "published_at": "2026-08-26T15:51:08+00:00",
-        "collected_at": "2026-08-26T19:36:00.286123+00:00",
+        "collected_at": "2026-08-26T19:56:18.364145+00:00",
         "region": "LUAR JATIM",
         "area_label": "LUAR JATIM",
         "is_jatim": false,
@@ -900,7 +983,7 @@
         "priority": "low",
         "summary": "4,9 Ton Mineral Diduga Ilegal Tertahan di Gerbang Bangka, Polisi Buru Jaringan Pengirimannya Tras Berita Babel",
         "classifier_version": "news-v6",
-        "classified_at": "2026-08-26T19:36:00.286123+00:00",
+        "classified_at": "2026-08-26T19:56:18.364145+00:00",
         "discovery_families": [],
         "discovery_tags": [],
         "discovery_hits": [],
@@ -908,7 +991,7 @@
         "processing_status": "processed",
         "case_id": null,
         "case_engine_version": "case-v6.1",
-        "case_processed_at": "2026-08-26T19:38:19.546806+00:00"
+        "case_processed_at": "2026-08-26T19:58:49.714348+00:00"
       },
       {
         "id": "5b41057b646a2926d88694e22bc38240d9ea48f9",
@@ -916,7 +999,7 @@
         "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNYjZ5VzZUMjZzdEdVcXdOMkx0RFFYUG8tVlhhUkgtQ3RFelEyWWZ6Um93NTR1cHFtVTRvc2Y4MG1pd3Rza3BILUZxS2tHR3p1RjY4YkRfZWR0RDZ4bXlER3NZbi1ESEtxY0tzbVp0OC1NUElickZfUGN1bFZTaDRabUwyMF9HYW5EaXVwZmJRMmRTUDVON0E?oc=5",
         "source": "Sudutpandang.id",
         "published_at": "2026-08-26T15:46:33+00:00",
-        "collected_at": "2026-08-26T19:36:00.286123+00:00",
+        "collected_at": "2026-08-26T19:56:18.364145+00:00",
         "region": "LUAR JATIM",
         "area_label": "LUAR JATIM",
         "is_jatim": false,
@@ -927,7 +1010,7 @@
         "priority": "low",
         "summary": "Polisi Ungkap Alasan Ruben Onsu Belum Ditahan Meski Jadi Tersangka Sudutpandang.id",
         "classifier_version": "news-v6",
-        "classified_at": "2026-08-26T19:36:00.286123+00:00",
+        "classified_at": "2026-08-26T19:56:18.364145+00:00",
         "discovery_families": [],
         "discovery_tags": [],
         "discovery_hits": [],
@@ -935,7 +1018,7 @@
         "processing_status": "processed",
         "case_id": null,
         "case_engine_version": "case-v6.1",
-        "case_processed_at": "2026-08-26T19:38:19.553886+00:00"
+        "case_processed_at": "2026-08-26T19:58:49.721082+00:00"
       },
       {
         "id": "18a9dd4b3b45ec271dcb04110de10438a6db65ee",
@@ -943,7 +1026,7 @@
         "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNTkRpdGJtNlEwV0xJb2JnWDZ4MFZveXhDS1ljdGdJcWdXU212VlJ2c1RGMFhxYVFFZGhtVWcwNFJyLXZMT3l1cmZqeFFnZl9JU24ybmJoSzBzcnUwdlJwMkFQZ21yWk5XNFJfekN6WEJYUnN6WDdTUGJERGVNOUlySnN2X1J5dHNyeXF3c2x0ZHRibFotQXc?oc=5",
         "source": "Malang Posco Media",
         "published_at": "2026-08-26T15:41:25+00:00",
-        "collected_at": "2026-08-26T19:36:00.286123+00:00",
+        "collected_at": "2026-08-26T19:56:18.364145+00:00",
         "region": "LUAR JATIM",
         "area_label": "LUAR JATIM",
         "is_jatim": false,
@@ -954,7 +1037,7 @@
         "priority": "low",
         "summary": "Jakarta Digoyang Unjuk Rasa, Malang Gelar Pasukan Kesiapsiagaan Malang Posco Media",
         "classifier_version": "news-v6",
-        "classified_at": "2026-08-26T19:36:00.286123+00:00",
+        "classified_at": "2026-08-26T19:56:18.364145+00:00",
         "discovery_families": [
           "security_public_order"
         ],
@@ -969,7 +1052,7 @@
         "processing_status": "processed",
         "case_id": null,
         "case_engine_version": "case-v6.1",
-        "case_processed_at": "2026-08-26T19:38:19.560047+00:00"
+        "case_processed_at": "2026-08-26T19:58:49.726974+00:00"
       },
       {
         "id": "840f074bba58095dc40e5fac874f3b647dff323b",
@@ -977,7 +1060,7 @@
         "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOSzFNX2FxTlhDeWt0UllXNnFsNkd2Z1g4Z2ZGSktMaGJJaTVxdVp6bmtUVmcySjRTT3lPeDFjWEh3ZkNiVmJoRXhlaUNndkRzVFBfZlBIX1dfWGhxQ2xOMXFuMklsQlRkeXhxV2RDOUNVVnU3cS1PMHIyTEtvUEJaMHB1cVhxdTZOSy1mVHhsVko5YXo2TVg1bS1zM2pSb1FyeUZka3VsQlRtWk55N1pkcg?oc=5",
         "source": "zonakabar.com",
         "published_at": "2026-08-26T15:31:25+00:00",
-        "collected_at": "2026-08-26T19:36:00.286123+00:00",
+        "collected_at": "2026-08-26T19:56:18.364145+00:00",
         "region": "LUAR JATIM",
         "area_label": "LUAR JATIM",
         "is_jatim": false,
@@ -988,7 +1071,7 @@
         "priority": "low",
         "summary": "Pedagang Cimin Diduga Cabuli Tujuh Anak di Cirebon, Polisi Dalami Kemungkinan Korban Lain zonakabar.com",
         "classifier_version": "news-v6",
-        "classified_at": "2026-08-26T19:36:00.286123+00:00",
+        "classified_at": "2026-08-26T19:56:18.364145+00:00",
         "discovery_families": [],
         "discovery_tags": [],
         "discovery_hits": [],
@@ -996,7 +1079,7 @@
         "processing_status": "processed",
         "case_id": null,
         "case_engine_version": "case-v6.1",
-        "case_processed_at": "2026-08-26T19:38:19.567097+00:00"
+        "case_processed_at": "2026-08-26T19:58:49.733668+00:00"
       },
       {
         "id": "20c5388a47c1e296c01b29df1277669b2468f6e7",
@@ -1004,7 +1087,7 @@
         "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQcjJPY3Q2b24waERUXzNETUZPX3pOR1UzWkdVbDYxQ183ZkNaMnNxQ1VKZ0ZCZjk1TEltMzZIQ2ZxeHBHRDdXYmxEaFBrR3RuajZHZXJhVGFGbnc2UkxMV2hHcDhYVVAtRERheHk4Rkp2UHltM1FZcjVEZ2M0THdZM2VpNU1pamo2dkkwLW5jLWQzMW9NckdLcjBUd1hmWXk1a1V0bDAyemt3MEhNU2Q0S9IBswFBVV95cUxNUUxRcEpLQjUwNEJRQmQ0ODkyRGp4RzR0TWJ2aGhWX09aa3Bwb2YwWHUtNkU1VVNFYUl6SWlLd3dKb1RiSnlvalAtWnVhWTlsdXVTT3FHbmdUQ0lBZzBNZFNKejV4cmstOFpVdEMycTB3cDRJWjIwc3lKX0V0aHNoVS00WTdXdTYxeGZTU2VReDgyVm1RZE1WSjFhZUV4dzE1SVpmYW9IX0NSTktXZmctLWpZQQ?oc=5",
         "source": "ANTARA News",
         "published_at": "2026-08-26T15:28:26+00:00",
-        "collected_at": "2026-08-26T19:36:00.286123+00:00",
+        "collected_at": "2026-08-26T19:56:18.364145+00:00",
         "region": "LUAR JATIM",
         "area_label": "LUAR JATIM",
         "is_jatim": false,
@@ -1015,7 +1098,7 @@
         "priority": "low",
         "summary": "Polisi tangkap terduga pelaku begal gunakan airsoft gun di Pulogadung ANTARA News",
         "classifier_version": "news-v6",
-        "classified_at": "2026-08-26T19:36:00.286123+00:00",
+        "classified_at": "2026-08-26T19:56:18.364145+00:00",
         "discovery_families": [],
         "discovery_tags": [],
         "discovery_hits": [],
@@ -1023,7 +1106,7 @@
         "processing_status": "processed",
         "case_id": null,
         "case_engine_version": "case-v6.1",
-        "case_processed_at": "2026-08-26T19:38:19.574117+00:00"
+        "case_processed_at": "2026-08-26T19:58:49.740302+00:00"
       },
       {
         "id": "c5cdd51b64abd8a9ee24e1f22888784d0d3328ab",
@@ -1031,7 +1114,7 @@
         "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOSF9kVHVVWVFIc2VnZmNhSGRjNEhXV2F5cUtuN0gtdG91RjZWNTRlRzhHYWlMUUg5NUpHVHIteFp1NW5YbXBuWTB0Qi0yV0IyZlpIZzcwdUtiYTNkSUxmZmNsSFAtdFpDajlTR2VPUEs5XzhIbE9vY0lBRUljclF1Rlg5WFgtRlVaMndwSkFqYzFVNE9wNHFqS0VQT1o3bmxMUnNWSVVHcVF4VnhWYUZJU3YyWXZYbmRVRGlrOdIBwgFBVV95cUxQNmpjX0tmTktIRUJkOHJrWkNiSnhDZVIxb1lfS2paaTh0LUFjVmhxSUNOVnU4bWlwRFkzUFdMQVFKYXFiWVF4dHlvb1VIcnNnQV9MNEJzMXktamNTZElmUVB5bF9mYnFnZDBraVp6ZDhHY0ttMW1GOHVwVkUtZnUtbUYxRTRlUzNoZGFIdVpnajl2VVQyMm1DTzVDSkFkd2dRTklQUlhVcmN0c01EeXpjbVJSemlqbHY2cFVIVFBDUlRaQQ?oc=5",
         "source": "KapanLagi.com",
         "published_at": "2026-08-26T15:20:00+00:00",
-        "collected_at": "2026-08-26T19:36:00.286123+00:00",
+        "collected_at": "2026-08-26T19:56:18.364145+00:00",
         "region": "LUAR JATIM",
         "area_label": "LUAR JATIM",
         "is_jatim": false,
@@ -1042,7 +1125,7 @@
         "priority": "low",
         "summary": "Polisi Ungkap Kondisi Kesehatan Revaldo Usai Tes Urine Positif KapanLagi.com",
         "classifier_version": "news-v6",
-        "classified_at": "2026-08-26T19:36:00.286123+00:00",
+        "classified_at": "2026-08-26T19:56:18.364145+00:00",
         "discovery_families": [],
         "discovery_tags": [],
         "discovery_hits": [],
@@ -1050,7 +1133,7 @@
         "processing_status": "processed",
         "case_id": null,
         "case_engine_version": "case-v6.1",
-        "case_processed_at": "2026-08-26T19:38:19.585618+00:00"
+        "case_processed_at": "2026-08-26T19:58:49.746567+00:00"
       },
       {
         "id": "4778b1893d249f52a19f1b02e216e1babfaaadb4",
@@ -1058,7 +1141,7 @@
         "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNdm8xbFpYN3ZXLWxNUDJLb3ltZDBySmMxNkpIMWY0eHF6VnRLVkQxMzdnbjFhSGh6VHF2UXNFdG1DTkhNYVZLeGRPeGctNHZ3YlFEME4xa3FJNkFLZWo2QVdkX0NxZnBWSDV4em9SS1pKZVVBMFRBa29hajNDRlU3YXBoSHEtX3ZheXFLX3lWOHZLTTBRV2xtZjJjbmdPeWl1WE56TjBhMA?oc=5",
         "source": "MetroTVNews.com",
         "published_at": "2026-08-26T15:06:36+00:00",
-        "collected_at": "2026-08-26T19:36:00.286123+00:00",
+        "collected_at": "2026-08-26T19:56:18.364145+00:00",
         "region": "LUAR JATIM",
         "area_label": "LUAR JATIM",
         "is_jatim": false,
@@ -1069,7 +1152,7 @@
         "priority": "low",
         "summary": "Kantor BPBD Puncak Papua Tengah Diduga Dibakar, Polisi Selidiki MetroTVNews.com",
         "classifier_version": "news-v6",
-        "classified_at": "2026-08-26T19:36:00.286123+00:00",
+        "classified_at": "2026-08-26T19:56:18.364145+00:00",
         "discovery_families": [],
         "discovery_tags": [],
         "discovery_hits": [],
@@ -1077,7 +1160,34 @@
         "processing_status": "processed",
         "case_id": null,
         "case_engine_version": "case-v6.1",
-        "case_processed_at": "2026-08-26T19:38:19.592650+00:00"
+        "case_processed_at": "2026-08-26T19:58:49.751434+00:00"
+      },
+      {
+        "id": "d5beeeea1b343e19498f0801899c3b0ed30ca3c9",
+        "title": "Polisi Bongkar Peredaran Sabu di Terusan Nunyai Lampung Tengah Berkat Laporan Warga - Tribunlampung.co.id",
+        "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOMHlLS205VnpuX2tuN1FNRkstX2E3NFVxQmNzVUh6cGpRSlNMZWpQRkdMQ0VXNlpQRks5MFFWSnJXaXNINFZ6Nk5tZnA4cnczR0Niamsya3BUMW9xVGFFdmxDQ3d0SjBKZnpGVnFKWFdYVmhCSU9hZ1JvRHVNYklSeDlUenAwTmdSYmJQTGppS091dzlrLTF2SFVSb2dELU5STlhUSERSQzlmS1dzRGZDc29VbmZrcVNkRjZwdVg4Q2dKeDlvMzBIY01B?oc=5",
+        "source": "Tribunlampung.co.id",
+        "published_at": "2026-08-26T15:05:00+00:00",
+        "collected_at": "2026-08-26T19:56:18.364145+00:00",
+        "region": "LUAR JATIM",
+        "area_label": "LUAR JATIM",
+        "is_jatim": false,
+        "polres": null,
+        "category": "NETRAL / LAINNYA",
+        "scope": "neutral",
+        "scope_label": "NETRAL",
+        "priority": "low",
+        "summary": "Polisi Bongkar Peredaran Sabu di Terusan Nunyai Lampung Tengah Berkat Laporan Warga Tribunlampung.co.id",
+        "classifier_version": "news-v6",
+        "classified_at": "2026-08-26T19:56:18.364145+00:00",
+        "discovery_families": [],
+        "discovery_tags": [],
+        "discovery_hits": [],
+        "discovery_version": "discovery-v6",
+        "processing_status": "processed",
+        "case_id": null,
+        "case_engine_version": "case-v6.1",
+        "case_processed_at": "2026-08-26T19:58:49.759464+00:00"
       }
     ]
   },
@@ -1099,15 +1209,15 @@
     "video_ids": []
   },
   "jatim": {
-    "news_today": 3,
+    "news_today": 4,
     "negative_today": 0,
     "positive_today": 1,
     "case_scope_today": 0,
-    "neutral_today": 2,
+    "neutral_today": 3,
     "case_today": 0,
     "case_high_active": 0,
     "article_high_today": 0,
-    "outside_jatim_today": 16
+    "outside_jatim_today": 17
   },
   "regions": [
     {
@@ -1121,6 +1231,10 @@
     {
       "name": "Jawa Timur",
       "count": 1
+    },
+    {
+      "name": "POLRESTA SUMENEP",
+      "count": 1
     }
   ],
   "polres": [
@@ -1131,12 +1245,16 @@
     {
       "name": "POLRES BATU",
       "count": 1
+    },
+    {
+      "name": "POLRESTA SUMENEP",
+      "count": 1
     }
   ],
   "categories": [
     {
       "name": "NETRAL / LAINNYA",
-      "count": 2
+      "count": 3
     },
     {
       "name": "PRESTASI / KEGIATAN POSITIF",
@@ -1144,19 +1262,19 @@
     }
   ],
   "summary": {
-    "news_today": 19,
+    "news_today": 21,
     "negative_today": 0,
     "cases_today": 0,
     "priority_high": 0,
     "article_priority_high": 0,
-    "jatim_news": 3,
+    "jatim_news": 4,
     "jatim_negative": 0,
     "jatim_positive": 1,
     "jatim_case_scope": 0,
-    "jatim_neutral": 2,
+    "jatim_neutral": 3,
     "jatim_cases_today": 0,
     "jatim_case_high_active": 0,
-    "luar_jatim_news": 16,
+    "luar_jatim_news": 17,
     "youtube_today": 0
   }
 }
