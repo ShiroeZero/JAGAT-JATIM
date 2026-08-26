@@ -1,3 +1,2 @@
-// Login demo tidak memerlukan konfigurasi Supabase.
-// Untuk versi produksi, integrasikan Supabase/Auth backend dan aktifkan RLS.
+// Frontend configuration. Authentication is intentionally not enforced in the public UI.
 window.PNM_CONFIG = {};

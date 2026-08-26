@@ -7,7 +7,7 @@ from difflib import SequenceMatcher
 NEWS_FILE = "data/news.json"
 CASE_FILE = "data/case_clusters.json"
 
-ENGINE_VERSION = "case-v5.1"
+ENGINE_VERSION = "case-v5.2"
 MAX_CASE_AGE_DAYS = 120
 
 # Normal clustering may use one concrete event term when the
@@ -20,6 +20,48 @@ MERGE_SCORE = 0.62
 RECOVERY_SCORE = 0.76
 
 PRIORITY_ORDER = {"low": 1, "medium": 2, "high": 3}
+
+PRIORITY_SCORE_MAX = 100
+
+SEVERITY_TERMS = {
+    "critical": {
+        "tewas", "meninggal", "penembakan", "pembunuhan",
+        "kekerasan seksual", "korupsi besar",
+    },
+    "severe": {
+        "intimidasi", "ancam", "ancaman", "pemerasan",
+        "penyalahgunaan", "kekerasan", "narkoba", "suap",
+        "korupsi", "pungli", "seksual", "aborsi",
+    },
+    "moderate": {
+        "penganiayaan", "pelanggaran etik", "pelanggaran disiplin",
+        "tersangka", "ditahan", "diperiksa", "pemeriksaan",
+    },
+}
+
+ESCALATION_TERMS = {
+    "propam": 8,
+    "diperiksa propam": 8,
+    "pemeriksaan propam": 8,
+    "tuntutan": 4,
+    "permintaan maaf": 5,
+    "minta maaf": 5,
+    "dipecat": 5,
+    "diberhentikan": 5,
+    "ditahan": 4,
+    "tersangka": 3,
+    "proses etik": 3,
+    "sidang etik": 4,
+}
+
+SOURCE_SPREAD_BANDS = [
+    (16, 25),
+    (13, 22),
+    (10, 18),
+    (7, 14),
+    (5, 9),
+    (3, 5),
+]
 
 STOPWORDS = {
     "yang","dan","di","ke","dari","untuk","dengan","pada","dalam","oleh",
@@ -287,6 +329,151 @@ def choose_case(item, cases, recovery=False):
 
     return best
 
+def canonical_source(article):
+    source = str(article.get("source") or article.get("publisher") or "").strip().lower()
+    source = re.sub(r"\s+", " ", source)
+    return source
+
+def title_text_for_priority(article):
+    return normalize(article.get("title", ""))
+
+def severity_score_and_reasons(articles, case):
+    text = " ".join(title_text_for_priority(a) for a in articles)
+    reasons = []
+    score = 0
+
+    # Critical signals override lower-level counts.
+    critical_hits = []
+    for term in SEVERITY_TERMS["critical"]:
+        if term in text:
+            critical_hits.append(term)
+    if critical_hits:
+        score = 45
+        reasons.extend(critical_hits[:3])
+
+    if score < 45:
+        severe_hits = []
+        for term in SEVERITY_TERMS["severe"]:
+            if term in text:
+                severe_hits.append(term)
+        if severe_hits:
+            # Serious incidents start at 28 and gain with distinct signals.
+            score = min(35, 28 + max(0, len(set(severe_hits)) - 1) * 3)
+            reasons.extend(severe_hits[:4])
+
+    if score == 0:
+        moderate_hits = []
+        for term in SEVERITY_TERMS["moderate"]:
+            if term in text:
+                moderate_hits.append(term)
+        if moderate_hits:
+            score = min(25, 18 + max(0, len(set(moderate_hits)) - 1) * 2)
+            reasons.extend(moderate_hits[:4])
+
+    if score == 0:
+        # Case existence itself is meaningful, but not automatically high.
+        score = 10 if case.get("scope") in {"negative", "case"} else 5
+
+    return score, reasons
+
+def escalation_score_and_reasons(articles):
+    text = " ".join(title_text_for_priority(a) for a in articles)
+
+    # Treat related phrases as one escalation signal so
+    # "propam" + "diperiksa propam" cannot double-count.
+    groups = [
+        ("penanganan propam", ["diperiksa propam", "pemeriksaan propam", "propam"], 8),
+        ("tuntutan resmi", ["tuntutan"], 4),
+        ("permintaan maaf", ["permintaan maaf", "minta maaf"], 5),
+        ("tindakan disiplin/etik", ["dipecat", "diberhentikan", "proses etik", "sidang etik"], 5),
+        ("proses hukum lanjutan", ["ditahan", "tersangka"], 3),
+    ]
+
+    score = 0
+    reasons = []
+
+    for label, terms, points in groups:
+        if any(term in text for term in terms):
+            score += points
+            reasons.append(label)
+
+    return min(20, score), reasons
+
+def spread_score(articles):
+    sources = {canonical_source(a) for a in articles if canonical_source(a)}
+    count = len(sources)
+    for minimum, points in SOURCE_SPREAD_BANDS:
+        if count >= minimum:
+            return points, count
+    return 0, count
+
+def current_activity_score(articles):
+    now = datetime.now(timezone.utc)
+    today = now.date()
+    active_today = 0
+    for article in articles:
+        dt = parse_dt(article.get("collected_at") or article.get("published_at"))
+        if dt and dt.astimezone().date() == today:
+            active_today += 1
+
+    score = 0
+    reasons = []
+    if active_today >= 1:
+        score += 4
+        reasons.append("update hari ini")
+    if active_today >= 2:
+        score += 3
+        reasons.append("≥2 update hari ini")
+    if active_today >= 4:
+        score += 3
+        reasons.append("aktivitas pemberitaan tinggi hari ini")
+    return min(10, score), active_today, reasons
+
+def compute_case_priority(case):
+    articles = list(case.get("articles", []))
+    severity, severity_reasons = severity_score_and_reasons(articles, case)
+    escalation, escalation_reasons = escalation_score_and_reasons(articles)
+    spread, unique_sources = spread_score(articles)
+    activity, active_today, activity_reasons = current_activity_score(articles)
+
+    total = min(PRIORITY_SCORE_MAX, severity + escalation + spread + activity)
+
+    # Severity floor prevents a low-severity topic from becoming HIGH solely
+    # because it is widely syndicated. Critical/severe incidents can become
+    # HIGH even when source volume is still low.
+    if severity >= 40 or (total >= 65 and severity >= 25):
+        priority = "high"
+    elif total >= 40:
+        priority = "medium"
+    else:
+        priority = "low"
+
+    reasons = []
+    reasons.extend(severity_reasons[:3])
+    reasons.extend(escalation_reasons[:3])
+    if unique_sources >= 3:
+        reasons.append(f"{unique_sources} sumber unik")
+    reasons.extend(activity_reasons[:2])
+
+    # Preserve order while removing duplicates.
+    seen = set()
+    reasons = [r for r in reasons if not (r in seen or seen.add(r))]
+
+    case["priority"] = priority
+    case["priority_score"] = total
+    case["priority_breakdown"] = {
+        "severity": severity,
+        "escalation": escalation,
+        "spread": spread,
+        "current_activity": activity,
+    }
+    case["priority_evidence"] = {
+        "unique_sources": unique_sources,
+        "active_today_articles": active_today,
+        "reasons": reasons,
+    }
+    return priority, total
+
 def make_case(item, cases):
     published = latest_item_time(item) or datetime.now(timezone.utc)
     fp = item_fingerprint(item)
@@ -519,15 +706,8 @@ def merge_duplicate_cases(cases):
                 ):
                     survivor["last_detected_at"] = other["last_detected_at"]
 
-                pa = PRIORITY_ORDER.get(
-                    str(survivor.get("priority") or "low").lower(), 1
-                )
-                pb = PRIORITY_ORDER.get(
-                    str(other.get("priority") or "low").lower(), 1
-                )
-                if pb > pa:
-                    survivor["priority"] = other.get("priority")
-
+                survivor["article_count"] = len(survivor.get("article_ids", []))
+                compute_case_priority(survivor)
                 survivor["updated_at"] = now_iso()
 
                 cases.remove(other)
@@ -544,7 +724,7 @@ def main():
     old_version = old_db.get("engine_version")
 
     print("========================================")
-    print("PNM CASE ENGINE V5.1")
+    print("PNM CASE ENGINE V5.2")
     print("CANONICAL INCIDENT CLUSTERING")
     print("========================================")
     print(f"Total news loaded : {len(news)}")
@@ -655,17 +835,11 @@ def main():
 
     merged_cases = merge_duplicate_cases(cases)
 
-    # Recalculate every case's derived fields from its actual articles.
+    # Recalculate every case's canonical incident priority from the complete
+    # set of attached articles. Article-level priority is kept untouched.
     for case in cases:
-        article_priorities = [
-            PRIORITY_ORDER.get(str(a.get("priority") or "low").lower(), 1)
-            for a in case.get("articles", [])
-        ]
-        if article_priorities:
-            high = max(article_priorities)
-            case["priority"] = next(k for k, v in PRIORITY_ORDER.items() if v == high)
-
         case["article_count"] = len(case.get("article_ids", []))
+        compute_case_priority(case)
         case["updated_at"] = now_iso()
 
     sync_news_case_ids(news, cases)

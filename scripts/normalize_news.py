@@ -1,6 +1,7 @@
 import json
 import os
 import sys
+import re
 
 BASE = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 sys.path.insert(0, os.path.join(BASE, "scripts"))
@@ -8,6 +9,18 @@ sys.path.insert(0, os.path.join(BASE, "scripts"))
 from location_engine import detect_location
 
 NEWS_FILE = os.path.join(BASE, "data", "news.json")
+
+def strip_publisher_suffix(title, source):
+    title = str(title or "").strip()
+    source = str(source or "").strip()
+    if not title or not source:
+        return title
+
+    # Google News commonly appends the publisher to the title using
+    # " - Source", " – Source", " — Source", or " | Source".
+    pattern = r"\s+(?:-|–|—|\|)\s*" + re.escape(source) + r"\s*$"
+    cleaned = re.sub(pattern, "", title, flags=re.IGNORECASE)
+    return cleaned.strip()
 
 def main():
     with open(NEWS_FILE, encoding="utf-8") as f:
@@ -17,8 +30,13 @@ def main():
     changed = 0
 
     for item in items:
-        result = detect_location(
+        source = item.get("source") or item.get("publisher") or ""
+        title_for_location = strip_publisher_suffix(
             item.get("title", ""),
+            source,
+        )
+        result = detect_location(
+            title_for_location,
             item.get("description", ""),
         )
 
@@ -52,7 +70,7 @@ def main():
         if old != new:
             changed += 1
 
-    db["location_engine_version"] = "location-v2"
+    db["location_engine_version"] = "location-v3"
     db["location_normalized_at"] = __import__("datetime").datetime.now(__import__("datetime").timezone.utc).isoformat()
 
     tmp = NEWS_FILE + ".tmp"

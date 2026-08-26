@@ -206,7 +206,11 @@ def build_snapshot():
             "news_today": len(today_news),
             "negative_today": len(negative_items),
             "cases_today": len(today_cases),
-            "priority_high": sum(1 for item in today_news if str(item.get("priority") or "").lower() == "high"),
+            "priority_high": len(high_cases),
+            "article_priority_high": sum(
+                1 for item in today_news
+                if str(item.get("priority") or "").lower() == "high"
+            ),
             "jatim_news": sum(
                 1 for item in today_news
                 if item.get("is_jatim") is True

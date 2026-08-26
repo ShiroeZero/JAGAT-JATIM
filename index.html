@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="theme-color" content="#070b12">
-  <title>BIAR GAMPANG</title>
+  <title>PNM — Polri Negative News Monitor</title>
 
   <link
     rel="stylesheet"
@@ -15,34 +15,7 @@
 </head>
 
 <body>
-  <div id="login" class="login-shell">
-    <div class="login-card">
-      <div class="brand-mark">PNM</div>
-      <h1>Polri Negative News Monitor</h1>
-      <p class="muted">
-        Monitoring berita, incident, wilayah, dan sumber pemberitaan.
-      </p>
-
-      <form id="loginForm">
-        <label for="email">Email</label>
-        <input id="email" type="email" autocomplete="username" required value="admin@propam-jatim.go.id">
-
-        <label for="password">Password</label>
-        <input id="password" type="password" autocomplete="current-password" required>
-
-        <button class="primary" type="submit">Masuk</button>
-        <div id="loginError" class="error"></div>
-      </form>
-
-      <p class="demo-note">
-        Akun demo:
-        <b>admin@propam-jatim.go.id</b> ·
-        <b>PropamJatim2026!</b>
-      </p>
-    </div>
-  </div>
-
-  <div id="app" class="app hidden">
+  <div id="app" class="app">
     <aside class="sidebar">
       <div class="side-brand">
         <div class="brand-mark small">PNM</div>
@@ -72,9 +45,7 @@
           <span id="statusDot"></span>
           <span id="statusText">Memuat data...</span>
         </div>
-        <button id="logout" class="logout">
-          <span class="nav-icon">↪</span><span>Keluar</span>
-        </button>
+        <div class="collector-status muted-side">PNM internal monitoring</div>
       </div>
     </aside>
 
@@ -261,6 +232,16 @@
             <select id="category">
               <option value="all">Semua Kategori</option>
             </select>
+
+            <div class="date-filter">
+              <label for="dateFrom">Dari tanggal</label>
+              <input id="dateFrom" type="date">
+            </div>
+
+            <div class="date-filter">
+              <label for="dateTo">Sampai tanggal</label>
+              <input id="dateTo" type="date">
+            </div>
 
             <button id="clearFilters" class="secondary">Reset</button>
           </div>

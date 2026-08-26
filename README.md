@@ -105,6 +105,6 @@ Validate Data
 Commit Data
 ```
 
-## Important security note
+## Access note
 
-The demo login in the frontend is not real authentication. For production deployment, use a real authentication backend and protect sensitive data accordingly.
+The dashboard is intentionally served without a frontend login gate. Access control, if required in the future, should be implemented at the hosting/authentication layer rather than by storing credentials in JavaScript.

@@ -3,9 +3,6 @@ const CASE_URL = "data/case_clusters.json";
 const NEWS_URL = "data/news.json";
 const ARCHIVE_INDEX_URL = "data/archive/index.json";
 
-const DEMO_EMAIL = "admin@propam-jatim.go.id";
-const DEMO_PASSWORD = "PropamJatim2026!";
-
 const JATIM_COORDS = {
   Surabaya: [-7.2575, 112.7521],
   Gresik: [-7.1568, 112.6551],
@@ -114,35 +111,11 @@ function setStatus(text, online) {
 }
 
 function showApp() {
-  $("login")?.classList.add("hidden");
   $("app")?.classList.remove("hidden");
   loadAllData();
 }
 
-$("loginForm")?.addEventListener("submit", (event) => {
-  event.preventDefault();
-
-  const email = $("email")?.value.trim();
-  const password = $("password")?.value;
-
-  if (email === DEMO_EMAIL && password === DEMO_PASSWORD) {
-    sessionStorage.setItem("pnm_logged_in", "1");
-    showApp();
-  } else {
-    if ($("loginError")) {
-      $("loginError").textContent = "Email atau password salah.";
-    }
-  }
-});
-
-$("logout")?.addEventListener("click", () => {
-  sessionStorage.removeItem("pnm_logged_in");
-  location.reload();
-});
-
-if (sessionStorage.getItem("pnm_logged_in") === "1") {
-  showApp();
-}
+showApp();
 
 async function fetchJson(url) {
   const response = await fetch(url + "?t=" + Date.now());
@@ -209,11 +182,11 @@ function renderHeader() {
   $("sTotal").textContent = number(todayData.summary?.news_today);
   $("sCases").textContent = number(todayData.summary?.cases_today);
   $("sYoutube").textContent = number(todayData.summary?.youtube_today);
-  $("sHigh").textContent = number(todayData.summary?.priority_high);
+  $("sHigh").textContent = number(todayData.cases?.priority_high);
 
   $("sNegative").textContent = number(todayData.summary?.negative_today);
   $("sJatim").textContent = number(todayData.summary?.jatim_news);
-  $("sCaseHigh").textContent = number(todayData.cases?.priority_high);
+  $("sCaseHigh").textContent = number(todayData.summary?.article_priority_high);
   $("sTotalCases").textContent = number(caseData?.total_cases);
 }
 
@@ -518,7 +491,7 @@ function renderLatestCases() {
     .slice(0, 6);
 
   target.innerHTML = cases.length
-    ? cases.map(caseCardCompact).join("")
+    ? cases.map((item, index) => caseCardCompact(item, index + 1)).join("")
     : `<div class="empty">Belum ada case hari ini.</div>`;
 
   bindCaseClicks(target);
@@ -566,20 +539,23 @@ function newsCardCompact(item) {
   `;
 }
 
-function caseCardCompact(item) {
+function caseCardCompact(item, displayIndex = null) {
   const priority = getPriority(item);
   const locality = localityFromPolres(item.polres) || getLocality({ title: item.title });
+  const label = displayIndex ? `CASE ${String(displayIndex).padStart(2, "0")}` : "CASE";
+  const score = item.priority_score != null ? ` · ${number(item.priority_score)}/100` : "";
 
   return `
     <article class="case-card clickable" data-case-id="${escapeHtml(item.case_id)}">
       <div class="case-card-top">
-        <span class="case-id">${escapeHtml(item.case_id)}</span>
-        <span class="pill ${escapeHtml(priority)}">${escapeHtml(priority.toUpperCase())}</span>
+        <span class="case-id">${escapeHtml(label)}</span>
+        <span class="pill ${escapeHtml(priority)}">${escapeHtml(priority.toUpperCase())}${score}</span>
       </div>
       <strong>${escapeHtml(item.title)}</strong>
       <div class="news-card-meta">
         ${escapeHtml(locality || item.region || "Indonesia")}
         · ${number(item.article_count)} sumber
+        · update ${escapeHtml(formatDateTime(item.last_detected_at || item.last_seen))}
       </div>
       <div class="card-action">Klik untuk melihat seluruh sumber →</div>
     </article>
@@ -700,6 +676,17 @@ function applyMonitoringFilters(items, mode = monitoringMode) {
     result = result.filter((item) => getCategory(item) === category);
   }
 
+  const dateFrom = $("dateFrom")?.value || "";
+  const dateTo = $("dateTo")?.value || "";
+
+  if (dateFrom) {
+    result = result.filter((item) => toLocalDateString(getItemDate(item)) >= dateFrom);
+  }
+
+  if (dateTo) {
+    result = result.filter((item) => toLocalDateString(getItemDate(item)) <= dateTo);
+  }
+
   return result.sort(
     (a, b) =>
       new Date(getItemDate(b) || 0) -
@@ -707,9 +694,23 @@ function applyMonitoringFilters(items, mode = monitoringMode) {
   );
 }
 
+function toLocalDateString(value) {
+  if (!value) return "";
+  const d = new Date(value);
+  if (Number.isNaN(d.getTime())) return "";
+  return d.toLocaleDateString("en-CA", { timeZone: "Asia/Jakarta" });
+}
+
+function setMonitoringDateDefaults() {
+  const date = activeArchive?.date || todayData?.date || "";
+  if ($("dateFrom") && !$('dateFrom').value) $("dateFrom").value = date;
+  if ($("dateTo") && !$('dateTo').value) $("dateTo").value = date;
+}
+
 function renderMonitoring() {
   const items = getActiveNewsDataset();
 
+  setMonitoringDateDefaults();
   populateMonitoringFilters(items);
 
   const results = applyMonitoringFilters(items, monitoringMode);
@@ -813,9 +814,12 @@ function openCaseDrawer(caseItem) {
 
   $("drawerContent").innerHTML = `
     <div class="case-detail-head">
-      <span class="case-id">${escapeHtml(caseItem.case_id)}</span>
+      <div>
+        <span class="case-id">CASE INCIDENT</span>
+        <div class="drawer-case-reference">${escapeHtml(caseItem.case_id || "-")}</div>
+      </div>
       <span class="pill ${escapeHtml(getPriority(caseItem))}">
-        ${escapeHtml(getPriority(caseItem).toUpperCase())}
+        ${escapeHtml(getPriority(caseItem).toUpperCase())}${caseItem.priority_score != null ? ` · ${number(caseItem.priority_score)}/100` : ""}
       </span>
     </div>
 
@@ -827,6 +831,16 @@ function openCaseDrawer(caseItem) {
       <div><span>Jumlah sumber</span><strong>${number(articles.length)}</strong></div>
       <div><span>Terakhir terdeteksi</span><strong>${escapeHtml(formatDateTime(caseItem.last_detected_at || caseItem.last_seen))}</strong></div>
     </div>
+
+    ${caseItem.priority_breakdown ? `
+      <div class="drawer-subtitle">DASAR PRIORITAS CASE</div>
+      <div class="priority-breakdown">
+        <div><span>Severity</span><strong>${number(caseItem.priority_breakdown.severity || 0)}</strong></div>
+        <div><span>Escalation</span><strong>${number(caseItem.priority_breakdown.escalation || 0)}</strong></div>
+        <div><span>Spread</span><strong>${number(caseItem.priority_breakdown.spread || 0)}</strong></div>
+        <div><span>Aktivitas</span><strong>${number(caseItem.priority_breakdown.current_activity || 0)}</strong></div>
+      </div>
+    ` : ""}
 
     <div class="drawer-subtitle">SELURUH SUMBER TERKAIT</div>
 
@@ -966,6 +980,8 @@ document.querySelectorAll(".mode-tab[data-mode]").forEach((button) => {
   "priority",
   "scope",
   "category",
+  "dateFrom",
+  "dateTo",
 ].forEach((id) => {
   $(id)?.addEventListener("input", () => {
     if (id === "region") {
@@ -989,6 +1005,8 @@ $("clearFilters")?.addEventListener("click", () => {
   $("priority").value = "all";
   $("scope").value = "all";
   $("category").value = "all";
+  $("dateFrom").value = activeArchive?.date || todayData?.date || "";
+  $("dateTo").value = activeArchive?.date || todayData?.date || "";
   populateMonitoringFilters(getActiveNewsDataset());
   renderMonitoring();
 });

@@ -44,73 +44,11 @@ button { -webkit-tap-highlight-color: transparent; }
   line-height: 1.5;
 }
 
-/* LOGIN */
-
-.login-shell {
-  min-height: 100vh;
-  display: grid;
-  place-items: center;
-  padding: 22px;
-  background: radial-gradient(circle at 50% 0,#14233a 0,#070b12 48%);
-}
-
-.login-card {
-  width: min(440px,100%);
-  padding: 34px;
-  background: rgba(13,19,29,.96);
-  border: 1px solid var(--line);
-  border-radius: 18px;
-  box-shadow: 0 20px 80px rgba(0,0,0,.5);
-}
-
-.brand-mark {
-  width: 54px;
-  height: 54px;
-  display: grid;
-  place-items: center;
-  border: 1px solid #315b99;
-  border-radius: 12px;
-  color: #b9d3ff;
-  background: #0b1525;
-  font-weight: 900;
-  letter-spacing: 1px;
-}
-
 .brand-mark.small {
   width: 40px;
   height: 40px;
   border-radius: 9px;
   font-size: 12px;
-}
-
-.login-card h1 {
-  margin: 20px 0 8px;
-  font-size: 24px;
-  line-height: 1.2;
-}
-
-.login-card label {
-  display: block;
-  margin: 18px 0 7px;
-  color: #aeb8c5;
-  font-size: 12px;
-}
-
-.login-card input {
-  width: 100%;
-  padding: 12px;
-  background: #090f18;
-  color: var(--text);
-  border: 1px solid var(--line);
-  border-radius: 9px;
-  outline: none;
-}
-
-.login-card input:focus,
-.filters input:focus,
-.filters select:focus {
-  border-color: #3c72ba;
-  box-shadow: 0 0 0 3px rgba(60,114,186,.08);
 }
 
 .primary {
@@ -120,12 +58,6 @@ button { -webkit-tap-highlight-color: transparent; }
   color: #fff;
   font-weight: 700;
   cursor: pointer;
-}
-
-.login-card .primary {
-  width: 100%;
-  margin-top: 22px;
-  padding: 12px 15px;
 }
 
 .primary:hover { background: #3c82eb; }
@@ -261,18 +193,7 @@ button { -webkit-tap-highlight-color: transparent; }
   background: var(--ok);
 }
 
-.logout {
-  width: 100%;
-  display: flex;
-  align-items: center;
-  gap: 10px;
-  padding: 11px 12px;
-  background: #0f1722;
-  color: #aeb8c6;
-  border: 1px solid var(--line);
-  border-radius: 9px;
-  cursor: pointer;
-}
+
 
 /* MAIN */
 
@@ -798,6 +719,35 @@ button { -webkit-tap-highlight-color: transparent; }
 
 .filters-panel { margin-bottom: 12px; }
 
+.date-filter {
+  display: grid;
+  gap: 4px;
+  min-width: 0;
+}
+
+.date-filter label {
+  color: #718096;
+  font-size: 9px;
+  line-height: 1.2;
+}
+
+.date-filter input {
+  width: 100%;
+  min-width: 0;
+  height: 40px;
+  padding: 9px 10px;
+  background: #090f18;
+  color: var(--text);
+  border: 1px solid var(--line);
+  border-radius: 9px;
+  outline: none;
+}
+
+.date-filter input:focus {
+  border-color: #3c72ba;
+  box-shadow: 0 0 0 3px rgba(60,114,186,.08);
+}
+
 .filters {
   display: grid;
   grid-template-columns: minmax(220px,2fr) repeat(5,minmax(120px,1fr)) auto;
@@ -1093,8 +1043,6 @@ button { -webkit-tap-highlight-color: transparent; }
 
   .collector-status { justify-content: center; margin: 12px 0; }
   .collector-status span:last-child { display: none; }
-  .logout { justify-content: center; }
-  .logout span:last-child { display: none; }
 
   .main {
     margin-left: var(--sidebar);
