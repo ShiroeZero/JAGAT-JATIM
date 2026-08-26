@@ -22,14 +22,15 @@ jobs:
     steps:
 
       # ==========================================
-      # CHECKOUT
+      # 1. CHECKOUT
       # ==========================================
 
       - name: Checkout repository
         uses: actions/checkout@v4
 
+
       # ==========================================
-      # PYTHON
+      # 2. PYTHON
       # ==========================================
 
       - name: Setup Python
@@ -37,16 +38,33 @@ jobs:
         with:
           python-version: "3.12"
 
+
       # ==========================================
-      # 1. COLLECT NEWS
+      # 3. COLLECT NEWS
+      # ==========================================
+
+      - name: Collect news
+        run: |
+          python -u scripts/fetch_news.py
+
+
+      # ==========================================
+      # 4. CHECK NEWS
       # ==========================================
 
       - name: Check news after fetch
         run: |
           python - <<'PY'
           import json
+          import os
 
-          with open("data/news.json", encoding="utf-8") as f:
+          path = "data/news.json"
+
+          if not os.path.exists(path):
+              print("ERROR: data/news.json tidak ditemukan")
+              raise SystemExit(1)
+
+          with open(path, encoding="utf-8") as f:
               data = json.load(f)
 
           items = data.get("items", [])
@@ -57,8 +75,18 @@ jobs:
           print("========================================")
           PY
 
+
       # ==========================================
-      # 2. BUILD CASE CLUSTERS
+      # 5. BUILD CASE CLUSTERS
+      # ==========================================
+
+      - name: Build case clusters
+        run: |
+          python -u scripts/process_cases.py
+
+
+      # ==========================================
+      # 6. CHECK CASE DATABASE
       # ==========================================
 
       - name: Check case database
@@ -85,8 +113,9 @@ jobs:
           print("========================================")
           PY
 
+
       # ==========================================
-      # 3. COLLECT YOUTUBE
+      # 7. COLLECT YOUTUBE
       # ==========================================
 
       - name: Collect YouTube
@@ -95,8 +124,9 @@ jobs:
         run: |
           python -u scripts/fetch_social.py
 
+
       # ==========================================
-      # 4. CHECK GENERATED DATA
+      # 8. CHECK MONITORING DATA
       # ==========================================
 
       - name: Check monitoring data
@@ -135,7 +165,7 @@ jobs:
 
 
       # ==========================================
-      # 5. SAVE DATA
+      # 9. SAVE MONITORING DATA
       # ==========================================
 
       - name: Save monitoring data
@@ -147,18 +177,31 @@ jobs:
             "41898282+github-actions[bot]@users.noreply.github.com"
 
           echo "========================================"
-          echo "CHECK GIT CHANGES"
+          echo "GIT STATUS BEFORE COMMIT"
           echo "========================================"
 
           git status --short
+
+          echo ""
+          echo "========================================"
+          echo "ADDING MONITORING DATA"
+          echo "========================================"
 
           git add \
             data/news.json \
             data/case_clusters.json \
             data/social.json
 
+          echo ""
+          echo "========================================"
+          echo "STAGED CHANGES"
+          echo "========================================"
+
+          git status --short
+
           if git diff --cached --quiet; then
 
+            echo ""
             echo "Tidak ada perubahan data."
 
           else
