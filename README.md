@@ -1,31 +1,64 @@
 # PNM — Polri Negative News Monitor
 
-Versi ini dirancang agar benar-benar berjalan di GitHub Pages + GitHub Actions.
+> **Polri Negative News Monitor (PNM)** adalah aplikasi web-based untuk membantu monitoring, klasifikasi, dan penyaringan pemberitaan yang berkaitan dengan Polri, khususnya berita mengenai anggota/oknum Polri serta pemberitaan terkait jajaran Polda Jawa Timur.
 
-## Login demo
-- Email: `admin@propam-jatim.go.id`
-- Password: `PropamJatim2026!`
+![Status](https://img.shields.io/badge/status-active-success)
+![Platform](https://img.shields.io/badge/platform-GitHub%20Pages-121013)
+![Automation](https://img.shields.io/badge/automation-GitHub%20Actions-2088FF)
+![Python](https://img.shields.io/badge/Python-3.12-3776AB)
+![License](https://img.shields.io/badge/license-GPL--3.0-blue)
 
-> Login frontend ini hanya untuk demo. Password dapat terlihat oleh orang yang memeriksa source JavaScript. Untuk penggunaan internal/produksi, pindahkan autentikasi ke Supabase Auth atau backend.
+---
 
-## Cara deploy
+## 📌 Overview
 
-1. Buat repository GitHub baru.
-2. Upload seluruh isi folder ini ke branch `main`.
-3. Buka **Settings → Actions → General** dan pastikan Actions diizinkan.
-4. Buka **Settings → Pages** dan pilih **GitHub Actions** sebagai source.
-5. Setelah push, workflow `Deploy PNM to GitHub Pages` akan membuat situs.
-6. Workflow `Collect Negative News` berjalan setiap jam dan juga dapat dijalankan manual melalui **Actions → Collect Negative News → Run workflow**.
+PNM dirancang sebagai **dashboard monitoring berita** yang mengumpulkan pemberitaan dari sumber berita melalui RSS/search feed, kemudian melakukan pemrosesan dan klasifikasi otomatis.
 
-## Cara kerja collector
+Sistem membantu pengguna untuk:
 
-GitHub Actions menjalankan `scripts/fetch_news.py`.
-Collector mengambil RSS Google News dengan banyak query, menghapus duplikasi, mengklasifikasikan kategori/prioritas, mendeteksi indikasi Jawa Timur, lalu menyimpan hasil ke `data/news.json`.
+- Memantau pemberitaan terkait Polri.
+- Membedakan berita mengenai **oknum/anggota Polri** dengan berita **pengungkapan kasus oleh Polri**.
+- Memfilter berita berdasarkan **tanggal**.
+- Memfilter pemberitaan berdasarkan **wilayah Jawa Timur**.
+- Mengelompokkan berita berdasarkan **39 Polres jajaran**.
+- Melihat tingkat prioritas pemberitaan.
+- Melakukan pencarian berdasarkan judul, sumber, wilayah, Polres, dan kategori.
+- Memperbarui data secara otomatis menggunakan GitHub Actions.
+- Menampilkan data terbaru melalui GitHub Pages.
 
-Dashboard GitHub Pages hanya membaca `data/news.json`; browser tidak bertanggung jawab mengoleksi berita.
+> **Catatan:** PNM merupakan alat bantu monitoring dan klasifikasi otomatis. Hasil klasifikasi tidak dapat dianggap sebagai verifikasi fakta, penetapan kesalahan, atau kesimpulan hukum.
 
-## Catatan penting
+---
 
-Google News RSS adalah sumber agregasi. Ini bukan jaminan seluruh berita internet akan terambil. Untuk sistem produksi, tambahkan sumber resmi/media yang relevan dan mekanisme arsip/validasi.
+# 🚀 Fitur Utama
 
-Label "negatif", prioritas, kategori, dan deteksi Jawa Timur adalah klasifikasi otomatis; bukan kesimpulan bahwa seseorang bersalah. Artikel perlu diverifikasi sebelum menjadi bahan resmi.
+## 1. Monitoring Berita Otomatis
+
+Collector berjalan menggunakan **GitHub Actions** dan mengambil pemberitaan secara berkala.
+
+Alur sistem:
+
+```text
+Sumber Berita
+     │
+     ▼
+RSS / News Search
+     │
+     ▼
+GitHub Actions
+     │
+     ├── Pengumpulan berita
+     ├── Deduplicate
+     ├── Deteksi wilayah
+     ├── Deteksi Polres
+     ├── Klasifikasi berita
+     └── Penentuan prioritas
+     │
+     ▼
+data/news.json
+     │
+     ▼
+GitHub Pages
+     │
+     ▼
+Dashboard PNM
