@@ -124,8 +124,11 @@
       </section>
 
       <section id="monitoringView" class="view hidden">
-        <div class="section-banner">
-          <div><div class="eyebrow">EXPLORER</div><div class="muted" id="monitoringContextText">Data hari ini.</div></div>
+        <div class="section-banner monitoring-banner">
+          <div>
+            <h2 class="section-context-title">Temukan Berita &amp; Case</h2>
+            <div class="muted" id="monitoringContextText">Pilih periode, lokasi, atau klasifikasi untuk mempersempit hasil.</div>
+          </div>
           <span class="today-badge">DATA AKTIF</span>
         </div>
 
@@ -136,33 +139,64 @@
         </div>
 
         <section class="panel filters-panel">
-          <div class="filter-main">
-            <input id="search" placeholder="Cari judul, sumber, wilayah, kategori, Polres...">
-            <select id="region"><option value="all">Semua Wilayah / Area</option></select>
-            <select id="polres"><option value="all">Semua Polres Terdeteksi</option></select>
-            <select id="priority"><option value="all">Semua Prioritas</option><option value="high">Tinggi</option><option value="medium">Sedang</option><option value="low">Rendah</option></select>
-            <select id="scope"><option value="all">Semua Jenis</option><option value="negative">Negatif</option><option value="case">Ungkap Kasus</option><option value="positive">Positif</option><option value="neutral">Netral</option></select>
-            <select id="category"><option value="all">Semua Kategori</option></select>
+          <div class="filter-toolbar-head">
+            <div>
+              <h3>Filter Monitoring</h3>
+              <div class="muted">Persempit hasil berdasarkan pencarian, lokasi, klasifikasi, dan periode.</div>
+            </div>
+            <button id="clearFilters" class="secondary filter-reset-top" type="button">
+              <i class="fa-solid fa-rotate-left" aria-hidden="true"></i> Reset
+            </button>
           </div>
 
-          <div class="filter-date-row">
-            <div class="date-filter">
-              <label for="dateFrom">Dari tanggal</label>
-              <input id="dateFrom" type="date">
+          <div class="filter-search-row">
+            <div class="filter-search-wrap">
+              <i class="fa-solid fa-magnifying-glass" aria-hidden="true"></i>
+              <input id="search" placeholder="Cari judul berita, sumber, area, Polres, atau kategori..." autocomplete="off">
             </div>
-            <div class="date-filter">
-              <label for="dateTo">Sampai tanggal</label>
-              <input id="dateTo" type="date">
-            </div>
-            <div class="quick-dates" aria-label="Periode cepat">
-              <button class="quick-date" data-quick-date="today" type="button">Hari ini</button>
-              <button class="quick-date" data-quick-date="7" type="button">7 hari</button>
-              <button class="quick-date" data-quick-date="30" type="button">30 hari</button>
-              <button class="quick-date" data-quick-date="all" type="button">Semua</button>
-            </div>
-            <button id="clearFilters" class="secondary filter-reset" type="button">Reset</button>
           </div>
 
+          <div class="filter-groups">
+            <div class="filter-group">
+              <div class="filter-group-label"><i class="fa-solid fa-location-dot" aria-hidden="true"></i> Lokasi</div>
+              <div class="filter-group-controls">
+                <select id="region"><option value="all">Semua Wilayah / Area</option></select>
+                <select id="polres"><option value="all">Semua Polres</option></select>
+              </div>
+            </div>
+
+            <div class="filter-group">
+              <div class="filter-group-label"><i class="fa-solid fa-sliders" aria-hidden="true"></i> Klasifikasi</div>
+              <div class="filter-group-controls filter-group-3">
+                <select id="priority"><option value="all">Semua Prioritas</option><option value="high">Tinggi</option><option value="medium">Sedang</option><option value="low">Rendah</option></select>
+                <select id="scope"><option value="all">Semua Jenis</option><option value="negative">Negatif</option><option value="case">Ungkap Kasus</option><option value="positive">Positif</option><option value="neutral">Netral</option></select>
+                <select id="category"><option value="all">Semua Kategori</option></select>
+              </div>
+            </div>
+          </div>
+
+          <div class="filter-period">
+            <div class="filter-group-label"><i class="fa-regular fa-calendar" aria-hidden="true"></i> Periode</div>
+            <div class="filter-period-row">
+              <div class="date-filter">
+                <label for="dateFrom">Dari tanggal</label>
+                <input id="dateFrom" type="date">
+              </div>
+              <span class="date-arrow" aria-hidden="true">→</span>
+              <div class="date-filter">
+                <label for="dateTo">Sampai tanggal</label>
+                <input id="dateTo" type="date">
+              </div>
+              <div class="quick-dates" aria-label="Periode cepat">
+                <button class="quick-date" data-quick-date="today" type="button">Hari ini</button>
+                <button class="quick-date" data-quick-date="7" type="button">7 hari</button>
+                <button class="quick-date" data-quick-date="30" type="button">30 hari</button>
+                <button class="quick-date" data-quick-date="all" type="button">Semua</button>
+              </div>
+            </div>
+          </div>
+
+          <div id="activeFilterChips" class="active-filter-chips" aria-live="polite"></div>
           <div class="result-summary"><span id="resultCount">0 hasil</span><span id="resultContext">Hari ini</span></div>
         </section>
 
@@ -179,7 +213,12 @@
       </section>
 
       <section id="archiveView" class="view hidden">
-        <div class="section-banner"><div><div class="eyebrow">HISTORI MONITORING</div><div class="muted">Snapshot yang disimpan per tanggal.</div></div></div>
+        <div class="section-banner archive-banner">
+          <div>
+            <h2 class="section-context-title">Riwayat Snapshot</h2>
+            <div class="muted">Buka snapshot untuk melihat kondisi data pada tanggal tersebut.</div>
+          </div>
+        </div>
         <section class="panel" id="archiveListPanel">
           <div class="panel-head"><div><h3>Snapshot Tersedia</h3><div class="muted">Pilih tanggal untuk membuka data snapshot tersebut.</div></div></div>
           <div id="archiveList" class="archive-list"></div>

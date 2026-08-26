@@ -545,12 +545,48 @@ function getRelevantCases(items, mode, region, polres) {
   );
 }
 
+function filterPeriodLabel() {
+  const { from, to } = currentDateBounds();
+  if (!from && !to) return "Semua periode";
+  if (from && to && from === to) return formatDate(from);
+  return `${from ? formatDate(from) : "Awal"} — ${to ? formatDate(to) : "Sekarang"}`;
+}
+
+function renderActiveFilterChips() {
+  const target = $("activeFilterChips");
+  if (!target) return;
+
+  const chips = [];
+  const search = ($("search")?.value || "").trim();
+  const region = $("region")?.value || "all";
+  const polres = $("polres")?.value || "all";
+  const priority = $("priority")?.value || "all";
+  const scope = $("scope")?.value || "all";
+  const category = $("category")?.value || "all";
+  const { from, to } = currentDateBounds();
+
+  if (search) chips.push(`Pencarian: ${search}`);
+  if (monitoringMode === "jatim") chips.push("Jawa Timur");
+  if (monitoringMode === "high") chips.push("Prioritas Tinggi");
+  if (region !== "all") chips.push(region === "LUAR JATIM" ? "LUAR JATIM" : `Wilayah: ${region}`);
+  if (polres !== "all") chips.push(`Polres: ${polres}`);
+  if (priority !== "all") chips.push(`Prioritas: ${priority === "high" ? "Tinggi" : priority === "medium" ? "Sedang" : "Rendah"}`);
+  if (scope !== "all") chips.push(`Jenis: ${scope === "case" ? "Ungkap Kasus" : scope[0].toUpperCase()+scope.slice(1)}`);
+  if (category !== "all") chips.push(`Kategori: ${category}`);
+  if (from || to) chips.push(`Periode: ${filterPeriodLabel()}`);
+
+  target.innerHTML = chips.length
+    ? `<span class="active-filter-label">Filter aktif</span>${chips.map(label => `<span class="active-filter-chip">${escapeHtml(label)}</span>`).join("")}`
+    : `<span class="active-filter-empty"><i class="fa-solid fa-filter" aria-hidden="true"></i> Belum ada filter tambahan</span>`;
+}
+
 function renderMonitoring() {
   syncModeButtons();
   populateMonitoringFilters();
 
   const base = currentMonitoringBase();
   const items = applyMonitoringFilters(base, monitoringMode);
+  renderActiveFilterChips();
   const region = $("region")?.value || "all";
   const polres = $("polres")?.value || "all";
   const cases = getRelevantCases(items, monitoringMode, region, polres);
@@ -558,7 +594,12 @@ function renderMonitoring() {
 
   if ($("resultCount")) $("resultCount").textContent = `${number(items.length)} berita · ${number(cases.length)} case`;
   if ($("resultContext")) $("resultContext").textContent = from && to ? `${from} s/d ${to}` : "Semua periode";
-  if ($("monitoringContextText")) $("monitoringContextText").textContent = activeArchive ? `Snapshot ${formatDate(activeArchive.date)}` : (from && to ? `Data terfilter ${formatDate(from)} — ${formatDate(to)}.` : "Semua data tersedia di database monitoring.");
+  if ($("monitoringContextText")) {
+    const modeLabel = monitoringMode === "jatim" ? "Jawa Timur" : monitoringMode === "high" ? "Prioritas Tinggi" : "Semua data";
+    $("monitoringContextText").textContent = activeArchive
+      ? `Snapshot ${formatDate(activeArchive.date)}.`
+      : `${modeLabel} · ${from || to ? filterPeriodLabel() : "Semua periode"}.`;
+  }
 
   const caseTarget = $("monitoringCases");
   caseTarget.innerHTML = cases.length
