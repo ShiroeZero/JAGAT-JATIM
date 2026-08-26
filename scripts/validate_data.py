@@ -147,6 +147,21 @@ def main():
         (stored_case_high, actual_case_high, "today.json case-high count"),
         (stored_article_high, actual_article_high, "today.json article-high count"),
     ]
+
+    jatim_db = today_db.get("jatim", {})
+    checks.extend([
+        (int(jatim_db.get("news_today", 0) or 0), actual_jatim, "today.json Jatim dashboard news count"),
+        (
+            int(jatim_db.get("negative_today", 0) or 0),
+            sum(1 for x in actual_today if x.get("is_jatim") is True and str(x.get("scope") or "").lower() == "negative"),
+            "today.json Jatim negative count",
+        ),
+        (
+            int(jatim_db.get("case_high_active", 0) or 0),
+            actual_case_high,
+            "today.json Jatim case-high count",
+        ),
+    ])
     for stored, actual, label in checks:
         if stored != actual:
             errors.append(f"{label} mismatch: stored={stored}, actual={actual}")

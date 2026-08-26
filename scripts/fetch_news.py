@@ -12,7 +12,7 @@ import xml.etree.ElementTree as ET
 
 
 OUT = "data/news.json"
-USER_AGENT = "PNM-Polri-Negative-News-Monitor/6.0"
+USER_AGENT = "JAGAT-News-Monitor/6.1"
 DISCOVERY_FILE = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), "data", "discovery_patterns_v6.json")
 
 
@@ -22,12 +22,11 @@ def load_discovery_config():
             return json.load(f)
     except Exception as exc:
         print(f"WARN: discovery patterns tidak dapat dimuat: {exc}")
-        return {"families": {}, "provinces": []}
+        return {"families": {}}
 
 
 DISCOVERY_CONFIG = load_discovery_config()
 DISCOVERY_FAMILIES = DISCOVERY_CONFIG.get("families", {})
-DISCOVERY_PROVINCES = DISCOVERY_CONFIG.get("provinces", [])
 DISCOVERY_TERMS = []
 for _family in DISCOVERY_FAMILIES.values():
     DISCOVERY_TERMS.extend(_family.get("terms", []))
@@ -715,8 +714,8 @@ def classify_article(
 ):
 
     text = clean(title + " " + strip_html(description)).lower()
-    polres = find_polres(text)
-    is_jatim = detect_region(text, polres)
+    polres = find_polres(clean(title).lower())
+    is_jatim = detect_region(clean(title).lower(), polres)
     discovery_families, discovery_tags, discovery_hits = discovery_matches(text)
     police_context = has_any_term(text, POLICE_ANCHORS)
 
@@ -836,6 +835,8 @@ def load_case_followup_queries():
     for case in cases:
         priority = str(case.get("priority", "low")).lower()
         article_count = int(case.get("article_count", 0) or 0)
+        if not bool(case.get("is_jatim", False)):
+            continue
         if priority not in {"high", "medium"} and article_count < 3:
             continue
         last = parse_dt(case.get("last_detected_at") or case.get("last_seen"))
@@ -865,74 +866,61 @@ def load_case_followup_queries():
 
 
 def build_queries():
+    """
+    Jatim-focused discovery matrix.
+
+    The system is not intended to monitor every Indonesian province.
+    Broad national queries are retained as a safety net, while the main
+    discovery effort is concentrated on Jawa Timur and the 39 Polres.
+    """
     queries = list(GENERAL_QUERIES)
-    representative_terms = [
+
+    # Curated high-value variants learned from the supplied 2026 headline corpus.
+    curated_terms = [
         "tangkap lepas", "tebusan", "setoran", "upeti", "pungli",
-        "pemerasan", "suap", "penyalahgunaan wewenang", "intervensi",
-        "maladministrasi", "beking", "tambang ilegal", "judi sabung ayam",
-        "rokok ilegal", "solar subsidi", "perselingkuhan", "aborsi",
-        "pencabulan", "kekerasan seksual", "intimidasi wartawan",
-        "demo ricuh", "bentrok", "pos polisi dibakar", "mako diserang",
-        "pelanggaran etik", "propam", "calo sim", "pungli samsat",
+        "pungutan liar", "suap", "gratifikasi", "pemerasan", "minta uang",
+        "penyalahgunaan wewenang", "ketidakprofesionalan", "maladministrasi",
+        "intervensi", "salah tangkap", "kriminalisasi", "intimidasi wartawan",
+        "halangi peliputan", "perselingkuhan", "nikah siri", "pencabulan",
+        "pemerkosaan", "kekerasan seksual", "aborsi", "kdrt",
+        "tambang ilegal", "galian c ilegal", "sabung ayam", "judi online",
+        "rokok ilegal", "solar subsidi", "dibeking", "pembiaran",
+        "calo sim", "jalur belakang sim", "pungli samsat", "jual beli stck",
+        "pelanggaran etik", "sidang etik", "propam periksa", "demo ricuh",
+        "bentrok", "tawuran", "mako diserang", "pos polisi dibakar",
+        "polisi dibacok",
     ]
-    for term in representative_terms:
-        queries.append(f'"polisi" "{term}"')
-    province_aliases = {
-        "Aceh": "Aceh",
-        "Sumatera Utara": "Sumut",
-        "Sumatera Barat": "Sumbar",
-        "Riau": "Riau",
-        "Kepulauan Riau": "Kepri",
-        "Jambi": "Jambi",
-        "Sumatera Selatan": "Sumsel",
-        "Kepulauan Bangka Belitung": "Babel",
-        "Bengkulu": "Bengkulu",
-        "Lampung": "Lampung",
-        "DKI Jakarta": "Metro Jaya",
-        "Jawa Barat": "Jabar",
-        "Banten": "Banten",
-        "Jawa Tengah": "Jateng",
-        "Daerah Istimewa Yogyakarta": "DIY",
-        "Jawa Timur": "Jatim",
-        "Bali": "Bali",
-        "Nusa Tenggara Barat": "NTB",
-        "Nusa Tenggara Timur": "NTT",
-        "Kalimantan Barat": "Kalbar",
-        "Kalimantan Tengah": "Kalteng",
-        "Kalimantan Selatan": "Kalsel",
-        "Kalimantan Timur": "Kaltim",
-        "Kalimantan Utara": "Kaltara",
-        "Sulawesi Utara": "Sulut",
-        "Gorontalo": "Gorontalo",
-        "Sulawesi Tengah": "Sulteng",
-        "Sulawesi Barat": "Sulbar",
-        "Sulawesi Selatan": "Sulsel",
-        "Sulawesi Tenggara": "Sultra",
-        "Maluku": "Maluku",
-        "Maluku Utara": "Malut",
-        "Papua": "Papua",
-        "Papua Barat": "Papua Barat",
-        "Papua Tengah": "Papua Tengah",
-        "Papua Pegunungan": "Papua Pegunungan",
-        "Papua Selatan": "Papua Selatan",
-        "Papua Barat Daya": "Papua Barat Daya",
-    }
-    for province in DISCOVERY_PROVINCES:
-        alias = province_aliases.get(province, province)
-        queries.append(f'"polisi" "{province}"')
-        queries.append(f'"Polda" "{province}" "oknum"')
-        queries.append(f'"Propam" "{province}"')
-        if alias != province:
-            queries.append(f'"Polda {alias}" oknum')
-            queries.append(f'"Polda {alias}" setoran')
-    for polres_name in POLRES:
-        queries.append(f'"{polres_name.lower()}" polisi')
+    for term in curated_terms:
+        queries.append(f'"polisi" "Jawa Timur" "{term}"')
+
+    # Polda Jatim / Propam discovery.
+    for term in [
+        "oknum", "Propam", "pungli", "setoran", "suap", "pemerasan",
+        "tangkap lepas", "intimidasi wartawan", "tambang ilegal", "judi",
+        "narkoba", "aborsi", "perselingkuhan", "kekerasan", "demo ricuh",
+    ]:
+        queries.append(f'"Polda Jatim" "{term}"')
+        queries.append(f'"Polda Jawa Timur" "{term}"')
+
+    # Every Polres is covered, but only with a small number of high-recall queries.
+    for polres_name, aliases in POLRES.items():
+        anchor = aliases[0]
+        queries.append(f'"{anchor}"')
+        queries.append(f'"{anchor}" "Propam"')
+        queries.append(f'"{anchor}" "pungli"')
+
+    # Active case follow-up is the highest-value historical query layer.
     queries.extend(load_case_followup_queries())
-    result=[]; seen=set()
+
+    result = []
+    seen = set()
     for query in queries:
-        key=query.lower().strip()
-        if key in seen: continue
-        seen.add(key); result.append(query)
+        key = query.lower().strip()
+        if key in seen:
+            continue
+        seen.add(key)
+        result.append(query)
+
     return result
 
 
@@ -1323,7 +1311,7 @@ def main():
 
                 relevance_anchor = has_any_term(searchable_text, POLICE_ANCHORS)
                 discovery_anchor = has_any_term(searchable_text, DISCOVERY_TERMS)
-                regional_anchor = has_any_term(searchable_text, JATIM_REGION_TERMS + DISCOVERY_PROVINCES)
+                regional_anchor = has_any_term(searchable_text, JATIM_REGION_TERMS)
 
                 if not (relevance_anchor or (discovery_anchor and regional_anchor)):
                     skipped_irrelevant += 1
@@ -1389,7 +1377,14 @@ def main():
                         (
                             "Jawa Timur"
                             if is_jatim
-                            else "Indonesia"
+                            else "LUAR JATIM"
+                        ),
+
+                    "area_label":
+                        (
+                            polres
+                            if polres
+                            else ("Jawa Timur" if is_jatim else "LUAR JATIM")
                         ),
 
                     "is_jatim":
@@ -1637,13 +1632,13 @@ def main():
                 added,
 
             "discovery_version":
-                "discovery-v6",
+                "discovery-v6.1",
 
             "discovery_families":
                 len(DISCOVERY_FAMILIES),
 
-            "national_province_queries":
-                len(DISCOVERY_PROVINCES),
+            "jatim_polres_count":
+                len(POLRES),
         },
 
         "statistics":

@@ -109,139 +109,153 @@ def build_snapshot():
     all_social = social_db.get("items", [])
 
     today_news = [item for item in all_news if is_today(item, today)]
-    today_social = [item for item in all_social if is_today(item, today)]
-    today_cases = [case for case in all_cases if active_case_today(case, today)]
+    today_jatim = [item for item in today_news if item.get("is_jatim") is True]
+    today_outside = [item for item in today_news if item.get("is_jatim") is not True]
 
-    negative_items = [
-        item for item in today_news
-        if article_is_negative(item)
+    today_social = [item for item in all_social if is_today(item, today)]
+
+    # Cases are active on the day when at least one linked article is collected.
+    today_cases_all = [case for case in all_cases if active_case_today(case, today)]
+    today_jatim_case_ids = {
+        item.get("case_id") for item in today_jatim if item.get("case_id")
+    }
+    today_jatim_cases = [
+        case for case in today_cases_all
+        if case.get("case_id") in today_jatim_case_ids
+        or case.get("is_jatim") is True
     ]
 
-    high_cases = [
-        case for case in today_cases
-        if str(case.get("priority") or "").lower() == "high"
+    def count_scope(items, scope):
+        return sum(
+            1 for item in items
+            if str(item.get("scope") or "").lower() == scope
+        )
+
+    def count_priority(items, priority):
+        return sum(
+            1 for item in items
+            if str(item.get("priority") or "").lower() == priority
+        )
+
+    negative_jatim = [x for x in today_jatim if str(x.get("scope") or "").lower() == "negative"]
+    high_jatim_cases = [
+        c for c in today_jatim_cases
+        if str(c.get("priority") or "").lower() == "high"
     ]
 
     snapshot = {
-        "schema_version": "today-v2",
+        "schema_version": "today-v3",
         "date": str(today),
         "timezone": "Asia/Jakarta",
         "updated_at": now.isoformat(),
         "last_successful_update": now.isoformat(),
 
+        # Raw daily universe remains available for archive/monitoring.
         "news": {
             "detected": len(today_news),
-            "negative": len(negative_items),
-            "positive": sum(
-                1 for item in today_news
-                if str(item.get("scope") or "").lower() == "positive"
-            ),
-            "case": sum(
-                1 for item in today_news
-                if str(item.get("scope") or "").lower() == "case"
-            ),
-            "neutral": sum(
-                1 for item in today_news
-                if str(item.get("scope") or "").lower() == "neutral"
-            ),
-            "jatim": sum(
-                1 for item in today_news
-                if item.get("is_jatim") is True
-            ),
-            "priority_high": sum(
-                1 for item in today_news
-                if str(item.get("priority") or "").lower() == "high"
-            ),
-            "article_ids": [
-                item.get("id") for item in today_news if item.get("id")
-            ],
+            "negative": count_scope(today_news, "negative"),
+            "positive": count_scope(today_news, "positive"),
+            "case": count_scope(today_news, "case"),
+            "neutral": count_scope(today_news, "neutral"),
+            "jatim": len(today_jatim),
+            "luar_jatim": len(today_outside),
+            "priority_high": count_priority(today_news, "high"),
+            "article_ids": [x.get("id") for x in today_news if x.get("id")],
             "items": today_news,
+            "jatim_items": today_jatim,
+            "luar_jatim_items": today_outside,
         },
 
         "cases": {
-            "active": len(today_cases),
-            "priority_high": len(high_cases),
-            "jatim": sum(
-                1 for case in today_cases
-                if case.get("is_jatim") is True
+            "active": len(today_cases_all),
+            "priority_high": sum(
+                1 for c in today_cases_all
+                if str(c.get("priority") or "").lower() == "high"
             ),
+            "jatim": len(today_jatim_cases),
+            "jatim_priority_high": len(high_jatim_cases),
             "articles": sum(
-                int(case.get("article_count", 0) or 0)
-                for case in today_cases
+                int(c.get("article_count", 0) or 0)
+                for c in today_cases_all
             ),
             "case_ids": [
-                case.get("case_id")
-                for case in today_cases
-                if case.get("case_id")
+                c.get("case_id") for c in today_cases_all if c.get("case_id")
             ],
-            "items": today_cases,
+            "items": today_cases_all,
+            "jatim_items": today_jatim_cases,
         },
 
         "social": {
             "detected": len(today_social),
-            "jatim": sum(
-                1 for item in today_social
-                if item.get("is_jatim") is True
-            ),
-            "negative": sum(
-                1 for item in today_social
-                if str(item.get("scope") or "").lower() == "negative"
-            ),
-            "priority_high": sum(
-                1 for item in today_social
-                if str(item.get("priority") or "").lower() == "high"
-            ),
+            "jatim": sum(1 for item in today_social if item.get("is_jatim") is True),
+            "negative": count_scope(today_social, "negative"),
+            "priority_high": count_priority(today_social, "high"),
             "video_ids": [
-                item.get("video_id")
-                for item in today_social
-                if item.get("video_id")
+                item.get("video_id") for item in today_social if item.get("video_id")
             ],
         },
 
-        "regions": build_region_stats(today_news),
-        "polres": build_polres_stats(today_news),
-        "categories": build_category_stats(today_news),
+        # Dashboard-facing Jatim-only aggregates.
+        "jatim": {
+            "news_today": len(today_jatim),
+            "negative_today": len(negative_jatim),
+            "positive_today": count_scope(today_jatim, "positive"),
+            "case_scope_today": count_scope(today_jatim, "case"),
+            "neutral_today": count_scope(today_jatim, "neutral"),
+            "case_today": len(today_jatim_cases),
+            "case_high_active": len(high_jatim_cases),
+            "article_high_today": count_priority(today_jatim, "high"),
+            "outside_jatim_today": len(today_outside),
+        },
+
+        "regions": build_region_stats(today_jatim),
+        "polres": build_polres_stats(today_jatim),
+        "categories": build_category_stats(today_jatim),
 
         "summary": {
+            # Legacy/global fields kept for data integrity.
             "news_today": len(today_news),
-            "negative_today": len(negative_items),
-            "cases_today": len(today_cases),
-            "priority_high": len(high_cases),
-            "article_priority_high": sum(
-                1 for item in today_news
-                if str(item.get("priority") or "").lower() == "high"
+            "negative_today": count_scope(today_news, "negative"),
+            "cases_today": len(today_cases_all),
+            "priority_high": sum(
+                1 for c in today_cases_all
+                if str(c.get("priority") or "").lower() == "high"
             ),
-            "jatim_news": sum(
-                1 for item in today_news
-                if item.get("is_jatim") is True
-            ),
+            "article_priority_high": count_priority(today_news, "high"),
+            "jatim_news": len(today_jatim),
+            # New explicit dashboard metrics.
+            "jatim_negative": len(negative_jatim),
+            "jatim_positive": count_scope(today_jatim, "positive"),
+            "jatim_case_scope": count_scope(today_jatim, "case"),
+            "jatim_neutral": count_scope(today_jatim, "neutral"),
+            "jatim_cases_today": len(today_jatim_cases),
+            "jatim_case_high_active": len(high_jatim_cases),
+            "luar_jatim_news": len(today_outside),
             "youtube_today": len(today_social),
         },
     }
 
     save_json(TODAY_FILE, snapshot)
 
-    archive_path = os.path.join(
-        ARCHIVE_DIR, f"{today}.json"
-    )
+    archive_path = os.path.join(ARCHIVE_DIR, f"{today}.json")
     save_json(archive_path, snapshot)
 
     print("========================================")
-    print("PNM DAILY MONITORING SNAPSHOT V2")
+    print("JAGAT DAILY SNAPSHOT V3")
     print("========================================")
     print(f"Monitoring date : {today}")
-    print(f"Update time     : {now.isoformat()}")
+    print(f"News today     : {len(today_news)}")
+    print(f"Jatim today    : {len(today_jatim)}")
+    print(f"Luar Jatim     : {len(today_outside)}")
+    print(f"Negative Jatim : {len(negative_jatim)}")
+    print(f"Case Jatim     : {len(today_jatim_cases)}")
+    print(f"High Case Jatim: {len(high_jatim_cases)}")
+    print(f"YouTube        : {len(today_social)}")
     print("----------------------------------------")
-    print(f"News today      : {len(today_news)}")
-    print(f"Negative        : {len(negative_items)}")
-    print(f"Cases today     : {len(today_cases)}")
-    print(f"High cases      : {len(high_cases)}")
-    print(f"YouTube         : {len(today_social)}")
-    print(f"Jatim news      : {sum(1 for item in today_news if item.get('is_jatim') is True)}")
-    print("----------------------------------------")
-    print(f"Today file      : {TODAY_FILE}")
-    print(f"Archive         : {archive_path}")
+    print(f"Today file     : {TODAY_FILE}")
+    print(f"Archive        : {archive_path}")
     print("========================================")
+
 
 if __name__ == "__main__":
     build_snapshot()

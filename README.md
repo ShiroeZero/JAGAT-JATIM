@@ -1,6 +1,6 @@
-# PNM — Polri Negative News Monitor V6
+# JAGAT — Jejaring Analisis & Garda Atensi Terpadu
 
-PNM is an internal monitoring dashboard for news discovery, location normalization, canonical incident/case clustering, Jatim situational awareness, daily snapshots, historical archives, and operational reporting preparation.
+JAGAT is an internal monitoring dashboard for news discovery, location normalization, canonical incident/case clustering, Jatim situational awareness, daily snapshots, historical archives, and operational reporting preparation.
 
 ## V6 architecture
 
@@ -146,3 +146,16 @@ The older standalone `pages-build-and-deployment` workflow is not required for n
 ## Access note
 
 The dashboard is intentionally served without a frontend login gate. Access control, if required in the future, should be implemented at the hosting/authentication layer rather than by storing credentials in JavaScript.
+
+
+## V6.1 corrections
+
+- Geographic normalization uses the article title only; publisher/source names are never evidence for location.
+- Canonical Jatim coverage is the 39 Polres Jatim plus explicit Jatim locality/province signals.
+- Records without a canonical Jatim title signal are labeled `LUAR JATIM`.
+- Discovery is Jatim-focused. The collector no longer fans out into one query family for every Indonesian province.
+- National/general discovery remains as a supplement and can produce `LUAR JATIM` records.
+- Daily dashboard metrics are Jatim-only.
+- Monitoring uses the full news database plus explicit date filtering.
+- Case priority remains separate from article priority.
+- Archive uses its own snapshot for case/news detail.

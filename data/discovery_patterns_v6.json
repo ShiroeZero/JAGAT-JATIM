@@ -1,6 +1,6 @@
 {
-  "version": "discovery-v6",
-  "purpose": "Vocabulary and discovery families derived from the 2026 East Java headline corpus provided for PNM monitoring.",
+  "version": "discovery-v6.1",
+  "purpose": "Jawa Timur-focused discovery vocabulary derived from the supplied 2026 East Java headline corpora.",
   "families": {
     "case_handling": {
       "label": "Penanganan Perkara / Tangkap Lepas",
@@ -268,46 +268,6 @@
       ]
     }
   },
-  "provinces": [
-    "Aceh",
-    "Sumatera Utara",
-    "Sumatera Barat",
-    "Riau",
-    "Kepulauan Riau",
-    "Jambi",
-    "Sumatera Selatan",
-    "Kepulauan Bangka Belitung",
-    "Bengkulu",
-    "Lampung",
-    "DKI Jakarta",
-    "Jawa Barat",
-    "Banten",
-    "Jawa Tengah",
-    "Daerah Istimewa Yogyakarta",
-    "Jawa Timur",
-    "Bali",
-    "Nusa Tenggara Barat",
-    "Nusa Tenggara Timur",
-    "Kalimantan Barat",
-    "Kalimantan Tengah",
-    "Kalimantan Selatan",
-    "Kalimantan Timur",
-    "Kalimantan Utara",
-    "Sulawesi Utara",
-    "Gorontalo",
-    "Sulawesi Tengah",
-    "Sulawesi Barat",
-    "Sulawesi Selatan",
-    "Sulawesi Tenggara",
-    "Maluku",
-    "Maluku Utara",
-    "Papua",
-    "Papua Barat",
-    "Papua Tengah",
-    "Papua Pegunungan",
-    "Papua Selatan",
-    "Papua Barat Daya"
-  ],
   "source_notes": [
     "Pattern families were derived from the two 2026 East Java headline corpora supplied by the user.",
     "Patterns are discovery signals, not factual determinations; article wording must still be evaluated in context."
