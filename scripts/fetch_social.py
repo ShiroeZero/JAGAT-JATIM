@@ -1,19 +1,313 @@
 import json
 import os
+import re
+import hashlib
 from datetime import datetime, timezone, timedelta
 from urllib.parse import urlencode
 from urllib.request import Request, urlopen
 from urllib.error import HTTPError, URLError
 
 
+# ============================================================
+# PNM — SOCIAL MONITOR
+# YouTube Data API v3
+# ============================================================
+
 OUT = "data/social.json"
 API_URL = "https://www.googleapis.com/youtube/v3/search"
+API_KEY = os.environ.get("YOUTUBE_API_KEY", "").strip()
 
-API_KEY = os.environ.get(
-    "YOUTUBE_API_KEY",
-    ""
-).strip()
 
+# ============================================================
+# 39 POLRES / SATWIL JAWA TIMUR
+# ============================================================
+
+POLRES_MAP = {
+    "POLRES PELABUHAN TANJUNG PERAK": [
+        "polres pelabuhan tanjung perak",
+        "pelabuhan tanjung perak",
+        "tanjung perak",
+    ],
+
+    "POLRES JEMBER": [
+        "polres jember",
+        "kabupaten jember",
+        "jember",
+    ],
+
+    "POLRES KEDIRI": [
+        "polres kediri",
+        "kabupaten kediri",
+    ],
+
+    "POLRES BLITAR KOTA": [
+        "polres blitar kota",
+        "blitar kota",
+    ],
+
+    "POLRESTABES SURABAYA": [
+        "polrestabes surabaya",
+        "surabaya",
+    ],
+
+    "POLRESTA MALANG KOTA": [
+        "polresta malang kota",
+        "malang kota",
+    ],
+
+    "POLRESTA SIDOARJO": [
+        "polresta sidoarjo",
+        "sidoarjo",
+    ],
+
+    "POLRESTA BANYUWANGI": [
+        "polresta banyuwangi",
+        "banyuwangi",
+    ],
+
+    "POLRESTA TUBAN": [
+        "polresta tuban",
+        "tuban",
+    ],
+
+    "POLRESTA SUMENEP": [
+        "polresta sumenep",
+        "sumenep",
+    ],
+
+    "POLRES GRESIK": [
+        "polres gresik",
+        "gresik",
+    ],
+
+    "POLRES MALANG": [
+        "polres malang",
+        "kabupaten malang",
+    ],
+
+    "POLRES PASURUAN": [
+        "polres pasuruan",
+        "kabupaten pasuruan",
+    ],
+
+    "POLRES PASURUAN KOTA": [
+        "polres pasuruan kota",
+        "pasuruan kota",
+    ],
+
+    "POLRES PROBOLINGGO": [
+        "polres probolinggo",
+        "kabupaten probolinggo",
+    ],
+
+    "POLRES PROBOLINGGO KOTA": [
+        "polres probolinggo kota",
+        "probolinggo kota",
+    ],
+
+    "POLRES LUMAJANG": [
+        "polres lumajang",
+        "lumajang",
+    ],
+
+    "POLRES BATU": [
+        "polres batu",
+        "kota batu",
+    ],
+
+    "POLRES BONDOWOSO": [
+        "polres bondowoso",
+        "bondowoso",
+    ],
+
+    "POLRES SITUBONDO": [
+        "polres situbondo",
+        "situbondo",
+    ],
+
+    "POLRES KEDIRI KOTA": [
+        "polres kediri kota",
+        "kediri kota",
+    ],
+
+    "POLRES TULUNGAGUNG": [
+        "polres tulungagung",
+        "tulungagung",
+    ],
+
+    "POLRES NGANJUK": [
+        "polres nganjuk",
+        "nganjuk",
+    ],
+
+    "POLRES TRENGGALEK": [
+        "polres trenggalek",
+        "trenggalek",
+    ],
+
+    "POLRES BLITAR": [
+        "polres blitar",
+        "kabupaten blitar",
+    ],
+
+    "POLRES MADIUN": [
+        "polres madiun",
+        "kabupaten madiun",
+    ],
+
+    "POLRES MADIUN KOTA": [
+        "polres madiun kota",
+        "madiun kota",
+    ],
+
+    "POLRES NGAWI": [
+        "polres ngawi",
+        "ngawi",
+    ],
+
+    "POLRES MAGETAN": [
+        "polres magetan",
+        "magetan",
+    ],
+
+    "POLRES PONOROGO": [
+        "polres ponorogo",
+        "ponorogo",
+    ],
+
+    "POLRES PACITAN": [
+        "polres pacitan",
+        "pacitan",
+    ],
+
+    "POLRES BOJONEGORO": [
+        "polres bojonegoro",
+        "bojonegoro",
+    ],
+
+    "POLRES LAMONGAN": [
+        "polres lamongan",
+        "lamongan",
+    ],
+
+    "POLRES MOJOKERTO": [
+        "polres mojokerto",
+        "kabupaten mojokerto",
+    ],
+
+    "POLRES MOJOKERTO KOTA": [
+        "polres mojokerto kota",
+        "mojokerto kota",
+    ],
+
+    "POLRES JOMBANG": [
+        "polres jombang",
+        "jombang",
+    ],
+
+    "POLRES PAMEKASAN": [
+        "polres pamekasan",
+        "pamekasan",
+    ],
+
+    "POLRES BANGKALAN": [
+        "polres bangkalan",
+        "bangkalan",
+    ],
+
+    "POLRES SAMPANG": [
+        "polres sampang",
+        "sampang",
+    ],
+}
+
+
+# ============================================================
+# KOTA / KABUPATEN JAWA TIMUR
+# ============================================================
+
+JATIM_LOCATIONS = [
+    "surabaya",
+    "sidoarjo",
+    "gresik",
+    "lamongan",
+    "tuban",
+    "bojonegoro",
+    "ngawi",
+    "magetan",
+    "madiun",
+    "ponorogo",
+    "pacitan",
+    "nganjuk",
+    "kediri",
+    "tulungagung",
+    "blitar",
+    "trenggalek",
+    "malang",
+    "batu",
+    "pasuruan",
+    "probolinggo",
+    "lumajang",
+    "jember",
+    "bondowoso",
+    "situbondo",
+    "banyuwangi",
+    "mojokerto",
+    "jombang",
+    "pamekasan",
+    "bangkalan",
+    "sampang",
+    "sumenep",
+    "madura",
+]
+
+
+# ============================================================
+# LUAR JAWA TIMUR
+# Negative evidence.
+# ============================================================
+
+OUTSIDE_LOCATIONS = [
+    "riau",
+    "pekanbaru",
+    "lampung",
+    "lampung utara",
+    "bandar lampung",
+    "sumatera selatan",
+    "palembang",
+    "baturaja",
+    "oku",
+    "oku timur",
+    "jakarta",
+    "jakarta barat",
+    "jakarta timur",
+    "jakarta selatan",
+    "jakarta utara",
+    "tangerang",
+    "tangerang selatan",
+    "banten",
+    "bandung",
+    "jawa barat",
+    "jawa tengah",
+    "semarang",
+    "yogyakarta",
+    "daerah istimewa yogyakarta",
+    "bali",
+    "denpasar",
+    "pontianak",
+    "kalimantan",
+    "sulawesi",
+    "morowali",
+    "padang",
+    "sumatera barat",
+    "batam",
+    "kepulauan riau",
+]
+
+
+# ============================================================
+# QUERY YOUTUBE
+# ============================================================
 
 SEARCH_QUERIES = [
     '"oknum polisi"',
@@ -31,90 +325,715 @@ SEARCH_QUERIES = [
 
 
 # ============================================================
-# TIME
+# BASIC TERMS
 # ============================================================
 
-def now_utc():
-    return datetime.now(timezone.utc)
+POLRI_TERMS = [
+    "polisi",
+    "polri",
+    "oknum polisi",
+    "oknum polri",
+    "anggota polisi",
+    "anggota polri",
+    "polda",
+    "polres",
+    "polresta",
+    "polrestabes",
+    "propam",
+    "kapolres",
+    "kapolda",
+]
 
 
-def iso_z(dt):
-    return dt.strftime(
-        "%Y-%m-%dT%H:%M:%SZ"
+NEGATIVE_TERMS = [
+    "oknum",
+    "pelanggaran etik",
+    "pelanggaran disiplin",
+    "penyalahgunaan wewenang",
+    "korupsi",
+    "suap",
+    "pungli",
+    "pemerasan",
+    "narkoba",
+    "narkotika",
+    "sabu",
+    "penganiayaan",
+    "kekerasan",
+    "penembakan",
+    "ditangkap",
+    "ditahan",
+    "tersangka",
+    "terlibat",
+    "diduga",
+]
+
+
+NOISE_TERMS = [
+    "game",
+    "remix",
+    "dubbing",
+    "mainan",
+    "meme",
+    "parodi",
+    "komedi",
+    "challenge",
+]
+
+
+CASE_ACTION_TERMS = [
+    "polisi menangkap",
+    "polisi ungkap",
+    "polisi mengungkap",
+    "polisi amankan",
+    "polisi mengamankan",
+    "polisi berhasil menangkap",
+    "polisi berhasil mengungkap",
+    "ditangkap polisi",
+    "diamankan polisi",
+    "diamankan oleh polisi",
+    "ditangkap oleh polisi",
+]
+
+
+# ============================================================
+# POLISI SEBAGAI KORBAN
+# ============================================================
+
+POLICE_VICTIM_PATTERNS = [
+    r"(polisi|anggota polisi|anggota polri).{0,100}"
+    r"(ditembak|tertembak|ditabrak|dianiaya|diserang|terluka|tewas|meninggal)",
+
+    r"(polisi|anggota polisi|anggota polri).{0,100}"
+    r"(menjadi korban|jadi korban)",
+
+    r"(3|dua|dua orang|beberapa).{0,30}"
+    r"(polisi|anggota polisi|anggota polri).{0,80}"
+    r"(terluka|tewas|meninggal|ditembak)",
+]
+
+
+# ============================================================
+# POLISI SEBAGAI PELAKU
+# ============================================================
+
+POLICE_NEGATIVE_PATTERNS = [
+    r"oknum\s+(polisi|polri)",
+
+    r"(anggota\s+)?(polisi|polri).{0,100}"
+    r"(ditangkap|ditahan|tersangka|terlibat|diduga)",
+
+    r"(polisi|polri).{0,100}"
+    r"(korupsi|suap|pungli|pemerasan)",
+
+    r"(polisi|polri).{0,100}"
+    r"(narkoba|narkotika|sabu|ganja)",
+
+    r"(polisi|polri).{0,100}"
+    r"(penganiayaan|kekerasan|penembakan)",
+
+    r"(polisi|polri).{0,100}"
+    r"(pelanggaran\s+etik|pelanggaran\s+disiplin)",
+
+    r"(polisi|polri).{0,100}"
+    r"penyalahgunaan\s+wewenang",
+]
+
+
+# ============================================================
+# HELPERS
+# ============================================================
+
+def normalize(text):
+    text = str(text or "").lower()
+
+    text = re.sub(
+        r"&amp;",
+        " dan ",
+        text
     )
 
+    text = re.sub(
+        r"\s+",
+        " ",
+        text
+    )
+
+    return text.strip()
+
+
+def contains_word(text, term):
+    """
+    Word-boundary matching.
+
+    Mencegah:
+        batu -> baturaja
+        madiun -> madiun? tetap cocok
+    """
+
+    text = normalize(text)
+    term = normalize(term)
+
+    pattern = (
+        r"(?<![a-z0-9])"
+        + re.escape(term)
+        + r"(?![a-z0-9])"
+    )
+
+    return re.search(
+        pattern,
+        text
+    ) is not None
+
+
+def make_id(video_id):
+
+    return hashlib.sha1(
+        (
+            "youtube|"
+            + video_id
+        ).encode("utf-8")
+    ).hexdigest()
+
 
 # ============================================================
-# LOAD EXISTING DATABASE
+# DETECT POLRES
 # ============================================================
 
-def load_database():
+def detect_polres(text):
 
-    if not os.path.exists(OUT):
+    candidates = []
 
-        return {
-            "generated_at": None,
-            "platform": "YouTube",
-            "total": 0,
-            "new_videos": 0,
-            "last_successful_fetch": None,
-            "items": [],
-        }
+    for polres, aliases in POLRES_MAP.items():
 
-    try:
+        for alias in aliases:
 
-        with open(
-            OUT,
-            "r",
-            encoding="utf-8",
-        ) as file:
+            if contains_word(
+                text,
+                alias
+            ):
 
-            data = json.load(file)
+                candidates.append(
+                    (
+                        len(alias),
+                        polres,
+                        alias
+                    )
+                )
 
-        if not isinstance(data, dict):
-            raise ValueError(
-                "social.json bukan object JSON"
-            )
+    if not candidates:
+        return None, None
 
-        if not isinstance(
-            data.get("items"),
-            list,
+    # Alias terpanjang menang.
+    candidates.sort(
+        reverse=True
+    )
+
+    _, polres, evidence = candidates[0]
+
+    return polres, evidence
+
+
+# ============================================================
+# DETECT JATIM LOCATION
+# ============================================================
+
+def detect_jatim_locations(text):
+
+    found = []
+
+    for location in JATIM_LOCATIONS:
+
+        if contains_word(
+            text,
+            location
         ):
 
-            data["items"] = []
+            found.append(
+                location
+            )
 
-        return data
-
-    except Exception as error:
-
-        raise RuntimeError(
-            "Gagal membaca "
-            + OUT
-            + ": "
-            + str(error)
-        )
+    return found
 
 
 # ============================================================
-# BUILD INDEX
+# DETECT OUTSIDE LOCATION
 # ============================================================
 
-def build_video_index(items):
+def detect_outside_locations(text):
 
-    index = {}
+    found = []
 
-    for item in items:
+    for location in OUTSIDE_LOCATIONS:
 
-        video_id = item.get(
-            "video_id"
+        if contains_word(
+            text,
+            location
+        ):
+
+            found.append(
+                location
+            )
+
+    return found
+
+
+# ============================================================
+# LOCATION SCORING
+# ============================================================
+
+def detect_location(
+    title,
+    description
+):
+
+    title_n = normalize(title)
+    description_n = normalize(description)
+
+    combined = (
+        title_n
+        + " "
+        + description_n
+    )
+
+    score = 0
+    evidence = []
+    source = None
+    polres = None
+
+    # --------------------------------------------------------
+    # 1. POLRES
+    # Strongest evidence.
+    # --------------------------------------------------------
+
+    detected_polres, polres_evidence = detect_polres(
+        combined
+    )
+
+    if detected_polres:
+
+        polres = detected_polres
+
+        score += 100
+
+        evidence.append(
+            polres_evidence
         )
 
-        if not video_id:
-            continue
+        source = "polres"
 
-        index[video_id] = item
+    # --------------------------------------------------------
+    # 2. JAWA TIMUR EXPLICIT
+    # --------------------------------------------------------
 
-    return index
+    if (
+        contains_word(
+            combined,
+            "jawa timur"
+        )
+        or
+        contains_word(
+            combined,
+            "jatim"
+        )
+    ):
+
+        score += 80
+
+        evidence.append(
+            "Jawa Timur/Jatim"
+        )
+
+        if source is None:
+            source = "province"
+
+    # --------------------------------------------------------
+    # 3. KOTA/KABUPATEN
+    # --------------------------------------------------------
+
+    jatim_locations = detect_jatim_locations(
+        combined
+    )
+
+    for location in jatim_locations:
+
+        if contains_word(
+            title_n,
+            location
+        ):
+
+            score += 60
+
+        else:
+
+            score += 35
+
+        evidence.append(
+            location
+        )
+
+        if source is None:
+            source = "location"
+
+    # --------------------------------------------------------
+    # 4. LUAR JATIM
+    # --------------------------------------------------------
+
+    outside_locations = detect_outside_locations(
+        combined
+    )
+
+    if outside_locations and not polres:
+
+        score -= 100
+
+        for location in outside_locations:
+
+            evidence.append(
+                "LUAR:" + location
+            )
+
+        if source is None:
+            source = "outside"
+
+    # --------------------------------------------------------
+    # FINAL DECISION
+    # --------------------------------------------------------
+
+    is_jatim = score >= 35
+
+    # Bukti luar Jatim kuat mengalahkan
+    # keyword kota yang lemah.
+
+    if (
+        outside_locations
+        and not polres
+        and score < 80
+    ):
+
+        is_jatim = False
+
+    confidence = min(
+        100,
+        max(
+            0,
+            score
+        )
+    )
+
+    return {
+        "is_jatim": is_jatim,
+        "polres": polres,
+        "confidence": confidence,
+        "source": source,
+        "evidence": evidence,
+    }
+
+
+# ============================================================
+# CONTENT CLASSIFICATION
+# ============================================================
+
+def classify_content(
+    title,
+    description
+):
+
+    title_n = normalize(title)
+    description_n = normalize(description)
+
+    text = (
+        title_n
+        + " "
+        + description_n
+    )
+
+    # --------------------------------------------------------
+    # POLRI RELEVANCE
+    # --------------------------------------------------------
+
+    polri_hits = []
+
+    for term in POLRI_TERMS:
+
+        if contains_word(
+            text,
+            term
+        ):
+
+            polri_hits.append(
+                term
+            )
+
+    # Tidak ada hubungan dengan polisi.
+    if not polri_hits:
+
+        return {
+            "relevance": "low",
+            "scope": "neutral",
+            "category": "Tidak Relevan",
+            "score": 0,
+        }
+
+    # --------------------------------------------------------
+    # NOISE
+    # --------------------------------------------------------
+
+    noise_hits = []
+
+    for term in NOISE_TERMS:
+
+        if contains_word(
+            text,
+            term
+        ):
+
+            noise_hits.append(
+                term
+            )
+
+    if (
+        noise_hits
+        and len(polri_hits) <= 1
+    ):
+
+        return {
+            "relevance": "noise",
+            "scope": "noise",
+            "category": "Tidak Relevan",
+            "score": 0,
+        }
+
+    # --------------------------------------------------------
+    # POLISI SEBAGAI KORBAN
+    #
+    # HARUS diperiksa SEBELUM negative.
+    # --------------------------------------------------------
+
+    police_is_victim = any(
+        re.search(
+            pattern,
+            text
+        )
+        for pattern
+        in POLICE_VICTIM_PATTERNS
+    )
+
+    if police_is_victim:
+
+        return {
+            "relevance": "high",
+            "scope": "incident",
+            "category":
+                "Peristiwa Melibatkan Polisi",
+            "score": 70,
+        }
+
+    # --------------------------------------------------------
+    # POLISI SEBAGAI PELAKU
+    # --------------------------------------------------------
+
+    police_is_negative = any(
+        re.search(
+            pattern,
+            text
+        )
+        for pattern
+        in POLICE_NEGATIVE_PATTERNS
+    )
+
+    if police_is_negative:
+
+        # Narkoba
+        if any(
+            contains_word(
+                text,
+                term
+            )
+            for term in [
+                "narkoba",
+                "narkotika",
+                "sabu",
+                "ganja",
+            ]
+        ):
+
+            category = (
+                "Oknum / Narkoba"
+            )
+
+        # Korupsi / Suap / Pungli
+        elif any(
+            contains_word(
+                text,
+                term
+            )
+            for term in [
+                "korupsi",
+                "suap",
+                "pungli",
+                "pemerasan",
+            ]
+        ):
+
+            category = (
+                "Oknum / Korupsi / Pungli"
+            )
+
+        # Etik / Disiplin
+        elif any(
+            contains_word(
+                text,
+                term
+            )
+            for term in [
+                "etik",
+                "disiplin",
+            ]
+        ):
+
+            category = (
+                "Etik / Disiplin"
+            )
+
+        # Kekerasan
+        elif any(
+            contains_word(
+                text,
+                term
+            )
+            for term in [
+                "penganiayaan",
+                "kekerasan",
+                "penembakan",
+            ]
+        ):
+
+            category = (
+                "Kekerasan / Penganiayaan"
+            )
+
+        # Penyalahgunaan wewenang
+        elif contains_word(
+            text,
+            "penyalahgunaan wewenang"
+        ):
+
+            category = (
+                "Penyalahgunaan Wewenang"
+            )
+
+        else:
+
+            category = (
+                "Oknum / Pelanggaran Anggota"
+            )
+
+        return {
+            "relevance": "high",
+            "scope": "negative",
+            "category": category,
+            "score": 100,
+        }
+
+    # --------------------------------------------------------
+    # POLISI SEBAGAI PENINDAK
+    # --------------------------------------------------------
+
+    police_is_actor = any(
+        contains_word(
+            text,
+            term
+        )
+        for term in CASE_ACTION_TERMS
+    )
+
+    if police_is_actor:
+
+        return {
+            "relevance": "high",
+            "scope": "case",
+            "category": "Ungkap Kasus",
+            "score": 60,
+        }
+
+    # --------------------------------------------------------
+    # BERITA POLISI LAINNYA
+    # --------------------------------------------------------
+
+    return {
+        "relevance": "medium",
+        "scope": "neutral",
+        "category":
+            "Berita Polisi Lainnya",
+        "score": 25,
+    }
+
+
+# ============================================================
+# PRIORITY
+# ============================================================
+
+def detect_priority(
+    classification,
+    title,
+    description
+):
+
+    if classification["scope"] != "negative":
+
+        return "low"
+
+    text = normalize(
+        title
+        + " "
+        + description
+    )
+
+    high_terms = [
+        "korupsi",
+        "suap",
+        "pungli",
+        "pemerasan",
+        "narkoba",
+        "narkotika",
+        "sabu",
+        "penembakan",
+        "tewas",
+        "meninggal",
+    ]
+
+    medium_terms = [
+        "diduga",
+        "pelanggaran etik",
+        "pelanggaran disiplin",
+        "penganiayaan",
+        "kekerasan",
+        "tersangka",
+        "ditangkap",
+        "ditahan",
+    ]
+
+    if any(
+        contains_word(
+            text,
+            term
+        )
+        for term in high_terms
+    ):
+
+        return "high"
+
+    if any(
+        contains_word(
+            text,
+            term
+        )
+        for term in medium_terms
+    ):
+
+        return "medium"
+
+    return "low"
 
 
 # ============================================================
@@ -123,28 +1042,18 @@ def build_video_index(items):
 
 def youtube_search(
     query,
-    published_after,
+    published_after
 ):
-
     params = {
-
         "part": "snippet",
-
         "q": query,
-
         "type": "video",
-
         "order": "date",
-
         "maxResults": 25,
-
         "publishedAfter":
             published_after,
-
         "regionCode": "ID",
-
         "relevanceLanguage": "id",
-
         "key": API_KEY,
     }
 
@@ -159,40 +1068,153 @@ def youtube_search(
         headers={
             "User-Agent":
                 "PNM-Social-Monitor/1.0"
-        },
+        }
     )
 
     try:
 
         with urlopen(
             request,
-            timeout=30,
+            timeout=30
         ) as response:
 
             return json.loads(
                 response.read()
             )
 
-    except HTTPError as error:
+    except HTTPError as e:
 
-        body = error.read().decode(
+        body = e.read().decode(
             "utf-8",
-            errors="ignore",
+            errors="ignore"
         )
+
+        # ----------------------------------------------------
+        # YOUTUBE QUOTA / RATE LIMIT
+        # ----------------------------------------------------
+        # Jangan membuat seluruh workflow gagal hanya karena
+        # quota YouTube habis. Query ini dilewati dan data lama
+        # tetap dipertahankan.
+
+        quota_markers = [
+            "quotaExceeded",
+            "rateLimitExceeded",
+            "dailyLimitExceeded",
+            "defaultSearchListPerDayPerProject",
+        ]
+
+        if (
+            e.code in (403, 429)
+            and any(
+                marker in body
+                for marker in quota_markers
+            )
+        ):
+
+            print(
+                "WARNING: YouTube quota habis "
+                "atau rate limit tercapai."
+            )
+
+            print(
+                "Query dilewati: "
+                + query
+            )
+
+            return None
 
         raise RuntimeError(
             "YouTube API HTTP "
-            + str(error.code)
+            + str(e.code)
             + ": "
             + body
         )
 
-    except URLError as error:
+    except URLError as e:
 
-        raise RuntimeError(
-            "YouTube network error: "
-            + str(error)
+        print(
+            "WARNING: YouTube network error:"
         )
+
+        print(
+            str(e)
+        )
+
+        return None
+
+
+# ============================================================
+# LOAD EXISTING
+# ============================================================
+
+def load_existing():
+
+    if not os.path.exists(OUT):
+
+        return []
+
+    try:
+
+        with open(
+            OUT,
+            "r",
+            encoding="utf-8"
+        ) as f:
+
+            data = json.load(f)
+
+        return data.get(
+            "items",
+            []
+        )
+
+    except Exception:
+
+        return []
+
+
+def load_query_state():
+    """Load query rotation state from social.json."""
+
+    if not os.path.exists(OUT):
+        return {
+            "query_cursor": 0,
+            "quota_block_date": None,
+        }
+
+    try:
+
+        with open(
+            OUT,
+            "r",
+            encoding="utf-8"
+        ) as f:
+
+            data = json.load(f)
+
+        cursor = int(
+            data.get(
+                "query_cursor",
+                0
+            )
+        )
+
+        if cursor < 0:
+            cursor = 0
+
+        return {
+            "query_cursor": cursor,
+            "quota_block_date": data.get(
+                "quota_block_date"
+            ),
+        }
+
+    except Exception:
+
+        return {
+            "query_cursor": 0,
+            "quota_block_date": None,
+        }
 
 
 # ============================================================
@@ -210,12 +1232,12 @@ def main():
     )
 
     print(
-        "INCREMENTAL FETCH V1"
-    )
-
-    print(
         "========================================"
     )
+
+    # --------------------------------------------------------
+    # API KEY
+    # --------------------------------------------------------
 
     if not API_KEY:
 
@@ -223,100 +1245,230 @@ def main():
             "YOUTUBE_API_KEY tidak tersedia."
         )
 
-    now = now_utc()
+    # --------------------------------------------------------
+    # DATE
+    # --------------------------------------------------------
 
-    database = load_database()
-
-    existing_items = database.get(
-        "items",
-        [],
+    now = datetime.now(
+        timezone.utc
     )
 
-    video_index = build_video_index(
-        existing_items
+    published_after = (
+        now - timedelta(
+            days=2
+        )
+    ).strftime(
+        "%Y-%m-%dT%H:%M:%SZ"
     )
 
-    existing_count = len(
-        video_index
-    )
+    # --------------------------------------------------------
+    # OLD DATA
+    # --------------------------------------------------------
 
-    # ========================================================
-    # LAST SUCCESSFUL FETCH
-    # ========================================================
+    existing = load_existing()
 
-    last_successful_fetch = database.get(
-        "last_successful_fetch"
-    )
+    items_by_video = {}
 
-    if last_successful_fetch:
+    for item in existing:
 
-        published_after = (
-            last_successful_fetch
+        video_id = item.get(
+            "video_id"
         )
 
-        fetch_mode = "INCREMENTAL"
+        if video_id:
+
+            items_by_video[
+                video_id
+            ] = item
+
+    print(
+        f"Existing videos : "
+        f"{len(items_by_video)}"
+    )
+
+    print(
+        f"Searching since  : "
+        f"{published_after}"
+    )
+
+    # --------------------------------------------------------
+    # STATISTICS
+    # --------------------------------------------------------
+
+    added = 0
+
+    # --------------------------------------------------------
+    # ROTATING QUERY SEARCH
+    # --------------------------------------------------------
+
+    # Maksimal 3 search.list per workflow.
+    # Dengan schedule tiap jam:
+    # 3 query x 24 jam = maksimal 72 query/hari.
+    # Ini menjaga pemakaian tetap di bawah quota 100 query/hari
+    # selama workflow tidak dijalankan manual berlebihan.
+
+    QUERY_BATCH_SIZE = 3
+
+    query_state = load_query_state()
+
+    query_cursor = query_state[
+        "query_cursor"
+    ]
+
+    quota_block_date = query_state.get(
+        "quota_block_date"
+    )
+
+    current_date = now.strftime(
+        "%Y-%m-%d"
+    )
+
+    total_queries = len(
+        SEARCH_QUERIES
+    )
+
+    if total_queries == 0:
+        print(
+            "WARNING: SEARCH_QUERIES kosong."
+        )
+        selected_queries = []
+        next_cursor = 0
+
+    elif quota_block_date == current_date:
+        print(
+            "WARNING: YouTube quota sudah "
+            "terdeteksi habis hari ini."
+        )
+        print(
+            "API search dilewati sampai reset "
+            "quota berikutnya."
+        )
+        selected_queries = []
+        next_cursor = (
+            query_cursor % total_queries
+        )
 
     else:
-
-        # ----------------------------------------------------
-        # FIRST RUN / MIGRATION
-        #
-        # Kalau timestamp belum ada, ambil 2 hari terakhir.
-        # Data lama tetap dipertahankan dan didedup.
-        # ----------------------------------------------------
-
-        published_after = iso_z(
-            now - timedelta(days=2)
+        query_cursor = (
+            query_cursor % total_queries
         )
 
-        fetch_mode = "INITIAL"
+        selected_queries = []
+
+        for offset in range(
+            min(
+                QUERY_BATCH_SIZE,
+                total_queries
+            )
+        ):
+
+            query_index = (
+                query_cursor
+                + offset
+            ) % total_queries
+
+            selected_queries.append(
+                (
+                    query_index,
+                    SEARCH_QUERIES[
+                        query_index
+                    ]
+                )
+            )
+
+        next_cursor = (
+            query_cursor
+            + min(
+                QUERY_BATCH_SIZE,
+                total_queries
+            )
+        ) % total_queries
 
     print(
-        f"Existing videos : {existing_count}"
+        "========================================"
     )
 
     print(
-        f"Fetch mode      : {fetch_mode}"
+        "YOUTUBE QUERY ROTATION"
     )
 
     print(
-        f"Searching since : {published_after}"
+        f"Cursor awal    : {query_cursor}"
     )
 
-    # ========================================================
-    # FETCH
-    # ========================================================
+    print(
+        f"Query batch    : {len(selected_queries)}"
+    )
 
-    new_items = {}
+    if selected_queries:
+        print(
+            "Query diproses : "
+            + ", ".join(
+                str(index + 1)
+                for index, _ in selected_queries
+            )
+        )
 
-    total_api_results = 0
+    print(
+        "========================================"
+    )
 
-    for index, query in enumerate(
-        SEARCH_QUERIES,
-        start=1,
+    quota_exhausted = (
+        quota_block_date == current_date
+    )
+
+    queries_succeeded = 0
+    queries_skipped = 0
+
+    for batch_index, (
+        query_index,
+        query
+    ) in enumerate(
+        selected_queries,
+        start=1
     ):
 
         print(
-            f"[{index}/{len(SEARCH_QUERIES)}] "
-            f"Searching: {query}"
+            f"[{batch_index}/"
+            f"{len(selected_queries)}] "
+            f"Query #{query_index + 1}: "
+            f"{query}"
         )
 
         response = youtube_search(
             query,
-            published_after,
+            published_after
         )
+
+        # ----------------------------------------------------
+        # QUOTA / NETWORK ERROR
+        # ----------------------------------------------------
+
+        if response is None:
+
+            queries_skipped += 1
+
+            quota_exhausted = True
+
+            print(
+                "    SKIPPED"
+            )
+
+            # Jika quota habis, hentikan batch segera.
+            # Tidak perlu mengirim 2 request berikutnya
+            # yang pasti akan gagal dengan error yang sama.
+            break
+
+        queries_succeeded += 1
 
         results = response.get(
             "items",
-            [],
-        )
-
-        total_api_results += len(
-            results
+            []
         )
 
         print(
-            f"    Results: {len(results)}"
+            f"    Results: "
+            f"{len(results)}"
         )
 
         for result in results:
@@ -327,31 +1479,81 @@ def main():
                 .get("videoId")
             )
 
-            if not video_id:
-                continue
-
-            # ------------------------------------------------
-            # EXISTING VIDEO
-            # ------------------------------------------------
-
-            if video_id in video_index:
-
-                continue
-
-            # ------------------------------------------------
-            # DUPLICATE WITHIN CURRENT RUN
-            # ------------------------------------------------
-
-            if video_id in new_items:
-
-                continue
-
             snippet = result.get(
                 "snippet",
-                {},
+                {}
             )
 
+            if not video_id:
+
+                continue
+
+            title = (
+                snippet.get(
+                    "title"
+                )
+                or ""
+            )
+
+            description = (
+                snippet.get(
+                    "description"
+                )
+                or ""
+            )
+
+            channel = (
+                snippet.get(
+                    "channelTitle"
+                )
+                or ""
+            )
+
+            published_at = (
+                snippet.get(
+                    "publishedAt"
+                )
+                or ""
+            )
+
+            # ------------------------------------------------
+            # CLASSIFY
+            # ------------------------------------------------
+
+            classification = classify_content(
+                title,
+                description
+            )
+
+            # ------------------------------------------------
+            # LOCATION
+            # ------------------------------------------------
+
+            location = detect_location(
+                title,
+                description
+            )
+
+            # ------------------------------------------------
+            # PRIORITY
+            # ------------------------------------------------
+
+            priority = detect_priority(
+                classification,
+                title,
+                description
+            )
+
+            # ------------------------------------------------
+            # RECORD
+            # ------------------------------------------------
+
             item = {
+
+                "id":
+                    make_id(
+                        video_id
+                    ),
 
                 "video_id":
                     video_id,
@@ -363,22 +1565,13 @@ def main():
                     "video",
 
                 "title":
-                    snippet.get(
-                        "title",
-                        "",
-                    ),
+                    title,
 
                 "channel":
-                    snippet.get(
-                        "channelTitle",
-                        "",
-                    ),
+                    channel,
 
                 "published_at":
-                    snippet.get(
-                        "publishedAt",
-                        "",
-                    ),
+                    published_at,
 
                 "url":
                     (
@@ -394,116 +1587,221 @@ def main():
                     ),
 
                 "description":
-                    snippet.get(
-                        "description",
-                        "",
-                    )[:1500],
+                    description[:1500],
 
-                # ------------------------------------------------
-                # CLASSIFICATION AKAN DIISI TAHAP BERIKUTNYA
-                # ------------------------------------------------
+                # Classification
+                "relevance":
+                    classification[
+                        "relevance"
+                    ],
 
-                "scope": None,
+                "scope":
+                    classification[
+                        "scope"
+                    ],
 
-                "category": None,
+                "category":
+                    classification[
+                        "category"
+                    ],
 
-                "role": None,
+                "classification_score":
+                    classification[
+                        "score"
+                    ],
 
-                "classification_confidence":
-                    None,
-
-                "classification_reason":
-                    [],
-
-                # ------------------------------------------------
-                # LOCATION AKAN DIISI TAHAP BERIKUTNYA
-                # ------------------------------------------------
-
+                # Location
                 "is_jatim":
-                    None,
+                    location[
+                        "is_jatim"
+                    ],
 
                 "region":
-                    None,
+                    (
+                        "Jawa Timur"
+                        if location[
+                            "is_jatim"
+                        ]
+                        else "Indonesia"
+                    ),
 
                 "polres":
-                    None,
+                    location[
+                        "polres"
+                    ],
 
                 "location_confidence":
-                    None,
+                    location[
+                        "confidence"
+                    ],
 
                 "location_source":
-                    None,
+                    location[
+                        "source"
+                    ],
 
                 "location_evidence":
-                    [],
+                    location[
+                        "evidence"
+                    ],
 
-                # ------------------------------------------------
-                # PRIORITY AKAN DIISI TAHAP BERIKUTNYA
-                # ------------------------------------------------
-
+                # Priority
                 "priority":
-                    None,
+                    priority,
 
-                # ------------------------------------------------
-                # PROCESSING STATE
-                # ------------------------------------------------
-
-                "processing_status":
-                    "new",
-
-                "classifier_version":
-                    None,
-
-                "classified_at":
-                    None,
-
-                "case_id":
-                    None,
-
+                # Timestamp
                 "collected_at":
                     now.isoformat(),
             }
 
-            new_items[
-                video_id
-            ] = item
+            # ------------------------------------------------
+            # UPDATE / INSERT
+            # ------------------------------------------------
 
-    # ========================================================
-    # APPEND ONLY NEW ITEMS
-    # ========================================================
+            if video_id in items_by_video:
 
-    for video_id, item in new_items.items():
+                items_by_video[
+                    video_id
+                ].update(
+                    item
+                )
 
-        video_index[
-            video_id
-        ] = item
+            else:
 
-    all_items = list(
-        video_index.values()
+                items_by_video[
+                    video_id
+                ] = item
+
+                added += 1
+
+    if quota_exhausted and total_queries > 0:
+        next_cursor = (
+            query_cursor
+            + queries_succeeded
+        ) % total_queries
+
+    print(
+        "========================================"
     )
 
+    print(
+        f"Query berhasil  : {queries_succeeded}"
+    )
+
+    print(
+        f"Query dilewati  : {queries_skipped}"
+    )
+
+    print(
+        f"Quota warning   : "
+        f"{'YA' if quota_exhausted else 'TIDAK'}"
+    )
+
+    print(
+        f"Cursor berikut  : {next_cursor}"
+    )
+
+    print(
+        "========================================"
+    )
     # ========================================================
     # SORT
     # ========================================================
 
-    all_items.sort(
+    items = list(
+        items_by_video.values()
+    )
+
+    items.sort(
         key=lambda item:
             item.get(
                 "published_at",
-                "",
+                ""
             ),
-        reverse=True,
+        reverse=True
     )
 
+    # Maksimum histori.
+    items = items[:1500]
+
     # ========================================================
-    # SAVE
-    #
-    # PENTING:
-    # last_successful_fetch BARU
-    # ditulis setelah SEMUA API CALL sukses.
+    # STATISTICS
     # ========================================================
 
-    database = {
+    stats = {
+
+        "total":
+            len(items),
+
+        "jatim":
+            sum(
+                1
+                for item in items
+                if item.get(
+                    "is_jatim"
+                )
+            ),
+
+        "negative":
+            sum(
+                1
+                for item in items
+                if item.get(
+                    "scope"
+                ) == "negative"
+            ),
+
+        "incident":
+            sum(
+                1
+                for item in items
+                if item.get(
+                    "scope"
+                ) == "incident"
+            ),
+
+        "case":
+            sum(
+                1
+                for item in items
+                if item.get(
+                    "scope"
+                ) == "case"
+            ),
+
+        "neutral":
+            sum(
+                1
+                for item in items
+                if item.get(
+                    "scope"
+                ) == "neutral"
+            ),
+
+        "noise":
+            sum(
+                1
+                for item in items
+                if item.get(
+                    "scope"
+                ) == "noise"
+            ),
+
+        "high_priority":
+            sum(
+                1
+                for item in items
+                if item.get(
+                    "priority"
+                ) == "high"
+            ),
+    }
+
+    # ========================================================
+    # OUTPUT
+    # ========================================================
+
+    output = {
 
         "generated_at":
             now.isoformat(),
@@ -511,41 +1809,57 @@ def main():
         "platform":
             "YouTube",
 
+        "query_cursor":
+            next_cursor,
+
+        "query_batch_size":
+            QUERY_BATCH_SIZE,
+
+        "query_success":
+            queries_succeeded,
+
+        "query_skipped":
+            queries_skipped,
+
+        "quota_warning":
+            quota_exhausted,
+
+        "quota_block_date":
+            (
+                current_date
+                if quota_exhausted
+                else None
+            ),
+
         "total":
-            len(all_items),
+            len(items),
 
         "new_videos":
-            len(new_items),
+            added,
 
-        "last_successful_fetch":
-            iso_z(now),
-
-        "last_fetch_mode":
-            fetch_mode,
-
-        "last_api_results":
-            total_api_results,
+        "statistics":
+            stats,
 
         "items":
-            all_items,
+            items,
     }
 
     os.makedirs(
         "data",
-        exist_ok=True,
+        exist_ok=True
     )
 
     with open(
         OUT,
         "w",
-        encoding="utf-8",
-    ) as file:
+        encoding="utf-8"
+    ) as f:
 
         json.dump(
-            database,
-            file,
+            output,
+            f,
             ensure_ascii=False,
-            indent=2,
+            indent=2
         )
 
     # ========================================================
@@ -557,38 +1871,60 @@ def main():
     )
 
     print(
-        f"API results      : "
-        f"{total_api_results}"
+        f"New videos       : {added}"
     )
 
     print(
-        f"New videos       : "
-        f"{len(new_items)}"
+        f"Total videos     : {stats['total']}"
     )
 
     print(
-        f"Existing videos  : "
-        f"{existing_count}"
+        f"Query berhasil   : {queries_succeeded}"
     )
 
     print(
-        f"Total videos     : "
-        f"{len(all_items)}"
+        f"Query dilewati   : {queries_skipped}"
     )
 
     print(
-        f"Fetch mode       : "
-        f"{fetch_mode}"
+        f"Quota warning    : "
+        f"{'YA' if quota_exhausted else 'TIDAK'}"
     )
 
     print(
-        f"Last successful  : "
-        f"{iso_z(now)}"
+        f"Cursor berikut   : {next_cursor}"
     )
 
     print(
-        f"Output           : "
-        f"{OUT}"
+        f"Jawa Timur       : {stats['jatim']}"
+    )
+
+    print(
+        f"Negative Polri   : {stats['negative']}"
+    )
+
+    print(
+        f"Peristiwa        : {stats['incident']}"
+    )
+
+    print(
+        f"Ungkap kasus     : {stats['case']}"
+    )
+
+    print(
+        f"Netral           : {stats['neutral']}"
+    )
+
+    print(
+        f"Noise            : {stats['noise']}"
+    )
+
+    print(
+        f"Prioritas tinggi : {stats['high_priority']}"
+    )
+
+    print(
+        f"Output           : {OUT}"
     )
 
     print(
