@@ -7,18 +7,73 @@ from difflib import SequenceMatcher
 
 
 NEWS_FILE = "data/news.json"
-CASE_FILE = "data/cases.json"
+CASE_FILE = "data/case_clusters.json"
+
+ENGINE_VERSION = "case-v2"
+
+# ------------------------------------------------------------
+# MATCHING THRESHOLDS
+# ------------------------------------------------------------
+
+TITLE_MATCH_THRESHOLD = 0.72
+WORD_MATCH_THRESHOLD = 0.58
+
+MAX_CASES_TO_COMPARE = 250
 
 
 # ============================================================
-# NORMALIZATION
+# TIME
 # ============================================================
+
+def now_iso():
+    return datetime.now(
+        timezone.utc
+    ).isoformat()
+
+
+# ============================================================
+# TEXT NORMALIZATION
+# ============================================================
+
+STOPWORDS = {
+    "yang",
+    "dan",
+    "di",
+    "ke",
+    "dari",
+    "untuk",
+    "dengan",
+    "pada",
+    "dalam",
+    "oleh",
+    "ini",
+    "itu",
+    "seorang",
+    "orang",
+    "jadi",
+    "akan",
+    "telah",
+    "adalah",
+    "terkait",
+    "soal",
+    "kasus",
+    "berita",
+    "polisi",
+    "polri",
+}
+
 
 def normalize(text):
-    if not text:
-        return ""
 
-    text = str(text).lower()
+    text = (
+        text or ""
+    ).lower()
+
+    text = re.sub(
+        r"https?://\S+",
+        " ",
+        text
+    )
 
     text = re.sub(
         r"[^a-z0-9\s]",
@@ -30,89 +85,48 @@ def normalize(text):
         r"\s+",
         " ",
         text
+    ).strip()
+
+    return text
+
+
+def words(text):
+
+    normalized = normalize(
+        text
     )
-
-    return text.strip()
-
-
-# ============================================================
-# IMPORTANT WORDS
-# ============================================================
-
-STOPWORDS = {
-    "yang",
-    "dan",
-    "di",
-    "ke",
-    "dari",
-    "untuk",
-    "dengan",
-    "dalam",
-    "pada",
-    "oleh",
-    "karena",
-    "agar",
-    "atau",
-    "ini",
-    "itu",
-    "akan",
-    "telah",
-    "sudah",
-    "jadi",
-    "ada",
-    "tak",
-    "tidak",
-    "seorang",
-    "sejumlah",
-    "terkait",
-    "soal",
-    "kata",
-    "ungkap",
-    "ungkapnya",
-    "berita",
-    "kini",
-    "hari",
-    "polisi",
-    "polri"
-}
-
-
-def keywords(text):
-
-    words = normalize(text).split()
 
     return {
         word
-        for word in words
-        if len(word) >= 4
-        and word not in STOPWORDS
+        for word in normalized.split()
+        if (
+            len(word) >= 3
+            and word not in STOPWORDS
+        )
     }
 
 
-# ============================================================
-# SIMILARITY
-# ============================================================
-
 def similarity(a, b):
 
-    a_words = keywords(a)
-    b_words = keywords(b)
+    a_words = words(a)
+    b_words = words(b)
 
     if not a_words or not b_words:
         return 0.0
 
-    intersection = len(
-        a_words & b_words
+    intersection = (
+        a_words
+        & b_words
     )
 
-    union = len(
-        a_words | b_words
+    union = (
+        a_words
+        | b_words
     )
 
     jaccard = (
-        intersection / union
-        if union
-        else 0
+        len(intersection)
+        / len(union)
     )
 
     sequence = SequenceMatcher(
@@ -121,50 +135,82 @@ def similarity(a, b):
         normalize(b)
     ).ratio()
 
-    # Kombinasi keyword + urutan judul
     return (
         jaccard * 0.65
-        +
-        sequence * 0.35
+        + sequence * 0.35
     )
 
 
 # ============================================================
-# CASE ID
+# DATABASE
 # ============================================================
 
-def make_case_id(title):
+def load_json(path, default):
 
-    normalized = normalize(title)
+    if not os.path.exists(path):
 
-    return hashlib.sha1(
-        normalized.encode("utf-8")
-    ).hexdigest()[:16]
+        return default
+
+    with open(
+        path,
+        "r",
+        encoding="utf-8"
+    ) as file:
+
+        return json.load(
+            file
+        )
+
+
+def save_json(path, data):
+
+    os.makedirs(
+        os.path.dirname(path),
+        exist_ok=True
+    )
+
+    temp = (
+        path
+        + ".tmp"
+    )
+
+    with open(
+        temp,
+        "w",
+        encoding="utf-8"
+    ) as file:
+
+        json.dump(
+            data,
+            file,
+            ensure_ascii=False,
+            indent=2
+        )
+
+    os.replace(
+        temp,
+        path
+    )
 
 
 # ============================================================
-# LOAD NEWS
+# NEWS
 # ============================================================
 
 def load_news():
 
-    if not os.path.exists(
-        NEWS_FILE
-    ):
-        return []
-
-    with open(
+    data = load_json(
         NEWS_FILE,
-        "r",
-        encoding="utf-8"
-    ) as f:
-
-        data = json.load(f)
+        {
+            "items": []
+        }
+    )
 
     if isinstance(
         data,
         list
     ):
+
         return data
 
     return data.get(
@@ -174,250 +220,622 @@ def load_news():
 
 
 # ============================================================
-# CREATE CASE
+# CASE DATABASE
 # ============================================================
 
-def create_case(article):
+def load_cases():
 
-    title = article.get(
-        "title",
-        ""
+    data = load_json(
+        CASE_FILE,
+        None
     )
 
-    return {
+    if data is None:
 
-        "id":
-            make_case_id(title),
+        return {
+            "engine_version":
+                ENGINE_VERSION,
 
-        "title":
-            title,
+            "generated_at":
+                now_iso(),
 
-        "region":
-            article.get("region"),
+            "total_cases":
+                0,
 
-        "is_jatim":
-            article.get(
-                "is_jatim",
-                False
-            ),
+            "cases":
+                []
+        }
 
-        "polres":
-            article.get("polres"),
+    # --------------------------------------------------------
+    # Support beberapa kemungkinan format lama
+    # --------------------------------------------------------
 
-        "category":
-            article.get("category"),
-
-        "scope":
-            article.get("scope"),
-
-        "priority":
-            article.get(
-                "priority",
-                "low"
-            ),
-
-        "articles": [
-
-            {
-                "title":
-                    title,
-
-                "url":
-                    article.get("url"),
-
-                "source":
-                    article.get("source"),
-
-                "published_at":
-                    article.get(
-                        "published_at"
-                    )
-            }
-
-        ],
-
-        "media_count":
-            1,
-
-        "first_seen":
-            article.get(
-                "published_at"
-            ),
-
-        "last_seen":
-            article.get(
-                "published_at"
-            ),
-
-        "status":
-            "belum_ditindaklanjuti"
-    }
-
-
-# ============================================================
-# ADD ARTICLE
-# ============================================================
-
-def add_article_to_case(
-    case,
-    article
-):
-
-    case["articles"].append({
-
-        "title":
-            article.get("title"),
-
-        "url":
-            article.get("url"),
-
-        "source":
-            article.get("source"),
-
-        "published_at":
-            article.get(
-                "published_at"
-            )
-    })
-
-
-# ============================================================
-# CHECK SAME REGION
-# ============================================================
-
-def same_region(
-    article,
-    case
-):
-
-    article_region = (
-        article.get("region")
-        or ""
-    ).lower().strip()
-
-    case_region = (
-        case.get("region")
-        or ""
-    ).lower().strip()
-
-    if not article_region:
-        return True
-
-    if not case_region:
-        return True
-
-    return (
-        article_region
-        == case_region
-    )
-
-
-# ============================================================
-# CHECK SAME POLRES
-# ============================================================
-
-def same_polres(
-    article,
-    case
-):
-
-    article_polres = (
-        article.get("polres")
-        or ""
-    ).lower().strip()
-
-    case_polres = (
-        case.get("polres")
-        or ""
-    ).lower().strip()
-
-    # Jika salah satu tidak diketahui,
-    # jangan menjadikan ini penghalang.
-
-    if not article_polres:
-        return True
-
-    if not case_polres:
-        return True
-
-    return (
-        article_polres
-        == case_polres
-    )
-
-
-# ============================================================
-# BUILD INDEX
-# ============================================================
-
-def build_index(cases):
-
-    index = {}
-
-    for case_index, case in enumerate(
-        cases
+    if isinstance(
+        data,
+        list
     ):
 
-        title_words = keywords(
+        return {
+            "engine_version":
+                ENGINE_VERSION,
+
+            "generated_at":
+                now_iso(),
+
+            "total_cases":
+                len(data),
+
+            "cases":
+                data
+        }
+
+    if "cases" not in data:
+
+        data["cases"] = []
+
+    return data
+
+
+# ============================================================
+# CASE ID
+# ============================================================
+
+def next_case_id(cases):
+
+    highest = 0
+
+    for case in cases:
+
+        value = str(
             case.get(
-                "title",
+                "case_id",
                 ""
             )
         )
 
-        for word in title_words:
+        match = re.search(
+            r"(\d+)$",
+            value
+        )
 
-            index.setdefault(
-                word,
-                set()
-            ).add(
-                case_index
+        if match:
+
+            highest = max(
+                highest,
+                int(
+                    match.group(1)
+                )
             )
 
-    return index
+    return (
+        f"CASE-{highest + 1:06d}"
+    )
 
 
 # ============================================================
-# FIND CANDIDATES
+# CASE TITLE
 # ============================================================
 
-def find_candidates(
-    article,
-    index
+def make_case_title(news):
+
+    title = (
+        news.get(
+            "title"
+        )
+        or "Kasus tidak teridentifikasi"
+    )
+
+    return title[:180]
+
+
+# ============================================================
+# CASE SIGNATURE
+# ============================================================
+
+def case_signature(news):
+
+    parts = [
+
+        news.get(
+            "polres"
+        ),
+
+        news.get(
+            "category"
+        ),
+
+        news.get(
+            "scope"
+        ),
+
+        news.get(
+            "region"
+        ),
+    ]
+
+    return " ".join(
+        str(x)
+        for x in parts
+        if x
+    )
+
+
+# ============================================================
+# ELIGIBILITY
+# ============================================================
+
+def is_case_candidate(news):
+
+    scope = (
+        news.get(
+            "scope"
+        )
+        or ""
+    ).lower()
+
+    category = (
+        news.get(
+            "category"
+        )
+        or ""
+    ).lower()
+
+    # --------------------------------------------------------
+    # Case engine tidak perlu meng-cluster semua berita netral.
+    # --------------------------------------------------------
+
+    if scope == "case":
+        return True
+
+    if scope == "negative":
+        return True
+
+    negative_words = [
+        "oknum",
+        "etik",
+        "disiplin",
+        "penyalahgunaan",
+        "pungli",
+        "suap",
+        "pemerasan",
+        "penganiayaan",
+        "narkoba",
+        "korupsi",
+        "kekerasan",
+    ]
+
+    return any(
+        word in category
+        for word in negative_words
+    )
+
+
+# ============================================================
+# CASE MATCH
+# ============================================================
+
+def find_matching_case(
+    news,
+    cases
 ):
 
-    article_words = keywords(
-        article.get(
+    title = news.get(
+        "title",
+        ""
+    )
+
+    signature = case_signature(
+        news
+    )
+
+    candidates = []
+
+    # --------------------------------------------------------
+    # CASE TERBARU LEBIH RELEVAN
+    # --------------------------------------------------------
+
+    sorted_cases = sorted(
+        cases,
+        key=lambda case:
+            case.get(
+                "last_seen",
+                ""
+            ),
+        reverse=True
+    )
+
+    for case in sorted_cases[
+        :MAX_CASES_TO_COMPARE
+    ]:
+
+        # ----------------------------------------------------
+        # Polres conflict
+        # ----------------------------------------------------
+
+        news_polres = (
+            news.get(
+                "polres"
+            )
+        )
+
+        case_polres = (
+            case.get(
+                "polres"
+            )
+        )
+
+        if (
+            news_polres
+            and case_polres
+            and news_polres != case_polres
+        ):
+
+            continue
+
+        # ----------------------------------------------------
+        # Category conflict
+        # ----------------------------------------------------
+
+        news_category = (
+            news.get(
+                "category"
+            )
+        )
+
+        case_category = (
+            case.get(
+                "category"
+            )
+        )
+
+        if (
+            news_category
+            and case_category
+            and news_category != case_category
+        ):
+
+            # Negative / case masih bisa berhubungan.
+            # Jangan langsung reject.
+            pass
+
+        # ----------------------------------------------------
+        # Compare case title
+        # ----------------------------------------------------
+
+        case_title = case.get(
             "title",
+            ""
+        )
+
+        score_title = similarity(
+            title,
+            case_title
+        )
+
+        # ----------------------------------------------------
+        # Compare signature
+        # ----------------------------------------------------
+
+        score_signature = similarity(
+            signature,
+            case.get(
+                "signature",
+                ""
+            )
+        )
+
+        score = (
+            score_title * 0.75
+            + score_signature * 0.25
+        )
+
+        candidates.append(
+            (
+                score,
+                case
+            )
+        )
+
+    if not candidates:
+
+        return None, 0.0
+
+    candidates.sort(
+        key=lambda x: x[0],
+        reverse=True
+    )
+
+    best_score, best_case = (
+        candidates[0]
+    )
+
+    if (
+        best_score
+        >= TITLE_MATCH_THRESHOLD
+    ):
+
+        return (
+            best_case,
+            best_score
+        )
+
+    return (
+        None,
+        best_score
+    )
+
+
+# ============================================================
+# ADD ARTICLE TO CASE
+# ============================================================
+
+def attach_news(
+    case,
+    news,
+    score
+):
+
+    news_id = news.get(
+        "id"
+    )
+
+    if not news_id:
+
+        return
+
+    if (
+        "article_ids"
+        not in case
+    ):
+
+        case[
+            "article_ids"
+        ] = []
+
+    if (
+        news_id
+        not in case[
+            "article_ids"
+        ]
+    ):
+
+        case[
+            "article_ids"
+        ].append(
+            news_id
+        )
+
+    if (
+        "articles"
+        not in case
+    ):
+
+        case[
+            "articles"
+        ] = []
+
+    # --------------------------------------------------------
+    # Store compact article reference.
+    # Jangan duplikasi seluruh berita ke case_clusters.json.
+    # --------------------------------------------------------
+
+    existing_ids = {
+        article.get(
+            "id"
+        )
+        for article in case[
+            "articles"
+        ]
+    }
+
+    if news_id not in existing_ids:
+
+        case[
+            "articles"
+        ].append(
+            {
+                "id":
+                    news_id,
+
+                "title":
+                    news.get(
+                        "title",
+                        ""
+                    ),
+
+                "url":
+                    news.get(
+                        "url",
+                        ""
+                    ),
+
+                "published_at":
+                    news.get(
+                        "published_at"
+                    ),
+
+                "source":
+                    news.get(
+                        "source"
+                    ),
+
+                "match_score":
+                    round(
+                        score,
+                        4
+                    ),
+            }
+        )
+
+    case[
+        "article_count"
+    ] = len(
+        case[
+            "article_ids"
+        ]
+    )
+
+    case[
+        "last_seen"
+    ] = max(
+        case.get(
+            "last_seen",
+            ""
+        ),
+        news.get(
+            "published_at",
             ""
         )
     )
 
-    candidates = set()
 
-    for word in article_words:
+# ============================================================
+# CREATE CASE
+# ============================================================
 
-        if word in index:
+def create_case(
+    news,
+    cases
+):
 
-            candidates.update(
-                index[word]
-            )
+    case_id = next_case_id(
+        cases
+    )
 
-    return candidates
+    published_at = (
+        news.get(
+            "published_at"
+        )
+        or now_iso()
+    )
+
+    signature = case_signature(
+        news
+    )
+
+    case = {
+
+        "case_id":
+            case_id,
+
+        "title":
+            make_case_title(
+                news
+            ),
+
+        "category":
+            news.get(
+                "category"
+            ),
+
+        "scope":
+            news.get(
+                "scope"
+            ),
+
+        "region":
+            news.get(
+                "region"
+            ),
+
+        "is_jatim":
+            news.get(
+                "is_jatim"
+            ),
+
+        "polres":
+            news.get(
+                "polres"
+            ),
+
+        "priority":
+            news.get(
+                "priority"
+            ),
+
+        "signature":
+            signature,
+
+        "first_seen":
+            published_at,
+
+        "last_seen":
+            published_at,
+
+        "article_ids":
+            [],
+
+        "articles":
+            [],
+
+        "article_count":
+            0,
+
+        "created_at":
+            now_iso(),
+
+        "updated_at":
+            now_iso(),
+
+        "engine_version":
+            ENGINE_VERSION,
+    }
+
+    attach_news(
+        case,
+        news,
+        1.0
+    )
+
+    cases.append(
+        case
+    )
+
+    return case
 
 
 # ============================================================
-# MAIN PROCESS
+# UPDATE NEWS STATE
 # ============================================================
 
-def process():
+def mark_processed(
+    news,
+    case_id
+):
+
+    news[
+        "processing_status"
+    ] = "processed"
+
+    news[
+        "case_id"
+    ] = case_id
+
+    news[
+        "case_processed_at"
+    ] = now_iso()
+
+    news[
+        "case_engine_version"
+    ] = ENGINE_VERSION
+
+
+# ============================================================
+# MAIN
+# ============================================================
+
+def main():
 
     print(
         "========================================"
     )
 
     print(
-        "PNM CASE CLUSTERING"
+        "PNM CASE CLUSTERING V2"
+    )
+
+    print(
+        "INCREMENTAL CASE ENGINE"
     )
 
     print(
@@ -426,331 +844,348 @@ def process():
 
     news = load_news()
 
+    database = load_cases()
+
+    cases = database.get(
+        "cases",
+        []
+    )
+
     print(
         f"Total news loaded : {len(news)}"
     )
 
-
-    relevant_news = [
-
-        item
-
-        for item in news
-
-        if isinstance(
-            item,
-            dict
-        )
-
-        and item.get(
-            "title"
-        )
-    ]
-
-
     print(
-        f"News to process   : {len(relevant_news)}"
+        f"Existing cases    : {len(cases)}"
     )
 
-
-    cases = []
-
-    index = {}
-
-
     # ========================================================
-    # PROCESS
+    # FIND ONLY UNPROCESSED
     # ========================================================
 
-    for counter, article in enumerate(
-        relevant_news,
+    pending = []
+
+    already_processed = 0
+
+    for item in news:
+
+        status = item.get(
+            "processing_status"
+        )
+
+        case_id = item.get(
+            "case_id"
+        )
+
+        # ----------------------------------------------------
+        # Kalau sudah punya case_id + processed → SKIP
+        # ----------------------------------------------------
+
+        if (
+            status == "processed"
+            and case_id
+        ):
+
+            already_processed += 1
+
+            continue
+
+        # ----------------------------------------------------
+        # Kalau tidak layak menjadi case:
+        # tetap tandai processed supaya tidak diperiksa lagi.
+        # ----------------------------------------------------
+
+        if not is_case_candidate(
+            item
+        ):
+
+            item[
+                "processing_status"
+            ] = "processed"
+
+            item[
+                "case_id"
+            ] = None
+
+            item[
+                "case_processed_at"
+            ] = now_iso()
+
+            item[
+                "case_engine_version"
+            ] = ENGINE_VERSION
+
+            already_processed += 1
+
+            continue
+
+        pending.append(
+            item
+        )
+
+    print(
+        f"Already processed : "
+        f"{already_processed}"
+    )
+
+    print(
+        f"News to process   : "
+        f"{len(pending)}"
+    )
+
+    print(
+        "========================================"
+    )
+
+    # ========================================================
+    # PROCESS ONLY PENDING
+    # ========================================================
+
+    matched = 0
+    created = 0
+
+    for index, item in enumerate(
+        pending,
         start=1
     ):
 
-        title = article.get(
+        title = item.get(
             "title",
             ""
         )
 
-        candidates = find_candidates(
-            article,
-            index
+        print(
+            f"Processed "
+            f"{index}/{len(pending)}"
+            f" | Cases: {len(cases)}"
+            f" | {title[:90]}"
         )
 
-        matched_case = None
+        existing_case, score = (
+            find_matching_case(
+                item,
+                cases
+            )
+        )
 
-        best_score = 0.0
+        if existing_case:
 
+            attach_news(
+                existing_case,
+                item,
+                score
+            )
 
-        # ----------------------------------------------------
-        # ONLY COMPARE WITH CANDIDATE CASES
-        # ----------------------------------------------------
+            existing_case[
+                "updated_at"
+            ] = now_iso()
 
-        for case_index in candidates:
+            # ------------------------------------------------
+            # Priority case bisa naik, tidak turun.
+            # ------------------------------------------------
 
-            case = cases[
-                case_index
-            ]
+            priority_order = {
+                "low": 1,
+                "medium": 2,
+                "high": 3,
+            }
 
+            old_priority = (
+                existing_case.get(
+                    "priority",
+                    "low"
+                )
+            )
 
-            # Region guard
-            if not same_region(
-                article,
-                case
+            new_priority = (
+                item.get(
+                    "priority",
+                    "low"
+                )
+            )
+
+            if (
+                priority_order.get(
+                    new_priority,
+                    1
+                )
+                >
+                priority_order.get(
+                    old_priority,
+                    1
+                )
             ):
-                continue
 
+                existing_case[
+                    "priority"
+                ] = new_priority
 
-            # Polres guard
-            if not same_polres(
-                article,
-                case
-            ):
-                continue
-
-
-            score = similarity(
-
-                title,
-
-                case.get(
-                    "title",
-                    ""
-                )
-
+            mark_processed(
+                item,
+                existing_case[
+                    "case_id"
+                ]
             )
 
-
-            if score > best_score:
-
-                best_score = score
-
-                matched_case = case
-
-
-        # ----------------------------------------------------
-        # MATCH
-        # ----------------------------------------------------
-
-        if (
-            matched_case
-            and best_score >= 0.55
-        ):
-
-            add_article_to_case(
-                matched_case,
-                article
-            )
-
-
-            matched_case[
-                "media_count"
-            ] = len(
-
-                set(
-
-                    x.get(
-                        "source"
-                    )
-
-                    for x in matched_case[
-                        "articles"
-                    ]
-
-                    if x.get(
-                        "source"
-                    )
-
-                )
-
-            )
-
-
-            published = article.get(
-                "published_at"
-            )
-
-
-            if published:
-
-                first_seen = (
-                    matched_case.get(
-                        "first_seen"
-                    )
-                )
-
-                last_seen = (
-                    matched_case.get(
-                        "last_seen"
-                    )
-                )
-
-
-                if (
-                    not first_seen
-                    or published < first_seen
-                ):
-
-                    matched_case[
-                        "first_seen"
-                    ] = published
-
-
-                if (
-                    not last_seen
-                    or published > last_seen
-                ):
-
-                    matched_case[
-                        "last_seen"
-                    ] = published
-
-
-        # ----------------------------------------------------
-        # NEW CASE
-        # ----------------------------------------------------
+            matched += 1
 
         else:
 
             new_case = create_case(
-                article
+                item,
+                cases
             )
 
-            cases.append(
-                new_case
+            mark_processed(
+                item,
+                new_case[
+                    "case_id"
+                ]
             )
 
-            new_index = (
-                len(cases) - 1
-            )
-
-
-            # Add case to keyword index
-
-            for word in keywords(
-                title
-            ):
-
-                index.setdefault(
-                    word,
-                    set()
-                ).add(
-                    new_index
-                )
-
-
-        # ----------------------------------------------------
-        # PROGRESS
-        # ----------------------------------------------------
-
-        if (
-            counter == 1
-            or counter % 50 == 0
-            or counter == len(
-                relevant_news
-            )
-        ):
-
-            print(
-                f"Processed "
-                f"{counter}/"
-                f"{len(relevant_news)} "
-                f"| Cases: "
-                f"{len(cases)}"
-            )
-
+            created += 1
 
     # ========================================================
-    # SORT
+    # SAVE DATABASE
     # ========================================================
 
-    cases.sort(
+    database = {
 
-        key=lambda case:
-            case.get(
-                "last_seen",
-                ""
-            ),
-
-        reverse=True
-    )
-
-
-    # ========================================================
-    # OUTPUT
-    # ========================================================
-
-    os.makedirs(
-        "data",
-        exist_ok=True
-    )
-
-
-    output = {
+        "engine_version":
+            ENGINE_VERSION,
 
         "generated_at":
-            datetime.now(
-                timezone.utc
-            ).isoformat(),
+            now_iso(),
 
         "total_cases":
             len(cases),
 
-        "cases":
-            cases
+        "total_articles":
+            sum(
+                case.get(
+                    "article_count",
+                    0
+                )
+                for case in cases
+            ),
 
+        "last_run": {
+
+            "news_loaded":
+                len(news),
+
+            "already_processed":
+                already_processed,
+
+            "pending":
+                len(pending),
+
+            "matched_existing":
+                matched,
+
+            "new_cases":
+                created,
+        },
+
+        "cases":
+            cases,
     }
 
-
-    with open(
+    save_json(
         CASE_FILE,
-        "w",
-        encoding="utf-8"
-    ) as f:
+        database
+    )
 
-        json.dump(
+    # ========================================================
+    # SAVE NEWS
+    # ========================================================
 
-            output,
+    news_database = load_json(
+        NEWS_FILE,
+        {}
+    )
 
-            f,
+    if isinstance(
+        news_database,
+        dict
+    ):
 
-            ensure_ascii=False,
+        news_database[
+            "items"
+        ] = news
 
-            indent=2
+        news_database[
+            "case_engine_version"
+        ] = ENGINE_VERSION
 
+        news_database[
+            "case_engine_processed_at"
+        ] = now_iso()
+
+        save_json(
+            NEWS_FILE,
+            news_database
         )
 
+    # ========================================================
+    # FINAL LOG
+    # ========================================================
 
     print(
         "========================================"
     )
 
     print(
-        f"Articles processed : "
-        f"{len(relevant_news)}"
+        "CASE ENGINE COMPLETE"
     )
 
     print(
-        f"Cases generated    : "
+        f"Total news       : {len(news)}"
+    )
+
+    print(
+        f"Already processed: "
+        f"{already_processed}"
+    )
+
+    print(
+        f"Processed now    : "
+        f"{len(pending)}"
+    )
+
+    print(
+        f"Matched existing : "
+        f"{matched}"
+    )
+
+    print(
+        f"New cases        : "
+        f"{created}"
+    )
+
+    print(
+        f"Total cases      : "
         f"{len(cases)}"
     )
 
     print(
-        f"Output             : "
+        f"Total articles   : "
+        f"{sum("
+        f"case.get('article_count', 0)"
+        f" for case in cases"
+        f")}"
+    )
+
+    print(
+        f"Output           : "
         f"{CASE_FILE}"
     )
 
     print(
         "========================================"
-
-
     )
 
 
-# ============================================================
-# RUN
-# ============================================================
-
 if __name__ == "__main__":
 
-    process()
+    main()
