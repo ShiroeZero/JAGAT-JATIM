@@ -4,14 +4,13 @@ on:
   workflow_dispatch:
 
   schedule:
-    # Berjalan setiap 1 jam
     - cron: "17 * * * *"
 
 permissions:
   contents: write
 
 concurrency:
-  group: "collect-news"
+  group: "pnm-collector"
   cancel-in-progress: false
 
 jobs:
@@ -22,55 +21,41 @@ jobs:
 
     steps:
 
-      # =====================================================
-      # CHECKOUT
-      # =====================================================
-
       - name: Checkout repository
         uses: actions/checkout@v4
 
-
-      # =====================================================
-      # SETUP PYTHON
-      # =====================================================
-
       - name: Setup Python
         uses: actions/setup-python@v5
-
         with:
           python-version: "3.12"
 
+      # ==========================================
+      # 1. COLLECT NEWS
+      # ==========================================
 
-      # =====================================================
-      # COLLECT NEWS
-      # =====================================================
-
-      - name: Collect and classify news
+      - name: Collect news
         run: |
           python scripts/fetch_news.py
 
-
-      # =====================================================
-      # BUILD CASE CLUSTERS
-      # =====================================================
+      # ==========================================
+      # 2. BUILD CASES
+      # ==========================================
 
       - name: Build case clusters
         run: |
           python scripts/process_cases.py
 
-
-      # =====================================================
-      # PREPARE SOCIAL MONITORING
-      # =====================================================
+      # ==========================================
+      # 3. PREPARE SOCIAL DATA
+      # ==========================================
 
       - name: Prepare social monitoring
         run: |
           python scripts/fetch_social.py
 
-
-      # =====================================================
-      # SAVE DATA
-      # =====================================================
+      # ==========================================
+      # 4. SAVE ALL DATA
+      # ==========================================
 
       - name: Save monitoring data
         run: |
@@ -80,18 +65,14 @@ jobs:
           git config user.email \
             "41898282+github-actions[bot]@users.noreply.github.com"
 
-
           git add \
             data/news.json \
             data/cases.json \
             data/social.json
 
-
           if git diff --cached --quiet; then
 
-            echo "========================================="
             echo "Tidak ada perubahan data."
-            echo "========================================="
 
           else
 
