@@ -126,7 +126,16 @@ jobs:
 
 
       # ==========================================
-      # 8. CHECK MONITORING DATA
+      # 8. CREATE DAILY SNAPSHOT
+      # ==========================================
+
+      - name: Create daily snapshot
+        run: |
+          python -u scripts/create_daily_snapshot.py
+
+
+      # ==========================================
+      # 9. CHECK MONITORING DATA
       # ==========================================
 
       - name: Check monitoring data
@@ -161,11 +170,27 @@ jobs:
           fi
 
           echo ""
+          echo "today.json:"
+          if [ -f data/today.json ]; then
+            ls -lh data/today.json
+          else
+            echo "WARNING: data/today.json tidak ditemukan"
+          fi
+
+          echo ""
+          echo "archive:"
+          if [ -d data/archive ]; then
+            find data/archive -maxdepth 1 -type f | sort
+          else
+            echo "WARNING: data/archive tidak ditemukan"
+          fi
+
+          echo ""
           echo "========================================"
 
 
       # ==========================================
-      # 9. SAVE MONITORING DATA
+      # 10. SAVE MONITORING DATA
       # ==========================================
 
       - name: Save monitoring data
@@ -190,7 +215,9 @@ jobs:
           git add \
             data/news.json \
             data/case_clusters.json \
-            data/social.json
+            data/social.json \
+            data/today.json \
+            data/archive/
 
           echo ""
           echo "========================================"
