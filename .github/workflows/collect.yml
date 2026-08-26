@@ -61,7 +61,7 @@ jobs:
           print(f"API success            : {stats.get('api_success', 0)}")
           print(f"API failed             : {stats.get('api_failed', 0)}")
           print(f"Discovery families     : {stats.get('discovery_families', 0)}")
-          print(f"Province queries       : {stats.get('national_province_queries', 0)}")
+          print(f"Jatim Polres queries   : {stats.get('jatim_polres_count', 0)}")
           print("========================================")
           PY
 
@@ -159,12 +159,13 @@ jobs:
 
       - name: Save monitoring data
         run: |
-          git config user.name "PNM Bot"
+          git config user.name "JAGAT Bot"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
 
           git add \
             data/ \
             scripts/ \
+            assets/ \
             .github/workflows/collect.yml \
             index.html \
             app.js \
@@ -177,7 +178,7 @@ jobs:
           if git diff --cached --quiet; then
             echo "Tidak ada perubahan Git."
           else
-            git commit -m "chore: update PNM v6 monitoring data"
+            git commit -m "chore: update JAGAT v6.1 monitoring data"
             git push
           fi
 
@@ -193,6 +194,7 @@ jobs:
           cp app.js site/
           cp styles.css site/
           cp config.js site/
+          cp -r assets site/assets
           cp -r data site/data
 
           echo "========================================"
