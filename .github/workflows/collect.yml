@@ -41,17 +41,49 @@ jobs:
       # 1. COLLECT NEWS
       # ==========================================
 
-      - name: Collect news
+      - name: Check news after fetch
         run: |
-          python -u scripts/fetch_news.py
+          python - <<'PY'
+          import json
+
+          with open("data/news.json", encoding="utf-8") as f:
+              data = json.load(f)
+
+          items = data.get("items", [])
+
+          print("========================================")
+          print("NEWS DATABASE CHECK")
+          print(f"News records : {len(items)}")
+          print("========================================")
+          PY
 
       # ==========================================
       # 2. BUILD CASE CLUSTERS
       # ==========================================
 
-      - name: Build case clusters
+      - name: Check case database
         run: |
-          python -u scripts/process_cases.py
+          python - <<'PY'
+          import json
+          import os
+
+          path = "data/case_clusters.json"
+
+          if not os.path.exists(path):
+              print("ERROR: case_clusters.json tidak ditemukan")
+              raise SystemExit(1)
+
+          with open(path, encoding="utf-8") as f:
+              data = json.load(f)
+
+          cases = data.get("cases", [])
+
+          print("========================================")
+          print("CASE DATABASE CHECK")
+          print(f"Cases    : {len(cases)}")
+          print(f"Articles : {data.get('total_articles', 0)}")
+          print("========================================")
+          PY
 
       # ==========================================
       # 3. COLLECT YOUTUBE
