@@ -9,8 +9,18 @@ from urllib.error import HTTPError, URLError
 
 
 # ============================================================
-# PNM — SOCIAL MONITOR
-# YouTube Data API v3
+# PNM — YOUTUBE SOCIAL MONITOR
+# CLASSIFIER V3
+#
+# Prioritas:
+# 1. Noise
+# 2. Polisi sebagai korban
+# 3. Polisi sebagai penindak
+# 4. Polisi sebagai pelaku
+# 5. Berita polisi umum
+# 6. Review / ambiguous
+#
+# Channel TIDAK digunakan sebagai penentu lokasi.
 # ============================================================
 
 OUT = "data/social.json"
@@ -19,7 +29,7 @@ API_KEY = os.environ.get("YOUTUBE_API_KEY", "").strip()
 
 
 # ============================================================
-# 39 POLRES / SATWIL JAWA TIMUR
+# 39 POLRES JAWA TIMUR
 # ============================================================
 
 POLRES_MAP = {
@@ -28,193 +38,155 @@ POLRES_MAP = {
         "pelabuhan tanjung perak",
         "tanjung perak",
     ],
-
     "POLRES JEMBER": [
         "polres jember",
         "kabupaten jember",
         "jember",
     ],
-
     "POLRES KEDIRI": [
         "polres kediri",
         "kabupaten kediri",
     ],
-
     "POLRES BLITAR KOTA": [
         "polres blitar kota",
         "blitar kota",
     ],
-
     "POLRESTABES SURABAYA": [
         "polrestabes surabaya",
         "surabaya",
     ],
-
     "POLRESTA MALANG KOTA": [
         "polresta malang kota",
         "malang kota",
     ],
-
     "POLRESTA SIDOARJO": [
         "polresta sidoarjo",
         "sidoarjo",
     ],
-
     "POLRESTA BANYUWANGI": [
         "polresta banyuwangi",
         "banyuwangi",
     ],
-
     "POLRESTA TUBAN": [
         "polresta tuban",
         "tuban",
     ],
-
     "POLRESTA SUMENEP": [
         "polresta sumenep",
         "sumenep",
     ],
-
     "POLRES GRESIK": [
         "polres gresik",
         "gresik",
     ],
-
     "POLRES MALANG": [
         "polres malang",
         "kabupaten malang",
     ],
-
     "POLRES PASURUAN": [
         "polres pasuruan",
         "kabupaten pasuruan",
     ],
-
     "POLRES PASURUAN KOTA": [
         "polres pasuruan kota",
         "pasuruan kota",
     ],
-
     "POLRES PROBOLINGGO": [
         "polres probolinggo",
         "kabupaten probolinggo",
     ],
-
     "POLRES PROBOLINGGO KOTA": [
         "polres probolinggo kota",
         "probolinggo kota",
     ],
-
     "POLRES LUMAJANG": [
         "polres lumajang",
         "lumajang",
     ],
-
     "POLRES BATU": [
         "polres batu",
         "kota batu",
     ],
-
     "POLRES BONDOWOSO": [
         "polres bondowoso",
         "bondowoso",
     ],
-
     "POLRES SITUBONDO": [
         "polres situbondo",
         "situbondo",
     ],
-
     "POLRES KEDIRI KOTA": [
         "polres kediri kota",
         "kediri kota",
     ],
-
     "POLRES TULUNGAGUNG": [
         "polres tulungagung",
         "tulungagung",
     ],
-
     "POLRES NGANJUK": [
         "polres nganjuk",
         "nganjuk",
     ],
-
     "POLRES TRENGGALEK": [
         "polres trenggalek",
         "trenggalek",
     ],
-
     "POLRES BLITAR": [
         "polres blitar",
         "kabupaten blitar",
     ],
-
     "POLRES MADIUN": [
         "polres madiun",
         "kabupaten madiun",
     ],
-
     "POLRES MADIUN KOTA": [
         "polres madiun kota",
         "madiun kota",
     ],
-
     "POLRES NGAWI": [
         "polres ngawi",
         "ngawi",
     ],
-
     "POLRES MAGETAN": [
         "polres magetan",
         "magetan",
     ],
-
     "POLRES PONOROGO": [
         "polres ponorogo",
         "ponorogo",
     ],
-
     "POLRES PACITAN": [
         "polres pacitan",
         "pacitan",
     ],
-
     "POLRES BOJONEGORO": [
         "polres bojonegoro",
         "bojonegoro",
     ],
-
     "POLRES LAMONGAN": [
         "polres lamongan",
         "lamongan",
     ],
-
     "POLRES MOJOKERTO": [
         "polres mojokerto",
         "kabupaten mojokerto",
     ],
-
     "POLRES MOJOKERTO KOTA": [
         "polres mojokerto kota",
         "mojokerto kota",
     ],
-
     "POLRES JOMBANG": [
         "polres jombang",
         "jombang",
     ],
-
     "POLRES PAMEKASAN": [
         "polres pamekasan",
         "pamekasan",
     ],
-
     "POLRES BANGKALAN": [
         "polres bangkalan",
         "bangkalan",
     ],
-
     "POLRES SAMPANG": [
         "polres sampang",
         "sampang",
@@ -223,7 +195,7 @@ POLRES_MAP = {
 
 
 # ============================================================
-# KOTA / KABUPATEN JAWA TIMUR
+# LOKASI JAWA TIMUR
 # ============================================================
 
 JATIM_LOCATIONS = [
@@ -264,7 +236,6 @@ JATIM_LOCATIONS = [
 
 # ============================================================
 # LUAR JAWA TIMUR
-# Negative evidence.
 # ============================================================
 
 OUTSIDE_LOCATIONS = [
@@ -306,7 +277,7 @@ OUTSIDE_LOCATIONS = [
 
 
 # ============================================================
-# QUERY YOUTUBE
+# QUERY
 # ============================================================
 
 SEARCH_QUERIES = [
@@ -325,7 +296,7 @@ SEARCH_QUERIES = [
 
 
 # ============================================================
-# BASIC TERMS
+# TERM
 # ============================================================
 
 POLRI_TERMS = [
@@ -345,29 +316,6 @@ POLRI_TERMS = [
 ]
 
 
-NEGATIVE_TERMS = [
-    "oknum",
-    "pelanggaran etik",
-    "pelanggaran disiplin",
-    "penyalahgunaan wewenang",
-    "korupsi",
-    "suap",
-    "pungli",
-    "pemerasan",
-    "narkoba",
-    "narkotika",
-    "sabu",
-    "penganiayaan",
-    "kekerasan",
-    "penembakan",
-    "ditangkap",
-    "ditahan",
-    "tersangka",
-    "terlibat",
-    "diduga",
-]
-
-
 NOISE_TERMS = [
     "game",
     "remix",
@@ -380,35 +328,78 @@ NOISE_TERMS = [
 ]
 
 
-CASE_ACTION_TERMS = [
-    "polisi menangkap",
-    "polisi ungkap",
-    "polisi mengungkap",
-    "polisi amankan",
-    "polisi mengamankan",
-    "polisi berhasil menangkap",
-    "polisi berhasil mengungkap",
-    "ditangkap polisi",
-    "diamankan polisi",
-    "diamankan oleh polisi",
-    "ditangkap oleh polisi",
-]
-
-
 # ============================================================
 # POLISI SEBAGAI KORBAN
 # ============================================================
 
-POLICE_VICTIM_PATTERNS = [
-    r"(polisi|anggota polisi|anggota polri).{0,100}"
-    r"(ditembak|tertembak|ditabrak|dianiaya|diserang|terluka|tewas|meninggal)",
+VICTIM_PATTERNS = [
 
-    r"(polisi|anggota polisi|anggota polri).{0,100}"
-    r"(menjadi korban|jadi korban)",
+    r"\bpolisi\b.{0,100}\b(ditembak|tertembak)\b",
 
-    r"(3|dua|dua orang|beberapa).{0,30}"
-    r"(polisi|anggota polisi|anggota polri).{0,80}"
-    r"(terluka|tewas|meninggal|ditembak)",
+    r"\bpolisi\b.{0,100}\b(dis(t)?erang|diserang)\b",
+
+    r"\bpolisi\b.{0,100}\b(dianiaya|dikeroyok)\b",
+
+    r"\bpolisi\b.{0,100}\b(terluka|luka)\b",
+
+    r"\bpolisi\b.{0,100}\b(tewas|meninggal)\b",
+
+    r"\banggota polisi\b.{0,100}"
+    r"\b(ditembak|terluka|tewas|meninggal)\b",
+
+    r"\banggota polri\b.{0,100}"
+    r"\b(ditembak|terluka|tewas|meninggal)\b",
+
+    r"\bpolisi\b.{0,100}"
+    r"\bmenjadi korban\b",
+
+    r"\bpolisi\b.{0,100}"
+    r"\bjadi korban\b",
+
+    r"\bpolisi\b.{0,100}"
+    r"\bbaku tembak\b",
+]
+
+
+# ============================================================
+# POLISI SEBAGAI PENINDAK
+# ============================================================
+
+LAW_ENFORCEMENT_PATTERNS = [
+
+    r"\bditangkap oleh polisi\b",
+
+    r"\bditangkap polisi\b",
+
+    r"\bdiamankan oleh polisi\b",
+
+    r"\bdiamankan polisi\b",
+
+    r"\bditangkap polri\b",
+
+    r"\bdiamankan polri\b",
+
+    r"\bpolisi menangkap\b",
+
+    r"\bpolisi mengamankan\b",
+
+    r"\bpolisi amankan\b",
+
+    r"\bpolisi mengungkap\b",
+
+    r"\bpolisi ungkap\b",
+
+    r"\bpolisi menyita\b",
+
+    r"\bpolisi sita\b",
+
+    r"\bpolisi menggagalkan\b",
+
+    r"\bpolisi membekuk\b",
+
+    r"\bpolisi berhasil menangkap\b",
+
+    r"\bpolisi berhasil mengungkap\b",
 ]
 
 
@@ -416,34 +407,88 @@ POLICE_VICTIM_PATTERNS = [
 # POLISI SEBAGAI PELAKU
 # ============================================================
 
-POLICE_NEGATIVE_PATTERNS = [
-    r"oknum\s+(polisi|polri)",
+POLICE_OFFENDER_PATTERNS = [
 
-    r"(anggota\s+)?(polisi|polri).{0,100}"
-    r"(ditangkap|ditahan|tersangka|terlibat|diduga)",
+    r"\boknum polisi\b",
 
-    r"(polisi|polri).{0,100}"
-    r"(korupsi|suap|pungli|pemerasan)",
+    r"\boknum polri\b",
 
-    r"(polisi|polri).{0,100}"
-    r"(narkoba|narkotika|sabu|ganja)",
+    r"\banggota polisi\b.{0,100}"
+    r"\b(tersangka|terlibat|diduga|ditangkap|ditahan)\b",
 
-    r"(polisi|polri).{0,100}"
-    r"(penganiayaan|kekerasan|penembakan)",
+    r"\banggota polri\b.{0,100}"
+    r"\b(tersangka|terlibat|diduga|ditangkap|ditahan)\b",
 
-    r"(polisi|polri).{0,100}"
-    r"(pelanggaran\s+etik|pelanggaran\s+disiplin)",
+    r"\bpolisi\b.{0,80}"
+    r"\bjadi tersangka\b",
 
-    r"(polisi|polri).{0,100}"
-    r"penyalahgunaan\s+wewenang",
+    r"\bpolisi\b.{0,80}"
+    r"\bmenjadi tersangka\b",
+
+    r"\bpolisi\b.{0,80}"
+    r"\bterlibat korupsi\b",
+
+    r"\bpolisi\b.{0,80}"
+    r"\bterlibat suap\b",
+
+    r"\bpolisi\b.{0,80}"
+    r"\bterlibat pungli\b",
+
+    r"\bpolisi\b.{0,80}"
+    r"\bterlibat narkoba\b",
+
+    r"\bpolisi\b.{0,80}"
+    r"\bterlibat narkotika\b",
+
+    r"\bpolisi\b.{0,80}"
+    r"\bmelakukan penganiayaan\b",
+
+    r"\bpolisi\b.{0,80}"
+    r"\bmelakukan kekerasan\b",
+
+    r"\bpolisi\b.{0,80}"
+    r"\bmelakukan pungli\b",
+
+    r"\bpolisi\b.{0,80}"
+    r"\bmelakukan pemerasan\b",
+
+    r"\bpolisi\b.{0,100}"
+    r"\bpelanggaran etik\b",
+
+    r"\bpolisi\b.{0,100}"
+    r"\bpelanggaran disiplin\b",
+
+    r"\bpolisi\b.{0,100}"
+    r"\bpenyalahgunaan wewenang\b",
 ]
 
 
 # ============================================================
-# HELPERS
+# NEGATIVE KEYWORDS
+# ============================================================
+
+NEGATIVE_KEYWORDS = [
+    "korupsi",
+    "suap",
+    "pungli",
+    "pemerasan",
+    "narkoba",
+    "narkotika",
+    "sabu",
+    "pelanggaran etik",
+    "pelanggaran disiplin",
+    "penyalahgunaan wewenang",
+    "penganiayaan",
+    "kekerasan",
+]
+
+
+# ============================================================
+# WORD MATCH
 # ============================================================
 
 def normalize(text):
+
     text = str(text or "").lower()
 
     text = re.sub(
@@ -461,14 +506,10 @@ def normalize(text):
     return text.strip()
 
 
-def contains_word(text, term):
-    """
-    Word-boundary matching.
-
-    Mencegah:
-        batu -> baturaja
-        madiun -> madiun? tetap cocok
-    """
+def contains_word(
+    text,
+    term
+):
 
     text = normalize(text)
     term = normalize(term)
@@ -496,7 +537,28 @@ def make_id(video_id):
 
 
 # ============================================================
-# DETECT POLRES
+# MATCH PATTERN
+# ============================================================
+
+def match_patterns(
+    text,
+    patterns
+):
+
+    for pattern in patterns:
+
+        if re.search(
+            pattern,
+            text
+        ):
+
+            return True
+
+    return False
+
+
+# ============================================================
+# LOCATION
 # ============================================================
 
 def detect_polres(text):
@@ -521,9 +583,9 @@ def detect_polres(text):
                 )
 
     if not candidates:
+
         return None, None
 
-    # Alias terpanjang menang.
     candidates.sort(
         reverse=True
     )
@@ -533,15 +595,14 @@ def detect_polres(text):
     return polres, evidence
 
 
-# ============================================================
-# DETECT JATIM LOCATION
-# ============================================================
-
-def detect_jatim_locations(text):
+def detect_locations(
+    text,
+    locations
+):
 
     found = []
 
-    for location in JATIM_LOCATIONS:
+    for location in locations:
 
         if contains_word(
             text,
@@ -554,32 +615,6 @@ def detect_jatim_locations(text):
 
     return found
 
-
-# ============================================================
-# DETECT OUTSIDE LOCATION
-# ============================================================
-
-def detect_outside_locations(text):
-
-    found = []
-
-    for location in OUTSIDE_LOCATIONS:
-
-        if contains_word(
-            text,
-            location
-        ):
-
-            found.append(
-                location
-            )
-
-    return found
-
-
-# ============================================================
-# LOCATION SCORING
-# ============================================================
 
 def detect_location(
     title,
@@ -598,20 +633,16 @@ def detect_location(
     score = 0
     evidence = []
     source = None
-    polres = None
 
     # --------------------------------------------------------
-    # 1. POLRES
-    # Strongest evidence.
+    # POLRES
     # --------------------------------------------------------
 
-    detected_polres, polres_evidence = detect_polres(
+    polres, polres_evidence = detect_polres(
         combined
     )
 
-    if detected_polres:
-
-        polres = detected_polres
+    if polres:
 
         score += 100
 
@@ -622,7 +653,7 @@ def detect_location(
         source = "polres"
 
     # --------------------------------------------------------
-    # 2. JAWA TIMUR EXPLICIT
+    # PROVINCE
     # --------------------------------------------------------
 
     if (
@@ -644,17 +675,19 @@ def detect_location(
         )
 
         if source is None:
+
             source = "province"
 
     # --------------------------------------------------------
-    # 3. KOTA/KABUPATEN
+    # JATIM LOCATIONS
     # --------------------------------------------------------
 
-    jatim_locations = detect_jatim_locations(
-        combined
+    jatim = detect_locations(
+        combined,
+        JATIM_LOCATIONS
     )
 
-    for location in jatim_locations:
+    for location in jatim:
 
         if contains_word(
             title_n,
@@ -672,40 +705,40 @@ def detect_location(
         )
 
         if source is None:
+
             source = "location"
 
     # --------------------------------------------------------
-    # 4. LUAR JATIM
+    # OUTSIDE
     # --------------------------------------------------------
 
-    outside_locations = detect_outside_locations(
-        combined
+    outside = detect_locations(
+        combined,
+        OUTSIDE_LOCATIONS
     )
 
-    if outside_locations and not polres:
+    if outside and not polres:
 
         score -= 100
 
-        for location in outside_locations:
+        for location in outside:
 
             evidence.append(
                 "LUAR:" + location
             )
 
         if source is None:
+
             source = "outside"
 
     # --------------------------------------------------------
-    # FINAL DECISION
+    # DECISION
     # --------------------------------------------------------
 
     is_jatim = score >= 35
 
-    # Bukti luar Jatim kuat mengalahkan
-    # keyword kota yang lemah.
-
     if (
-        outside_locations
+        outside
         and not polres
         and score < 80
     ):
@@ -730,10 +763,10 @@ def detect_location(
 
 
 # ============================================================
-# CONTENT CLASSIFICATION
+# ROLE CLASSIFIER
 # ============================================================
 
-def classify_content(
+def classify_role(
     title,
     description
 ):
@@ -748,174 +781,140 @@ def classify_content(
     )
 
     # --------------------------------------------------------
-    # POLRI RELEVANCE
+    # 1. NOISE
     # --------------------------------------------------------
 
-    polri_hits = []
-
-    for term in POLRI_TERMS:
-
+    noise_hits = [
+        term
+        for term in NOISE_TERMS
         if contains_word(
             text,
             term
-        ):
+        )
+    ]
 
-            polri_hits.append(
-                term
-            )
-
-    # Tidak ada hubungan dengan polisi.
-    if not polri_hits:
+    if noise_hits:
 
         return {
-            "relevance": "low",
-            "scope": "neutral",
+            "scope": "noise",
             "category": "Tidak Relevan",
-            "score": 0,
+            "role": "noise",
+            "confidence": 95,
+            "reason": noise_hits,
         }
 
     # --------------------------------------------------------
-    # NOISE
+    # 2. POLICE VICTIM
     # --------------------------------------------------------
 
-    noise_hits = []
-
-    for term in NOISE_TERMS:
-
-        if contains_word(
-            text,
-            term
-        ):
-
-            noise_hits.append(
-                term
-            )
-
-    if (
-        noise_hits
-        and len(polri_hits) <= 1
+    if match_patterns(
+        text,
+        VICTIM_PATTERNS
     ):
 
         return {
-            "relevance": "noise",
-            "scope": "noise",
-            "category": "Tidak Relevan",
-            "score": 0,
-        }
-
-    # --------------------------------------------------------
-    # POLISI SEBAGAI KORBAN
-    #
-    # HARUS diperiksa SEBELUM negative.
-    # --------------------------------------------------------
-
-    police_is_victim = any(
-        re.search(
-            pattern,
-            text
-        )
-        for pattern
-        in POLICE_VICTIM_PATTERNS
-    )
-
-    if police_is_victim:
-
-        return {
-            "relevance": "high",
             "scope": "incident",
             "category":
                 "Peristiwa Melibatkan Polisi",
-            "score": 70,
+            "role": "victim",
+            "confidence": 95,
+            "reason": [
+                "polisi sebagai korban"
+            ],
         }
 
     # --------------------------------------------------------
-    # POLISI SEBAGAI PELAKU
+    # 3. LAW ENFORCEMENT
+    #
+    # Diperiksa SEBELUM offender.
+    #
+    # Contoh:
+    # "kurir narkoba ditangkap polisi"
+    #
+    # harus CASE.
     # --------------------------------------------------------
 
-    police_is_negative = any(
-        re.search(
-            pattern,
-            text
-        )
-        for pattern
-        in POLICE_NEGATIVE_PATTERNS
-    )
+    if match_patterns(
+        text,
+        LAW_ENFORCEMENT_PATTERNS
+    ):
 
-    if police_is_negative:
+        return {
+            "scope": "case",
+            "category": "Ungkap Kasus",
+            "role": "enforcer",
+            "confidence": 95,
+            "reason": [
+                "polisi sebagai penindak"
+            ],
+        }
 
-        # Narkoba
-        if any(
-            contains_word(
+    # --------------------------------------------------------
+    # 4. POLICE OFFENDER
+    # --------------------------------------------------------
+
+    if match_patterns(
+        text,
+        POLICE_OFFENDER_PATTERNS
+    ):
+
+        keyword_hits = [
+            term
+            for term in NEGATIVE_KEYWORDS
+            if contains_word(
                 text,
                 term
             )
-            for term in [
-                "narkoba",
-                "narkotika",
-                "sabu",
-                "ganja",
-            ]
+        ]
+
+        if (
+            "narkoba" in keyword_hits
+            or "narkotika" in keyword_hits
+            or "sabu" in keyword_hits
         ):
 
             category = (
                 "Oknum / Narkoba"
             )
 
-        # Korupsi / Suap / Pungli
-        elif any(
-            contains_word(
-                text,
-                term
-            )
-            for term in [
-                "korupsi",
-                "suap",
-                "pungli",
-                "pemerasan",
-            ]
+        elif (
+            "korupsi" in keyword_hits
+            or "suap" in keyword_hits
+            or "pungli" in keyword_hits
+            or "pemerasan" in keyword_hits
         ):
 
             category = (
                 "Oknum / Korupsi / Pungli"
             )
 
-        # Etik / Disiplin
-        elif any(
-            contains_word(
-                text,
-                term
-            )
-            for term in [
-                "etik",
-                "disiplin",
-            ]
+        elif (
+            "pelanggaran etik"
+            in keyword_hits
+            or
+            "pelanggaran disiplin"
+            in keyword_hits
         ):
 
             category = (
                 "Etik / Disiplin"
             )
 
-        # Kekerasan
-        elif any(
-            contains_word(
-                text,
-                term
-            )
-            for term in [
-                "penganiayaan",
-                "kekerasan",
-                "penembakan",
-            ]
+        elif (
+            "penganiayaan"
+            in keyword_hits
+            or
+            "kekerasan"
+            in keyword_hits
         ):
 
             category = (
                 "Kekerasan / Penganiayaan"
             )
 
-        # Penyalahgunaan wewenang
-        elif contains_word(
-            text,
+        elif (
             "penyalahgunaan wewenang"
+            in keyword_hits
         ):
 
             category = (
@@ -929,43 +928,50 @@ def classify_content(
             )
 
         return {
-            "relevance": "high",
             "scope": "negative",
             "category": category,
-            "score": 100,
+            "role": "offender",
+            "confidence": 90,
+            "reason": keyword_hits,
         }
 
     # --------------------------------------------------------
-    # POLISI SEBAGAI PENINDAK
+    # 5. GENERAL POLICE NEWS
     # --------------------------------------------------------
 
-    police_is_actor = any(
+    has_polri = any(
         contains_word(
             text,
             term
         )
-        for term in CASE_ACTION_TERMS
+        for term in POLRI_TERMS
     )
 
-    if police_is_actor:
+    if has_polri:
 
         return {
-            "relevance": "high",
-            "scope": "case",
-            "category": "Ungkap Kasus",
-            "score": 60,
+            "scope": "neutral",
+            "category":
+                "Berita Polisi Lainnya",
+            "role": "general",
+            "confidence": 65,
+            "reason": [
+                "polisi disebut"
+            ],
         }
 
     # --------------------------------------------------------
-    # BERITA POLISI LAINNYA
+    # 6. REVIEW
     # --------------------------------------------------------
 
     return {
-        "relevance": "medium",
-        "scope": "neutral",
-        "category":
-            "Berita Polisi Lainnya",
-        "score": 25,
+        "scope": "review",
+        "category": "Perlu Review",
+        "role": "ambiguous",
+        "confidence": 40,
+        "reason": [
+            "hubungan tidak cukup jelas"
+        ],
     }
 
 
@@ -979,7 +985,9 @@ def detect_priority(
     description
 ):
 
-    if classification["scope"] != "negative":
+    if classification[
+        "scope"
+    ] != "negative":
 
         return "low"
 
@@ -997,20 +1005,20 @@ def detect_priority(
         "narkoba",
         "narkotika",
         "sabu",
-        "penembakan",
         "tewas",
         "meninggal",
+        "penembakan",
     ]
 
     medium_terms = [
+        "tersangka",
+        "ditangkap",
+        "ditahan",
         "diduga",
         "pelanggaran etik",
         "pelanggaran disiplin",
         "penganiayaan",
         "kekerasan",
-        "tersangka",
-        "ditangkap",
-        "ditahan",
     ]
 
     if any(
@@ -1046,24 +1054,14 @@ def youtube_search(
 ):
 
     params = {
-
         "part": "snippet",
-
         "q": query,
-
         "type": "video",
-
         "order": "date",
-
         "maxResults": 25,
-
-        "publishedAfter":
-            published_after,
-
+        "publishedAfter": published_after,
         "regionCode": "ID",
-
         "relevanceLanguage": "id",
-
         "key": API_KEY,
     }
 
@@ -1115,7 +1113,7 @@ def youtube_search(
 
 
 # ============================================================
-# LOAD EXISTING
+# EXISTING DATA
 # ============================================================
 
 def load_existing():
@@ -1155,16 +1153,12 @@ def main():
     )
 
     print(
-        "PNM — YOUTUBE SOCIAL MONITOR"
+        "PNM — YOUTUBE SOCIAL MONITOR V3"
     )
 
     print(
         "========================================"
     )
-
-    # --------------------------------------------------------
-    # API KEY
-    # --------------------------------------------------------
 
     if not API_KEY:
 
@@ -1172,25 +1166,18 @@ def main():
             "YOUTUBE_API_KEY tidak tersedia."
         )
 
-    # --------------------------------------------------------
-    # DATE
-    # --------------------------------------------------------
-
     now = datetime.now(
         timezone.utc
     )
 
     published_after = (
-        now - timedelta(
+        now
+        - timedelta(
             days=2
         )
     ).strftime(
         "%Y-%m-%dT%H:%M:%SZ"
     )
-
-    # --------------------------------------------------------
-    # OLD DATA
-    # --------------------------------------------------------
 
     existing = load_existing()
 
@@ -1218,15 +1205,11 @@ def main():
         f"{published_after}"
     )
 
-    # --------------------------------------------------------
-    # STATISTICS
-    # --------------------------------------------------------
-
     added = 0
 
-    # --------------------------------------------------------
+    # ========================================================
     # SEARCH
-    # --------------------------------------------------------
+    # ========================================================
 
     for index, query in enumerate(
         SEARCH_QUERIES,
@@ -1299,10 +1282,10 @@ def main():
             )
 
             # ------------------------------------------------
-            # CLASSIFY
+            # CLASSIFICATION
             # ------------------------------------------------
 
-            classification = classify_content(
+            classification = classify_role(
                 title,
                 description
             )
@@ -1327,7 +1310,7 @@ def main():
             )
 
             # ------------------------------------------------
-            # RECORD
+            # ITEM
             # ------------------------------------------------
 
             item = {
@@ -1371,11 +1354,9 @@ def main():
                 "description":
                     description[:1500],
 
-                # Classification
-                "relevance":
-                    classification[
-                        "relevance"
-                    ],
+                # --------------------------------------------
+                # ROLE / CLASSIFICATION
+                # --------------------------------------------
 
                 "scope":
                     classification[
@@ -1387,12 +1368,25 @@ def main():
                         "category"
                     ],
 
-                "classification_score":
+                "role":
                     classification[
-                        "score"
+                        "role"
                     ],
 
-                # Location
+                "classification_confidence":
+                    classification[
+                        "confidence"
+                    ],
+
+                "classification_reason":
+                    classification[
+                        "reason"
+                    ],
+
+                # --------------------------------------------
+                # LOCATION
+                # --------------------------------------------
+
                 "is_jatim":
                     location[
                         "is_jatim"
@@ -1427,17 +1421,19 @@ def main():
                         "evidence"
                     ],
 
-                # Priority
+                # --------------------------------------------
+                # PRIORITY
+                # --------------------------------------------
+
                 "priority":
                     priority,
 
-                # Timestamp
                 "collected_at":
                     now.isoformat(),
             }
 
             # ------------------------------------------------
-            # UPDATE / INSERT
+            # UPDATE EXISTING
             # ------------------------------------------------
 
             if video_id in items_by_video:
@@ -1465,15 +1461,15 @@ def main():
     )
 
     items.sort(
-        key=lambda item:
-            item.get(
+        key=lambda x:
+            x.get(
                 "published_at",
                 ""
             ),
         reverse=True
     )
 
-    # Maksimum histori.
+    # Keep max 1500 videos.
     items = items[:1500]
 
     # ========================================================
@@ -1485,11 +1481,14 @@ def main():
         "total":
             len(items),
 
+        "new_videos":
+            added,
+
         "jatim":
             sum(
                 1
-                for item in items
-                if item.get(
+                for x in items
+                if x.get(
                     "is_jatim"
                 )
             ),
@@ -1497,8 +1496,8 @@ def main():
         "negative":
             sum(
                 1
-                for item in items
-                if item.get(
+                for x in items
+                if x.get(
                     "scope"
                 ) == "negative"
             ),
@@ -1506,8 +1505,8 @@ def main():
         "incident":
             sum(
                 1
-                for item in items
-                if item.get(
+                for x in items
+                if x.get(
                     "scope"
                 ) == "incident"
             ),
@@ -1515,8 +1514,8 @@ def main():
         "case":
             sum(
                 1
-                for item in items
-                if item.get(
+                for x in items
+                if x.get(
                     "scope"
                 ) == "case"
             ),
@@ -1524,17 +1523,26 @@ def main():
         "neutral":
             sum(
                 1
-                for item in items
-                if item.get(
+                for x in items
+                if x.get(
                     "scope"
                 ) == "neutral"
+            ),
+
+        "review":
+            sum(
+                1
+                for x in items
+                if x.get(
+                    "scope"
+                ) == "review"
             ),
 
         "noise":
             sum(
                 1
-                for item in items
-                if item.get(
+                for x in items
+                if x.get(
                     "scope"
                 ) == "noise"
             ),
@@ -1542,8 +1550,8 @@ def main():
         "high_priority":
             sum(
                 1
-                for item in items
-                if item.get(
+                for x in items
+                if x.get(
                     "priority"
                 ) == "high"
             ),
@@ -1601,7 +1609,7 @@ def main():
     )
 
     print(
-        f"New videos       : {added}"
+        f"New videos       : {stats['new_videos']}"
     )
 
     print(
@@ -1626,6 +1634,10 @@ def main():
 
     print(
         f"Netral           : {stats['neutral']}"
+    )
+
+    print(
+        f"Review           : {stats['review']}"
     )
 
     print(
