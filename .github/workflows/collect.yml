@@ -119,6 +119,7 @@ jobs:
       # ==========================================
 
       - name: Collect YouTube
+        continue-on-error: true
         env:
           YOUTUBE_API_KEY: ${{ secrets.YOUTUBE_API_KEY }}
         run: |
@@ -126,7 +127,29 @@ jobs:
 
 
       # ==========================================
-      # 8. CREATE DAILY SNAPSHOT
+      # 8. CHECK YOUTUBE
+      # ==========================================
+
+      - name: Check YouTube data
+        run: |
+
+          echo "========================================"
+          echo "YOUTUBE DATA CHECK"
+          echo "========================================"
+
+          if [ -f data/social.json ]; then
+            ls -lh data/social.json
+            echo "YouTube data tersedia."
+          else
+            echo "WARNING: data/social.json tidak tersedia."
+            echo "Workflow tetap dilanjutkan."
+          fi
+
+          echo "========================================"
+
+
+      # ==========================================
+      # 9. CREATE DAILY SNAPSHOT
       # ==========================================
 
       - name: Create daily snapshot
@@ -135,7 +158,64 @@ jobs:
 
 
       # ==========================================
-      # 9. CHECK MONITORING DATA
+      # 10. BUILD ARCHIVE INDEX
+      # ==========================================
+
+      - name: Build archive index
+        run: |
+          python - <<'PY'
+          import json
+          from pathlib import Path
+
+          archive_dir = Path("data/archive")
+
+          archive_dir.mkdir(
+              parents=True,
+              exist_ok=True
+          )
+
+          files = sorted(
+              [
+                  p.stem
+                  for p in archive_dir.glob("*.json")
+                  if p.name != "index.json"
+              ],
+              reverse=True
+          )
+
+          output = {
+              "files": files
+          }
+
+          with open(
+              archive_dir / "index.json",
+              "w",
+              encoding="utf-8"
+          ) as f:
+
+              json.dump(
+                  output,
+                  f,
+                  ensure_ascii=False,
+                  indent=2
+              )
+
+          print("========================================")
+          print("ARCHIVE INDEX")
+          print("========================================")
+          print(f"Archives : {len(files)}")
+
+          for item in files[:10]:
+              print(f" - {item}")
+
+          print("")
+          print("Output   : data/archive/index.json")
+          print("========================================")
+          PY
+
+
+      # ==========================================
+      # 11. CHECK MONITORING DATA
       # ==========================================
 
       - name: Check monitoring data
@@ -178,9 +258,20 @@ jobs:
           fi
 
           echo ""
+          echo "archive/index.json:"
+          if [ -f data/archive/index.json ]; then
+            ls -lh data/archive/index.json
+          else
+            echo "WARNING: data/archive/index.json tidak ditemukan"
+          fi
+
+          echo ""
           echo "archive:"
           if [ -d data/archive ]; then
-            find data/archive -maxdepth 1 -type f | sort
+            find data/archive \
+              -maxdepth 1 \
+              -type f \
+              | sort
           else
             echo "WARNING: data/archive tidak ditemukan"
           fi
@@ -190,7 +281,7 @@ jobs:
 
 
       # ==========================================
-      # 10. SAVE MONITORING DATA
+      # 12. SAVE MONITORING DATA
       # ==========================================
 
       - name: Save monitoring data
