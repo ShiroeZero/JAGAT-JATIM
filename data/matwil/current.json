@@ -1,0 +1,79 @@
+{
+  "period": "2026-08",
+  "effective_from": "2026-08-01",
+  "effective_to": "2026-08-31",
+  "source_file": "source.pdf",
+  "generated_at": "2026-08-26T15:58:41.793935+00:00",
+  "units": [
+    {
+      "unit": "MATWIL UNIT 1",
+      "anchors": [
+        "PAURPRODOK",
+        "KAURLITPERS",
+        "KANIT I PAMINAL"
+      ],
+      "polres": [
+        "POLRES BANGKALAN",
+        "POLRES BLITAR",
+        "POLRES BLITAR KOTA",
+        "POLRES BOJONEGORO",
+        "POLRES GRESIK",
+        "POLRES KEDIRI",
+        "POLRES KEDIRI KOTA",
+        "POLRES LAMONGAN",
+        "POLRES MADIUN",
+        "POLRES MADIUN KOTA",
+        "POLRES MAGETAN",
+        "POLRES NGANJUK",
+        "POLRES NGAWI",
+        "POLRES PACITAN",
+        "POLRES PAMEKASAN",
+        "POLRES PONOROGO",
+        "POLRES SAMPANG",
+        "POLRES SUMENEP",
+        "POLRES TRENGGALEK",
+        "POLRES TUBAN",
+        "POLRES TULUNGAGUNG"
+      ]
+    },
+    {
+      "unit": "MATWIL UNIT 2",
+      "anchors": [
+        "KAURBINPAM",
+        "KANIT II PAMINAL"
+      ],
+      "polres": [
+        "POLRES BATU",
+        "POLRES JOMBANG",
+        "POLRES MALANG",
+        "POLRES MOJOKERTO",
+        "POLRES MOJOKERTO KOTA",
+        "POLRES PASURUAN",
+        "POLRES PASURUAN KOTA",
+        "POLRES PELABUHAN TANJUNG PERAK",
+        "POLRES PROBOLINGGO KOTA",
+        "POLRESTA MALANG KOTA",
+        "POLRESTA SIDOARJO",
+        "POLRESTABES SURABAYA"
+      ]
+    },
+    {
+      "unit": "MATWIL UNIT 3",
+      "anchors": [
+        "PANIT III PAMINAL"
+      ],
+      "polres": [
+        "POLRES BONDOWOSO",
+        "POLRES JEMBER",
+        "POLRES LUMAJANG",
+        "POLRES PROBOLINGGO",
+        "POLRES SITUBONDO",
+        "POLRESTA BANYUWANGI"
+      ]
+    }
+  ],
+  "notes": [
+    "Mapping unit menggunakan kelompok Kanit I, Kanit II, dan Panit III pada Sprin.",
+    "Periksa hasil parser sebelum commit jika format PDF bulan berikutnya berubah."
+  ]
+}
