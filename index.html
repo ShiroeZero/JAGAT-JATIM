@@ -1,84 +1,36 @@
 <!doctype html>
 <html lang="id">
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width,initial-scale=1">
-  <title>PNM — Polri Negative News Monitor</title>
-  <link rel="stylesheet" href="styles.css">
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>PNM — Polri Negative News Monitor</title><link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <div id="login" class="login-shell">
-    <div class="login-card">
-      <div class="brand-mark">PNM</div>
-      <h1>Polri Negative News Monitor</h1>
-      <p class="muted">Dashboard monitoring berita negatif terkait oknum/anggota Polri.</p>
-      <form id="loginForm">
-        <label>Email</label>
-        <input id="email" type="email" autocomplete="username" required value="admin@propam-jatim.go.id">
-        <label>Password</label>
-        <input id="password" type="password" autocomplete="current-password" required>
-        <button type="submit" class="primary">Masuk</button>
-        <div id="loginError" class="error"></div>
-      </form>
-      <p class="demo-note">Akun demo: <b>admin@propam-jatim.go.id</b> · <b>PropamJatim2026!</b></p>
-    </div>
-  </div>
-
-  <div id="app" class="app hidden">
-    <aside class="sidebar">
-      <div class="side-brand"><span>PNM</span><small>NEWS MONITOR</small></div>
-      <nav>
-        <button class="nav active" data-view="dashboard">Dashboard</button>
-        <button class="nav" data-view="news">Semua Berita</button>
-        <button class="nav" data-view="jatim">Jawa Timur</button>
-        <button class="nav" data-view="high">Prioritas Tinggi</button>
-      </nav>
-      <div class="side-bottom">
-        <div class="collector-status"><span id="statusDot"></span><span id="statusText">Memuat data...</span></div>
-        <button id="logout" class="logout">Keluar</button>
-      </div>
-    </aside>
-
-    <main class="main">
-      <header class="topbar">
-        <div>
-          <div class="eyebrow">BIDANG MONITORING</div>
-          <h2 id="pageTitle">Dashboard</h2>
-        </div>
-        <div class="top-actions">
-          <span id="lastUpdated" class="muted"></span>
-          <button id="refresh" class="secondary">↻ Refresh</button>
-        </div>
-      </header>
-
-      <section id="dashboardView" class="view">
-        <div class="hero">
-          <div><span class="eyebrow">POLRI NEGATIVE NEWS MONITOR</span><h1>Monitoring berita nasional & Jawa Timur</h1><p>Data diperbarui oleh GitHub Actions secara berkala dari RSS Google News.</p></div>
-          <div class="hero-badge">LIVE DATA</div>
-        </div>
-        <div class="stats">
-          <div class="stat"><span>Total Berita</span><strong id="sTotal">0</strong></div>
-          <div class="stat"><span>Jawa Timur</span><strong id="sJatim">0</strong></div>
-          <div class="stat"><span>24 Jam</span><strong id="s24">0</strong></div>
-          <div class="stat danger"><span>Prioritas Tinggi</span><strong id="sHigh">0</strong></div>
-        </div>
-        <div class="grid2">
-          <section class="panel"><div class="panel-head"><h3>Berita Terbaru</h3><button class="linkbtn" data-view="news">Lihat semua →</button></div><div id="latest"></div></section>
-          <section class="panel"><div class="panel-head"><h3>Kategori</h3></div><div id="categories" class="bars"></div></section>
-        </div>
-      </section>
-
-      <section id="listView" class="view hidden">
-        <div class="filters">
-          <input id="search" placeholder="Cari judul, sumber, wilayah, kategori...">
-          <select id="region"><option value="all">Semua Wilayah</option><option value="jatim">Jawa Timur</option><option value="outside">Luar Jawa Timur</option></select>
-          <select id="priority"><option value="all">Semua Prioritas</option><option value="high">Tinggi</option><option value="medium">Sedang</option><option value="low">Rendah</option></select>
-          <select id="category"><option value="all">Semua Kategori</option></select>
-        </div>
-        <div id="list" class="news-list"></div>
-      </section>
-    </main>
-  </div>
-  <script src="app.js"></script>
-</body>
-</html>
+<div id="login" class="login-shell"><div class="login-card">
+<div class="brand-mark">PNM</div><h1>Polri Negative News Monitor</h1><p class="muted">Dashboard monitoring berita negatif terkait oknum/anggota Polri.</p>
+<form id="loginForm"><label>Email</label><input id="email" type="email" autocomplete="username" required value="admin@propam-jatim.go.id">
+<label>Password</label><input id="password" type="password" autocomplete="current-password" required>
+<button class="primary" type="submit">Masuk</button><div id="loginError" class="error"></div></form>
+<p class="demo-note">Akun demo: <b>admin@propam-jatim.go.id</b> · <b>PropamJatim2026!</b></p>
+</div></div>
+<div id="app" class="app hidden">
+<aside class="sidebar"><div class="side-brand"><span>PNM</span><small>NEWS MONITOR</small></div>
+<nav><button class="nav active" data-view="dashboard">Dashboard</button><button class="nav" data-view="news">Semua Berita</button><button class="nav" data-view="jatim">Jawa Timur</button><button class="nav" data-view="high">Prioritas Tinggi</button></nav>
+<div class="side-bottom"><div class="collector-status"><span id="statusDot"></span><span id="statusText">Memuat data...</span></div><button id="logout" class="logout">Keluar</button></div></aside>
+<main class="main"><header class="topbar"><div><div class="eyebrow">BIDANG MONITORING</div><h2 id="pageTitle">Dashboard</h2></div>
+<div class="top-actions"><span id="lastUpdated" class="muted"></span><button id="refresh" class="secondary">↻ Refresh</button></div></header>
+<section id="dashboardView" class="view"><div class="hero"><div><span class="eyebrow">POLRI NEGATIVE NEWS MONITOR</span><h1>Monitoring berita nasional & Jawa Timur</h1><p>Data dikoleksi otomatis oleh GitHub Actions.</p></div><div class="hero-badge">LIVE DATA</div></div>
+<div class="stats"><div class="stat"><span>Total Berita</span><strong id="sTotal">0</strong></div><div class="stat"><span>Jawa Timur</span><strong id="sJatim">0</strong></div><div class="stat"><span>24 Jam</span><strong id="s24">0</strong></div><div class="stat danger"><span>Prioritas Tinggi</span><strong id="sHigh">0</strong></div></div>
+<div class="grid2"><section class="panel"><div class="panel-head"><h3>Berita Terbaru</h3><button class="linkbtn" data-view="news">Lihat semua →</button></div><div id="latest"></div></section>
+<section class="panel"><div class="panel-head"><h3>Kategori</h3></div><div id="categories" class="bars"></div></section></div></section>
+<section id="listView" class="view hidden"><div class="filters">
+<input id="search" placeholder="Cari judul, sumber, wilayah, kategori, Polres...">
+<select id="region"><option value="all">Semua Wilayah</option><option value="jatim">Jawa Timur</option><option value="outside">Luar Jawa Timur</option></select>
+<select id="polres"><option value="all">Semua Polres Jatim</option></select>
+<select id="priority"><option value="all">Semua Prioritas</option><option value="high">Tinggi</option><option value="medium">Sedang</option><option value="low">Rendah</option></select>
+<select id="scope"><option value="all">Semua Jenis Berita</option><option value="negative">Negatif terhadap anggota/institusi</option><option value="case">Ungkap kasus oleh Polri</option><option value="positive">Positif/Prestasi/Kegiatan</option><option value="neutral">Netral/Lainnya</option></select><select id="category"><option value="all">Semua Kategori</option></select>
+<div><label class="filter-label">Dari tanggal</label><input id="dateFrom" type="date"></div>
+<div><label class="filter-label">Sampai tanggal</label><input id="dateTo" type="date"></div>
+<button id="clearFilters" class="secondary clear">Reset Filter</button>
+</div><div id="list" class="news-list"></div></section></main></div>
+<script src="app.js"></script>
+</body></html>
