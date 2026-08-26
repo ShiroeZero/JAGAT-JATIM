@@ -27,118 +27,252 @@ let archiveMode = "all";
 let activeArchive = null;
 let map = null;
 let mapMarkers = [];
+let initialized = false;
 
 const $ = (id) => document.getElementById(id);
 const number = (v) => Number.isFinite(Number(v)) ? Number(v).toLocaleString("id-ID") : "0";
 
 function escapeHtml(v) {
-  return String(v ?? "").replaceAll("&", "&amp;").replaceAll("<", "&lt;").replaceAll(">", "&gt;").replaceAll('"', "&quot;").replaceAll("'", "&#039;");
+  return String(v ?? "")
+    .replaceAll("&", "&amp;")
+    .replaceAll("<", "&lt;")
+    .replaceAll(">", "&gt;")
+    .replaceAll('"', "&quot;")
+    .replaceAll("'", "&#039;");
 }
-function normalizeUrl(v) { const s = String(v || "").trim(); return /^https?:\/\//i.test(s) ? s : ""; }
-function formatDate(v) { const d = new Date(v); if (!v || Number.isNaN(d.getTime())) return v || "-"; return d.toLocaleDateString("id-ID", {day:"2-digit", month:"long", year:"numeric"}); }
-function formatDateTime(v) { const d = new Date(v); if (!v || Number.isNaN(d.getTime())) return v || "-"; return d.toLocaleString("id-ID", {day:"2-digit", month:"short", year:"numeric", hour:"2-digit", minute:"2-digit", hour12:false}) + " WIB"; }
-function dateKey(v) { const d = new Date(v); if (!v || Number.isNaN(d.getTime())) return ""; return d.toLocaleDateString("en-CA", {timeZone:"Asia/Jakarta"}); }
-function dateToInput(v) { return dateKey(v); }
+
+function normalizeUrl(v) {
+  const s = String(v || "").trim();
+  return /^https?:\/\//i.test(s) ? s : "";
+}
+
+function parseDate(v) {
+  if (!v) return null;
+  const d = new Date(v);
+  return Number.isNaN(d.getTime()) ? null : d;
+}
+
+function dateKey(v) {
+  const d = parseDate(v);
+  return d ? d.toLocaleDateString("en-CA", { timeZone: "Asia/Jakarta" }) : "";
+}
+
+function formatDate(v) {
+  const d = parseDate(v);
+  if (!d) return String(v || "-");
+  return d.toLocaleDateString("id-ID", { day: "2-digit", month: "long", year: "numeric" });
+}
+
+function formatDateTime(v) {
+  const d = parseDate(v);
+  if (!d) return String(v || "-");
+  return `${d.toLocaleDateString("id-ID", { day: "2-digit", month: "short", year: "numeric" })} ${d.toLocaleTimeString("id-ID", { hour: "2-digit", minute: "2-digit", hour12: false })} WIB`;
+}
+
 function getTitle(x) { return x?.title || "Tanpa judul"; }
 function getSource(x) { return x?.source || x?.publisher || "Sumber tidak diketahui"; }
-function getItemDate(x) { return x?.collected_at || x?.published_at || x?.detected_at || ""; }
+function getItemDate(x) { return x?.collected_at || x?.detected_at || x?.published_at || x?.last_detected_at || ""; }
 function getPriority(x) { return String(x?.priority || "low").toLowerCase(); }
 function getScope(x) { return String(x?.scope || "neutral").toLowerCase(); }
 function getCategory(x) { return x?.category || "NETRAL / LAINNYA"; }
 function isJatim(x) { return x?.is_jatim === true; }
-function priorityRank(v) { return ({high:3, medium:2, low:1})[String(v || "low").toLowerCase()] || 1; }
-function unique(a) { return [...new Set(a.filter(Boolean))]; }
-function setStatus(text, ok) { if ($("statusText")) $("statusText").textContent = text; if ($("statusDot")) $("statusDot").style.background = ok ? "var(--ok)" : "var(--danger)"; }
+function priorityRank(v) { return ({ high: 3, medium: 2, low: 1 })[String(v || "low").toLowerCase()] || 1; }
+function unique(a) { return [...new Set((a || []).filter(Boolean))]; }
 
-async function fetchJson(url) { const r = await fetch(url + "?t=" + Date.now()); if (!r.ok) throw new Error(`${url} HTTP ${r.status}`); return r.json(); }
+function setStatus(text, ok) {
+  if ($("statusText")) $("statusText").textContent = text;
+  if ($("statusDot")) $("statusDot").style.background = ok ? "var(--ok)" : "var(--danger)";
+}
+
+async function fetchJson(url) {
+  const r = await fetch(`${url}?t=${Date.now()}`, { cache: "no-store" });
+  if (!r.ok) throw new Error(`${url} HTTP ${r.status}`);
+  return r.json();
+}
+
+function todayItems() {
+  return Array.isArray(todayData?.news?.items) ? todayData.news.items : [];
+}
+
+function globalCases() {
+  return Array.isArray(caseData?.cases) ? caseData.cases : [];
+}
+
+function activeNews() {
+  return activeArchive ? (activeArchive.news?.items || []) : newsData;
+}
+
+function activeCases() {
+  return activeArchive ? (activeArchive.cases?.items || []) : globalCases();
+}
+
+function caseMap(cases = activeCases()) {
+  return new Map(cases.map(c => [c.case_id, c]));
+}
+
+function getCaseById(id, cases = activeCases()) {
+  return id ? (cases.find(c => c.case_id === id) || null) : null;
+}
+
+function getArticleById(id, items = activeNews()) {
+  return id ? (items.find(n => n.id === id) || null) : null;
+}
+
+function localityFromPolres(polres) {
+  const text = String(polres || "").toLowerCase();
+  for (const name of Object.keys(JATIM_COORDS)) {
+    if (text.includes(name.toLowerCase())) return name;
+  }
+  return "";
+}
+
+function getLocality(x) {
+  const fromPolres = localityFromPolres(x?.polres);
+  if (fromPolres) return fromPolres;
+  const text = `${x?.title || ""} ${x?.location || ""} ${x?.region || ""}`.toLowerCase();
+  for (const name of Object.keys(JATIM_COORDS)) {
+    if (text.includes(name.toLowerCase())) return name;
+  }
+  return "";
+}
+
+function getCasePriorityIds(cases = activeCases()) {
+  return new Set(cases.filter(c => getPriority(c) === "high").map(c => c.case_id));
+}
+
+function isCaseHighArticle(article, cases = activeCases()) {
+  return !!article?.case_id && getCasePriorityIds(cases).has(article.case_id);
+}
+
+function caseArticleIds(c) {
+  return new Set(c?.article_ids || (c?.articles || []).map(a => a.id).filter(Boolean));
+}
+
+function caseArticles(c, items = activeNews()) {
+  const ids = caseArticleIds(c);
+  if (ids.size) return items.filter(x => ids.has(x.id));
+  if (Array.isArray(c?.articles)) return c.articles;
+  return [];
+}
 
 async function loadAllData() {
   setStatus("Memuat data...", false);
   try {
-    const [today, cases, news, archiveIndex] = await Promise.all([fetchJson(TODAY_URL), fetchJson(CASE_URL), fetchJson(NEWS_URL), fetchJson(ARCHIVE_INDEX_URL)]);
+    const [today, cases, news, archiveIndex] = await Promise.all([
+      fetchJson(TODAY_URL),
+      fetchJson(CASE_URL),
+      fetchJson(NEWS_URL),
+      fetchJson(ARCHIVE_INDEX_URL)
+    ]);
+
     todayData = today || {};
-    caseData = cases || {cases:[]};
+    caseData = cases || { cases: [] };
     newsData = Array.isArray(news) ? news : (news?.items || []);
     archiveFiles = Array.isArray(archiveIndex) ? archiveIndex : (archiveIndex?.files || []);
-    initializeDefaultMonitoringDates();
+
+    initializeMonitoringDates(true);
     renderAll();
     setStatus("Data aktif", true);
-  } catch (e) { console.error(e); setStatus("Gagal memuat data", false); if ($("lastUpdated")) $("lastUpdated").textContent = "Data gagal dimuat"; }
+  } catch (e) {
+    console.error(e);
+    setStatus("Gagal memuat data", false);
+    if ($("lastUpdated")) $("lastUpdated").textContent = "Data gagal dimuat";
+  }
+}
+
+function initializeMonitoringDates(force = false) {
+  if (!$('dateFrom') || !$('dateTo') || !todayData?.date) return;
+  if (force || (!$('dateFrom').value && !$('dateTo').value)) {
+    $('dateFrom').value = todayData.date;
+    $('dateTo').value = todayData.date;
+  }
+}
+
+function currentDateBounds() {
+  return {
+    from: $("dateFrom")?.value || "",
+    to: $("dateTo")?.value || ""
+  };
+}
+
+function selectBaseNewsDataset() {
+  if (activeArchive) return activeArchive.news?.items || [];
+  const { from, to } = currentDateBounds();
+  const today = todayData?.date || "";
+  if (from === today && to === today) return todayItems();
+  return newsData;
+}
+
+function filterByDate(items, from, to) {
+  return items.filter(item => {
+    const d = dateKey(getItemDate(item));
+    if (!d) return false;
+    if (from && d < from) return false;
+    if (to && d > to) return false;
+    return true;
+  });
 }
 
 function showView(view) {
   currentView = view;
-  document.querySelectorAll(".view").forEach(v => v.classList.toggle("hidden", !v.id.startsWith(view)));
-  document.querySelectorAll("[data-view]").forEach(b => b.classList.toggle("active", b.dataset.view === view));
-  const titles = {dashboard:"Dashboard", monitoring:"Monitoring", reports:"Laporan", archive:"Arsip"};
+
+  document.querySelectorAll(".view").forEach(section => {
+    const active = section.id === `${view}View`;
+    section.hidden = !active;
+    section.classList.toggle("hidden", !active);
+  });
+
+  document.querySelectorAll("[data-view]").forEach(button => {
+    button.classList.toggle("active", button.dataset.view === view);
+  });
+
+  const titles = {
+    dashboard: "Dashboard",
+    monitoring: activeArchive ? "Monitoring Arsip" : "Monitoring",
+    reports: "Laporan",
+    archive: "Arsip"
+  };
   if ($("pageTitle")) $("pageTitle").textContent = titles[view] || "PNM";
-  if (view === "dashboard") { renderDashboard(); setTimeout(() => map?.invalidateSize(), 80); }
-  if (view === "monitoring") { renderMonitoring(); }
-  if (view === "archive") { renderArchiveList(); }
+  if ($("todayDate")) $("todayDate").textContent = activeArchive ? `Snapshot ${formatDate(activeArchive.date)}` : formatDate(todayData?.date);
+
+  if (view !== "archive") {
+    activeArchive = null;
+    closeArchiveDetail();
+  }
+
+  if (view === "dashboard") {
+    renderDashboard();
+    setTimeout(() => map?.invalidateSize(), 100);
+  }
+  if (view === "monitoring") renderMonitoring();
+  if (view === "archive") {
+    if (activeArchive) openArchiveDetail();
+    else closeArchiveDetail(false);
+    renderArchiveList();
+  }
 }
 
-document.querySelectorAll("[data-view]").forEach(b => b.addEventListener("click", () => showView(b.dataset.view)));
-
-document.querySelectorAll("[data-open-monitoring]").forEach(b => b.addEventListener("click", () => { monitoringMode = b.dataset.openMonitoring === "jatim" ? "jatim" : b.dataset.openMonitoring === "high" ? "high" : "all"; showView("monitoring"); syncModeButtons(); renderMonitoring(); }));
+function renderHeader() {
+  if (!todayData) return;
+  if ($("todayDate")) $("todayDate").textContent = activeArchive ? `Snapshot ${formatDate(activeArchive.date)}` : formatDate(todayData.date);
+  if ($("lastUpdated")) $("lastUpdated").textContent = `Update terakhir: ${formatDateTime(todayData.last_successful_update || todayData.updated_at)}`;
+  if ($("sTotal")) $("sTotal").textContent = number(todayData.summary?.news_today);
+  if ($("sCases")) $("sCases").textContent = number(todayData.summary?.cases_today);
+  if ($("sYoutube")) $("sYoutube").textContent = number(todayData.summary?.youtube_today);
+  if ($("sHigh")) $("sHigh").textContent = number(todayData.summary?.case_high ?? todayData.cases?.priority_high ?? 0);
+  if ($("sNegative")) $("sNegative").textContent = number(todayData.summary?.negative_today);
+  if ($("sJatim")) $("sJatim").textContent = number(todayData.summary?.jatim_news);
+  if ($("sCaseHigh")) $("sCaseHigh").textContent = number(todayData.summary?.case_high ?? todayData.cases?.priority_high ?? 0);
+  if ($("sTotalCases")) $("sTotalCases").textContent = number(caseData?.total_cases);
+}
 
 function renderAll() {
-  if (!todayData) return;
-  $("todayDate").textContent = formatDate(todayData.date);
-  $("lastUpdated").textContent = "Update terakhir: " + formatDateTime(todayData.last_successful_update || todayData.updated_at);
-  $("sTotal").textContent = number(todayData.summary?.news_today);
-  $("sCases").textContent = number(todayData.summary?.cases_today);
-  $("sYoutube").textContent = number(todayData.summary?.youtube_today);
-  $("sHigh").textContent = number(todayData.summary?.case_high ?? todayData.cases?.priority_high ?? 0);
-  $("sNegative").textContent = number(todayData.summary?.negative_today);
-  $("sJatim").textContent = number(todayData.summary?.jatim_news);
-  $("sCaseHigh").textContent = number(todayData.summary?.case_high ?? todayData.cases?.priority_high ?? 0);
-  $("sTotalCases").textContent = number(caseData?.total_cases);
+  renderHeader();
   renderDashboard();
+  populateMonitoringFilters();
+  renderMonitoring();
   renderArchiveList();
 }
-
-function todayItems() { return Array.isArray(todayData?.news?.items) ? todayData.news.items : []; }
-function globalCases() { return Array.isArray(caseData?.cases) ? caseData.cases : []; }
-function activeNews() { return activeArchive ? (activeArchive.news?.items || []) : newsData; }
-function activeCases() { return activeArchive ? (activeArchive.cases?.items || []) : globalCases(); }
-function caseMap(cases = activeCases()) { return new Map(cases.map(c => [c.case_id, c])); }
-
-function localityFromPolres(polres) {
-  const t = String(polres || "").toLowerCase();
-  for (const name of Object.keys(JATIM_COORDS)) if (t.includes(name.toLowerCase())) return name;
-  return "";
-}
-function getLocality(x) {
-  const p = localityFromPolres(x?.polres);
-  if (p) return p;
-  const t = `${x?.title || ""} ${x?.location || ""} ${x?.region || ""}`.toLowerCase();
-  for (const name of Object.keys(JATIM_COORDS)) if (t.includes(name.toLowerCase())) return name;
-  return "";
-}
-function getCaseById(id, cases = activeCases()) { return id ? cases.find(c => c.case_id === id) || null : null; }
-function getArticleById(id, items = activeNews()) { return id ? items.find(n => n.id === id) || null : null; }
-
-function getCasePriorityIds(cases = activeCases()) { return new Set(cases.filter(c => getPriority(c) === "high").map(c => c.case_id)); }
-function isCaseHighArticle(article, cases = activeCases()) { return !!article.case_id && getCasePriorityIds(cases).has(article.case_id); }
-function getCaseArticleIds(caseItem) { return new Set(caseItem?.article_ids || (caseItem?.articles || []).map(a => a.id).filter(Boolean)); }
-
-function articlePassesMode(article, mode, cases) {
-  if (mode === "jatim") return isJatim(article);
-  if (mode === "high") return isCaseHighArticle(article, cases);
-  return true;
-}
-
-function setDefaultTodayRange() {
-  if (!$('dateFrom') || !$('dateTo') || !todayData?.date) return;
-  $('dateFrom').value = todayData.date;
-  $('dateTo').value = todayData.date;
-}
-function initializeDefaultMonitoringDates() {
-  if (!$('dateFrom') || !$('dateTo')) return;
-  if (!$('dateFrom').value && !$('dateTo').value) setDefaultTodayRange();
-}
-
-function currentDateBounds() { return {from: $("dateFrom")?.value || "", to: $("dateTo")?.value || ""}; }
 
 function renderDashboard() {
   const items = todayItems();
@@ -151,148 +285,558 @@ function renderDashboard() {
 }
 
 function renderRegionsToday(items) {
-  const target = $("regionToday"); if (!target) return;
+  const target = $("regionToday");
+  if (!target) return;
   const groups = new Map();
-  items.filter(isJatim).forEach(item => { const r = getLocality(item) || "Jawa Timur"; if (!groups.has(r)) groups.set(r, {count:0}); groups.get(r).count++; });
-  const cases = activeCases();
+  items.filter(isJatim).forEach(item => {
+    const r = getLocality(item) || "Jawa Timur";
+    if (!groups.has(r)) groups.set(r, { count: 0 });
+    groups.get(r).count++;
+  });
   const byRegion = new Map();
-  cases.forEach(c => { const r = getLocality(c); if (!r) return; if (!byRegion.has(r)) byRegion.set(r,{high:0,cases:0}); byRegion.get(r).cases++; if (getPriority(c)==="high") byRegion.get(r).high++; });
-  const rows = [...groups.entries()].sort((a,b)=>b[1].count-a[1].count);
-  target.innerHTML = rows.length ? rows.map(([name,v]) => { const meta=byRegion.get(name)||{high:0,cases:0}; return `<button class="region-row" data-region="${escapeHtml(name)}"><span><strong>${escapeHtml(name)}</strong><small>${number(v.count)} berita · ${number(meta.cases)} case</small></span><span class="region-right">${meta.high ? `<span class="pill high">HIGH ${number(meta.high)}</span>` : `<span class="pill low">TERPANTAU</span>`}<b>→</b></span></button>`; }).join("") : `<div class="empty">Tidak ada wilayah Jawa Timur terdeteksi hari ini.</div>`;
-  target.querySelectorAll("[data-region]").forEach(btn => btn.addEventListener("click",()=>{showView("monitoring"); monitoringMode="jatim"; syncModeButtons(); $("region").value=btn.dataset.region; renderMonitoring();}));
+  globalCases().forEach(c => {
+    const r = getLocality(c);
+    if (!r) return;
+    if (!byRegion.has(r)) byRegion.set(r, { cases: 0, high: 0 });
+    byRegion.get(r).cases++;
+    if (getPriority(c) === "high") byRegion.get(r).high++;
+  });
+  const rows = [...groups.entries()].sort((a, b) => b[1].count - a[1].count);
+  target.innerHTML = rows.length ? rows.map(([name, v]) => {
+    const meta = byRegion.get(name) || { cases: 0, high: 0 };
+    return `<button class="region-row" data-region="${escapeHtml(name)}">
+      <span><strong>${escapeHtml(name)}</strong><small>${number(v.count)} berita · ${number(meta.cases)} case</small></span>
+      <span class="region-right">${meta.high ? `<span class="pill high">HIGH ${number(meta.high)}</span>` : `<span class="pill low">TERPANTAU</span>`}<b>→</b></span>
+    </button>`;
+  }).join("") : `<div class="empty">Tidak ada wilayah Jawa Timur terdeteksi hari ini.</div>`;
+
+  target.querySelectorAll("[data-region]").forEach(btn => btn.addEventListener("click", () => {
+    activeArchive = null;
+    setDefaultTodayRange();
+    $("region").value = btn.dataset.region;
+    $("polres").value = "all";
+    monitoringMode = "jatim";
+    syncModeButtons();
+    showView("monitoring");
+  }));
 }
 
 function renderCategories(items) {
-  const target=$("categories"); if(!target)return;
-  const c={Negatif:0,"Ungkap Kasus":0,Positif:0,Netral:0};
-  items.forEach(i=>{const s=getScope(i); if(s==="negative")c.Negatif++; else if(s==="case")c["Ungkap Kasus"]++; else if(s==="positive")c.Positif++; else c.Netral++;});
-  const rows=Object.entries(c), max=Math.max(...rows.map(x=>x[1]),1);
-  target.innerHTML=rows.map(([label,count])=>`<div class="bar"><div class="bar-top"><span>${escapeHtml(label)}</span><strong>${number(count)}</strong></div><div class="bar-bg"><div class="bar-fill" style="width:${(count/max)*100}%"></div></div></div>`).join("");
+  const target = $("categories");
+  if (!target) return;
+  const c = { Negatif: 0, "Ungkap Kasus": 0, Positif: 0, Netral: 0 };
+  items.forEach(item => {
+    const s = getScope(item);
+    if (s === "negative") c.Negatif++;
+    else if (s === "case") c["Ungkap Kasus"]++;
+    else if (s === "positive") c.Positif++;
+    else c.Netral++;
+  });
+  const rows = Object.entries(c);
+  const max = Math.max(...rows.map(x => x[1]), 1);
+  target.innerHTML = rows.map(([label, count]) => `<div class="bar"><div class="bar-top"><span>${escapeHtml(label)}</span><strong>${number(count)}</strong></div><div class="bar-bg"><div class="bar-fill" style="width:${(count / max) * 100}%"></div></div></div>`).join("");
 }
 
-function articleCard(item, compact=false) {
-  const url=normalizeUrl(item.url), caseItem=getCaseById(item.case_id), caseHigh=caseItem && getPriority(caseItem)==="high";
-  return `<article class="news-card clickable" data-article-id="${escapeHtml(item.id)}"><div class="news-card-top"><div><div class="news-card-meta">${escapeHtml(getSource(item))} · ${escapeHtml(getLocality(item)||item.region||"Indonesia")} · ${escapeHtml(formatDateTime(getItemDate(item)))}</div><h3>${escapeHtml(getTitle(item))}</h3><div class="news-card-meta">${escapeHtml(getCategory(item))}${caseItem ? ` · ${escapeHtml(caseHigh ? "Case HIGH" : "Terkait Case")}` : " · Belum terkait Case"}</div></div><div class="badges"><span class="pill ${escapeHtml(getPriority(item))}">${escapeHtml(getPriority(item).toUpperCase())}</span>${caseItem?`<span class="pill ${caseHigh?'high':''}">CASE</span>`:`<span class="pill">${escapeHtml(getScope(item).toUpperCase())}</span>`}</div></div><div class="card-action">${url?"Klik untuk detail · sumber tersedia ↗":"Klik untuk detail"}</div></article>`;
-}
-function caseCard(c,index) {
-  const p=getPriority(c), locality=getLocality(c), score=c.priority_score!=null?` · ${number(c.priority_score)}/100`:"";
-  return `<article class="case-card clickable" data-case-id="${escapeHtml(c.case_id)}"><div class="case-card-top"><span class="case-id">CASE ${String(index).padStart(2,'0')}</span><span class="pill ${escapeHtml(p)}">${escapeHtml(p.toUpperCase())}${score}</span></div><strong>${escapeHtml(c.title || "Case")}</strong><div class="news-card-meta">${escapeHtml(locality||c.region||"Indonesia")} · ${number(c.article_count || c.article_ids?.length || 0)} sumber · update ${escapeHtml(formatDateTime(c.last_detected_at || c.last_seen))}</div><div class="card-action">Klik untuk melihat seluruh sumber →</div></article>`;
-}
-function renderLatest(items){const t=$("latest"); if(!t)return; const x=[...items].sort((a,b)=>new Date(getItemDate(b)||0)-new Date(getItemDate(a)||0)).slice(0,8); t.innerHTML=x.length?x.map(i=>articleCard(i,true)).join(""):`<div class="empty">Belum ada berita hari ini.</div>`;bindArticleClicks(t);}
-function renderLatestCases(){const t=$("latestCases");if(!t)return;const x=[...activeCases()].sort((a,b)=>priorityRank(b.priority)-priorityRank(a.priority)||new Date(b.last_detected_at||b.last_seen||0)-new Date(a.last_detected_at||a.last_seen||0)).slice(0,6);t.innerHTML=x.length?x.map((c,i)=>caseCard(c,i+1)).join(""):`<div class="empty">Belum ada case hari ini.</div>`;bindCaseClicks(t);}
-function bindArticleClicks(root){root.querySelectorAll("[data-article-id]").forEach(el=>el.addEventListener("click",()=>openArticleDrawer(getArticleById(el.dataset.articleId))));}
-function bindCaseClicks(root){root.querySelectorAll("[data-case-id]").forEach(el=>el.addEventListener("click",()=>openCaseDrawer(getCaseById(el.dataset.caseId))));}
-
-function populateSelect(el, first, values, selected){if(!el)return;el.innerHTML=`<option value="all">${escapeHtml(first)}</option>`+values.map(v=>`<option value="${escapeHtml(v)}">${escapeHtml(v)}</option>`).join(""); if(values.includes(selected))el.value=selected;}
-function populateMonitoringFilters(){
-  const {from,to}=currentDateBounds();
-  const dateItems=newsData.filter(x=>(!from||dateKey(getItemDate(x))>=from)&&(!to||dateKey(getItemDate(x))<=to));
-  const currentRegion=$("region").value, currentPolres=$("polres").value, currentCategory=$("category").value;
-  const regions=unique(dateItems.filter(isJatim).map(getLocality).sort((a,b)=>a.localeCompare(b)));
-  populateSelect($("region"),"Semua Wilayah",regions,currentRegion);
-  const filteredRegion=currentRegion!=="all"?dateItems.filter(x=>getLocality(x)===currentRegion):dateItems;
-  const polres=unique(filteredRegion.map(x=>x.polres).filter(Boolean).sort((a,b)=>a.localeCompare(b)));
-  populateSelect($("polres"),"Semua Polres Terdeteksi",polres,currentPolres);
-  const categories=unique(dateItems.map(getCategory).sort((a,b)=>a.localeCompare(b)));
-  populateSelect($("category"),"Semua Kategori",categories,currentCategory);
+function articleCard(item) {
+  const c = getCaseById(item.case_id);
+  const cHigh = c && getPriority(c) === "high";
+  const url = normalizeUrl(item.url);
+  return `<article class="news-card clickable" data-article-id="${escapeHtml(item.id)}">
+    <div class="news-card-top">
+      <div>
+        <div class="news-card-meta">${escapeHtml(getSource(item))} · ${escapeHtml(getLocality(item) || item.region || "Indonesia")} · ${escapeHtml(formatDateTime(getItemDate(item)))}</div>
+        <h3>${escapeHtml(getTitle(item))}</h3>
+        <div class="news-card-meta">${escapeHtml(getCategory(item))}${c ? ` · ${escapeHtml(cHigh ? "Case HIGH" : "Terkait Case")}` : " · Belum terkait Case"}</div>
+      </div>
+      <div class="badges">
+        <span class="pill ${escapeHtml(getPriority(item))}">${escapeHtml(getPriority(item).toUpperCase())}</span>
+        ${c ? `<span class="pill ${cHigh ? "high" : ""}">CASE</span>` : `<span class="pill">${escapeHtml(getScope(item).toUpperCase())}</span>`}
+      </div>
+    </div>
+    <div class="card-action">${url ? "Klik untuk detail · sumber tersedia ↗" : "Klik untuk detail"}</div>
+  </article>`;
 }
 
-function applyCommonFilters(items, mode, prefix="") {
-  const p=prefix;
-  let out=[...items];
-  const get=(id)=>$(p+id)?.value||"all";
-  const from=$(p+"dateFrom")?.value||"";
-  const to=$(p+"dateTo")?.value||"";
-  if(from)out=out.filter(x=>dateKey(getItemDate(x))>=from);
-  if(to)out=out.filter(x=>dateKey(getItemDate(x))<=to);
-  if(mode==="jatim")out=out.filter(isJatim);
-  if(mode==="high")out=out.filter(x=>isCaseHighArticle(x, prefix?activeCases():globalCases()));
-  const search=get("search").toLowerCase();
-  if(search)out=out.filter(x=>[getTitle(x),getSource(x),x.region,x.polres,getLocality(x),getCategory(x),getScope(x)].filter(Boolean).join(" ").toLowerCase().includes(search));
-  if(get("region")!=="all")out=out.filter(x=>getLocality(x)===get("region"));
-  if(get("polres")!=="all")out=out.filter(x=>String(x.polres||"")===get("polres"));
-  if(get("priority")!=="all")out=out.filter(x=>getPriority(x)===get("priority"));
-  if(get("scope")!=="all")out=out.filter(x=>getScope(x)===get("scope"));
-  if(get("category")!=="all")out=out.filter(x=>getCategory(x)===get("category"));
-  return out;
+function caseCard(c, index) {
+  const p = getPriority(c);
+  const locality = getLocality(c);
+  const score = c.priority_score != null ? ` · ${number(c.priority_score)}/100` : "";
+  return `<article class="case-card clickable" data-case-id="${escapeHtml(c.case_id)}">
+    <div class="case-card-top"><span class="case-id">CASE ${String(index).padStart(2, "0")}</span><span class="pill ${escapeHtml(p)}">${escapeHtml(p.toUpperCase())}${score}</span></div>
+    <strong>${escapeHtml(c.title || "Case")}</strong>
+    <div class="news-card-meta">${escapeHtml(locality || c.region || "Indonesia")} · ${number(c.article_count || (c.articles || []).length)} sumber · update ${escapeHtml(formatDateTime(c.last_detected_at || c.last_seen || c.updated_at))}</div>
+    <div class="card-action">Klik untuk melihat seluruh sumber →</div>
+  </article>`;
 }
 
-function getRelevantCases(items,cases,mode,from,to,region,polres){
-  const ids=new Set(items.map(x=>x.case_id).filter(Boolean));
-  let result=cases.filter(c=>ids.has(c.case_id));
-  result=result.filter(c=>{const d=dateKey(c.last_detected_at||c.last_seen||c.updated_at||c.created_at); return (!from||d>=from)&&(!to||d<=to);});
-  if(mode==="high")result=result.filter(c=>getPriority(c)==="high");
-  if(mode==="jatim")result=result.filter(c=>c.is_jatim!==false && !!getLocality(c));
-  if(region && region!=="all")result=result.filter(c=>getLocality(c)===region);
-  if(polres && polres!=="all")result=result.filter(c=>String(c.polres||"")===polres);
-  return result.sort((a,b)=>priorityRank(b.priority)-priorityRank(a.priority)||new Date(b.last_detected_at||b.last_seen||0)-new Date(a.last_detected_at||a.last_seen||0));
+function renderLatest(items) {
+  const target = $("latest");
+  if (!target) return;
+  const latest = items.slice().sort((a, b) => new Date(getItemDate(b) || 0) - new Date(getItemDate(a) || 0)).slice(0, 8);
+  target.innerHTML = latest.length ? latest.map(articleCard).join("") : `<div class="empty">Belum ada berita hari ini.</div>`;
+  bindArticleClicks(target, items);
 }
 
-function renderMonitoring(){
+function renderLatestCases() {
+  const target = $("latestCases");
+  if (!target) return;
+  const cases = globalCases().slice().sort((a, b) => priorityRank(b.priority) - priorityRank(a.priority) || new Date(b.last_detected_at || b.last_seen || 0) - new Date(a.last_detected_at || a.last_seen || 0)).slice(0, 6);
+  target.innerHTML = cases.length ? cases.map((c, i) => caseCard(c, i + 1)).join("") : `<div class="empty">Belum ada case.</div>`;
+  bindCaseClicks(target, globalCases());
+}
+
+function currentMonitoringBase() {
+  const { from, to } = currentDateBounds();
+  if (!activeArchive && from === todayData?.date && to === todayData?.date) return todayItems();
+  return activeArchive ? (activeArchive.news?.items || []) : newsData;
+}
+
+function populateSelect(el, first, values, selected) {
+  if (!el) return;
+  el.innerHTML = `<option value="all">${escapeHtml(first)}</option>` + values.map(v => `<option value="${escapeHtml(v)}">${escapeHtml(v)}</option>`).join("");
+  if (values.includes(selected)) el.value = selected;
+}
+
+function populateMonitoringFilters() {
+  const { from, to } = currentDateBounds();
+  const base = filterByDate(currentMonitoringBase(), from, to);
+  const currentRegion = $("region")?.value || "all";
+  const currentPolres = $("polres")?.value || "all";
+  const currentCategory = $("category")?.value || "all";
+
+  const regions = unique(base.filter(isJatim).map(getLocality).sort((a, b) => a.localeCompare(b)));
+  populateSelect($("region"), "Semua Wilayah", regions, currentRegion);
+
+  const region = $("region")?.value || "all";
+  const regionItems = region === "all" ? base : base.filter(x => getLocality(x) === region);
+  const polres = unique(regionItems.map(x => x.polres).filter(Boolean).sort((a, b) => a.localeCompare(b)));
+  populateSelect($("polres"), "Semua Polres Terdeteksi", polres, currentPolres);
+
+  const categories = unique(base.map(getCategory).sort((a, b) => a.localeCompare(b)));
+  populateSelect($("category"), "Semua Kategori", categories, currentCategory);
+}
+
+function applyMonitoringFilters(items, mode) {
+  const { from, to } = currentDateBounds();
+  let out = filterByDate(items, from, to);
+  const cases = globalCases();
+
+  if (mode === "jatim") out = out.filter(isJatim);
+  if (mode === "high") out = out.filter(x => isCaseHighArticle(x, cases) || (!x.case_id && getPriority(x) === "high"));
+
+  const search = ($( "search")?.value || "").trim().toLowerCase();
+  const region = $("region")?.value || "all";
+  const polres = $("polres")?.value || "all";
+  const priority = $("priority")?.value || "all";
+  const scope = $("scope")?.value || "all";
+  const category = $("category")?.value || "all";
+
+  if (search) out = out.filter(x => [getTitle(x), getSource(x), x.region, x.polres, getLocality(x), getCategory(x), getScope(x)].filter(Boolean).join(" ").toLowerCase().includes(search));
+  if (region !== "all") out = out.filter(x => getLocality(x) === region);
+  if (polres !== "all") out = out.filter(x => String(x.polres || "") === polres);
+  if (priority !== "all") out = out.filter(x => getPriority(x) === priority);
+  if (scope !== "all") out = out.filter(x => getScope(x) === scope);
+  if (category !== "all") out = out.filter(x => getCategory(x) === category);
+
+  return out.sort((a, b) => new Date(getItemDate(b) || 0) - new Date(getItemDate(a) || 0));
+}
+
+function getRelevantCases(items, mode, region, polres) {
+  const cases = globalCases();
+  const ids = new Set(items.map(x => x.case_id).filter(Boolean));
+  let result = cases.filter(c => ids.has(c.case_id));
+
+  if (mode === "high") result = result.filter(c => getPriority(c) === "high");
+  if (mode === "jatim") result = result.filter(c => !!getLocality(c));
+  if (region !== "all") result = result.filter(c => getLocality(c) === region);
+  if (polres !== "all") result = result.filter(c => String(c.polres || "") === polres);
+
+  return result.sort((a, b) => priorityRank(b.priority) - priorityRank(a.priority) || new Date(b.last_detected_at || b.last_seen || 0) - new Date(a.last_detected_at || a.last_seen || 0));
+}
+
+function renderMonitoring() {
   syncModeButtons();
   populateMonitoringFilters();
-  const items=applyCommonFilters(newsData,monitoringMode);
-  const {from,to}=currentDateBounds();
-  const cases=getRelevantCases(items,globalCases(),monitoringMode,from,to,$("region")?.value||"all",$("polres")?.value||"all");
-  $("resultCount").textContent=`${number(items.length)} berita · ${number(cases.length)} case`;
-  $("resultContext").textContent=`${from||"awal"}${to?` s/d ${to}`:" s/d sekarang"}`;
-  $("monitoringContextText").textContent=from||to?`Rentang ${formatDate(from||to)}${to?` — ${formatDate(to)}`:""}.`:`Data hari ini.`;
-  const caseTarget=$("monitoringCases");
-  caseTarget.innerHTML=cases.length?`<div class="subsection-head"><div><h3>Case / Incident</h3><div class="muted">Prioritas Case berlaku untuk incident, bukan setiap artikel.</div></div></div><div class="case-grid">${cases.map((c,i)=>caseCard(c,i+1)).join("")}</div>`:`<div class="case-empty">Tidak ada Case yang memenuhi filter.</div>`;
-  bindCaseClicks(caseTarget);
-  const list=$("list");
-  list.innerHTML=items.length?items.slice().sort((a,b)=>new Date(getItemDate(b)||0)-new Date(getItemDate(a)||0)).map(articleCard).join(""):`<div class="empty">Tidak ada berita yang cocok dengan filter.</div>`;
-  bindArticleClicks(list);
+
+  const base = currentMonitoringBase();
+  const items = applyMonitoringFilters(base, monitoringMode);
+  const region = $("region")?.value || "all";
+  const polres = $("polres")?.value || "all";
+  const cases = getRelevantCases(items, monitoringMode, region, polres);
+  const { from, to } = currentDateBounds();
+
+  if ($("resultCount")) $("resultCount").textContent = `${number(items.length)} berita · ${number(cases.length)} case`;
+  if ($("resultContext")) $("resultContext").textContent = from && to ? `${from} s/d ${to}` : "Semua periode";
+  if ($("monitoringContextText")) $("monitoringContextText").textContent = activeArchive ? `Snapshot ${formatDate(activeArchive.date)}` : (from && to ? `Data terfilter ${formatDate(from)} — ${formatDate(to)}.` : "Semua data tersedia di database monitoring.");
+
+  const caseTarget = $("monitoringCases");
+  caseTarget.innerHTML = cases.length
+    ? `<div class="subsection-head"><div><h3>Case / Incident</h3><div class="muted">Prioritas Case berlaku pada incident, bukan setiap artikel.</div></div></div><div class="case-grid">${cases.map((c, i) => caseCard(c, i + 1)).join("")}</div>`
+    : `<div class="case-empty">Tidak ada Case yang memenuhi filter.</div>`;
+  bindCaseClicks(caseTarget, activeCases());
+
+  const list = $("list");
+  list.innerHTML = items.length ? items.map(articleCard).join("") : `<div class="empty">Tidak ada berita yang cocok dengan filter.</div>`;
+  bindArticleClicks(list, activeNews());
 }
 
-function syncModeButtons(){document.querySelectorAll(".mode-tab[data-mode]").forEach(b=>b.classList.toggle("active",b.dataset.mode===monitoringMode));}
-function setQuickDate(days){if(days==="all"){$("dateFrom").value="";$("dateTo").value="";}else if(days==="today"){setDefaultTodayRange();}else{const end=new Date(todayData?.date||new Date());const start=new Date(end);start.setDate(start.getDate()-(Number(days)-1));$("dateFrom").value=dateKey(start);$("dateTo").value=todayData?.date||dateKey(end);}populateMonitoringFilters();renderMonitoring();}
+function setDefaultTodayRange() {
+  if (!todayData?.date || !$('dateFrom') || !$('dateTo')) return;
+  $('dateFrom').value = todayData.date;
+  $('dateTo').value = todayData.date;
+  syncQuickDateButtons("today");
+}
 
-document.querySelectorAll("[data-mode]").forEach(b=>b.addEventListener("click",()=>{monitoringMode=b.dataset.mode;syncModeButtons();renderMonitoring();}));
-document.querySelectorAll("[data-quick-date]").forEach(b=>b.addEventListener("click",()=>setQuickDate(b.dataset.quickDate)));
-["search","region","polres","priority","scope","category","dateFrom","dateTo"].forEach(id=>{$(id)?.addEventListener("input",()=>{populateMonitoringFilters();renderMonitoring();});$(id)?.addEventListener("change",()=>{populateMonitoringFilters();renderMonitoring();});});
-$("clearFilters")?.addEventListener("click",()=>{["search"].forEach(id=>$(id).value="");$("region").value="all";$("polres").value="all";$("priority").value="all";$("scope").value="all";$("category").value="all";setDefaultTodayRange();monitoringMode="all";syncModeButtons();populateMonitoringFilters();renderMonitoring();});
+function setQuickDate(type) {
+  if (type === "all") {
+    $("dateFrom").value = "";
+    $("dateTo").value = "";
+  } else if (type === "today") {
+    setDefaultTodayRange();
+    return;
+  } else {
+    const end = parseDate(`${todayData?.date || dateKey(new Date())}T00:00:00+07:00`) || new Date();
+    const start = new Date(end);
+    start.setDate(start.getDate() - (Number(type) - 1));
+    $("dateFrom").value = dateKey(start);
+    $("dateTo").value = todayData?.date || dateKey(end);
+  }
+  syncQuickDateButtons(type);
+  populateMonitoringFilters();
+  renderMonitoring();
+}
 
-function openDrawer(){ $("detailDrawer").classList.add("open");$("detailDrawer").setAttribute("aria-hidden","false");$("drawerOverlay").classList.remove("hidden"); }
-function closeDrawer(){ $("detailDrawer").classList.remove("open");$("detailDrawer").setAttribute("aria-hidden","true");$("drawerOverlay").classList.add("hidden"); }
-$("drawerClose")?.addEventListener("click",closeDrawer);$("drawerOverlay")?.addEventListener("click",closeDrawer);document.addEventListener("keydown",e=>{if(e.key==="Escape")closeDrawer();});
+function syncQuickDateButtons(active) {
+  document.querySelectorAll("[data-quick-date]").forEach(button => button.classList.toggle("active", button.dataset.quickDate === active));
+}
 
-function openArticleDrawer(article){
-  if(!article)return;
-  const c=getCaseById(article.case_id), cHigh=c&&getPriority(c)==="high", url=normalizeUrl(article.url);
-  $("drawerEyebrow").textContent="DETAIL BERITA";
-  $("drawerContent").innerHTML=`<div class="drawer-title">${escapeHtml(getTitle(article))}</div><div class="drawer-meta">${escapeHtml(getSource(article))} · ${escapeHtml(formatDateTime(getItemDate(article)))}</div><div class="drawer-pills"><span class="pill ${escapeHtml(getPriority(article))}">ARTIKEL ${escapeHtml(getPriority(article).toUpperCase())}</span>${c?`<span class="pill ${cHigh?'high':''}">CASE ${escapeHtml(cHigh?'HIGH':'TERKAIT')}</span>`:`<span class="pill">BELUM TERKAIT CASE</span>`}</div><div class="detail-grid"><div><span>Wilayah</span><strong>${escapeHtml(getLocality(article)||article.region||"Indonesia")}</strong></div><div><span>Polres</span><strong>${escapeHtml(article.polres||"-")}</strong></div><div><span>Scope</span><strong>${escapeHtml(getScope(article))}</strong></div><div><span>Kategori</span><strong>${escapeHtml(getCategory(article))}</strong></div><div><span>Publikasi</span><strong>${escapeHtml(formatDateTime(article.published_at||article.collected_at))}</strong></div><div><span>Ditemukan</span><strong>${escapeHtml(formatDateTime(article.collected_at))}</strong></div></div><div class="drawer-actions">${url?`<a class="primary-link" href="${escapeHtml(url)}" target="_blank" rel="noopener noreferrer">Buka Berita Asli ↗</a>`:""}${c?`<button class="secondary" id="drawerCaseButton">Lihat Case & Semua Sumber</button>`:""}</div>`;
+function syncModeButtons() {
+  document.querySelectorAll(".mode-tab[data-mode]").forEach(b => b.classList.toggle("active", b.dataset.mode === monitoringMode));
+}
+
+function bindArticleClicks(root, dataset = activeNews()) {
+  root?.querySelectorAll("[data-article-id]").forEach(el => el.addEventListener("click", () => {
+    const article = getArticleById(el.dataset.articleId, dataset);
+    if (article) openArticleDrawer(article, dataset);
+  }));
+}
+
+function bindCaseClicks(root, dataset = activeCases()) {
+  root?.querySelectorAll("[data-case-id]").forEach(el => el.addEventListener("click", () => {
+    const c = getCaseById(el.dataset.caseId, dataset);
+    if (c) openCaseDrawer(c, dataset);
+  }));
+}
+
+function openDrawer() {
+  $("detailDrawer")?.classList.add("open");
+  $("detailDrawer")?.setAttribute("aria-hidden", "false");
+  $("drawerOverlay")?.classList.remove("hidden");
+}
+
+function closeDrawer() {
+  $("detailDrawer")?.classList.remove("open");
+  $("detailDrawer")?.setAttribute("aria-hidden", "true");
+  $("drawerOverlay")?.classList.add("hidden");
+}
+
+function openArticleDrawer(article, dataset = activeNews()) {
+  const c = getCaseById(article.case_id, activeCases());
+  const url = normalizeUrl(article.url);
+  const caseHigh = c && getPriority(c) === "high";
+  $("drawerEyebrow").textContent = "DETAIL BERITA";
+  $("drawerContent").innerHTML = `
+    <div class="drawer-title">${escapeHtml(getTitle(article))}</div>
+    <div class="drawer-meta">${escapeHtml(getSource(article))} · ${escapeHtml(formatDateTime(getItemDate(article)))}</div>
+    <div class="drawer-pills">
+      <span class="pill ${escapeHtml(getPriority(article))}">ARTIKEL ${escapeHtml(getPriority(article).toUpperCase())}</span>
+      ${c ? `<span class="pill ${caseHigh ? "high" : ""}">CASE ${caseHigh ? "HIGH" : "TERKAIT"}</span>` : `<span class="pill">BELUM TERKAIT CASE</span>`}
+    </div>
+    <div class="detail-grid">
+      <div><span>Wilayah</span><strong>${escapeHtml(getLocality(article) || article.region || "Indonesia")}</strong></div>
+      <div><span>Polres</span><strong>${escapeHtml(article.polres || "-")}</strong></div>
+      <div><span>Scope</span><strong>${escapeHtml(getScope(article))}</strong></div>
+      <div><span>Kategori</span><strong>${escapeHtml(getCategory(article))}</strong></div>
+      <div><span>Publikasi</span><strong>${escapeHtml(formatDateTime(article.published_at || article.collected_at))}</strong></div>
+      <div><span>Ditemukan</span><strong>${escapeHtml(formatDateTime(article.collected_at))}</strong></div>
+    </div>
+    <div class="drawer-actions">
+      ${url ? `<a class="primary-link" href="${escapeHtml(url)}" target="_blank" rel="noopener noreferrer">Buka Berita Asli ↗</a>` : ""}
+      ${c ? `<button class="secondary" id="drawerCaseButton">Lihat Case & Semua Sumber</button>` : ""}
+    </div>`;
   openDrawer();
-  $("drawerCaseButton")?.addEventListener("click",()=>openCaseDrawer(c));
+  $("drawerCaseButton")?.addEventListener("click", () => openCaseDrawer(c, activeNews()));
 }
 
-function caseArticles(c, items){const ids=getCaseArticleIds(c); return items.filter(x=>ids.has(x.id));}
-function openCaseDrawer(c){
-  if(!c)return;
-  const items=caseArticles(c, activeNews()), p=getPriority(c), score=c.priority_score!=null?`${number(c.priority_score)}/100`:"-";
-  const reasons=Array.isArray(c.priority_reasons)?c.priority_reasons:[];
-  $("drawerEyebrow").textContent="CASE / INCIDENT";
-  $("drawerContent").innerHTML=`<div class="drawer-title">${escapeHtml(c.title||"Case")}</div><div class="drawer-meta">${escapeHtml(getLocality(c)||c.region||"Indonesia")} · ${number(c.article_count||items.length)} sumber</div><div class="case-detail-head"><span class="pill ${escapeHtml(p)}">${escapeHtml(p.toUpperCase())}</span><strong>${escapeHtml(score)}</strong></div>${reasons.length?`<div class="priority-reasons"><h4>Alasan prioritas</h4><ul>${reasons.map(r=>`<li>${escapeHtml(r)}</li>`).join("")}</ul></div>`:""}<div class="source-list"><h4>Seluruh sumber terkait</h4>${items.length?items.map((a,i)=>{const u=normalizeUrl(a.url);return `<div class="source-row"><div><b>${number(i+1)}. ${escapeHtml(getSource(a))}</b><div>${escapeHtml(getTitle(a))}</div><small>${escapeHtml(formatDateTime(getItemDate(a)))}</small></div>${u?`<a href="${escapeHtml(u)}" target="_blank" rel="noopener noreferrer">Buka ↗</a>`:""}</div>`}).join(""):`<div class="empty">Sumber detail tidak tersedia pada dataset aktif.</div>`}</div>`;
+function openCaseDrawer(c, dataset = activeNews()) {
+  if (!c) return;
+  const items = caseArticles(c, dataset);
+  const p = getPriority(c);
+  const score = c.priority_score != null ? `${number(c.priority_score)}/100` : "-";
+  const reasons = Array.isArray(c.priority_reasons) ? c.priority_reasons : [];
+  $("drawerEyebrow").textContent = "CASE / INCIDENT";
+  $("drawerContent").innerHTML = `
+    <div class="drawer-title">${escapeHtml(c.title || "Case")}</div>
+    <div class="drawer-meta">${escapeHtml(getLocality(c) || c.region || "Indonesia")} · ${number(c.article_count || items.length)} sumber</div>
+    <div class="case-detail-head"><span class="pill ${escapeHtml(p)}">${escapeHtml(p.toUpperCase())}</span><strong>${escapeHtml(score)}</strong></div>
+    ${reasons.length ? `<div class="priority-reasons"><h4>Alasan prioritas</h4><ul>${reasons.map(r => `<li>${escapeHtml(r)}</li>`).join("")}</ul></div>` : ""}
+    <div class="source-list"><h4>Seluruh sumber terkait</h4>
+      ${items.length ? items.map((a, i) => {
+        const u = normalizeUrl(a.url);
+        return `<div class="source-row"><div><b>${number(i + 1)}. ${escapeHtml(getSource(a))}</b><div>${escapeHtml(getTitle(a))}</div><small>${escapeHtml(formatDateTime(getItemDate(a)))}</small></div>${u ? `<a href="${escapeHtml(u)}" target="_blank" rel="noopener noreferrer">Buka ↗</a>` : ""}</div>`;
+      }).join("") : `<div class="empty">Sumber detail tidak tersedia pada dataset aktif.</div>`}
+    </div>`;
   openDrawer();
 }
 
-function initMap(){if(map||!window.L||!$("jatimMap"))return;map=L.map("jatimMap",{zoomControl:true,tap:true}).setView([-7.75,112.45],8);L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",{maxZoom:18,attribution:"&copy; OpenStreetMap contributors"}).addTo(map);}
-function renderMap(items){if(!map)return;mapMarkers.forEach(m=>m.remove());mapMarkers=[];const groups=new Map();items.filter(isJatim).forEach(item=>{const r=getLocality(item);if(!r||!JATIM_COORDS[r])return;if(!groups.has(r))groups.set(r,{name:r,items:[],cases:new Set(),high:0,medium:0});const g=groups.get(r);g.items.push(item);if(item.case_id)g.cases.add(item.case_id);});const cMap=new Map(globalCases().map(c=>[c.case_id,c]));groups.forEach(g=>g.cases.forEach(id=>{const c=cMap.get(id);if(c?.priority==='high')g.high++;else if(c?.priority==='medium')g.medium++;}));$("mapCount").textContent=`${number(groups.size)} lokasi`;const bounds=[];groups.forEach(g=>{const coords=JATIM_COORDS[g.name];bounds.push(coords);const level=g.high?'high':g.medium?'medium':'low';const size=Math.min(42,22+Math.floor(g.items.length/2)*2);const icon=L.divIcon({className:"",html:`<div class="pnm-marker ${level}" style="width:${size}px;height:${size}px">${number(g.items.length)}</div>`,iconSize:[size,size],iconAnchor:[size/2,size/2]});const m=L.marker(coords,{icon}).addTo(map);const cases=[...g.cases].map(id=>cMap.get(id)).filter(Boolean).sort((a,b)=>priorityRank(b.priority)-priorityRank(a.priority));const top=g.items.slice().sort((a,b)=>new Date(getItemDate(b)||0)-new Date(getItemDate(a)||0)).slice(0,4);m.bindPopup(`<div class="map-popup"><strong>${escapeHtml(g.name)}</strong><div>${number(g.items.length)} berita · ${number(g.cases.size)} case</div>${g.high?`<div class="map-popup-high">High case: ${number(g.high)}</div>`:""}<div class="map-popup-list">${cases.slice(0,3).map(c=>`<div>• ${escapeHtml(c.title)}</div>`).join("")||top.map(a=>`<div>• ${escapeHtml(getTitle(a))}</div>`).join("")}</div><button class="map-open-region" data-region="${escapeHtml(g.name)}">Buka monitoring wilayah →</button></div>`);m.on("popupopen",()=>{document.querySelectorAll(".map-open-region").forEach(b=>b.onclick=()=>{showView("monitoring");monitoringMode="jatim";syncModeButtons();$("region").value=g.name;renderMonitoring();});});mapMarkers.push(m);});if(bounds.length)map.fitBounds(bounds,{padding:[25,25],maxZoom:9});setTimeout(()=>map.invalidateSize(),80);}
+function initMap() {
+  if (map || !window.L || !$("jatimMap")) return;
+  map = L.map("jatimMap", { zoomControl: true, tap: true }).setView([-7.75, 112.45], 8);
+  L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", { maxZoom: 18, attribution: "&copy; OpenStreetMap contributors" }).addTo(map);
+}
 
-async function loadArchive(date){try{activeArchive=await fetchJson(`data/archive/${encodeURIComponent(date)}.json`);openArchiveDetail();}catch(e){console.error(e);alert("Snapshot arsip tidak dapat dibuka.");}}
-function renderArchiveList(){const t=$("archiveList");if(!t)return;if(!archiveFiles.length){t.innerHTML=`<div class="empty">Belum ada arsip.</div>`;return;}t.innerHTML=archiveFiles.map(d=>`<button class="archive-item" data-archive-date="${escapeHtml(d)}"><span><strong>${escapeHtml(formatDate(d))}</strong><small>Snapshot monitoring</small></span><b>→</b></button>`).join("");t.querySelectorAll("[data-archive-date]").forEach(b=>b.addEventListener("click",()=>loadArchive(b.dataset.archiveDate)));}
+function renderMap(items) {
+  if (!map) return;
+  mapMarkers.forEach(m => m.remove());
+  mapMarkers = [];
+  const groups = new Map();
+  items.filter(isJatim).forEach(item => {
+    const r = getLocality(item);
+    if (!r || !JATIM_COORDS[r]) return;
+    if (!groups.has(r)) groups.set(r, { name: r, items: [], cases: new Set() });
+    const g = groups.get(r);
+    g.items.push(item);
+    if (item.case_id) g.cases.add(item.case_id);
+  });
+  const cMap = new Map(globalCases().map(c => [c.case_id, c]));
+  let bounds = [];
+  groups.forEach(g => {
+    const coords = JATIM_COORDS[g.name];
+    bounds.push(coords);
+    let high = 0, medium = 0;
+    [...g.cases].forEach(id => {
+      const c = cMap.get(id);
+      if (c?.priority === "high") high++;
+      else if (c?.priority === "medium") medium++;
+    });
+    const level = high ? "high" : medium ? "medium" : "low";
+    const size = Math.min(42, 22 + Math.floor(g.items.length / 2) * 2);
+    const icon = L.divIcon({ className: "", html: `<div class="pnm-marker ${level}" style="width:${size}px;height:${size}px">${number(g.items.length)}</div>`, iconSize: [size, size], iconAnchor: [size / 2, size / 2] });
+    const marker = L.marker(coords, { icon }).addTo(map);
+    const relatedCases = [...g.cases].map(id => cMap.get(id)).filter(Boolean).sort((a, b) => priorityRank(b.priority) - priorityRank(a.priority));
+    const top = g.items.slice().sort((a, b) => new Date(getItemDate(b) || 0) - new Date(getItemDate(a) || 0)).slice(0, 4);
+    marker.bindPopup(`<div class="map-popup"><strong>${escapeHtml(g.name)}</strong><div>${number(g.items.length)} berita · ${number(g.cases.size)} case</div>${high ? `<div class="map-popup-high">High case: ${number(high)}</div>` : ""}<div class="map-popup-list">${relatedCases.slice(0, 3).map(c => `<div>• ${escapeHtml(c.title)}</div>`).join("") || top.map(a => `<div>• ${escapeHtml(getTitle(a))}</div>`).join("")}</div><button class="map-open-region" data-region="${escapeHtml(g.name)}">Buka monitoring wilayah →</button></div>`);
+    marker.on("popupopen", () => marker.getPopup().getElement()?.querySelector(".map-open-region")?.addEventListener("click", () => {
+      activeArchive = null;
+      setDefaultTodayRange();
+      $("region").value = g.name;
+      $("polres").value = "all";
+      monitoringMode = "jatim";
+      syncModeButtons();
+      showView("monitoring");
+    }));
+    mapMarkers.push(marker);
+  });
+  $("mapCount").textContent = `${number(groups.size)} lokasi`;
+  if (bounds.length) map.fitBounds(bounds, { padding: [25, 25], maxZoom: 9 });
+  else map.setView([-7.75, 112.45], 8);
+  setTimeout(() => map.invalidateSize(), 100);
+}
 
-function populateArchiveFilters(){const items=activeArchive?.news?.items||[];const current={r:$("archiveRegion").value,p:$("archivePolres").value,c:$("archiveCategory").value};populateSelect($("archiveRegion"),"Semua Wilayah",unique(items.filter(isJatim).map(getLocality).sort()),current.r);populateSelect($("archivePolres"),"Semua Polres Terdeteksi",unique(items.map(x=>x.polres).filter(Boolean).sort()),current.p);populateSelect($("archiveCategory"),"Semua Kategori",unique(items.map(getCategory).sort()),current.c);}
-function getArchiveHighIds(){return getCasePriorityIds(activeArchive?.cases?.items||[]);}
-function renderArchiveNews(){if(!activeArchive)return;const items=activeArchive.news?.items||[], cases=activeArchive.cases?.items||[];let results=items.filter(i=>{if(archiveMode==="jatim")return isJatim(i);if(archiveMode==="high")return !!i.case_id&&getArchiveHighIds().has(i.case_id);return true;});const s=$("archiveSearch").value.trim().toLowerCase(),r=$("archiveRegion").value,p=$("archivePolres").value,pr=$("archivePriority").value,sc=$("archiveScope").value,cat=$("archiveCategory").value;if(s)results=results.filter(x=>[getTitle(x),getSource(x),x.region,x.polres,getLocality(x),getCategory(x),getScope(x)].filter(Boolean).join(" ").toLowerCase().includes(s));if(r!=="all")results=results.filter(x=>getLocality(x)===r);if(p!=="all")results=results.filter(x=>String(x.polres||"")===p);if(pr!=="all")results=results.filter(x=>getPriority(x)===pr);if(sc!=="all")results=results.filter(x=>getScope(x)===sc);if(cat!=="all")results=results.filter(x=>getCategory(x)===cat);const date=activeArchive.date;$("archiveResultCount").textContent=`${number(results.length)} hasil`;$("archiveResultContext").textContent=`Snapshot ${formatDate(date)}`;const highCases=cases.filter(c=>getPriority(c)==="high");$("archiveCases").textContent=number(cases.length);$("archiveNews").textContent=number(items.length);$("archiveJatim").textContent=number(items.filter(isJatim).length);$("archiveHigh").textContent=number(highCases.length);const target=$("archiveNewsList");target.innerHTML=results.length?results.map(articleCard).join(""):`<div class="empty">Tidak ada berita yang cocok.</div>`;bindArticleClicks(target);const ct=$("archiveCases");const rel=cases.filter(c=>results.some(i=>i.case_id===c.case_id)).sort((a,b)=>priorityRank(b.priority)-priorityRank(a.priority)||new Date(b.last_seen||0)-new Date(a.last_seen||0));ct.innerHTML=rel.length?`<div class="subsection-head"><div><h3>Case / Incident</h3><div class="muted">Case pada snapshot ini.</div></div></div><div class="case-grid">${rel.map((c,i)=>caseCard(c,i+1)).join("")}</div>`:"";bindCaseClicks(ct);}
-function openArchiveDetail(){if(!activeArchive)return;$("archiveListPanel").classList.add("hidden");$("archiveDetail").classList.remove("hidden");$("archiveTitle").textContent=formatDate(activeArchive.date);$("archiveUpdated").textContent="Update: "+formatDateTime(activeArchive.last_successful_update||activeArchive.updated_at);archiveMode="all";document.querySelectorAll("[data-archive-mode]").forEach(b=>b.classList.toggle("active",b.dataset.archiveMode==="all"));populateArchiveFilters();renderArchiveNews();}
-function closeArchiveDetail(){activeArchive=null;$("archiveDetail")?.classList.add("hidden");$("archiveListPanel")?.classList.remove("hidden");}
-$("archiveBack")?.addEventListener("click",()=>{closeArchiveDetail();showView("archive");});
-document.querySelectorAll("[data-archive-mode]").forEach(b=>b.addEventListener("click",()=>{archiveMode=b.dataset.archiveMode;document.querySelectorAll("[data-archive-mode]").forEach(x=>x.classList.toggle("active",x.dataset.archiveMode===archiveMode));renderArchiveNews();}));
-["archiveSearch","archiveRegion","archivePolres","archivePriority","archiveScope","archiveCategory"].forEach(id=>{$(id)?.addEventListener("input",renderArchiveNews);$(id)?.addEventListener("change",renderArchiveNews);});
-$("archiveClear")?.addEventListener("click",()=>{$("archiveSearch").value="";$("archiveRegion").value="all";$("archivePolres").value="all";$("archivePriority").value="all";$("archiveScope").value="all";$("archiveCategory").value="all";renderArchiveNews();});
-$("refresh")?.addEventListener("click",()=>loadAllData());
-window.addEventListener("resize",()=>setTimeout(()=>map?.invalidateSize(),80));
+async function loadArchive(date) {
+  try {
+    const data = await fetchJson(`data/archive/${encodeURIComponent(date)}.json`);
+    activeArchive = data;
+    showView("archive");
+    openArchiveDetail();
+  } catch (e) {
+    console.error(e);
+    alert(`Snapshot arsip ${date} tidak dapat dibuka.`);
+  }
+}
 
-showView("dashboard");
-loadAllData();
+function renderArchiveList() {
+  const target = $("archiveList");
+  if (!target) return;
+  if (!archiveFiles.length) {
+    target.innerHTML = `<div class="empty">Belum ada arsip.</div>`;
+    return;
+  }
+  target.innerHTML = archiveFiles.map(date => `<button class="archive-item" data-archive-date="${escapeHtml(date)}"><span><strong>${escapeHtml(formatDate(date))}</strong><small>Snapshot monitoring</small></span><b>→</b></button>`).join("");
+  target.querySelectorAll("[data-archive-date]").forEach(btn => btn.addEventListener("click", () => loadArchive(btn.dataset.archiveDate)));
+}
+
+function closeArchiveDetail(clear = true) {
+  if (clear) activeArchive = null;
+  $("archiveDetail")?.classList.add("hidden");
+  if ($("archiveDetail")) $("archiveDetail").hidden = true;
+  $("archiveListPanel")?.classList.remove("hidden");
+  if ($("archiveListPanel")) $("archiveListPanel").hidden = false;
+}
+
+function openArchiveDetail() {
+  if (!activeArchive) return;
+  $("archiveListPanel")?.classList.add("hidden");
+  if ($("archiveListPanel")) $("archiveListPanel").hidden = true;
+  $("archiveDetail")?.classList.remove("hidden");
+  if ($("archiveDetail")) $("archiveDetail").hidden = false;
+  $("archiveTitle").textContent = formatDate(activeArchive.date);
+  $("archiveUpdated").textContent = `Update: ${formatDateTime(activeArchive.last_successful_update || activeArchive.updated_at)}`;
+  archiveMode = "all";
+  document.querySelectorAll("[data-archive-mode]").forEach(b => b.classList.toggle("active", b.dataset.archiveMode === "all"));
+  populateArchiveFilters();
+  renderArchiveNews();
+}
+
+function populateArchiveFilters() {
+  const items = activeArchive?.news?.items || [];
+  const region = $("archiveRegion"), polres = $("archivePolres"), category = $("archiveCategory");
+  const current = { r: region?.value || "all", p: polres?.value || "all", c: category?.value || "all" };
+  populateSelect(region, "Semua Wilayah", unique(items.filter(isJatim).map(getLocality).sort()), current.r);
+  const currentRegion = region?.value || "all";
+  const filtered = currentRegion === "all" ? items : items.filter(x => getLocality(x) === currentRegion);
+  populateSelect(polres, "Semua Polres Terdeteksi", unique(filtered.map(x => x.polres).filter(Boolean).sort()), current.p);
+  populateSelect(category, "Semua Kategori", unique(items.map(getCategory).sort()), current.c);
+}
+
+function renderArchiveNews() {
+  if (!activeArchive) return;
+  const items = activeArchive.news?.items || [];
+  const cases = activeArchive.cases?.items || [];
+  const highIds = getCasePriorityIds(cases);
+  let results = [...items];
+
+  if (archiveMode === "jatim") results = results.filter(isJatim);
+  if (archiveMode === "high") results = results.filter(x => (x.case_id && highIds.has(x.case_id)) || (!x.case_id && getPriority(x) === "high"));
+
+  const search = ($( "archiveSearch")?.value || "").trim().toLowerCase();
+  const region = $("archiveRegion")?.value || "all";
+  const polres = $("archivePolres")?.value || "all";
+  const priority = $("archivePriority")?.value || "all";
+  const scope = $("archiveScope")?.value || "all";
+  const category = $("archiveCategory")?.value || "all";
+
+  if (search) results = results.filter(x => [getTitle(x), getSource(x), x.region, x.polres, getLocality(x), getCategory(x), getScope(x)].filter(Boolean).join(" ").toLowerCase().includes(search));
+  if (region !== "all") results = results.filter(x => getLocality(x) === region);
+  if (polres !== "all") results = results.filter(x => String(x.polres || "") === polres);
+  if (priority !== "all") results = results.filter(x => getPriority(x) === priority);
+  if (scope !== "all") results = results.filter(x => getScope(x) === scope);
+  if (category !== "all") results = results.filter(x => getCategory(x) === category);
+
+  if ($("archiveResultCount")) $("archiveResultCount").textContent = `${number(results.length)} hasil`;
+  if ($("archiveResultContext")) $("archiveResultContext").textContent = `Snapshot ${formatDate(activeArchive.date)}`;
+  if ($("archiveNews")) $("archiveNews").textContent = number(items.length);
+  if ($("archiveCases")) $("archiveCases").textContent = number(cases.length);
+  if ($("archiveJatim")) $("archiveJatim").textContent = number(items.filter(isJatim).length);
+  if ($("archiveHigh")) $("archiveHigh").textContent = number(cases.filter(c => getPriority(c) === "high").length);
+
+  const relevantCases = cases.filter(c => results.some(i => i.case_id === c.case_id)).sort((a, b) => priorityRank(b.priority) - priorityRank(a.priority) || new Date(b.last_detected_at || b.last_seen || 0) - new Date(a.last_detected_at || a.last_seen || 0));
+  const caseTarget = $("archiveCasesList");
+  if (caseTarget) {
+    caseTarget.innerHTML = relevantCases.length ? `<div class="subsection-head"><div><h3>Case / Incident</h3><div class="muted">Case yang terkait dengan filter snapshot.</div></div></div><div class="case-grid">${relevantCases.map((c, i) => caseCard(c, i + 1)).join("")}</div>` : `<div class="case-empty">Tidak ada Case pada filter ini.</div>`;
+    bindCaseClicks(caseTarget, cases);
+  }
+
+  const target = $("archiveNewsList");
+  target.innerHTML = results.length ? results.map(articleCard).join("") : `<div class="empty">Tidak ada berita yang cocok.</div>`;
+  bindArticleClicks(target, items);
+}
+
+function resetMonitoringFilters() {
+  $("search").value = "";
+  $("region").value = "all";
+  $("polres").value = "all";
+  $("priority").value = "all";
+  $("scope").value = "all";
+  $("category").value = "all";
+  monitoringMode = "all";
+  syncModeButtons();
+  setDefaultTodayRange();
+  populateMonitoringFilters();
+  renderMonitoring();
+}
+
+function initEvents() {
+  $("drawerClose")?.addEventListener("click", closeDrawer);
+  $("drawerOverlay")?.addEventListener("click", closeDrawer);
+  document.addEventListener("keydown", e => { if (e.key === "Escape") { closeDrawer(); } });
+
+  document.querySelectorAll("[data-view]").forEach(button => button.addEventListener("click", () => {
+    const view = button.dataset.view;
+    if (view !== "archive") {
+      activeArchive = null;
+      closeArchiveDetail();
+    }
+    showView(view);
+  }));
+
+  document.querySelectorAll("[data-open-monitoring]").forEach(button => button.addEventListener("click", () => {
+    activeArchive = null;
+    closeArchiveDetail();
+    monitoringMode = button.dataset.openMonitoring === "jatim" ? "jatim" : button.dataset.openMonitoring === "high" ? "high" : "all";
+    showView("monitoring");
+    if (button.dataset.openMonitoring === "jatim") setDefaultTodayRange();
+  }));
+
+  document.querySelectorAll(".mode-tab[data-mode]").forEach(button => button.addEventListener("click", () => {
+    monitoringMode = button.dataset.mode;
+    syncModeButtons();
+    renderMonitoring();
+  }));
+
+  document.querySelectorAll("[data-quick-date]").forEach(button => button.addEventListener("click", () => setQuickDate(button.dataset.quickDate)));
+
+  ["search", "region", "polres", "priority", "scope", "category", "dateFrom", "dateTo"].forEach(id => {
+    $(id)?.addEventListener("input", () => { populateMonitoringFilters(); renderMonitoring(); });
+    $(id)?.addEventListener("change", () => { populateMonitoringFilters(); renderMonitoring(); });
+  });
+
+  $("clearFilters")?.addEventListener("click", resetMonitoringFilters);
+
+  $("archiveBack")?.addEventListener("click", () => {
+    closeArchiveDetail();
+    showView("archive");
+  });
+
+  document.querySelectorAll("[data-archive-mode]").forEach(button => button.addEventListener("click", () => {
+    archiveMode = button.dataset.archiveMode;
+    document.querySelectorAll("[data-archive-mode]").forEach(x => x.classList.toggle("active", x.dataset.archiveMode === archiveMode));
+    renderArchiveNews();
+  }));
+
+  ["archiveSearch", "archiveRegion", "archivePolres", "archivePriority", "archiveScope", "archiveCategory"].forEach(id => {
+    $(id)?.addEventListener("input", () => { if (id === "archiveRegion") populateArchiveFilters(); renderArchiveNews(); });
+    $(id)?.addEventListener("change", () => { if (id === "archiveRegion") populateArchiveFilters(); renderArchiveNews(); });
+  });
+
+  $("archiveClear")?.addEventListener("click", () => {
+    $("archiveSearch").value = "";
+    $("archiveRegion").value = "all";
+    $("archivePolres").value = "all";
+    $("archivePriority").value = "all";
+    $("archiveScope").value = "all";
+    $("archiveCategory").value = "all";
+    populateArchiveFilters();
+    renderArchiveNews();
+  });
+
+  $("refresh")?.addEventListener("click", async () => {
+    closeDrawer();
+    const keepView = currentView;
+    const keepArchive = activeArchive?.date || null;
+    activeArchive = null;
+    await loadAllData();
+    if (keepArchive) await loadArchive(keepArchive);
+    else showView(keepView);
+  });
+}
+
+function init() {
+  if (initialized) return;
+  initialized = true;
+  initEvents();
+  showView("dashboard");
+  loadAllData();
+}
+
+init();

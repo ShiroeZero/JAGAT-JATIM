@@ -7,7 +7,7 @@
   <meta name="description" content="PNM — Polri Negative News Monitor">
   <title>PNM — Polri Negative News Monitor</title>
   <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" crossorigin="">
-  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="styles.css?v=5.4">
 </head>
 <body>
   <div id="app" class="app">
@@ -134,23 +134,33 @@
         </div>
 
         <section class="panel filters-panel">
-          <div class="filters">
+          <div class="filter-main">
             <input id="search" placeholder="Cari judul, sumber, wilayah, kategori, Polres...">
             <select id="region"><option value="all">Semua Wilayah</option></select>
             <select id="polres"><option value="all">Semua Polres Terdeteksi</option></select>
             <select id="priority"><option value="all">Semua Prioritas Artikel</option><option value="high">Tinggi</option><option value="medium">Sedang</option><option value="low">Rendah</option></select>
             <select id="scope"><option value="all">Semua Jenis</option><option value="negative">Negatif</option><option value="case">Ungkap Kasus</option><option value="positive">Positif</option><option value="neutral">Netral</option></select>
             <select id="category"><option value="all">Semua Kategori</option></select>
-            <div class="date-filter"><label for="dateFrom">Dari tanggal</label><input id="dateFrom" type="date"></div>
-            <div class="date-filter"><label for="dateTo">Sampai tanggal</label><input id="dateTo" type="date"></div>
-            <button id="clearFilters" class="secondary">Reset</button>
           </div>
-          <div class="quick-dates">
-            <button class="quick-date" data-quick-date="today">Hari ini</button>
-            <button class="quick-date" data-quick-date="7">7 hari</button>
-            <button class="quick-date" data-quick-date="30">30 hari</button>
-            <button class="quick-date" data-quick-date="all">Semua</button>
+
+          <div class="filter-date-row">
+            <div class="date-filter">
+              <label for="dateFrom">Dari tanggal</label>
+              <input id="dateFrom" type="date">
+            </div>
+            <div class="date-filter">
+              <label for="dateTo">Sampai tanggal</label>
+              <input id="dateTo" type="date">
+            </div>
+            <div class="quick-dates" aria-label="Periode cepat">
+              <button class="quick-date" data-quick-date="today" type="button">Hari ini</button>
+              <button class="quick-date" data-quick-date="7" type="button">7 hari</button>
+              <button class="quick-date" data-quick-date="30" type="button">30 hari</button>
+              <button class="quick-date" data-quick-date="all" type="button">Semua</button>
+            </div>
+            <button id="clearFilters" class="secondary filter-reset" type="button">Reset</button>
           </div>
+
           <div class="result-summary"><span id="resultCount">0 hasil</span><span id="resultContext">Hari ini</span></div>
         </section>
 
@@ -205,7 +215,7 @@
             <div class="result-summary"><span id="archiveResultCount">0 hasil</span><span id="archiveResultContext">Snapshot</span></div>
           </section>
 
-          <div id="archiveCases" class="case-results"></div>
+          <div id="archiveCasesList" class="case-results"></div>
           <section class="panel"><div class="subsection-head"><div><h3>Berita Individual</h3><div class="muted">Semua artikel pada snapshot tetap dapat dibuka.</div></div></div><div id="archiveNewsList" class="news-list"></div></section>
         </section>
       </section>
@@ -226,6 +236,6 @@
   </aside>
 
   <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" crossorigin=""></script>
-  <script src="app.js"></script>
+  <script src="app.js?v=5.4"></script>
 </body>
 </html>
