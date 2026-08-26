@@ -21,8 +21,16 @@ jobs:
 
     steps:
 
+      # ==========================================
+      # CHECKOUT
+      # ==========================================
+
       - name: Checkout repository
         uses: actions/checkout@v4
+
+      # ==========================================
+      # PYTHON
+      # ==========================================
 
       - name: Setup Python
         uses: actions/setup-python@v5
@@ -38,7 +46,7 @@ jobs:
           python -u scripts/fetch_news.py
 
       # ==========================================
-      # 2. BUILD CASES
+      # 2. BUILD CASE CLUSTERS
       # ==========================================
 
       - name: Build case clusters
@@ -46,7 +54,7 @@ jobs:
           python -u scripts/process_cases.py
 
       # ==========================================
-      # 3. YOUTUBE SOCIAL MONITOR
+      # 3. COLLECT YOUTUBE
       # ==========================================
 
       - name: Collect YouTube
@@ -56,7 +64,45 @@ jobs:
           python -u scripts/fetch_social.py
 
       # ==========================================
-      # 4. SAVE DATA
+      # 4. CHECK GENERATED DATA
+      # ==========================================
+
+      - name: Check monitoring data
+        run: |
+
+          echo "========================================"
+          echo "CHECK MONITORING DATA"
+          echo "========================================"
+
+          echo ""
+          echo "news.json:"
+          if [ -f data/news.json ]; then
+            ls -lh data/news.json
+          else
+            echo "WARNING: data/news.json tidak ditemukan"
+          fi
+
+          echo ""
+          echo "cases.json:"
+          if [ -f data/cases.json ]; then
+            ls -lh data/cases.json
+          else
+            echo "WARNING: data/cases.json tidak ditemukan"
+          fi
+
+          echo ""
+          echo "social.json:"
+          if [ -f data/social.json ]; then
+            ls -lh data/social.json
+          else
+            echo "WARNING: data/social.json tidak ditemukan"
+          fi
+
+          echo ""
+          echo "========================================"
+
+      # ==========================================
+      # 5. SAVE DATA
       # ==========================================
 
       - name: Save monitoring data
