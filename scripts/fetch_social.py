@@ -9,508 +9,618 @@ from urllib.error import HTTPError, URLError
 
 
 OUT = "data/social.json"
-
 API_URL = "https://www.googleapis.com/youtube/v3/search"
-
 API_KEY = os.environ.get("YOUTUBE_API_KEY", "").strip()
 
 
 # ============================================================
-# 39 SATKER / POLRES JAWA TIMUR
+# 39 POLRES / SATWIL JAWA TIMUR
 # ============================================================
 
 POLRES_MAP = {
-    "POLRES PELABUHAN TANJUNG PERAK": [
-        "pelabuhan tanjung perak",
-        "tanjung perak",
-        "polres tanjung perak",
-    ],
-
-    "POLRES JEMBER": [
-        "jember",
-        "polres jember",
-    ],
-
-    "POLRES KEDIRI": [
-        "polres kediri",
-        "kabupaten kediri",
-    ],
-
-    "POLRES BLITAR KOTA": [
-        "blitar kota",
-        "polres blitar kota",
-    ],
-
-    "POLRESTABES SURABAYA": [
-        "surabaya",
-        "polrestabes surabaya",
-    ],
-
-    "POLRESTA MALANG KOTA": [
-        "malang kota",
-        "polresta malang kota",
-    ],
-
-    "POLRESTA SIDOARJO": [
-        "sidoarjo",
-        "polresta sidoarjo",
-    ],
-
-    "POLRESTA BANYUWANGI": [
-        "banyuwangi",
-        "polresta banyuwangi",
-    ],
-
-    "POLRESTA TUBAN": [
-        "tuban",
-        "polresta tuban",
-    ],
-
-    "POLRESTA SUMENEP": [
-        "sumenep",
-        "polresta sumenep",
-    ],
-
-    "POLRES GRESIK": [
-        "gresik",
-        "polres gresik",
-    ],
-
-    "POLRES MALANG": [
-        "kabupaten malang",
-        "polres malang",
-    ],
-
-    "POLRES PASURUAN": [
-        "kabupaten pasuruan",
-        "polres pasuruan",
-    ],
-
-    "POLRES PASURUAN KOTA": [
-        "pasuruan kota",
-        "polres pasuruan kota",
-    ],
-
-    "POLRES PROBOLINGGO": [
-        "kabupaten probolinggo",
-        "polres probolinggo",
-    ],
-
-    "POLRES PROBOLINGGO KOTA": [
-        "probolinggo kota",
-        "polres probolinggo kota",
-    ],
-
-    "POLRES LUMAJANG": [
-        "lumajang",
-        "polres lumajang",
-    ],
-
-    "POLRES BATU": [
-        "kota batu",
-        "batu malang",
-        "polres batu",
-    ],
-
-    "POLRES BONDOWOSO": [
-        "bondowoso",
-        "polres bondowoso",
-    ],
-
-    "POLRES SITUBONDO": [
-        "situbondo",
-        "polres situbondo",
-    ],
-
-    "POLRES KEDIRI KOTA": [
-        "kediri kota",
-        "polres kediri kota",
-    ],
-
-    "POLRES TULUNGAGUNG": [
-        "tulungagung",
-        "polres tulungagung",
-    ],
-
-    "POLRES NGANJUK": [
-        "nganjuk",
-        "polres nganjuk",
-    ],
-
-    "POLRES TRENGGALEK": [
-        "trenggalek",
-        "polres trenggalek",
-    ],
-
-    "POLRES BLITAR": [
-        "kabupaten blitar",
-        "polres blitar",
-    ],
-
-    "POLRES MADIUN": [
-        "kabupaten madiun",
-        "polres madiun",
-    ],
-
-    "POLRES MADIUN KOTA": [
-        "madiun kota",
-        "polres madiun kota",
-    ],
-
-    "POLRES NGAWI": [
-        "ngawi",
-        "polres ngawi",
-    ],
-
-    "POLRES MAGETAN": [
-        "magetan",
-        "polres magetan",
-    ],
-
-    "POLRES PONOROGO": [
-        "ponorogo",
-        "polres ponorogo",
-    ],
-
-    "POLRES PACITAN": [
-        "pacitan",
-        "polres pacitan",
-    ],
-
-    "POLRES BOJONEGORO": [
-        "bojonegoro",
-        "polres bojonegoro",
-    ],
-
-    "POLRES LAMONGAN": [
-        "lamongan",
-        "polres lamongan",
-    ],
-
-    "POLRES MOJOKERTO": [
-        "kabupaten mojokerto",
-        "polres mojokerto",
-    ],
-
-    "POLRES MOJOKERTO KOTA": [
-        "mojokerto kota",
-        "polres mojokerto kota",
-    ],
-
-    "POLRES JOMBANG": [
-        "jombang",
-        "polres jombang",
-    ],
-
-    "POLRES PAMEKASAN": [
-        "pamekasan",
-        "polres pamekasan",
-    ],
-
-    "POLRES BANGKALAN": [
-        "bangkalan",
-        "polres bangkalan",
-    ],
-
-    "POLRES SAMPANG": [
-        "sampang",
-        "polres sampang",
-    ],
+    "POLRES PELABUHAN TANJUNG PERAK": ["pelabuhan tanjung perak", "tanjung perak"],
+    "POLRES JEMBER": ["polres jember", "kabupaten jember", "jember"],
+    "POLRES KEDIRI": ["polres kediri", "kabupaten kediri"],
+    "POLRES BLITAR KOTA": ["polres blitar kota", "blitar kota"],
+    "POLRESTABES SURABAYA": ["polrestabes surabaya", "surabaya"],
+    "POLRESTA MALANG KOTA": ["polresta malang kota", "malang kota"],
+    "POLRESTA SIDOARJO": ["polresta sidoarjo", "sidoarjo"],
+    "POLRESTA BANYUWANGI": ["polresta banyuwangi", "banyuwangi"],
+    "POLRESTA TUBAN": ["polresta tuban", "tuban"],
+    "POLRESTA SUMENEP": ["polresta sumenep", "sumenep"],
+    "POLRES GRESIK": ["polres gresik", "gresik"],
+    "POLRES MALANG": ["polres malang", "kabupaten malang"],
+    "POLRES PASURUAN": ["polres pasuruan", "kabupaten pasuruan"],
+    "POLRES PASURUAN KOTA": ["polres pasuruan kota", "pasuruan kota"],
+    "POLRES PROBOLINGGO": ["polres probolinggo", "kabupaten probolinggo"],
+    "POLRES PROBOLINGGO KOTA": ["polres probolinggo kota", "probolinggo kota"],
+    "POLRES LUMAJANG": ["polres lumajang", "lumajang"],
+    "POLRES BATU": ["polres batu", "kota batu"],
+    "POLRES BONDOWOSO": ["polres bondowoso", "bondowoso"],
+    "POLRES SITUBONDO": ["polres situbondo", "situbondo"],
+    "POLRES KEDIRI KOTA": ["polres kediri kota", "kediri kota"],
+    "POLRES TULUNGAGUNG": ["polres tulungagung", "tulungagung"],
+    "POLRES NGANJUK": ["polres nganjuk", "nganjuk"],
+    "POLRES TRENGGALEK": ["polres trenggalek", "trenggalek"],
+    "POLRES BLITAR": ["polres blitar", "kabupaten blitar"],
+    "POLRES MADIUN": ["polres madiun", "kabupaten madiun"],
+    "POLRES MADIUN KOTA": ["polres madiun kota", "madiun kota"],
+    "POLRES NGAWI": ["polres ngawi", "ngawi"],
+    "POLRES MAGETAN": ["polres magetan", "magetan"],
+    "POLRES PONOROGO": ["polres ponorogo", "ponorogo"],
+    "POLRES PACITAN": ["polres pacitan", "pacitan"],
+    "POLRES BOJONEGORO": ["polres bojonegoro", "bojonegoro"],
+    "POLRES LAMONGAN": ["polres lamongan", "lamongan"],
+    "POLRES MOJOKERTO": ["polres mojokerto", "kabupaten mojokerto"],
+    "POLRES MOJOKERTO KOTA": ["polres mojokerto kota", "mojokerto kota"],
+    "POLRES JOMBANG": ["polres jombang", "jombang"],
+    "POLRES PAMEKASAN": ["polres pamekasan", "pamekasan"],
+    "POLRES BANGKALAN": ["polres bangkalan", "bangkalan"],
+    "POLRES SAMPANG": ["polres sampang", "sampang"],
 }
 
 
 # ============================================================
-# JAWA TIMUR — HANYA BERDASARKAN KONTEN
-# BUKAN NAMA CHANNEL
+# KOTA / KABUPATEN JAWA TIMUR
 # ============================================================
 
-JATIM_TERMS = [
-    "jawa timur",
-    "jawa-timur",
-    "jatim",
-    "surabaya",
-    "sidoarjo",
-    "gresik",
-    "lamongan",
-    "tuban",
-    "bojonegoro",
-    "ngawi",
-    "magetan",
-    "madiun",
-    "ponorogo",
-    "pacitan",
-    "nganjuk",
-    "kediri",
-    "tulungagung",
-    "blitar",
-    "trenggalek",
-    "malang",
-    "batu",
-    "pasuruan",
-    "probolinggo",
-    "lumajang",
-    "jember",
-    "bondowoso",
-    "situbondo",
-    "banyuwangi",
-    "mojokerto",
-    "jombang",
-    "sampang",
-    "pamekasan",
-    "sumenep",
-    "bangkalan",
-    "madura",
-    "polda jatim",
-]
-
-
-# ============================================================
-# KATEGORI
-# ============================================================
-
-CATEGORIES = {
-
-    "Oknum / Pelanggaran Anggota": [
-        "oknum polisi",
-        "oknum polri",
-        "anggota polisi",
-        "anggota polri",
-        "polisi ditangkap",
-        "polisi ditahan",
-        "polisi tersangka",
-        "polisi terlibat",
-        "polisi diduga",
-    ],
-
-    "Etik / Disiplin": [
-        "pelanggaran etik",
-        "kode etik",
-        "pelanggaran disiplin",
-        "sidang etik",
-        "propam",
-        "disiplin polisi",
-    ],
-
-    "Narkoba": [
-        "polisi narkoba",
-        "polisi sabu",
-        "polisi narkotika",
-        "polisi ganja",
-        "anggota polisi narkoba",
-        "oknum polisi narkoba",
-    ],
-
-    "Korupsi / Suap / Pungli": [
-        "polisi korupsi",
-        "polisi suap",
-        "polisi pungli",
-        "polisi pemerasan",
-        "polisi gratifikasi",
-        "oknum polisi korupsi",
-    ],
-
-    "Kekerasan / Penganiayaan": [
-        "polisi menganiaya",
-        "polisi penganiayaan",
-        "polisi kekerasan",
-        "polisi menembak",
-        "polisi penembakan",
-        "oknum polisi menganiaya",
-    ],
-
-    "Penyalahgunaan Wewenang": [
-        "penyalahgunaan wewenang polisi",
-        "polisi salah gunakan wewenang",
-        "oknum polisi memeras",
-        "polisi memeras",
-    ],
-
-    "Kasus Hukum Lainnya": [
-        "polisi tersangka",
-        "polisi diperiksa",
-        "polisi ditangkap",
-        "polisi ditahan",
-        "polisi terlibat kasus",
-    ],
+JATIM_LOCATIONS = {
+    "Surabaya",
+    "Sidoarjo",
+    "Gresik",
+    "Lamongan",
+    "Tuban",
+    "Bojonegoro",
+    "Ngawi",
+    "Magetan",
+    "Madiun",
+    "Ponorogo",
+    "Pacitan",
+    "Nganjuk",
+    "Kediri",
+    "Tulungagung",
+    "Blitar",
+    "Trenggalek",
+    "Malang",
+    "Batu",
+    "Pasuruan",
+    "Probolinggo",
+    "Lumajang",
+    "Jember",
+    "Bondowoso",
+    "Situbondo",
+    "Banyuwangi",
+    "Mojokerto",
+    "Jombang",
+    "Pamekasan",
+    "Bangkalan",
+    "Sampang",
+    "Sumenep",
+    "Madura",
 }
 
 
 # ============================================================
-# QUERY YOUTUBE
-#
-# Kita sengaja menggunakan sedikit query agar quota API tidak
-# cepat habis. search.list adalah endpoint yang relatif mahal.
+# WILAYAH LUAR JATIM YANG SERING MUNCUL
+# Dipakai sebagai negative evidence.
+# ============================================================
+
+OUTSIDE_LOCATIONS = {
+    "Riau",
+    "Pekanbaru",
+    "Lampung",
+    "Lampung Utara",
+    "Bandar Lampung",
+    "Sumatera Selatan",
+    "Palembang",
+    "Baturaja",
+    "OKU",
+    "OKU Timur",
+    "Jakarta",
+    "Jakarta Barat",
+    "Jakarta Timur",
+    "Jakarta Selatan",
+    "Jakarta Utara",
+    "Tangerang",
+    "Tangerang Selatan",
+    "Banten",
+    "Bandung",
+    "Jawa Barat",
+    "Jawa Tengah",
+    "Semarang",
+    "Yogyakarta",
+    "DIY",
+    "Bali",
+    "Denpasar",
+    "Pontianak",
+    "Kalimantan",
+    "Sulawesi",
+    "Morowali",
+    "Padang",
+    "Sumatera Barat",
+    "Batam",
+    "Kepulauan Riau",
+}
+
+
+# ============================================================
+# QUERY
 # ============================================================
 
 SEARCH_QUERIES = [
-
     '"oknum polisi"',
-
     '"anggota polisi" tersangka',
-
     '"polisi" ditangkap',
-
     '"polisi" narkoba',
-
     '"polisi" korupsi',
-
+    '"polisi" suap',
+    '"polisi" pungli',
     '"polisi" pelanggaran etik',
-
-    '"polisi" penyalahgunaan wewenang',
-
     '"polisi" penganiayaan',
-
+    '"polisi" kekerasan',
+    '"polisi" penyalahgunaan wewenang',
 ]
 
 
 # ============================================================
-# HELPERS
+# RELEVANSI TERHADAP POLRI
 # ============================================================
 
+POLRI_TERMS = [
+    "polisi",
+    "polri",
+    "oknum polisi",
+    "oknum polri",
+    "anggota polisi",
+    "anggota polri",
+    "polda",
+    "polres",
+    "polresta",
+    "polrestabes",
+    "propam",
+    "kapolres",
+    "kapolda",
+]
+
+
+NEGATIVE_TERMS = [
+    "oknum",
+    "ditangkap",
+    "ditahan",
+    "tersangka",
+    "terlibat",
+    "diduga",
+    "pelanggaran etik",
+    "pelanggaran disiplin",
+    "penganiayaan",
+    "kekerasan",
+    "penembakan",
+    "pemerasan",
+    "pungli",
+    "suap",
+    "korupsi",
+    "narkoba",
+    "sabu",
+    "narkotika",
+    "penyalahgunaan wewenang",
+    "melanggar",
+]
+
+
+# Berita yang menggunakan polisi sebagai pelaku tindakan
+# kriminal biasa tidak otomatis dianggap negatif terhadap polisi.
+
+POLICE_NEGATIVE_PATTERNS = [
+    r"oknum\s+(polisi|polri)",
+    r"anggota\s+(polisi|polri).{0,80}(ditangkap|ditahan|tersangka|diduga|terlibat)",
+    r"(polisi|polri).{0,80}(ditangkap|ditahan|tersangka|diduga|terlibat)",
+    r"(polisi|polri).{0,80}(pungli|suap|korupsi|pemerasan)",
+    r"(polisi|polri).{0,80}(narkoba|narkotika|sabu)",
+    r"(polisi|polri).{0,80}(penganiayaan|kekerasan|penembakan)",
+    r"(polisi|polri).{0,80}(pelanggaran\s+etik|pelanggaran\s+disiplin)",
+    r"(polisi|polri).{0,80}(penyalahgunaan\s+wewenang)",
+]
+
+
+# ============================================================
+# UNGkap kasus oleh polisi
+# ============================================================
+
+CASE_ACTION_TERMS = [
+    "polisi menangkap",
+    "polisi ungkap",
+    "polisi mengungkap",
+    "polisi amankan",
+    "polisi berhasil menangkap",
+    "polisi berhasil mengungkap",
+    "ditangkap polisi",
+    "diamankan polisi",
+]
+
+
+# ============================================================
+# GENERIC / NOISE CONTENT
+# ============================================================
+
+NOISE_TERMS = [
+    "game",
+    "remix",
+    "dubbing",
+    "mainan",
+    "meme",
+    "parodi",
+    "komedi",
+    "challenge",
+]
+
+
 def normalize(text):
-
     text = str(text or "").lower()
-
-    text = re.sub(
-        r"\s+",
-        " ",
-        text
-    )
-
+    text = re.sub(r"&amp;", " dan ", text)
+    text = re.sub(r"\s+", " ", text)
     return text.strip()
 
 
-def contains_term(text, term):
-
+def words_in(text, terms):
     text = normalize(text)
-    term = normalize(term)
+    return [term for term in terms if term in text]
 
-    return term in text
 
+def make_id(video_id):
+    return hashlib.sha1(
+        f"youtube|{video_id}".encode("utf-8")
+    ).hexdigest()
+
+
+# ============================================================
+# LOCATION DETECTION
+# ============================================================
 
 def detect_polres(text):
-
     text = normalize(text)
 
-    # Urutkan nama terpanjang dahulu agar:
-    # "kediri kota" tidak tertangkap sebagai "kediri"
+    candidates = []
 
-    entries = sorted(
-        POLRES_MAP.items(),
-        key=lambda x: max(
-            len(v)
-            for v in x[1]
-        ),
-        reverse=True
-    )
-
-    for polres, aliases in entries:
-
+    for polres, aliases in POLRES_MAP.items():
         for alias in aliases:
+            if alias in text:
+                candidates.append(
+                    (len(alias), polres, alias)
+                )
 
-            if contains_term(
-                text,
-                alias
-            ):
+    if not candidates:
+        return None, None
 
-                return polres
+    candidates.sort(reverse=True)
 
-    return None
+    _, polres, evidence = candidates[0]
+
+    return polres, evidence
 
 
-def detect_jatim(text):
-
+def detect_jatim_location(text):
     text = normalize(text)
 
-    return any(
-        term in text
-        for term in JATIM_TERMS
+    found = []
+
+    for location in JATIM_LOCATIONS:
+        if normalize(location) in text:
+            found.append(location)
+
+    return found
+
+
+def detect_outside_location(text):
+    text = normalize(text)
+
+    found = []
+
+    for location in OUTSIDE_LOCATIONS:
+        if normalize(location) in text:
+            found.append(location)
+
+    return found
+
+
+def location_score(title, description):
+    title_n = normalize(title)
+    desc_n = normalize(description)
+
+    combined = f"{title_n} {desc_n}"
+
+    score = 0
+    evidence = []
+    source = None
+
+    # --------------------------------------------------------
+    # Polres = bukti terkuat
+    # --------------------------------------------------------
+
+    polres, polres_evidence = detect_polres(
+        combined
     )
 
+    if polres:
+        score += 100
+        evidence.append(polres_evidence)
+        source = "polres"
 
-def detect_category(text):
+    # --------------------------------------------------------
+    # Provinsi eksplisit
+    # --------------------------------------------------------
 
-    text = normalize(text)
+    if "jawa timur" in combined or "jatim" in combined:
+        score += 80
+        evidence.append(
+            "Jawa Timur/Jatim"
+        )
 
-    for category, terms in CATEGORIES.items():
+        if source is None:
+            source = "province"
 
-        for term in terms:
+    # --------------------------------------------------------
+    # Kota/kabupaten Jatim
+    # --------------------------------------------------------
 
-            if term in text:
+    jatim_locations = detect_jatim_location(
+        combined
+    )
 
-                return category
+    if jatim_locations:
+        # Judul diberi bobot lebih besar.
+        for location in jatim_locations:
+            if normalize(location) in title_n:
+                score += 60
+            else:
+                score += 35
 
-    return "Lainnya"
+            evidence.append(location)
+
+        if source is None:
+            source = "location"
+
+    # --------------------------------------------------------
+    # Explicit outside-Jatim
+    # --------------------------------------------------------
+
+    outside = detect_outside_location(
+        combined
+    )
+
+    if outside and not polres:
+        score -= 90
+
+        evidence.extend(
+            [f"LUAR:{x}" for x in outside]
+        )
+
+        if source is None:
+            source = "outside"
+
+    # --------------------------------------------------------
+    # Decision
+    # --------------------------------------------------------
+
+    is_jatim = score >= 35
+
+    # Jika bukti luar Jatim sangat kuat,
+    # jangan biarkan keyword umum mengalahkannya.
+
+    if outside and not polres:
+        if score < 80:
+            is_jatim = False
+
+    confidence = min(
+        100,
+        max(0, score)
+    )
+
+    return {
+        "is_jatim": is_jatim,
+        "polres": polres,
+        "confidence": confidence,
+        "source": source,
+        "evidence": evidence,
+    }
 
 
-def detect_priority(
-    title,
-    description
-):
+# ============================================================
+# CONTENT CLASSIFICATION
+# ============================================================
+
+def classify_content(title, description):
+
+    title_n = normalize(title)
+    desc_n = normalize(description)
+    text = f"{title_n} {desc_n}"
+
+    polri_hits = words_in(
+        text,
+        POLRI_TERMS
+    )
+
+    negative_hits = words_in(
+        text,
+        NEGATIVE_TERMS
+    )
+
+    noise_hits = words_in(
+        text,
+        NOISE_TERMS
+    )
+
+    # --------------------------------------------------------
+    # Noise
+    # --------------------------------------------------------
+
+    if noise_hits and len(polri_hits) <= 1:
+        return {
+            "relevance": "noise",
+            "scope": "neutral",
+            "category": "Tidak Relevan",
+            "score": 0,
+        }
+
+    # --------------------------------------------------------
+    # Tidak ada hubungan Polri
+    # --------------------------------------------------------
+
+    if not polri_hits:
+        return {
+            "relevance": "low",
+            "scope": "neutral",
+            "category": "Tidak Relevan",
+            "score": 0,
+        }
+
+    # --------------------------------------------------------
+    # Negative terhadap polisi
+    # --------------------------------------------------------
+
+    negative_pattern = any(
+        re.search(
+            pattern,
+            text
+        )
+        for pattern in POLICE_NEGATIVE_PATTERNS
+    )
+
+    if negative_pattern:
+        if any(
+            x in text
+            for x in [
+                "narkoba",
+                "narkotika",
+                "sabu",
+                "ganja",
+            ]
+        ):
+            category = "Oknum / Narkoba"
+
+        elif any(
+            x in text
+            for x in [
+                "korupsi",
+                "suap",
+                "pungli",
+                "pemerasan",
+            ]
+        ):
+            category = "Oknum / Korupsi / Pungli"
+
+        elif any(
+            x in text
+            for x in [
+                "etik",
+                "disiplin",
+            ]
+        ):
+            category = "Etik / Disiplin"
+
+        elif any(
+            x in text
+            for x in [
+                "penganiayaan",
+                "kekerasan",
+                "penembakan",
+            ]
+        ):
+            category = "Kekerasan / Penganiayaan"
+
+        elif "penyalahgunaan wewenang" in text:
+            category = "Penyalahgunaan Wewenang"
+
+        else:
+            category = "Oknum / Pelanggaran Anggota"
+
+        return {
+            "relevance": "high",
+            "scope": "negative",
+            "category": category,
+            "score": 100,
+        }
+
+    # --------------------------------------------------------
+    # Ungkap kasus oleh polisi
+    # --------------------------------------------------------
+
+    if any(
+        term in text
+        for term in CASE_ACTION_TERMS
+    ):
+        return {
+            "relevance": "high",
+            "scope": "case",
+            "category": "Ungkap Kasus",
+            "score": 60,
+        }
+
+    # --------------------------------------------------------
+    # Polisi disebut tetapi tidak jelas arahnya
+    # --------------------------------------------------------
+
+    return {
+        "relevance": "medium",
+        "scope": "neutral",
+        "category": "Berita Polisi Lainnya",
+        "score": 25,
+    }
+
+
+# ============================================================
+# PRIORITY
+# ============================================================
+
+def priority_for(classification, title, description):
 
     text = normalize(
-        title + " " + description
+        f"{title} {description}"
     )
 
-    high = [
-        "ditangkap",
-        "ditahan",
-        "tersangka",
-        "narkoba",
-        "sabu",
+    if classification["scope"] != "negative":
+        return "low"
+
+    very_high = [
         "korupsi",
         "suap",
         "pungli",
         "pemerasan",
+        "narkoba",
+        "narkotika",
+        "sabu",
         "penembakan",
-        "penganiayaan",
         "tewas",
         "meninggal",
     ]
 
     medium = [
         "diduga",
-        "diperiksa",
-        "pelanggaran",
-        "etik",
-        "disiplin",
-        "viral",
-        "diselidiki",
+        "pelanggaran etik",
+        "pelanggaran disiplin",
+        "penganiayaan",
+        "kekerasan",
+        "tersangka",
+        "ditangkap",
+        "ditahan",
     ]
 
-    score = 0
-
-    for word in high:
-
-        if word in text:
-            score += 2
-
-    for word in medium:
-
-        if word in text:
-            score += 1
-
-    if score >= 5:
+    if any(
+        term in text
+        for term in very_high
+    ):
         return "high"
 
-    if score >= 2:
+    if any(
+        term in text
+        for term in medium
+    ):
         return "medium"
 
     return "low"
 
 
-def make_id(video_id):
-
-    return hashlib.sha1(
-        (
-            "youtube|" +
-            video_id
-        ).encode("utf-8")
-    ).hexdigest()
-
-
 # ============================================================
-# YOUTUBE REQUEST
+# YOUTUBE API
 # ============================================================
 
 def youtube_search(
@@ -519,27 +629,16 @@ def youtube_search(
 ):
 
     params = {
-
         "part": "snippet",
-
         "q": query,
-
         "type": "video",
-
         "order": "date",
-
         "maxResults": 25,
-
-        "publishedAfter":
-            published_after,
-
+        "publishedAfter": published_after,
         "regionCode": "ID",
-
         "relevanceLanguage": "id",
-
         "key": API_KEY,
     }
-
 
     url = (
         API_URL
@@ -547,18 +646,13 @@ def youtube_search(
         + urlencode(params)
     )
 
-
     request = Request(
-
         url,
-
         headers={
             "User-Agent":
                 "PNM-Social-Monitor/1.0"
         }
-
     )
-
 
     try:
 
@@ -571,7 +665,6 @@ def youtube_search(
                 response.read()
             )
 
-
     except HTTPError as e:
 
         body = e.read().decode(
@@ -579,21 +672,15 @@ def youtube_search(
             errors="ignore"
         )
 
-        print(
-            f"YOUTUBE API ERROR "
-            f"{e.code}: {body}"
+        raise RuntimeError(
+            f"YouTube API HTTP {e.code}: {body}"
         )
-
-        return {}
-
 
     except URLError as e:
 
-        print(
-            f"YOUTUBE NETWORK ERROR: {e}"
+        raise RuntimeError(
+            f"YouTube network error: {e}"
         )
-
-        return {}
 
 
 # ============================================================
@@ -603,7 +690,6 @@ def youtube_search(
 def load_existing():
 
     if not os.path.exists(OUT):
-
         return []
 
     try:
@@ -622,7 +708,6 @@ def load_existing():
         )
 
     except Exception:
-
         return []
 
 
@@ -632,36 +717,21 @@ def load_existing():
 
 def main():
 
-    print(
-        "========================================"
-    )
-
-    print(
-        "PNM — YOUTUBE SOCIAL MONITOR"
-    )
-
-    print(
-        "========================================"
-    )
-
+    print("========================================")
+    print("PNM — YOUTUBE SOCIAL MONITOR")
+    print("========================================")
 
     if not API_KEY:
-
         raise RuntimeError(
-            "YOUTUBE_API_KEY belum tersedia. "
-            "Pastikan GitHub Secret bernama "
-            "YOUTUBE_API_KEY."
+            "YOUTUBE_API_KEY tidak tersedia."
         )
-
-
-    # Ambil video sekitar 2 hari terakhir.
-    #
-    # Ini memberi overlap agar jika collector gagal satu jam,
-    # video masih bisa ditemukan pada run berikutnya.
 
     now = datetime.now(
         timezone.utc
     )
+
+    # Overlap 48 jam supaya collector yang gagal
+    # satu siklus tidak langsung kehilangan data.
 
     published_after = (
         now - timedelta(days=2)
@@ -669,26 +739,20 @@ def main():
         "%Y-%m-%dT%H:%M:%SZ"
     )
 
-
-    old_items = load_existing()
-
-
-    # Deduplicate berdasarkan video ID
+    existing = load_existing()
 
     items_by_video = {}
 
-    for item in old_items:
+    for item in existing:
 
         video_id = item.get(
             "video_id"
         )
 
         if video_id:
-
             items_by_video[
                 video_id
             ] = item
-
 
     print(
         f"Existing videos : "
@@ -700,13 +764,17 @@ def main():
         f"{published_after}"
     )
 
-
     added = 0
 
+    # Statistik
+    negative_count = 0
+    case_count = 0
+    jatim_count = 0
+    noise_count = 0
 
-    # ========================================================
+    # --------------------------------------------------------
     # SEARCH
-    # ========================================================
+    # --------------------------------------------------------
 
     for index, query in enumerate(
         SEARCH_QUERIES,
@@ -718,24 +786,20 @@ def main():
             f"Searching: {query}"
         )
 
-
         response = youtube_search(
             query,
             published_after
         )
-
 
         results = response.get(
             "items",
             []
         )
 
-
         print(
             f"    Results: "
             f"{len(results)}"
         )
-
 
         for result in results:
 
@@ -750,10 +814,8 @@ def main():
                 {}
             )
 
-
             if not video_id:
                 continue
-
 
             title = (
                 snippet.get(
@@ -762,14 +824,12 @@ def main():
                 or ""
             )
 
-
             description = (
                 snippet.get(
                     "description"
                 )
                 or ""
             )
-
 
             channel = (
                 snippet.get(
@@ -778,7 +838,6 @@ def main():
                 or ""
             )
 
-
             published_at = (
                 snippet.get(
                     "publishedAt"
@@ -786,49 +845,20 @@ def main():
                 or ""
             )
 
-
-            # =================================================
-            # PENTING:
-            # JANGAN menggunakan channel sebagai penentu Jatim.
-            #
-            # Penentuan wilayah hanya dari judul + deskripsi.
-            # =================================================
-
-            content = (
-                title
-                + " "
-                + description
-            )
-
-
-            is_jatim = detect_jatim(
-                content
-            )
-
-
-            polres = detect_polres(
-                content
-            )
-
-
-            # Kalau Polres Jatim terdeteksi,
-            # otomatis Jatim.
-
-            if polres:
-
-                is_jatim = True
-
-
-            category = detect_category(
-                content
-            )
-
-
-            priority = detect_priority(
+            classification = classify_content(
                 title,
                 description
             )
 
+            location = location_score(
+                title,
+                description
+            )
+
+            # ------------------------------------------------
+            # IMPORTANT:
+            # Channel TIDAK digunakan untuk menentukan Jatim.
+            # ------------------------------------------------
 
             item = {
 
@@ -854,8 +884,10 @@ def main():
                     published_at,
 
                 "url":
-                    "https://www.youtube.com/watch?v="
-                    + video_id,
+                    (
+                        "https://www.youtube.com/watch?v="
+                        + video_id
+                    ),
 
                 "thumbnail":
                     (
@@ -865,43 +897,58 @@ def main():
                     ),
 
                 "description":
-                    description[:1000],
+                    description[:1200],
+
+                "relevance":
+                    classification["relevance"],
+
+                "scope":
+                    classification["scope"],
+
+                "category":
+                    classification["category"],
+
+                "classification_score":
+                    classification["score"],
+
+                "is_jatim":
+                    location["is_jatim"],
 
                 "region":
                     (
                         "Jawa Timur"
-                        if is_jatim
+                        if location["is_jatim"]
                         else "Indonesia"
                     ),
 
-                "is_jatim":
-                    is_jatim,
-
                 "polres":
-                    polres,
+                    location["polres"],
 
-                "category":
-                    category,
+                "location_confidence":
+                    location["confidence"],
+
+                "location_source":
+                    location["source"],
+
+                "location_evidence":
+                    location["evidence"],
 
                 "priority":
-                    priority,
+                    priority_for(
+                        classification,
+                        title,
+                        description
+                    ),
 
                 "collected_at":
                     now.isoformat(),
             }
 
-
-            # Update jika video sudah pernah ditemukan
-
             if video_id in items_by_video:
 
-                old = items_by_video[
+                items_by_video[
                     video_id
-                ]
-
-                old.update(
-                    item
-                )
+                ].update(item)
 
             else:
 
@@ -911,32 +958,47 @@ def main():
 
                 added += 1
 
-
-    # ========================================================
-    # SORT + LIMIT
-    # ========================================================
+    # --------------------------------------------------------
+    # SORT
+    # --------------------------------------------------------
 
     items = list(
         items_by_video.values()
     )
 
-
     items.sort(
-
         key=lambda x:
             x.get(
                 "published_at",
                 ""
             ),
-
         reverse=True
     )
 
+    # Jangan biarkan file tumbuh tanpa batas.
+    items = items[:1500]
 
-    # Simpan maksimal 1000 video
+    # --------------------------------------------------------
+    # STATS
+    # --------------------------------------------------------
 
-    items = items[:1000]
+    for item in items:
 
+        if item.get("is_jatim"):
+            jatim_count += 1
+
+        if item.get("scope") == "negative":
+            negative_count += 1
+
+        if item.get("scope") == "case":
+            case_count += 1
+
+        if item.get("relevance") == "noise":
+            noise_count += 1
+
+    # --------------------------------------------------------
+    # OUTPUT
+    # --------------------------------------------------------
 
     output = {
 
@@ -949,16 +1011,32 @@ def main():
         "total":
             len(items),
 
+        "statistics": {
+
+            "new_videos":
+                added,
+
+            "jatim":
+                jatim_count,
+
+            "negative":
+                negative_count,
+
+            "case":
+                case_count,
+
+            "noise":
+                noise_count,
+        },
+
         "items":
             items,
     }
-
 
     os.makedirs(
         "data",
         exist_ok=True
     )
-
 
     with open(
         OUT,
@@ -973,43 +1051,16 @@ def main():
             indent=2
         )
 
-
-    jatim_count = sum(
-        1
-        for x in items
-        if x.get(
-            "is_jatim"
-        )
-    )
-
-
-    print(
-        "========================================"
-    )
-
-    print(
-        f"New videos     : {added}"
-    )
-
-    print(
-        f"Total videos   : {len(items)}"
-    )
-
-    print(
-        f"Jawa Timur     : {jatim_count}"
-    )
-
-    print(
-        f"Output         : {OUT}"
-    )
-
-    print(
-        "========================================"
-
-
-    )
+    print("========================================")
+    print(f"New videos     : {added}")
+    print(f"Total videos   : {len(items)}")
+    print(f"Jawa Timur     : {jatim_count}")
+    print(f"Negative Polri : {negative_count}")
+    print(f"Ungkap kasus   : {case_count}")
+    print(f"Noise          : {noise_count}")
+    print(f"Output         : {OUT}")
+    print("========================================")
 
 
 if __name__ == "__main__":
-
     main()
