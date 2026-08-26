@@ -8,6 +8,8 @@ on:
 
 permissions:
   contents: write
+  pages: write
+  id-token: write
 
 concurrency:
   group: "pnm-collector"
@@ -15,9 +17,13 @@ concurrency:
 
 jobs:
 
-  collect:
+  collect-and-deploy:
 
     runs-on: ubuntu-latest
+
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
 
     steps:
 
@@ -26,7 +32,7 @@ jobs:
       # =====================================================
 
       - name: Checkout repository
-        uses: actions/checkout@v4
+        uses: actions/checkout@v6
 
 
       # =====================================================
@@ -34,7 +40,7 @@ jobs:
       # =====================================================
 
       - name: Setup Python
-        uses: actions/setup-python@v5
+        uses: actions/setup-python@v6
         with:
           python-version: "3.12"
 
@@ -52,7 +58,7 @@ jobs:
       # 4. NORMALIZE LOCATION
       # =====================================================
 
-      - name: Normalize location data
+      - name: Normalize location
         run: |
           python -u scripts/normalize_news.py
 
@@ -61,7 +67,7 @@ jobs:
       # 5. CHECK NEWS
       # =====================================================
 
-      - name: Check news
+      - name: Check news database
         run: |
           python - <<'PY'
           import json
@@ -88,7 +94,7 @@ jobs:
 
 
       # =====================================================
-      # 6. BUILD CASE CLUSTERS
+      # 6. BUILD CASE ENGINE
       # =====================================================
 
       - name: Build case clusters
@@ -98,10 +104,6 @@ jobs:
 
       # =====================================================
       # 7. CHECK CASE DATABASE
-      #
-      # IMPORTANT:
-      # Jangan menjalankan validate_data.py di sini karena
-      # today.json masih merupakan snapshot run sebelumnya.
       # =====================================================
 
       - name: Check case database
@@ -114,7 +116,7 @@ jobs:
 
           if not os.path.exists(path):
               raise SystemExit(
-                  "ERROR: case_clusters.json tidak ditemukan"
+                  "ERROR: data/case_clusters.json tidak ditemukan"
               )
 
           with open(path, encoding="utf-8") as f:
@@ -138,9 +140,9 @@ jobs:
           print("========================================")
           print("CASE DATABASE CHECK")
           print("========================================")
-          print(f"Cases          : {len(cases)}")
-          print(f"Articles       : {total_articles}")
-          print(f"High priority  : {high_cases}")
+          print(f"Cases         : {len(cases)}")
+          print(f"Articles      : {total_articles}")
+          print(f"High priority : {high_cases}")
           print("========================================")
           PY
 
@@ -213,15 +215,17 @@ jobs:
               reverse=True
           )
 
+          payload = {
+              "files": files
+          }
+
           with open(
               archive_dir / "index.json",
               "w",
               encoding="utf-8"
           ) as f:
               json.dump(
-                  {
-                      "files": files
-                  },
+                  payload,
                   f,
                   ensure_ascii=False,
                   indent=2
@@ -235,22 +239,13 @@ jobs:
           for item in files[:10]:
               print(f" - {item}")
 
-          print(
-              "Output   : data/archive/index.json"
-          )
+          print("Output   : data/archive/index.json")
           print("========================================")
           PY
 
 
       # =====================================================
-      # 12. FINAL VALIDATION
-      #
-      # Di sini today.json SUDAH dibuat ulang.
-      # Jadi validator sekarang membandingkan:
-      #
-      # news.json terbaru
-      #       VS
-      # today.json terbaru
+      # 12. FINAL DATA VALIDATION
       # =====================================================
 
       - name: Validate final data
@@ -302,7 +297,7 @@ jobs:
 
 
       # =====================================================
-      # 14. SAVE MONITORING DATA
+      # 14. SAVE DATA TO GIT
       # =====================================================
 
       - name: Save monitoring data
@@ -321,24 +316,19 @@ jobs:
 
           echo ""
           echo "========================================"
-          echo "ADDING MONITORING DATA"
+          echo "STAGING DATA"
           echo "========================================"
 
           git add \
-            data/news.json \
-            data/case_clusters.json \
-            data/social.json \
-            data/today.json \
-            data/archive/ \
-            data/matwil/current.json \
-            scripts/normalize_news.py \
-            scripts/process_cases.py \
-            scripts/create_daily_snapshot.py \
-            scripts/validate_data.py \
-            scripts/update_matwil.py \
-            scripts/location_engine.py \
-            README.md \
-            .gitignore
+            data/ \
+            .github/workflows/collect.yml \
+            scripts/ \
+            app.js \
+            index.html \
+            styles.css \
+            config.js \
+            .gitignore \
+            README.md
 
           echo ""
           echo "========================================"
@@ -350,7 +340,7 @@ jobs:
           if git diff --cached --quiet; then
 
             echo ""
-            echo "Tidak ada perubahan data."
+            echo "Tidak ada perubahan Git."
 
           else
 
@@ -360,3 +350,62 @@ jobs:
             git push
 
           fi
+
+
+      # =====================================================
+      # 15. CONFIGURE GITHUB PAGES
+      # =====================================================
+
+      - name: Configure GitHub Pages
+        uses: actions/configure-pages@v5
+
+
+      # =====================================================
+      # 16. PREPARE SITE
+      #
+      # Hanya file frontend + data yang dibutuhkan website.
+      # =====================================================
+
+      - name: Prepare Pages site
+        run: |
+
+          rm -rf site
+
+          mkdir -p site
+
+          cp index.html site/
+          cp app.js site/
+          cp styles.css site/
+          cp config.js site/
+
+          cp -r data site/data
+
+          echo "========================================"
+          echo "PAGES SITE"
+          echo "========================================"
+
+          find site \
+            -maxdepth 2 \
+            -type f \
+            | sort
+
+          echo "========================================"
+
+
+      # =====================================================
+      # 17. UPLOAD PAGES ARTIFACT
+      # =====================================================
+
+      - name: Upload Pages artifact
+        uses: actions/upload-pages-artifact@v4
+        with:
+          path: site
+
+
+      # =====================================================
+      # 18. DEPLOY GITHUB PAGES
+      # =====================================================
+
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
