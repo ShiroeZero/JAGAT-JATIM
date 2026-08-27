@@ -7,7 +7,7 @@
   <meta name="description" content="JAGAT — Jejaring Analisis & Garda Atensi Terpadu">
   <title>JAGAT — Jejaring Analisis &amp; Garda Atensi Terpadu</title>
   <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" crossorigin="">
-  <link rel="stylesheet" href="styles.css?v=6.5.0">
+  <link rel="stylesheet" href="styles.css?v=6.5.4">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css">
   <link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
 </head>
@@ -52,75 +52,76 @@
       </header>
 
       <section id="dashboardView" class="view">
-        <div class="hero">
+        <div class="hero dashboard-hero">
           <div>
             <span class="eyebrow">JAGAT</span>
             <h2>Situasi Jawa Timur</h2>
-            <p>Pemantauan pemberitaan <strong>Jawa Timur</strong> untuk <strong>hari ini</strong>. Histori tersedia di Arsip.</p>
+            <p>Pemantauan pemberitaan Jawa Timur <strong>hari ini</strong>. Dashboard menampilkan ringkasan situasi; detail lengkap tersedia melalui Monitoring dan Arsip.</p>
           </div>
           <span class="hero-badge">HARI INI</span>
         </div>
 
-        <div class="stats stats-4">
+        <div class="stats stats-4 dashboard-stats">
           <div class="stat"><span>Berita Jatim Hari Ini</span><strong id="sTotal">0</strong></div>
           <div class="stat"><span>Kasus Jatim Hari Ini</span><strong id="sCaseToday">0</strong></div>
-          <div class="stat"><span>Ungkap Kasus Jatim</span><strong id="sCaseUngkap">0</strong></div>
-          <div class="stat danger"><span>Atensi Tinggi Jatim</span><strong id="sHigh">0</strong></div>
-        </div>
-
-        <div class="stats stats-4">
           <div class="stat"><span>Berita Negatif Jatim</span><strong id="sNegative">0</strong></div>
-          <div class="stat"><span>Positif Jatim</span><strong id="sPositive">0</strong></div>
-          <div class="stat"><span>Netral Jatim</span><strong id="sNeutral">0</strong></div>
-          <div class="stat"><span>Wilayah Jatim Terdeteksi</span><strong id="sRegions">0</strong></div>
+          <div class="stat danger"><span>Atensi Tinggi</span><strong id="sHigh">0</strong></div>
         </div>
 
-        <div class="grid2">
-          <section class="panel">
-            <div class="panel-head">
-              <div><h3>Wilayah Terdeteksi Hari Ini</h3><div class="muted">Klik wilayah untuk melihat berita Jatim hari ini.</div></div>
-              <button class="linkbtn" data-open-monitoring="jatim">Lihat seluruh berita →</button>
-            </div>
-            <div id="regionToday" class="region-list"></div>
-          </section>
-          <section class="panel">
-            <div class="panel-head">
-              <div><h3>Komposisi Hari Ini</h3><div class="muted">Komposisi berita Jatim yang masuk hari ini.</div></div>
-            </div>
-            <div id="categories" class="bars"></div>
-          </section>
-        </div>
-
-        <section class="panel map-panel">
+        <section class="panel region-status-panel">
           <div class="panel-head">
-            <div><h3>Peta Jawa Timur</h3><div class="muted">Marker mengikuti data hari ini dan prioritas Case.</div></div>
-            <span id="mapCount" class="map-count">0 lokasi</span>
+            <div>
+              <h3>Status Wilayah</h3>
+              <div class="muted">Warna mengikuti kondisi berita dan tingkat atensi tertinggi pada wilayah tersebut.</div>
+            </div>
+            <span id="mapCount" class="map-count">0 wilayah</span>
+          </div>
+          <div id="regionToday" class="region-status-grid"></div>
+          <div class="region-status-legend">
+            <span><i class="status-dot danger"></i>Negatif / atensi tinggi</span>
+            <span><i class="status-dot warning"></i>Atensi sedang</span>
+            <span><i class="status-dot success"></i>Positif saja</span>
+            <span><i class="status-dot neutral"></i>Netral</span>
+          </div>
+        </section>
+
+        <div class="dashboard-main-grid">
+          <section class="panel dashboard-cases-panel">
+            <div class="panel-head">
+              <div>
+                <h3>Kasus Terbaru</h3>
+                <div class="muted">Kasus disusun berdasarkan skala atensi dan perkembangan terbaru.</div>
+              </div>
+              <button class="linkbtn" data-open-monitoring="all">Lihat semua →</button>
+            </div>
+            <div id="latestCases"></div>
+          </section>
+
+          <section class="panel dashboard-news-panel">
+            <div class="panel-head">
+              <div>
+                <h3>Berita Terbaru</h3>
+                <div class="muted">Berita Jatim terbaru yang terdeteksi hari ini.</div>
+              </div>
+              <button class="linkbtn" data-open-monitoring="all">Lihat semua →</button>
+            </div>
+            <div id="latest"></div>
+          </section>
+        </div>
+
+        <section class="panel map-panel dashboard-map-panel">
+          <div class="panel-head">
+            <div><h3>Peta Monitoring Jawa Timur</h3><div class="muted">Marker menunjukkan lokasi yang terdeteksi hari ini. Klik marker untuk melihat ringkasan wilayah.</div></div>
           </div>
           <div id="jatimMap" class="jatim-map"></div>
           <div class="map-footer">
             <div class="map-legend">
-              <span><i class="legend-dot high"></i>Kasus tinggi</span>
-              <span><i class="legend-dot medium"></i>Kasus sedang</span>
-              <span><i class="legend-dot low"></i>Terpantau</span>
+              <span><i class="legend-dot high"></i>Atensi tinggi</span>
+              <span><i class="legend-dot medium"></i>Atensi sedang</span>
+              <span><i class="legend-dot low"></i>Rendah / terpantau</span>
             </div>
           </div>
         </section>
-
-        <div class="grid2">
-          <section class="panel">
-            <div class="panel-head">
-              <div><h3>Berita Terbaru</h3><div class="muted">Berita Jatim hari ini · klik sekali untuk detail.</div></div>
-              <button class="linkbtn" data-open-monitoring="all">Semua berita →</button>
-            </div>
-            <div id="latest"></div>
-          </section>
-          <section class="panel">
-            <div class="panel-head">
-              <div><h3>Kasus Terbaru</h3><div class="muted">Insiden Jawa Timur yang terdeteksi hari ini; satu kasus dapat memiliki banyak sumber.</div></div>
-            </div>
-            <div id="latestCases"></div>
-          </section>
-        </div>
       </section>
 
       <section id="monitoringView" class="view hidden">

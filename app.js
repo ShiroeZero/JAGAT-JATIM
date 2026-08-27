@@ -349,55 +349,79 @@ function renderDashboard() {
   renderMap(items);
 }
 
+function regionStatus(items, casesById) {
+  const hasNegative = items.some(x => getScope(x) === "negative");
+  const attentionScores = items.map(x => getEffectiveAttentionScore(x, casesById));
+  const hasHigh = attentionScores.some(n => n >= 70);
+  const hasMedium = attentionScores.some(n => n >= 40 && n <= 69);
+  const hasPositive = items.some(x => getScope(x) === "positive");
+  const hasNeutralOrCase = items.some(x => !["negative", "positive"].includes(getScope(x)));
+
+  if (hasNegative || hasHigh) return { cls: "danger", label: "Perlu perhatian", rank: 4 };
+  if (hasMedium) return { cls: "warning", label: "Atensi sedang", rank: 3 };
+  if (hasPositive && !hasNeutralOrCase) return { cls: "success", label: "Positif", rank: 2 };
+  return { cls: "neutral", label: "Terpantau", rank: 1 };
+}
+
 function renderRegionsToday(items) {
   const target = $("regionToday");
   if (!target) return;
   const jatim = items.filter(isJatim);
-  const concrete = new Map();
-  let general = 0;
-  jatim.forEach(item => {
-    const locality = String(item.locality || "").trim();
-    if (!locality) {
-      general += 1;
-      return;
-    }
-    concrete.set(locality, (concrete.get(locality) || 0) + 1);
-  });
+  if (!jatim.length) {
+    target.innerHTML = `<div class="empty">Tidak ada berita Jawa Timur hari ini.</div>`;
+    return;
+  }
 
   const cases = todayJatimCaseSet();
-  const caseByLocality = new Map();
-  cases.forEach(c => {
-    const loc = String(c.locality || getLocality(c) || "").trim();
-    if (!loc) return;
-    if (!caseByLocality.has(loc)) caseByLocality.set(loc, { total: 0, high: 0 });
-    caseByLocality.get(loc).total += 1;
-    if (getPriority(c) === "high") caseByLocality.get(loc).high += 1;
+  const casesById = cases;
+  const groups = new Map();
+  let generalItems = [];
+
+  jatim.forEach(item => {
+    const locality = String(getFilterArea(item) || "").trim();
+    if (!locality || locality === "Jawa Timur (Umum)") {
+      generalItems.push(item);
+      return;
+    }
+    if (!groups.has(locality)) groups.set(locality, []);
+    groups.get(locality).push(item);
   });
 
-  const rows = [...concrete.entries()].sort((a,b) => b[1]-a[1] || a[0].localeCompare(b[0]));
-  const total = jatim.length;
-  const parent = `
-    <button class="region-parent" type="button" data-region-parent="Jawa Timur">
-      <span><strong>Jawa Timur</strong><small>${number(total)} berita · ${number(cases.length)} kasus</small></span>
-      <span class="region-parent-total">${number(rows.length)} wilayah <b>→</b></span>
-    </button>`;
+  const rows = [...groups.entries()].map(([name, regionItems]) => {
+    const status = regionStatus(regionItems, casesById);
+    const caseIds = new Set(regionItems.map(x => x.case_id).filter(Boolean));
+    const regionCases = cases.filter(c => caseIds.has(c.case_id));
+    const maxAttention = Math.max(0, ...regionItems.map(x => getEffectiveAttentionScore(x, casesById)), ...regionCases.map(getAttentionScore));
+    return { name, items: regionItems, cases: regionCases, status, maxAttention };
+  }).sort((a,b) => b.status.rank - a.status.rank || b.maxAttention - a.maxAttention || b.items.length - a.items.length || a.name.localeCompare(b.name, "id"));
 
-  const children = rows.map(([name, count]) => {
-    const meta = caseByLocality.get(name) || { total: 0, high: 0 };
-    return `<button class="region-row region-child" type="button" data-region="${escapeHtml(name)}">
-      <span><strong>${escapeHtml(name)}</strong><small>${number(count)} berita · ${number(meta.total)} kasus</small></span>
-      <span class="region-right">${meta.high ? `<span class="pill high">TINGGI ${number(meta.high)}</span>` : `<span class="pill low">TERPANTAU</span>`}<b>→</b></span>
-    </button>`;
-  }).join("");
+  if (generalItems.length) {
+    rows.push({
+      name: "Jawa Timur (Umum)",
+      items: generalItems,
+      cases: cases.filter(c => generalItems.some(x => x.case_id === c.case_id)),
+      status: regionStatus(generalItems, casesById),
+      maxAttention: Math.max(0, ...generalItems.map(x => getEffectiveAttentionScore(x, casesById)))
+    });
+  }
 
-  const generic = general
-    ? `<button class="region-row region-child region-general" type="button" data-region="Jawa Timur (Umum)">
-         <span><strong>Jawa Timur (Umum)</strong><small>${number(general)} berita tanpa kota/Polres spesifik</small></span>
-         <span class="region-right"><b>→</b></span>
-       </button>`
-    : "";
-
-  target.innerHTML = jatim.length ? `${parent}<div class="region-children">${children}${generic}</div>` : `<div class="empty">Tidak ada berita Jawa Timur hari ini.</div>`;
+  target.innerHTML = `
+    <button class="region-jatim-chip" type="button" data-region-parent="Jawa Timur">
+      <span><i class="fa-solid fa-location-dot"></i><b>Jawa Timur</b></span>
+      <span>${number(jatim.length)} berita · ${number(cases.length)} kasus <b>→</b></span>
+    </button>
+    <div class="region-status-cards">
+      ${rows.map(row => `
+        <button class="region-status-card ${row.status.cls}" type="button" data-region="${escapeHtml(row.name)}">
+          <span class="region-status-top">
+            <strong>${escapeHtml(row.name)}</strong>
+            <i class="status-dot ${row.status.cls}" aria-hidden="true"></i>
+          </span>
+          <span class="region-status-meta">${number(row.items.length)} berita · ${number(row.cases.length)} kasus</span>
+          <span class="region-status-bottom"><em>${escapeHtml(row.status.label)}</em><b>→</b></span>
+        </button>
+      `).join("")}
+    </div>`;
 
   target.querySelectorAll("[data-region]").forEach(btn => btn.addEventListener("click", () => {
     openRegionDrawer(btn.dataset.region, jatim);
@@ -535,13 +559,13 @@ function renderLatestCases(items = todayJatimItems()) {
   const target = $("latestCases");
   if (!target) return;
   const ids = new Set(items.map(item => item.case_id).filter(Boolean));
-  const cases = globalCases()
-    .filter(c => ids.has(c.case_id))
+  const cases = globalCases().filter(c => ids.has(c.case_id))
     .slice()
     .sort((a, b) => getAttentionScore(b) - getAttentionScore(a) || new Date(b.last_detected_at || b.last_seen || 0) - new Date(a.last_detected_at || a.last_seen || 0))
-    .slice(0, 6);
-  target.innerHTML = cases.length ? cases.map((c, i) => caseCard(c, i + 1)).join("") : `<div class="empty">Belum ada Kasus Jatim hari ini.</div>`;
+    .slice(0, 5);
+  target.innerHTML = cases.length ? cases.map((c, i) => caseCard(c, i + 1)).join("") : `<div class="empty">Belum ada Kasus Jawa Timur hari ini.</div>`;
   bindCaseClicks(target, globalCases(), newsData);
+  bindCopyButtons(target);
 }
 
 

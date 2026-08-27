@@ -2,7 +2,7 @@
 
 JAGAT adalah sistem pemantauan informasi yang berfokus pada pemberitaan terkait Jawa Timur, pengelompokan insiden, skala atensi, pemetaan wilayah, snapshot harian, dan arsip.
 
-## Fondasi V6.5.3
+## Fondasi V6.5.4
 
 - Jawa Timur adalah wilayah fokus utama.
 - 39 Polres Jawa Timur menjadi entitas organisasi utama. Polsek hanya dipakai sebagai pengikat identitas ke Polres jika terdapat pemetaan yang terverifikasi; Polsek bukan filter wilayah utama.
