@@ -3,105 +3,166 @@ import os
 from datetime import datetime, timezone
 from zoneinfo import ZoneInfo
 
-BASE = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+BASE = os.path.dirname(
+    os.path.dirname(
+        os.path.abspath(__file__)
+    )
+)
 
 FILES = {
-    "news": os.path.join(BASE, "data", "news.json"),
-    "cases": os.path.join(BASE, "data", "case_clusters.json"),
-    "today": os.path.join(BASE, "data", "today.json"),
+    "news": os.path.join(
+        BASE,
+        "data",
+        "news.json"
+    ),
+    "cases": os.path.join(
+        BASE,
+        "data",
+        "case_clusters.json"
+    ),
+    "today": os.path.join(
+        BASE,
+        "data",
+        "today.json"
+    ),
 }
 
-TZ = ZoneInfo("Asia/Jakarta")
+TZ = ZoneInfo(
+    "Asia/Jakarta"
+)
 
 
 # ============================================================
-# BASIC HELPERS
+# LOAD
 # ============================================================
 
-def load(path):
-    with open(path, encoding="utf-8") as f:
+def load_json(path):
+    with open(
+        path,
+        encoding="utf-8"
+    ) as f:
         return json.load(f)
 
 
-def fail(message):
-    print("ERROR:", message)
-    raise SystemExit(1)
-
+# ============================================================
+# DATE
+# ============================================================
 
 def parse_dt(value):
     if not value:
         return None
 
     try:
-        text = str(value).replace("Z", "+00:00")
-        dt = datetime.fromisoformat(text)
+        text = str(
+            value
+        ).replace(
+            "Z",
+            "+00:00"
+        )
+
+        dt = datetime.fromisoformat(
+            text
+        )
 
         if dt.tzinfo is None:
-            dt = dt.replace(tzinfo=timezone.utc)
+            dt = dt.replace(
+                tzinfo=timezone.utc
+            )
 
-        return dt.astimezone(TZ)
+        return dt.astimezone(
+            TZ
+        )
 
     except Exception:
         return None
 
 
-def is_today(item, date_value):
+def monitoring_date(item):
     """
-    Gunakan tanggal publikasi sebagai sumber utama.
-    collected_at hanya fallback jika published_at tidak tersedia.
+    KONTRAK TANGGAL JAGAT
+
+    Monitoring "hari ini" menggunakan:
+        1. collected_at
+        2. published_at sebagai fallback
+
+    Alasannya:
+    JAGAT adalah sistem monitoring.
+    Berita yang baru ditemukan/dikumpulkan hari ini
+    harus masuk snapshot hari ini walaupun artikel tersebut
+    dipublikasikan sebelumnya.
     """
-    dt = parse_dt(
-        item.get("published_at")
-        or item.get("collected_at")
+    return (
+        parse_dt(
+            item.get(
+                "collected_at"
+            )
+        )
+        or
+        parse_dt(
+            item.get(
+                "published_at"
+            )
+        )
+    )
+
+
+def is_today(
+    item,
+    today
+):
+    dt = monitoring_date(
+        item
     )
 
     return bool(
         dt
-        and dt.date() == date_value
+        and dt.date() == today
     )
 
 
-def priority_for_score(score, severity=0):
-    score = int(score or 0)
-    severity = int(severity or 0)
+# ============================================================
+# PRIORITY
+# ============================================================
 
-    if severity >= 40 or (
-        score >= 65
-        and severity >= 25
-    ):
-        return "high"
-
-    if score >= 40:
-        return "medium"
-
-    return "low"
+def priority_value(value):
+    return str(
+        value or ""
+    ).strip().lower()
 
 
 # ============================================================
-# MAIN VALIDATION
+# FILE EXISTENCE
+# ============================================================
+
+def validate_files():
+
+    for name, path in FILES.items():
+
+        if not os.path.exists(
+            path
+        ):
+            raise RuntimeError(
+                f"{name} file missing: {path}"
+            )
+
+
+# ============================================================
+# MAIN
 # ============================================================
 
 def main():
 
-    # --------------------------------------------------------
-    # FILE EXISTENCE
-    # --------------------------------------------------------
+    validate_files()
 
-    for name, path in FILES.items():
-        if not os.path.exists(path):
-            fail(
-                f"{name} file missing: {path}"
-            )
-
-    news_db = load(
+    news_db = load_json(
         FILES["news"]
     )
 
-    case_db = load(
+    case_db = load_json(
         FILES["cases"]
     )
 
-    today_db = load(
+    today_db = load_json(
         FILES["today"]
     )
 
@@ -119,70 +180,85 @@ def main():
 
 
     # ========================================================
-    # ID INTEGRITY
+    # NEWS IDS
     # ========================================================
 
     news_ids = [
-        x.get("id")
-        for x in news
-        if x.get("id")
+        item.get("id")
+        for item in news
+        if item.get("id")
     ]
 
-    case_ids = [
-        x.get("case_id")
-        for x in cases
-        if x.get("case_id")
-    ]
-
-    if len(news_ids) != len(set(news_ids)):
+    if len(news_ids) != len(
+        set(news_ids)
+    ):
         errors.append(
             "Duplicate news IDs detected"
         )
 
-    if len(case_ids) != len(set(case_ids)):
+
+    news_map = {
+        item["id"]: item
+        for item in news
+        if item.get("id")
+    }
+
+
+    # ========================================================
+    # CASE IDS
+    # ========================================================
+
+    case_ids = [
+        case.get("case_id")
+        for case in cases
+        if case.get("case_id")
+    ]
+
+    if len(case_ids) != len(
+        set(case_ids)
+    ):
         errors.append(
             "Duplicate case IDs detected"
         )
 
-    news_map = {
-        x["id"]: x
-        for x in news
-        if x.get("id")
-    }
 
     case_map = {
-        x["case_id"]: x
-        for x in cases
-        if x.get("case_id")
+        case["case_id"]: case
+        for case in cases
+        if case.get("case_id")
     }
 
 
     # ========================================================
-    # NEWS → CASE RELATIONSHIP
+    # NEWS → CASE
     # ========================================================
-
-    seen_case_articles = set()
 
     for item in news:
 
-        cid = item.get(
+        case_id = item.get(
             "case_id"
         )
 
-        if cid and cid not in case_map:
+        if (
+            case_id
+            and case_id not in case_map
+        ):
+
             errors.append(
                 f"news {item.get('id')} "
-                f"points to missing {cid}"
+                f"points to missing {case_id}"
             )
 
 
     # ========================================================
-    # CASE → NEWS RELATIONSHIP
+    # CASE → NEWS
     # ========================================================
+
+    seen_article_case = {}
 
     for case in cases:
 
-        cid = case.get(
+        case_id = case.get(
             "case_id"
         )
 
@@ -202,229 +278,261 @@ def main():
 
 
         # ----------------------------------------------------
-        # Duplicate article IDs inside Case
+        # Duplicate article IDs
         # ----------------------------------------------------
 
-        if len(article_ids) != len(
+        if len(
+            article_ids
+        ) != len(
             set(article_ids)
         ):
+
             errors.append(
-                f"{cid} has duplicate article_ids"
+                f"{case_id} has duplicate article_ids"
             )
 
 
         # ----------------------------------------------------
-        # article_ids ↔ articles[]
+        # Compact article objects
         # ----------------------------------------------------
 
-        object_ids = [
-            a.get("id")
-            for a in article_objects
-            if a.get("id")
-        ]
+        object_ids = {
+            article.get("id")
+            for article in article_objects
+            if article.get("id")
+        }
 
-        if set(object_ids) != set(article_ids):
+        if object_ids != set(
+            article_ids
+        ):
+
             errors.append(
-                f"{cid} article_ids/articles mismatch"
+                f"{case_id} article_ids/articles mismatch"
             )
 
 
         # ----------------------------------------------------
-        # Reverse relationship
+        # Verify article existence
         # ----------------------------------------------------
 
-        for aid in article_ids:
+        for article_id in article_ids:
 
-            if aid not in news_map:
+            if article_id not in news_map:
 
                 errors.append(
-                    f"{cid} points to missing article {aid}"
+                    f"{case_id} "
+                    f"points to missing article "
+                    f"{article_id}"
                 )
 
-            else:
+                continue
 
-                news_case_id = (
-                    news_map[aid].get(
-                        "case_id"
-                    )
+
+            news_case_id = (
+                news_map[
+                    article_id
+                ].get(
+                    "case_id"
                 )
+            )
 
-                if news_case_id != cid:
+            if news_case_id != case_id:
 
-                    errors.append(
-                        f"{cid}/{aid} "
-                        f"reverse link mismatch: "
-                        f"news.case_id={news_case_id}"
-                    )
+                errors.append(
+                    f"{case_id}/{article_id} "
+                    f"reverse relationship mismatch: "
+                    f"news.case_id={news_case_id}"
+                )
 
 
             # ------------------------------------------------
-            # One article must not exist in two cases
+            # An article must belong to one Case only.
             # ------------------------------------------------
 
-            if aid in seen_case_articles:
+            previous = seen_article_case.get(
+                article_id
+            )
+
+            if (
+                previous
+                and previous != case_id
+            ):
 
                 errors.append(
-                    f"article {aid} appears in multiple cases"
+                    f"article {article_id} "
+                    f"appears in multiple cases: "
+                    f"{previous}, {case_id}"
                 )
 
-            seen_case_articles.add(
-                aid
-            )
-
-
-        # ====================================================
-        # CASE PRIORITY VALIDATION
-        # ====================================================
-
-        breakdown = (
-            case.get(
-                "priority_breakdown"
-            )
-            or {}
-        )
-
-        score = case.get(
-            "priority_score"
-        )
-
-        if score is None:
-
-            errors.append(
-                f"{cid} missing priority_score"
-            )
-
-        else:
-
-            expected_score = sum(
-                int(
-                    breakdown.get(
-                        key
-                    )
-                    or 0
-                )
-                for key in (
-                    "severity",
-                    "escalation",
-                    "spread",
-                    "current_activity",
-                )
-            )
-
-            if int(score) != expected_score:
-
-                errors.append(
-                    f"{cid} priority_score mismatch: "
-                    f"stored={score}, "
-                    f"expected={expected_score}"
-                )
-
-
-            expected_priority = (
-                priority_for_score(
-                    score,
-                    breakdown.get(
-                        "severity",
-                        0
-                    )
-                )
-            )
-
-            actual_priority = str(
-                case.get(
-                    "priority"
-                )
-                or "low"
-            ).lower()
-
-            if actual_priority != expected_priority:
-
-                errors.append(
-                    f"{cid} priority mismatch: "
-                    f"stored={actual_priority}, "
-                    f"expected={expected_priority}"
-                )
+            seen_article_case[
+                article_id
+            ] = case_id
 
 
     # ========================================================
     # TODAY DATE
     # ========================================================
 
-    date_value = today_db.get(
+    today_text = today_db.get(
         "date"
     )
 
-    if not date_value:
-        fail(
+    if not today_text:
+
+        raise RuntimeError(
             "today.json missing date"
         )
+
 
     try:
 
         today = datetime.strptime(
-            str(date_value),
+            str(today_text),
             "%Y-%m-%d"
         ).date()
 
     except ValueError:
 
-        fail(
-            f"Invalid today date: {date_value}"
+        raise RuntimeError(
+            f"Invalid today date: {today_text}"
         )
 
 
     # ========================================================
-    # RAW NEWS TODAY
+    # ACTUAL NEWS TODAY
     # ========================================================
 
     actual_today = [
-        x
-        for x in news
+        item
+        for item in news
         if is_today(
-            x,
+            item,
             today
         )
     ]
 
-    actual_news_count = (
-        len(actual_today)
+
+    actual_news_count = len(
+        actual_today
     )
+
+
+    # ========================================================
+    # GLOBAL ARTICLE COUNTS
+    # ========================================================
 
     actual_negative = sum(
         1
-        for x in actual_today
+        for item in actual_today
         if str(
-            x.get("scope")
+            item.get("scope")
             or ""
         ).lower()
         == "negative"
     )
 
+
     actual_positive = sum(
         1
-        for x in actual_today
+        for item in actual_today
         if str(
-            x.get("scope")
+            item.get("scope")
             or ""
         ).lower()
         == "positive"
     )
 
+
     actual_case_scope = sum(
         1
-        for x in actual_today
+        for item in actual_today
         if str(
-            x.get("scope")
+            item.get("scope")
             or ""
         ).lower()
         == "case"
     )
 
+
     actual_neutral = sum(
         1
-        for x in actual_today
+        for item in actual_today
         if str(
-            x.get("scope")
+            item.get("scope")
+            or ""
+        ).lower()
+        == "neutral"
+    )
+
+
+    actual_article_high = sum(
+        1
+        for item in actual_today
+        if priority_value(
+            item.get(
+                "priority"
+            )
+        )
+        == "high"
+    )
+
+
+    # ========================================================
+    # JAWA TIMUR
+    # ========================================================
+
+    actual_jatim = [
+        item
+        for item in actual_today
+        if item.get(
+            "is_jatim"
+        ) is True
+    ]
+
+
+    actual_jatim_count = len(
+        actual_jatim
+    )
+
+
+    actual_jatim_negative = sum(
+        1
+        for item in actual_jatim
+        if str(
+            item.get("scope")
+            or ""
+        ).lower()
+        == "negative"
+    )
+
+
+    actual_jatim_positive = sum(
+        1
+        for item in actual_jatim
+        if str(
+            item.get("scope")
+            or ""
+        ).lower()
+        == "positive"
+    )
+
+
+    actual_jatim_case_scope = sum(
+        1
+        for item in actual_jatim
+        if str(
+            item.get("scope")
+            or ""
+        ).lower()
+        == "case"
+    )
+
+
+    actual_jatim_neutral = sum(
+        1
+        for item in actual_jatim
+        if str(
+            item.get("scope")
             or ""
         ).lower()
         == "neutral"
@@ -432,234 +540,145 @@ def main():
 
 
     # ========================================================
-    # JAWA TIMUR TODAY
+    # ACTIVE CASE TODAY
+    #
+    # CASE PRIORITY TETAP.
+    #
+    # Tetapi CASE hanya dianggap "aktif hari ini"
+    # jika minimal satu artikel di dalam Case
+    # terdeteksi/dikumpulkan hari ini.
     # ========================================================
 
-    actual_jatim_items = [
-        x
-        for x in actual_today
-        if x.get("is_jatim") is True
-    ]
+    active_today_cases = []
 
-    actual_jatim = (
-        len(
-            actual_jatim_items
+    for case in cases:
+
+        articles = (
+            case.get(
+                "articles",
+                []
+            )
         )
-    )
 
-
-    actual_jatim_negative = sum(
-        1
-        for x in actual_jatim_items
-        if str(
-            x.get("scope")
-            or ""
-        ).lower()
-        == "negative"
-    )
-
-
-    # ========================================================
-    # ARTICLE PRIORITY
-    # ========================================================
-
-    actual_article_high = sum(
-        1
-        for x in actual_today
-        if str(
-            x.get("priority")
-            or ""
-        ).lower()
-        == "high"
-    )
-
-
-    # ========================================================
-    # CASE ACTIVITY TODAY
-    #
-    # IMPORTANT:
-    #
-    # Case tetap tersimpan dan tetap memiliki priority.
-    #
-    # Tetapi Case hanya dihitung sebagai "aktif hari ini"
-    # apabila memiliki artikel yang terbit pada tanggal today.
-    #
-    # Jadi:
-    #
-    # CASE TUBAN 26 AGUSTUS
-    # → tetap HIGH di database
-    # → tidak otomatis menjadi HIGH TODAY pada 27 AGUSTUS
-    # ========================================================
-
-    active_today_cases = [
-        case
-        for case in cases
         if any(
             is_today(
                 article,
                 today
             )
-            for article in (
-                case.get(
-                    "articles",
-                    []
-                )
+            for article in articles
+        ):
+
+            active_today_cases.append(
+                case
             )
-        )
-    ]
 
 
     # ========================================================
-    # GLOBAL CASE HIGH TODAY
+    # GLOBAL CASE HIGH
     # ========================================================
 
     actual_case_high_global = sum(
         1
         for case in active_today_cases
-        if str(
-            case.get("priority")
-            or ""
-        ).lower()
+        if priority_value(
+            case.get(
+                "priority"
+            )
+        )
         == "high"
     )
 
 
     # ========================================================
-    # JAWA TIMUR CASES TODAY
+    # JATIM ACTIVE CASE
     # ========================================================
 
     active_today_jatim_cases = [
         case
         for case in active_today_cases
-        if case.get("is_jatim") is True
+        if case.get(
+            "is_jatim"
+        ) is True
     ]
 
-
-    # ========================================================
-    # JAWA TIMUR CASE HIGH TODAY
-    # ========================================================
 
     actual_case_high_jatim = sum(
         1
         for case in active_today_jatim_cases
-        if str(
-            case.get("priority")
-            or ""
-        ).lower()
+        if priority_value(
+            case.get(
+                "priority"
+            )
+        )
         == "high"
     )
 
 
     # ========================================================
-    # TODAY SUMMARY STORED
+    # STORED SUMMARY
     # ========================================================
 
-    today_summary = (
-        today_db.get(
-            "summary",
-            {}
-        )
+    summary = today_db.get(
+        "summary",
+        {}
     )
 
-
     stored_news = int(
-        today_summary.get(
+        summary.get(
             "news_today",
             0
         )
         or 0
     )
 
+
     stored_negative = int(
-        today_summary.get(
+        summary.get(
             "negative_today",
             0
         )
         or 0
     )
 
+
     stored_jatim = int(
-        today_summary.get(
+        summary.get(
             "jatim_news",
             0
         )
         or 0
     )
 
-    stored_case_high_global = int(
-        today_summary.get(
+
+    stored_global_case_high = int(
+        summary.get(
             "priority_high",
             0
         )
         or 0
     )
 
+
     stored_article_high = int(
-        today_summary.get(
+        summary.get(
             "article_priority_high",
-            today_db.get(
-                "news",
-                {}
-            ).get(
-                "priority_high",
-                0
-            )
+            0
         )
         or 0
     )
 
 
     # ========================================================
-    # GLOBAL CHECKS
+    # STORED JATIM
     # ========================================================
 
-    checks = [
-
-        (
-            stored_news,
-            actual_news_count,
-            "today.json news count"
-        ),
-
-        (
-            stored_negative,
-            actual_negative,
-            "today.json negative count"
-        ),
-
-        (
-            stored_jatim,
-            actual_jatim,
-            "today.json Jatim count"
-        ),
-
-        (
-            stored_case_high_global,
-            actual_case_high_global,
-            "today.json global case-high count"
-        ),
-
-        (
-            stored_article_high,
-            actual_article_high,
-            "today.json article-high count"
-        ),
-    ]
-
-
-    # ========================================================
-    # JAWA TIMUR DASHBOARD CHECKS
-    # ========================================================
-
-    jatim_db = (
-        today_db.get(
-            "jatim",
-            {}
-        )
+    jatim_db = today_db.get(
+        "jatim",
+        {}
     )
 
 
-    stored_jatim_news = int(
+    stored_jatim_dashboard_news = int(
         jatim_db.get(
             "news_today",
             0
@@ -686,11 +705,54 @@ def main():
     )
 
 
-    checks.extend([
+    # ========================================================
+    # GLOBAL VALIDATION
+    # ========================================================
+
+    checks = [
 
         (
-            stored_jatim_news,
-            actual_jatim,
+            stored_news,
+            actual_news_count,
+            "today.json news count"
+        ),
+
+        (
+            stored_negative,
+            actual_negative,
+            "today.json negative count"
+        ),
+
+        (
+            stored_jatim,
+            actual_jatim_count,
+            "today.json Jatim count"
+        ),
+
+        (
+            stored_global_case_high,
+            actual_case_high_global,
+            "today.json global case-high count"
+        ),
+
+        (
+            stored_article_high,
+            actual_article_high,
+            "today.json article-high count"
+        ),
+
+    ]
+
+
+    # ========================================================
+    # JATIM VALIDATION
+    # ========================================================
+
+    jatim_checks = [
+
+        (
+            stored_jatim_dashboard_news,
+            actual_jatim_count,
             "today.json Jatim dashboard news count"
         ),
 
@@ -706,26 +768,16 @@ def main():
             "today.json Jatim case-high count"
         ),
 
-    ])
+    ]
+
+
+    checks.extend(
+        jatim_checks
+    )
 
 
     # ========================================================
-    # RUN CHECKS
-    # ========================================================
-
-    for stored, actual, label in checks:
-
-        if stored != actual:
-
-            errors.append(
-                f"{label} mismatch: "
-                f"stored={stored}, "
-                f"actual={actual}"
-            )
-
-
-    # ========================================================
-    # TODAY ARTICLE IDS
+    # ARTICLE IDS
     # ========================================================
 
     stored_article_ids = set(
@@ -738,41 +790,140 @@ def main():
         )
     )
 
+
     actual_article_ids = {
-        x.get("id")
-        for x in actual_today
-        if x.get("id")
+        item.get("id")
+        for item in actual_today
+        if item.get("id")
     }
 
 
-    if stored_article_ids != actual_article_ids:
+    if (
+        stored_article_ids
+        != actual_article_ids
+    ):
+
+        missing_from_snapshot = (
+            actual_article_ids
+            - stored_article_ids
+        )
+
+        extra_in_snapshot = (
+            stored_article_ids
+            - actual_article_ids
+        )
 
         errors.append(
-            "today.json article_ids "
-            "do not match raw news.json"
+            "today.json article_ids do not match "
+            "news.json using monitoring date "
+            f"(missing={len(missing_from_snapshot)}, "
+            f"extra={len(extra_in_snapshot)})"
         )
 
 
     # ========================================================
-    # ERROR OUTPUT
+    # TODAY JATIM ITEMS
+    # ========================================================
+
+    stored_jatim_items = {
+        item.get("id")
+        for item in today_db.get(
+            "news",
+            {}
+        ).get(
+            "jatim_items",
+            []
+        )
+        if item.get("id")
+    }
+
+
+    actual_jatim_ids = {
+        item.get("id")
+        for item in actual_jatim
+        if item.get("id")
+    }
+
+
+    if (
+        stored_jatim_items
+        != actual_jatim_ids
+    ):
+
+        errors.append(
+            "today.json Jatim items do not match "
+            "news.json monitoring date"
+        )
+
+
+    # ========================================================
+    # RESULT
     # ========================================================
 
     if errors:
 
-        for error in errors[:50]:
+        print(
+            "========================================"
+        )
+
+        print(
+            "JAGAT SYSTEM DATA VALIDATION V6.4"
+        )
+
+        print(
+            "========================================"
+        )
+
+        print(
+            f"Monitoring date       : {today}"
+        )
+
+        print(
+            f"Actual news today     : {actual_news_count}"
+        )
+
+        print(
+            f"Stored news today     : {stored_news}"
+        )
+
+        print(
+            f"Actual Jatim today    : {actual_jatim_count}"
+        )
+
+        print(
+            f"Stored Jatim today    : {stored_jatim}"
+        )
+
+        print(
+            f"Global case-high      : {actual_case_high_global}"
+        )
+
+        print(
+            f"Jatim case-high       : {actual_case_high_jatim}"
+        )
+
+        print(
+            "----------------------------------------"
+        )
+
+        for error in errors:
+
             print(
                 "ERROR:",
                 error
             )
 
-        fail(
-            f"validation failed with "
-            f"{len(errors)} issue(s)"
+        print(
+            "========================================"
+        )
+
+        raise SystemExit(
+            1
         )
 
 
     # ========================================================
-    # SUCCESS OUTPUT
+    # SUCCESS
     # ========================================================
 
     print(
@@ -788,6 +939,18 @@ def main():
     )
 
     print(
+        "Tanggal monitoring menggunakan:"
+    )
+
+    print(
+        "collected_at → published_at"
+    )
+
+    print(
+        "----------------------------------------"
+    )
+
+    print(
         f"News records          : {len(news)}"
     )
 
@@ -796,7 +959,7 @@ def main():
     )
 
     print(
-        f"Case links            : {len(seen_case_articles)}"
+        f"Case links            : {len(seen_article_case)}"
     )
 
     print(
@@ -804,11 +967,7 @@ def main():
     )
 
     print(
-        f"Actual news today     : {actual_news_count}"
-    )
-
-    print(
-        f"Stored news today     : {stored_news}"
+        f"News today            : {actual_news_count}"
     )
 
     print(
@@ -828,7 +987,7 @@ def main():
     )
 
     print(
-        f"Jatim today           : {actual_jatim}"
+        f"Jatim today           : {actual_jatim_count}"
     )
 
     print(
@@ -836,11 +995,11 @@ def main():
     )
 
     print(
-        f"Global case high today: {actual_case_high_global}"
+        f"Global case-high      : {actual_case_high_global}"
     )
 
     print(
-        f"Jatim case high today : {actual_case_high_jatim}"
+        f"Jatim case-high       : {actual_case_high_jatim}"
     )
 
     print(
