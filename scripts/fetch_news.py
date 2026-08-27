@@ -12,7 +12,7 @@ import xml.etree.ElementTree as ET
 
 
 OUT = "data/news.json"
-USER_AGENT = "JAGAT-News-Monitor/6.5"
+USER_AGENT = "JAGAT-News-Monitor/6.5.1"
 DISCOVERY_FILE = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), "data", "discovery_patterns_v6.json")
 
 

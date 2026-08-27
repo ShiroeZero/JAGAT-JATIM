@@ -2,7 +2,7 @@
 
 JAGAT adalah sistem pemantauan informasi yang berfokus pada pemberitaan terkait Jawa Timur, pengelompokan insiden, skala atensi, pemetaan wilayah, snapshot harian, dan arsip.
 
-## Fondasi V6.5
+## Fondasi V6.5.1
 
 - Jawa Timur adalah wilayah fokus utama.
 - 39 Polres Jawa Timur menjadi entitas organisasi utama. Polsek hanya dipakai sebagai pengikat identitas ke Polres jika terdapat pemetaan yang terverifikasi; Polsek bukan filter wilayah utama.
@@ -19,6 +19,8 @@ JAGAT adalah sistem pemantauan informasi yang berfokus pada pemberitaan terkait 
 ## Alur kerja
 
 `Collect → Normalize/Classify → Case Engine → Snapshot → Validate → Commit → GitHub Pages`
+
+V6.5.1 ini menggunakan engine deterministik lokal. Tidak membutuhkan OPENAI_API_KEY dan tidak memanggil layanan AI eksternal.
 
 Workflow tunggal berada di `.github/workflows/collect.yml`. Secret `YOUTUBE_API_KEY` tetap digunakan untuk pemantauan YouTube.
 

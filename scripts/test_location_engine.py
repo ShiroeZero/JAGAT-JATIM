@@ -16,4 +16,4 @@ for title, expected in CASES.items():
     actual = (got["is_jatim"], got["region"], got["locality"], got["polres"], got["polsek"])
     assert actual == expected, f"{title!r}: {actual} != {expected}"
 
-print("LOCATION ENGINE V6.5: OK")
+print("LOCATION ENGINE V6.5.1: OK")

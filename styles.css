@@ -673,3 +673,53 @@ input:focus, select:focus, textarea:focus{
 .archive-filters input,
 .archive-filters select{background:#0a111b!important;color:#eaf0f7!important;}
 select::-ms-expand{display:none;}
+
+
+/* JAGAT V6.5.1 NON-AI — FILTER MUST FLOW WITH PAGE */
+.filters-panel{
+  position:static!important;
+  top:auto!important;
+  bottom:auto!important;
+  z-index:auto!important;
+  transform:none!important;
+  isolation:auto!important;
+  backdrop-filter:none!important;
+  -webkit-backdrop-filter:none!important;
+}
+
+/* Clear native dropdown/date presentation while preserving dark theme. */
+.filters-panel select,
+.filters-panel input[type="date"],
+.archive-filters select,
+.archive-filters input[type="date"]{
+  appearance:none!important;
+  -webkit-appearance:none!important;
+  background-color:#0a111b!important;
+  color:#eaf0f7!important;
+  border:1px solid #2b3b51!important;
+  color-scheme:dark!important;
+}
+.filters-panel select,
+.archive-filters select{
+  background-image:
+    linear-gradient(45deg, transparent 50%, #b8c6d8 50%),
+    linear-gradient(135deg, #b8c6d8 50%, transparent 50%)!important;
+  background-position:
+    calc(100% - 18px) 50%,
+    calc(100% - 12px) 50%!important;
+  background-size:6px 6px,6px 6px!important;
+  background-repeat:no-repeat!important;
+  padding-right:42px!important;
+}
+.filters-panel select:hover,
+.archive-filters select:hover{
+  border-color:#3d5778!important;
+}
+.filters-panel select:focus,
+.filters-panel input[type="date"]:focus,
+.archive-filters select:focus,
+.archive-filters input[type="date"]:focus{
+  outline:none!important;
+  border-color:#4f74a5!important;
+  box-shadow:0 0 0 3px rgba(79,116,165,.12)!important;
+}

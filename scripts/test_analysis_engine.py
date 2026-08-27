@@ -14,4 +14,7 @@ sop = analyze_article(cases.__iter__().__next__(), "", True)
 assert sop["attention_score"] >= 25, sop
 handling = analyze_article("Geliat Tambang Ilegal di Sukorejo Lamongan Belum Tersentuh Polisi", "", True)
 assert handling["handling_status"] == "BELUM_DITANGANI", handling
-print("ANALYSIS ENGINE V6.5: OK")
+print("ANALYSIS ENGINE V6.5.1: OK")
+
+# AI-related fields are optional and do not affect deterministic analysis.
+assert analyze_article("Anggota Polisi Diduga Langgar SOP", "", True)["issue_type"] == "PELANGGARAN_PROSEDUR"

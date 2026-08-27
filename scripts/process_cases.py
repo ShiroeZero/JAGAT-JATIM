@@ -10,7 +10,7 @@ from analysis_engine import case_attention
 NEWS_FILE = "data/news.json"
 CASE_FILE = "data/case_clusters.json"
 
-ENGINE_VERSION = "case-v6.5"
+ENGINE_VERSION = "case-v6.5.1"
 MAX_CASE_AGE_DAYS = 120
 
 # Normal clustering may use one concrete event term when the
@@ -195,7 +195,12 @@ def next_case_id(cases):
 
 def is_case_candidate(item):
     scope = str(item.get("scope") or "").lower()
-    return scope in {"negative", "case"}
+    if scope in {"negative", "case"}:
+        return True
+
+    # Optional AI triage may promote semantically relevant articles into the
+    # Case Engine. Deterministic candidate rules are never demoted by AI.
+    return item.get("ai_case_candidate") is True
 
 def get_date_candidates(item):
     for key in ("collected_at", "published_at"):
@@ -533,6 +538,13 @@ def attach(case, item, score):
         "attention_score": item.get("attention_score", 0),
         "attention_label": item.get("attention_label", "Rendah"),
         "attention_components": item.get("attention_components", {}),
+        "ai_case_candidate": item.get("ai_case_candidate"),
+        "ai_case_confidence": item.get("ai_case_confidence"),
+        "ai_issue_type": item.get("ai_issue_type"),
+        "ai_issue_subtype": item.get("ai_issue_subtype"),
+        "ai_handling_status": item.get("ai_handling_status"),
+        "ai_case_reason": item.get("ai_case_reason"),
+        "ai_case_evidence": item.get("ai_case_evidence", []),
     }
 
     existing = {a.get("id"): i for i, a in enumerate(case["articles"])}
@@ -742,7 +754,7 @@ def main():
     old_version = old_db.get("engine_version")
 
     print("========================================")
-    print("JAGAT CASE ENGINE V6.5")
+    print("JAGAT CASE ENGINE V6.5.1")
     print("CANONICAL INCIDENT CLUSTERING")
     print("========================================")
     print(f"Total news loaded : {len(news)}")

@@ -12,7 +12,7 @@ from analysis_engine import analyze_article
 from fetch_news import discovery_matches, POLICE_ANCHORS
 
 NEWS_FILE = os.path.join(BASE, "data", "news.json")
-ENGINE_VERSION = "normalizer-v6.5"
+ENGINE_VERSION = "normalizer-v6.5.1"
 
 
 def has_any(text, terms):
@@ -59,7 +59,7 @@ def classify_existing(item):
         "discovery_families": families,
         "discovery_tags": tags,
         "discovery_hits": hits,
-        "discovery_version": "discovery-v6.5",
+        "discovery_version": "discovery-v6.5.1",
     })
     return item
 
@@ -75,8 +75,8 @@ def main():
     after = json.dumps(items, ensure_ascii=False, sort_keys=True)
 
     db["location_engine_version"] = "location-v6.5-title-only"
-    db["classifier_version"] = "news-v6.5"
-    db["analysis_engine_version"] = "analysis-v6.5"
+    db["classifier_version"] = "news-v6.5.1"
+    db["analysis_engine_version"] = "analysis-v6.5.1"
     db["normalized_at"] = datetime.now(timezone.utc).isoformat()
 
     tmp = NEWS_FILE + ".tmp"
