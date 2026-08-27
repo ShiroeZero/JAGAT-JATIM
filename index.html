@@ -7,7 +7,7 @@
   <meta name="description" content="JAGAT — Jejaring Analisis & Garda Atensi Terpadu">
   <title>JAGAT — Jejaring Analisis &amp; Garda Atensi Terpadu</title>
   <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" crossorigin="">
-  <link rel="stylesheet" href="styles.css?v=5.5">
+  <link rel="stylesheet" href="styles.css?v=6.5.0">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css">
   <link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
 </head>
@@ -65,7 +65,7 @@
           <div class="stat"><span>Berita Jatim Hari Ini</span><strong id="sTotal">0</strong></div>
           <div class="stat"><span>Kasus Jatim Hari Ini</span><strong id="sCaseToday">0</strong></div>
           <div class="stat"><span>Ungkap Kasus Jatim</span><strong id="sCaseUngkap">0</strong></div>
-          <div class="stat danger"><span>Prioritas Tinggi Jatim</span><strong id="sHigh">0</strong></div>
+          <div class="stat danger"><span>Atensi Tinggi Jatim</span><strong id="sHigh">0</strong></div>
         </div>
 
         <div class="stats stats-4">
@@ -116,7 +116,7 @@
           </section>
           <section class="panel">
             <div class="panel-head">
-              <div><h3>Kasus Terbaru</h3><div class="muted">Incident Jatim yang terdeteksi hari ini; satu Case dapat memiliki banyak sumber.</div></div>
+              <div><h3>Kasus Terbaru</h3><div class="muted">Insiden Jawa Timur yang terdeteksi hari ini; satu kasus dapat memiliki banyak sumber.</div></div>
             </div>
             <div id="latestCases"></div>
           </section>
@@ -126,7 +126,7 @@
       <section id="monitoringView" class="view hidden">
         <div class="section-banner monitoring-banner">
           <div>
-            <h2 class="section-context-title">Temukan Berita &amp; Case</h2>
+            <h2 class="section-context-title">Temukan Berita &amp; Kasus</h2>
             <div class="muted" id="monitoringContextText">Pilih periode, lokasi, atau klasifikasi untuk mempersempit hasil.</div>
           </div>
           <span class="today-badge">DATA TERKINI</span>
@@ -162,7 +162,7 @@
             <div class="filter-group">
               <div class="filter-group-label"><i class="fa-solid fa-sliders" aria-hidden="true"></i> Klasifikasi</div>
               <div class="filter-group-controls filter-group-3">
-                <select id="priority"><option value="all">Semua Prioritas</option><option value="high">Tinggi</option><option value="medium">Sedang</option><option value="low">Rendah</option></select>
+                <select id="priority"><option value="all">Semua Skala Atensi</option><option value="0-24">0–24 · Rendah</option><option value="25-49">25–49 · Perlu Perhatian</option><option value="50-69">50–69 · Atensi</option><option value="70-84">70–84 · Atensi Tinggi</option><option value="85-100">85–100 · Kritis</option></select>
                 <select id="scope"><option value="all">Semua Jenis Berita</option><option value="negative">Negatif</option><option value="case">Ungkap Kasus</option><option value="positive">Positif</option><option value="neutral">Netral</option></select>
                 <select id="category"><option value="all">Semua Kategori</option></select>
               </div>
@@ -195,7 +195,7 @@
         </section>
 
         <div id="monitoringCases" class="case-results"></div>
-        <section class="panel"><div class="subsection-head"><div><h3>Berita Individual</h3><div class="muted">Berita yang tidak tampil sebagai Case card tetap dapat dibuka satu per satu.</div></div></div><div id="list" class="news-list"></div></section>
+        <section class="panel"><div class="subsection-head"><div><h3>Berita Individual</h3><div class="muted">Berita yang tidak tampil sebagai kartu Kasus tetap dapat dibuka satu per satu.</div></div></div><div id="list" class="news-list"></div></section>
       </section>
 
       <section id="reportsView" class="view hidden">
@@ -220,7 +220,7 @@
 
         <section id="archiveDetail" class="hidden">
           <div class="archive-detail-head">
-            <div><div class="eyebrow">ARCHIVE SNAPSHOT</div><h2 id="archiveTitle">-</h2><div id="archiveUpdated" class="muted">-</div></div>
+            <div><div class="eyebrow">ARSIP SNAPSHOT</div><h2 id="archiveTitle">-</h2><div id="archiveUpdated" class="muted">-</div></div>
             <button id="archiveBack" class="secondary">← Daftar Arsip</button>
           </div>
 
@@ -228,13 +228,13 @@
             <div class="stat"><span>Berita</span><strong id="archiveNews">0</strong></div>
             <div class="stat"><span>Case</span><strong id="archiveCases">0</strong></div>
             <div class="stat"><span>Jawa Timur</span><strong id="archiveJatim">0</strong></div>
-            <div class="stat danger"><span>High Case</span><strong id="archiveHigh">0</strong></div>
+            <div class="stat danger"><span>Atensi Tinggi</span><strong id="archiveHigh">0</strong></div>
           </div>
 
           <div class="mode-tabs archive-modes">
             <button class="mode-tab active" data-archive-mode="all">Semua</button>
             <button class="mode-tab" data-archive-mode="jatim">Jawa Timur</button>
-            <button class="mode-tab" data-archive-mode="high">Prioritas Tinggi</button>
+            <button class="mode-tab" data-archive-mode="high">Atensi Tinggi</button>
           </div>
 
           <section class="panel filters-panel">
@@ -242,7 +242,7 @@
               <input id="archiveSearch" placeholder="Cari berita arsip...">
               <select id="archiveRegion"><option value="all">Semua Wilayah / Area</option></select>
               <select id="archivePolres"><option value="all">Polres terdeteksi</option></select>
-              <select id="archivePriority"><option value="all">Semua Prioritas</option><option value="high">Tinggi</option><option value="medium">Sedang</option><option value="low">Rendah</option></select>
+              <select id="archivePriority"><option value="all">Semua Skala Atensi</option><option value="0-24">0–24 · Rendah</option><option value="25-49">25–49 · Perlu Perhatian</option><option value="50-69">50–69 · Atensi</option><option value="70-84">70–84 · Atensi Tinggi</option><option value="85-100">85–100 · Kritis</option></select>
               <select id="archiveScope"><option value="all">Semua Jenis Berita</option><option value="negative">Negatif</option><option value="case">Ungkap Kasus</option><option value="positive">Positif</option><option value="neutral">Netral</option></select>
               <select id="archiveCategory"><option value="all">Semua Kategori</option></select>
               <button id="archiveClear" class="secondary">Reset</button>
@@ -257,7 +257,7 @@
     </main>
 
     <nav class="mobile-nav" aria-label="Navigasi mobile">
-      <button class="nav active" data-view="dashboard"><span class="nav-icon"><i class="fa-solid fa-gauge-high" aria-hidden="true"></i></span><small>Dash</small></button>
+      <button class="nav active" data-view="dashboard"><span class="nav-icon"><i class="fa-solid fa-gauge-high" aria-hidden="true"></i></span><small>Dasbor</small></button>
       <button class="nav" data-view="monitoring"><span class="nav-icon"><i class="fa-solid fa-satellite-dish" aria-hidden="true"></i></span><small>Monitor</small></button>
       <button class="nav" data-view="reports"><span class="nav-icon"><i class="fa-solid fa-file-lines" aria-hidden="true"></i></span><small>Laporan</small></button>
       <button class="nav" data-view="archive"><span class="nav-icon"><i class="fa-solid fa-box-archive" aria-hidden="true"></i></span><small>Arsip</small></button>

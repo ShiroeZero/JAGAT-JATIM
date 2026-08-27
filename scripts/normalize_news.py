@@ -1,3 +1,4 @@
+"""JAGAT V6.5 - reclassify existing news using shared engines."""
 import json
 import os
 import sys
@@ -7,24 +8,59 @@ BASE = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 sys.path.insert(0, os.path.join(BASE, "scripts"))
 
 from location_engine import detect_location
+from analysis_engine import analyze_article
+from fetch_news import discovery_matches, POLICE_ANCHORS
 
 NEWS_FILE = os.path.join(BASE, "data", "news.json")
-ENGINE_VERSION = "location-v6.4-title-only"
+ENGINE_VERSION = "normalizer-v6.5"
 
 
-def normalize_news_record(item):
-    result = detect_location(
-        item.get("title", ""),
+def has_any(text, terms):
+    from fetch_news import contains_term
+    return any(contains_term(text, term) for term in terms)
+
+
+def classify_existing(item):
+    title = item.get("title", "")
+    summary = item.get("summary", "")
+    text = f"{title} {summary}".lower()
+    location = detect_location(
+        title,
         source=item.get("source") or item.get("publisher") or "",
     )
-    item["is_jatim"] = bool(result["is_jatim"])
-    item["region"] = result["region"]
-    item["locality"] = result["locality"]
-    item["area_label"] = result["area_label"]
-    item["polres"] = result["polres"]
-    item["location_confidence"] = result["confidence"]
-    item["location_evidence"] = result["evidence"]
-    item["location_source"] = "title"
+    analysis = analyze_article(
+        title,
+        summary,
+        police_context=has_any(text, POLICE_ANCHORS),
+    )
+    families, tags, hits = discovery_matches(text)
+
+    item.update({
+        "is_jatim": location.get("is_jatim"),
+        "region": location.get("region"),
+        "locality": location.get("locality") or "",
+        "area_label": location.get("area_label"),
+        "polres": location.get("polres"),
+        "polsek": location.get("polsek"),
+        "location_confidence": location.get("confidence", 0),
+        "location_evidence": location.get("evidence", []),
+        "location_status": location.get("location_status"),
+        "location_source": location.get("source") or "title",
+        "issue_type": analysis["issue_type"],
+        "issue_subtype": analysis["issue_subtype"],
+        "issue_evidence": analysis["issue_evidence"],
+        "handling_status": analysis["handling_status"],
+        "handling_evidence": analysis["handling_evidence"],
+        "attention_score": analysis["attention_score"],
+        "attention_label": analysis["attention_label"],
+        "attention_components": analysis["attention_components"],
+        "attention_evidence": analysis["attention_evidence"],
+        "priority": analysis["legacy_priority"],
+        "discovery_families": families,
+        "discovery_tags": tags,
+        "discovery_hits": hits,
+        "discovery_version": "discovery-v6.5",
+    })
     return item
 
 
@@ -33,44 +69,34 @@ def main():
         db = json.load(f)
 
     items = db.get("items", [])
-    changed = 0
-    jatim = 0
-    outside = 0
-
+    before = json.dumps(items, ensure_ascii=False, sort_keys=True)
     for item in items:
-        before = {
-            k: item.get(k)
-            for k in ("is_jatim", "region", "locality", "area_label", "polres", "location_confidence", "location_evidence")
-        }
-        normalize_news_record(item)
-        after = {
-            k: item.get(k)
-            for k in before
-        }
-        if before != after:
-            changed += 1
-        if item.get("is_jatim"):
-            jatim += 1
-        else:
-            outside += 1
+        classify_existing(item)
+    after = json.dumps(items, ensure_ascii=False, sort_keys=True)
 
-    db["location_engine_version"] = ENGINE_VERSION
-    db["location_normalized_at"] = datetime.now(timezone.utc).isoformat()
+    db["location_engine_version"] = "location-v6.5-title-only"
+    db["classifier_version"] = "news-v6.5"
+    db["analysis_engine_version"] = "analysis-v6.5"
+    db["normalized_at"] = datetime.now(timezone.utc).isoformat()
 
     tmp = NEWS_FILE + ".tmp"
     with open(tmp, "w", encoding="utf-8") as f:
         json.dump(db, f, ensure_ascii=False, indent=2)
     os.replace(tmp, NEWS_FILE)
 
+    jatim = sum(1 for x in items if x.get("is_jatim") is True)
+    outside = sum(1 for x in items if x.get("region") == "LUAR JATIM")
+    unknown = sum(1 for x in items if x.get("region") == "BELUM TERPETAKAN")
+
     print("========================================")
-    print("JAGAT LOCATION NORMALIZATION V6.4")
-    print("TITLE ONLY")
+    print("JAGAT NORMALISASI V6.5")
     print("========================================")
-    print(f"News records : {len(items)}")
-    print(f"Jawa Timur   : {jatim}")
-    print(f"LUAR JATIM   : {outside}")
-    print(f"Changed      : {changed}")
-    print(f"Engine       : {ENGINE_VERSION}")
+    print(f"News records     : {len(items)}")
+    print(f"Jawa Timur       : {jatim}")
+    print(f"Luar Jatim       : {outside}")
+    print(f"Belum terpetakan : {unknown}")
+    print(f"Changed          : {before != after}")
+    print(f"Engine           : {ENGINE_VERSION}")
     print("========================================")
 
 

@@ -186,7 +186,7 @@
 
 
 /* ==========================================================
-   JAGAT V6.1 — FLAT BRAND + UX STABILITY
+   JAGAT V6.5 — FLAT BRAND + UX STABILITY
    ========================================================== */
 .brand-logo-img{
   width:38px!important;
@@ -370,7 +370,7 @@ body{font-size:13px;line-height:1.5}
 
 
 /* ==========================================================
-   JAGAT V6.4 — FINAL UX / VISUAL SYSTEM
+   JAGAT V6.5 — FINAL UX / VISUAL SYSTEM
    ========================================================== */
 :root{
   --text:#eef3f9;
@@ -485,7 +485,7 @@ input:focus,select:focus,textarea:focus{
 }
 
 
-/* V6.4 interaction actions: copy/open links */
+/* V6.5 interaction actions: copy/open links */
 .card-actions-bottom{
   margin-top:10px;
   display:flex;
@@ -533,3 +533,143 @@ input:focus,select:focus,textarea:focus{
   .card-actions-bottom{align-items:flex-end}
   .card-actions-buttons{flex-wrap:wrap}
 }
+
+/* ==========================================================
+   JAGAT V6.5 — FINAL UI / UX SYSTEM
+   ========================================================== */
+:root{
+  --control:#0a111b;
+  --control-border:#29394e;
+  --control-text:#e8eef7;
+  --control-muted:#73859a;
+}
+
+/* Consistent dark controls; never let native browser white styles leak in. */
+input, select, textarea,
+.filter-search-wrap input,
+.filter-group select,
+.filter-period-row input,
+.filters input, .filters select,
+.archive-filters input, .archive-filters select{
+  background-color:var(--control)!important;
+  color:var(--control-text)!important;
+  border:1px solid var(--control-border)!important;
+  color-scheme:dark!important;
+  -webkit-text-fill-color:var(--control-text)!important;
+}
+
+select{
+  cursor:pointer;
+  appearance:none!important;
+  -webkit-appearance:none!important;
+  background-image:
+    linear-gradient(45deg,transparent 50%,#9aabc0 50%),
+    linear-gradient(135deg,#9aabc0 50%,transparent 50%)!important;
+  background-position:calc(100% - 18px) 50%,calc(100% - 12px) 50%!important;
+  background-size:6px 6px,6px 6px!important;
+  background-repeat:no-repeat!important;
+  padding-right:38px!important;
+}
+select option, select optgroup{
+  background:#0a111b!important;
+  color:#e8eef7!important;
+}
+input::placeholder{color:var(--control-muted)!important;opacity:1!important}
+input:focus, select:focus, textarea:focus{
+  outline:none!important;
+  border-color:#3e6797!important;
+  box-shadow:0 0 0 3px rgba(62,103,151,.13)!important;
+}
+
+/* Clear page hierarchy and comfortable reading scale. */
+.topbar h1{font-size:31px!important;line-height:1.14!important;letter-spacing:-.6px}
+.today-date{font-size:13px!important}
+.section-context-title{font-size:27px!important;line-height:1.2!important}
+.panel h3,.subsection-head h3{font-size:17px!important}
+.news-card h3{font-size:15px!important;line-height:1.5!important}
+.case-card>strong{font-size:15px!important;line-height:1.48!important}
+.news-card-meta{font-size:11px!important}
+.muted{font-size:12px!important}
+.stat span{font-size:12px!important}
+.stat strong{font-size:30px!important}
+
+/* Monitoring filter is a real section, not a floating group. */
+.filters-panel{
+  position:relative!important;
+  top:auto!important;
+  z-index:5!important;
+  background:rgba(13,19,29,.98)!important;
+  backdrop-filter:none!important;
+  border:1px solid #1e2c3d!important;
+}
+.filter-toolbar-head{min-height:46px}
+.filter-search-row{margin-top:14px}
+.filter-search-wrap{max-width:720px}
+.filter-search-wrap input{height:48px!important;font-size:14px!important}
+.filter-groups{align-items:stretch}
+.filter-group{background:#0b131e!important}
+.filter-group-label{font-size:11px!important;letter-spacing:.9px!important}
+.filter-group select,.filter-period-row input{height:46px!important;font-size:13px!important}
+.filter-period-row{align-items:end}
+.quick-date{min-height:46px!important;font-size:12px!important}
+.active-filter-chip{background:#132238!important;border:1px solid #294665!important;color:#dce8f6!important}
+.active-filter-label{color:#90a7c2!important;letter-spacing:.8px;text-transform:uppercase}
+
+/* Location facet semantics. */
+#region option[value="__JATIM__"]{font-weight:800}
+#region option[value="__OUTSIDE__"],#region option[value="__UNKNOWN__"]{font-weight:700}
+
+/* Attention classes. */
+.pill.attention{color:#b8d2ff;border-color:#31547e;background:rgba(49,84,126,.14)}
+
+/* Region drawer/source actions stay compact but obvious. */
+.source-row-actions{display:inline-flex;align-items:center;gap:6px;flex:0 0 auto}
+.copy-link-btn,.open-link-btn{
+  display:inline-flex!important;
+  align-items:center!important;
+  justify-content:center!important;
+  gap:5px!important;
+  min-height:34px!important;
+  padding:7px 10px!important;
+  border-radius:7px!important;
+  font-size:10px!important;
+}
+.copy-link-btn{background:#101b28!important;border:1px solid #263a51!important;color:#cbd8e8!important;cursor:pointer!important}
+.copy-link-btn:hover{background:#16263a!important;border-color:#3b5d84!important}
+.copy-link-btn.copied{color:#6fe0b2!important;border-color:#286e55!important}
+.open-link-btn{background:#121f2f!important;border:1px solid #2a4160!important;color:#9fc4ff!important;text-decoration:none!important}
+.open-link-btn:hover{background:#182a40!important}
+
+/* Parent region row on dashboard. */
+.region-parent strong{font-size:18px!important}
+.region-parent small{font-size:11px!important}
+.region-row{min-height:58px}
+
+@media(max-width:1200px){
+  .topbar h1{font-size:29px!important}
+  .section-context-title{font-size:25px!important}
+}
+@media(max-width:900px){
+  .topbar h1{font-size:27px!important}
+  .section-context-title{font-size:23px!important}
+  .filters-panel{position:relative!important}
+  .filter-group select,.filter-period-row input{height:44px!important}
+}
+@media(max-width:600px){
+  .topbar h1{font-size:24px!important}
+  .section-context-title{font-size:21px!important}
+  .panel h3,.subsection-head h3{font-size:16px!important}
+  .news-card h3{font-size:14px!important}
+  .case-card>strong{font-size:14px!important}
+  .stat strong{font-size:25px!important}
+}
+
+
+/* JAGAT V6.5 FINAL OVERRIDES */
+.filters-panel{position:relative!important;top:auto!important;z-index:auto!important;background:var(--panel)!important;backdrop-filter:none!important;-webkit-backdrop-filter:none!important;}
+.filter-search-wrap input,
+.filter-group select,
+.filter-period-row input,
+.archive-filters input,
+.archive-filters select{background:#0a111b!important;color:#eaf0f7!important;}
+select::-ms-expand{display:none;}

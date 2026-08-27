@@ -72,6 +72,43 @@ function getTitle(x) { return x?.title || "Tanpa judul"; }
 function getSource(x) { return x?.source || x?.publisher || "Sumber tidak diketahui"; }
 function getItemDate(x) { return x?.collected_at || x?.detected_at || x?.published_at || x?.last_detected_at || ""; }
 function getPriority(x) { return String(x?.priority || "low").toLowerCase(); }
+function getAttentionScore(x) {
+  const n = Number(x?.attention_score ?? x?.priority_score);
+  if (Number.isFinite(n)) return Math.max(0, Math.min(100, n));
+  return ({ high: 75, medium: 50, low: 20 })[getPriority(x)] || 20;
+}
+function attentionBand(score) {
+  const n = getAttentionScore({ attention_score: score });
+  if (n <= 24) return "Rendah";
+  if (n <= 49) return "Perlu Perhatian";
+  if (n <= 69) return "Atensi";
+  if (n <= 84) return "Atensi Tinggi";
+  return "Kritis";
+}
+function attentionClass(score) {
+  const n = getAttentionScore({ attention_score: score });
+  if (n <= 24) return "low";
+  if (n <= 49) return "medium";
+  if (n <= 69) return "attention";
+  return "high";
+}
+function getEffectiveAttentionScore(article, cases = activeCases()) {
+  const related = article?.case_id ? getCaseById(article.case_id, cases) : null;
+  return getAttentionScore(related || article);
+}
+function getEffectiveAttentionLabel(article, cases = activeCases()) {
+  const related = article?.case_id ? getCaseById(article.case_id, cases) : null;
+  return related?.attention_label || attentionBand(getEffectiveAttentionScore(article, cases));
+}
+function attentionBandValue(value) {
+  return String(value || "");
+}
+function matchesAttentionBand(article, value, cases = activeCases()) {
+  if (!value || value === "all") return true;
+  const n = getEffectiveAttentionScore(article, cases);
+  const [lo, hi] = value.split("-").map(Number);
+  return Number.isFinite(lo) && Number.isFinite(hi) && n >= lo && n <= hi;
+}
 function getScope(x) { return String(x?.scope || "neutral").toLowerCase(); }
 function getCategory(x) { return x?.category || "NETRAL / LAINNYA"; }
 function isJatim(x) { return x?.is_jatim === true || String(x?.region || "").toLowerCase() === "jawa timur"; }
@@ -132,8 +169,15 @@ function getLocality(x) {
 }
 
 function getFilterArea(x) {
+  if (x?.region === "BELUM TERPETAKAN" || x?.is_jatim == null) return "BELUM TERPETAKAN";
   if (!isJatim(x)) return "LUAR JATIM";
   return String(x?.locality || getLocality(x) || "Jawa Timur (Umum)");
+}
+
+function filterLocationValue(x) {
+  if (x?.region === "BELUM TERPETAKAN" || x?.is_jatim == null) return "__UNKNOWN__";
+  if (isJatim(x)) return "__JATIM__";
+  return "__OUTSIDE__";
 }
 
 function getCasePriorityIds(cases = activeCases()) {
@@ -201,11 +245,7 @@ function currentDateBounds() {
 }
 
 function selectBaseNewsDataset() {
-  if (activeArchive) return activeArchive.news?.items || [];
-  const { from, to } = currentDateBounds();
-  const today = todayData?.date || "";
-  if (from === today && to === today) return todayItems();
-  return newsData;
+  return activeArchive ? (activeArchive.news?.items || []) : newsData;
 }
 
 function filterByDate(items, from, to) {
@@ -280,6 +320,8 @@ function renderHeader() {
   if ($("sCaseUngkap")) $("sCaseUngkap").textContent = number(caseScope);
   if ($("sPositive")) $("sPositive").textContent = number(positive);
   if ($("sNeutral")) $("sNeutral").textContent = number(neutral);
+  const regionCount = unique(items.map(getFilterArea).filter(x => x && x !== "LUAR JATIM" && x !== "BELUM TERPETAKAN")).length;
+  if ($("sRegions")) $("sRegions").textContent = number(regionCount);
 }
 
 
@@ -423,18 +465,20 @@ function renderCategories(items) {
 
 function articleCard(item) {
   const c = getCaseById(item.case_id);
-  const cHigh = c && getPriority(c) === "high";
+  const attention = getEffectiveAttentionScore(item, activeCases());
+  const attentionLabel = getEffectiveAttentionLabel(item, activeCases());
+  const aClass = attentionClass(attention);
   const url = normalizeUrl(item.url);
   return `<article class="news-card clickable" data-article-id="${escapeHtml(item.id)}">
     <div class="news-card-top">
       <div>
         <div class="news-card-meta">${escapeHtml(getSource(item))} · ${escapeHtml(getFilterArea(item))} · ${escapeHtml(formatDateTime(getItemDate(item)))}</div>
         <h3>${escapeHtml(getTitle(item))}</h3>
-        <div class="news-card-meta">${escapeHtml(getCategory(item))}${c ? ` · ${escapeHtml(cHigh ? "Kasus HIGH" : "Terkait Kasus")}` : " · Belum terkait Kasus"}</div>
+        <div class="news-card-meta">${escapeHtml(getCategory(item))}${c ? ` · Terkait ${escapeHtml(c.attention_label || "Kasus")}` : " · Belum terkait Kasus"}</div>
       </div>
       <div class="badges">
-        <span class="pill ${escapeHtml(getPriority(item))}">ARTIKEL ${escapeHtml(getPriority(item).toUpperCase())}</span>
-        ${c ? `<span class="pill ${cHigh ? "high" : ""}">CASE ${escapeHtml(getPriority(c).toUpperCase())}</span>` : `<span class="pill">${escapeHtml(getScope(item).toUpperCase())}</span>`}
+        <span class="pill ${aClass}">ATENSI ${number(attention)}/100 · ${escapeHtml(attentionLabel)}</span>
+        ${c ? `<span class="pill ${attentionClass(getAttentionScore(c))}">KASUS ${number(getAttentionScore(c))}/100</span>` : `<span class="pill">${escapeHtml(getScope(item).toUpperCase())}</span>`}
       </div>
     </div>
     <div class="card-actions-bottom">
@@ -448,14 +492,15 @@ function articleCard(item) {
 }
 
 function caseCard(c, index) {
-  const p = getPriority(c);
+  const attention = getAttentionScore(c);
+  const attentionLabel = c.attention_label || attentionBand(attention);
+  const aClass = attentionClass(attention);
   const locality = getLocality(c);
-  const score = c.priority_score != null ? ` · ${number(c.priority_score)}/100` : "";
   const firstSourceUrl = normalizeUrl((c.articles || []).find(a => normalizeUrl(a.url))?.url);
   return `<article class="case-card clickable" data-case-id="${escapeHtml(c.case_id)}">
-    <div class="case-card-top"><span class="case-id">KASUS ${String(index).padStart(2, "0")}</span><span class="pill ${escapeHtml(p)}">${escapeHtml(p.toUpperCase())}${score}</span></div>
+    <div class="case-card-top"><span class="case-id">KASUS ${String(index).padStart(2, "0")}</span><span class="pill ${aClass}">ATENSI ${number(attention)}/100 · ${escapeHtml(attentionLabel)}</span></div>
     <strong>${escapeHtml(c.title || "Kasus")}</strong>
-    <div class="news-card-meta">${escapeHtml(locality || c.region || "Indonesia")} · ${number(c.article_count || (c.articles || []).length)} sumber · update ${escapeHtml(formatDateTime(c.last_detected_at || c.last_seen || c.updated_at))}</div>
+    <div class="news-card-meta">${escapeHtml(locality || c.region || "Belum Terpetakan")} · ${number(c.article_count || (c.articles || []).length)} sumber · update ${escapeHtml(formatDateTime(c.last_detected_at || c.last_seen || c.updated_at))}</div>
     <div class="card-actions-bottom">
       <span class="card-action">Klik untuk melihat seluruh sumber →</span>
       <span class="card-actions-buttons">
@@ -482,7 +527,7 @@ function renderLatestCases(items = todayJatimItems()) {
   const cases = globalCases()
     .filter(c => ids.has(c.case_id))
     .slice()
-    .sort((a, b) => priorityRank(b.priority) - priorityRank(a.priority) || new Date(b.last_detected_at || b.last_seen || 0) - new Date(a.last_detected_at || a.last_seen || 0))
+    .sort((a, b) => getAttentionScore(b) - getAttentionScore(a) || new Date(b.last_detected_at || b.last_seen || 0) - new Date(a.last_detected_at || a.last_seen || 0))
     .slice(0, 6);
   target.innerHTML = cases.length ? cases.map((c, i) => caseCard(c, i + 1)).join("") : `<div class="empty">Belum ada Kasus Jatim hari ini.</div>`;
   bindCaseClicks(target, globalCases(), newsData);
@@ -503,60 +548,88 @@ function getFacetItems(excludeId) {
   const { from, to } = currentDateBounds();
   let items = filterByDate(currentMonitoringBase(), from, to);
   const search = ($("search")?.value || "").trim().toLowerCase();
-  const region = $("region")?.value || "all";
+  const location = $("region")?.value || "all";
   const polres = $("polres")?.value || "all";
-  const priority = $("priority")?.value || "all";
+  const attention = $("priority")?.value || "all";
   const scope = $("scope")?.value || "all";
   const category = $("category")?.value || "all";
   const cases = activeCases();
 
   if (search && excludeId !== "search") {
-    items = items.filter(x => [getTitle(x), getSource(x), getFilterArea(x), x.polres, getCategory(x), getScope(x)].filter(Boolean).join(" ").toLowerCase().includes(search));
+    items = items.filter(x => [getTitle(x), getSource(x), getFilterArea(x), x.polres, getCategory(x), getScope(x), x.issue_type, x.issue_subtype].filter(Boolean).join(" ").toLowerCase().includes(search));
   }
-  if (excludeId !== "region" && region !== "all") items = items.filter(x => getFilterArea(x) === region);
+  if (excludeId !== "region" && location !== "all") {
+    if (location === "__JATIM__") items = items.filter(isJatim);
+    else if (location === "__OUTSIDE__") items = items.filter(x => x.region === "LUAR JATIM");
+    else if (location === "__UNKNOWN__") items = items.filter(x => x.region === "BELUM TERPETAKAN" || x.is_jatim == null);
+    else items = items.filter(x => getFilterArea(x) === location);
+  }
   if (excludeId !== "polres" && polres !== "all") items = items.filter(x => String(x.polres || "") === polres);
-  if (excludeId !== "priority" && priority !== "all") items = items.filter(x => getEffectivePriority(x, cases) === priority);
+  if (excludeId !== "priority" && attention !== "all") items = items.filter(x => matchesAttentionBand(x, attention, cases));
   if (excludeId !== "scope" && scope !== "all") items = items.filter(x => getScope(x) === scope);
   if (excludeId !== "category" && category !== "all") items = items.filter(x => getCategory(x) === category);
   return items;
 }
 
-function sortedFacetAreas(items) {
-  const values = unique(items.map(getFilterArea));
-  return values.sort((a,b) => {
-    if (a === "LUAR JATIM") return 1;
-    if (b === "LUAR JATIM") return -1;
-    if (a === "Jawa Timur (Umum)") return 1;
-    if (b === "Jawa Timur (Umum)") return -1;
-    return a.localeCompare(b, "id");
-  });
+function populateRegionFilter(items, selected) {
+  const el = $("region");
+  if (!el) return;
+  const areas = unique(items.filter(isJatim).map(getFilterArea))
+    .filter(Boolean)
+    .sort((a,b) => {
+      if (a === "Jawa Timur (Umum)") return -1;
+      if (b === "Jawa Timur (Umum)") return 1;
+      return a.localeCompare(b, "id");
+    });
+  const outside = items.some(x => x.region === "LUAR JATIM") || items.some(x => x.is_jatim === false);
+  const unknown = items.some(x => x.region === "BELUM TERPETAKAN" || x.is_jatim == null);
+  const opts = [
+    `<option value="all">Semua Wilayah / Area</option>`,
+    items.some(isJatim) ? `<option value="__JATIM__">Jawa Timur — semua wilayah</option>` : "",
+    ...areas.map(a => `<option value="${escapeHtml(a)}">↳ ${escapeHtml(a)}</option>`),
+    outside ? `<option value="__OUTSIDE__">Luar Jatim</option>` : "",
+    unknown ? `<option value="__UNKNOWN__">Belum Terpetakan</option>` : ""
+  ];
+  el.innerHTML = opts.join("");
+  if (["all","__JATIM__","__OUTSIDE__","__UNKNOWN__"].includes(selected) || areas.includes(selected)) el.value = selected;
 }
 
 function populateMonitoringFilters() {
-  const region = $("region")?.value || "all";
+  const location = $("region")?.value || "all";
   const polres = $("polres")?.value || "all";
-  const priority = $("priority")?.value || "all";
+  const attention = $("priority")?.value || "all";
   const scope = $("scope")?.value || "all";
   const category = $("category")?.value || "all";
 
-  const areas = sortedFacetAreas(getFacetItems("region"));
-  populateSelect($("region"), "Semua Wilayah / Area", areas, region);
+  const base = getFacetItems("region");
+  populateRegionFilter(base, location);
 
-  const polresValues = unique(getFacetItems("polres").filter(isJatim).map(x => x.polres).filter(Boolean)).sort((a,b)=>a.localeCompare(b,"id"));
+  const polresItems = getFacetItems("polres");
+  const polresValues = unique(polresItems.filter(isJatim).map(x => x.polres).filter(Boolean)).sort((a,b) => a.localeCompare(b,"id"));
   populateSelect($("polres"), "Polres terdeteksi", polresValues, polres);
 
-  const priorities = unique(getFacetItems("priority").map(x => getEffectivePriority(x, activeCases()))).sort((a,b)=>priorityRank(b)-priorityRank(a));
-  populateSelect($("priority"), "Semua Prioritas", priorities, priority);
-
-  const scopes = unique(getFacetItems("scope").map(getScope)).sort();
-  const scopeLabels = { negative: "Negatif", case: "Ungkap Kasus", positive: "Positif", neutral: "Netral" };
-  const scopeEl = $("scope");
-  if (scopeEl) {
-    scopeEl.innerHTML = `<option value="all">Semua Jenis Berita</option>` + scopes.map(v => `<option value="${escapeHtml(v)}">${escapeHtml(scopeLabels[v] || v)}</option>`).join("");
-    if (scopes.includes(scope)) scopeEl.value = scope;
+  // Priority filter is a stable scale, not a data-dependent list.
+  const p = $("priority");
+  if (p) {
+    p.innerHTML = [
+      ["all", "Semua Skala Atensi"],
+      ["0-24", "0–24 · Rendah"],
+      ["25-49", "25–49 · Perlu Perhatian"],
+      ["50-69", "50–69 · Atensi"],
+      ["70-84", "70–84 · Atensi Tinggi"],
+      ["85-100", "85–100 · Kritis"],
+    ].map(([v,l]) => `<option value="${v}">${l}</option>`).join("");
+    p.value = ["all","0-24","25-49","50-69","70-84","85-100"].includes(attention) ? attention : "all";
   }
 
-  const categories = unique(getFacetItems("category").map(getCategory)).sort((a,b)=>a.localeCompare(b,"id"));
+  const scopes = unique(getFacetItems("scope").map(getScope)).sort();
+  const labels = { negative:"Negatif", case:"Ungkap Kasus", positive:"Positif", neutral:"Netral" };
+  if ($("scope")) {
+    $("scope").innerHTML = `<option value="all">Semua Jenis Berita</option>` + scopes.map(v => `<option value="${escapeHtml(v)}">${escapeHtml(labels[v] || v)}</option>`).join("");
+    if (scopes.includes(scope)) $("scope").value = scope;
+  }
+
+  const categories = unique(getFacetItems("category").map(getCategory)).sort((a,b) => a.localeCompare(b,"id"));
   populateSelect($("category"), "Semua Kategori", categories, category);
 }
 
@@ -565,36 +638,37 @@ function applyMonitoringFilters(items) {
   let out = filterByDate(items, from, to);
   const cases = activeCases();
   const search = ($("search")?.value || "").trim().toLowerCase();
-  const region = $("region")?.value || "all";
+  const location = $("region")?.value || "all";
   const polres = $("polres")?.value || "all";
-  const priority = $("priority")?.value || "all";
+  const attention = $("priority")?.value || "all";
   const scope = $("scope")?.value || "all";
   const category = $("category")?.value || "all";
 
-  if (search) out = out.filter(x => [getTitle(x), getSource(x), getFilterArea(x), x.polres, getCategory(x), getScope(x)].filter(Boolean).join(" ").toLowerCase().includes(search));
-  if (region !== "all") out = out.filter(x => getFilterArea(x) === region);
+  if (search) out = out.filter(x => [getTitle(x), getSource(x), getFilterArea(x), x.polres, getCategory(x), getScope(x), x.issue_type, x.issue_subtype].filter(Boolean).join(" ").toLowerCase().includes(search));
+  if (location !== "all") {
+    if (location === "__JATIM__") out = out.filter(isJatim);
+    else if (location === "__OUTSIDE__") out = out.filter(x => x.region === "LUAR JATIM");
+    else if (location === "__UNKNOWN__") out = out.filter(x => x.region === "BELUM TERPETAKAN" || x.is_jatim == null);
+    else out = out.filter(x => getFilterArea(x) === location);
+  }
   if (polres !== "all") out = out.filter(x => String(x.polres || "") === polres);
-  if (priority !== "all") out = out.filter(x => getEffectivePriority(x, cases) === priority);
+  if (attention !== "all") out = out.filter(x => matchesAttentionBand(x, attention, cases));
   if (scope !== "all") out = out.filter(x => getScope(x) === scope);
   if (category !== "all") out = out.filter(x => getCategory(x) === category);
 
-  return out.sort((a,b)=>new Date(getItemDate(b)||0)-new Date(getItemDate(a)||0));
+  return out.sort((a,b) => getEffectiveAttentionScore(b, cases) - getEffectiveAttentionScore(a, cases) || new Date(getItemDate(b)||0) - new Date(getItemDate(a)||0));
 }
 
 function getRelevantCases(items, region, polres) {
   const cases = activeCases();
   const ids = new Set(items.map(x => x.case_id).filter(Boolean));
   let result = cases.filter(c => ids.has(c.case_id));
-
-  if (region !== "all") result = result.filter(c => getFilterArea(c) === region);
+  if (region === "__JATIM__") result = result.filter(isJatim);
+  else if (region === "__OUTSIDE__") result = result.filter(c => c.region === "LUAR JATIM");
+  else if (region === "__UNKNOWN__") result = result.filter(c => c.region === "BELUM TERPETAKAN" || c.is_jatim == null);
+  else if (region !== "all") result = result.filter(c => getFilterArea(c) === region);
   if (polres !== "all") result = result.filter(c => String(c.polres || "") === polres);
-
-  return result.sort(
-    (a, b) =>
-      priorityRank(b.priority) - priorityRank(a.priority) ||
-      new Date(b.last_detected_at || b.last_seen || b.updated_at || 0) -
-      new Date(a.last_detected_at || a.last_seen || a.updated_at || 0)
-  );
+  return result.sort((a,b) => getAttentionScore(b) - getAttentionScore(a) || new Date(b.last_detected_at || b.last_seen || 0) - new Date(a.last_detected_at || a.last_seen || 0));
 }
 
 function filterPeriodLabel() {
@@ -618,9 +692,9 @@ function renderActiveFilterChips() {
   const { from, to } = currentDateBounds();
 
   if (search) chips.push(`Pencarian: ${search}`);
-  if (region !== "all") chips.push(region === "LUAR JATIM" ? "LUAR JATIM" : `Wilayah: ${region}`);
+  if (region !== "all") chips.push(region === "__JATIM__" ? "Wilayah: Jawa Timur" : region === "__OUTSIDE__" ? "Wilayah: Luar Jatim" : region === "__UNKNOWN__" ? "Wilayah: Belum Terpetakan" : `Wilayah: ${region}`);
   if (polres !== "all") chips.push(`Polres: ${polres}`);
-  if (priority !== "all") chips.push(`Prioritas: ${priority === "high" ? "Tinggi" : priority === "medium" ? "Sedang" : "Rendah"}`);
+  if (priority !== "all") { const labels = {"0-24":"0–24 Rendah","25-49":"25–49 Perlu Perhatian","50-69":"50–69 Atensi","70-84":"70–84 Atensi Tinggi","85-100":"85–100 Kritis"}; chips.push(`Skala: ${labels[priority] || priority}`); }
   if (scope !== "all") chips.push(`Jenis: ${scope === "case" ? "Ungkap Kasus" : scope[0].toUpperCase()+scope.slice(1)}`);
   if (category !== "all") chips.push(`Kategori: ${category}`);
   if (from || to) chips.push(`Periode: ${filterPeriodLabel()}`);
@@ -772,17 +846,18 @@ function bindCopyButtons(root) {
 function openArticleDrawer(article, dataset = activeNews(), caseDataset = activeCases()) {
   const c = getCaseById(article.case_id, caseDataset);
   const url = normalizeUrl(article.url);
-  const caseHigh = c && getPriority(c) === "high";
+  const attention = getEffectiveAttentionScore(article, caseDataset);
+  const attentionLabel = getEffectiveAttentionLabel(article, caseDataset);
   $("drawerEyebrow").textContent = "DETAIL BERITA";
   $("drawerContent").innerHTML = `
     <div class="drawer-title">${escapeHtml(getTitle(article))}</div>
     <div class="drawer-meta">${escapeHtml(getSource(article))} · ${escapeHtml(formatDateTime(getItemDate(article)))}</div>
     <div class="drawer-pills">
-      <span class="pill ${escapeHtml(getPriority(article))}">ARTIKEL ${escapeHtml(getPriority(article).toUpperCase())}</span>
-      ${c ? `<span class="pill ${caseHigh ? "high" : ""}">CASE ${caseHigh ? "HIGH" : "TERKAIT"}</span>` : `<span class="pill">BELUM TERKAIT CASE</span>`}
+      <span class="pill ${attentionClass(attention)}">ATENSI ${number(attention)}/100 · ${escapeHtml(attentionLabel)}</span>
+      ${c ? `<span class="pill ${attentionClass(getAttentionScore(c))}">KASUS ${number(getAttentionScore(c))}/100</span>` : `<span class="pill">BELUM TERKAIT KASUS</span>`}
     </div>
     <div class="detail-grid">
-      <div><span>Wilayah</span><strong>${escapeHtml(article.locality || getLocality(article) || article.region || "Indonesia")}</strong></div>
+      <div><span>Wilayah</span><strong>${escapeHtml(article.locality || getLocality(article) || article.region || "Belum Terpetakan")}</strong></div>
       <div><span>Polres</span><strong>${escapeHtml(article.polres || "-")}</strong></div>
       <div><span>Scope</span><strong>${escapeHtml(getScope(article))}</strong></div>
       <div><span>Kategori</span><strong>${escapeHtml(getCategory(article))}</strong></div>
@@ -806,15 +881,15 @@ function openCaseDrawer(c, newsDataset = activeNews(), caseDataset = activeCases
   items = items.slice().sort(
     (a, b) => new Date(getItemDate(b) || 0) - new Date(getItemDate(a) || 0)
   );
-  const p = getPriority(c);
-  const score = c.priority_score != null ? `${number(c.priority_score)}/100` : "-";
-  const reasons = Array.isArray(c.priority_reasons) ? c.priority_reasons : [];
-  $("drawerEyebrow").textContent = "CASE / INCIDENT";
+  const score = getAttentionScore(c);
+  const label = c.attention_label || attentionBand(score);
+  const reasons = Array.isArray(c.priority_evidence?.reasons) ? c.priority_evidence.reasons : [];
+  $("drawerEyebrow").textContent = "KASUS / INSIDEN";
   $("drawerContent").innerHTML = `
     <div class="drawer-title">${escapeHtml(c.title || "Kasus")}</div>
-    <div class="drawer-meta">${escapeHtml(c.locality || getLocality(c) || c.region || "Indonesia")} · ${number(c.article_count || items.length)} sumber</div>
-    <div class="case-detail-head"><span class="pill ${escapeHtml(p)}">${escapeHtml(p.toUpperCase())}</span><strong>${escapeHtml(score)}</strong></div>
-    ${reasons.length ? `<div class="priority-reasons"><h4>Alasan prioritas</h4><ul>${reasons.map(r => `<li>${escapeHtml(r)}</li>`).join("")}</ul></div>` : ""}
+    <div class="drawer-meta">${escapeHtml(c.locality || getLocality(c) || c.region || "Belum Terpetakan")} · ${number(c.article_count || items.length)} sumber</div>
+    <div class="case-detail-head"><span class="pill ${attentionClass(score)}">ATENSI ${number(score)}/100 · ${escapeHtml(label)}</span></div>
+    ${reasons.length ? `<div class="priority-reasons"><h4>Alasan atensi</h4><ul>${reasons.map(r => `<li>${escapeHtml(r)}</li>`).join("")}</ul></div>` : ""}
     <div class="source-list"><h4>Seluruh sumber terkait</h4>
       ${items.length ? items.map((a, i) => {
         const u = normalizeUrl(a.url);
@@ -852,8 +927,9 @@ function renderMap(items) {
     let high = 0, medium = 0;
     [...g.cases].forEach(id => {
       const c = cMap.get(id);
-      if (c?.priority === "high") high++;
-      else if (c?.priority === "medium") medium++;
+      const score = getAttentionScore(c);
+      if (score >= 70) high++;
+      else if (score >= 50) medium++;
     });
     const level = high ? "high" : medium ? "medium" : "low";
     const size = Math.min(42, 22 + Math.floor(g.items.length / 2) * 2);
@@ -861,7 +937,7 @@ function renderMap(items) {
     const marker = L.marker(coords, { icon }).addTo(map);
     const relatedCases = [...g.cases].map(id => cMap.get(id)).filter(Boolean).sort((a, b) => priorityRank(b.priority) - priorityRank(a.priority));
     const top = g.items.slice().sort((a, b) => new Date(getItemDate(b) || 0) - new Date(getItemDate(a) || 0)).slice(0, 4);
-    marker.bindPopup(`<div class="map-popup"><strong>${escapeHtml(g.name)}</strong><div>${number(g.items.length)} berita · ${number(g.cases.size)} case</div>${high ? `<div class="map-popup-high">High case: ${number(high)}</div>` : ""}<div class="map-popup-list">${relatedCases.slice(0, 3).map(c => `<div>• ${escapeHtml(c.title)}</div>`).join("") || top.map(a => `<div>• ${escapeHtml(getTitle(a))}</div>`).join("")}</div><button class="map-open-region" data-region="${escapeHtml(g.name)}">Lihat seluruh berita wilayah →</button></div>`);
+    marker.bindPopup(`<div class="map-popup"><strong>${escapeHtml(g.name)}</strong><div>${number(g.items.length)} berita · ${number(g.cases.size)} kasus</div>${high ? `<div class="map-popup-high">Atensi tinggi: ${number(high)}</div>` : ""}<div class="map-popup-list">${relatedCases.slice(0, 3).map(c => `<div>• ${escapeHtml(c.title)}</div>`).join("") || top.map(a => `<div>• ${escapeHtml(getTitle(a))}</div>`).join("")}</div><button class="map-open-region" data-region="${escapeHtml(g.name)}">Lihat seluruh berita wilayah →</button></div>`);
     marker.on("popupopen", () => marker.getPopup().getElement()?.querySelector(".map-open-region")?.addEventListener("click", () => {
       openRegionDrawer(g.name, g.items);
     }));
@@ -923,40 +999,44 @@ function populateArchiveFilters() {
   const region = $("archiveRegion");
   const polres = $("archivePolres");
   const category = $("archiveCategory");
-
+  const priority = $("archivePriority");
   const currentRegion = region?.value || "all";
   const currentPolres = polres?.value || "all";
   const currentCategory = category?.value || "all";
+  const currentPriority = priority?.value || "all";
 
-  const areas = unique(items.map(getFilterArea)).sort((a, b) => {
-    if (a === "Jawa Timur") return -1;
-    if (b === "Jawa Timur") return 1;
-    if (a === "LUAR JATIM") return 1;
-    if (b === "LUAR JATIM") return -1;
-    return a.localeCompare(b);
+  const areas = unique(items.filter(isJatim).map(getFilterArea)).filter(Boolean).sort((a,b) => {
+    if (a === "Jawa Timur (Umum)") return -1;
+    if (b === "Jawa Timur (Umum)") return 1;
+    return a.localeCompare(b, "id");
   });
+  const options = [
+    `<option value="all">Semua Wilayah / Area</option>`,
+    items.some(isJatim) ? `<option value="__JATIM__">Jawa Timur — semua wilayah</option>` : "",
+    ...areas.map(a => `<option value="${escapeHtml(a)}">↳ ${escapeHtml(a)}</option>`),
+    items.some(x => x.region === "LUAR JATIM") ? `<option value="__OUTSIDE__">Luar Jatim</option>` : "",
+    items.some(x => x.region === "BELUM TERPETAKAN" || x.is_jatim == null) ? `<option value="__UNKNOWN__">Belum Terpetakan</option>` : ""
+  ];
+  if (region) { region.innerHTML = options.join(""); if (["all","__JATIM__","__OUTSIDE__","__UNKNOWN__"].includes(currentRegion) || areas.includes(currentRegion)) region.value=currentRegion; }
 
-  populateSelect(region, "Semua Wilayah / Area", areas, currentRegion);
+  const regionItems = currentRegion === "__JATIM__" ? items.filter(isJatim) :
+    currentRegion === "__OUTSIDE__" ? items.filter(x => x.region === "LUAR JATIM") :
+    currentRegion === "__UNKNOWN__" ? items.filter(x => x.region === "BELUM TERPETAKAN" || x.is_jatim == null) :
+    currentRegion !== "all" ? items.filter(x => getFilterArea(x) === currentRegion) : items;
+  const polresValues = unique(regionItems.filter(isJatim).map(x=>x.polres).filter(Boolean)).sort((a,b)=>a.localeCompare(b,"id"));
+  populateSelect(polres, "Polres terdeteksi", polresValues, currentPolres);
 
-  const regionItems = currentRegion === "all"
-    ? items
-    : items.filter(x => getFilterArea(x) === currentRegion);
+  if (priority) {
+    priority.innerHTML = [
+      ["all","Semua Skala Atensi"],["0-24","0–24 · Rendah"],["25-49","25–49 · Perlu Perhatian"],
+      ["50-69","50–69 · Atensi"],["70-84","70–84 · Atensi Tinggi"],["85-100","85–100 · Kritis"]
+    ].map(([v,l])=>`<option value="${v}">${l}</option>`).join("");
+    if (["all","0-24","25-49","50-69","70-84","85-100"].includes(currentPriority)) priority.value=currentPriority;
+  }
 
-  populateSelect(
-    polres,
-    "Semua Polres",
-    unique(regionItems.filter(isJatim).map(x => x.polres).filter(Boolean).sort()),
-    currentPolres
-  );
-
-  populateSelect(
-    category,
-    "Semua Kategori",
-    unique(items.map(getCategory).sort()),
-    currentCategory
-  );
+  const categories = unique(items.map(getCategory)).sort((a,b)=>a.localeCompare(b,"id"));
+  populateSelect(category, "Semua Kategori", categories, currentCategory);
 }
-
 function renderArchiveNews() {
   if (!activeArchive) return;
   const items = activeArchive.news?.items || [];
@@ -964,7 +1044,7 @@ function renderArchiveNews() {
   let results = [...items];
 
   if (archiveMode === "jatim") results = results.filter(isJatim);
-  if (archiveMode === "high") results = results.filter(x => getEffectivePriority(x, cases) === "high");
+  if (archiveMode === "high") results = results.filter(x => getEffectiveAttentionScore(x, cases) >= 70);
 
   const search = ($( "archiveSearch")?.value || "").trim().toLowerCase();
   const region = $("archiveRegion")?.value || "all";
@@ -974,9 +1054,12 @@ function renderArchiveNews() {
   const category = $("archiveCategory")?.value || "all";
 
   if (search) results = results.filter(x => [getTitle(x), getSource(x), x.region, x.polres, getLocality(x), getCategory(x), getScope(x)].filter(Boolean).join(" ").toLowerCase().includes(search));
-  if (region !== "all") results = results.filter(x => getFilterArea(x) === region);
+  if (region === "__JATIM__") results = results.filter(isJatim);
+  else if (region === "__OUTSIDE__") results = results.filter(x => x.region === "LUAR JATIM");
+  else if (region === "__UNKNOWN__") results = results.filter(x => x.region === "BELUM TERPETAKAN" || x.is_jatim == null);
+  else if (region !== "all") results = results.filter(x => getFilterArea(x) === region);
   if (polres !== "all") results = results.filter(x => String(x.polres || "") === polres);
-  if (priority !== "all") results = results.filter(x => getEffectivePriority(x, cases) === priority);
+  if (priority !== "all") results = results.filter(x => matchesAttentionBand(x, priority, cases));
   if (scope !== "all") results = results.filter(x => getScope(x) === scope);
   if (category !== "all") results = results.filter(x => getCategory(x) === category);
 
@@ -985,9 +1068,9 @@ function renderArchiveNews() {
   if ($("archiveNews")) $("archiveNews").textContent = number(items.length);
   if ($("archiveCases")) $("archiveCases").textContent = number(cases.length);
   if ($("archiveJatim")) $("archiveJatim").textContent = number(items.filter(isJatim).length);
-  if ($("archiveHigh")) $("archiveHigh").textContent = number(cases.filter(c => getPriority(c) === "high").length);
+  if ($("archiveHigh")) $("archiveHigh").textContent = number(cases.filter(c => getAttentionScore(c) >= 70).length);
 
-  const relevantCases = cases.filter(c => results.some(i => i.case_id === c.case_id)).sort((a, b) => priorityRank(b.priority) - priorityRank(a.priority) || new Date(b.last_detected_at || b.last_seen || 0) - new Date(a.last_detected_at || a.last_seen || 0));
+  const relevantCases = cases.filter(c => results.some(i => i.case_id === c.case_id)).sort((a, b) => getAttentionScore(b) - getAttentionScore(a) || new Date(b.last_detected_at || b.last_seen || 0) - new Date(a.last_detected_at || a.last_seen || 0));
   const caseTarget = $("archiveCasesList");
   if (caseTarget) {
     caseTarget.innerHTML = relevantCases.length ? `<div class="subsection-head"><div><h3>Kasus / Insiden</h3><div class="muted">Kasus yang terkait dengan filter snapshot.</div></div></div><div class="case-grid">${relevantCases.map((c, i) => caseCard(c, i + 1)).join("")}</div>` : `<div class="case-empty">Tidak ada Kasus pada filter ini.</div>`;
@@ -1031,9 +1114,26 @@ function initEvents() {
     showView("monitoring");
   }));
 
-  ["dateFrom", "dateTo"].forEach(id => {
-    $(id)?.addEventListener("input", () => { populateMonitoringFilters(); renderMonitoring(); });
-    $(id)?.addEventListener("change", () => { populateMonitoringFilters(); renderMonitoring(); });
+  ["search", "priority", "scope", "category"].forEach(id => {
+    $(id)?.addEventListener("input", () => {
+      if (id === "search") populateMonitoringFilters();
+      renderMonitoring();
+    });
+    $(id)?.addEventListener("change", () => {
+      if (id === "search") populateMonitoringFilters();
+      renderMonitoring();
+    });
+  });
+
+  ["region", "polres", "dateFrom", "dateTo"].forEach(id => {
+    $(id)?.addEventListener("input", () => {
+      populateMonitoringFilters();
+      renderMonitoring();
+    });
+    $(id)?.addEventListener("change", () => {
+      populateMonitoringFilters();
+      renderMonitoring();
+    });
   });
   $("clearFilters")?.addEventListener("click", resetMonitoringFilters);
 
@@ -1049,8 +1149,8 @@ function initEvents() {
   }));
 
   ["archiveSearch", "archiveRegion", "archivePolres", "archivePriority", "archiveScope", "archiveCategory"].forEach(id => {
-    $(id)?.addEventListener("input", () => { if (id === "archiveRegion") populateArchiveFilters(); renderArchiveNews(); });
-    $(id)?.addEventListener("change", () => { if (id === "archiveRegion") populateArchiveFilters(); renderArchiveNews(); });
+    $(id)?.addEventListener("input", () => { if (["archiveRegion","archivePolres"].includes(id)) populateArchiveFilters(); renderArchiveNews(); });
+    $(id)?.addEventListener("change", () => { if (["archiveRegion","archivePolres"].includes(id)) populateArchiveFilters(); renderArchiveNews(); });
   });
 
   $("archiveClear")?.addEventListener("click", () => {

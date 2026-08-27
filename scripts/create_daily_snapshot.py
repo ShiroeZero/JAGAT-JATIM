@@ -241,7 +241,7 @@ def build_snapshot():
     save_json(archive_path, snapshot)
 
     print("========================================")
-    print("JAGAT DAILY SNAPSHOT V6.4")
+    print("JAGAT DAILY SNAPSHOT V6.5")
     print("========================================")
     print(f"Tanggal pemantauan : {today}")
     print(f"News today     : {len(today_news)}")

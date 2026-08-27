@@ -1,16 +1,16 @@
 {
   "engine_version": "case-v6.4",
-  "generated_at": "2026-08-27T05:16:19.216837+00:00",
-  "total_cases": 42,
-  "total_articles": 63,
+  "generated_at": "2026-08-27T00:36:37.770651+00:00",
+  "total_cases": 19,
+  "total_articles": 37,
   "last_run": {
     "mode": "INCREMENTAL",
     "rebuild": false,
-    "news_loaded": 502,
-    "recovery_checked": 439,
+    "news_loaded": 382,
+    "recovery_checked": 345,
     "recovery_matched": 0,
-    "matched_existing": 2,
-    "new_cases": 8
+    "matched_existing": 0,
+    "new_cases": 0
   },
   "cases": [
     {
@@ -65,7 +65,7 @@
       ],
       "article_count": 1,
       "created_at": "2026-08-27T00:35:19.082751+00:00",
-      "updated_at": "2026-08-27T05:16:19.214528+00:00",
+      "updated_at": "2026-08-27T00:36:37.769437+00:00",
       "engine_version": "case-v6.4",
       "priority_score": 28,
       "priority_breakdown": {
@@ -94,19 +94,13 @@
       "priority": "high",
       "signature": "LUAR JATIM",
       "incident_terms": [
-        "dicopot",
         "foto",
-        "harian",
         "hilang",
         "jeju",
-        "jogja",
         "laporan",
         "makin",
         "misteri",
         "ngeri",
-        "petinggi",
-        "pulau",
-        "skandal",
         "sumbawanews",
         "tewas",
         "tutup",
@@ -124,13 +118,12 @@
       ],
       "discovery_families": [],
       "first_seen": "2026-08-25T07:13:22+00:00",
-      "last_seen": "2026-08-27T03:06:06.539922+00:00",
-      "last_detected_at": "2026-08-27T03:06:06.539922+00:00",
+      "last_seen": "2026-08-26T10:49:33.010254+00:00",
+      "last_detected_at": "2026-08-26T10:49:33.010254+00:00",
       "article_ids": [
         "0473dbac92bc936910cb607576840792327e47a7",
         "a800f5d60ecdc547634ff0162312e1c52900e2f8",
-        "2c9cf5a3f5be6d58c1297a9b979736df6bb0e41b",
-        "ab91e7e77452dcf475377f2dee35dba9fe8dd6c6"
+        "2c9cf5a3f5be6d58c1297a9b979736df6bb0e41b"
       ],
       "articles": [
         {
@@ -180,43 +173,24 @@
           "locality": "",
           "is_jatim": false,
           "polres": null
-        },
-        {
-          "id": "ab91e7e77452dcf475377f2dee35dba9fe8dd6c6",
-          "title": "Kronologi Skandal Orang Hilang di Pulau Jeju, Polisi Ditahan dan Petinggi Dicopot - Harian Jogja",
-          "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOSnZmZU9udUNQMXlmMExNS1dQRGE5Tkt0Q1BXWk1SUXpWRzdJdGhGVnhFTS1DQU5GUGdYTGdzZC1nQ2JWbmlsSUF4VDVLZmJ6Si1fbG9XUTR3Y3hCajBfdkJFazh4RWI2ZWJqSWdtdzZPMTROYlRqRmVxNEp2Y0JLRVh0clVmb2UwcUZlN0d0WVJMY2trd2ZBN2I5REE1M0tHN3ZmMVJTZjdlaDRvWUZ0blpQU1dfaWxfY0pR?oc=5",
-          "published_at": "2026-08-26T23:47:50+00:00",
-          "collected_at": "2026-08-27T03:06:06.539922+00:00",
-          "source": "Harian Jogja",
-          "match_score": 0.8502,
-          "priority": "medium",
-          "scope": "negative",
-          "category": "OKNUM - PIDANA",
-          "region": "LUAR JATIM",
-          "locality": "",
-          "is_jatim": false,
-          "polres": null
         }
       ],
-      "article_count": 4,
+      "article_count": 3,
       "created_at": "2026-08-27T00:35:19.083262+00:00",
-      "updated_at": "2026-08-27T05:16:19.214654+00:00",
+      "updated_at": "2026-08-27T00:36:37.769523+00:00",
       "engine_version": "case-v6.4",
-      "priority_score": 57,
+      "priority_score": 45,
       "priority_breakdown": {
         "severity": 45,
-        "escalation": 3,
-        "spread": 5,
-        "current_activity": 4
+        "escalation": 0,
+        "spread": 0,
+        "current_activity": 0
       },
       "priority_evidence": {
-        "unique_sources": 3,
-        "active_today_articles": 1,
+        "unique_sources": 2,
+        "active_today_articles": 0,
         "reasons": [
-          "tewas",
-          "proses hukum lanjutan",
-          "3 sumber unik",
-          "update hari ini"
+          "tewas"
         ]
       }
     },
@@ -278,7 +252,7 @@
       ],
       "article_count": 1,
       "created_at": "2026-08-27T00:35:19.084145+00:00",
-      "updated_at": "2026-08-27T05:16:19.214702+00:00",
+      "updated_at": "2026-08-27T00:36:37.769565+00:00",
       "engine_version": "case-v6.4",
       "priority_score": 28,
       "priority_breakdown": {
@@ -657,7 +631,7 @@
       ],
       "article_count": 15,
       "created_at": "2026-08-27T00:35:19.085450+00:00",
-      "updated_at": "2026-08-27T05:16:19.215054+00:00",
+      "updated_at": "2026-08-27T00:36:37.769931+00:00",
       "engine_version": "case-v6.4",
       "priority_score": 74,
       "priority_breakdown": {
@@ -670,8 +644,8 @@
         "unique_sources": 13,
         "active_today_articles": 0,
         "reasons": [
+          "ancam",
           "intimidasi",
-          "tambang ilegal",
           "intimidasi wartawan",
           "penanganan propam",
           "tuntutan resmi",
@@ -737,7 +711,7 @@
       ],
       "article_count": 1,
       "created_at": "2026-08-27T00:35:19.086892+00:00",
-      "updated_at": "2026-08-27T05:16:19.215098+00:00",
+      "updated_at": "2026-08-27T00:36:37.769974+00:00",
       "engine_version": "case-v6.4",
       "priority_score": 10,
       "priority_breakdown": {
@@ -810,7 +784,7 @@
       ],
       "article_count": 1,
       "created_at": "2026-08-27T00:35:19.089344+00:00",
-      "updated_at": "2026-08-27T05:16:19.215142+00:00",
+      "updated_at": "2026-08-27T00:36:37.770013+00:00",
       "engine_version": "case-v6.4",
       "priority_score": 31,
       "priority_breakdown": {
@@ -882,7 +856,7 @@
       ],
       "article_count": 1,
       "created_at": "2026-08-27T00:35:19.091512+00:00",
-      "updated_at": "2026-08-27T05:16:19.215179+00:00",
+      "updated_at": "2026-08-27T00:36:37.770044+00:00",
       "engine_version": "case-v6.4",
       "priority_score": 28,
       "priority_breakdown": {
@@ -952,7 +926,7 @@
       ],
       "article_count": 1,
       "created_at": "2026-08-27T00:35:19.094049+00:00",
-      "updated_at": "2026-08-27T05:16:19.215217+00:00",
+      "updated_at": "2026-08-27T00:36:37.770077+00:00",
       "engine_version": "case-v6.4",
       "priority_score": 10,
       "priority_breakdown": {
@@ -1023,7 +997,7 @@
       ],
       "article_count": 1,
       "created_at": "2026-08-27T00:35:19.097384+00:00",
-      "updated_at": "2026-08-27T05:16:19.215249+00:00",
+      "updated_at": "2026-08-27T00:36:37.770105+00:00",
       "engine_version": "case-v6.4",
       "priority_score": 45,
       "priority_breakdown": {
@@ -1100,7 +1074,7 @@
       ],
       "article_count": 1,
       "created_at": "2026-08-27T00:35:19.101942+00:00",
-      "updated_at": "2026-08-27T05:16:19.215290+00:00",
+      "updated_at": "2026-08-27T00:36:37.770177+00:00",
       "engine_version": "case-v6.4",
       "priority_score": 33,
       "priority_breakdown": {
@@ -1170,7 +1144,7 @@
       ],
       "article_count": 1,
       "created_at": "2026-08-27T00:35:19.110001+00:00",
-      "updated_at": "2026-08-27T05:16:19.215326+00:00",
+      "updated_at": "2026-08-27T00:36:37.770209+00:00",
       "engine_version": "case-v6.4",
       "priority_score": 10,
       "priority_breakdown": {
@@ -1235,7 +1209,7 @@
       ],
       "article_count": 1,
       "created_at": "2026-08-27T00:35:19.118455+00:00",
-      "updated_at": "2026-08-27T05:16:19.215362+00:00",
+      "updated_at": "2026-08-27T00:36:37.770241+00:00",
       "engine_version": "case-v6.4",
       "priority_score": 10,
       "priority_breakdown": {
@@ -1301,7 +1275,7 @@
       ],
       "article_count": 1,
       "created_at": "2026-08-27T00:35:19.126758+00:00",
-      "updated_at": "2026-08-27T05:16:19.215396+00:00",
+      "updated_at": "2026-08-27T00:36:37.770271+00:00",
       "engine_version": "case-v6.4",
       "priority_score": 10,
       "priority_breakdown": {
@@ -1364,7 +1338,7 @@
       ],
       "article_count": 1,
       "created_at": "2026-08-27T00:35:19.140118+00:00",
-      "updated_at": "2026-08-27T05:16:19.215435+00:00",
+      "updated_at": "2026-08-27T00:36:37.770302+00:00",
       "engine_version": "case-v6.4",
       "priority_score": 18,
       "priority_breakdown": {
@@ -1456,7 +1430,7 @@
       ],
       "article_count": 2,
       "created_at": "2026-08-27T00:35:19.169520+00:00",
-      "updated_at": "2026-08-27T05:16:19.215488+00:00",
+      "updated_at": "2026-08-27T00:36:37.770347+00:00",
       "engine_version": "case-v6.4",
       "priority_score": 10,
       "priority_breakdown": {
@@ -1545,7 +1519,7 @@
       ],
       "article_count": 2,
       "created_at": "2026-08-27T00:35:19.175263+00:00",
-      "updated_at": "2026-08-27T05:16:19.215543+00:00",
+      "updated_at": "2026-08-27T00:36:37.770396+00:00",
       "engine_version": "case-v6.4",
       "priority_score": 10,
       "priority_breakdown": {
@@ -1618,7 +1592,7 @@
       ],
       "article_count": 1,
       "created_at": "2026-08-27T00:35:19.192825+00:00",
-      "updated_at": "2026-08-27T05:16:19.215581+00:00",
+      "updated_at": "2026-08-27T00:36:37.770430+00:00",
       "engine_version": "case-v6.4",
       "priority_score": 10,
       "priority_breakdown": {
@@ -1692,7 +1666,7 @@
       ],
       "article_count": 1,
       "created_at": "2026-08-27T00:35:19.211264+00:00",
-      "updated_at": "2026-08-27T05:16:19.215612+00:00",
+      "updated_at": "2026-08-27T00:36:37.770456+00:00",
       "engine_version": "case-v6.4",
       "priority_score": 45,
       "priority_breakdown": {
@@ -1762,7 +1736,7 @@
       ],
       "article_count": 1,
       "created_at": "2026-08-27T00:35:19.216825+00:00",
-      "updated_at": "2026-08-27T05:16:19.215644+00:00",
+      "updated_at": "2026-08-27T00:36:37.770484+00:00",
       "engine_version": "case-v6.4",
       "priority_score": 10,
       "priority_breakdown": {
@@ -1775,1710 +1749,6 @@
         "unique_sources": 1,
         "active_today_articles": 0,
         "reasons": []
-      }
-    },
-    {
-      "case_id": "CASE-000020",
-      "title": "Pria di Mentok Diamankan, Polisi Sita 1,38 Gram Diduga Sabu - faktaberita.co.id",
-      "category": "UNGKAP KASUS / PENINDAKAN",
-      "scope": "case",
-      "region": "LUAR JATIM",
-      "locality": "",
-      "is_jatim": false,
-      "polres": null,
-      "priority": "low",
-      "signature": "LUAR JATIM",
-      "incident_terms": [
-        "faktaberita",
-        "gram",
-        "mentok",
-        "pria",
-        "sabu",
-        "sita"
-      ],
-      "event_terms": [
-        "sabu"
-      ],
-      "location_terms": [],
-      "discovery_families": [],
-      "first_seen": "2026-08-27T02:20:41+00:00",
-      "last_seen": "2026-08-27T03:06:06.539922+00:00",
-      "last_detected_at": "2026-08-27T03:06:06.539922+00:00",
-      "article_ids": [
-        "3e08c2e311eb34c084bd701ae214503cddd8f1f2"
-      ],
-      "articles": [
-        {
-          "id": "3e08c2e311eb34c084bd701ae214503cddd8f1f2",
-          "title": "Pria di Mentok Diamankan, Polisi Sita 1,38 Gram Diduga Sabu - faktaberita.co.id",
-          "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQNXM3RnVqdkh2Zl9EVHdXRWxSVjVfbDdkcUFKeVhfdXM1VF9XUVVRYnI0VkNsdWlYV0VoSUpUWGIzRGpuNDc4dVpyYkhaNjkzLXNjWnpwNTFZRzhZVk5HWGNMenJoN21vamU5Z3FSb1B5Z3ZRbnJHSG1WS0JDdU1FTlg5VWREb0ZvZGVuUWRIWlBJdw?oc=5",
-          "published_at": "2026-08-27T02:20:41+00:00",
-          "collected_at": "2026-08-27T03:06:06.539922+00:00",
-          "source": "faktaberita.co.id",
-          "match_score": 1.0,
-          "priority": "low",
-          "scope": "case",
-          "category": "UNGKAP KASUS / PENINDAKAN",
-          "region": "LUAR JATIM",
-          "locality": "",
-          "is_jatim": false,
-          "polres": null
-        }
-      ],
-      "article_count": 1,
-      "created_at": "2026-08-27T03:08:01.007098+00:00",
-      "updated_at": "2026-08-27T05:16:19.215679+00:00",
-      "engine_version": "case-v6.4",
-      "priority_score": 14,
-      "priority_breakdown": {
-        "severity": 10,
-        "escalation": 0,
-        "spread": 0,
-        "current_activity": 4
-      },
-      "priority_evidence": {
-        "unique_sources": 1,
-        "active_today_articles": 1,
-        "reasons": [
-          "update hari ini"
-        ]
-      }
-    },
-    {
-      "case_id": "CASE-000021",
-      "title": "Anak Jadi Korban Kekerasan Seksual, Polisi Amankan 15 Pelaku - Radar Sulbar",
-      "category": "OKNUM - ETIK/PERSONAL",
-      "scope": "negative",
-      "region": "LUAR JATIM",
-      "locality": "",
-      "is_jatim": false,
-      "polres": null,
-      "priority": "high",
-      "signature": "LUAR JATIM",
-      "incident_terms": [
-        "anak",
-        "kekerasan",
-        "radar",
-        "seksual",
-        "sulbar"
-      ],
-      "event_terms": [
-        "kekerasan",
-        "seksual"
-      ],
-      "location_terms": [],
-      "discovery_families": [
-        "ethics_personal_misconduct"
-      ],
-      "first_seen": "2026-08-27T01:56:18+00:00",
-      "last_seen": "2026-08-27T03:06:06.539922+00:00",
-      "last_detected_at": "2026-08-27T03:06:06.539922+00:00",
-      "article_ids": [
-        "3cba549276a51ba2141c1b614d4777dda8c15560"
-      ],
-      "articles": [
-        {
-          "id": "3cba549276a51ba2141c1b614d4777dda8c15560",
-          "title": "Anak Jadi Korban Kekerasan Seksual, Polisi Amankan 15 Pelaku - Radar Sulbar",
-          "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNN2dIcFFhZVU4QmlRdFdIc2Y4eDBTdkFPQ1ZNckdwSEVLZm1sQ0VGNTIxUEluT0xKOGR5Q1RtczA3VHNtZm9OWUNneXdCakQybVVEZ1JwMlI4c2tmdzZUcGZQMnZBZ1M1SE9xWjg5UC01cGtLekZLWXZad0c2T1FwUU9TemFFanFyUDNXWHdfNEZmV1k?oc=5",
-          "published_at": "2026-08-27T01:56:18+00:00",
-          "collected_at": "2026-08-27T03:06:06.539922+00:00",
-          "source": "Radar Sulbar",
-          "match_score": 1.0,
-          "priority": "medium",
-          "scope": "negative",
-          "category": "OKNUM - ETIK/PERSONAL",
-          "region": "LUAR JATIM",
-          "locality": "",
-          "is_jatim": false,
-          "polres": null
-        }
-      ],
-      "article_count": 1,
-      "created_at": "2026-08-27T03:08:01.011903+00:00",
-      "updated_at": "2026-08-27T05:16:19.215708+00:00",
-      "engine_version": "case-v6.4",
-      "priority_score": 49,
-      "priority_breakdown": {
-        "severity": 45,
-        "escalation": 0,
-        "spread": 0,
-        "current_activity": 4
-      },
-      "priority_evidence": {
-        "unique_sources": 1,
-        "active_today_articles": 1,
-        "reasons": [
-          "kekerasan seksual",
-          "update hari ini"
-        ]
-      }
-    },
-    {
-      "case_id": "CASE-000022",
-      "title": "Dua Target Operasi Tumpas Semeru Ditangkap, Polres Nganjuk Sita 8.000 Pil Dobel L dan 2,84 Gram Sabu - kabar nganjuk",
-      "category": "UNGKAP KASUS / PENINDAKAN",
-      "scope": "case",
-      "region": "Jawa Timur",
-      "locality": "Nganjuk",
-      "is_jatim": true,
-      "polres": "POLRES NGANJUK",
-      "priority": "low",
-      "signature": "POLRES NGANJUK Jawa Timur",
-      "incident_terms": [
-        "000",
-        "dobel",
-        "gram",
-        "kabar",
-        "nganjuk",
-        "operasi",
-        "pil",
-        "polres",
-        "sabu",
-        "semeru",
-        "sita",
-        "target",
-        "tumpas"
-      ],
-      "event_terms": [
-        "sabu"
-      ],
-      "location_terms": [
-        "nganjuk"
-      ],
-      "discovery_families": [],
-      "first_seen": "2026-08-27T01:37:40+00:00",
-      "last_seen": "2026-08-27T03:06:06.539922+00:00",
-      "last_detected_at": "2026-08-27T03:06:06.539922+00:00",
-      "article_ids": [
-        "717089617cde67b5835e7994caef973d8a4dc976"
-      ],
-      "articles": [
-        {
-          "id": "717089617cde67b5835e7994caef973d8a4dc976",
-          "title": "Dua Target Operasi Tumpas Semeru Ditangkap, Polres Nganjuk Sita 8.000 Pil Dobel L dan 2,84 Gram Sabu - kabar nganjuk",
-          "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxOZ0Q5M2RCTG1WaHlpWk1SbDFXak1ZSFpMYW12Y0JFcDAtNER2TFVnZTl0QlpvcGpjRnl0NkhSLU1qTC14Yjd4bHRYUk9iNng1VG1lZU80ZkdhSXVFdTJ1V2dOTjFkOUZIRjlsVncxeG0tbkJLRy0yaDBjUWRVRHEtS19PYVRBbmdSVkhxd1B4N1I5V1NYZXo2Q3VycXNnVFYzUjNtOXV1a1RNb1Nyc2V5bVlYcTJpNkNMRmR0YkYyUHNMT0p5aUhYOTlJV19Dd1ly?oc=5",
-          "published_at": "2026-08-27T01:37:40+00:00",
-          "collected_at": "2026-08-27T03:06:06.539922+00:00",
-          "source": "kabar nganjuk",
-          "match_score": 1.0,
-          "priority": "low",
-          "scope": "case",
-          "category": "UNGKAP KASUS / PENINDAKAN",
-          "region": "Jawa Timur",
-          "locality": "Nganjuk",
-          "is_jatim": true,
-          "polres": "POLRES NGANJUK"
-        }
-      ],
-      "article_count": 1,
-      "created_at": "2026-08-27T03:08:01.018332+00:00",
-      "updated_at": "2026-08-27T05:16:19.215747+00:00",
-      "engine_version": "case-v6.4",
-      "priority_score": 14,
-      "priority_breakdown": {
-        "severity": 10,
-        "escalation": 0,
-        "spread": 0,
-        "current_activity": 4
-      },
-      "priority_evidence": {
-        "unique_sources": 1,
-        "active_today_articles": 1,
-        "reasons": [
-          "update hari ini"
-        ]
-      }
-    },
-    {
-      "case_id": "CASE-000023",
-      "title": "Anggota Resnarkoba Polres Bojonegoro Diduga Langgar SOP Penangkapan, mengaku- ngaku dari polres perak. - BeritaTKP.Com",
-      "category": "OKNUM - PENYALAHGUNAAN WEWENANG",
-      "scope": "negative",
-      "region": "Jawa Timur",
-      "locality": "Bojonegoro",
-      "is_jatim": true,
-      "polres": "POLRES BOJONEGORO",
-      "priority": "low",
-      "signature": "POLRES BOJONEGORO Jawa Timur",
-      "incident_terms": [
-        "beritatkp",
-        "bojonegoro",
-        "com",
-        "langgar",
-        "ngaku",
-        "penangkapan",
-        "perak",
-        "polres",
-        "resnarkoba",
-        "sop"
-      ],
-      "event_terms": [],
-      "location_terms": [
-        "bojonegoro"
-      ],
-      "discovery_families": [
-        "abuse_of_power"
-      ],
-      "first_seen": "2026-08-27T01:32:03+00:00",
-      "last_seen": "2026-08-27T03:06:06.539922+00:00",
-      "last_detected_at": "2026-08-27T03:06:06.539922+00:00",
-      "article_ids": [
-        "02d010ea4363d24e6f1209661d8fe29ff4377166"
-      ],
-      "articles": [
-        {
-          "id": "02d010ea4363d24e6f1209661d8fe29ff4377166",
-          "title": "Anggota Resnarkoba Polres Bojonegoro Diduga Langgar SOP Penangkapan, mengaku- ngaku dari polres perak. - BeritaTKP.Com",
-          "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPV0d5VXZaMUhKYWhaaUJseDZFaDFhZzVZN3Fnbl81VHlhQmQxMXhIMHB6cTFZdG9sbGJTUm9xLWI5RnhUWkNsOHpaaUJzTHJaZms2Y0FTM0xBTFQ3QnVuakt2dGp6XzUtUXlodmRoUHRFcnZrZTFBMWViVGpxMUxidUdONHJtTTIzM3FYRlNGYWkwbTVQck5iMFRxQld2UG5wOVdQcVlKQmk5QW8yTWxSMldXX3UwS2hMbDFNWi0yZw?oc=5",
-          "published_at": "2026-08-27T01:32:03+00:00",
-          "collected_at": "2026-08-27T03:06:06.539922+00:00",
-          "source": "BeritaTKP.Com",
-          "match_score": 1.0,
-          "priority": "medium",
-          "scope": "negative",
-          "category": "OKNUM - PENYALAHGUNAAN WEWENANG",
-          "region": "Jawa Timur",
-          "locality": "Bojonegoro",
-          "is_jatim": true,
-          "polres": "POLRES BOJONEGORO"
-        }
-      ],
-      "article_count": 1,
-      "created_at": "2026-08-27T03:08:01.025608+00:00",
-      "updated_at": "2026-08-27T05:16:19.215787+00:00",
-      "engine_version": "case-v6.4",
-      "priority_score": 32,
-      "priority_breakdown": {
-        "severity": 28,
-        "escalation": 0,
-        "spread": 0,
-        "current_activity": 4
-      },
-      "priority_evidence": {
-        "unique_sources": 1,
-        "active_today_articles": 1,
-        "reasons": [
-          "narkoba",
-          "update hari ini"
-        ]
-      }
-    },
-    {
-      "case_id": "CASE-000024",
-      "title": "Menko Polkam Ungkap Sejumlah Orang Diperiksa hingga Ditahan Polisi Jelang Demo 27 Agustus - VIVA.co.id",
-      "category": "KEAMANAN / KAMTIBMAS",
-      "scope": "negative",
-      "region": "LUAR JATIM",
-      "locality": "",
-      "is_jatim": false,
-      "polres": null,
-      "priority": "low",
-      "signature": "LUAR JATIM",
-      "incident_terms": [
-        "agustus",
-        "demo",
-        "jelang",
-        "menko",
-        "polkam",
-        "viva"
-      ],
-      "event_terms": [],
-      "location_terms": [],
-      "discovery_families": [
-        "security_public_order"
-      ],
-      "first_seen": "2026-08-27T01:28:49+00:00",
-      "last_seen": "2026-08-27T03:06:06.539922+00:00",
-      "last_detected_at": "2026-08-27T03:06:06.539922+00:00",
-      "article_ids": [
-        "b05fc7ed12b9b6aec59ade6912deb139753af896"
-      ],
-      "articles": [
-        {
-          "id": "b05fc7ed12b9b6aec59ade6912deb139753af896",
-          "title": "Menko Polkam Ungkap Sejumlah Orang Diperiksa hingga Ditahan Polisi Jelang Demo 27 Agustus - VIVA.co.id",
-          "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxOTS15WDNPRE8yRW5CR19KVHNSM1Fuay0tRS1GYm93cGtndVVHb1M2UUZtYUF1RlZmZkhtNDRJU2sxMlhvMVllRWd4TTRKaTdlQlJQREluaTVzalFhaEhxbnEycEVUdE52YWY3akF0M2FDT2h4Ukx0dkMtdU0tbldseFZfeERyUGtMNHFBb3liZDFSWnJ0Zzg5TW9QRFQydlNPTFNEYk9vMkh6ZnRUaXlEYUYyMHNwNnRVQjZJclY0OTFQTWpINkx3TmhVbWlrZmo5Z1HSAdcBQVVfeXFMUDlTd2twbDFCb0JPcno0Q0ZSakRWOHJaME5McXVxaTYzdkFqZlVoU21XcVZCWVpiZ1c2dTNYV19JNUNENVk0NDdDV3BWN01JT1JIYnBLSEJjQlRad0pzYVBmX0N4LUNjdGgwVXpiOWJJUDRFR3VrcTNqN1ZkN2Y5RUhyTE91TnlrSjdTcGNUUHRPWnhfTFBDd0p3UjNpR1hHbV9KRFg5YWtzVEJPb0J6ekJUbGpOWHk3a3JOMnE4WFpaSWVTUE4wMlY3TTAyWkctcEV3XzVxdEU?oc=5",
-          "published_at": "2026-08-27T01:28:49+00:00",
-          "collected_at": "2026-08-27T03:06:06.539922+00:00",
-          "source": "VIVA.co.id",
-          "match_score": 1.0,
-          "priority": "medium",
-          "scope": "negative",
-          "category": "KEAMANAN / KAMTIBMAS",
-          "region": "LUAR JATIM",
-          "locality": "",
-          "is_jatim": false,
-          "polres": null
-        }
-      ],
-      "article_count": 1,
-      "created_at": "2026-08-27T03:08:01.032407+00:00",
-      "updated_at": "2026-08-27T05:16:19.215828+00:00",
-      "engine_version": "case-v6.4",
-      "priority_score": 27,
-      "priority_breakdown": {
-        "severity": 20,
-        "escalation": 3,
-        "spread": 0,
-        "current_activity": 4
-      },
-      "priority_evidence": {
-        "unique_sources": 1,
-        "active_today_articles": 1,
-        "reasons": [
-          "ditahan",
-          "diperiksa",
-          "proses hukum lanjutan",
-          "update hari ini"
-        ]
-      }
-    },
-    {
-      "case_id": "CASE-000025",
-      "title": "Jelang Demo 27 Agustus, Polisi Tangkap Sejumlah Orang Diduga Hendak Bikin Rusuh - Kompas.com",
-      "category": "KEAMANAN / KAMTIBMAS",
-      "scope": "negative",
-      "region": "LUAR JATIM",
-      "locality": "",
-      "is_jatim": false,
-      "polres": null,
-      "priority": "low",
-      "signature": "LUAR JATIM",
-      "incident_terms": [
-        "agustus",
-        "bikin",
-        "com",
-        "demo",
-        "hendak",
-        "jelang",
-        "kompas",
-        "rusuh"
-      ],
-      "event_terms": [],
-      "location_terms": [],
-      "discovery_families": [
-        "security_public_order"
-      ],
-      "first_seen": "2026-08-27T01:20:00+00:00",
-      "last_seen": "2026-08-27T03:06:06.539922+00:00",
-      "last_detected_at": "2026-08-27T03:06:06.539922+00:00",
-      "article_ids": [
-        "eb106648b73656fbfd5fbca7df5d7176b6175ee8"
-      ],
-      "articles": [
-        {
-          "id": "eb106648b73656fbfd5fbca7df5d7176b6175ee8",
-          "title": "Jelang Demo 27 Agustus, Polisi Tangkap Sejumlah Orang Diduga Hendak Bikin Rusuh - Kompas.com",
-          "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxONTFZN0V1eXNDZ08zRXMxbW1yVDZGR1l4azZ6ajhMaV9FQ05malEzRW9FZUc0TmN2WGNFUzNxRVhZdnlOYW5vYkJOX2N2eFJsUjQ4LThjNzQ3WVFqT0ctYWNiOEg4cXhIME9mNG9yS29XemQ3QXotaDVVU0liU1ZGVUVWMS1ZVHA2NEdISVZoOFJFS1c4YzBIczBXTzRmNjlvckdSckdIR2RzbEt4bmdnVWFqSFl0ODRkYU1VeFlWdHVyRmQ5aWxj?oc=5",
-          "published_at": "2026-08-27T01:20:00+00:00",
-          "collected_at": "2026-08-27T03:06:06.539922+00:00",
-          "source": "Kompas.com",
-          "match_score": 1.0,
-          "priority": "medium",
-          "scope": "negative",
-          "category": "KEAMANAN / KAMTIBMAS",
-          "region": "LUAR JATIM",
-          "locality": "",
-          "is_jatim": false,
-          "polres": null
-        }
-      ],
-      "article_count": 1,
-      "created_at": "2026-08-27T03:08:01.039248+00:00",
-      "updated_at": "2026-08-27T05:16:19.215864+00:00",
-      "engine_version": "case-v6.4",
-      "priority_score": 14,
-      "priority_breakdown": {
-        "severity": 10,
-        "escalation": 0,
-        "spread": 0,
-        "current_activity": 4
-      },
-      "priority_evidence": {
-        "unique_sources": 1,
-        "active_today_articles": 1,
-        "reasons": [
-          "update hari ini"
-        ]
-      }
-    },
-    {
-      "case_id": "CASE-000026",
-      "title": "POLRES MADIUN UNGKAP KASUS PENIPUAN HAJI PLUS-FURODA, KORBAN RUGI RP1,2 MILIAR - suryaindonesia.net",
-      "category": "UNGKAP KASUS / PENINDAKAN",
-      "scope": "case",
-      "region": "Jawa Timur",
-      "locality": "Madiun",
-      "is_jatim": true,
-      "polres": "POLRES MADIUN",
-      "priority": "low",
-      "signature": "POLRES MADIUN Jawa Timur",
-      "incident_terms": [
-        "furoda",
-        "haji",
-        "madiun",
-        "miliar",
-        "net",
-        "penipuan",
-        "plus",
-        "polres",
-        "rp1",
-        "rugi",
-        "suryaindonesia"
-      ],
-      "event_terms": [],
-      "location_terms": [
-        "madiun"
-      ],
-      "discovery_families": [],
-      "first_seen": "2026-08-27T01:18:00+00:00",
-      "last_seen": "2026-08-27T03:06:06.539922+00:00",
-      "last_detected_at": "2026-08-27T03:06:06.539922+00:00",
-      "article_ids": [
-        "907d537f30205d7ef33f111606327b9ef47d9e42"
-      ],
-      "articles": [
-        {
-          "id": "907d537f30205d7ef33f111606327b9ef47d9e42",
-          "title": "POLRES MADIUN UNGKAP KASUS PENIPUAN HAJI PLUS-FURODA, KORBAN RUGI RP1,2 MILIAR - suryaindonesia.net",
-          "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPQ2MyUkNTaUd5eXR2STgxWWp0N2VzOHJrNlhpOUk0dmljRDg3QkZVSzZwRVpCcGlhSkR0Y1NrV2V0c1NtOEpxWVhndlh0Qy0wQzFfUy01SnI1OWw2T3NNc0RkVmpmTzJJQjYzZlJfUU1wdzkzRWNRYWJjR3I5LWxlLWprcFpQNmNPSENSajFCWldqbGFoT1dUYUhEM2dDOHJjZ1d4WG9RQnM4UzJxUkU4VXZ6SlFkYVA5cUhF?oc=5",
-          "published_at": "2026-08-27T01:18:00+00:00",
-          "collected_at": "2026-08-27T03:06:06.539922+00:00",
-          "source": "suryaindonesia.net",
-          "match_score": 1.0,
-          "priority": "low",
-          "scope": "case",
-          "category": "UNGKAP KASUS / PENINDAKAN",
-          "region": "Jawa Timur",
-          "locality": "Madiun",
-          "is_jatim": true,
-          "polres": "POLRES MADIUN"
-        }
-      ],
-      "article_count": 1,
-      "created_at": "2026-08-27T03:08:01.045851+00:00",
-      "updated_at": "2026-08-27T05:16:19.215904+00:00",
-      "engine_version": "case-v6.4",
-      "priority_score": 14,
-      "priority_breakdown": {
-        "severity": 10,
-        "escalation": 0,
-        "spread": 0,
-        "current_activity": 4
-      },
-      "priority_evidence": {
-        "unique_sources": 1,
-        "active_today_articles": 1,
-        "reasons": [
-          "update hari ini"
-        ]
-      }
-    },
-    {
-      "case_id": "CASE-000027",
-      "title": "Geliat Tambang Ilegal di Sukorejo Lamongan Belum Tersentuh Polisi - Lintas Perkoro",
-      "category": "AKTIVITAS ILEGAL / DUGAAN PEMBIARAN",
-      "scope": "negative",
-      "region": "Jawa Timur",
-      "locality": "Lamongan",
-      "is_jatim": true,
-      "polres": null,
-      "priority": "low",
-      "signature": "Jawa Timur",
-      "incident_terms": [
-        "belum",
-        "geliat",
-        "ilegal",
-        "lamongan",
-        "lintas",
-        "perkoro",
-        "sukorejo",
-        "tambang",
-        "tersentuh"
-      ],
-      "event_terms": [
-        "ilegal",
-        "tambang"
-      ],
-      "location_terms": [
-        "lamongan"
-      ],
-      "discovery_families": [
-        "illegal_activity_backing"
-      ],
-      "first_seen": "2026-08-27T00:57:00+00:00",
-      "last_seen": "2026-08-27T03:06:06.539922+00:00",
-      "last_detected_at": "2026-08-27T03:06:06.539922+00:00",
-      "article_ids": [
-        "f31f5344a153f6687572f72e74dd9c775c4687d6"
-      ],
-      "articles": [
-        {
-          "id": "f31f5344a153f6687572f72e74dd9c775c4687d6",
-          "title": "Geliat Tambang Ilegal di Sukorejo Lamongan Belum Tersentuh Polisi - Lintas Perkoro",
-          "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOaDJST3p0cHFCaFZ3M2pmYS1iQVN0cEhOTVFZOGJFOWhpWGpMMW1QVmF1LVZqTXYxejNQZ3EydHpkR0R1OFptanUyRHg3cjhDTkxDaWc5NFpwMUR2MkZhRUNxdUJWVi02V3VpOUxPRUJLWDVLSjJvY0lPLTV4WDQ5djNlOVNYUFF1d1A2MlR5c09PdWdBX2Y0N3BaeldGMDd6emFpUGJuZGxwZ9IBqgFBVV95cUxOaDJST3p0cHFCaFZ3M2pmYS1iQVN0cEhOTVFZOGJFOWhpWGpMMW1QVmF1LVZqTXYxejNQZ3EydHpkR0R1OFptanUyRHg3cjhDTkxDaWc5NFpwMUR2MkZhRUNxdUJWVi02V3VpOUxPRUJLWDVLSjJvY0lPLTV4WDQ5djNlOVNYUFF1d1A2MlR5c09PdWdBX2Y0N3BaeldGMDd6emFpUGJuZGxwZw?oc=5",
-          "published_at": "2026-08-27T00:57:00+00:00",
-          "collected_at": "2026-08-27T03:06:06.539922+00:00",
-          "source": "Lintas Perkoro",
-          "match_score": 1.0,
-          "priority": "medium",
-          "scope": "negative",
-          "category": "AKTIVITAS ILEGAL / DUGAAN PEMBIARAN",
-          "region": "Jawa Timur",
-          "locality": "Lamongan",
-          "is_jatim": true,
-          "polres": null
-        }
-      ],
-      "article_count": 1,
-      "created_at": "2026-08-27T03:08:01.051515+00:00",
-      "updated_at": "2026-08-27T05:16:19.215940+00:00",
-      "engine_version": "case-v6.4",
-      "priority_score": 32,
-      "priority_breakdown": {
-        "severity": 28,
-        "escalation": 0,
-        "spread": 0,
-        "current_activity": 4
-      },
-      "priority_evidence": {
-        "unique_sources": 1,
-        "active_today_articles": 1,
-        "reasons": [
-          "tambang ilegal",
-          "update hari ini"
-        ]
-      }
-    },
-    {
-      "case_id": "CASE-000028",
-      "title": "Seorang Wanita Tewas Diduga Usai Aborsi, Kekasih Diringkus Polisi Saat Hendak Buang Jasad Korban - Radar Sulbar",
-      "category": "OKNUM - ETIK/PERSONAL",
-      "scope": "negative",
-      "region": "LUAR JATIM",
-      "locality": "",
-      "is_jatim": false,
-      "polres": null,
-      "priority": "high",
-      "signature": "LUAR JATIM",
-      "incident_terms": [
-        "aborsi",
-        "buang",
-        "diringkus",
-        "hendak",
-        "jasad",
-        "kekasih",
-        "radar",
-        "sulbar",
-        "tewas",
-        "wanita"
-      ],
-      "event_terms": [
-        "aborsi"
-      ],
-      "location_terms": [],
-      "discovery_families": [
-        "ethics_personal_misconduct"
-      ],
-      "first_seen": "2026-08-27T00:16:46+00:00",
-      "last_seen": "2026-08-27T03:06:06.539922+00:00",
-      "last_detected_at": "2026-08-27T03:06:06.539922+00:00",
-      "article_ids": [
-        "8ac968f96a3c49160c4d43ac7a4de536d879bf0e"
-      ],
-      "articles": [
-        {
-          "id": "8ac968f96a3c49160c4d43ac7a4de536d879bf0e",
-          "title": "Seorang Wanita Tewas Diduga Usai Aborsi, Kekasih Diringkus Polisi Saat Hendak Buang Jasad Korban - Radar Sulbar",
-          "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNN3RHNHpmeVA4RF9KQkZjQ1k4R2RPWnNrenlqb2lTdEsyUy1SM1pXVl93ZEphRjhQVlhXYzBiWXE1REl0U0NHUElGeUo4R1M5bEdqZlFuY1Q4Vktxa1ktTmNtR3N4RzJfNzFydnFmeGtmZnZMdmZ5a2xVT19HdTBzTkE2OU1EQU93LXhMdG9sb19LNDRka3c5Zy0xRzc5LWJWXzZITGlqWm5GdURTZGVNUjg2UjZTUzNJTWNoUTVTYzVPSnVjTTNNbkkzS1B6TWQyd3NKNEN3?oc=5",
-          "published_at": "2026-08-27T00:16:46+00:00",
-          "collected_at": "2026-08-27T03:06:06.539922+00:00",
-          "source": "Radar Sulbar",
-          "match_score": 1.0,
-          "priority": "medium",
-          "scope": "negative",
-          "category": "OKNUM - ETIK/PERSONAL",
-          "region": "LUAR JATIM",
-          "locality": "",
-          "is_jatim": false,
-          "polres": null
-        }
-      ],
-      "article_count": 1,
-      "created_at": "2026-08-27T03:08:01.060189+00:00",
-      "updated_at": "2026-08-27T05:16:19.215972+00:00",
-      "engine_version": "case-v6.4",
-      "priority_score": 49,
-      "priority_breakdown": {
-        "severity": 45,
-        "escalation": 0,
-        "spread": 0,
-        "current_activity": 4
-      },
-      "priority_evidence": {
-        "unique_sources": 1,
-        "active_today_articles": 1,
-        "reasons": [
-          "tewas",
-          "update hari ini"
-        ]
-      }
-    },
-    {
-      "case_id": "CASE-000029",
-      "title": "17 Tersangka Ditangkap, Polres Gresik Sita 36 Gram Sabu dan 51 Ribu Pil Double L - VIVA Jatim",
-      "category": "UNGKAP KASUS / PENINDAKAN",
-      "scope": "case",
-      "region": "Jawa Timur",
-      "locality": "Gresik",
-      "is_jatim": true,
-      "polres": "POLRES GRESIK",
-      "priority": "low",
-      "signature": "POLRES GRESIK Jawa Timur",
-      "incident_terms": [
-        "double",
-        "foto",
-        "gram",
-        "gresik",
-        "jatim",
-        "pil",
-        "polres",
-        "ribu",
-        "sabu",
-        "sita",
-        "viva"
-      ],
-      "event_terms": [
-        "sabu"
-      ],
-      "location_terms": [
-        "gresik"
-      ],
-      "discovery_families": [],
-      "first_seen": "2026-08-27T00:00:00+00:00",
-      "last_seen": "2026-08-27T05:13:52.614028+00:00",
-      "last_detected_at": "2026-08-27T05:13:52.614028+00:00",
-      "article_ids": [
-        "382c5db2eedfa59f7455a7633a857844971063a3",
-        "8d7f76e32111f0ec37390a158270c018756fd5d7"
-      ],
-      "articles": [
-        {
-          "id": "382c5db2eedfa59f7455a7633a857844971063a3",
-          "title": "17 Tersangka Ditangkap, Polres Gresik Sita 36 Gram Sabu dan 51 Ribu Pil Double L - VIVA Jatim",
-          "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNVkpZSUJYTndLc1BTYTJFY24xdm4yaWgzWUluTkVoeUlycWxFbmhfR0tqRkpGU0gwX2NNWFQ4WlNJZWYxN01MYTlGTG9KS0tvcXNDNmRieTBOWnUzZkoxVmU5NVBESVREWXhLNDRubWRzdDJjU3BaNzlfLUtkNkZnTUtwN0FaOV9lSTFWb2xlZTB6Qk1Xa256RGVaSjdKTjRwem1sYWgwVjdUMTJ2TkpEMkd1TG9seFXSAbwBQVVfeXFMTjZ4RTFDTm9zMnczRTAxTmd5V1pNS2tuR2pWWHdTMGNWRDJQaE5VSGxWNy10VmljcFlUY2tQRVBoTWpFcVRoamxvZkhzaU11RHhRemlLR3I1Z2ZhbEQ2cmV5LUJRVzFjWVlnY1NKMmo1NW92N09Sa3MyNHdMN2NpTGs1VjQyT2k1d1VWRWhhTEpmTHNSVUk1MllvZlhhcmF2cTNOLUtiX3ZRd3Bnb2JIZFZkSnNzZ01oRnJuSzM?oc=5",
-          "published_at": "2026-08-27T00:00:00+00:00",
-          "collected_at": "2026-08-27T03:06:06.539922+00:00",
-          "source": "VIVA Jatim",
-          "match_score": 1.0,
-          "priority": "low",
-          "scope": "case",
-          "category": "UNGKAP KASUS / PENINDAKAN",
-          "region": "Jawa Timur",
-          "locality": "Gresik",
-          "is_jatim": true,
-          "polres": "POLRES GRESIK"
-        },
-        {
-          "id": "8d7f76e32111f0ec37390a158270c018756fd5d7",
-          "title": "Foto 17 Tersangka Ditangkap, Polres Gresik Sita 36 Gram Sabu dan 51 Ribu Pil Double L - VIVA Jatim",
-          "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPUkU4N0laOUkzNE9zSDRGR2VtZFZFQWRaYzZVTExDVUh4bS1FRDZIQUJieVg1UW5MTFM3clZPbFhlMk9GWVY2VmFTejFKUXRvc3MwejBFVFFYUTBNek1SMkp3bld4M1Vld25uQ3VBbGkwMkRvdHZXQllRdzZQSy1UM3k0Z0RHck0xT2lzVDRJQkxwSXRNREhFWDhfam5JVDg3R1NYTXV4RVRwRHpfX2NLOFgyUTN6QQ?oc=5",
-          "published_at": "2026-08-27T05:00:12+00:00",
-          "collected_at": "2026-08-27T05:13:52.614028+00:00",
-          "source": "VIVA Jatim",
-          "match_score": 1.0,
-          "priority": "low",
-          "scope": "case",
-          "category": "UNGKAP KASUS / PENINDAKAN",
-          "region": "Jawa Timur",
-          "locality": "Gresik",
-          "is_jatim": true,
-          "polres": "POLRES GRESIK"
-        }
-      ],
-      "article_count": 2,
-      "created_at": "2026-08-27T03:08:01.067091+00:00",
-      "updated_at": "2026-08-27T05:16:19.216046+00:00",
-      "engine_version": "case-v6.4",
-      "priority_score": 28,
-      "priority_breakdown": {
-        "severity": 18,
-        "escalation": 3,
-        "spread": 0,
-        "current_activity": 7
-      },
-      "priority_evidence": {
-        "unique_sources": 1,
-        "active_today_articles": 2,
-        "reasons": [
-          "tersangka",
-          "proses hukum lanjutan",
-          "update hari ini",
-          "≥2 update hari ini"
-        ]
-      }
-    },
-    {
-      "case_id": "CASE-000030",
-      "title": "Polisi amankan WNA Australia yang diduga bertindak asusila di halaman rumah warga - ANTARA News Bali",
-      "category": "OKNUM - ETIK/PERSONAL",
-      "scope": "negative",
-      "region": "LUAR JATIM",
-      "locality": "",
-      "is_jatim": false,
-      "polres": null,
-      "priority": "low",
-      "signature": "LUAR JATIM",
-      "incident_terms": [
-        "antara",
-        "asusila",
-        "australia",
-        "bali",
-        "bertindak",
-        "halaman",
-        "news",
-        "rumah",
-        "wna"
-      ],
-      "event_terms": [
-        "asusila"
-      ],
-      "location_terms": [
-        "bali"
-      ],
-      "discovery_families": [
-        "ethics_personal_misconduct"
-      ],
-      "first_seen": "2026-08-26T22:42:59+00:00",
-      "last_seen": "2026-08-27T03:06:06.539922+00:00",
-      "last_detected_at": "2026-08-27T03:06:06.539922+00:00",
-      "article_ids": [
-        "8610f76f452472b5930c22eff4748f0c1c035c50"
-      ],
-      "articles": [
-        {
-          "id": "8610f76f452472b5930c22eff4748f0c1c035c50",
-          "title": "Polisi amankan WNA Australia yang diduga bertindak asusila di halaman rumah warga - ANTARA News Bali",
-          "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPU1A2NzFRXzRhUXl2dHhXTnlEaU9vY19MX1I0SnpPdHFSem1sSzRVTzE2RTBURXFFOVBtVFpWanNta3VoS0VBOFlxZUxYS2tCOGtqeXd3ek9Gd2tPSkl5TG1sLUQxTnFjam1HNUZ6THpJRWxCSGdFQ2Flckp4NkdsaFJzWEppTWdBUzk0RXpyOG4wN2dNZkxCd0FSekVtTG9rblptU0VrWTFYOEQtMUZKeFBLN2tPZWY2U1pqV01uNFDSAcYBQVVfeXFMTnhBNEdrVjMxc3hhcDZiU0x1czdqb0FSTVVsVVFveENBTGRUZ2xrZDJ5VTF5MjYyQ0drakp5dkw0SG5zUVNsLVRtdXdrU0dmeWtmV01MbnNrLUR0Tmo2YU4xV01Ic19OYXByMWRXUFR6VWxteF9LNTBJaUNoSWlPWWJGMUxwOEhiWTRJcmhuMHd6dUZsWGtoWDBGdW9lcW1XdXhWODRYM2czbXByYW03Vk1lQjZaYXVjZkRReHRrSS1iS2hNSFBB?oc=5",
-          "published_at": "2026-08-26T22:42:59+00:00",
-          "collected_at": "2026-08-27T03:06:06.539922+00:00",
-          "source": "ANTARA News Bali",
-          "match_score": 1.0,
-          "priority": "medium",
-          "scope": "negative",
-          "category": "OKNUM - ETIK/PERSONAL",
-          "region": "LUAR JATIM",
-          "locality": "",
-          "is_jatim": false,
-          "polres": null
-        }
-      ],
-      "article_count": 1,
-      "created_at": "2026-08-27T03:08:01.084729+00:00",
-      "updated_at": "2026-08-27T05:16:19.216083+00:00",
-      "engine_version": "case-v6.4",
-      "priority_score": 14,
-      "priority_breakdown": {
-        "severity": 10,
-        "escalation": 0,
-        "spread": 0,
-        "current_activity": 4
-      },
-      "priority_evidence": {
-        "unique_sources": 1,
-        "active_today_articles": 1,
-        "reasons": [
-          "update hari ini"
-        ]
-      }
-    },
-    {
-      "case_id": "CASE-000031",
-      "title": "Narkoba Bekasi Beredar Lewat Instagram, Polisi Sita Puluhan Ribu Obat Terlarang - Pikiran Rakyat Koran",
-      "category": "UNGKAP KASUS / PENINDAKAN",
-      "scope": "case",
-      "region": "LUAR JATIM",
-      "locality": "",
-      "is_jatim": false,
-      "polres": null,
-      "priority": "low",
-      "signature": "LUAR JATIM",
-      "incident_terms": [
-        "bekasi",
-        "beredar",
-        "instagram",
-        "koran",
-        "lewat",
-        "narkoba",
-        "obat",
-        "pikiran",
-        "puluhan",
-        "rakyat",
-        "ribu",
-        "sita",
-        "terlarang"
-      ],
-      "event_terms": [
-        "narkoba"
-      ],
-      "location_terms": [],
-      "discovery_families": [],
-      "first_seen": "2026-08-26T22:00:00+00:00",
-      "last_seen": "2026-08-27T03:06:06.539922+00:00",
-      "last_detected_at": "2026-08-27T03:06:06.539922+00:00",
-      "article_ids": [
-        "72e2bd1cafca7f6493ead2ebbc4b0d4fd9f0f05b"
-      ],
-      "articles": [
-        {
-          "id": "72e2bd1cafca7f6493ead2ebbc4b0d4fd9f0f05b",
-          "title": "Narkoba Bekasi Beredar Lewat Instagram, Polisi Sita Puluhan Ribu Obat Terlarang - Pikiran Rakyat Koran",
-          "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPTGxXNHR3UlZjTFdBUFpRLXpVNjBubHhIVVJPSl9WRkVJZFViRm8zbDd6bDhPQlV1X3VSRGlrT05BeDNPcDVXWEM4YXNuMEpwLUVXTDhXT0Jid3MzWm9mWjd1U3QxYmVsN2p6Y29vYU1Tb042Ym9RU0ZHak5CREVmOHFDYW5hbjZnNGREWnFGUnVJUUhVcndEU0VkdktMWWxfNE5lMXgxM0pmeVV4ZnV3VWNnWlRFZ2pXRmZlOEFvWWlGTnFlRGI4eDZfSQ?oc=5",
-          "published_at": "2026-08-26T22:00:00+00:00",
-          "collected_at": "2026-08-27T03:06:06.539922+00:00",
-          "source": "Pikiran Rakyat Koran",
-          "match_score": 1.0,
-          "priority": "low",
-          "scope": "case",
-          "category": "UNGKAP KASUS / PENINDAKAN",
-          "region": "LUAR JATIM",
-          "locality": "",
-          "is_jatim": false,
-          "polres": null
-        }
-      ],
-      "article_count": 1,
-      "created_at": "2026-08-27T03:08:01.093868+00:00",
-      "updated_at": "2026-08-27T05:16:19.216119+00:00",
-      "engine_version": "case-v6.4",
-      "priority_score": 32,
-      "priority_breakdown": {
-        "severity": 28,
-        "escalation": 0,
-        "spread": 0,
-        "current_activity": 4
-      },
-      "priority_evidence": {
-        "unique_sources": 1,
-        "active_today_articles": 1,
-        "reasons": [
-          "narkoba",
-          "update hari ini"
-        ]
-      }
-    },
-    {
-      "case_id": "CASE-000032",
-      "title": "Begal Bersenjata Airsoft Gun Beraksi di Cakung, Polisi Tangkap Pelaku Saat Sedang Tidur - VIVA Jakarta",
-      "category": "UNGKAP KASUS / PENINDAKAN",
-      "scope": "case",
-      "region": "LUAR JATIM",
-      "locality": "",
-      "is_jatim": false,
-      "polres": null,
-      "priority": "low",
-      "signature": "LUAR JATIM",
-      "incident_terms": [
-        "airsoft",
-        "begal",
-        "beraksi",
-        "bersenjata",
-        "cakung",
-        "gun",
-        "jakarta",
-        "sedang",
-        "tidur",
-        "viva"
-      ],
-      "event_terms": [],
-      "location_terms": [
-        "jakarta"
-      ],
-      "discovery_families": [],
-      "first_seen": "2026-08-26T18:42:00+00:00",
-      "last_seen": "2026-08-27T03:06:06.539922+00:00",
-      "last_detected_at": "2026-08-27T03:06:06.539922+00:00",
-      "article_ids": [
-        "56ed9e229ff6b6ce0aa707f5372f831fadb92d3d"
-      ],
-      "articles": [
-        {
-          "id": "56ed9e229ff6b6ce0aa707f5372f831fadb92d3d",
-          "title": "Begal Bersenjata Airsoft Gun Beraksi di Cakung, Polisi Tangkap Pelaku Saat Sedang Tidur - VIVA Jakarta",
-          "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNRXUzU2htTWV3MURjRHlLWXVBWkhRSi1qNzNwanJYVmZDeUNJdVJfbkR3dk9STUx4XzN1YVJwckI5V0c4UVQ3RUw5ekhHSFNwM3BYR0Q2MVlkRkFlV1VTUjVLeDhCTnpjeUV4bFRWeURSNXJqVy1uX2RvV2tBdzF6Y3pfQ2twVnlLSXVpakJzMG9tTVJ5VjV4WHg5ZlNzQmJEeDFseTA5R2h3OFU1ZDZyb1dWZU9nYkY1NGJ5TVliY3JEZTRZaXkxNTFnQdIB0AFBVV95cUxPbF9ybXdCRlNra3RyWTRoLVliR1JDMzZURFVObFhXWmFOSk1ySGJNS0hwcnlDTEd5QmNDalJpWllCUjN6LW5GS1QtbGVTUGFFS0MwWjhuY0RoZmNXTHpJdG04YnE2NUJnOC1zNk83ZmY5dzBCeWw4dS05YlhwSmxuX0N0VE1hVGExbGNISmpZYi1DNEJQNWxRVG84SGJYaC1rSERuWlIyVkNhOE9PRkJuSEowdTA1cXVmZlJJcjFQOEU2MWUyWXFGLXVJZ1VRMEJn?oc=5",
-          "published_at": "2026-08-26T18:42:00+00:00",
-          "collected_at": "2026-08-27T03:06:06.539922+00:00",
-          "source": "VIVA Jakarta",
-          "match_score": 1.0,
-          "priority": "low",
-          "scope": "case",
-          "category": "UNGKAP KASUS / PENINDAKAN",
-          "region": "LUAR JATIM",
-          "locality": "",
-          "is_jatim": false,
-          "polres": null
-        }
-      ],
-      "article_count": 1,
-      "created_at": "2026-08-27T03:08:01.103094+00:00",
-      "updated_at": "2026-08-27T05:16:19.216155+00:00",
-      "engine_version": "case-v6.4",
-      "priority_score": 14,
-      "priority_breakdown": {
-        "severity": 10,
-        "escalation": 0,
-        "spread": 0,
-        "current_activity": 4
-      },
-      "priority_evidence": {
-        "unique_sources": 1,
-        "active_today_articles": 1,
-        "reasons": [
-          "update hari ini"
-        ]
-      }
-    },
-    {
-      "case_id": "CASE-000033",
-      "title": "Polisi Tangkap 5 Tersangka Kekerasan Seksual terhadap Perempuan Disabilitas, Dicekoki Narkoba - MedanMerdeka.com",
-      "category": "OKNUM - ETIK/PERSONAL",
-      "scope": "negative",
-      "region": "LUAR JATIM",
-      "locality": "",
-      "is_jatim": false,
-      "polres": null,
-      "priority": "high",
-      "signature": "LUAR JATIM",
-      "incident_terms": [
-        "com",
-        "dicekoki",
-        "disabilitas",
-        "kekerasan",
-        "medanmerdeka",
-        "narkoba",
-        "perempuan",
-        "seksual"
-      ],
-      "event_terms": [
-        "kekerasan",
-        "narkoba",
-        "seksual"
-      ],
-      "location_terms": [],
-      "discovery_families": [
-        "ethics_personal_misconduct"
-      ],
-      "first_seen": "2026-08-26T16:40:00+00:00",
-      "last_seen": "2026-08-27T03:06:06.539922+00:00",
-      "last_detected_at": "2026-08-27T03:06:06.539922+00:00",
-      "article_ids": [
-        "9bfd0a4fdade47051b1073c66ebefd05ccbb1825"
-      ],
-      "articles": [
-        {
-          "id": "9bfd0a4fdade47051b1073c66ebefd05ccbb1825",
-          "title": "Polisi Tangkap 5 Tersangka Kekerasan Seksual terhadap Perempuan Disabilitas, Dicekoki Narkoba - MedanMerdeka.com",
-          "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOQTQzWXN4dXdVVWFTM3RNb2trS2tuT2ZPR0JPaXAyM3JyZzJBcmRfMGViQ3NqYUNURkstRnJJRnBaX3V0YVJ1LWpqU3pwTEM2cHBIRmVkTTFPc0Y2WVVOaC1fMjYtZndtUGd5dE1sRnViMWxtbFJXUm9mR0REZ1BqWEIyOFE?oc=5",
-          "published_at": "2026-08-26T16:40:00+00:00",
-          "collected_at": "2026-08-27T03:06:06.539922+00:00",
-          "source": "MedanMerdeka.com",
-          "match_score": 1.0,
-          "priority": "medium",
-          "scope": "negative",
-          "category": "OKNUM - ETIK/PERSONAL",
-          "region": "LUAR JATIM",
-          "locality": "",
-          "is_jatim": false,
-          "polres": null
-        }
-      ],
-      "article_count": 1,
-      "created_at": "2026-08-27T03:08:01.114200+00:00",
-      "updated_at": "2026-08-27T05:16:19.216187+00:00",
-      "engine_version": "case-v6.4",
-      "priority_score": 52,
-      "priority_breakdown": {
-        "severity": 45,
-        "escalation": 3,
-        "spread": 0,
-        "current_activity": 4
-      },
-      "priority_evidence": {
-        "unique_sources": 1,
-        "active_today_articles": 1,
-        "reasons": [
-          "kekerasan seksual",
-          "proses hukum lanjutan",
-          "update hari ini"
-        ]
-      }
-    },
-    {
-      "case_id": "CASE-000034",
-      "title": "Operasi Tumpas Narkoba Semeru 2026: Polres Gresik Ungkap 14 Kasus, 17 Tersangka Dibekuk - Harian Bhirawa",
-      "category": "UNGKAP KASUS / PENINDAKAN",
-      "scope": "case",
-      "region": "Jawa Timur",
-      "locality": "Gresik",
-      "is_jatim": true,
-      "polres": "POLRES GRESIK",
-      "priority": "low",
-      "signature": "POLRES GRESIK Jawa Timur",
-      "incident_terms": [
-        "2026",
-        "bhirawa",
-        "dibekuk",
-        "gresik",
-        "harian",
-        "narkoba",
-        "net",
-        "operasi",
-        "polres",
-        "semeru",
-        "suryaindonesia",
-        "tumpas"
-      ],
-      "event_terms": [
-        "narkoba"
-      ],
-      "location_terms": [
-        "gresik"
-      ],
-      "discovery_families": [],
-      "first_seen": "2026-08-26T15:15:00+00:00",
-      "last_seen": "2026-08-27T05:13:52.614028+00:00",
-      "last_detected_at": "2026-08-27T05:13:52.614028+00:00",
-      "article_ids": [
-        "c44c134bab822d7c6fc1f2e218e10f81872ea60c",
-        "7dcc5ad5dd8549c31b20f6847dcabfc28f9c6d12"
-      ],
-      "articles": [
-        {
-          "id": "c44c134bab822d7c6fc1f2e218e10f81872ea60c",
-          "title": "Operasi Tumpas Narkoba Semeru 2026: Polres Gresik Ungkap 14 Kasus, 17 Tersangka Dibekuk - Harian Bhirawa",
-          "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQVm8zQUxObUFLMW9Qa3Zhc2EyS1NFTFpMVndDQkx1S2pPZlBxLTBJT3hhaG9yVHdCSkNzTEJWNm1KdjZxVHg3UGM2SzlXQ3dNUlViLUJUbGlvUkhJV1l3UjYtdEFQNGZBT3BFN1hwOThVejVCcUsxWmpwQzNFUVFPUVhNUzRMSnRoMVdRQkhmM1ZrSWUzQUFCWHJsR3RUS1V5bktfNjZaSkg0RlVWdE8yemRxclY?oc=5",
-          "published_at": "2026-08-26T15:15:00+00:00",
-          "collected_at": "2026-08-27T03:06:06.539922+00:00",
-          "source": "Harian Bhirawa",
-          "match_score": 1.0,
-          "priority": "low",
-          "scope": "case",
-          "category": "UNGKAP KASUS / PENINDAKAN",
-          "region": "Jawa Timur",
-          "locality": "Gresik",
-          "is_jatim": true,
-          "polres": "POLRES GRESIK"
-        },
-        {
-          "id": "7dcc5ad5dd8549c31b20f6847dcabfc28f9c6d12",
-          "title": "Polres Gresik Ungkap 14 Kasus Narkoba dalam Operasi Tumpas Semeru 2026, 17 Tersangka Diamankan - suryaindonesia.net",
-          "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPNGxrZFhrcURwTVlCSjVSX1pRVzN4V2NMZXRnT0dGblNaa2kyeVI3RVNrajhLTGNfWEczWkhFQUlfNV9VTU5pVXZEM2dGWXR5R25hY1ZiZ1ZFNjhtNVUtWnVZQjQwQWNrcDljcXI3XzRodEJtY3pTTnBwS0FiamtmMF9EWTJNdUtwM0V4WXZXUFlMcTZ0OFUwVkZkUGdHMHZza0ZNT25ESERzWXBaMkJmQ3ZUR2VfLXlIYWZmUG9MdU5kN2pRNk9vZTRIRnV4bXlpVGc?oc=5",
-          "published_at": "2026-08-27T04:56:00+00:00",
-          "collected_at": "2026-08-27T05:13:52.614028+00:00",
-          "source": "suryaindonesia.net",
-          "match_score": 1.0,
-          "priority": "low",
-          "scope": "case",
-          "category": "UNGKAP KASUS / PENINDAKAN",
-          "region": "Jawa Timur",
-          "locality": "Gresik",
-          "is_jatim": true,
-          "polres": "POLRES GRESIK"
-        }
-      ],
-      "article_count": 2,
-      "created_at": "2026-08-27T03:08:01.122724+00:00",
-      "updated_at": "2026-08-27T05:16:19.216247+00:00",
-      "engine_version": "case-v6.4",
-      "priority_score": 38,
-      "priority_breakdown": {
-        "severity": 28,
-        "escalation": 3,
-        "spread": 0,
-        "current_activity": 7
-      },
-      "priority_evidence": {
-        "unique_sources": 2,
-        "active_today_articles": 2,
-        "reasons": [
-          "narkoba",
-          "proses hukum lanjutan",
-          "update hari ini",
-          "≥2 update hari ini"
-        ]
-      }
-    },
-    {
-      "case_id": "CASE-000035",
-      "title": "Operasi Tumpas Narkoba Semeru 2026, Polres Trenggalek Ungkap 9 Kasus dengan 12 Tersangka - Polres Trenggalek",
-      "category": "UNGKAP KASUS / PENINDAKAN",
-      "scope": "case",
-      "region": "Jawa Timur",
-      "locality": "Trenggalek",
-      "is_jatim": true,
-      "polres": "POLRES TRENGGALEK",
-      "priority": "low",
-      "signature": "POLRES TRENGGALEK Jawa Timur",
-      "incident_terms": [
-        "2026",
-        "narkoba",
-        "operasi",
-        "polres",
-        "semeru",
-        "trenggalek",
-        "tumpas"
-      ],
-      "event_terms": [
-        "narkoba"
-      ],
-      "location_terms": [
-        "trenggalek"
-      ],
-      "discovery_families": [],
-      "first_seen": "2026-08-27T05:09:06+00:00",
-      "last_seen": "2026-08-27T05:13:52.614028+00:00",
-      "last_detected_at": "2026-08-27T05:13:52.614028+00:00",
-      "article_ids": [
-        "771ebb5e38e4bbb7cf464f1adf42d67a1fa733a3"
-      ],
-      "articles": [
-        {
-          "id": "771ebb5e38e4bbb7cf464f1adf42d67a1fa733a3",
-          "title": "Operasi Tumpas Narkoba Semeru 2026, Polres Trenggalek Ungkap 9 Kasus dengan 12 Tersangka - Polres Trenggalek",
-          "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQZjNOaUFVbzlBRFBUY0JNay1lQnRfQW44c1JKWTBHbi1sYkt3QWw1eUI2eE1PVVduOXFaUHRHejR6elVCNm5zRks4NGhpVDR2emw0Q1Fpems2UzI2cHE5RHFmYkhTcFBwMXlkR3gwRkkxcng1VUxlc1dUMWZsZmItVmNoNVFsRXpuOXViN0JQZm04SVVTd250R1dhNm1Cek1MQmJfU0tuZGZRWlB3Tk42MlBUbzVmdEpz?oc=5",
-          "published_at": "2026-08-27T05:09:06+00:00",
-          "collected_at": "2026-08-27T05:13:52.614028+00:00",
-          "source": "Polres Trenggalek",
-          "match_score": 1.0,
-          "priority": "low",
-          "scope": "case",
-          "category": "UNGKAP KASUS / PENINDAKAN",
-          "region": "Jawa Timur",
-          "locality": "Trenggalek",
-          "is_jatim": true,
-          "polres": "POLRES TRENGGALEK"
-        }
-      ],
-      "article_count": 1,
-      "created_at": "2026-08-27T05:16:18.839557+00:00",
-      "updated_at": "2026-08-27T05:16:19.216283+00:00",
-      "engine_version": "case-v6.4",
-      "priority_score": 35,
-      "priority_breakdown": {
-        "severity": 28,
-        "escalation": 3,
-        "spread": 0,
-        "current_activity": 4
-      },
-      "priority_evidence": {
-        "unique_sources": 1,
-        "active_today_articles": 1,
-        "reasons": [
-          "narkoba",
-          "proses hukum lanjutan",
-          "update hari ini"
-        ]
-      }
-    },
-    {
-      "case_id": "CASE-000036",
-      "title": "Tangkap Puluhan Orang Terkait Demo di DPR, Polisi: Diduga Terafiliasi Anarko - news.okezone.com",
-      "category": "KEAMANAN / KAMTIBMAS",
-      "scope": "negative",
-      "region": "LUAR JATIM",
-      "locality": "",
-      "is_jatim": false,
-      "polres": null,
-      "priority": "low",
-      "signature": "LUAR JATIM",
-      "incident_terms": [
-        "anarko",
-        "com",
-        "demo",
-        "dpr",
-        "news",
-        "okezone",
-        "puluhan",
-        "terafiliasi"
-      ],
-      "event_terms": [],
-      "location_terms": [],
-      "discovery_families": [
-        "security_public_order"
-      ],
-      "first_seen": "2026-08-27T04:54:21+00:00",
-      "last_seen": "2026-08-27T05:13:52.614028+00:00",
-      "last_detected_at": "2026-08-27T05:13:52.614028+00:00",
-      "article_ids": [
-        "8cae0d0d6d188f67f7f8bbeea9807e1812a3520d"
-      ],
-      "articles": [
-        {
-          "id": "8cae0d0d6d188f67f7f8bbeea9807e1812a3520d",
-          "title": "Tangkap Puluhan Orang Terkait Demo di DPR, Polisi: Diduga Terafiliasi Anarko - news.okezone.com",
-          "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQNG5TSHZlTUJOQWl4Tl9iWlBRbzNSVmctejJXUmt6bm1qd1A0bEcxR0xMd1JlQzZnZ3NhOUVmLWM3Y2d2T2MtcTZadU9EejV3S3ZrNkFjUEJBNmp0WWVNSFk2a3QzQmhpbWtRV1dCT2lLdFdwdDZhanYxNC1fenNaNTE4aERKYmdWMHlkRk5JNjB2QmY3X1pHUlYydGpLOHR6T1V4YXVGcE1WRE9vc042WmpFcDFCalVoN0s2LVoyUmI4NUhYb1HSAcQBQVVfeXFMT1VTenNNemxYS3ZxcmNuSzc1aG9qOFZTd3NsaXV3VnhCaEwwbnI5azRCYzBwUE14TU5WbVJfT3JLTFBsMVVJYXlXNmtCWUg3TDVjcXhYOGJHNnA0Wk9qaHNUWUdIdFIxTXN1VmF4R1p0WGdQb2NKRTUwVFNLSzBEVFlUWHZZMjZYSTNkYS12MUxBSmtEYWNDU1dmQ0czVFMteElFOVZSOFE3UXN6dXRsdEFSTTRmQjQ5YkVGdFE4NnFldktpRQ?oc=5",
-          "published_at": "2026-08-27T04:54:21+00:00",
-          "collected_at": "2026-08-27T05:13:52.614028+00:00",
-          "source": "news.okezone.com",
-          "match_score": 1.0,
-          "priority": "medium",
-          "scope": "negative",
-          "category": "KEAMANAN / KAMTIBMAS",
-          "region": "LUAR JATIM",
-          "locality": "",
-          "is_jatim": false,
-          "polres": null
-        }
-      ],
-      "article_count": 1,
-      "created_at": "2026-08-27T05:16:18.875028+00:00",
-      "updated_at": "2026-08-27T05:16:19.216320+00:00",
-      "engine_version": "case-v6.4",
-      "priority_score": 14,
-      "priority_breakdown": {
-        "severity": 10,
-        "escalation": 0,
-        "spread": 0,
-        "current_activity": 4
-      },
-      "priority_evidence": {
-        "unique_sources": 1,
-        "active_today_articles": 1,
-        "reasons": [
-          "update hari ini"
-        ]
-      }
-    },
-    {
-      "case_id": "CASE-000037",
-      "title": "Polisi Amankan 65 Orang Diduga Tunggangi Aksi Demo 27 Agustus, Dua Jadi Tersangka - Kupas Tuntas",
-      "category": "KEAMANAN / KAMTIBMAS",
-      "scope": "negative",
-      "region": "LUAR JATIM",
-      "locality": "",
-      "is_jatim": false,
-      "polres": null,
-      "priority": "low",
-      "signature": "LUAR JATIM",
-      "incident_terms": [
-        "agustus",
-        "aksi",
-        "demo",
-        "kupas",
-        "tunggangi",
-        "tuntas"
-      ],
-      "event_terms": [],
-      "location_terms": [],
-      "discovery_families": [
-        "security_public_order"
-      ],
-      "first_seen": "2026-08-27T04:46:00+00:00",
-      "last_seen": "2026-08-27T05:13:52.614028+00:00",
-      "last_detected_at": "2026-08-27T05:13:52.614028+00:00",
-      "article_ids": [
-        "cf2209587f6e404c3ade32d0913be35e96eb1f1a"
-      ],
-      "articles": [
-        {
-          "id": "cf2209587f6e404c3ade32d0913be35e96eb1f1a",
-          "title": "Polisi Amankan 65 Orang Diduga Tunggangi Aksi Demo 27 Agustus, Dua Jadi Tersangka - Kupas Tuntas",
-          "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPVkh2ek9XNlp6WmpkRjZTS3AyQ1dyM1RMYXNNRFJtRGI1NHdqVnUyaVdvdE5SMGFfbVNzQXA5VTR4LXQ1bnQzSGJic01ES0poN3RadmRuMUN3eHBtRHFLX0g5cVZ4dnFNSmZsaWpkTmQ3T3ExYTRSOWZVWlpJaG9McHI3SjFCRGJSNC1IbE5Wa1I0Wnh3Z1R3bC15T3V0b1VlWVVheEJxNGJvUV8yMVVsSXk3ajQ?oc=5",
-          "published_at": "2026-08-27T04:46:00+00:00",
-          "collected_at": "2026-08-27T05:13:52.614028+00:00",
-          "source": "Kupas Tuntas",
-          "match_score": 1.0,
-          "priority": "medium",
-          "scope": "negative",
-          "category": "KEAMANAN / KAMTIBMAS",
-          "region": "LUAR JATIM",
-          "locality": "",
-          "is_jatim": false,
-          "polres": null
-        }
-      ],
-      "article_count": 1,
-      "created_at": "2026-08-27T05:16:18.888188+00:00",
-      "updated_at": "2026-08-27T05:16:19.216357+00:00",
-      "engine_version": "case-v6.4",
-      "priority_score": 25,
-      "priority_breakdown": {
-        "severity": 18,
-        "escalation": 3,
-        "spread": 0,
-        "current_activity": 4
-      },
-      "priority_evidence": {
-        "unique_sources": 1,
-        "active_today_articles": 1,
-        "reasons": [
-          "tersangka",
-          "proses hukum lanjutan",
-          "update hari ini"
-        ]
-      }
-    },
-    {
-      "case_id": "CASE-000038",
-      "title": "Oknum Polisi Maluku Utara Diduga KDRT Istri Demi Selingkuhan - tandaseru.com",
-      "category": "OKNUM - ETIK/PERSONAL",
-      "scope": "negative",
-      "region": "LUAR JATIM",
-      "locality": "",
-      "is_jatim": false,
-      "polres": null,
-      "priority": "low",
-      "signature": "LUAR JATIM",
-      "incident_terms": [
-        "com",
-        "demi",
-        "istri",
-        "kdrt",
-        "maluku",
-        "selingkuhan",
-        "tandaseru",
-        "utara"
-      ],
-      "event_terms": [
-        "kdrt"
-      ],
-      "location_terms": [],
-      "discovery_families": [
-        "ethics_personal_misconduct",
-        "general_police_misconduct"
-      ],
-      "first_seen": "2026-08-27T04:40:00+00:00",
-      "last_seen": "2026-08-27T05:13:52.614028+00:00",
-      "last_detected_at": "2026-08-27T05:13:52.614028+00:00",
-      "article_ids": [
-        "fe8ac42796831ead21e2dfc2400442f70a760568"
-      ],
-      "articles": [
-        {
-          "id": "fe8ac42796831ead21e2dfc2400442f70a760568",
-          "title": "Oknum Polisi Maluku Utara Diduga KDRT Istri Demi Selingkuhan - tandaseru.com",
-          "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPeXJLNkF0RW13TnFRTkk4T3gzU1UwLWtpTGNYOVlfTmhCektjbFlES1BSMUY5TFJLd0htQUpIZGpjeXJvZm14VWZoN1FsV1dhc1lqckpHcDNWZk12UktVOHZRbzZpREF6NUhTNGxUcnFFWEhUdWNlckRET0tKdjdObzlEdFNtajVQQkY2NGYwaTlPbGNSTnFjY0tkZnlGNjA?oc=5",
-          "published_at": "2026-08-27T04:40:00+00:00",
-          "collected_at": "2026-08-27T05:13:52.614028+00:00",
-          "source": "tandaseru.com",
-          "match_score": 1.0,
-          "priority": "high",
-          "scope": "negative",
-          "category": "OKNUM - ETIK/PERSONAL",
-          "region": "LUAR JATIM",
-          "locality": "",
-          "is_jatim": false,
-          "polres": null
-        }
-      ],
-      "article_count": 1,
-      "created_at": "2026-08-27T05:16:18.899900+00:00",
-      "updated_at": "2026-08-27T05:16:19.216391+00:00",
-      "engine_version": "case-v6.4",
-      "priority_score": 22,
-      "priority_breakdown": {
-        "severity": 18,
-        "escalation": 0,
-        "spread": 0,
-        "current_activity": 4
-      },
-      "priority_evidence": {
-        "unique_sources": 1,
-        "active_today_articles": 1,
-        "reasons": [
-          "kdrt",
-          "update hari ini"
-        ]
-      }
-    },
-    {
-      "case_id": "CASE-000039",
-      "title": "Viral Tawuran di Jalan Raya Jakarta-Bogor, Polisi Tangkap 3 Pelaku dan Sita 7 Cerulit - Kompas.com",
-      "category": "KEAMANAN / KAMTIBMAS",
-      "scope": "negative",
-      "region": "LUAR JATIM",
-      "locality": "",
-      "is_jatim": false,
-      "polres": null,
-      "priority": "low",
-      "signature": "LUAR JATIM",
-      "incident_terms": [
-        "bogor",
-        "cerulit",
-        "com",
-        "jakarta",
-        "jalan",
-        "kompas",
-        "raya",
-        "sita",
-        "tawuran",
-        "viral"
-      ],
-      "event_terms": [],
-      "location_terms": [
-        "jakarta"
-      ],
-      "discovery_families": [
-        "security_public_order"
-      ],
-      "first_seen": "2026-08-27T04:18:00+00:00",
-      "last_seen": "2026-08-27T05:13:52.614028+00:00",
-      "last_detected_at": "2026-08-27T05:13:52.614028+00:00",
-      "article_ids": [
-        "69377a642c55bec2e74d397af61ed33cb378b19d"
-      ],
-      "articles": [
-        {
-          "id": "69377a642c55bec2e74d397af61ed33cb378b19d",
-          "title": "Viral Tawuran di Jalan Raya Jakarta-Bogor, Polisi Tangkap 3 Pelaku dan Sita 7 Cerulit - Kompas.com",
-          "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOTTZCVHg1NDhIdlhsaVJkOXc1NWtmMWdjdGpGb2t1ZnZPd1piZ084M1piWWtIOGRJQ1VTejcxWUVTNzVKdXgyeEhSQmVuUi1NVU5JclFWbDlOWE9RdmFfdmJUY3hERFo3d3hDWV9hMjVnVTA4dVVLRENTUFpyVnlNaFJsNmk3eFBtaUl3U2ZiMXlwcXZZMmgteGxZUWthOHBxM2tSYjI2bjZkSlpDQTk4c0FrOHpwclkyQ2pwaHgyVzZ3Uk1FcnMtUw?oc=5",
-          "published_at": "2026-08-27T04:18:00+00:00",
-          "collected_at": "2026-08-27T05:13:52.614028+00:00",
-          "source": "Kompas.com",
-          "match_score": 1.0,
-          "priority": "medium",
-          "scope": "negative",
-          "category": "KEAMANAN / KAMTIBMAS",
-          "region": "LUAR JATIM",
-          "locality": "",
-          "is_jatim": false,
-          "polres": null
-        }
-      ],
-      "article_count": 1,
-      "created_at": "2026-08-27T05:16:18.913801+00:00",
-      "updated_at": "2026-08-27T05:16:19.216427+00:00",
-      "engine_version": "case-v6.4",
-      "priority_score": 14,
-      "priority_breakdown": {
-        "severity": 10,
-        "escalation": 0,
-        "spread": 0,
-        "current_activity": 4
-      },
-      "priority_evidence": {
-        "unique_sources": 1,
-        "active_today_articles": 1,
-        "reasons": [
-          "update hari ini"
-        ]
-      }
-    },
-    {
-      "case_id": "CASE-000040",
-      "title": "63 Orang Ditangkap Polisi Jelang Demo 27 Agustus, Diduga Hendak Buat Kericuhan - Kompas.com",
-      "category": "KEAMANAN / KAMTIBMAS",
-      "scope": "negative",
-      "region": "LUAR JATIM",
-      "locality": "",
-      "is_jatim": false,
-      "polres": null,
-      "priority": "low",
-      "signature": "LUAR JATIM",
-      "incident_terms": [
-        "agustus",
-        "buat",
-        "com",
-        "demo",
-        "hendak",
-        "jelang",
-        "kericuhan",
-        "kompas"
-      ],
-      "event_terms": [],
-      "location_terms": [],
-      "discovery_families": [
-        "security_public_order"
-      ],
-      "first_seen": "2026-08-27T04:06:00+00:00",
-      "last_seen": "2026-08-27T05:13:52.614028+00:00",
-      "last_detected_at": "2026-08-27T05:13:52.614028+00:00",
-      "article_ids": [
-        "69df475f1297bbabd8b5ef165cdc44638f93517c"
-      ],
-      "articles": [
-        {
-          "id": "69df475f1297bbabd8b5ef165cdc44638f93517c",
-          "title": "63 Orang Ditangkap Polisi Jelang Demo 27 Agustus, Diduga Hendak Buat Kericuhan - Kompas.com",
-          "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOa2hiWHJmVmN2c0JrN096YkZMZFhsZXgxNkFGZTcyYjRtSFZGMjY2emh3aC1Ic2tSc01ibVNRRnE5YThJblhiNGwwRGo1QVRjZDEzejNHYWgzeWc5Vk9BdEZhQ3I5Rm5lM3c1Rm9Jd2MwaHdGNHZGVkp3SGgydG9RNWNqYlBuV2s5REJzc3B4ZktzS3JWV1hubkZBYTg4RXo1V2dmR3pDbjBfdWo2dG9Ec0FiODFjT0RTMGtaemdwUWI?oc=5",
-          "published_at": "2026-08-27T04:06:00+00:00",
-          "collected_at": "2026-08-27T05:13:52.614028+00:00",
-          "source": "Kompas.com",
-          "match_score": 1.0,
-          "priority": "medium",
-          "scope": "negative",
-          "category": "KEAMANAN / KAMTIBMAS",
-          "region": "LUAR JATIM",
-          "locality": "",
-          "is_jatim": false,
-          "polres": null
-        }
-      ],
-      "article_count": 1,
-      "created_at": "2026-08-27T05:16:18.927163+00:00",
-      "updated_at": "2026-08-27T05:16:19.216461+00:00",
-      "engine_version": "case-v6.4",
-      "priority_score": 14,
-      "priority_breakdown": {
-        "severity": 10,
-        "escalation": 0,
-        "spread": 0,
-        "current_activity": 4
-      },
-      "priority_evidence": {
-        "unique_sources": 1,
-        "active_today_articles": 1,
-        "reasons": [
-          "update hari ini"
-        ]
-      }
-    },
-    {
-      "case_id": "CASE-000041",
-      "title": "Michat Jadi Pemicu Dugaan Perselingkuhan Oknum Polisi di Maluku Utara - RRI.co.id",
-      "category": "OKNUM - ETIK/PERSONAL",
-      "scope": "negative",
-      "region": "LUAR JATIM",
-      "locality": "",
-      "is_jatim": false,
-      "polres": null,
-      "priority": "low",
-      "signature": "LUAR JATIM",
-      "incident_terms": [
-        "dugaan",
-        "maluku",
-        "michat",
-        "pemicu",
-        "perselingkuhan",
-        "rri",
-        "utara"
-      ],
-      "event_terms": [
-        "perselingkuhan"
-      ],
-      "location_terms": [],
-      "discovery_families": [
-        "ethics_personal_misconduct",
-        "general_police_misconduct"
-      ],
-      "first_seen": "2026-08-27T04:02:00+00:00",
-      "last_seen": "2026-08-27T05:13:52.614028+00:00",
-      "last_detected_at": "2026-08-27T05:13:52.614028+00:00",
-      "article_ids": [
-        "b90fd5ec674fc4ddd181d6e2ea51ef3d2e84336a"
-      ],
-      "articles": [
-        {
-          "id": "b90fd5ec674fc4ddd181d6e2ea51ef3d2e84336a",
-          "title": "Michat Jadi Pemicu Dugaan Perselingkuhan Oknum Polisi di Maluku Utara - RRI.co.id",
-          "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPQU9zOV9sMTZYY1FEUXp3M1JZdzVCS1ZFWXdkWXZtMHpCUDNvN2pGUE51WDZaSDlINTBDbmc2Y2NtalFVQk03LTFBNVhZRXpXTllvcmY0NkRkZlp5SmhfRWpOamZPX09pNVVkamV1d1BjUmhYR1JVWGFOT3hnVUxaLXBkVXZUTk1lVzRSQ05aQU5rRmQ2bTBvaVQtVHBEMWpENkNGS3dUcXU2NFBoazV3QWZn?oc=5",
-          "published_at": "2026-08-27T04:02:00+00:00",
-          "collected_at": "2026-08-27T05:13:52.614028+00:00",
-          "source": "RRI.co.id",
-          "match_score": 1.0,
-          "priority": "high",
-          "scope": "negative",
-          "category": "OKNUM - ETIK/PERSONAL",
-          "region": "LUAR JATIM",
-          "locality": "",
-          "is_jatim": false,
-          "polres": null
-        }
-      ],
-      "article_count": 1,
-      "created_at": "2026-08-27T05:16:18.939234+00:00",
-      "updated_at": "2026-08-27T05:16:19.216495+00:00",
-      "engine_version": "case-v6.4",
-      "priority_score": 22,
-      "priority_breakdown": {
-        "severity": 18,
-        "escalation": 0,
-        "spread": 0,
-        "current_activity": 4
-      },
-      "priority_evidence": {
-        "unique_sources": 1,
-        "active_today_articles": 1,
-        "reasons": [
-          "perselingkuhan",
-          "update hari ini"
-        ]
-      }
-    },
-    {
-      "case_id": "CASE-000042",
-      "title": "Guru Ngaji di Banyuwangi Jadi Tersangka Dugaan Pencabulan Murid 8 Tahun, Polisi Langsung Menahan - Kongkrit.com",
-      "category": "OKNUM - ETIK/PERSONAL",
-      "scope": "negative",
-      "region": "Jawa Timur",
-      "locality": "Banyuwangi",
-      "is_jatim": true,
-      "polres": null,
-      "priority": "low",
-      "signature": "Jawa Timur",
-      "incident_terms": [
-        "banyuwangi",
-        "com",
-        "dugaan",
-        "guru",
-        "kongkrit",
-        "murid",
-        "ngaji",
-        "pencabulan"
-      ],
-      "event_terms": [
-        "pencabulan"
-      ],
-      "location_terms": [
-        "banyuwangi"
-      ],
-      "discovery_families": [
-        "ethics_personal_misconduct"
-      ],
-      "first_seen": "2026-08-27T03:45:00+00:00",
-      "last_seen": "2026-08-27T05:13:52.614028+00:00",
-      "last_detected_at": "2026-08-27T05:13:52.614028+00:00",
-      "article_ids": [
-        "31da368f7081f418bc6cf7d3d714e5df56727702"
-      ],
-      "articles": [
-        {
-          "id": "31da368f7081f418bc6cf7d3d714e5df56727702",
-          "title": "Guru Ngaji di Banyuwangi Jadi Tersangka Dugaan Pencabulan Murid 8 Tahun, Polisi Langsung Menahan - Kongkrit.com",
-          "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOOW1RdHFGN3NyWG1VWnk1NXdqZFo5amdUR2NUeWFIQXgxeWUzTkdLdW1kNDZZcXBHZUxKUVBqZkpnTmRmTFFEVllLRUgyeGRrSkNMUzNpN0pabTlMWXI4UVZwcHk4a0xZMzdDMnJDOU5YeXlTTGRJaG9lbml5RkNUeklocFM4S05aMXNlTTBxVHI0TWwyYnRUUk9IV3Bsd3M1N2VfLUhTX3EwRDRrUGcyUUx1cmt2VVJZSFF0aXZRcmRJM3JvWHZQM0NlSVo4eFk?oc=5",
-          "published_at": "2026-08-27T03:45:00+00:00",
-          "collected_at": "2026-08-27T05:13:52.614028+00:00",
-          "source": "Kongkrit.com",
-          "match_score": 1.0,
-          "priority": "medium",
-          "scope": "negative",
-          "category": "OKNUM - ETIK/PERSONAL",
-          "region": "Jawa Timur",
-          "locality": "Banyuwangi",
-          "is_jatim": true,
-          "polres": null
-        }
-      ],
-      "article_count": 1,
-      "created_at": "2026-08-27T05:16:18.954591+00:00",
-      "updated_at": "2026-08-27T05:16:19.216532+00:00",
-      "engine_version": "case-v6.4",
-      "priority_score": 35,
-      "priority_breakdown": {
-        "severity": 28,
-        "escalation": 3,
-        "spread": 0,
-        "current_activity": 4
-      },
-      "priority_evidence": {
-        "unique_sources": 1,
-        "active_today_articles": 1,
-        "reasons": [
-          "pencabulan",
-          "proses hukum lanjutan",
-          "update hari ini"
-        ]
       }
     }
   ]

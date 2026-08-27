@@ -2,12 +2,15 @@ import json
 import os
 import re
 from datetime import datetime, timezone
+from zoneinfo import ZoneInfo
 from difflib import SequenceMatcher
+
+from analysis_engine import case_attention
 
 NEWS_FILE = "data/news.json"
 CASE_FILE = "data/case_clusters.json"
 
-ENGINE_VERSION = "case-v6.4"
+ENGINE_VERSION = "case-v6.5"
 MAX_CASE_AGE_DAYS = 120
 
 # Normal clustering may use one concrete event term when the
@@ -252,13 +255,12 @@ def score_match(item, case):
     n = item_fingerprint(item)
     c = case_fingerprint(case)
 
-    # Different explicit Polres is a boundary only when there is
-    # no concrete locality tying both titles to the same incident.
+    # Hard identity boundary: two different explicit Polres cannot
+    # belong to the same incident merely because their headlines are similar.
     if (
         n["polres"]
         and c["polres"]
         and n["polres"] != c["polres"]
-        and not (n["locations"] & c["locations"])
     ):
         return 0.0, {
             "shared_events": set(),
@@ -452,48 +454,21 @@ def current_activity_score(articles):
 
 def compute_case_priority(case):
     articles = list(case.get("articles", []))
-    severity, severity_reasons = severity_score_and_reasons(articles, case)
-    escalation, escalation_reasons = escalation_score_and_reasons(articles)
-    spread, unique_sources = spread_score(articles)
-    activity, active_today, activity_reasons = current_activity_score(articles)
+    today = datetime.now(ZoneInfo("Asia/Jakarta")).date()
+    active_today = 0
+    for article in articles:
+        detected = parse_dt(article.get("collected_at")) or parse_dt(article.get("published_at"))
+        if detected and detected.astimezone(ZoneInfo("Asia/Jakarta")).date() == today:
+            active_today += 1
 
-    total = min(PRIORITY_SCORE_MAX, severity + escalation + spread + activity)
-
-    # Severity floor prevents a low-severity topic from becoming HIGH solely
-    # because it is widely syndicated. Critical/severe incidents can become
-    # HIGH even when source volume is still low.
-    if severity >= 40 or (total >= 65 and severity >= 25):
-        priority = "high"
-    elif total >= 40:
-        priority = "medium"
-    else:
-        priority = "low"
-
-    reasons = []
-    reasons.extend(severity_reasons[:3])
-    reasons.extend(escalation_reasons[:3])
-    if unique_sources >= 3:
-        reasons.append(f"{unique_sources} sumber unik")
-    reasons.extend(activity_reasons[:2])
-
-    # Preserve order while removing duplicates.
-    seen = set()
-    reasons = [r for r in reasons if not (r in seen or seen.add(r))]
-
-    case["priority"] = priority
-    case["priority_score"] = total
-    case["priority_breakdown"] = {
-        "severity": severity,
-        "escalation": escalation,
-        "spread": spread,
-        "current_activity": activity,
-    }
-    case["priority_evidence"] = {
-        "unique_sources": unique_sources,
-        "active_today_articles": active_today,
-        "reasons": reasons,
-    }
-    return priority, total
+    result = case_attention(articles, case=case, active_today=active_today)
+    case["priority"] = result["priority"]
+    case["priority_score"] = result["score"]
+    case["attention_score"] = result["score"]
+    case["attention_label"] = result["label"]
+    case["priority_breakdown"] = result["breakdown"]
+    case["priority_evidence"] = result["evidence"]
+    return result["priority"], result["score"]
 
 def make_case(item, cases):
     published = latest_item_time(item) or datetime.now(timezone.utc)
@@ -505,9 +480,12 @@ def make_case(item, cases):
         "scope": item.get("scope"),
         "region": item.get("region"),
         "locality": item.get("locality") or "",
-        "is_jatim": item.get("is_jatim") is True,
+        "is_jatim": item.get("is_jatim"),
         "polres": item.get("polres"),
+        "polsek": item.get("polsek"),
         "priority": str(item.get("priority") or "low").lower(),
+        "attention_score": int(item.get("attention_score") or 0),
+        "attention_label": item.get("attention_label") or "Rendah",
         "signature": " ".join(x for x in (str(item.get("polres") or ""), str(item.get("region") or "")) if x),
         "incident_terms": sorted(fp["rare"]),
         "event_terms": sorted(fp["events"]),
@@ -547,6 +525,14 @@ def attach(case, item, score):
         "locality": item.get("locality") or "",
         "is_jatim": item.get("is_jatim") is True,
         "polres": item.get("polres"),
+        "polsek": item.get("polsek"),
+        "issue_type": item.get("issue_type"),
+        "issue_subtype": item.get("issue_subtype"),
+        "handling_status": item.get("handling_status"),
+        "handling_evidence": item.get("handling_evidence", []),
+        "attention_score": item.get("attention_score", 0),
+        "attention_label": item.get("attention_label", "Rendah"),
+        "attention_components": item.get("attention_components", {}),
     }
 
     existing = {a.get("id"): i for i, a in enumerate(case["articles"])}
@@ -756,7 +742,7 @@ def main():
     old_version = old_db.get("engine_version")
 
     print("========================================")
-    print("JAGAT CASE ENGINE V6.4")
+    print("JAGAT CASE ENGINE V6.5")
     print("CANONICAL INCIDENT CLUSTERING")
     print("========================================")
     print(f"Total news loaded : {len(news)}")
