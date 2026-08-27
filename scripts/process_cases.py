@@ -10,7 +10,7 @@ from analysis_engine import case_attention
 NEWS_FILE = "data/news.json"
 CASE_FILE = "data/case_clusters.json"
 
-ENGINE_VERSION = "case-v6.5.1"
+ENGINE_VERSION = "case-v6.5.2"
 MAX_CASE_AGE_DAYS = 120
 
 # Normal clustering may use one concrete event term when the
@@ -23,53 +23,6 @@ MERGE_SCORE = 0.62
 RECOVERY_SCORE = 0.76
 
 PRIORITY_ORDER = {"low": 1, "medium": 2, "high": 3}
-
-PRIORITY_SCORE_MAX = 100
-
-SEVERITY_TERMS = {
-    "critical": {
-        "tewas", "meninggal", "penembakan", "pembunuhan",
-        "kekerasan seksual", "pemerkosaan", "pos polisi dibakar",
-        "mako diserang", "penyerangan kantor polisi",
-    },
-    "severe": {
-        "intimidasi", "ancam", "ancaman", "pemerasan", "penyalahgunaan",
-        "kekerasan", "narkoba", "suap", "gratifikasi", "korupsi",
-        "pungli", "seksual", "aborsi", "pencabulan", "tangkap lepas",
-        "tebusan", "setoran", "upeti", "beking", "dibeking", "dibeckup",
-        "tambang ilegal", "judi sabung ayam", "rokok ilegal", "solar subsidi",
-        "intimidasi wartawan", "demo ricuh", "bentrok", "kerusuhan",
-    },
-    "moderate": {
-        "penganiayaan", "perselingkuhan", "nikah siri", "pelanggaran etik",
-        "pelanggaran disiplin", "calo sim", "pungli samsat", "maladministrasi",
-        "tersangka", "ditahan", "diperiksa", "pemeriksaan", "kdrt",
-    },
-}
-
-ESCALATION_TERMS = {
-    "propam": 8,
-    "diperiksa propam": 8,
-    "pemeriksaan propam": 8,
-    "tuntutan": 4,
-    "permintaan maaf": 5,
-    "minta maaf": 5,
-    "dipecat": 5,
-    "diberhentikan": 5,
-    "ditahan": 4,
-    "tersangka": 3,
-    "proses etik": 3,
-    "sidang etik": 4,
-}
-
-SOURCE_SPREAD_BANDS = [
-    (16, 25),
-    (13, 22),
-    (10, 18),
-    (7, 14),
-    (5, 9),
-    (3, 5),
-]
 
 STOPWORDS = {
     "yang","dan","di","ke","dari","untuk","dengan","pada","dalam","oleh",
@@ -195,12 +148,7 @@ def next_case_id(cases):
 
 def is_case_candidate(item):
     scope = str(item.get("scope") or "").lower()
-    if scope in {"negative", "case"}:
-        return True
-
-    # Optional AI triage may promote semantically relevant articles into the
-    # Case Engine. Deterministic candidate rules are never demoted by AI.
-    return item.get("ai_case_candidate") is True
+    return scope in {"negative", "case"}
 
 def get_date_candidates(item):
     for key in ("collected_at", "published_at"):
@@ -365,97 +313,6 @@ def canonical_source(article):
 def title_text_for_priority(article):
     return normalize(article.get("title", ""))
 
-def severity_score_and_reasons(articles, case):
-    text = " ".join(title_text_for_priority(a) for a in articles)
-    reasons = []
-    score = 0
-
-    # Critical signals override lower-level counts.
-    critical_hits = []
-    for term in SEVERITY_TERMS["critical"]:
-        if term in text:
-            critical_hits.append(term)
-    if critical_hits:
-        score = 45
-        reasons.extend(critical_hits[:3])
-
-    if score < 45:
-        severe_hits = []
-        for term in SEVERITY_TERMS["severe"]:
-            if term in text:
-                severe_hits.append(term)
-        if severe_hits:
-            # Serious incidents start at 28 and gain with distinct signals.
-            score = min(35, 28 + max(0, len(set(severe_hits)) - 1) * 3)
-            reasons.extend(severe_hits[:4])
-
-    if score == 0:
-        moderate_hits = []
-        for term in SEVERITY_TERMS["moderate"]:
-            if term in text:
-                moderate_hits.append(term)
-        if moderate_hits:
-            score = min(25, 18 + max(0, len(set(moderate_hits)) - 1) * 2)
-            reasons.extend(moderate_hits[:4])
-
-    if score == 0:
-        # Case existence itself is meaningful, but not automatically high.
-        score = 10 if case.get("scope") in {"negative", "case"} else 5
-
-    return score, reasons
-
-def escalation_score_and_reasons(articles):
-    text = " ".join(title_text_for_priority(a) for a in articles)
-
-    # Treat related phrases as one escalation signal so
-    # "propam" + "diperiksa propam" cannot double-count.
-    groups = [
-        ("penanganan propam", ["diperiksa propam", "pemeriksaan propam", "propam"], 8),
-        ("tuntutan resmi", ["tuntutan"], 4),
-        ("permintaan maaf", ["permintaan maaf", "minta maaf"], 5),
-        ("tindakan disiplin/etik", ["dipecat", "diberhentikan", "proses etik", "sidang etik"], 5),
-        ("proses hukum lanjutan", ["ditahan", "tersangka"], 3),
-    ]
-
-    score = 0
-    reasons = []
-
-    for label, terms, points in groups:
-        if any(term in text for term in terms):
-            score += points
-            reasons.append(label)
-
-    return min(20, score), reasons
-
-def spread_score(articles):
-    sources = {canonical_source(a) for a in articles if canonical_source(a)}
-    count = len(sources)
-    for minimum, points in SOURCE_SPREAD_BANDS:
-        if count >= minimum:
-            return points, count
-    return 0, count
-
-def current_activity_score(articles):
-    now = datetime.now(timezone.utc)
-    today = now.date()
-    active_today = 0
-    for article in articles:
-        dt = parse_dt(article.get("collected_at") or article.get("published_at"))
-        if dt and dt.astimezone().date() == today:
-            active_today += 1
-
-    score = 0
-    reasons = []
-    if active_today >= 1:
-        score += 4
-        reasons.append("update hari ini")
-    if active_today >= 2:
-        score += 3
-        reasons.append("≥2 update hari ini")
-    if active_today >= 4:
-        score += 3
-        reasons.append("aktivitas pemberitaan tinggi hari ini")
-    return min(10, score), active_today, reasons
 
 def compute_case_priority(case):
     articles = list(case.get("articles", []))
@@ -535,16 +392,12 @@ def attach(case, item, score):
         "issue_subtype": item.get("issue_subtype"),
         "handling_status": item.get("handling_status"),
         "handling_evidence": item.get("handling_evidence", []),
+        "polri_relation": item.get("polri_relation"),
+        "polri_relation_points": item.get("polri_relation_points", 0),
+        "polri_relation_evidence": item.get("polri_relation_evidence", []),
         "attention_score": item.get("attention_score", 0),
         "attention_label": item.get("attention_label", "Rendah"),
         "attention_components": item.get("attention_components", {}),
-        "ai_case_candidate": item.get("ai_case_candidate"),
-        "ai_case_confidence": item.get("ai_case_confidence"),
-        "ai_issue_type": item.get("ai_issue_type"),
-        "ai_issue_subtype": item.get("ai_issue_subtype"),
-        "ai_handling_status": item.get("ai_handling_status"),
-        "ai_case_reason": item.get("ai_case_reason"),
-        "ai_case_evidence": item.get("ai_case_evidence", []),
     }
 
     existing = {a.get("id"): i for i, a in enumerate(case["articles"])}
@@ -754,7 +607,7 @@ def main():
     old_version = old_db.get("engine_version")
 
     print("========================================")
-    print("JAGAT CASE ENGINE V6.5.1")
+    print("JAGAT CASE ENGINE V6.5.2")
     print("CANONICAL INCIDENT CLUSTERING")
     print("========================================")
     print(f"Total news loaded : {len(news)}")

@@ -79,17 +79,14 @@ function getAttentionScore(x) {
 }
 function attentionBand(score) {
   const n = getAttentionScore({ attention_score: score });
-  if (n <= 24) return "Rendah";
-  if (n <= 49) return "Perlu Perhatian";
-  if (n <= 69) return "Atensi";
-  if (n <= 84) return "Atensi Tinggi";
-  return "Kritis";
+  if (n <= 39) return "Rendah";
+  if (n <= 69) return "Sedang";
+  return "Tinggi";
 }
 function attentionClass(score) {
   const n = getAttentionScore({ attention_score: score });
-  if (n <= 24) return "low";
-  if (n <= 49) return "medium";
-  if (n <= 69) return "attention";
+  if (n <= 39) return "low";
+  if (n <= 69) return "medium";
   return "high";
 }
 function getEffectiveAttentionScore(article, cases = activeCases()) {
@@ -491,6 +488,16 @@ function articleCard(item) {
   </article>`;
 }
 
+function formatHandlingStatus(v) {
+  const labels = {
+    BELUM_DITANGANI: "Belum ditangani",
+    SEDANG_DITANGANI: "Sedang ditangani",
+    SUDAH_DITANGANI: "Sudah ditangani",
+    SUDAH_DITINDAK: "Sudah ditindak",
+  };
+  return labels[String(v || "").toUpperCase()] || String(v || "");
+}
+
 function caseCard(c, index) {
   const attention = getAttentionScore(c);
   const attentionLabel = c.attention_label || attentionBand(attention);
@@ -500,6 +507,10 @@ function caseCard(c, index) {
   return `<article class="case-card clickable" data-case-id="${escapeHtml(c.case_id)}">
     <div class="case-card-top"><span class="case-id">KASUS ${String(index).padStart(2, "0")}</span><span class="pill ${aClass}">ATENSI ${number(attention)}/100 · ${escapeHtml(attentionLabel)}</span></div>
     <strong>${escapeHtml(c.title || "Kasus")}</strong>
+    <div class="case-card-classification">
+      ${c.priority_evidence?.issue_subtype ? `<span>${escapeHtml(c.priority_evidence.issue_subtype)}</span>` : ""}
+      ${c.priority_evidence?.handling_status && c.priority_evidence.handling_status !== "BELUM_ADA_INFORMASI" ? `<span>${escapeHtml(formatHandlingStatus(c.priority_evidence.handling_status))}</span>` : ""}
+    </div>
     <div class="news-card-meta">${escapeHtml(locality || c.region || "Belum Terpetakan")} · ${number(c.article_count || (c.articles || []).length)} sumber · update ${escapeHtml(formatDateTime(c.last_detected_at || c.last_seen || c.updated_at))}</div>
     <div class="card-actions-bottom">
       <span class="card-action">Klik untuk melihat seluruh sumber →</span>
@@ -612,14 +623,12 @@ function populateMonitoringFilters() {
   const p = $("priority");
   if (p) {
     p.innerHTML = [
-      ["all", "Semua Skala Atensi"],
-      ["0-24", "0–24 · Rendah"],
-      ["25-49", "25–49 · Perlu Perhatian"],
-      ["50-69", "50–69 · Atensi"],
-      ["70-84", "70–84 · Atensi Tinggi"],
-      ["85-100", "85–100 · Kritis"],
+      ["all", "Semua Tingkat Atensi"],
+      ["0-39", "0–39 · Rendah"],
+      ["40-69", "40–69 · Sedang"],
+      ["70-100", "70–100 · Tinggi"],
     ].map(([v,l]) => `<option value="${v}">${l}</option>`).join("");
-    p.value = ["all","0-24","25-49","50-69","70-84","85-100"].includes(attention) ? attention : "all";
+    p.value = ["all","0-39","40-69","70-100"].includes(attention) ? attention : "all";
   }
 
   const scopes = unique(getFacetItems("scope").map(getScope)).sort();
@@ -694,7 +703,7 @@ function renderActiveFilterChips() {
   if (search) chips.push(`Pencarian: ${search}`);
   if (region !== "all") chips.push(region === "__JATIM__" ? "Wilayah: Jawa Timur" : region === "__OUTSIDE__" ? "Wilayah: Luar Jatim" : region === "__UNKNOWN__" ? "Wilayah: Belum Terpetakan" : `Wilayah: ${region}`);
   if (polres !== "all") chips.push(`Polres: ${polres}`);
-  if (priority !== "all") { const labels = {"0-24":"0–24 Rendah","25-49":"25–49 Perlu Perhatian","50-69":"50–69 Atensi","70-84":"70–84 Atensi Tinggi","85-100":"85–100 Kritis"}; chips.push(`Skala: ${labels[priority] || priority}`); }
+  if (priority !== "all") { const labels = {"0-39":"0–39 Rendah","40-69":"40–69 Sedang","70-100":"70–100 Tinggi"}; chips.push(`Tingkat atensi: ${labels[priority] || priority}`); }
   if (scope !== "all") chips.push(`Jenis: ${scope === "case" ? "Ungkap Kasus" : scope[0].toUpperCase()+scope.slice(1)}`);
   if (category !== "all") chips.push(`Kategori: ${category}`);
   if (from || to) chips.push(`Periode: ${filterPeriodLabel()}`);
@@ -1028,10 +1037,9 @@ function populateArchiveFilters() {
 
   if (priority) {
     priority.innerHTML = [
-      ["all","Semua Skala Atensi"],["0-24","0–24 · Rendah"],["25-49","25–49 · Perlu Perhatian"],
-      ["50-69","50–69 · Atensi"],["70-84","70–84 · Atensi Tinggi"],["85-100","85–100 · Kritis"]
+      ["all","Semua Tingkat Atensi"],["0-39","0–39 · Rendah"],["40-69","40–69 · Sedang"],["70-100","70–100 · Tinggi"]
     ].map(([v,l])=>`<option value="${v}">${l}</option>`).join("");
-    if (["all","0-24","25-49","50-69","70-84","85-100"].includes(currentPriority)) priority.value=currentPriority;
+    if (["all","0-39","40-69","70-100"].includes(currentPriority)) priority.value=currentPriority;
   }
 
   const categories = unique(items.map(getCategory)).sort((a,b)=>a.localeCompare(b,"id"));

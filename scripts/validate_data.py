@@ -273,7 +273,7 @@ def main():
         fail(f"validation failed with {len(errors)} issue(s)")
 
     print("========================================")
-    print("JAGAT SYSTEM DATA VALIDATION V6.5.1")
+    print("JAGAT SYSTEM DATA VALIDATION V6.5.2")
     print("========================================")
     print(f"News records          : {len(news)}")
     print(f"Case records          : {len(cases)}")
