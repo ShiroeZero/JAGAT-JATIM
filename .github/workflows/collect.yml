@@ -1,4 +1,4 @@
-name: JAGAT — Pengumpulan & Pembaruan Data
+name: JAGAT — Pengumpulan & Pembaruan Data V6.5.2
 
 on:
   workflow_dispatch:
@@ -31,11 +31,18 @@ jobs:
         with:
           python-version: "3.12"
 
+      - name: Preflight engine tests
+        run: |
+          python -m py_compile scripts/*.py
+          python scripts/test_location_engine.py
+          python scripts/test_analysis_engine.py
+          echo "Preflight tests: OK"
+
       - name: Collect news
         run: |
           python -u scripts/fetch_news.py
 
-      - name: Normalize location data
+      - name: Normalize and classify data
         run: |
           python -u scripts/normalize_news.py
 
@@ -54,7 +61,7 @@ jobs:
 
           stats = data.get("fetch_statistics", {})
           print("========================================")
-          print("NEWS DATABASE CHECK V6.4")
+          print("NEWS DATABASE CHECK V6.5.2")
           print("========================================")
           print(f"News records           : {len(data.get('items', []))}")
           print(f"Queries                : {stats.get('queries', 0)}")
@@ -85,7 +92,7 @@ jobs:
           high = sum(1 for c in cases if str(c.get("priority") or "").lower() == "high")
 
           print("========================================")
-          print("CASE DATABASE CHECK V6.4")
+          print("CASE DATABASE CHECK V6.5.2")
           print("========================================")
           print(f"Engine         : {data.get('engine_version', '-')}")
           print(f"Cases          : {len(cases)}")
@@ -183,7 +190,7 @@ jobs:
           if git diff --cached --quiet; then
             echo "Tidak ada perubahan Git."
           else
-            git commit -m "chore: update JAGAT v6.4 monitoring data"
+            git commit -m "chore: update JAGAT v6.5.2 monitoring data"
             git push
           fi
 
