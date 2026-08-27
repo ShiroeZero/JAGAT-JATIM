@@ -1,16 +1,16 @@
 {
   "engine_version": "case-v6.5.3",
-  "generated_at": "2026-08-27T08:23:18.912539+00:00",
-  "total_cases": 65,
-  "total_articles": 93,
+  "generated_at": "2026-08-27T09:55:31.458848+00:00",
+  "total_cases": 69,
+  "total_articles": 97,
   "last_run": {
-    "mode": "REBUILD",
-    "rebuild": true,
-    "news_loaded": 602,
-    "recovery_checked": 517,
-    "recovery_matched": 8,
-    "matched_existing": 20,
-    "new_cases": 65
+    "mode": "INCREMENTAL",
+    "rebuild": false,
+    "news_loaded": 620,
+    "recovery_checked": 523,
+    "recovery_matched": 0,
+    "matched_existing": 0,
+    "new_cases": 4
   },
   "cases": [
     {
@@ -94,7 +94,7 @@
       ],
       "article_count": 1,
       "created_at": "2026-08-27T08:23:04.705762+00:00",
-      "updated_at": "2026-08-27T08:23:18.658312+00:00",
+      "updated_at": "2026-08-27T09:55:31.213635+00:00",
       "engine_version": "case-v6.5.3",
       "priority_score": 40,
       "priority_breakdown": {
@@ -204,7 +204,7 @@
       ],
       "article_count": 1,
       "created_at": "2026-08-27T08:23:04.706585+00:00",
-      "updated_at": "2026-08-27T08:23:18.661599+00:00",
+      "updated_at": "2026-08-27T09:55:31.216576+00:00",
       "engine_version": "case-v6.5.3",
       "priority_score": 30,
       "priority_breakdown": {
@@ -315,7 +315,7 @@
       ],
       "article_count": 1,
       "created_at": "2026-08-27T08:23:04.707965+00:00",
-      "updated_at": "2026-08-27T08:23:18.664674+00:00",
+      "updated_at": "2026-08-27T09:55:31.219420+00:00",
       "engine_version": "case-v6.5.3",
       "priority_score": 12,
       "priority_breakdown": {
@@ -424,7 +424,7 @@
       ],
       "article_count": 1,
       "created_at": "2026-08-27T08:23:04.709324+00:00",
-      "updated_at": "2026-08-27T08:23:18.667168+00:00",
+      "updated_at": "2026-08-27T09:55:31.221735+00:00",
       "engine_version": "case-v6.5.3",
       "priority_score": 34,
       "priority_breakdown": {
@@ -532,7 +532,7 @@
       ],
       "article_count": 1,
       "created_at": "2026-08-27T08:23:04.711091+00:00",
-      "updated_at": "2026-08-27T08:23:18.670321+00:00",
+      "updated_at": "2026-08-27T09:55:31.224664+00:00",
       "engine_version": "case-v6.5.3",
       "priority_score": 19,
       "priority_breakdown": {
@@ -643,7 +643,7 @@
       ],
       "article_count": 1,
       "created_at": "2026-08-27T08:23:04.713149+00:00",
-      "updated_at": "2026-08-27T08:23:18.673052+00:00",
+      "updated_at": "2026-08-27T09:55:31.227180+00:00",
       "engine_version": "case-v6.5.3",
       "priority_score": 40,
       "priority_breakdown": {
@@ -840,7 +840,7 @@
       ],
       "article_count": 3,
       "created_at": "2026-08-27T08:23:04.715616+00:00",
-      "updated_at": "2026-08-27T08:23:18.682017+00:00",
+      "updated_at": "2026-08-27T09:55:31.235396+00:00",
       "engine_version": "case-v6.5.3",
       "priority_score": 32,
       "priority_breakdown": {
@@ -951,7 +951,7 @@
       ],
       "article_count": 1,
       "created_at": "2026-08-27T08:23:04.718011+00:00",
-      "updated_at": "2026-08-27T08:23:18.684886+00:00",
+      "updated_at": "2026-08-27T09:55:31.238000+00:00",
       "engine_version": "case-v6.5.3",
       "priority_score": 19,
       "priority_breakdown": {
@@ -1060,7 +1060,7 @@
       ],
       "article_count": 1,
       "created_at": "2026-08-27T08:23:04.721534+00:00",
-      "updated_at": "2026-08-27T08:23:18.687596+00:00",
+      "updated_at": "2026-08-27T09:55:31.240499+00:00",
       "engine_version": "case-v6.5.3",
       "priority_score": 30,
       "priority_breakdown": {
@@ -1175,7 +1175,7 @@
       ],
       "article_count": 1,
       "created_at": "2026-08-27T08:23:04.727124+00:00",
-      "updated_at": "2026-08-27T08:23:18.690957+00:00",
+      "updated_at": "2026-08-27T09:55:31.243570+00:00",
       "engine_version": "case-v6.5.3",
       "priority_score": 32,
       "priority_breakdown": {
@@ -1278,7 +1278,7 @@
       ],
       "article_count": 1,
       "created_at": "2026-08-27T08:23:04.731537+00:00",
-      "updated_at": "2026-08-27T08:23:18.693726+00:00",
+      "updated_at": "2026-08-27T09:55:31.246089+00:00",
       "engine_version": "case-v6.5.3",
       "priority_score": 30,
       "priority_breakdown": {
@@ -1384,7 +1384,7 @@
       ],
       "article_count": 1,
       "created_at": "2026-08-27T08:23:04.736229+00:00",
-      "updated_at": "2026-08-27T08:23:18.696457+00:00",
+      "updated_at": "2026-08-27T09:55:31.248607+00:00",
       "engine_version": "case-v6.5.3",
       "priority_score": 12,
       "priority_breakdown": {
@@ -1493,7 +1493,7 @@
       ],
       "article_count": 1,
       "created_at": "2026-08-27T08:23:04.745847+00:00",
-      "updated_at": "2026-08-27T08:23:18.699140+00:00",
+      "updated_at": "2026-08-27T09:55:31.251100+00:00",
       "engine_version": "case-v6.5.3",
       "priority_score": 30,
       "priority_breakdown": {
@@ -1606,7 +1606,7 @@
       ],
       "article_count": 1,
       "created_at": "2026-08-27T08:23:04.752863+00:00",
-      "updated_at": "2026-08-27T08:23:18.702490+00:00",
+      "updated_at": "2026-08-27T09:55:31.254193+00:00",
       "engine_version": "case-v6.5.3",
       "priority_score": 30,
       "priority_breakdown": {
@@ -1709,7 +1709,7 @@
       ],
       "article_count": 1,
       "created_at": "2026-08-27T08:23:04.757586+00:00",
-      "updated_at": "2026-08-27T08:23:18.705015+00:00",
+      "updated_at": "2026-08-27T09:55:31.256522+00:00",
       "engine_version": "case-v6.5.3",
       "priority_score": 30,
       "priority_breakdown": {
@@ -1816,7 +1816,7 @@
       ],
       "article_count": 1,
       "created_at": "2026-08-27T08:23:04.762934+00:00",
-      "updated_at": "2026-08-27T08:23:18.707752+00:00",
+      "updated_at": "2026-08-27T09:55:31.259121+00:00",
       "engine_version": "case-v6.5.3",
       "priority_score": 8,
       "priority_breakdown": {
@@ -1921,7 +1921,7 @@
       ],
       "article_count": 1,
       "created_at": "2026-08-27T08:23:04.769053+00:00",
-      "updated_at": "2026-08-27T08:23:18.710360+00:00",
+      "updated_at": "2026-08-27T09:55:31.261555+00:00",
       "engine_version": "case-v6.5.3",
       "priority_score": 30,
       "priority_breakdown": {
@@ -2028,7 +2028,7 @@
       ],
       "article_count": 1,
       "created_at": "2026-08-27T08:23:04.775963+00:00",
-      "updated_at": "2026-08-27T08:23:18.713363+00:00",
+      "updated_at": "2026-08-27T09:55:31.264345+00:00",
       "engine_version": "case-v6.5.3",
       "priority_score": 33,
       "priority_breakdown": {
@@ -2137,7 +2137,7 @@
       ],
       "article_count": 1,
       "created_at": "2026-08-27T08:23:04.784419+00:00",
-      "updated_at": "2026-08-27T08:23:18.716269+00:00",
+      "updated_at": "2026-08-27T09:55:31.266939+00:00",
       "engine_version": "case-v6.5.3",
       "priority_score": 32,
       "priority_breakdown": {
@@ -2246,7 +2246,7 @@
       ],
       "article_count": 1,
       "created_at": "2026-08-27T08:23:04.790582+00:00",
-      "updated_at": "2026-08-27T08:23:18.719141+00:00",
+      "updated_at": "2026-08-27T09:55:31.269674+00:00",
       "engine_version": "case-v6.5.3",
       "priority_score": 70,
       "priority_breakdown": {
@@ -2353,7 +2353,7 @@
       ],
       "article_count": 1,
       "created_at": "2026-08-27T08:23:04.798088+00:00",
-      "updated_at": "2026-08-27T08:23:18.721779+00:00",
+      "updated_at": "2026-08-27T09:55:31.272099+00:00",
       "engine_version": "case-v6.5.3",
       "priority_score": 49,
       "priority_breakdown": {
@@ -2460,7 +2460,7 @@
       ],
       "article_count": 1,
       "created_at": "2026-08-27T08:23:04.806045+00:00",
-      "updated_at": "2026-08-27T08:23:18.724625+00:00",
+      "updated_at": "2026-08-27T09:55:31.274749+00:00",
       "engine_version": "case-v6.5.3",
       "priority_score": 10,
       "priority_breakdown": {
@@ -2611,7 +2611,7 @@
       ],
       "article_count": 2,
       "created_at": "2026-08-27T08:23:04.822961+00:00",
-      "updated_at": "2026-08-27T08:23:18.730539+00:00",
+      "updated_at": "2026-08-27T09:55:31.280266+00:00",
       "engine_version": "case-v6.5.3",
       "priority_score": 22,
       "priority_breakdown": {
@@ -2766,7 +2766,7 @@
       ],
       "article_count": 2,
       "created_at": "2026-08-27T08:23:04.832674+00:00",
-      "updated_at": "2026-08-27T08:23:18.736485+00:00",
+      "updated_at": "2026-08-27T09:55:31.285749+00:00",
       "engine_version": "case-v6.5.3",
       "priority_score": 27,
       "priority_breakdown": {
@@ -2874,7 +2874,7 @@
       ],
       "article_count": 1,
       "created_at": "2026-08-27T08:23:04.841516+00:00",
-      "updated_at": "2026-08-27T08:23:18.739068+00:00",
+      "updated_at": "2026-08-27T09:55:31.288168+00:00",
       "engine_version": "case-v6.5.3",
       "priority_score": 30,
       "priority_breakdown": {
@@ -2979,7 +2979,7 @@
       ],
       "article_count": 1,
       "created_at": "2026-08-27T08:23:04.850627+00:00",
-      "updated_at": "2026-08-27T08:23:18.741887+00:00",
+      "updated_at": "2026-08-27T09:55:31.290780+00:00",
       "engine_version": "case-v6.5.3",
       "priority_score": 32,
       "priority_breakdown": {
@@ -3088,7 +3088,7 @@
       ],
       "article_count": 1,
       "created_at": "2026-08-27T08:23:04.859264+00:00",
-      "updated_at": "2026-08-27T08:23:18.744244+00:00",
+      "updated_at": "2026-08-27T09:55:31.292957+00:00",
       "engine_version": "case-v6.5.3",
       "priority_score": 40,
       "priority_breakdown": {
@@ -3193,7 +3193,7 @@
       ],
       "article_count": 1,
       "created_at": "2026-08-27T08:23:04.869417+00:00",
-      "updated_at": "2026-08-27T08:23:18.747025+00:00",
+      "updated_at": "2026-08-27T09:55:31.295517+00:00",
       "engine_version": "case-v6.5.3",
       "priority_score": 12,
       "priority_breakdown": {
@@ -3305,7 +3305,7 @@
       ],
       "article_count": 1,
       "created_at": "2026-08-27T08:23:04.880287+00:00",
-      "updated_at": "2026-08-27T08:23:18.750092+00:00",
+      "updated_at": "2026-08-27T09:55:31.298364+00:00",
       "engine_version": "case-v6.5.3",
       "priority_score": 35,
       "priority_breakdown": {
@@ -3411,7 +3411,7 @@
       ],
       "article_count": 1,
       "created_at": "2026-08-27T08:23:04.890615+00:00",
-      "updated_at": "2026-08-27T08:23:18.752714+00:00",
+      "updated_at": "2026-08-27T09:55:31.300744+00:00",
       "engine_version": "case-v6.5.3",
       "priority_score": 30,
       "priority_breakdown": {
@@ -3518,7 +3518,7 @@
       ],
       "article_count": 1,
       "created_at": "2026-08-27T08:23:04.899988+00:00",
-      "updated_at": "2026-08-27T08:23:18.755381+00:00",
+      "updated_at": "2026-08-27T09:55:31.303207+00:00",
       "engine_version": "case-v6.5.3",
       "priority_score": 18,
       "priority_breakdown": {
@@ -3630,7 +3630,7 @@
       ],
       "article_count": 1,
       "created_at": "2026-08-27T08:23:04.912479+00:00",
-      "updated_at": "2026-08-27T08:23:18.758166+00:00",
+      "updated_at": "2026-08-27T09:55:31.305754+00:00",
       "engine_version": "case-v6.5.3",
       "priority_score": 30,
       "priority_breakdown": {
@@ -3743,7 +3743,7 @@
       ],
       "article_count": 1,
       "created_at": "2026-08-27T08:23:04.926457+00:00",
-      "updated_at": "2026-08-27T08:23:18.761631+00:00",
+      "updated_at": "2026-08-27T09:55:31.308882+00:00",
       "engine_version": "case-v6.5.3",
       "priority_score": 21,
       "priority_breakdown": {
@@ -3848,7 +3848,7 @@
       ],
       "article_count": 1,
       "created_at": "2026-08-27T08:23:04.937810+00:00",
-      "updated_at": "2026-08-27T08:23:18.764053+00:00",
+      "updated_at": "2026-08-27T09:55:31.311111+00:00",
       "engine_version": "case-v6.5.3",
       "priority_score": 39,
       "priority_breakdown": {
@@ -3954,7 +3954,7 @@
       ],
       "article_count": 1,
       "created_at": "2026-08-27T08:23:04.948550+00:00",
-      "updated_at": "2026-08-27T08:23:18.766632+00:00",
+      "updated_at": "2026-08-27T09:55:31.313478+00:00",
       "engine_version": "case-v6.5.3",
       "priority_score": 36,
       "priority_breakdown": {
@@ -4067,7 +4067,7 @@
       ],
       "article_count": 1,
       "created_at": "2026-08-27T08:23:04.962381+00:00",
-      "updated_at": "2026-08-27T08:23:18.770014+00:00",
+      "updated_at": "2026-08-27T09:55:31.316563+00:00",
       "engine_version": "case-v6.5.3",
       "priority_score": 19,
       "priority_breakdown": {
@@ -4178,7 +4178,7 @@
       ],
       "article_count": 1,
       "created_at": "2026-08-27T08:23:04.976482+00:00",
-      "updated_at": "2026-08-27T08:23:18.771448+00:00",
+      "updated_at": "2026-08-27T09:55:31.317871+00:00",
       "engine_version": "case-v6.5.3",
       "priority_score": 55,
       "priority_breakdown": {
@@ -4285,7 +4285,7 @@
       ],
       "article_count": 1,
       "created_at": "2026-08-27T08:23:04.990964+00:00",
-      "updated_at": "2026-08-27T08:23:18.774040+00:00",
+      "updated_at": "2026-08-27T09:55:31.320249+00:00",
       "engine_version": "case-v6.5.3",
       "priority_score": 14,
       "priority_breakdown": {
@@ -4394,7 +4394,7 @@
       ],
       "article_count": 1,
       "created_at": "2026-08-27T08:23:05.004826+00:00",
-      "updated_at": "2026-08-27T08:23:18.776732+00:00",
+      "updated_at": "2026-08-27T09:55:31.322681+00:00",
       "engine_version": "case-v6.5.3",
       "priority_score": 30,
       "priority_breakdown": {
@@ -4502,7 +4502,7 @@
       ],
       "article_count": 1,
       "created_at": "2026-08-27T08:23:05.019274+00:00",
-      "updated_at": "2026-08-27T08:23:18.779688+00:00",
+      "updated_at": "2026-08-27T09:55:31.325389+00:00",
       "engine_version": "case-v6.5.3",
       "priority_score": 10,
       "priority_breakdown": {
@@ -4654,7 +4654,7 @@
       ],
       "article_count": 2,
       "created_at": "2026-08-27T08:23:05.031303+00:00",
-      "updated_at": "2026-08-27T08:23:18.784266+00:00",
+      "updated_at": "2026-08-27T09:55:31.329471+00:00",
       "engine_version": "case-v6.5.3",
       "priority_score": 40,
       "priority_breakdown": {
@@ -4804,7 +4804,7 @@
       ],
       "article_count": 2,
       "created_at": "2026-08-27T08:23:05.061055+00:00",
-      "updated_at": "2026-08-27T08:23:18.790298+00:00",
+      "updated_at": "2026-08-27T09:55:31.334950+00:00",
       "engine_version": "case-v6.5.3",
       "priority_score": 23,
       "priority_breakdown": {
@@ -5163,7 +5163,7 @@
       ],
       "article_count": 7,
       "created_at": "2026-08-27T08:23:05.108816+00:00",
-      "updated_at": "2026-08-27T08:23:18.808779+00:00",
+      "updated_at": "2026-08-27T09:55:31.352030+00:00",
       "engine_version": "case-v6.5.3",
       "priority_score": 76,
       "priority_breakdown": {
@@ -5279,7 +5279,7 @@
       ],
       "article_count": 1,
       "created_at": "2026-08-27T08:23:05.126613+00:00",
-      "updated_at": "2026-08-27T08:23:18.811504+00:00",
+      "updated_at": "2026-08-27T09:55:31.354549+00:00",
       "engine_version": "case-v6.5.3",
       "priority_score": 42,
       "priority_breakdown": {
@@ -5390,7 +5390,7 @@
       ],
       "article_count": 1,
       "created_at": "2026-08-27T08:23:05.143587+00:00",
-      "updated_at": "2026-08-27T08:23:18.814544+00:00",
+      "updated_at": "2026-08-27T09:55:31.357358+00:00",
       "engine_version": "case-v6.5.3",
       "priority_score": 19,
       "priority_breakdown": {
@@ -5498,7 +5498,7 @@
       ],
       "article_count": 1,
       "created_at": "2026-08-27T08:23:05.161395+00:00",
-      "updated_at": "2026-08-27T08:23:18.817388+00:00",
+      "updated_at": "2026-08-27T09:55:31.360026+00:00",
       "engine_version": "case-v6.5.3",
       "priority_score": 8,
       "priority_breakdown": {
@@ -5609,7 +5609,7 @@
       ],
       "article_count": 1,
       "created_at": "2026-08-27T08:23:05.181857+00:00",
-      "updated_at": "2026-08-27T08:23:18.820052+00:00",
+      "updated_at": "2026-08-27T09:55:31.362515+00:00",
       "engine_version": "case-v6.5.3",
       "priority_score": 40,
       "priority_breakdown": {
@@ -5716,7 +5716,7 @@
       ],
       "article_count": 1,
       "created_at": "2026-08-27T08:23:05.216763+00:00",
-      "updated_at": "2026-08-27T08:23:18.822817+00:00",
+      "updated_at": "2026-08-27T09:55:31.365077+00:00",
       "engine_version": "case-v6.5.3",
       "priority_score": 35,
       "priority_breakdown": {
@@ -5828,7 +5828,7 @@
       ],
       "article_count": 1,
       "created_at": "2026-08-27T08:23:05.253823+00:00",
-      "updated_at": "2026-08-27T08:23:18.826393+00:00",
+      "updated_at": "2026-08-27T09:55:31.368364+00:00",
       "engine_version": "case-v6.5.3",
       "priority_score": 18,
       "priority_breakdown": {
@@ -6528,7 +6528,7 @@
       ],
       "article_count": 15,
       "created_at": "2026-08-27T08:23:05.273888+00:00",
-      "updated_at": "2026-08-27T08:23:18.864523+00:00",
+      "updated_at": "2026-08-27T09:55:31.403939+00:00",
       "engine_version": "case-v6.5.3",
       "priority_score": 98,
       "priority_breakdown": {
@@ -6644,7 +6644,7 @@
       ],
       "article_count": 1,
       "created_at": "2026-08-27T08:23:05.294634+00:00",
-      "updated_at": "2026-08-27T08:23:18.867701+00:00",
+      "updated_at": "2026-08-27T09:55:31.406819+00:00",
       "engine_version": "case-v6.5.3",
       "priority_score": 18,
       "priority_breakdown": {
@@ -6758,7 +6758,7 @@
       ],
       "article_count": 1,
       "created_at": "2026-08-27T08:23:05.315047+00:00",
-      "updated_at": "2026-08-27T08:23:18.871077+00:00",
+      "updated_at": "2026-08-27T09:55:31.409865+00:00",
       "engine_version": "case-v6.5.3",
       "priority_score": 20,
       "priority_breakdown": {
@@ -6867,7 +6867,7 @@
       ],
       "article_count": 1,
       "created_at": "2026-08-27T08:23:05.333657+00:00",
-      "updated_at": "2026-08-27T08:23:18.873930+00:00",
+      "updated_at": "2026-08-27T09:55:31.412447+00:00",
       "engine_version": "case-v6.5.3",
       "priority_score": 18,
       "priority_breakdown": {
@@ -6974,7 +6974,7 @@
       ],
       "article_count": 1,
       "created_at": "2026-08-27T08:23:05.355152+00:00",
-      "updated_at": "2026-08-27T08:23:18.876940+00:00",
+      "updated_at": "2026-08-27T09:55:31.415219+00:00",
       "engine_version": "case-v6.5.3",
       "priority_score": 29,
       "priority_breakdown": {
@@ -7083,7 +7083,7 @@
       ],
       "article_count": 1,
       "created_at": "2026-08-27T08:23:05.379107+00:00",
-      "updated_at": "2026-08-27T08:23:18.879612+00:00",
+      "updated_at": "2026-08-27T09:55:31.417723+00:00",
       "engine_version": "case-v6.5.3",
       "priority_score": 22,
       "priority_breakdown": {
@@ -7200,7 +7200,7 @@
       ],
       "article_count": 1,
       "created_at": "2026-08-27T08:23:05.408923+00:00",
-      "updated_at": "2026-08-27T08:23:18.882737+00:00",
+      "updated_at": "2026-08-27T09:55:31.420570+00:00",
       "engine_version": "case-v6.5.3",
       "priority_score": 21,
       "priority_breakdown": {
@@ -7306,7 +7306,7 @@
       ],
       "article_count": 1,
       "created_at": "2026-08-27T08:23:05.454222+00:00",
-      "updated_at": "2026-08-27T08:23:18.885592+00:00",
+      "updated_at": "2026-08-27T09:55:31.423084+00:00",
       "engine_version": "case-v6.5.3",
       "priority_score": 9,
       "priority_breakdown": {
@@ -7409,7 +7409,7 @@
       ],
       "article_count": 1,
       "created_at": "2026-08-27T08:23:05.500022+00:00",
-      "updated_at": "2026-08-27T08:23:18.888648+00:00",
+      "updated_at": "2026-08-27T09:55:31.425880+00:00",
       "engine_version": "case-v6.5.3",
       "priority_score": 9,
       "priority_breakdown": {
@@ -7513,7 +7513,7 @@
       ],
       "article_count": 1,
       "created_at": "2026-08-27T08:23:05.544464+00:00",
-      "updated_at": "2026-08-27T08:23:18.891040+00:00",
+      "updated_at": "2026-08-27T09:55:31.428082+00:00",
       "engine_version": "case-v6.5.3",
       "priority_score": 13,
       "priority_breakdown": {
@@ -7614,7 +7614,7 @@
       ],
       "article_count": 1,
       "created_at": "2026-08-27T08:23:05.584235+00:00",
-      "updated_at": "2026-08-27T08:23:18.893264+00:00",
+      "updated_at": "2026-08-27T09:55:31.430130+00:00",
       "engine_version": "case-v6.5.3",
       "priority_score": 33,
       "priority_breakdown": {
@@ -7763,7 +7763,7 @@
       ],
       "article_count": 2,
       "created_at": "2026-08-27T08:23:05.730468+00:00",
-      "updated_at": "2026-08-27T08:23:18.898458+00:00",
+      "updated_at": "2026-08-27T09:55:31.434981+00:00",
       "engine_version": "case-v6.5.3",
       "priority_score": 14,
       "priority_breakdown": {
@@ -7910,7 +7910,7 @@
       ],
       "article_count": 2,
       "created_at": "2026-08-27T08:23:05.755721+00:00",
-      "updated_at": "2026-08-27T08:23:18.903960+00:00",
+      "updated_at": "2026-08-27T09:55:31.440068+00:00",
       "engine_version": "case-v6.5.3",
       "priority_score": 7,
       "priority_breakdown": {
@@ -8025,7 +8025,7 @@
       ],
       "article_count": 1,
       "created_at": "2026-08-27T08:23:05.827485+00:00",
-      "updated_at": "2026-08-27T08:23:18.906787+00:00",
+      "updated_at": "2026-08-27T09:55:31.442648+00:00",
       "engine_version": "case-v6.5.3",
       "priority_score": 11,
       "priority_breakdown": {
@@ -8146,7 +8146,7 @@
       ],
       "article_count": 1,
       "created_at": "2026-08-27T08:23:05.905268+00:00",
-      "updated_at": "2026-08-27T08:23:18.909517+00:00",
+      "updated_at": "2026-08-27T09:55:31.445229+00:00",
       "engine_version": "case-v6.5.3",
       "priority_score": 41,
       "priority_breakdown": {
@@ -8257,7 +8257,7 @@
       ],
       "article_count": 1,
       "created_at": "2026-08-27T08:23:05.927749+00:00",
-      "updated_at": "2026-08-27T08:23:18.912085+00:00",
+      "updated_at": "2026-08-27T09:55:31.447523+00:00",
       "engine_version": "case-v6.5.3",
       "priority_score": 7,
       "priority_breakdown": {
@@ -8284,6 +8284,451 @@
         "reasons": [
           "sifat berita: netral",
           "Hubungan Polri belum spesifik"
+        ]
+      }
+    },
+    {
+      "case_id": "CASE-000066",
+      "title": "Polisi Amankan 10 Perekrut dan Penyedia Dana Demo, Puluhan Sajam hingga Airsoft Gun Disita - Inilah.com",
+      "category": "KEAMANAN / KAMTIBMAS",
+      "scope": "negative",
+      "region": "BELUM TERPETAKAN",
+      "locality": "",
+      "is_jatim": null,
+      "polres": null,
+      "polsek": null,
+      "priority": "low",
+      "attention_score": 10,
+      "attention_label": "Rendah",
+      "signature": "BELUM TERPETAKAN",
+      "incident_terms": [
+        "airsoft",
+        "com",
+        "dana",
+        "demo",
+        "disita",
+        "gun",
+        "inilah",
+        "penyedia",
+        "perekrut",
+        "puluhan",
+        "sajam"
+      ],
+      "event_terms": [],
+      "location_terms": [],
+      "discovery_families": [
+        "security_public_order"
+      ],
+      "first_seen": "2026-08-27T09:24:00+00:00",
+      "last_seen": "2026-08-27T09:52:51.694396+00:00",
+      "last_detected_at": "2026-08-27T09:52:51.694396+00:00",
+      "article_ids": [
+        "64f6d99b96f70394c17d54bc4bbb50f270dda890"
+      ],
+      "articles": [
+        {
+          "id": "64f6d99b96f70394c17d54bc4bbb50f270dda890",
+          "title": "Polisi Amankan 10 Perekrut dan Penyedia Dana Demo, Puluhan Sajam hingga Airsoft Gun Disita - Inilah.com",
+          "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPcEtnUnBKNXFCMHBoTXdDYzNsalBOeGM4RF9ERV9VQXZSeDF6aVlQVXhGSVljaUVVTElwWkhHM1pRUU1VaWlHamgtMlpjSng1cDBtN0JlVjRpLURKb19NVVBzQzF1QXh2S3d0M1V4Q05lOGlGQ1JVS2MwTzQ0VmU2NER5OUlaTzlPS1o3RE1CWVBpaHM5NE5lUlBJeFk1dkNVeGdJZHNJNXRwNnFtTVFiTVdn?oc=5",
+          "published_at": "2026-08-27T09:24:00+00:00",
+          "collected_at": "2026-08-27T09:52:51.694396+00:00",
+          "source": "Inilah.com",
+          "match_score": 1.0,
+          "priority": "low",
+          "scope": "negative",
+          "category": "KEAMANAN / KAMTIBMAS",
+          "region": "BELUM TERPETAKAN",
+          "locality": "",
+          "is_jatim": false,
+          "polres": null,
+          "polsek": null,
+          "issue_type": "UMUM",
+          "issue_subtype": "Belum Teridentifikasi",
+          "handling_status": "BELUM_ADA_INFORMASI",
+          "handling_evidence": [],
+          "polri_relation": null,
+          "polri_relation_points": 0,
+          "polri_relation_evidence": [],
+          "attention_score": 9,
+          "attention_label": "Rendah",
+          "attention_components": {
+            "severity": 2,
+            "polri_relation": 2,
+            "authority": 0,
+            "public_impact": 4,
+            "handling": 0,
+            "evidence": 1,
+            "context_risk": 0,
+            "routine_enforcement_cap": 35
+          }
+        }
+      ],
+      "article_count": 1,
+      "created_at": "2026-08-27T09:55:30.365001+00:00",
+      "updated_at": "2026-08-27T09:55:31.450542+00:00",
+      "engine_version": "case-v6.5.3",
+      "priority_score": 10,
+      "priority_breakdown": {
+        "severity": 2,
+        "polri_relation": 2,
+        "authority_context": 0,
+        "public_impact": 4,
+        "handling": 0,
+        "evidence": 1,
+        "spread": 0,
+        "escalation": 0,
+        "current_activity": 1,
+        "context_risk": 0
+      },
+      "priority_evidence": {
+        "unique_sources": 1,
+        "active_today_articles": 1,
+        "escalation": [],
+        "issue_type": "UMUM",
+        "issue_subtype": "Belum Teridentifikasi",
+        "sentiment": "positive",
+        "polri_relation": "PENEGAKAN_HUKUM",
+        "handling_status": "BELUM_ADA_INFORMASI",
+        "reasons": [
+          "sifat berita: positif",
+          "Polri sebagai pihak penindak"
+        ]
+      }
+    },
+    {
+      "case_id": "CASE-000067",
+      "title": "Polisi Tetapkan Pemilik Alat Berat sebagai Tersangka Galian C Ilegal di Pelalawan - RIAUTERKINI.COM",
+      "category": "AKTIVITAS ILEGAL / DUGAAN PEMBIARAN",
+      "scope": "negative",
+      "region": "BELUM TERPETAKAN",
+      "locality": "",
+      "is_jatim": null,
+      "polres": null,
+      "polsek": null,
+      "priority": "low",
+      "attention_score": 24,
+      "attention_label": "Rendah",
+      "signature": "BELUM TERPETAKAN",
+      "incident_terms": [
+        "alat",
+        "berat",
+        "com",
+        "galian",
+        "ilegal",
+        "pelalawan",
+        "pemilik",
+        "riauterkini",
+        "tetapkan"
+      ],
+      "event_terms": [
+        "ilegal"
+      ],
+      "location_terms": [],
+      "discovery_families": [
+        "illegal_activity_backing"
+      ],
+      "first_seen": "2026-08-27T09:22:01+00:00",
+      "last_seen": "2026-08-27T09:52:51.694396+00:00",
+      "last_detected_at": "2026-08-27T09:52:51.694396+00:00",
+      "article_ids": [
+        "354ec564115fbe294dcb52856c4809f55d997d1c"
+      ],
+      "articles": [
+        {
+          "id": "354ec564115fbe294dcb52856c4809f55d997d1c",
+          "title": "Polisi Tetapkan Pemilik Alat Berat sebagai Tersangka Galian C Ilegal di Pelalawan - RIAUTERKINI.COM",
+          "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxOenBVN3pPTUlJVUZOUDM3MjJoSjZhMUlia0lBUE10REtyRWwwMnBJSVA2OVlEZjRtR3JPMTgxWEJ1T1VrSFhIZWZWN1V1ekFTNW9LS25GMzh1VHlYMmd6akl0dXV0QTUxbUNtZm1LMndoQXg4ckQyUGlRS0xReXRYTXV4T1F2a3JTVlRfSTlEY2tzakFqcGI4YVd3RjZKRWRyQVRWbDlPNlBuQWtTNTBUb0xEd3lxWlZYZ1dSanVyZDFLaEh2YU5nTnExcWNSZDdtbUNobm9zeEJUSWFBXy1aSmlR?oc=5",
+          "published_at": "2026-08-27T09:22:01+00:00",
+          "collected_at": "2026-08-27T09:52:51.694396+00:00",
+          "source": "RIAUTERKINI.COM",
+          "match_score": 1.0,
+          "priority": "low",
+          "scope": "negative",
+          "category": "AKTIVITAS ILEGAL / DUGAAN PEMBIARAN",
+          "region": "BELUM TERPETAKAN",
+          "locality": "",
+          "is_jatim": false,
+          "polres": null,
+          "polsek": null,
+          "issue_type": "AKTIVITAS_ILEGAL",
+          "issue_subtype": "Aktivitas Ilegal",
+          "handling_status": "SUDAH_DITINDAK",
+          "handling_evidence": [
+            "tersangka"
+          ],
+          "polri_relation": null,
+          "polri_relation_points": 0,
+          "polri_relation_evidence": [],
+          "attention_score": 23,
+          "attention_label": "Rendah",
+          "attention_components": {
+            "severity": 16,
+            "polri_relation": 0,
+            "authority": 0,
+            "public_impact": 4,
+            "handling": 2,
+            "evidence": 1,
+            "context_risk": 0,
+            "routine_enforcement_cap": null
+          }
+        }
+      ],
+      "article_count": 1,
+      "created_at": "2026-08-27T09:55:30.392864+00:00",
+      "updated_at": "2026-08-27T09:55:31.452994+00:00",
+      "engine_version": "case-v6.5.3",
+      "priority_score": 24,
+      "priority_breakdown": {
+        "severity": 16,
+        "polri_relation": 0,
+        "authority_context": 0,
+        "public_impact": 4,
+        "handling": 2,
+        "evidence": 1,
+        "spread": 0,
+        "escalation": 0,
+        "current_activity": 1,
+        "context_risk": 0
+      },
+      "priority_evidence": {
+        "unique_sources": 1,
+        "active_today_articles": 1,
+        "escalation": [],
+        "issue_type": "AKTIVITAS_ILEGAL",
+        "issue_subtype": "Aktivitas Ilegal",
+        "sentiment": "negative",
+        "polri_relation": "INFORMASI_UMUM",
+        "handling_status": "SUDAH_DITINDAK",
+        "reasons": [
+          "sifat berita: negatif",
+          "Aktivitas Ilegal",
+          "Hubungan Polri belum spesifik",
+          "status: sudah ditindak"
+        ]
+      }
+    },
+    {
+      "case_id": "CASE-000068",
+      "title": "Bea Cukai Musnahkan 43,2 Juta Batang Rokok Ilegal Hasil Penindakan Semester I 2026 di Surabaya - indoposco.id",
+      "category": "UNGKAP KASUS / PENINDAKAN",
+      "scope": "case",
+      "region": "Jawa Timur",
+      "locality": "Surabaya",
+      "is_jatim": true,
+      "polres": null,
+      "polsek": null,
+      "priority": "low",
+      "attention_score": 20,
+      "attention_label": "Rendah",
+      "signature": "Jawa Timur",
+      "incident_terms": [
+        "2026",
+        "batang",
+        "bea",
+        "cukai",
+        "hasil",
+        "ilegal",
+        "indoposco",
+        "juta",
+        "musnahkan",
+        "rokok",
+        "semester",
+        "surabaya"
+      ],
+      "event_terms": [
+        "ilegal"
+      ],
+      "location_terms": [
+        "surabaya"
+      ],
+      "discovery_families": [
+        "illegal_activity_backing"
+      ],
+      "first_seen": "2026-08-27T09:06:48+00:00",
+      "last_seen": "2026-08-27T09:52:51.694396+00:00",
+      "last_detected_at": "2026-08-27T09:52:51.694396+00:00",
+      "article_ids": [
+        "7ec69ba9e196428b3b724eb48d471e68bbdecb02"
+      ],
+      "articles": [
+        {
+          "id": "7ec69ba9e196428b3b724eb48d471e68bbdecb02",
+          "title": "Bea Cukai Musnahkan 43,2 Juta Batang Rokok Ilegal Hasil Penindakan Semester I 2026 di Surabaya - indoposco.id",
+          "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOR3ZLU0RmY2czNlEzT0Fxam4wa0dabG5udV84c2JuSUdhY2hkUTZNdnZMMmptVXJuemloVkFDQzVjd3c3Y3ZTS2lpWDdjQ0NKdGduLTZ4QVc1S3h3eGVMS28yTXdhUThfeVlTbzJNRW5sdF9hUE51d1NPdWVMXzlTZDItWGp5ckZWMmtsNzVfOWVValNweDF5ZWhOQ0R6dm5RU01ERFRNZGhMcEpUU2VNUklfOXh3WmRmREtWLTl4TExremZG?oc=5",
+          "published_at": "2026-08-27T09:06:48+00:00",
+          "collected_at": "2026-08-27T09:52:51.694396+00:00",
+          "source": "indoposco.id",
+          "match_score": 1.0,
+          "priority": "low",
+          "scope": "case",
+          "category": "UNGKAP KASUS / PENINDAKAN",
+          "region": "Jawa Timur",
+          "locality": "Surabaya",
+          "is_jatim": true,
+          "polres": null,
+          "polsek": null,
+          "issue_type": "AKTIVITAS_ILEGAL",
+          "issue_subtype": "Aktivitas Ilegal",
+          "handling_status": "BELUM_ADA_INFORMASI",
+          "handling_evidence": [],
+          "polri_relation": null,
+          "polri_relation_points": 0,
+          "polri_relation_evidence": [],
+          "attention_score": 19,
+          "attention_label": "Rendah",
+          "attention_components": {
+            "severity": 14,
+            "polri_relation": 0,
+            "authority": 0,
+            "public_impact": 4,
+            "handling": 0,
+            "evidence": 1,
+            "context_risk": 0,
+            "routine_enforcement_cap": null
+          }
+        }
+      ],
+      "article_count": 1,
+      "created_at": "2026-08-27T09:55:30.421579+00:00",
+      "updated_at": "2026-08-27T09:55:31.455617+00:00",
+      "engine_version": "case-v6.5.3",
+      "priority_score": 20,
+      "priority_breakdown": {
+        "severity": 14,
+        "polri_relation": 0,
+        "authority_context": 0,
+        "public_impact": 4,
+        "handling": 0,
+        "evidence": 1,
+        "spread": 0,
+        "escalation": 0,
+        "current_activity": 1,
+        "context_risk": 0
+      },
+      "priority_evidence": {
+        "unique_sources": 1,
+        "active_today_articles": 1,
+        "escalation": [],
+        "issue_type": "AKTIVITAS_ILEGAL",
+        "issue_subtype": "Aktivitas Ilegal",
+        "sentiment": "negative",
+        "polri_relation": "INFORMASI_UMUM",
+        "handling_status": "BELUM_ADA_INFORMASI",
+        "reasons": [
+          "sifat berita: negatif",
+          "Aktivitas Ilegal",
+          "Hubungan Polri belum spesifik"
+        ]
+      }
+    },
+    {
+      "case_id": "CASE-000069",
+      "title": "Dua Orang Jadi Tersangka Pembunuhan Ibu dan Anak di Landak, Polisi Sita Puluhan Butir Emas - Kompas.com",
+      "category": "UNGKAP KASUS / PENINDAKAN",
+      "scope": "case",
+      "region": "BELUM TERPETAKAN",
+      "locality": "",
+      "is_jatim": null,
+      "polres": null,
+      "polsek": null,
+      "priority": "low",
+      "attention_score": 39,
+      "attention_label": "Rendah",
+      "signature": "BELUM TERPETAKAN",
+      "incident_terms": [
+        "anak",
+        "butir",
+        "com",
+        "emas",
+        "ibu",
+        "kompas",
+        "landak",
+        "pembunuhan",
+        "puluhan",
+        "sita"
+      ],
+      "event_terms": [
+        "emas"
+      ],
+      "location_terms": [],
+      "discovery_families": [],
+      "first_seen": "2026-08-27T08:32:00+00:00",
+      "last_seen": "2026-08-27T09:52:51.694396+00:00",
+      "last_detected_at": "2026-08-27T09:52:51.694396+00:00",
+      "article_ids": [
+        "c1a298af113f0ef9fd6aadfe84f2ccf6bb82006f"
+      ],
+      "articles": [
+        {
+          "id": "c1a298af113f0ef9fd6aadfe84f2ccf6bb82006f",
+          "title": "Dua Orang Jadi Tersangka Pembunuhan Ibu dan Anak di Landak, Polisi Sita Puluhan Butir Emas - Kompas.com",
+          "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPYUcyV0lfZHBLbnNMR2lmejhMWm9SbGxNbjZ0VEYxaFZlUTlScWtkR1FMcUt5bGVJLWp0QWEzU3pmbG1abi1JY1NfNThhazBSZEx6WTI3M0p1N0FzY09VdU5sNDBSQ2xVSXRoTm93eDlWV1p5cFU2Z1JmTFlsakllSEFuZmZFbEFaQVczRXRHODY1QzI1eTEwc2M2VzJyd2FPQWdHTmNFQnNhbWhuZWFWdy04dXNBelpSOG82dXZCY0xtdw?oc=5",
+          "published_at": "2026-08-27T08:32:00+00:00",
+          "collected_at": "2026-08-27T09:52:51.694396+00:00",
+          "source": "Kompas.com",
+          "match_score": 1.0,
+          "priority": "low",
+          "scope": "case",
+          "category": "UNGKAP KASUS / PENINDAKAN",
+          "region": "BELUM TERPETAKAN",
+          "locality": "",
+          "is_jatim": false,
+          "polres": null,
+          "polsek": null,
+          "issue_type": "KEKERASAN_DAN_KEKUATAN",
+          "issue_subtype": "Kekerasan / Penggunaan Kekuatan",
+          "handling_status": "SUDAH_DITINDAK",
+          "handling_evidence": [
+            "tersangka"
+          ],
+          "polri_relation": null,
+          "polri_relation_points": 0,
+          "polri_relation_evidence": [],
+          "attention_score": 38,
+          "attention_label": "Rendah",
+          "attention_components": {
+            "severity": 15,
+            "polri_relation": 2,
+            "authority": 0,
+            "public_impact": 18,
+            "handling": 2,
+            "evidence": 1,
+            "context_risk": 0,
+            "routine_enforcement_cap": null
+          }
+        }
+      ],
+      "article_count": 1,
+      "created_at": "2026-08-27T09:55:30.447977+00:00",
+      "updated_at": "2026-08-27T09:55:31.458339+00:00",
+      "engine_version": "case-v6.5.3",
+      "priority_score": 39,
+      "priority_breakdown": {
+        "severity": 15,
+        "polri_relation": 2,
+        "authority_context": 0,
+        "public_impact": 18,
+        "handling": 2,
+        "evidence": 1,
+        "spread": 0,
+        "escalation": 0,
+        "current_activity": 1,
+        "context_risk": 0
+      },
+      "priority_evidence": {
+        "unique_sources": 1,
+        "active_today_articles": 1,
+        "escalation": [],
+        "issue_type": "KEKERASAN_DAN_KEKUATAN",
+        "issue_subtype": "Kekerasan / Penggunaan Kekuatan",
+        "sentiment": "negative",
+        "polri_relation": "PENEGAKAN_HUKUM",
+        "handling_status": "SUDAH_DITINDAK",
+        "reasons": [
+          "sifat berita: negatif",
+          "Kekerasan / Penggunaan Kekuatan",
+          "Polri sebagai pihak penindak",
+          "status: sudah ditindak"
         ]
       }
     }
