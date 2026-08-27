@@ -173,3 +173,8 @@ The dashboard is intentionally served without a frontend login gate. Access cont
 - Case Engine memakai locality dan batas keras untuk Polres yang eksplisit berbeda.
 - Validator memeriksa kesesuaian lokasi tersimpan dengan hasil engine dari judul.
 - Semua kontrol UI dipaksa dark dan tipografi dinaikkan agar nyaman pada desktop maupun mobile.
+
+
+### V6.4 UX
+- Region clicks open all matching daily news and links in a detail drawer.
+- News and case cards include copy-link and open-source actions.

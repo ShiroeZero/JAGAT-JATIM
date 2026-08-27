@@ -1,0 +1,1755 @@
+{
+  "engine_version": "case-v6.4",
+  "generated_at": "2026-08-27T00:36:37.770651+00:00",
+  "total_cases": 19,
+  "total_articles": 37,
+  "last_run": {
+    "mode": "INCREMENTAL",
+    "rebuild": false,
+    "news_loaded": 382,
+    "recovery_checked": 345,
+    "recovery_matched": 0,
+    "matched_existing": 0,
+    "new_cases": 0
+  },
+  "cases": [
+    {
+      "case_id": "CASE-000001",
+      "title": "Polisi Ungkap Kasus Kekerasan terhadap Istri di Heledulaa Utara : Dipicu Sakit Hati - Go-Pena",
+      "category": "UNGKAP KASUS / PENINDAKAN",
+      "scope": "case",
+      "region": "LUAR JATIM",
+      "locality": "",
+      "is_jatim": false,
+      "polres": null,
+      "priority": "low",
+      "signature": "LUAR JATIM",
+      "incident_terms": [
+        "dipicu",
+        "hati",
+        "heledulaa",
+        "istri",
+        "kekerasan",
+        "pena",
+        "sakit",
+        "utara"
+      ],
+      "event_terms": [
+        "kekerasan"
+      ],
+      "location_terms": [],
+      "discovery_families": [],
+      "first_seen": "2026-08-26T11:12:57+00:00",
+      "last_seen": "2026-08-26T12:53:55.268931+00:00",
+      "last_detected_at": "2026-08-26T12:53:55.268931+00:00",
+      "article_ids": [
+        "2142faee05ec7ea0d59bb46b05dc4e7576b7ddb7"
+      ],
+      "articles": [
+        {
+          "id": "2142faee05ec7ea0d59bb46b05dc4e7576b7ddb7",
+          "title": "Polisi Ungkap Kasus Kekerasan terhadap Istri di Heledulaa Utara : Dipicu Sakit Hati - Go-Pena",
+          "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQMURCQjBtaEZLd001WVZUTG9YUVdwaUNGN3NlZ1pYb2kxOVlyU3o0STJHc2RCc0UwbzM3WkI0T2c4YnpaeUZrU1VBTkNqVFE5TWZmTG5iVEFHdDRqbGRyUTFmdlJMR3NjYURDcXJxTEU0Vmp4RFdtZzBIa3lGS2wyM190RWZmckl2TkIya080c2ZKVTdrSEZpbkppdV9WMHNXbE1ValhTUU1Vd0FCQjBB?oc=5",
+          "published_at": "2026-08-26T11:12:57+00:00",
+          "collected_at": "2026-08-26T12:53:55.268931+00:00",
+          "source": "Go-Pena",
+          "match_score": 1.0,
+          "priority": "low",
+          "scope": "case",
+          "category": "UNGKAP KASUS / PENINDAKAN",
+          "region": "LUAR JATIM",
+          "locality": "",
+          "is_jatim": false,
+          "polres": null
+        }
+      ],
+      "article_count": 1,
+      "created_at": "2026-08-27T00:35:19.082751+00:00",
+      "updated_at": "2026-08-27T00:36:37.769437+00:00",
+      "engine_version": "case-v6.4",
+      "priority_score": 28,
+      "priority_breakdown": {
+        "severity": 28,
+        "escalation": 0,
+        "spread": 0,
+        "current_activity": 0
+      },
+      "priority_evidence": {
+        "unique_sources": 1,
+        "active_today_articles": 0,
+        "reasons": [
+          "kekerasan"
+        ]
+      }
+    },
+    {
+      "case_id": "CASE-000002",
+      "title": "Anggota Polisi Ditangkap Karena Tutupi Laporan Orang Hilang di Jeju - Sumbawanews",
+      "category": "OKNUM - PIDANA",
+      "scope": "negative",
+      "region": "LUAR JATIM",
+      "locality": "",
+      "is_jatim": false,
+      "polres": null,
+      "priority": "high",
+      "signature": "LUAR JATIM",
+      "incident_terms": [
+        "foto",
+        "hilang",
+        "jeju",
+        "laporan",
+        "makin",
+        "misteri",
+        "ngeri",
+        "sumbawanews",
+        "tewas",
+        "tutup",
+        "tutupi",
+        "viral",
+        "viva"
+      ],
+      "event_terms": [
+        "hilang",
+        "jeju",
+        "misteri"
+      ],
+      "location_terms": [
+        "jeju"
+      ],
+      "discovery_families": [],
+      "first_seen": "2026-08-25T07:13:22+00:00",
+      "last_seen": "2026-08-26T10:49:33.010254+00:00",
+      "last_detected_at": "2026-08-26T10:49:33.010254+00:00",
+      "article_ids": [
+        "0473dbac92bc936910cb607576840792327e47a7",
+        "a800f5d60ecdc547634ff0162312e1c52900e2f8",
+        "2c9cf5a3f5be6d58c1297a9b979736df6bb0e41b"
+      ],
+      "articles": [
+        {
+          "id": "0473dbac92bc936910cb607576840792327e47a7",
+          "title": "Anggota Polisi Ditangkap Karena Tutupi Laporan Orang Hilang di Jeju - Sumbawanews",
+          "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNSGpBM1RLVmRKY25EX1pLVk5FUnVTbGpPOElfOGVUeW4wRjh1ekUzR3E4bUV3X0dlaGVBN0loX0NGcmxxZWI2NlBCdTY1cWc1bXM2VjU4M1dlN05VUjBCTTJSTE9JSXBJbnQ0ZnlDMFFCM2N0bjZsOUp2WEpUSGZ2V0FKS0tuUDdsc3JnZWtfWmRKSWNQcTJGSjVEQ25Qb25GZzBZSVI1Nm5YV2g0Vm1mVWhBMA?oc=5",
+          "published_at": "2026-08-26T09:53:35+00:00",
+          "collected_at": "2026-08-26T10:49:33.010254+00:00",
+          "source": "Sumbawanews",
+          "match_score": 1.0,
+          "priority": "medium",
+          "scope": "negative",
+          "category": "OKNUM - PIDANA",
+          "region": "LUAR JATIM",
+          "locality": "",
+          "is_jatim": false,
+          "polres": null
+        },
+        {
+          "id": "a800f5d60ecdc547634ff0162312e1c52900e2f8",
+          "title": "Foto Viral! Misteri Orang Hilang di Jeju Makin Ngeri, Polisi Diduga Tutup Kasus hingga Korban Ditemukan Tewas - VIVA.co.id",
+          "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPeU1EOUJDeFhPbTFZczItT09PSzhBRldCOFk2VzJkb1JQSHhOZjVBdW5RZzBpSUNlMHdMM3VHRG0zNlJRRnN0aWs4QmE5UkFQZE16WUNCSjVlSkFzRllvTGpkTjN4Wko4NWZ5a3RKUUp5U1ZrOHZOSEhrQXhaVDM1VmhzX1JTOGVYMWR0QUNjaEFyUjl3TVN2UDFzUGtrc1JWRThNU1VhTllPaXZhRUgxeXE5a3pnQ181SmxoQW5WLWVEZU5lY1dxTU91eC1IazgtYk9nXw?oc=5",
+          "published_at": "2026-08-25T08:24:52+00:00",
+          "collected_at": "2026-08-26T10:49:33.010254+00:00",
+          "source": "VIVA.co.id",
+          "match_score": 0.844,
+          "priority": "medium",
+          "scope": "negative",
+          "category": "OKNUM - PIDANA",
+          "region": "LUAR JATIM",
+          "locality": "",
+          "is_jatim": false,
+          "polres": null
+        },
+        {
+          "id": "2c9cf5a3f5be6d58c1297a9b979736df6bb0e41b",
+          "title": "Viral! Misteri Orang Hilang di Jeju Makin Ngeri, Polisi Diduga Tutup Kasus hingga Korban Ditemukan Tewas - VIVA.co.id",
+          "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxQU1NnY3gyQm15Y1JkZGFPYjh5NVlSd0lKYm13YndRU3hFMFpJQnYwNVlmRjY5eVVhYjBOSl9raHF5WlgxT2VKWlNyVGJUSU5NaXhiRE42THFZY0NPZzk1U1c0Y2daOHNxeWR0MndKQ0wxN056NDNQSWV1c3VMbjJjR1R5aksxVlNyT0hyNjdyenZrdC01MFk5bTgtN3VrajQyYzdfY0tHOGtrMHpmLXFHdzZESFpPelctSGUwMVV5d0huYk5VWU10b0thMy1ubFlDYTl1QXlvLVhaemRoZlF2enR6ZkVkNDZZ0gHkAUFVX3lxTE1FcVc2VnJhZnNxRjZsSEJZVjZHckZDMEpWSHBPWEE5dTYxOThpRDRxLThsbjUzVlBLX0lpWlExRkVtZWg5d0E3ak1pOGlFODcxOHVYM2tFT0sxUk1Jb3lKZHhZOW1EM0M3bGdndW9xMUJfVlZSc3VrdEh6eVUwNTZBV3dnNmJzdENRV0U2cGsyNWg4MjdwWlQwVVBHRE4tRFBQNnBrblpzT1JpYmViX1BPUzhKeE41WkhXV0JBeTNxS1ZVekhIanhSTnJCVVVKaXFzX2l0c2dvRXhSdFByVmd2X29qQQ?oc=5",
+          "published_at": "2026-08-25T07:13:22+00:00",
+          "collected_at": "2026-08-26T10:49:33.010254+00:00",
+          "source": "VIVA.co.id",
+          "match_score": 1.0,
+          "priority": "medium",
+          "scope": "negative",
+          "category": "OKNUM - PIDANA",
+          "region": "LUAR JATIM",
+          "locality": "",
+          "is_jatim": false,
+          "polres": null
+        }
+      ],
+      "article_count": 3,
+      "created_at": "2026-08-27T00:35:19.083262+00:00",
+      "updated_at": "2026-08-27T00:36:37.769523+00:00",
+      "engine_version": "case-v6.4",
+      "priority_score": 45,
+      "priority_breakdown": {
+        "severity": 45,
+        "escalation": 0,
+        "spread": 0,
+        "current_activity": 0
+      },
+      "priority_evidence": {
+        "unique_sources": 2,
+        "active_today_articles": 0,
+        "reasons": [
+          "tewas"
+        ]
+      }
+    },
+    {
+      "case_id": "CASE-000003",
+      "title": "Warung di Muara Enim Jadi Lokasi Transaksi Narkoba, Polisi Sita 19 Butir Ekstasi dan 9 Paket Sabu - Akurat Sumsel",
+      "category": "UNGKAP KASUS / PENINDAKAN",
+      "scope": "case",
+      "region": "LUAR JATIM",
+      "locality": "",
+      "is_jatim": false,
+      "polres": null,
+      "priority": "low",
+      "signature": "LUAR JATIM",
+      "incident_terms": [
+        "akurat",
+        "butir",
+        "ekstasi",
+        "enim",
+        "lokasi",
+        "muara",
+        "narkoba",
+        "paket",
+        "sabu",
+        "sita",
+        "sumsel",
+        "transaksi",
+        "warung"
+      ],
+      "event_terms": [
+        "narkoba",
+        "sabu"
+      ],
+      "location_terms": [],
+      "discovery_families": [],
+      "first_seen": "2026-08-26T09:15:00+00:00",
+      "last_seen": "2026-08-26T10:49:33.010254+00:00",
+      "last_detected_at": "2026-08-26T10:49:33.010254+00:00",
+      "article_ids": [
+        "bf7942e7e8572ea6f9374123be99949475b45015"
+      ],
+      "articles": [
+        {
+          "id": "bf7942e7e8572ea6f9374123be99949475b45015",
+          "title": "Warung di Muara Enim Jadi Lokasi Transaksi Narkoba, Polisi Sita 19 Butir Ekstasi dan 9 Paket Sabu - Akurat Sumsel",
+          "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPVGlhZGdlMkxrWlVSUlZVenZGRTdtSFMxVFZ3TVppc2VEN09qMG8zRXlvRVRpMFZNc0tJNFB5T1JDMklBSEFUazJfYUtIOVZSeEh2ajRyQXhBVW50QVBqTUw2dTU0TGhyd3dmcWJhWUpRZTd0OTRaZi14dE5uQk41MWJYSkV0RGpRbWRYWlowdHJnSjZqRmVtdmFKQWlJU2J2amFERDY1Q2pGTTJiM2I1bzVCSWpkcnJPZXR5cmE4bWZZd05WY1VpbW9VNWViR3J4VzdN?oc=5",
+          "published_at": "2026-08-26T09:15:00+00:00",
+          "collected_at": "2026-08-26T10:49:33.010254+00:00",
+          "source": "Akurat Sumsel",
+          "match_score": 1.0,
+          "priority": "medium",
+          "scope": "case",
+          "category": "UNGKAP KASUS / PENINDAKAN",
+          "region": "LUAR JATIM",
+          "locality": "",
+          "is_jatim": false,
+          "polres": null
+        }
+      ],
+      "article_count": 1,
+      "created_at": "2026-08-27T00:35:19.084145+00:00",
+      "updated_at": "2026-08-27T00:36:37.769565+00:00",
+      "engine_version": "case-v6.4",
+      "priority_score": 28,
+      "priority_breakdown": {
+        "severity": 28,
+        "escalation": 0,
+        "spread": 0,
+        "current_activity": 0
+      },
+      "priority_evidence": {
+        "unique_sources": 1,
+        "active_today_articles": 0,
+        "reasons": [
+          "narkoba"
+        ]
+      }
+    },
+    {
+      "case_id": "CASE-000004",
+      "title": "Datangi Polresta, PWI minta Kapolresta Tuban tindak tegas oknum Polri diduga intimidasi wartawan - Elshinta",
+      "category": "OKNUM - PIDANA",
+      "scope": "negative",
+      "region": "Jawa Timur",
+      "locality": "Tuban",
+      "is_jatim": true,
+      "polres": "POLRESTA TUBAN",
+      "priority": "high",
+      "signature": "Jawa Timur",
+      "incident_terms": [
+        "ada",
+        "aji",
+        "ancam",
+        "anggotanya",
+        "bangsaonline",
+        "bawa",
+        "belum",
+        "beritakan",
+        "berpangkat",
+        "bojonegoro",
+        "bongkar",
+        "buntut",
+        "bunuh",
+        "com",
+        "datangi",
+        "diintimidasi",
+        "disway",
+        "dugaan",
+        "elshinta",
+        "faktualnews",
+        "ilegal",
+        "inews",
+        "intimidasi",
+        "janji",
+        "jatim",
+        "jurnalis",
+        "kabarbaik",
+        "kapolresta",
+        "kecam",
+        "kepada",
+        "ketik",
+        "kirim",
+        "kompol",
+        "lagi",
+        "layangkan",
+        "liputan6",
+        "maaf",
+        "memanggil",
+        "memorandum",
+        "merdeka",
+        "minta",
+        "ngopibareng",
+        "pasca",
+        "periksa",
+        "permintaan",
+        "perwira",
+        "pidana",
+        "pju",
+        "polresta",
+        "propam",
+        "pwi",
+        "serahkan",
+        "suara",
+        "tak",
+        "tamat",
+        "tambang",
+        "tegas",
+        "terulang",
+        "tetap",
+        "tindak",
+        "tribunjatim",
+        "tuban",
+        "tuntutan",
+        "usut",
+        "viva",
+        "wartawan"
+      ],
+      "event_terms": [
+        "ancam",
+        "bunuh",
+        "ilegal",
+        "intimidasi",
+        "jurnalis",
+        "maaf",
+        "permintaan",
+        "propam",
+        "pwi",
+        "tambang",
+        "tuntutan",
+        "wartawan"
+      ],
+      "location_terms": [
+        "bojonegoro",
+        "tuban"
+      ],
+      "discovery_families": [],
+      "first_seen": "2026-08-24T12:08:00+00:00",
+      "last_seen": "2026-08-26T12:53:55.268931+00:00",
+      "last_detected_at": "2026-08-26T12:53:55.268931+00:00",
+      "article_ids": [
+        "4c849c21f7e150f33b3d290ebdf5852b7ed2871a",
+        "57f592eb3df5688973dc3aa92e410c091053b2b9",
+        "9bbdbaa05d4e58c311dccbfd3185d7cc3477ee93",
+        "97b4dc9780b500c5cd58bcf97781e064a4a6ff2d",
+        "94d5191112cf64e6d6dc4075089be8c9c9bf6e3e",
+        "4bb866132e622fa13c6de5bb79ff7f0859cdbcf1",
+        "fac2f8d3cb4c59a4c79699e9ec6f7ff098528ffb",
+        "ae43596c4ad24ae7e70731b66de584f5f5446adc",
+        "032e9da548b8702782ef5bcbbe9cd81e932e5d0a",
+        "45f96d4f40ee50dc0f5cd8f0f655d15eb52c9fda",
+        "71ec39d19fdb3af1aa995d9dd9d83a3ccecc1afa",
+        "259c3adc6bab77302c723ae23471c29e32afc752",
+        "d656b73da6fd8f69d0293a0d8f7c5380af747034",
+        "90b434e27fa510a1915dad11b0fc554b837a8bc4",
+        "e02f2502e0b018afcb484e7363bf9ad26c0579dd"
+      ],
+      "articles": [
+        {
+          "id": "4c849c21f7e150f33b3d290ebdf5852b7ed2871a",
+          "title": "Datangi Polresta, PWI minta Kapolresta Tuban tindak tegas oknum Polri diduga intimidasi wartawan - Elshinta",
+          "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxPdWM1UHFpZjQ0U0tPektfLVdoSXRoQXAxY05rMDRyTHFLMlQzb0RORFhtZTZEU05WZUFaUVNjMWRXeXBJUEJVbE1Jd1hZYWF0SGxDTDJaa1JGWmcybklGMjVoNnVXdDZHaUNfYTVRX2l0YVhJUWNUMUhvdUZlaEI2ekhFeUh6LVVDUDBIRUpIWXlSYXlmZnBEaTBFYlBVcGpmREFRR3FuWlpjOU9tR0xSeF9MMmR0MkZpSF9id0VkVmhGeEluQjZMYTlwcmNub2x6RkdSeWR3Z1RDVnJLU3BRa04yUQ?oc=5",
+          "published_at": "2026-08-26T05:40:23+00:00",
+          "collected_at": "2026-08-26T10:49:33.010254+00:00",
+          "source": "Elshinta",
+          "match_score": 1.0,
+          "priority": "medium",
+          "scope": "negative",
+          "category": "OKNUM - PIDANA",
+          "region": "Jawa Timur",
+          "locality": "Tuban",
+          "is_jatim": true,
+          "polres": null
+        },
+        {
+          "id": "57f592eb3df5688973dc3aa92e410c091053b2b9",
+          "title": "AJI Bojonegoro Kecam Oknum Polisi Tuban yang Ancam Bunuh 2 Wartawan: Minta Usut Pidana - Tribunjatim.com",
+          "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPaEtWLXJXZ3kwTW9LcERxcTNaN0hkMVpqeFNzSEVsaE9WUUNPME55a0ZSNXZST3hHQkQ4LWpBWkhad1dEQ2Zjdm9jODhHSXlxdUdLTWtqdWVQcG5saThhc0VLZXBuVWotbDQxMENmcjM4LWIyYk1DWE1RWkE1WUJSYU9ROFJTYXh3aG5ob08zYk5ucGNCblhCaFhWcVRYZUVTeWtCVnRHdEw5RUlhSG96STB2Q2VOc1BVa3luLTN3ZTBPbDQyQ1E?oc=5",
+          "published_at": "2026-08-25T13:12:54+00:00",
+          "collected_at": "2026-08-26T10:49:33.010254+00:00",
+          "source": "Tribunjatim.com",
+          "match_score": 0.7078,
+          "priority": "medium",
+          "scope": "negative",
+          "category": "OKNUM - PIDANA",
+          "region": "Jawa Timur",
+          "locality": "Bojonegoro",
+          "is_jatim": true,
+          "polres": null
+        },
+        {
+          "id": "9bbdbaa05d4e58c311dccbfd3185d7cc3477ee93",
+          "title": "Jadi Korban Intimidasi Oknum Polisi, PWI Tuban Serahkan 8 Tuntutan Kepada Kapolresta Tuban - iNews.ID",
+          "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOM1c1MDkxd25URVl5d0diTTJMZDJGTkxhNG02Tk91dFY2VDlfbGlSMnJtUnZaT2E4a0FzemM4MFpBZHVGbmlyVkJqUk5aaEtsTUpoTmhhd0ZYMlkzNjJ3c1ZKSFlRbjBobm9tOTVHNHRNdDhkOVJLeE1QV09HUXZTQ2h3dWJHZnV2UlVVMVZCelh4MkpFUHdrUWZWTUJrVUhHNnQ0Z2M2UTdTZ3Uzek1aTFNWWlA0WW5qTmdpZm4yNmw2UdIBwAFBVV95cUxPcEc4NGVXY0pwMEpab0tFUFJtMG8xeklfMzdLdjhwSDhGTHlQVk1YYWlsa244MU9oRngyTFQ0dlJaU0Y0amhPLUdPQTdKeGJtWFBrSVhPTFduVGdEX1AwY3p1eDctVlJOWE56YlFxU3lPaDV2cW01cGxUaVRPN3VaVExTZWxhQUJVb21wQ3JQNEhveVA0VEtVZC1zSWtjODhkbmFIa0lGY2RWd0pVUVZtN2xtLXctT3ZzSy1Dc01zMzM?oc=5",
+          "published_at": "2026-08-25T04:21:25+00:00",
+          "collected_at": "2026-08-26T10:49:33.010254+00:00",
+          "source": "iNews.ID",
+          "match_score": 1.0,
+          "priority": "medium",
+          "scope": "negative",
+          "category": "OKNUM - PIDANA",
+          "region": "Jawa Timur",
+          "locality": "Tuban",
+          "is_jatim": true,
+          "polres": null
+        },
+        {
+          "id": "97b4dc9780b500c5cd58bcf97781e064a4a6ff2d",
+          "title": "Bongkar Tambang Ilegal, 2 Wartawan di Tuban Diintimidasi Oknum Polisi - Liputan6.com",
+          "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOcE96V21tNDNZX2lTR3FER0pFclJIMUdYVThvMXdESi1vNm9iN2xidF9aa1dqdHR3dnp5Q0JiVERodjJJTVBvQVZjdGdTSkU5RlZzZnJITl9jQmhFM2VDUk52UEZZNENmLWx1VURVUW9neUZ4a1JRLUNIU01nR3NuUjZVSjRiT2dlVE5fWkZIanBrZXpEQ0lhUXpRbnZMblNlMFJsTXktbEdaQjh4STZCdkY1WUtsUdIBqAFBVV95cUxNRjg2dDVteUlOVjEybkdYNGh4RC1FbEJJS010QncwU2ZUaVA0LXR0Ym1XVlBlYXJTSFNZSTNnLWZpVG5mVVFtLU5ERFhYRUQ1MmZzTjc0cGVCRlk0bEZuNVMtdDVyZDZzT2llNW1EdGpfLXJTWGx0eDVfX0hYejAzMFFsUXpQRGJsdmFHMjlUSWloZi1scUhzaDJGaVQxWHJHdGxvUWQ4Q0U?oc=5",
+          "published_at": "2026-08-25T02:07:55+00:00",
+          "collected_at": "2026-08-26T10:49:33.010254+00:00",
+          "source": "Liputan6.com",
+          "match_score": 0.836,
+          "priority": "medium",
+          "scope": "negative",
+          "category": "OKNUM - PIDANA",
+          "region": "Jawa Timur",
+          "locality": "Tuban",
+          "is_jatim": true,
+          "polres": null
+        },
+        {
+          "id": "94d5191112cf64e6d6dc4075089be8c9c9bf6e3e",
+          "title": "PWI Tuban Layangkan 8 Tuntutan Usai Anggotanya Diduga Diintimidasi Oknum Polisi - ngopibareng.id",
+          "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNQVpBT3pUbmxwSGp3dDBIQVFldEZSMF9HbEpJOTM3ZVlvZ2RZMUNYLUFoYTh3RTZBN0ZZeTZpTU4zMktfT2FDc0RFSTZGcm5VRFhlV3JWZklRSmYya215RzZrYThjYWxEbnlFNzJmUFpYdzl1c1Ewd2Vua3VFbW5pUnc0VlF3cUlDdGd5NE9FZkFpd0FFb21XODVSNGQ0QzdNelV4dlpYb2xlQm9TZEt2UQ?oc=5",
+          "published_at": "2026-08-25T00:30:00+00:00",
+          "collected_at": "2026-08-26T10:49:33.010254+00:00",
+          "source": "ngopibareng.id",
+          "match_score": 1.0,
+          "priority": "medium",
+          "scope": "negative",
+          "category": "OKNUM - PIDANA",
+          "region": "Jawa Timur",
+          "locality": "Tuban",
+          "is_jatim": true,
+          "polres": null
+        },
+        {
+          "id": "4bb866132e622fa13c6de5bb79ff7f0859cdbcf1",
+          "title": "Oknum Polisi Intimidasi Wartawan, Kapolresta Tuban Janji Kejadian Tak Terulang Lagi - Suara Merdeka Jatim - Suara Merdeka Jatim",
+          "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQVk4xVThxMWU3QUZOME1tajhXcGx2X2hSSjEtYlMzS3pVVjJRS2gxZVBqOG5NdzFDRXlUOUZXbXVmcmdxQ3dLZ0RuQWt1V3FHaV9hR2JuS2dYdDBNcjh1Z3pnU25fSUpUY1hBY2d2ckZWSzRiQ0dVNTZCcmdoLU14UTh6Xy1QODJSaVJMTVE0a0NaRFE3WFFHbnpQcVh6RWxkbFpzSW9HWHk4S20yS080dFJ0eXVaYlRXcmtCdm1jTnBWSTJkWmlNM2J0UUrSAdIBQVVfeXFMTjZYeFV0d1Y5eEZUQkJaeFV3X3FVMncwcVlyZ0N1VzdTR0cyeXUzWG5tckUzTFQ5MkQ2NzdxdWVLZTFLNzZ1NDR1bWItaWxwQy1SVUJhR1Q1YjUwVjBkRExmcFpqWDAyTWh4SkJBNTRmVlJONnktd1hIOXhrSU96TjB5RXJTcEwxWDRPc3VwbGo0dzZWajJmeVFKYXd1dHlObTdqem9UcnE5NXJmcFoyNUhCMmt3VXB5ZmNjVlRxZjFnNU9sTWNHQzFBU28wXzJKWVNn?oc=5",
+          "published_at": "2026-08-24T23:00:00+00:00",
+          "collected_at": "2026-08-26T10:49:33.010254+00:00",
+          "source": "Suara Merdeka Jatim",
+          "match_score": 1.0,
+          "priority": "medium",
+          "scope": "negative",
+          "category": "OKNUM - PIDANA",
+          "region": "Jawa Timur",
+          "locality": "Tuban",
+          "is_jatim": true,
+          "polres": null
+        },
+        {
+          "id": "fac2f8d3cb4c59a4c79699e9ec6f7ff098528ffb",
+          "title": "Ada Permintaan Maaf, Ada Oknum Polisi yang Diperiksa Propam: Kasus Intimidasi Dua Wartawan Tuban Belum Tamat - Memanggil.co",
+          "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQVHk4aFpuM2ktYmI2M0tTdGtYd2VGRXJ6azJPRjI0YzRPNHhNZzBSdjVFYm4tQ3RsdDRWXzdBQjd2QmhJamdQb3FsTGYyMGhmcGxTZHJ4VkRJOERJZEhsUGMtVWg1OVpucjU1RzFEQnduVjZ6NU16UERlUmVQcmlIMVdFMjF3bFN4VGFHeDk0U0JYU0R5NHo0MzB5QnI2V3Zpa1BpdS10eWFZV19pQ3dabGVYNnkzX0MxcXhrRFg3VGtQNzBJZ0ZjcVJuUS1yNGNFYjJENtIB2gFBVV95cUxNazdrQWp3QU4zSlQ2alFoTmgxaUVHWFAtRUZ1QUs4dFpsLXhiYTladVZ0b20yVzlZenlYcm51Q3pKRm5wOGdXR0VxVy00Y2ZGOTNWcmVmN0FMUzhFTXNBUmtNdGlVQUQ1VG9ZdVRyTUdtdmhaMThLYm4yRHNldmxSNW9xbzJVaFZhUV85YnhJdzlZTGsyQ0FSQ3RHeXQzcnJHWWozelNORXo3UWlJTnBFb3Y2ZmoyWGVMV0FKT0VHVmh4MUlqSGp1bVBDZWFEOUk1aFUzS1ZreWN6QQ?oc=5",
+          "published_at": "2026-08-24T18:30:00+00:00",
+          "collected_at": "2026-08-26T10:49:33.010254+00:00",
+          "source": "Memanggil.co",
+          "match_score": 1.0,
+          "priority": "medium",
+          "scope": "negative",
+          "category": "OKNUM - ETIK/DISIPLIN",
+          "region": "Jawa Timur",
+          "locality": "Tuban",
+          "is_jatim": true,
+          "polres": null
+        },
+        {
+          "id": "ae43596c4ad24ae7e70731b66de584f5f5446adc",
+          "title": "Kapolresta Tuban Minta Maaf, Oknum Polisi yang Intimidasi Wartawan Tetap Diperiksa Propam - Memanggil.co",
+          "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNMUFtLWpmdEgtR1VKM1RHV2FEbEdFZmJBM3dqWmN1UEtzVGtaTFllZVNRQTh1NDZhMUVMSWtoTkxiRl92V3M5Y194dGZuTE9fYkN1TXUwVDk2YlpZZjlFTDZ1MEFINlR0Z3h4VF9WcnRTbjl6OVBBaHVheFU1NmhNR3VqVGlkVjdQb2xadGlsNUU1Szl0UFhxT21oTWcydkdZS09XMmt1RXNKajYwaFRndHJCMGY2NVB0Q3RNQtIBwgFBVV95cUxPYjU3ZnhSdTFnaGRLVWR2Mk1IYlRoUGdrSXJSZGZCeGtXTzFpbXVsS1RnU0VobHItU0hkSnN6QURBWm1Yck9DWUhMdm9oeV9ZdkxLYVNKVGhURThyN2ZfUHh1akZVY3NRVGpjVXk0Sl9BbHVIY2huY2RiVVltOEplQ2l4ZGhXVXkxaGtYMFBBckx0WDNiUnFOQ2FNVFBibVZZX2lpMi1pUjN0Zm1rZFhIdWpWUC1WN0t4MktmT3AxNm5wZw?oc=5",
+          "published_at": "2026-08-24T18:25:00+00:00",
+          "collected_at": "2026-08-26T10:49:33.010254+00:00",
+          "source": "Memanggil.co",
+          "match_score": 1.0,
+          "priority": "medium",
+          "scope": "negative",
+          "category": "OKNUM - ETIK/DISIPLIN",
+          "region": "Jawa Timur",
+          "locality": "Tuban",
+          "is_jatim": true,
+          "polres": null
+        },
+        {
+          "id": "032e9da548b8702782ef5bcbbe9cd81e932e5d0a",
+          "title": "Polisi Diduga Intimidasi Wartawan, PWI Tuban Bawa 8 Tuntutan ke Polresta - BANGSAONLINE.com",
+          "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPbHg3YjdRbDF3eVJGR0ctNGR0RVdIRzY0MzlUNVd4bl9fNXNneHpiSFBXcVpwQTViT01LRy04emE4TDdiRTFjY3hMMTVvajhZaXN6dHFPcmIwNWxCejVmTE5fd19jeGVIcHhob01LSU5KMmRQSWVsWFFRSW9EWDlzQVFUQjZsNUJhSzZyUTA3em9FMVBUQ1N3R0tTclVIQjVLY1JNMXpyakZFZTFpdVBLcXd6OFBtX3MxSVRj?oc=5",
+          "published_at": "2026-08-24T13:34:00+00:00",
+          "collected_at": "2026-08-26T10:49:33.010254+00:00",
+          "source": "BANGSAONLINE.com",
+          "match_score": 1.0,
+          "priority": "medium",
+          "scope": "negative",
+          "category": "OKNUM - PIDANA",
+          "region": "Jawa Timur",
+          "locality": "Tuban",
+          "is_jatim": true,
+          "polres": null
+        },
+        {
+          "id": "45f96d4f40ee50dc0f5cd8f0f655d15eb52c9fda",
+          "title": "PWI Kirim 8 Tuntutan Usai Anggotanya Jadi Korban Dugaan Intimidasi Oknum Polisi Polresta Tuban - ketik.com",
+          "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPUGcxTEN2NGpKV0xIQTFmN2NZYmg5MmxDWmtYa3lMY3pqS0dEbzdrUUE1N0hIMXZSaEwwNkRYUnpzSzdwejF2NlQyUnhnWUtObTBDTThmRGN5RV9RZ1l6VlFVb2owQlY1TlRDV2Y0QXVoOUtQR2dxNm1vckJmcWlxUkV0bFNyLVNoOFpKTTVhbDdoY1lVLVVpYTZaYnYyX1FpRUQzenRKMTdOaXpQT3d6cUhFQkM0Z1HSAbcBQVVfeXFMT1BnMUxDdjRqSldMSEExZjdjWWJoOTJsQ1prWGt5TGN6aktHRG83a1FBNTdISDF2UmhMMDZEWFJ6c0s3cHoxdjZUMlJ4Z1lLTm0wQ004ZkRjeUVfUWdZelZRVW9qMEJWNU5UQ1dmNEF1aDlLUEdncTZtb3JCZnFpcVJFdGxTci1TaDhaSk01YWw3aGNZVS1VaWE2WmJ2Ml9RaUVEM3p0SjE3Tml6UE93enFIRUJDNGdR?oc=5",
+          "published_at": "2026-08-24T12:14:00+00:00",
+          "collected_at": "2026-08-26T10:49:33.010254+00:00",
+          "source": "ketik.com",
+          "match_score": 1.0,
+          "priority": "medium",
+          "scope": "negative",
+          "category": "OKNUM - PIDANA",
+          "region": "Jawa Timur",
+          "locality": "Tuban",
+          "is_jatim": true,
+          "polres": "POLRESTA TUBAN"
+        },
+        {
+          "id": "71ec39d19fdb3af1aa995d9dd9d83a3ccecc1afa",
+          "title": "PWI Tuban Minta Kapolresta Tindak Tegas Oknum Polri yang Diduga Intimidasi Wartawan - memorandum.disway.id - Memorandum.co.id",
+          "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPc2k4bWtTR0NzRFRYT3VBZ0hWam1fMjU4MW5tVU9rLW02V1cxbE5RbHNFVFJUUXRuNGgzeFlKQWs5RWJXZnE4ZnU2OTJ0bnpISkdhYm96UmEzWVM0ZG5kTWlyMTY0eXpoeTRKUl80MzZ0emVoSU80S2VRQUk3UFQ0OFQ2blppX0RiRko4LUhNcFcxZWg2N1lzZU9NSG1SS2xZSE9PajMwU0ZfTzVqVlNZNVdmcXU0VVA5cF8xRW1YZ2dCdHlQVWxqdF9NSEVGQlpCSng40gHAAUFVX3lxTE8ybDFqclRWU0p3ZG0tckR6bXJpWWlxQklPcHhxY3I4b212UU13OGwxOTZ1UjBuaTZPc0h5TVdocnZTWFlkMzNGX1R4MUtZU3hMTDNGaUFCbTNjSzVUZUxBRk9WQk9kbk9zc1VVTElZckdHUGh3VnRfT2VMUTRWM2xDSVhWcjY3bi1IVHQ2Y1FmVV9mendGTDJRS0hRVUJXQm56VHhOX1FGT1Fwb3BsWE1yNmo1M255M01RcGlGSXRhWg?oc=5",
+          "published_at": "2026-08-24T12:08:00+00:00",
+          "collected_at": "2026-08-26T10:49:33.010254+00:00",
+          "source": "Memorandum.co.id",
+          "match_score": 1.0,
+          "priority": "medium",
+          "scope": "negative",
+          "category": "OKNUM - PIDANA",
+          "region": "Jawa Timur",
+          "locality": "Tuban",
+          "is_jatim": true,
+          "polres": null
+        },
+        {
+          "id": "259c3adc6bab77302c723ae23471c29e32afc752",
+          "title": "PWI Tuban Kecam Dugaan Intimidasi Dua Wartawan oleh Perwira Polisi Berpangkat Kompol - VIVA Jatim",
+          "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOWk0wbUpKbzlITHhIMnp3UFBNd1I2WnhHb3lmamdKUU1wY0RENk5EcXpRVjFPVjdjLWpTSTRfVHQ0Z0tMSVh1SDRtcl9ZaDV2NlE2NFYyNUNTTXZpVEdEYnpmcmlXMGkwcks1WWU3VmQwcVZPNGFvWld2ZURZRDF2VzRtWUVEQ090STM1QjFKRzd4TnhXcGYzV01JbGxUOGsxMkwtRWVoZ214NC1YSkNjRWU1QUZ2Y3JJM0xsMFJn?oc=5",
+          "published_at": "2026-08-26T11:22:00+00:00",
+          "collected_at": "2026-08-26T12:53:55.268931+00:00",
+          "source": "VIVA Jatim",
+          "match_score": 1.0,
+          "priority": "low",
+          "scope": "neutral",
+          "category": "NETRAL / LAINNYA",
+          "region": "Jawa Timur",
+          "locality": "Tuban",
+          "is_jatim": true,
+          "polres": null
+        },
+        {
+          "id": "d656b73da6fd8f69d0293a0d8f7c5380af747034",
+          "title": "Propam Periksa Oknum PJU Polresta Tuban Buntut Intimidasi Wartawan - Suara Merdeka Jatim - Suara Merdeka Jatim",
+          "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxObnpwRHhGQllUM0tqTzBzcm9zY0cyQl9PVkRYZGJEUHZNbldJdF8wSEhUbHFydTBVMXpTZzFBSk1Pa0tfblhOdG9ibm5wMjBDdHJvNHRrUWhEek5sRDVwQmVoZXZCV2tKZkRBLVhieXh5b1lFcVZsVWlCcWtVS2c1TjVEemNSNHlyT3RCRFgxR0JpM0RlS3RSQzJWbVVPRFE0MlJLQUMzcmNTX0JQYnUxbXJMcDlSaGfSAbwBQVVfeXFMTm5OUEUzN2RUSUFjUlROMks4VkhQVXAyMzlscnVIVWdLakY2eGR5M0NIU2V1YlhQUWhBZDFHeHF1TzdfLTh2b2RWcVZCcXpad2lYY3VBeEF3a1lHQ2VWYnBsemJEOHhnc1V0RnktbW1tTWFITjNibVBvQ2xTQm5USktHM0VraXc3QXQyT1FGcEdINlUtTnVDSGs5d3ZjR3I4R0VOQWdPVXNqWFN1bnBleVc5dXFVeThYYjA1dEQ?oc=5",
+          "published_at": "2026-08-25T13:30:00+00:00",
+          "collected_at": "2026-08-26T10:49:33.010254+00:00",
+          "source": "Suara Merdeka Jatim",
+          "match_score": 1.0,
+          "priority": "low",
+          "scope": "neutral",
+          "category": "NETRAL / LAINNYA",
+          "region": "Jawa Timur",
+          "locality": "Tuban",
+          "is_jatim": true,
+          "polres": "POLRESTA TUBAN"
+        },
+        {
+          "id": "90b434e27fa510a1915dad11b0fc554b837a8bc4",
+          "title": "Oknum Perwira Polisi Tuban Diduga Intimidasi Jurnalis Pasca Berita Tambang Ilegal - FaktualNews.co",
+          "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQdHpOaUhMM3FkdGxfZndkOXh6a1RNdmp0TUtuRU9ESU1MWDlwQXF0c3FNNkY1VUVMZlZXZlNYQVRjb0dKbExMRDA1THJPLXJMcHdCWHRnQWZoQURsbDBoVTIyTy1aeHlEcjBYRjBCTlFYVGQyaEdKWGZQcjhZWmc1ZGFwcVZhQ0dnUUVlOXg3NW0ybGlrZ1BOUE03LWgwLWtVQ3FGSWItSVRSMmlKVHZWODFicG9ycFRFUUJBMWNFYXVhcVU?oc=5",
+          "published_at": "2026-08-25T12:34:00+00:00",
+          "collected_at": "2026-08-26T10:49:33.010254+00:00",
+          "source": "FaktualNews.co",
+          "match_score": 1.0,
+          "priority": "low",
+          "scope": "neutral",
+          "category": "NETRAL / LAINNYA",
+          "region": "Jawa Timur",
+          "locality": "Tuban",
+          "is_jatim": true,
+          "polres": null
+        },
+        {
+          "id": "e02f2502e0b018afcb484e7363bf9ad26c0579dd",
+          "title": "2 Wartawan Tuban Diduga Diintimidasi Oknum Perwira Polisi Usai Beritakan Kasus Tambang Ilegal - KabarBaik.co",
+          "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPaWxPUnlGblNneFV6NXNBMmZMaktSdmMwQThEOVdQLWY0U2tlRjBlYXBqNDYyMTVLYkZpaWhabHZtSHhTSmlsT2JwNGhsc2VqRDhLWTBfRFd1eGlPNUFrY2Exc01YWVRLWko2dDJONjZBQkNYNVpEVjdGbkZGd2tfd3YxOHZWNk5GQ0tHRnBITFZzakUzQnVrUHNQYkgzRjlUdjNhV0ZPbTRGbmhNSXo5aGlSdXBqQQ?oc=5",
+          "published_at": "2026-08-24T12:44:27+00:00",
+          "collected_at": "2026-08-26T10:49:33.010254+00:00",
+          "source": "KabarBaik.co",
+          "match_score": 1.0,
+          "priority": "low",
+          "scope": "neutral",
+          "category": "NETRAL / LAINNYA",
+          "region": "Jawa Timur",
+          "locality": "Tuban",
+          "is_jatim": true,
+          "polres": null
+        }
+      ],
+      "article_count": 15,
+      "created_at": "2026-08-27T00:35:19.085450+00:00",
+      "updated_at": "2026-08-27T00:36:37.769931+00:00",
+      "engine_version": "case-v6.4",
+      "priority_score": 74,
+      "priority_breakdown": {
+        "severity": 35,
+        "escalation": 17,
+        "spread": 22,
+        "current_activity": 0
+      },
+      "priority_evidence": {
+        "unique_sources": 13,
+        "active_today_articles": 0,
+        "reasons": [
+          "ancam",
+          "intimidasi",
+          "intimidasi wartawan",
+          "penanganan propam",
+          "tuntutan resmi",
+          "permintaan maaf",
+          "13 sumber unik"
+        ]
+      }
+    },
+    {
+      "case_id": "CASE-000005",
+      "title": "Ciduk Pengedar Sabu dan Okerbaya, Polisi Situbondo Sita 11 Gram Sabu dan 2.336 Pil Koplo - ngopibareng.id",
+      "category": "UNGKAP KASUS / PENINDAKAN",
+      "scope": "case",
+      "region": "Jawa Timur",
+      "locality": "Situbondo",
+      "is_jatim": true,
+      "polres": null,
+      "priority": "low",
+      "signature": "Jawa Timur",
+      "incident_terms": [
+        "336",
+        "ciduk",
+        "gram",
+        "koplo",
+        "ngopibareng",
+        "okerbaya",
+        "pengedar",
+        "pil",
+        "sabu",
+        "sita",
+        "situbondo"
+      ],
+      "event_terms": [
+        "sabu"
+      ],
+      "location_terms": [
+        "situbondo"
+      ],
+      "discovery_families": [],
+      "first_seen": "2026-08-26T01:48:00+00:00",
+      "last_seen": "2026-08-26T10:49:33.010254+00:00",
+      "last_detected_at": "2026-08-26T10:49:33.010254+00:00",
+      "article_ids": [
+        "a624b4641145b31b5b5efef8aa8716e21e4b7f75"
+      ],
+      "articles": [
+        {
+          "id": "a624b4641145b31b5b5efef8aa8716e21e4b7f75",
+          "title": "Ciduk Pengedar Sabu dan Okerbaya, Polisi Situbondo Sita 11 Gram Sabu dan 2.336 Pil Koplo - ngopibareng.id",
+          "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOYzFHUGpZVHFlVTJHNkxkdWIwUVJXTEVEVWNFRTl3ZlBKX1hyVW9iZHJSUGFEWGpnOWxTOFVtcENNTHJwbkt1dTAyZlNabXFYWEdyOTZjS3dZb1NQS0Q5c0kyMHhMN0wxcFFkMkdXWlBjYzd0bFNXbEszTGZDTDBXVDVmYzBJX1JUVmU5ejBJODlfMThLaGo1QU1tcEM0eEJ0UXpOSEVHQk8teG4yZFZ3RjB5ZkZIbnVyUXY2Tks3TXY?oc=5",
+          "published_at": "2026-08-26T01:48:00+00:00",
+          "collected_at": "2026-08-26T10:49:33.010254+00:00",
+          "source": "ngopibareng.id",
+          "match_score": 1.0,
+          "priority": "low",
+          "scope": "case",
+          "category": "UNGKAP KASUS / PENINDAKAN",
+          "region": "Jawa Timur",
+          "locality": "Situbondo",
+          "is_jatim": true,
+          "polres": null
+        }
+      ],
+      "article_count": 1,
+      "created_at": "2026-08-27T00:35:19.086892+00:00",
+      "updated_at": "2026-08-27T00:36:37.769974+00:00",
+      "engine_version": "case-v6.4",
+      "priority_score": 10,
+      "priority_breakdown": {
+        "severity": 10,
+        "escalation": 0,
+        "spread": 0,
+        "current_activity": 0
+      },
+      "priority_evidence": {
+        "unique_sources": 1,
+        "active_today_articles": 0,
+        "reasons": []
+      }
+    },
+    {
+      "case_id": "CASE-000006",
+      "title": "Operasi Tumpas Narkoba 2026, Polres Pelabuhan Tanjung Perak Amankan 27 Tersangka dan Sita 1 Kilogram Sabu - Website Resmi Polri",
+      "category": "UNGKAP KASUS / PENINDAKAN",
+      "scope": "case",
+      "region": "Jawa Timur",
+      "locality": "Surabaya",
+      "is_jatim": true,
+      "polres": "POLRES PELABUHAN TANJUNG PERAK",
+      "priority": "low",
+      "signature": "POLRES PELABUHAN TANJUNG PERAK Jawa Timur",
+      "incident_terms": [
+        "2026",
+        "kilogram",
+        "narkoba",
+        "operasi",
+        "pelabuhan",
+        "perak",
+        "polres",
+        "resmi",
+        "sabu",
+        "sita",
+        "tanjung",
+        "tumpas",
+        "website"
+      ],
+      "event_terms": [
+        "narkoba",
+        "sabu"
+      ],
+      "location_terms": [],
+      "discovery_families": [],
+      "first_seen": "2026-08-26T01:28:55+00:00",
+      "last_seen": "2026-08-26T10:49:33.010254+00:00",
+      "last_detected_at": "2026-08-26T10:49:33.010254+00:00",
+      "article_ids": [
+        "f1eb3b36c902d9c09f3505de971152fd17020cc0"
+      ],
+      "articles": [
+        {
+          "id": "f1eb3b36c902d9c09f3505de971152fd17020cc0",
+          "title": "Operasi Tumpas Narkoba 2026, Polres Pelabuhan Tanjung Perak Amankan 27 Tersangka dan Sita 1 Kilogram Sabu - Website Resmi Polri",
+          "url": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxOUEFqcGl0OVZHcG1GYkVycXoyUngwTTV6MmpXSHBnOVB4WUdDbTVIc3AxY2x5UVRONk9FWjVWVjBDbUxCaV9HR3RabTZGWnp2bWVMZjBFRUljb2thX0hERFlybUppbUFGeUR4NkpzWkhUb1htWTEzT2YzMWZ1SmdNWkdvWFhQb1N4Z2phVmlOQi1mZDBESEt3NDYzOVZZcktUX3JiR2syUXI4MTdJMldZZ3FwUVRxR3NYYTFpRDRzU2JIaVREZUQ4VWtNeXJEM3JHdzRNSVRZcU9OdUZJWjlIcWk3TWl0d0dhS2RHMG1KR1RHWVN1WlR3YW9PeGx3dw?oc=5",
+          "published_at": "2026-08-26T01:28:55+00:00",
+          "collected_at": "2026-08-26T10:49:33.010254+00:00",
+          "source": "Website Resmi Polri",
+          "match_score": 1.0,
+          "priority": "medium",
+          "scope": "case",
+          "category": "UNGKAP KASUS / PENINDAKAN",
+          "region": "Jawa Timur",
+          "locality": "Surabaya",
+          "is_jatim": true,
+          "polres": "POLRES PELABUHAN TANJUNG PERAK"
+        }
+      ],
+      "article_count": 1,
+      "created_at": "2026-08-27T00:35:19.089344+00:00",
+      "updated_at": "2026-08-27T00:36:37.770013+00:00",
+      "engine_version": "case-v6.4",
+      "priority_score": 31,
+      "priority_breakdown": {
+        "severity": 28,
+        "escalation": 3,
+        "spread": 0,
+        "current_activity": 0
+      },
+      "priority_evidence": {
+        "unique_sources": 1,
+        "active_today_articles": 0,
+        "reasons": [
+          "narkoba",
+          "proses hukum lanjutan"
+        ]
+      }
+    },
+    {
+      "case_id": "CASE-000007",
+      "title": "Revaldo Ditangkap Lagi Kasus Narkoba, Polisi Sita 3 Plastik Bekas Sabu - Memo Indonesia",
+      "category": "UNGKAP KASUS / PENINDAKAN",
+      "scope": "case",
+      "region": "LUAR JATIM",
+      "locality": "",
+      "is_jatim": false,
+      "polres": null,
+      "priority": "low",
+      "signature": "LUAR JATIM",
+      "incident_terms": [
+        "bekas",
+        "indonesia",
+        "lagi",
+        "memo",
+        "narkoba",
+        "plastik",
+        "revaldo",
+        "sabu",
+        "sita"
+      ],
+      "event_terms": [
+        "narkoba",
+        "sabu"
+      ],
+      "location_terms": [],
+      "discovery_families": [],
+      "first_seen": "2026-08-26T00:58:00+00:00",
+      "last_seen": "2026-08-26T10:49:33.010254+00:00",
+      "last_detected_at": "2026-08-26T10:49:33.010254+00:00",
+      "article_ids": [
+        "5f9e47c4299819cd73fc4f99b7e111df30ca04c7"
+      ],
+      "articles": [
+        {
+          "id": "5f9e47c4299819cd73fc4f99b7e111df30ca04c7",
+          "title": "Revaldo Ditangkap Lagi Kasus Narkoba, Polisi Sita 3 Plastik Bekas Sabu - Memo Indonesia",
+          "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPM1BMQ3hoU3pWSTFfMzNvaG81MHZpUEtJX3pRQTk5SHB1MWl5Z3ZGU3J0Vmp3cUZGc2RuRXpRRDctc2dyNXZ2MDVJTjM2SS1NWmFGWjVla21uVGo4MHNZcS1MbFNsTFp6ZDZseHBrRzRpUDVnWEw2RWY2TGpoYm9hbmRTX0FvbjQ1Y0tRcXdFMGhTS0g0SThGMWQyMEdGSURmMEUyZm9nVWRSd3c4MW11Zw?oc=5",
+          "published_at": "2026-08-26T00:58:00+00:00",
+          "collected_at": "2026-08-26T10:49:33.010254+00:00",
+          "source": "Memo Indonesia",
+          "match_score": 1.0,
+          "priority": "medium",
+          "scope": "case",
+          "category": "UNGKAP KASUS / PENINDAKAN",
+          "region": "LUAR JATIM",
+          "locality": "",
+          "is_jatim": false,
+          "polres": null
+        }
+      ],
+      "article_count": 1,
+      "created_at": "2026-08-27T00:35:19.091512+00:00",
+      "updated_at": "2026-08-27T00:36:37.770044+00:00",
+      "engine_version": "case-v6.4",
+      "priority_score": 28,
+      "priority_breakdown": {
+        "severity": 28,
+        "escalation": 0,
+        "spread": 0,
+        "current_activity": 0
+      },
+      "priority_evidence": {
+        "unique_sources": 1,
+        "active_today_articles": 0,
+        "reasons": [
+          "narkoba"
+        ]
+      }
+    },
+    {
+      "case_id": "CASE-000008",
+      "title": "33 Pemuda dan 26 Motor Diamankan Polisi Diduga Hendak Balap Liar di Lamaru Balikpapan - Gerbang Kaltim",
+      "category": "OKNUM - PIDANA",
+      "scope": "negative",
+      "region": "LUAR JATIM",
+      "locality": "",
+      "is_jatim": false,
+      "polres": null,
+      "priority": "low",
+      "signature": "LUAR JATIM",
+      "incident_terms": [
+        "balap",
+        "balikpapan",
+        "gerbang",
+        "hendak",
+        "kaltim",
+        "lamaru",
+        "liar",
+        "motor",
+        "pemuda"
+      ],
+      "event_terms": [
+        "motor"
+      ],
+      "location_terms": [],
+      "discovery_families": [],
+      "first_seen": "2026-08-26T00:55:46+00:00",
+      "last_seen": "2026-08-26T10:49:33.010254+00:00",
+      "last_detected_at": "2026-08-26T10:49:33.010254+00:00",
+      "article_ids": [
+        "a2cec419e1846411e56519abe70521ec70d71273"
+      ],
+      "articles": [
+        {
+          "id": "a2cec419e1846411e56519abe70521ec70d71273",
+          "title": "33 Pemuda dan 26 Motor Diamankan Polisi Diduga Hendak Balap Liar di Lamaru Balikpapan - Gerbang Kaltim",
+          "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxObkF1TGsxMVJMbk5wUHh4cnBiaTh4LXNNVUJ5aDZDU2FXcGh1dzE4MUIySTNkbmFtNlZPbHduQkR3VkhlNXV1d093S0RlekxQeU93TUphdl9oVWFmLU1LYWIydjh0NFh6VzYyUkVCbEVNNE1jenVaSmFYN3l0TU1iMUdhcWxZUUZIdUl6NWFQRnhQOFhBcUlnWWZUUkVwOWRrOXYyNkdHVVRZRnlSdm5zSXJEelBsdTQ?oc=5",
+          "published_at": "2026-08-26T00:55:46+00:00",
+          "collected_at": "2026-08-26T10:49:33.010254+00:00",
+          "source": "Gerbang Kaltim",
+          "match_score": 1.0,
+          "priority": "medium",
+          "scope": "negative",
+          "category": "OKNUM - PIDANA",
+          "region": "LUAR JATIM",
+          "locality": "",
+          "is_jatim": false,
+          "polres": null
+        }
+      ],
+      "article_count": 1,
+      "created_at": "2026-08-27T00:35:19.094049+00:00",
+      "updated_at": "2026-08-27T00:36:37.770077+00:00",
+      "engine_version": "case-v6.4",
+      "priority_score": 10,
+      "priority_breakdown": {
+        "severity": 10,
+        "escalation": 0,
+        "spread": 0,
+        "current_activity": 0
+      },
+      "priority_evidence": {
+        "unique_sources": 1,
+        "active_today_articles": 0,
+        "reasons": []
+      }
+    },
+    {
+      "case_id": "CASE-000009",
+      "title": "Tarik Alibi Kolam Renang, Polisi Ungkap Kasus Penganiayaan Balita hingga Tewas di Bengkong Batam - KoranBatam",
+      "category": "UNGKAP KASUS / PENINDAKAN",
+      "scope": "case",
+      "region": "LUAR JATIM",
+      "locality": "",
+      "is_jatim": false,
+      "polres": null,
+      "priority": "high",
+      "signature": "LUAR JATIM",
+      "incident_terms": [
+        "alibi",
+        "balita",
+        "batam",
+        "bengkong",
+        "kolam",
+        "koranbatam",
+        "penganiayaan",
+        "renang",
+        "tarik",
+        "tewas"
+      ],
+      "event_terms": [
+        "penganiayaan"
+      ],
+      "location_terms": [
+        "batam"
+      ],
+      "discovery_families": [],
+      "first_seen": "2026-08-25T17:00:05+00:00",
+      "last_seen": "2026-08-26T10:49:33.010254+00:00",
+      "last_detected_at": "2026-08-26T10:49:33.010254+00:00",
+      "article_ids": [
+        "3a10ee6e45df7187bd4a65116ea18e5d74a1a629"
+      ],
+      "articles": [
+        {
+          "id": "3a10ee6e45df7187bd4a65116ea18e5d74a1a629",
+          "title": "Tarik Alibi Kolam Renang, Polisi Ungkap Kasus Penganiayaan Balita hingga Tewas di Bengkong Batam - KoranBatam",
+          "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNaWk3akVkTmhxdGdjOUZfTW54UVhydldwbzZyN0hPb0lNR3FYMkJ1UmdDSFdzLUpod0hmVkdKWHVGRDZJaS14VmVlLTdaQnUzd2N0SGcxb1Z4ZHdmMEhvTUc4RnlrNlJUeXRwRXdZWUVYVVBtVUpKY1Y4dlFPY3Zud1U1ZnF6V09pWjEyNERDUzhqdV8zRFJscnFKR3ppeUdhamZFdEZJU3MtR3drYzBERFhYT2dERW1PaVE?oc=5",
+          "published_at": "2026-08-25T17:00:05+00:00",
+          "collected_at": "2026-08-26T10:49:33.010254+00:00",
+          "source": "KoranBatam",
+          "match_score": 1.0,
+          "priority": "low",
+          "scope": "case",
+          "category": "UNGKAP KASUS / PENINDAKAN",
+          "region": "LUAR JATIM",
+          "locality": "",
+          "is_jatim": false,
+          "polres": null
+        }
+      ],
+      "article_count": 1,
+      "created_at": "2026-08-27T00:35:19.097384+00:00",
+      "updated_at": "2026-08-27T00:36:37.770105+00:00",
+      "engine_version": "case-v6.4",
+      "priority_score": 45,
+      "priority_breakdown": {
+        "severity": 45,
+        "escalation": 0,
+        "spread": 0,
+        "current_activity": 0
+      },
+      "priority_evidence": {
+        "unique_sources": 1,
+        "active_today_articles": 0,
+        "reasons": [
+          "tewas"
+        ]
+      }
+    },
+    {
+      "case_id": "CASE-000010",
+      "title": "Dugaan Perintah Aborsi Oknum Polisi Lumajang Disorot, Pengamat: Jika Terbukti Harus Diproses Etik dan Pidana - suryaindonesia.net",
+      "category": "OKNUM - PIDANA",
+      "scope": "negative",
+      "region": "Jawa Timur",
+      "locality": "Lumajang",
+      "is_jatim": true,
+      "polres": null,
+      "priority": "low",
+      "signature": "Jawa Timur",
+      "incident_terms": [
+        "aborsi",
+        "diproses",
+        "disorot",
+        "dugaan",
+        "etik",
+        "harus",
+        "jika",
+        "lumajang",
+        "net",
+        "pengamat",
+        "perintah",
+        "pidana",
+        "suryaindonesia",
+        "terbukti"
+      ],
+      "event_terms": [
+        "aborsi"
+      ],
+      "location_terms": [
+        "lumajang"
+      ],
+      "discovery_families": [],
+      "first_seen": "2026-08-25T16:22:00+00:00",
+      "last_seen": "2026-08-26T10:49:33.010254+00:00",
+      "last_detected_at": "2026-08-26T10:49:33.010254+00:00",
+      "article_ids": [
+        "e383716f04a53c5411c1922f58f96c2f3039bda5"
+      ],
+      "articles": [
+        {
+          "id": "e383716f04a53c5411c1922f58f96c2f3039bda5",
+          "title": "Dugaan Perintah Aborsi Oknum Polisi Lumajang Disorot, Pengamat: Jika Terbukti Harus Diproses Etik dan Pidana - suryaindonesia.net",
+          "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxOeVhPTV9vbFRqeFBYR1hLYUc3X1NkTGlObTRYaVc3YnU2dUxpZUNBbFJURTdRMHZuZWtzMThYZGJ5aFdZSktQc0hLOFRhRUZKanJIdi1pVjc1OGhQZld3MjdmREpXa19FSGxGZ3FJelY4dFJTMGRpczRsbjF3aklIN3ZiaDBVdm9FVVlEaEZxNEdfLWlQaUQ3Z3hNQ2ZHYVQ0akkzbTlPQ2NVbVBUbEoxblJSV3Z3MmdZQWZ3V1JBeEpwZlNaS3BTaHQ0SDd3TF9GekhYeVdJZkxyYldtVHhyTmNtbw?oc=5",
+          "published_at": "2026-08-25T16:22:00+00:00",
+          "collected_at": "2026-08-26T10:49:33.010254+00:00",
+          "source": "suryaindonesia.net",
+          "match_score": 1.0,
+          "priority": "medium",
+          "scope": "negative",
+          "category": "OKNUM - PIDANA",
+          "region": "Jawa Timur",
+          "locality": "Lumajang",
+          "is_jatim": true,
+          "polres": null
+        }
+      ],
+      "article_count": 1,
+      "created_at": "2026-08-27T00:35:19.101942+00:00",
+      "updated_at": "2026-08-27T00:36:37.770177+00:00",
+      "engine_version": "case-v6.4",
+      "priority_score": 33,
+      "priority_breakdown": {
+        "severity": 28,
+        "escalation": 5,
+        "spread": 0,
+        "current_activity": 0
+      },
+      "priority_evidence": {
+        "unique_sources": 1,
+        "active_today_articles": 0,
+        "reasons": [
+          "aborsi",
+          "tindakan disiplin/etik"
+        ]
+      }
+    },
+    {
+      "case_id": "CASE-000011",
+      "title": "Polisi gagalkan aksi rampok modus pecah Kaca di Bukittinggi - ANTARA News Sumbar",
+      "category": "UNGKAP KASUS / PENINDAKAN",
+      "scope": "case",
+      "region": "LUAR JATIM",
+      "locality": "",
+      "is_jatim": false,
+      "polres": null,
+      "priority": "low",
+      "signature": "LUAR JATIM",
+      "incident_terms": [
+        "aksi",
+        "antara",
+        "bukittinggi",
+        "gagalkan",
+        "kaca",
+        "modus",
+        "news",
+        "pecah",
+        "rampok",
+        "sumbar"
+      ],
+      "event_terms": [],
+      "location_terms": [],
+      "discovery_families": [],
+      "first_seen": "2026-08-25T11:23:28+00:00",
+      "last_seen": "2026-08-26T10:49:33.010254+00:00",
+      "last_detected_at": "2026-08-26T10:49:33.010254+00:00",
+      "article_ids": [
+        "26a8291e0ea27c49c25431bf0c6ba18bf78ae6de"
+      ],
+      "articles": [
+        {
+          "id": "26a8291e0ea27c49c25431bf0c6ba18bf78ae6de",
+          "title": "Polisi gagalkan aksi rampok modus pecah Kaca di Bukittinggi - ANTARA News Sumbar",
+          "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOM1QxalEyT3JSOUdHM1RyLUQ3dzVEbi01ZzMxeUh0SnBvWGNlb1dHeUNGY2R1a3VCVnl0QkVRanYtQ29xLUpOaTF1c25oZE1xYVAtQWJIcGdKWV81NHFYaVpwVE9WR3M5MmY0SDhBakRDOEVYTXNOV05JWUxVWjB6NFo1bmZ5T1JZeXcxT1ZiamxjbVZxaVM2Q1ZZMmhra3M0aDNfYmd3?oc=5",
+          "published_at": "2026-08-25T11:23:28+00:00",
+          "collected_at": "2026-08-26T10:49:33.010254+00:00",
+          "source": "ANTARA News Sumbar",
+          "match_score": 1.0,
+          "priority": "low",
+          "scope": "case",
+          "category": "UNGKAP KASUS / PENINDAKAN",
+          "region": "LUAR JATIM",
+          "locality": "",
+          "is_jatim": false,
+          "polres": null
+        }
+      ],
+      "article_count": 1,
+      "created_at": "2026-08-27T00:35:19.110001+00:00",
+      "updated_at": "2026-08-27T00:36:37.770209+00:00",
+      "engine_version": "case-v6.4",
+      "priority_score": 10,
+      "priority_breakdown": {
+        "severity": 10,
+        "escalation": 0,
+        "spread": 0,
+        "current_activity": 0
+      },
+      "priority_evidence": {
+        "unique_sources": 1,
+        "active_today_articles": 0,
+        "reasons": []
+      }
+    },
+    {
+      "case_id": "CASE-000012",
+      "title": "Karhutla di OKU Timur, Sumsel, Polisi Tangkap 3 Pelaku dan Sita Korek - Harian Jogja",
+      "category": "UNGKAP KASUS / PENINDAKAN",
+      "scope": "case",
+      "region": "LUAR JATIM",
+      "locality": "",
+      "is_jatim": false,
+      "polres": null,
+      "priority": "low",
+      "signature": "LUAR JATIM",
+      "incident_terms": [
+        "harian",
+        "jogja",
+        "karhutla",
+        "korek",
+        "oku",
+        "sita",
+        "sumsel",
+        "timur"
+      ],
+      "event_terms": [],
+      "location_terms": [],
+      "discovery_families": [],
+      "first_seen": "2026-08-25T07:17:02+00:00",
+      "last_seen": "2026-08-26T10:49:33.010254+00:00",
+      "last_detected_at": "2026-08-26T10:49:33.010254+00:00",
+      "article_ids": [
+        "a59cc6960259fd66d1fd5ab7e4b851073ad50a2d"
+      ],
+      "articles": [
+        {
+          "id": "a59cc6960259fd66d1fd5ab7e4b851073ad50a2d",
+          "title": "Karhutla di OKU Timur, Sumsel, Polisi Tangkap 3 Pelaku dan Sita Korek - Harian Jogja",
+          "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNVEVNUk42ZHVfSG5NSW5INUJ2ejR3UzhZdXlRX2k3RElWQkZZeUYwbzlqMFlfRTRNOTAzSjk3Q1VDN3pvVHR4eGtNSGZIbkQ3TG1OTGRqU3lpeVhkbVllb0t6bDhtWDNIVldLSU9Dcng3dzZLM3BWaWZud01Wd3dTYXZNaWFRX0xKWl9XcnE3TUdyemgzbllpSVlSMG1pbWg3dTIzdDIzOFVFQQ?oc=5",
+          "published_at": "2026-08-25T07:17:02+00:00",
+          "collected_at": "2026-08-26T10:49:33.010254+00:00",
+          "source": "Harian Jogja",
+          "match_score": 1.0,
+          "priority": "low",
+          "scope": "case",
+          "category": "UNGKAP KASUS / PENINDAKAN",
+          "region": "LUAR JATIM",
+          "locality": "",
+          "is_jatim": false,
+          "polres": null
+        }
+      ],
+      "article_count": 1,
+      "created_at": "2026-08-27T00:35:19.118455+00:00",
+      "updated_at": "2026-08-27T00:36:37.770241+00:00",
+      "engine_version": "case-v6.4",
+      "priority_score": 10,
+      "priority_breakdown": {
+        "severity": 10,
+        "escalation": 0,
+        "spread": 0,
+        "current_activity": 0
+      },
+      "priority_evidence": {
+        "unique_sources": 1,
+        "active_today_articles": 0,
+        "reasons": []
+      }
+    },
+    {
+      "case_id": "CASE-000013",
+      "title": "Identitas 3 Anggota Polisi Lampung yang Tertembak, Kini Jalani Operasi - detikcom",
+      "category": "UNGKAP KASUS / PENINDAKAN",
+      "scope": "case",
+      "region": "LUAR JATIM",
+      "locality": "",
+      "is_jatim": false,
+      "polres": null,
+      "priority": "low",
+      "signature": "LUAR JATIM",
+      "incident_terms": [
+        "detikcom",
+        "identitas",
+        "jalani",
+        "kini",
+        "lampung",
+        "operasi",
+        "tertembak"
+      ],
+      "event_terms": [],
+      "location_terms": [
+        "lampung"
+      ],
+      "discovery_families": [],
+      "first_seen": "2026-08-25T06:31:52+00:00",
+      "last_seen": "2026-08-26T10:49:33.010254+00:00",
+      "last_detected_at": "2026-08-26T10:49:33.010254+00:00",
+      "article_ids": [
+        "7922ec251b242748118015c70e82d73d65197ee7"
+      ],
+      "articles": [
+        {
+          "id": "7922ec251b242748118015c70e82d73d65197ee7",
+          "title": "Identitas 3 Anggota Polisi Lampung yang Tertembak, Kini Jalani Operasi - detikcom",
+          "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNcnMycHc2Vzd3NnRrYmcwd0JoLWxxajNiN1BzckN5a2tEMlVMYWxwVGJVZzJCT1Exck1pT2NDTHNOUXV3MV9fQmRuOFpadnhWMTBPcTFnb3otZXpsdmNwOUpzOEtaU2pYVkJBVGpGcTFZUGJfRjAwdVZqR3F5bEY0X0NCXzJiLVVVZmpNaXhQdkxYbThHN1pzNWlBQ1F0d2w2NkQzd2pobWNSckw3azZYVGJHSi1URDg0WXpoSlVLSFF3WGVLc09mYm5n0gHPAUFVX3lxTE14dnJoWnlNYmp2UXEwbGVEbWNDbDA0UnQzWm1YUDY2MlNGMDE3dzFsYzlVb0hMYkVITTR6bXluY0VJQ1prcWhaNlIxby1lYUNpbTM4ZW1MSXg2eEhWZVhwX0VVWUozRmZKTUFWWVRleGFXYTFTNG5ONVl1VGx2WmZqWGdoOWFvU2x3MmVFMTlZZG95YTZMZDRINWtUQ0xiRlFpcE1MY3NoUWpycUwxWWVuRE5EdHRrYTk1OXJyVUZHbjRmMXd4U3F0ZnZQWHg5cw?oc=5",
+          "published_at": "2026-08-25T06:31:52+00:00",
+          "collected_at": "2026-08-26T10:49:33.010254+00:00",
+          "source": "detikcom",
+          "match_score": 1.0,
+          "priority": "low",
+          "scope": "case",
+          "category": "UNGKAP KASUS / PENINDAKAN",
+          "region": "LUAR JATIM",
+          "locality": "",
+          "is_jatim": false,
+          "polres": null
+        }
+      ],
+      "article_count": 1,
+      "created_at": "2026-08-27T00:35:19.126758+00:00",
+      "updated_at": "2026-08-27T00:36:37.770271+00:00",
+      "engine_version": "case-v6.4",
+      "priority_score": 10,
+      "priority_breakdown": {
+        "severity": 10,
+        "escalation": 0,
+        "spread": 0,
+        "current_activity": 0
+      },
+      "priority_evidence": {
+        "unique_sources": 1,
+        "active_today_articles": 0,
+        "reasons": []
+      }
+    },
+    {
+      "case_id": "CASE-000014",
+      "title": "Polisi Tangkap Pelaku Penganiayaan di Tirtoyudo - BACAMALANG.COM -",
+      "category": "UNGKAP KASUS / PENINDAKAN",
+      "scope": "case",
+      "region": "LUAR JATIM",
+      "locality": "",
+      "is_jatim": false,
+      "polres": null,
+      "priority": "low",
+      "signature": "LUAR JATIM",
+      "incident_terms": [
+        "bacamalang",
+        "com",
+        "penganiayaan",
+        "tirtoyudo"
+      ],
+      "event_terms": [
+        "penganiayaan"
+      ],
+      "location_terms": [],
+      "discovery_families": [],
+      "first_seen": "2026-08-25T02:37:00+00:00",
+      "last_seen": "2026-08-26T10:49:33.010254+00:00",
+      "last_detected_at": "2026-08-26T10:49:33.010254+00:00",
+      "article_ids": [
+        "87999315fd91f132404472aa60f91b3a2355459b"
+      ],
+      "articles": [
+        {
+          "id": "87999315fd91f132404472aa60f91b3a2355459b",
+          "title": "Polisi Tangkap Pelaku Penganiayaan di Tirtoyudo - BACAMALANG.COM -",
+          "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE1jUzJZY0FSNF9CaUc5eUFJYV94a0NJOVJIaURURGpzSWc4RG40aUVibnlBNXc0UmVWUFZNZXVxV1Q4MGFmVFA2Zi1BdVl4VmhBenRuRjE5VUE3cVY0akhvV0UwWGt4TXVRRENjWUtCSjdNVzRQR0JPRFMwdw?oc=5",
+          "published_at": "2026-08-25T02:37:00+00:00",
+          "collected_at": "2026-08-26T10:49:33.010254+00:00",
+          "source": "BACAMALANG.COM -",
+          "match_score": 1.0,
+          "priority": "low",
+          "scope": "case",
+          "category": "UNGKAP KASUS / PENINDAKAN",
+          "region": "LUAR JATIM",
+          "locality": "",
+          "is_jatim": false,
+          "polres": null
+        }
+      ],
+      "article_count": 1,
+      "created_at": "2026-08-27T00:35:19.140118+00:00",
+      "updated_at": "2026-08-27T00:36:37.770302+00:00",
+      "engine_version": "case-v6.4",
+      "priority_score": 18,
+      "priority_breakdown": {
+        "severity": 18,
+        "escalation": 0,
+        "spread": 0,
+        "current_activity": 0
+      },
+      "priority_evidence": {
+        "unique_sources": 1,
+        "active_today_articles": 0,
+        "reasons": [
+          "penganiayaan"
+        ]
+      }
+    },
+    {
+      "case_id": "CASE-000015",
+      "title": "Pencurian Emas Rp 350 Juta di Pacitan, Polisi Tangkap Pelaku - JPNN.com",
+      "category": "UNGKAP KASUS / PENINDAKAN",
+      "scope": "case",
+      "region": "Jawa Timur",
+      "locality": "Pacitan",
+      "is_jatim": true,
+      "polres": null,
+      "priority": "low",
+      "signature": "Jawa Timur",
+      "incident_terms": [
+        "350",
+        "antara",
+        "com",
+        "emas",
+        "jatim",
+        "jpnn",
+        "juta",
+        "news",
+        "pacitan",
+        "pencurian",
+        "rp350"
+      ],
+      "event_terms": [
+        "emas",
+        "pencurian"
+      ],
+      "location_terms": [
+        "pacitan"
+      ],
+      "discovery_families": [],
+      "first_seen": "2026-08-24T15:54:06+00:00",
+      "last_seen": "2026-08-26T10:49:33.010254+00:00",
+      "last_detected_at": "2026-08-26T10:49:33.010254+00:00",
+      "article_ids": [
+        "ce2a4a3162477c22794af86064df2d63ac6a0790",
+        "f9edba934d40e192603009eb7c0e097c4bd881e8"
+      ],
+      "articles": [
+        {
+          "id": "ce2a4a3162477c22794af86064df2d63ac6a0790",
+          "title": "Pencurian Emas Rp 350 Juta di Pacitan, Polisi Tangkap Pelaku - JPNN.com",
+          "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOeEw0S1kzeVRpT3dpS0NEU3VzNWd6cXg2LVoweHBJUjhId2R0UzVnXzgzWHk2ck9VWnlMYnpPbmg0V3V5SFRIajNicVFpWmNzU0NjVkU3SGtpTkgzdWVVYnZoc1lXc0hwczRTczRJbnRqMWpaXzZBdFZFVFBycTZ3QmlEMk1JcG1sLTY2SDBR0gGQAUFVX3lxTE9qTlo3SmNDYmJmWTQ5WG1xdVoyQm9mSlhwM0tSeG5POEJPdWpTa2FDaEpab2JRNUJzMndFZnZNWENoYlQzdTVfbkNXbkdUSGpEMm5WZHEwdXlSOG5heG9UcWM1ckN1V3JjS052Yk5JaXpLVkdmbzVPbnBBTVYzbHlOV2lPRGlrdm03ZTFqN2ItNA?oc=5",
+          "published_at": "2026-08-24T18:19:00+00:00",
+          "collected_at": "2026-08-26T10:49:33.010254+00:00",
+          "source": "JPNN.com",
+          "match_score": 1.0,
+          "priority": "low",
+          "scope": "case",
+          "category": "UNGKAP KASUS / PENINDAKAN",
+          "region": "Jawa Timur",
+          "locality": "Pacitan",
+          "is_jatim": true,
+          "polres": null
+        },
+        {
+          "id": "f9edba934d40e192603009eb7c0e097c4bd881e8",
+          "title": "Polisi ungkap pencurian emas Rp350 juta di Pacitan - Antara News jatim",
+          "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxON3ZYeGVnRUxBOTlSQjhDQjRETDloNDJCdnJSaDVUVU9PUXNJYTFnNUswQU5oaW8tSVlQUWxVYmVISXMtUjBxeGh6UHh1Zmw1dExfOE5td1NSS25QS2RQREFlTkNHQ2d5YWpmQ1IzNElJUU11TnNfU0hXM0s1cEFoczZXX2NfWTZkZGh2c3VrSUtyRUpvM3hXSVRB0gGfAUFVX3lxTE5OcFpLN01PUHZ6QjhaQ05SNmdUcTJpX2JQNjZPMzVFdllac29jc21NcHoyYUNNbEYyV1g5bjFkS04zblhtWkRKZzMwNFZCc0psZGZVQ2U0WURwTm0ybVpGNEhTM2RSME1MTUVZMTE5Z1VjVGkzVEI0N0UzNlBXX1JJSndTVGozLVEwSnM1UmhKR0lCRnBBLURYNlpyMkVnbw?oc=5",
+          "published_at": "2026-08-24T15:54:06+00:00",
+          "collected_at": "2026-08-26T10:49:33.010254+00:00",
+          "source": "Antara News jatim",
+          "match_score": 1.0,
+          "priority": "low",
+          "scope": "neutral",
+          "category": "NETRAL / LAINNYA",
+          "region": "Jawa Timur",
+          "locality": "Pacitan",
+          "is_jatim": true,
+          "polres": null
+        }
+      ],
+      "article_count": 2,
+      "created_at": "2026-08-27T00:35:19.169520+00:00",
+      "updated_at": "2026-08-27T00:36:37.770347+00:00",
+      "engine_version": "case-v6.4",
+      "priority_score": 10,
+      "priority_breakdown": {
+        "severity": 10,
+        "escalation": 0,
+        "spread": 0,
+        "current_activity": 0
+      },
+      "priority_evidence": {
+        "unique_sources": 2,
+        "active_today_articles": 0,
+        "reasons": []
+      }
+    },
+    {
+      "case_id": "CASE-000016",
+      "title": "Polisi Tangkap Pelaku Curanmor di Tangerang, Bawa Celurit dan Kunci Letter T Halaman 1 - Kompas.com",
+      "category": "UNGKAP KASUS / PENINDAKAN",
+      "scope": "case",
+      "region": "LUAR JATIM",
+      "locality": "",
+      "is_jatim": false,
+      "polres": null,
+      "priority": "low",
+      "signature": "LUAR JATIM",
+      "incident_terms": [
+        "bawa",
+        "celurit",
+        "com",
+        "curanmor",
+        "halaman",
+        "kompas",
+        "kunci",
+        "letter",
+        "tangerang"
+      ],
+      "event_terms": [
+        "celurit",
+        "curanmor",
+        "letter"
+      ],
+      "location_terms": [
+        "tangerang"
+      ],
+      "discovery_families": [],
+      "first_seen": "2026-08-24T14:47:00+00:00",
+      "last_seen": "2026-08-26T10:49:33.010254+00:00",
+      "last_detected_at": "2026-08-26T10:49:33.010254+00:00",
+      "article_ids": [
+        "393d477a29494dc25419b1cfb8efacfc7f6bc7a7",
+        "2b5d12f9f88428014f2f951566fa1dc5aad1327f"
+      ],
+      "articles": [
+        {
+          "id": "393d477a29494dc25419b1cfb8efacfc7f6bc7a7",
+          "title": "Polisi Tangkap Pelaku Curanmor di Tangerang, Bawa Celurit dan Kunci Letter T Halaman 1 - Kompas.com",
+          "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPckR5NDRyWEtJWm9DQk9JaE1ncXlDeHJaQnlBbGY1blA0QkZaN0JrTmNjbkRqRnMtNTJsVTZ0S0NZamhZdlI5SHc5OHJfT2FPUXByNkZVNDBoTzJPOHh0SWU5bXp1dGxmZFBDWmR0QVdXdnBFYUpDZEZBSUFFZGZLZTFVd3Z2dnZCMldvSGpqdzBidnpSM0t5a29kOTJ6R29aTGlQMlg4VUtsbGsycnlNLVlzTmVTV2xQRm5XTVRYN0hnR3hzdGhyckNNdTFhLXM3dVRB?oc=5",
+          "published_at": "2026-08-24T14:52:58+00:00",
+          "collected_at": "2026-08-26T10:49:33.010254+00:00",
+          "source": "Kompas.com",
+          "match_score": 1.0,
+          "priority": "low",
+          "scope": "case",
+          "category": "UNGKAP KASUS / PENINDAKAN",
+          "region": "LUAR JATIM",
+          "locality": "",
+          "is_jatim": false,
+          "polres": null
+        },
+        {
+          "id": "2b5d12f9f88428014f2f951566fa1dc5aad1327f",
+          "title": "Polisi Tangkap Pelaku Curanmor di Tangerang, Bawa Celurit dan Kunci Letter T - Kompas.com",
+          "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxOamhMQ1JkZ0NFcVpYb2JkUVMwdjVONnI1b3BDN1dYSWppUG5kN2FFdklwQXN4TkY3MDNzalBrLTI0NjlLLXZpNldkVFJKUVF4eTVNV0VneUZnOUtYWFhjZFAtbEFMNnRuVzd5ZUY4akc4VnNBTDdFMW9Xa2ZhVkl6U3dra1c1YUJMZDd4d2xRVU8tbHdYSmFXYXBuNGlFaWhqNXhhQ1E2UFl6aUVobC1mZFNOSHljcE12NlZHNHdiMEpSZ1VuV2hPWnlVSEFoN0xCWVVDQzl1QXFJN2RmNEhTWmo4WnNob28?oc=5",
+          "published_at": "2026-08-24T14:47:00+00:00",
+          "collected_at": "2026-08-26T10:49:33.010254+00:00",
+          "source": "Kompas.com",
+          "match_score": 1.0,
+          "priority": "low",
+          "scope": "case",
+          "category": "UNGKAP KASUS / PENINDAKAN",
+          "region": "LUAR JATIM",
+          "locality": "",
+          "is_jatim": false,
+          "polres": null
+        }
+      ],
+      "article_count": 2,
+      "created_at": "2026-08-27T00:35:19.175263+00:00",
+      "updated_at": "2026-08-27T00:36:37.770396+00:00",
+      "engine_version": "case-v6.4",
+      "priority_score": 10,
+      "priority_breakdown": {
+        "severity": 10,
+        "escalation": 0,
+        "spread": 0,
+        "current_activity": 0
+      },
+      "priority_evidence": {
+        "unique_sources": 1,
+        "active_today_articles": 0,
+        "reasons": []
+      }
+    },
+    {
+      "case_id": "CASE-000017",
+      "title": "JPU Tuntut 9 Tahun, Oknum Polisi di Sula Malah Divonis Bebas, Korban Rusak Fasilitas PN Sanana - Haliyora.id",
+      "category": "OKNUM - PIDANA",
+      "scope": "negative",
+      "region": "LUAR JATIM",
+      "locality": "",
+      "is_jatim": false,
+      "polres": null,
+      "priority": "low",
+      "signature": "LUAR JATIM",
+      "incident_terms": [
+        "bebas",
+        "divonis",
+        "fasilitas",
+        "haliyora",
+        "jpu",
+        "malah",
+        "rusak",
+        "sanana",
+        "sula",
+        "tuntut"
+      ],
+      "event_terms": [
+        "bebas",
+        "divonis",
+        "fasilitas",
+        "sanana",
+        "sula"
+      ],
+      "location_terms": [],
+      "discovery_families": [],
+      "first_seen": "2026-08-24T12:16:00+00:00",
+      "last_seen": "2026-08-26T10:49:33.010254+00:00",
+      "last_detected_at": "2026-08-26T10:49:33.010254+00:00",
+      "article_ids": [
+        "3e2f0a8f4ee79894e8fcde5264516c1d88554c19"
+      ],
+      "articles": [
+        {
+          "id": "3e2f0a8f4ee79894e8fcde5264516c1d88554c19",
+          "title": "JPU Tuntut 9 Tahun, Oknum Polisi di Sula Malah Divonis Bebas, Korban Rusak Fasilitas PN Sanana - Haliyora.id",
+          "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOLXEwMEhMVk0yeEtGUFE3Nm5iYmNRRUVFeWQtZjZSczFhTm1ZTXhoS3dYdnpGWlpWVDNzS0xXbk4zRndrUVg3ME9MY21sazlwVEx1ZlZKd002dGhta2JlVHdqanItLVpVN3Rxb0Z0YmNuUERKLVpUMlNoc0dZR0phOFQ4TGFzMVR5NzJLWjAyUi1nM3BKcUF3LUdKQ2FiSEpMVlZFVWUxNmVNakNVeFJUSnExNEpOWE5LV3FkSWl0ZWhjQQ?oc=5",
+          "published_at": "2026-08-24T12:16:00+00:00",
+          "collected_at": "2026-08-26T10:49:33.010254+00:00",
+          "source": "Haliyora.id",
+          "match_score": 1.0,
+          "priority": "medium",
+          "scope": "negative",
+          "category": "OKNUM - PIDANA",
+          "region": "LUAR JATIM",
+          "locality": "",
+          "is_jatim": false,
+          "polres": null
+        }
+      ],
+      "article_count": 1,
+      "created_at": "2026-08-27T00:35:19.192825+00:00",
+      "updated_at": "2026-08-27T00:36:37.770430+00:00",
+      "engine_version": "case-v6.4",
+      "priority_score": 10,
+      "priority_breakdown": {
+        "severity": 10,
+        "escalation": 0,
+        "spread": 0,
+        "current_activity": 0
+      },
+      "priority_evidence": {
+        "unique_sources": 1,
+        "active_today_articles": 0,
+        "reasons": []
+      }
+    },
+    {
+      "case_id": "CASE-000018",
+      "title": "Oknum Polisi Terdakwa Kasus Kekerasan Seksual Divonis Bebas, Korban Rusaki Fasilitas PN Sanana - tandaseru.com",
+      "category": "OKNUM - PIDANA",
+      "scope": "negative",
+      "region": "LUAR JATIM",
+      "locality": "",
+      "is_jatim": false,
+      "polres": null,
+      "priority": "high",
+      "signature": "LUAR JATIM",
+      "incident_terms": [
+        "bebas",
+        "com",
+        "divonis",
+        "fasilitas",
+        "kekerasan",
+        "rusaki",
+        "sanana",
+        "seksual",
+        "tandaseru",
+        "terdakwa"
+      ],
+      "event_terms": [
+        "bebas",
+        "divonis",
+        "fasilitas",
+        "kekerasan",
+        "sanana",
+        "seksual"
+      ],
+      "location_terms": [],
+      "discovery_families": [],
+      "first_seen": "2026-08-24T11:49:00+00:00",
+      "last_seen": "2026-08-26T10:49:33.010254+00:00",
+      "last_detected_at": "2026-08-26T10:49:33.010254+00:00",
+      "article_ids": [
+        "a4397645a81f6bb4f28941bf71efa14a390d3a82"
+      ],
+      "articles": [
+        {
+          "id": "a4397645a81f6bb4f28941bf71efa14a390d3a82",
+          "title": "Oknum Polisi Terdakwa Kasus Kekerasan Seksual Divonis Bebas, Korban Rusaki Fasilitas PN Sanana - tandaseru.com",
+          "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPbXVTblB2M3ZVV0JBcmoyb1N5U3cwd25VZnVINHZtV2taSnZmX1JtR2NkYkxrOXBvRlBvSFdUQjhzTkZEZ18yT2VIM09qdGpxRExmcUdFNmViZXRKajhpY0hxLTZzTUp0VkIydWJTQUZxd1dXd2VtQTZGemg2U3hEYmJ1SU1IWWNhYWVUTWlUX3plZm9WT0IzLTBkZEYwU2h3RjRMaDh0aEhxT3ZzSndUMV84OU5yeThEYkRsYjM2emlXaWpXX0NtNm1xMA?oc=5",
+          "published_at": "2026-08-24T11:49:00+00:00",
+          "collected_at": "2026-08-26T10:49:33.010254+00:00",
+          "source": "tandaseru.com",
+          "match_score": 1.0,
+          "priority": "medium",
+          "scope": "negative",
+          "category": "OKNUM - PIDANA",
+          "region": "LUAR JATIM",
+          "locality": "",
+          "is_jatim": false,
+          "polres": null
+        }
+      ],
+      "article_count": 1,
+      "created_at": "2026-08-27T00:35:19.211264+00:00",
+      "updated_at": "2026-08-27T00:36:37.770456+00:00",
+      "engine_version": "case-v6.4",
+      "priority_score": 45,
+      "priority_breakdown": {
+        "severity": 45,
+        "escalation": 0,
+        "spread": 0,
+        "current_activity": 0
+      },
+      "priority_evidence": {
+        "unique_sources": 1,
+        "active_today_articles": 0,
+        "reasons": [
+          "kekerasan seksual"
+        ]
+      }
+    },
+    {
+      "case_id": "CASE-000019",
+      "title": "Polisi Tangkap Pelaku Pencuri Motor Milik Anggota Polri di Kendari - Nawala Media",
+      "category": "UNGKAP KASUS / PENINDAKAN",
+      "scope": "case",
+      "region": "LUAR JATIM",
+      "locality": "",
+      "is_jatim": false,
+      "polres": null,
+      "priority": "low",
+      "signature": "LUAR JATIM",
+      "incident_terms": [
+        "kendari",
+        "media",
+        "milik",
+        "motor",
+        "nawala",
+        "pencuri"
+      ],
+      "event_terms": [
+        "motor",
+        "pencuri"
+      ],
+      "location_terms": [
+        "kendari"
+      ],
+      "discovery_families": [],
+      "first_seen": "2026-08-24T11:24:05+00:00",
+      "last_seen": "2026-08-26T10:49:33.010254+00:00",
+      "last_detected_at": "2026-08-26T10:49:33.010254+00:00",
+      "article_ids": [
+        "b321bfb5b2a520a21e24b88fba6fb0f96f99eb45"
+      ],
+      "articles": [
+        {
+          "id": "b321bfb5b2a520a21e24b88fba6fb0f96f99eb45",
+          "title": "Polisi Tangkap Pelaku Pencuri Motor Milik Anggota Polri di Kendari - Nawala Media",
+          "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOR1cwNldKOTlsR005a1pMX0h5T0VEU0JvNGFHdXM0bl9RaXNBMFlzY3hveDNDcGRlRHo3U3NTeFdyLWRTOENkT2F4WGVVWFZVS2ZhRWxxTTBaQnBndVBMd1JValVqUndla25mV2xES0NEY05Dek1LbkxJSC1lb0hNa2xrVENEck5hQWYyWmhPekJRbWlC?oc=5",
+          "published_at": "2026-08-24T11:24:05+00:00",
+          "collected_at": "2026-08-26T10:49:33.010254+00:00",
+          "source": "Nawala Media",
+          "match_score": 1.0,
+          "priority": "low",
+          "scope": "case",
+          "category": "UNGKAP KASUS / PENINDAKAN",
+          "region": "LUAR JATIM",
+          "locality": "",
+          "is_jatim": false,
+          "polres": null
+        }
+      ],
+      "article_count": 1,
+      "created_at": "2026-08-27T00:35:19.216825+00:00",
+      "updated_at": "2026-08-27T00:36:37.770484+00:00",
+      "engine_version": "case-v6.4",
+      "priority_score": 10,
+      "priority_breakdown": {
+        "severity": 10,
+        "escalation": 0,
+        "spread": 0,
+        "current_activity": 0
+      },
+      "priority_evidence": {
+        "unique_sources": 1,
+        "active_today_articles": 0,
+        "reasons": []
+      }
+    }
+  ]
+}

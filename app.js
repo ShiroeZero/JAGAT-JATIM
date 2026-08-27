@@ -394,7 +394,10 @@ function openRegionDrawer(name, items) {
         const url = normalizeUrl(item.url);
         return `<div class="source-row">
           <div><b>${escapeHtml(getTitle(item))}</b><div>${escapeHtml(getSource(item))}</div><small>${escapeHtml(formatDateTime(getItemDate(item)))} · ${escapeHtml(getCategory(item))}</small></div>
-          ${url ? `<a href="${escapeHtml(url)}" target="_blank" rel="noopener noreferrer">Buka ↗</a>` : `<span class="muted">Tanpa tautan</span>`}
+          <span class="source-row-actions">
+            ${copyButtonMarkup(url)}
+            ${url ? `<a href="${escapeHtml(url)}" target="_blank" rel="noopener noreferrer" class="open-link-btn"><i class="fa-solid fa-arrow-up-right-from-square" aria-hidden="true"></i> Buka</a>` : `<span class="muted">Tanpa tautan</span>`}
+          </span>
         </div>`;
       }).join("") : `<div class="empty">Tidak ada berita pada wilayah ini.</div>`}
     </div>`;
@@ -434,7 +437,13 @@ function articleCard(item) {
         ${c ? `<span class="pill ${cHigh ? "high" : ""}">CASE ${escapeHtml(getPriority(c).toUpperCase())}</span>` : `<span class="pill">${escapeHtml(getScope(item).toUpperCase())}</span>`}
       </div>
     </div>
-    <div class="card-action">${url ? "Klik untuk detail · sumber tersedia ↗" : "Klik untuk detail"}</div>
+    <div class="card-actions-bottom">
+      <span class="card-action">Klik untuk detail${url ? " · sumber tersedia" : ""}</span>
+      <span class="card-actions-buttons">
+        ${copyButtonMarkup(url)}
+        ${url ? `<a class="open-link-btn" href="${escapeHtml(url)}" target="_blank" rel="noopener noreferrer" onclick="event.stopPropagation()"><i class="fa-solid fa-arrow-up-right-from-square" aria-hidden="true"></i> Buka</a>` : ""}
+      </span>
+    </div>
   </article>`;
 }
 
@@ -442,11 +451,18 @@ function caseCard(c, index) {
   const p = getPriority(c);
   const locality = getLocality(c);
   const score = c.priority_score != null ? ` · ${number(c.priority_score)}/100` : "";
+  const firstSourceUrl = normalizeUrl((c.articles || []).find(a => normalizeUrl(a.url))?.url);
   return `<article class="case-card clickable" data-case-id="${escapeHtml(c.case_id)}">
     <div class="case-card-top"><span class="case-id">KASUS ${String(index).padStart(2, "0")}</span><span class="pill ${escapeHtml(p)}">${escapeHtml(p.toUpperCase())}${score}</span></div>
     <strong>${escapeHtml(c.title || "Kasus")}</strong>
     <div class="news-card-meta">${escapeHtml(locality || c.region || "Indonesia")} · ${number(c.article_count || (c.articles || []).length)} sumber · update ${escapeHtml(formatDateTime(c.last_detected_at || c.last_seen || c.updated_at))}</div>
-    <div class="card-action">Klik untuk melihat seluruh sumber →</div>
+    <div class="card-actions-bottom">
+      <span class="card-action">Klik untuk melihat seluruh sumber →</span>
+      <span class="card-actions-buttons">
+        ${copyButtonMarkup(firstSourceUrl, "Salin")}
+        ${firstSourceUrl ? `<a class="open-link-btn" href="${escapeHtml(firstSourceUrl)}" target="_blank" rel="noopener noreferrer" onclick="event.stopPropagation()"><i class="fa-solid fa-arrow-up-right-from-square" aria-hidden="true"></i> Sumber</a>` : ""}
+      </span>
+    </div>
   </article>`;
 }
 
@@ -456,6 +472,7 @@ function renderLatest(items) {
   const latest = items.slice().sort((a, b) => new Date(getItemDate(b) || 0) - new Date(getItemDate(a) || 0)).slice(0, 8);
   target.innerHTML = latest.length ? latest.map(articleCard).join("") : `<div class="empty">Belum ada berita hari ini.</div>`;
   bindArticleClicks(target, items);
+  bindCopyButtons(target);
 }
 
 function renderLatestCases(items = todayJatimItems()) {
@@ -702,6 +719,56 @@ function closeDrawer() {
   $("drawerOverlay")?.classList.add("hidden");
 }
 
+async function copyLink(url, button) {
+  if (!url) return;
+  const original = button?.innerHTML || "<i class=\"fa-regular fa-copy\"></i> Salin";
+  try {
+    if (navigator.clipboard && window.isSecureContext) {
+      await navigator.clipboard.writeText(url);
+    } else {
+      const ta = document.createElement("textarea");
+      ta.value = url;
+      ta.setAttribute("readonly", "");
+      ta.style.position = "fixed";
+      ta.style.opacity = "0";
+      document.body.appendChild(ta);
+      ta.select();
+      document.execCommand("copy");
+      ta.remove();
+    }
+    if (button) {
+      button.innerHTML = '<i class="fa-solid fa-check"></i> Tersalin';
+      button.classList.add("copied");
+      setTimeout(() => {
+        button.innerHTML = original;
+        button.classList.remove("copied");
+      }, 1400);
+    }
+  } catch (error) {
+    console.error("Gagal menyalin tautan", error);
+    if (button) {
+      button.innerHTML = '<i class="fa-solid fa-triangle-exclamation"></i> Gagal';
+      setTimeout(() => { button.innerHTML = original; }, 1600);
+    }
+  }
+}
+
+function copyButtonMarkup(url, label = "Salin") {
+  return url
+    ? `<button type="button" class="copy-link-btn" data-copy-url="${escapeHtml(url)}"><i class="fa-regular fa-copy" aria-hidden="true"></i> ${escapeHtml(label)}</button>`
+    : "";
+}
+
+function bindCopyButtons(root) {
+  root?.querySelectorAll("[data-copy-url]").forEach(button => {
+    button.addEventListener("click", event => {
+      event.preventDefault();
+      event.stopPropagation();
+      copyLink(button.dataset.copyUrl, button);
+    });
+  });
+}
+
 function openArticleDrawer(article, dataset = activeNews(), caseDataset = activeCases()) {
   const c = getCaseById(article.case_id, caseDataset);
   const url = normalizeUrl(article.url);
@@ -723,10 +790,12 @@ function openArticleDrawer(article, dataset = activeNews(), caseDataset = active
       <div><span>Ditemukan</span><strong>${escapeHtml(formatDateTime(article.collected_at))}</strong></div>
     </div>
     <div class="drawer-actions">
-      ${url ? `<a class="primary-link" href="${escapeHtml(url)}" target="_blank" rel="noopener noreferrer">Buka Berita Asli ↗</a>` : ""}
+      ${url ? `<a class="primary-link" href="${escapeHtml(url)}" target="_blank" rel="noopener noreferrer"><i class="fa-solid fa-arrow-up-right-from-square" aria-hidden="true"></i> Buka Berita Asli</a>` : ""}
+      ${copyButtonMarkup(url, "Salin Tautan")}
       ${c ? `<button class="secondary" id="drawerCaseButton">Lihat Kasus & Semua Sumber</button>` : ""}
     </div>`;
   openDrawer();
+  bindCopyButtons($("drawerContent"));
   $("drawerCaseButton")?.addEventListener("click", () => openCaseDrawer(c, dataset, caseDataset));
 }
 
@@ -749,10 +818,11 @@ function openCaseDrawer(c, newsDataset = activeNews(), caseDataset = activeCases
     <div class="source-list"><h4>Seluruh sumber terkait</h4>
       ${items.length ? items.map((a, i) => {
         const u = normalizeUrl(a.url);
-        return `<div class="source-row"><div><b>${number(i + 1)}. ${escapeHtml(getSource(a))}</b><div>${escapeHtml(getTitle(a))}</div><small>${escapeHtml(formatDateTime(getItemDate(a)))}</small></div>${u ? `<a href="${escapeHtml(u)}" target="_blank" rel="noopener noreferrer">Buka ↗</a>` : ""}</div>`;
+        return `<div class="source-row"><div><b>${number(i + 1)}. ${escapeHtml(getSource(a))}</b><div>${escapeHtml(getTitle(a))}</div><small>${escapeHtml(formatDateTime(getItemDate(a)))}</small></div><span class="source-row-actions">${copyButtonMarkup(u)}${u ? `<a class="open-link-btn" href="${escapeHtml(u)}" target="_blank" rel="noopener noreferrer"><i class="fa-solid fa-arrow-up-right-from-square" aria-hidden="true"></i> Buka</a>` : ""}</span></div>`;
       }).join("") : `<div class="empty">Sumber detail tidak tersedia pada dataset aktif.</div>`}
     </div>`;
   openDrawer();
+  bindCopyButtons($("drawerContent"));
 }
 
 function initMap() {

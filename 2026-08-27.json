@@ -1,0 +1,68 @@
+{
+  "schema_version": "today-v3",
+  "date": "2026-08-27",
+  "timezone": "Asia/Jakarta",
+  "updated_at": "2026-08-27T07:36:38.963986+07:00",
+  "last_successful_update": "2026-08-27T07:36:38.963986+07:00",
+  "news": {
+    "detected": 0,
+    "negative": 0,
+    "positive": 0,
+    "case": 0,
+    "neutral": 0,
+    "jatim": 0,
+    "luar_jatim": 0,
+    "priority_high": 0,
+    "article_ids": [],
+    "items": [],
+    "jatim_items": [],
+    "luar_jatim_items": []
+  },
+  "cases": {
+    "active": 0,
+    "priority_high": 0,
+    "jatim": 0,
+    "jatim_priority_high": 0,
+    "articles": 0,
+    "case_ids": [],
+    "items": [],
+    "jatim_items": []
+  },
+  "social": {
+    "detected": 0,
+    "jatim": 0,
+    "negative": 0,
+    "priority_high": 0,
+    "video_ids": []
+  },
+  "jatim": {
+    "news_today": 0,
+    "negative_today": 0,
+    "positive_today": 0,
+    "case_scope_today": 0,
+    "neutral_today": 0,
+    "case_today": 0,
+    "case_high_active": 0,
+    "article_high_today": 0,
+    "outside_jatim_today": 0
+  },
+  "regions": [],
+  "polres": [],
+  "categories": [],
+  "summary": {
+    "news_today": 0,
+    "negative_today": 0,
+    "cases_today": 0,
+    "priority_high": 0,
+    "article_priority_high": 0,
+    "jatim_news": 0,
+    "jatim_negative": 0,
+    "jatim_positive": 0,
+    "jatim_case_scope": 0,
+    "jatim_neutral": 0,
+    "jatim_cases_today": 0,
+    "jatim_case_high_active": 0,
+    "luar_jatim_news": 0,
+    "youtube_today": 0
+  }
+}

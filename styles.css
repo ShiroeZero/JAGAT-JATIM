@@ -483,3 +483,53 @@ input:focus,select:focus,textarea:focus{
   .filter-search-wrap input{height:46px!important}
   .filter-group select,.filter-period-row input{height:44px!important}
 }
+
+
+/* V6.4 interaction actions: copy/open links */
+.card-actions-bottom{
+  margin-top:10px;
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  gap:10px;
+}
+.card-actions-buttons,.source-row-actions{
+  display:inline-flex;
+  align-items:center;
+  justify-content:flex-end;
+  gap:6px;
+  flex:0 0 auto;
+}
+.copy-link-btn,.open-link-btn{
+  display:inline-flex;
+  align-items:center;
+  justify-content:center;
+  gap:5px;
+  min-height:30px;
+  padding:6px 9px;
+  border-radius:7px;
+  border:1px solid var(--line);
+  background:#101824;
+  color:#aebcd0;
+  font-size:10px;
+  font-weight:700;
+  text-decoration:none;
+  cursor:pointer;
+}
+.copy-link-btn:hover,.open-link-btn:hover{
+  background:#152234;
+  border-color:#2f4868;
+  color:#e9f1fc;
+}
+.copy-link-btn.copied{
+  color:#70d8b0;
+  border-color:#285947;
+}
+.source-row-actions .copy-link-btn,.source-row-actions .open-link-btn{
+  min-height:28px;
+  padding:5px 8px;
+}
+@media(max-width:600px){
+  .card-actions-bottom{align-items:flex-end}
+  .card-actions-buttons{flex-wrap:wrap}
+}
