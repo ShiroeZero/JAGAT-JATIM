@@ -1,6 +1,8 @@
 import json
 import os
+import sys
 from datetime import datetime, timezone
+
 from zoneinfo import ZoneInfo
 
 BASE = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
@@ -171,13 +173,32 @@ def main():
     if stored_article_ids != actual_article_ids:
         errors.append("today.json article_ids do not match raw news.json")
 
+    # Semantic location validation: stored location must be reproducible from title only.
+    scripts_dir = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), "scripts")
+    if scripts_dir not in sys.path:
+        sys.path.insert(0, scripts_dir)
+    try:
+        from location_engine import detect_location, POLRES_MAP
+        if len(POLRES_MAP) != 39:
+            errors.append(f"location master expected 39 Polres, found={len(POLRES_MAP)}")
+        for item in news:
+            expected = detect_location(item.get("title", ""), source=item.get("source") or item.get("publisher") or "")
+            fields = (bool(item.get("is_jatim")), item.get("region"), item.get("locality") or "", item.get("polres"))
+            actual = (expected["is_jatim"], expected["region"], expected["locality"], expected["polres"])
+            if fields != actual:
+                errors.append(
+                    f"location mismatch {item.get('id')}: stored={fields}, expected={actual}"
+                )
+    except Exception as exc:
+        errors.append(f"location semantic validation unavailable: {exc}")
+
     if errors:
         for error in errors[:50]:
             print("ERROR:", error)
         fail(f"validation failed with {len(errors)} issue(s)")
 
     print("========================================")
-    print("PNM SYSTEM DATA VALIDATION")
+    print("JAGAT SYSTEM DATA VALIDATION V6.4")
     print("========================================")
     print(f"News records        : {len(news)}")
     print(f"Case records        : {len(cases)}")

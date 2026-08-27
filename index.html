@@ -41,7 +41,7 @@
     <main class="main">
       <header class="topbar">
         <div>
-          <div class="eyebrow">BIDANG MONITORING</div>
+          <div class="eyebrow">MONITORING INFORMASI</div>
           <h1 id="pageTitle">Dashboard</h1>
           <div id="todayDate" class="today-date">Memuat tanggal...</div>
         </div>
@@ -58,12 +58,12 @@
             <h2>Situasi Jawa Timur</h2>
             <p>Pemantauan pemberitaan <strong>Jawa Timur</strong> untuk <strong>hari ini</strong>. Histori tersedia di Arsip.</p>
           </div>
-          <span class="hero-badge">TODAY</span>
+          <span class="hero-badge">HARI INI</span>
         </div>
 
         <div class="stats stats-4">
           <div class="stat"><span>Berita Jatim Hari Ini</span><strong id="sTotal">0</strong></div>
-          <div class="stat"><span>Case Jatim Hari Ini</span><strong id="sCaseToday">0</strong></div>
+          <div class="stat"><span>Kasus Jatim Hari Ini</span><strong id="sCaseToday">0</strong></div>
           <div class="stat"><span>Ungkap Kasus Jatim</span><strong id="sCaseUngkap">0</strong></div>
           <div class="stat danger"><span>Prioritas Tinggi Jatim</span><strong id="sHigh">0</strong></div>
         </div>
@@ -79,7 +79,7 @@
           <section class="panel">
             <div class="panel-head">
               <div><h3>Wilayah Terdeteksi Hari Ini</h3><div class="muted">Klik wilayah untuk melihat berita Jatim hari ini.</div></div>
-              <button class="linkbtn" data-open-monitoring="jatim">Lihat monitoring →</button>
+              <button class="linkbtn" data-open-monitoring="jatim">Lihat seluruh berita →</button>
             </div>
             <div id="regionToday" class="region-list"></div>
           </section>
@@ -93,14 +93,14 @@
 
         <section class="panel map-panel">
           <div class="panel-head">
-            <div><h3>Peta Monitoring Jawa Timur</h3><div class="muted">Marker mengikuti data hari ini dan prioritas Case.</div></div>
+            <div><h3>Peta Jawa Timur</h3><div class="muted">Marker mengikuti data hari ini dan prioritas Case.</div></div>
             <span id="mapCount" class="map-count">0 lokasi</span>
           </div>
           <div id="jatimMap" class="jatim-map"></div>
           <div class="map-footer">
             <div class="map-legend">
-              <span><i class="legend-dot high"></i>High case</span>
-              <span><i class="legend-dot medium"></i>Medium case</span>
+              <span><i class="legend-dot high"></i>Kasus tinggi</span>
+              <span><i class="legend-dot medium"></i>Kasus sedang</span>
               <span><i class="legend-dot low"></i>Terpantau</span>
             </div>
           </div>
@@ -116,7 +116,7 @@
           </section>
           <section class="panel">
             <div class="panel-head">
-              <div><h3>Case Terbaru</h3><div class="muted">Incident Jatim yang terdeteksi hari ini; satu Case dapat memiliki banyak sumber.</div></div>
+              <div><h3>Kasus Terbaru</h3><div class="muted">Incident Jatim yang terdeteksi hari ini; satu Case dapat memiliki banyak sumber.</div></div>
             </div>
             <div id="latestCases"></div>
           </section>
@@ -129,20 +129,14 @@
             <h2 class="section-context-title">Temukan Berita &amp; Case</h2>
             <div class="muted" id="monitoringContextText">Pilih periode, lokasi, atau klasifikasi untuk mempersempit hasil.</div>
           </div>
-          <span class="today-badge">DATA AKTIF</span>
-        </div>
-
-        <div class="mode-tabs">
-          <button class="mode-tab active" data-mode="all">Semua</button>
-          <button class="mode-tab" data-mode="jatim">Jawa Timur</button>
-          <button class="mode-tab" data-mode="high">Prioritas Tinggi</button>
+          <span class="today-badge">DATA TERKINI</span>
         </div>
 
         <section class="panel filters-panel">
           <div class="filter-toolbar-head">
             <div>
-              <h3>Filter Monitoring</h3>
-              <div class="muted">Persempit hasil berdasarkan pencarian, lokasi, klasifikasi, dan periode.</div>
+              <h3>Filter Pencarian</h3>
+              <div class="muted">Gunakan lokasi, klasifikasi, dan periode untuk mempersempit hasil.</div>
             </div>
             <button id="clearFilters" class="secondary filter-reset-top" type="button">
               <i class="fa-solid fa-rotate-left" aria-hidden="true"></i> Reset
@@ -161,7 +155,7 @@
               <div class="filter-group-label"><i class="fa-solid fa-location-dot" aria-hidden="true"></i> Lokasi</div>
               <div class="filter-group-controls">
                 <select id="region"><option value="all">Semua Wilayah / Area</option></select>
-                <select id="polres"><option value="all">Semua Polres</option></select>
+                <select id="polres"><option value="all">Polres terdeteksi</option></select>
               </div>
             </div>
 
@@ -169,7 +163,7 @@
               <div class="filter-group-label"><i class="fa-solid fa-sliders" aria-hidden="true"></i> Klasifikasi</div>
               <div class="filter-group-controls filter-group-3">
                 <select id="priority"><option value="all">Semua Prioritas</option><option value="high">Tinggi</option><option value="medium">Sedang</option><option value="low">Rendah</option></select>
-                <select id="scope"><option value="all">Semua Jenis</option><option value="negative">Negatif</option><option value="case">Ungkap Kasus</option><option value="positive">Positif</option><option value="neutral">Netral</option></select>
+                <select id="scope"><option value="all">Semua Jenis Berita</option><option value="negative">Negatif</option><option value="case">Ungkap Kasus</option><option value="positive">Positif</option><option value="neutral">Netral</option></select>
                 <select id="category"><option value="all">Semua Kategori</option></select>
               </div>
             </div>
@@ -247,9 +241,9 @@
             <div class="filters">
               <input id="archiveSearch" placeholder="Cari berita arsip...">
               <select id="archiveRegion"><option value="all">Semua Wilayah / Area</option></select>
-              <select id="archivePolres"><option value="all">Semua Polres</option></select>
+              <select id="archivePolres"><option value="all">Polres terdeteksi</option></select>
               <select id="archivePriority"><option value="all">Semua Prioritas</option><option value="high">Tinggi</option><option value="medium">Sedang</option><option value="low">Rendah</option></select>
-              <select id="archiveScope"><option value="all">Semua Jenis</option><option value="negative">Negatif</option><option value="case">Ungkap Kasus</option><option value="positive">Positif</option><option value="neutral">Netral</option></select>
+              <select id="archiveScope"><option value="all">Semua Jenis Berita</option><option value="negative">Negatif</option><option value="case">Ungkap Kasus</option><option value="positive">Positif</option><option value="neutral">Netral</option></select>
               <select id="archiveCategory"><option value="all">Semua Kategori</option></select>
               <button id="archiveClear" class="secondary">Reset</button>
             </div>

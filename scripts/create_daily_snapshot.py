@@ -64,16 +64,16 @@ def priority_rank(value):
     )
 
 def build_region_stats(items):
+    # Province is the parent; concrete locality is the child. We never
+    # expose "Jawa Timur" as a peer category beside Madiun/Batu/etc.
     counter = Counter()
     for item in items:
-        if item.get("is_jatim") is True:
-            region = item.get("region") or "Jawa Timur"
-            location = item.get("polres") or region
-            counter[location] += 1
-    return [
-        {"name": name, "count": count}
-        for name, count in counter.most_common()
-    ]
+        if item.get("is_jatim") is not True:
+            continue
+        locality = str(item.get("locality") or "").strip()
+        if locality:
+            counter[locality] += 1
+    return [{"name": name, "count": count} for name, count in counter.most_common()]
 
 def build_polres_stats(items):
     counter = Counter(
@@ -241,11 +241,11 @@ def build_snapshot():
     save_json(archive_path, snapshot)
 
     print("========================================")
-    print("JAGAT DAILY SNAPSHOT V3")
+    print("JAGAT DAILY SNAPSHOT V6.4")
     print("========================================")
-    print(f"Monitoring date : {today}")
+    print(f"Tanggal pemantauan : {today}")
     print(f"News today     : {len(today_news)}")
-    print(f"Jatim today    : {len(today_jatim)}")
+    print(f"Jatim hari ini   : {len(today_jatim)}")
     print(f"Luar Jatim     : {len(today_outside)}")
     print(f"Negative Jatim : {len(negative_jatim)}")
     print(f"Case Jatim     : {len(today_jatim_cases)}")

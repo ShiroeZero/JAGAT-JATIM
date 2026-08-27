@@ -159,3 +159,17 @@ The dashboard is intentionally served without a frontend login gate. Access cont
 - Monitoring uses the full news database plus explicit date filtering.
 - Case priority remains separate from article priority.
 - Archive uses its own snapshot for case/news detail.
+
+
+## V6.4 — Stabilisasi data, lokasi, filter, dan UI
+
+- 39 Polres Jawa Timur menjadi master data; dropdown filter hanya menampilkan Polres yang benar-benar muncul pada konteks data aktif.
+- Lokasi artikel ditentukan dari judul artikel saja. Nama media/publisher tidak dipakai sebagai bukti geografis.
+- Ambiguitas `Batu Bara` dilindungi agar tidak pernah dipetakan menjadi `Batu` Jawa Timur.
+- Hirarki lokasi: Jawa Timur sebagai induk, lalu area/kabupaten/kota, lalu Polres jika institusinya disebut eksplisit.
+- Dashboard fokus Jawa Timur hari ini. Klik wilayah membuka seluruh berita wilayah pada drawer, bukan berpindah ke Monitoring.
+- Filter Monitoring menggunakan model facet/cascading: opsi setiap filter mengikuti tanggal dan filter aktif lainnya.
+- Tab pintas `Semua / Jawa Timur / Prioritas Tinggi` dihapus dari Monitoring agar tidak terjadi dua sumber klasifikasi di UI.
+- Case Engine memakai locality dan batas keras untuk Polres yang eksplisit berbeda.
+- Validator memeriksa kesesuaian lokasi tersimpan dengan hasil engine dari judul.
+- Semua kontrol UI dipaksa dark dan tipografi dinaikkan agar nyaman pada desktop maupun mobile.

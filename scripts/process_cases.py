@@ -7,7 +7,7 @@ from difflib import SequenceMatcher
 NEWS_FILE = "data/news.json"
 CASE_FILE = "data/case_clusters.json"
 
-ENGINE_VERSION = "case-v6.1"
+ENGINE_VERSION = "case-v6.4"
 MAX_CASE_AGE_DAYS = 120
 
 # Normal clustering may use one concrete event term when the
@@ -220,6 +220,7 @@ def item_fingerprint(item):
         "rare": rare_tokens(title),
         "events": incident_tokens(title),
         "locations": location_tokens(title),
+        "locality": str(item.get("locality") or "").strip().lower(),
         "title": title,
         "polres": str(item.get("polres") or "").strip().upper(),
         "region": str(item.get("region") or "").strip().lower(),
@@ -231,6 +232,7 @@ def case_fingerprint(case):
         "rare": set(case.get("incident_terms", [])),
         "events": set(case.get("event_terms", [])),
         "locations": set(case.get("location_terms", [])),
+        "locality": str(case.get("locality") or "").strip().lower(),
         "polres": str(case.get("polres") or "").strip().upper(),
         "region": str(case.get("region") or "").strip().lower(),
         "families": set(case.get("discovery_families") or []),
@@ -276,6 +278,7 @@ def score_match(item, case):
 
     # Location is an identity signal, not merely a topic.
     location_bonus = 0.30 if shared_locations else 0.0
+    locality_bonus = 0.12 if n["locality"] and c["locality"] and n["locality"] == c["locality"] else 0.0
     polres_bonus = 0.20 if n["polres"] and c["polres"] and n["polres"] == c["polres"] else 0.0
     region_bonus = 0.03 if n["region"] and c["region"] and n["region"] == c["region"] else 0.0
 
@@ -291,6 +294,7 @@ def score_match(item, case):
         + rare_score
         + title_score_part
         + location_bonus
+        + locality_bonus
         + polres_bonus
         + region_bonus,
     )
@@ -500,6 +504,7 @@ def make_case(item, cases):
         "category": item.get("category"),
         "scope": item.get("scope"),
         "region": item.get("region"),
+        "locality": item.get("locality") or "",
         "is_jatim": item.get("is_jatim") is True,
         "polres": item.get("polres"),
         "priority": str(item.get("priority") or "low").lower(),
@@ -539,6 +544,7 @@ def attach(case, item, score):
         "scope": item.get("scope"),
         "category": item.get("category"),
         "region": item.get("region"),
+        "locality": item.get("locality") or "",
         "is_jatim": item.get("is_jatim") is True,
         "polres": item.get("polres"),
     }
@@ -572,6 +578,8 @@ def attach(case, item, score):
 
     if item.get("polres") and not case.get("polres"):
         case["polres"] = item.get("polres")
+    if item.get("locality") and not case.get("locality"):
+        case["locality"] = item.get("locality")
     if item.get("is_jatim"):
         case["is_jatim"] = True
     if not case.get("region") and item.get("region"):
@@ -634,11 +642,15 @@ def merge_duplicate_cases(cases):
                     b.get("title", ""),
                 )
 
+                explicit_polres_conflict = bool(a.get("polres") and b.get("polres") and a.get("polres") != b.get("polres"))
+                explicit_locality_conflict = bool(a.get("locality") and b.get("locality") and a.get("locality") != b.get("locality"))
                 same_polres = (
                     a.get("polres")
                     and b.get("polres")
                     and a.get("polres") == b.get("polres")
                 )
+                if explicit_polres_conflict or explicit_locality_conflict:
+                    continue
 
                 identity = (
                     same_polres
@@ -690,6 +702,8 @@ def merge_duplicate_cases(cases):
 
                 if not survivor.get("polres") and other.get("polres"):
                     survivor["polres"] = other.get("polres")
+                if not survivor.get("locality") and other.get("locality"):
+                    survivor["locality"] = other.get("locality")
 
                 if other.get("is_jatim"):
                     survivor["is_jatim"] = True
@@ -742,7 +756,7 @@ def main():
     old_version = old_db.get("engine_version")
 
     print("========================================")
-    print("PNM CASE ENGINE V6.0")
+    print("JAGAT CASE ENGINE V6.4")
     print("CANONICAL INCIDENT CLUSTERING")
     print("========================================")
     print(f"Total news loaded : {len(news)}")

@@ -22,7 +22,6 @@ let caseData = { cases: [] };
 let newsData = [];
 let archiveFiles = [];
 let currentView = "dashboard";
-let monitoringMode = "all";
 let archiveMode = "all";
 let activeArchive = null;
 let map = null;
@@ -134,7 +133,7 @@ function getLocality(x) {
 
 function getFilterArea(x) {
   if (!isJatim(x)) return "LUAR JATIM";
-  return getLocality(x) || "Jawa Timur";
+  return String(x?.locality || getLocality(x) || "Jawa Timur (Umum)");
 }
 
 function getCasePriorityIds(cases = activeCases()) {
@@ -314,40 +313,94 @@ function renderDashboard() {
 function renderRegionsToday(items) {
   const target = $("regionToday");
   if (!target) return;
-  const groups = new Map();
-  items.filter(isJatim).forEach(item => {
-    const r = getLocality(item) || "Jawa Timur";
-    if (!groups.has(r)) groups.set(r, { count: 0 });
-    groups.get(r).count++;
+  const jatim = items.filter(isJatim);
+  const concrete = new Map();
+  let general = 0;
+  jatim.forEach(item => {
+    const locality = String(item.locality || "").trim();
+    if (!locality) {
+      general += 1;
+      return;
+    }
+    concrete.set(locality, (concrete.get(locality) || 0) + 1);
   });
-  const todayCases = todayJatimCaseSet();
-  const byRegion = new Map();
-  todayCases.forEach(c => {
-    const r = getLocality(c);
-    if (!r) return;
-    if (!byRegion.has(r)) byRegion.set(r, { cases: 0, high: 0 });
-    byRegion.get(r).cases++;
-    if (getPriority(c) === "high") byRegion.get(r).high++;
+
+  const cases = todayJatimCaseSet();
+  const caseByLocality = new Map();
+  cases.forEach(c => {
+    const loc = String(c.locality || getLocality(c) || "").trim();
+    if (!loc) return;
+    if (!caseByLocality.has(loc)) caseByLocality.set(loc, { total: 0, high: 0 });
+    caseByLocality.get(loc).total += 1;
+    if (getPriority(c) === "high") caseByLocality.get(loc).high += 1;
   });
-  const rows = [...groups.entries()].sort((a, b) => b[1].count - a[1].count);
-  target.innerHTML = rows.length ? rows.map(([name, v]) => {
-    const meta = byRegion.get(name) || { cases: 0, high: 0 };
-    return `<button class="region-row" data-region="${escapeHtml(name)}">
-      <span><strong>${escapeHtml(name)}</strong><small>${number(v.count)} berita · ${number(meta.cases)} case</small></span>
-      <span class="region-right">${meta.high ? `<span class="pill high">HIGH ${number(meta.high)}</span>` : `<span class="pill low">TERPANTAU</span>`}<b>→</b></span>
+
+  const rows = [...concrete.entries()].sort((a,b) => b[1]-a[1] || a[0].localeCompare(b[0]));
+  const total = jatim.length;
+  const parent = `
+    <button class="region-parent" type="button" data-region-parent="Jawa Timur">
+      <span><strong>Jawa Timur</strong><small>${number(total)} berita · ${number(cases.length)} kasus</small></span>
+      <span class="region-parent-total">${number(rows.length)} wilayah <b>→</b></span>
     </button>`;
-  }).join("") : `<div class="empty">Tidak ada wilayah Jawa Timur terdeteksi hari ini.</div>`;
+
+  const children = rows.map(([name, count]) => {
+    const meta = caseByLocality.get(name) || { total: 0, high: 0 };
+    return `<button class="region-row region-child" type="button" data-region="${escapeHtml(name)}">
+      <span><strong>${escapeHtml(name)}</strong><small>${number(count)} berita · ${number(meta.total)} kasus</small></span>
+      <span class="region-right">${meta.high ? `<span class="pill high">TINGGI ${number(meta.high)}</span>` : `<span class="pill low">TERPANTAU</span>`}<b>→</b></span>
+    </button>`;
+  }).join("");
+
+  const generic = general
+    ? `<button class="region-row region-child region-general" type="button" data-region="Jawa Timur (Umum)">
+         <span><strong>Jawa Timur (Umum)</strong><small>${number(general)} berita tanpa kota/Polres spesifik</small></span>
+         <span class="region-right"><b>→</b></span>
+       </button>`
+    : "";
+
+  target.innerHTML = jatim.length ? `${parent}<div class="region-children">${children}${generic}</div>` : `<div class="empty">Tidak ada berita Jawa Timur hari ini.</div>`;
 
   target.querySelectorAll("[data-region]").forEach(btn => btn.addEventListener("click", () => {
-    activeArchive = null;
-    setDefaultTodayRange();
-    $("region").value = btn.dataset.region;
-    $("polres").value = "all";
-    monitoringMode = "jatim";
-    syncModeButtons();
-    showView("monitoring");
+    openRegionDrawer(btn.dataset.region, jatim);
+  }));
+  target.querySelectorAll("[data-region-parent]").forEach(btn => btn.addEventListener("click", () => {
+    openRegionDrawer("Jawa Timur", jatim);
   }));
 }
+
+function openRegionDrawer(name, items) {
+  const selected = String(name || "");
+  let regionItems = items.filter(isJatim);
+  if (selected !== "Jawa Timur") {
+    regionItems = regionItems.filter(item => getFilterArea(item) === selected);
+  }
+  const allCases = globalCases().filter(c => regionItems.some(item => item.case_id === c.case_id));
+  const title = selected === "Jawa Timur" ? "Seluruh Berita Jawa Timur" : `Berita ${selected}`;
+  const grouped = new Map();
+  regionItems.slice().sort((a,b)=>new Date(getItemDate(b)||0)-new Date(getItemDate(a)||0)).forEach(item => {
+    const cid = item.case_id || `article-${item.id}`;
+    if (!grouped.has(cid)) grouped.set(cid, []);
+    grouped.get(cid).push(item);
+  });
+
+  $("drawerEyebrow").textContent = "WILAYAH";
+  $("drawerContent").innerHTML = `
+    <div class="drawer-title">${escapeHtml(title)}</div>
+    <div class="drawer-meta">${number(regionItems.length)} berita · ${number(allCases.length)} kasus · hari ini</div>
+    <div class="drawer-pills"><span class="pill low">JAWA TIMUR</span></div>
+    <div class="source-list">
+      <h4>Seluruh berita (${number(regionItems.length)})</h4>
+      ${regionItems.length ? regionItems.map(item => {
+        const url = normalizeUrl(item.url);
+        return `<div class="source-row">
+          <div><b>${escapeHtml(getTitle(item))}</b><div>${escapeHtml(getSource(item))}</div><small>${escapeHtml(formatDateTime(getItemDate(item)))} · ${escapeHtml(getCategory(item))}</small></div>
+          ${url ? `<a href="${escapeHtml(url)}" target="_blank" rel="noopener noreferrer">Buka ↗</a>` : `<span class="muted">Tanpa tautan</span>`}
+        </div>`;
+      }).join("") : `<div class="empty">Tidak ada berita pada wilayah ini.</div>`}
+    </div>`;
+  openDrawer();
+}
+
 
 function renderCategories(items) {
   const target = $("categories");
@@ -374,7 +427,7 @@ function articleCard(item) {
       <div>
         <div class="news-card-meta">${escapeHtml(getSource(item))} · ${escapeHtml(getFilterArea(item))} · ${escapeHtml(formatDateTime(getItemDate(item)))}</div>
         <h3>${escapeHtml(getTitle(item))}</h3>
-        <div class="news-card-meta">${escapeHtml(getCategory(item))}${c ? ` · ${escapeHtml(cHigh ? "Case HIGH" : "Terkait Case")}` : " · Belum terkait Case"}</div>
+        <div class="news-card-meta">${escapeHtml(getCategory(item))}${c ? ` · ${escapeHtml(cHigh ? "Kasus HIGH" : "Terkait Kasus")}` : " · Belum terkait Kasus"}</div>
       </div>
       <div class="badges">
         <span class="pill ${escapeHtml(getPriority(item))}">ARTIKEL ${escapeHtml(getPriority(item).toUpperCase())}</span>
@@ -390,8 +443,8 @@ function caseCard(c, index) {
   const locality = getLocality(c);
   const score = c.priority_score != null ? ` · ${number(c.priority_score)}/100` : "";
   return `<article class="case-card clickable" data-case-id="${escapeHtml(c.case_id)}">
-    <div class="case-card-top"><span class="case-id">CASE ${String(index).padStart(2, "0")}</span><span class="pill ${escapeHtml(p)}">${escapeHtml(p.toUpperCase())}${score}</span></div>
-    <strong>${escapeHtml(c.title || "Case")}</strong>
+    <div class="case-card-top"><span class="case-id">KASUS ${String(index).padStart(2, "0")}</span><span class="pill ${escapeHtml(p)}">${escapeHtml(p.toUpperCase())}${score}</span></div>
+    <strong>${escapeHtml(c.title || "Kasus")}</strong>
     <div class="news-card-meta">${escapeHtml(locality || c.region || "Indonesia")} · ${number(c.article_count || (c.articles || []).length)} sumber · update ${escapeHtml(formatDateTime(c.last_detected_at || c.last_seen || c.updated_at))}</div>
     <div class="card-action">Klik untuk melihat seluruh sumber →</div>
   </article>`;
@@ -414,7 +467,7 @@ function renderLatestCases(items = todayJatimItems()) {
     .slice()
     .sort((a, b) => priorityRank(b.priority) - priorityRank(a.priority) || new Date(b.last_detected_at || b.last_seen || 0) - new Date(a.last_detected_at || a.last_seen || 0))
     .slice(0, 6);
-  target.innerHTML = cases.length ? cases.map((c, i) => caseCard(c, i + 1)).join("") : `<div class="empty">Belum ada Case Jatim hari ini.</div>`;
+  target.innerHTML = cases.length ? cases.map((c, i) => caseCard(c, i + 1)).join("") : `<div class="empty">Belum ada Kasus Jatim hari ini.</div>`;
   bindCaseClicks(target, globalCases(), newsData);
 }
 
@@ -429,59 +482,71 @@ function populateSelect(el, first, values, selected) {
   if (values.includes(selected)) el.value = selected;
 }
 
-function populateMonitoringFilters() {
+function getFacetItems(excludeId) {
   const { from, to } = currentDateBounds();
-  const allBase = currentMonitoringBase();
-  const base = filterByDate(allBase, from, to);
-
-  const currentRegion = $("region")?.value || "all";
-  const currentPolres = $("polres")?.value || "all";
-  const currentCategory = $("category")?.value || "all";
-
-  const areas = unique(base.map(getFilterArea)).sort((a, b) => {
-    if (a === "Jawa Timur") return -1;
-    if (b === "Jawa Timur") return 1;
-    if (a === "LUAR JATIM") return 1;
-    if (b === "LUAR JATIM") return -1;
-    return a.localeCompare(b);
-  });
-
-  populateSelect($("region"), "Semua Wilayah / Area", areas, currentRegion);
-
+  let items = filterByDate(currentMonitoringBase(), from, to);
+  const search = ($("search")?.value || "").trim().toLowerCase();
   const region = $("region")?.value || "all";
-  const regionItems =
-    region === "all"
-      ? base
-      : base.filter(x => getFilterArea(x) === region);
+  const polres = $("polres")?.value || "all";
+  const priority = $("priority")?.value || "all";
+  const scope = $("scope")?.value || "all";
+  const category = $("category")?.value || "all";
+  const cases = activeCases();
 
-  const polres = unique(
-    regionItems
-      .filter(isJatim)
-      .map(x => x.polres)
-      .filter(Boolean)
-      .sort((a, b) => a.localeCompare(b))
-  );
-  populateSelect($("polres"), "Semua Polres", polres, currentPolres);
-
-  const categories = unique(
-    base.map(getCategory).sort((a, b) => a.localeCompare(b))
-  );
-  populateSelect($("category"), "Semua Kategori", categories, currentCategory);
+  if (search && excludeId !== "search") {
+    items = items.filter(x => [getTitle(x), getSource(x), getFilterArea(x), x.polres, getCategory(x), getScope(x)].filter(Boolean).join(" ").toLowerCase().includes(search));
+  }
+  if (excludeId !== "region" && region !== "all") items = items.filter(x => getFilterArea(x) === region);
+  if (excludeId !== "polres" && polres !== "all") items = items.filter(x => String(x.polres || "") === polres);
+  if (excludeId !== "priority" && priority !== "all") items = items.filter(x => getEffectivePriority(x, cases) === priority);
+  if (excludeId !== "scope" && scope !== "all") items = items.filter(x => getScope(x) === scope);
+  if (excludeId !== "category" && category !== "all") items = items.filter(x => getCategory(x) === category);
+  return items;
 }
 
-function applyMonitoringFilters(items, mode) {
+function sortedFacetAreas(items) {
+  const values = unique(items.map(getFilterArea));
+  return values.sort((a,b) => {
+    if (a === "LUAR JATIM") return 1;
+    if (b === "LUAR JATIM") return -1;
+    if (a === "Jawa Timur (Umum)") return 1;
+    if (b === "Jawa Timur (Umum)") return -1;
+    return a.localeCompare(b, "id");
+  });
+}
+
+function populateMonitoringFilters() {
+  const region = $("region")?.value || "all";
+  const polres = $("polres")?.value || "all";
+  const priority = $("priority")?.value || "all";
+  const scope = $("scope")?.value || "all";
+  const category = $("category")?.value || "all";
+
+  const areas = sortedFacetAreas(getFacetItems("region"));
+  populateSelect($("region"), "Semua Wilayah / Area", areas, region);
+
+  const polresValues = unique(getFacetItems("polres").filter(isJatim).map(x => x.polres).filter(Boolean)).sort((a,b)=>a.localeCompare(b,"id"));
+  populateSelect($("polres"), "Polres terdeteksi", polresValues, polres);
+
+  const priorities = unique(getFacetItems("priority").map(x => getEffectivePriority(x, activeCases()))).sort((a,b)=>priorityRank(b)-priorityRank(a));
+  populateSelect($("priority"), "Semua Prioritas", priorities, priority);
+
+  const scopes = unique(getFacetItems("scope").map(getScope)).sort();
+  const scopeLabels = { negative: "Negatif", case: "Ungkap Kasus", positive: "Positif", neutral: "Netral" };
+  const scopeEl = $("scope");
+  if (scopeEl) {
+    scopeEl.innerHTML = `<option value="all">Semua Jenis Berita</option>` + scopes.map(v => `<option value="${escapeHtml(v)}">${escapeHtml(scopeLabels[v] || v)}</option>`).join("");
+    if (scopes.includes(scope)) scopeEl.value = scope;
+  }
+
+  const categories = unique(getFacetItems("category").map(getCategory)).sort((a,b)=>a.localeCompare(b,"id"));
+  populateSelect($("category"), "Semua Kategori", categories, category);
+}
+
+function applyMonitoringFilters(items) {
   const { from, to } = currentDateBounds();
   let out = filterByDate(items, from, to);
   const cases = activeCases();
-
-  if (mode === "jatim") {
-    out = out.filter(isJatim);
-  }
-
-  if (mode === "high") {
-    out = out.filter(x => getEffectivePriority(x, cases) === "high");
-  }
-
   const search = ($("search")?.value || "").trim().toLowerCase();
   const region = $("region")?.value || "all";
   const polres = $("polres")?.value || "all";
@@ -489,51 +554,21 @@ function applyMonitoringFilters(items, mode) {
   const scope = $("scope")?.value || "all";
   const category = $("category")?.value || "all";
 
-  if (search) {
-    out = out.filter(x =>
-      [
-        getTitle(x),
-        getSource(x),
-        getFilterArea(x),
-        x.polres,
-        getCategory(x),
-        getScope(x),
-      ].filter(Boolean).join(" ").toLowerCase().includes(search)
-    );
-  }
+  if (search) out = out.filter(x => [getTitle(x), getSource(x), getFilterArea(x), x.polres, getCategory(x), getScope(x)].filter(Boolean).join(" ").toLowerCase().includes(search));
+  if (region !== "all") out = out.filter(x => getFilterArea(x) === region);
+  if (polres !== "all") out = out.filter(x => String(x.polres || "") === polres);
+  if (priority !== "all") out = out.filter(x => getEffectivePriority(x, cases) === priority);
+  if (scope !== "all") out = out.filter(x => getScope(x) === scope);
+  if (category !== "all") out = out.filter(x => getCategory(x) === category);
 
-  if (region !== "all") {
-    out = out.filter(x => getFilterArea(x) === region);
-  }
-
-  if (polres !== "all") {
-    out = out.filter(x => String(x.polres || "") === polres);
-  }
-
-  if (priority !== "all") {
-    out = out.filter(x => getEffectivePriority(x, cases) === priority);
-  }
-
-  if (scope !== "all") {
-    out = out.filter(x => getScope(x) === scope);
-  }
-
-  if (category !== "all") {
-    out = out.filter(x => getCategory(x) === category);
-  }
-
-  return out.sort(
-    (a, b) => new Date(getItemDate(b) || 0) - new Date(getItemDate(a) || 0)
-  );
+  return out.sort((a,b)=>new Date(getItemDate(b)||0)-new Date(getItemDate(a)||0));
 }
 
-function getRelevantCases(items, mode, region, polres) {
+function getRelevantCases(items, region, polres) {
   const cases = activeCases();
   const ids = new Set(items.map(x => x.case_id).filter(Boolean));
   let result = cases.filter(c => ids.has(c.case_id));
 
-  if (mode === "high") result = result.filter(c => getPriority(c) === "high");
-  if (mode === "jatim") result = result.filter(c => !!getLocality(c));
   if (region !== "all") result = result.filter(c => getFilterArea(c) === region);
   if (polres !== "all") result = result.filter(c => String(c.polres || "") === polres);
 
@@ -566,8 +601,6 @@ function renderActiveFilterChips() {
   const { from, to } = currentDateBounds();
 
   if (search) chips.push(`Pencarian: ${search}`);
-  if (monitoringMode === "jatim") chips.push("Jawa Timur");
-  if (monitoringMode === "high") chips.push("Prioritas Tinggi");
   if (region !== "all") chips.push(region === "LUAR JATIM" ? "LUAR JATIM" : `Wilayah: ${region}`);
   if (polres !== "all") chips.push(`Polres: ${polres}`);
   if (priority !== "all") chips.push(`Prioritas: ${priority === "high" ? "Tinggi" : priority === "medium" ? "Sedang" : "Rendah"}`);
@@ -581,21 +614,20 @@ function renderActiveFilterChips() {
 }
 
 function renderMonitoring() {
-  syncModeButtons();
   populateMonitoringFilters();
 
   const base = currentMonitoringBase();
-  const items = applyMonitoringFilters(base, monitoringMode);
+  const items = applyMonitoringFilters(base);
   renderActiveFilterChips();
   const region = $("region")?.value || "all";
   const polres = $("polres")?.value || "all";
-  const cases = getRelevantCases(items, monitoringMode, region, polres);
+  const cases = getRelevantCases(items, region, polres);
   const { from, to } = currentDateBounds();
 
   if ($("resultCount")) $("resultCount").textContent = `${number(items.length)} berita · ${number(cases.length)} case`;
   if ($("resultContext")) $("resultContext").textContent = from && to ? `${from} s/d ${to}` : "Semua periode";
   if ($("monitoringContextText")) {
-    const modeLabel = monitoringMode === "jatim" ? "Jawa Timur" : monitoringMode === "high" ? "Prioritas Tinggi" : "Semua data";
+    const modeLabel = "Semua data";
     $("monitoringContextText").textContent = activeArchive
       ? `Snapshot ${formatDate(activeArchive.date)}.`
       : `${modeLabel} · ${from || to ? filterPeriodLabel() : "Semua periode"}.`;
@@ -603,8 +635,8 @@ function renderMonitoring() {
 
   const caseTarget = $("monitoringCases");
   caseTarget.innerHTML = cases.length
-    ? `<div class="subsection-head"><div><h3>Case / Incident</h3><div class="muted">Prioritas Case berlaku pada incident, bukan setiap artikel.</div></div></div><div class="case-grid">${cases.map((c, i) => caseCard(c, i + 1)).join("")}</div>`
-    : `<div class="case-empty">Tidak ada Case yang memenuhi filter.</div>`;
+    ? `<div class="subsection-head"><div><h3>Kasus / Insiden</h3><div class="muted">Prioritas kasus berlaku pada satu insiden, bukan setiap artikel.</div></div></div><div class="case-grid">${cases.map((c, i) => caseCard(c, i + 1)).join("")}</div>`
+    : `<div class="case-empty">Tidak ada Kasus yang memenuhi filter.</div>`;
   bindCaseClicks(caseTarget, activeCases(), activeNews());
 
   const list = $("list");
@@ -642,9 +674,7 @@ function syncQuickDateButtons(active) {
   document.querySelectorAll("[data-quick-date]").forEach(button => button.classList.toggle("active", button.dataset.quickDate === active));
 }
 
-function syncModeButtons() {
-  document.querySelectorAll(".mode-tab[data-mode]").forEach(b => b.classList.toggle("active", b.dataset.mode === monitoringMode));
-}
+
 
 function bindArticleClicks(root, dataset = activeNews()) {
   root?.querySelectorAll("[data-article-id]").forEach(el => el.addEventListener("click", () => {
@@ -685,7 +715,7 @@ function openArticleDrawer(article, dataset = activeNews(), caseDataset = active
       ${c ? `<span class="pill ${caseHigh ? "high" : ""}">CASE ${caseHigh ? "HIGH" : "TERKAIT"}</span>` : `<span class="pill">BELUM TERKAIT CASE</span>`}
     </div>
     <div class="detail-grid">
-      <div><span>Wilayah</span><strong>${escapeHtml(getLocality(article) || article.region || "Indonesia")}</strong></div>
+      <div><span>Wilayah</span><strong>${escapeHtml(article.locality || getLocality(article) || article.region || "Indonesia")}</strong></div>
       <div><span>Polres</span><strong>${escapeHtml(article.polres || "-")}</strong></div>
       <div><span>Scope</span><strong>${escapeHtml(getScope(article))}</strong></div>
       <div><span>Kategori</span><strong>${escapeHtml(getCategory(article))}</strong></div>
@@ -694,7 +724,7 @@ function openArticleDrawer(article, dataset = activeNews(), caseDataset = active
     </div>
     <div class="drawer-actions">
       ${url ? `<a class="primary-link" href="${escapeHtml(url)}" target="_blank" rel="noopener noreferrer">Buka Berita Asli ↗</a>` : ""}
-      ${c ? `<button class="secondary" id="drawerCaseButton">Lihat Case & Semua Sumber</button>` : ""}
+      ${c ? `<button class="secondary" id="drawerCaseButton">Lihat Kasus & Semua Sumber</button>` : ""}
     </div>`;
   openDrawer();
   $("drawerCaseButton")?.addEventListener("click", () => openCaseDrawer(c, dataset, caseDataset));
@@ -712,8 +742,8 @@ function openCaseDrawer(c, newsDataset = activeNews(), caseDataset = activeCases
   const reasons = Array.isArray(c.priority_reasons) ? c.priority_reasons : [];
   $("drawerEyebrow").textContent = "CASE / INCIDENT";
   $("drawerContent").innerHTML = `
-    <div class="drawer-title">${escapeHtml(c.title || "Case")}</div>
-    <div class="drawer-meta">${escapeHtml(getLocality(c) || c.region || "Indonesia")} · ${number(c.article_count || items.length)} sumber</div>
+    <div class="drawer-title">${escapeHtml(c.title || "Kasus")}</div>
+    <div class="drawer-meta">${escapeHtml(c.locality || getLocality(c) || c.region || "Indonesia")} · ${number(c.article_count || items.length)} sumber</div>
     <div class="case-detail-head"><span class="pill ${escapeHtml(p)}">${escapeHtml(p.toUpperCase())}</span><strong>${escapeHtml(score)}</strong></div>
     ${reasons.length ? `<div class="priority-reasons"><h4>Alasan prioritas</h4><ul>${reasons.map(r => `<li>${escapeHtml(r)}</li>`).join("")}</ul></div>` : ""}
     <div class="source-list"><h4>Seluruh sumber terkait</h4>
@@ -761,15 +791,9 @@ function renderMap(items) {
     const marker = L.marker(coords, { icon }).addTo(map);
     const relatedCases = [...g.cases].map(id => cMap.get(id)).filter(Boolean).sort((a, b) => priorityRank(b.priority) - priorityRank(a.priority));
     const top = g.items.slice().sort((a, b) => new Date(getItemDate(b) || 0) - new Date(getItemDate(a) || 0)).slice(0, 4);
-    marker.bindPopup(`<div class="map-popup"><strong>${escapeHtml(g.name)}</strong><div>${number(g.items.length)} berita · ${number(g.cases.size)} case</div>${high ? `<div class="map-popup-high">High case: ${number(high)}</div>` : ""}<div class="map-popup-list">${relatedCases.slice(0, 3).map(c => `<div>• ${escapeHtml(c.title)}</div>`).join("") || top.map(a => `<div>• ${escapeHtml(getTitle(a))}</div>`).join("")}</div><button class="map-open-region" data-region="${escapeHtml(g.name)}">Buka monitoring wilayah →</button></div>`);
+    marker.bindPopup(`<div class="map-popup"><strong>${escapeHtml(g.name)}</strong><div>${number(g.items.length)} berita · ${number(g.cases.size)} case</div>${high ? `<div class="map-popup-high">High case: ${number(high)}</div>` : ""}<div class="map-popup-list">${relatedCases.slice(0, 3).map(c => `<div>• ${escapeHtml(c.title)}</div>`).join("") || top.map(a => `<div>• ${escapeHtml(getTitle(a))}</div>`).join("")}</div><button class="map-open-region" data-region="${escapeHtml(g.name)}">Lihat seluruh berita wilayah →</button></div>`);
     marker.on("popupopen", () => marker.getPopup().getElement()?.querySelector(".map-open-region")?.addEventListener("click", () => {
-      activeArchive = null;
-      setDefaultTodayRange();
-      $("region").value = g.name;
-      $("polres").value = "all";
-      monitoringMode = "jatim";
-      syncModeButtons();
-      showView("monitoring");
+      openRegionDrawer(g.name, g.items);
     }));
     mapMarkers.push(marker);
   });
@@ -896,7 +920,7 @@ function renderArchiveNews() {
   const relevantCases = cases.filter(c => results.some(i => i.case_id === c.case_id)).sort((a, b) => priorityRank(b.priority) - priorityRank(a.priority) || new Date(b.last_detected_at || b.last_seen || 0) - new Date(a.last_detected_at || a.last_seen || 0));
   const caseTarget = $("archiveCasesList");
   if (caseTarget) {
-    caseTarget.innerHTML = relevantCases.length ? `<div class="subsection-head"><div><h3>Case / Incident</h3><div class="muted">Case yang terkait dengan filter snapshot.</div></div></div><div class="case-grid">${relevantCases.map((c, i) => caseCard(c, i + 1)).join("")}</div>` : `<div class="case-empty">Tidak ada Case pada filter ini.</div>`;
+    caseTarget.innerHTML = relevantCases.length ? `<div class="subsection-head"><div><h3>Kasus / Insiden</h3><div class="muted">Kasus yang terkait dengan filter snapshot.</div></div></div><div class="case-grid">${relevantCases.map((c, i) => caseCard(c, i + 1)).join("")}</div>` : `<div class="case-empty">Tidak ada Kasus pada filter ini.</div>`;
     bindCaseClicks(caseTarget, cases, items);
   }
 
@@ -912,8 +936,6 @@ function resetMonitoringFilters() {
   $("priority").value = "all";
   $("scope").value = "all";
   $("category").value = "all";
-  monitoringMode = "all";
-  syncModeButtons();
   setDefaultTodayRange();
   populateMonitoringFilters();
   renderMonitoring();
@@ -936,38 +958,13 @@ function initEvents() {
   document.querySelectorAll("[data-open-monitoring]").forEach(button => button.addEventListener("click", () => {
     activeArchive = null;
     closeArchiveDetail();
-    monitoringMode = button.dataset.openMonitoring === "jatim" ? "jatim" : button.dataset.openMonitoring === "high" ? "high" : "all";
     showView("monitoring");
-    if (button.dataset.openMonitoring === "jatim") setDefaultTodayRange();
   }));
-
-  document.querySelectorAll(".mode-tab[data-mode]").forEach(button => button.addEventListener("click", () => {
-    monitoringMode = button.dataset.mode;
-    syncModeButtons();
-    renderMonitoring();
-  }));
-
-  document.querySelectorAll("[data-quick-date]").forEach(button => button.addEventListener("click", () => setQuickDate(button.dataset.quickDate)));
-
-  ["search", "priority", "scope", "category"].forEach(id => {
-    $(id)?.addEventListener("input", renderMonitoring);
-    $(id)?.addEventListener("change", renderMonitoring);
-  });
-
-  ["region", "polres", "dateFrom", "dateTo"].forEach(id => {
-    $(id)?.addEventListener("change", () => {
-      populateMonitoringFilters();
-      renderMonitoring();
-    });
-  });
 
   ["dateFrom", "dateTo"].forEach(id => {
-    $(id)?.addEventListener("input", () => {
-      populateMonitoringFilters();
-      renderMonitoring();
-    });
+    $(id)?.addEventListener("input", () => { populateMonitoringFilters(); renderMonitoring(); });
+    $(id)?.addEventListener("change", () => { populateMonitoringFilters(); renderMonitoring(); });
   });
-
   $("clearFilters")?.addEventListener("click", resetMonitoringFilters);
 
   $("archiveBack")?.addEventListener("click", () => {
