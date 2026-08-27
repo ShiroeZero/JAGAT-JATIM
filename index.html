@@ -1,0 +1,276 @@
+<!doctype html>
+<html lang="id">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#071426">
+  <meta name="description" content="JAGAT — Jejaring Analisis & Garda Atensi Terpadu">
+  <title>JAGAT — Jejaring Analisis &amp; Garda Atensi Terpadu</title>
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" crossorigin="">
+  <link rel="stylesheet" href="styles.css?v=5.5">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css">
+  <link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
+</head>
+<body>
+  <div id="app" class="app">
+    <aside class="sidebar">
+      <div class="side-brand">
+        <img class="brand-mark brand-logo-img" src="assets/jagat-mark.svg" alt="JAGAT">
+        <div>
+          <strong>JAGAT</strong>
+          <small>Jejaring Analisis &amp; Garda Atensi Terpadu</small>
+        </div>
+      </div>
+
+      <nav class="sidebar-nav" aria-label="Navigasi utama">
+        <button class="nav active" data-view="dashboard"><span class="nav-icon"><i class="fa-solid fa-gauge-high" aria-hidden="true"></i></span><span>Dashboard</span></button>
+        <button class="nav" data-view="monitoring"><span class="nav-icon"><i class="fa-solid fa-satellite-dish" aria-hidden="true"></i></span><span>Monitoring</span></button>
+        <button class="nav" data-view="reports"><span class="nav-icon"><i class="fa-solid fa-file-lines" aria-hidden="true"></i></span><span>Laporan</span></button>
+        <button class="nav" data-view="archive"><span class="nav-icon"><i class="fa-solid fa-box-archive" aria-hidden="true"></i></span><span>Arsip</span></button>
+      </nav>
+
+      <div class="side-bottom">
+        <div class="collector-status">
+          <span id="statusDot"></span>
+          <span id="statusText">Memuat data...</span>
+        </div>
+        <div class="muted-side">Pemantauan informasi</div>
+      </div>
+    </aside>
+
+    <main class="main">
+      <header class="topbar">
+        <div>
+          <div class="eyebrow">MONITORING INFORMASI</div>
+          <h1 id="pageTitle">Dashboard</h1>
+          <div id="todayDate" class="today-date">Memuat tanggal...</div>
+        </div>
+        <div class="top-actions">
+          <div class="update-box"><span class="update-dot"></span><span id="lastUpdated">Memuat update...</span></div>
+          <button id="refresh" class="secondary">↻ Refresh</button>
+        </div>
+      </header>
+
+      <section id="dashboardView" class="view">
+        <div class="hero">
+          <div>
+            <span class="eyebrow">JAGAT</span>
+            <h2>Situasi Jawa Timur</h2>
+            <p>Pemantauan pemberitaan <strong>Jawa Timur</strong> untuk <strong>hari ini</strong>. Histori tersedia di Arsip.</p>
+          </div>
+          <span class="hero-badge">HARI INI</span>
+        </div>
+
+        <div class="stats stats-4">
+          <div class="stat"><span>Berita Jatim Hari Ini</span><strong id="sTotal">0</strong></div>
+          <div class="stat"><span>Kasus Jatim Hari Ini</span><strong id="sCaseToday">0</strong></div>
+          <div class="stat"><span>Ungkap Kasus Jatim</span><strong id="sCaseUngkap">0</strong></div>
+          <div class="stat danger"><span>Prioritas Tinggi Jatim</span><strong id="sHigh">0</strong></div>
+        </div>
+
+        <div class="stats stats-4">
+          <div class="stat"><span>Berita Negatif Jatim</span><strong id="sNegative">0</strong></div>
+          <div class="stat"><span>Positif Jatim</span><strong id="sPositive">0</strong></div>
+          <div class="stat"><span>Netral Jatim</span><strong id="sNeutral">0</strong></div>
+          <div class="stat"><span>Wilayah Jatim Terdeteksi</span><strong id="sRegions">0</strong></div>
+        </div>
+
+        <div class="grid2">
+          <section class="panel">
+            <div class="panel-head">
+              <div><h3>Wilayah Terdeteksi Hari Ini</h3><div class="muted">Klik wilayah untuk melihat berita Jatim hari ini.</div></div>
+              <button class="linkbtn" data-open-monitoring="jatim">Lihat seluruh berita →</button>
+            </div>
+            <div id="regionToday" class="region-list"></div>
+          </section>
+          <section class="panel">
+            <div class="panel-head">
+              <div><h3>Komposisi Hari Ini</h3><div class="muted">Komposisi berita Jatim yang masuk hari ini.</div></div>
+            </div>
+            <div id="categories" class="bars"></div>
+          </section>
+        </div>
+
+        <section class="panel map-panel">
+          <div class="panel-head">
+            <div><h3>Peta Jawa Timur</h3><div class="muted">Marker mengikuti data hari ini dan prioritas Case.</div></div>
+            <span id="mapCount" class="map-count">0 lokasi</span>
+          </div>
+          <div id="jatimMap" class="jatim-map"></div>
+          <div class="map-footer">
+            <div class="map-legend">
+              <span><i class="legend-dot high"></i>Kasus tinggi</span>
+              <span><i class="legend-dot medium"></i>Kasus sedang</span>
+              <span><i class="legend-dot low"></i>Terpantau</span>
+            </div>
+          </div>
+        </section>
+
+        <div class="grid2">
+          <section class="panel">
+            <div class="panel-head">
+              <div><h3>Berita Terbaru</h3><div class="muted">Berita Jatim hari ini · klik sekali untuk detail.</div></div>
+              <button class="linkbtn" data-open-monitoring="all">Semua berita →</button>
+            </div>
+            <div id="latest"></div>
+          </section>
+          <section class="panel">
+            <div class="panel-head">
+              <div><h3>Kasus Terbaru</h3><div class="muted">Incident Jatim yang terdeteksi hari ini; satu Case dapat memiliki banyak sumber.</div></div>
+            </div>
+            <div id="latestCases"></div>
+          </section>
+        </div>
+      </section>
+
+      <section id="monitoringView" class="view hidden">
+        <div class="section-banner monitoring-banner">
+          <div>
+            <h2 class="section-context-title">Temukan Berita &amp; Case</h2>
+            <div class="muted" id="monitoringContextText">Pilih periode, lokasi, atau klasifikasi untuk mempersempit hasil.</div>
+          </div>
+          <span class="today-badge">DATA TERKINI</span>
+        </div>
+
+        <section class="panel filters-panel">
+          <div class="filter-toolbar-head">
+            <div>
+              <h3>Filter Pencarian</h3>
+              <div class="muted">Gunakan lokasi, klasifikasi, dan periode untuk mempersempit hasil.</div>
+            </div>
+            <button id="clearFilters" class="secondary filter-reset-top" type="button">
+              <i class="fa-solid fa-rotate-left" aria-hidden="true"></i> Reset
+            </button>
+          </div>
+
+          <div class="filter-search-row">
+            <div class="filter-search-wrap">
+              <i class="fa-solid fa-magnifying-glass" aria-hidden="true"></i>
+              <input id="search" placeholder="Cari judul berita, sumber, area, Polres, atau kategori..." autocomplete="off">
+            </div>
+          </div>
+
+          <div class="filter-groups">
+            <div class="filter-group">
+              <div class="filter-group-label"><i class="fa-solid fa-location-dot" aria-hidden="true"></i> Lokasi</div>
+              <div class="filter-group-controls">
+                <select id="region"><option value="all">Semua Wilayah / Area</option></select>
+                <select id="polres"><option value="all">Polres terdeteksi</option></select>
+              </div>
+            </div>
+
+            <div class="filter-group">
+              <div class="filter-group-label"><i class="fa-solid fa-sliders" aria-hidden="true"></i> Klasifikasi</div>
+              <div class="filter-group-controls filter-group-3">
+                <select id="priority"><option value="all">Semua Prioritas</option><option value="high">Tinggi</option><option value="medium">Sedang</option><option value="low">Rendah</option></select>
+                <select id="scope"><option value="all">Semua Jenis Berita</option><option value="negative">Negatif</option><option value="case">Ungkap Kasus</option><option value="positive">Positif</option><option value="neutral">Netral</option></select>
+                <select id="category"><option value="all">Semua Kategori</option></select>
+              </div>
+            </div>
+          </div>
+
+          <div class="filter-period">
+            <div class="filter-group-label"><i class="fa-regular fa-calendar" aria-hidden="true"></i> Periode</div>
+            <div class="filter-period-row">
+              <div class="date-filter">
+                <label for="dateFrom">Dari tanggal</label>
+                <input id="dateFrom" type="date">
+              </div>
+              <span class="date-arrow" aria-hidden="true">→</span>
+              <div class="date-filter">
+                <label for="dateTo">Sampai tanggal</label>
+                <input id="dateTo" type="date">
+              </div>
+              <div class="quick-dates" aria-label="Periode cepat">
+                <button class="quick-date" data-quick-date="today" type="button">Hari ini</button>
+                <button class="quick-date" data-quick-date="7" type="button">7 hari</button>
+                <button class="quick-date" data-quick-date="30" type="button">30 hari</button>
+                <button class="quick-date" data-quick-date="all" type="button">Semua</button>
+              </div>
+            </div>
+          </div>
+
+          <div id="activeFilterChips" class="active-filter-chips" aria-live="polite"></div>
+          <div class="result-summary"><span id="resultCount">0 hasil</span><span id="resultContext">Hari ini</span></div>
+        </section>
+
+        <div id="monitoringCases" class="case-results"></div>
+        <section class="panel"><div class="subsection-head"><div><h3>Berita Individual</h3><div class="muted">Berita yang tidak tampil sebagai Case card tetap dapat dibuka satu per satu.</div></div></div><div id="list" class="news-list"></div></section>
+      </section>
+
+      <section id="reportsView" class="view hidden">
+        <section class="panel empty-module">
+          <div class="empty-module-icon">▣</div>
+          <h2>Modul Laporan</h2>
+          <p>Generator laporan harian akan diaktifkan setelah core monitoring stabil. Format resmi tetap menjadi acuan.</p>
+        </section>
+      </section>
+
+      <section id="archiveView" class="view hidden">
+        <div class="section-banner archive-banner">
+          <div>
+            <h2 class="section-context-title">Riwayat Snapshot</h2>
+            <div class="muted">Buka snapshot untuk melihat kondisi data pada tanggal tersebut.</div>
+          </div>
+        </div>
+        <section class="panel" id="archiveListPanel">
+          <div class="panel-head"><div><h3>Snapshot Tersedia</h3><div class="muted">Pilih tanggal untuk membuka data snapshot tersebut.</div></div></div>
+          <div id="archiveList" class="archive-list"></div>
+        </section>
+
+        <section id="archiveDetail" class="hidden">
+          <div class="archive-detail-head">
+            <div><div class="eyebrow">ARCHIVE SNAPSHOT</div><h2 id="archiveTitle">-</h2><div id="archiveUpdated" class="muted">-</div></div>
+            <button id="archiveBack" class="secondary">← Daftar Arsip</button>
+          </div>
+
+          <div class="stats stats-4">
+            <div class="stat"><span>Berita</span><strong id="archiveNews">0</strong></div>
+            <div class="stat"><span>Case</span><strong id="archiveCases">0</strong></div>
+            <div class="stat"><span>Jawa Timur</span><strong id="archiveJatim">0</strong></div>
+            <div class="stat danger"><span>High Case</span><strong id="archiveHigh">0</strong></div>
+          </div>
+
+          <div class="mode-tabs archive-modes">
+            <button class="mode-tab active" data-archive-mode="all">Semua</button>
+            <button class="mode-tab" data-archive-mode="jatim">Jawa Timur</button>
+            <button class="mode-tab" data-archive-mode="high">Prioritas Tinggi</button>
+          </div>
+
+          <section class="panel filters-panel">
+            <div class="filters">
+              <input id="archiveSearch" placeholder="Cari berita arsip...">
+              <select id="archiveRegion"><option value="all">Semua Wilayah / Area</option></select>
+              <select id="archivePolres"><option value="all">Polres terdeteksi</option></select>
+              <select id="archivePriority"><option value="all">Semua Prioritas</option><option value="high">Tinggi</option><option value="medium">Sedang</option><option value="low">Rendah</option></select>
+              <select id="archiveScope"><option value="all">Semua Jenis Berita</option><option value="negative">Negatif</option><option value="case">Ungkap Kasus</option><option value="positive">Positif</option><option value="neutral">Netral</option></select>
+              <select id="archiveCategory"><option value="all">Semua Kategori</option></select>
+              <button id="archiveClear" class="secondary">Reset</button>
+            </div>
+            <div class="result-summary"><span id="archiveResultCount">0 hasil</span><span id="archiveResultContext">Snapshot</span></div>
+          </section>
+
+          <div id="archiveCasesList" class="case-results"></div>
+          <section class="panel"><div class="subsection-head"><div><h3>Berita Individual</h3><div class="muted">Semua artikel pada snapshot tetap dapat dibuka.</div></div></div><div id="archiveNewsList" class="news-list"></div></section>
+        </section>
+      </section>
+    </main>
+
+    <nav class="mobile-nav" aria-label="Navigasi mobile">
+      <button class="nav active" data-view="dashboard"><span class="nav-icon"><i class="fa-solid fa-gauge-high" aria-hidden="true"></i></span><small>Dash</small></button>
+      <button class="nav" data-view="monitoring"><span class="nav-icon"><i class="fa-solid fa-satellite-dish" aria-hidden="true"></i></span><small>Monitor</small></button>
+      <button class="nav" data-view="reports"><span class="nav-icon"><i class="fa-solid fa-file-lines" aria-hidden="true"></i></span><small>Laporan</small></button>
+      <button class="nav" data-view="archive"><span class="nav-icon"><i class="fa-solid fa-box-archive" aria-hidden="true"></i></span><small>Arsip</small></button>
+    </nav>
+  </div>
+
+  <div id="drawerOverlay" class="drawer-overlay hidden"></div>
+  <aside id="detailDrawer" class="detail-drawer" aria-hidden="true">
+    <div class="drawer-head"><span class="eyebrow" id="drawerEyebrow">DETAIL</span><button id="drawerClose" class="drawer-close" aria-label="Tutup">×</button></div>
+    <div id="drawerContent" class="drawer-content"></div>
+  </aside>
+
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" crossorigin=""></script>
+  <script src="app.js?v=5.5"></script>
+</body>
+</html>
