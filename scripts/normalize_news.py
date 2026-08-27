@@ -12,7 +12,7 @@ from analysis_engine import analyze_article
 from fetch_news import discovery_matches, POLICE_ANCHORS
 
 NEWS_FILE = os.path.join(BASE, "data", "news.json")
-ENGINE_VERSION = "normalizer-v6.5.2"
+ENGINE_VERSION = "normalizer-v6.5.3"
 
 
 def has_any(text, terms):
@@ -59,7 +59,7 @@ def classify_existing(item):
         "discovery_families": families,
         "discovery_tags": tags,
         "discovery_hits": hits,
-        "discovery_version": "discovery-v6.5.2",
+        "discovery_version": "discovery-v6.5.3",
     })
     return item
 
@@ -77,8 +77,8 @@ def main():
     after = json.dumps(items, ensure_ascii=False, sort_keys=True)
 
     db["location_engine_version"] = "location-v6.5-title-only"
-    db["classifier_version"] = "news-v6.5.2"
-    db["analysis_engine_version"] = "analysis-v6.5.2"
+    db["classifier_version"] = "news-v6.5.3"
+    db["analysis_engine_version"] = "analysis-v6.5.3"
     db["normalized_at"] = datetime.now(timezone.utc).isoformat()
 
     tmp = NEWS_FILE + ".tmp"
@@ -91,7 +91,7 @@ def main():
     unknown = sum(1 for x in items if x.get("region") == "BELUM TERPETAKAN")
 
     print("========================================")
-    print("JAGAT NORMALISASI V6.5.2")
+    print("JAGAT NORMALISASI V6.5.3")
     print("========================================")
     print(f"News records     : {len(items)}")
     print(f"Jawa Timur       : {jatim}")
