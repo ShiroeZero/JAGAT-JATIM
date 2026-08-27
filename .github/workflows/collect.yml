@@ -1,4 +1,4 @@
-name: JAGAT — Pengumpulan & Pembaruan Data V6.5.2
+name: JAGAT — Pengumpulan & Pembaruan Data V6.5.3
 
 on:
   workflow_dispatch:
@@ -61,7 +61,7 @@ jobs:
 
           stats = data.get("fetch_statistics", {})
           print("========================================")
-          print("NEWS DATABASE CHECK V6.5.2")
+          print("NEWS DATABASE CHECK V6.5.3")
           print("========================================")
           print(f"News records           : {len(data.get('items', []))}")
           print(f"Queries                : {stats.get('queries', 0)}")
@@ -92,7 +92,7 @@ jobs:
           high = sum(1 for c in cases if str(c.get("priority") or "").lower() == "high")
 
           print("========================================")
-          print("CASE DATABASE CHECK V6.5.2")
+          print("CASE DATABASE CHECK V6.5.3")
           print("========================================")
           print(f"Engine         : {data.get('engine_version', '-')}")
           print(f"Cases          : {len(cases)}")
@@ -190,7 +190,7 @@ jobs:
           if git diff --cached --quiet; then
             echo "Tidak ada perubahan Git."
           else
-            git commit -m "chore: update JAGAT v6.5.2 monitoring data"
+            git commit -m "chore: update JAGAT v6.5.3 monitoring data"
             git push
           fi
 
