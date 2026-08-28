@@ -300,25 +300,25 @@ function showView(view) {
 
 function renderHeader() {
   if (!todayData) return;
+
+  // Dashboard = situational overview for Jawa Timur, hari ini.
+  // Semua kartu ringkasan dihitung dari dataset Jatim hari ini agar
+  // tidak tercampur dengan statistik nasional/global.
   const items = todayJatimItems();
-  const cases = todayJatimCaseSet();
   const negative = items.filter(x => getScope(x) === "negative").length;
-  const caseScope = items.filter(x => getScope(x) === "case").length;
   const positive = items.filter(x => getScope(x) === "positive").length;
-  const neutral = items.length - negative - caseScope - positive;
-  const high = cases.filter(c => getPriority(c) === "high").length;
+  const caseScope = items.filter(x => getScope(x) === "case").length;
 
   if ($("todayDate")) $("todayDate").textContent = formatDate(todayData.date);
-  if ($("lastUpdated")) $("lastUpdated").textContent = `Update terakhir: ${formatDateTime(todayData.last_successful_update || todayData.updated_at)}`;
+  if ($("lastUpdated")) {
+    $("lastUpdated").textContent =
+      `Update terakhir: ${formatDateTime(todayData.last_successful_update || todayData.updated_at)}`;
+  }
+
   if ($("sTotal")) $("sTotal").textContent = number(items.length);
-  if ($("sCaseToday")) $("sCaseToday").textContent = number(cases.length);
-  if ($("sHigh")) $("sHigh").textContent = number(high);
   if ($("sNegative")) $("sNegative").textContent = number(negative);
-  if ($("sCaseUngkap")) $("sCaseUngkap").textContent = number(caseScope);
   if ($("sPositive")) $("sPositive").textContent = number(positive);
-  if ($("sNeutral")) $("sNeutral").textContent = number(neutral);
-  const regionCount = unique(items.map(getFilterArea).filter(x => x && x !== "LUAR JATIM" && x !== "BELUM TERPETAKAN")).length;
-  if ($("sRegions")) $("sRegions").textContent = number(regionCount);
+  if ($("sCaseUngkap")) $("sCaseUngkap").textContent = number(caseScope);
 }
 
 

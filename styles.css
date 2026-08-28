@@ -681,6 +681,10 @@ select::-ms-expand{display:none;}
    ========================================================== */
 .dashboard-stats .stat { padding: 16px 18px; }
 .dashboard-stats .stat strong { font-size: 30px; }
+
+.dashboard-stats .stat-negative strong { color: #ff7d85; }
+.dashboard-stats .stat-positive strong { color: #70d8b0; }
+.dashboard-stats .stat-case strong { color: #f1c66e; }
 .dashboard-hero { margin-bottom: 16px; }
 .dashboard-hero h2 { font-size: 28px; }
 

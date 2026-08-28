@@ -7,7 +7,7 @@
   <meta name="description" content="JAGAT — Jejaring Analisis & Garda Atensi Terpadu">
   <title>JAGAT — Jejaring Analisis &amp; Garda Atensi Terpadu</title>
   <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" crossorigin="">
-  <link rel="stylesheet" href="styles.css?v=6.5.4">
+  <link rel="stylesheet" href="styles.css?v=6.5.5">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css">
   <link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
 </head>
@@ -63,9 +63,9 @@
 
         <div class="stats stats-4 dashboard-stats">
           <div class="stat"><span>Berita Jatim Hari Ini</span><strong id="sTotal">0</strong></div>
-          <div class="stat"><span>Kasus Jatim Hari Ini</span><strong id="sCaseToday">0</strong></div>
-          <div class="stat"><span>Berita Negatif Jatim</span><strong id="sNegative">0</strong></div>
-          <div class="stat danger"><span>Atensi Tinggi</span><strong id="sHigh">0</strong></div>
+          <div class="stat stat-negative"><span>Berita Negatif Jatim</span><strong id="sNegative">0</strong></div>
+          <div class="stat stat-positive"><span>Berita Positif Jatim</span><strong id="sPositive">0</strong></div>
+          <div class="stat stat-case"><span>Ungkap Kasus Jatim</span><strong id="sCaseUngkap">0</strong></div>
         </div>
 
         <section class="panel region-status-panel">
@@ -272,6 +272,6 @@
   </aside>
 
   <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" crossorigin=""></script>
-  <script src="app.js?v=5.5"></script>
+  <script src="app.js?v=6.5.5"></script>
 </body>
 </html>
