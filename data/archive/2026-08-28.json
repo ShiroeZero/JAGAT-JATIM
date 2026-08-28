@@ -2,18 +2,20 @@
   "schema_version": "today-v3",
   "date": "2026-08-28",
   "timezone": "Asia/Jakarta",
-  "updated_at": "2026-08-28T12:28:22.334925+07:00",
-  "last_successful_update": "2026-08-28T12:28:22.334925+07:00",
+  "updated_at": "2026-08-28T12:55:09.073316+07:00",
+  "last_successful_update": "2026-08-28T12:55:09.073316+07:00",
   "news": {
-    "detected": 240,
+    "detected": 242,
     "negative": 37,
     "positive": 8,
     "case": 16,
-    "neutral": 179,
+    "neutral": 181,
     "jatim": 109,
-    "luar_jatim": 131,
+    "luar_jatim": 133,
     "priority_high": 2,
     "article_ids": [
+      "d4d684a8e709269cb1008d07d4bd2a7c52f38f24",
+      "3c954f75c0e1547c8da5f88763a2789f75e5b46c",
       "2f8b557118bb7a4e121655b000039cc769865db7",
       "890cd0fa7657fe088806d12850a55f78d0c6d9b4",
       "80f7084d3dc806b334b1140e38ed622cebcdc83f",
@@ -257,6 +259,137 @@
     ],
     "items": [
       {
+        "id": "d4d684a8e709269cb1008d07d4bd2a7c52f38f24",
+        "title": "Polisi Tangkap 2 Pemasok Narkoba Revaldo, Dari Kalangan Artis? - Medcom.id",
+        "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOaU14QXZkVkdUX212Z0d5QzdkZlRzT1dHMU9jVXlReVlNX1V4cmhiUVpqMVE1YlNNQUx3dllRUU5OcFREMWJ1QmdxZVhmVVFRSWFRdkRycFktQzdVOTl4Zzh6Sjl0d2Q4N1BFV2FqYTZuSEtXVHdkNUJmcDA2Y0dRQU15dEFZRG1qeHdkTmhYVWM2dElWSkNzY01rVUpLbDNxS1JsUzhsZzBTcFU?oc=5",
+        "source": "Medcom.id",
+        "published_at": "2026-08-28T05:31:27+00:00",
+        "collected_at": "2026-08-28T05:52:28.750620+00:00",
+        "region": "BELUM TERPETAKAN",
+        "area_label": "BELUM TERPETAKAN",
+        "is_jatim": null,
+        "polres": null,
+        "category": "NETRAL / LAINNYA",
+        "scope": "neutral",
+        "scope_label": "NETRAL",
+        "priority": "low",
+        "summary": "Polisi Tangkap 2 Pemasok Narkoba Revaldo, Dari Kalangan Artis? Medcom.id",
+        "processing_status": "processed",
+        "classifier_version": "news-v6",
+        "classified_at": "2026-08-28T05:52:28.750620+00:00",
+        "case_id": null,
+        "discovery_families": [],
+        "discovery_tags": [],
+        "discovery_hits": [],
+        "discovery_version": "discovery-v6.5.3",
+        "locality": "",
+        "polsek": null,
+        "location_confidence": 0,
+        "location_evidence": [],
+        "location_status": "BELUM_TERPETAKAN",
+        "location_source": "title",
+        "issue_type": "NARKOBA",
+        "issue_subtype": "Narkoba / Narkotika",
+        "issue_evidence": [
+          "narkoba"
+        ],
+        "handling_status": "BELUM_ADA_INFORMASI",
+        "handling_evidence": [],
+        "attention_score": 16,
+        "attention_label": "Rendah",
+        "attention_components": {
+          "severity": 11,
+          "polri_relation": 0,
+          "authority": 0,
+          "public_impact": 4,
+          "handling": 0,
+          "evidence": 1,
+          "context_risk": 0,
+          "routine_enforcement_cap": null
+        },
+        "attention_evidence": {
+          "severity": [],
+          "authority": [],
+          "public_impact": [],
+          "evidence": [
+            "satu sumber / informasi awal"
+          ],
+          "role": [],
+          "issue": [
+            "narkoba"
+          ],
+          "handling": [],
+          "context": [],
+          "positive": []
+        },
+        "case_engine_version": "case-v6.5.3",
+        "case_processed_at": "2026-08-28T05:54:38.912411+00:00"
+      },
+      {
+        "id": "3c954f75c0e1547c8da5f88763a2789f75e5b46c",
+        "title": "Skandal Polisi Jeju Guncang Korea Selatan, 298 Kasus Orang Hilang Diperiksa, 4 Pejabat Dicopot - Kompas.com",
+        "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNWTIzUEtRVER5eXJoM3p4M3VCTkdncHdXX3JZdDN5NjBhUUhTZFRmWjNaMldjZlFLUUo0N0tDWEFwNi1mOGd4SzdCWnE4VjFTMGlrT3J4LXlHbXhacm5sM1dkWlAwUGJpQnVteF96UEJtTnNuXzRGMmtvelJUakNEemFZWFJpRWZUb0xXalNKdnZzb2NJM2RNTkJiVGlKZXRyMlZ3a0lTZHJkTGJlMWhQclJfTGI5cW9COTR0ckdqTUUzMS1LOEVv0gHHAUFVX3lxTE8yblYwSWVvLWFGYVJCWkJwVkJtRTFzd2E3V3lETTdDQk1EakJGeFVVN0RYaHJRU0FMMHVZS3RQdVdBcFNPSGFiQnNEbDhJaXU5MndyTEdVdWtNM3lERFRUSC16ZURkM2hIVWF0S0VBQzFqTVNXMWhzX083TE9fVXVmdjhKeWQzRFB1UHRUYVloMEtUQ2R3Nm9LODc0QWhlN25EZ0xkTFgzNmdDMzhLU3gwNFBKT0J3VnY1a2UzcVhUZnlGeEFhRjQ?oc=5",
+        "source": "Kompas.com",
+        "published_at": "2026-08-28T05:30:00+00:00",
+        "collected_at": "2026-08-28T05:52:28.750620+00:00",
+        "region": "BELUM TERPETAKAN",
+        "area_label": "BELUM TERPETAKAN",
+        "is_jatim": null,
+        "polres": null,
+        "category": "NETRAL / LAINNYA",
+        "scope": "neutral",
+        "scope_label": "NETRAL",
+        "priority": "low",
+        "summary": "Skandal Polisi Jeju Guncang Korea Selatan, 298 Kasus Orang Hilang Diperiksa, 4 Pejabat Dicopot Kompas.com",
+        "processing_status": "processed",
+        "classifier_version": "news-v6",
+        "classified_at": "2026-08-28T05:52:28.750620+00:00",
+        "case_id": "CASE-000043",
+        "discovery_families": [],
+        "discovery_tags": [],
+        "discovery_hits": [],
+        "discovery_version": "discovery-v6.5.3",
+        "locality": "",
+        "polsek": null,
+        "location_confidence": 0,
+        "location_evidence": [],
+        "location_status": "BELUM_TERPETAKAN",
+        "location_source": "title",
+        "issue_type": "UMUM",
+        "issue_subtype": "Belum Teridentifikasi",
+        "issue_evidence": [],
+        "handling_status": "BELUM_ADA_INFORMASI",
+        "handling_evidence": [],
+        "attention_score": 9,
+        "attention_label": "Rendah",
+        "attention_components": {
+          "severity": 2,
+          "polri_relation": 0,
+          "authority": 0,
+          "public_impact": 4,
+          "handling": 0,
+          "evidence": 3,
+          "context_risk": 0,
+          "routine_enforcement_cap": null
+        },
+        "attention_evidence": {
+          "severity": [],
+          "authority": [],
+          "public_impact": [],
+          "evidence": [
+            "satu sumber / informasi awal",
+            "ada tindak lanjut resmi"
+          ],
+          "role": [],
+          "issue": [],
+          "handling": [],
+          "context": [],
+          "positive": []
+        },
+        "case_engine_version": "case-v6.5.3",
+        "case_processed_at": "2026-08-28T05:55:07.943660+00:00"
+      },
+      {
         "id": "2f8b557118bb7a4e121655b000039cc769865db7",
         "title": "Ops Tumpas Narkoba Semeru 2026, Polres Lamongan Tetapkan 11 Tersangka dan Sita 20,26 Gram Sabu - Website Resmi Polri",
         "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNS3UyWVgzVU5GTi1YakZ2S1VSM0N2OW5VQ1lzMnNDRzhGc2ZWbGRqUFNVN2oyeFBuZDJYbkRCNW1iN3hQUUt4WEM5d3Q1bTl0SWlkZVYxZjhYNndpV3RyamtPVTdWY3FsNU04T3YycE9QMTJKd2J2Tkdvc1FfcTFXYmJCazZuN2lKVzhPQmZMYU43YUpkak91X3duZHlwWGltS2VvOGhxYk9QVHpVX3V3cVQzdmgweHB0T1d5LTBnamhvMzdjajY4MmRpZw?oc=5",
@@ -332,7 +465,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-28T05:28:21.014142+00:00"
+        "case_processed_at": "2026-08-28T05:55:07.943664+00:00"
       },
       {
         "id": "890cd0fa7657fe088806d12850a55f78d0c6d9b4",
@@ -399,7 +532,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-28T05:27:55.021287+00:00"
+        "case_processed_at": "2026-08-28T05:54:38.993644+00:00"
       },
       {
         "id": "80f7084d3dc806b334b1140e38ed622cebcdc83f",
@@ -465,7 +598,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-28T05:27:55.053161+00:00"
+        "case_processed_at": "2026-08-28T05:54:39.030377+00:00"
       },
       {
         "id": "c8be6c5ab5478841bf15330d60f089e148a16349",
@@ -532,7 +665,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-28T05:27:55.081941+00:00"
+        "case_processed_at": "2026-08-28T05:54:39.063325+00:00"
       },
       {
         "id": "165f277519a299da33cfa8a6c7a28146505e8491",
@@ -599,7 +732,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-28T05:27:55.122339+00:00"
+        "case_processed_at": "2026-08-28T05:54:39.109714+00:00"
       },
       {
         "id": "426f535c005746d8f3a1c6db466353e1cc8be7d6",
@@ -665,7 +798,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-28T05:27:55.148001+00:00"
+        "case_processed_at": "2026-08-28T05:54:39.139866+00:00"
       },
       {
         "id": "aa87b034242d12dcd885045f8c6223049f8d5e61",
@@ -743,7 +876,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-28T05:27:55.176761+00:00"
+        "case_processed_at": "2026-08-28T05:54:39.172632+00:00"
       },
       {
         "id": "675bede6abdbf17c7e8790b6dc09b8c2061e4cd1",
@@ -812,7 +945,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-28T05:27:55.211540+00:00"
+        "case_processed_at": "2026-08-28T05:54:39.212426+00:00"
       },
       {
         "id": "e851ba60006b86304cd980dbbab2a17bd5795836",
@@ -880,7 +1013,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-28T05:27:55.233913+00:00"
+        "case_processed_at": "2026-08-28T05:54:39.238644+00:00"
       },
       {
         "id": "51ac14736889b419b6d24409fef7e74f483e4b3c",
@@ -951,7 +1084,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-28T05:27:55.265548+00:00"
+        "case_processed_at": "2026-08-28T05:54:39.275589+00:00"
       },
       {
         "id": "8eed3b47f4f6410afcb25f13231d355e875c4841",
@@ -1017,7 +1150,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-28T05:27:55.313111+00:00"
+        "case_processed_at": "2026-08-28T05:54:39.331073+00:00"
       },
       {
         "id": "6f65280cd48749c8c0fabc9b6428e36bb7daa4b0",
@@ -1087,7 +1220,7 @@
           ]
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-28T05:27:55.348800+00:00"
+        "case_processed_at": "2026-08-28T05:54:39.371596+00:00"
       },
       {
         "id": "e8967a250a062cf1137dd5d3fe1b578ee9f76675",
@@ -1155,7 +1288,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-28T05:27:55.386756+00:00"
+        "case_processed_at": "2026-08-28T05:54:39.415105+00:00"
       },
       {
         "id": "4897ac993418f0cbec5af1f8c9fde240de325368",
@@ -1226,7 +1359,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-28T05:28:21.014150+00:00"
+        "case_processed_at": "2026-08-28T05:55:07.943670+00:00"
       },
       {
         "id": "f49c3d389103108725a881cd0d28dc280e018b25",
@@ -1292,7 +1425,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-28T05:28:21.014153+00:00"
+        "case_processed_at": "2026-08-28T05:55:07.943673+00:00"
       },
       {
         "id": "4334ebdb56b3db6078c397e44ebc3fb8ad00d32f",
@@ -1359,7 +1492,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-28T05:27:55.419551+00:00"
+        "case_processed_at": "2026-08-28T05:54:39.453257+00:00"
       },
       {
         "id": "17c3d5acc2a30cf2d4d14cf3ee6a31b92da1ec36",
@@ -1424,7 +1557,7 @@
           ]
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-28T05:27:55.450290+00:00"
+        "case_processed_at": "2026-08-28T05:54:39.488727+00:00"
       },
       {
         "id": "c07cf41c94010ca10dacca73ed80da90eba45560",
@@ -1490,7 +1623,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-28T05:27:55.483396+00:00"
+        "case_processed_at": "2026-08-28T05:54:39.526606+00:00"
       },
       {
         "id": "4eb7886144038b037b65a69d089540a4c3d699e3",
@@ -1556,7 +1689,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-28T05:27:55.510117+00:00"
+        "case_processed_at": "2026-08-28T05:54:39.556974+00:00"
       },
       {
         "id": "1e5b7184821a0aa08a781c4b319bcf2688d9314f",
@@ -1625,7 +1758,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-28T05:27:55.554765+00:00"
+        "case_processed_at": "2026-08-28T05:54:39.607534+00:00"
       },
       {
         "id": "160a9fe023f8d8d4363f967aac4b9f268d03fd37",
@@ -1694,7 +1827,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-28T05:28:21.014157+00:00"
+        "case_processed_at": "2026-08-28T05:55:07.943677+00:00"
       },
       {
         "id": "5ce88d0e4b18a505832ffaba90d9813a3f832628",
@@ -1759,7 +1892,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-28T05:27:55.585410+00:00"
+        "case_processed_at": "2026-08-28T05:54:39.642987+00:00"
       },
       {
         "id": "0903167ac29f7786407967930860cd075bd8dd3d",
@@ -1822,7 +1955,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-28T05:27:55.629234+00:00"
+        "case_processed_at": "2026-08-28T05:54:39.693704+00:00"
       },
       {
         "id": "0d5a59b6e1adbcd9d9290d75c2fe230ab08aac5f",
@@ -1887,7 +2020,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-28T05:27:55.664142+00:00"
+        "case_processed_at": "2026-08-28T05:54:39.733929+00:00"
       },
       {
         "id": "49672b388998ecd29996b43720681875cb3e533d",
@@ -1952,7 +2085,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-28T05:27:55.704795+00:00"
+        "case_processed_at": "2026-08-28T05:54:39.780819+00:00"
       },
       {
         "id": "edc26aacd3df2e2dcfa9f8476b5c9babeeba6444",
@@ -2017,7 +2150,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-28T05:27:55.737293+00:00"
+        "case_processed_at": "2026-08-28T05:54:39.818554+00:00"
       },
       {
         "id": "a1aad4c17dc9e6c4fd722edf5bd67fd7136d0a13",
@@ -2090,7 +2223,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-28T05:27:55.770538+00:00"
+        "case_processed_at": "2026-08-28T05:54:39.857714+00:00"
       },
       {
         "id": "08e995264b19c6be4de84ba4bf5155528c544fb4",
@@ -2157,7 +2290,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-28T05:27:55.808735+00:00"
+        "case_processed_at": "2026-08-28T05:54:39.901816+00:00"
       },
       {
         "id": "1ae4da2b279a0818dfea767abef3e42733076483",
@@ -2224,7 +2357,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-28T05:27:55.847811+00:00"
+        "case_processed_at": "2026-08-28T05:54:39.946504+00:00"
       },
       {
         "id": "5fd70b72f389366e0b0c55e5c58325d9533d36ab",
@@ -2291,7 +2424,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-28T05:27:55.877035+00:00"
+        "case_processed_at": "2026-08-28T05:54:39.981523+00:00"
       },
       {
         "id": "e42362782c78f1d9dfaca3618dffc742b9af9dab",
@@ -2368,7 +2501,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-28T05:28:21.014163+00:00"
+        "case_processed_at": "2026-08-28T05:55:07.943682+00:00"
       },
       {
         "id": "ff962da0b05b583edd6dc06fe1361e68a6974f97",
@@ -2435,7 +2568,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-28T05:27:55.914098+00:00"
+        "case_processed_at": "2026-08-28T05:54:40.024465+00:00"
       },
       {
         "id": "98bdca40388a93755f33b7a81f91cc5878c156dc",
@@ -2500,7 +2633,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-28T05:27:55.949273+00:00"
+        "case_processed_at": "2026-08-28T05:54:40.066314+00:00"
       },
       {
         "id": "e56bcfc84cb8905ab6e49d19423b735e536bf563",
@@ -2573,7 +2706,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-28T05:27:55.978649+00:00"
+        "case_processed_at": "2026-08-28T05:54:40.099817+00:00"
       },
       {
         "id": "0de6f5a99df84126832450298dc8d2a118b4c8f3",
@@ -2639,7 +2772,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-28T05:27:56.007820+00:00"
+        "case_processed_at": "2026-08-28T05:54:40.132529+00:00"
       },
       {
         "id": "ee8643bbaaac2cddeeec8098f9da0cddeb31279c",
@@ -2707,7 +2840,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-28T05:27:56.032455+00:00"
+        "case_processed_at": "2026-08-28T05:54:40.160612+00:00"
       },
       {
         "id": "ba657dd4b8a2912e368956eeac8d07ed9290340b",
@@ -2783,7 +2916,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-28T05:28:21.014167+00:00"
+        "case_processed_at": "2026-08-28T05:55:07.943686+00:00"
       },
       {
         "id": "3c8342126f97d0df9c6a7ede0c0841129c6ec43f",
@@ -2859,7 +2992,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-28T05:28:21.014169+00:00"
+        "case_processed_at": "2026-08-28T05:55:07.943689+00:00"
       },
       {
         "id": "5aba3c3049577e28afb3970a2a23bac35fda5b7e",
@@ -2937,7 +3070,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-28T05:28:21.014171+00:00"
+        "case_processed_at": "2026-08-28T05:55:07.943692+00:00"
       },
       {
         "id": "e64c0d921cfda0630ae13818c009b9edf93e5bc1",
@@ -3002,7 +3135,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-28T05:27:56.058532+00:00"
+        "case_processed_at": "2026-08-28T05:54:40.190938+00:00"
       },
       {
         "id": "538969b47fac9b76cc039c6c91783b3200aeb3e9",
@@ -3068,7 +3201,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-28T05:27:56.090314+00:00"
+        "case_processed_at": "2026-08-28T05:54:40.227499+00:00"
       },
       {
         "id": "10b0889ea1b5c4fc9e73de3511ea6854bb6ad447",
@@ -3151,7 +3284,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-28T05:28:21.014174+00:00"
+        "case_processed_at": "2026-08-28T05:55:07.943695+00:00"
       },
       {
         "id": "f86dd428bc9e5a928de37c26dc09e4b7bc046b82",
@@ -3217,7 +3350,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-28T05:27:56.136866+00:00"
+        "case_processed_at": "2026-08-28T05:54:40.281221+00:00"
       },
       {
         "id": "ecea35ecf0c3dbb42f9fd520716f788515bca207",
@@ -3287,7 +3420,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-28T05:27:56.173182+00:00"
+        "case_processed_at": "2026-08-28T05:54:40.323262+00:00"
       },
       {
         "id": "2e1fcd52cf326b4de7537f96232dc3eb0d4e9fb5",
@@ -3353,7 +3486,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-28T05:27:56.205423+00:00"
+        "case_processed_at": "2026-08-28T05:54:40.359908+00:00"
       },
       {
         "id": "23eec4e7a37a12b960882e305a5c6d8b142d9cab",
@@ -3418,7 +3551,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-28T05:27:56.234076+00:00"
+        "case_processed_at": "2026-08-28T05:54:40.393485+00:00"
       },
       {
         "id": "454fb9ce93780ef2652562aa7f023f15f54389e7",
@@ -3486,7 +3619,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-28T05:27:56.274645+00:00"
+        "case_processed_at": "2026-08-28T05:54:40.440168+00:00"
       },
       {
         "id": "834579b7f354576d2e0d5264252ac23c732f700c",
@@ -3549,7 +3682,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-28T05:27:56.303467+00:00"
+        "case_processed_at": "2026-08-28T05:54:40.473482+00:00"
       },
       {
         "id": "1477d572a6b7d86557f98e32856f7feda482d87e",
@@ -3618,7 +3751,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-28T05:27:56.331594+00:00"
+        "case_processed_at": "2026-08-28T05:54:40.506142+00:00"
       },
       {
         "id": "bd57a0b8365df8b9fe03028d5554ef6c1f104c14",
@@ -3684,7 +3817,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-28T05:27:56.364229+00:00"
+        "case_processed_at": "2026-08-28T05:54:40.543346+00:00"
       },
       {
         "id": "f1285695be02cee3753eb0eca9646af5f4a6f97a",
@@ -3755,7 +3888,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-28T05:28:21.014179+00:00"
+        "case_processed_at": "2026-08-28T05:55:07.943700+00:00"
       },
       {
         "id": "f19c7366d4d16a032d32fad278ed5e9b55827017",
@@ -3820,7 +3953,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-28T05:27:56.400495+00:00"
+        "case_processed_at": "2026-08-28T05:54:40.584827+00:00"
       },
       {
         "id": "6be2e1c16f5034180d8c1cfdf8aa4df24abbf4b8",
@@ -3886,7 +4019,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-28T05:27:56.434654+00:00"
+        "case_processed_at": "2026-08-28T05:54:40.623079+00:00"
       },
       {
         "id": "d3dd8023060d7b948e98e0d9f8e44b7d126fce5a",
@@ -3953,7 +4086,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-28T05:27:56.469745+00:00"
+        "case_processed_at": "2026-08-28T05:54:40.663296+00:00"
       },
       {
         "id": "e39a741fa73ea77e128c5c43c3fa2a8fb639aebb",
@@ -4018,7 +4151,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-28T05:27:56.506671+00:00"
+        "case_processed_at": "2026-08-28T05:54:40.705521+00:00"
       },
       {
         "id": "08b88ca4fd491d5a5c30751df0b7fa19263ddf84",
@@ -4083,7 +4216,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-28T05:27:56.537157+00:00"
+        "case_processed_at": "2026-08-28T05:54:40.741013+00:00"
       },
       {
         "id": "f32116b1f15b2e7b7af045e553bfb9a911849729",
@@ -4148,7 +4281,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-28T05:27:56.577055+00:00"
+        "case_processed_at": "2026-08-28T05:54:40.786467+00:00"
       },
       {
         "id": "4b55ca40e523b635afa08a36cbb7b10922ac99ff",
@@ -4220,7 +4353,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-28T05:28:21.014183+00:00"
+        "case_processed_at": "2026-08-28T05:55:07.943705+00:00"
       },
       {
         "id": "073d8b5c396bea78f5f55b481398318a0a00d9ff",
@@ -4291,7 +4424,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-28T05:27:56.611099+00:00"
+        "case_processed_at": "2026-08-28T05:54:40.825967+00:00"
       },
       {
         "id": "450b88c4c8da35c2912a56d7596ee875f6f37411",
@@ -4369,7 +4502,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-28T05:28:21.014186+00:00"
+        "case_processed_at": "2026-08-28T05:55:07.943707+00:00"
       },
       {
         "id": "425711b73334a0279e3f1f10a8d866ffb9f838ba",
@@ -4442,7 +4575,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-28T05:27:56.643276+00:00"
+        "case_processed_at": "2026-08-28T05:54:40.863562+00:00"
       },
       {
         "id": "f47e3f8593c57301c5bd2c4978672ef130c87aa0",
@@ -4510,7 +4643,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-28T05:27:56.673829+00:00"
+        "case_processed_at": "2026-08-28T05:54:40.898386+00:00"
       },
       {
         "id": "9998f68645e38091937ffbba020d74c3236057b7",
@@ -4575,7 +4708,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-28T05:27:56.708313+00:00"
+        "case_processed_at": "2026-08-28T05:54:40.938173+00:00"
       },
       {
         "id": "925c9e8586cb40dd255ea6baef76af208aae7582",
@@ -4647,7 +4780,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-28T05:28:21.014189+00:00"
+        "case_processed_at": "2026-08-28T05:55:07.943711+00:00"
       },
       {
         "id": "7619b82e64c5d533f5d984ee5fc857add69e7c28",
@@ -4714,7 +4847,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-28T05:27:56.750066+00:00"
+        "case_processed_at": "2026-08-28T05:54:40.986679+00:00"
       },
       {
         "id": "f923c2cd9728bdf010fc49b047f27e42427de1ee",
@@ -4780,7 +4913,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-28T05:27:56.782374+00:00"
+        "case_processed_at": "2026-08-28T05:54:41.023412+00:00"
       },
       {
         "id": "207306f74e973ba2e0abd1ed80e6895abf24709a",
@@ -4845,7 +4978,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-28T05:27:56.818441+00:00"
+        "case_processed_at": "2026-08-28T05:54:41.065048+00:00"
       },
       {
         "id": "13aa60f1fabc1f6105b182c2833437066647b4e5",
@@ -4910,7 +5043,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-28T05:27:56.851488+00:00"
+        "case_processed_at": "2026-08-28T05:54:41.103155+00:00"
       },
       {
         "id": "6ac514027bd12edc535605e72fc86b2c38cb953c",
@@ -4975,7 +5108,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-28T05:27:56.885883+00:00"
+        "case_processed_at": "2026-08-28T05:54:41.143026+00:00"
       },
       {
         "id": "c4a1b6b2d5bd566553c2aa1a7b94f615b03cc6c7",
@@ -5040,7 +5173,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-28T05:27:56.918780+00:00"
+        "case_processed_at": "2026-08-28T05:54:41.180651+00:00"
       },
       {
         "id": "972dd4dad10a4aa333c6c70032e6305e3660179f",
@@ -5105,7 +5238,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-28T05:27:56.958282+00:00"
+        "case_processed_at": "2026-08-28T05:54:41.225760+00:00"
       },
       {
         "id": "61c8917a0d75285215675b983b448a725b84374e",
@@ -5170,7 +5303,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-28T05:27:56.995217+00:00"
+        "case_processed_at": "2026-08-28T05:54:41.268267+00:00"
       },
       {
         "id": "3c21a15dc74a36cbb0525409c1a1c13843e5fb28",
@@ -5235,7 +5368,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-28T05:27:57.030913+00:00"
+        "case_processed_at": "2026-08-28T05:54:41.309535+00:00"
       },
       {
         "id": "6b75b3b5f2076bf79b79bbc149a2530d04a82903",
@@ -5298,7 +5431,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-28T05:27:57.062878+00:00"
+        "case_processed_at": "2026-08-28T05:54:41.346178+00:00"
       },
       {
         "id": "1eee2a38836093fc046c4b4cd7b8e9ffc4f1765c",
@@ -5363,7 +5496,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-28T05:27:57.097897+00:00"
+        "case_processed_at": "2026-08-28T05:54:41.386311+00:00"
       },
       {
         "id": "5843e9f67a8fff3d7ca3b6e64ccf08d49d9244f0",
@@ -5428,7 +5561,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-28T05:27:57.129654+00:00"
+        "case_processed_at": "2026-08-28T05:54:41.422929+00:00"
       },
       {
         "id": "224a83ce3e019cb57755ca797088698f9cd9c32c",
@@ -5493,7 +5626,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-28T05:27:57.162714+00:00"
+        "case_processed_at": "2026-08-28T05:54:41.460961+00:00"
       },
       {
         "id": "21aa86a29311cc0ddd66f3e3958e374f44efd441",
@@ -5567,7 +5700,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-28T05:28:21.014195+00:00"
+        "case_processed_at": "2026-08-28T05:55:07.943717+00:00"
       },
       {
         "id": "3f9fedbec30486b02ad66b8f91dc3235c64cca18",
@@ -5632,7 +5765,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-28T05:27:57.193983+00:00"
+        "case_processed_at": "2026-08-28T05:54:41.496701+00:00"
       },
       {
         "id": "435278d3fba696781f9482b3beed50137cc12448",
@@ -5697,7 +5830,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-28T05:27:57.228523+00:00"
+        "case_processed_at": "2026-08-28T05:54:41.536637+00:00"
       },
       {
         "id": "852434b5445af9bdb27d041a1352cac750b9de07",
@@ -5762,7 +5895,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-28T05:27:57.262446+00:00"
+        "case_processed_at": "2026-08-28T05:54:41.575245+00:00"
       },
       {
         "id": "184e27e8e502f65c6056e316d0627e445a57456b",
@@ -5827,7 +5960,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-28T05:27:57.299131+00:00"
+        "case_processed_at": "2026-08-28T05:54:41.617366+00:00"
       },
       {
         "id": "e24799505c303673ff9fc1f0ff4d032b32bb231d",
@@ -5899,7 +6032,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-28T05:27:57.327376+00:00"
+        "case_processed_at": "2026-08-28T05:54:41.649709+00:00"
       },
       {
         "id": "d07ff239767be1d5cbfc779edf88f06aa7972a6b",
@@ -5970,7 +6103,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-28T05:27:57.355373+00:00"
+        "case_processed_at": "2026-08-28T05:54:41.682692+00:00"
       },
       {
         "id": "281d08c41938a3ccc27aab9cb1e82a312a34b6d0",
@@ -6035,7 +6168,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-28T05:27:57.391320+00:00"
+        "case_processed_at": "2026-08-28T05:54:41.723768+00:00"
       },
       {
         "id": "d70a68bf5ec77e2095e3c6734151f58e3d2ea1e3",
@@ -6101,7 +6234,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-28T05:27:57.426878+00:00"
+        "case_processed_at": "2026-08-28T05:54:41.764182+00:00"
       },
       {
         "id": "277d466724bdd55200d12992a95b473e13eb0797",
@@ -6169,7 +6302,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-28T05:27:57.465289+00:00"
+        "case_processed_at": "2026-08-28T05:54:41.807377+00:00"
       },
       {
         "id": "5993d96de88cc36613008bd6e2866424cede59e9",
@@ -6236,7 +6369,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-28T05:27:57.493140+00:00"
+        "case_processed_at": "2026-08-28T05:54:41.839979+00:00"
       },
       {
         "id": "674c4e5bb17ee64daf3d21b7b5e97e01d9459afd",
@@ -6319,7 +6452,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-28T05:28:21.014200+00:00"
+        "case_processed_at": "2026-08-28T05:55:07.943722+00:00"
       },
       {
         "id": "e86e30499379a049d51163a4069390d692979188",
@@ -6382,7 +6515,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-28T05:27:57.519926+00:00"
+        "case_processed_at": "2026-08-28T05:54:41.871382+00:00"
       },
       {
         "id": "715ac21e1ab71ffbf811f359cf5409e73f2fca2d",
@@ -6448,7 +6581,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-28T05:27:57.554907+00:00"
+        "case_processed_at": "2026-08-28T05:54:41.911034+00:00"
       },
       {
         "id": "bbca2030b94c01bc5941a3fdcfd34fe6d7fa49e6",
@@ -6511,7 +6644,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-28T05:27:57.588045+00:00"
+        "case_processed_at": "2026-08-28T05:54:41.949436+00:00"
       },
       {
         "id": "f73a9ee607402345ffe98f199f6a382ee6a55a19",
@@ -6577,7 +6710,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-28T05:27:57.627867+00:00"
+        "case_processed_at": "2026-08-28T05:54:41.994860+00:00"
       },
       {
         "id": "1839222199a598c59dc58952ef100f632a7cbdc4",
@@ -6656,7 +6789,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-28T05:28:21.014203+00:00"
+        "case_processed_at": "2026-08-28T05:55:07.943725+00:00"
       },
       {
         "id": "09085d41cd9ba4c69e4fca63d1b06965fc2e73fb",
@@ -6723,7 +6856,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-28T05:27:57.651723+00:00"
+        "case_processed_at": "2026-08-28T05:54:42.022695+00:00"
       },
       {
         "id": "b1a6ad7157eec7ad2d46a5a24b0fe05bca28fd76",
@@ -6786,7 +6919,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-28T05:27:57.680827+00:00"
+        "case_processed_at": "2026-08-28T05:54:42.056662+00:00"
       },
       {
         "id": "09abe9465668709ebae7b5193222314563cfab53",
@@ -6855,7 +6988,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-28T05:27:57.713313+00:00"
+        "case_processed_at": "2026-08-28T05:54:42.094417+00:00"
       },
       {
         "id": "0fcbcf97685bdd30c90b48aa49d26b072192cfcb",
@@ -6924,7 +7057,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-28T05:27:57.744846+00:00"
+        "case_processed_at": "2026-08-28T05:54:42.130767+00:00"
       },
       {
         "id": "8fc64ff025f1048716a79b2a9c569ba78d7def92",
@@ -6998,7 +7131,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-28T05:27:57.774045+00:00"
+        "case_processed_at": "2026-08-28T05:54:42.163959+00:00"
       },
       {
         "id": "c0404955b0ab6c03c2dd018bf93f944efa1bd552",
@@ -7069,7 +7202,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-28T05:27:57.799532+00:00"
+        "case_processed_at": "2026-08-28T05:54:42.193441+00:00"
       },
       {
         "id": "e0cf7c1d0c2a094c001e89c308642395b4ef0d6f",
@@ -7136,7 +7269,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-28T05:28:21.014207+00:00"
+        "case_processed_at": "2026-08-28T05:55:07.943730+00:00"
       },
       {
         "id": "335a51ce5d4c6bbb723b1736c16b180008715b87",
@@ -7203,7 +7336,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-28T05:28:21.014209+00:00"
+        "case_processed_at": "2026-08-28T05:55:07.943732+00:00"
       },
       {
         "id": "d268f4465be8fa509b9cba5aa8db52c3d4b3d042",
@@ -7266,7 +7399,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-28T05:27:57.835357+00:00"
+        "case_processed_at": "2026-08-28T05:54:42.234140+00:00"
       },
       {
         "id": "687dfae6a7b65347ce3c11b06f476096d10bf405",
@@ -7335,7 +7468,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-28T05:27:57.875342+00:00"
+        "case_processed_at": "2026-08-28T05:54:42.279944+00:00"
       },
       {
         "id": "5790b2576afa5007e49608af3b8a171c693141fc",
@@ -7401,7 +7534,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-28T05:27:57.900357+00:00"
+        "case_processed_at": "2026-08-28T05:54:42.308513+00:00"
       },
       {
         "id": "ce51b97a2e2b32cbb947efbf5057a015331fe72c",
@@ -7466,7 +7599,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-28T05:27:57.923732+00:00"
+        "case_processed_at": "2026-08-28T05:54:42.336462+00:00"
       },
       {
         "id": "73b5f5d71e406ad3db0015d75c7cec4ebcdb8669",
@@ -7533,7 +7666,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-28T05:27:57.965358+00:00"
+        "case_processed_at": "2026-08-28T05:54:42.384785+00:00"
       },
       {
         "id": "05d65d0da2e64c93ee11db91902c55de2039d1c5",
@@ -7600,7 +7733,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-28T05:28:21.014213+00:00"
+        "case_processed_at": "2026-08-28T05:55:07.943736+00:00"
       },
       {
         "id": "c77efa7e55bd79bae16d7b936779044693003718",
@@ -7675,7 +7808,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-28T05:27:57.995947+00:00"
+        "case_processed_at": "2026-08-28T05:54:42.421148+00:00"
       },
       {
         "id": "cc48e7a50679c68110ffb1165a77dcaf60eb5168",
@@ -7749,7 +7882,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-28T05:28:21.014215+00:00"
+        "case_processed_at": "2026-08-28T05:55:07.943738+00:00"
       },
       {
         "id": "f32f02da332e3f0236f584712c5297a50b80ab89",
@@ -7816,7 +7949,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-28T05:27:58.036083+00:00"
+        "case_processed_at": "2026-08-28T05:54:42.467860+00:00"
       },
       {
         "id": "7fa18cd92b0e8235d84497e7ef4d7d9e77216e90",
@@ -7880,7 +8013,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-28T05:27:58.062603+00:00"
+        "case_processed_at": "2026-08-28T05:54:42.499148+00:00"
       },
       {
         "id": "688744bed4a392b637178b99a58f27e224b12220",
@@ -7947,7 +8080,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-28T05:27:58.084997+00:00"
+        "case_processed_at": "2026-08-28T05:54:42.525468+00:00"
       },
       {
         "id": "2ce2c161dcbc57a53c310776f75411ba453799e8",
@@ -8013,7 +8146,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-28T05:27:58.123656+00:00"
+        "case_processed_at": "2026-08-28T05:54:42.570535+00:00"
       },
       {
         "id": "914d6e6c8737dc16e361a3e289547fad9ec9d53a",
@@ -8079,7 +8212,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-28T05:27:58.161803+00:00"
+        "case_processed_at": "2026-08-28T05:54:42.614392+00:00"
       },
       {
         "id": "5bc399c31e32dd0310a0236f591af8de295e6a8c",
@@ -8151,7 +8284,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-28T05:27:58.189733+00:00"
+        "case_processed_at": "2026-08-28T05:54:42.646744+00:00"
       },
       {
         "id": "412cf51f0a6985219ba9cc2ce3444def1b21a1ba",
@@ -8219,7 +8352,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-28T05:27:58.227940+00:00"
+        "case_processed_at": "2026-08-28T05:54:42.691175+00:00"
       },
       {
         "id": "c59bde63b9b55ee0ec4570f5f518adf071d2dafc",
@@ -8282,7 +8415,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-28T05:27:58.260162+00:00"
+        "case_processed_at": "2026-08-28T05:54:42.728650+00:00"
       },
       {
         "id": "1e538054ecad35b37f4f9d133c9645a7a0a58d70",
@@ -8349,7 +8482,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-28T05:27:58.285116+00:00"
+        "case_processed_at": "2026-08-28T05:54:42.758102+00:00"
       },
       {
         "id": "d6b6e6b1e9311d839673c22eeab8713627d4b679",
@@ -8423,7 +8556,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-28T05:27:58.319027+00:00"
+        "case_processed_at": "2026-08-28T05:54:42.796856+00:00"
       },
       {
         "id": "5d5ffecac4974b72437a490178788e8f5d3afb95",
@@ -8493,7 +8626,7 @@
           ]
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-28T05:27:58.345787+00:00"
+        "case_processed_at": "2026-08-28T05:54:42.827667+00:00"
       },
       {
         "id": "7b693013cf5ecad6ffb8780b0cf77184222d2798",
@@ -8566,7 +8699,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-28T05:27:58.377402+00:00"
+        "case_processed_at": "2026-08-28T05:54:42.865144+00:00"
       },
       {
         "id": "c2ce24a716598e9c630f5553b51c7e652a470dd6",
@@ -8652,7 +8785,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-28T05:28:21.014222+00:00"
+        "case_processed_at": "2026-08-28T05:55:07.943745+00:00"
       },
       {
         "id": "910517b6e4aaec8074dafc0211b8e6391a70a297",
@@ -8718,7 +8851,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-28T05:27:58.410304+00:00"
+        "case_processed_at": "2026-08-28T05:54:42.902807+00:00"
       },
       {
         "id": "d8db30e67b52cc4311654e3a65e3b770672d176c",
@@ -8783,7 +8916,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-28T05:27:58.440527+00:00"
+        "case_processed_at": "2026-08-28T05:54:42.937496+00:00"
       },
       {
         "id": "191288d3d23f015e89ef43e42de65534aa5aa71c",
@@ -8850,7 +8983,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-28T05:27:58.473410+00:00"
+        "case_processed_at": "2026-08-28T05:54:42.976057+00:00"
       },
       {
         "id": "6e41f76f5da8cdcc83fa02545b7ce47eedf2701f",
@@ -8928,7 +9061,7 @@
           ]
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-28T05:28:21.014226+00:00"
+        "case_processed_at": "2026-08-28T05:55:07.943748+00:00"
       },
       {
         "id": "fb9924a4ba78c04d59d2ea99f27dea667f585e92",
@@ -8994,7 +9127,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-28T05:27:58.505817+00:00"
+        "case_processed_at": "2026-08-28T05:54:43.012869+00:00"
       },
       {
         "id": "380c41b3386a1405f21cfdca2e603bc5b136c5ad",
@@ -9068,7 +9201,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-28T05:28:21.014228+00:00"
+        "case_processed_at": "2026-08-28T05:55:07.943751+00:00"
       },
       {
         "id": "647ff2f82b459d02fa5b2990f02d4aa4fb808db1",
@@ -9134,7 +9267,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-28T05:27:58.535980+00:00"
+        "case_processed_at": "2026-08-28T05:54:43.047101+00:00"
       },
       {
         "id": "1ff3a1de5dc8d568c292f1f83a05f736a97bc798",
@@ -9201,7 +9334,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-28T05:27:58.564958+00:00"
+        "case_processed_at": "2026-08-28T05:54:43.080857+00:00"
       },
       {
         "id": "42e65a25ef1647c6a682e50ad8f890ce41356dfe",
@@ -9266,7 +9399,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-28T05:27:58.613354+00:00"
+        "case_processed_at": "2026-08-28T05:54:43.135629+00:00"
       },
       {
         "id": "4343be8fd2dd18d693b95472926504e30349db52",
@@ -9333,7 +9466,7 @@
           ]
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-28T05:28:21.014232+00:00"
+        "case_processed_at": "2026-08-28T05:55:07.943755+00:00"
       },
       {
         "id": "68fe78a848f35b7ec319edf74311e664ad628601",
@@ -9403,7 +9536,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-28T05:27:58.639394+00:00"
+        "case_processed_at": "2026-08-28T05:54:43.165131+00:00"
       },
       {
         "id": "f325c50f88b23db4b20dff261f2133dc3605622b",
@@ -9481,7 +9614,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-28T05:28:21.014235+00:00"
+        "case_processed_at": "2026-08-28T05:55:07.943758+00:00"
       },
       {
         "id": "77d0019650cd1db94da87aa2a20c07e023ff939f",
@@ -9548,7 +9681,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-28T05:27:58.668023+00:00"
+        "case_processed_at": "2026-08-28T05:54:43.198428+00:00"
       },
       {
         "id": "02444c32015c3a719e3e76590821dcd6afd76e97",
@@ -9611,7 +9744,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-28T05:27:58.702535+00:00"
+        "case_processed_at": "2026-08-28T05:54:43.238393+00:00"
       },
       {
         "id": "6f25abf938620cbd2167df7798b8f31ab82634be",
@@ -9677,7 +9810,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-28T05:27:58.726889+00:00"
+        "case_processed_at": "2026-08-28T05:54:43.267321+00:00"
       },
       {
         "id": "aa6a42da19980d52a87684ed3d873026f899b6c5",
@@ -9755,7 +9888,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-28T05:28:21.014238+00:00"
+        "case_processed_at": "2026-08-28T05:55:07.943762+00:00"
       },
       {
         "id": "02d825ad6744b664a937991343f1c87d43d8bd3d",
@@ -9822,7 +9955,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-28T05:28:21.014241+00:00"
+        "case_processed_at": "2026-08-28T05:55:07.943765+00:00"
       },
       {
         "id": "a00e30cbb74d4abc1d90ab37dac3ca7c52e50239",
@@ -9888,7 +10021,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-28T05:27:58.753754+00:00"
+        "case_processed_at": "2026-08-28T05:54:43.298237+00:00"
       },
       {
         "id": "1152f48fb289c09228134da1d089dafc1517cc78",
@@ -9966,7 +10099,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-28T05:28:21.014244+00:00"
+        "case_processed_at": "2026-08-28T05:55:07.943767+00:00"
       },
       {
         "id": "4e1bf52ea699368a2a7d78d659e810eb83b3efe3",
@@ -10032,7 +10165,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-28T05:27:58.781546+00:00"
+        "case_processed_at": "2026-08-28T05:54:43.330138+00:00"
       },
       {
         "id": "0db3b6aa1f0c0d8a1504f36e8025cf14a20cc7b2",
@@ -10099,7 +10232,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-28T05:27:58.817618+00:00"
+        "case_processed_at": "2026-08-28T05:54:43.371597+00:00"
       },
       {
         "id": "6828400bc45bb689d1f0f53d9bd66f07c5590be1",
@@ -10165,7 +10298,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-28T05:27:58.844223+00:00"
+        "case_processed_at": "2026-08-28T05:54:43.402284+00:00"
       },
       {
         "id": "fba6b5da39675d967e9197d64cf43dd22b713125",
@@ -10232,7 +10365,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-28T05:28:21.014247+00:00"
+        "case_processed_at": "2026-08-28T05:55:07.943771+00:00"
       },
       {
         "id": "945e7cdc10238c2d7c33e5efdceb13469a35b967",
@@ -10295,7 +10428,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-28T05:27:58.881060+00:00"
+        "case_processed_at": "2026-08-28T05:54:43.445046+00:00"
       },
       {
         "id": "bc46b89fbdd5f5fd149fe112137bce8132726b9f",
@@ -10362,7 +10495,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-28T05:27:58.916466+00:00"
+        "case_processed_at": "2026-08-28T05:54:43.485974+00:00"
       },
       {
         "id": "969c866d5ecde347c5e077ec8645872969ec4997",
@@ -10429,7 +10562,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-28T05:27:58.946630+00:00"
+        "case_processed_at": "2026-08-28T05:54:43.521147+00:00"
       },
       {
         "id": "3cc275f7b5831803a7fd772c600583e4e96eae9e",
@@ -10498,7 +10631,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-28T05:27:58.978828+00:00"
+        "case_processed_at": "2026-08-28T05:54:43.558435+00:00"
       },
       {
         "id": "d3c7a62d24a6b49bd923f8b21e59d9d83a485837",
@@ -10565,7 +10698,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-28T05:27:59.018076+00:00"
+        "case_processed_at": "2026-08-28T05:54:43.604311+00:00"
       },
       {
         "id": "16366adf73ecdaed1240db2e614c45543d135c09",
@@ -10641,7 +10774,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-28T05:28:21.014252+00:00"
+        "case_processed_at": "2026-08-28T05:55:07.943775+00:00"
       },
       {
         "id": "8101f4940e80c3857ac4e0687a4746b36f9a2ed4",
@@ -10711,7 +10844,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-28T05:27:59.046864+00:00"
+        "case_processed_at": "2026-08-28T05:54:43.637505+00:00"
       },
       {
         "id": "a923fb85560de1be6d3979867806611cfa790fed",
@@ -10777,7 +10910,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-28T05:27:59.082857+00:00"
+        "case_processed_at": "2026-08-28T05:54:43.678699+00:00"
       },
       {
         "id": "f226238ed9ccc02f7a4d2cad53f62c55cb1ad26a",
@@ -10843,7 +10976,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-28T05:27:59.128005+00:00"
+        "case_processed_at": "2026-08-28T05:54:43.730747+00:00"
       },
       {
         "id": "8480d2b712c8a0a84b0a94dc37c677f531fbe592",
@@ -10910,7 +11043,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-28T05:27:59.154753+00:00"
+        "case_processed_at": "2026-08-28T05:54:43.762942+00:00"
       },
       {
         "id": "3081d3b21f890d5e685c03e2ba8b6613f7af5ccd",
@@ -10975,7 +11108,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-28T05:27:59.191699+00:00"
+        "case_processed_at": "2026-08-28T05:54:43.805940+00:00"
       },
       {
         "id": "4740f0e9a7cca7af4bfba2dd72ea35d5f5abb370",
@@ -11048,7 +11181,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-28T05:27:59.220590+00:00"
+        "case_processed_at": "2026-08-28T05:54:43.840207+00:00"
       },
       {
         "id": "6b26440bfe8c2bdeb147fa5330e20613d2487303",
@@ -11127,7 +11260,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-28T05:28:21.014256+00:00"
+        "case_processed_at": "2026-08-28T05:55:07.943780+00:00"
       },
       {
         "id": "1657c5c81c0430191d80b00bedee9f5640d19527",
@@ -11196,7 +11329,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-28T05:27:59.250885+00:00"
+        "case_processed_at": "2026-08-28T05:54:43.875297+00:00"
       },
       {
         "id": "c7dc36c86e1cea1d5fca7517adbceb0c472eeb0a",
@@ -11262,7 +11395,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-28T05:27:59.281812+00:00"
+        "case_processed_at": "2026-08-28T05:54:43.911197+00:00"
       },
       {
         "id": "9ee5751e54d3c0135176742ee894f1e7a2de75bb",
@@ -11336,7 +11469,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-28T05:28:21.014259+00:00"
+        "case_processed_at": "2026-08-28T05:55:07.943783+00:00"
       },
       {
         "id": "9f6ed69be33ddb3337da298b969c4a6621ecb086",
@@ -11415,7 +11548,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-28T05:28:21.014262+00:00"
+        "case_processed_at": "2026-08-28T05:55:07.943785+00:00"
       },
       {
         "id": "f7d97afff99a43d04ae6bec30449cf0f8b2e7ba3",
@@ -11482,7 +11615,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-28T05:28:21.014264+00:00"
+        "case_processed_at": "2026-08-28T05:55:07.943788+00:00"
       },
       {
         "id": "878ab702733ac9702e34d8cbe4d2e6c9d9b8fd5f",
@@ -11565,7 +11698,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-28T05:28:21.014267+00:00"
+        "case_processed_at": "2026-08-28T05:55:07.943791+00:00"
       },
       {
         "id": "15d07885b76a5fe70ad00791ec845e31e79aa838",
@@ -11634,7 +11767,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-28T05:27:59.314891+00:00"
+        "case_processed_at": "2026-08-28T05:54:43.949382+00:00"
       },
       {
         "id": "8e21c1b31fb39cd791b26a9aacd5bb93e3ca2d35",
@@ -11701,7 +11834,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-28T05:27:59.342393+00:00"
+        "case_processed_at": "2026-08-28T05:54:43.982054+00:00"
       },
       {
         "id": "fe158ca0f5867a46812ca726fb016079698c7c46",
@@ -11775,7 +11908,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-28T05:28:21.014270+00:00"
+        "case_processed_at": "2026-08-28T05:55:07.943794+00:00"
       },
       {
         "id": "3bc24ebb9b79ee0cb7407d689d1a8e1e6928b188",
@@ -11842,7 +11975,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-28T05:27:59.374514+00:00"
+        "case_processed_at": "2026-08-28T05:54:44.019591+00:00"
       },
       {
         "id": "be7813b398aa1a0bfff7eb398aa31aad11f38810",
@@ -11913,7 +12046,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-28T05:28:21.014273+00:00"
+        "case_processed_at": "2026-08-28T05:55:07.943797+00:00"
       },
       {
         "id": "65ed1be5fe668de8fd9df76deb0028a46f7c2a87",
@@ -11976,7 +12109,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-28T05:27:59.402703+00:00"
+        "case_processed_at": "2026-08-28T05:54:44.053128+00:00"
       },
       {
         "id": "bed640e5ab9d8f2253324497aa57e115d1ab593e",
@@ -12040,7 +12173,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-28T05:27:59.439753+00:00"
+        "case_processed_at": "2026-08-28T05:54:44.095609+00:00"
       },
       {
         "id": "39cba72f3901819696bd8ab9496a243ea6736b75",
@@ -12106,7 +12239,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-28T05:27:59.469028+00:00"
+        "case_processed_at": "2026-08-28T05:54:44.129505+00:00"
       },
       {
         "id": "73696611c701dcd34ca6459409288021cb821704",
@@ -12173,7 +12306,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-28T05:27:59.510009+00:00"
+        "case_processed_at": "2026-08-28T05:54:44.177164+00:00"
       },
       {
         "id": "50f6ebb6723afdb597549e366cffefe3e7bd7b72",
@@ -12240,7 +12373,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-28T05:27:59.546279+00:00"
+        "case_processed_at": "2026-08-28T05:54:44.218404+00:00"
       },
       {
         "id": "507cc84ea4c7b44d70a37488126eb485fb4aa54b",
@@ -12305,7 +12438,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-28T05:27:59.584952+00:00"
+        "case_processed_at": "2026-08-28T05:54:44.263031+00:00"
       },
       {
         "id": "7d7e7b4078e18fe9b2c7b618cad028c411a34268",
@@ -12372,7 +12505,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-28T05:27:59.620016+00:00"
+        "case_processed_at": "2026-08-28T05:54:44.303096+00:00"
       },
       {
         "id": "e202052cf6102eb35d955e7e8ca039c9865ab6f8",
@@ -12438,7 +12571,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-28T05:27:59.653040+00:00"
+        "case_processed_at": "2026-08-28T05:54:44.340882+00:00"
       },
       {
         "id": "adeba785a4753f4abd77b87df92775ed6964ae4e",
@@ -12512,7 +12645,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-28T05:28:21.014278+00:00"
+        "case_processed_at": "2026-08-28T05:55:07.943801+00:00"
       },
       {
         "id": "f5581885a1f97cc82c5b04233bcb45f147611f99",
@@ -12581,7 +12714,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-28T05:27:59.678137+00:00"
+        "case_processed_at": "2026-08-28T05:54:44.370488+00:00"
       },
       {
         "id": "313a0b52e80cb7ec5775da89e0b5166dbd875779",
@@ -12650,7 +12783,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-28T05:27:59.709147+00:00"
+        "case_processed_at": "2026-08-28T05:54:44.406440+00:00"
       },
       {
         "id": "a278bdb64c38188608acbee28c4e89041ad3fb07",
@@ -12718,7 +12851,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-28T05:27:59.738579+00:00"
+        "case_processed_at": "2026-08-28T05:54:44.440364+00:00"
       },
       {
         "id": "043d9057a76ecc1d927ebf412013888f990c676d",
@@ -12791,7 +12924,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-28T05:27:59.770188+00:00"
+        "case_processed_at": "2026-08-28T05:54:44.477389+00:00"
       },
       {
         "id": "b7e690570604e3c318206409ab670eaface2c9fd",
@@ -12871,7 +13004,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-28T05:28:21.014282+00:00"
+        "case_processed_at": "2026-08-28T05:55:07.943805+00:00"
       },
       {
         "id": "804e772a074d2dafefe321109f9f50229247a3b7",
@@ -12946,7 +13079,7 @@
           ]
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-28T05:28:21.014285+00:00"
+        "case_processed_at": "2026-08-28T05:55:07.943808+00:00"
       },
       {
         "id": "eadc47db8b089157bd3b724459cea4bc8b0fc0d6",
@@ -13018,7 +13151,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-28T05:28:21.014287+00:00"
+        "case_processed_at": "2026-08-28T05:55:07.943810+00:00"
       },
       {
         "id": "2206f72245608499261d005c8f2d81a2901a25e8",
@@ -13085,7 +13218,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-28T05:27:59.812422+00:00"
+        "case_processed_at": "2026-08-28T05:54:44.525386+00:00"
       },
       {
         "id": "9f67e4e95d3da6b73f8eb40167e50a5207aaf845",
@@ -13152,7 +13285,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-28T05:27:59.841927+00:00"
+        "case_processed_at": "2026-08-28T05:54:44.559737+00:00"
       },
       {
         "id": "93bda401f819b06b9dc92263a7dc3aed896107e1",
@@ -13220,7 +13353,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-28T05:27:59.875776+00:00"
+        "case_processed_at": "2026-08-28T05:54:44.599494+00:00"
       },
       {
         "id": "c4c98f786224fdc14ce6554d2094a0c10ba222c5",
@@ -13287,7 +13420,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-28T05:27:59.910051+00:00"
+        "case_processed_at": "2026-08-28T05:54:44.639129+00:00"
       },
       {
         "id": "c17c224b02bb79398cedd64f073ba36249c5e0c4",
@@ -13369,7 +13502,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-28T05:28:21.014290+00:00"
+        "case_processed_at": "2026-08-28T05:55:07.943813+00:00"
       },
       {
         "id": "9b7370aac020f0b8f72959386056451ef3511136",
@@ -13436,7 +13569,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-28T05:27:59.947606+00:00"
+        "case_processed_at": "2026-08-28T05:54:44.681846+00:00"
       },
       {
         "id": "645165d1adc6ecbd8d717232f88dadb028e235b2",
@@ -13504,7 +13637,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-28T05:27:59.978883+00:00"
+        "case_processed_at": "2026-08-28T05:54:44.717615+00:00"
       },
       {
         "id": "22084148b848b1cb3ded6edf0643678f80839530",
@@ -13578,7 +13711,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-28T05:28:00.017347+00:00"
+        "case_processed_at": "2026-08-28T05:54:44.761659+00:00"
       },
       {
         "id": "a5fc81c4ba1dc2642c681a5fcea84f84b4681931",
@@ -13657,7 +13790,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-28T05:28:21.014294+00:00"
+        "case_processed_at": "2026-08-28T05:55:07.943817+00:00"
       },
       {
         "id": "fc17c363c42ad98451db76c98e913b305e335de5",
@@ -13732,7 +13865,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-28T05:28:00.055950+00:00"
+        "case_processed_at": "2026-08-28T05:54:44.806173+00:00"
       },
       {
         "id": "a38d7a5064182573521002ed8f88a8656ceca62a",
@@ -13810,7 +13943,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-28T05:28:21.014296+00:00"
+        "case_processed_at": "2026-08-28T05:55:07.943819+00:00"
       },
       {
         "id": "8c0ee91df82bef836877292a799f8a7ffba9b1d4",
@@ -13877,7 +14010,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-28T05:28:21.014298+00:00"
+        "case_processed_at": "2026-08-28T05:55:07.943822+00:00"
       },
       {
         "id": "c5a97a1249e59836c3df609db3cd11e2d16af745",
@@ -13943,7 +14076,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-28T05:28:00.091157+00:00"
+        "case_processed_at": "2026-08-28T05:54:44.846988+00:00"
       },
       {
         "id": "01969326dc4f43a6c8585e72390f820597cd1352",
@@ -14021,7 +14154,7 @@
           ]
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-28T05:28:00.117549+00:00"
+        "case_processed_at": "2026-08-28T05:54:44.877150+00:00"
       },
       {
         "id": "ec4166336988212ed3eaaa4bd02494847bd1ec87",
@@ -14086,7 +14219,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-28T05:28:00.149564+00:00"
+        "case_processed_at": "2026-08-28T05:54:44.914388+00:00"
       },
       {
         "id": "cb3779013d16b6d02d2b99d98a3f7bed968efbcc",
@@ -14168,7 +14301,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-28T05:28:21.014302+00:00"
+        "case_processed_at": "2026-08-28T05:55:07.943825+00:00"
       },
       {
         "id": "ff390979eed6453dccaddababfec1a78e739c396",
@@ -14235,7 +14368,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-28T05:28:00.181359+00:00"
+        "case_processed_at": "2026-08-28T05:54:44.951424+00:00"
       },
       {
         "id": "a7e3f35ebd910a23b3092c72be4d43424fca7c87",
@@ -14303,7 +14436,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-28T05:28:00.218576+00:00"
+        "case_processed_at": "2026-08-28T05:54:44.994047+00:00"
       },
       {
         "id": "5018c5b534b3762b4dda1067eb22cd01823a2f4f",
@@ -14369,7 +14502,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-28T05:28:00.256557+00:00"
+        "case_processed_at": "2026-08-28T05:54:45.037241+00:00"
       },
       {
         "id": "b3da8672192e70a96dd4e7c0c74b644b7ea87cae",
@@ -14436,7 +14569,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-28T05:28:00.283230+00:00"
+        "case_processed_at": "2026-08-28T05:54:45.068600+00:00"
       },
       {
         "id": "b303d1153980df50e0a110eaf2ac1eb9666a40ef",
@@ -14501,7 +14634,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-28T05:28:00.319051+00:00"
+        "case_processed_at": "2026-08-28T05:54:45.110013+00:00"
       },
       {
         "id": "8ded833736c26d5ab5ad7047edcc900d2bb15a67",
@@ -14568,7 +14701,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-28T05:28:00.346828+00:00"
+        "case_processed_at": "2026-08-28T05:54:45.142406+00:00"
       },
       {
         "id": "0196433cbacf0f8e3915cc98d3a07033b17bd37e",
@@ -14652,7 +14785,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-28T05:28:21.014306+00:00"
+        "case_processed_at": "2026-08-28T05:55:07.943829+00:00"
       },
       {
         "id": "e7a14bfc154f25643ece4bf1043d396541dd916d",
@@ -14718,7 +14851,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-28T05:28:00.377779+00:00"
+        "case_processed_at": "2026-08-28T05:54:45.178582+00:00"
       },
       {
         "id": "b30c3e543afe22d84a606f25f45fe52e9963d6e2",
@@ -14785,7 +14918,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-28T05:28:00.408141+00:00"
+        "case_processed_at": "2026-08-28T05:54:45.214124+00:00"
       },
       {
         "id": "796bf5f939ae367acf02524694ad40bd94c9ba1b",
@@ -14851,7 +14984,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-28T05:28:00.435113+00:00"
+        "case_processed_at": "2026-08-28T05:54:45.245292+00:00"
       },
       {
         "id": "8fb5b722015938938b6199658b53372829286a67",
@@ -14916,7 +15049,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-28T05:28:00.469887+00:00"
+        "case_processed_at": "2026-08-28T05:54:45.285555+00:00"
       },
       {
         "id": "c33eaa2814bb7f11d1e51ebce2580d46855ec88f",
@@ -14993,7 +15126,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-28T05:28:21.014311+00:00"
+        "case_processed_at": "2026-08-28T05:55:07.943832+00:00"
       },
       {
         "id": "581520104d18484330e773a3815fcd451a51df92",
@@ -15059,7 +15192,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-28T05:28:00.496029+00:00"
+        "case_processed_at": "2026-08-28T05:54:45.315514+00:00"
       },
       {
         "id": "604468a9f11854b3d33121ff1fd906a649a351db",
@@ -15125,7 +15258,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-28T05:28:00.521045+00:00"
+        "case_processed_at": "2026-08-28T05:54:45.343977+00:00"
       },
       {
         "id": "a8a1d3a5abc55a6cbead09a224884662663e9ed8",
@@ -15191,7 +15324,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-28T05:28:00.545873+00:00"
+        "case_processed_at": "2026-08-28T05:54:45.372325+00:00"
       },
       {
         "id": "63ee5e53d1d2a50fb6ae632b8de2c36e576d194d",
@@ -15261,7 +15394,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-28T05:28:00.570459+00:00"
+        "case_processed_at": "2026-08-28T05:54:45.400465+00:00"
       },
       {
         "id": "7e4a4bf5c0d5950acc4b4733ba7357e4d8eaa053",
@@ -15331,7 +15464,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-28T05:28:00.595069+00:00"
+        "case_processed_at": "2026-08-28T05:54:45.428668+00:00"
       },
       {
         "id": "9f1911206aac15e36e84385efdc4bb6df11171dd",
@@ -15401,7 +15534,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-28T05:28:00.637880+00:00"
+        "case_processed_at": "2026-08-28T05:54:45.478365+00:00"
       },
       {
         "id": "2f8f6c9bce726578ca0f7bd9d418c18db9ddc090",
@@ -15471,7 +15604,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-28T05:28:00.680799+00:00"
+        "case_processed_at": "2026-08-28T05:54:45.527975+00:00"
       },
       {
         "id": "e12afaa970b343112d9ea535458edbd02b424e1d",
@@ -15549,7 +15682,7 @@
           ]
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-28T05:28:21.014316+00:00"
+        "case_processed_at": "2026-08-28T05:55:07.943836+00:00"
       },
       {
         "id": "c51be4ab1df8c3f0535c72b617f388648279639d",
@@ -15614,7 +15747,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-28T05:28:00.728766+00:00"
+        "case_processed_at": "2026-08-28T05:54:45.582944+00:00"
       },
       {
         "id": "165db9c3c3870ced3dea321e69408a28ed104cc7",
@@ -15681,7 +15814,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-28T05:28:00.758160+00:00"
+        "case_processed_at": "2026-08-28T05:54:45.616684+00:00"
       },
       {
         "id": "f1c2a5bda5168f9d48172a4c596d7c9fc4745ca0",
@@ -15748,7 +15881,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-28T05:28:00.793683+00:00"
+        "case_processed_at": "2026-08-28T05:54:45.658288+00:00"
       },
       {
         "id": "2e8047af1264e161b1a09ce5f91d77852da82f25",
@@ -15814,7 +15947,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-28T05:28:00.824308+00:00"
+        "case_processed_at": "2026-08-28T05:54:45.693393+00:00"
       },
       {
         "id": "91d74806aeede7297cb3c68015ff47124aae0692",
@@ -15883,7 +16016,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-28T05:28:00.858606+00:00"
+        "case_processed_at": "2026-08-28T05:54:45.733245+00:00"
       },
       {
         "id": "fd6bc9053018426880211b04be8a63efecdc6e4e",
@@ -15950,7 +16083,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-28T05:28:21.014321+00:00"
+        "case_processed_at": "2026-08-28T05:55:07.943840+00:00"
       },
       {
         "id": "04b915ae5eeb6e6ac6f6380b1ca8904c254dce9c",
@@ -16016,7 +16149,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-28T05:28:00.894423+00:00"
+        "case_processed_at": "2026-08-28T05:54:45.774206+00:00"
       },
       {
         "id": "17553cc2cbf0f29a3df1375e6244bf69fc576c7a",
@@ -16092,7 +16225,7 @@
           ]
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-28T05:28:21.014324+00:00"
+        "case_processed_at": "2026-08-28T05:55:07.943844+00:00"
       },
       {
         "id": "f9478a613632bc210989b22247bf51125e4fac46",
@@ -16159,7 +16292,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-28T05:28:00.923861+00:00"
+        "case_processed_at": "2026-08-28T05:54:45.808271+00:00"
       },
       {
         "id": "874854e40c08466b1a479a9c10de7611e531cef3",
@@ -16224,7 +16357,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-28T05:28:00.955461+00:00"
+        "case_processed_at": "2026-08-28T05:54:45.844757+00:00"
       },
       {
         "id": "cde5261ebea76646c215ede696bc65ee1f0f9879",
@@ -16289,7 +16422,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-28T05:28:21.014327+00:00"
+        "case_processed_at": "2026-08-28T05:55:07.943846+00:00"
       },
       {
         "id": "7049a174da92fa855e16d8d91381064cbba283a3",
@@ -16377,7 +16510,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-28T05:28:21.014329+00:00"
+        "case_processed_at": "2026-08-28T05:55:07.943849+00:00"
       },
       {
         "id": "ddba72164ef44cb66c03b493dfac9a4b96b8d900",
@@ -16442,7 +16575,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-28T05:28:00.982815+00:00"
+        "case_processed_at": "2026-08-28T05:54:45.876740+00:00"
       },
       {
         "id": "1255eef1f90d0559fe5c4a021c26ffe0a15f1a34",
@@ -16507,7 +16640,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-28T05:28:01.018442+00:00"
+        "case_processed_at": "2026-08-28T05:54:45.917838+00:00"
       },
       {
         "id": "a8820587ef005ac5fd6ac0d11a3407e78fba192c",
@@ -16577,7 +16710,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-28T05:28:21.014332+00:00"
+        "case_processed_at": "2026-08-28T05:55:07.943852+00:00"
       },
       {
         "id": "10a0adbde63896140e1513ddd602f321cbc5d725",
@@ -16648,7 +16781,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-28T05:28:01.056441+00:00"
+        "case_processed_at": "2026-08-28T05:54:45.961753+00:00"
       },
       {
         "id": "3dd5c3b005d4ce5aee1a38170d85d840596b2b4e",
@@ -16715,7 +16848,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-28T05:28:01.092671+00:00"
+        "case_processed_at": "2026-08-28T05:54:46.003883+00:00"
       },
       {
         "id": "bed4999d373ed8b4c8fde67aca23ef5a2d1ab26e",
@@ -16781,7 +16914,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-28T05:28:01.124564+00:00"
+        "case_processed_at": "2026-08-28T05:54:46.040163+00:00"
       }
     ],
     "jatim_items": [
@@ -16861,7 +16994,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-28T05:28:21.014142+00:00"
+        "case_processed_at": "2026-08-28T05:55:07.943664+00:00"
       },
       {
         "id": "80f7084d3dc806b334b1140e38ed622cebcdc83f",
@@ -16927,7 +17060,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-28T05:27:55.053161+00:00"
+        "case_processed_at": "2026-08-28T05:54:39.030377+00:00"
       },
       {
         "id": "165f277519a299da33cfa8a6c7a28146505e8491",
@@ -16994,7 +17127,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-28T05:27:55.122339+00:00"
+        "case_processed_at": "2026-08-28T05:54:39.109714+00:00"
       },
       {
         "id": "426f535c005746d8f3a1c6db466353e1cc8be7d6",
@@ -17060,7 +17193,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-28T05:27:55.148001+00:00"
+        "case_processed_at": "2026-08-28T05:54:39.139866+00:00"
       },
       {
         "id": "aa87b034242d12dcd885045f8c6223049f8d5e61",
@@ -17138,7 +17271,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-28T05:27:55.176761+00:00"
+        "case_processed_at": "2026-08-28T05:54:39.172632+00:00"
       },
       {
         "id": "e851ba60006b86304cd980dbbab2a17bd5795836",
@@ -17206,7 +17339,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-28T05:27:55.233913+00:00"
+        "case_processed_at": "2026-08-28T05:54:39.238644+00:00"
       },
       {
         "id": "8eed3b47f4f6410afcb25f13231d355e875c4841",
@@ -17272,7 +17405,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-28T05:27:55.313111+00:00"
+        "case_processed_at": "2026-08-28T05:54:39.331073+00:00"
       },
       {
         "id": "6f65280cd48749c8c0fabc9b6428e36bb7daa4b0",
@@ -17342,7 +17475,7 @@
           ]
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-28T05:27:55.348800+00:00"
+        "case_processed_at": "2026-08-28T05:54:39.371596+00:00"
       },
       {
         "id": "e8967a250a062cf1137dd5d3fe1b578ee9f76675",
@@ -17410,7 +17543,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-28T05:27:55.386756+00:00"
+        "case_processed_at": "2026-08-28T05:54:39.415105+00:00"
       },
       {
         "id": "f49c3d389103108725a881cd0d28dc280e018b25",
@@ -17476,7 +17609,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-28T05:28:21.014153+00:00"
+        "case_processed_at": "2026-08-28T05:55:07.943673+00:00"
       },
       {
         "id": "c07cf41c94010ca10dacca73ed80da90eba45560",
@@ -17542,7 +17675,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-28T05:27:55.483396+00:00"
+        "case_processed_at": "2026-08-28T05:54:39.526606+00:00"
       },
       {
         "id": "4eb7886144038b037b65a69d089540a4c3d699e3",
@@ -17608,7 +17741,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-28T05:27:55.510117+00:00"
+        "case_processed_at": "2026-08-28T05:54:39.556974+00:00"
       },
       {
         "id": "1e5b7184821a0aa08a781c4b319bcf2688d9314f",
@@ -17677,7 +17810,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-28T05:27:55.554765+00:00"
+        "case_processed_at": "2026-08-28T05:54:39.607534+00:00"
       },
       {
         "id": "1ae4da2b279a0818dfea767abef3e42733076483",
@@ -17744,7 +17877,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-28T05:27:55.847811+00:00"
+        "case_processed_at": "2026-08-28T05:54:39.946504+00:00"
       },
       {
         "id": "e42362782c78f1d9dfaca3618dffc742b9af9dab",
@@ -17821,7 +17954,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-28T05:28:21.014163+00:00"
+        "case_processed_at": "2026-08-28T05:55:07.943682+00:00"
       },
       {
         "id": "ff962da0b05b583edd6dc06fe1361e68a6974f97",
@@ -17888,7 +18021,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-28T05:27:55.914098+00:00"
+        "case_processed_at": "2026-08-28T05:54:40.024465+00:00"
       },
       {
         "id": "0de6f5a99df84126832450298dc8d2a118b4c8f3",
@@ -17954,7 +18087,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-28T05:27:56.007820+00:00"
+        "case_processed_at": "2026-08-28T05:54:40.132529+00:00"
       },
       {
         "id": "ee8643bbaaac2cddeeec8098f9da0cddeb31279c",
@@ -18022,7 +18155,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-28T05:27:56.032455+00:00"
+        "case_processed_at": "2026-08-28T05:54:40.160612+00:00"
       },
       {
         "id": "ba657dd4b8a2912e368956eeac8d07ed9290340b",
@@ -18098,7 +18231,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-28T05:28:21.014167+00:00"
+        "case_processed_at": "2026-08-28T05:55:07.943686+00:00"
       },
       {
         "id": "3c8342126f97d0df9c6a7ede0c0841129c6ec43f",
@@ -18174,7 +18307,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-28T05:28:21.014169+00:00"
+        "case_processed_at": "2026-08-28T05:55:07.943689+00:00"
       },
       {
         "id": "5aba3c3049577e28afb3970a2a23bac35fda5b7e",
@@ -18252,7 +18385,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-28T05:28:21.014171+00:00"
+        "case_processed_at": "2026-08-28T05:55:07.943692+00:00"
       },
       {
         "id": "538969b47fac9b76cc039c6c91783b3200aeb3e9",
@@ -18318,7 +18451,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-28T05:27:56.090314+00:00"
+        "case_processed_at": "2026-08-28T05:54:40.227499+00:00"
       },
       {
         "id": "10b0889ea1b5c4fc9e73de3511ea6854bb6ad447",
@@ -18401,7 +18534,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-28T05:28:21.014174+00:00"
+        "case_processed_at": "2026-08-28T05:55:07.943695+00:00"
       },
       {
         "id": "2e1fcd52cf326b4de7537f96232dc3eb0d4e9fb5",
@@ -18467,7 +18600,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-28T05:27:56.205423+00:00"
+        "case_processed_at": "2026-08-28T05:54:40.359908+00:00"
       },
       {
         "id": "454fb9ce93780ef2652562aa7f023f15f54389e7",
@@ -18535,7 +18668,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-28T05:27:56.274645+00:00"
+        "case_processed_at": "2026-08-28T05:54:40.440168+00:00"
       },
       {
         "id": "bd57a0b8365df8b9fe03028d5554ef6c1f104c14",
@@ -18601,7 +18734,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-28T05:27:56.364229+00:00"
+        "case_processed_at": "2026-08-28T05:54:40.543346+00:00"
       },
       {
         "id": "6be2e1c16f5034180d8c1cfdf8aa4df24abbf4b8",
@@ -18667,7 +18800,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-28T05:27:56.434654+00:00"
+        "case_processed_at": "2026-08-28T05:54:40.623079+00:00"
       },
       {
         "id": "08b88ca4fd491d5a5c30751df0b7fa19263ddf84",
@@ -18732,7 +18865,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-28T05:27:56.537157+00:00"
+        "case_processed_at": "2026-08-28T05:54:40.741013+00:00"
       },
       {
         "id": "450b88c4c8da35c2912a56d7596ee875f6f37411",
@@ -18810,7 +18943,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-28T05:28:21.014186+00:00"
+        "case_processed_at": "2026-08-28T05:55:07.943707+00:00"
       },
       {
         "id": "f47e3f8593c57301c5bd2c4978672ef130c87aa0",
@@ -18878,7 +19011,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-28T05:27:56.673829+00:00"
+        "case_processed_at": "2026-08-28T05:54:40.898386+00:00"
       },
       {
         "id": "9998f68645e38091937ffbba020d74c3236057b7",
@@ -18943,7 +19076,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-28T05:27:56.708313+00:00"
+        "case_processed_at": "2026-08-28T05:54:40.938173+00:00"
       },
       {
         "id": "7619b82e64c5d533f5d984ee5fc857add69e7c28",
@@ -19010,7 +19143,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-28T05:27:56.750066+00:00"
+        "case_processed_at": "2026-08-28T05:54:40.986679+00:00"
       },
       {
         "id": "f923c2cd9728bdf010fc49b047f27e42427de1ee",
@@ -19076,7 +19209,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-28T05:27:56.782374+00:00"
+        "case_processed_at": "2026-08-28T05:54:41.023412+00:00"
       },
       {
         "id": "d70a68bf5ec77e2095e3c6734151f58e3d2ea1e3",
@@ -19142,7 +19275,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-28T05:27:57.426878+00:00"
+        "case_processed_at": "2026-08-28T05:54:41.764182+00:00"
       },
       {
         "id": "277d466724bdd55200d12992a95b473e13eb0797",
@@ -19210,7 +19343,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-28T05:27:57.465289+00:00"
+        "case_processed_at": "2026-08-28T05:54:41.807377+00:00"
       },
       {
         "id": "5993d96de88cc36613008bd6e2866424cede59e9",
@@ -19277,7 +19410,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-28T05:27:57.493140+00:00"
+        "case_processed_at": "2026-08-28T05:54:41.839979+00:00"
       },
       {
         "id": "715ac21e1ab71ffbf811f359cf5409e73f2fca2d",
@@ -19343,7 +19476,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-28T05:27:57.554907+00:00"
+        "case_processed_at": "2026-08-28T05:54:41.911034+00:00"
       },
       {
         "id": "f73a9ee607402345ffe98f199f6a382ee6a55a19",
@@ -19409,7 +19542,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-28T05:27:57.627867+00:00"
+        "case_processed_at": "2026-08-28T05:54:41.994860+00:00"
       },
       {
         "id": "8fc64ff025f1048716a79b2a9c569ba78d7def92",
@@ -19483,7 +19616,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-28T05:27:57.774045+00:00"
+        "case_processed_at": "2026-08-28T05:54:42.163959+00:00"
       },
       {
         "id": "5790b2576afa5007e49608af3b8a171c693141fc",
@@ -19549,7 +19682,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-28T05:27:57.900357+00:00"
+        "case_processed_at": "2026-08-28T05:54:42.308513+00:00"
       },
       {
         "id": "ce51b97a2e2b32cbb947efbf5057a015331fe72c",
@@ -19614,7 +19747,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-28T05:27:57.923732+00:00"
+        "case_processed_at": "2026-08-28T05:54:42.336462+00:00"
       },
       {
         "id": "cc48e7a50679c68110ffb1165a77dcaf60eb5168",
@@ -19688,7 +19821,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-28T05:28:21.014215+00:00"
+        "case_processed_at": "2026-08-28T05:55:07.943738+00:00"
       },
       {
         "id": "f32f02da332e3f0236f584712c5297a50b80ab89",
@@ -19755,7 +19888,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-28T05:27:58.036083+00:00"
+        "case_processed_at": "2026-08-28T05:54:42.467860+00:00"
       },
       {
         "id": "2ce2c161dcbc57a53c310776f75411ba453799e8",
@@ -19821,7 +19954,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-28T05:27:58.123656+00:00"
+        "case_processed_at": "2026-08-28T05:54:42.570535+00:00"
       },
       {
         "id": "914d6e6c8737dc16e361a3e289547fad9ec9d53a",
@@ -19887,7 +20020,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-28T05:27:58.161803+00:00"
+        "case_processed_at": "2026-08-28T05:54:42.614392+00:00"
       },
       {
         "id": "412cf51f0a6985219ba9cc2ce3444def1b21a1ba",
@@ -19955,7 +20088,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-28T05:27:58.227940+00:00"
+        "case_processed_at": "2026-08-28T05:54:42.691175+00:00"
       },
       {
         "id": "d6b6e6b1e9311d839673c22eeab8713627d4b679",
@@ -20029,7 +20162,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-28T05:27:58.319027+00:00"
+        "case_processed_at": "2026-08-28T05:54:42.796856+00:00"
       },
       {
         "id": "5d5ffecac4974b72437a490178788e8f5d3afb95",
@@ -20099,7 +20232,7 @@
           ]
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-28T05:27:58.345787+00:00"
+        "case_processed_at": "2026-08-28T05:54:42.827667+00:00"
       },
       {
         "id": "7b693013cf5ecad6ffb8780b0cf77184222d2798",
@@ -20172,7 +20305,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-28T05:27:58.377402+00:00"
+        "case_processed_at": "2026-08-28T05:54:42.865144+00:00"
       },
       {
         "id": "c2ce24a716598e9c630f5553b51c7e652a470dd6",
@@ -20258,7 +20391,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-28T05:28:21.014222+00:00"
+        "case_processed_at": "2026-08-28T05:55:07.943745+00:00"
       },
       {
         "id": "910517b6e4aaec8074dafc0211b8e6391a70a297",
@@ -20324,7 +20457,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-28T05:27:58.410304+00:00"
+        "case_processed_at": "2026-08-28T05:54:42.902807+00:00"
       },
       {
         "id": "d8db30e67b52cc4311654e3a65e3b770672d176c",
@@ -20389,7 +20522,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-28T05:27:58.440527+00:00"
+        "case_processed_at": "2026-08-28T05:54:42.937496+00:00"
       },
       {
         "id": "6e41f76f5da8cdcc83fa02545b7ce47eedf2701f",
@@ -20467,7 +20600,7 @@
           ]
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-28T05:28:21.014226+00:00"
+        "case_processed_at": "2026-08-28T05:55:07.943748+00:00"
       },
       {
         "id": "fb9924a4ba78c04d59d2ea99f27dea667f585e92",
@@ -20533,7 +20666,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-28T05:27:58.505817+00:00"
+        "case_processed_at": "2026-08-28T05:54:43.012869+00:00"
       },
       {
         "id": "647ff2f82b459d02fa5b2990f02d4aa4fb808db1",
@@ -20599,7 +20732,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-28T05:27:58.535980+00:00"
+        "case_processed_at": "2026-08-28T05:54:43.047101+00:00"
       },
       {
         "id": "4343be8fd2dd18d693b95472926504e30349db52",
@@ -20666,7 +20799,7 @@
           ]
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-28T05:28:21.014232+00:00"
+        "case_processed_at": "2026-08-28T05:55:07.943755+00:00"
       },
       {
         "id": "68fe78a848f35b7ec319edf74311e664ad628601",
@@ -20736,7 +20869,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-28T05:27:58.639394+00:00"
+        "case_processed_at": "2026-08-28T05:54:43.165131+00:00"
       },
       {
         "id": "6f25abf938620cbd2167df7798b8f31ab82634be",
@@ -20802,7 +20935,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-28T05:27:58.726889+00:00"
+        "case_processed_at": "2026-08-28T05:54:43.267321+00:00"
       },
       {
         "id": "aa6a42da19980d52a87684ed3d873026f899b6c5",
@@ -20880,7 +21013,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-28T05:28:21.014238+00:00"
+        "case_processed_at": "2026-08-28T05:55:07.943762+00:00"
       },
       {
         "id": "a00e30cbb74d4abc1d90ab37dac3ca7c52e50239",
@@ -20946,7 +21079,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-28T05:27:58.753754+00:00"
+        "case_processed_at": "2026-08-28T05:54:43.298237+00:00"
       },
       {
         "id": "4e1bf52ea699368a2a7d78d659e810eb83b3efe3",
@@ -21012,7 +21145,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-28T05:27:58.781546+00:00"
+        "case_processed_at": "2026-08-28T05:54:43.330138+00:00"
       },
       {
         "id": "6828400bc45bb689d1f0f53d9bd66f07c5590be1",
@@ -21078,7 +21211,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-28T05:27:58.844223+00:00"
+        "case_processed_at": "2026-08-28T05:54:43.402284+00:00"
       },
       {
         "id": "969c866d5ecde347c5e077ec8645872969ec4997",
@@ -21145,7 +21278,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-28T05:27:58.946630+00:00"
+        "case_processed_at": "2026-08-28T05:54:43.521147+00:00"
       },
       {
         "id": "16366adf73ecdaed1240db2e614c45543d135c09",
@@ -21221,7 +21354,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-28T05:28:21.014252+00:00"
+        "case_processed_at": "2026-08-28T05:55:07.943775+00:00"
       },
       {
         "id": "8101f4940e80c3857ac4e0687a4746b36f9a2ed4",
@@ -21291,7 +21424,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-28T05:27:59.046864+00:00"
+        "case_processed_at": "2026-08-28T05:54:43.637505+00:00"
       },
       {
         "id": "a923fb85560de1be6d3979867806611cfa790fed",
@@ -21357,7 +21490,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-28T05:27:59.082857+00:00"
+        "case_processed_at": "2026-08-28T05:54:43.678699+00:00"
       },
       {
         "id": "f226238ed9ccc02f7a4d2cad53f62c55cb1ad26a",
@@ -21423,7 +21556,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-28T05:27:59.128005+00:00"
+        "case_processed_at": "2026-08-28T05:54:43.730747+00:00"
       },
       {
         "id": "c7dc36c86e1cea1d5fca7517adbceb0c472eeb0a",
@@ -21489,7 +21622,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-28T05:27:59.281812+00:00"
+        "case_processed_at": "2026-08-28T05:54:43.911197+00:00"
       },
       {
         "id": "9ee5751e54d3c0135176742ee894f1e7a2de75bb",
@@ -21563,7 +21696,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-28T05:28:21.014259+00:00"
+        "case_processed_at": "2026-08-28T05:55:07.943783+00:00"
       },
       {
         "id": "9f6ed69be33ddb3337da298b969c4a6621ecb086",
@@ -21642,7 +21775,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-28T05:28:21.014262+00:00"
+        "case_processed_at": "2026-08-28T05:55:07.943785+00:00"
       },
       {
         "id": "39cba72f3901819696bd8ab9496a243ea6736b75",
@@ -21708,7 +21841,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-28T05:27:59.469028+00:00"
+        "case_processed_at": "2026-08-28T05:54:44.129505+00:00"
       },
       {
         "id": "73696611c701dcd34ca6459409288021cb821704",
@@ -21775,7 +21908,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-28T05:27:59.510009+00:00"
+        "case_processed_at": "2026-08-28T05:54:44.177164+00:00"
       },
       {
         "id": "50f6ebb6723afdb597549e366cffefe3e7bd7b72",
@@ -21842,7 +21975,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-28T05:27:59.546279+00:00"
+        "case_processed_at": "2026-08-28T05:54:44.218404+00:00"
       },
       {
         "id": "e202052cf6102eb35d955e7e8ca039c9865ab6f8",
@@ -21908,7 +22041,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-28T05:27:59.653040+00:00"
+        "case_processed_at": "2026-08-28T05:54:44.340882+00:00"
       },
       {
         "id": "f5581885a1f97cc82c5b04233bcb45f147611f99",
@@ -21977,7 +22110,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-28T05:27:59.678137+00:00"
+        "case_processed_at": "2026-08-28T05:54:44.370488+00:00"
       },
       {
         "id": "a278bdb64c38188608acbee28c4e89041ad3fb07",
@@ -22045,7 +22178,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-28T05:27:59.738579+00:00"
+        "case_processed_at": "2026-08-28T05:54:44.440364+00:00"
       },
       {
         "id": "804e772a074d2dafefe321109f9f50229247a3b7",
@@ -22120,7 +22253,7 @@
           ]
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-28T05:28:21.014285+00:00"
+        "case_processed_at": "2026-08-28T05:55:07.943808+00:00"
       },
       {
         "id": "2206f72245608499261d005c8f2d81a2901a25e8",
@@ -22187,7 +22320,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-28T05:27:59.812422+00:00"
+        "case_processed_at": "2026-08-28T05:54:44.525386+00:00"
       },
       {
         "id": "9f67e4e95d3da6b73f8eb40167e50a5207aaf845",
@@ -22254,7 +22387,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-28T05:27:59.841927+00:00"
+        "case_processed_at": "2026-08-28T05:54:44.559737+00:00"
       },
       {
         "id": "93bda401f819b06b9dc92263a7dc3aed896107e1",
@@ -22322,7 +22455,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-28T05:27:59.875776+00:00"
+        "case_processed_at": "2026-08-28T05:54:44.599494+00:00"
       },
       {
         "id": "645165d1adc6ecbd8d717232f88dadb028e235b2",
@@ -22390,7 +22523,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-28T05:27:59.978883+00:00"
+        "case_processed_at": "2026-08-28T05:54:44.717615+00:00"
       },
       {
         "id": "22084148b848b1cb3ded6edf0643678f80839530",
@@ -22464,7 +22597,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-28T05:28:00.017347+00:00"
+        "case_processed_at": "2026-08-28T05:54:44.761659+00:00"
       },
       {
         "id": "a5fc81c4ba1dc2642c681a5fcea84f84b4681931",
@@ -22543,7 +22676,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-28T05:28:21.014294+00:00"
+        "case_processed_at": "2026-08-28T05:55:07.943817+00:00"
       },
       {
         "id": "fc17c363c42ad98451db76c98e913b305e335de5",
@@ -22618,7 +22751,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-28T05:28:00.055950+00:00"
+        "case_processed_at": "2026-08-28T05:54:44.806173+00:00"
       },
       {
         "id": "a38d7a5064182573521002ed8f88a8656ceca62a",
@@ -22696,7 +22829,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-28T05:28:21.014296+00:00"
+        "case_processed_at": "2026-08-28T05:55:07.943819+00:00"
       },
       {
         "id": "c5a97a1249e59836c3df609db3cd11e2d16af745",
@@ -22762,7 +22895,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-28T05:28:00.091157+00:00"
+        "case_processed_at": "2026-08-28T05:54:44.846988+00:00"
       },
       {
         "id": "01969326dc4f43a6c8585e72390f820597cd1352",
@@ -22840,7 +22973,7 @@
           ]
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-28T05:28:00.117549+00:00"
+        "case_processed_at": "2026-08-28T05:54:44.877150+00:00"
       },
       {
         "id": "ec4166336988212ed3eaaa4bd02494847bd1ec87",
@@ -22905,7 +23038,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-28T05:28:00.149564+00:00"
+        "case_processed_at": "2026-08-28T05:54:44.914388+00:00"
       },
       {
         "id": "cb3779013d16b6d02d2b99d98a3f7bed968efbcc",
@@ -22987,7 +23120,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-28T05:28:21.014302+00:00"
+        "case_processed_at": "2026-08-28T05:55:07.943825+00:00"
       },
       {
         "id": "a7e3f35ebd910a23b3092c72be4d43424fca7c87",
@@ -23055,7 +23188,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-28T05:28:00.218576+00:00"
+        "case_processed_at": "2026-08-28T05:54:44.994047+00:00"
       },
       {
         "id": "5018c5b534b3762b4dda1067eb22cd01823a2f4f",
@@ -23121,7 +23254,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-28T05:28:00.256557+00:00"
+        "case_processed_at": "2026-08-28T05:54:45.037241+00:00"
       },
       {
         "id": "796bf5f939ae367acf02524694ad40bd94c9ba1b",
@@ -23187,7 +23320,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-28T05:28:00.435113+00:00"
+        "case_processed_at": "2026-08-28T05:54:45.245292+00:00"
       },
       {
         "id": "8fb5b722015938938b6199658b53372829286a67",
@@ -23252,7 +23385,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-28T05:28:00.469887+00:00"
+        "case_processed_at": "2026-08-28T05:54:45.285555+00:00"
       },
       {
         "id": "c33eaa2814bb7f11d1e51ebce2580d46855ec88f",
@@ -23329,7 +23462,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-28T05:28:21.014311+00:00"
+        "case_processed_at": "2026-08-28T05:55:07.943832+00:00"
       },
       {
         "id": "581520104d18484330e773a3815fcd451a51df92",
@@ -23395,7 +23528,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-28T05:28:00.496029+00:00"
+        "case_processed_at": "2026-08-28T05:54:45.315514+00:00"
       },
       {
         "id": "604468a9f11854b3d33121ff1fd906a649a351db",
@@ -23461,7 +23594,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-28T05:28:00.521045+00:00"
+        "case_processed_at": "2026-08-28T05:54:45.343977+00:00"
       },
       {
         "id": "a8a1d3a5abc55a6cbead09a224884662663e9ed8",
@@ -23527,7 +23660,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-28T05:28:00.545873+00:00"
+        "case_processed_at": "2026-08-28T05:54:45.372325+00:00"
       },
       {
         "id": "63ee5e53d1d2a50fb6ae632b8de2c36e576d194d",
@@ -23597,7 +23730,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-28T05:28:00.570459+00:00"
+        "case_processed_at": "2026-08-28T05:54:45.400465+00:00"
       },
       {
         "id": "7e4a4bf5c0d5950acc4b4733ba7357e4d8eaa053",
@@ -23667,7 +23800,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-28T05:28:00.595069+00:00"
+        "case_processed_at": "2026-08-28T05:54:45.428668+00:00"
       },
       {
         "id": "9f1911206aac15e36e84385efdc4bb6df11171dd",
@@ -23737,7 +23870,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-28T05:28:00.637880+00:00"
+        "case_processed_at": "2026-08-28T05:54:45.478365+00:00"
       },
       {
         "id": "2f8f6c9bce726578ca0f7bd9d418c18db9ddc090",
@@ -23807,7 +23940,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-28T05:28:00.680799+00:00"
+        "case_processed_at": "2026-08-28T05:54:45.527975+00:00"
       },
       {
         "id": "e12afaa970b343112d9ea535458edbd02b424e1d",
@@ -23885,7 +24018,7 @@
           ]
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-28T05:28:21.014316+00:00"
+        "case_processed_at": "2026-08-28T05:55:07.943836+00:00"
       },
       {
         "id": "c51be4ab1df8c3f0535c72b617f388648279639d",
@@ -23950,7 +24083,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-28T05:28:00.728766+00:00"
+        "case_processed_at": "2026-08-28T05:54:45.582944+00:00"
       },
       {
         "id": "2e8047af1264e161b1a09ce5f91d77852da82f25",
@@ -24016,7 +24149,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-28T05:28:00.824308+00:00"
+        "case_processed_at": "2026-08-28T05:54:45.693393+00:00"
       },
       {
         "id": "04b915ae5eeb6e6ac6f6380b1ca8904c254dce9c",
@@ -24082,7 +24215,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-28T05:28:00.894423+00:00"
+        "case_processed_at": "2026-08-28T05:54:45.774206+00:00"
       },
       {
         "id": "17553cc2cbf0f29a3df1375e6244bf69fc576c7a",
@@ -24158,7 +24291,7 @@
           ]
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-28T05:28:21.014324+00:00"
+        "case_processed_at": "2026-08-28T05:55:07.943844+00:00"
       },
       {
         "id": "874854e40c08466b1a479a9c10de7611e531cef3",
@@ -24223,7 +24356,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-28T05:28:00.955461+00:00"
+        "case_processed_at": "2026-08-28T05:54:45.844757+00:00"
       },
       {
         "id": "1255eef1f90d0559fe5c4a021c26ffe0a15f1a34",
@@ -24288,7 +24421,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-28T05:28:01.018442+00:00"
+        "case_processed_at": "2026-08-28T05:54:45.917838+00:00"
       },
       {
         "id": "bed4999d373ed8b4c8fde67aca23ef5a2d1ab26e",
@@ -24354,10 +24487,141 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-28T05:28:01.124564+00:00"
+        "case_processed_at": "2026-08-28T05:54:46.040163+00:00"
       }
     ],
     "luar_jatim_items": [
+      {
+        "id": "d4d684a8e709269cb1008d07d4bd2a7c52f38f24",
+        "title": "Polisi Tangkap 2 Pemasok Narkoba Revaldo, Dari Kalangan Artis? - Medcom.id",
+        "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOaU14QXZkVkdUX212Z0d5QzdkZlRzT1dHMU9jVXlReVlNX1V4cmhiUVpqMVE1YlNNQUx3dllRUU5OcFREMWJ1QmdxZVhmVVFRSWFRdkRycFktQzdVOTl4Zzh6Sjl0d2Q4N1BFV2FqYTZuSEtXVHdkNUJmcDA2Y0dRQU15dEFZRG1qeHdkTmhYVWM2dElWSkNzY01rVUpLbDNxS1JsUzhsZzBTcFU?oc=5",
+        "source": "Medcom.id",
+        "published_at": "2026-08-28T05:31:27+00:00",
+        "collected_at": "2026-08-28T05:52:28.750620+00:00",
+        "region": "BELUM TERPETAKAN",
+        "area_label": "BELUM TERPETAKAN",
+        "is_jatim": null,
+        "polres": null,
+        "category": "NETRAL / LAINNYA",
+        "scope": "neutral",
+        "scope_label": "NETRAL",
+        "priority": "low",
+        "summary": "Polisi Tangkap 2 Pemasok Narkoba Revaldo, Dari Kalangan Artis? Medcom.id",
+        "processing_status": "processed",
+        "classifier_version": "news-v6",
+        "classified_at": "2026-08-28T05:52:28.750620+00:00",
+        "case_id": null,
+        "discovery_families": [],
+        "discovery_tags": [],
+        "discovery_hits": [],
+        "discovery_version": "discovery-v6.5.3",
+        "locality": "",
+        "polsek": null,
+        "location_confidence": 0,
+        "location_evidence": [],
+        "location_status": "BELUM_TERPETAKAN",
+        "location_source": "title",
+        "issue_type": "NARKOBA",
+        "issue_subtype": "Narkoba / Narkotika",
+        "issue_evidence": [
+          "narkoba"
+        ],
+        "handling_status": "BELUM_ADA_INFORMASI",
+        "handling_evidence": [],
+        "attention_score": 16,
+        "attention_label": "Rendah",
+        "attention_components": {
+          "severity": 11,
+          "polri_relation": 0,
+          "authority": 0,
+          "public_impact": 4,
+          "handling": 0,
+          "evidence": 1,
+          "context_risk": 0,
+          "routine_enforcement_cap": null
+        },
+        "attention_evidence": {
+          "severity": [],
+          "authority": [],
+          "public_impact": [],
+          "evidence": [
+            "satu sumber / informasi awal"
+          ],
+          "role": [],
+          "issue": [
+            "narkoba"
+          ],
+          "handling": [],
+          "context": [],
+          "positive": []
+        },
+        "case_engine_version": "case-v6.5.3",
+        "case_processed_at": "2026-08-28T05:54:38.912411+00:00"
+      },
+      {
+        "id": "3c954f75c0e1547c8da5f88763a2789f75e5b46c",
+        "title": "Skandal Polisi Jeju Guncang Korea Selatan, 298 Kasus Orang Hilang Diperiksa, 4 Pejabat Dicopot - Kompas.com",
+        "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNWTIzUEtRVER5eXJoM3p4M3VCTkdncHdXX3JZdDN5NjBhUUhTZFRmWjNaMldjZlFLUUo0N0tDWEFwNi1mOGd4SzdCWnE4VjFTMGlrT3J4LXlHbXhacm5sM1dkWlAwUGJpQnVteF96UEJtTnNuXzRGMmtvelJUakNEemFZWFJpRWZUb0xXalNKdnZzb2NJM2RNTkJiVGlKZXRyMlZ3a0lTZHJkTGJlMWhQclJfTGI5cW9COTR0ckdqTUUzMS1LOEVv0gHHAUFVX3lxTE8yblYwSWVvLWFGYVJCWkJwVkJtRTFzd2E3V3lETTdDQk1EakJGeFVVN0RYaHJRU0FMMHVZS3RQdVdBcFNPSGFiQnNEbDhJaXU5MndyTEdVdWtNM3lERFRUSC16ZURkM2hIVWF0S0VBQzFqTVNXMWhzX083TE9fVXVmdjhKeWQzRFB1UHRUYVloMEtUQ2R3Nm9LODc0QWhlN25EZ0xkTFgzNmdDMzhLU3gwNFBKT0J3VnY1a2UzcVhUZnlGeEFhRjQ?oc=5",
+        "source": "Kompas.com",
+        "published_at": "2026-08-28T05:30:00+00:00",
+        "collected_at": "2026-08-28T05:52:28.750620+00:00",
+        "region": "BELUM TERPETAKAN",
+        "area_label": "BELUM TERPETAKAN",
+        "is_jatim": null,
+        "polres": null,
+        "category": "NETRAL / LAINNYA",
+        "scope": "neutral",
+        "scope_label": "NETRAL",
+        "priority": "low",
+        "summary": "Skandal Polisi Jeju Guncang Korea Selatan, 298 Kasus Orang Hilang Diperiksa, 4 Pejabat Dicopot Kompas.com",
+        "processing_status": "processed",
+        "classifier_version": "news-v6",
+        "classified_at": "2026-08-28T05:52:28.750620+00:00",
+        "case_id": "CASE-000043",
+        "discovery_families": [],
+        "discovery_tags": [],
+        "discovery_hits": [],
+        "discovery_version": "discovery-v6.5.3",
+        "locality": "",
+        "polsek": null,
+        "location_confidence": 0,
+        "location_evidence": [],
+        "location_status": "BELUM_TERPETAKAN",
+        "location_source": "title",
+        "issue_type": "UMUM",
+        "issue_subtype": "Belum Teridentifikasi",
+        "issue_evidence": [],
+        "handling_status": "BELUM_ADA_INFORMASI",
+        "handling_evidence": [],
+        "attention_score": 9,
+        "attention_label": "Rendah",
+        "attention_components": {
+          "severity": 2,
+          "polri_relation": 0,
+          "authority": 0,
+          "public_impact": 4,
+          "handling": 0,
+          "evidence": 3,
+          "context_risk": 0,
+          "routine_enforcement_cap": null
+        },
+        "attention_evidence": {
+          "severity": [],
+          "authority": [],
+          "public_impact": [],
+          "evidence": [
+            "satu sumber / informasi awal",
+            "ada tindak lanjut resmi"
+          ],
+          "role": [],
+          "issue": [],
+          "handling": [],
+          "context": [],
+          "positive": []
+        },
+        "case_engine_version": "case-v6.5.3",
+        "case_processed_at": "2026-08-28T05:55:07.943660+00:00"
+      },
       {
         "id": "890cd0fa7657fe088806d12850a55f78d0c6d9b4",
         "title": "Sempat Buron Pelaku Penganiayaan di Acara Lulo di Bonegunu Butur Diringkus Polisi - IndoSultra.com",
@@ -24423,7 +24687,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-28T05:27:55.021287+00:00"
+        "case_processed_at": "2026-08-28T05:54:38.993644+00:00"
       },
       {
         "id": "c8be6c5ab5478841bf15330d60f089e148a16349",
@@ -24490,7 +24754,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-28T05:27:55.081941+00:00"
+        "case_processed_at": "2026-08-28T05:54:39.063325+00:00"
       },
       {
         "id": "675bede6abdbf17c7e8790b6dc09b8c2061e4cd1",
@@ -24559,7 +24823,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-28T05:27:55.211540+00:00"
+        "case_processed_at": "2026-08-28T05:54:39.212426+00:00"
       },
       {
         "id": "51ac14736889b419b6d24409fef7e74f483e4b3c",
@@ -24630,7 +24894,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-28T05:27:55.265548+00:00"
+        "case_processed_at": "2026-08-28T05:54:39.275589+00:00"
       },
       {
         "id": "4897ac993418f0cbec5af1f8c9fde240de325368",
@@ -24701,7 +24965,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-28T05:28:21.014150+00:00"
+        "case_processed_at": "2026-08-28T05:55:07.943670+00:00"
       },
       {
         "id": "4334ebdb56b3db6078c397e44ebc3fb8ad00d32f",
@@ -24768,7 +25032,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-28T05:27:55.419551+00:00"
+        "case_processed_at": "2026-08-28T05:54:39.453257+00:00"
       },
       {
         "id": "17c3d5acc2a30cf2d4d14cf3ee6a31b92da1ec36",
@@ -24833,7 +25097,7 @@
           ]
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-28T05:27:55.450290+00:00"
+        "case_processed_at": "2026-08-28T05:54:39.488727+00:00"
       },
       {
         "id": "160a9fe023f8d8d4363f967aac4b9f268d03fd37",
@@ -24902,7 +25166,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-28T05:28:21.014157+00:00"
+        "case_processed_at": "2026-08-28T05:55:07.943677+00:00"
       },
       {
         "id": "5ce88d0e4b18a505832ffaba90d9813a3f832628",
@@ -24967,7 +25231,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-28T05:27:55.585410+00:00"
+        "case_processed_at": "2026-08-28T05:54:39.642987+00:00"
       },
       {
         "id": "0903167ac29f7786407967930860cd075bd8dd3d",
@@ -25030,7 +25294,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-28T05:27:55.629234+00:00"
+        "case_processed_at": "2026-08-28T05:54:39.693704+00:00"
       },
       {
         "id": "0d5a59b6e1adbcd9d9290d75c2fe230ab08aac5f",
@@ -25095,7 +25359,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-28T05:27:55.664142+00:00"
+        "case_processed_at": "2026-08-28T05:54:39.733929+00:00"
       },
       {
         "id": "49672b388998ecd29996b43720681875cb3e533d",
@@ -25160,7 +25424,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-28T05:27:55.704795+00:00"
+        "case_processed_at": "2026-08-28T05:54:39.780819+00:00"
       },
       {
         "id": "edc26aacd3df2e2dcfa9f8476b5c9babeeba6444",
@@ -25225,7 +25489,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-28T05:27:55.737293+00:00"
+        "case_processed_at": "2026-08-28T05:54:39.818554+00:00"
       },
       {
         "id": "a1aad4c17dc9e6c4fd722edf5bd67fd7136d0a13",
@@ -25298,7 +25562,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-28T05:27:55.770538+00:00"
+        "case_processed_at": "2026-08-28T05:54:39.857714+00:00"
       },
       {
         "id": "08e995264b19c6be4de84ba4bf5155528c544fb4",
@@ -25365,7 +25629,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-28T05:27:55.808735+00:00"
+        "case_processed_at": "2026-08-28T05:54:39.901816+00:00"
       },
       {
         "id": "5fd70b72f389366e0b0c55e5c58325d9533d36ab",
@@ -25432,7 +25696,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-28T05:27:55.877035+00:00"
+        "case_processed_at": "2026-08-28T05:54:39.981523+00:00"
       },
       {
         "id": "98bdca40388a93755f33b7a81f91cc5878c156dc",
@@ -25497,7 +25761,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-28T05:27:55.949273+00:00"
+        "case_processed_at": "2026-08-28T05:54:40.066314+00:00"
       },
       {
         "id": "e56bcfc84cb8905ab6e49d19423b735e536bf563",
@@ -25570,7 +25834,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-28T05:27:55.978649+00:00"
+        "case_processed_at": "2026-08-28T05:54:40.099817+00:00"
       },
       {
         "id": "e64c0d921cfda0630ae13818c009b9edf93e5bc1",
@@ -25635,7 +25899,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-28T05:27:56.058532+00:00"
+        "case_processed_at": "2026-08-28T05:54:40.190938+00:00"
       },
       {
         "id": "f86dd428bc9e5a928de37c26dc09e4b7bc046b82",
@@ -25701,7 +25965,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-28T05:27:56.136866+00:00"
+        "case_processed_at": "2026-08-28T05:54:40.281221+00:00"
       },
       {
         "id": "ecea35ecf0c3dbb42f9fd520716f788515bca207",
@@ -25771,7 +26035,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-28T05:27:56.173182+00:00"
+        "case_processed_at": "2026-08-28T05:54:40.323262+00:00"
       },
       {
         "id": "23eec4e7a37a12b960882e305a5c6d8b142d9cab",
@@ -25836,7 +26100,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-28T05:27:56.234076+00:00"
+        "case_processed_at": "2026-08-28T05:54:40.393485+00:00"
       },
       {
         "id": "834579b7f354576d2e0d5264252ac23c732f700c",
@@ -25899,7 +26163,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-28T05:27:56.303467+00:00"
+        "case_processed_at": "2026-08-28T05:54:40.473482+00:00"
       },
       {
         "id": "1477d572a6b7d86557f98e32856f7feda482d87e",
@@ -25968,7 +26232,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-28T05:27:56.331594+00:00"
+        "case_processed_at": "2026-08-28T05:54:40.506142+00:00"
       },
       {
         "id": "f1285695be02cee3753eb0eca9646af5f4a6f97a",
@@ -26039,7 +26303,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-28T05:28:21.014179+00:00"
+        "case_processed_at": "2026-08-28T05:55:07.943700+00:00"
       },
       {
         "id": "f19c7366d4d16a032d32fad278ed5e9b55827017",
@@ -26104,7 +26368,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-28T05:27:56.400495+00:00"
+        "case_processed_at": "2026-08-28T05:54:40.584827+00:00"
       },
       {
         "id": "d3dd8023060d7b948e98e0d9f8e44b7d126fce5a",
@@ -26171,7 +26435,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-28T05:27:56.469745+00:00"
+        "case_processed_at": "2026-08-28T05:54:40.663296+00:00"
       },
       {
         "id": "e39a741fa73ea77e128c5c43c3fa2a8fb639aebb",
@@ -26236,7 +26500,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-28T05:27:56.506671+00:00"
+        "case_processed_at": "2026-08-28T05:54:40.705521+00:00"
       },
       {
         "id": "f32116b1f15b2e7b7af045e553bfb9a911849729",
@@ -26301,7 +26565,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-28T05:27:56.577055+00:00"
+        "case_processed_at": "2026-08-28T05:54:40.786467+00:00"
       },
       {
         "id": "4b55ca40e523b635afa08a36cbb7b10922ac99ff",
@@ -26373,7 +26637,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-28T05:28:21.014183+00:00"
+        "case_processed_at": "2026-08-28T05:55:07.943705+00:00"
       },
       {
         "id": "073d8b5c396bea78f5f55b481398318a0a00d9ff",
@@ -26444,7 +26708,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-28T05:27:56.611099+00:00"
+        "case_processed_at": "2026-08-28T05:54:40.825967+00:00"
       },
       {
         "id": "425711b73334a0279e3f1f10a8d866ffb9f838ba",
@@ -26517,7 +26781,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-28T05:27:56.643276+00:00"
+        "case_processed_at": "2026-08-28T05:54:40.863562+00:00"
       },
       {
         "id": "925c9e8586cb40dd255ea6baef76af208aae7582",
@@ -26589,7 +26853,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-28T05:28:21.014189+00:00"
+        "case_processed_at": "2026-08-28T05:55:07.943711+00:00"
       },
       {
         "id": "207306f74e973ba2e0abd1ed80e6895abf24709a",
@@ -26654,7 +26918,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-28T05:27:56.818441+00:00"
+        "case_processed_at": "2026-08-28T05:54:41.065048+00:00"
       },
       {
         "id": "13aa60f1fabc1f6105b182c2833437066647b4e5",
@@ -26719,7 +26983,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-28T05:27:56.851488+00:00"
+        "case_processed_at": "2026-08-28T05:54:41.103155+00:00"
       },
       {
         "id": "6ac514027bd12edc535605e72fc86b2c38cb953c",
@@ -26784,7 +27048,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-28T05:27:56.885883+00:00"
+        "case_processed_at": "2026-08-28T05:54:41.143026+00:00"
       },
       {
         "id": "c4a1b6b2d5bd566553c2aa1a7b94f615b03cc6c7",
@@ -26849,7 +27113,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-28T05:27:56.918780+00:00"
+        "case_processed_at": "2026-08-28T05:54:41.180651+00:00"
       },
       {
         "id": "972dd4dad10a4aa333c6c70032e6305e3660179f",
@@ -26914,7 +27178,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-28T05:27:56.958282+00:00"
+        "case_processed_at": "2026-08-28T05:54:41.225760+00:00"
       },
       {
         "id": "61c8917a0d75285215675b983b448a725b84374e",
@@ -26979,7 +27243,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-28T05:27:56.995217+00:00"
+        "case_processed_at": "2026-08-28T05:54:41.268267+00:00"
       },
       {
         "id": "3c21a15dc74a36cbb0525409c1a1c13843e5fb28",
@@ -27044,7 +27308,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-28T05:27:57.030913+00:00"
+        "case_processed_at": "2026-08-28T05:54:41.309535+00:00"
       },
       {
         "id": "6b75b3b5f2076bf79b79bbc149a2530d04a82903",
@@ -27107,7 +27371,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-28T05:27:57.062878+00:00"
+        "case_processed_at": "2026-08-28T05:54:41.346178+00:00"
       },
       {
         "id": "1eee2a38836093fc046c4b4cd7b8e9ffc4f1765c",
@@ -27172,7 +27436,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-28T05:27:57.097897+00:00"
+        "case_processed_at": "2026-08-28T05:54:41.386311+00:00"
       },
       {
         "id": "5843e9f67a8fff3d7ca3b6e64ccf08d49d9244f0",
@@ -27237,7 +27501,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-28T05:27:57.129654+00:00"
+        "case_processed_at": "2026-08-28T05:54:41.422929+00:00"
       },
       {
         "id": "224a83ce3e019cb57755ca797088698f9cd9c32c",
@@ -27302,7 +27566,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-28T05:27:57.162714+00:00"
+        "case_processed_at": "2026-08-28T05:54:41.460961+00:00"
       },
       {
         "id": "21aa86a29311cc0ddd66f3e3958e374f44efd441",
@@ -27376,7 +27640,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-28T05:28:21.014195+00:00"
+        "case_processed_at": "2026-08-28T05:55:07.943717+00:00"
       },
       {
         "id": "3f9fedbec30486b02ad66b8f91dc3235c64cca18",
@@ -27441,7 +27705,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-28T05:27:57.193983+00:00"
+        "case_processed_at": "2026-08-28T05:54:41.496701+00:00"
       },
       {
         "id": "435278d3fba696781f9482b3beed50137cc12448",
@@ -27506,7 +27770,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-28T05:27:57.228523+00:00"
+        "case_processed_at": "2026-08-28T05:54:41.536637+00:00"
       },
       {
         "id": "852434b5445af9bdb27d041a1352cac750b9de07",
@@ -27571,7 +27835,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-28T05:27:57.262446+00:00"
+        "case_processed_at": "2026-08-28T05:54:41.575245+00:00"
       },
       {
         "id": "184e27e8e502f65c6056e316d0627e445a57456b",
@@ -27636,7 +27900,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-28T05:27:57.299131+00:00"
+        "case_processed_at": "2026-08-28T05:54:41.617366+00:00"
       },
       {
         "id": "e24799505c303673ff9fc1f0ff4d032b32bb231d",
@@ -27708,7 +27972,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-28T05:27:57.327376+00:00"
+        "case_processed_at": "2026-08-28T05:54:41.649709+00:00"
       },
       {
         "id": "d07ff239767be1d5cbfc779edf88f06aa7972a6b",
@@ -27779,7 +28043,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-28T05:27:57.355373+00:00"
+        "case_processed_at": "2026-08-28T05:54:41.682692+00:00"
       },
       {
         "id": "281d08c41938a3ccc27aab9cb1e82a312a34b6d0",
@@ -27844,7 +28108,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-28T05:27:57.391320+00:00"
+        "case_processed_at": "2026-08-28T05:54:41.723768+00:00"
       },
       {
         "id": "674c4e5bb17ee64daf3d21b7b5e97e01d9459afd",
@@ -27927,7 +28191,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-28T05:28:21.014200+00:00"
+        "case_processed_at": "2026-08-28T05:55:07.943722+00:00"
       },
       {
         "id": "e86e30499379a049d51163a4069390d692979188",
@@ -27990,7 +28254,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-28T05:27:57.519926+00:00"
+        "case_processed_at": "2026-08-28T05:54:41.871382+00:00"
       },
       {
         "id": "bbca2030b94c01bc5941a3fdcfd34fe6d7fa49e6",
@@ -28053,7 +28317,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-28T05:27:57.588045+00:00"
+        "case_processed_at": "2026-08-28T05:54:41.949436+00:00"
       },
       {
         "id": "1839222199a598c59dc58952ef100f632a7cbdc4",
@@ -28132,7 +28396,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-28T05:28:21.014203+00:00"
+        "case_processed_at": "2026-08-28T05:55:07.943725+00:00"
       },
       {
         "id": "09085d41cd9ba4c69e4fca63d1b06965fc2e73fb",
@@ -28199,7 +28463,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-28T05:27:57.651723+00:00"
+        "case_processed_at": "2026-08-28T05:54:42.022695+00:00"
       },
       {
         "id": "b1a6ad7157eec7ad2d46a5a24b0fe05bca28fd76",
@@ -28262,7 +28526,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-28T05:27:57.680827+00:00"
+        "case_processed_at": "2026-08-28T05:54:42.056662+00:00"
       },
       {
         "id": "09abe9465668709ebae7b5193222314563cfab53",
@@ -28331,7 +28595,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-28T05:27:57.713313+00:00"
+        "case_processed_at": "2026-08-28T05:54:42.094417+00:00"
       },
       {
         "id": "0fcbcf97685bdd30c90b48aa49d26b072192cfcb",
@@ -28400,7 +28664,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-28T05:27:57.744846+00:00"
+        "case_processed_at": "2026-08-28T05:54:42.130767+00:00"
       },
       {
         "id": "c0404955b0ab6c03c2dd018bf93f944efa1bd552",
@@ -28471,7 +28735,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-28T05:27:57.799532+00:00"
+        "case_processed_at": "2026-08-28T05:54:42.193441+00:00"
       },
       {
         "id": "e0cf7c1d0c2a094c001e89c308642395b4ef0d6f",
@@ -28538,7 +28802,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-28T05:28:21.014207+00:00"
+        "case_processed_at": "2026-08-28T05:55:07.943730+00:00"
       },
       {
         "id": "335a51ce5d4c6bbb723b1736c16b180008715b87",
@@ -28605,7 +28869,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-28T05:28:21.014209+00:00"
+        "case_processed_at": "2026-08-28T05:55:07.943732+00:00"
       },
       {
         "id": "d268f4465be8fa509b9cba5aa8db52c3d4b3d042",
@@ -28668,7 +28932,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-28T05:27:57.835357+00:00"
+        "case_processed_at": "2026-08-28T05:54:42.234140+00:00"
       },
       {
         "id": "687dfae6a7b65347ce3c11b06f476096d10bf405",
@@ -28737,7 +29001,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-28T05:27:57.875342+00:00"
+        "case_processed_at": "2026-08-28T05:54:42.279944+00:00"
       },
       {
         "id": "73b5f5d71e406ad3db0015d75c7cec4ebcdb8669",
@@ -28804,7 +29068,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-28T05:27:57.965358+00:00"
+        "case_processed_at": "2026-08-28T05:54:42.384785+00:00"
       },
       {
         "id": "05d65d0da2e64c93ee11db91902c55de2039d1c5",
@@ -28871,7 +29135,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-28T05:28:21.014213+00:00"
+        "case_processed_at": "2026-08-28T05:55:07.943736+00:00"
       },
       {
         "id": "c77efa7e55bd79bae16d7b936779044693003718",
@@ -28946,7 +29210,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-28T05:27:57.995947+00:00"
+        "case_processed_at": "2026-08-28T05:54:42.421148+00:00"
       },
       {
         "id": "7fa18cd92b0e8235d84497e7ef4d7d9e77216e90",
@@ -29010,7 +29274,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-28T05:27:58.062603+00:00"
+        "case_processed_at": "2026-08-28T05:54:42.499148+00:00"
       },
       {
         "id": "688744bed4a392b637178b99a58f27e224b12220",
@@ -29077,7 +29341,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-28T05:27:58.084997+00:00"
+        "case_processed_at": "2026-08-28T05:54:42.525468+00:00"
       },
       {
         "id": "5bc399c31e32dd0310a0236f591af8de295e6a8c",
@@ -29149,7 +29413,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-28T05:27:58.189733+00:00"
+        "case_processed_at": "2026-08-28T05:54:42.646744+00:00"
       },
       {
         "id": "c59bde63b9b55ee0ec4570f5f518adf071d2dafc",
@@ -29212,7 +29476,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-28T05:27:58.260162+00:00"
+        "case_processed_at": "2026-08-28T05:54:42.728650+00:00"
       },
       {
         "id": "1e538054ecad35b37f4f9d133c9645a7a0a58d70",
@@ -29279,7 +29543,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-28T05:27:58.285116+00:00"
+        "case_processed_at": "2026-08-28T05:54:42.758102+00:00"
       },
       {
         "id": "191288d3d23f015e89ef43e42de65534aa5aa71c",
@@ -29346,7 +29610,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-28T05:27:58.473410+00:00"
+        "case_processed_at": "2026-08-28T05:54:42.976057+00:00"
       },
       {
         "id": "380c41b3386a1405f21cfdca2e603bc5b136c5ad",
@@ -29420,7 +29684,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-28T05:28:21.014228+00:00"
+        "case_processed_at": "2026-08-28T05:55:07.943751+00:00"
       },
       {
         "id": "1ff3a1de5dc8d568c292f1f83a05f736a97bc798",
@@ -29487,7 +29751,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-28T05:27:58.564958+00:00"
+        "case_processed_at": "2026-08-28T05:54:43.080857+00:00"
       },
       {
         "id": "42e65a25ef1647c6a682e50ad8f890ce41356dfe",
@@ -29552,7 +29816,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-28T05:27:58.613354+00:00"
+        "case_processed_at": "2026-08-28T05:54:43.135629+00:00"
       },
       {
         "id": "f325c50f88b23db4b20dff261f2133dc3605622b",
@@ -29630,7 +29894,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-28T05:28:21.014235+00:00"
+        "case_processed_at": "2026-08-28T05:55:07.943758+00:00"
       },
       {
         "id": "77d0019650cd1db94da87aa2a20c07e023ff939f",
@@ -29697,7 +29961,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-28T05:27:58.668023+00:00"
+        "case_processed_at": "2026-08-28T05:54:43.198428+00:00"
       },
       {
         "id": "02444c32015c3a719e3e76590821dcd6afd76e97",
@@ -29760,7 +30024,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-28T05:27:58.702535+00:00"
+        "case_processed_at": "2026-08-28T05:54:43.238393+00:00"
       },
       {
         "id": "02d825ad6744b664a937991343f1c87d43d8bd3d",
@@ -29827,7 +30091,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-28T05:28:21.014241+00:00"
+        "case_processed_at": "2026-08-28T05:55:07.943765+00:00"
       },
       {
         "id": "1152f48fb289c09228134da1d089dafc1517cc78",
@@ -29905,7 +30169,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-28T05:28:21.014244+00:00"
+        "case_processed_at": "2026-08-28T05:55:07.943767+00:00"
       },
       {
         "id": "0db3b6aa1f0c0d8a1504f36e8025cf14a20cc7b2",
@@ -29972,7 +30236,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-28T05:27:58.817618+00:00"
+        "case_processed_at": "2026-08-28T05:54:43.371597+00:00"
       },
       {
         "id": "fba6b5da39675d967e9197d64cf43dd22b713125",
@@ -30039,7 +30303,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-28T05:28:21.014247+00:00"
+        "case_processed_at": "2026-08-28T05:55:07.943771+00:00"
       },
       {
         "id": "945e7cdc10238c2d7c33e5efdceb13469a35b967",
@@ -30102,7 +30366,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-28T05:27:58.881060+00:00"
+        "case_processed_at": "2026-08-28T05:54:43.445046+00:00"
       },
       {
         "id": "bc46b89fbdd5f5fd149fe112137bce8132726b9f",
@@ -30169,7 +30433,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-28T05:27:58.916466+00:00"
+        "case_processed_at": "2026-08-28T05:54:43.485974+00:00"
       },
       {
         "id": "3cc275f7b5831803a7fd772c600583e4e96eae9e",
@@ -30238,7 +30502,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-28T05:27:58.978828+00:00"
+        "case_processed_at": "2026-08-28T05:54:43.558435+00:00"
       },
       {
         "id": "d3c7a62d24a6b49bd923f8b21e59d9d83a485837",
@@ -30305,7 +30569,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-28T05:27:59.018076+00:00"
+        "case_processed_at": "2026-08-28T05:54:43.604311+00:00"
       },
       {
         "id": "8480d2b712c8a0a84b0a94dc37c677f531fbe592",
@@ -30372,7 +30636,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-28T05:27:59.154753+00:00"
+        "case_processed_at": "2026-08-28T05:54:43.762942+00:00"
       },
       {
         "id": "3081d3b21f890d5e685c03e2ba8b6613f7af5ccd",
@@ -30437,7 +30701,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-28T05:27:59.191699+00:00"
+        "case_processed_at": "2026-08-28T05:54:43.805940+00:00"
       },
       {
         "id": "4740f0e9a7cca7af4bfba2dd72ea35d5f5abb370",
@@ -30510,7 +30774,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-28T05:27:59.220590+00:00"
+        "case_processed_at": "2026-08-28T05:54:43.840207+00:00"
       },
       {
         "id": "6b26440bfe8c2bdeb147fa5330e20613d2487303",
@@ -30589,7 +30853,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-28T05:28:21.014256+00:00"
+        "case_processed_at": "2026-08-28T05:55:07.943780+00:00"
       },
       {
         "id": "1657c5c81c0430191d80b00bedee9f5640d19527",
@@ -30658,7 +30922,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-28T05:27:59.250885+00:00"
+        "case_processed_at": "2026-08-28T05:54:43.875297+00:00"
       },
       {
         "id": "f7d97afff99a43d04ae6bec30449cf0f8b2e7ba3",
@@ -30725,7 +30989,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-28T05:28:21.014264+00:00"
+        "case_processed_at": "2026-08-28T05:55:07.943788+00:00"
       },
       {
         "id": "878ab702733ac9702e34d8cbe4d2e6c9d9b8fd5f",
@@ -30808,7 +31072,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-28T05:28:21.014267+00:00"
+        "case_processed_at": "2026-08-28T05:55:07.943791+00:00"
       },
       {
         "id": "15d07885b76a5fe70ad00791ec845e31e79aa838",
@@ -30877,7 +31141,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-28T05:27:59.314891+00:00"
+        "case_processed_at": "2026-08-28T05:54:43.949382+00:00"
       },
       {
         "id": "8e21c1b31fb39cd791b26a9aacd5bb93e3ca2d35",
@@ -30944,7 +31208,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-28T05:27:59.342393+00:00"
+        "case_processed_at": "2026-08-28T05:54:43.982054+00:00"
       },
       {
         "id": "fe158ca0f5867a46812ca726fb016079698c7c46",
@@ -31018,7 +31282,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-28T05:28:21.014270+00:00"
+        "case_processed_at": "2026-08-28T05:55:07.943794+00:00"
       },
       {
         "id": "3bc24ebb9b79ee0cb7407d689d1a8e1e6928b188",
@@ -31085,7 +31349,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-28T05:27:59.374514+00:00"
+        "case_processed_at": "2026-08-28T05:54:44.019591+00:00"
       },
       {
         "id": "be7813b398aa1a0bfff7eb398aa31aad11f38810",
@@ -31156,7 +31420,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-28T05:28:21.014273+00:00"
+        "case_processed_at": "2026-08-28T05:55:07.943797+00:00"
       },
       {
         "id": "65ed1be5fe668de8fd9df76deb0028a46f7c2a87",
@@ -31219,7 +31483,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-28T05:27:59.402703+00:00"
+        "case_processed_at": "2026-08-28T05:54:44.053128+00:00"
       },
       {
         "id": "bed640e5ab9d8f2253324497aa57e115d1ab593e",
@@ -31283,7 +31547,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-28T05:27:59.439753+00:00"
+        "case_processed_at": "2026-08-28T05:54:44.095609+00:00"
       },
       {
         "id": "507cc84ea4c7b44d70a37488126eb485fb4aa54b",
@@ -31348,7 +31612,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-28T05:27:59.584952+00:00"
+        "case_processed_at": "2026-08-28T05:54:44.263031+00:00"
       },
       {
         "id": "7d7e7b4078e18fe9b2c7b618cad028c411a34268",
@@ -31415,7 +31679,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-28T05:27:59.620016+00:00"
+        "case_processed_at": "2026-08-28T05:54:44.303096+00:00"
       },
       {
         "id": "adeba785a4753f4abd77b87df92775ed6964ae4e",
@@ -31489,7 +31753,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-28T05:28:21.014278+00:00"
+        "case_processed_at": "2026-08-28T05:55:07.943801+00:00"
       },
       {
         "id": "313a0b52e80cb7ec5775da89e0b5166dbd875779",
@@ -31558,7 +31822,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-28T05:27:59.709147+00:00"
+        "case_processed_at": "2026-08-28T05:54:44.406440+00:00"
       },
       {
         "id": "043d9057a76ecc1d927ebf412013888f990c676d",
@@ -31631,7 +31895,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-28T05:27:59.770188+00:00"
+        "case_processed_at": "2026-08-28T05:54:44.477389+00:00"
       },
       {
         "id": "b7e690570604e3c318206409ab670eaface2c9fd",
@@ -31711,7 +31975,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-28T05:28:21.014282+00:00"
+        "case_processed_at": "2026-08-28T05:55:07.943805+00:00"
       },
       {
         "id": "eadc47db8b089157bd3b724459cea4bc8b0fc0d6",
@@ -31783,7 +32047,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-28T05:28:21.014287+00:00"
+        "case_processed_at": "2026-08-28T05:55:07.943810+00:00"
       },
       {
         "id": "c4c98f786224fdc14ce6554d2094a0c10ba222c5",
@@ -31850,7 +32114,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-28T05:27:59.910051+00:00"
+        "case_processed_at": "2026-08-28T05:54:44.639129+00:00"
       },
       {
         "id": "c17c224b02bb79398cedd64f073ba36249c5e0c4",
@@ -31932,7 +32196,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-28T05:28:21.014290+00:00"
+        "case_processed_at": "2026-08-28T05:55:07.943813+00:00"
       },
       {
         "id": "9b7370aac020f0b8f72959386056451ef3511136",
@@ -31999,7 +32263,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-28T05:27:59.947606+00:00"
+        "case_processed_at": "2026-08-28T05:54:44.681846+00:00"
       },
       {
         "id": "8c0ee91df82bef836877292a799f8a7ffba9b1d4",
@@ -32066,7 +32330,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-28T05:28:21.014298+00:00"
+        "case_processed_at": "2026-08-28T05:55:07.943822+00:00"
       },
       {
         "id": "ff390979eed6453dccaddababfec1a78e739c396",
@@ -32133,7 +32397,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-28T05:28:00.181359+00:00"
+        "case_processed_at": "2026-08-28T05:54:44.951424+00:00"
       },
       {
         "id": "b3da8672192e70a96dd4e7c0c74b644b7ea87cae",
@@ -32200,7 +32464,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-28T05:28:00.283230+00:00"
+        "case_processed_at": "2026-08-28T05:54:45.068600+00:00"
       },
       {
         "id": "b303d1153980df50e0a110eaf2ac1eb9666a40ef",
@@ -32265,7 +32529,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-28T05:28:00.319051+00:00"
+        "case_processed_at": "2026-08-28T05:54:45.110013+00:00"
       },
       {
         "id": "8ded833736c26d5ab5ad7047edcc900d2bb15a67",
@@ -32332,7 +32596,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-28T05:28:00.346828+00:00"
+        "case_processed_at": "2026-08-28T05:54:45.142406+00:00"
       },
       {
         "id": "0196433cbacf0f8e3915cc98d3a07033b17bd37e",
@@ -32416,7 +32680,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-28T05:28:21.014306+00:00"
+        "case_processed_at": "2026-08-28T05:55:07.943829+00:00"
       },
       {
         "id": "e7a14bfc154f25643ece4bf1043d396541dd916d",
@@ -32482,7 +32746,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-28T05:28:00.377779+00:00"
+        "case_processed_at": "2026-08-28T05:54:45.178582+00:00"
       },
       {
         "id": "b30c3e543afe22d84a606f25f45fe52e9963d6e2",
@@ -32549,7 +32813,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-28T05:28:00.408141+00:00"
+        "case_processed_at": "2026-08-28T05:54:45.214124+00:00"
       },
       {
         "id": "165db9c3c3870ced3dea321e69408a28ed104cc7",
@@ -32616,7 +32880,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-28T05:28:00.758160+00:00"
+        "case_processed_at": "2026-08-28T05:54:45.616684+00:00"
       },
       {
         "id": "f1c2a5bda5168f9d48172a4c596d7c9fc4745ca0",
@@ -32683,7 +32947,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-28T05:28:00.793683+00:00"
+        "case_processed_at": "2026-08-28T05:54:45.658288+00:00"
       },
       {
         "id": "91d74806aeede7297cb3c68015ff47124aae0692",
@@ -32752,7 +33016,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-28T05:28:00.858606+00:00"
+        "case_processed_at": "2026-08-28T05:54:45.733245+00:00"
       },
       {
         "id": "fd6bc9053018426880211b04be8a63efecdc6e4e",
@@ -32819,7 +33083,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-28T05:28:21.014321+00:00"
+        "case_processed_at": "2026-08-28T05:55:07.943840+00:00"
       },
       {
         "id": "f9478a613632bc210989b22247bf51125e4fac46",
@@ -32886,7 +33150,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-28T05:28:00.923861+00:00"
+        "case_processed_at": "2026-08-28T05:54:45.808271+00:00"
       },
       {
         "id": "cde5261ebea76646c215ede696bc65ee1f0f9879",
@@ -32951,7 +33215,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-28T05:28:21.014327+00:00"
+        "case_processed_at": "2026-08-28T05:55:07.943846+00:00"
       },
       {
         "id": "7049a174da92fa855e16d8d91381064cbba283a3",
@@ -33039,7 +33303,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-28T05:28:21.014329+00:00"
+        "case_processed_at": "2026-08-28T05:55:07.943849+00:00"
       },
       {
         "id": "ddba72164ef44cb66c03b493dfac9a4b96b8d900",
@@ -33104,7 +33368,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-28T05:28:00.982815+00:00"
+        "case_processed_at": "2026-08-28T05:54:45.876740+00:00"
       },
       {
         "id": "a8820587ef005ac5fd6ac0d11a3407e78fba192c",
@@ -33174,7 +33438,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-28T05:28:21.014332+00:00"
+        "case_processed_at": "2026-08-28T05:55:07.943852+00:00"
       },
       {
         "id": "10a0adbde63896140e1513ddd602f321cbc5d725",
@@ -33245,7 +33509,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-28T05:28:01.056441+00:00"
+        "case_processed_at": "2026-08-28T05:54:45.961753+00:00"
       },
       {
         "id": "3dd5c3b005d4ce5aee1a38170d85d840596b2b4e",
@@ -33312,7 +33576,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-28T05:28:01.092671+00:00"
+        "case_processed_at": "2026-08-28T05:54:46.003883+00:00"
       }
     ]
   },
@@ -33321,7 +33585,7 @@
     "priority_high": 3,
     "jatim": 12,
     "jatim_priority_high": 1,
-    "articles": 80,
+    "articles": 81,
     "case_ids": [
       "CASE-000007",
       "CASE-000043",
@@ -33693,7 +33957,7 @@
         ],
         "article_count": 7,
         "created_at": "2026-08-27T08:23:04.715616+00:00",
-        "updated_at": "2026-08-28T05:28:20.656409+00:00",
+        "updated_at": "2026-08-28T05:55:07.559825+00:00",
         "engine_version": "case-v6.5.3",
         "priority_score": 37,
         "priority_breakdown": {
@@ -33738,7 +34002,7 @@
         "polres": null,
         "polsek": null,
         "priority": "high",
-        "attention_score": 77,
+        "attention_score": 81,
         "attention_label": "Tinggi",
         "signature": "BELUM TERPETAKAN",
         "incident_terms": [
@@ -33753,6 +34017,7 @@
           "enamplus",
           "foto",
           "grid",
+          "guncang",
           "harapan",
           "harian",
           "hilang",
@@ -33767,6 +34032,7 @@
           "meski",
           "misteri",
           "ngeri",
+          "pejabat",
           "petinggi",
           "presiden",
           "pulau",
@@ -33794,8 +34060,8 @@
         ],
         "discovery_families": [],
         "first_seen": "2026-08-25T07:13:22+00:00",
-        "last_seen": "2026-08-28T05:25:58.358079+00:00",
-        "last_detected_at": "2026-08-28T05:25:58.358079+00:00",
+        "last_seen": "2026-08-28T05:52:28.750620+00:00",
+        "last_detected_at": "2026-08-28T05:52:28.750620+00:00",
         "article_ids": [
           "ab91e7e77452dcf475377f2dee35dba9fe8dd6c6",
           "0473dbac92bc936910cb607576840792327e47a7",
@@ -33806,7 +34072,8 @@
           "1e02145a743b0260a7eae5a521b8d900328259b7",
           "02d825ad6744b664a937991343f1c87d43d8bd3d",
           "e0cf7c1d0c2a094c001e89c308642395b4ef0d6f",
-          "335a51ce5d4c6bbb723b1736c16b180008715b87"
+          "335a51ce5d4c6bbb723b1736c16b180008715b87",
+          "3c954f75c0e1547c8da5f88763a2789f75e5b46c"
         ],
         "articles": [
           {
@@ -34170,28 +34437,64 @@
               "context_risk": 0,
               "routine_enforcement_cap": null
             }
+          },
+          {
+            "id": "3c954f75c0e1547c8da5f88763a2789f75e5b46c",
+            "title": "Skandal Polisi Jeju Guncang Korea Selatan, 298 Kasus Orang Hilang Diperiksa, 4 Pejabat Dicopot - Kompas.com",
+            "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNWTIzUEtRVER5eXJoM3p4M3VCTkdncHdXX3JZdDN5NjBhUUhTZFRmWjNaMldjZlFLUUo0N0tDWEFwNi1mOGd4SzdCWnE4VjFTMGlrT3J4LXlHbXhacm5sM1dkWlAwUGJpQnVteF96UEJtTnNuXzRGMmtvelJUakNEemFZWFJpRWZUb0xXalNKdnZzb2NJM2RNTkJiVGlKZXRyMlZ3a0lTZHJkTGJlMWhQclJfTGI5cW9COTR0ckdqTUUzMS1LOEVv0gHHAUFVX3lxTE8yblYwSWVvLWFGYVJCWkJwVkJtRTFzd2E3V3lETTdDQk1EakJGeFVVN0RYaHJRU0FMMHVZS3RQdVdBcFNPSGFiQnNEbDhJaXU5MndyTEdVdWtNM3lERFRUSC16ZURkM2hIVWF0S0VBQzFqTVNXMWhzX083TE9fVXVmdjhKeWQzRFB1UHRUYVloMEtUQ2R3Nm9LODc0QWhlN25EZ0xkTFgzNmdDMzhLU3gwNFBKT0J3VnY1a2UzcVhUZnlGeEFhRjQ?oc=5",
+            "published_at": "2026-08-28T05:30:00+00:00",
+            "collected_at": "2026-08-28T05:52:28.750620+00:00",
+            "source": "Kompas.com",
+            "match_score": 0.9529,
+            "priority": "low",
+            "scope": "neutral",
+            "category": "NETRAL / LAINNYA",
+            "region": "BELUM TERPETAKAN",
+            "locality": "",
+            "is_jatim": false,
+            "polres": null,
+            "polsek": null,
+            "issue_type": "UMUM",
+            "issue_subtype": "Belum Teridentifikasi",
+            "handling_status": "BELUM_ADA_INFORMASI",
+            "handling_evidence": [],
+            "polri_relation": null,
+            "polri_relation_points": 0,
+            "polri_relation_evidence": [],
+            "attention_score": 9,
+            "attention_label": "Rendah",
+            "attention_components": {
+              "severity": 2,
+              "polri_relation": 0,
+              "authority": 0,
+              "public_impact": 4,
+              "handling": 0,
+              "evidence": 3,
+              "context_risk": 0,
+              "routine_enforcement_cap": null
+            }
           }
         ],
-        "article_count": 10,
+        "article_count": 11,
         "created_at": "2026-08-27T08:23:05.108816+00:00",
-        "updated_at": "2026-08-28T05:28:20.781913+00:00",
+        "updated_at": "2026-08-28T05:55:07.695945+00:00",
         "engine_version": "case-v6.5.3",
-        "priority_score": 77,
+        "priority_score": 81,
         "priority_breakdown": {
           "severity": 30,
           "polri_relation": 16,
           "authority_context": 0,
           "public_impact": 10,
           "handling": 0,
-          "evidence": 5,
+          "evidence": 7,
           "spread": 12,
           "escalation": 2,
-          "current_activity": 2,
+          "current_activity": 4,
           "context_risk": 0
         },
         "priority_evidence": {
           "unique_sources": 8,
-          "active_today_articles": 3,
+          "active_today_articles": 4,
           "escalation": [
             "proses pidana"
           ],
@@ -34919,7 +35222,7 @@
         ],
         "article_count": 16,
         "created_at": "2026-08-27T08:23:05.273888+00:00",
-        "updated_at": "2026-08-28T05:28:20.835891+00:00",
+        "updated_at": "2026-08-28T05:55:07.753438+00:00",
         "engine_version": "case-v6.5.3",
         "priority_score": 99,
         "priority_breakdown": {
@@ -35077,7 +35380,7 @@
         ],
         "article_count": 2,
         "created_at": "2026-08-27T08:23:05.315047+00:00",
-        "updated_at": "2026-08-28T05:28:20.844725+00:00",
+        "updated_at": "2026-08-28T05:55:07.762856+00:00",
         "engine_version": "case-v6.5.3",
         "priority_score": 24,
         "priority_breakdown": {
@@ -35186,7 +35489,7 @@
         ],
         "article_count": 1,
         "created_at": "2026-08-27T20:35:38.277075+00:00",
-        "updated_at": "2026-08-28T05:28:20.896349+00:00",
+        "updated_at": "2026-08-28T05:55:07.817468+00:00",
         "engine_version": "case-v6.5.3",
         "priority_score": 36,
         "priority_breakdown": {
@@ -35297,7 +35600,7 @@
         ],
         "article_count": 1,
         "created_at": "2026-08-27T20:35:38.334006+00:00",
-        "updated_at": "2026-08-28T05:28:20.899268+00:00",
+        "updated_at": "2026-08-28T05:55:07.820598+00:00",
         "engine_version": "case-v6.5.3",
         "priority_score": 30,
         "priority_breakdown": {
@@ -35404,7 +35707,7 @@
         ],
         "article_count": 1,
         "created_at": "2026-08-27T20:35:38.360689+00:00",
-        "updated_at": "2026-08-28T05:28:20.901922+00:00",
+        "updated_at": "2026-08-28T05:55:07.823422+00:00",
         "engine_version": "case-v6.5.3",
         "priority_score": 8,
         "priority_breakdown": {
@@ -35519,7 +35822,7 @@
         ],
         "article_count": 1,
         "created_at": "2026-08-27T20:35:38.389799+00:00",
-        "updated_at": "2026-08-28T05:28:20.904732+00:00",
+        "updated_at": "2026-08-28T05:55:07.826452+00:00",
         "engine_version": "case-v6.5.3",
         "priority_score": 48,
         "priority_breakdown": {
@@ -35624,7 +35927,7 @@
         ],
         "article_count": 1,
         "created_at": "2026-08-27T20:35:38.443599+00:00",
-        "updated_at": "2026-08-28T05:28:20.907196+00:00",
+        "updated_at": "2026-08-28T05:55:07.828998+00:00",
         "engine_version": "case-v6.5.3",
         "priority_score": 39,
         "priority_breakdown": {
@@ -35725,7 +36028,7 @@
         ],
         "article_count": 1,
         "created_at": "2026-08-27T20:35:38.461259+00:00",
-        "updated_at": "2026-08-28T05:28:20.909100+00:00",
+        "updated_at": "2026-08-28T05:55:07.831000+00:00",
         "engine_version": "case-v6.5.3",
         "priority_score": 30,
         "priority_breakdown": {
@@ -36133,7 +36436,7 @@
         ],
         "article_count": 8,
         "created_at": "2026-08-27T20:35:38.491662+00:00",
-        "updated_at": "2026-08-28T05:28:20.929837+00:00",
+        "updated_at": "2026-08-28T05:55:07.853061+00:00",
         "engine_version": "case-v6.5.3",
         "priority_score": 58,
         "priority_breakdown": {
@@ -36244,7 +36547,7 @@
         ],
         "article_count": 1,
         "created_at": "2026-08-27T20:35:38.521652+00:00",
-        "updated_at": "2026-08-28T05:28:20.932763+00:00",
+        "updated_at": "2026-08-28T05:55:07.856216+00:00",
         "engine_version": "case-v6.5.3",
         "priority_score": 37,
         "priority_breakdown": {
@@ -36351,7 +36654,7 @@
         ],
         "article_count": 1,
         "created_at": "2026-08-27T20:35:38.619539+00:00",
-        "updated_at": "2026-08-28T05:28:20.935464+00:00",
+        "updated_at": "2026-08-28T05:55:07.859074+00:00",
         "engine_version": "case-v6.5.3",
         "priority_score": 34,
         "priority_breakdown": {
@@ -36462,7 +36765,7 @@
         ],
         "article_count": 1,
         "created_at": "2026-08-27T20:35:38.653517+00:00",
-        "updated_at": "2026-08-28T05:28:20.938101+00:00",
+        "updated_at": "2026-08-28T05:55:07.861945+00:00",
         "engine_version": "case-v6.5.3",
         "priority_score": 24,
         "priority_breakdown": {
@@ -36569,7 +36872,7 @@
         ],
         "article_count": 1,
         "created_at": "2026-08-27T20:35:38.681889+00:00",
-        "updated_at": "2026-08-28T05:28:20.940474+00:00",
+        "updated_at": "2026-08-28T05:55:07.864490+00:00",
         "engine_version": "case-v6.5.3",
         "priority_score": 30,
         "priority_breakdown": {
@@ -36675,7 +36978,7 @@
         ],
         "article_count": 1,
         "created_at": "2026-08-27T20:35:38.719373+00:00",
-        "updated_at": "2026-08-28T05:28:20.943703+00:00",
+        "updated_at": "2026-08-28T05:55:07.867999+00:00",
         "engine_version": "case-v6.5.3",
         "priority_score": 12,
         "priority_breakdown": {
@@ -36783,7 +37086,7 @@
         ],
         "article_count": 1,
         "created_at": "2026-08-27T20:35:38.755148+00:00",
-        "updated_at": "2026-08-28T05:28:20.946323+00:00",
+        "updated_at": "2026-08-28T05:55:07.870836+00:00",
         "engine_version": "case-v6.5.3",
         "priority_score": 34,
         "priority_breakdown": {
@@ -36893,7 +37196,7 @@
         ],
         "article_count": 1,
         "created_at": "2026-08-27T20:35:38.781094+00:00",
-        "updated_at": "2026-08-28T05:28:20.948718+00:00",
+        "updated_at": "2026-08-28T05:55:07.873432+00:00",
         "engine_version": "case-v6.5.3",
         "priority_score": 42,
         "priority_breakdown": {
@@ -37008,7 +37311,7 @@
         ],
         "article_count": 1,
         "created_at": "2026-08-27T20:35:38.812885+00:00",
-        "updated_at": "2026-08-28T05:28:20.951528+00:00",
+        "updated_at": "2026-08-28T05:55:07.876437+00:00",
         "engine_version": "case-v6.5.3",
         "priority_score": 8,
         "priority_breakdown": {
@@ -37120,7 +37423,7 @@
         ],
         "article_count": 1,
         "created_at": "2026-08-27T20:35:38.845845+00:00",
-        "updated_at": "2026-08-28T05:28:20.954000+00:00",
+        "updated_at": "2026-08-28T05:55:07.879127+00:00",
         "engine_version": "case-v6.5.3",
         "priority_score": 8,
         "priority_breakdown": {
@@ -37228,7 +37531,7 @@
         ],
         "article_count": 1,
         "created_at": "2026-08-27T20:35:38.874573+00:00",
-        "updated_at": "2026-08-28T05:28:20.956556+00:00",
+        "updated_at": "2026-08-28T05:55:07.881772+00:00",
         "engine_version": "case-v6.5.3",
         "priority_score": 28,
         "priority_breakdown": {
@@ -37343,7 +37646,7 @@
         ],
         "article_count": 1,
         "created_at": "2026-08-27T20:35:38.942404+00:00",
-        "updated_at": "2026-08-28T05:28:20.959057+00:00",
+        "updated_at": "2026-08-28T05:55:07.884442+00:00",
         "engine_version": "case-v6.5.3",
         "priority_score": 15,
         "priority_breakdown": {
@@ -37452,7 +37755,7 @@
         ],
         "article_count": 1,
         "created_at": "2026-08-27T20:35:38.975335+00:00",
-        "updated_at": "2026-08-28T05:28:20.961859+00:00",
+        "updated_at": "2026-08-28T05:55:07.887431+00:00",
         "engine_version": "case-v6.5.3",
         "priority_score": 10,
         "priority_breakdown": {
@@ -37560,7 +37863,7 @@
         ],
         "article_count": 1,
         "created_at": "2026-08-27T20:35:39.044353+00:00",
-        "updated_at": "2026-08-28T05:28:20.964504+00:00",
+        "updated_at": "2026-08-28T05:55:07.890252+00:00",
         "engine_version": "case-v6.5.3",
         "priority_score": 40,
         "priority_breakdown": {
@@ -37675,7 +37978,7 @@
         ],
         "article_count": 1,
         "created_at": "2026-08-27T20:35:39.111368+00:00",
-        "updated_at": "2026-08-28T05:28:20.967834+00:00",
+        "updated_at": "2026-08-28T05:55:07.893927+00:00",
         "engine_version": "case-v6.5.3",
         "priority_score": 21,
         "priority_breakdown": {
@@ -37784,7 +38087,7 @@
         ],
         "article_count": 1,
         "created_at": "2026-08-27T20:35:39.142683+00:00",
-        "updated_at": "2026-08-28T05:28:20.970522+00:00",
+        "updated_at": "2026-08-28T05:55:07.896954+00:00",
         "engine_version": "case-v6.5.3",
         "priority_score": 10,
         "priority_breakdown": {
@@ -37888,7 +38191,7 @@
         ],
         "article_count": 1,
         "created_at": "2026-08-27T20:35:39.202751+00:00",
-        "updated_at": "2026-08-28T05:28:20.973053+00:00",
+        "updated_at": "2026-08-28T05:55:07.899583+00:00",
         "engine_version": "case-v6.5.3",
         "priority_score": 10,
         "priority_breakdown": {
@@ -37997,7 +38300,7 @@
         ],
         "article_count": 1,
         "created_at": "2026-08-27T20:35:39.232586+00:00",
-        "updated_at": "2026-08-28T05:28:20.975599+00:00",
+        "updated_at": "2026-08-28T05:55:07.902325+00:00",
         "engine_version": "case-v6.5.3",
         "priority_score": 26,
         "priority_breakdown": {
@@ -38107,7 +38410,7 @@
         ],
         "article_count": 1,
         "created_at": "2026-08-27T20:35:39.261318+00:00",
-        "updated_at": "2026-08-28T05:28:20.977884+00:00",
+        "updated_at": "2026-08-28T05:55:07.904796+00:00",
         "engine_version": "case-v6.5.3",
         "priority_score": 8,
         "priority_breakdown": {
@@ -38268,7 +38571,7 @@
         ],
         "article_count": 2,
         "created_at": "2026-08-28T05:28:18.155017+00:00",
-        "updated_at": "2026-08-28T05:28:20.983355+00:00",
+        "updated_at": "2026-08-28T05:55:07.910679+00:00",
         "engine_version": "case-v6.5.3",
         "priority_score": 28,
         "priority_breakdown": {
@@ -38380,7 +38683,7 @@
         ],
         "article_count": 1,
         "created_at": "2026-08-28T05:28:18.193442+00:00",
-        "updated_at": "2026-08-28T05:28:20.986407+00:00",
+        "updated_at": "2026-08-28T05:55:07.913926+00:00",
         "engine_version": "case-v6.5.3",
         "priority_score": 19,
         "priority_breakdown": {
@@ -38487,7 +38790,7 @@
         ],
         "article_count": 1,
         "created_at": "2026-08-28T05:28:18.229436+00:00",
-        "updated_at": "2026-08-28T05:28:20.989107+00:00",
+        "updated_at": "2026-08-28T05:55:07.916822+00:00",
         "engine_version": "case-v6.5.3",
         "priority_score": 8,
         "priority_breakdown": {
@@ -38593,7 +38896,7 @@
         ],
         "article_count": 1,
         "created_at": "2026-08-28T05:28:18.259506+00:00",
-        "updated_at": "2026-08-28T05:28:20.991784+00:00",
+        "updated_at": "2026-08-28T05:55:07.919689+00:00",
         "engine_version": "case-v6.5.3",
         "priority_score": 19,
         "priority_breakdown": {
@@ -38704,7 +39007,7 @@
         ],
         "article_count": 1,
         "created_at": "2026-08-28T05:28:18.289019+00:00",
-        "updated_at": "2026-08-28T05:28:20.994373+00:00",
+        "updated_at": "2026-08-28T05:55:07.922472+00:00",
         "engine_version": "case-v6.5.3",
         "priority_score": 30,
         "priority_breakdown": {
@@ -38810,7 +39113,7 @@
         ],
         "article_count": 1,
         "created_at": "2026-08-28T05:28:18.439408+00:00",
-        "updated_at": "2026-08-28T05:28:20.996924+00:00",
+        "updated_at": "2026-08-28T05:55:07.925174+00:00",
         "engine_version": "case-v6.5.3",
         "priority_score": 19,
         "priority_breakdown": {
@@ -38918,7 +39221,7 @@
         ],
         "article_count": 1,
         "created_at": "2026-08-28T05:28:18.477937+00:00",
-        "updated_at": "2026-08-28T05:28:21.000019+00:00",
+        "updated_at": "2026-08-28T05:55:07.928451+00:00",
         "engine_version": "case-v6.5.3",
         "priority_score": 10,
         "priority_breakdown": {
@@ -39021,7 +39324,7 @@
         ],
         "article_count": 1,
         "created_at": "2026-08-28T05:28:18.540569+00:00",
-        "updated_at": "2026-08-28T05:28:21.002227+00:00",
+        "updated_at": "2026-08-28T05:55:07.930769+00:00",
         "engine_version": "case-v6.5.3",
         "priority_score": 16,
         "priority_breakdown": {
@@ -39125,7 +39428,7 @@
         ],
         "article_count": 1,
         "created_at": "2026-08-28T05:28:18.569342+00:00",
-        "updated_at": "2026-08-28T05:28:21.004572+00:00",
+        "updated_at": "2026-08-28T05:55:07.933270+00:00",
         "engine_version": "case-v6.5.3",
         "priority_score": 8,
         "priority_breakdown": {
@@ -39250,7 +39553,7 @@
         ],
         "article_count": 1,
         "created_at": "2026-08-28T05:28:18.662273+00:00",
-        "updated_at": "2026-08-28T05:28:21.008816+00:00",
+        "updated_at": "2026-08-28T05:55:07.938021+00:00",
         "engine_version": "case-v6.5.3",
         "priority_score": 70,
         "priority_breakdown": {
@@ -39363,7 +39666,7 @@
         ],
         "article_count": 1,
         "created_at": "2026-08-28T05:28:18.702064+00:00",
-        "updated_at": "2026-08-28T05:28:21.011635+00:00",
+        "updated_at": "2026-08-28T05:55:07.941006+00:00",
         "engine_version": "case-v6.5.3",
         "priority_score": 33,
         "priority_breakdown": {
@@ -39468,7 +39771,7 @@
         ],
         "article_count": 1,
         "created_at": "2026-08-28T05:28:18.833670+00:00",
-        "updated_at": "2026-08-28T05:28:21.014055+00:00",
+        "updated_at": "2026-08-28T05:55:07.943588+00:00",
         "engine_version": "case-v6.5.3",
         "priority_score": 30,
         "priority_breakdown": {
@@ -39827,7 +40130,7 @@
         ],
         "article_count": 7,
         "created_at": "2026-08-27T08:23:04.715616+00:00",
-        "updated_at": "2026-08-28T05:28:20.656409+00:00",
+        "updated_at": "2026-08-28T05:55:07.559825+00:00",
         "engine_version": "case-v6.5.3",
         "priority_score": 37,
         "priority_breakdown": {
@@ -40570,7 +40873,7 @@
         ],
         "article_count": 16,
         "created_at": "2026-08-27T08:23:05.273888+00:00",
-        "updated_at": "2026-08-28T05:28:20.835891+00:00",
+        "updated_at": "2026-08-28T05:55:07.753438+00:00",
         "engine_version": "case-v6.5.3",
         "priority_score": 99,
         "priority_breakdown": {
@@ -40728,7 +41031,7 @@
         ],
         "article_count": 2,
         "created_at": "2026-08-27T08:23:05.315047+00:00",
-        "updated_at": "2026-08-28T05:28:20.844725+00:00",
+        "updated_at": "2026-08-28T05:55:07.762856+00:00",
         "engine_version": "case-v6.5.3",
         "priority_score": 24,
         "priority_breakdown": {
@@ -40837,7 +41140,7 @@
         ],
         "article_count": 1,
         "created_at": "2026-08-27T20:35:38.277075+00:00",
-        "updated_at": "2026-08-28T05:28:20.896349+00:00",
+        "updated_at": "2026-08-28T05:55:07.817468+00:00",
         "engine_version": "case-v6.5.3",
         "priority_score": 36,
         "priority_breakdown": {
@@ -40944,7 +41247,7 @@
         ],
         "article_count": 1,
         "created_at": "2026-08-27T20:35:38.360689+00:00",
-        "updated_at": "2026-08-28T05:28:20.901922+00:00",
+        "updated_at": "2026-08-28T05:55:07.823422+00:00",
         "engine_version": "case-v6.5.3",
         "priority_score": 8,
         "priority_breakdown": {
@@ -41353,7 +41656,7 @@
         ],
         "article_count": 8,
         "created_at": "2026-08-27T20:35:38.491662+00:00",
-        "updated_at": "2026-08-28T05:28:20.929837+00:00",
+        "updated_at": "2026-08-28T05:55:07.853061+00:00",
         "engine_version": "case-v6.5.3",
         "priority_score": 58,
         "priority_breakdown": {
@@ -41467,7 +41770,7 @@
         ],
         "article_count": 1,
         "created_at": "2026-08-27T20:35:38.812885+00:00",
-        "updated_at": "2026-08-28T05:28:20.951528+00:00",
+        "updated_at": "2026-08-28T05:55:07.876437+00:00",
         "engine_version": "case-v6.5.3",
         "priority_score": 8,
         "priority_breakdown": {
@@ -41582,7 +41885,7 @@
         ],
         "article_count": 1,
         "created_at": "2026-08-27T20:35:38.942404+00:00",
-        "updated_at": "2026-08-28T05:28:20.959057+00:00",
+        "updated_at": "2026-08-28T05:55:07.884442+00:00",
         "engine_version": "case-v6.5.3",
         "priority_score": 15,
         "priority_breakdown": {
@@ -41697,7 +42000,7 @@
         ],
         "article_count": 1,
         "created_at": "2026-08-27T20:35:39.111368+00:00",
-        "updated_at": "2026-08-28T05:28:20.967834+00:00",
+        "updated_at": "2026-08-28T05:55:07.893927+00:00",
         "engine_version": "case-v6.5.3",
         "priority_score": 21,
         "priority_breakdown": {
@@ -41860,7 +42163,7 @@
         ],
         "article_count": 2,
         "created_at": "2026-08-28T05:28:18.155017+00:00",
-        "updated_at": "2026-08-28T05:28:20.983355+00:00",
+        "updated_at": "2026-08-28T05:55:07.910679+00:00",
         "engine_version": "case-v6.5.3",
         "priority_score": 28,
         "priority_breakdown": {
@@ -41969,7 +42272,7 @@
         ],
         "article_count": 1,
         "created_at": "2026-08-28T05:28:18.229436+00:00",
-        "updated_at": "2026-08-28T05:28:20.989107+00:00",
+        "updated_at": "2026-08-28T05:55:07.916822+00:00",
         "engine_version": "case-v6.5.3",
         "priority_score": 8,
         "priority_breakdown": {
@@ -42079,7 +42382,7 @@
         ],
         "article_count": 1,
         "created_at": "2026-08-28T05:28:18.289019+00:00",
-        "updated_at": "2026-08-28T05:28:20.994373+00:00",
+        "updated_at": "2026-08-28T05:55:07.922472+00:00",
         "engine_version": "case-v6.5.3",
         "priority_score": 30,
         "priority_breakdown": {
@@ -42113,10 +42416,10 @@
     ]
   },
   "social": {
-    "detected": 93,
+    "detected": 101,
     "jatim": 4,
-    "negative": 58,
-    "priority_high": 34,
+    "negative": 65,
+    "priority_high": 37,
     "video_ids": [
       "YOIjvdqldpQ",
       "Ti6m-GF_G9k",
@@ -42155,6 +42458,7 @@
       "HG0oqPAoR0E",
       "YmGmpc9I6Oo",
       "b-S032aKiWw",
+      "MWheRFgUKUE",
       "qTjx2DIJR1g",
       "qHg3Oxd2evg",
       "flv7qEvpWKI",
@@ -42169,6 +42473,7 @@
       "_q2CeYmbi1M",
       "Pisru-wcCq8",
       "mFir39OFdJI",
+      "__fziWIL91E",
       "r-NT96RFmm0",
       "dPh2erPlUiw",
       "MVVe-nHPthk",
@@ -42181,6 +42486,7 @@
       "lEiQ4CTmQhU",
       "vAVixaE93cg",
       "KVmPZ9rkTKc",
+      "GPStA2iAu5I",
       "gC3XBW__TGA",
       "R-ChYREw9do",
       "hzcxhhqBWNU",
@@ -42188,6 +42494,7 @@
       "yOwwge7KtkM",
       "XuJGu04-6go",
       "WXfPDhnUI3I",
+      "jAqHdEuPsyk",
       "N8LOKazMUxc",
       "CqA4Sh25ES8",
       "F_kWm-f5Jlk",
@@ -42206,10 +42513,14 @@
       "M6Zt8qC1IyE",
       "FgMS0_Cdsdk",
       "PE2PU6ELoR4",
+      "ud6EUSBUVCk",
       "ETv5P3kQ5y8",
+      "0yUNOQdb9r0",
       "cbi52xiThsw",
       "zMDKL0EbW1c",
       "wnxxiV7zUB8",
+      "DUgCbyTspiM",
+      "w_y6VyTNAOk",
       "F1LHm1m_O8o"
     ]
   },
@@ -42222,7 +42533,7 @@
     "case_today": 12,
     "case_high_active": 1,
     "article_high_today": 0,
-    "outside_jatim_today": 131
+    "outside_jatim_today": 133
   },
   "regions": [
     {
@@ -42475,7 +42786,7 @@
     }
   ],
   "summary": {
-    "news_today": 240,
+    "news_today": 242,
     "negative_today": 37,
     "cases_today": 41,
     "priority_high": 3,
@@ -42487,7 +42798,7 @@
     "jatim_neutral": 83,
     "jatim_cases_today": 12,
     "jatim_case_high_active": 1,
-    "luar_jatim_news": 131,
-    "youtube_today": 93
+    "luar_jatim_news": 133,
+    "youtube_today": 101
   }
 }

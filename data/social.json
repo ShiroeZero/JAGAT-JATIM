@@ -1,21 +1,21 @@
 {
-  "generated_at": "2026-08-28T05:28:21.204117+00:00",
+  "generated_at": "2026-08-28T05:55:08.122189+00:00",
   "platform": "YouTube",
-  "query_cursor": 6,
+  "query_cursor": 9,
   "query_batch_size": 3,
   "query_success": 3,
   "query_skipped": 0,
   "quota_warning": false,
   "quota_block_date": null,
-  "total": 255,
-  "new_videos": 38,
+  "total": 257,
+  "new_videos": 2,
   "statistics": {
-    "total": 255,
+    "total": 257,
     "jatim": 7,
-    "negative": 107,
+    "negative": 108,
     "incident": 12,
     "case": 20,
-    "neutral": 69,
+    "neutral": 70,
     "noise": 3,
     "high_priority": 63
   },
@@ -921,6 +921,30 @@
       "collected_at": "2026-08-28T05:28:21.204117+00:00"
     },
     {
+      "id": "3ec9ffb2fc9e5f642929cf66e43ea47d28be9a5f",
+      "video_id": "MWheRFgUKUE",
+      "platform": "YouTube",
+      "type": "video",
+      "title": "Dua Kubu Keraton Solo Saling Lapor Polisi, Satu Masalah Gamelan Satunya Lagi Masalah Penganiayaan",
+      "channel": "Peristiwa Kota Solo",
+      "published_at": "2026-08-27T11:18:28Z",
+      "url": "https://www.youtube.com/watch?v=MWheRFgUKUE",
+      "thumbnail": "https://i.ytimg.com/vi/MWheRFgUKUE/hqdefault.jpg",
+      "description": "SOLO — Konflik internal Keraton Kasunanan Surakarta Hadiningrat kembali masuk ranah hukum. Dua kubu melapor ke ...",
+      "relevance": "high",
+      "scope": "negative",
+      "category": "Kekerasan / Penganiayaan",
+      "classification_score": 100,
+      "is_jatim": false,
+      "region": "Indonesia",
+      "polres": null,
+      "location_confidence": 0,
+      "location_source": null,
+      "location_evidence": [],
+      "priority": "medium",
+      "collected_at": "2026-08-28T05:55:08.122189+00:00"
+    },
+    {
       "id": "fa890a90e23e45fd8a7c52b892df19da22196035",
       "video_id": "qTjx2DIJR1g",
       "platform": "YouTube",
@@ -1284,7 +1308,7 @@
       "location_source": null,
       "location_evidence": [],
       "priority": "medium",
-      "collected_at": "2026-08-27T09:55:31.624741+00:00"
+      "collected_at": "2026-08-28T05:55:08.122189+00:00"
     },
     {
       "id": "e04a95edb1368f2f0f746d6215df4cd4b690f4e6",
@@ -1575,6 +1599,30 @@
       "collected_at": "2026-08-27T20:35:41.191412+00:00"
     },
     {
+      "id": "1fe26da52490053b882995115c84ed8f54455487",
+      "video_id": "GPStA2iAu5I",
+      "platform": "YouTube",
+      "type": "video",
+      "title": "Tucson police seek man in aggravated assault case",
+      "channel": "News 4 Tucson KVOA-TV",
+      "published_at": "2026-08-27T05:45:19Z",
+      "url": "https://www.youtube.com/watch?v=GPStA2iAu5I",
+      "thumbnail": "https://i.ytimg.com/vi/GPStA2iAu5I/hqdefault.jpg",
+      "description": "Tucson police seek man in aggravated assault case.",
+      "relevance": "low",
+      "scope": "neutral",
+      "category": "Tidak Relevan",
+      "classification_score": 0,
+      "is_jatim": false,
+      "region": "Indonesia",
+      "polres": null,
+      "location_confidence": 0,
+      "location_source": null,
+      "location_evidence": [],
+      "priority": "low",
+      "collected_at": "2026-08-28T05:55:08.122189+00:00"
+    },
+    {
       "id": "263c7aa290b4131fcc6807c627c85d2be6802348",
       "video_id": "gC3XBW__TGA",
       "platform": "YouTube",
@@ -1764,7 +1812,7 @@
       "location_source": null,
       "location_evidence": [],
       "priority": "medium",
-      "collected_at": "2026-08-27T09:55:31.624741+00:00"
+      "collected_at": "2026-08-28T05:55:08.122189+00:00"
     },
     {
       "id": "2a0835eb2d30e5c36ea790a60002260993048957",
@@ -2621,7 +2669,7 @@
       "location_source": null,
       "location_evidence": [],
       "priority": "high",
-      "collected_at": "2026-08-27T08:23:19.072992+00:00"
+      "collected_at": "2026-08-28T05:55:08.122189+00:00"
     },
     {
       "id": "28bbc247c343d882f393ae202f9664f85d8ad9c6",
@@ -2765,7 +2813,7 @@
       "location_source": null,
       "location_evidence": [],
       "priority": "medium",
-      "collected_at": "2026-08-27T09:55:31.624741+00:00"
+      "collected_at": "2026-08-28T05:55:08.122189+00:00"
     },
     {
       "video_id": "6J1LJXdJ3es",
@@ -4215,7 +4263,7 @@
       "classifier_version": null,
       "classified_at": null,
       "case_id": null,
-      "collected_at": "2026-08-27T09:55:31.624741+00:00",
+      "collected_at": "2026-08-28T05:55:08.122189+00:00",
       "id": "0b0d1f64729c39c7e47f4e558d5b74a007116108",
       "relevance": "high",
       "classification_score": 100
@@ -4281,7 +4329,7 @@
       "classifier_version": null,
       "classified_at": null,
       "case_id": null,
-      "collected_at": "2026-08-27T08:23:19.072992+00:00",
+      "collected_at": "2026-08-28T05:55:08.122189+00:00",
       "id": "aed3379e05310ad823da1a434482ba458fe07367",
       "relevance": "high",
       "classification_score": 100
