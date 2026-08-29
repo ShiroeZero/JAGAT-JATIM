@@ -2,18 +2,21 @@
   "schema_version": "today-v3",
   "date": "2026-08-30",
   "timezone": "Asia/Jakarta",
-  "updated_at": "2026-08-30T01:37:05.795559+07:00",
-  "last_successful_update": "2026-08-30T01:37:05.795559+07:00",
+  "updated_at": "2026-08-30T04:48:54.177246+07:00",
+  "last_successful_update": "2026-08-30T04:48:54.177246+07:00",
   "news": {
-    "detected": 16,
+    "detected": 19,
     "negative": 5,
     "positive": 0,
     "case": 2,
-    "neutral": 9,
-    "jatim": 10,
-    "luar_jatim": 6,
+    "neutral": 12,
+    "jatim": 12,
+    "luar_jatim": 7,
     "priority_high": 0,
     "article_ids": [
+      "5bab0426f89ac714918155e16a62a4d40beb76ee",
+      "33ee06d52ab72c33f25fdbc3381590761647e98e",
+      "e04aec866814016419d8ab86c7959bfbfdbf6b50",
       "41213e993b0a11c070d9267b0234e35d27d1d251",
       "d1ae0017bf4260666981757b9d75aafaebb7fe20",
       "863abf75133aa0b3d2bc52b11dd2cc133fb85f10",
@@ -33,6 +36,211 @@
     ],
     "items": [
       {
+        "id": "5bab0426f89ac714918155e16a62a4d40beb76ee",
+        "title": "Polisi Tangkap 2 Begal di Makassar, Pelaku Lain Masih Diburu - JPNN.com",
+        "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQaEJJLWc5cGhDYjNIU0NTLUcwU3lCS29nUU8yUXE1SHczRkhHVXN5dnJwb0dZa2IzMXZNc1pwLS1oa1RxRENtODhUUkp6aGVkV2tEdTd3VXZJck51Zmg3azM0cTRRRU15RkVFVTlyTmdScnBGd1lCMkRWOUZmYzEzSXdJd1NiUmlFM3RmOHp3?oc=5",
+        "source": "JPNN.com",
+        "published_at": "2026-08-29T21:00:00+00:00",
+        "collected_at": "2026-08-29T21:45:36.280108+00:00",
+        "region": "BELUM TERPETAKAN",
+        "area_label": "BELUM TERPETAKAN",
+        "is_jatim": null,
+        "polres": null,
+        "category": "NETRAL / LAINNYA",
+        "scope": "neutral",
+        "scope_label": "NETRAL",
+        "priority": "low",
+        "summary": "Polisi Tangkap 2 Begal di Makassar, Pelaku Lain Masih Diburu JPNN.com",
+        "processing_status": "processed",
+        "classifier_version": "news-v6",
+        "classified_at": "2026-08-29T21:45:36.280108+00:00",
+        "case_id": null,
+        "discovery_families": [],
+        "discovery_tags": [],
+        "discovery_hits": [],
+        "discovery_version": "discovery-v6.5.3",
+        "locality": "",
+        "polsek": null,
+        "location_confidence": 0,
+        "location_evidence": [],
+        "location_status": "BELUM_TERPETAKAN",
+        "location_source": "title",
+        "issue_type": "UMUM",
+        "issue_subtype": "Belum Teridentifikasi",
+        "issue_evidence": [],
+        "handling_status": "BELUM_ADA_INFORMASI",
+        "handling_evidence": [],
+        "attention_score": 7,
+        "attention_label": "Rendah",
+        "attention_components": {
+          "severity": 2,
+          "polri_relation": 0,
+          "authority": 0,
+          "public_impact": 4,
+          "handling": 0,
+          "evidence": 1,
+          "context_risk": 0,
+          "routine_enforcement_cap": null
+        },
+        "attention_evidence": {
+          "severity": [],
+          "authority": [],
+          "public_impact": [],
+          "evidence": [
+            "satu sumber / informasi awal"
+          ],
+          "role": [],
+          "issue": [],
+          "handling": [],
+          "context": [],
+          "positive": []
+        },
+        "case_engine_version": "case-v6.5.3",
+        "case_processed_at": "2026-08-29T21:48:09.262420+00:00"
+      },
+      {
+        "id": "33ee06d52ab72c33f25fdbc3381590761647e98e",
+        "title": "Satresnarkoba Polresta Sumenep Ungkap Peredaran Sabu, Seorang Pria Diamankan - TargetNews.ID",
+        "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOSU1wTEM2enJlWXJYSDlJWUFsY0NXS2pSdzNEVmUyUFVqVjQ0b1MwNExzbW5HU0cwd205RFhma2xldWE4SVhEZDVSNXpKUC1TNWhUQV9FcUZxYlFrSEZ2NDFpU3NpaDZKMm84Qm5vdTA0MGpGYVVUMkMwSktWNWFVUHRBTnpLeDNNZXBEUVBOV18tbTZjQnpLU3lFMURlTHFhRWR0QTFxTnh3ekowN0E?oc=5",
+        "source": "TargetNews.ID",
+        "published_at": "2026-08-29T20:03:00+00:00",
+        "collected_at": "2026-08-29T21:45:36.280108+00:00",
+        "region": "Jawa Timur",
+        "area_label": "Sumenep",
+        "is_jatim": true,
+        "polres": "POLRESTA SUMENEP",
+        "category": "NETRAL / LAINNYA",
+        "scope": "neutral",
+        "scope_label": "NETRAL",
+        "priority": "low",
+        "summary": "Satresnarkoba Polresta Sumenep Ungkap Peredaran Sabu, Seorang Pria Diamankan TargetNews.ID",
+        "processing_status": "processed",
+        "classifier_version": "news-v6",
+        "classified_at": "2026-08-29T21:45:36.280108+00:00",
+        "case_id": null,
+        "discovery_families": [],
+        "discovery_tags": [],
+        "discovery_hits": [],
+        "discovery_version": "discovery-v6.5.3",
+        "locality": "Sumenep",
+        "polsek": null,
+        "location_confidence": 100,
+        "location_evidence": [
+          "polresta sumenep",
+          "Sumenep"
+        ],
+        "location_status": "JAWA_TIMUR",
+        "location_source": "title",
+        "issue_type": "NARKOBA",
+        "issue_subtype": "Narkoba / Narkotika",
+        "issue_evidence": [
+          "sabu"
+        ],
+        "handling_status": "BELUM_ADA_INFORMASI",
+        "handling_evidence": [],
+        "attention_score": 18,
+        "attention_label": "Rendah",
+        "attention_components": {
+          "severity": 11,
+          "polri_relation": 2,
+          "authority": 0,
+          "public_impact": 4,
+          "handling": 0,
+          "evidence": 1,
+          "context_risk": 0,
+          "routine_enforcement_cap": 35
+        },
+        "attention_evidence": {
+          "severity": [],
+          "authority": [],
+          "public_impact": [],
+          "evidence": [
+            "satu sumber / informasi awal"
+          ],
+          "role": [
+            "Polri sebagai pihak penindak"
+          ],
+          "issue": [
+            "sabu"
+          ],
+          "handling": [],
+          "context": [],
+          "positive": []
+        },
+        "case_engine_version": "case-v6.5.3",
+        "case_processed_at": "2026-08-29T21:48:09.296371+00:00"
+      },
+      {
+        "id": "e04aec866814016419d8ab86c7959bfbfdbf6b50",
+        "title": "Polres Lamongan Bongkar Jaringan Sabu, Pasutri Siri Ditangkap dengan Barang Bukti 7,8 Gram - TargetNews.ID",
+        "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQUWZCT2lWR1BQRzdPbEV2V1drcTBReWdxWHc2RGJsQW1ZamVTV1VPREE1bzYtNUtmNU94OWtGaFhuck5XRGxzTjVUZW1IeWxIZTJXM29yZjR4dnpoaU95ZWpqUXRsYnptUkwtbGNSQkpDUU9xMGVodTc0dExKSlRzR2NpV2JXR1NVeklmQWJ4NlhoNzdTU3p1NDJuNHdUZ1ZLbW54NUpjMEI0YVhlbFhRNFpZUHljUFdfOWI0U0dnSQ?oc=5",
+        "source": "TargetNews.ID",
+        "published_at": "2026-08-29T19:56:00+00:00",
+        "collected_at": "2026-08-29T21:45:36.280108+00:00",
+        "region": "Jawa Timur",
+        "area_label": "Lamongan",
+        "is_jatim": true,
+        "polres": "POLRES LAMONGAN",
+        "category": "NETRAL / LAINNYA",
+        "scope": "neutral",
+        "scope_label": "NETRAL",
+        "priority": "low",
+        "summary": "Polres Lamongan Bongkar Jaringan Sabu, Pasutri Siri Ditangkap dengan Barang Bukti 7,8 Gram TargetNews.ID",
+        "processing_status": "processed",
+        "classifier_version": "news-v6",
+        "classified_at": "2026-08-29T21:45:36.280108+00:00",
+        "case_id": null,
+        "discovery_families": [],
+        "discovery_tags": [],
+        "discovery_hits": [],
+        "discovery_version": "discovery-v6.5.3",
+        "locality": "Lamongan",
+        "polsek": null,
+        "location_confidence": 100,
+        "location_evidence": [
+          "polres lamongan",
+          "Lamongan"
+        ],
+        "location_status": "JAWA_TIMUR",
+        "location_source": "title",
+        "issue_type": "NARKOBA",
+        "issue_subtype": "Narkoba / Narkotika",
+        "issue_evidence": [
+          "sabu"
+        ],
+        "handling_status": "BELUM_ADA_INFORMASI",
+        "handling_evidence": [],
+        "attention_score": 16,
+        "attention_label": "Rendah",
+        "attention_components": {
+          "severity": 11,
+          "polri_relation": 0,
+          "authority": 0,
+          "public_impact": 4,
+          "handling": 0,
+          "evidence": 1,
+          "context_risk": 0,
+          "routine_enforcement_cap": null
+        },
+        "attention_evidence": {
+          "severity": [],
+          "authority": [],
+          "public_impact": [],
+          "evidence": [
+            "satu sumber / informasi awal"
+          ],
+          "role": [],
+          "issue": [
+            "sabu"
+          ],
+          "handling": [],
+          "context": [],
+          "positive": []
+        },
+        "case_engine_version": "case-v6.5.3",
+        "case_processed_at": "2026-08-29T21:48:09.334802+00:00"
+      },
+      {
         "id": "41213e993b0a11c070d9267b0234e35d27d1d251",
         "title": "Balita Tiga Tahun Kritis, Polresta Malang Kota Bergerak Cepat Tangkap Ibu Kandung dan Pasangannya - TargetNews.ID",
         "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOcWdNcmZWVm5pbDJnT3lzS3BIMDI2TjVXdlVFWFRRd1UwZlVZV3VmeTd6Y3VyTWNybjdCaGhUQW41MmtXRVpCaVB3TGlGZ0tSVUdjTkZJZE8wUlJxYndLQ3paN2xFNDBuOHcwS0pmZ202U1NjbW1ZVDdYVF9NaVRzT0w5Z3VLR2pCbEdlRWkwLWgyU3ZockltTF83TkJWNUU1VWRqNXhQSTZhYUxyOVIzWWxxcURlLWh2Tno0OGJWQThPRFJhSzJTNjB3?oc=5",
@@ -96,7 +304,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-29T18:35:56.576492+00:00"
+        "case_processed_at": "2026-08-29T21:48:09.375753+00:00"
       },
       {
         "id": "d1ae0017bf4260666981757b9d75aafaebb7fe20",
@@ -162,7 +370,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-29T18:35:56.644227+00:00"
+        "case_processed_at": "2026-08-29T21:48:09.417905+00:00"
       },
       {
         "id": "863abf75133aa0b3d2bc52b11dd2cc133fb85f10",
@@ -229,7 +437,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-29T18:35:56.705014+00:00"
+        "case_processed_at": "2026-08-29T21:48:09.455636+00:00"
       },
       {
         "id": "596fc567eea78c379f61a9db61037e77940fc0b2",
@@ -303,7 +511,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-29T18:37:04.648527+00:00"
+        "case_processed_at": "2026-08-29T21:48:52.856014+00:00"
       },
       {
         "id": "f5030216cf1fce7ebe64bf2c729f9965d07e028f",
@@ -383,7 +591,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-29T18:37:04.648532+00:00"
+        "case_processed_at": "2026-08-29T21:48:52.856017+00:00"
       },
       {
         "id": "8f8f84bd17d3621041260133fcc42ba6eee34a90",
@@ -461,7 +669,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-29T18:35:56.781494+00:00"
+        "case_processed_at": "2026-08-29T21:48:09.501193+00:00"
       },
       {
         "id": "3fcd4984d84e380d994f64d2b1ee94694b570c55",
@@ -538,7 +746,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-29T18:37:04.648535+00:00"
+        "case_processed_at": "2026-08-29T21:48:52.856020+00:00"
       },
       {
         "id": "ab3b63ae73b32be06d7f878dffe54d95ae6ad01c",
@@ -623,7 +831,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-29T18:37:04.648538+00:00"
+        "case_processed_at": "2026-08-29T21:48:52.856022+00:00"
       },
       {
         "id": "199bb119fc55da91cbcc0460745e4e46bd82090d",
@@ -692,7 +900,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-29T18:35:56.897374+00:00"
+        "case_processed_at": "2026-08-29T21:48:09.534879+00:00"
       },
       {
         "id": "8e96d46e2ece8ac5add1e342a81c84a8bdb6b720",
@@ -762,7 +970,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-29T18:37:04.648540+00:00"
+        "case_processed_at": "2026-08-29T21:48:52.856025+00:00"
       },
       {
         "id": "5bfc9236838fd0a9dfe2e9c828c870fe0f55da3a",
@@ -844,7 +1052,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-29T18:37:04.648543+00:00"
+        "case_processed_at": "2026-08-29T21:48:52.856027+00:00"
       },
       {
         "id": "49c0492b944e82ee44b50e14e0e70a7fff3f1fd1",
@@ -922,7 +1130,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-29T18:37:04.648545+00:00"
+        "case_processed_at": "2026-08-29T21:48:52.856028+00:00"
       },
       {
         "id": "b4e5f94fae26830856e7099c42591c241ee20ca0",
@@ -998,7 +1206,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-29T18:37:04.648547+00:00"
+        "case_processed_at": "2026-08-29T21:48:52.856030+00:00"
       },
       {
         "id": "ead93df36e794be27d2cbd59f0b9bd9777ce1995",
@@ -1079,7 +1287,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-29T18:35:57.045542+00:00"
+        "case_processed_at": "2026-08-29T21:48:09.587538+00:00"
       },
       {
         "id": "44fab81fbfc1c8d1518dcd097503f69b0311fc06",
@@ -1150,7 +1358,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-29T18:37:04.648549+00:00"
+        "case_processed_at": "2026-08-29T21:48:52.856032+00:00"
       },
       {
         "id": "5fbcd53721d941856689fff1d23bcdbe105ef0f3",
@@ -1227,11 +1435,153 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-29T18:35:57.116032+00:00"
+        "case_processed_at": "2026-08-29T21:48:09.626375+00:00"
       }
     ],
     "jatim_items": [
       {
+        "id": "33ee06d52ab72c33f25fdbc3381590761647e98e",
+        "title": "Satresnarkoba Polresta Sumenep Ungkap Peredaran Sabu, Seorang Pria Diamankan - TargetNews.ID",
+        "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOSU1wTEM2enJlWXJYSDlJWUFsY0NXS2pSdzNEVmUyUFVqVjQ0b1MwNExzbW5HU0cwd205RFhma2xldWE4SVhEZDVSNXpKUC1TNWhUQV9FcUZxYlFrSEZ2NDFpU3NpaDZKMm84Qm5vdTA0MGpGYVVUMkMwSktWNWFVUHRBTnpLeDNNZXBEUVBOV18tbTZjQnpLU3lFMURlTHFhRWR0QTFxTnh3ekowN0E?oc=5",
+        "source": "TargetNews.ID",
+        "published_at": "2026-08-29T20:03:00+00:00",
+        "collected_at": "2026-08-29T21:45:36.280108+00:00",
+        "region": "Jawa Timur",
+        "area_label": "Sumenep",
+        "is_jatim": true,
+        "polres": "POLRESTA SUMENEP",
+        "category": "NETRAL / LAINNYA",
+        "scope": "neutral",
+        "scope_label": "NETRAL",
+        "priority": "low",
+        "summary": "Satresnarkoba Polresta Sumenep Ungkap Peredaran Sabu, Seorang Pria Diamankan TargetNews.ID",
+        "processing_status": "processed",
+        "classifier_version": "news-v6",
+        "classified_at": "2026-08-29T21:45:36.280108+00:00",
+        "case_id": null,
+        "discovery_families": [],
+        "discovery_tags": [],
+        "discovery_hits": [],
+        "discovery_version": "discovery-v6.5.3",
+        "locality": "Sumenep",
+        "polsek": null,
+        "location_confidence": 100,
+        "location_evidence": [
+          "polresta sumenep",
+          "Sumenep"
+        ],
+        "location_status": "JAWA_TIMUR",
+        "location_source": "title",
+        "issue_type": "NARKOBA",
+        "issue_subtype": "Narkoba / Narkotika",
+        "issue_evidence": [
+          "sabu"
+        ],
+        "handling_status": "BELUM_ADA_INFORMASI",
+        "handling_evidence": [],
+        "attention_score": 18,
+        "attention_label": "Rendah",
+        "attention_components": {
+          "severity": 11,
+          "polri_relation": 2,
+          "authority": 0,
+          "public_impact": 4,
+          "handling": 0,
+          "evidence": 1,
+          "context_risk": 0,
+          "routine_enforcement_cap": 35
+        },
+        "attention_evidence": {
+          "severity": [],
+          "authority": [],
+          "public_impact": [],
+          "evidence": [
+            "satu sumber / informasi awal"
+          ],
+          "role": [
+            "Polri sebagai pihak penindak"
+          ],
+          "issue": [
+            "sabu"
+          ],
+          "handling": [],
+          "context": [],
+          "positive": []
+        },
+        "case_engine_version": "case-v6.5.3",
+        "case_processed_at": "2026-08-29T21:48:09.296371+00:00"
+      },
+      {
+        "id": "e04aec866814016419d8ab86c7959bfbfdbf6b50",
+        "title": "Polres Lamongan Bongkar Jaringan Sabu, Pasutri Siri Ditangkap dengan Barang Bukti 7,8 Gram - TargetNews.ID",
+        "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQUWZCT2lWR1BQRzdPbEV2V1drcTBReWdxWHc2RGJsQW1ZamVTV1VPREE1bzYtNUtmNU94OWtGaFhuck5XRGxzTjVUZW1IeWxIZTJXM29yZjR4dnpoaU95ZWpqUXRsYnptUkwtbGNSQkpDUU9xMGVodTc0dExKSlRzR2NpV2JXR1NVeklmQWJ4NlhoNzdTU3p1NDJuNHdUZ1ZLbW54NUpjMEI0YVhlbFhRNFpZUHljUFdfOWI0U0dnSQ?oc=5",
+        "source": "TargetNews.ID",
+        "published_at": "2026-08-29T19:56:00+00:00",
+        "collected_at": "2026-08-29T21:45:36.280108+00:00",
+        "region": "Jawa Timur",
+        "area_label": "Lamongan",
+        "is_jatim": true,
+        "polres": "POLRES LAMONGAN",
+        "category": "NETRAL / LAINNYA",
+        "scope": "neutral",
+        "scope_label": "NETRAL",
+        "priority": "low",
+        "summary": "Polres Lamongan Bongkar Jaringan Sabu, Pasutri Siri Ditangkap dengan Barang Bukti 7,8 Gram TargetNews.ID",
+        "processing_status": "processed",
+        "classifier_version": "news-v6",
+        "classified_at": "2026-08-29T21:45:36.280108+00:00",
+        "case_id": null,
+        "discovery_families": [],
+        "discovery_tags": [],
+        "discovery_hits": [],
+        "discovery_version": "discovery-v6.5.3",
+        "locality": "Lamongan",
+        "polsek": null,
+        "location_confidence": 100,
+        "location_evidence": [
+          "polres lamongan",
+          "Lamongan"
+        ],
+        "location_status": "JAWA_TIMUR",
+        "location_source": "title",
+        "issue_type": "NARKOBA",
+        "issue_subtype": "Narkoba / Narkotika",
+        "issue_evidence": [
+          "sabu"
+        ],
+        "handling_status": "BELUM_ADA_INFORMASI",
+        "handling_evidence": [],
+        "attention_score": 16,
+        "attention_label": "Rendah",
+        "attention_components": {
+          "severity": 11,
+          "polri_relation": 0,
+          "authority": 0,
+          "public_impact": 4,
+          "handling": 0,
+          "evidence": 1,
+          "context_risk": 0,
+          "routine_enforcement_cap": null
+        },
+        "attention_evidence": {
+          "severity": [],
+          "authority": [],
+          "public_impact": [],
+          "evidence": [
+            "satu sumber / informasi awal"
+          ],
+          "role": [],
+          "issue": [
+            "sabu"
+          ],
+          "handling": [],
+          "context": [],
+          "positive": []
+        },
+        "case_engine_version": "case-v6.5.3",
+        "case_processed_at": "2026-08-29T21:48:09.334802+00:00"
+      },
+      {
         "id": "41213e993b0a11c070d9267b0234e35d27d1d251",
         "title": "Balita Tiga Tahun Kritis, Polresta Malang Kota Bergerak Cepat Tangkap Ibu Kandung dan Pasangannya - TargetNews.ID",
         "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOcWdNcmZWVm5pbDJnT3lzS3BIMDI2TjVXdlVFWFRRd1UwZlVZV3VmeTd6Y3VyTWNybjdCaGhUQW41MmtXRVpCaVB3TGlGZ0tSVUdjTkZJZE8wUlJxYndLQ3paN2xFNDBuOHcwS0pmZ202U1NjbW1ZVDdYVF9NaVRzT0w5Z3VLR2pCbEdlRWkwLWgyU3ZockltTF83TkJWNUU1VWRqNXhQSTZhYUxyOVIzWWxxcURlLWh2Tno0OGJWQThPRFJhSzJTNjB3?oc=5",
@@ -1295,7 +1645,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-29T18:35:56.576492+00:00"
+        "case_processed_at": "2026-08-29T21:48:09.375753+00:00"
       },
       {
         "id": "d1ae0017bf4260666981757b9d75aafaebb7fe20",
@@ -1361,7 +1711,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-29T18:35:56.644227+00:00"
+        "case_processed_at": "2026-08-29T21:48:09.417905+00:00"
       },
       {
         "id": "596fc567eea78c379f61a9db61037e77940fc0b2",
@@ -1435,7 +1785,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-29T18:37:04.648527+00:00"
+        "case_processed_at": "2026-08-29T21:48:52.856014+00:00"
       },
       {
         "id": "8f8f84bd17d3621041260133fcc42ba6eee34a90",
@@ -1513,7 +1863,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-29T18:35:56.781494+00:00"
+        "case_processed_at": "2026-08-29T21:48:09.501193+00:00"
       },
       {
         "id": "ab3b63ae73b32be06d7f878dffe54d95ae6ad01c",
@@ -1598,7 +1948,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-29T18:37:04.648538+00:00"
+        "case_processed_at": "2026-08-29T21:48:52.856022+00:00"
       },
       {
         "id": "199bb119fc55da91cbcc0460745e4e46bd82090d",
@@ -1667,7 +2017,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-29T18:35:56.897374+00:00"
+        "case_processed_at": "2026-08-29T21:48:09.534879+00:00"
       },
       {
         "id": "5bfc9236838fd0a9dfe2e9c828c870fe0f55da3a",
@@ -1749,7 +2099,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-29T18:37:04.648543+00:00"
+        "case_processed_at": "2026-08-29T21:48:52.856027+00:00"
       },
       {
         "id": "49c0492b944e82ee44b50e14e0e70a7fff3f1fd1",
@@ -1827,7 +2177,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-29T18:37:04.648545+00:00"
+        "case_processed_at": "2026-08-29T21:48:52.856028+00:00"
       },
       {
         "id": "b4e5f94fae26830856e7099c42591c241ee20ca0",
@@ -1903,7 +2253,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-29T18:37:04.648547+00:00"
+        "case_processed_at": "2026-08-29T21:48:52.856030+00:00"
       },
       {
         "id": "ead93df36e794be27d2cbd59f0b9bd9777ce1995",
@@ -1984,10 +2334,73 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-29T18:35:57.045542+00:00"
+        "case_processed_at": "2026-08-29T21:48:09.587538+00:00"
       }
     ],
     "luar_jatim_items": [
+      {
+        "id": "5bab0426f89ac714918155e16a62a4d40beb76ee",
+        "title": "Polisi Tangkap 2 Begal di Makassar, Pelaku Lain Masih Diburu - JPNN.com",
+        "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQaEJJLWc5cGhDYjNIU0NTLUcwU3lCS29nUU8yUXE1SHczRkhHVXN5dnJwb0dZa2IzMXZNc1pwLS1oa1RxRENtODhUUkp6aGVkV2tEdTd3VXZJck51Zmg3azM0cTRRRU15RkVFVTlyTmdScnBGd1lCMkRWOUZmYzEzSXdJd1NiUmlFM3RmOHp3?oc=5",
+        "source": "JPNN.com",
+        "published_at": "2026-08-29T21:00:00+00:00",
+        "collected_at": "2026-08-29T21:45:36.280108+00:00",
+        "region": "BELUM TERPETAKAN",
+        "area_label": "BELUM TERPETAKAN",
+        "is_jatim": null,
+        "polres": null,
+        "category": "NETRAL / LAINNYA",
+        "scope": "neutral",
+        "scope_label": "NETRAL",
+        "priority": "low",
+        "summary": "Polisi Tangkap 2 Begal di Makassar, Pelaku Lain Masih Diburu JPNN.com",
+        "processing_status": "processed",
+        "classifier_version": "news-v6",
+        "classified_at": "2026-08-29T21:45:36.280108+00:00",
+        "case_id": null,
+        "discovery_families": [],
+        "discovery_tags": [],
+        "discovery_hits": [],
+        "discovery_version": "discovery-v6.5.3",
+        "locality": "",
+        "polsek": null,
+        "location_confidence": 0,
+        "location_evidence": [],
+        "location_status": "BELUM_TERPETAKAN",
+        "location_source": "title",
+        "issue_type": "UMUM",
+        "issue_subtype": "Belum Teridentifikasi",
+        "issue_evidence": [],
+        "handling_status": "BELUM_ADA_INFORMASI",
+        "handling_evidence": [],
+        "attention_score": 7,
+        "attention_label": "Rendah",
+        "attention_components": {
+          "severity": 2,
+          "polri_relation": 0,
+          "authority": 0,
+          "public_impact": 4,
+          "handling": 0,
+          "evidence": 1,
+          "context_risk": 0,
+          "routine_enforcement_cap": null
+        },
+        "attention_evidence": {
+          "severity": [],
+          "authority": [],
+          "public_impact": [],
+          "evidence": [
+            "satu sumber / informasi awal"
+          ],
+          "role": [],
+          "issue": [],
+          "handling": [],
+          "context": [],
+          "positive": []
+        },
+        "case_engine_version": "case-v6.5.3",
+        "case_processed_at": "2026-08-29T21:48:09.262420+00:00"
+      },
       {
         "id": "863abf75133aa0b3d2bc52b11dd2cc133fb85f10",
         "title": "Sembunyikan 22 Paket Sabu di Dalam Kulkas, Dua Pria di Arosbaya Berurusan dengan Polisi - TargetNews.ID",
@@ -2053,7 +2466,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-29T18:35:56.705014+00:00"
+        "case_processed_at": "2026-08-29T21:48:09.455636+00:00"
       },
       {
         "id": "f5030216cf1fce7ebe64bf2c729f9965d07e028f",
@@ -2133,7 +2546,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-29T18:37:04.648532+00:00"
+        "case_processed_at": "2026-08-29T21:48:52.856017+00:00"
       },
       {
         "id": "3fcd4984d84e380d994f64d2b1ee94694b570c55",
@@ -2210,7 +2623,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-29T18:37:04.648535+00:00"
+        "case_processed_at": "2026-08-29T21:48:52.856020+00:00"
       },
       {
         "id": "8e96d46e2ece8ac5add1e342a81c84a8bdb6b720",
@@ -2280,7 +2693,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-29T18:37:04.648540+00:00"
+        "case_processed_at": "2026-08-29T21:48:52.856025+00:00"
       },
       {
         "id": "44fab81fbfc1c8d1518dcd097503f69b0311fc06",
@@ -2351,7 +2764,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-29T18:37:04.648549+00:00"
+        "case_processed_at": "2026-08-29T21:48:52.856032+00:00"
       },
       {
         "id": "5fbcd53721d941856689fff1d23bcdbe105ef0f3",
@@ -2428,7 +2841,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-29T18:35:57.116032+00:00"
+        "case_processed_at": "2026-08-29T21:48:09.626375+00:00"
       }
     ]
   },
@@ -4181,7 +4594,7 @@
         ],
         "article_count": 42,
         "created_at": "2026-08-27T20:35:38.491662+00:00",
-        "updated_at": "2026-08-29T18:37:04.286899+00:00",
+        "updated_at": "2026-08-29T21:48:52.635172+00:00",
         "engine_version": "case-v6.5.3",
         "priority_score": 93,
         "priority_breakdown": {
@@ -4593,7 +5006,7 @@
         ],
         "article_count": 8,
         "created_at": "2026-08-28T05:28:18.155017+00:00",
-        "updated_at": "2026-08-29T18:37:04.362374+00:00",
+        "updated_at": "2026-08-29T21:48:52.681007+00:00",
         "engine_version": "case-v6.5.3",
         "priority_score": 38,
         "priority_breakdown": {
@@ -5068,7 +5481,7 @@
         ],
         "article_count": 10,
         "created_at": "2026-08-28T18:47:54.085845+00:00",
-        "updated_at": "2026-08-29T18:37:04.428877+00:00",
+        "updated_at": "2026-08-29T21:48:52.721882+00:00",
         "engine_version": "case-v6.5.3",
         "priority_score": 37,
         "priority_breakdown": {
@@ -5387,7 +5800,7 @@
         ],
         "article_count": 6,
         "created_at": "2026-08-29T09:10:45.492457+00:00",
-        "updated_at": "2026-08-29T18:37:04.550315+00:00",
+        "updated_at": "2026-08-29T21:48:52.795519+00:00",
         "engine_version": "case-v6.5.3",
         "priority_score": 88,
         "priority_breakdown": {
@@ -5498,7 +5911,7 @@
         ],
         "article_count": 1,
         "created_at": "2026-08-29T18:36:58.682643+00:00",
-        "updated_at": "2026-08-29T18:37:04.639990+00:00",
+        "updated_at": "2026-08-29T21:48:52.850747+00:00",
         "engine_version": "case-v6.5.3",
         "priority_score": 22,
         "priority_breakdown": {
@@ -5608,7 +6021,7 @@
         ],
         "article_count": 1,
         "created_at": "2026-08-29T18:36:58.744664+00:00",
-        "updated_at": "2026-08-29T18:37:04.642558+00:00",
+        "updated_at": "2026-08-29T21:48:52.852303+00:00",
         "engine_version": "case-v6.5.3",
         "priority_score": 33,
         "priority_breakdown": {
@@ -5716,7 +6129,7 @@
         ],
         "article_count": 1,
         "created_at": "2026-08-29T18:36:58.807242+00:00",
-        "updated_at": "2026-08-29T18:37:04.645232+00:00",
+        "updated_at": "2026-08-29T21:48:52.853944+00:00",
         "engine_version": "case-v6.5.3",
         "priority_score": 8,
         "priority_breakdown": {
@@ -5824,7 +6237,7 @@
         ],
         "article_count": 1,
         "created_at": "2026-08-29T18:36:58.997406+00:00",
-        "updated_at": "2026-08-29T18:37:04.648391+00:00",
+        "updated_at": "2026-08-29T21:48:52.855907+00:00",
         "engine_version": "case-v6.5.3",
         "priority_score": 39,
         "priority_breakdown": {
@@ -7589,7 +8002,7 @@
         ],
         "article_count": 42,
         "created_at": "2026-08-27T20:35:38.491662+00:00",
-        "updated_at": "2026-08-29T18:37:04.286899+00:00",
+        "updated_at": "2026-08-29T21:48:52.635172+00:00",
         "engine_version": "case-v6.5.3",
         "priority_score": 93,
         "priority_breakdown": {
@@ -8001,7 +8414,7 @@
         ],
         "article_count": 8,
         "created_at": "2026-08-28T05:28:18.155017+00:00",
-        "updated_at": "2026-08-29T18:37:04.362374+00:00",
+        "updated_at": "2026-08-29T21:48:52.681007+00:00",
         "engine_version": "case-v6.5.3",
         "priority_score": 38,
         "priority_breakdown": {
@@ -8476,7 +8889,7 @@
         ],
         "article_count": 10,
         "created_at": "2026-08-28T18:47:54.085845+00:00",
-        "updated_at": "2026-08-29T18:37:04.428877+00:00",
+        "updated_at": "2026-08-29T21:48:52.721882+00:00",
         "engine_version": "case-v6.5.3",
         "priority_score": 37,
         "priority_breakdown": {
@@ -8795,7 +9208,7 @@
         ],
         "article_count": 6,
         "created_at": "2026-08-29T09:10:45.492457+00:00",
-        "updated_at": "2026-08-29T18:37:04.550315+00:00",
+        "updated_at": "2026-08-29T21:48:52.795519+00:00",
         "engine_version": "case-v6.5.3",
         "priority_score": 88,
         "priority_breakdown": {
@@ -8831,57 +9244,116 @@
     ]
   },
   "social": {
-    "detected": 25,
-    "jatim": 5,
-    "negative": 16,
-    "priority_high": 9,
+    "detected": 80,
+    "jatim": 14,
+    "negative": 45,
+    "priority_high": 35,
     "video_ids": [
       "xyNPOqhnito",
+      "SC0M4Et4bPw",
+      "ckL8_du7HMU",
       "TivB029ZGOU",
       "nndet0ypqwM",
       "5NZ8WuPM_HE",
       "LKR3wyknlDs",
       "Pr234LssYOM",
       "w7YjuWMEPyE",
+      "YAuHD4PU21A",
+      "QFP8JGVbvak",
       "Q7uJyi23ygM",
       "sj-SADS8GpY",
       "ahzvgJT5hyA",
+      "nordjnpfwjQ",
       "bsjL3CSNoGI",
+      "asGLaQsN64o",
+      "F5xA8yg3SMo",
       "0Xmi6VVg-WM",
+      "ftugVrpwbds",
       "XIhe3-H7YWI",
+      "6A6wUh6ITSk",
+      "Uw_zRSjNrbs",
       "cnLLca-YTok",
+      "HYgPMyGLjNw",
+      "UCamw0WF_Fk",
+      "MHrtXGDsGCM",
       "vbjffH5Uk9k",
       "je4yjwTI6pA",
       "CnVQqlfbTcw",
+      "qSStuDCGlfM",
       "2qX4CnUmzgM",
       "FFU-NSaIPtk",
+      "okxQHY4bYkM",
       "zKAeghA-zTo",
       "kXpSjBxVNmo",
       "YKdGdHPH4WU",
       "gCKXn-iuAzk",
       "t2o0f7VoClY",
-      "e5AIC5MaRrw"
+      "OyP5HAB9OwQ",
+      "p49QfGg_E98",
+      "knZnq0b_mxw",
+      "OXJqTwhfKpw",
+      "uHgPFDGX-Pw",
+      "pDHBQt0kGWU",
+      "9qT0Y1N6nJo",
+      "qM_nOESJ_lw",
+      "-IacnS4bIgw",
+      "D86i8OK8jMA",
+      "5721nSOPTKE",
+      "7UTNykXagUk",
+      "ETpgkfx5n-U",
+      "jQXi6_Tcc-U",
+      "nFYDtdZ3RZs",
+      "vg-t5vaTVME",
+      "jrfnJeDoxUc",
+      "sDOSRCfSdoQ",
+      "74tsvCri3z0",
+      "nE6PZTeRVVI",
+      "e5AIC5MaRrw",
+      "_u2vjVQDSag",
+      "CScMJc98MXE",
+      "wW9-wtgHcAQ",
+      "jRCPzhJom6c",
+      "8LMxHYT-ezg",
+      "Li0o-ZcG3NU",
+      "16IEVLID4lA",
+      "3TknHXSJ6mM",
+      "BKm3s_s6G9w",
+      "VAE0SFeXdeY",
+      "zzodaTyAWco",
+      "7ZsfqRwLcbM",
+      "djpj1u8aa1Q",
+      "WwdM9bA5_vg",
+      "afgzoaj-dcI",
+      "MYZGKc4hybE",
+      "kawg1oawgO8",
+      "hCVZ4IZtkSk",
+      "Gu_d1aEkgnQ",
+      "nOD95NbX1hU"
     ]
   },
   "jatim": {
-    "news_today": 10,
+    "news_today": 12,
     "negative_today": 2,
     "positive_today": 0,
     "case_scope_today": 1,
-    "neutral_today": 7,
+    "neutral_today": 9,
     "case_today": 4,
     "case_high_active": 2,
     "article_high_today": 0,
-    "outside_jatim_today": 6
+    "outside_jatim_today": 7
   },
   "regions": [
+    {
+      "name": "Sumenep",
+      "count": 4
+    },
     {
       "name": "Surabaya",
       "count": 3
     },
     {
-      "name": "Sumenep",
-      "count": 3
+      "name": "Lamongan",
+      "count": 2
     },
     {
       "name": "Malang",
@@ -8894,13 +9366,17 @@
     {
       "name": "Tuban",
       "count": 1
-    },
-    {
-      "name": "Lamongan",
-      "count": 1
     }
   ],
   "polres": [
+    {
+      "name": "POLRESTA SUMENEP",
+      "count": 2
+    },
+    {
+      "name": "POLRES LAMONGAN",
+      "count": 2
+    },
     {
       "name": "POLRESTA MALANG KOTA",
       "count": 1
@@ -8912,20 +9388,12 @@
     {
       "name": "POLRESTA TUBAN",
       "count": 1
-    },
-    {
-      "name": "POLRESTA SUMENEP",
-      "count": 1
-    },
-    {
-      "name": "POLRES LAMONGAN",
-      "count": 1
     }
   ],
   "categories": [
     {
       "name": "NETRAL / LAINNYA",
-      "count": 7
+      "count": 9
     },
     {
       "name": "UNGKAP KASUS / PENINDAKAN",
@@ -8941,19 +9409,19 @@
     }
   ],
   "summary": {
-    "news_today": 16,
+    "news_today": 19,
     "negative_today": 5,
     "cases_today": 8,
     "priority_high": 2,
     "article_priority_high": 0,
-    "jatim_news": 10,
+    "jatim_news": 12,
     "jatim_negative": 2,
     "jatim_positive": 0,
     "jatim_case_scope": 1,
-    "jatim_neutral": 7,
+    "jatim_neutral": 9,
     "jatim_cases_today": 4,
     "jatim_case_high_active": 2,
-    "luar_jatim_news": 6,
-    "youtube_today": 25
+    "luar_jatim_news": 7,
+    "youtube_today": 80
   }
 }
