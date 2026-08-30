@@ -2,18 +2,23 @@
   "schema_version": "today-v3",
   "date": "2026-08-31",
   "timezone": "Asia/Jakarta",
-  "updated_at": "2026-08-31T04:12:51.324152+07:00",
-  "last_successful_update": "2026-08-31T04:12:51.324152+07:00",
+  "updated_at": "2026-08-31T06:35:40.328506+07:00",
+  "last_successful_update": "2026-08-31T06:35:40.328506+07:00",
   "news": {
-    "detected": 23,
+    "detected": 28,
     "negative": 2,
-    "positive": 3,
+    "positive": 5,
     "case": 1,
-    "neutral": 17,
-    "jatim": 14,
-    "luar_jatim": 9,
+    "neutral": 20,
+    "jatim": 16,
+    "luar_jatim": 12,
     "priority_high": 1,
     "article_ids": [
+      "19894c03d044267b970b744a13207b07aa4c19fd",
+      "e27bbceadb513c6124cee64b5a126b28296d1cf1",
+      "3499dc65f4035bdd258f8decb5601fd84445c7f8",
+      "91567e173456acf39e19426c3e87c8c517abbbe4",
+      "08a4aa16e7e6996801c630eb44fa3832cbf2ff5f",
       "9e1d19cca08d3a6df56376b4f052564f07477820",
       "9bb2c56c99c49c9a071a3e3c13fedb2c67314c6f",
       "d22f352a03fcfb020d93bb6f88df57dead59be83",
@@ -40,6 +45,336 @@
     ],
     "items": [
       {
+        "id": "19894c03d044267b970b744a13207b07aa4c19fd",
+        "title": "Belum Dibayar, Kontraktor Perumahan di Kota Batu Lapor Polisi - beritajatim.com",
+        "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxORXhpTlJnZUpiaWlXZ3p1RjEwSXJtdDhsalQ2cl9pQmxDUGtURHViME85bHJZUExxbTFYeV9CLXN4VDdLd1Q1WkVqdDVVblMxQW11bFh6Y2lXZ296OC1WMWIwNzFfNXU3SXlEU2k5XzE3cjFfYmZuVDdnYXRlQkNUdEtpS2NFVXVyRWJpVQ?oc=5",
+        "source": "beritajatim.com",
+        "published_at": "2026-08-30T23:17:00+00:00",
+        "collected_at": "2026-08-30T23:32:00.846307+00:00",
+        "region": "Jawa Timur",
+        "area_label": "Batu",
+        "is_jatim": true,
+        "polres": null,
+        "category": "NETRAL / LAINNYA",
+        "scope": "neutral",
+        "scope_label": "NETRAL",
+        "priority": "low",
+        "summary": "Belum Dibayar, Kontraktor Perumahan di Kota Batu Lapor Polisi beritajatim.com",
+        "processing_status": "processed",
+        "classifier_version": "news-v6",
+        "classified_at": "2026-08-30T23:32:00.846307+00:00",
+        "case_id": null,
+        "discovery_families": [],
+        "discovery_tags": [],
+        "discovery_hits": [],
+        "discovery_version": "discovery-v6.5.3",
+        "locality": "Batu",
+        "polsek": null,
+        "location_confidence": 95,
+        "location_evidence": [
+          "Batu"
+        ],
+        "location_status": "JAWA_TIMUR",
+        "location_source": "title",
+        "issue_type": "UMUM",
+        "issue_subtype": "Belum Teridentifikasi",
+        "issue_evidence": [],
+        "handling_status": "BELUM_ADA_INFORMASI",
+        "handling_evidence": [],
+        "attention_score": 7,
+        "attention_label": "Rendah",
+        "attention_components": {
+          "severity": 2,
+          "polri_relation": 0,
+          "authority": 0,
+          "public_impact": 4,
+          "handling": 0,
+          "evidence": 1,
+          "context_risk": 0,
+          "routine_enforcement_cap": null
+        },
+        "attention_evidence": {
+          "severity": [],
+          "authority": [],
+          "public_impact": [],
+          "evidence": [
+            "satu sumber / informasi awal"
+          ],
+          "role": [],
+          "issue": [],
+          "handling": [],
+          "context": [],
+          "positive": []
+        },
+        "case_engine_version": "case-v6.5.3",
+        "case_processed_at": "2026-08-30T23:34:45.046885+00:00"
+      },
+      {
+        "id": "e27bbceadb513c6124cee64b5a126b28296d1cf1",
+        "title": "Cegah Kriminalitas, Polsek Pangarengan Intensifkan Patroli Harkamtibmas - RRI.co.id",
+        "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQcm94dU55dnUyUTRqWkktREpVUmNQX1QwYWEyd0RZSG9PNzBFLU4ybUhNdXNValdWc3FfemF1UlktakZQLVNVVDQzdC1sV0otb051QlhuVzBfUVlZbVdhSjNLZjJoUEQ3VndjZWxEQTFnd2c1NjRzZ0x0NHNxOG5MWm5nam1jTVNCM2pMLW55X19QYzFpVjE1bG1UUjJzM2Z5NTRmQ2ZIM3JVTjFKUjduQmZTOA?oc=5",
+        "source": "RRI.co.id",
+        "published_at": "2026-08-30T22:57:00+00:00",
+        "collected_at": "2026-08-30T23:32:00.846307+00:00",
+        "region": "BELUM TERPETAKAN",
+        "area_label": "BELUM TERPETAKAN",
+        "is_jatim": null,
+        "polres": null,
+        "category": "PRESTASI / KEGIATAN POSITIF",
+        "scope": "positive",
+        "scope_label": "POSITIF / KEGIATAN",
+        "priority": "low",
+        "summary": "Cegah Kriminalitas, Polsek Pangarengan Intensifkan Patroli Harkamtibmas RRI.co.id",
+        "processing_status": "processed",
+        "classifier_version": "news-v6",
+        "classified_at": "2026-08-30T23:32:00.846307+00:00",
+        "case_id": null,
+        "discovery_families": [],
+        "discovery_tags": [],
+        "discovery_hits": [],
+        "discovery_version": "discovery-v6.5.3",
+        "locality": "",
+        "polsek": "POLSEK PANGARENGAN INTENSIFKAN PATROLI",
+        "location_confidence": 0,
+        "location_evidence": [
+          "POLSEK PANGARENGAN INTENSIFKAN PATROLI"
+        ],
+        "location_status": "BELUM_TERPETAKAN",
+        "location_source": "title",
+        "issue_type": "UMUM",
+        "issue_subtype": "Belum Teridentifikasi",
+        "issue_evidence": [],
+        "handling_status": "BELUM_ADA_INFORMASI",
+        "handling_evidence": [],
+        "attention_score": 7,
+        "attention_label": "Rendah",
+        "attention_components": {
+          "severity": 2,
+          "polri_relation": 0,
+          "authority": 0,
+          "public_impact": 4,
+          "handling": 0,
+          "evidence": 1,
+          "context_risk": 0,
+          "routine_enforcement_cap": null
+        },
+        "attention_evidence": {
+          "severity": [],
+          "authority": [],
+          "public_impact": [],
+          "evidence": [
+            "satu sumber / informasi awal"
+          ],
+          "role": [],
+          "issue": [],
+          "handling": [],
+          "context": [],
+          "positive": []
+        },
+        "case_engine_version": "case-v6.5.3",
+        "case_processed_at": "2026-08-30T23:34:45.093206+00:00"
+      },
+      {
+        "id": "3499dc65f4035bdd258f8decb5601fd84445c7f8",
+        "title": "Polsek Omben Intensifkan Patroli Kewilayahan - RRI.co.id",
+        "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOM2gyM2Q1emZuOVJmN3E0NUhubmh2TkoyMGZuLUJCNWp5R29fMmxBaWVJU2RzQmNKbDhfRF9LeXJ1STNfc194SUJKNTUwWjNvVkRzQWNYUFFfTFpKOE9GMHZQWU90bl9keXNVQkFaNG1YdEZBUmc1WTd0RDBQTTFiQ3pIUDZVS1NiLU5sdEZRbFU?oc=5",
+        "source": "RRI.co.id",
+        "published_at": "2026-08-30T22:56:00+00:00",
+        "collected_at": "2026-08-30T23:32:00.846307+00:00",
+        "region": "BELUM TERPETAKAN",
+        "area_label": "BELUM TERPETAKAN",
+        "is_jatim": null,
+        "polres": null,
+        "category": "PRESTASI / KEGIATAN POSITIF",
+        "scope": "positive",
+        "scope_label": "POSITIF / KEGIATAN",
+        "priority": "low",
+        "summary": "Polsek Omben Intensifkan Patroli Kewilayahan RRI.co.id",
+        "processing_status": "processed",
+        "classifier_version": "news-v6",
+        "classified_at": "2026-08-30T23:32:00.846307+00:00",
+        "case_id": null,
+        "discovery_families": [],
+        "discovery_tags": [],
+        "discovery_hits": [],
+        "discovery_version": "discovery-v6.5.3",
+        "locality": "",
+        "polsek": "POLSEK OMBEN INTENSIFKAN PATROLI",
+        "location_confidence": 0,
+        "location_evidence": [
+          "POLSEK OMBEN INTENSIFKAN PATROLI"
+        ],
+        "location_status": "BELUM_TERPETAKAN",
+        "location_source": "title",
+        "issue_type": "UMUM",
+        "issue_subtype": "Belum Teridentifikasi",
+        "issue_evidence": [],
+        "handling_status": "BELUM_ADA_INFORMASI",
+        "handling_evidence": [],
+        "attention_score": 7,
+        "attention_label": "Rendah",
+        "attention_components": {
+          "severity": 2,
+          "polri_relation": 0,
+          "authority": 0,
+          "public_impact": 4,
+          "handling": 0,
+          "evidence": 1,
+          "context_risk": 0,
+          "routine_enforcement_cap": null
+        },
+        "attention_evidence": {
+          "severity": [],
+          "authority": [],
+          "public_impact": [],
+          "evidence": [
+            "satu sumber / informasi awal"
+          ],
+          "role": [],
+          "issue": [],
+          "handling": [],
+          "context": [],
+          "positive": []
+        },
+        "case_engine_version": "case-v6.5.3",
+        "case_processed_at": "2026-08-30T23:34:45.127476+00:00"
+      },
+      {
+        "id": "91567e173456acf39e19426c3e87c8c517abbbe4",
+        "title": "Polres Pasuruan Sosialisasikan Pemahaman AI kepada Peserta Rally Piala Bhayangkara 2026 - GempurNews.Com",
+        "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOaWs4UXU3MlNoYUdseWlNOHlVYThrWWFfbU4wcHVLcWJvWWU5M1JqR0xlcWdQanYyLXlDV05xekkwckZjcUtwQlN5aUpCbnJCcEswSThMQ2VPT1pkdzhiNVllMDZYMFZZc1Z3cm5zbzJZZUt5dlk0WW9lOFctTW9LQzFEcnJjVnRCRGV3V25XbmFjSGpFSU0xSjNYSndranFra0h2MmVxN0xwOVJHWHJFdVYxZ3d1cFJRQmpEZUM4UQ?oc=5",
+        "source": "GempurNews.Com",
+        "published_at": "2026-08-30T22:50:03+00:00",
+        "collected_at": "2026-08-30T23:32:00.846307+00:00",
+        "region": "Jawa Timur",
+        "area_label": "Pasuruan",
+        "is_jatim": true,
+        "polres": "POLRES PASURUAN",
+        "category": "NETRAL / LAINNYA",
+        "scope": "neutral",
+        "scope_label": "NETRAL",
+        "priority": "low",
+        "summary": "Polres Pasuruan Sosialisasikan Pemahaman AI kepada Peserta Rally Piala Bhayangkara 2026 GempurNews.Com",
+        "processing_status": "processed",
+        "classifier_version": "news-v6",
+        "classified_at": "2026-08-30T23:32:00.846307+00:00",
+        "case_id": null,
+        "discovery_families": [],
+        "discovery_tags": [],
+        "discovery_hits": [],
+        "discovery_version": "discovery-v6.5.3",
+        "locality": "Pasuruan",
+        "polsek": null,
+        "location_confidence": 100,
+        "location_evidence": [
+          "polres pasuruan",
+          "Pasuruan"
+        ],
+        "location_status": "JAWA_TIMUR",
+        "location_source": "title",
+        "issue_type": "UMUM",
+        "issue_subtype": "Belum Teridentifikasi",
+        "issue_evidence": [],
+        "handling_status": "BELUM_ADA_INFORMASI",
+        "handling_evidence": [],
+        "attention_score": 7,
+        "attention_label": "Rendah",
+        "attention_components": {
+          "severity": 2,
+          "polri_relation": 0,
+          "authority": 0,
+          "public_impact": 4,
+          "handling": 0,
+          "evidence": 1,
+          "context_risk": 0,
+          "routine_enforcement_cap": null
+        },
+        "attention_evidence": {
+          "severity": [],
+          "authority": [],
+          "public_impact": [],
+          "evidence": [
+            "satu sumber / informasi awal"
+          ],
+          "role": [],
+          "issue": [],
+          "handling": [],
+          "context": [],
+          "positive": []
+        },
+        "case_engine_version": "case-v6.5.3",
+        "case_processed_at": "2026-08-30T23:34:45.175287+00:00"
+      },
+      {
+        "id": "08a4aa16e7e6996801c630eb44fa3832cbf2ff5f",
+        "title": "Pesta Musik Rave Berdarah, Polisi Swiss Buru Pelaku Penembakan - Arrahmah.id",
+        "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQYlZMSXhaWDExNnFUR29nbC0weEExS1BPbWNWOS1ubUpYNGstWXhxSGMyOHIwM2FoZmt0OFp1a3V3REtlYUtJSkxuSE53U19SS1hQV1VsZGN3M0RwVkEzMUJpa3pCdFYwTmxObnhCSmd2cUZ6UHJfa0FaNy1KdVlpNzIxZjkwNEdUY1Vmb3BR?oc=5",
+        "source": "Arrahmah.id",
+        "published_at": "2026-08-30T22:09:57+00:00",
+        "collected_at": "2026-08-30T23:32:00.846307+00:00",
+        "region": "BELUM TERPETAKAN",
+        "area_label": "BELUM TERPETAKAN",
+        "is_jatim": null,
+        "polres": null,
+        "category": "NETRAL / LAINNYA",
+        "scope": "neutral",
+        "scope_label": "NETRAL",
+        "priority": "medium",
+        "summary": "Pesta Musik Rave Berdarah, Polisi Swiss Buru Pelaku Penembakan Arrahmah.id",
+        "processing_status": "processed",
+        "classifier_version": "news-v6",
+        "classified_at": "2026-08-30T23:32:00.846307+00:00",
+        "case_id": null,
+        "discovery_families": [],
+        "discovery_tags": [],
+        "discovery_hits": [],
+        "discovery_version": "discovery-v6.5.3",
+        "locality": "",
+        "polsek": null,
+        "location_confidence": 0,
+        "location_evidence": [],
+        "location_status": "BELUM_TERPETAKAN",
+        "location_source": "title",
+        "issue_type": "KEKERASAN_DAN_KEKUATAN",
+        "issue_subtype": "Kekerasan / Penggunaan Kekuatan",
+        "issue_evidence": [
+          "penembakan"
+        ],
+        "handling_status": "BELUM_ADA_INFORMASI",
+        "handling_evidence": [],
+        "attention_score": 40,
+        "attention_label": "Sedang",
+        "attention_components": {
+          "severity": 28,
+          "polri_relation": 0,
+          "authority": 0,
+          "public_impact": 4,
+          "handling": 0,
+          "evidence": 1,
+          "context_risk": 0,
+          "routine_enforcement_cap": null
+        },
+        "attention_evidence": {
+          "severity": [
+            "kekerasan berat"
+          ],
+          "authority": [],
+          "public_impact": [],
+          "evidence": [
+            "satu sumber / informasi awal"
+          ],
+          "role": [],
+          "issue": [
+            "penembakan"
+          ],
+          "handling": [],
+          "context": [],
+          "positive": []
+        },
+        "case_engine_version": "case-v6.5.3",
+        "case_processed_at": "2026-08-30T23:34:45.215513+00:00"
+      },
+      {
         "id": "9e1d19cca08d3a6df56376b4f052564f07477820",
         "title": "Buntut Pasang Portal di Jalan Hauling Tambang, Kantan Cs Dilaporkan Ke Polisi Oleh PT MUTU - BeritaKalteng.Com",
         "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQaHVSbHNJQTZic3JLRWFTRXg5aTcyVV8yd3lMMlpubFBLcGlUU1l0d3FDZXVCeWN1RDBldF9BVHdHbUtKd0xyN2JHcmhJc3NoeUFaT0JMM1lGZEtUM0ZoWVVEQU82amZxSmM2d2FfSGEwY3FrYnYwOEQ0MGpyZVJPMGkzVzVGdnVaZ2dNOXVubEJzX0YxbFUwNHhidVJYaEhhRU5oRGpUdG9keG12OFZlSE85dXZuWlVoRUdfdzU0dWhqaS1Cc1E?oc=5",
@@ -100,7 +435,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-30T21:11:25.541579+00:00"
+        "case_processed_at": "2026-08-30T23:34:45.267042+00:00"
       },
       {
         "id": "9bb2c56c99c49c9a071a3e3c13fedb2c67314c6f",
@@ -177,7 +512,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-30T21:11:25.608881+00:00"
+        "case_processed_at": "2026-08-30T23:34:45.313039+00:00"
       },
       {
         "id": "d22f352a03fcfb020d93bb6f88df57dead59be83",
@@ -257,7 +592,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-30T21:12:50.111095+00:00"
+        "case_processed_at": "2026-08-30T23:35:39.037927+00:00"
       },
       {
         "id": "e867bda30bd1b79f48decd17dfc4c07fb6b6bee7",
@@ -323,7 +658,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-30T21:11:25.672344+00:00"
+        "case_processed_at": "2026-08-30T23:34:45.356488+00:00"
       },
       {
         "id": "17a808e47ba2d1c4f71c68b9eed0c757722ea714",
@@ -389,7 +724,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-30T21:11:25.740394+00:00"
+        "case_processed_at": "2026-08-30T23:34:45.403285+00:00"
       },
       {
         "id": "fae166f6850f952782ebe053d47a44a45e19ec83",
@@ -455,7 +790,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-30T21:11:25.789896+00:00"
+        "case_processed_at": "2026-08-30T23:34:45.436936+00:00"
       },
       {
         "id": "532379fd5a3ffecd3755c62694e5797d203e4062",
@@ -518,7 +853,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-30T21:11:25.853517+00:00"
+        "case_processed_at": "2026-08-30T23:34:45.478376+00:00"
       },
       {
         "id": "2bbb7632fcee05d555e17c5144659f5628af9517",
@@ -581,7 +916,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-30T21:11:25.923455+00:00"
+        "case_processed_at": "2026-08-30T23:34:45.525705+00:00"
       },
       {
         "id": "6488122494924628b7730c769ed351502accc7f6",
@@ -665,7 +1000,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-30T21:12:50.111102+00:00"
+        "case_processed_at": "2026-08-30T23:35:39.037933+00:00"
       },
       {
         "id": "86e6b9956a8affdecae25646c9913fe10c9c415f",
@@ -732,7 +1067,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-30T21:11:25.986525+00:00"
+        "case_processed_at": "2026-08-30T23:34:45.567769+00:00"
       },
       {
         "id": "6dc694a02f94e8848b112f38cca70644278955ba",
@@ -797,7 +1132,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-30T21:11:26.060080+00:00"
+        "case_processed_at": "2026-08-30T23:34:45.614181+00:00"
       },
       {
         "id": "a3fa52c67bdb82953cfbd4c4f2c365bcdbf99263",
@@ -863,7 +1198,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-30T21:11:26.149061+00:00"
+        "case_processed_at": "2026-08-30T23:34:45.675066+00:00"
       },
       {
         "id": "7e186ca741a433c4a6cffbc7d66996055db388ae",
@@ -934,7 +1269,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-30T21:11:26.219610+00:00"
+        "case_processed_at": "2026-08-30T23:34:45.721835+00:00"
       },
       {
         "id": "f7e3bfb7b7eb2b3f0195aa99be7d072b4aa1eb19",
@@ -1003,7 +1338,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-30T21:11:26.285043+00:00"
+        "case_processed_at": "2026-08-30T23:34:45.765070+00:00"
       },
       {
         "id": "b25078d938a8e0689b3cd06b528ae51c3edb3b6e",
@@ -1068,7 +1403,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-30T21:11:26.349675+00:00"
+        "case_processed_at": "2026-08-30T23:34:45.807689+00:00"
       },
       {
         "id": "666343ac9e300fb3b86ac937f3d40624943a079f",
@@ -1138,7 +1473,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-30T21:11:26.406955+00:00"
+        "case_processed_at": "2026-08-30T23:34:45.844646+00:00"
       },
       {
         "id": "28783407f2c216a20aa63955a9e353db1560e7ca",
@@ -1203,7 +1538,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-30T21:11:26.490160+00:00"
+        "case_processed_at": "2026-08-30T23:34:45.899704+00:00"
       },
       {
         "id": "bdab0a3bd33b3b1cdf2b6732d311e7d630dbd4fc",
@@ -1271,7 +1606,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-30T21:12:50.111108+00:00"
+        "case_processed_at": "2026-08-30T23:35:39.037937+00:00"
       },
       {
         "id": "d44abf0f47124fcc6afc0a83e24bbae78788d7b4",
@@ -1336,7 +1671,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-30T21:11:26.571736+00:00"
+        "case_processed_at": "2026-08-30T23:34:45.954253+00:00"
       },
       {
         "id": "2a6dba31b6aa2cc0d059f292438a8ac73be4072b",
@@ -1407,7 +1742,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-30T21:11:26.647221+00:00"
+        "case_processed_at": "2026-08-30T23:34:46.006695+00:00"
       },
       {
         "id": "d2372abed6518a159835202389ef01edbd7105a3",
@@ -1473,7 +1808,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-30T21:11:26.712486+00:00"
+        "case_processed_at": "2026-08-30T23:34:46.051142+00:00"
       },
       {
         "id": "a8f46c88840dbba79a34a6f2151f05f588861901",
@@ -1539,7 +1874,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-30T21:11:26.776418+00:00"
+        "case_processed_at": "2026-08-30T23:34:46.093339+00:00"
       },
       {
         "id": "d7e2e0a3e77814ff05e1ba147fd56f10ff500765",
@@ -1605,11 +1940,142 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-30T21:11:26.840237+00:00"
+        "case_processed_at": "2026-08-30T23:34:46.137337+00:00"
       }
     ],
     "jatim_items": [
       {
+        "id": "19894c03d044267b970b744a13207b07aa4c19fd",
+        "title": "Belum Dibayar, Kontraktor Perumahan di Kota Batu Lapor Polisi - beritajatim.com",
+        "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxORXhpTlJnZUpiaWlXZ3p1RjEwSXJtdDhsalQ2cl9pQmxDUGtURHViME85bHJZUExxbTFYeV9CLXN4VDdLd1Q1WkVqdDVVblMxQW11bFh6Y2lXZ296OC1WMWIwNzFfNXU3SXlEU2k5XzE3cjFfYmZuVDdnYXRlQkNUdEtpS2NFVXVyRWJpVQ?oc=5",
+        "source": "beritajatim.com",
+        "published_at": "2026-08-30T23:17:00+00:00",
+        "collected_at": "2026-08-30T23:32:00.846307+00:00",
+        "region": "Jawa Timur",
+        "area_label": "Batu",
+        "is_jatim": true,
+        "polres": null,
+        "category": "NETRAL / LAINNYA",
+        "scope": "neutral",
+        "scope_label": "NETRAL",
+        "priority": "low",
+        "summary": "Belum Dibayar, Kontraktor Perumahan di Kota Batu Lapor Polisi beritajatim.com",
+        "processing_status": "processed",
+        "classifier_version": "news-v6",
+        "classified_at": "2026-08-30T23:32:00.846307+00:00",
+        "case_id": null,
+        "discovery_families": [],
+        "discovery_tags": [],
+        "discovery_hits": [],
+        "discovery_version": "discovery-v6.5.3",
+        "locality": "Batu",
+        "polsek": null,
+        "location_confidence": 95,
+        "location_evidence": [
+          "Batu"
+        ],
+        "location_status": "JAWA_TIMUR",
+        "location_source": "title",
+        "issue_type": "UMUM",
+        "issue_subtype": "Belum Teridentifikasi",
+        "issue_evidence": [],
+        "handling_status": "BELUM_ADA_INFORMASI",
+        "handling_evidence": [],
+        "attention_score": 7,
+        "attention_label": "Rendah",
+        "attention_components": {
+          "severity": 2,
+          "polri_relation": 0,
+          "authority": 0,
+          "public_impact": 4,
+          "handling": 0,
+          "evidence": 1,
+          "context_risk": 0,
+          "routine_enforcement_cap": null
+        },
+        "attention_evidence": {
+          "severity": [],
+          "authority": [],
+          "public_impact": [],
+          "evidence": [
+            "satu sumber / informasi awal"
+          ],
+          "role": [],
+          "issue": [],
+          "handling": [],
+          "context": [],
+          "positive": []
+        },
+        "case_engine_version": "case-v6.5.3",
+        "case_processed_at": "2026-08-30T23:34:45.046885+00:00"
+      },
+      {
+        "id": "91567e173456acf39e19426c3e87c8c517abbbe4",
+        "title": "Polres Pasuruan Sosialisasikan Pemahaman AI kepada Peserta Rally Piala Bhayangkara 2026 - GempurNews.Com",
+        "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOaWs4UXU3MlNoYUdseWlNOHlVYThrWWFfbU4wcHVLcWJvWWU5M1JqR0xlcWdQanYyLXlDV05xekkwckZjcUtwQlN5aUpCbnJCcEswSThMQ2VPT1pkdzhiNVllMDZYMFZZc1Z3cm5zbzJZZUt5dlk0WW9lOFctTW9LQzFEcnJjVnRCRGV3V25XbmFjSGpFSU0xSjNYSndranFra0h2MmVxN0xwOVJHWHJFdVYxZ3d1cFJRQmpEZUM4UQ?oc=5",
+        "source": "GempurNews.Com",
+        "published_at": "2026-08-30T22:50:03+00:00",
+        "collected_at": "2026-08-30T23:32:00.846307+00:00",
+        "region": "Jawa Timur",
+        "area_label": "Pasuruan",
+        "is_jatim": true,
+        "polres": "POLRES PASURUAN",
+        "category": "NETRAL / LAINNYA",
+        "scope": "neutral",
+        "scope_label": "NETRAL",
+        "priority": "low",
+        "summary": "Polres Pasuruan Sosialisasikan Pemahaman AI kepada Peserta Rally Piala Bhayangkara 2026 GempurNews.Com",
+        "processing_status": "processed",
+        "classifier_version": "news-v6",
+        "classified_at": "2026-08-30T23:32:00.846307+00:00",
+        "case_id": null,
+        "discovery_families": [],
+        "discovery_tags": [],
+        "discovery_hits": [],
+        "discovery_version": "discovery-v6.5.3",
+        "locality": "Pasuruan",
+        "polsek": null,
+        "location_confidence": 100,
+        "location_evidence": [
+          "polres pasuruan",
+          "Pasuruan"
+        ],
+        "location_status": "JAWA_TIMUR",
+        "location_source": "title",
+        "issue_type": "UMUM",
+        "issue_subtype": "Belum Teridentifikasi",
+        "issue_evidence": [],
+        "handling_status": "BELUM_ADA_INFORMASI",
+        "handling_evidence": [],
+        "attention_score": 7,
+        "attention_label": "Rendah",
+        "attention_components": {
+          "severity": 2,
+          "polri_relation": 0,
+          "authority": 0,
+          "public_impact": 4,
+          "handling": 0,
+          "evidence": 1,
+          "context_risk": 0,
+          "routine_enforcement_cap": null
+        },
+        "attention_evidence": {
+          "severity": [],
+          "authority": [],
+          "public_impact": [],
+          "evidence": [
+            "satu sumber / informasi awal"
+          ],
+          "role": [],
+          "issue": [],
+          "handling": [],
+          "context": [],
+          "positive": []
+        },
+        "case_engine_version": "case-v6.5.3",
+        "case_processed_at": "2026-08-30T23:34:45.175287+00:00"
+      },
+      {
         "id": "9bb2c56c99c49c9a071a3e3c13fedb2c67314c6f",
         "title": "24 Jam Diamankan, Langsung Lepas: Ada Apa di Balik Kasus Judol Jombang? - TargetNews.ID",
         "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNQUJxY0pJdkhISnE4WnRzM3FkTG9nbVcyTEhVQjhzSVZsRlNXNEZUbjluc01BVlh4SE1LeTdvWXJNV2NIbzl3RjYtTm0ySU9sOTIyNm1VV2N3OTYyQ2txaUR4ZlN0azJMWHRYLUdReHBaeFR5WjVsRlJnLVBJczljWS1RNWM5ZTNQUm11c0s0SUxtbG5YeVVpZFBwX0FYV01NUmdmLQ?oc=5",
@@ -1684,7 +2150,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-30T21:11:25.608881+00:00"
+        "case_processed_at": "2026-08-30T23:34:45.313039+00:00"
       },
       {
         "id": "d22f352a03fcfb020d93bb6f88df57dead59be83",
@@ -1764,7 +2230,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-30T21:12:50.111095+00:00"
+        "case_processed_at": "2026-08-30T23:35:39.037927+00:00"
       },
       {
         "id": "e867bda30bd1b79f48decd17dfc4c07fb6b6bee7",
@@ -1830,7 +2296,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-30T21:11:25.672344+00:00"
+        "case_processed_at": "2026-08-30T23:34:45.356488+00:00"
       },
       {
         "id": "17a808e47ba2d1c4f71c68b9eed0c757722ea714",
@@ -1896,7 +2362,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-30T21:11:25.740394+00:00"
+        "case_processed_at": "2026-08-30T23:34:45.403285+00:00"
       },
       {
         "id": "fae166f6850f952782ebe053d47a44a45e19ec83",
@@ -1962,7 +2428,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-30T21:11:25.789896+00:00"
+        "case_processed_at": "2026-08-30T23:34:45.436936+00:00"
       },
       {
         "id": "a3fa52c67bdb82953cfbd4c4f2c365bcdbf99263",
@@ -2028,7 +2494,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-30T21:11:26.149061+00:00"
+        "case_processed_at": "2026-08-30T23:34:45.675066+00:00"
       },
       {
         "id": "7e186ca741a433c4a6cffbc7d66996055db388ae",
@@ -2099,7 +2565,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-30T21:11:26.219610+00:00"
+        "case_processed_at": "2026-08-30T23:34:45.721835+00:00"
       },
       {
         "id": "b25078d938a8e0689b3cd06b528ae51c3edb3b6e",
@@ -2164,7 +2630,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-30T21:11:26.349675+00:00"
+        "case_processed_at": "2026-08-30T23:34:45.807689+00:00"
       },
       {
         "id": "666343ac9e300fb3b86ac937f3d40624943a079f",
@@ -2234,7 +2700,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-30T21:11:26.406955+00:00"
+        "case_processed_at": "2026-08-30T23:34:45.844646+00:00"
       },
       {
         "id": "bdab0a3bd33b3b1cdf2b6732d311e7d630dbd4fc",
@@ -2302,7 +2768,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-30T21:12:50.111108+00:00"
+        "case_processed_at": "2026-08-30T23:35:39.037937+00:00"
       },
       {
         "id": "d44abf0f47124fcc6afc0a83e24bbae78788d7b4",
@@ -2367,7 +2833,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-30T21:11:26.571736+00:00"
+        "case_processed_at": "2026-08-30T23:34:45.954253+00:00"
       },
       {
         "id": "d2372abed6518a159835202389ef01edbd7105a3",
@@ -2433,7 +2899,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-30T21:11:26.712486+00:00"
+        "case_processed_at": "2026-08-30T23:34:46.051142+00:00"
       },
       {
         "id": "a8f46c88840dbba79a34a6f2151f05f588861901",
@@ -2499,7 +2965,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-30T21:11:26.776418+00:00"
+        "case_processed_at": "2026-08-30T23:34:46.093339+00:00"
       },
       {
         "id": "d7e2e0a3e77814ff05e1ba147fd56f10ff500765",
@@ -2565,10 +3031,209 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-30T21:11:26.840237+00:00"
+        "case_processed_at": "2026-08-30T23:34:46.137337+00:00"
       }
     ],
     "luar_jatim_items": [
+      {
+        "id": "e27bbceadb513c6124cee64b5a126b28296d1cf1",
+        "title": "Cegah Kriminalitas, Polsek Pangarengan Intensifkan Patroli Harkamtibmas - RRI.co.id",
+        "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQcm94dU55dnUyUTRqWkktREpVUmNQX1QwYWEyd0RZSG9PNzBFLU4ybUhNdXNValdWc3FfemF1UlktakZQLVNVVDQzdC1sV0otb051QlhuVzBfUVlZbVdhSjNLZjJoUEQ3VndjZWxEQTFnd2c1NjRzZ0x0NHNxOG5MWm5nam1jTVNCM2pMLW55X19QYzFpVjE1bG1UUjJzM2Z5NTRmQ2ZIM3JVTjFKUjduQmZTOA?oc=5",
+        "source": "RRI.co.id",
+        "published_at": "2026-08-30T22:57:00+00:00",
+        "collected_at": "2026-08-30T23:32:00.846307+00:00",
+        "region": "BELUM TERPETAKAN",
+        "area_label": "BELUM TERPETAKAN",
+        "is_jatim": null,
+        "polres": null,
+        "category": "PRESTASI / KEGIATAN POSITIF",
+        "scope": "positive",
+        "scope_label": "POSITIF / KEGIATAN",
+        "priority": "low",
+        "summary": "Cegah Kriminalitas, Polsek Pangarengan Intensifkan Patroli Harkamtibmas RRI.co.id",
+        "processing_status": "processed",
+        "classifier_version": "news-v6",
+        "classified_at": "2026-08-30T23:32:00.846307+00:00",
+        "case_id": null,
+        "discovery_families": [],
+        "discovery_tags": [],
+        "discovery_hits": [],
+        "discovery_version": "discovery-v6.5.3",
+        "locality": "",
+        "polsek": "POLSEK PANGARENGAN INTENSIFKAN PATROLI",
+        "location_confidence": 0,
+        "location_evidence": [
+          "POLSEK PANGARENGAN INTENSIFKAN PATROLI"
+        ],
+        "location_status": "BELUM_TERPETAKAN",
+        "location_source": "title",
+        "issue_type": "UMUM",
+        "issue_subtype": "Belum Teridentifikasi",
+        "issue_evidence": [],
+        "handling_status": "BELUM_ADA_INFORMASI",
+        "handling_evidence": [],
+        "attention_score": 7,
+        "attention_label": "Rendah",
+        "attention_components": {
+          "severity": 2,
+          "polri_relation": 0,
+          "authority": 0,
+          "public_impact": 4,
+          "handling": 0,
+          "evidence": 1,
+          "context_risk": 0,
+          "routine_enforcement_cap": null
+        },
+        "attention_evidence": {
+          "severity": [],
+          "authority": [],
+          "public_impact": [],
+          "evidence": [
+            "satu sumber / informasi awal"
+          ],
+          "role": [],
+          "issue": [],
+          "handling": [],
+          "context": [],
+          "positive": []
+        },
+        "case_engine_version": "case-v6.5.3",
+        "case_processed_at": "2026-08-30T23:34:45.093206+00:00"
+      },
+      {
+        "id": "3499dc65f4035bdd258f8decb5601fd84445c7f8",
+        "title": "Polsek Omben Intensifkan Patroli Kewilayahan - RRI.co.id",
+        "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOM2gyM2Q1emZuOVJmN3E0NUhubmh2TkoyMGZuLUJCNWp5R29fMmxBaWVJU2RzQmNKbDhfRF9LeXJ1STNfc194SUJKNTUwWjNvVkRzQWNYUFFfTFpKOE9GMHZQWU90bl9keXNVQkFaNG1YdEZBUmc1WTd0RDBQTTFiQ3pIUDZVS1NiLU5sdEZRbFU?oc=5",
+        "source": "RRI.co.id",
+        "published_at": "2026-08-30T22:56:00+00:00",
+        "collected_at": "2026-08-30T23:32:00.846307+00:00",
+        "region": "BELUM TERPETAKAN",
+        "area_label": "BELUM TERPETAKAN",
+        "is_jatim": null,
+        "polres": null,
+        "category": "PRESTASI / KEGIATAN POSITIF",
+        "scope": "positive",
+        "scope_label": "POSITIF / KEGIATAN",
+        "priority": "low",
+        "summary": "Polsek Omben Intensifkan Patroli Kewilayahan RRI.co.id",
+        "processing_status": "processed",
+        "classifier_version": "news-v6",
+        "classified_at": "2026-08-30T23:32:00.846307+00:00",
+        "case_id": null,
+        "discovery_families": [],
+        "discovery_tags": [],
+        "discovery_hits": [],
+        "discovery_version": "discovery-v6.5.3",
+        "locality": "",
+        "polsek": "POLSEK OMBEN INTENSIFKAN PATROLI",
+        "location_confidence": 0,
+        "location_evidence": [
+          "POLSEK OMBEN INTENSIFKAN PATROLI"
+        ],
+        "location_status": "BELUM_TERPETAKAN",
+        "location_source": "title",
+        "issue_type": "UMUM",
+        "issue_subtype": "Belum Teridentifikasi",
+        "issue_evidence": [],
+        "handling_status": "BELUM_ADA_INFORMASI",
+        "handling_evidence": [],
+        "attention_score": 7,
+        "attention_label": "Rendah",
+        "attention_components": {
+          "severity": 2,
+          "polri_relation": 0,
+          "authority": 0,
+          "public_impact": 4,
+          "handling": 0,
+          "evidence": 1,
+          "context_risk": 0,
+          "routine_enforcement_cap": null
+        },
+        "attention_evidence": {
+          "severity": [],
+          "authority": [],
+          "public_impact": [],
+          "evidence": [
+            "satu sumber / informasi awal"
+          ],
+          "role": [],
+          "issue": [],
+          "handling": [],
+          "context": [],
+          "positive": []
+        },
+        "case_engine_version": "case-v6.5.3",
+        "case_processed_at": "2026-08-30T23:34:45.127476+00:00"
+      },
+      {
+        "id": "08a4aa16e7e6996801c630eb44fa3832cbf2ff5f",
+        "title": "Pesta Musik Rave Berdarah, Polisi Swiss Buru Pelaku Penembakan - Arrahmah.id",
+        "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQYlZMSXhaWDExNnFUR29nbC0weEExS1BPbWNWOS1ubUpYNGstWXhxSGMyOHIwM2FoZmt0OFp1a3V3REtlYUtJSkxuSE53U19SS1hQV1VsZGN3M0RwVkEzMUJpa3pCdFYwTmxObnhCSmd2cUZ6UHJfa0FaNy1KdVlpNzIxZjkwNEdUY1Vmb3BR?oc=5",
+        "source": "Arrahmah.id",
+        "published_at": "2026-08-30T22:09:57+00:00",
+        "collected_at": "2026-08-30T23:32:00.846307+00:00",
+        "region": "BELUM TERPETAKAN",
+        "area_label": "BELUM TERPETAKAN",
+        "is_jatim": null,
+        "polres": null,
+        "category": "NETRAL / LAINNYA",
+        "scope": "neutral",
+        "scope_label": "NETRAL",
+        "priority": "medium",
+        "summary": "Pesta Musik Rave Berdarah, Polisi Swiss Buru Pelaku Penembakan Arrahmah.id",
+        "processing_status": "processed",
+        "classifier_version": "news-v6",
+        "classified_at": "2026-08-30T23:32:00.846307+00:00",
+        "case_id": null,
+        "discovery_families": [],
+        "discovery_tags": [],
+        "discovery_hits": [],
+        "discovery_version": "discovery-v6.5.3",
+        "locality": "",
+        "polsek": null,
+        "location_confidence": 0,
+        "location_evidence": [],
+        "location_status": "BELUM_TERPETAKAN",
+        "location_source": "title",
+        "issue_type": "KEKERASAN_DAN_KEKUATAN",
+        "issue_subtype": "Kekerasan / Penggunaan Kekuatan",
+        "issue_evidence": [
+          "penembakan"
+        ],
+        "handling_status": "BELUM_ADA_INFORMASI",
+        "handling_evidence": [],
+        "attention_score": 40,
+        "attention_label": "Sedang",
+        "attention_components": {
+          "severity": 28,
+          "polri_relation": 0,
+          "authority": 0,
+          "public_impact": 4,
+          "handling": 0,
+          "evidence": 1,
+          "context_risk": 0,
+          "routine_enforcement_cap": null
+        },
+        "attention_evidence": {
+          "severity": [
+            "kekerasan berat"
+          ],
+          "authority": [],
+          "public_impact": [],
+          "evidence": [
+            "satu sumber / informasi awal"
+          ],
+          "role": [],
+          "issue": [
+            "penembakan"
+          ],
+          "handling": [],
+          "context": [],
+          "positive": []
+        },
+        "case_engine_version": "case-v6.5.3",
+        "case_processed_at": "2026-08-30T23:34:45.215513+00:00"
+      },
       {
         "id": "9e1d19cca08d3a6df56376b4f052564f07477820",
         "title": "Buntut Pasang Portal di Jalan Hauling Tambang, Kantan Cs Dilaporkan Ke Polisi Oleh PT MUTU - BeritaKalteng.Com",
@@ -2630,7 +3295,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-30T21:11:25.541579+00:00"
+        "case_processed_at": "2026-08-30T23:34:45.267042+00:00"
       },
       {
         "id": "532379fd5a3ffecd3755c62694e5797d203e4062",
@@ -2693,7 +3358,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-30T21:11:25.853517+00:00"
+        "case_processed_at": "2026-08-30T23:34:45.478376+00:00"
       },
       {
         "id": "2bbb7632fcee05d555e17c5144659f5628af9517",
@@ -2756,7 +3421,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-30T21:11:25.923455+00:00"
+        "case_processed_at": "2026-08-30T23:34:45.525705+00:00"
       },
       {
         "id": "6488122494924628b7730c769ed351502accc7f6",
@@ -2840,7 +3505,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-30T21:12:50.111102+00:00"
+        "case_processed_at": "2026-08-30T23:35:39.037933+00:00"
       },
       {
         "id": "86e6b9956a8affdecae25646c9913fe10c9c415f",
@@ -2907,7 +3572,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-30T21:11:25.986525+00:00"
+        "case_processed_at": "2026-08-30T23:34:45.567769+00:00"
       },
       {
         "id": "6dc694a02f94e8848b112f38cca70644278955ba",
@@ -2972,7 +3637,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-30T21:11:26.060080+00:00"
+        "case_processed_at": "2026-08-30T23:34:45.614181+00:00"
       },
       {
         "id": "f7e3bfb7b7eb2b3f0195aa99be7d072b4aa1eb19",
@@ -3041,7 +3706,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-30T21:11:26.285043+00:00"
+        "case_processed_at": "2026-08-30T23:34:45.765070+00:00"
       },
       {
         "id": "28783407f2c216a20aa63955a9e353db1560e7ca",
@@ -3106,7 +3771,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-30T21:11:26.490160+00:00"
+        "case_processed_at": "2026-08-30T23:34:45.899704+00:00"
       },
       {
         "id": "2a6dba31b6aa2cc0d059f292438a8ac73be4072b",
@@ -3177,7 +3842,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-30T21:11:26.647221+00:00"
+        "case_processed_at": "2026-08-30T23:34:46.006695+00:00"
       }
     ]
   },
@@ -3271,7 +3936,7 @@
         ],
         "article_count": 1,
         "created_at": "2026-08-30T17:35:09.288874+00:00",
-        "updated_at": "2026-08-30T21:12:50.105059+00:00",
+        "updated_at": "2026-08-30T23:35:39.033407+00:00",
         "engine_version": "case-v6.5.3",
         "priority_score": 70,
         "priority_breakdown": {
@@ -3377,7 +4042,7 @@
         ],
         "article_count": 1,
         "created_at": "2026-08-30T17:35:09.343803+00:00",
-        "updated_at": "2026-08-30T21:12:50.108086+00:00",
+        "updated_at": "2026-08-30T23:35:39.035585+00:00",
         "engine_version": "case-v6.5.3",
         "priority_score": 10,
         "priority_breakdown": {
@@ -3489,7 +4154,7 @@
         ],
         "article_count": 1,
         "created_at": "2026-08-30T21:12:43.384510+00:00",
-        "updated_at": "2026-08-30T21:12:50.110947+00:00",
+        "updated_at": "2026-08-30T23:35:39.037813+00:00",
         "engine_version": "case-v6.5.3",
         "priority_score": 38,
         "priority_breakdown": {
@@ -3597,7 +4262,7 @@
         ],
         "article_count": 1,
         "created_at": "2026-08-30T17:35:09.343803+00:00",
-        "updated_at": "2026-08-30T21:12:50.108086+00:00",
+        "updated_at": "2026-08-30T23:35:39.035585+00:00",
         "engine_version": "case-v6.5.3",
         "priority_score": 10,
         "priority_breakdown": {
@@ -3709,7 +4374,7 @@
         ],
         "article_count": 1,
         "created_at": "2026-08-30T21:12:43.384510+00:00",
-        "updated_at": "2026-08-30T21:12:50.110947+00:00",
+        "updated_at": "2026-08-30T23:35:39.037813+00:00",
         "engine_version": "case-v6.5.3",
         "priority_score": 38,
         "priority_breakdown": {
@@ -3743,26 +4408,59 @@
     ]
   },
   "social": {
-    "detected": 43,
-    "jatim": 12,
-    "negative": 20,
-    "priority_high": 18,
+    "detected": 87,
+    "jatim": 14,
+    "negative": 38,
+    "priority_high": 24,
     "video_ids": [
+      "t4pL3z9lIbc",
+      "eZg92hSWd4M",
+      "fAhpKvVP7nQ",
+      "YnIqDoMH-H0",
+      "PcLq718END8",
+      "Scd992r9pVg",
       "sUMauW1o5GY",
+      "cJ5ATxGh93g",
       "beFBXFPqQJk",
       "NbzuaWaE0xU",
       "ZJpJmaifR64",
+      "05GAvgwmVxU",
+      "T9GVneouhB8",
+      "b1pOBCIRo-E",
+      "UZtZvrmARq0",
       "mIG_ZZcmisM",
+      "5m6dNwQylzE",
+      "YCTBZF2kMy4",
+      "wWKy-dydm6Y",
+      "8KBbHB--f3M",
+      "5W-SWGz6cag",
+      "_UiHTSwgZRE",
+      "n_yrZh0BE-0",
+      "3fomVwzqihY",
+      "rLXsOOud1uc",
+      "4ySHXkB7stQ",
+      "DGkZzRlziTE",
       "l5z9S54XUss",
+      "a0oAWEMLBwQ",
+      "IMy0snQQQw4",
       "K5PkbJTAp6I",
       "PZWt2RwroeA",
       "rp01oNHZ7sM",
+      "DteEjz054yA",
       "DHZstGB4iO4",
       "lp0MmM3jEyk",
+      "ogyazd0jET0",
       "CLAewomCnD4",
+      "TYHOQBt-mSA",
       "dzlBN4tBm-E",
+      "scWd3J7dpX8",
+      "qkEGm2twohY",
+      "M07f-qnRt10",
+      "tX5P6fWIeKI",
       "zKAeghA-zTo",
       "ohR9k8jx5K0",
+      "9efkNemzSyc",
+      "TsFrdcQDlFo",
       "SC0M4Et4bPw",
       "ckL8_du7HMU",
       "TivB029ZGOU",
@@ -3776,33 +4474,44 @@
       "6A6wUh6ITSk",
       "Uw_zRSjNrbs",
       "HYgPMyGLjNw",
+      "chGA1KeQopY",
+      "HS0J1h-wAes",
       "NGoWs_RRqgE",
+      "kQyWlgmeHKo",
       "t2o0f7VoClY",
       "p49QfGg_E98",
       "nVu6kotSshE",
       "uHgPFDGX-Pw",
+      "gcGPe0SoRUQ",
+      "6omSa80fvAc",
+      "NxXvh8Uk5-s",
       "qM_nOESJ_lw",
       "0R0o55H6OKg",
+      "zb1Dy1_6tKY",
+      "7UTNykXagUk",
       "ETpgkfx5n-U",
       "Z74YE8kn9iQ",
       "nzTuBFwVaVI",
+      "tZ-_Ia_onjo",
       "jrfnJeDoxUc",
       "gxajQrctKzY",
       "sDOSRCfSdoQ",
       "LFnJ8fIwWGU",
+      "kbN5LyYicbE",
+      "x37ockg0Vy8",
       "74tsvCri3z0"
     ]
   },
   "jatim": {
-    "news_today": 14,
+    "news_today": 16,
     "negative_today": 1,
     "positive_today": 2,
     "case_scope_today": 1,
-    "neutral_today": 10,
+    "neutral_today": 12,
     "case_today": 2,
     "case_high_active": 0,
     "article_high_today": 0,
-    "outside_jatim_today": 9
+    "outside_jatim_today": 12
   },
   "regions": [
     {
@@ -3811,7 +4520,7 @@
     },
     {
       "name": "Pasuruan",
-      "count": 2
+      "count": 3
     },
     {
       "name": "Sumenep",
@@ -3820,6 +4529,10 @@
     {
       "name": "Tulungagung",
       "count": 2
+    },
+    {
+      "name": "Batu",
+      "count": 1
     },
     {
       "name": "Jombang",
@@ -3848,6 +4561,10 @@
       "count": 2
     },
     {
+      "name": "POLRES PASURUAN",
+      "count": 1
+    },
+    {
       "name": "POLRES PASURUAN KOTA",
       "count": 1
     },
@@ -3867,7 +4584,7 @@
   "categories": [
     {
       "name": "NETRAL / LAINNYA",
-      "count": 10
+      "count": 12
     },
     {
       "name": "PRESTASI / KEGIATAN POSITIF",
@@ -3883,19 +4600,19 @@
     }
   ],
   "summary": {
-    "news_today": 23,
+    "news_today": 28,
     "negative_today": 2,
     "cases_today": 3,
     "priority_high": 1,
     "article_priority_high": 1,
-    "jatim_news": 14,
+    "jatim_news": 16,
     "jatim_negative": 1,
     "jatim_positive": 2,
     "jatim_case_scope": 1,
-    "jatim_neutral": 10,
+    "jatim_neutral": 12,
     "jatim_cases_today": 2,
     "jatim_case_high_active": 0,
-    "luar_jatim_news": 9,
-    "youtube_today": 43
+    "luar_jatim_news": 12,
+    "youtube_today": 87
   }
 }
