@@ -1,25 +1,53 @@
 {
-  "generated_at": "2026-08-29T21:48:53.052333+00:00",
+  "generated_at": "2026-08-30T00:25:54.736713+00:00",
   "platform": "YouTube",
-  "query_cursor": 5,
+  "query_cursor": 8,
   "query_batch_size": 3,
   "query_success": 3,
   "query_skipped": 0,
   "quota_warning": false,
   "quota_block_date": null,
-  "total": 441,
-  "new_videos": 31,
+  "total": 443,
+  "new_videos": 2,
   "statistics": {
-    "total": 441,
-    "jatim": 27,
+    "total": 443,
+    "jatim": 28,
     "negative": 181,
     "incident": 22,
     "case": 40,
-    "neutral": 149,
+    "neutral": 151,
     "noise": 5,
     "high_priority": 111
   },
   "items": [
+    {
+      "id": "265a375cd03bf8d289e78ab2ec316859ebcd2c37",
+      "video_id": "zKAeghA-zTo",
+      "platform": "YouTube",
+      "type": "video",
+      "title": "🔴Sosok Kombes Luthfie Sulistiawan, Kapolrestabes Surabaya yang Tegas Tindak Oknum Polisi Pungli",
+      "channel": "Sriwijaya Post",
+      "published_at": "2026-08-29T21:25:40Z",
+      "url": "https://www.youtube.com/watch?v=zKAeghA-zTo",
+      "thumbnail": "https://i.ytimg.com/vi/zKAeghA-zTo/hqdefault.jpg",
+      "description": "Polrestabes Surabaya, Jawa Timur, menjadi sorotan publik setelah muncul dugaan pungutan liar (pungli) yang melibatkan ...",
+      "relevance": "high",
+      "scope": "negative",
+      "category": "Oknum / Korupsi / Pungli",
+      "classification_score": 100,
+      "is_jatim": true,
+      "region": "Jawa Timur",
+      "polres": "POLRESTABES SURABAYA",
+      "location_confidence": 100,
+      "location_source": "polres",
+      "location_evidence": [
+        "polrestabes surabaya",
+        "Jawa Timur/Jatim",
+        "surabaya"
+      ],
+      "priority": "high",
+      "collected_at": "2026-08-30T00:25:54.736713+00:00"
+    },
     {
       "id": "e33b6347a0eeade8b02ca1c9dc9980956aa1e766",
       "video_id": "xyNPOqhnito",
@@ -121,7 +149,7 @@
         "surabaya"
       ],
       "priority": "high",
-      "collected_at": "2026-08-29T18:37:04.875392+00:00"
+      "collected_at": "2026-08-30T00:25:54.736713+00:00"
     },
     {
       "id": "d8bec20c305d542c19072925d040ddda8792e0dc",
@@ -172,7 +200,7 @@
         "surabaya"
       ],
       "priority": "low",
-      "collected_at": "2026-08-29T18:37:04.875392+00:00"
+      "collected_at": "2026-08-30T00:25:54.736713+00:00"
     },
     {
       "id": "bb0b1ef97d56c52830dd58422207a14cdc811aa8",
@@ -348,6 +376,57 @@
       "collected_at": "2026-08-29T18:37:04.875392+00:00"
     },
     {
+      "id": "63a079f93c0ea30794d5717b18edc8cd8f22d555",
+      "video_id": "0Xr4f6kj2fQ",
+      "platform": "YouTube",
+      "type": "video",
+      "title": "Mumbai Charkop में Police पर Bribe मांगने का आरोप, जांच की मांग",
+      "channel": "Rokthok Lekhani News",
+      "published_at": "2026-08-29T13:29:43Z",
+      "url": "https://www.youtube.com/watch?v=0Xr4f6kj2fQ",
+      "thumbnail": "https://i.ytimg.com/vi/0Xr4f6kj2fQ/hqdefault.jpg",
+      "description": "Mumbai Charkop में Police पर Bribe मांगने का आरोप, जांच की मांग.",
+      "relevance": "low",
+      "scope": "neutral",
+      "category": "Tidak Relevan",
+      "classification_score": 0,
+      "is_jatim": false,
+      "region": "Indonesia",
+      "polres": null,
+      "location_confidence": 0,
+      "location_source": null,
+      "location_evidence": [],
+      "priority": "low",
+      "collected_at": "2026-08-30T00:25:54.736713+00:00"
+    },
+    {
+      "id": "34329f1dba0cae0f5b7332119c08656fcaa097ae",
+      "video_id": "39Wgn97BiRo",
+      "platform": "YouTube",
+      "type": "video",
+      "title": "Warga Diperas Polisi Rp1 Juta, Kapolrestabes Surabaya: Saya Ganti 10 Kali Lipat",
+      "channel": "Tribun Pekanbaru Official",
+      "published_at": "2026-08-29T13:00:29Z",
+      "url": "https://www.youtube.com/watch?v=39Wgn97BiRo",
+      "thumbnail": "https://i.ytimg.com/vi/39Wgn97BiRo/hqdefault.jpg",
+      "description": "teguh Download aplikasi berita TribunX di Play Store atau App Store untuk dapatkan pengalaman baru Video Production : Teguh ...",
+      "relevance": "medium",
+      "scope": "neutral",
+      "category": "Berita Polisi Lainnya",
+      "classification_score": 25,
+      "is_jatim": true,
+      "region": "Jawa Timur",
+      "polres": "POLRESTABES SURABAYA",
+      "location_confidence": 100,
+      "location_source": "polres",
+      "location_evidence": [
+        "surabaya",
+        "surabaya"
+      ],
+      "priority": "low",
+      "collected_at": "2026-08-30T00:25:54.736713+00:00"
+    },
+    {
       "id": "618c0bf12f84b89e4ec4d4f1b6d893baaa4a1760",
       "video_id": "ahzvgJT5hyA",
       "platform": "YouTube",
@@ -417,7 +496,7 @@
       "location_source": null,
       "location_evidence": [],
       "priority": "low",
-      "collected_at": "2026-08-29T18:37:04.875392+00:00"
+      "collected_at": "2026-08-30T00:25:54.736713+00:00"
     },
     {
       "id": "204d55c891580bbae3c1e2a192af7e3588f2271f",
@@ -958,7 +1037,7 @@
         "surabaya"
       ],
       "priority": "high",
-      "collected_at": "2026-08-29T09:10:52.507170+00:00"
+      "collected_at": "2026-08-30T00:25:54.736713+00:00"
     },
     {
       "id": "8ad8f8ea796ea6fd5489829905034fb56645396d",
@@ -1033,34 +1112,6 @@
       "location_evidence": [],
       "priority": "low",
       "collected_at": "2026-08-29T21:48:53.052333+00:00"
-    },
-    {
-      "id": "265a375cd03bf8d289e78ab2ec316859ebcd2c37",
-      "video_id": "zKAeghA-zTo",
-      "platform": "YouTube",
-      "type": "video",
-      "title": "🔴Sosok Kombes Luthfie Sulistiawan, Kapolrestabes Surabaya yang Tegas Tindak Oknum Polisi Pungli",
-      "channel": "Sriwijaya Post",
-      "published_at": "2026-08-29T08:31:44Z",
-      "url": "https://www.youtube.com/watch?v=zKAeghA-zTo",
-      "thumbnail": "https://i.ytimg.com/vi/zKAeghA-zTo/hqdefault.jpg",
-      "description": "Polrestabes Surabaya, Jawa Timur, menjadi sorotan publik setelah muncul dugaan pungutan liar (pungli) yang melibatkan ...",
-      "relevance": "high",
-      "scope": "negative",
-      "category": "Oknum / Korupsi / Pungli",
-      "classification_score": 100,
-      "is_jatim": true,
-      "region": "Jawa Timur",
-      "polres": "POLRESTABES SURABAYA",
-      "location_confidence": 100,
-      "location_source": "polres",
-      "location_evidence": [
-        "polrestabes surabaya",
-        "Jawa Timur/Jatim",
-        "surabaya"
-      ],
-      "priority": "high",
-      "collected_at": "2026-08-29T18:37:04.875392+00:00"
     },
     {
       "id": "a2a28d909b88f29fa4ca21b041c03b7d03e0a853",
@@ -1161,7 +1212,7 @@
         "surabaya"
       ],
       "priority": "low",
-      "collected_at": "2026-08-29T18:37:04.875392+00:00"
+      "collected_at": "2026-08-30T00:25:54.736713+00:00"
     },
     {
       "id": "68be53b748b7865ee5186c8b4be45b10c2ebaf4f",
@@ -1241,7 +1292,7 @@
         "surabaya"
       ],
       "priority": "high",
-      "collected_at": "2026-08-29T09:10:52.507170+00:00"
+      "collected_at": "2026-08-30T00:25:54.736713+00:00"
     },
     {
       "id": "b6724c0cac4debaa57458588dfa6753b27404ef3",
@@ -1583,7 +1634,7 @@
       "location_source": null,
       "location_evidence": [],
       "priority": "low",
-      "collected_at": "2026-08-29T09:10:52.507170+00:00"
+      "collected_at": "2026-08-30T00:25:54.736713+00:00"
     },
     {
       "id": "4db86a2e8a01ec0157f47c996d33aaf2d81c0cf1",
@@ -1607,7 +1658,7 @@
       "location_source": null,
       "location_evidence": [],
       "priority": "medium",
-      "collected_at": "2026-08-29T14:33:36.460857+00:00"
+      "collected_at": "2026-08-30T00:25:54.736713+00:00"
     },
     {
       "id": "3c70ab1ee1c1cb29c39b2220c6467baa731b17ba",
@@ -1775,7 +1826,7 @@
       "location_source": null,
       "location_evidence": [],
       "priority": "low",
-      "collected_at": "2026-08-29T09:10:52.507170+00:00"
+      "collected_at": "2026-08-30T00:25:54.736713+00:00"
     },
     {
       "id": "6126431519ed489a2bbf5b898d4be5b10760785f",
@@ -2450,7 +2501,7 @@
         "surabaya"
       ],
       "priority": "low",
-      "collected_at": "2026-08-29T21:48:53.052333+00:00"
+      "collected_at": "2026-08-30T00:25:54.736713+00:00"
     },
     {
       "id": "3afd2e59ba7d726b19f06520b2ee6de72722e779",
@@ -2915,7 +2966,7 @@
       "location_source": null,
       "location_evidence": [],
       "priority": "low",
-      "collected_at": "2026-08-29T09:10:52.507170+00:00"
+      "collected_at": "2026-08-30T00:25:54.736713+00:00"
     },
     {
       "id": "74d545e1d884b53b5b00bac901f3ca520bb03beb",
@@ -2987,7 +3038,7 @@
       "location_source": null,
       "location_evidence": [],
       "priority": "high",
-      "collected_at": "2026-08-29T09:10:52.507170+00:00"
+      "collected_at": "2026-08-30T00:25:54.736713+00:00"
     },
     {
       "id": "a5296c1d6569cfce585deb7eefb05742188ca3b8",
@@ -3182,7 +3233,7 @@
       "location_source": null,
       "location_evidence": [],
       "priority": "high",
-      "collected_at": "2026-08-29T09:10:52.507170+00:00"
+      "collected_at": "2026-08-30T00:25:54.736713+00:00"
     },
     {
       "id": "12a621737a4b9cd4eb74606df1fa53a3678f0c1c",
@@ -3209,7 +3260,7 @@
         "surabaya"
       ],
       "priority": "low",
-      "collected_at": "2026-08-29T09:10:52.507170+00:00"
+      "collected_at": "2026-08-30T00:25:54.736713+00:00"
     },
     {
       "id": "cf12b535a73a6d3bed64033deaaa994c9a91883f",
@@ -3233,7 +3284,7 @@
       "location_source": null,
       "location_evidence": [],
       "priority": "low",
-      "collected_at": "2026-08-29T09:10:52.507170+00:00"
+      "collected_at": "2026-08-30T00:25:54.736713+00:00"
     },
     {
       "id": "cc30d418a9ab3238df7ebc5479f667c083b2ec11",
@@ -3774,7 +3825,7 @@
       "location_source": null,
       "location_evidence": [],
       "priority": "low",
-      "collected_at": "2026-08-29T09:10:52.507170+00:00"
+      "collected_at": "2026-08-30T00:25:54.736713+00:00"
     },
     {
       "id": "0168b375a34e5ef9342b0c3a605d382d5c61ab98",
