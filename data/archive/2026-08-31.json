@@ -2,18 +2,21 @@
   "schema_version": "today-v3",
   "date": "2026-08-31",
   "timezone": "Asia/Jakarta",
-  "updated_at": "2026-08-31T00:35:16.424614+07:00",
-  "last_successful_update": "2026-08-31T00:35:16.424614+07:00",
+  "updated_at": "2026-08-31T04:12:51.324152+07:00",
+  "last_successful_update": "2026-08-31T04:12:51.324152+07:00",
   "news": {
-    "detected": 20,
-    "negative": 1,
+    "detected": 23,
+    "negative": 2,
     "positive": 3,
     "case": 1,
-    "neutral": 15,
-    "jatim": 12,
-    "luar_jatim": 8,
+    "neutral": 17,
+    "jatim": 14,
+    "luar_jatim": 9,
     "priority_high": 1,
     "article_ids": [
+      "9e1d19cca08d3a6df56376b4f052564f07477820",
+      "9bb2c56c99c49c9a071a3e3c13fedb2c67314c6f",
+      "d22f352a03fcfb020d93bb6f88df57dead59be83",
       "e867bda30bd1b79f48decd17dfc4c07fb6b6bee7",
       "17a808e47ba2d1c4f71c68b9eed0c757722ea714",
       "fae166f6850f952782ebe053d47a44a45e19ec83",
@@ -37,6 +40,226 @@
     ],
     "items": [
       {
+        "id": "9e1d19cca08d3a6df56376b4f052564f07477820",
+        "title": "Buntut Pasang Portal di Jalan Hauling Tambang, Kantan Cs Dilaporkan Ke Polisi Oleh PT MUTU - BeritaKalteng.Com",
+        "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQaHVSbHNJQTZic3JLRWFTRXg5aTcyVV8yd3lMMlpubFBLcGlUU1l0d3FDZXVCeWN1RDBldF9BVHdHbUtKd0xyN2JHcmhJc3NoeUFaT0JMM1lGZEtUM0ZoWVVEQU82amZxSmM2d2FfSGEwY3FrYnYwOEQ0MGpyZVJPMGkzVzVGdnVaZ2dNOXVubEJzX0YxbFUwNHhidVJYaEhhRU5oRGpUdG9keG12OFZlSE85dXZuWlVoRUdfdzU0dWhqaS1Cc1E?oc=5",
+        "source": "BeritaKalteng.Com",
+        "published_at": "2026-08-30T19:42:55+00:00",
+        "collected_at": "2026-08-30T21:09:04.195369+00:00",
+        "region": "BELUM TERPETAKAN",
+        "area_label": "BELUM TERPETAKAN",
+        "is_jatim": null,
+        "polres": null,
+        "category": "NETRAL / LAINNYA",
+        "scope": "neutral",
+        "scope_label": "NETRAL",
+        "priority": "low",
+        "summary": "Buntut Pasang Portal di Jalan Hauling Tambang, Kantan Cs Dilaporkan Ke Polisi Oleh PT MUTU BeritaKalteng.Com",
+        "processing_status": "processed",
+        "classifier_version": "news-v6",
+        "classified_at": "2026-08-30T21:09:04.195369+00:00",
+        "case_id": null,
+        "discovery_families": [],
+        "discovery_tags": [],
+        "discovery_hits": [],
+        "discovery_version": "discovery-v6.5.3",
+        "locality": "",
+        "polsek": null,
+        "location_confidence": 0,
+        "location_evidence": [],
+        "location_status": "BELUM_TERPETAKAN",
+        "location_source": "title",
+        "issue_type": "UMUM",
+        "issue_subtype": "Belum Teridentifikasi",
+        "issue_evidence": [],
+        "handling_status": "BELUM_ADA_INFORMASI",
+        "handling_evidence": [],
+        "attention_score": 7,
+        "attention_label": "Rendah",
+        "attention_components": {
+          "severity": 2,
+          "polri_relation": 0,
+          "authority": 0,
+          "public_impact": 4,
+          "handling": 0,
+          "evidence": 1,
+          "context_risk": 0,
+          "routine_enforcement_cap": null
+        },
+        "attention_evidence": {
+          "severity": [],
+          "authority": [],
+          "public_impact": [],
+          "evidence": [
+            "satu sumber / informasi awal"
+          ],
+          "role": [],
+          "issue": [],
+          "handling": [],
+          "context": [],
+          "positive": []
+        },
+        "case_engine_version": "case-v6.5.3",
+        "case_processed_at": "2026-08-30T21:11:25.541579+00:00"
+      },
+      {
+        "id": "9bb2c56c99c49c9a071a3e3c13fedb2c67314c6f",
+        "title": "24 Jam Diamankan, Langsung Lepas: Ada Apa di Balik Kasus Judol Jombang? - TargetNews.ID",
+        "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNQUJxY0pJdkhISnE4WnRzM3FkTG9nbVcyTEhVQjhzSVZsRlNXNEZUbjluc01BVlh4SE1LeTdvWXJNV2NIbzl3RjYtTm0ySU9sOTIyNm1VV2N3OTYyQ2txaUR4ZlN0azJMWHRYLUdReHBaeFR5WjVsRlJnLVBJczljWS1RNWM5ZTNQUm11c0s0SUxtbG5YeVVpZFBwX0FYV01NUmdmLQ?oc=5",
+        "source": "TargetNews.ID",
+        "published_at": "2026-08-30T17:49:00+00:00",
+        "collected_at": "2026-08-30T21:09:04.195369+00:00",
+        "region": "Jawa Timur",
+        "area_label": "Jombang",
+        "is_jatim": true,
+        "polres": null,
+        "category": "NETRAL / LAINNYA",
+        "scope": "neutral",
+        "scope_label": "NETRAL",
+        "priority": "low",
+        "summary": "24 Jam Diamankan, Langsung Lepas: Ada Apa di Balik Kasus Judol Jombang? TargetNews.ID",
+        "processing_status": "processed",
+        "classifier_version": "news-v6",
+        "classified_at": "2026-08-30T21:09:04.195369+00:00",
+        "case_id": null,
+        "discovery_families": [
+          "illegal_activity_backing"
+        ],
+        "discovery_tags": [
+          "backing",
+          "illegal_activity",
+          "public_order"
+        ],
+        "discovery_hits": [
+          "judol"
+        ],
+        "discovery_version": "discovery-v6.5.3",
+        "locality": "Jombang",
+        "polsek": null,
+        "location_confidence": 95,
+        "location_evidence": [
+          "Jombang"
+        ],
+        "location_status": "JAWA_TIMUR",
+        "location_source": "title",
+        "issue_type": "AKTIVITAS_ILEGAL",
+        "issue_subtype": "Aktivitas Ilegal",
+        "issue_evidence": [
+          "judol"
+        ],
+        "handling_status": "BELUM_ADA_INFORMASI",
+        "handling_evidence": [],
+        "attention_score": 19,
+        "attention_label": "Rendah",
+        "attention_components": {
+          "severity": 14,
+          "polri_relation": 0,
+          "authority": 0,
+          "public_impact": 4,
+          "handling": 0,
+          "evidence": 1,
+          "context_risk": 0,
+          "routine_enforcement_cap": null
+        },
+        "attention_evidence": {
+          "severity": [],
+          "authority": [],
+          "public_impact": [],
+          "evidence": [
+            "satu sumber / informasi awal"
+          ],
+          "role": [],
+          "issue": [
+            "judol"
+          ],
+          "handling": [],
+          "context": [],
+          "positive": []
+        },
+        "case_engine_version": "case-v6.5.3",
+        "case_processed_at": "2026-08-30T21:11:25.608881+00:00"
+      },
+      {
+        "id": "d22f352a03fcfb020d93bb6f88df57dead59be83",
+        "title": "Warga Sukorejo Malang Dibawa Tiga Orang Mengaku Anggota Polda, Dugaan Setoran Rp15 Juta Mencuat - TargetNews.ID",
+        "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNUW1Zb0dJLUFMR1ByVGIwb2pJVFg3WGtSN21TUDJTYy1xT2pBdE50Ry1fTFVJQ3NsRnlZdjFGNTk3SVNEb0tqT2ZqajFnRGcxMHRyaTdneXVkQ3lqY2tySVR5aDhxVUlac3EyM3ZDY25Ea1E5RXFhbC1xM0xycDFBd1NaM1p3QUZIT0NrMktiUjN4T3ZtM2xDMkluRlNqME83WkNKSTI3NElIa3hXd1MxYmtpYVRmSWdsWFVGbzZvc0NLSnFlckRr?oc=5",
+        "source": "TargetNews.ID",
+        "published_at": "2026-08-30T17:37:00+00:00",
+        "collected_at": "2026-08-30T21:09:04.195369+00:00",
+        "region": "Jawa Timur",
+        "area_label": "Malang",
+        "is_jatim": true,
+        "polres": null,
+        "category": "OKNUM - INTEGRITAS/KEUANGAN",
+        "scope": "negative",
+        "scope_label": "NEGATIF / ATENSI",
+        "priority": "medium",
+        "summary": "Warga Sukorejo Malang Dibawa Tiga Orang Mengaku Anggota Polda, Dugaan Setoran Rp15 Juta Mencuat TargetNews.ID",
+        "processing_status": "processed",
+        "classifier_version": "news-v6",
+        "classified_at": "2026-08-30T21:09:04.195369+00:00",
+        "case_id": "CASE-000196",
+        "discovery_families": [
+          "case_handling",
+          "financial_misconduct"
+        ],
+        "discovery_tags": [
+          "case_handling",
+          "financial_misconduct",
+          "integrity"
+        ],
+        "discovery_hits": [
+          "setoran"
+        ],
+        "discovery_version": "discovery-v6.5.3",
+        "locality": "Malang",
+        "polsek": null,
+        "location_confidence": 95,
+        "location_evidence": [
+          "Malang"
+        ],
+        "location_status": "JAWA_TIMUR",
+        "location_source": "title",
+        "issue_type": "INTEGRITAS_DAN_KEUANGAN",
+        "issue_subtype": "Pungli / Suap / Pemerasan",
+        "issue_evidence": [
+          "setoran"
+        ],
+        "handling_status": "BELUM_ADA_INFORMASI",
+        "handling_evidence": [],
+        "attention_score": 40,
+        "attention_label": "Sedang",
+        "attention_components": {
+          "severity": 24,
+          "polri_relation": 0,
+          "authority": 0,
+          "public_impact": 12,
+          "handling": 0,
+          "evidence": 1,
+          "context_risk": 0,
+          "routine_enforcement_cap": null
+        },
+        "attention_evidence": {
+          "severity": [],
+          "authority": [],
+          "public_impact": [
+            "dampak kepada masyarakat"
+          ],
+          "evidence": [
+            "satu sumber / informasi awal"
+          ],
+          "role": [],
+          "issue": [
+            "setoran"
+          ],
+          "handling": [],
+          "context": [],
+          "positive": []
+        },
+        "case_engine_version": "case-v6.5.3",
+        "case_processed_at": "2026-08-30T21:12:50.111095+00:00"
+      },
+      {
         "id": "e867bda30bd1b79f48decd17dfc4c07fb6b6bee7",
         "title": "3 Hari Dicampakkan Pemilik, Motor di Parkiran Indomaret Diamankan Polres Lamongan - beritajatim.com",
         "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPZGVnR2s5UVAzZmZDQmxyT202cVJkdnRBOEhxcjdaVEg5UU1xc3FNZ2x5aThTWTFuSWNhWjZGWnlBdE43RUhzOEtCbExzU21uVXpwb0ZRV2l6SzBzeEtGS0NvNlJRWW5Vd1lvaTFFWlhkeE9vWDBlNGlYWUVVM3phelJXME5OUjY1MDFfV0xUNGFmT0ZLazU5eHhsTGg5NXQtNEh5T0o3NA?oc=5",
@@ -100,7 +323,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-30T17:34:02.244417+00:00"
+        "case_processed_at": "2026-08-30T21:11:25.672344+00:00"
       },
       {
         "id": "17a808e47ba2d1c4f71c68b9eed0c757722ea714",
@@ -166,7 +389,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-30T17:34:02.302478+00:00"
+        "case_processed_at": "2026-08-30T21:11:25.740394+00:00"
       },
       {
         "id": "fae166f6850f952782ebe053d47a44a45e19ec83",
@@ -232,7 +455,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-30T17:34:02.344479+00:00"
+        "case_processed_at": "2026-08-30T21:11:25.789896+00:00"
       },
       {
         "id": "532379fd5a3ffecd3755c62694e5797d203e4062",
@@ -295,7 +518,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-30T17:34:02.397270+00:00"
+        "case_processed_at": "2026-08-30T21:11:25.853517+00:00"
       },
       {
         "id": "2bbb7632fcee05d555e17c5144659f5628af9517",
@@ -358,7 +581,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-30T17:34:02.457925+00:00"
+        "case_processed_at": "2026-08-30T21:11:25.923455+00:00"
       },
       {
         "id": "6488122494924628b7730c769ed351502accc7f6",
@@ -442,7 +665,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-30T17:35:15.187021+00:00"
+        "case_processed_at": "2026-08-30T21:12:50.111102+00:00"
       },
       {
         "id": "86e6b9956a8affdecae25646c9913fe10c9c415f",
@@ -509,7 +732,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-30T17:34:02.510629+00:00"
+        "case_processed_at": "2026-08-30T21:11:25.986525+00:00"
       },
       {
         "id": "6dc694a02f94e8848b112f38cca70644278955ba",
@@ -574,7 +797,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-30T17:34:02.569641+00:00"
+        "case_processed_at": "2026-08-30T21:11:26.060080+00:00"
       },
       {
         "id": "a3fa52c67bdb82953cfbd4c4f2c365bcdbf99263",
@@ -640,7 +863,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-30T17:34:02.645704+00:00"
+        "case_processed_at": "2026-08-30T21:11:26.149061+00:00"
       },
       {
         "id": "7e186ca741a433c4a6cffbc7d66996055db388ae",
@@ -711,7 +934,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-30T17:34:02.706033+00:00"
+        "case_processed_at": "2026-08-30T21:11:26.219610+00:00"
       },
       {
         "id": "f7e3bfb7b7eb2b3f0195aa99be7d072b4aa1eb19",
@@ -780,7 +1003,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-30T17:34:02.762183+00:00"
+        "case_processed_at": "2026-08-30T21:11:26.285043+00:00"
       },
       {
         "id": "b25078d938a8e0689b3cd06b528ae51c3edb3b6e",
@@ -845,7 +1068,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-30T17:34:02.818208+00:00"
+        "case_processed_at": "2026-08-30T21:11:26.349675+00:00"
       },
       {
         "id": "666343ac9e300fb3b86ac937f3d40624943a079f",
@@ -915,7 +1138,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-30T17:34:02.868146+00:00"
+        "case_processed_at": "2026-08-30T21:11:26.406955+00:00"
       },
       {
         "id": "28783407f2c216a20aa63955a9e353db1560e7ca",
@@ -980,7 +1203,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-30T17:34:02.940747+00:00"
+        "case_processed_at": "2026-08-30T21:11:26.490160+00:00"
       },
       {
         "id": "bdab0a3bd33b3b1cdf2b6732d311e7d630dbd4fc",
@@ -1048,7 +1271,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-30T17:35:15.187027+00:00"
+        "case_processed_at": "2026-08-30T21:12:50.111108+00:00"
       },
       {
         "id": "d44abf0f47124fcc6afc0a83e24bbae78788d7b4",
@@ -1113,7 +1336,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-30T17:34:03.011360+00:00"
+        "case_processed_at": "2026-08-30T21:11:26.571736+00:00"
       },
       {
         "id": "2a6dba31b6aa2cc0d059f292438a8ac73be4072b",
@@ -1184,7 +1407,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-30T17:34:03.076534+00:00"
+        "case_processed_at": "2026-08-30T21:11:26.647221+00:00"
       },
       {
         "id": "d2372abed6518a159835202389ef01edbd7105a3",
@@ -1250,7 +1473,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-30T17:34:03.132803+00:00"
+        "case_processed_at": "2026-08-30T21:11:26.712486+00:00"
       },
       {
         "id": "a8f46c88840dbba79a34a6f2151f05f588861901",
@@ -1316,7 +1539,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-30T17:34:03.188360+00:00"
+        "case_processed_at": "2026-08-30T21:11:26.776418+00:00"
       },
       {
         "id": "d7e2e0a3e77814ff05e1ba147fd56f10ff500765",
@@ -1382,11 +1605,168 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-30T17:34:03.243697+00:00"
+        "case_processed_at": "2026-08-30T21:11:26.840237+00:00"
       }
     ],
     "jatim_items": [
       {
+        "id": "9bb2c56c99c49c9a071a3e3c13fedb2c67314c6f",
+        "title": "24 Jam Diamankan, Langsung Lepas: Ada Apa di Balik Kasus Judol Jombang? - TargetNews.ID",
+        "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNQUJxY0pJdkhISnE4WnRzM3FkTG9nbVcyTEhVQjhzSVZsRlNXNEZUbjluc01BVlh4SE1LeTdvWXJNV2NIbzl3RjYtTm0ySU9sOTIyNm1VV2N3OTYyQ2txaUR4ZlN0azJMWHRYLUdReHBaeFR5WjVsRlJnLVBJczljWS1RNWM5ZTNQUm11c0s0SUxtbG5YeVVpZFBwX0FYV01NUmdmLQ?oc=5",
+        "source": "TargetNews.ID",
+        "published_at": "2026-08-30T17:49:00+00:00",
+        "collected_at": "2026-08-30T21:09:04.195369+00:00",
+        "region": "Jawa Timur",
+        "area_label": "Jombang",
+        "is_jatim": true,
+        "polres": null,
+        "category": "NETRAL / LAINNYA",
+        "scope": "neutral",
+        "scope_label": "NETRAL",
+        "priority": "low",
+        "summary": "24 Jam Diamankan, Langsung Lepas: Ada Apa di Balik Kasus Judol Jombang? TargetNews.ID",
+        "processing_status": "processed",
+        "classifier_version": "news-v6",
+        "classified_at": "2026-08-30T21:09:04.195369+00:00",
+        "case_id": null,
+        "discovery_families": [
+          "illegal_activity_backing"
+        ],
+        "discovery_tags": [
+          "backing",
+          "illegal_activity",
+          "public_order"
+        ],
+        "discovery_hits": [
+          "judol"
+        ],
+        "discovery_version": "discovery-v6.5.3",
+        "locality": "Jombang",
+        "polsek": null,
+        "location_confidence": 95,
+        "location_evidence": [
+          "Jombang"
+        ],
+        "location_status": "JAWA_TIMUR",
+        "location_source": "title",
+        "issue_type": "AKTIVITAS_ILEGAL",
+        "issue_subtype": "Aktivitas Ilegal",
+        "issue_evidence": [
+          "judol"
+        ],
+        "handling_status": "BELUM_ADA_INFORMASI",
+        "handling_evidence": [],
+        "attention_score": 19,
+        "attention_label": "Rendah",
+        "attention_components": {
+          "severity": 14,
+          "polri_relation": 0,
+          "authority": 0,
+          "public_impact": 4,
+          "handling": 0,
+          "evidence": 1,
+          "context_risk": 0,
+          "routine_enforcement_cap": null
+        },
+        "attention_evidence": {
+          "severity": [],
+          "authority": [],
+          "public_impact": [],
+          "evidence": [
+            "satu sumber / informasi awal"
+          ],
+          "role": [],
+          "issue": [
+            "judol"
+          ],
+          "handling": [],
+          "context": [],
+          "positive": []
+        },
+        "case_engine_version": "case-v6.5.3",
+        "case_processed_at": "2026-08-30T21:11:25.608881+00:00"
+      },
+      {
+        "id": "d22f352a03fcfb020d93bb6f88df57dead59be83",
+        "title": "Warga Sukorejo Malang Dibawa Tiga Orang Mengaku Anggota Polda, Dugaan Setoran Rp15 Juta Mencuat - TargetNews.ID",
+        "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNUW1Zb0dJLUFMR1ByVGIwb2pJVFg3WGtSN21TUDJTYy1xT2pBdE50Ry1fTFVJQ3NsRnlZdjFGNTk3SVNEb0tqT2ZqajFnRGcxMHRyaTdneXVkQ3lqY2tySVR5aDhxVUlac3EyM3ZDY25Ea1E5RXFhbC1xM0xycDFBd1NaM1p3QUZIT0NrMktiUjN4T3ZtM2xDMkluRlNqME83WkNKSTI3NElIa3hXd1MxYmtpYVRmSWdsWFVGbzZvc0NLSnFlckRr?oc=5",
+        "source": "TargetNews.ID",
+        "published_at": "2026-08-30T17:37:00+00:00",
+        "collected_at": "2026-08-30T21:09:04.195369+00:00",
+        "region": "Jawa Timur",
+        "area_label": "Malang",
+        "is_jatim": true,
+        "polres": null,
+        "category": "OKNUM - INTEGRITAS/KEUANGAN",
+        "scope": "negative",
+        "scope_label": "NEGATIF / ATENSI",
+        "priority": "medium",
+        "summary": "Warga Sukorejo Malang Dibawa Tiga Orang Mengaku Anggota Polda, Dugaan Setoran Rp15 Juta Mencuat TargetNews.ID",
+        "processing_status": "processed",
+        "classifier_version": "news-v6",
+        "classified_at": "2026-08-30T21:09:04.195369+00:00",
+        "case_id": "CASE-000196",
+        "discovery_families": [
+          "case_handling",
+          "financial_misconduct"
+        ],
+        "discovery_tags": [
+          "case_handling",
+          "financial_misconduct",
+          "integrity"
+        ],
+        "discovery_hits": [
+          "setoran"
+        ],
+        "discovery_version": "discovery-v6.5.3",
+        "locality": "Malang",
+        "polsek": null,
+        "location_confidence": 95,
+        "location_evidence": [
+          "Malang"
+        ],
+        "location_status": "JAWA_TIMUR",
+        "location_source": "title",
+        "issue_type": "INTEGRITAS_DAN_KEUANGAN",
+        "issue_subtype": "Pungli / Suap / Pemerasan",
+        "issue_evidence": [
+          "setoran"
+        ],
+        "handling_status": "BELUM_ADA_INFORMASI",
+        "handling_evidence": [],
+        "attention_score": 40,
+        "attention_label": "Sedang",
+        "attention_components": {
+          "severity": 24,
+          "polri_relation": 0,
+          "authority": 0,
+          "public_impact": 12,
+          "handling": 0,
+          "evidence": 1,
+          "context_risk": 0,
+          "routine_enforcement_cap": null
+        },
+        "attention_evidence": {
+          "severity": [],
+          "authority": [],
+          "public_impact": [
+            "dampak kepada masyarakat"
+          ],
+          "evidence": [
+            "satu sumber / informasi awal"
+          ],
+          "role": [],
+          "issue": [
+            "setoran"
+          ],
+          "handling": [],
+          "context": [],
+          "positive": []
+        },
+        "case_engine_version": "case-v6.5.3",
+        "case_processed_at": "2026-08-30T21:12:50.111095+00:00"
+      },
+      {
         "id": "e867bda30bd1b79f48decd17dfc4c07fb6b6bee7",
         "title": "3 Hari Dicampakkan Pemilik, Motor di Parkiran Indomaret Diamankan Polres Lamongan - beritajatim.com",
         "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPZGVnR2s5UVAzZmZDQmxyT202cVJkdnRBOEhxcjdaVEg5UU1xc3FNZ2x5aThTWTFuSWNhWjZGWnlBdE43RUhzOEtCbExzU21uVXpwb0ZRV2l6SzBzeEtGS0NvNlJRWW5Vd1lvaTFFWlhkeE9vWDBlNGlYWUVVM3phelJXME5OUjY1MDFfV0xUNGFmT0ZLazU5eHhsTGg5NXQtNEh5T0o3NA?oc=5",
@@ -1450,7 +1830,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-30T17:34:02.244417+00:00"
+        "case_processed_at": "2026-08-30T21:11:25.672344+00:00"
       },
       {
         "id": "17a808e47ba2d1c4f71c68b9eed0c757722ea714",
@@ -1516,7 +1896,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-30T17:34:02.302478+00:00"
+        "case_processed_at": "2026-08-30T21:11:25.740394+00:00"
       },
       {
         "id": "fae166f6850f952782ebe053d47a44a45e19ec83",
@@ -1582,7 +1962,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-30T17:34:02.344479+00:00"
+        "case_processed_at": "2026-08-30T21:11:25.789896+00:00"
       },
       {
         "id": "a3fa52c67bdb82953cfbd4c4f2c365bcdbf99263",
@@ -1648,7 +2028,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-30T17:34:02.645704+00:00"
+        "case_processed_at": "2026-08-30T21:11:26.149061+00:00"
       },
       {
         "id": "7e186ca741a433c4a6cffbc7d66996055db388ae",
@@ -1719,7 +2099,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-30T17:34:02.706033+00:00"
+        "case_processed_at": "2026-08-30T21:11:26.219610+00:00"
       },
       {
         "id": "b25078d938a8e0689b3cd06b528ae51c3edb3b6e",
@@ -1784,7 +2164,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-30T17:34:02.818208+00:00"
+        "case_processed_at": "2026-08-30T21:11:26.349675+00:00"
       },
       {
         "id": "666343ac9e300fb3b86ac937f3d40624943a079f",
@@ -1854,7 +2234,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-30T17:34:02.868146+00:00"
+        "case_processed_at": "2026-08-30T21:11:26.406955+00:00"
       },
       {
         "id": "bdab0a3bd33b3b1cdf2b6732d311e7d630dbd4fc",
@@ -1922,7 +2302,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-30T17:35:15.187027+00:00"
+        "case_processed_at": "2026-08-30T21:12:50.111108+00:00"
       },
       {
         "id": "d44abf0f47124fcc6afc0a83e24bbae78788d7b4",
@@ -1987,7 +2367,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-30T17:34:03.011360+00:00"
+        "case_processed_at": "2026-08-30T21:11:26.571736+00:00"
       },
       {
         "id": "d2372abed6518a159835202389ef01edbd7105a3",
@@ -2053,7 +2433,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-30T17:34:03.132803+00:00"
+        "case_processed_at": "2026-08-30T21:11:26.712486+00:00"
       },
       {
         "id": "a8f46c88840dbba79a34a6f2151f05f588861901",
@@ -2119,7 +2499,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-30T17:34:03.188360+00:00"
+        "case_processed_at": "2026-08-30T21:11:26.776418+00:00"
       },
       {
         "id": "d7e2e0a3e77814ff05e1ba147fd56f10ff500765",
@@ -2185,10 +2565,73 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-30T17:34:03.243697+00:00"
+        "case_processed_at": "2026-08-30T21:11:26.840237+00:00"
       }
     ],
     "luar_jatim_items": [
+      {
+        "id": "9e1d19cca08d3a6df56376b4f052564f07477820",
+        "title": "Buntut Pasang Portal di Jalan Hauling Tambang, Kantan Cs Dilaporkan Ke Polisi Oleh PT MUTU - BeritaKalteng.Com",
+        "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQaHVSbHNJQTZic3JLRWFTRXg5aTcyVV8yd3lMMlpubFBLcGlUU1l0d3FDZXVCeWN1RDBldF9BVHdHbUtKd0xyN2JHcmhJc3NoeUFaT0JMM1lGZEtUM0ZoWVVEQU82amZxSmM2d2FfSGEwY3FrYnYwOEQ0MGpyZVJPMGkzVzVGdnVaZ2dNOXVubEJzX0YxbFUwNHhidVJYaEhhRU5oRGpUdG9keG12OFZlSE85dXZuWlVoRUdfdzU0dWhqaS1Cc1E?oc=5",
+        "source": "BeritaKalteng.Com",
+        "published_at": "2026-08-30T19:42:55+00:00",
+        "collected_at": "2026-08-30T21:09:04.195369+00:00",
+        "region": "BELUM TERPETAKAN",
+        "area_label": "BELUM TERPETAKAN",
+        "is_jatim": null,
+        "polres": null,
+        "category": "NETRAL / LAINNYA",
+        "scope": "neutral",
+        "scope_label": "NETRAL",
+        "priority": "low",
+        "summary": "Buntut Pasang Portal di Jalan Hauling Tambang, Kantan Cs Dilaporkan Ke Polisi Oleh PT MUTU BeritaKalteng.Com",
+        "processing_status": "processed",
+        "classifier_version": "news-v6",
+        "classified_at": "2026-08-30T21:09:04.195369+00:00",
+        "case_id": null,
+        "discovery_families": [],
+        "discovery_tags": [],
+        "discovery_hits": [],
+        "discovery_version": "discovery-v6.5.3",
+        "locality": "",
+        "polsek": null,
+        "location_confidence": 0,
+        "location_evidence": [],
+        "location_status": "BELUM_TERPETAKAN",
+        "location_source": "title",
+        "issue_type": "UMUM",
+        "issue_subtype": "Belum Teridentifikasi",
+        "issue_evidence": [],
+        "handling_status": "BELUM_ADA_INFORMASI",
+        "handling_evidence": [],
+        "attention_score": 7,
+        "attention_label": "Rendah",
+        "attention_components": {
+          "severity": 2,
+          "polri_relation": 0,
+          "authority": 0,
+          "public_impact": 4,
+          "handling": 0,
+          "evidence": 1,
+          "context_risk": 0,
+          "routine_enforcement_cap": null
+        },
+        "attention_evidence": {
+          "severity": [],
+          "authority": [],
+          "public_impact": [],
+          "evidence": [
+            "satu sumber / informasi awal"
+          ],
+          "role": [],
+          "issue": [],
+          "handling": [],
+          "context": [],
+          "positive": []
+        },
+        "case_engine_version": "case-v6.5.3",
+        "case_processed_at": "2026-08-30T21:11:25.541579+00:00"
+      },
       {
         "id": "532379fd5a3ffecd3755c62694e5797d203e4062",
         "title": "Ketua Kadin Gowa Dijemput Polisi Usai Tiba dari Luar Negeri - IDN Times Sulsel",
@@ -2250,7 +2693,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-30T17:34:02.397270+00:00"
+        "case_processed_at": "2026-08-30T21:11:25.853517+00:00"
       },
       {
         "id": "2bbb7632fcee05d555e17c5144659f5628af9517",
@@ -2313,7 +2756,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-30T17:34:02.457925+00:00"
+        "case_processed_at": "2026-08-30T21:11:25.923455+00:00"
       },
       {
         "id": "6488122494924628b7730c769ed351502accc7f6",
@@ -2397,7 +2840,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-30T17:35:15.187021+00:00"
+        "case_processed_at": "2026-08-30T21:12:50.111102+00:00"
       },
       {
         "id": "86e6b9956a8affdecae25646c9913fe10c9c415f",
@@ -2464,7 +2907,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-30T17:34:02.510629+00:00"
+        "case_processed_at": "2026-08-30T21:11:25.986525+00:00"
       },
       {
         "id": "6dc694a02f94e8848b112f38cca70644278955ba",
@@ -2529,7 +2972,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-30T17:34:02.569641+00:00"
+        "case_processed_at": "2026-08-30T21:11:26.060080+00:00"
       },
       {
         "id": "f7e3bfb7b7eb2b3f0195aa99be7d072b4aa1eb19",
@@ -2598,7 +3041,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-30T17:34:02.762183+00:00"
+        "case_processed_at": "2026-08-30T21:11:26.285043+00:00"
       },
       {
         "id": "28783407f2c216a20aa63955a9e353db1560e7ca",
@@ -2663,7 +3106,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-30T17:34:02.940747+00:00"
+        "case_processed_at": "2026-08-30T21:11:26.490160+00:00"
       },
       {
         "id": "2a6dba31b6aa2cc0d059f292438a8ac73be4072b",
@@ -2734,19 +3177,20 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-30T17:34:03.076534+00:00"
+        "case_processed_at": "2026-08-30T21:11:26.647221+00:00"
       }
     ]
   },
   "cases": {
-    "active": 2,
+    "active": 3,
     "priority_high": 1,
-    "jatim": 1,
+    "jatim": 2,
     "jatim_priority_high": 0,
-    "articles": 2,
+    "articles": 3,
     "case_ids": [
       "CASE-000194",
-      "CASE-000195"
+      "CASE-000195",
+      "CASE-000196"
     ],
     "items": [
       {
@@ -2827,7 +3271,7 @@
         ],
         "article_count": 1,
         "created_at": "2026-08-30T17:35:09.288874+00:00",
-        "updated_at": "2026-08-30T17:35:15.184228+00:00",
+        "updated_at": "2026-08-30T21:12:50.105059+00:00",
         "engine_version": "case-v6.5.3",
         "priority_score": 70,
         "priority_breakdown": {
@@ -2933,7 +3377,7 @@
         ],
         "article_count": 1,
         "created_at": "2026-08-30T17:35:09.343803+00:00",
-        "updated_at": "2026-08-30T17:35:15.186903+00:00",
+        "updated_at": "2026-08-30T21:12:50.108086+00:00",
         "engine_version": "case-v6.5.3",
         "priority_score": 10,
         "priority_breakdown": {
@@ -2960,6 +3404,119 @@
           "reasons": [
             "sifat berita: positif",
             "Polri sebagai pihak penindak"
+          ]
+        }
+      },
+      {
+        "case_id": "CASE-000196",
+        "title": "Warga Sukorejo Malang Dibawa Tiga Orang Mengaku Anggota Polda, Dugaan Setoran Rp15 Juta Mencuat - TargetNews.ID",
+        "category": "OKNUM - INTEGRITAS/KEUANGAN",
+        "scope": "negative",
+        "region": "Jawa Timur",
+        "locality": "Malang",
+        "is_jatim": true,
+        "polres": null,
+        "polsek": null,
+        "priority": "low",
+        "attention_score": 38,
+        "attention_label": "Rendah",
+        "signature": "Jawa Timur",
+        "incident_terms": [
+          "dibawa",
+          "dugaan",
+          "juta",
+          "malang",
+          "mencuat",
+          "polda",
+          "rp15",
+          "setoran",
+          "sukorejo",
+          "targetnews"
+        ],
+        "event_terms": [
+          "setoran"
+        ],
+        "location_terms": [
+          "malang"
+        ],
+        "discovery_families": [
+          "case_handling",
+          "financial_misconduct"
+        ],
+        "first_seen": "2026-08-30T17:37:00+00:00",
+        "last_seen": "2026-08-30T21:09:04.195369+00:00",
+        "last_detected_at": "2026-08-30T21:09:04.195369+00:00",
+        "article_ids": [
+          "d22f352a03fcfb020d93bb6f88df57dead59be83"
+        ],
+        "articles": [
+          {
+            "id": "d22f352a03fcfb020d93bb6f88df57dead59be83",
+            "title": "Warga Sukorejo Malang Dibawa Tiga Orang Mengaku Anggota Polda, Dugaan Setoran Rp15 Juta Mencuat - TargetNews.ID",
+            "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNUW1Zb0dJLUFMR1ByVGIwb2pJVFg3WGtSN21TUDJTYy1xT2pBdE50Ry1fTFVJQ3NsRnlZdjFGNTk3SVNEb0tqT2ZqajFnRGcxMHRyaTdneXVkQ3lqY2tySVR5aDhxVUlac3EyM3ZDY25Ea1E5RXFhbC1xM0xycDFBd1NaM1p3QUZIT0NrMktiUjN4T3ZtM2xDMkluRlNqME83WkNKSTI3NElIa3hXd1MxYmtpYVRmSWdsWFVGbzZvc0NLSnFlckRr?oc=5",
+            "published_at": "2026-08-30T17:37:00+00:00",
+            "collected_at": "2026-08-30T21:09:04.195369+00:00",
+            "source": "TargetNews.ID",
+            "match_score": 1.0,
+            "priority": "medium",
+            "scope": "negative",
+            "category": "OKNUM - INTEGRITAS/KEUANGAN",
+            "region": "Jawa Timur",
+            "locality": "Malang",
+            "is_jatim": true,
+            "polres": null,
+            "polsek": null,
+            "issue_type": "INTEGRITAS_DAN_KEUANGAN",
+            "issue_subtype": "Pungli / Suap / Pemerasan",
+            "handling_status": "BELUM_ADA_INFORMASI",
+            "handling_evidence": [],
+            "polri_relation": null,
+            "polri_relation_points": 0,
+            "polri_relation_evidence": [],
+            "attention_score": 40,
+            "attention_label": "Sedang",
+            "attention_components": {
+              "severity": 24,
+              "polri_relation": 0,
+              "authority": 0,
+              "public_impact": 12,
+              "handling": 0,
+              "evidence": 1,
+              "context_risk": 0,
+              "routine_enforcement_cap": null
+            }
+          }
+        ],
+        "article_count": 1,
+        "created_at": "2026-08-30T21:12:43.384510+00:00",
+        "updated_at": "2026-08-30T21:12:50.110947+00:00",
+        "engine_version": "case-v6.5.3",
+        "priority_score": 38,
+        "priority_breakdown": {
+          "severity": 24,
+          "polri_relation": 0,
+          "authority_context": 0,
+          "public_impact": 12,
+          "handling": 0,
+          "evidence": 1,
+          "spread": 0,
+          "escalation": 0,
+          "current_activity": 1,
+          "context_risk": 0
+        },
+        "priority_evidence": {
+          "unique_sources": 1,
+          "active_today_articles": 1,
+          "escalation": [],
+          "issue_type": "INTEGRITAS_DAN_KEUANGAN",
+          "issue_subtype": "Pungli / Suap / Pemerasan",
+          "sentiment": "negative",
+          "polri_relation": "INFORMASI_UMUM",
+          "handling_status": "BELUM_ADA_INFORMASI",
+          "reasons": [
+            "sifat berita: negatif",
+            "Pungli / Suap / Pemerasan",
+            "Hubungan Polri belum spesifik"
           ]
         }
       }
@@ -3040,7 +3597,7 @@
         ],
         "article_count": 1,
         "created_at": "2026-08-30T17:35:09.343803+00:00",
-        "updated_at": "2026-08-30T17:35:15.186903+00:00",
+        "updated_at": "2026-08-30T21:12:50.108086+00:00",
         "engine_version": "case-v6.5.3",
         "priority_score": 10,
         "priority_breakdown": {
@@ -3069,54 +3626,183 @@
             "Polri sebagai pihak penindak"
           ]
         }
+      },
+      {
+        "case_id": "CASE-000196",
+        "title": "Warga Sukorejo Malang Dibawa Tiga Orang Mengaku Anggota Polda, Dugaan Setoran Rp15 Juta Mencuat - TargetNews.ID",
+        "category": "OKNUM - INTEGRITAS/KEUANGAN",
+        "scope": "negative",
+        "region": "Jawa Timur",
+        "locality": "Malang",
+        "is_jatim": true,
+        "polres": null,
+        "polsek": null,
+        "priority": "low",
+        "attention_score": 38,
+        "attention_label": "Rendah",
+        "signature": "Jawa Timur",
+        "incident_terms": [
+          "dibawa",
+          "dugaan",
+          "juta",
+          "malang",
+          "mencuat",
+          "polda",
+          "rp15",
+          "setoran",
+          "sukorejo",
+          "targetnews"
+        ],
+        "event_terms": [
+          "setoran"
+        ],
+        "location_terms": [
+          "malang"
+        ],
+        "discovery_families": [
+          "case_handling",
+          "financial_misconduct"
+        ],
+        "first_seen": "2026-08-30T17:37:00+00:00",
+        "last_seen": "2026-08-30T21:09:04.195369+00:00",
+        "last_detected_at": "2026-08-30T21:09:04.195369+00:00",
+        "article_ids": [
+          "d22f352a03fcfb020d93bb6f88df57dead59be83"
+        ],
+        "articles": [
+          {
+            "id": "d22f352a03fcfb020d93bb6f88df57dead59be83",
+            "title": "Warga Sukorejo Malang Dibawa Tiga Orang Mengaku Anggota Polda, Dugaan Setoran Rp15 Juta Mencuat - TargetNews.ID",
+            "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNUW1Zb0dJLUFMR1ByVGIwb2pJVFg3WGtSN21TUDJTYy1xT2pBdE50Ry1fTFVJQ3NsRnlZdjFGNTk3SVNEb0tqT2ZqajFnRGcxMHRyaTdneXVkQ3lqY2tySVR5aDhxVUlac3EyM3ZDY25Ea1E5RXFhbC1xM0xycDFBd1NaM1p3QUZIT0NrMktiUjN4T3ZtM2xDMkluRlNqME83WkNKSTI3NElIa3hXd1MxYmtpYVRmSWdsWFVGbzZvc0NLSnFlckRr?oc=5",
+            "published_at": "2026-08-30T17:37:00+00:00",
+            "collected_at": "2026-08-30T21:09:04.195369+00:00",
+            "source": "TargetNews.ID",
+            "match_score": 1.0,
+            "priority": "medium",
+            "scope": "negative",
+            "category": "OKNUM - INTEGRITAS/KEUANGAN",
+            "region": "Jawa Timur",
+            "locality": "Malang",
+            "is_jatim": true,
+            "polres": null,
+            "polsek": null,
+            "issue_type": "INTEGRITAS_DAN_KEUANGAN",
+            "issue_subtype": "Pungli / Suap / Pemerasan",
+            "handling_status": "BELUM_ADA_INFORMASI",
+            "handling_evidence": [],
+            "polri_relation": null,
+            "polri_relation_points": 0,
+            "polri_relation_evidence": [],
+            "attention_score": 40,
+            "attention_label": "Sedang",
+            "attention_components": {
+              "severity": 24,
+              "polri_relation": 0,
+              "authority": 0,
+              "public_impact": 12,
+              "handling": 0,
+              "evidence": 1,
+              "context_risk": 0,
+              "routine_enforcement_cap": null
+            }
+          }
+        ],
+        "article_count": 1,
+        "created_at": "2026-08-30T21:12:43.384510+00:00",
+        "updated_at": "2026-08-30T21:12:50.110947+00:00",
+        "engine_version": "case-v6.5.3",
+        "priority_score": 38,
+        "priority_breakdown": {
+          "severity": 24,
+          "polri_relation": 0,
+          "authority_context": 0,
+          "public_impact": 12,
+          "handling": 0,
+          "evidence": 1,
+          "spread": 0,
+          "escalation": 0,
+          "current_activity": 1,
+          "context_risk": 0
+        },
+        "priority_evidence": {
+          "unique_sources": 1,
+          "active_today_articles": 1,
+          "escalation": [],
+          "issue_type": "INTEGRITAS_DAN_KEUANGAN",
+          "issue_subtype": "Pungli / Suap / Pemerasan",
+          "sentiment": "negative",
+          "polri_relation": "INFORMASI_UMUM",
+          "handling_status": "BELUM_ADA_INFORMASI",
+          "reasons": [
+            "sifat berita: negatif",
+            "Pungli / Suap / Pemerasan",
+            "Hubungan Polri belum spesifik"
+          ]
+        }
       }
     ]
   },
   "social": {
-    "detected": 27,
-    "jatim": 1,
-    "negative": 12,
-    "priority_high": 12,
+    "detected": 43,
+    "jatim": 12,
+    "negative": 20,
+    "priority_high": 18,
     "video_ids": [
+      "sUMauW1o5GY",
       "beFBXFPqQJk",
       "NbzuaWaE0xU",
       "ZJpJmaifR64",
       "mIG_ZZcmisM",
+      "l5z9S54XUss",
       "K5PkbJTAp6I",
+      "PZWt2RwroeA",
+      "rp01oNHZ7sM",
       "DHZstGB4iO4",
+      "lp0MmM3jEyk",
       "CLAewomCnD4",
       "dzlBN4tBm-E",
+      "zKAeghA-zTo",
       "ohR9k8jx5K0",
       "SC0M4Et4bPw",
       "ckL8_du7HMU",
+      "TivB029ZGOU",
       "6PcyLgdQxZU",
+      "5NZ8WuPM_HE",
       "0Xr4f6kj2fQ",
       "Hf_ZH2MTmUM",
+      "39Wgn97BiRo",
       "nordjnpfwjQ",
+      "bsjL3CSNoGI",
       "6A6wUh6ITSk",
       "Uw_zRSjNrbs",
       "HYgPMyGLjNw",
+      "NGoWs_RRqgE",
+      "t2o0f7VoClY",
       "p49QfGg_E98",
+      "nVu6kotSshE",
       "uHgPFDGX-Pw",
       "qM_nOESJ_lw",
+      "0R0o55H6OKg",
       "ETpgkfx5n-U",
       "Z74YE8kn9iQ",
+      "nzTuBFwVaVI",
       "jrfnJeDoxUc",
+      "gxajQrctKzY",
       "sDOSRCfSdoQ",
       "LFnJ8fIwWGU",
       "74tsvCri3z0"
     ]
   },
   "jatim": {
-    "news_today": 12,
-    "negative_today": 0,
+    "news_today": 14,
+    "negative_today": 1,
     "positive_today": 2,
     "case_scope_today": 1,
-    "neutral_today": 9,
-    "case_today": 1,
+    "neutral_today": 10,
+    "case_today": 2,
     "case_high_active": 0,
     "article_high_today": 0,
-    "outside_jatim_today": 8
+    "outside_jatim_today": 9
   },
   "regions": [
     {
@@ -3134,6 +3820,14 @@
     {
       "name": "Tulungagung",
       "count": 2
+    },
+    {
+      "name": "Jombang",
+      "count": 1
+    },
+    {
+      "name": "Malang",
+      "count": 1
     },
     {
       "name": "Sampang",
@@ -3173,11 +3867,15 @@
   "categories": [
     {
       "name": "NETRAL / LAINNYA",
-      "count": 9
+      "count": 10
     },
     {
       "name": "PRESTASI / KEGIATAN POSITIF",
       "count": 2
+    },
+    {
+      "name": "OKNUM - INTEGRITAS/KEUANGAN",
+      "count": 1
     },
     {
       "name": "UNGKAP KASUS / PENINDAKAN",
@@ -3185,19 +3883,19 @@
     }
   ],
   "summary": {
-    "news_today": 20,
-    "negative_today": 1,
-    "cases_today": 2,
+    "news_today": 23,
+    "negative_today": 2,
+    "cases_today": 3,
     "priority_high": 1,
     "article_priority_high": 1,
-    "jatim_news": 12,
-    "jatim_negative": 0,
+    "jatim_news": 14,
+    "jatim_negative": 1,
     "jatim_positive": 2,
     "jatim_case_scope": 1,
-    "jatim_neutral": 9,
-    "jatim_cases_today": 1,
+    "jatim_neutral": 10,
+    "jatim_cases_today": 2,
     "jatim_case_high_active": 0,
-    "luar_jatim_news": 8,
-    "youtube_today": 27
+    "luar_jatim_news": 9,
+    "youtube_today": 43
   }
 }

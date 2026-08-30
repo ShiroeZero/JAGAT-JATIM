@@ -1,25 +1,49 @@
 {
-  "generated_at": "2026-08-30T17:35:15.399823+00:00",
+  "generated_at": "2026-08-30T21:12:50.351861+00:00",
   "platform": "YouTube",
-  "query_cursor": 6,
+  "query_cursor": 9,
   "query_batch_size": 3,
   "query_success": 3,
   "query_skipped": 0,
   "quota_warning": false,
   "quota_block_date": null,
-  "total": 510,
-  "new_videos": 10,
+  "total": 515,
+  "new_videos": 5,
   "statistics": {
-    "total": 510,
-    "jatim": 31,
-    "negative": 211,
+    "total": 515,
+    "jatim": 34,
+    "negative": 212,
     "incident": 25,
     "case": 53,
-    "neutral": 172,
+    "neutral": 176,
     "noise": 5,
     "high_priority": 121
   },
   "items": [
+    {
+      "id": "e13c4647f0893754023066d4ebc5f208e8aade63",
+      "video_id": "sUMauW1o5GY",
+      "platform": "YouTube",
+      "type": "video",
+      "title": "Heboh Warga Kena Pungli Polisi Rp 1 Juta saat Ambil Barang Bukti Kecelakaan, Pelaku Kini Disanksi",
+      "channel": "Tribun Jateng",
+      "published_at": "2026-08-30T16:07:08Z",
+      "url": "https://www.youtube.com/watch?v=sUMauW1o5GY",
+      "thumbnail": "https://i.ytimg.com/vi/sUMauW1o5GY/hqdefault.jpg",
+      "description": "Seorang warga mengaku diminta oknum polisi untuk membayar Rp 1 juta saat mengambil barang bukti kecelakaan. Viralnya ...",
+      "relevance": "high",
+      "scope": "negative",
+      "category": "Oknum / Korupsi / Pungli",
+      "classification_score": 100,
+      "is_jatim": false,
+      "region": "Indonesia",
+      "polres": null,
+      "location_confidence": 0,
+      "location_source": null,
+      "location_evidence": [],
+      "priority": "high",
+      "collected_at": "2026-08-30T21:12:50.351861+00:00"
+    },
     {
       "id": "7d7f20367302d599c1ef5f735c6f3a751167d21b",
       "video_id": "beFBXFPqQJk",
@@ -464,6 +488,33 @@
       "collected_at": "2026-08-30T12:59:31.720345+00:00"
     },
     {
+      "id": "e556e9382b1de2468bfe126971ec94522511c06a",
+      "video_id": "l5z9S54XUss",
+      "platform": "YouTube",
+      "type": "video",
+      "title": "Warga Kena Pungli Rp1 Juta, Kapolrestabes Surabaya Janji Ganti 10 Kali Lipat!",
+      "channel": "Artikel Short",
+      "published_at": "2026-08-30T08:03:31Z",
+      "url": "https://www.youtube.com/watch?v=l5z9S54XUss",
+      "thumbnail": "https://i.ytimg.com/vi/l5z9S54XUss/hqdefault.jpg",
+      "description": "Kapolrestabes Surabaya, Kombes Pol Luthfie Sulistiawan, bakal mengganti uang yang dikeluarkan warga bernama Kristiani ...",
+      "relevance": "low",
+      "scope": "neutral",
+      "category": "Tidak Relevan",
+      "classification_score": 0,
+      "is_jatim": true,
+      "region": "Jawa Timur",
+      "polres": "POLRESTABES SURABAYA",
+      "location_confidence": 100,
+      "location_source": "polres",
+      "location_evidence": [
+        "surabaya",
+        "surabaya"
+      ],
+      "priority": "low",
+      "collected_at": "2026-08-30T21:12:50.351861+00:00"
+    },
+    {
       "id": "6b8cee773ec5712d1764e0ae1b1ee12314bc96e1",
       "video_id": "a0oAWEMLBwQ",
       "platform": "YouTube",
@@ -660,7 +711,34 @@
         "surabaya"
       ],
       "priority": "high",
-      "collected_at": "2026-08-30T12:59:31.720345+00:00"
+      "collected_at": "2026-08-30T21:12:50.351861+00:00"
+    },
+    {
+      "id": "0498efeba155b88a1f57f49406cba935f6a7d985",
+      "video_id": "rp01oNHZ7sM",
+      "platform": "YouTube",
+      "type": "video",
+      "title": "Pungli Polisi!",
+      "channel": "Rifara Family",
+      "published_at": "2026-08-30T06:51:01Z",
+      "url": "https://www.youtube.com/watch?v=rp01oNHZ7sM",
+      "thumbnail": "https://i.ytimg.com/vi/rp01oNHZ7sM/hqdefault.jpg",
+      "description": "Polisi seharusnya menganyomi bukan mungli. Inilah Indonesia. Terimakasih Pak Kapolrestabes Surabaya. Anda menjadi ...",
+      "relevance": "medium",
+      "scope": "neutral",
+      "category": "Berita Polisi Lainnya",
+      "classification_score": 25,
+      "is_jatim": true,
+      "region": "Jawa Timur",
+      "polres": "POLRESTABES SURABAYA",
+      "location_confidence": 100,
+      "location_source": "polres",
+      "location_evidence": [
+        "surabaya",
+        "surabaya"
+      ],
+      "priority": "low",
+      "collected_at": "2026-08-30T21:12:50.351861+00:00"
     },
     {
       "id": "f88d5250cfef82cf28d6102031b3cc58bc53c3f5",
@@ -1027,6 +1105,30 @@
       "collected_at": "2026-08-30T12:59:31.720345+00:00"
     },
     {
+      "id": "d24065bac0302027bf8fb750f573a6da19a0bd0f",
+      "video_id": "lp0MmM3jEyk",
+      "platform": "YouTube",
+      "type": "video",
+      "title": "VIRAL! Warga Kena Pungli Rp1 Juta, Polisi Janji Beri Hukuman Berat! #trending #shorts #viral",
+      "channel": "klipzotv",
+      "published_at": "2026-08-30T03:00:04Z",
+      "url": "https://www.youtube.com/watch?v=lp0MmM3jEyk",
+      "thumbnail": "https://i.ytimg.com/vi/lp0MmM3jEyk/hqdefault.jpg",
+      "description": "",
+      "relevance": "medium",
+      "scope": "neutral",
+      "category": "Berita Polisi Lainnya",
+      "classification_score": 25,
+      "is_jatim": false,
+      "region": "Indonesia",
+      "polres": null,
+      "location_confidence": 0,
+      "location_source": null,
+      "location_evidence": [],
+      "priority": "low",
+      "collected_at": "2026-08-30T21:12:50.351861+00:00"
+    },
+    {
       "id": "9ff22b28f7a01a77ba924f8ddacfa0ca46f2cca6",
       "video_id": "yxiv1pGK3Hs",
       "platform": "YouTube",
@@ -1048,30 +1150,6 @@
       "location_source": null,
       "location_evidence": [],
       "priority": "low",
-      "collected_at": "2026-08-30T12:59:31.720345+00:00"
-    },
-    {
-      "id": "e13c4647f0893754023066d4ebc5f208e8aade63",
-      "video_id": "sUMauW1o5GY",
-      "platform": "YouTube",
-      "type": "video",
-      "title": "Heboh Warga Kena Pungli Polisi Rp 1 Juta saat Ambil Barang Bukti Kecelakaan, Pelaku Kini Disanksi",
-      "channel": "Tribun Jateng",
-      "published_at": "2026-08-30T02:15:23Z",
-      "url": "https://www.youtube.com/watch?v=sUMauW1o5GY",
-      "thumbnail": "https://i.ytimg.com/vi/sUMauW1o5GY/hqdefault.jpg",
-      "description": "Seorang warga mengaku diminta oknum polisi untuk membayar Rp 1 juta saat mengambil barang bukti kecelakaan. Viralnya ...",
-      "relevance": "high",
-      "scope": "negative",
-      "category": "Oknum / Korupsi / Pungli",
-      "classification_score": 100,
-      "is_jatim": false,
-      "region": "Indonesia",
-      "polres": null,
-      "location_confidence": 0,
-      "location_source": null,
-      "location_evidence": [],
-      "priority": "high",
       "collected_at": "2026-08-30T12:59:31.720345+00:00"
     },
     {
@@ -1391,7 +1469,7 @@
         "surabaya"
       ],
       "priority": "high",
-      "collected_at": "2026-08-30T00:25:54.736713+00:00"
+      "collected_at": "2026-08-30T21:12:50.351861+00:00"
     },
     {
       "id": "14a6f773b0fe7ef829e2e26752f4360469c67bee",
@@ -1590,7 +1668,7 @@
         "surabaya"
       ],
       "priority": "high",
-      "collected_at": "2026-08-30T00:25:54.736713+00:00"
+      "collected_at": "2026-08-30T21:12:50.351861+00:00"
     },
     {
       "id": "44b3fca8cab739b849b423da81aa5755eaab3994",
@@ -1665,7 +1743,7 @@
         "surabaya"
       ],
       "priority": "low",
-      "collected_at": "2026-08-30T00:25:54.736713+00:00"
+      "collected_at": "2026-08-30T21:12:50.351861+00:00"
     },
     {
       "id": "bb0b1ef97d56c52830dd58422207a14cdc811aa8",
@@ -1913,7 +1991,7 @@
         "surabaya"
       ],
       "priority": "low",
-      "collected_at": "2026-08-30T00:25:54.736713+00:00"
+      "collected_at": "2026-08-30T21:12:50.351861+00:00"
     },
     {
       "id": "618c0bf12f84b89e4ec4d4f1b6d893baaa4a1760",
@@ -1985,7 +2063,7 @@
       "location_source": null,
       "location_evidence": [],
       "priority": "low",
-      "collected_at": "2026-08-30T00:25:54.736713+00:00"
+      "collected_at": "2026-08-30T21:12:50.351861+00:00"
     },
     {
       "id": "204d55c891580bbae3c1e2a192af7e3588f2271f",
@@ -2502,7 +2580,7 @@
         "surabaya"
       ],
       "priority": "high",
-      "collected_at": "2026-08-30T00:25:54.736713+00:00"
+      "collected_at": "2026-08-30T21:12:50.351861+00:00"
     },
     {
       "id": "8ad8f8ea796ea6fd5489829905034fb56645396d",
@@ -2677,7 +2755,7 @@
         "surabaya"
       ],
       "priority": "low",
-      "collected_at": "2026-08-30T00:25:54.736713+00:00"
+      "collected_at": "2026-08-30T21:12:50.351861+00:00"
     },
     {
       "id": "68be53b748b7865ee5186c8b4be45b10c2ebaf4f",
@@ -2757,7 +2835,7 @@
         "surabaya"
       ],
       "priority": "high",
-      "collected_at": "2026-08-30T00:25:54.736713+00:00"
+      "collected_at": "2026-08-30T21:12:50.351861+00:00"
     },
     {
       "id": "b6724c0cac4debaa57458588dfa6753b27404ef3",
@@ -2982,6 +3060,33 @@
       "collected_at": "2026-08-30T17:35:15.399823+00:00"
     },
     {
+      "id": "6b6557d8139875aecd81d4c519b77285fac9b862",
+      "video_id": "0R0o55H6OKg",
+      "platform": "YouTube",
+      "type": "video",
+      "title": "Ganti 10 Kali Lipat! Kapolrestabes Surabaya Minta Maaf seusai Personel Terlibat Pungli Korban Laka",
+      "channel": "TribunJatim Official",
+      "published_at": "2026-08-29T04:17:25Z",
+      "url": "https://www.youtube.com/watch?v=0R0o55H6OKg",
+      "thumbnail": "https://i.ytimg.com/vi/0R0o55H6OKg/hqdefault.jpg",
+      "description": "Download aplikasi berita TribunX di Play Store atau App Store untuk dapatkan pengalaman baru TRIBUNJATIM.",
+      "relevance": "low",
+      "scope": "neutral",
+      "category": "Tidak Relevan",
+      "classification_score": 0,
+      "is_jatim": true,
+      "region": "Jawa Timur",
+      "polres": "POLRESTABES SURABAYA",
+      "location_confidence": 100,
+      "location_source": "polres",
+      "location_evidence": [
+        "surabaya",
+        "surabaya"
+      ],
+      "priority": "low",
+      "collected_at": "2026-08-30T21:12:50.351861+00:00"
+    },
+    {
       "id": "1ec865d35b368d1711e981c5d4835d96ab2cf412",
       "video_id": "zb1Dy1_6tKY",
       "platform": "YouTube",
@@ -3173,7 +3278,7 @@
       "location_source": null,
       "location_evidence": [],
       "priority": "medium",
-      "collected_at": "2026-08-30T06:46:05.384377+00:00"
+      "collected_at": "2026-08-30T21:12:50.351861+00:00"
     },
     {
       "id": "3c70ab1ee1c1cb29c39b2220c6467baa731b17ba",
@@ -3294,6 +3399,30 @@
       "location_evidence": [],
       "priority": "high",
       "collected_at": "2026-08-30T17:35:15.399823+00:00"
+    },
+    {
+      "id": "6d7cf3874698c1de95bddece1e6feae25b9b1eaa",
+      "video_id": "gxajQrctKzY",
+      "platform": "YouTube",
+      "type": "video",
+      "title": "[HEADLINE NEWS, 29/08] Polisi Tetapkan 45 Tersangka Kerusuhan DPR, 315 Orang Diperiksa",
+      "channel": "METRO TV ",
+      "published_at": "2026-08-29T00:59:16Z",
+      "url": "https://www.youtube.com/watch?v=gxajQrctKzY",
+      "thumbnail": "https://i.ytimg.com/vi/gxajQrctKzY/hqdefault.jpg",
+      "description": "MetroTV, HEADLINE NEWS - 29 AGUSTUS 2026 | 07.00 WIB Polda Metro Jaya menetapkan 45 orang sebagai tersangka dalam ...",
+      "relevance": "high",
+      "scope": "negative",
+      "category": "Oknum / Pelanggaran Anggota",
+      "classification_score": 100,
+      "is_jatim": false,
+      "region": "Indonesia",
+      "polres": null,
+      "location_confidence": 0,
+      "location_source": null,
+      "location_evidence": [],
+      "priority": "medium",
+      "collected_at": "2026-08-30T21:12:50.351861+00:00"
     },
     {
       "id": "d97bde6ba572253ec67ecef4887f40924597b42e",
