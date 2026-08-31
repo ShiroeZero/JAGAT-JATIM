@@ -6,6 +6,7 @@ repository without requiring a local clone in the development environment.
 from pathlib import Path
 
 BASE = Path(__file__).resolve().parent.parent
+PATCH_REVISION = "2026-08-31-context-guardrails-r2"
 
 
 def replace_once(text: str, old: str, new: str, label: str) -> str:
@@ -90,9 +91,6 @@ def patch_analysis_engine() -> bool:
         'procedural evidence output',
     )
 
-    text = text.replace('classifier_version": "news-v6.5.3"', 'classifier_version": "news-v6.5.4"')
-    text = text.replace('analysis_engine_version": "analysis-v6.5.3"', 'analysis_engine_version": "analysis-v6.5.4"')
-
     path.write_text(text, encoding="utf-8")
     return text != original
 
@@ -104,8 +102,6 @@ def patch_versions() -> bool:
         text = path.read_text(encoding="utf-8")
         original = text
         text = text.replace("v6.5.3", "v6.5.4")
-        if filename == "normalize_news.py":
-            text = text.replace("analysis-v6.5.3", "analysis-v6.5.4")
         path.write_text(text, encoding="utf-8")
         changed = changed or text != original
     return changed
@@ -170,7 +166,7 @@ def main() -> None:
     changed = patch_versions() or changed
     changed = patch_test_suite() or changed
     changed = patch_frontend() or changed
-    print(f"V6.5.4 classification/dashboard patch: {'CHANGED' if changed else 'OK'}")
+    print(f"V6.5.4 patch {PATCH_REVISION}: {'CHANGED' if changed else 'OK'}")
 
 
 if __name__ == "__main__":
