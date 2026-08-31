@@ -1,11 +1,4 @@
-"""JAGAT V6.5.7 semantic fallback for crime-news classification.
-
-Some crime headlines involving police do not contain enough grammar for the
-role detector, so the previous layers can leave them neutral. This final pass
-uses a conservative rule: when a serious crime is explicitly present alongside
-a Polri reference, classify the underlying crime as negative unless the text is
-an explicit clarification/resolution context.
-"""
+"""JAGAT V6.5.7 semantic fallback for crime-news classification."""
 from pathlib import Path
 import re
 
@@ -49,25 +42,19 @@ def _jagat_v657_result(result, title, summary):
         r"\b(?:sudah|telah|resmi)\s+(?:dibayar|diganti|diselesaikan)\b",
         r"\b(?:ganti\s+rugi|kompensasi|penggantian)\b",
     ])
-
     if resolution_context:
         return result
 
-    has_police = _jagat_v657_has(text, police_ref)
-    if not has_police:
+    if not _jagat_v657_has(text, police_ref):
         return result
 
     for issue_type, subtype, patterns in severe_crimes:
         if not _jagat_v657_has(text, patterns):
             continue
 
-        # If the article explicitly says the police committed the crime, the
-        # existing misconduct rules remain authoritative and can score higher.
         if result.get("polri_relation") == "SUBJEK_PERMASALAHAN":
             return result
 
-        # Otherwise the article is about a serious crime that police are
-        # handling/reporting. Keep it negative at a restrained score band.
         result["sentiment"] = "negative"
         result["sentiment_label"] = "Negatif"
         result["issue_type"] = issue_type
@@ -92,26 +79,46 @@ def analyze_article(title, summary="", police_context=True):
 
 '''
 
+TEST_CONTENT = '''"""Regression tests for JAGAT V6.5.7 crime semantic fallback."""
+from analysis_engine import analyze_article
+
+sexual = analyze_article(
+    "Kasus Ayah di Sumenep Diduga Cabuli Anak Kandung, Polisi: Terjadi Sejak 2021",
+    "",
+    True,
+)
+assert sexual["sentiment"] == "negative", sexual
+assert sexual["issue_type"] == "KEJAHATAN_SEKSUAL", sexual
+assert sexual["legacy_priority"] == "low", sexual
+
+balong = analyze_article(
+    "Kasus dugaan Tangkap Lepas Bayar Rp. 30 Juta di Polsek Balongpanggang, Polres Gresik Mencuat",
+    "",
+    True,
+)
+assert balong["sentiment"] == "negative", balong
+assert balong["issue_type"] == "INTEGRITAS_DAN_KEUANGAN", balong
+assert balong["attention_score"] >= 55, balong
+
+sukorejo = analyze_article(
+    "Warga Sukorejo Malang Dibawa Tiga Orang Mengaku Anggota Polda, Dugaan Setoran Rp15 Juta Mencuat",
+    "",
+    True,
+)
+assert sukorejo["sentiment"] == "negative", sukorejo
+assert sukorejo["issue_type"] == "INTEGRITAS_DAN_KEUANGAN", sukorejo
+assert sukorejo["polri_relation"] == "DUGAAN_MENGATASNAMAKAN_POLRI", sukorejo
+assert sukorejo["attention_score"] >= 50, sukorejo
+
+print("ANALYSIS ENGINE V6.5.7: OK")
+'''
+
 
 def main():
     text = ANALYSIS.read_text(encoding="utf-8")
     if MARKER not in text:
         ANALYSIS.write_text(text.rstrip() + WRAPPER + "\n", encoding="utf-8")
-
-    TESTS.write_text(
-        '''"""Regression tests for JAGAT V6.5.7 crime semantic fallback."""\n'
-        'from analysis_engine import analyze_article\n\n'
-        'sexual = analyze_article(\n'
-        '    "Kasus Ayah di Sumenep Diduga Cabuli Anak Kandung, Polisi: Terjadi Sejak 2021",\n'
-        '    "",\n'
-        '    True,\n'
-        ')\n'
-        'assert sexual["sentiment"] == "negative", sexual\n'
-        'assert sexual["issue_type"] == "KEJAHATAN_SEKSUAL", sexual\n'
-        'assert sexual["legacy_priority"] == "low", sexual\n\n'
-        'print("ANALYSIS ENGINE V6.5.7: OK")\n'''.replace("'\n", "\n"),
-        encoding="utf-8",
-    )
+    TESTS.write_text(TEST_CONTENT, encoding="utf-8")
     print("JAGAT V6.5.7 semantic fallback: CHANGED")
 
 
