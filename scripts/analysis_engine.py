@@ -414,7 +414,7 @@ def relation_analysis(text, role, issue_type):
 
 def authority_analysis(text):
     for points, terms in AUTHORITY_PATTERNS:
-        hits = [term for term in terms if has(text, term)]
+        hits = [term for term in terms if has_nonnegated(text, term)]
         if hits:
             return points, hits[:4]
     return 0, []
