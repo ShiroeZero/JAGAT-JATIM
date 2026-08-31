@@ -17,94 +17,37 @@ concurrency:
 jobs:
   collect-and-deploy:
     runs-on: ubuntu-latest
-
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
-
     steps:
       - name: Checkout repository
         uses: actions/checkout@v6
-
       - name: Setup Python
         uses: actions/setup-python@v6
         with:
           python-version: "3.12"
-
       - name: Preflight engine tests
         run: |
           python -m py_compile scripts/*.py
           python scripts/test_location_engine.py
           python scripts/test_analysis_engine.py
           python scripts/test_satker.py
-          echo "Preflight engine tests: OK"
-
       - name: Collect news
-        run: |
-          python -u scripts/fetch_news.py
-
+        run: python -u scripts/fetch_news.py
       - name: Normalize and classify data
-        run: |
-          python -u scripts/normalize_news.py
-
-      - name: Check news database
-        run: |
-          python - <<'PY'
-          import json, os
-          path = "data/news.json"
-          if not os.path.exists(path): raise SystemExit("ERROR: data/news.json tidak ditemukan")
-          with open(path, encoding="utf-8") as f: data = json.load(f)
-          stats = data.get("fetch_statistics", {})
-          polda = sum(1 for x in data.get("items", []) if x.get("satker") == "POLDA JAWA TIMUR")
-          print(f"News records: {len(data.get('items', []))}")
-          print(f"Queries: {stats.get('queries', 0)}")
-          print(f"API success: {stats.get('api_success', 0)}")
-          print(f"API failed: {stats.get('api_failed', 0)}")
-          print(f"Discovery families: {stats.get('discovery_families', 0)}")
-          print(f"Jatim Polres queries: {stats.get('jatim_polres_count', 0)}")
-          print(f"Polda Jatim satker: {polda}")
-          PY
-
+        run: python -u scripts/normalize_news.py
       - name: Build case clusters
-        run: |
-          python -u scripts/process_cases.py
-
+        run: python -u scripts/process_cases.py
       - name: Assign organisational satker
-        run: |
-          python -u scripts/apply_satker.py
-
-      - name: Check case database
-        run: |
-          python - <<'PY'
-          import json, os
-          path = "data/case_clusters.json"
-          if not os.path.exists(path): raise SystemExit("ERROR: data/case_clusters.json tidak ditemukan")
-          with open(path, encoding="utf-8") as f: data = json.load(f)
-          cases = data.get("cases", [])
-          high = sum(1 for c in cases if str(c.get("priority") or "").lower() == "high")
-          polda = sum(1 for c in cases if c.get("satker") == "POLDA JAWA TIMUR")
-          print(f"Engine: {data.get('engine_version', '-')}")
-          print(f"Cases: {len(cases)}")
-          print(f"Articles: {data.get('total_articles', 0)}")
-          print(f"High priority: {high}")
-          print(f"Polda satker: {polda}")
-          PY
-
+        run: python -u scripts/apply_satker.py
       - name: Collect YouTube
         continue-on-error: true
         env:
           YOUTUBE_API_KEY: ${{ secrets.YOUTUBE_API_KEY }}
-        run: |
-          python -u scripts/fetch_social.py
-
-      - name: Check YouTube data
-        run: |
-          if [ -f data/social.json ]; then echo "YouTube data tersedia."; else echo "WARNING: data/social.json tidak tersedia."; fi
-
+        run: python -u scripts/fetch_social.py
       - name: Create daily snapshot
-        run: |
-          python -u scripts/create_daily_snapshot.py
-
+        run: python -u scripts/create_daily_snapshot.py
       - name: Build archive index
         run: |
           python - <<'PY'
@@ -113,53 +56,45 @@ jobs:
           archive_dir = Path("data/archive")
           archive_dir.mkdir(parents=True, exist_ok=True)
           files = sorted([p.stem for p in archive_dir.glob("*.json") if p.name != "index.json"], reverse=True)
-          with open(archive_dir / "index.json", "w", encoding="utf-8") as f: json.dump({"files": files}, f, ensure_ascii=False, indent=2)
-          print(f"Archives: {len(files)}")
+          with open(archive_dir / "index.json", "w", encoding="utf-8") as f:
+              json.dump({"files": files}, f, ensure_ascii=False, indent=2)
           PY
-
       - name: Validate final data
-        run: |
-          python -u scripts/validate_data.py
-
+        run: python -u scripts/validate_data.py
+      - name: Wire satker frontend
+        run: python -u scripts/apply_frontend_satker.py
       - name: Check frontend assets
         run: |
           test -f index.html
           test -f app.js
           test -f styles.css
           test -f config.js
+          test -f satker-ui.js
           node --check app.js
-
+          node --check satker-ui.js
       - name: Remove generated Python cache
         run: |
           find scripts -type d -name __pycache__ -prune -exec rm -rf {} +
           find . -name "*.pyc" -delete
-
       - name: Save monitoring data
         run: |
           git config user.name "JAGAT Bot"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add data/ scripts/ assets/ .github/workflows/collect.yml index.html app.js styles.css config.js .gitignore README.md docs/
+          git add data/ scripts/ assets/ .github/workflows/collect.yml index.html app.js styles.css config.js satker-ui.js .gitignore README.md docs/
           if git diff --cached --quiet; then echo "Tidak ada perubahan Git."; else git commit -m "chore: update JAGAT v6.6.0 monitoring data"; git push; fi
-
       - name: Configure GitHub Pages
         uses: actions/configure-pages@v5
-
       - name: Prepare Pages site
         run: |
           rm -rf site
           mkdir -p site
-          cp index.html site/
-          cp app.js site/
-          cp styles.css site/
-          cp config.js site/
+          cp index.html app.js styles.css config.js satker-ui.js site/
           cp -r assets site/assets
           cp -r data site/data
-
       - name: Upload Pages artifact
         uses: actions/upload-pages-artifact@v4
         with:
           path: site
-
       - name: Deploy GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
