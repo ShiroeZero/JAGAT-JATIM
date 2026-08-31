@@ -27,7 +27,8 @@ def _jagat_v657_result(result, title, summary):
     ]
     severe_crimes = [
         ("KEJAHATAN_SEKSUAL", "Kejahatan Seksual", [
-            r"\bpencabulan\b", r"\bpemerkosaan\b", r"\bperkosaan\b",
+            r"\bpencabulan\b", r"\bcabuli\b", r"\bmencabuli\b", r"\bdicabuli\b",
+            r"\bpemerkosaan\b", r"\bperkosaan\b",
             r"\bkekerasan\s+seksual\b", r"\bpelecehan\s+seksual\b",
         ]),
         ("KEKERASAN_DAN_KEKUATAN", "Kekerasan / Penggunaan Kekuatan", [
