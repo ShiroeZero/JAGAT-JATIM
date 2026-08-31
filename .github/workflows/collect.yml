@@ -7,6 +7,7 @@ on:
       - "scripts/patch_analysis_v654_fix.py"
       - "scripts/patch_analysis_v655.py"
       - "scripts/patch_analysis_v656.py"
+      - "scripts/patch_analysis_v657.py"
       - "scripts/restore_legacy_dashboard.py"
       - ".github/workflows/collect.yml"
   workflow_dispatch:
@@ -40,6 +41,7 @@ jobs:
           python -u scripts/patch_analysis_v654_fix.py
           python -u scripts/patch_analysis_v655.py
           python -u scripts/patch_analysis_v656.py
+          python -u scripts/patch_analysis_v657.py
       - name: Preflight engine tests
         run: |
           python -m py_compile scripts/*.py
@@ -47,6 +49,7 @@ jobs:
           python scripts/test_analysis_engine.py
           python scripts/test_analysis_v655.py
           python scripts/test_analysis_v656.py
+          python scripts/test_analysis_v657.py
       - name: Collect news
         run: python -u scripts/fetch_news.py
       - name: Normalize and classify data
