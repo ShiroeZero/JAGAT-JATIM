@@ -1,4 +1,4 @@
-name: JAGAT — Pengumpulan & Pembaruan Data V6.6.0
+name: JAGAT — Pengumpulan & Pembaruan Data V6.6.1
 
 on:
   workflow_dispatch:
@@ -32,15 +32,12 @@ jobs:
           python -m py_compile scripts/*.py
           python scripts/test_location_engine.py
           python scripts/test_analysis_engine.py
-          python scripts/test_satker.py
       - name: Collect news
         run: python -u scripts/fetch_news.py
       - name: Normalize and classify data
         run: python -u scripts/normalize_news.py
       - name: Build case clusters
         run: python -u scripts/process_cases.py
-      - name: Assign organisational satker
-        run: python -u scripts/apply_satker.py
       - name: Collect YouTube
         continue-on-error: true
         env:
@@ -61,17 +58,13 @@ jobs:
           PY
       - name: Validate final data
         run: python -u scripts/validate_data.py
-      - name: Wire satker frontend
-        run: python -u scripts/apply_frontend_satker.py
       - name: Check frontend assets
         run: |
           test -f index.html
           test -f app.js
           test -f styles.css
           test -f config.js
-          test -f satker-ui.js
           node --check app.js
-          node --check satker-ui.js
       - name: Remove generated Python cache
         run: |
           find scripts -type d -name __pycache__ -prune -exec rm -rf {} +
@@ -80,15 +73,15 @@ jobs:
         run: |
           git config user.name "JAGAT Bot"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add data/ scripts/ assets/ .github/workflows/collect.yml index.html app.js styles.css config.js satker-ui.js .gitignore README.md docs/
-          if git diff --cached --quiet; then echo "Tidak ada perubahan Git."; else git commit -m "chore: update JAGAT v6.6.0 monitoring data"; git push; fi
+          git add data/ scripts/ assets/ .github/workflows/collect.yml index.html app.js styles.css config.js .gitignore README.md docs/
+          if git diff --cached --quiet; then echo "Tidak ada perubahan Git."; else git commit -m "chore: update JAGAT v6.6.1 monitoring data"; git push; fi
       - name: Configure GitHub Pages
         uses: actions/configure-pages@v5
       - name: Prepare Pages site
         run: |
           rm -rf site
           mkdir -p site
-          cp index.html app.js styles.css config.js satker-ui.js site/
+          cp index.html app.js styles.css config.js site/
           cp -r assets site/assets
           cp -r data site/data
       - name: Upload Pages artifact
