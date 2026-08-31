@@ -79,4 +79,33 @@ case = case_attention([
 assert case["priority"] == "high", case
 assert case["label"] == "Tinggi", case
 
-print("ANALYSIS ENGINE V6.5.3: OK")
+
+
+# 8) Procedural barang-bukti reporting is not negative by itself.
+evidence_pickup = analyze_article(
+    "Polrestabes Surabaya Lakukan Pengambilan Barang Bukti untuk Proses Pemeriksaan",
+    "Barang bukti diambil sebagai bagian dari proses resmi.",
+    True,
+)
+assert evidence_pickup["sentiment"] in {"positive", "neutral"}, evidence_pickup
+assert evidence_pickup["issue_type"] == "UMUM", evidence_pickup
+
+# 9) Explicit compensation/resolution is positive, not a misconduct label.
+compensation = analyze_article(
+    "Kapolrestabes Surabaya Bayar 10 Kali Lipat kepada Pihak Terkait sebagai Penggantian",
+    "Pembayaran dilakukan sebagai bentuk penyelesaian.",
+    True,
+)
+assert compensation["sentiment"] == "positive", compensation
+assert compensation["issue_type"] == "UMUM", compensation
+
+# 10) Negated integrity language must not create a false misconduct issue.
+rebuttal = analyze_article(
+    "Kapolrestabes Surabaya Tegaskan Tidak Ada Pungli, Pihak Terkait Sudah Dibayar 10 Kali Lipat",
+    "Klarifikasi menyebut pembayaran telah diselesaikan.",
+    True,
+)
+assert rebuttal["sentiment"] == "positive", rebuttal
+assert rebuttal["issue_type"] == "UMUM", rebuttal
+
+print("ANALYSIS ENGINE V6.5.4: OK")

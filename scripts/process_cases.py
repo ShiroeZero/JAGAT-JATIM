@@ -10,7 +10,7 @@ from analysis_engine import case_attention
 NEWS_FILE = "data/news.json"
 CASE_FILE = "data/case_clusters.json"
 
-ENGINE_VERSION = "case-v6.5.3"
+ENGINE_VERSION = "case-v6.5.4"
 MAX_CASE_AGE_DAYS = 120
 
 # Normal clustering may use one concrete event term when the

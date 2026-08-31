@@ -1,4 +1,4 @@
-"""JAGAT V6.5.3 deterministic context-aware article/case analysis.
+"""JAGAT V6.5.4 deterministic context-aware article/case analysis.
 
 Core rule:
     Phrase/context > isolated keyword.
@@ -35,6 +35,11 @@ POSITIVE_PATTERNS = [
     ("Pelayanan / prestasi", [
         r"\b(?:pelayanan|inovasi|prestasi|penghargaan|apresiasi)\b.{0,100}\b(?:polisi|polres|polda|polri)\b",
         r"\b(?:polisi|polres|polda)\b.{0,100}\b(?:meraih|mendapat|menerima)\b.{0,60}\b(?:penghargaan|apresiasi|prestasi)\b",
+    ]),
+    ("Pemulihan / kompensasi", [
+        r"\b(?:sudah|telah|resmi)\s+(?:dibayar|membayar|diberi(?:kan)?|menerima)\b.{0,100}\b(?:ganti\s+rugi|kompensasi|penggantian)\b",
+        r"\b(?:dibayar|membayar)\b.{0,60}\b(?:\d+\s*(?:x|kali)\s*lipat|sepuluh\s+kali)\b",
+        r"\b(?:ganti\s+rugi|kompensasi|penggantian)\b",
     ]),
 ]
 
@@ -209,6 +214,16 @@ RISKY_MISCONDUCT_TERMS = {
     "asusila", "aborsi", "pencabulan",
 }
 
+PROCEDURAL_NEUTRAL_PATTERNS = [
+    r"\b(?:pengambilan|penyerahan|pengembalian|serah\s+terima)\s+barang\s+bukti\b",
+    r"\b(?:mengambil|menyerahkan|mengembalikan)\s+barang\s+bukti\b",
+]
+
+PROCEDURAL_NEGATIVE_PATTERNS = [
+    r"\bbarang\s+bukti\b.{0,60}\b(?:hilang|raib|dicuri|disalahgunakan)\b",
+    r"\b(?:pengambilan|penyerahan|penyitaan|pengembalian)\b.{0,70}\b(?:ilegal|tidak\s+sah|melanggar\s+sop|salah\s+prosedur)\b",
+]
+
 
 def norm(text):
     return re.sub(r"\s+", " ", str(text or "").lower()).strip()
@@ -219,6 +234,18 @@ def has(text, phrase):
         r"(?<![a-z0-9])" + re.escape(norm(phrase)) + r"(?![a-z0-9])",
         norm(text),
     ) is not None
+
+
+def has_nonnegated(text, phrase):
+    t = norm(text)
+    p = norm(phrase)
+    pattern = r"(?<![a-z0-9])" + re.escape(p) + r"(?![a-z0-9])"
+    for match in re.finditer(pattern, t):
+        prefix = t[max(0, match.start() - 42):match.start()]
+        if re.search(r"\b(?:tidak|tak|bukan|tanpa)\b(?:\s+\w+){0,3}\s*$", prefix):
+            continue
+        return True
+    return False
 
 
 def any_phrase(text, phrases):
@@ -267,7 +294,7 @@ def first_issue(text):
 
     best = None
     for issue_type, subtype, terms in ISSUE_PATTERNS:
-        hits = [term for term in terms if has(text, term)]
+        hits = [term for term in terms if has_nonnegated(text, term)]
         if not hits:
             continue
         strength = max(len(x) for x in hits)
@@ -302,6 +329,15 @@ def detect_positive(text):
     return None, []
 
 
+def detect_procedural_context(text):
+    if any(re.search(pattern, text) for pattern in PROCEDURAL_NEGATIVE_PATTERNS):
+        return None, []
+    hits = [pattern for pattern in PROCEDURAL_NEUTRAL_PATTERNS if re.search(pattern, text)]
+    if hits:
+        return "Prosedur barang bukti", hits[:3]
+    return None, []
+
+
 def detect_role(text):
     # Negative subject must take precedence over enforcement.
     for role_label, patterns in SUBJECT_PATTERNS:
@@ -312,6 +348,10 @@ def detect_role(text):
     for pattern in ENFORCER_PATTERNS:
         if re.search(pattern, text):
             return "PENEGAKAN_HUKUM", "Polri sebagai pihak penindak"
+
+    procedural_label, _procedural_hits = detect_procedural_context(text)
+    if procedural_label and any_phrase(text, ["polisi", "polres", "polresta", "polrestabes", "polda"]):
+        return "PENEGAKAN_HUKUM", "Polri sebagai pihak penindak dalam prosedur barang bukti"
 
     if re.search(r"\bpolisi\b.{0,60}\b(?:ditembak|tertembak|diserang|dianiaya|dikeroyok|terluka|tewas|meninggal)\b", text):
         return "KORBAN", "Polisi sebagai korban"
@@ -462,6 +502,7 @@ def analyze_article(title, summary="", police_context=True):
     context = norm(f"{title} {summary}")
 
     positive_label, positive_hits = detect_positive(context)
+    procedural_label, procedural_hits = detect_procedural_context(context)
     issue_type, issue_subtype, issue_hits = first_issue(context)
     handling_status, handling_hits, handling_points = detect_handling(context)
     role, role_reason = detect_role(context)
@@ -480,7 +521,7 @@ def analyze_article(title, summary="", police_context=True):
     if subject_misconduct:
         sentiment = "negative"
         sentiment_label = "Negatif"
-    elif positive_label:
+    elif positive_label or procedural_label:
         sentiment = "positive"
         sentiment_label = "Positif"
     elif issue_type != "UMUM" or handling_status == "BELUM_DITANGANI":
