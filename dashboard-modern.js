@@ -43,9 +43,9 @@
     { key: "POLRES SAMPANG", label: "POLRES SAMPANG" },
   ];
 
-  const esc = (value) => window.escapeHtml ? window.escapeHtml(value) : String(value ?? "");
-  const fmt = (value) => window.number ? window.number(value) : Number(value || 0).toLocaleString("id-ID");
-  const scoreFor = (item, cases) => window.getEffectiveAttentionScore ? window.getEffectiveAttentionScore(item, cases) : Number(item?.attention_score || 0);
+  const esc = (value) => typeof escapeHtml === "function" ? escapeHtml(value) : String(value ?? "");
+  const fmt = (value) => typeof number === "function" ? number(value) : Number(value || 0).toLocaleString("id-ID");
+  const scoreFor = (item, cases) => typeof getEffectiveAttentionScore === "function" ? getEffectiveAttentionScore(item, cases) : Number(item?.attention_score || 0);
   const scopeFor = (item) => String(item?.scope || "neutral").toLowerCase();
 
   function unitItems(unit, items) {
@@ -135,7 +135,7 @@
   }
 
   function openUnitDrawer(unit, items) {
-    if (!window.$ || !window.openDrawer) return;
+    if (typeof openDrawer !== "function") return;
     const cases = typeof activeCases === "function" ? activeCases() : [];
     const caseIds = new Set(items.map((item) => item.case_id).filter(Boolean));
     const linkedCases = cases.filter((c) => caseIds.has(c.case_id));
@@ -145,8 +145,11 @@
       ? `<span class="pill low">POLDA JATIM</span>`
       : `<span class="pill">POLRES / POLRESTA</span>`;
 
-    $("drawerEyebrow").textContent = kind;
-    $("drawerContent").innerHTML = `
+    const eyebrow = document.getElementById("drawerEyebrow");
+    const content = document.getElementById("drawerContent");
+    if (!eyebrow || !content) return;
+    eyebrow.textContent = kind;
+    content.innerHTML = `
       <div class="drawer-title">${esc(title)}</div>
       <div class="drawer-meta">${fmt(items.length)} berita · ${fmt(linkedCases.length)} kasus · Jawa Timur</div>
       <div class="drawer-pills">${pills}</div>
@@ -159,16 +162,16 @@
       <div class="source-list">
         <h4>Berita Terbaru (${fmt(items.length)})</h4>
         ${items.slice().sort((a,b) => new Date(getItemDate(b)||0) - new Date(getItemDate(a)||0)).slice(0, 12).map((item) => {
-          const url = window.normalizeUrl ? window.normalizeUrl(item.url) : item.url;
+          const url = typeof normalizeUrl === "function" ? normalizeUrl(item.url) : item.url;
           return `<div class="source-row">
             <div><b>${esc(getTitle(item))}</b><div>${esc(getSource(item))}</div><small>${esc(formatDateTime(getItemDate(item)))} · ${esc(getCategory(item))}</small></div>
-            <span class="source-row-actions">${window.copyButtonMarkup ? window.copyButtonMarkup(url) : ""}${url ? `<a href="${esc(url)}" target="_blank" rel="noopener noreferrer" class="open-link-btn"><i class="fa-solid fa-arrow-up-right-from-square"></i> Buka</a>` : ""}</span>
+            <span class="source-row-actions">${typeof copyButtonMarkup === "function" ? copyButtonMarkup(url) : ""}${url ? `<a href="${esc(url)}" target="_blank" rel="noopener noreferrer" class="open-link-btn"><i class="fa-solid fa-arrow-up-right-from-square"></i> Buka</a>` : ""}</span>
           </div>`;
         }).join("") || `<div class="empty">Belum ada berita pada satuan ini.</div>`}
       </div>
     `;
     openDrawer();
-    if (window.bindCopyButtons) window.bindCopyButtons($("drawerContent"));
+    if (typeof bindCopyButtons === "function") bindCopyButtons(content);
   }
 
   function enhanceHeader() {
