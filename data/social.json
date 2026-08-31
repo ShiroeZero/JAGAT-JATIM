@@ -1,25 +1,100 @@
 {
-  "generated_at": "2026-08-31T05:53:35.071988+00:00",
+  "generated_at": "2026-08-31T07:05:37.719944+00:00",
   "platform": "YouTube",
-  "query_cursor": 2,
+  "query_cursor": 5,
   "query_batch_size": 3,
   "query_success": 3,
   "query_skipped": 0,
   "quota_warning": false,
   "quota_block_date": null,
-  "total": 555,
-  "new_videos": 3,
+  "total": 569,
+  "new_videos": 14,
   "statistics": {
-    "total": 555,
+    "total": 569,
     "jatim": 35,
-    "negative": 228,
+    "negative": 233,
     "incident": 26,
-    "case": 56,
-    "neutral": 195,
+    "case": 63,
+    "neutral": 197,
     "noise": 6,
-    "high_priority": 125
+    "high_priority": 127
   },
   "items": [
+    {
+      "id": "cd92d2c56f8d13a02724042a47f66b93a6fd191e",
+      "video_id": "Q0-Bp9Yfuz0",
+      "platform": "YouTube",
+      "type": "video",
+      "title": "PENJUAL NARKOBA ATAU POLISI",
+      "channel": "SanX ChanneL",
+      "published_at": "2026-08-31T06:30:17Z",
+      "url": "https://www.youtube.com/watch?v=Q0-Bp9Yfuz0",
+      "thumbnail": "https://i.ytimg.com/vi/Q0-Bp9Yfuz0/hqdefault.jpg",
+      "description": "",
+      "relevance": "medium",
+      "scope": "neutral",
+      "category": "Berita Polisi Lainnya",
+      "classification_score": 25,
+      "is_jatim": false,
+      "region": "Indonesia",
+      "polres": null,
+      "location_confidence": 0,
+      "location_source": null,
+      "location_evidence": [],
+      "priority": "low",
+      "collected_at": "2026-08-31T07:05:37.719944+00:00"
+    },
+    {
+      "id": "347efe4bd103eebbdbcc2a46339fc09d38763f4b",
+      "video_id": "yffTxYcEzqw",
+      "platform": "YouTube",
+      "type": "video",
+      "title": "Tembak Pelajar, Begal Sadis Menangis Ditangkap Polisi #shorts #begal",
+      "channel": "KOMPASTV LAMPUNG",
+      "published_at": "2026-08-31T05:53:11Z",
+      "url": "https://www.youtube.com/watch?v=yffTxYcEzqw",
+      "thumbnail": "https://i.ytimg.com/vi/yffTxYcEzqw/hqdefault.jpg",
+      "description": "Tembak Pelajar, Begal Sadis Menangis Ditangkap Polisi #shorts #begal.",
+      "relevance": "high",
+      "scope": "negative",
+      "category": "Oknum / Pelanggaran Anggota",
+      "classification_score": 100,
+      "is_jatim": false,
+      "region": "Indonesia",
+      "polres": null,
+      "location_confidence": 0,
+      "location_source": null,
+      "location_evidence": [],
+      "priority": "medium",
+      "collected_at": "2026-08-31T07:05:37.719944+00:00"
+    },
+    {
+      "id": "315e9ef7b148ffb4803def88ae1bc07625c86878",
+      "video_id": "1l5WXw70aJU",
+      "platform": "YouTube",
+      "type": "video",
+      "title": "Begal Sadis Tembak Pelajar Ditangkap Polisi",
+      "channel": "KOMPASTV LAMPUNG",
+      "published_at": "2026-08-31T05:49:08Z",
+      "url": "https://www.youtube.com/watch?v=1l5WXw70aJU",
+      "thumbnail": "https://i.ytimg.com/vi/1l5WXw70aJU/hqdefault.jpg",
+      "description": "LAMPUNG, KOMPAS.TV - Tim Tekab 308 Polda Lampung dan Polres Lampung Utara, berhasil meringkus pelaku begal sadis ...",
+      "relevance": "high",
+      "scope": "case",
+      "category": "Ungkap Kasus",
+      "classification_score": 60,
+      "is_jatim": false,
+      "region": "Indonesia",
+      "polres": null,
+      "location_confidence": 0,
+      "location_source": "outside",
+      "location_evidence": [
+        "LUAR:lampung",
+        "LUAR:lampung utara"
+      ],
+      "priority": "low",
+      "collected_at": "2026-08-31T07:05:37.719944+00:00"
+    },
     {
       "id": "cf0a19fd6583da08c7813efc37a32a503b23735d",
       "video_id": "1wSgAtoXd7A",
@@ -43,6 +118,30 @@
       "location_evidence": [],
       "priority": "low",
       "collected_at": "2026-08-31T05:53:35.071988+00:00"
+    },
+    {
+      "id": "96be676dae3a2a0a991dfb4f14765d9325f79602",
+      "video_id": "g1jEgeG9UJo",
+      "platform": "YouTube",
+      "type": "video",
+      "title": "Polisi Sita Narkoba Rp21,2 M | BULETIN iNEWS PAGI",
+      "channel": "officialgtvid",
+      "published_at": "2026-08-31T05:14:39Z",
+      "url": "https://www.youtube.com/watch?v=g1jEgeG9UJo",
+      "thumbnail": "https://i.ytimg.com/vi/g1jEgeG9UJo/hqdefault.jpg",
+      "description": "Polisi Sita Narkoba Rp21,2 M | BULETIN iNEWS PAGI BULETIN iNEWS PAGI - 31 Agustus 2026 Yuk tonton selengkapnya ...",
+      "relevance": "high",
+      "scope": "negative",
+      "category": "Oknum / Narkoba",
+      "classification_score": 100,
+      "is_jatim": false,
+      "region": "Indonesia",
+      "polres": null,
+      "location_confidence": 0,
+      "location_source": null,
+      "location_evidence": [],
+      "priority": "high",
+      "collected_at": "2026-08-31T07:05:37.719944+00:00"
     },
     {
       "id": "bec95f3576a286eadaaccce8302a755f9933bd22",
@@ -93,6 +192,150 @@
       "collected_at": "2026-08-31T05:39:45.880959+00:00"
     },
     {
+      "id": "cb3b7d5357353faeeb726b9810624ccd60892ff9",
+      "video_id": "VQZP1ifu93U",
+      "platform": "YouTube",
+      "type": "video",
+      "title": "niat sulap malah ditangkap polisi 😂 #shorts #reaction #funny",
+      "channel": "Hans Reacts ",
+      "published_at": "2026-08-31T03:45:33Z",
+      "url": "https://www.youtube.com/watch?v=VQZP1ifu93U",
+      "thumbnail": "https://i.ytimg.com/vi/VQZP1ifu93U/hqdefault.jpg",
+      "description": "niatnya cuma mau bikin pramugari terkesan dengan trik sulap sederhana. tisu dibakar, eh tiba-tiba berubah jadi mawar merah ...",
+      "relevance": "high",
+      "scope": "case",
+      "category": "Ungkap Kasus",
+      "classification_score": 60,
+      "is_jatim": false,
+      "region": "Indonesia",
+      "polres": null,
+      "location_confidence": 0,
+      "location_source": null,
+      "location_evidence": [],
+      "priority": "low",
+      "collected_at": "2026-08-31T07:05:37.719944+00:00"
+    },
+    {
+      "id": "7e260d451382c36cec8a330303b345cdfaa6f974",
+      "video_id": "MtlZDa06CHM",
+      "platform": "YouTube",
+      "type": "video",
+      "title": "[LIVE] Residivis Ditangkap Polisi Usai Bobol Rumah di Asahan | NTV CRIME",
+      "channel": "ntvnewsdotid",
+      "published_at": "2026-08-31T03:31:25Z",
+      "url": "https://www.youtube.com/watch?v=MtlZDa06CHM",
+      "thumbnail": "https://i.ytimg.com/vi/MtlZDa06CHM/hqdefault.jpg",
+      "description": "https://www.ntvnews.id/ - [LIVE] Residivis Ditangkap Polisi Usai Bobol Rumah di Asahan | NTV CRIME Saksikan Nusantara TV di ...",
+      "relevance": "high",
+      "scope": "negative",
+      "category": "Oknum / Pelanggaran Anggota",
+      "classification_score": 100,
+      "is_jatim": false,
+      "region": "Indonesia",
+      "polres": null,
+      "location_confidence": 0,
+      "location_source": null,
+      "location_evidence": [],
+      "priority": "medium",
+      "collected_at": "2026-08-31T07:05:37.719944+00:00"
+    },
+    {
+      "id": "b4a19e33cf921d99115aab4a0dbf1ef655f6408f",
+      "video_id": "jBq31jmMthQ",
+      "platform": "YouTube",
+      "type": "video",
+      "title": "[LIVE] Residivis Ditangkap Polisi Usai Bobol Rumah di Asahan | NTV CRIME",
+      "channel": "Nusantara TV",
+      "published_at": "2026-08-31T03:31:04Z",
+      "url": "https://www.youtube.com/watch?v=jBq31jmMthQ",
+      "thumbnail": "https://i.ytimg.com/vi/jBq31jmMthQ/hqdefault.jpg",
+      "description": "https://nusantaratv.com/ - [LIVE] Residivis Ditangkap Polisi Usai Bobol Rumah di Asahan | NTV CRIME #nusantaratv Saksikan live ...",
+      "relevance": "high",
+      "scope": "negative",
+      "category": "Oknum / Pelanggaran Anggota",
+      "classification_score": 100,
+      "is_jatim": false,
+      "region": "Indonesia",
+      "polres": null,
+      "location_confidence": 0,
+      "location_source": null,
+      "location_evidence": [],
+      "priority": "medium",
+      "collected_at": "2026-08-31T07:05:37.719944+00:00"
+    },
+    {
+      "id": "218be8ce3434b236d73a149262c76797799045e3",
+      "video_id": "x0VVNKH5htE",
+      "platform": "YouTube",
+      "type": "video",
+      "title": "ORANG INI DISANGKA KAI CENAT YANG DITANGKAP POLISI",
+      "channel": "SSKIYKO",
+      "published_at": "2026-08-31T03:28:32Z",
+      "url": "https://www.youtube.com/watch?v=x0VVNKH5htE",
+      "thumbnail": "https://i.ytimg.com/vi/x0VVNKH5htE/hqdefault.jpg",
+      "description": "",
+      "relevance": "high",
+      "scope": "case",
+      "category": "Ungkap Kasus",
+      "classification_score": 60,
+      "is_jatim": false,
+      "region": "Indonesia",
+      "polres": null,
+      "location_confidence": 0,
+      "location_source": null,
+      "location_evidence": [],
+      "priority": "low",
+      "collected_at": "2026-08-31T07:05:37.719944+00:00"
+    },
+    {
+      "id": "a0738379d3b219d9e29085f41b95f85ba9f42e59",
+      "video_id": "_25onWjfSzw",
+      "platform": "YouTube",
+      "type": "video",
+      "title": "Pengawas SPBU di Tanjungpinang Nyambi Jadi Pengedar Narkoba, Polisi Amankan 11,54 Gram Sabu",
+      "channel": "TribunbatamID",
+      "published_at": "2026-08-31T03:22:11Z",
+      "url": "https://www.youtube.com/watch?v=_25onWjfSzw",
+      "thumbnail": "https://i.ytimg.com/vi/_25onWjfSzw/hqdefault.jpg",
+      "description": "Download aplikasi berita TribunX di Play Store atau App Store untuk dapatkan pengalaman baru. Pengawas SPBU di ...",
+      "relevance": "high",
+      "scope": "negative",
+      "category": "Oknum / Narkoba",
+      "classification_score": 100,
+      "is_jatim": false,
+      "region": "Indonesia",
+      "polres": null,
+      "location_confidence": 0,
+      "location_source": null,
+      "location_evidence": [],
+      "priority": "high",
+      "collected_at": "2026-08-31T07:05:37.719944+00:00"
+    },
+    {
+      "id": "15ef3a86815b4d608c969c6406103c5e6f3a80b9",
+      "video_id": "pQvSvfpQiDQ",
+      "platform": "YouTube",
+      "type": "video",
+      "title": "lagi sakit malah ditangkap polisi! #drama",
+      "channel": "Ara Senata",
+      "published_at": "2026-08-31T03:21:59Z",
+      "url": "https://www.youtube.com/watch?v=pQvSvfpQiDQ",
+      "thumbnail": "https://i.ytimg.com/vi/pQvSvfpQiDQ/hqdefault.jpg",
+      "description": "",
+      "relevance": "high",
+      "scope": "case",
+      "category": "Ungkap Kasus",
+      "classification_score": 60,
+      "is_jatim": false,
+      "region": "Indonesia",
+      "polres": null,
+      "location_confidence": 0,
+      "location_source": null,
+      "location_evidence": [],
+      "priority": "low",
+      "collected_at": "2026-08-31T07:05:37.719944+00:00"
+    },
+    {
       "id": "5ea33c432a9566761dd9b30c4f8b0d903235fb67",
       "video_id": "g_3q8hRpuFM",
       "platform": "YouTube",
@@ -119,6 +362,54 @@
       "collected_at": "2026-08-31T05:39:45.880959+00:00"
     },
     {
+      "id": "7a12192f414697aafefbcf776674c9223c640545",
+      "video_id": "2MLuA-boJMs",
+      "platform": "YouTube",
+      "type": "video",
+      "title": "Pesta Sabu, Oknum Pegawai Dishub Sumbar Ditangkap Polisi di Payakumbuh",
+      "channel": "Kompas TV Ambon",
+      "published_at": "2026-08-31T03:01:00Z",
+      "url": "https://www.youtube.com/watch?v=2MLuA-boJMs",
+      "thumbnail": "https://i.ytimg.com/vi/2MLuA-boJMs/hqdefault.jpg",
+      "description": "Halo, Sahabat KompasTV! Untuk pengalaman menonton yang lebih menyenangkan dan lebih baik, silakan ubah kualitas ...",
+      "relevance": "high",
+      "scope": "case",
+      "category": "Ungkap Kasus",
+      "classification_score": 60,
+      "is_jatim": false,
+      "region": "Indonesia",
+      "polres": null,
+      "location_confidence": 0,
+      "location_source": null,
+      "location_evidence": [],
+      "priority": "low",
+      "collected_at": "2026-08-31T07:05:37.719944+00:00"
+    },
+    {
+      "id": "67716329d79affc8bf30a816ce67ab1eaf41d65e",
+      "video_id": "NJE--23iZ9U",
+      "platform": "YouTube",
+      "type": "video",
+      "title": "VIRAL! Kabar Daniel Magai Ditangkap Polisi Dibantah | Fabianus Tebai Luruskan Fakta",
+      "channel": "Timurnews_id",
+      "published_at": "2026-08-31T02:59:19Z",
+      "url": "https://www.youtube.com/watch?v=NJE--23iZ9U",
+      "thumbnail": "https://i.ytimg.com/vi/NJE--23iZ9U/hqdefault.jpg",
+      "description": "Kabar mengenai penangkapan Daniel Magai, Ketua Dewan Adat delapan kabupaten di Provinsi Papua Tengah, beredar di ...",
+      "relevance": "high",
+      "scope": "case",
+      "category": "Ungkap Kasus",
+      "classification_score": 60,
+      "is_jatim": false,
+      "region": "Indonesia",
+      "polres": null,
+      "location_confidence": 0,
+      "location_source": null,
+      "location_evidence": [],
+      "priority": "low",
+      "collected_at": "2026-08-31T07:05:37.719944+00:00"
+    },
+    {
       "id": "1d8edcdc8f192bf3bd8feba0c4dd22b2183c42a8",
       "video_id": "xtqq70fF9D0",
       "platform": "YouTube",
@@ -140,7 +431,7 @@
       "location_source": null,
       "location_evidence": [],
       "priority": "high",
-      "collected_at": "2026-08-31T02:57:48.492018+00:00"
+      "collected_at": "2026-08-31T07:05:37.719944+00:00"
     },
     {
       "id": "7a79ddbc9e467c912df735ce9155357cc05830a6",
@@ -190,7 +481,7 @@
       "location_source": null,
       "location_evidence": [],
       "priority": "medium",
-      "collected_at": "2026-08-31T02:57:48.492018+00:00"
+      "collected_at": "2026-08-31T07:05:37.719944+00:00"
     },
     {
       "id": "d6fced31bc0f97d5891dfdf900f309d7c67cff7e",
@@ -214,7 +505,7 @@
       "location_source": null,
       "location_evidence": [],
       "priority": "low",
-      "collected_at": "2026-08-31T02:57:48.492018+00:00"
+      "collected_at": "2026-08-31T07:05:37.719944+00:00"
     },
     {
       "id": "396bfe058626d7e935f5b79063a2ce9ccca8243c",
@@ -262,7 +553,7 @@
       "location_source": null,
       "location_evidence": [],
       "priority": "low",
-      "collected_at": "2026-08-31T02:57:48.492018+00:00"
+      "collected_at": "2026-08-31T07:05:37.719944+00:00"
     },
     {
       "id": "1327dd7eed952f8e415d2b9c7d1d01895fe44504",
@@ -361,7 +652,55 @@
       "location_source": null,
       "location_evidence": [],
       "priority": "low",
-      "collected_at": "2026-08-31T02:57:48.492018+00:00"
+      "collected_at": "2026-08-31T07:05:37.719944+00:00"
+    },
+    {
+      "id": "4b104bd6825c4b0a649c8370a0d7dd5e2fedc8cc",
+      "video_id": "FrGM65XqtKI",
+      "platform": "YouTube",
+      "type": "video",
+      "title": "Classic Mrs. Gray Steals Dora’s Car/Gets Arrested By The Police/Grounded",
+      "channel": "SharkDuDeZ257 ",
+      "published_at": "2026-08-30T20:55:49Z",
+      "url": "https://www.youtube.com/watch?v=FrGM65XqtKI",
+      "thumbnail": "https://i.ytimg.com/vi/FrGM65XqtKI/hqdefault.jpg",
+      "description": "Requested by @XxalfiestarxxRantsPonyTown-c6v.",
+      "relevance": "low",
+      "scope": "neutral",
+      "category": "Tidak Relevan",
+      "classification_score": 0,
+      "is_jatim": false,
+      "region": "Indonesia",
+      "polres": null,
+      "location_confidence": 0,
+      "location_source": null,
+      "location_evidence": [],
+      "priority": "low",
+      "collected_at": "2026-08-31T07:05:37.719944+00:00"
+    },
+    {
+      "id": "5c795657daad7b9ad271f82ba171552e8ec9bd82",
+      "video_id": "ldn-5uhlW7w",
+      "platform": "YouTube",
+      "type": "video",
+      "title": "【HANDCAM】Kenapa bintang ditangkap polisi?",
+      "channel": "Kokonoe Hana Ch.",
+      "published_at": "2026-08-30T20:18:04Z",
+      "url": "https://www.youtube.com/watch?v=ldn-5uhlW7w",
+      "thumbnail": "https://i.ytimg.com/vi/ldn-5uhlW7w/hqdefault.jpg",
+      "description": "vtuber #vtuberid #KoHaOnAir Selamat datang di welcome~~ Art Thumnail by : https://x.com/Myheadsnext Sudah tidak menerima ...",
+      "relevance": "high",
+      "scope": "case",
+      "category": "Ungkap Kasus",
+      "classification_score": 60,
+      "is_jatim": false,
+      "region": "Indonesia",
+      "polres": null,
+      "location_confidence": 0,
+      "location_source": null,
+      "location_evidence": [],
+      "priority": "low",
+      "collected_at": "2026-08-31T07:05:37.719944+00:00"
     },
     {
       "id": "94426815f0722024edb965ffbab1f47e2ac60bc5",
@@ -385,7 +724,7 @@
       "location_source": null,
       "location_evidence": [],
       "priority": "low",
-      "collected_at": "2026-08-31T02:57:48.492018+00:00"
+      "collected_at": "2026-08-31T07:05:37.719944+00:00"
     },
     {
       "id": "f36811d05db2433cf50f7ba52a6096a20c6ba0ce",
@@ -459,7 +798,7 @@
       "location_source": null,
       "location_evidence": [],
       "priority": "low",
-      "collected_at": "2026-08-31T02:57:48.492018+00:00"
+      "collected_at": "2026-08-31T07:05:37.719944+00:00"
     },
     {
       "id": "636e9538fe49c0b19b818ce28116d7e7aee23c76",
@@ -483,7 +822,7 @@
       "location_source": null,
       "location_evidence": [],
       "priority": "low",
-      "collected_at": "2026-08-31T02:57:48.492018+00:00"
+      "collected_at": "2026-08-31T07:05:37.719944+00:00"
     },
     {
       "id": "315c5759178e06c5d271960cd7a66858323ea9c5",
@@ -555,7 +894,7 @@
       "location_source": null,
       "location_evidence": [],
       "priority": "low",
-      "collected_at": "2026-08-31T02:57:48.492018+00:00"
+      "collected_at": "2026-08-31T07:05:37.719944+00:00"
     },
     {
       "id": "ac82d6dc9160e7859dcf8cb871b5ee2f19dca45f",
@@ -677,7 +1016,7 @@
         "LUAR:sumatera barat"
       ],
       "priority": "high",
-      "collected_at": "2026-08-31T02:57:48.492018+00:00"
+      "collected_at": "2026-08-31T07:05:37.719944+00:00"
     },
     {
       "id": "306cf2f126a4d31a341f416814e9c44d40584b5d",
@@ -701,7 +1040,7 @@
       "location_source": null,
       "location_evidence": [],
       "priority": "medium",
-      "collected_at": "2026-08-31T02:57:48.492018+00:00"
+      "collected_at": "2026-08-31T07:05:37.719944+00:00"
     },
     {
       "id": "c3ceb5246ae85fadbe2c3890821f4c637b0106ce",
@@ -725,7 +1064,7 @@
       "location_source": null,
       "location_evidence": [],
       "priority": "high",
-      "collected_at": "2026-08-31T02:57:48.492018+00:00"
+      "collected_at": "2026-08-31T07:05:37.719944+00:00"
     },
     {
       "id": "89a195eabae1fbe003689b93233b4c1fc5adda4d",
@@ -751,7 +1090,7 @@
         "LUAR:sumatera barat"
       ],
       "priority": "high",
-      "collected_at": "2026-08-31T02:57:48.492018+00:00"
+      "collected_at": "2026-08-31T07:05:37.719944+00:00"
     },
     {
       "id": "e6ce333c3a2cdb8d36ca151da973aeda56a86cae",
@@ -799,7 +1138,7 @@
       "location_source": null,
       "location_evidence": [],
       "priority": "medium",
-      "collected_at": "2026-08-31T02:57:48.492018+00:00"
+      "collected_at": "2026-08-31T07:05:37.719944+00:00"
     },
     {
       "id": "0f4d4f85e897e0aa8ed65fe2054a69ba24c9b01c",
@@ -895,7 +1234,7 @@
       "location_source": null,
       "location_evidence": [],
       "priority": "low",
-      "collected_at": "2026-08-31T02:57:48.492018+00:00"
+      "collected_at": "2026-08-31T07:05:37.719944+00:00"
     },
     {
       "id": "c1fd1cfd01580f49a1841d2af3f475aecfd719f9",
@@ -945,7 +1284,7 @@
         "LUAR:batam"
       ],
       "priority": "medium",
-      "collected_at": "2026-08-31T02:57:48.492018+00:00"
+      "collected_at": "2026-08-31T07:05:37.719944+00:00"
     },
     {
       "id": "749aac820d3bb8709f2e9e6ce8200b15fed8d024",
@@ -1017,7 +1356,7 @@
       "location_source": null,
       "location_evidence": [],
       "priority": "low",
-      "collected_at": "2026-08-31T02:57:48.492018+00:00"
+      "collected_at": "2026-08-31T07:05:37.719944+00:00"
     },
     {
       "id": "900621e54747c43d1dd9d1742f9eecf1ceadfeac",
@@ -1044,7 +1383,7 @@
         "tuban"
       ],
       "priority": "high",
-      "collected_at": "2026-08-31T02:57:48.492018+00:00"
+      "collected_at": "2026-08-31T07:05:37.719944+00:00"
     },
     {
       "id": "4eb0606a951d87f657054a08877abea095e29f7c",
@@ -1607,7 +1946,7 @@
       "location_source": null,
       "location_evidence": [],
       "priority": "low",
-      "collected_at": "2026-08-31T02:57:48.492018+00:00"
+      "collected_at": "2026-08-31T07:05:37.719944+00:00"
     },
     {
       "id": "8a636b6eca4492b562c17a74134bfd05ed053c11",
@@ -1831,7 +2170,7 @@
       "location_source": null,
       "location_evidence": [],
       "priority": "high",
-      "collected_at": "2026-08-31T02:57:48.492018+00:00"
+      "collected_at": "2026-08-31T07:05:37.719944+00:00"
     },
     {
       "id": "2fcbca4733e3874c34cf7cea9aab8d559113fd26",
@@ -2095,7 +2434,7 @@
       "location_source": null,
       "location_evidence": [],
       "priority": "low",
-      "collected_at": "2026-08-31T02:57:48.492018+00:00"
+      "collected_at": "2026-08-31T07:05:37.719944+00:00"
     },
     {
       "id": "7743cb8a57052d436b4254131f71ff5dfeca34c7",
@@ -2215,7 +2554,7 @@
       "location_source": null,
       "location_evidence": [],
       "priority": "low",
-      "collected_at": "2026-08-31T02:57:48.492018+00:00"
+      "collected_at": "2026-08-31T07:05:37.719944+00:00"
     },
     {
       "id": "2d04f7ab2eb26b075a4493f8176fb10371c8a51c",
@@ -2462,7 +2801,7 @@
       "location_source": null,
       "location_evidence": [],
       "priority": "low",
-      "collected_at": "2026-08-31T02:57:48.492018+00:00"
+      "collected_at": "2026-08-31T07:05:37.719944+00:00"
     },
     {
       "id": "c09c5746196f0e26faa632b9b2a5a2ec0ff0e1fb",
@@ -2584,7 +2923,7 @@
       "location_source": null,
       "location_evidence": [],
       "priority": "high",
-      "collected_at": "2026-08-31T04:31:41.362781+00:00"
+      "collected_at": "2026-08-31T07:05:37.719944+00:00"
     },
     {
       "id": "b00c394ca482d584c7838f018b1ade49029636e2",
@@ -2610,7 +2949,7 @@
         "LUAR:pekanbaru"
       ],
       "priority": "high",
-      "collected_at": "2026-08-31T02:57:48.492018+00:00"
+      "collected_at": "2026-08-31T07:05:37.719944+00:00"
     },
     {
       "id": "e16d1ae43ee56567ae025b1ddfc1bfcf5a2da2eb",
@@ -2661,7 +3000,7 @@
       "location_source": null,
       "location_evidence": [],
       "priority": "low",
-      "collected_at": "2026-08-31T02:57:48.492018+00:00"
+      "collected_at": "2026-08-31T07:05:37.719944+00:00"
     },
     {
       "id": "d8bec20c305d542c19072925d040ddda8792e0dc",
@@ -2933,7 +3272,7 @@
       "location_source": null,
       "location_evidence": [],
       "priority": "low",
-      "collected_at": "2026-08-31T02:57:48.492018+00:00"
+      "collected_at": "2026-08-31T07:05:37.719944+00:00"
     },
     {
       "id": "34329f1dba0cae0f5b7332119c08656fcaa097ae",
@@ -3008,7 +3347,7 @@
       "location_source": null,
       "location_evidence": [],
       "priority": "high",
-      "collected_at": "2026-08-31T02:57:48.492018+00:00"
+      "collected_at": "2026-08-31T07:05:37.719944+00:00"
     },
     {
       "id": "d1ec32b0b7d45f30570cbf910200199d9d5feec3",
@@ -3226,7 +3565,7 @@
       "location_source": null,
       "location_evidence": [],
       "priority": "high",
-      "collected_at": "2026-08-31T02:57:48.492018+00:00"
+      "collected_at": "2026-08-31T07:05:37.719944+00:00"
     },
     {
       "id": "13c79eb92dd234ab52c0d7ceb77ff49f643bcbe5",
@@ -3253,7 +3592,7 @@
         "bangkalan"
       ],
       "priority": "high",
-      "collected_at": "2026-08-31T02:57:48.492018+00:00"
+      "collected_at": "2026-08-31T07:05:37.719944+00:00"
     },
     {
       "id": "82d23fe050ad5fd5ef5183848ea754a536c32575",
@@ -3303,7 +3642,7 @@
       "location_source": null,
       "location_evidence": [],
       "priority": "low",
-      "collected_at": "2026-08-31T02:57:48.492018+00:00"
+      "collected_at": "2026-08-31T07:05:37.719944+00:00"
     },
     {
       "id": "0e19163992ebc939e7c68753b78feee4a8710a83",
@@ -3776,7 +4115,7 @@
       "location_source": null,
       "location_evidence": [],
       "priority": "high",
-      "collected_at": "2026-08-31T02:57:48.492018+00:00"
+      "collected_at": "2026-08-31T07:05:37.719944+00:00"
     },
     {
       "id": "72fd8b7962aae12ea4847bcf9458125e248c0ad1",
