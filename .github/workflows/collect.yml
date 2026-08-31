@@ -5,6 +5,7 @@ on:
     paths:
       - "scripts/patch_analysis_v654.py"
       - "scripts/patch_analysis_v654_fix.py"
+      - "scripts/patch_analysis_v655.py"
       - "scripts/restore_legacy_dashboard.py"
       - ".github/workflows/collect.yml"
   workflow_dispatch:
@@ -34,12 +35,15 @@ jobs:
         with:
           python-version: "3.12"
       - name: Apply classification remediation
-        run: python -u scripts/patch_analysis_v654_fix.py
+        run: |
+          python -u scripts/patch_analysis_v654_fix.py
+          python -u scripts/patch_analysis_v655.py
       - name: Preflight engine tests
         run: |
           python -m py_compile scripts/*.py
           python scripts/test_location_engine.py
           python scripts/test_analysis_engine.py
+          python scripts/test_analysis_v655.py
       - name: Collect news
         run: python -u scripts/fetch_news.py
       - name: Normalize and classify data
