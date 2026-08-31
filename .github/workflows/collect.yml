@@ -40,7 +40,7 @@ jobs:
           echo "Preflight engine tests: OK"
 
       - name: Collect news
-n        run: |
+        run: |
           python -u scripts/fetch_news.py
 
       - name: Normalize and classify data
@@ -56,17 +56,13 @@ n        run: |
           with open(path, encoding="utf-8") as f: data = json.load(f)
           stats = data.get("fetch_statistics", {})
           polda = sum(1 for x in data.get("items", []) if x.get("satker") == "POLDA JAWA TIMUR")
-          print("========================================")
-          print("NEWS DATABASE CHECK V6.6.0")
-          print("========================================")
-          print(f"News records           : {len(data.get('items', []))}")
-          print(f"Queries                : {stats.get('queries', 0)}")
-          print(f"API success            : {stats.get('api_success', 0)}")
-          print(f"API failed             : {stats.get('api_failed', 0)}")
-          print(f"Discovery families     : {stats.get('discovery_families', 0)}")
-          print(f"Jatim Polres queries   : {stats.get('jatim_polres_count', 0)}")
-          print(f"Polda Jatim satker     : {polda}")
-          print("========================================")
+          print(f"News records: {len(data.get('items', []))}")
+          print(f"Queries: {stats.get('queries', 0)}")
+          print(f"API success: {stats.get('api_success', 0)}")
+          print(f"API failed: {stats.get('api_failed', 0)}")
+          print(f"Discovery families: {stats.get('discovery_families', 0)}")
+          print(f"Jatim Polres queries: {stats.get('jatim_polres_count', 0)}")
+          print(f"Polda Jatim satker: {polda}")
           PY
 
       - name: Build case clusters
@@ -87,15 +83,11 @@ n        run: |
           cases = data.get("cases", [])
           high = sum(1 for c in cases if str(c.get("priority") or "").lower() == "high")
           polda = sum(1 for c in cases if c.get("satker") == "POLDA JAWA TIMUR")
-          print("========================================")
-          print("CASE DATABASE CHECK V6.6.0")
-          print("========================================")
-          print(f"Engine         : {data.get('engine_version', '-')}")
-          print(f"Cases          : {len(cases)}")
-          print(f"Articles       : {data.get('total_articles', 0)}")
-          print(f"High priority  : {high}")
-          print(f"Polda satker   : {polda}")
-          print("========================================")
+          print(f"Engine: {data.get('engine_version', '-')}")
+          print(f"Cases: {len(cases)}")
+          print(f"Articles: {data.get('total_articles', 0)}")
+          print(f"High priority: {high}")
+          print(f"Polda satker: {polda}")
           PY
 
       - name: Collect YouTube
@@ -107,16 +99,7 @@ n        run: |
 
       - name: Check YouTube data
         run: |
-          echo "========================================"
-          echo "YOUTUBE DATA CHECK"
-          echo "========================================"
-          if [ -f data/social.json ]; then
-            ls -lh data/social.json
-            echo "YouTube data tersedia."
-          else
-            echo "WARNING: data/social.json tidak tersedia."
-          fi
-          echo "========================================"
+          if [ -f data/social.json ]; then echo "YouTube data tersedia."; else echo "WARNING: data/social.json tidak tersedia."; fi
 
       - name: Create daily snapshot
         run: |
@@ -130,9 +113,8 @@ n        run: |
           archive_dir = Path("data/archive")
           archive_dir.mkdir(parents=True, exist_ok=True)
           files = sorted([p.stem for p in archive_dir.glob("*.json") if p.name != "index.json"], reverse=True)
-          with open(archive_dir / "index.json", "w", encoding="utf-8") as f:
-              json.dump({"files": files}, f, ensure_ascii=False, indent=2)
-          print(f"Archives : {len(files)}")
+          with open(archive_dir / "index.json", "w", encoding="utf-8") as f: json.dump({"files": files}, f, ensure_ascii=False, indent=2)
+          print(f"Archives: {len(files)}")
           PY
 
       - name: Validate final data
@@ -146,7 +128,6 @@ n        run: |
           test -f styles.css
           test -f config.js
           node --check app.js
-          echo "Frontend syntax: OK"
 
       - name: Remove generated Python cache
         run: |
@@ -158,12 +139,7 @@ n        run: |
           git config user.name "JAGAT Bot"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add data/ scripts/ assets/ .github/workflows/collect.yml index.html app.js styles.css config.js .gitignore README.md docs/
-          if git diff --cached --quiet; then
-            echo "Tidak ada perubahan Git."
-          else
-            git commit -m "chore: update JAGAT v6.6.0 monitoring data"
-            git push
-          fi
+          if git diff --cached --quiet; then echo "Tidak ada perubahan Git."; else git commit -m "chore: update JAGAT v6.6.0 monitoring data"; git push; fi
 
       - name: Configure GitHub Pages
         uses: actions/configure-pages@v5
