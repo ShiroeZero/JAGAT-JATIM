@@ -1,0 +1,1 @@
+/* Compatibility stub. The dashboard no longer uses a separate Satker filter. */
