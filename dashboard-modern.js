@@ -202,5 +202,11 @@
     enhanceHeader();
     setTimeout(enhanceHeader, 100);
   });
-  setTimeout(enhanceHeader, 0);
+
+  setTimeout(() => {
+    enhanceHeader();
+    if (typeof todayJatimItems === "function" && document.getElementById("dashboardView")) {
+      renderUnitList(todayJatimItems());
+    }
+  }, 0);
 })();
