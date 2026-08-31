@@ -6,7 +6,7 @@ repository without requiring a local clone in the development environment.
 from pathlib import Path
 
 BASE = Path(__file__).resolve().parent.parent
-PATCH_REVISION = "2026-08-31-context-guardrails-r2"
+PATCH_REVISION = "2026-08-31-context-guardrails-r3"
 
 
 def replace_once(text: str, old: str, new: str, label: str) -> str:
@@ -21,6 +21,15 @@ def patch_analysis_engine() -> bool:
     path = BASE / "scripts" / "analysis_engine.py"
     text = path.read_text(encoding="utf-8")
     original = text
+
+    # Already patched: do nothing so the hourly collector remains safe.
+    if (
+        "JAGAT V6.5.4 deterministic context-aware article/case analysis." in text
+        and "Pemulihan / kompensasi" in text
+        and "def has_nonnegated(text, phrase):" in text
+        and "def detect_procedural_context(text):" in text
+    ):
+        return False
 
     text = text.replace(
         'JAGAT V6.5.3 deterministic context-aware article/case analysis.',
@@ -111,6 +120,8 @@ def patch_test_suite() -> bool:
     path = BASE / "scripts" / "test_analysis_engine.py"
     text = path.read_text(encoding="utf-8")
     original = text
+    if 'ANALYSIS ENGINE V6.5.4: OK' in text:
+        return False
     marker = 'print("ANALYSIS ENGINE V6.5.3: OK")'
     additions = r'''
 
