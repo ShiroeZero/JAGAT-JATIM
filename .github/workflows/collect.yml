@@ -1,4 +1,4 @@
-name: JAGAT — Pengumpulan & Pembaruan Data V6.5.5
+name: JAGAT — Pengumpulan & Pembaruan Data V6.6.0
 
 on:
   workflow_dispatch:
@@ -36,10 +36,11 @@ jobs:
           python -m py_compile scripts/*.py
           python scripts/test_location_engine.py
           python scripts/test_analysis_engine.py
-          echo "Preflight tests: OK"
+          python scripts/test_satker.py
+          echo "Preflight engine tests: OK"
 
       - name: Collect news
-        run: |
+n        run: |
           python -u scripts/fetch_news.py
 
       - name: Normalize and classify data
@@ -49,19 +50,14 @@ jobs:
       - name: Check news database
         run: |
           python - <<'PY'
-          import json
-          import os
-
+          import json, os
           path = "data/news.json"
-          if not os.path.exists(path):
-              raise SystemExit("ERROR: data/news.json tidak ditemukan")
-
-          with open(path, encoding="utf-8") as f:
-              data = json.load(f)
-
+          if not os.path.exists(path): raise SystemExit("ERROR: data/news.json tidak ditemukan")
+          with open(path, encoding="utf-8") as f: data = json.load(f)
           stats = data.get("fetch_statistics", {})
+          polda = sum(1 for x in data.get("items", []) if x.get("satker") == "POLDA JAWA TIMUR")
           print("========================================")
-          print("NEWS DATABASE CHECK V6.5.3")
+          print("NEWS DATABASE CHECK V6.6.0")
           print("========================================")
           print(f"News records           : {len(data.get('items', []))}")
           print(f"Queries                : {stats.get('queries', 0)}")
@@ -69,6 +65,7 @@ jobs:
           print(f"API failed             : {stats.get('api_failed', 0)}")
           print(f"Discovery families     : {stats.get('discovery_families', 0)}")
           print(f"Jatim Polres queries   : {stats.get('jatim_polres_count', 0)}")
+          print(f"Polda Jatim satker     : {polda}")
           print("========================================")
           PY
 
@@ -76,28 +73,28 @@ jobs:
         run: |
           python -u scripts/process_cases.py
 
+      - name: Assign organisational satker
+        run: |
+          python -u scripts/apply_satker.py
+
       - name: Check case database
         run: |
           python - <<'PY'
           import json, os
-
           path = "data/case_clusters.json"
-          if not os.path.exists(path):
-              raise SystemExit("ERROR: data/case_clusters.json tidak ditemukan")
-
-          with open(path, encoding="utf-8") as f:
-              data = json.load(f)
-
+          if not os.path.exists(path): raise SystemExit("ERROR: data/case_clusters.json tidak ditemukan")
+          with open(path, encoding="utf-8") as f: data = json.load(f)
           cases = data.get("cases", [])
           high = sum(1 for c in cases if str(c.get("priority") or "").lower() == "high")
-
+          polda = sum(1 for c in cases if c.get("satker") == "POLDA JAWA TIMUR")
           print("========================================")
-          print("CASE DATABASE CHECK V6.5.3")
+          print("CASE DATABASE CHECK V6.6.0")
           print("========================================")
           print(f"Engine         : {data.get('engine_version', '-')}")
           print(f"Cases          : {len(cases)}")
           print(f"Articles       : {data.get('total_articles', 0)}")
           print(f"High priority  : {high}")
+          print(f"Polda satker   : {polda}")
           print("========================================")
           PY
 
@@ -130,25 +127,12 @@ jobs:
           python - <<'PY'
           import json
           from pathlib import Path
-
           archive_dir = Path("data/archive")
           archive_dir.mkdir(parents=True, exist_ok=True)
-
-          files = sorted(
-              [p.stem for p in archive_dir.glob("*.json") if p.name != "index.json"],
-              reverse=True,
-          )
-
+          files = sorted([p.stem for p in archive_dir.glob("*.json") if p.name != "index.json"], reverse=True)
           with open(archive_dir / "index.json", "w", encoding="utf-8") as f:
               json.dump({"files": files}, f, ensure_ascii=False, indent=2)
-
-          print("========================================")
-          print("ARCHIVE INDEX")
-          print("========================================")
           print(f"Archives : {len(files)}")
-          for item in files[:10]:
-              print(f" - {item}")
-          print("========================================")
           PY
 
       - name: Validate final data
@@ -173,24 +157,11 @@ jobs:
         run: |
           git config user.name "JAGAT Bot"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-
-          git add \
-            data/ \
-            scripts/ \
-            assets/ \
-            .github/workflows/collect.yml \
-            index.html \
-            app.js \
-            styles.css \
-            config.js \
-            .gitignore \
-            README.md \
-            docs/
-
+          git add data/ scripts/ assets/ .github/workflows/collect.yml index.html app.js styles.css config.js .gitignore README.md docs/
           if git diff --cached --quiet; then
             echo "Tidak ada perubahan Git."
           else
-            git commit -m "chore: update JAGAT v6.5.3 monitoring data"
+            git commit -m "chore: update JAGAT v6.6.0 monitoring data"
             git push
           fi
 
@@ -201,19 +172,12 @@ jobs:
         run: |
           rm -rf site
           mkdir -p site
-
           cp index.html site/
           cp app.js site/
           cp styles.css site/
           cp config.js site/
           cp -r assets site/assets
           cp -r data site/data
-
-          echo "========================================"
-          echo "PAGES SITE READY"
-          echo "========================================"
-          find site -maxdepth 2 -type f | sort
-          echo "========================================"
 
       - name: Upload Pages artifact
         uses: actions/upload-pages-artifact@v4
