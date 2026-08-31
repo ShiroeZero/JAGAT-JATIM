@@ -1,13 +1,12 @@
 """Assign first-class organisational unit (satker) metadata.
 
-JAGAT keeps Polres/Polsek as geographic enforcement entities.  Polda Jatim is
+JAGAT keeps Polres/Polsek as geographic enforcement entities. Polda Jatim is
 represented separately as an organisational satker and must never be treated
 as a 40th Polres or a locality.
 """
 import json
 import os
 import re
-from collections import Counter
 from datetime import datetime, timezone
 
 BASE = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
@@ -66,21 +65,15 @@ def main():
     for case in cases:
         linked = [by_id.get(aid) for aid in case.get("article_ids", [])]
         linked = [x for x in linked if x]
-        satkers = [x.get("satker") for x in linked if x.get("satker")]
-        if satkers:
-            # A case is a Polda satker case only when Polda is the dominant
-            # explicit organisational attribution among its linked articles.
-            counts = Counter(satkers)
-            winner, count = counts.most_common(1)[0]
-            if winner == SATKER_POLDA_JATIM and count >= max(1, len(linked) / 2):
-                case["satker"] = SATKER_POLDA_JATIM
-                polda_cases += 1
-            else:
-                case.pop("satker", None)
+        # Satker attribution is orthogonal to geographic Polres attribution.
+        # One explicit Polda Jatim-linked article is enough to expose the case
+        # under the Polda satker filter; this does not change its Polres/locality.
+        if any(x.get("satker") == SATKER_POLDA_JATIM for x in linked):
+            case["satker"] = SATKER_POLDA_JATIM
+            polda_cases += 1
         else:
             case.pop("satker", None)
 
-        # Keep the article copies inside each case in sync with news.json.
         for article in case.get("articles", []):
             source = by_id.get(article.get("id"))
             if source and source.get("satker"):
