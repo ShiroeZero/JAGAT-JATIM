@@ -1,25 +1,99 @@
 {
-  "generated_at": "2026-08-31T04:31:41.362781+00:00",
+  "generated_at": "2026-08-31T05:39:45.880959+00:00",
   "platform": "YouTube",
-  "query_cursor": 7,
+  "query_cursor": 10,
   "query_batch_size": 3,
   "query_success": 3,
   "query_skipped": 0,
   "quota_warning": false,
   "quota_block_date": null,
-  "total": 545,
-  "new_videos": 1,
+  "total": 552,
+  "new_videos": 7,
   "statistics": {
-    "total": 545,
+    "total": 552,
     "jatim": 35,
-    "negative": 224,
+    "negative": 226,
     "incident": 26,
     "case": 56,
-    "neutral": 189,
+    "neutral": 194,
     "noise": 6,
     "high_priority": 125
   },
   "items": [
+    {
+      "id": "bec95f3576a286eadaaccce8302a755f9933bd22",
+      "video_id": "XxP3DMMb0gk",
+      "platform": "YouTube",
+      "type": "video",
+      "title": "Merinding! Dosen Ini Nyamar Pakai Baju Korban Buat Ngelabui Polisi 😱",
+      "channel": "Sewaktu Hujan",
+      "published_at": "2026-08-31T05:00:31Z",
+      "url": "https://www.youtube.com/watch?v=XxP3DMMb0gk",
+      "thumbnail": "https://i.ytimg.com/vi/XxP3DMMb0gk/hqdefault.jpg",
+      "description": "CATATAN PENTING & DISCLAIMER: Video ini dibuat untuk tujuan Informasi dan Edukasi. Kami tidak mendukung tindakan ...",
+      "relevance": "medium",
+      "scope": "neutral",
+      "category": "Berita Polisi Lainnya",
+      "classification_score": 25,
+      "is_jatim": false,
+      "region": "Indonesia",
+      "polres": null,
+      "location_confidence": 0,
+      "location_source": null,
+      "location_evidence": [],
+      "priority": "low",
+      "collected_at": "2026-08-31T05:39:45.880959+00:00"
+    },
+    {
+      "id": "6fab1359e1ea35439935ebef351d0450c95e4d99",
+      "video_id": "A3G_iNwMNCo",
+      "platform": "YouTube",
+      "type": "video",
+      "title": "Polisi Buka Suara Terkait Dugaan Kekerasan Seksual Anak 13 Tahun Hingga Hamil di Sumba Timur",
+      "channel": "POS KUPANG",
+      "published_at": "2026-08-31T03:46:47Z",
+      "url": "https://www.youtube.com/watch?v=A3G_iNwMNCo",
+      "thumbnail": "https://i.ytimg.com/vi/A3G_iNwMNCo/hqdefault.jpg",
+      "description": "POS-KUPANG.COM - Polisi mengusut kasus dugaan kekerasan seksual terhadap anak perempuan usia 13 tahun yang kini hamil ...",
+      "relevance": "high",
+      "scope": "negative",
+      "category": "Kekerasan / Penganiayaan",
+      "classification_score": 100,
+      "is_jatim": false,
+      "region": "Indonesia",
+      "polres": null,
+      "location_confidence": 0,
+      "location_source": null,
+      "location_evidence": [],
+      "priority": "medium",
+      "collected_at": "2026-08-31T05:39:45.880959+00:00"
+    },
+    {
+      "id": "5ea33c432a9566761dd9b30c4f8b0d903235fb67",
+      "video_id": "g_3q8hRpuFM",
+      "platform": "YouTube",
+      "type": "video",
+      "title": "Kekerasan 27 Agustus Telan Korban Jiwa, Kompolnas Pertanyakan Deteksi Dini Polisi!! | THT Pagi",
+      "channel": "Trijaya FM",
+      "published_at": "2026-08-31T03:07:39Z",
+      "url": "https://www.youtube.com/watch?v=g_3q8hRpuFM",
+      "thumbnail": "https://i.ytimg.com/vi/g_3q8hRpuFM/hqdefault.jpg",
+      "description": "Sebanyak 322 orang ditangkap pasca-kerusuhan yang terjadi di sekitar Gedung MPR/DPR/DPD dan Pejompongan, Jakarta, ...",
+      "relevance": "high",
+      "scope": "negative",
+      "category": "Kekerasan / Penganiayaan",
+      "classification_score": 100,
+      "is_jatim": false,
+      "region": "Indonesia",
+      "polres": null,
+      "location_confidence": 0,
+      "location_source": "outside",
+      "location_evidence": [
+        "LUAR:jakarta"
+      ],
+      "priority": "medium",
+      "collected_at": "2026-08-31T05:39:45.880959+00:00"
+    },
     {
       "id": "1d8edcdc8f192bf3bd8feba0c4dd22b2183c42a8",
       "video_id": "xtqq70fF9D0",
@@ -115,6 +189,30 @@
       "location_evidence": [],
       "priority": "low",
       "collected_at": "2026-08-31T02:57:48.492018+00:00"
+    },
+    {
+      "id": "a044f1b57a83f24e7bc2d0baed3c2378098354c7",
+      "video_id": "0GhXrdh-bko",
+      "platform": "YouTube",
+      "type": "video",
+      "title": "Waymo Car Calls Cops on Its Own Passengers!",
+      "channel": "Morris Law",
+      "published_at": "2026-08-30T23:31:24Z",
+      "url": "https://www.youtube.com/watch?v=0GhXrdh-bko",
+      "thumbnail": "https://i.ytimg.com/vi/0GhXrdh-bko/hqdefault.jpg",
+      "description": "Imagine riding in a driverless car, and it calls the cops on you! Two teenagers in California allegedly had the police called on ...",
+      "relevance": "low",
+      "scope": "neutral",
+      "category": "Tidak Relevan",
+      "classification_score": 0,
+      "is_jatim": false,
+      "region": "Indonesia",
+      "polres": null,
+      "location_confidence": 0,
+      "location_source": null,
+      "location_evidence": [],
+      "priority": "low",
+      "collected_at": "2026-08-31T05:39:45.880959+00:00"
     },
     {
       "id": "c0c828cc8e4522fad4334d0f6b983a07303935b1",
@@ -213,7 +311,7 @@
       "location_source": null,
       "location_evidence": [],
       "priority": "low",
-      "collected_at": "2026-08-30T23:35:39.237909+00:00"
+      "collected_at": "2026-08-31T05:39:45.880959+00:00"
     },
     {
       "id": "bbf0cfa504208621a09a71275cd15d3ccff20c80",
@@ -702,6 +800,30 @@
       "collected_at": "2026-08-31T02:57:48.492018+00:00"
     },
     {
+      "id": "c1fd1cfd01580f49a1841d2af3f475aecfd719f9",
+      "video_id": "P96JRf9Hj3I",
+      "platform": "YouTube",
+      "type": "video",
+      "title": "SC Cop Killed in Shootout During Domestic Violence Call - Christopher Delong",
+      "channel": "Matt Thibodeau",
+      "published_at": "2026-08-30T13:25:47Z",
+      "url": "https://www.youtube.com/watch?v=P96JRf9Hj3I",
+      "thumbnail": "https://i.ytimg.com/vi/P96JRf9Hj3I/hqdefault.jpg",
+      "description": "SC Cop Killed in Shootout During Domestic Violence Call - Christopher Delong #christopherdelong #truecrime #breakingnews ...",
+      "relevance": "low",
+      "scope": "neutral",
+      "category": "Tidak Relevan",
+      "classification_score": 0,
+      "is_jatim": false,
+      "region": "Indonesia",
+      "polres": null,
+      "location_confidence": 0,
+      "location_source": null,
+      "location_evidence": [],
+      "priority": "low",
+      "collected_at": "2026-08-31T05:39:45.880959+00:00"
+    },
+    {
       "id": "626f177ff704f1d54f8b8e74ccfbc20c669bdedb",
       "video_id": "_EDxpODhTiM",
       "platform": "YouTube",
@@ -726,6 +848,30 @@
       ],
       "priority": "medium",
       "collected_at": "2026-08-31T02:57:48.492018+00:00"
+    },
+    {
+      "id": "749aac820d3bb8709f2e9e6ce8200b15fed8d024",
+      "video_id": "CKx9H7FYb04",
+      "platform": "YouTube",
+      "type": "video",
+      "title": "When Suspects Misbehave After Arrest",
+      "channel": "Illinois On Duty",
+      "published_at": "2026-08-30T13:00:24Z",
+      "url": "https://www.youtube.com/watch?v=CKx9H7FYb04",
+      "thumbnail": "https://i.ytimg.com/vi/CKx9H7FYb04/hqdefault.jpg",
+      "description": "In Park Forest, Illinois, Officers deal with an irate prisoner who refuses to cooperate after his arrest. Watch Charles Diorio rack up ...",
+      "relevance": "low",
+      "scope": "neutral",
+      "category": "Tidak Relevan",
+      "classification_score": 0,
+      "is_jatim": false,
+      "region": "Indonesia",
+      "polres": null,
+      "location_confidence": 0,
+      "location_source": null,
+      "location_evidence": [],
+      "priority": "low",
+      "collected_at": "2026-08-31T05:39:45.880959+00:00"
     },
     {
       "id": "d9557fb4a78f246ea17190f8a19dda0aa11a2c5f",
@@ -874,7 +1020,7 @@
       "location_source": null,
       "location_evidence": [],
       "priority": "low",
-      "collected_at": "2026-08-30T23:35:39.237909+00:00"
+      "collected_at": "2026-08-31T05:39:45.880959+00:00"
     },
     {
       "id": "cc6fef357f817ef5ad7fe4da4f220082ae183a2f",
@@ -1587,7 +1733,7 @@
       "location_source": null,
       "location_evidence": [],
       "priority": "low",
-      "collected_at": "2026-08-30T23:35:39.237909+00:00"
+      "collected_at": "2026-08-31T05:39:45.880959+00:00"
     },
     {
       "id": "41b61df29abfe2d73a1077373d7ea4a63e99aebf",
@@ -1851,7 +1997,7 @@
       "location_source": null,
       "location_evidence": [],
       "priority": "low",
-      "collected_at": "2026-08-30T23:35:39.237909+00:00"
+      "collected_at": "2026-08-31T05:39:45.880959+00:00"
     },
     {
       "id": "4adf75dfeef5246c9fa42584ed35be4f4b128bcb",
@@ -2022,7 +2168,7 @@
         "jombang"
       ],
       "priority": "low",
-      "collected_at": "2026-08-30T23:35:39.237909+00:00"
+      "collected_at": "2026-08-31T05:39:45.880959+00:00"
     },
     {
       "id": "3fe2be122e42b6872f3d154d25bdb0b165a85241",
@@ -2070,7 +2216,7 @@
       "location_source": null,
       "location_evidence": [],
       "priority": "low",
-      "collected_at": "2026-08-30T23:35:39.237909+00:00"
+      "collected_at": "2026-08-31T05:39:45.880959+00:00"
     },
     {
       "id": "6d505d179601e0c5b738baca78a2f1d93c65bff4",
@@ -2094,7 +2240,31 @@
       "location_source": null,
       "location_evidence": [],
       "priority": "low",
-      "collected_at": "2026-08-30T23:35:39.237909+00:00"
+      "collected_at": "2026-08-31T05:39:45.880959+00:00"
+    },
+    {
+      "id": "eef50c079228fa60af666d2c1ef530ab26ea3385",
+      "video_id": "DyY-TSzaHVg",
+      "platform": "YouTube",
+      "type": "video",
+      "title": "Shreveport police arrest man for domestic abuse by strangulation",
+      "channel": "KTBS 3 News",
+      "published_at": "2026-08-29T23:51:11Z",
+      "url": "https://www.youtube.com/watch?v=DyY-TSzaHVg",
+      "thumbnail": "https://i.ytimg.com/vi/DyY-TSzaHVg/hqdefault.jpg",
+      "description": "",
+      "relevance": "low",
+      "scope": "neutral",
+      "category": "Tidak Relevan",
+      "classification_score": 0,
+      "is_jatim": false,
+      "region": "Indonesia",
+      "polres": null,
+      "location_confidence": 0,
+      "location_source": null,
+      "location_evidence": [],
+      "priority": "low",
+      "collected_at": "2026-08-31T05:39:45.880959+00:00"
     },
     {
       "id": "d7690360773e9027eb3417d093e6217caccf7c11",
@@ -2142,7 +2312,7 @@
       "location_source": null,
       "location_evidence": [],
       "priority": "low",
-      "collected_at": "2026-08-30T23:35:39.237909+00:00"
+      "collected_at": "2026-08-31T05:39:45.880959+00:00"
     },
     {
       "id": "c422f120b22f0eeedb33c325d0b6622a89331987",
@@ -2242,7 +2412,7 @@
       "location_source": null,
       "location_evidence": [],
       "priority": "low",
-      "collected_at": "2026-08-30T23:35:39.237909+00:00"
+      "collected_at": "2026-08-31T05:39:45.880959+00:00"
     },
     {
       "id": "2087d71eaaf36b9be6a68e73c5d7a2a049f8fb3e",
@@ -2290,7 +2460,7 @@
       "location_source": null,
       "location_evidence": [],
       "priority": "low",
-      "collected_at": "2026-08-30T23:35:39.237909+00:00"
+      "collected_at": "2026-08-31T05:39:45.880959+00:00"
     },
     {
       "id": "e33b6347a0eeade8b02ca1c9dc9980956aa1e766",
@@ -2836,7 +3006,7 @@
       "location_source": null,
       "location_evidence": [],
       "priority": "low",
-      "collected_at": "2026-08-30T06:46:05.384377+00:00"
+      "collected_at": "2026-08-31T05:39:45.880959+00:00"
     },
     {
       "id": "0a2a0d0b14dddd533558813630499aaa5383953d",
@@ -3083,7 +3253,7 @@
       "location_source": null,
       "location_evidence": [],
       "priority": "medium",
-      "collected_at": "2026-08-30T23:35:39.237909+00:00"
+      "collected_at": "2026-08-31T05:39:45.880959+00:00"
     },
     {
       "id": "99e930db96136e7005fcc67f4b4d727a7bd416d1",
@@ -3203,7 +3373,7 @@
       "location_source": null,
       "location_evidence": [],
       "priority": "medium",
-      "collected_at": "2026-08-30T23:35:39.237909+00:00"
+      "collected_at": "2026-08-31T05:39:45.880959+00:00"
     },
     {
       "id": "d1d2e3cf21f8be533636e7dd39a02ad5ea0d7511",
@@ -3355,7 +3525,7 @@
         "LUAR:batam"
       ],
       "priority": "medium",
-      "collected_at": "2026-08-30T23:35:39.237909+00:00"
+      "collected_at": "2026-08-31T05:39:45.880959+00:00"
     },
     {
       "id": "2c0b730d4f024b5de0c5a7c1911ccd2bf7a4ee8c",
@@ -3656,7 +3826,7 @@
       "location_source": null,
       "location_evidence": [],
       "priority": "low",
-      "collected_at": "2026-08-30T23:35:39.237909+00:00"
+      "collected_at": "2026-08-31T05:39:45.880959+00:00"
     },
     {
       "id": "12bd4fadf5d9a4a984fee1a33843d9ef7d3a1ebf",
@@ -3708,7 +3878,7 @@
         "LUAR:jakarta"
       ],
       "priority": "low",
-      "collected_at": "2026-08-30T23:35:39.237909+00:00"
+      "collected_at": "2026-08-31T05:39:45.880959+00:00"
     },
     {
       "id": "d6a74cc1d4825a58d6bb3c0875090e10b2379b58",
@@ -3732,7 +3902,7 @@
       "location_source": null,
       "location_evidence": [],
       "priority": "low",
-      "collected_at": "2026-08-30T23:35:39.237909+00:00"
+      "collected_at": "2026-08-31T05:39:45.880959+00:00"
     },
     {
       "id": "6973c0acdb89a26c03d662fd6617b4b0b22e48bc",

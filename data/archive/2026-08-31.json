@@ -2,18 +2,29 @@
   "schema_version": "today-v3",
   "date": "2026-08-31",
   "timezone": "Asia/Jakarta",
-  "updated_at": "2026-08-31T11:31:42.362960+07:00",
-  "last_successful_update": "2026-08-31T11:31:42.362960+07:00",
+  "updated_at": "2026-08-31T12:39:46.743036+07:00",
+  "last_successful_update": "2026-08-31T12:39:46.743036+07:00",
   "news": {
-    "detected": 74,
-    "negative": 13,
-    "positive": 10,
-    "case": 1,
-    "neutral": 50,
-    "jatim": 39,
-    "luar_jatim": 35,
+    "detected": 85,
+    "negative": 14,
+    "positive": 11,
+    "case": 2,
+    "neutral": 58,
+    "jatim": 44,
+    "luar_jatim": 41,
     "priority_high": 2,
     "article_ids": [
+      "41757f8c54c23c45d1331b6bbc3bab9a51e172ae",
+      "7978336a2e1dd72c2dba1dd3fbf98a65322087d9",
+      "a875dd494bbe3da6512471452753ac246fb4ecd9",
+      "15fb3291eacfbdbe93966ccb4b4ad270b66d4100",
+      "15f256d037794915b5c8f0319dfade23e471b6bb",
+      "fd076cfd8c396bfd558ac30cf52de91254e1ede2",
+      "24ee601d5a317b599a89d627195ac32d6438272d",
+      "01354a922af6dc985d9160d84df225249aab404c",
+      "2879b5e1f0549dd77623cefb2582d05b3289128b",
+      "1362a0d877aa6f4a62a4ede2bae68cb8bd016ea1",
+      "eed14514e0a5195bb3caed5a8894a668872cac3d",
       "b17e3b15f49fc0e0f605383054ba9256bfc5ad8f",
       "393aa3e32156d38715b11939cfd92c47068f71bc",
       "e5ad0bc6cb0491b3813b3b4cd86dad1e25b56098",
@@ -91,6 +102,766 @@
     ],
     "items": [
       {
+        "id": "41757f8c54c23c45d1331b6bbc3bab9a51e172ae",
+        "title": "Polisi Selidiki Temuan Jasad Bayi di Conggeang, Diduga Diseret dan Digigit Anjing - Kicaunews",
+        "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQR1IzTVo0YTYtMUw0c0xPbXJISlZ1MmRfUndrUy1VdU1DekhwV0hYeWc5cEloOFJkdWQwQjQzY2NBQVdNcDhwbkkyTzViZTBCVHhuazdMSG5PQWFvZVZTMDgyenNxdzRucUo5WXNrNl9MN3haaFZtdkNteVV0WEI1YWxKRDhycVZHYWV4UkU5N3Y2UzI4MlZ1bEQ0OFBfcE94eG5ncTE2WjNiNmVqbkdwN05XaUo?oc=5",
+        "source": "Kicaunews",
+        "published_at": "2026-08-31T05:21:32+00:00",
+        "collected_at": "2026-08-31T05:35:34.184786+00:00",
+        "region": "BELUM TERPETAKAN",
+        "area_label": "BELUM TERPETAKAN",
+        "is_jatim": null,
+        "polres": null,
+        "category": "NETRAL / LAINNYA",
+        "scope": "neutral",
+        "scope_label": "NETRAL",
+        "priority": "low",
+        "summary": "Polisi Selidiki Temuan Jasad Bayi di Conggeang, Diduga Diseret dan Digigit Anjing Kicaunews",
+        "processing_status": "processed",
+        "classifier_version": "news-v6",
+        "classified_at": "2026-08-31T05:35:34.184786+00:00",
+        "case_id": null,
+        "discovery_families": [],
+        "discovery_tags": [],
+        "discovery_hits": [],
+        "discovery_version": "discovery-v6.5.3",
+        "locality": "",
+        "polsek": null,
+        "location_confidence": 0,
+        "location_evidence": [],
+        "location_status": "BELUM_TERPETAKAN",
+        "location_source": "title",
+        "issue_type": "UMUM",
+        "issue_subtype": "Belum Teridentifikasi",
+        "issue_evidence": [],
+        "handling_status": "BELUM_ADA_INFORMASI",
+        "handling_evidence": [],
+        "attention_score": 29,
+        "attention_label": "Rendah",
+        "attention_components": {
+          "severity": 2,
+          "polri_relation": 16,
+          "authority": 0,
+          "public_impact": 10,
+          "handling": 0,
+          "evidence": 1,
+          "context_risk": 0,
+          "routine_enforcement_cap": null
+        },
+        "attention_evidence": {
+          "severity": [],
+          "authority": [],
+          "public_impact": [
+            "dampak institusional"
+          ],
+          "evidence": [
+            "satu sumber / informasi awal"
+          ],
+          "role": [
+            "Polri/personel menjadi subjek permasalahan"
+          ],
+          "issue": [],
+          "handling": [],
+          "context": [],
+          "positive": []
+        },
+        "case_engine_version": "case-v6.5.3",
+        "case_processed_at": "2026-08-31T05:38:14.959918+00:00"
+      },
+      {
+        "id": "7978336a2e1dd72c2dba1dd3fbf98a65322087d9",
+        "title": "Buser 77 Polresta Kendari Tangkap Pria Diduga Aniaya Istri, Polisi Amankan Airgun - Suarakendari.com",
+        "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQNHVJWFZTX3RyQWhEeEZ1dGFOTUlMZldMNi1TZExQMmFzbkdEMWtuNVNQUTJHQ21QUkVUNzRJTEZNRm5oQnU4azNCemtmNlBmVW5lZUxibWZxd1c3N0Fka3JhX29WMkM4bW5NcnJVVGRuUjFwZ09Ea3hNeUI3SXZ0dF85cW9wNmZRbnU0V0NaX2F0bExaUVd3MFRPRDVvSFFYemIxN0dZYzNKeWZLcE53?oc=5",
+        "source": "Suarakendari.com",
+        "published_at": "2026-08-31T05:21:32+00:00",
+        "collected_at": "2026-08-31T05:35:34.184786+00:00",
+        "region": "BELUM TERPETAKAN",
+        "area_label": "BELUM TERPETAKAN",
+        "is_jatim": null,
+        "polres": null,
+        "category": "NETRAL / LAINNYA",
+        "scope": "neutral",
+        "scope_label": "NETRAL",
+        "priority": "low",
+        "summary": "Buser 77 Polresta Kendari Tangkap Pria Diduga Aniaya Istri, Polisi Amankan Airgun Suarakendari.com",
+        "processing_status": "processed",
+        "classifier_version": "news-v6",
+        "classified_at": "2026-08-31T05:35:34.184786+00:00",
+        "case_id": null,
+        "discovery_families": [],
+        "discovery_tags": [],
+        "discovery_hits": [],
+        "discovery_version": "discovery-v6.5.3",
+        "locality": "",
+        "polsek": null,
+        "location_confidence": 0,
+        "location_evidence": [],
+        "location_status": "BELUM_TERPETAKAN",
+        "location_source": "title",
+        "issue_type": "UMUM",
+        "issue_subtype": "Belum Teridentifikasi",
+        "issue_evidence": [],
+        "handling_status": "BELUM_ADA_INFORMASI",
+        "handling_evidence": [],
+        "attention_score": 29,
+        "attention_label": "Rendah",
+        "attention_components": {
+          "severity": 2,
+          "polri_relation": 16,
+          "authority": 0,
+          "public_impact": 10,
+          "handling": 0,
+          "evidence": 1,
+          "context_risk": 0,
+          "routine_enforcement_cap": null
+        },
+        "attention_evidence": {
+          "severity": [],
+          "authority": [],
+          "public_impact": [
+            "dampak institusional"
+          ],
+          "evidence": [
+            "satu sumber / informasi awal"
+          ],
+          "role": [
+            "Polri/personel menjadi subjek permasalahan"
+          ],
+          "issue": [],
+          "handling": [],
+          "context": [],
+          "positive": []
+        },
+        "case_engine_version": "case-v6.5.3",
+        "case_processed_at": "2026-08-31T05:38:15.036226+00:00"
+      },
+      {
+        "id": "a875dd494bbe3da6512471452753ac246fb4ecd9",
+        "title": "Tingkatkan Keamanan dan Tertib Lalu Lintas, Polsek Balerejo Gelar Patroli Strong Point di Jalan Raya Madiun-Surabaya - Tribratanews Polres Madiun",
+        "url": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxPTS1uWHlqT1lld0thcVhfRFhVQnpBdjc0YklSQ3doUHBYUFdLVVRkNkJ1ZmtzV254Rk51ZkQ2SV9BNjZYU2MtUG5BaUZicHVZaXlIZEJHMGdPdEZDbWI2SXQ4U0NLS3p5aWxYd3F4Z2dscWFQcFZPMXVQOGZ3d24xckRwN3BpaS1fdnQwdUh5azRHSGl1a3FJbmNQcWFmSG5HUjB0Z1F0NGJ0dzRvOWJqUG9rai1kZWotOXFDODRCOXJ4WEh4cjQyZG9KemJfR2VTbjVpaTljTmFBbk5Fd1NET21uc2liUHRZOHN5blJDWkxTSlE?oc=5",
+        "source": "Tribratanews Polres Madiun",
+        "published_at": "2026-08-31T05:21:00+00:00",
+        "collected_at": "2026-08-31T05:35:34.184786+00:00",
+        "region": "Jawa Timur",
+        "area_label": "Surabaya",
+        "is_jatim": true,
+        "polres": null,
+        "category": "PRESTASI / KEGIATAN POSITIF",
+        "scope": "positive",
+        "scope_label": "POSITIF / KEGIATAN",
+        "priority": "low",
+        "summary": "Tingkatkan Keamanan dan Tertib Lalu Lintas, Polsek Balerejo Gelar Patroli Strong Point di Jalan Raya Madiun-Surabaya Tribratanews Polres Madiun",
+        "processing_status": "processed",
+        "classifier_version": "news-v6",
+        "classified_at": "2026-08-31T05:35:34.184786+00:00",
+        "case_id": null,
+        "discovery_families": [],
+        "discovery_tags": [],
+        "discovery_hits": [],
+        "discovery_version": "discovery-v6.5.3",
+        "locality": "Surabaya",
+        "polsek": "POLSEK BALEREJO GELAR PATROLI",
+        "location_confidence": 95,
+        "location_evidence": [
+          "POLSEK BALEREJO GELAR PATROLI",
+          "Surabaya"
+        ],
+        "location_status": "JAWA_TIMUR",
+        "location_source": "title",
+        "issue_type": "UMUM",
+        "issue_subtype": "Belum Teridentifikasi",
+        "issue_evidence": [],
+        "handling_status": "BELUM_ADA_INFORMASI",
+        "handling_evidence": [],
+        "attention_score": 7,
+        "attention_label": "Rendah",
+        "attention_components": {
+          "severity": 2,
+          "polri_relation": 0,
+          "authority": 0,
+          "public_impact": 4,
+          "handling": 0,
+          "evidence": 1,
+          "context_risk": 0,
+          "routine_enforcement_cap": null
+        },
+        "attention_evidence": {
+          "severity": [],
+          "authority": [],
+          "public_impact": [],
+          "evidence": [
+            "satu sumber / informasi awal"
+          ],
+          "role": [],
+          "issue": [],
+          "handling": [],
+          "context": [],
+          "positive": []
+        },
+        "case_engine_version": "case-v6.5.3",
+        "case_processed_at": "2026-08-31T05:38:15.142156+00:00"
+      },
+      {
+        "id": "15fb3291eacfbdbe93966ccb4b4ad270b66d4100",
+        "title": "Lewat Program Koplingmas, Polsek Sananwetan Dekatkan Diri dengan Masyarakat dan Serap Aspirasi Kamtibmas - Website Resmi Polri",
+        "url": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxQUGU0enhFbTRWU2lwZXVUWG5HQkhqWktBNHdxcHp0MmgxRHZXbVI1Nnh1Qk1vSUVMckpZQkRuQ1NRMXczVjBTbEdELU8xSVl4VG56MWViaVIyTkw1LVk3alNoMjRDMWgwbXFuczdlbEVBcDNZN0VMM0hPQ0I2N1pWOVJPVFB3cEdNbG9xMmRleXF6UFNaOW50aUhyUXRtTHhFMWFFdFZwbXg1eTBxQ01SeUpFQ0l0LVRRbjNveXEwLTIySW5pUFJ4R3J4UFNoQXhOZlUwa28xT2lONHU4ZkxHZXpuZWt0RHpoaVF1UXluSmtDZE9qcnBGcHJ3?oc=5",
+        "source": "Website Resmi Polri",
+        "published_at": "2026-08-31T05:20:24+00:00",
+        "collected_at": "2026-08-31T05:35:34.184786+00:00",
+        "region": "BELUM TERPETAKAN",
+        "area_label": "BELUM TERPETAKAN",
+        "is_jatim": null,
+        "polres": null,
+        "category": "NETRAL / LAINNYA",
+        "scope": "neutral",
+        "scope_label": "NETRAL",
+        "priority": "low",
+        "summary": "Lewat Program Koplingmas, Polsek Sananwetan Dekatkan Diri dengan Masyarakat dan Serap Aspirasi Kamtibmas Website Resmi Polri",
+        "processing_status": "processed",
+        "classifier_version": "news-v6",
+        "classified_at": "2026-08-31T05:35:34.184786+00:00",
+        "case_id": null,
+        "discovery_families": [],
+        "discovery_tags": [],
+        "discovery_hits": [],
+        "discovery_version": "discovery-v6.5.3",
+        "locality": "",
+        "polsek": "POLSEK SANANWETAN DEKATKAN DIRI",
+        "location_confidence": 0,
+        "location_evidence": [
+          "POLSEK SANANWETAN DEKATKAN DIRI"
+        ],
+        "location_status": "BELUM_TERPETAKAN",
+        "location_source": "title",
+        "issue_type": "UMUM",
+        "issue_subtype": "Belum Teridentifikasi",
+        "issue_evidence": [],
+        "handling_status": "BELUM_ADA_INFORMASI",
+        "handling_evidence": [],
+        "attention_score": 15,
+        "attention_label": "Rendah",
+        "attention_components": {
+          "severity": 2,
+          "polri_relation": 0,
+          "authority": 0,
+          "public_impact": 12,
+          "handling": 0,
+          "evidence": 1,
+          "context_risk": 0,
+          "routine_enforcement_cap": null
+        },
+        "attention_evidence": {
+          "severity": [],
+          "authority": [],
+          "public_impact": [
+            "dampak kepada masyarakat"
+          ],
+          "evidence": [
+            "satu sumber / informasi awal"
+          ],
+          "role": [],
+          "issue": [],
+          "handling": [],
+          "context": [],
+          "positive": []
+        },
+        "case_engine_version": "case-v6.5.3",
+        "case_processed_at": "2026-08-31T05:38:15.235412+00:00"
+      },
+      {
+        "id": "15f256d037794915b5c8f0319dfade23e471b6bb",
+        "title": "Satresnarkoba Polres Gresik Sita Ratusan Botol Arak Bali, Dua Orang Diamankan - memorandum.disway.id - Memorandum.co.id",
+        "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQX1FYNzAwZkU3U2JOb3RNTGZUSWcydlVqTFJ2SHZxZ1R1Y0d4bzJGU3k1TldWRUY3THdQSG5iSHVuZGJlbEpkY2xBcnVJczVaRWVuUWhzQjJJeXFMb3c5VTZVbVVGRmxCZlBoVmdkQmx0TUJFRUVjaUtHcWVrUjllekd5Ym15cnY4eVJZUllMX0JvMjRYWmdQTElraDFOMFFiZXBnRkpldUZ0TlZsUWhhb09jLTI5SnFnaXBWZmpsakpWSlJuMERGWdIBtwFBVV95cUxNbFBQb3VDX1pwVTE1bi1SQTNPYU96WU5YN0V3VW83V1BPMzRSazk0WkQxSktZUk8wbkc4SzBKZ1Y1NE9kZ09LckcyeVhpc092V1RIZFRqS2s2RkF2M1c1NXUzRWc2R2ViR1F3ZGlhbWlSRDVJSzF5WEs5anRTRDliQ0NKU0ppOFpYZ0hnTjBYTUZ1bzVmNWZVY29icmM5V3dpN0RkRkxlQm4yTXVxN1FUbUsxcnlLNW8?oc=5",
+        "source": "Memorandum.co.id",
+        "published_at": "2026-08-31T05:11:00+00:00",
+        "collected_at": "2026-08-31T05:35:34.184786+00:00",
+        "region": "LUAR JATIM",
+        "area_label": "LUAR JATIM",
+        "is_jatim": false,
+        "polres": null,
+        "category": "UNGKAP KASUS / PENINDAKAN",
+        "scope": "case",
+        "scope_label": "UNGKAP KASUS",
+        "priority": "low",
+        "summary": "Satresnarkoba Polres Gresik Sita Ratusan Botol Arak Bali, Dua Orang Diamankan - memorandum.disway.id Memorandum.co.id",
+        "processing_status": "processed",
+        "classifier_version": "news-v6",
+        "classified_at": "2026-08-31T05:35:34.184786+00:00",
+        "case_id": "CASE-000203",
+        "discovery_families": [],
+        "discovery_tags": [],
+        "discovery_hits": [],
+        "discovery_version": "discovery-v6.5.3",
+        "locality": "",
+        "polsek": null,
+        "location_confidence": 100,
+        "location_evidence": [
+          "bali"
+        ],
+        "location_status": "LUAR_JATIM",
+        "location_source": "title",
+        "issue_type": "UMUM",
+        "issue_subtype": "Belum Teridentifikasi",
+        "issue_evidence": [],
+        "handling_status": "BELUM_ADA_INFORMASI",
+        "handling_evidence": [],
+        "attention_score": 9,
+        "attention_label": "Rendah",
+        "attention_components": {
+          "severity": 2,
+          "polri_relation": 2,
+          "authority": 0,
+          "public_impact": 4,
+          "handling": 0,
+          "evidence": 1,
+          "context_risk": 0,
+          "routine_enforcement_cap": 35
+        },
+        "attention_evidence": {
+          "severity": [],
+          "authority": [],
+          "public_impact": [],
+          "evidence": [
+            "satu sumber / informasi awal"
+          ],
+          "role": [
+            "Polri sebagai pihak penindak"
+          ],
+          "issue": [],
+          "handling": [],
+          "context": [],
+          "positive": []
+        },
+        "case_engine_version": "case-v6.5.3",
+        "case_processed_at": "2026-08-31T05:39:45.684507+00:00"
+      },
+      {
+        "id": "fd076cfd8c396bfd558ac30cf52de91254e1ede2",
+        "title": "Revaldo Ditahan Usai Positif Narkoba, Polisi Belum Pastikan Rehabilitasi atau Proses Hukum - Kompas.com",
+        "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNcnNuRjRraTY2M2p1TzFWSHBPNkVzR0xWMHV4bGllUnExLVVpUWlvNGdZdUk4MjB6bTMtRUFVMWpSaXhQdmJFWDFnVUdBMVc0YXFRak5BLVhyd3QySUtMRkM5amVqbzBtOFhhYm5odjFWbTl4aUw4TG5pUVp0dTV3VGk3S2tTVVh2V3czTUNlRFItZGh0anVvSU54dm9Oal9qSmNoR2JSbXpSR0J6V2UtZTFGTG5RZXZ4ZmJuTXh2a3l6dEVBRHc?oc=5",
+        "source": "Kompas.com",
+        "published_at": "2026-08-31T05:02:00+00:00",
+        "collected_at": "2026-08-31T05:35:34.184786+00:00",
+        "region": "BELUM TERPETAKAN",
+        "area_label": "BELUM TERPETAKAN",
+        "is_jatim": null,
+        "polres": null,
+        "category": "NETRAL / LAINNYA",
+        "scope": "neutral",
+        "scope_label": "NETRAL",
+        "priority": "low",
+        "summary": "Revaldo Ditahan Usai Positif Narkoba, Polisi Belum Pastikan Rehabilitasi atau Proses Hukum Kompas.com",
+        "processing_status": "processed",
+        "classifier_version": "news-v6",
+        "classified_at": "2026-08-31T05:35:34.184786+00:00",
+        "case_id": null,
+        "discovery_families": [],
+        "discovery_tags": [],
+        "discovery_hits": [],
+        "discovery_version": "discovery-v6.5.3",
+        "locality": "",
+        "polsek": null,
+        "location_confidence": 0,
+        "location_evidence": [],
+        "location_status": "BELUM_TERPETAKAN",
+        "location_source": "title",
+        "issue_type": "NARKOBA",
+        "issue_subtype": "Narkoba / Narkotika",
+        "issue_evidence": [
+          "narkoba"
+        ],
+        "handling_status": "SUDAH_DITINDAK",
+        "handling_evidence": [
+          "ditahan"
+        ],
+        "attention_score": 18,
+        "attention_label": "Rendah",
+        "attention_components": {
+          "severity": 11,
+          "polri_relation": 0,
+          "authority": 0,
+          "public_impact": 4,
+          "handling": 2,
+          "evidence": 1,
+          "context_risk": 0,
+          "routine_enforcement_cap": null
+        },
+        "attention_evidence": {
+          "severity": [],
+          "authority": [],
+          "public_impact": [],
+          "evidence": [
+            "satu sumber / informasi awal"
+          ],
+          "role": [],
+          "issue": [
+            "narkoba"
+          ],
+          "handling": [
+            "ditahan"
+          ],
+          "context": [],
+          "positive": []
+        },
+        "case_engine_version": "case-v6.5.3",
+        "case_processed_at": "2026-08-31T05:38:15.314487+00:00"
+      },
+      {
+        "id": "24ee601d5a317b599a89d627195ac32d6438272d",
+        "title": "Gigit pelaku, pelajar SD di Surabaya lolos jadi korban pemerkosaan kakeknya - aliansinews.id",
+        "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQMW5QZ2VwU1VqT3R4X3pzUzZ4R284RHJZZVFaRnY0bG01REVOMWR4dGpmU3ZoeHdJOHFpQkczZndYa2x5eWJuZzdGZ19BNzh0VE1wcWZfT1dEeDUyVDZKSU8zb0M5U2hJRGxUQ1VlcWJsM3NyNUxZT0dtSm9sTk1zSnc4M2xwelY3b3RZc21POUFEZ3NUVlB4Mkg4XzFNQktQb2swLXphaFRpMEhyTU1kcTFCNld6bG8?oc=5",
+        "source": "aliansinews.id",
+        "published_at": "2026-08-31T04:51:00+00:00",
+        "collected_at": "2026-08-31T05:35:34.184786+00:00",
+        "region": "Jawa Timur",
+        "area_label": "Surabaya",
+        "is_jatim": true,
+        "polres": null,
+        "category": "NETRAL / LAINNYA",
+        "scope": "neutral",
+        "scope_label": "NETRAL",
+        "priority": "medium",
+        "summary": "Gigit pelaku, pelajar SD di Surabaya lolos jadi korban pemerkosaan kakeknya aliansinews.id",
+        "processing_status": "processed",
+        "classifier_version": "news-v6",
+        "classified_at": "2026-08-31T05:35:34.184786+00:00",
+        "case_id": null,
+        "discovery_families": [
+          "ethics_personal_misconduct"
+        ],
+        "discovery_tags": [
+          "ethics",
+          "sexual_misconduct",
+          "violence"
+        ],
+        "discovery_hits": [
+          "pemerkosaan"
+        ],
+        "discovery_version": "discovery-v6.5.3",
+        "locality": "Surabaya",
+        "polsek": null,
+        "location_confidence": 95,
+        "location_evidence": [
+          "Surabaya"
+        ],
+        "location_status": "JAWA_TIMUR",
+        "location_source": "title",
+        "issue_type": "KEJAHATAN_SEKSUAL",
+        "issue_subtype": "Kejahatan Seksual",
+        "issue_evidence": [
+          "pemerkosaan"
+        ],
+        "handling_status": "BELUM_ADA_INFORMASI",
+        "handling_evidence": [],
+        "attention_score": 40,
+        "attention_label": "Sedang",
+        "attention_components": {
+          "severity": 26,
+          "polri_relation": 0,
+          "authority": 0,
+          "public_impact": 10,
+          "handling": 0,
+          "evidence": 1,
+          "context_risk": 0,
+          "routine_enforcement_cap": null
+        },
+        "attention_evidence": {
+          "severity": [
+            "kejahatan seksual"
+          ],
+          "authority": [],
+          "public_impact": [
+            "dampak peristiwa"
+          ],
+          "evidence": [
+            "satu sumber / informasi awal"
+          ],
+          "role": [],
+          "issue": [
+            "pemerkosaan"
+          ],
+          "handling": [],
+          "context": [],
+          "positive": []
+        },
+        "case_engine_version": "case-v6.5.3",
+        "case_processed_at": "2026-08-31T05:38:15.390135+00:00"
+      },
+      {
+        "id": "01354a922af6dc985d9160d84df225249aab404c",
+        "title": "Brigjen Eko Hadi Jenderal Penangkap Polisi Narkoba Bakal Naik Jadi Bintang Dua - Kompas.com",
+        "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOX0R0RlVzZHIwLUpDckdGbm9aMDhkWExMYk9pRWJEY0JEOGg2RHZMNmxveWNwQy1aOXppdGVPUWZaMnU3NDdiWExkdUt4VmJDeTdxSUp4dExfWGtIN1M1NDl1MVhKRmtaVlBuU3p1NmI0N1VzdU9vejM4VTJSVG9mcFh6bDk0bWs3ZVR1MWx3VGphMlVEZnpXSlpOUFZyY0RmeFp2UldENW1TaGhfY1FTbU80Si1wa04zeVBOamlrd2ZUTEtUWkE?oc=5",
+        "source": "Kompas.com",
+        "published_at": "2026-08-31T04:50:00+00:00",
+        "collected_at": "2026-08-31T05:35:34.184786+00:00",
+        "region": "BELUM TERPETAKAN",
+        "area_label": "BELUM TERPETAKAN",
+        "is_jatim": null,
+        "polres": null,
+        "category": "NETRAL / LAINNYA",
+        "scope": "neutral",
+        "scope_label": "NETRAL",
+        "priority": "low",
+        "summary": "Brigjen Eko Hadi Jenderal Penangkap Polisi Narkoba Bakal Naik Jadi Bintang Dua Kompas.com",
+        "processing_status": "processed",
+        "classifier_version": "news-v6",
+        "classified_at": "2026-08-31T05:35:34.184786+00:00",
+        "case_id": null,
+        "discovery_families": [],
+        "discovery_tags": [],
+        "discovery_hits": [],
+        "discovery_version": "discovery-v6.5.3",
+        "locality": "",
+        "polsek": null,
+        "location_confidence": 0,
+        "location_evidence": [],
+        "location_status": "BELUM_TERPETAKAN",
+        "location_source": "title",
+        "issue_type": "NARKOBA",
+        "issue_subtype": "Narkoba / Narkotika",
+        "issue_evidence": [
+          "narkoba"
+        ],
+        "handling_status": "BELUM_ADA_INFORMASI",
+        "handling_evidence": [],
+        "attention_score": 16,
+        "attention_label": "Rendah",
+        "attention_components": {
+          "severity": 11,
+          "polri_relation": 0,
+          "authority": 0,
+          "public_impact": 4,
+          "handling": 0,
+          "evidence": 1,
+          "context_risk": 0,
+          "routine_enforcement_cap": null
+        },
+        "attention_evidence": {
+          "severity": [],
+          "authority": [],
+          "public_impact": [],
+          "evidence": [
+            "satu sumber / informasi awal"
+          ],
+          "role": [],
+          "issue": [
+            "narkoba"
+          ],
+          "handling": [],
+          "context": [],
+          "positive": []
+        },
+        "case_engine_version": "case-v6.5.3",
+        "case_processed_at": "2026-08-31T05:38:15.463314+00:00"
+      },
+      {
+        "id": "2879b5e1f0549dd77623cefb2582d05b3289128b",
+        "title": "Bukan Sekadar Tren, Polres Kediri Ajak Siswa SMAN 1 Pare Kenali AI - GempurNews.Com",
+        "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPckZQQ3RDSTJLeXpIbHl5UzZnX2ltQkFNV2pUeHF3cWxmSGdGeHpNV2l2bk8tQUFJOTZSVmpOWnFyMzRaRkltUm5jV3hDakhoOEVmdFpZZC1heTlrcnRab0htNlFNd2xUY2J3OXA5SW11MU5qS0ppRlpoNEE3ZDBSd3RxM2cwWGxPdDR6OEQ3SU0wUDhGUl9VSmxJY2JEcUFsTkE?oc=5",
+        "source": "GempurNews.Com",
+        "published_at": "2026-08-31T04:48:07+00:00",
+        "collected_at": "2026-08-31T05:35:34.184786+00:00",
+        "region": "Jawa Timur",
+        "area_label": "Kediri",
+        "is_jatim": true,
+        "polres": "POLRES KEDIRI",
+        "category": "NETRAL / LAINNYA",
+        "scope": "neutral",
+        "scope_label": "NETRAL",
+        "priority": "low",
+        "summary": "Bukan Sekadar Tren, Polres Kediri Ajak Siswa SMAN 1 Pare Kenali AI GempurNews.Com",
+        "processing_status": "processed",
+        "classifier_version": "news-v6",
+        "classified_at": "2026-08-31T05:35:34.184786+00:00",
+        "case_id": null,
+        "discovery_families": [],
+        "discovery_tags": [],
+        "discovery_hits": [],
+        "discovery_version": "discovery-v6.5.3",
+        "locality": "Kediri",
+        "polsek": null,
+        "location_confidence": 100,
+        "location_evidence": [
+          "polres kediri",
+          "Kediri"
+        ],
+        "location_status": "JAWA_TIMUR",
+        "location_source": "title",
+        "issue_type": "UMUM",
+        "issue_subtype": "Belum Teridentifikasi",
+        "issue_evidence": [],
+        "handling_status": "BELUM_ADA_INFORMASI",
+        "handling_evidence": [],
+        "attention_score": 7,
+        "attention_label": "Rendah",
+        "attention_components": {
+          "severity": 2,
+          "polri_relation": 0,
+          "authority": 0,
+          "public_impact": 4,
+          "handling": 0,
+          "evidence": 1,
+          "context_risk": 0,
+          "routine_enforcement_cap": null
+        },
+        "attention_evidence": {
+          "severity": [],
+          "authority": [],
+          "public_impact": [],
+          "evidence": [
+            "satu sumber / informasi awal"
+          ],
+          "role": [],
+          "issue": [],
+          "handling": [],
+          "context": [],
+          "positive": []
+        },
+        "case_engine_version": "case-v6.5.3",
+        "case_processed_at": "2026-08-31T05:38:15.526127+00:00"
+      },
+      {
+        "id": "1362a0d877aa6f4a62a4ede2bae68cb8bd016ea1",
+        "title": "Polisi Tangkap Koki MBG di Tuban Gegara Peras Kekasih Gelap - Lentera.co",
+        "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQWXlWV1lOZEU5OWF4X05KZTJlRnN3WGoyajBybTRlZ2pySm0zZUlDeHp3cGNnbEs2c0lkSWxtZ05ZdUtGV3BkTmNDd2VhS1doVlAzMERTcEJMSHBHRXJ0M0k5QXBhN2tiS0FISnFCVGprNmJ2ejVsNEIxX25uR2ZFTjVfQ3d4T1hnbUpTLUFvTVEweHpjdFlKV1Fpcw?oc=5",
+        "source": "Lentera.co",
+        "published_at": "2026-08-31T04:42:39+00:00",
+        "collected_at": "2026-08-31T05:35:34.184786+00:00",
+        "region": "Jawa Timur",
+        "area_label": "Tuban",
+        "is_jatim": true,
+        "polres": null,
+        "category": "OKNUM - INTEGRITAS/KEUANGAN",
+        "scope": "negative",
+        "scope_label": "NEGATIF / ATENSI",
+        "priority": "low",
+        "summary": "Polisi Tangkap Koki MBG di Tuban Gegara Peras Kekasih Gelap Lentera.co",
+        "processing_status": "processed",
+        "classifier_version": "news-v6",
+        "classified_at": "2026-08-31T05:35:34.184786+00:00",
+        "case_id": "CASE-000204",
+        "discovery_families": [
+          "financial_misconduct"
+        ],
+        "discovery_tags": [
+          "financial_misconduct",
+          "integrity"
+        ],
+        "discovery_hits": [
+          "peras"
+        ],
+        "discovery_version": "discovery-v6.5.3",
+        "locality": "Tuban",
+        "polsek": null,
+        "location_confidence": 95,
+        "location_evidence": [
+          "Tuban"
+        ],
+        "location_status": "JAWA_TIMUR",
+        "location_source": "title",
+        "issue_type": "UMUM",
+        "issue_subtype": "Belum Teridentifikasi",
+        "issue_evidence": [],
+        "handling_status": "BELUM_ADA_INFORMASI",
+        "handling_evidence": [],
+        "attention_score": 7,
+        "attention_label": "Rendah",
+        "attention_components": {
+          "severity": 2,
+          "polri_relation": 0,
+          "authority": 0,
+          "public_impact": 4,
+          "handling": 0,
+          "evidence": 1,
+          "context_risk": 0,
+          "routine_enforcement_cap": null
+        },
+        "attention_evidence": {
+          "severity": [],
+          "authority": [],
+          "public_impact": [],
+          "evidence": [
+            "satu sumber / informasi awal"
+          ],
+          "role": [],
+          "issue": [],
+          "handling": [],
+          "context": [],
+          "positive": []
+        },
+        "case_engine_version": "case-v6.5.3",
+        "case_processed_at": "2026-08-31T05:39:45.684513+00:00"
+      },
+      {
+        "id": "eed14514e0a5195bb3caed5a8894a668872cac3d",
+        "title": "Kasus Ayah di Sumenep Diduga Cabuli Anak Kandung, Polisi: Terjadi Sejak 2021 - Koran Madura",
+        "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOWExJcnBabDg0eG1zTE9MT2NsS20xV2JCUUVfMGN3OXlBVy00YTdMT3pNRnpfTGtJdVhDYTBsSFJqVE5IYmhsbmRVWmxhb1hIZ21OWFlURlJweDhNN3BOVDA0UXV4Tm5OVGVWZHVVNHRFV2lDVkVBajdHOG94a3JYeDJRanJzWThzR1FTR2hKYmlqUjZhRl9zTUNHZ25FZkdCck1QUThWTGVtSDQ?oc=5",
+        "source": "Koran Madura",
+        "published_at": "2026-08-31T04:29:01+00:00",
+        "collected_at": "2026-08-31T05:35:34.184786+00:00",
+        "region": "Jawa Timur",
+        "area_label": "Sumenep",
+        "is_jatim": true,
+        "polres": null,
+        "category": "NETRAL / LAINNYA",
+        "scope": "neutral",
+        "scope_label": "NETRAL",
+        "priority": "low",
+        "summary": "Kasus Ayah di Sumenep Diduga Cabuli Anak Kandung, Polisi: Terjadi Sejak 2021 Koran Madura",
+        "processing_status": "processed",
+        "classifier_version": "news-v6",
+        "classified_at": "2026-08-31T05:35:34.184786+00:00",
+        "case_id": null,
+        "discovery_families": [],
+        "discovery_tags": [],
+        "discovery_hits": [],
+        "discovery_version": "discovery-v6.5.3",
+        "locality": "Sumenep",
+        "polsek": null,
+        "location_confidence": 95,
+        "location_evidence": [
+          "Sumenep"
+        ],
+        "location_status": "JAWA_TIMUR",
+        "location_source": "title",
+        "issue_type": "UMUM",
+        "issue_subtype": "Belum Teridentifikasi",
+        "issue_evidence": [],
+        "handling_status": "BELUM_ADA_INFORMASI",
+        "handling_evidence": [],
+        "attention_score": 37,
+        "attention_label": "Rendah",
+        "attention_components": {
+          "severity": 2,
+          "polri_relation": 16,
+          "authority": 0,
+          "public_impact": 18,
+          "handling": 0,
+          "evidence": 1,
+          "context_risk": 0,
+          "routine_enforcement_cap": null
+        },
+        "attention_evidence": {
+          "severity": [],
+          "authority": [],
+          "public_impact": [
+            "kelompok/korban publik rentan"
+          ],
+          "evidence": [
+            "satu sumber / informasi awal"
+          ],
+          "role": [
+            "Polri/personel menjadi subjek permasalahan"
+          ],
+          "issue": [],
+          "handling": [],
+          "context": [],
+          "positive": []
+        },
+        "case_engine_version": "case-v6.5.3",
+        "case_processed_at": "2026-08-31T05:38:15.594485+00:00"
+      },
+      {
         "id": "b17e3b15f49fc0e0f605383054ba9256bfc5ad8f",
         "title": "Jukir Tewas Ditembak Polisi di Palu, Propam Dalami Dugaan Kelalaian dan Kesalahan Prosedur - Kompas.com",
         "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPWTdRNVlJYlRjZHJzMXdMYnJ4U2NlMVZ6RlZlSGxOMDlxNFlXaUlwdTdqSGlLYzBGREhGcFlxQU5BeFluTjVHVXdDZ3Vsc1ZyVlRUNXRYRFRuXzB4cTJ5NTJ1Q01xVW9sOVk2ZHVfVnBPNmk4WjVFRkJrTkt6Ump4bFE3WW9Vd0Nub3dqN3RNVDdCMzVNck9WTHZud0ZrNTdkMzZTMW9RU211aVl3Wk9uLVNwcEpZb1JlTk1ZeXlfX3B1dw?oc=5",
@@ -161,7 +932,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-31T04:30:12.382383+00:00"
+        "case_processed_at": "2026-08-31T05:38:15.677346+00:00"
       },
       {
         "id": "393aa3e32156d38715b11939cfd92c47068f71bc",
@@ -224,7 +995,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-31T04:30:12.445565+00:00"
+        "case_processed_at": "2026-08-31T05:38:15.740402+00:00"
       },
       {
         "id": "e5ad0bc6cb0491b3813b3b4cd86dad1e25b56098",
@@ -295,7 +1066,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-31T04:30:12.504099+00:00"
+        "case_processed_at": "2026-08-31T05:38:15.795341+00:00"
       },
       {
         "id": "437cd45716fdabe0c18cfe1cf72571297341cca0",
@@ -367,7 +1138,7 @@
           ]
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-31T04:30:12.585057+00:00"
+        "case_processed_at": "2026-08-31T05:38:15.874155+00:00"
       },
       {
         "id": "b073a90af1756b9a8d78f95a29fc53996f7bce89",
@@ -432,7 +1203,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-31T04:30:12.647801+00:00"
+        "case_processed_at": "2026-08-31T05:38:15.938528+00:00"
       },
       {
         "id": "f4f4e474d89c96b3cde02e64d54416255597229e",
@@ -497,7 +1268,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-31T04:30:12.710488+00:00"
+        "case_processed_at": "2026-08-31T05:38:16.002706+00:00"
       },
       {
         "id": "29747d4baed2ac70341ee3ae531cff356efa86c8",
@@ -577,7 +1348,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-31T04:31:41.158699+00:00"
+        "case_processed_at": "2026-08-31T05:39:45.684518+00:00"
       },
       {
         "id": "6369416476f9094172d411631affec18f9f7b1ed",
@@ -644,7 +1415,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-31T04:30:12.791906+00:00"
+        "case_processed_at": "2026-08-31T05:38:16.085463+00:00"
       },
       {
         "id": "680b35b594e8dfe41df9360f29cf7d3f5213e93b",
@@ -710,7 +1481,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-31T04:30:12.852383+00:00"
+        "case_processed_at": "2026-08-31T05:38:16.147388+00:00"
       },
       {
         "id": "7c68961b0d0db35ade80691e3281718f60a7c8b9",
@@ -776,7 +1547,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-31T04:30:12.910932+00:00"
+        "case_processed_at": "2026-08-31T05:38:16.207361+00:00"
       },
       {
         "id": "11c587528ee6383ca1b3955af4d26224220723cc",
@@ -842,7 +1613,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-31T04:30:12.965646+00:00"
+        "case_processed_at": "2026-08-31T05:38:16.263031+00:00"
       },
       {
         "id": "53badc7e66de28b67ffd9f6c51d31b46613697ce",
@@ -910,7 +1681,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-31T04:30:13.022300+00:00"
+        "case_processed_at": "2026-08-31T05:38:16.320425+00:00"
       },
       {
         "id": "faf67772e43744729d4afae9a15ab41dbcb2b869",
@@ -976,7 +1747,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-31T04:30:13.076787+00:00"
+        "case_processed_at": "2026-08-31T05:38:16.375949+00:00"
       },
       {
         "id": "4b7a5b048e9d54398ee1da404ba8828dd69bc685",
@@ -1056,7 +1827,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-31T04:31:41.158706+00:00"
+        "case_processed_at": "2026-08-31T05:39:45.684522+00:00"
       },
       {
         "id": "8593e2aa91c4b2ceecc173b85f66cdd60b3deee2",
@@ -1134,7 +1905,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-31T04:31:41.158708+00:00"
+        "case_processed_at": "2026-08-31T05:39:45.684525+00:00"
       },
       {
         "id": "54b853dd2fbcfe83931ed7263b17d5e39ebc7028",
@@ -1201,7 +1972,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-31T04:30:13.153186+00:00"
+        "case_processed_at": "2026-08-31T05:38:16.453278+00:00"
       },
       {
         "id": "6d577a8fd20ccec0dd0c46f9071132304f408e61",
@@ -1266,7 +2037,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-31T04:30:13.247330+00:00"
+        "case_processed_at": "2026-08-31T05:38:16.540766+00:00"
       },
       {
         "id": "30f7adc448b0680843831420d0cfbc7214e7b7ee",
@@ -1331,7 +2102,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-31T04:30:13.336113+00:00"
+        "case_processed_at": "2026-08-31T05:38:16.631302+00:00"
       },
       {
         "id": "602b73daf2b3f1841cdf2ccb2f5c244860779303",
@@ -1398,7 +2169,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-31T04:30:13.416686+00:00"
+        "case_processed_at": "2026-08-31T05:38:16.714073+00:00"
       },
       {
         "id": "f9812677a6f7ab243d2dbd70d350b8742f272ece",
@@ -1464,7 +2235,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-31T04:30:13.485466+00:00"
+        "case_processed_at": "2026-08-31T05:38:16.783877+00:00"
       },
       {
         "id": "45c1ed675dc11ba6918b4757b34df228e41b9d8d",
@@ -1541,7 +2312,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-31T04:31:41.158713+00:00"
+        "case_processed_at": "2026-08-31T05:39:45.684529+00:00"
       },
       {
         "id": "93b5d7cb051b44f9471b5a3a05a443989bc1e7cb",
@@ -1610,7 +2381,7 @@
           ]
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-31T04:30:13.565243+00:00"
+        "case_processed_at": "2026-08-31T05:38:16.865468+00:00"
       },
       {
         "id": "ac2e4d3eb40b68443b656a980f7b8064f088a54a",
@@ -1676,7 +2447,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-31T04:30:13.644506+00:00"
+        "case_processed_at": "2026-08-31T05:38:16.946331+00:00"
       },
       {
         "id": "9a162fc4d7683572c8c36e5d9990d717ca362e0d",
@@ -1747,7 +2518,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-31T04:30:13.718221+00:00"
+        "case_processed_at": "2026-08-31T05:38:17.022311+00:00"
       },
       {
         "id": "1ccdacc7a16e48d3423b02d0ea9a06407df70a69",
@@ -1814,7 +2585,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-31T04:30:13.773953+00:00"
+        "case_processed_at": "2026-08-31T05:38:17.079551+00:00"
       },
       {
         "id": "16f2d204c4cfc4e7266ffd54fa1339feeee42306",
@@ -1879,7 +2650,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-31T04:30:13.845415+00:00"
+        "case_processed_at": "2026-08-31T05:38:17.152855+00:00"
       },
       {
         "id": "7a5531aa428b42fcabedfa1255e1ab6960aa56c8",
@@ -1955,7 +2726,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-31T04:31:41.158718+00:00"
+        "case_processed_at": "2026-08-31T05:39:45.684533+00:00"
       },
       {
         "id": "6b77c8e4342c01c222f774cc55b2398cfd691cf4",
@@ -2040,7 +2811,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-31T04:31:41.158721+00:00"
+        "case_processed_at": "2026-08-31T05:39:45.684535+00:00"
       },
       {
         "id": "a0092b6f9db3e058f9f988ff13dfb3e332d231f0",
@@ -2117,7 +2888,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-31T04:31:41.158723+00:00"
+        "case_processed_at": "2026-08-31T05:39:45.684537+00:00"
       },
       {
         "id": "8bff7193e219068bf8b47545412d1837e3897089",
@@ -2194,7 +2965,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-31T04:31:41.158726+00:00"
+        "case_processed_at": "2026-08-31T05:39:45.684539+00:00"
       },
       {
         "id": "d0529b443aaacb29de700befca43ad0c7f3d8777",
@@ -2259,7 +3030,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-31T04:30:13.924865+00:00"
+        "case_processed_at": "2026-08-31T05:38:17.234146+00:00"
       },
       {
         "id": "eb129ca3ff3ad1974da5bea14459849e9e000f25",
@@ -2328,7 +3099,7 @@
           ]
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-31T04:30:14.034404+00:00"
+        "case_processed_at": "2026-08-31T05:38:17.345505+00:00"
       },
       {
         "id": "619e098b5f973438cb7ee7c3ecefcc824ca3d04c",
@@ -2397,7 +3168,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-31T04:30:14.107056+00:00"
+        "case_processed_at": "2026-08-31T05:38:17.420511+00:00"
       },
       {
         "id": "0447206c6f28c8d7622207c5f122a5dc58c8ef2e",
@@ -2465,7 +3236,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-31T04:30:14.180991+00:00"
+        "case_processed_at": "2026-08-31T05:38:17.496006+00:00"
       },
       {
         "id": "5a25788ecaf7476135ded1e01c841767e2942996",
@@ -2538,7 +3309,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-31T04:30:14.252406+00:00"
+        "case_processed_at": "2026-08-31T05:38:17.569663+00:00"
       },
       {
         "id": "ab07e34db625f7cc375a5915e09d0a42a7c95a30",
@@ -2607,7 +3378,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-31T04:30:14.338722+00:00"
+        "case_processed_at": "2026-08-31T05:38:17.658495+00:00"
       },
       {
         "id": "940996c13dbb9a158746c27225736afbc1d72da8",
@@ -2678,7 +3449,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-31T04:30:14.414539+00:00"
+        "case_processed_at": "2026-08-31T05:38:17.735506+00:00"
       },
       {
         "id": "d32d84791ebd09ecd584f7e1a981acfcad5f8cf4",
@@ -2746,7 +3517,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-31T04:30:14.475353+00:00"
+        "case_processed_at": "2026-08-31T05:38:17.798079+00:00"
       },
       {
         "id": "4e75eb37536e4887653b670f1aa87355a08e930a",
@@ -2819,7 +3590,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-31T04:30:14.566802+00:00"
+        "case_processed_at": "2026-08-31T05:38:17.891845+00:00"
       },
       {
         "id": "87517585e20d6c70f9a5e6238b0ba1bc0a156067",
@@ -2887,7 +3658,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-31T04:30:14.640563+00:00"
+        "case_processed_at": "2026-08-31T05:38:17.967599+00:00"
       },
       {
         "id": "405f1658a063b917e094dc0331d49fafbf5e0204",
@@ -2953,7 +3724,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-31T04:30:14.711688+00:00"
+        "case_processed_at": "2026-08-31T05:38:18.039811+00:00"
       },
       {
         "id": "38a3a69905f13f806c7fed8a0f1e9aa1e63ca589",
@@ -3024,7 +3795,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-31T04:30:14.772464+00:00"
+        "case_processed_at": "2026-08-31T05:38:18.102278+00:00"
       },
       {
         "id": "ea9b72c3b0f6d4a3924a763d5bcc6356b6dcd292",
@@ -3104,7 +3875,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-31T04:31:41.158733+00:00"
+        "case_processed_at": "2026-08-31T05:39:45.684545+00:00"
       },
       {
         "id": "e4dbb7f3d875f07e3127d4d64b5f78b0a87941bc",
@@ -3182,7 +3953,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-31T04:31:41.158735+00:00"
+        "case_processed_at": "2026-08-31T05:39:45.684548+00:00"
       },
       {
         "id": "877f490b0a8294ded947dc809e53ea290c21ef58",
@@ -3247,7 +4018,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-31T04:30:14.858366+00:00"
+        "case_processed_at": "2026-08-31T05:38:18.189794+00:00"
       },
       {
         "id": "2810852e20198493a100461e2836680d388b611a",
@@ -3330,7 +4101,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-31T04:31:41.158737+00:00"
+        "case_processed_at": "2026-08-31T05:39:45.684550+00:00"
       },
       {
         "id": "19894c03d044267b970b744a13207b07aa4c19fd",
@@ -3395,7 +4166,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-31T04:30:14.912227+00:00"
+        "case_processed_at": "2026-08-31T05:38:18.245214+00:00"
       },
       {
         "id": "e27bbceadb513c6124cee64b5a126b28296d1cf1",
@@ -3460,7 +4231,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-31T04:30:14.979819+00:00"
+        "case_processed_at": "2026-08-31T05:38:18.314821+00:00"
       },
       {
         "id": "3499dc65f4035bdd258f8decb5601fd84445c7f8",
@@ -3525,7 +4296,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-31T04:30:15.029583+00:00"
+        "case_processed_at": "2026-08-31T05:38:18.366289+00:00"
       },
       {
         "id": "91567e173456acf39e19426c3e87c8c517abbbe4",
@@ -3591,7 +4362,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-31T04:30:15.098851+00:00"
+        "case_processed_at": "2026-08-31T05:38:18.437030+00:00"
       },
       {
         "id": "08a4aa16e7e6996801c630eb44fa3832cbf2ff5f",
@@ -3660,7 +4431,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-31T04:30:15.157018+00:00"
+        "case_processed_at": "2026-08-31T05:38:18.497688+00:00"
       },
       {
         "id": "9e1d19cca08d3a6df56376b4f052564f07477820",
@@ -3723,7 +4494,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-31T04:30:15.231990+00:00"
+        "case_processed_at": "2026-08-31T05:38:18.575202+00:00"
       },
       {
         "id": "9bb2c56c99c49c9a071a3e3c13fedb2c67314c6f",
@@ -3800,7 +4571,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-31T04:30:15.298936+00:00"
+        "case_processed_at": "2026-08-31T05:38:18.645404+00:00"
       },
       {
         "id": "d22f352a03fcfb020d93bb6f88df57dead59be83",
@@ -3880,7 +4651,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-31T04:31:41.158743+00:00"
+        "case_processed_at": "2026-08-31T05:39:45.684555+00:00"
       },
       {
         "id": "e867bda30bd1b79f48decd17dfc4c07fb6b6bee7",
@@ -3946,7 +4717,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-31T04:30:15.362322+00:00"
+        "case_processed_at": "2026-08-31T05:38:18.710862+00:00"
       },
       {
         "id": "17a808e47ba2d1c4f71c68b9eed0c757722ea714",
@@ -4012,7 +4783,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-31T04:30:15.429969+00:00"
+        "case_processed_at": "2026-08-31T05:38:18.780772+00:00"
       },
       {
         "id": "fae166f6850f952782ebe053d47a44a45e19ec83",
@@ -4078,7 +4849,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-31T04:30:15.478540+00:00"
+        "case_processed_at": "2026-08-31T05:38:18.831890+00:00"
       },
       {
         "id": "532379fd5a3ffecd3755c62694e5797d203e4062",
@@ -4141,7 +4912,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-31T04:30:15.540203+00:00"
+        "case_processed_at": "2026-08-31T05:38:18.897012+00:00"
       },
       {
         "id": "2bbb7632fcee05d555e17c5144659f5628af9517",
@@ -4204,7 +4975,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-31T04:30:15.610027+00:00"
+        "case_processed_at": "2026-08-31T05:38:18.968679+00:00"
       },
       {
         "id": "6488122494924628b7730c769ed351502accc7f6",
@@ -4288,7 +5059,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-31T04:31:41.158748+00:00"
+        "case_processed_at": "2026-08-31T05:39:45.684559+00:00"
       },
       {
         "id": "86e6b9956a8affdecae25646c9913fe10c9c415f",
@@ -4355,7 +5126,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-31T04:30:15.670963+00:00"
+        "case_processed_at": "2026-08-31T05:38:19.031664+00:00"
       },
       {
         "id": "6dc694a02f94e8848b112f38cca70644278955ba",
@@ -4420,7 +5191,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-31T04:30:15.740095+00:00"
+        "case_processed_at": "2026-08-31T05:38:19.102314+00:00"
       },
       {
         "id": "a3fa52c67bdb82953cfbd4c4f2c365bcdbf99263",
@@ -4486,7 +5257,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-31T04:30:15.830122+00:00"
+        "case_processed_at": "2026-08-31T05:38:19.193458+00:00"
       },
       {
         "id": "7e186ca741a433c4a6cffbc7d66996055db388ae",
@@ -4557,7 +5328,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-31T04:30:15.902057+00:00"
+        "case_processed_at": "2026-08-31T05:38:19.265357+00:00"
       },
       {
         "id": "f7e3bfb7b7eb2b3f0195aa99be7d072b4aa1eb19",
@@ -4626,7 +5397,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-31T04:30:15.967688+00:00"
+        "case_processed_at": "2026-08-31T05:38:19.332900+00:00"
       },
       {
         "id": "b25078d938a8e0689b3cd06b528ae51c3edb3b6e",
@@ -4691,7 +5462,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-31T04:30:16.032173+00:00"
+        "case_processed_at": "2026-08-31T05:38:19.400160+00:00"
       },
       {
         "id": "666343ac9e300fb3b86ac937f3d40624943a079f",
@@ -4761,7 +5532,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-31T04:30:16.088796+00:00"
+        "case_processed_at": "2026-08-31T05:38:19.458543+00:00"
       },
       {
         "id": "28783407f2c216a20aa63955a9e353db1560e7ca",
@@ -4826,7 +5597,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-31T04:30:16.173794+00:00"
+        "case_processed_at": "2026-08-31T05:38:19.545385+00:00"
       },
       {
         "id": "bdab0a3bd33b3b1cdf2b6732d311e7d630dbd4fc",
@@ -4894,7 +5665,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-31T04:31:41.158753+00:00"
+        "case_processed_at": "2026-08-31T05:39:45.684563+00:00"
       },
       {
         "id": "d44abf0f47124fcc6afc0a83e24bbae78788d7b4",
@@ -4959,7 +5730,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-31T04:30:16.257777+00:00"
+        "case_processed_at": "2026-08-31T05:38:19.630799+00:00"
       },
       {
         "id": "2a6dba31b6aa2cc0d059f292438a8ac73be4072b",
@@ -5030,7 +5801,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-31T04:30:16.334182+00:00"
+        "case_processed_at": "2026-08-31T05:38:19.709086+00:00"
       },
       {
         "id": "d2372abed6518a159835202389ef01edbd7105a3",
@@ -5096,7 +5867,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-31T04:30:16.400260+00:00"
+        "case_processed_at": "2026-08-31T05:38:19.776180+00:00"
       },
       {
         "id": "a8f46c88840dbba79a34a6f2151f05f588861901",
@@ -5162,7 +5933,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-31T04:30:16.465191+00:00"
+        "case_processed_at": "2026-08-31T05:38:19.841737+00:00"
       },
       {
         "id": "d7e2e0a3e77814ff05e1ba147fd56f10ff500765",
@@ -5228,11 +5999,365 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-31T04:30:16.529709+00:00"
+        "case_processed_at": "2026-08-31T05:38:19.907463+00:00"
       }
     ],
     "jatim_items": [
       {
+        "id": "a875dd494bbe3da6512471452753ac246fb4ecd9",
+        "title": "Tingkatkan Keamanan dan Tertib Lalu Lintas, Polsek Balerejo Gelar Patroli Strong Point di Jalan Raya Madiun-Surabaya - Tribratanews Polres Madiun",
+        "url": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxPTS1uWHlqT1lld0thcVhfRFhVQnpBdjc0YklSQ3doUHBYUFdLVVRkNkJ1ZmtzV254Rk51ZkQ2SV9BNjZYU2MtUG5BaUZicHVZaXlIZEJHMGdPdEZDbWI2SXQ4U0NLS3p5aWxYd3F4Z2dscWFQcFZPMXVQOGZ3d24xckRwN3BpaS1fdnQwdUh5azRHSGl1a3FJbmNQcWFmSG5HUjB0Z1F0NGJ0dzRvOWJqUG9rai1kZWotOXFDODRCOXJ4WEh4cjQyZG9KemJfR2VTbjVpaTljTmFBbk5Fd1NET21uc2liUHRZOHN5blJDWkxTSlE?oc=5",
+        "source": "Tribratanews Polres Madiun",
+        "published_at": "2026-08-31T05:21:00+00:00",
+        "collected_at": "2026-08-31T05:35:34.184786+00:00",
+        "region": "Jawa Timur",
+        "area_label": "Surabaya",
+        "is_jatim": true,
+        "polres": null,
+        "category": "PRESTASI / KEGIATAN POSITIF",
+        "scope": "positive",
+        "scope_label": "POSITIF / KEGIATAN",
+        "priority": "low",
+        "summary": "Tingkatkan Keamanan dan Tertib Lalu Lintas, Polsek Balerejo Gelar Patroli Strong Point di Jalan Raya Madiun-Surabaya Tribratanews Polres Madiun",
+        "processing_status": "processed",
+        "classifier_version": "news-v6",
+        "classified_at": "2026-08-31T05:35:34.184786+00:00",
+        "case_id": null,
+        "discovery_families": [],
+        "discovery_tags": [],
+        "discovery_hits": [],
+        "discovery_version": "discovery-v6.5.3",
+        "locality": "Surabaya",
+        "polsek": "POLSEK BALEREJO GELAR PATROLI",
+        "location_confidence": 95,
+        "location_evidence": [
+          "POLSEK BALEREJO GELAR PATROLI",
+          "Surabaya"
+        ],
+        "location_status": "JAWA_TIMUR",
+        "location_source": "title",
+        "issue_type": "UMUM",
+        "issue_subtype": "Belum Teridentifikasi",
+        "issue_evidence": [],
+        "handling_status": "BELUM_ADA_INFORMASI",
+        "handling_evidence": [],
+        "attention_score": 7,
+        "attention_label": "Rendah",
+        "attention_components": {
+          "severity": 2,
+          "polri_relation": 0,
+          "authority": 0,
+          "public_impact": 4,
+          "handling": 0,
+          "evidence": 1,
+          "context_risk": 0,
+          "routine_enforcement_cap": null
+        },
+        "attention_evidence": {
+          "severity": [],
+          "authority": [],
+          "public_impact": [],
+          "evidence": [
+            "satu sumber / informasi awal"
+          ],
+          "role": [],
+          "issue": [],
+          "handling": [],
+          "context": [],
+          "positive": []
+        },
+        "case_engine_version": "case-v6.5.3",
+        "case_processed_at": "2026-08-31T05:38:15.142156+00:00"
+      },
+      {
+        "id": "24ee601d5a317b599a89d627195ac32d6438272d",
+        "title": "Gigit pelaku, pelajar SD di Surabaya lolos jadi korban pemerkosaan kakeknya - aliansinews.id",
+        "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQMW5QZ2VwU1VqT3R4X3pzUzZ4R284RHJZZVFaRnY0bG01REVOMWR4dGpmU3ZoeHdJOHFpQkczZndYa2x5eWJuZzdGZ19BNzh0VE1wcWZfT1dEeDUyVDZKSU8zb0M5U2hJRGxUQ1VlcWJsM3NyNUxZT0dtSm9sTk1zSnc4M2xwelY3b3RZc21POUFEZ3NUVlB4Mkg4XzFNQktQb2swLXphaFRpMEhyTU1kcTFCNld6bG8?oc=5",
+        "source": "aliansinews.id",
+        "published_at": "2026-08-31T04:51:00+00:00",
+        "collected_at": "2026-08-31T05:35:34.184786+00:00",
+        "region": "Jawa Timur",
+        "area_label": "Surabaya",
+        "is_jatim": true,
+        "polres": null,
+        "category": "NETRAL / LAINNYA",
+        "scope": "neutral",
+        "scope_label": "NETRAL",
+        "priority": "medium",
+        "summary": "Gigit pelaku, pelajar SD di Surabaya lolos jadi korban pemerkosaan kakeknya aliansinews.id",
+        "processing_status": "processed",
+        "classifier_version": "news-v6",
+        "classified_at": "2026-08-31T05:35:34.184786+00:00",
+        "case_id": null,
+        "discovery_families": [
+          "ethics_personal_misconduct"
+        ],
+        "discovery_tags": [
+          "ethics",
+          "sexual_misconduct",
+          "violence"
+        ],
+        "discovery_hits": [
+          "pemerkosaan"
+        ],
+        "discovery_version": "discovery-v6.5.3",
+        "locality": "Surabaya",
+        "polsek": null,
+        "location_confidence": 95,
+        "location_evidence": [
+          "Surabaya"
+        ],
+        "location_status": "JAWA_TIMUR",
+        "location_source": "title",
+        "issue_type": "KEJAHATAN_SEKSUAL",
+        "issue_subtype": "Kejahatan Seksual",
+        "issue_evidence": [
+          "pemerkosaan"
+        ],
+        "handling_status": "BELUM_ADA_INFORMASI",
+        "handling_evidence": [],
+        "attention_score": 40,
+        "attention_label": "Sedang",
+        "attention_components": {
+          "severity": 26,
+          "polri_relation": 0,
+          "authority": 0,
+          "public_impact": 10,
+          "handling": 0,
+          "evidence": 1,
+          "context_risk": 0,
+          "routine_enforcement_cap": null
+        },
+        "attention_evidence": {
+          "severity": [
+            "kejahatan seksual"
+          ],
+          "authority": [],
+          "public_impact": [
+            "dampak peristiwa"
+          ],
+          "evidence": [
+            "satu sumber / informasi awal"
+          ],
+          "role": [],
+          "issue": [
+            "pemerkosaan"
+          ],
+          "handling": [],
+          "context": [],
+          "positive": []
+        },
+        "case_engine_version": "case-v6.5.3",
+        "case_processed_at": "2026-08-31T05:38:15.390135+00:00"
+      },
+      {
+        "id": "2879b5e1f0549dd77623cefb2582d05b3289128b",
+        "title": "Bukan Sekadar Tren, Polres Kediri Ajak Siswa SMAN 1 Pare Kenali AI - GempurNews.Com",
+        "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPckZQQ3RDSTJLeXpIbHl5UzZnX2ltQkFNV2pUeHF3cWxmSGdGeHpNV2l2bk8tQUFJOTZSVmpOWnFyMzRaRkltUm5jV3hDakhoOEVmdFpZZC1heTlrcnRab0htNlFNd2xUY2J3OXA5SW11MU5qS0ppRlpoNEE3ZDBSd3RxM2cwWGxPdDR6OEQ3SU0wUDhGUl9VSmxJY2JEcUFsTkE?oc=5",
+        "source": "GempurNews.Com",
+        "published_at": "2026-08-31T04:48:07+00:00",
+        "collected_at": "2026-08-31T05:35:34.184786+00:00",
+        "region": "Jawa Timur",
+        "area_label": "Kediri",
+        "is_jatim": true,
+        "polres": "POLRES KEDIRI",
+        "category": "NETRAL / LAINNYA",
+        "scope": "neutral",
+        "scope_label": "NETRAL",
+        "priority": "low",
+        "summary": "Bukan Sekadar Tren, Polres Kediri Ajak Siswa SMAN 1 Pare Kenali AI GempurNews.Com",
+        "processing_status": "processed",
+        "classifier_version": "news-v6",
+        "classified_at": "2026-08-31T05:35:34.184786+00:00",
+        "case_id": null,
+        "discovery_families": [],
+        "discovery_tags": [],
+        "discovery_hits": [],
+        "discovery_version": "discovery-v6.5.3",
+        "locality": "Kediri",
+        "polsek": null,
+        "location_confidence": 100,
+        "location_evidence": [
+          "polres kediri",
+          "Kediri"
+        ],
+        "location_status": "JAWA_TIMUR",
+        "location_source": "title",
+        "issue_type": "UMUM",
+        "issue_subtype": "Belum Teridentifikasi",
+        "issue_evidence": [],
+        "handling_status": "BELUM_ADA_INFORMASI",
+        "handling_evidence": [],
+        "attention_score": 7,
+        "attention_label": "Rendah",
+        "attention_components": {
+          "severity": 2,
+          "polri_relation": 0,
+          "authority": 0,
+          "public_impact": 4,
+          "handling": 0,
+          "evidence": 1,
+          "context_risk": 0,
+          "routine_enforcement_cap": null
+        },
+        "attention_evidence": {
+          "severity": [],
+          "authority": [],
+          "public_impact": [],
+          "evidence": [
+            "satu sumber / informasi awal"
+          ],
+          "role": [],
+          "issue": [],
+          "handling": [],
+          "context": [],
+          "positive": []
+        },
+        "case_engine_version": "case-v6.5.3",
+        "case_processed_at": "2026-08-31T05:38:15.526127+00:00"
+      },
+      {
+        "id": "1362a0d877aa6f4a62a4ede2bae68cb8bd016ea1",
+        "title": "Polisi Tangkap Koki MBG di Tuban Gegara Peras Kekasih Gelap - Lentera.co",
+        "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQWXlWV1lOZEU5OWF4X05KZTJlRnN3WGoyajBybTRlZ2pySm0zZUlDeHp3cGNnbEs2c0lkSWxtZ05ZdUtGV3BkTmNDd2VhS1doVlAzMERTcEJMSHBHRXJ0M0k5QXBhN2tiS0FISnFCVGprNmJ2ejVsNEIxX25uR2ZFTjVfQ3d4T1hnbUpTLUFvTVEweHpjdFlKV1Fpcw?oc=5",
+        "source": "Lentera.co",
+        "published_at": "2026-08-31T04:42:39+00:00",
+        "collected_at": "2026-08-31T05:35:34.184786+00:00",
+        "region": "Jawa Timur",
+        "area_label": "Tuban",
+        "is_jatim": true,
+        "polres": null,
+        "category": "OKNUM - INTEGRITAS/KEUANGAN",
+        "scope": "negative",
+        "scope_label": "NEGATIF / ATENSI",
+        "priority": "low",
+        "summary": "Polisi Tangkap Koki MBG di Tuban Gegara Peras Kekasih Gelap Lentera.co",
+        "processing_status": "processed",
+        "classifier_version": "news-v6",
+        "classified_at": "2026-08-31T05:35:34.184786+00:00",
+        "case_id": "CASE-000204",
+        "discovery_families": [
+          "financial_misconduct"
+        ],
+        "discovery_tags": [
+          "financial_misconduct",
+          "integrity"
+        ],
+        "discovery_hits": [
+          "peras"
+        ],
+        "discovery_version": "discovery-v6.5.3",
+        "locality": "Tuban",
+        "polsek": null,
+        "location_confidence": 95,
+        "location_evidence": [
+          "Tuban"
+        ],
+        "location_status": "JAWA_TIMUR",
+        "location_source": "title",
+        "issue_type": "UMUM",
+        "issue_subtype": "Belum Teridentifikasi",
+        "issue_evidence": [],
+        "handling_status": "BELUM_ADA_INFORMASI",
+        "handling_evidence": [],
+        "attention_score": 7,
+        "attention_label": "Rendah",
+        "attention_components": {
+          "severity": 2,
+          "polri_relation": 0,
+          "authority": 0,
+          "public_impact": 4,
+          "handling": 0,
+          "evidence": 1,
+          "context_risk": 0,
+          "routine_enforcement_cap": null
+        },
+        "attention_evidence": {
+          "severity": [],
+          "authority": [],
+          "public_impact": [],
+          "evidence": [
+            "satu sumber / informasi awal"
+          ],
+          "role": [],
+          "issue": [],
+          "handling": [],
+          "context": [],
+          "positive": []
+        },
+        "case_engine_version": "case-v6.5.3",
+        "case_processed_at": "2026-08-31T05:39:45.684513+00:00"
+      },
+      {
+        "id": "eed14514e0a5195bb3caed5a8894a668872cac3d",
+        "title": "Kasus Ayah di Sumenep Diduga Cabuli Anak Kandung, Polisi: Terjadi Sejak 2021 - Koran Madura",
+        "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOWExJcnBabDg0eG1zTE9MT2NsS20xV2JCUUVfMGN3OXlBVy00YTdMT3pNRnpfTGtJdVhDYTBsSFJqVE5IYmhsbmRVWmxhb1hIZ21OWFlURlJweDhNN3BOVDA0UXV4Tm5OVGVWZHVVNHRFV2lDVkVBajdHOG94a3JYeDJRanJzWThzR1FTR2hKYmlqUjZhRl9zTUNHZ25FZkdCck1QUThWTGVtSDQ?oc=5",
+        "source": "Koran Madura",
+        "published_at": "2026-08-31T04:29:01+00:00",
+        "collected_at": "2026-08-31T05:35:34.184786+00:00",
+        "region": "Jawa Timur",
+        "area_label": "Sumenep",
+        "is_jatim": true,
+        "polres": null,
+        "category": "NETRAL / LAINNYA",
+        "scope": "neutral",
+        "scope_label": "NETRAL",
+        "priority": "low",
+        "summary": "Kasus Ayah di Sumenep Diduga Cabuli Anak Kandung, Polisi: Terjadi Sejak 2021 Koran Madura",
+        "processing_status": "processed",
+        "classifier_version": "news-v6",
+        "classified_at": "2026-08-31T05:35:34.184786+00:00",
+        "case_id": null,
+        "discovery_families": [],
+        "discovery_tags": [],
+        "discovery_hits": [],
+        "discovery_version": "discovery-v6.5.3",
+        "locality": "Sumenep",
+        "polsek": null,
+        "location_confidence": 95,
+        "location_evidence": [
+          "Sumenep"
+        ],
+        "location_status": "JAWA_TIMUR",
+        "location_source": "title",
+        "issue_type": "UMUM",
+        "issue_subtype": "Belum Teridentifikasi",
+        "issue_evidence": [],
+        "handling_status": "BELUM_ADA_INFORMASI",
+        "handling_evidence": [],
+        "attention_score": 37,
+        "attention_label": "Rendah",
+        "attention_components": {
+          "severity": 2,
+          "polri_relation": 16,
+          "authority": 0,
+          "public_impact": 18,
+          "handling": 0,
+          "evidence": 1,
+          "context_risk": 0,
+          "routine_enforcement_cap": null
+        },
+        "attention_evidence": {
+          "severity": [],
+          "authority": [],
+          "public_impact": [
+            "kelompok/korban publik rentan"
+          ],
+          "evidence": [
+            "satu sumber / informasi awal"
+          ],
+          "role": [
+            "Polri/personel menjadi subjek permasalahan"
+          ],
+          "issue": [],
+          "handling": [],
+          "context": [],
+          "positive": []
+        },
+        "case_engine_version": "case-v6.5.3",
+        "case_processed_at": "2026-08-31T05:38:15.594485+00:00"
+      },
+      {
         "id": "437cd45716fdabe0c18cfe1cf72571297341cca0",
         "title": "Baru Pimpin Polres Kediri Rotasi Tigas Kapolsek, AKBP Wahyudin Latif Tekankan Penguatan Pelayanan ke Masyarakat - Kediri Tangguh",
         "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPN0ZtaklnN2syeHRESlFWRG9mWE1wYjBGTTBRSVVnVWxieVdISGV4MGtacEtQT0l3UmhCVTBJVlBWYm5aYWdNdVdlT3NxNlFaYjNwSXBwcTA5b095X3NWY0VBU0thYWFack1ocGVwSzk1YTFpVzJiM0E1VXBTTnd2dzdXaTZnRHJyb2JmYVlad3c5MDJqeXZIZF9xeFdiR24tOGNSU2J2REdhdEdCQ0YzcUpINlBfbVpnZzB1SWxyUHJXY0x6bnV6djVIMXB6TGNIY2c?oc=5",
@@ -5302,7 +6427,7 @@
           ]
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-31T04:30:12.585057+00:00"
+        "case_processed_at": "2026-08-31T05:38:15.874155+00:00"
       },
       {
         "id": "29747d4baed2ac70341ee3ae531cff356efa86c8",
@@ -5382,7 +6507,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-31T04:31:41.158699+00:00"
+        "case_processed_at": "2026-08-31T05:39:45.684518+00:00"
       },
       {
         "id": "680b35b594e8dfe41df9360f29cf7d3f5213e93b",
@@ -5448,7 +6573,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-31T04:30:12.852383+00:00"
+        "case_processed_at": "2026-08-31T05:38:16.147388+00:00"
       },
       {
         "id": "7c68961b0d0db35ade80691e3281718f60a7c8b9",
@@ -5514,7 +6639,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-31T04:30:12.910932+00:00"
+        "case_processed_at": "2026-08-31T05:38:16.207361+00:00"
       },
       {
         "id": "11c587528ee6383ca1b3955af4d26224220723cc",
@@ -5580,7 +6705,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-31T04:30:12.965646+00:00"
+        "case_processed_at": "2026-08-31T05:38:16.263031+00:00"
       },
       {
         "id": "53badc7e66de28b67ffd9f6c51d31b46613697ce",
@@ -5648,7 +6773,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-31T04:30:13.022300+00:00"
+        "case_processed_at": "2026-08-31T05:38:16.320425+00:00"
       },
       {
         "id": "faf67772e43744729d4afae9a15ab41dbcb2b869",
@@ -5714,7 +6839,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-31T04:30:13.076787+00:00"
+        "case_processed_at": "2026-08-31T05:38:16.375949+00:00"
       },
       {
         "id": "4b7a5b048e9d54398ee1da404ba8828dd69bc685",
@@ -5794,7 +6919,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-31T04:31:41.158706+00:00"
+        "case_processed_at": "2026-08-31T05:39:45.684522+00:00"
       },
       {
         "id": "8593e2aa91c4b2ceecc173b85f66cdd60b3deee2",
@@ -5872,7 +6997,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-31T04:31:41.158708+00:00"
+        "case_processed_at": "2026-08-31T05:39:45.684525+00:00"
       },
       {
         "id": "54b853dd2fbcfe83931ed7263b17d5e39ebc7028",
@@ -5939,7 +7064,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-31T04:30:13.153186+00:00"
+        "case_processed_at": "2026-08-31T05:38:16.453278+00:00"
       },
       {
         "id": "f9812677a6f7ab243d2dbd70d350b8742f272ece",
@@ -6005,7 +7130,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-31T04:30:13.485466+00:00"
+        "case_processed_at": "2026-08-31T05:38:16.783877+00:00"
       },
       {
         "id": "45c1ed675dc11ba6918b4757b34df228e41b9d8d",
@@ -6082,7 +7207,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-31T04:31:41.158713+00:00"
+        "case_processed_at": "2026-08-31T05:39:45.684529+00:00"
       },
       {
         "id": "ac2e4d3eb40b68443b656a980f7b8064f088a54a",
@@ -6148,7 +7273,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-31T04:30:13.644506+00:00"
+        "case_processed_at": "2026-08-31T05:38:16.946331+00:00"
       },
       {
         "id": "7a5531aa428b42fcabedfa1255e1ab6960aa56c8",
@@ -6224,7 +7349,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-31T04:31:41.158718+00:00"
+        "case_processed_at": "2026-08-31T05:39:45.684533+00:00"
       },
       {
         "id": "6b77c8e4342c01c222f774cc55b2398cfd691cf4",
@@ -6309,7 +7434,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-31T04:31:41.158721+00:00"
+        "case_processed_at": "2026-08-31T05:39:45.684535+00:00"
       },
       {
         "id": "a0092b6f9db3e058f9f988ff13dfb3e332d231f0",
@@ -6386,7 +7511,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-31T04:31:41.158723+00:00"
+        "case_processed_at": "2026-08-31T05:39:45.684537+00:00"
       },
       {
         "id": "8bff7193e219068bf8b47545412d1837e3897089",
@@ -6463,7 +7588,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-31T04:31:41.158726+00:00"
+        "case_processed_at": "2026-08-31T05:39:45.684539+00:00"
       },
       {
         "id": "eb129ca3ff3ad1974da5bea14459849e9e000f25",
@@ -6532,7 +7657,7 @@
           ]
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-31T04:30:14.034404+00:00"
+        "case_processed_at": "2026-08-31T05:38:17.345505+00:00"
       },
       {
         "id": "0447206c6f28c8d7622207c5f122a5dc58c8ef2e",
@@ -6600,7 +7725,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-31T04:30:14.180991+00:00"
+        "case_processed_at": "2026-08-31T05:38:17.496006+00:00"
       },
       {
         "id": "d32d84791ebd09ecd584f7e1a981acfcad5f8cf4",
@@ -6668,7 +7793,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-31T04:30:14.475353+00:00"
+        "case_processed_at": "2026-08-31T05:38:17.798079+00:00"
       },
       {
         "id": "87517585e20d6c70f9a5e6238b0ba1bc0a156067",
@@ -6736,7 +7861,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-31T04:30:14.640563+00:00"
+        "case_processed_at": "2026-08-31T05:38:17.967599+00:00"
       },
       {
         "id": "405f1658a063b917e094dc0331d49fafbf5e0204",
@@ -6802,7 +7927,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-31T04:30:14.711688+00:00"
+        "case_processed_at": "2026-08-31T05:38:18.039811+00:00"
       },
       {
         "id": "e4dbb7f3d875f07e3127d4d64b5f78b0a87941bc",
@@ -6880,7 +8005,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-31T04:31:41.158735+00:00"
+        "case_processed_at": "2026-08-31T05:39:45.684548+00:00"
       },
       {
         "id": "19894c03d044267b970b744a13207b07aa4c19fd",
@@ -6945,7 +8070,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-31T04:30:14.912227+00:00"
+        "case_processed_at": "2026-08-31T05:38:18.245214+00:00"
       },
       {
         "id": "91567e173456acf39e19426c3e87c8c517abbbe4",
@@ -7011,7 +8136,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-31T04:30:15.098851+00:00"
+        "case_processed_at": "2026-08-31T05:38:18.437030+00:00"
       },
       {
         "id": "9bb2c56c99c49c9a071a3e3c13fedb2c67314c6f",
@@ -7088,7 +8213,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-31T04:30:15.298936+00:00"
+        "case_processed_at": "2026-08-31T05:38:18.645404+00:00"
       },
       {
         "id": "d22f352a03fcfb020d93bb6f88df57dead59be83",
@@ -7168,7 +8293,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-31T04:31:41.158743+00:00"
+        "case_processed_at": "2026-08-31T05:39:45.684555+00:00"
       },
       {
         "id": "e867bda30bd1b79f48decd17dfc4c07fb6b6bee7",
@@ -7234,7 +8359,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-31T04:30:15.362322+00:00"
+        "case_processed_at": "2026-08-31T05:38:18.710862+00:00"
       },
       {
         "id": "17a808e47ba2d1c4f71c68b9eed0c757722ea714",
@@ -7300,7 +8425,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-31T04:30:15.429969+00:00"
+        "case_processed_at": "2026-08-31T05:38:18.780772+00:00"
       },
       {
         "id": "fae166f6850f952782ebe053d47a44a45e19ec83",
@@ -7366,7 +8491,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-31T04:30:15.478540+00:00"
+        "case_processed_at": "2026-08-31T05:38:18.831890+00:00"
       },
       {
         "id": "a3fa52c67bdb82953cfbd4c4f2c365bcdbf99263",
@@ -7432,7 +8557,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-31T04:30:15.830122+00:00"
+        "case_processed_at": "2026-08-31T05:38:19.193458+00:00"
       },
       {
         "id": "7e186ca741a433c4a6cffbc7d66996055db388ae",
@@ -7503,7 +8628,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-31T04:30:15.902057+00:00"
+        "case_processed_at": "2026-08-31T05:38:19.265357+00:00"
       },
       {
         "id": "b25078d938a8e0689b3cd06b528ae51c3edb3b6e",
@@ -7568,7 +8693,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-31T04:30:16.032173+00:00"
+        "case_processed_at": "2026-08-31T05:38:19.400160+00:00"
       },
       {
         "id": "666343ac9e300fb3b86ac937f3d40624943a079f",
@@ -7638,7 +8763,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-31T04:30:16.088796+00:00"
+        "case_processed_at": "2026-08-31T05:38:19.458543+00:00"
       },
       {
         "id": "bdab0a3bd33b3b1cdf2b6732d311e7d630dbd4fc",
@@ -7706,7 +8831,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-31T04:31:41.158753+00:00"
+        "case_processed_at": "2026-08-31T05:39:45.684563+00:00"
       },
       {
         "id": "d44abf0f47124fcc6afc0a83e24bbae78788d7b4",
@@ -7771,7 +8896,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-31T04:30:16.257777+00:00"
+        "case_processed_at": "2026-08-31T05:38:19.630799+00:00"
       },
       {
         "id": "d2372abed6518a159835202389ef01edbd7105a3",
@@ -7837,7 +8962,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-31T04:30:16.400260+00:00"
+        "case_processed_at": "2026-08-31T05:38:19.776180+00:00"
       },
       {
         "id": "a8f46c88840dbba79a34a6f2151f05f588861901",
@@ -7903,7 +9028,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-31T04:30:16.465191+00:00"
+        "case_processed_at": "2026-08-31T05:38:19.841737+00:00"
       },
       {
         "id": "d7e2e0a3e77814ff05e1ba147fd56f10ff500765",
@@ -7969,10 +9094,416 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-31T04:30:16.529709+00:00"
+        "case_processed_at": "2026-08-31T05:38:19.907463+00:00"
       }
     ],
     "luar_jatim_items": [
+      {
+        "id": "41757f8c54c23c45d1331b6bbc3bab9a51e172ae",
+        "title": "Polisi Selidiki Temuan Jasad Bayi di Conggeang, Diduga Diseret dan Digigit Anjing - Kicaunews",
+        "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQR1IzTVo0YTYtMUw0c0xPbXJISlZ1MmRfUndrUy1VdU1DekhwV0hYeWc5cEloOFJkdWQwQjQzY2NBQVdNcDhwbkkyTzViZTBCVHhuazdMSG5PQWFvZVZTMDgyenNxdzRucUo5WXNrNl9MN3haaFZtdkNteVV0WEI1YWxKRDhycVZHYWV4UkU5N3Y2UzI4MlZ1bEQ0OFBfcE94eG5ncTE2WjNiNmVqbkdwN05XaUo?oc=5",
+        "source": "Kicaunews",
+        "published_at": "2026-08-31T05:21:32+00:00",
+        "collected_at": "2026-08-31T05:35:34.184786+00:00",
+        "region": "BELUM TERPETAKAN",
+        "area_label": "BELUM TERPETAKAN",
+        "is_jatim": null,
+        "polres": null,
+        "category": "NETRAL / LAINNYA",
+        "scope": "neutral",
+        "scope_label": "NETRAL",
+        "priority": "low",
+        "summary": "Polisi Selidiki Temuan Jasad Bayi di Conggeang, Diduga Diseret dan Digigit Anjing Kicaunews",
+        "processing_status": "processed",
+        "classifier_version": "news-v6",
+        "classified_at": "2026-08-31T05:35:34.184786+00:00",
+        "case_id": null,
+        "discovery_families": [],
+        "discovery_tags": [],
+        "discovery_hits": [],
+        "discovery_version": "discovery-v6.5.3",
+        "locality": "",
+        "polsek": null,
+        "location_confidence": 0,
+        "location_evidence": [],
+        "location_status": "BELUM_TERPETAKAN",
+        "location_source": "title",
+        "issue_type": "UMUM",
+        "issue_subtype": "Belum Teridentifikasi",
+        "issue_evidence": [],
+        "handling_status": "BELUM_ADA_INFORMASI",
+        "handling_evidence": [],
+        "attention_score": 29,
+        "attention_label": "Rendah",
+        "attention_components": {
+          "severity": 2,
+          "polri_relation": 16,
+          "authority": 0,
+          "public_impact": 10,
+          "handling": 0,
+          "evidence": 1,
+          "context_risk": 0,
+          "routine_enforcement_cap": null
+        },
+        "attention_evidence": {
+          "severity": [],
+          "authority": [],
+          "public_impact": [
+            "dampak institusional"
+          ],
+          "evidence": [
+            "satu sumber / informasi awal"
+          ],
+          "role": [
+            "Polri/personel menjadi subjek permasalahan"
+          ],
+          "issue": [],
+          "handling": [],
+          "context": [],
+          "positive": []
+        },
+        "case_engine_version": "case-v6.5.3",
+        "case_processed_at": "2026-08-31T05:38:14.959918+00:00"
+      },
+      {
+        "id": "7978336a2e1dd72c2dba1dd3fbf98a65322087d9",
+        "title": "Buser 77 Polresta Kendari Tangkap Pria Diduga Aniaya Istri, Polisi Amankan Airgun - Suarakendari.com",
+        "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQNHVJWFZTX3RyQWhEeEZ1dGFOTUlMZldMNi1TZExQMmFzbkdEMWtuNVNQUTJHQ21QUkVUNzRJTEZNRm5oQnU4azNCemtmNlBmVW5lZUxibWZxd1c3N0Fka3JhX29WMkM4bW5NcnJVVGRuUjFwZ09Ea3hNeUI3SXZ0dF85cW9wNmZRbnU0V0NaX2F0bExaUVd3MFRPRDVvSFFYemIxN0dZYzNKeWZLcE53?oc=5",
+        "source": "Suarakendari.com",
+        "published_at": "2026-08-31T05:21:32+00:00",
+        "collected_at": "2026-08-31T05:35:34.184786+00:00",
+        "region": "BELUM TERPETAKAN",
+        "area_label": "BELUM TERPETAKAN",
+        "is_jatim": null,
+        "polres": null,
+        "category": "NETRAL / LAINNYA",
+        "scope": "neutral",
+        "scope_label": "NETRAL",
+        "priority": "low",
+        "summary": "Buser 77 Polresta Kendari Tangkap Pria Diduga Aniaya Istri, Polisi Amankan Airgun Suarakendari.com",
+        "processing_status": "processed",
+        "classifier_version": "news-v6",
+        "classified_at": "2026-08-31T05:35:34.184786+00:00",
+        "case_id": null,
+        "discovery_families": [],
+        "discovery_tags": [],
+        "discovery_hits": [],
+        "discovery_version": "discovery-v6.5.3",
+        "locality": "",
+        "polsek": null,
+        "location_confidence": 0,
+        "location_evidence": [],
+        "location_status": "BELUM_TERPETAKAN",
+        "location_source": "title",
+        "issue_type": "UMUM",
+        "issue_subtype": "Belum Teridentifikasi",
+        "issue_evidence": [],
+        "handling_status": "BELUM_ADA_INFORMASI",
+        "handling_evidence": [],
+        "attention_score": 29,
+        "attention_label": "Rendah",
+        "attention_components": {
+          "severity": 2,
+          "polri_relation": 16,
+          "authority": 0,
+          "public_impact": 10,
+          "handling": 0,
+          "evidence": 1,
+          "context_risk": 0,
+          "routine_enforcement_cap": null
+        },
+        "attention_evidence": {
+          "severity": [],
+          "authority": [],
+          "public_impact": [
+            "dampak institusional"
+          ],
+          "evidence": [
+            "satu sumber / informasi awal"
+          ],
+          "role": [
+            "Polri/personel menjadi subjek permasalahan"
+          ],
+          "issue": [],
+          "handling": [],
+          "context": [],
+          "positive": []
+        },
+        "case_engine_version": "case-v6.5.3",
+        "case_processed_at": "2026-08-31T05:38:15.036226+00:00"
+      },
+      {
+        "id": "15fb3291eacfbdbe93966ccb4b4ad270b66d4100",
+        "title": "Lewat Program Koplingmas, Polsek Sananwetan Dekatkan Diri dengan Masyarakat dan Serap Aspirasi Kamtibmas - Website Resmi Polri",
+        "url": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxQUGU0enhFbTRWU2lwZXVUWG5HQkhqWktBNHdxcHp0MmgxRHZXbVI1Nnh1Qk1vSUVMckpZQkRuQ1NRMXczVjBTbEdELU8xSVl4VG56MWViaVIyTkw1LVk3alNoMjRDMWgwbXFuczdlbEVBcDNZN0VMM0hPQ0I2N1pWOVJPVFB3cEdNbG9xMmRleXF6UFNaOW50aUhyUXRtTHhFMWFFdFZwbXg1eTBxQ01SeUpFQ0l0LVRRbjNveXEwLTIySW5pUFJ4R3J4UFNoQXhOZlUwa28xT2lONHU4ZkxHZXpuZWt0RHpoaVF1UXluSmtDZE9qcnBGcHJ3?oc=5",
+        "source": "Website Resmi Polri",
+        "published_at": "2026-08-31T05:20:24+00:00",
+        "collected_at": "2026-08-31T05:35:34.184786+00:00",
+        "region": "BELUM TERPETAKAN",
+        "area_label": "BELUM TERPETAKAN",
+        "is_jatim": null,
+        "polres": null,
+        "category": "NETRAL / LAINNYA",
+        "scope": "neutral",
+        "scope_label": "NETRAL",
+        "priority": "low",
+        "summary": "Lewat Program Koplingmas, Polsek Sananwetan Dekatkan Diri dengan Masyarakat dan Serap Aspirasi Kamtibmas Website Resmi Polri",
+        "processing_status": "processed",
+        "classifier_version": "news-v6",
+        "classified_at": "2026-08-31T05:35:34.184786+00:00",
+        "case_id": null,
+        "discovery_families": [],
+        "discovery_tags": [],
+        "discovery_hits": [],
+        "discovery_version": "discovery-v6.5.3",
+        "locality": "",
+        "polsek": "POLSEK SANANWETAN DEKATKAN DIRI",
+        "location_confidence": 0,
+        "location_evidence": [
+          "POLSEK SANANWETAN DEKATKAN DIRI"
+        ],
+        "location_status": "BELUM_TERPETAKAN",
+        "location_source": "title",
+        "issue_type": "UMUM",
+        "issue_subtype": "Belum Teridentifikasi",
+        "issue_evidence": [],
+        "handling_status": "BELUM_ADA_INFORMASI",
+        "handling_evidence": [],
+        "attention_score": 15,
+        "attention_label": "Rendah",
+        "attention_components": {
+          "severity": 2,
+          "polri_relation": 0,
+          "authority": 0,
+          "public_impact": 12,
+          "handling": 0,
+          "evidence": 1,
+          "context_risk": 0,
+          "routine_enforcement_cap": null
+        },
+        "attention_evidence": {
+          "severity": [],
+          "authority": [],
+          "public_impact": [
+            "dampak kepada masyarakat"
+          ],
+          "evidence": [
+            "satu sumber / informasi awal"
+          ],
+          "role": [],
+          "issue": [],
+          "handling": [],
+          "context": [],
+          "positive": []
+        },
+        "case_engine_version": "case-v6.5.3",
+        "case_processed_at": "2026-08-31T05:38:15.235412+00:00"
+      },
+      {
+        "id": "15f256d037794915b5c8f0319dfade23e471b6bb",
+        "title": "Satresnarkoba Polres Gresik Sita Ratusan Botol Arak Bali, Dua Orang Diamankan - memorandum.disway.id - Memorandum.co.id",
+        "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQX1FYNzAwZkU3U2JOb3RNTGZUSWcydlVqTFJ2SHZxZ1R1Y0d4bzJGU3k1TldWRUY3THdQSG5iSHVuZGJlbEpkY2xBcnVJczVaRWVuUWhzQjJJeXFMb3c5VTZVbVVGRmxCZlBoVmdkQmx0TUJFRUVjaUtHcWVrUjllekd5Ym15cnY4eVJZUllMX0JvMjRYWmdQTElraDFOMFFiZXBnRkpldUZ0TlZsUWhhb09jLTI5SnFnaXBWZmpsakpWSlJuMERGWdIBtwFBVV95cUxNbFBQb3VDX1pwVTE1bi1SQTNPYU96WU5YN0V3VW83V1BPMzRSazk0WkQxSktZUk8wbkc4SzBKZ1Y1NE9kZ09LckcyeVhpc092V1RIZFRqS2s2RkF2M1c1NXUzRWc2R2ViR1F3ZGlhbWlSRDVJSzF5WEs5anRTRDliQ0NKU0ppOFpYZ0hnTjBYTUZ1bzVmNWZVY29icmM5V3dpN0RkRkxlQm4yTXVxN1FUbUsxcnlLNW8?oc=5",
+        "source": "Memorandum.co.id",
+        "published_at": "2026-08-31T05:11:00+00:00",
+        "collected_at": "2026-08-31T05:35:34.184786+00:00",
+        "region": "LUAR JATIM",
+        "area_label": "LUAR JATIM",
+        "is_jatim": false,
+        "polres": null,
+        "category": "UNGKAP KASUS / PENINDAKAN",
+        "scope": "case",
+        "scope_label": "UNGKAP KASUS",
+        "priority": "low",
+        "summary": "Satresnarkoba Polres Gresik Sita Ratusan Botol Arak Bali, Dua Orang Diamankan - memorandum.disway.id Memorandum.co.id",
+        "processing_status": "processed",
+        "classifier_version": "news-v6",
+        "classified_at": "2026-08-31T05:35:34.184786+00:00",
+        "case_id": "CASE-000203",
+        "discovery_families": [],
+        "discovery_tags": [],
+        "discovery_hits": [],
+        "discovery_version": "discovery-v6.5.3",
+        "locality": "",
+        "polsek": null,
+        "location_confidence": 100,
+        "location_evidence": [
+          "bali"
+        ],
+        "location_status": "LUAR_JATIM",
+        "location_source": "title",
+        "issue_type": "UMUM",
+        "issue_subtype": "Belum Teridentifikasi",
+        "issue_evidence": [],
+        "handling_status": "BELUM_ADA_INFORMASI",
+        "handling_evidence": [],
+        "attention_score": 9,
+        "attention_label": "Rendah",
+        "attention_components": {
+          "severity": 2,
+          "polri_relation": 2,
+          "authority": 0,
+          "public_impact": 4,
+          "handling": 0,
+          "evidence": 1,
+          "context_risk": 0,
+          "routine_enforcement_cap": 35
+        },
+        "attention_evidence": {
+          "severity": [],
+          "authority": [],
+          "public_impact": [],
+          "evidence": [
+            "satu sumber / informasi awal"
+          ],
+          "role": [
+            "Polri sebagai pihak penindak"
+          ],
+          "issue": [],
+          "handling": [],
+          "context": [],
+          "positive": []
+        },
+        "case_engine_version": "case-v6.5.3",
+        "case_processed_at": "2026-08-31T05:39:45.684507+00:00"
+      },
+      {
+        "id": "fd076cfd8c396bfd558ac30cf52de91254e1ede2",
+        "title": "Revaldo Ditahan Usai Positif Narkoba, Polisi Belum Pastikan Rehabilitasi atau Proses Hukum - Kompas.com",
+        "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNcnNuRjRraTY2M2p1TzFWSHBPNkVzR0xWMHV4bGllUnExLVVpUWlvNGdZdUk4MjB6bTMtRUFVMWpSaXhQdmJFWDFnVUdBMVc0YXFRak5BLVhyd3QySUtMRkM5amVqbzBtOFhhYm5odjFWbTl4aUw4TG5pUVp0dTV3VGk3S2tTVVh2V3czTUNlRFItZGh0anVvSU54dm9Oal9qSmNoR2JSbXpSR0J6V2UtZTFGTG5RZXZ4ZmJuTXh2a3l6dEVBRHc?oc=5",
+        "source": "Kompas.com",
+        "published_at": "2026-08-31T05:02:00+00:00",
+        "collected_at": "2026-08-31T05:35:34.184786+00:00",
+        "region": "BELUM TERPETAKAN",
+        "area_label": "BELUM TERPETAKAN",
+        "is_jatim": null,
+        "polres": null,
+        "category": "NETRAL / LAINNYA",
+        "scope": "neutral",
+        "scope_label": "NETRAL",
+        "priority": "low",
+        "summary": "Revaldo Ditahan Usai Positif Narkoba, Polisi Belum Pastikan Rehabilitasi atau Proses Hukum Kompas.com",
+        "processing_status": "processed",
+        "classifier_version": "news-v6",
+        "classified_at": "2026-08-31T05:35:34.184786+00:00",
+        "case_id": null,
+        "discovery_families": [],
+        "discovery_tags": [],
+        "discovery_hits": [],
+        "discovery_version": "discovery-v6.5.3",
+        "locality": "",
+        "polsek": null,
+        "location_confidence": 0,
+        "location_evidence": [],
+        "location_status": "BELUM_TERPETAKAN",
+        "location_source": "title",
+        "issue_type": "NARKOBA",
+        "issue_subtype": "Narkoba / Narkotika",
+        "issue_evidence": [
+          "narkoba"
+        ],
+        "handling_status": "SUDAH_DITINDAK",
+        "handling_evidence": [
+          "ditahan"
+        ],
+        "attention_score": 18,
+        "attention_label": "Rendah",
+        "attention_components": {
+          "severity": 11,
+          "polri_relation": 0,
+          "authority": 0,
+          "public_impact": 4,
+          "handling": 2,
+          "evidence": 1,
+          "context_risk": 0,
+          "routine_enforcement_cap": null
+        },
+        "attention_evidence": {
+          "severity": [],
+          "authority": [],
+          "public_impact": [],
+          "evidence": [
+            "satu sumber / informasi awal"
+          ],
+          "role": [],
+          "issue": [
+            "narkoba"
+          ],
+          "handling": [
+            "ditahan"
+          ],
+          "context": [],
+          "positive": []
+        },
+        "case_engine_version": "case-v6.5.3",
+        "case_processed_at": "2026-08-31T05:38:15.314487+00:00"
+      },
+      {
+        "id": "01354a922af6dc985d9160d84df225249aab404c",
+        "title": "Brigjen Eko Hadi Jenderal Penangkap Polisi Narkoba Bakal Naik Jadi Bintang Dua - Kompas.com",
+        "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOX0R0RlVzZHIwLUpDckdGbm9aMDhkWExMYk9pRWJEY0JEOGg2RHZMNmxveWNwQy1aOXppdGVPUWZaMnU3NDdiWExkdUt4VmJDeTdxSUp4dExfWGtIN1M1NDl1MVhKRmtaVlBuU3p1NmI0N1VzdU9vejM4VTJSVG9mcFh6bDk0bWs3ZVR1MWx3VGphMlVEZnpXSlpOUFZyY0RmeFp2UldENW1TaGhfY1FTbU80Si1wa04zeVBOamlrd2ZUTEtUWkE?oc=5",
+        "source": "Kompas.com",
+        "published_at": "2026-08-31T04:50:00+00:00",
+        "collected_at": "2026-08-31T05:35:34.184786+00:00",
+        "region": "BELUM TERPETAKAN",
+        "area_label": "BELUM TERPETAKAN",
+        "is_jatim": null,
+        "polres": null,
+        "category": "NETRAL / LAINNYA",
+        "scope": "neutral",
+        "scope_label": "NETRAL",
+        "priority": "low",
+        "summary": "Brigjen Eko Hadi Jenderal Penangkap Polisi Narkoba Bakal Naik Jadi Bintang Dua Kompas.com",
+        "processing_status": "processed",
+        "classifier_version": "news-v6",
+        "classified_at": "2026-08-31T05:35:34.184786+00:00",
+        "case_id": null,
+        "discovery_families": [],
+        "discovery_tags": [],
+        "discovery_hits": [],
+        "discovery_version": "discovery-v6.5.3",
+        "locality": "",
+        "polsek": null,
+        "location_confidence": 0,
+        "location_evidence": [],
+        "location_status": "BELUM_TERPETAKAN",
+        "location_source": "title",
+        "issue_type": "NARKOBA",
+        "issue_subtype": "Narkoba / Narkotika",
+        "issue_evidence": [
+          "narkoba"
+        ],
+        "handling_status": "BELUM_ADA_INFORMASI",
+        "handling_evidence": [],
+        "attention_score": 16,
+        "attention_label": "Rendah",
+        "attention_components": {
+          "severity": 11,
+          "polri_relation": 0,
+          "authority": 0,
+          "public_impact": 4,
+          "handling": 0,
+          "evidence": 1,
+          "context_risk": 0,
+          "routine_enforcement_cap": null
+        },
+        "attention_evidence": {
+          "severity": [],
+          "authority": [],
+          "public_impact": [],
+          "evidence": [
+            "satu sumber / informasi awal"
+          ],
+          "role": [],
+          "issue": [
+            "narkoba"
+          ],
+          "handling": [],
+          "context": [],
+          "positive": []
+        },
+        "case_engine_version": "case-v6.5.3",
+        "case_processed_at": "2026-08-31T05:38:15.463314+00:00"
+      },
       {
         "id": "b17e3b15f49fc0e0f605383054ba9256bfc5ad8f",
         "title": "Jukir Tewas Ditembak Polisi di Palu, Propam Dalami Dugaan Kelalaian dan Kesalahan Prosedur - Kompas.com",
@@ -8044,7 +9575,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-31T04:30:12.382383+00:00"
+        "case_processed_at": "2026-08-31T05:38:15.677346+00:00"
       },
       {
         "id": "393aa3e32156d38715b11939cfd92c47068f71bc",
@@ -8107,7 +9638,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-31T04:30:12.445565+00:00"
+        "case_processed_at": "2026-08-31T05:38:15.740402+00:00"
       },
       {
         "id": "e5ad0bc6cb0491b3813b3b4cd86dad1e25b56098",
@@ -8178,7 +9709,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-31T04:30:12.504099+00:00"
+        "case_processed_at": "2026-08-31T05:38:15.795341+00:00"
       },
       {
         "id": "b073a90af1756b9a8d78f95a29fc53996f7bce89",
@@ -8243,7 +9774,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-31T04:30:12.647801+00:00"
+        "case_processed_at": "2026-08-31T05:38:15.938528+00:00"
       },
       {
         "id": "f4f4e474d89c96b3cde02e64d54416255597229e",
@@ -8308,7 +9839,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-31T04:30:12.710488+00:00"
+        "case_processed_at": "2026-08-31T05:38:16.002706+00:00"
       },
       {
         "id": "6369416476f9094172d411631affec18f9f7b1ed",
@@ -8375,7 +9906,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-31T04:30:12.791906+00:00"
+        "case_processed_at": "2026-08-31T05:38:16.085463+00:00"
       },
       {
         "id": "6d577a8fd20ccec0dd0c46f9071132304f408e61",
@@ -8440,7 +9971,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-31T04:30:13.247330+00:00"
+        "case_processed_at": "2026-08-31T05:38:16.540766+00:00"
       },
       {
         "id": "30f7adc448b0680843831420d0cfbc7214e7b7ee",
@@ -8505,7 +10036,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-31T04:30:13.336113+00:00"
+        "case_processed_at": "2026-08-31T05:38:16.631302+00:00"
       },
       {
         "id": "602b73daf2b3f1841cdf2ccb2f5c244860779303",
@@ -8572,7 +10103,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-31T04:30:13.416686+00:00"
+        "case_processed_at": "2026-08-31T05:38:16.714073+00:00"
       },
       {
         "id": "93b5d7cb051b44f9471b5a3a05a443989bc1e7cb",
@@ -8641,7 +10172,7 @@
           ]
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-31T04:30:13.565243+00:00"
+        "case_processed_at": "2026-08-31T05:38:16.865468+00:00"
       },
       {
         "id": "9a162fc4d7683572c8c36e5d9990d717ca362e0d",
@@ -8712,7 +10243,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-31T04:30:13.718221+00:00"
+        "case_processed_at": "2026-08-31T05:38:17.022311+00:00"
       },
       {
         "id": "1ccdacc7a16e48d3423b02d0ea9a06407df70a69",
@@ -8779,7 +10310,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-31T04:30:13.773953+00:00"
+        "case_processed_at": "2026-08-31T05:38:17.079551+00:00"
       },
       {
         "id": "16f2d204c4cfc4e7266ffd54fa1339feeee42306",
@@ -8844,7 +10375,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-31T04:30:13.845415+00:00"
+        "case_processed_at": "2026-08-31T05:38:17.152855+00:00"
       },
       {
         "id": "d0529b443aaacb29de700befca43ad0c7f3d8777",
@@ -8909,7 +10440,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-31T04:30:13.924865+00:00"
+        "case_processed_at": "2026-08-31T05:38:17.234146+00:00"
       },
       {
         "id": "619e098b5f973438cb7ee7c3ecefcc824ca3d04c",
@@ -8978,7 +10509,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-31T04:30:14.107056+00:00"
+        "case_processed_at": "2026-08-31T05:38:17.420511+00:00"
       },
       {
         "id": "5a25788ecaf7476135ded1e01c841767e2942996",
@@ -9051,7 +10582,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-31T04:30:14.252406+00:00"
+        "case_processed_at": "2026-08-31T05:38:17.569663+00:00"
       },
       {
         "id": "ab07e34db625f7cc375a5915e09d0a42a7c95a30",
@@ -9120,7 +10651,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-31T04:30:14.338722+00:00"
+        "case_processed_at": "2026-08-31T05:38:17.658495+00:00"
       },
       {
         "id": "940996c13dbb9a158746c27225736afbc1d72da8",
@@ -9191,7 +10722,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-31T04:30:14.414539+00:00"
+        "case_processed_at": "2026-08-31T05:38:17.735506+00:00"
       },
       {
         "id": "4e75eb37536e4887653b670f1aa87355a08e930a",
@@ -9264,7 +10795,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-31T04:30:14.566802+00:00"
+        "case_processed_at": "2026-08-31T05:38:17.891845+00:00"
       },
       {
         "id": "38a3a69905f13f806c7fed8a0f1e9aa1e63ca589",
@@ -9335,7 +10866,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-31T04:30:14.772464+00:00"
+        "case_processed_at": "2026-08-31T05:38:18.102278+00:00"
       },
       {
         "id": "ea9b72c3b0f6d4a3924a763d5bcc6356b6dcd292",
@@ -9415,7 +10946,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-31T04:31:41.158733+00:00"
+        "case_processed_at": "2026-08-31T05:39:45.684545+00:00"
       },
       {
         "id": "877f490b0a8294ded947dc809e53ea290c21ef58",
@@ -9480,7 +11011,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-31T04:30:14.858366+00:00"
+        "case_processed_at": "2026-08-31T05:38:18.189794+00:00"
       },
       {
         "id": "2810852e20198493a100461e2836680d388b611a",
@@ -9563,7 +11094,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-31T04:31:41.158737+00:00"
+        "case_processed_at": "2026-08-31T05:39:45.684550+00:00"
       },
       {
         "id": "e27bbceadb513c6124cee64b5a126b28296d1cf1",
@@ -9628,7 +11159,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-31T04:30:14.979819+00:00"
+        "case_processed_at": "2026-08-31T05:38:18.314821+00:00"
       },
       {
         "id": "3499dc65f4035bdd258f8decb5601fd84445c7f8",
@@ -9693,7 +11224,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-31T04:30:15.029583+00:00"
+        "case_processed_at": "2026-08-31T05:38:18.366289+00:00"
       },
       {
         "id": "08a4aa16e7e6996801c630eb44fa3832cbf2ff5f",
@@ -9762,7 +11293,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-31T04:30:15.157018+00:00"
+        "case_processed_at": "2026-08-31T05:38:18.497688+00:00"
       },
       {
         "id": "9e1d19cca08d3a6df56376b4f052564f07477820",
@@ -9825,7 +11356,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-31T04:30:15.231990+00:00"
+        "case_processed_at": "2026-08-31T05:38:18.575202+00:00"
       },
       {
         "id": "532379fd5a3ffecd3755c62694e5797d203e4062",
@@ -9888,7 +11419,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-31T04:30:15.540203+00:00"
+        "case_processed_at": "2026-08-31T05:38:18.897012+00:00"
       },
       {
         "id": "2bbb7632fcee05d555e17c5144659f5628af9517",
@@ -9951,7 +11482,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-31T04:30:15.610027+00:00"
+        "case_processed_at": "2026-08-31T05:38:18.968679+00:00"
       },
       {
         "id": "6488122494924628b7730c769ed351502accc7f6",
@@ -10035,7 +11566,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-31T04:31:41.158748+00:00"
+        "case_processed_at": "2026-08-31T05:39:45.684559+00:00"
       },
       {
         "id": "86e6b9956a8affdecae25646c9913fe10c9c415f",
@@ -10102,7 +11633,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-31T04:30:15.670963+00:00"
+        "case_processed_at": "2026-08-31T05:38:19.031664+00:00"
       },
       {
         "id": "6dc694a02f94e8848b112f38cca70644278955ba",
@@ -10167,7 +11698,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-31T04:30:15.740095+00:00"
+        "case_processed_at": "2026-08-31T05:38:19.102314+00:00"
       },
       {
         "id": "f7e3bfb7b7eb2b3f0195aa99be7d072b4aa1eb19",
@@ -10236,7 +11767,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-31T04:30:15.967688+00:00"
+        "case_processed_at": "2026-08-31T05:38:19.332900+00:00"
       },
       {
         "id": "28783407f2c216a20aa63955a9e353db1560e7ca",
@@ -10301,7 +11832,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-31T04:30:16.173794+00:00"
+        "case_processed_at": "2026-08-31T05:38:19.545385+00:00"
       },
       {
         "id": "2a6dba31b6aa2cc0d059f292438a8ac73be4072b",
@@ -10372,16 +11903,16 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-31T04:30:16.334182+00:00"
+        "case_processed_at": "2026-08-31T05:38:19.709086+00:00"
       }
     ]
   },
   "cases": {
-    "active": 10,
+    "active": 12,
     "priority_high": 2,
-    "jatim": 7,
+    "jatim": 8,
     "jatim_priority_high": 1,
-    "articles": 58,
+    "articles": 60,
     "case_ids": [
       "CASE-000076",
       "CASE-000194",
@@ -10392,7 +11923,9 @@
       "CASE-000199",
       "CASE-000200",
       "CASE-000201",
-      "CASE-000202"
+      "CASE-000202",
+      "CASE-000203",
+      "CASE-000204"
     ],
     "items": [
       {
@@ -12397,7 +13930,7 @@
         ],
         "article_count": 49,
         "created_at": "2026-08-27T20:35:38.491662+00:00",
-        "updated_at": "2026-08-31T04:31:40.753702+00:00",
+        "updated_at": "2026-08-31T05:39:45.261382+00:00",
         "engine_version": "case-v6.5.3",
         "priority_score": 96,
         "priority_breakdown": {
@@ -12512,7 +14045,7 @@
         ],
         "article_count": 1,
         "created_at": "2026-08-30T17:35:09.288874+00:00",
-        "updated_at": "2026-08-31T04:31:41.136866+00:00",
+        "updated_at": "2026-08-31T05:39:45.655636+00:00",
         "engine_version": "case-v6.5.3",
         "priority_score": 70,
         "priority_breakdown": {
@@ -12618,7 +14151,7 @@
         ],
         "article_count": 1,
         "created_at": "2026-08-30T17:35:09.343803+00:00",
-        "updated_at": "2026-08-31T04:31:41.139773+00:00",
+        "updated_at": "2026-08-31T05:39:45.658703+00:00",
         "engine_version": "case-v6.5.3",
         "priority_score": 10,
         "priority_breakdown": {
@@ -12730,7 +14263,7 @@
         ],
         "article_count": 1,
         "created_at": "2026-08-30T21:12:43.384510+00:00",
-        "updated_at": "2026-08-31T04:31:41.142458+00:00",
+        "updated_at": "2026-08-31T05:39:45.661571+00:00",
         "engine_version": "case-v6.5.3",
         "priority_score": 38,
         "priority_breakdown": {
@@ -12836,7 +14369,7 @@
         ],
         "article_count": 1,
         "created_at": "2026-08-31T02:57:41.107628+00:00",
-        "updated_at": "2026-08-31T04:31:41.144840+00:00",
+        "updated_at": "2026-08-31T05:39:45.664114+00:00",
         "engine_version": "case-v6.5.3",
         "priority_score": 46,
         "priority_breakdown": {
@@ -12946,7 +14479,7 @@
         ],
         "article_count": 1,
         "created_at": "2026-08-31T02:57:41.173846+00:00",
-        "updated_at": "2026-08-31T04:31:41.147530+00:00",
+        "updated_at": "2026-08-31T05:39:45.666976+00:00",
         "engine_version": "case-v6.5.3",
         "priority_score": 30,
         "priority_breakdown": {
@@ -13057,7 +14590,7 @@
         ],
         "article_count": 1,
         "created_at": "2026-08-31T02:57:41.247970+00:00",
-        "updated_at": "2026-08-31T04:31:41.150306+00:00",
+        "updated_at": "2026-08-31T05:39:45.669928+00:00",
         "engine_version": "case-v6.5.3",
         "priority_score": 37,
         "priority_breakdown": {
@@ -13170,7 +14703,7 @@
         ],
         "article_count": 1,
         "created_at": "2026-08-31T04:31:33.764805+00:00",
-        "updated_at": "2026-08-31T04:31:41.152909+00:00",
+        "updated_at": "2026-08-31T05:39:45.672766+00:00",
         "engine_version": "case-v6.5.3",
         "priority_score": 28,
         "priority_breakdown": {
@@ -13281,7 +14814,7 @@
         ],
         "article_count": 1,
         "created_at": "2026-08-31T04:31:33.835171+00:00",
-        "updated_at": "2026-08-31T04:31:41.155909+00:00",
+        "updated_at": "2026-08-31T05:39:45.675940+00:00",
         "engine_version": "case-v6.5.3",
         "priority_score": 35,
         "priority_breakdown": {
@@ -13392,7 +14925,7 @@
         ],
         "article_count": 1,
         "created_at": "2026-08-31T04:31:33.911686+00:00",
-        "updated_at": "2026-08-31T04:31:41.158542+00:00",
+        "updated_at": "2026-08-31T05:39:45.678742+00:00",
         "engine_version": "case-v6.5.3",
         "priority_score": 38,
         "priority_breakdown": {
@@ -13419,6 +14952,221 @@
           "reasons": [
             "sifat berita: negatif",
             "Pungli / Suap / Pemerasan",
+            "Hubungan Polri belum spesifik"
+          ]
+        }
+      },
+      {
+        "case_id": "CASE-000203",
+        "title": "Satresnarkoba Polres Gresik Sita Ratusan Botol Arak Bali, Dua Orang Diamankan - memorandum.disway.id - Memorandum.co.id",
+        "category": "UNGKAP KASUS / PENINDAKAN",
+        "scope": "case",
+        "region": "LUAR JATIM",
+        "locality": "",
+        "is_jatim": false,
+        "polres": null,
+        "polsek": null,
+        "priority": "low",
+        "attention_score": 10,
+        "attention_label": "Rendah",
+        "signature": "LUAR JATIM",
+        "incident_terms": [
+          "arak",
+          "bali",
+          "botol",
+          "disway",
+          "gresik",
+          "memorandum",
+          "polres",
+          "ratusan",
+          "satresnarkoba",
+          "sita"
+        ],
+        "event_terms": [],
+        "location_terms": [
+          "bali",
+          "gresik"
+        ],
+        "discovery_families": [],
+        "first_seen": "2026-08-31T05:11:00+00:00",
+        "last_seen": "2026-08-31T05:35:34.184786+00:00",
+        "last_detected_at": "2026-08-31T05:35:34.184786+00:00",
+        "article_ids": [
+          "15f256d037794915b5c8f0319dfade23e471b6bb"
+        ],
+        "articles": [
+          {
+            "id": "15f256d037794915b5c8f0319dfade23e471b6bb",
+            "title": "Satresnarkoba Polres Gresik Sita Ratusan Botol Arak Bali, Dua Orang Diamankan - memorandum.disway.id - Memorandum.co.id",
+            "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQX1FYNzAwZkU3U2JOb3RNTGZUSWcydlVqTFJ2SHZxZ1R1Y0d4bzJGU3k1TldWRUY3THdQSG5iSHVuZGJlbEpkY2xBcnVJczVaRWVuUWhzQjJJeXFMb3c5VTZVbVVGRmxCZlBoVmdkQmx0TUJFRUVjaUtHcWVrUjllekd5Ym15cnY4eVJZUllMX0JvMjRYWmdQTElraDFOMFFiZXBnRkpldUZ0TlZsUWhhb09jLTI5SnFnaXBWZmpsakpWSlJuMERGWdIBtwFBVV95cUxNbFBQb3VDX1pwVTE1bi1SQTNPYU96WU5YN0V3VW83V1BPMzRSazk0WkQxSktZUk8wbkc4SzBKZ1Y1NE9kZ09LckcyeVhpc092V1RIZFRqS2s2RkF2M1c1NXUzRWc2R2ViR1F3ZGlhbWlSRDVJSzF5WEs5anRTRDliQ0NKU0ppOFpYZ0hnTjBYTUZ1bzVmNWZVY29icmM5V3dpN0RkRkxlQm4yTXVxN1FUbUsxcnlLNW8?oc=5",
+            "published_at": "2026-08-31T05:11:00+00:00",
+            "collected_at": "2026-08-31T05:35:34.184786+00:00",
+            "source": "Memorandum.co.id",
+            "match_score": 1.0,
+            "priority": "low",
+            "scope": "case",
+            "category": "UNGKAP KASUS / PENINDAKAN",
+            "region": "LUAR JATIM",
+            "locality": "",
+            "is_jatim": false,
+            "polres": null,
+            "polsek": null,
+            "issue_type": "UMUM",
+            "issue_subtype": "Belum Teridentifikasi",
+            "handling_status": "BELUM_ADA_INFORMASI",
+            "handling_evidence": [],
+            "polri_relation": null,
+            "polri_relation_points": 0,
+            "polri_relation_evidence": [],
+            "attention_score": 9,
+            "attention_label": "Rendah",
+            "attention_components": {
+              "severity": 2,
+              "polri_relation": 2,
+              "authority": 0,
+              "public_impact": 4,
+              "handling": 0,
+              "evidence": 1,
+              "context_risk": 0,
+              "routine_enforcement_cap": 35
+            }
+          }
+        ],
+        "article_count": 1,
+        "created_at": "2026-08-31T05:39:38.489951+00:00",
+        "updated_at": "2026-08-31T05:39:45.681947+00:00",
+        "engine_version": "case-v6.5.3",
+        "priority_score": 10,
+        "priority_breakdown": {
+          "severity": 2,
+          "polri_relation": 2,
+          "authority_context": 0,
+          "public_impact": 4,
+          "handling": 0,
+          "evidence": 1,
+          "spread": 0,
+          "escalation": 0,
+          "current_activity": 1,
+          "context_risk": 0
+        },
+        "priority_evidence": {
+          "unique_sources": 1,
+          "active_today_articles": 1,
+          "escalation": [],
+          "issue_type": "UMUM",
+          "issue_subtype": "Belum Teridentifikasi",
+          "sentiment": "positive",
+          "polri_relation": "PENEGAKAN_HUKUM",
+          "handling_status": "BELUM_ADA_INFORMASI",
+          "reasons": [
+            "sifat berita: positif",
+            "Polri sebagai pihak penindak"
+          ]
+        }
+      },
+      {
+        "case_id": "CASE-000204",
+        "title": "Polisi Tangkap Koki MBG di Tuban Gegara Peras Kekasih Gelap - Lentera.co",
+        "category": "OKNUM - INTEGRITAS/KEUANGAN",
+        "scope": "negative",
+        "region": "Jawa Timur",
+        "locality": "Tuban",
+        "is_jatim": true,
+        "polres": null,
+        "polsek": null,
+        "priority": "low",
+        "attention_score": 8,
+        "attention_label": "Rendah",
+        "signature": "Jawa Timur",
+        "incident_terms": [
+          "gegara",
+          "gelap",
+          "kekasih",
+          "koki",
+          "lentera",
+          "mbg",
+          "peras",
+          "tuban"
+        ],
+        "event_terms": [],
+        "location_terms": [
+          "tuban"
+        ],
+        "discovery_families": [
+          "financial_misconduct"
+        ],
+        "first_seen": "2026-08-31T04:42:39+00:00",
+        "last_seen": "2026-08-31T05:35:34.184786+00:00",
+        "last_detected_at": "2026-08-31T05:35:34.184786+00:00",
+        "article_ids": [
+          "1362a0d877aa6f4a62a4ede2bae68cb8bd016ea1"
+        ],
+        "articles": [
+          {
+            "id": "1362a0d877aa6f4a62a4ede2bae68cb8bd016ea1",
+            "title": "Polisi Tangkap Koki MBG di Tuban Gegara Peras Kekasih Gelap - Lentera.co",
+            "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQWXlWV1lOZEU5OWF4X05KZTJlRnN3WGoyajBybTRlZ2pySm0zZUlDeHp3cGNnbEs2c0lkSWxtZ05ZdUtGV3BkTmNDd2VhS1doVlAzMERTcEJMSHBHRXJ0M0k5QXBhN2tiS0FISnFCVGprNmJ2ejVsNEIxX25uR2ZFTjVfQ3d4T1hnbUpTLUFvTVEweHpjdFlKV1Fpcw?oc=5",
+            "published_at": "2026-08-31T04:42:39+00:00",
+            "collected_at": "2026-08-31T05:35:34.184786+00:00",
+            "source": "Lentera.co",
+            "match_score": 1.0,
+            "priority": "low",
+            "scope": "negative",
+            "category": "OKNUM - INTEGRITAS/KEUANGAN",
+            "region": "Jawa Timur",
+            "locality": "Tuban",
+            "is_jatim": true,
+            "polres": null,
+            "polsek": null,
+            "issue_type": "UMUM",
+            "issue_subtype": "Belum Teridentifikasi",
+            "handling_status": "BELUM_ADA_INFORMASI",
+            "handling_evidence": [],
+            "polri_relation": null,
+            "polri_relation_points": 0,
+            "polri_relation_evidence": [],
+            "attention_score": 7,
+            "attention_label": "Rendah",
+            "attention_components": {
+              "severity": 2,
+              "polri_relation": 0,
+              "authority": 0,
+              "public_impact": 4,
+              "handling": 0,
+              "evidence": 1,
+              "context_risk": 0,
+              "routine_enforcement_cap": null
+            }
+          }
+        ],
+        "article_count": 1,
+        "created_at": "2026-08-31T05:39:38.553912+00:00",
+        "updated_at": "2026-08-31T05:39:45.684361+00:00",
+        "engine_version": "case-v6.5.3",
+        "priority_score": 8,
+        "priority_breakdown": {
+          "severity": 2,
+          "polri_relation": 0,
+          "authority_context": 0,
+          "public_impact": 4,
+          "handling": 0,
+          "evidence": 1,
+          "spread": 0,
+          "escalation": 0,
+          "current_activity": 1,
+          "context_risk": 0
+        },
+        "priority_evidence": {
+          "unique_sources": 1,
+          "active_today_articles": 1,
+          "escalation": [],
+          "issue_type": "UMUM",
+          "issue_subtype": "Belum Teridentifikasi",
+          "sentiment": "neutral",
+          "polri_relation": "INFORMASI_UMUM",
+          "handling_status": "BELUM_ADA_INFORMASI",
+          "reasons": [
+            "sifat berita: netral",
             "Hubungan Polri belum spesifik"
           ]
         }
@@ -15427,7 +17175,7 @@
         ],
         "article_count": 49,
         "created_at": "2026-08-27T20:35:38.491662+00:00",
-        "updated_at": "2026-08-31T04:31:40.753702+00:00",
+        "updated_at": "2026-08-31T05:39:45.261382+00:00",
         "engine_version": "case-v6.5.3",
         "priority_score": 96,
         "priority_breakdown": {
@@ -15539,7 +17287,7 @@
         ],
         "article_count": 1,
         "created_at": "2026-08-30T17:35:09.343803+00:00",
-        "updated_at": "2026-08-31T04:31:41.139773+00:00",
+        "updated_at": "2026-08-31T05:39:45.658703+00:00",
         "engine_version": "case-v6.5.3",
         "priority_score": 10,
         "priority_breakdown": {
@@ -15651,7 +17399,7 @@
         ],
         "article_count": 1,
         "created_at": "2026-08-30T21:12:43.384510+00:00",
-        "updated_at": "2026-08-31T04:31:41.142458+00:00",
+        "updated_at": "2026-08-31T05:39:45.661571+00:00",
         "engine_version": "case-v6.5.3",
         "priority_score": 38,
         "priority_breakdown": {
@@ -15761,7 +17509,7 @@
         ],
         "article_count": 1,
         "created_at": "2026-08-31T02:57:41.173846+00:00",
-        "updated_at": "2026-08-31T04:31:41.147530+00:00",
+        "updated_at": "2026-08-31T05:39:45.666976+00:00",
         "engine_version": "case-v6.5.3",
         "priority_score": 30,
         "priority_breakdown": {
@@ -15873,7 +17621,7 @@
         ],
         "article_count": 1,
         "created_at": "2026-08-31T04:31:33.764805+00:00",
-        "updated_at": "2026-08-31T04:31:41.152909+00:00",
+        "updated_at": "2026-08-31T05:39:45.672766+00:00",
         "engine_version": "case-v6.5.3",
         "priority_score": 28,
         "priority_breakdown": {
@@ -15984,7 +17732,7 @@
         ],
         "article_count": 1,
         "created_at": "2026-08-31T04:31:33.835171+00:00",
-        "updated_at": "2026-08-31T04:31:41.155909+00:00",
+        "updated_at": "2026-08-31T05:39:45.675940+00:00",
         "engine_version": "case-v6.5.3",
         "priority_score": 35,
         "priority_breakdown": {
@@ -16095,7 +17843,7 @@
         ],
         "article_count": 1,
         "created_at": "2026-08-31T04:31:33.911686+00:00",
-        "updated_at": "2026-08-31T04:31:41.158542+00:00",
+        "updated_at": "2026-08-31T05:39:45.678742+00:00",
         "engine_version": "case-v6.5.3",
         "priority_score": 38,
         "priority_breakdown": {
@@ -16125,19 +17873,130 @@
             "Hubungan Polri belum spesifik"
           ]
         }
+      },
+      {
+        "case_id": "CASE-000204",
+        "title": "Polisi Tangkap Koki MBG di Tuban Gegara Peras Kekasih Gelap - Lentera.co",
+        "category": "OKNUM - INTEGRITAS/KEUANGAN",
+        "scope": "negative",
+        "region": "Jawa Timur",
+        "locality": "Tuban",
+        "is_jatim": true,
+        "polres": null,
+        "polsek": null,
+        "priority": "low",
+        "attention_score": 8,
+        "attention_label": "Rendah",
+        "signature": "Jawa Timur",
+        "incident_terms": [
+          "gegara",
+          "gelap",
+          "kekasih",
+          "koki",
+          "lentera",
+          "mbg",
+          "peras",
+          "tuban"
+        ],
+        "event_terms": [],
+        "location_terms": [
+          "tuban"
+        ],
+        "discovery_families": [
+          "financial_misconduct"
+        ],
+        "first_seen": "2026-08-31T04:42:39+00:00",
+        "last_seen": "2026-08-31T05:35:34.184786+00:00",
+        "last_detected_at": "2026-08-31T05:35:34.184786+00:00",
+        "article_ids": [
+          "1362a0d877aa6f4a62a4ede2bae68cb8bd016ea1"
+        ],
+        "articles": [
+          {
+            "id": "1362a0d877aa6f4a62a4ede2bae68cb8bd016ea1",
+            "title": "Polisi Tangkap Koki MBG di Tuban Gegara Peras Kekasih Gelap - Lentera.co",
+            "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQWXlWV1lOZEU5OWF4X05KZTJlRnN3WGoyajBybTRlZ2pySm0zZUlDeHp3cGNnbEs2c0lkSWxtZ05ZdUtGV3BkTmNDd2VhS1doVlAzMERTcEJMSHBHRXJ0M0k5QXBhN2tiS0FISnFCVGprNmJ2ejVsNEIxX25uR2ZFTjVfQ3d4T1hnbUpTLUFvTVEweHpjdFlKV1Fpcw?oc=5",
+            "published_at": "2026-08-31T04:42:39+00:00",
+            "collected_at": "2026-08-31T05:35:34.184786+00:00",
+            "source": "Lentera.co",
+            "match_score": 1.0,
+            "priority": "low",
+            "scope": "negative",
+            "category": "OKNUM - INTEGRITAS/KEUANGAN",
+            "region": "Jawa Timur",
+            "locality": "Tuban",
+            "is_jatim": true,
+            "polres": null,
+            "polsek": null,
+            "issue_type": "UMUM",
+            "issue_subtype": "Belum Teridentifikasi",
+            "handling_status": "BELUM_ADA_INFORMASI",
+            "handling_evidence": [],
+            "polri_relation": null,
+            "polri_relation_points": 0,
+            "polri_relation_evidence": [],
+            "attention_score": 7,
+            "attention_label": "Rendah",
+            "attention_components": {
+              "severity": 2,
+              "polri_relation": 0,
+              "authority": 0,
+              "public_impact": 4,
+              "handling": 0,
+              "evidence": 1,
+              "context_risk": 0,
+              "routine_enforcement_cap": null
+            }
+          }
+        ],
+        "article_count": 1,
+        "created_at": "2026-08-31T05:39:38.553912+00:00",
+        "updated_at": "2026-08-31T05:39:45.684361+00:00",
+        "engine_version": "case-v6.5.3",
+        "priority_score": 8,
+        "priority_breakdown": {
+          "severity": 2,
+          "polri_relation": 0,
+          "authority_context": 0,
+          "public_impact": 4,
+          "handling": 0,
+          "evidence": 1,
+          "spread": 0,
+          "escalation": 0,
+          "current_activity": 1,
+          "context_risk": 0
+        },
+        "priority_evidence": {
+          "unique_sources": 1,
+          "active_today_articles": 1,
+          "escalation": [],
+          "issue_type": "UMUM",
+          "issue_subtype": "Belum Teridentifikasi",
+          "sentiment": "neutral",
+          "polri_relation": "INFORMASI_UMUM",
+          "handling_status": "BELUM_ADA_INFORMASI",
+          "reasons": [
+            "sifat berita: netral",
+            "Hubungan Polri belum spesifik"
+          ]
+        }
       }
     ]
   },
   "social": {
-    "detected": 113,
+    "detected": 121,
     "jatim": 15,
-    "negative": 47,
+    "negative": 49,
     "priority_high": 26,
     "video_ids": [
+      "XxP3DMMb0gk",
+      "A3G_iNwMNCo",
+      "g_3q8hRpuFM",
       "xtqq70fF9D0",
       "J2jJt6MIF3w",
       "6Sx4xkWVGZ8",
       "X0Rs37echPw",
+      "0GhXrdh-bko",
       "t4pL3z9lIbc",
       "J9k6q7jVbmM",
       "JPvBXJxgNtE",
@@ -16162,7 +18021,9 @@
       "b1pOBCIRo-E",
       "UZtZvrmARq0",
       "mIG_ZZcmisM",
+      "P96JRf9Hj3I",
       "_EDxpODhTiM",
+      "CKx9H7FYb04",
       "5m6dNwQylzE",
       "bKh5UjVzZMk",
       "LRIQWEcKrPY",
@@ -16203,6 +18064,7 @@
       "scWd3J7dpX8",
       "qkEGm2twohY",
       "M07f-qnRt10",
+      "DyY-TSzaHVg",
       "tX5P6fWIeKI",
       "zKAeghA-zTo",
       "ohR9k8jx5K0",
@@ -16218,6 +18080,7 @@
       "39Wgn97BiRo",
       "nordjnpfwjQ",
       "bsjL3CSNoGI",
+      "hT_0opmmNJY",
       "6A6wUh6ITSk",
       "Uw_zRSjNrbs",
       "HYgPMyGLjNw",
@@ -16250,23 +18113,23 @@
     ]
   },
   "jatim": {
-    "news_today": 39,
-    "negative_today": 10,
-    "positive_today": 5,
+    "news_today": 44,
+    "negative_today": 11,
+    "positive_today": 6,
     "case_scope_today": 1,
-    "neutral_today": 23,
-    "case_today": 7,
+    "neutral_today": 26,
+    "case_today": 8,
     "case_high_active": 1,
     "article_high_today": 0,
-    "outside_jatim_today": 35
+    "outside_jatim_today": 41
   },
   "regions": [
     {
-      "name": "Malang",
-      "count": 7
+      "name": "Surabaya",
+      "count": 9
     },
     {
-      "name": "Surabaya",
+      "name": "Malang",
       "count": 7
     },
     {
@@ -16274,24 +18137,28 @@
       "count": 5
     },
     {
-      "name": "Pasuruan",
+      "name": "Kediri",
       "count": 3
     },
     {
-      "name": "Kediri",
-      "count": 2
+      "name": "Sumenep",
+      "count": 3
+    },
+    {
+      "name": "Pasuruan",
+      "count": 3
     },
     {
       "name": "Blitar",
       "count": 2
     },
     {
-      "name": "Sumenep",
+      "name": "Tulungagung",
       "count": 2
     },
     {
-      "name": "Tulungagung",
-      "count": 2
+      "name": "Tuban",
+      "count": 1
     },
     {
       "name": "Madiun",
@@ -16344,16 +18211,16 @@
       "count": 3
     },
     {
+      "name": "POLRES KEDIRI",
+      "count": 2
+    },
+    {
       "name": "POLRES BLITAR",
       "count": 2
     },
     {
       "name": "POLRESTA SUMENEP",
       "count": 2
-    },
-    {
-      "name": "POLRES KEDIRI",
-      "count": 1
     },
     {
       "name": "POLRES MADIUN",
@@ -16399,15 +18266,15 @@
   "categories": [
     {
       "name": "NETRAL / LAINNYA",
-      "count": 23
+      "count": 26
     },
     {
       "name": "OKNUM - INTEGRITAS/KEUANGAN",
-      "count": 7
+      "count": 8
     },
     {
       "name": "PRESTASI / KEGIATAN POSITIF",
-      "count": 5
+      "count": 6
     },
     {
       "name": "AKTIVITAS ILEGAL / DUGAAN PEMBIARAN",
@@ -16427,19 +18294,19 @@
     }
   ],
   "summary": {
-    "news_today": 74,
-    "negative_today": 13,
-    "cases_today": 10,
+    "news_today": 85,
+    "negative_today": 14,
+    "cases_today": 12,
     "priority_high": 2,
     "article_priority_high": 2,
-    "jatim_news": 39,
-    "jatim_negative": 10,
-    "jatim_positive": 5,
+    "jatim_news": 44,
+    "jatim_negative": 11,
+    "jatim_positive": 6,
     "jatim_case_scope": 1,
-    "jatim_neutral": 23,
-    "jatim_cases_today": 7,
+    "jatim_neutral": 26,
+    "jatim_cases_today": 8,
     "jatim_case_high_active": 1,
-    "luar_jatim_news": 35,
-    "youtube_today": 113
+    "luar_jatim_news": 41,
+    "youtube_today": 121
   }
 }
