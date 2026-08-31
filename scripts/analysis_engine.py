@@ -309,7 +309,7 @@ def first_issue(text):
 
 def detect_handling(text):
     for status, terms in HANDLING_PATTERNS:
-        hits = [term for term in terms if has(text, term)]
+        hits = [term for term in terms if has_nonnegated(text, term)]
         if hits:
             points = {
                 "BELUM_DITANGANI": 8,
@@ -801,3 +801,277 @@ def case_attention(articles, case=None, active_today=0):
         },
         "reasons": reasons[:10],
     }
+
+# JAGAT_V655_CONTEXT_GUARDRAIL_ACTIVE
+# Final semantic guardrail. The base engine remains the primary classifier;
+# this layer only resolves known high-value contextual contradictions.
+_jagat_v655_base_analyze_article = analyze_article
+
+
+def _jagat_v655_has(text, patterns):
+    return any(re.search(pattern, text) for pattern in patterns)
+
+
+def _jagat_v655_negated(text, patterns):
+    neg = r"(?:tidak|tak|bukan|tanpa)\s+(?:ada\s+)?"
+    for pattern in patterns:
+        if re.search(r"\b" + neg + pattern, text):
+            continue
+        if re.search(pattern, text):
+            return False
+    return True
+
+
+def _jagat_v655_context_result(result, title, summary):
+    text = norm(f"{title} {summary}")
+
+    police_identity = (
+        r"\b(?:polisi|polri|polsek|polres|polresta|polrestabes|polda|kapolres|kapolda)\b"
+    )
+    financial_terms = r"\b(?:pungli|suap|pemerasan|setoran|upeti|tebusan|uang\s+damai|uang\s+pelicin|tangkap\s+lepas|lepas\s+tangkap)\b"
+
+    denial_patterns = [
+        r"\btidak\s+ada\s+pungli\b",
+        r"\bbukan\s+pungli\b",
+        r"\btidak\s+terjadi\s+pungli\b",
+        r"\btidak\s+ada\s+setoran\b",
+        r"\btidak\s+ada\s+uang\s+damai\b",
+        r"\btidak\s+terjadi\s+tangkap\s+lepas\b",
+        r"\btidak\s+ada\s+tangkap\s+lepas\b",
+    ]
+    resolution_patterns = [
+        r"\b(?:sudah|telah|resmi)\s+dibayar\b",
+        r"\bdibayar\s+\d+\s*(?:x|kali)\s*lipat\b",
+        r"\bsepuluh\s+kali\s+lipat\b",
+        r"\b(?:ganti\s+rugi|kompensasi|penggantian)\b",
+        r"\b(?:klarifikasi|penjelasan)\b.*\b(?:dibayar|diselesaikan|diganti)\b",
+    ]
+    explicit_misconduct_patterns = [
+        r"\boknum\s+(?:polisi|polri)\b.*\b(?:diduga|terlibat|meminta|menerima|memeras|menyalahgunakan)\b",
+        r"\b(?:polisi|anggota\s+polisi|anggota\s+polri)\b.*\b(?:diduga\s+meminta|diduga\s+menerima|diduga\s+memeras|diduga\s+melakukan\s+pungli)\b",
+        r"\b(?:kapolres|kapolda)\b.*\b(?:diduga|dituduh|terlibat|meminta|menerima)\b",
+    ]
+
+    direct_tangkap_lepas = _jagat_v655_has(text, [
+        r"\btangkap\s+lepas\b",
+        r"\blepas\s+tangkap\b",
+    ])
+    financial_issue = _jagat_v655_has(text, [financial_terms])
+    police_present = re.search(police_identity, text) is not None
+    police_station_context = re.search(r"\bpolsek\b|\bpolres\b|\bpolresta\b|\bpolrestabes\b|\bpolda\b", text) is not None
+    claimed_police = _jagat_v655_has(text, [
+        r"\bmengaku\s+(?:anggota\s+)?(?:polda|polres|polisi|polri)\b",
+        r"\bmengaku\s+dari\s+(?:polda|polres|polisi|polri)\b",
+    ])
+    explicit_misconduct = _jagat_v655_has(text, explicit_misconduct_patterns)
+    denied = _jagat_v655_has(text, denial_patterns)
+    resolution = _jagat_v655_has(text, resolution_patterns)
+
+    # Strong resolution/denial beats isolated financial keywords unless the
+    # same text still explicitly accuses a police actor of misconduct.
+    if (denied or resolution) and not explicit_misconduct:
+        if result.get("sentiment") != "positive" or result.get("issue_type") != "UMUM":
+            result["sentiment"] = "positive"
+            result["sentiment_label"] = "Positif"
+            result["issue_type"] = "UMUM"
+            result["issue_subtype"] = "Pemulihan / Klarifikasi"
+            result["issue_evidence"] = []
+            result["legacy_priority"] = "low"
+            result["attention_score"] = min(int(result.get("attention_score") or 0), 35)
+            result["attention_label"] = attention_label(result["attention_score"])
+            result["positive_pattern"] = result.get("positive_pattern") or "Pemulihan / klarifikasi"
+            result["attention_reasons"] = [
+                "konteks utama berupa klarifikasi/pemulihan",
+                "tidak ditemukan tuduhan eksplisit yang tetap diarahkan kepada personel",
+            ]
+        return result
+
+    # Explicit allegation of integrity abuse should never fall back to neutral
+    # merely because there is no exact 'polisi diduga' phrase.
+    direct_negative = (
+        (direct_tangkap_lepas and (police_station_context or police_present))
+        or (financial_issue and police_present and (
+            _jagat_v655_has(text, [
+                r"\b(?:dugaan|diduga|mencuat|diminta|meminta|menerima|bayar|dibayar|setoran|uang|rp\b|juta\b|ribu\b)\b"
+            ])
+        ))
+        or (claimed_police and financial_issue)
+    ) and not denied
+
+    if direct_negative:
+        result["sentiment"] = "negative"
+        result["sentiment_label"] = "Negatif"
+        result["issue_type"] = "INTEGRITAS_DAN_KEUANGAN"
+        if claimed_police and not explicit_misconduct:
+            result["issue_subtype"] = "Dugaan Setoran / Mengatasnamakan Polri"
+            result["polri_relation"] = "DUGAAN_MENGATASNAMAKAN_POLRI"
+            score_floor = 50
+        elif direct_tangkap_lepas and not explicit_misconduct:
+            result["issue_subtype"] = "Dugaan Tangkap Lepas / Imbalan"
+            result["polri_relation"] = "SUBJEK_PERMASALAHAN"
+            score_floor = 55
+        else:
+            result["issue_subtype"] = "Pungli / Suap / Pemerasan"
+            result["polri_relation"] = "SUBJEK_PERMASALAHAN"
+            score_floor = 70
+        result["issue_evidence"] = [
+            x for x in [
+                "tangkap lepas" if direct_tangkap_lepas else None,
+                "setoran" if has(text, "setoran") else None,
+                "pungli" if has(text, "pungli") else None,
+                "mengatasnamakan Polri" if claimed_police else None,
+            ] if x
+        ][:5]
+        result["attention_score"] = max(int(result.get("attention_score") or 0), score_floor)
+        result["attention_score"] = min(100, result["attention_score"])
+        result["attention_label"] = attention_label(result["attention_score"])
+        result["legacy_priority"] = legacy_priority(result["attention_score"])
+        result["positive_pattern"] = None
+        result["positive_evidence"] = []
+        result["attention_reasons"] = [
+            "indikasi pelanggaran integritas/keuangan terdeteksi secara kontekstual",
+            "kata kunci dibaca bersama konteks dugaan, aktor, dan/atau lokasi Polri",
+        ]
+        return result
+
+    # If the article is clearly a routine police action, keep it positive even
+    # if the crime itself contains severe words.
+    routine_action = result.get("polri_relation") == "PENEGAKAN_HUKUM" and not explicit_misconduct
+    if routine_action and result.get("sentiment") == "negative" and not financial_issue:
+        if _jagat_v655_has(text, [
+            r"\b(?:berhasil|langsung|berhasil\s+diamankan|diamankan|ditangkap|diungkap)\b",
+            r"\bpolisi\b.*\b(?:menangkap|mengamankan|mengungkap|menyita)\b",
+        ]):
+            result["sentiment"] = "positive"
+            result["sentiment_label"] = "Positif"
+            result["legacy_priority"] = legacy_priority(int(result.get("attention_score") or 0))
+
+    return result
+
+
+def analyze_article(title, summary="", police_context=True):
+    result = _jagat_v655_base_analyze_article(title, summary, police_context)
+    return _jagat_v655_context_result(result, title, summary)
+
+# JAGAT_V656_FINAL_SEMANTIC_CORRECTION
+_jagat_v656_base_analyze_article = analyze_article
+
+
+def _jagat_v656_has(text, patterns):
+    return any(re.search(pattern, text) for pattern in patterns)
+
+
+def _jagat_v656_result(result, title, summary):
+    text = norm(f"{title} {summary}")
+
+    # A serious crime described as a crime/incident is still a negative news
+    # item for JAGAT even when police are the party handling it. This is not the
+    # same as praising the police for a successful arrest.
+    crime_terms = [
+        r"\bpencabulan\b", r"\bpemerkosaan\b", r"\bperkosaan\b",
+        r"\bpembunuhan\b", r"\bpenganiayaan\b", r"\bpenyiksaan\b",
+        r"\bpenembakan\b", r"\bkekerasan\b", r"\btewas\b",
+        r"\bkorban\b",
+    ]
+    explicit_positive_enforcement = _jagat_v656_has(text, [
+        r"\b(?:berhasil|sukses)\b.{0,80}\b(?:ungkap|mengungkap|tangkap|menangkap|amankan|mengamankan|sita|menyita)\b",
+        r"\bpolisi\b.{0,80}\b(?:berhasil|sukses)\b.{0,50}\b(?:ungkap|tangkap|amankan|sita)\b",
+    ])
+
+    if (
+        result.get("polri_relation") == "PENEGAKAN_HUKUM"
+        and result.get("issue_type") != "UMUM"
+        and _jagat_v656_has(text, crime_terms)
+        and not explicit_positive_enforcement
+    ):
+        result["sentiment"] = "negative"
+        result["sentiment_label"] = "Negatif"
+        result["positive_pattern"] = None
+        result["positive_evidence"] = []
+        # Crime by a non-police actor should not automatically become a high
+        # institutional issue merely because the article is negative.
+        result["attention_score"] = min(int(result.get("attention_score") or 0), 39)
+        result["attention_label"] = attention_label(result["attention_score"])
+        result["legacy_priority"] = "low"
+        reasons = list(result.get("attention_reasons") or [])
+        reasons = [r for r in reasons if "sifat berita: positif" not in str(r).lower()]
+        reasons.insert(0, "sifat berita: negatif")
+        result["attention_reasons"] = reasons[:8]
+
+    return result
+
+
+def analyze_article(title, summary="", police_context=True):
+    result = _jagat_v656_base_analyze_article(title, summary, police_context)
+    return _jagat_v656_result(result, title, summary)
+
+# JAGAT_V657_CRIME_SEMANTIC_FALLBACK
+_jagat_v657_base_analyze_article = analyze_article
+
+
+def _jagat_v657_has(text, patterns):
+    return any(re.search(pattern, text) for pattern in patterns)
+
+
+def _jagat_v657_result(result, title, summary):
+    text = norm(f"{title} {summary}")
+
+    police_ref = [
+        r"\bpolisi\b", r"\bpolri\b", r"\bpolsek\b", r"\bpolres\b",
+        r"\bpolresta\b", r"\bpolrestabes\b", r"\bpolda\b",
+        r"\bkapolres\b", r"\bkapolda\b",
+    ]
+    severe_crimes = [
+        ("KEJAHATAN_SEKSUAL", "Kejahatan Seksual", [
+            r"\bpencabulan\b", r"\bcabuli\b", r"\bmencabuli\b", r"\bdicabuli\b",
+            r"\bpemerkosaan\b", r"\bperkosaan\b",
+            r"\bkekerasan\s+seksual\b", r"\bpelecehan\s+seksual\b",
+        ]),
+        ("KEKERASAN_DAN_KEKUATAN", "Kekerasan / Penggunaan Kekuatan", [
+            r"\bpembunuhan\b", r"\bdibunuh\b", r"\bmembunuh\b",
+            r"\bpenganiayaan\b", r"\bpenyiksaan\b", r"\bpenembakan\b",
+            r"\bditembak\b",
+        ]),
+    ]
+
+    resolution_context = _jagat_v657_has(text, [
+        r"\b(?:tidak|tak|bukan)\s+(?:ada|terjadi)?\s*(?:pungli|suap|pemerasan|setoran|tangkap\s+lepas|lepas\s+tangkap)\b",
+        r"\b(?:sudah|telah|resmi)\s+(?:dibayar|diganti|diselesaikan)\b",
+        r"\b(?:ganti\s+rugi|kompensasi|penggantian)\b",
+    ])
+    if resolution_context:
+        return result
+
+    if not _jagat_v657_has(text, police_ref):
+        return result
+
+    for issue_type, subtype, patterns in severe_crimes:
+        if not _jagat_v657_has(text, patterns):
+            continue
+
+        if result.get("polri_relation") == "SUBJEK_PERMASALAHAN":
+            return result
+
+        result["sentiment"] = "negative"
+        result["sentiment_label"] = "Negatif"
+        result["issue_type"] = issue_type
+        result["issue_subtype"] = subtype
+        result["legacy_priority"] = "low"
+        result["attention_score"] = min(int(result.get("attention_score") or 0), 39)
+        result["attention_label"] = attention_label(result["attention_score"])
+        result["positive_pattern"] = None
+        result["positive_evidence"] = []
+        reasons = list(result.get("attention_reasons") or [])
+        reasons = [r for r in reasons if "sifat berita: positif" not in str(r).lower()]
+        reasons.insert(0, "sifat berita: negatif")
+        result["attention_reasons"] = reasons[:8]
+        return result
+
+    return result
+
+
+def analyze_article(title, summary="", police_context=True):
+    result = _jagat_v657_base_analyze_article(title, summary, police_context)
+    return _jagat_v657_result(result, title, summary)
+
+
