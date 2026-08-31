@@ -19,7 +19,10 @@
   const sourceOf = (x) => typeof getSource === "function" ? getSource(x) : (x?.source || x?.publisher || "");
   const dateOf = (x) => typeof getItemDate === "function" ? getItemDate(x) : (x?.collected_at || x?.published_at || "");
   const scopeOf = (x) => String(x?.scope || "neutral").toLowerCase();
-  const urlOf = (x) => typeof normalizeUrl === "function" ? normalizeUrl(x?.url) : String(x?.url || "");
+  const urlOf = (x) => {
+    const preferred = x?.original_url || x?.url;
+    return typeof normalizeUrl === "function" ? normalizeUrl(preferred) : String(preferred || "");
+  };
 
   let currentData = null;
   let currentReportText = "";
