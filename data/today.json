@@ -2,18 +2,37 @@
   "schema_version": "today-v3",
   "date": "2026-08-31",
   "timezone": "Asia/Jakarta",
-  "updated_at": "2026-08-31T09:57:49.669769+07:00",
-  "last_successful_update": "2026-08-31T09:57:49.669769+07:00",
+  "updated_at": "2026-08-31T11:31:42.362960+07:00",
+  "last_successful_update": "2026-08-31T11:31:42.362960+07:00",
   "news": {
-    "detected": 55,
-    "negative": 10,
-    "positive": 9,
+    "detected": 74,
+    "negative": 13,
+    "positive": 10,
     "case": 1,
-    "neutral": 35,
-    "jatim": 29,
-    "luar_jatim": 26,
+    "neutral": 50,
+    "jatim": 39,
+    "luar_jatim": 35,
     "priority_high": 2,
     "article_ids": [
+      "b17e3b15f49fc0e0f605383054ba9256bfc5ad8f",
+      "393aa3e32156d38715b11939cfd92c47068f71bc",
+      "e5ad0bc6cb0491b3813b3b4cd86dad1e25b56098",
+      "437cd45716fdabe0c18cfe1cf72571297341cca0",
+      "b073a90af1756b9a8d78f95a29fc53996f7bce89",
+      "f4f4e474d89c96b3cde02e64d54416255597229e",
+      "29747d4baed2ac70341ee3ae531cff356efa86c8",
+      "6369416476f9094172d411631affec18f9f7b1ed",
+      "680b35b594e8dfe41df9360f29cf7d3f5213e93b",
+      "7c68961b0d0db35ade80691e3281718f60a7c8b9",
+      "11c587528ee6383ca1b3955af4d26224220723cc",
+      "53badc7e66de28b67ffd9f6c51d31b46613697ce",
+      "faf67772e43744729d4afae9a15ab41dbcb2b869",
+      "4b7a5b048e9d54398ee1da404ba8828dd69bc685",
+      "8593e2aa91c4b2ceecc173b85f66cdd60b3deee2",
+      "54b853dd2fbcfe83931ed7263b17d5e39ebc7028",
+      "6d577a8fd20ccec0dd0c46f9071132304f408e61",
+      "30f7adc448b0680843831420d0cfbc7214e7b7ee",
+      "602b73daf2b3f1841cdf2ccb2f5c244860779303",
       "f9812677a6f7ab243d2dbd70d350b8742f272ece",
       "45c1ed675dc11ba6918b4757b34df228e41b9d8d",
       "93b5d7cb051b44f9471b5a3a05a443989bc1e7cb",
@@ -72,6 +91,1316 @@
     ],
     "items": [
       {
+        "id": "b17e3b15f49fc0e0f605383054ba9256bfc5ad8f",
+        "title": "Jukir Tewas Ditembak Polisi di Palu, Propam Dalami Dugaan Kelalaian dan Kesalahan Prosedur - Kompas.com",
+        "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPWTdRNVlJYlRjZHJzMXdMYnJ4U2NlMVZ6RlZlSGxOMDlxNFlXaUlwdTdqSGlLYzBGREhGcFlxQU5BeFluTjVHVXdDZ3Vsc1ZyVlRUNXRYRFRuXzB4cTJ5NTJ1Q01xVW9sOVk2ZHVfVnBPNmk4WjVFRkJrTkt6Ump4bFE3WW9Vd0Nub3dqN3RNVDdCMzVNck9WTHZud0ZrNTdkMzZTMW9RU211aVl3Wk9uLVNwcEpZb1JlTk1ZeXlfX3B1dw?oc=5",
+        "source": "Kompas.com",
+        "published_at": "2026-08-31T04:20:00+00:00",
+        "collected_at": "2026-08-31T04:27:42.355467+00:00",
+        "region": "BELUM TERPETAKAN",
+        "area_label": "BELUM TERPETAKAN",
+        "is_jatim": null,
+        "polres": null,
+        "category": "NETRAL / LAINNYA",
+        "scope": "neutral",
+        "scope_label": "NETRAL",
+        "priority": "low",
+        "summary": "Jukir Tewas Ditembak Polisi di Palu, Propam Dalami Dugaan Kelalaian dan Kesalahan Prosedur Kompas.com",
+        "processing_status": "processed",
+        "classifier_version": "news-v6",
+        "classified_at": "2026-08-31T04:27:42.355467+00:00",
+        "case_id": null,
+        "discovery_families": [],
+        "discovery_tags": [],
+        "discovery_hits": [],
+        "discovery_version": "discovery-v6.5.3",
+        "locality": "",
+        "polsek": null,
+        "location_confidence": 0,
+        "location_evidence": [],
+        "location_status": "BELUM_TERPETAKAN",
+        "location_source": "title",
+        "issue_type": "DISIPLIN_DAN_LAYANAN",
+        "issue_subtype": "Disiplin / Layanan",
+        "issue_evidence": [
+          "kelalaian"
+        ],
+        "handling_status": "BELUM_ADA_INFORMASI",
+        "handling_evidence": [],
+        "attention_score": 20,
+        "attention_label": "Rendah",
+        "attention_components": {
+          "severity": 9,
+          "polri_relation": 0,
+          "authority": 4,
+          "public_impact": 4,
+          "handling": 0,
+          "evidence": 3,
+          "context_risk": 0,
+          "routine_enforcement_cap": null
+        },
+        "attention_evidence": {
+          "severity": [
+            "pembunuhan / korban meninggal",
+            "kekerasan berat"
+          ],
+          "authority": [
+            "propam"
+          ],
+          "public_impact": [],
+          "evidence": [
+            "satu sumber / informasi awal",
+            "ada tindak lanjut resmi"
+          ],
+          "role": [],
+          "issue": [
+            "kelalaian"
+          ],
+          "handling": [],
+          "context": [],
+          "positive": []
+        },
+        "case_engine_version": "case-v6.5.3",
+        "case_processed_at": "2026-08-31T04:30:12.382383+00:00"
+      },
+      {
+        "id": "393aa3e32156d38715b11939cfd92c47068f71bc",
+        "title": "Isu Tambang Emas Liar di Tayan Hilir Sanggau, Ini Hasil Pengecekan Polisi - faktakalbar",
+        "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPOXhMdDluWDNCWGZvV0dkU3BsQU0ybmFXVEFrd1NRR0xSYklMOW5Vc0QzRWZqUUJvZEVHellZRzZCV3JGSDdQeERSS2xsb3ZsRE9xUlJkN2N4RGd4MFJjTmdUT0ZGSjNXNzNtTnpLLVFlVDVPSU1va2dmOVZkT2h4S1g3alpBNHVuLV9VeDIwWnBwZXVZTVktSFR4bVVKQ1RfZlBtOA?oc=5",
+        "source": "faktakalbar",
+        "published_at": "2026-08-31T04:02:03+00:00",
+        "collected_at": "2026-08-31T04:27:42.355467+00:00",
+        "region": "BELUM TERPETAKAN",
+        "area_label": "BELUM TERPETAKAN",
+        "is_jatim": null,
+        "polres": null,
+        "category": "NETRAL / LAINNYA",
+        "scope": "neutral",
+        "scope_label": "NETRAL",
+        "priority": "low",
+        "summary": "Isu Tambang Emas Liar di Tayan Hilir Sanggau, Ini Hasil Pengecekan Polisi faktakalbar",
+        "processing_status": "processed",
+        "classifier_version": "news-v6",
+        "classified_at": "2026-08-31T04:27:42.355467+00:00",
+        "case_id": null,
+        "discovery_families": [],
+        "discovery_tags": [],
+        "discovery_hits": [],
+        "discovery_version": "discovery-v6.5.3",
+        "locality": "",
+        "polsek": null,
+        "location_confidence": 0,
+        "location_evidence": [],
+        "location_status": "BELUM_TERPETAKAN",
+        "location_source": "title",
+        "issue_type": "UMUM",
+        "issue_subtype": "Belum Teridentifikasi",
+        "issue_evidence": [],
+        "handling_status": "BELUM_ADA_INFORMASI",
+        "handling_evidence": [],
+        "attention_score": 7,
+        "attention_label": "Rendah",
+        "attention_components": {
+          "severity": 2,
+          "polri_relation": 0,
+          "authority": 0,
+          "public_impact": 4,
+          "handling": 0,
+          "evidence": 1,
+          "context_risk": 0,
+          "routine_enforcement_cap": null
+        },
+        "attention_evidence": {
+          "severity": [],
+          "authority": [],
+          "public_impact": [],
+          "evidence": [
+            "satu sumber / informasi awal"
+          ],
+          "role": [],
+          "issue": [],
+          "handling": [],
+          "context": [],
+          "positive": []
+        },
+        "case_engine_version": "case-v6.5.3",
+        "case_processed_at": "2026-08-31T04:30:12.445565+00:00"
+      },
+      {
+        "id": "e5ad0bc6cb0491b3813b3b4cd86dad1e25b56098",
+        "title": "4 Kali Tersandung Narkoba, Revaldo Kini Resmi Ditahan Polisi - VIVA.co.id",
+        "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOYVRrY0x4V2Q1S1lfUFJJSnNEeWFUcl9ZcXp6QjhkT0xFMzZPOWFBa24yd1pFejRwelRXWVh2MEt0cHdQMVJVY0Z5Y0tKa3pqb2dhSUstanJ2Njh3bmFERVVmcHdpVjhKXy1kOW82OURmTWNLdXZaUWc4STlWOTA4Q2RkeHB4ZDNRVk45VTg1X01tXzc3Z0tKWHp5SWIyZXhkRzRncGNR?oc=5",
+        "source": "VIVA.co.id",
+        "published_at": "2026-08-31T03:56:37+00:00",
+        "collected_at": "2026-08-31T04:27:42.355467+00:00",
+        "region": "BELUM TERPETAKAN",
+        "area_label": "BELUM TERPETAKAN",
+        "is_jatim": null,
+        "polres": null,
+        "category": "NETRAL / LAINNYA",
+        "scope": "neutral",
+        "scope_label": "NETRAL",
+        "priority": "low",
+        "summary": "4 Kali Tersandung Narkoba, Revaldo Kini Resmi Ditahan Polisi VIVA.co.id",
+        "processing_status": "processed",
+        "classifier_version": "news-v6",
+        "classified_at": "2026-08-31T04:27:42.355467+00:00",
+        "case_id": null,
+        "discovery_families": [],
+        "discovery_tags": [],
+        "discovery_hits": [],
+        "discovery_version": "discovery-v6.5.3",
+        "locality": "",
+        "polsek": null,
+        "location_confidence": 0,
+        "location_evidence": [],
+        "location_status": "BELUM_TERPETAKAN",
+        "location_source": "title",
+        "issue_type": "NARKOBA",
+        "issue_subtype": "Narkoba / Narkotika",
+        "issue_evidence": [
+          "narkoba"
+        ],
+        "handling_status": "SUDAH_DITINDAK",
+        "handling_evidence": [
+          "ditahan"
+        ],
+        "attention_score": 18,
+        "attention_label": "Rendah",
+        "attention_components": {
+          "severity": 11,
+          "polri_relation": 0,
+          "authority": 0,
+          "public_impact": 4,
+          "handling": 2,
+          "evidence": 1,
+          "context_risk": 0,
+          "routine_enforcement_cap": null
+        },
+        "attention_evidence": {
+          "severity": [],
+          "authority": [],
+          "public_impact": [],
+          "evidence": [
+            "satu sumber / informasi awal"
+          ],
+          "role": [],
+          "issue": [
+            "narkoba"
+          ],
+          "handling": [
+            "ditahan"
+          ],
+          "context": [],
+          "positive": []
+        },
+        "case_engine_version": "case-v6.5.3",
+        "case_processed_at": "2026-08-31T04:30:12.504099+00:00"
+      },
+      {
+        "id": "437cd45716fdabe0c18cfe1cf72571297341cca0",
+        "title": "Baru Pimpin Polres Kediri Rotasi Tigas Kapolsek, AKBP Wahyudin Latif Tekankan Penguatan Pelayanan ke Masyarakat - Kediri Tangguh",
+        "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPN0ZtaklnN2syeHRESlFWRG9mWE1wYjBGTTBRSVVnVWxieVdISGV4MGtacEtQT0l3UmhCVTBJVlBWYm5aYWdNdVdlT3NxNlFaYjNwSXBwcTA5b095X3NWY0VBU0thYWFack1ocGVwSzk1YTFpVzJiM0E1VXBTTnd2dzdXaTZnRHJyb2JmYVlad3c5MDJqeXZIZF9xeFdiR24tOGNSU2J2REdhdEdCQ0YzcUpINlBfbVpnZzB1SWxyUHJXY0x6bnV6djVIMXB6TGNIY2c?oc=5",
+        "source": "Kediri Tangguh",
+        "published_at": "2026-08-31T03:48:33+00:00",
+        "collected_at": "2026-08-31T04:27:42.355467+00:00",
+        "region": "Jawa Timur",
+        "area_label": "Kediri",
+        "is_jatim": true,
+        "polres": "POLRES KEDIRI",
+        "category": "PRESTASI / KEGIATAN POSITIF",
+        "scope": "positive",
+        "scope_label": "POSITIF / KEGIATAN",
+        "priority": "low",
+        "summary": "Baru Pimpin Polres Kediri Rotasi Tigas Kapolsek, AKBP Wahyudin Latif Tekankan Penguatan Pelayanan ke Masyarakat Kediri Tangguh",
+        "processing_status": "processed",
+        "classifier_version": "news-v6",
+        "classified_at": "2026-08-31T04:27:42.355467+00:00",
+        "case_id": null,
+        "discovery_families": [],
+        "discovery_tags": [],
+        "discovery_hits": [],
+        "discovery_version": "discovery-v6.5.3",
+        "locality": "Kediri",
+        "polsek": null,
+        "location_confidence": 100,
+        "location_evidence": [
+          "polres kediri",
+          "Kediri"
+        ],
+        "location_status": "JAWA_TIMUR",
+        "location_source": "title",
+        "issue_type": "UMUM",
+        "issue_subtype": "Belum Teridentifikasi",
+        "issue_evidence": [],
+        "handling_status": "BELUM_ADA_INFORMASI",
+        "handling_evidence": [],
+        "attention_score": 19,
+        "attention_label": "Rendah",
+        "attention_components": {
+          "severity": 2,
+          "polri_relation": 0,
+          "authority": 4,
+          "public_impact": 12,
+          "handling": 0,
+          "evidence": 1,
+          "context_risk": 0,
+          "routine_enforcement_cap": null
+        },
+        "attention_evidence": {
+          "severity": [],
+          "authority": [
+            "akbp"
+          ],
+          "public_impact": [
+            "dampak kepada masyarakat"
+          ],
+          "evidence": [
+            "satu sumber / informasi awal"
+          ],
+          "role": [],
+          "issue": [],
+          "handling": [],
+          "context": [],
+          "positive": [
+            "\\b(?:pelayanan|inovasi|prestasi|penghargaan|apresiasi)\\b.{0,100}\\b(?:polisi|polres|polda|polri)\\b"
+          ]
+        },
+        "case_engine_version": "case-v6.5.3",
+        "case_processed_at": "2026-08-31T04:30:12.585057+00:00"
+      },
+      {
+        "id": "b073a90af1756b9a8d78f95a29fc53996f7bce89",
+        "title": "Anggota Polsek Srengat Menghadiri Kegiatan di Kel. Dandong - Website Resmi Polri",
+        "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPbHJjX09zMUV0aVctY05CZlpQOVVnRHpaa1hyelZIVTFRemRSM2dxeDc3ZlJzZWhBcU9hVGNENVFiLW9INGR4SXVxZGExMG9YOThoZXZUNFZDR3pVRTJtalZ3ZjVqcy1FSGVKZjViUG1GRTJrVHlsWm8tU3VoaGVvQklyQnlHR2tLZWxjYWpKTEN2Y1lmbEZEcDQ3T1lXZlQ4ZmpidWZza01MUml1VFliVVpPMVBDZ0RPclBfaw?oc=5",
+        "source": "Website Resmi Polri",
+        "published_at": "2026-08-31T03:47:20+00:00",
+        "collected_at": "2026-08-31T04:27:42.355467+00:00",
+        "region": "BELUM TERPETAKAN",
+        "area_label": "BELUM TERPETAKAN",
+        "is_jatim": null,
+        "polres": null,
+        "category": "NETRAL / LAINNYA",
+        "scope": "neutral",
+        "scope_label": "NETRAL",
+        "priority": "low",
+        "summary": "Anggota Polsek Srengat Menghadiri Kegiatan di Kel. Dandong Website Resmi Polri",
+        "processing_status": "processed",
+        "classifier_version": "news-v6",
+        "classified_at": "2026-08-31T04:27:42.355467+00:00",
+        "case_id": null,
+        "discovery_families": [],
+        "discovery_tags": [],
+        "discovery_hits": [],
+        "discovery_version": "discovery-v6.5.3",
+        "locality": "",
+        "polsek": "POLSEK SRENGAT MENGHADIRI KEGIATAN",
+        "location_confidence": 0,
+        "location_evidence": [
+          "POLSEK SRENGAT MENGHADIRI KEGIATAN"
+        ],
+        "location_status": "BELUM_TERPETAKAN",
+        "location_source": "title",
+        "issue_type": "UMUM",
+        "issue_subtype": "Belum Teridentifikasi",
+        "issue_evidence": [],
+        "handling_status": "BELUM_ADA_INFORMASI",
+        "handling_evidence": [],
+        "attention_score": 7,
+        "attention_label": "Rendah",
+        "attention_components": {
+          "severity": 2,
+          "polri_relation": 0,
+          "authority": 0,
+          "public_impact": 4,
+          "handling": 0,
+          "evidence": 1,
+          "context_risk": 0,
+          "routine_enforcement_cap": null
+        },
+        "attention_evidence": {
+          "severity": [],
+          "authority": [],
+          "public_impact": [],
+          "evidence": [
+            "satu sumber / informasi awal"
+          ],
+          "role": [],
+          "issue": [],
+          "handling": [],
+          "context": [],
+          "positive": []
+        },
+        "case_engine_version": "case-v6.5.3",
+        "case_processed_at": "2026-08-31T04:30:12.647801+00:00"
+      },
+      {
+        "id": "f4f4e474d89c96b3cde02e64d54416255597229e",
+        "title": "Gagal Berangkatkan Haji, Pria Asal NTB ditangkap Polres Tulungagung - jatimnow.com",
+        "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOd2hLVG10ME1MZloxLW50bGl2Tk5LWmw3OTU3SjFVVUtZT3c2MVp1S09KOENsb2tyZzNGV0RTem5ybFY4eHRDNHl3azhxWlBGdlVrNVRrSWtwSUtJeDBHMGlrSlp2VmhRMzJqcWZaY1JpTi0xeGNzdk1xUFNUaWFOYmE0U1cycHdNaWQyQ0NiR0RKVkdNZi1RNTRLZG1SNzDSAaQBQVVfeXFMTkxFcmwyS2JYT2F6YzNwcEF0ZFpnTVRCaEloSFdmSmlzZGNMcUs4OEFXb2J0ZGxfQWs4VU9odU4wZkN0aVQzYVBjSlhIdHdXZUZ5ODIyV1VVRHZsMmY1dnZrOEVIajVkV0I2bUFxdGQ4aGx4aXlVZEdsaXBVM0lQVGlJMVJpeHNCcmVyQlQyaF9yR1g0SllESGppZXBzT1JCMWg4TFM?oc=5",
+        "source": "jatimnow.com",
+        "published_at": "2026-08-31T03:45:00+00:00",
+        "collected_at": "2026-08-31T04:27:42.355467+00:00",
+        "region": "LUAR JATIM",
+        "area_label": "LUAR JATIM",
+        "is_jatim": false,
+        "polres": null,
+        "category": "NETRAL / LAINNYA",
+        "scope": "neutral",
+        "scope_label": "NETRAL",
+        "priority": "low",
+        "summary": "Gagal Berangkatkan Haji, Pria Asal NTB ditangkap Polres Tulungagung jatimnow.com",
+        "processing_status": "processed",
+        "classifier_version": "news-v6",
+        "classified_at": "2026-08-31T04:27:42.355467+00:00",
+        "case_id": null,
+        "discovery_families": [],
+        "discovery_tags": [],
+        "discovery_hits": [],
+        "discovery_version": "discovery-v6.5.3",
+        "locality": "",
+        "polsek": null,
+        "location_confidence": 100,
+        "location_evidence": [
+          "ntb"
+        ],
+        "location_status": "LUAR_JATIM",
+        "location_source": "title",
+        "issue_type": "UMUM",
+        "issue_subtype": "Belum Teridentifikasi",
+        "issue_evidence": [],
+        "handling_status": "BELUM_ADA_INFORMASI",
+        "handling_evidence": [],
+        "attention_score": 7,
+        "attention_label": "Rendah",
+        "attention_components": {
+          "severity": 2,
+          "polri_relation": 0,
+          "authority": 0,
+          "public_impact": 4,
+          "handling": 0,
+          "evidence": 1,
+          "context_risk": 0,
+          "routine_enforcement_cap": null
+        },
+        "attention_evidence": {
+          "severity": [],
+          "authority": [],
+          "public_impact": [],
+          "evidence": [
+            "satu sumber / informasi awal"
+          ],
+          "role": [],
+          "issue": [],
+          "handling": [],
+          "context": [],
+          "positive": []
+        },
+        "case_engine_version": "case-v6.5.3",
+        "case_processed_at": "2026-08-31T04:30:12.710488+00:00"
+      },
+      {
+        "id": "29747d4baed2ac70341ee3ae531cff356efa86c8",
+        "title": "Respon Laporan 110, Polres Malang Bakar Arena Diduga Sabung Ayam di Sumberpucung - Website Resmi Polri",
+        "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxNYnVxVFQ2WHBhZjBaRklCZlhPaVhlcnNqbzNySnVXUnIxVnJIZFpBYkFWWG54MFMyY2pabHRoWDhpZWtFMmZGV3djWWlBZHZwNnFQa1YtVmxhU1lHRVlQTGZFYkI3X05CaDZEa1R2MUlaWHZkTUliZXFsWGlZbDJKcGd1V19WTl9YQzRoVFc5RTg3ekRLMUZVZFNQa2NtYjcxSXVBQ3pReUdRR0RpTDZsQUpWNTVwTlR4blJiSk0xZUlSOXpTejZUb090Y1ItdWxoS1F6OV9GOA?oc=5",
+        "source": "Website Resmi Polri",
+        "published_at": "2026-08-31T03:43:32+00:00",
+        "collected_at": "2026-08-31T04:27:42.355467+00:00",
+        "region": "Jawa Timur",
+        "area_label": "Malang",
+        "is_jatim": true,
+        "polres": "POLRES MALANG",
+        "category": "AKTIVITAS ILEGAL / DUGAAN PEMBIARAN",
+        "scope": "negative",
+        "scope_label": "NEGATIF / ATENSI",
+        "priority": "low",
+        "summary": "Respon Laporan 110, Polres Malang Bakar Arena Diduga Sabung Ayam di Sumberpucung Website Resmi Polri",
+        "processing_status": "processed",
+        "classifier_version": "news-v6",
+        "classified_at": "2026-08-31T04:27:42.355467+00:00",
+        "case_id": "CASE-000200",
+        "discovery_families": [
+          "illegal_activity_backing"
+        ],
+        "discovery_tags": [
+          "backing",
+          "illegal_activity",
+          "public_order"
+        ],
+        "discovery_hits": [
+          "sabung ayam"
+        ],
+        "discovery_version": "discovery-v6.5.3",
+        "locality": "Malang",
+        "polsek": null,
+        "location_confidence": 100,
+        "location_evidence": [
+          "polres malang",
+          "Malang"
+        ],
+        "location_status": "JAWA_TIMUR",
+        "location_source": "title",
+        "issue_type": "AKTIVITAS_ILEGAL",
+        "issue_subtype": "Aktivitas Ilegal",
+        "issue_evidence": [
+          "sabung ayam"
+        ],
+        "handling_status": "BELUM_ADA_INFORMASI",
+        "handling_evidence": [],
+        "attention_score": 27,
+        "attention_label": "Rendah",
+        "attention_components": {
+          "severity": 14,
+          "polri_relation": 0,
+          "authority": 0,
+          "public_impact": 12,
+          "handling": 0,
+          "evidence": 1,
+          "context_risk": 0,
+          "routine_enforcement_cap": null
+        },
+        "attention_evidence": {
+          "severity": [],
+          "authority": [],
+          "public_impact": [
+            "dampak kepada masyarakat"
+          ],
+          "evidence": [
+            "satu sumber / informasi awal"
+          ],
+          "role": [],
+          "issue": [
+            "sabung ayam"
+          ],
+          "handling": [],
+          "context": [],
+          "positive": []
+        },
+        "case_engine_version": "case-v6.5.3",
+        "case_processed_at": "2026-08-31T04:31:41.158699+00:00"
+      },
+      {
+        "id": "6369416476f9094172d411631affec18f9f7b1ed",
+        "title": "Kasus Bayi Dibuang di Pulau Sebatik, Polisi Amankan Wanita Diduga Pelaku Sekaligus Ibu Kandung - Kompas.com",
+        "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQY3lLWkNvMjNGclk2Q2F3NG5JSkY0d2Q0bHpvbERKYTN0Y29zcjBnNUZrZnVSNEx5OFdLYmwyTFlhNmcxOWxPTGMxVWZSSDZRZFpqdEhJbGNqbWR6S19iTWpnaXBvV3g5eDlPMzNjOURKLWo5ekxyUWpuQTZxYUc4WWVDV0p4Y2NuTmRCelRCcnpybFBEN0JoejhGUFhURHVMOHd1bzdEaHdtNFl4d0Z3Wk5yWUxGR1psQ1ZHdm85dlVOT00?oc=5",
+        "source": "Kompas.com",
+        "published_at": "2026-08-31T03:40:00+00:00",
+        "collected_at": "2026-08-31T04:27:42.355467+00:00",
+        "region": "BELUM TERPETAKAN",
+        "area_label": "BELUM TERPETAKAN",
+        "is_jatim": null,
+        "polres": null,
+        "category": "NETRAL / LAINNYA",
+        "scope": "neutral",
+        "scope_label": "NETRAL",
+        "priority": "low",
+        "summary": "Kasus Bayi Dibuang di Pulau Sebatik, Polisi Amankan Wanita Diduga Pelaku Sekaligus Ibu Kandung Kompas.com",
+        "processing_status": "processed",
+        "classifier_version": "news-v6",
+        "classified_at": "2026-08-31T04:27:42.355467+00:00",
+        "case_id": null,
+        "discovery_families": [],
+        "discovery_tags": [],
+        "discovery_hits": [],
+        "discovery_version": "discovery-v6.5.3",
+        "locality": "",
+        "polsek": null,
+        "location_confidence": 0,
+        "location_evidence": [],
+        "location_status": "BELUM_TERPETAKAN",
+        "location_source": "title",
+        "issue_type": "UMUM",
+        "issue_subtype": "Belum Teridentifikasi",
+        "issue_evidence": [],
+        "handling_status": "BELUM_ADA_INFORMASI",
+        "handling_evidence": [],
+        "attention_score": 29,
+        "attention_label": "Rendah",
+        "attention_components": {
+          "severity": 2,
+          "polri_relation": 16,
+          "authority": 0,
+          "public_impact": 10,
+          "handling": 0,
+          "evidence": 1,
+          "context_risk": 0,
+          "routine_enforcement_cap": null
+        },
+        "attention_evidence": {
+          "severity": [],
+          "authority": [],
+          "public_impact": [
+            "dampak institusional"
+          ],
+          "evidence": [
+            "satu sumber / informasi awal"
+          ],
+          "role": [
+            "Polri/personel menjadi subjek permasalahan"
+          ],
+          "issue": [],
+          "handling": [],
+          "context": [],
+          "positive": []
+        },
+        "case_engine_version": "case-v6.5.3",
+        "case_processed_at": "2026-08-31T04:30:12.791906+00:00"
+      },
+      {
+        "id": "680b35b594e8dfe41df9360f29cf7d3f5213e93b",
+        "title": "Polres Malang Perkuat Kolaborasi Lintas Sektor Jaga Stabilitas Pangan - Website Resmi Polri",
+        "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPRnRpSWh5V203amNRWndhMHRmeGRlNTE3RHhDclI1VUxKOWNRRXVlSGthbHBieE1UU2lYOFVSMGZkY1o2eFRJLW9wanhzZ3FUNjd1NWtadU9wRUt6eTNJX0Zfa3ptM05yNTE4V0JTLWpBTnNraVdtSERtS3lEYkNMUnYzZng4a0xCRFBvc0FCZzhLbGE0ajQtWEpCSFVTNGpZUXVwV2tscjZTOXdkZkJDZTNtaWhJMGRPVjJCcTlhLVQzSUhlUkl5TnNB?oc=5",
+        "source": "Website Resmi Polri",
+        "published_at": "2026-08-31T03:39:45+00:00",
+        "collected_at": "2026-08-31T04:27:42.355467+00:00",
+        "region": "Jawa Timur",
+        "area_label": "Malang",
+        "is_jatim": true,
+        "polres": "POLRES MALANG",
+        "category": "NETRAL / LAINNYA",
+        "scope": "neutral",
+        "scope_label": "NETRAL",
+        "priority": "low",
+        "summary": "Polres Malang Perkuat Kolaborasi Lintas Sektor Jaga Stabilitas Pangan Website Resmi Polri",
+        "processing_status": "processed",
+        "classifier_version": "news-v6",
+        "classified_at": "2026-08-31T04:27:42.355467+00:00",
+        "case_id": null,
+        "discovery_families": [],
+        "discovery_tags": [],
+        "discovery_hits": [],
+        "discovery_version": "discovery-v6.5.3",
+        "locality": "Malang",
+        "polsek": null,
+        "location_confidence": 100,
+        "location_evidence": [
+          "polres malang",
+          "Malang"
+        ],
+        "location_status": "JAWA_TIMUR",
+        "location_source": "title",
+        "issue_type": "UMUM",
+        "issue_subtype": "Belum Teridentifikasi",
+        "issue_evidence": [],
+        "handling_status": "BELUM_ADA_INFORMASI",
+        "handling_evidence": [],
+        "attention_score": 7,
+        "attention_label": "Rendah",
+        "attention_components": {
+          "severity": 2,
+          "polri_relation": 0,
+          "authority": 0,
+          "public_impact": 4,
+          "handling": 0,
+          "evidence": 1,
+          "context_risk": 0,
+          "routine_enforcement_cap": null
+        },
+        "attention_evidence": {
+          "severity": [],
+          "authority": [],
+          "public_impact": [],
+          "evidence": [
+            "satu sumber / informasi awal"
+          ],
+          "role": [],
+          "issue": [],
+          "handling": [],
+          "context": [],
+          "positive": []
+        },
+        "case_engine_version": "case-v6.5.3",
+        "case_processed_at": "2026-08-31T04:30:12.852383+00:00"
+      },
+      {
+        "id": "7c68961b0d0db35ade80691e3281718f60a7c8b9",
+        "title": "Polres Malang Dorong Tiap Desa Maksimalkan Potensi Pangan Lokal - Website Resmi Polri",
+        "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNLXBYMEgzNTQtM2tVUFNfZDB5bWxyTmdnVjM2QmxoM1JvOVZic0k1akhqeldtQld5UUJ5QzJfcjBvQWtvWk44Ql85WWVta3BzRFBfZHlpQnpVY012WDFJNW5rbV9Ub2l4VG9HdnpxYjlDbnkwWHZXSmVDckhhNjdMT1pUbU9nRmxMV2dYb0dublF2eEF4UFhrN3JibUlUNVNWMjd2X0UyNVgxeEVYSldFc3djcTA2aVQ5MHYzME9WcmQwQQ?oc=5",
+        "source": "Website Resmi Polri",
+        "published_at": "2026-08-31T03:38:17+00:00",
+        "collected_at": "2026-08-31T04:27:42.355467+00:00",
+        "region": "Jawa Timur",
+        "area_label": "Malang",
+        "is_jatim": true,
+        "polres": "POLRES MALANG",
+        "category": "NETRAL / LAINNYA",
+        "scope": "neutral",
+        "scope_label": "NETRAL",
+        "priority": "low",
+        "summary": "Polres Malang Dorong Tiap Desa Maksimalkan Potensi Pangan Lokal Website Resmi Polri",
+        "processing_status": "processed",
+        "classifier_version": "news-v6",
+        "classified_at": "2026-08-31T04:27:42.355467+00:00",
+        "case_id": null,
+        "discovery_families": [],
+        "discovery_tags": [],
+        "discovery_hits": [],
+        "discovery_version": "discovery-v6.5.3",
+        "locality": "Malang",
+        "polsek": null,
+        "location_confidence": 100,
+        "location_evidence": [
+          "polres malang",
+          "Malang"
+        ],
+        "location_status": "JAWA_TIMUR",
+        "location_source": "title",
+        "issue_type": "UMUM",
+        "issue_subtype": "Belum Teridentifikasi",
+        "issue_evidence": [],
+        "handling_status": "BELUM_ADA_INFORMASI",
+        "handling_evidence": [],
+        "attention_score": 7,
+        "attention_label": "Rendah",
+        "attention_components": {
+          "severity": 2,
+          "polri_relation": 0,
+          "authority": 0,
+          "public_impact": 4,
+          "handling": 0,
+          "evidence": 1,
+          "context_risk": 0,
+          "routine_enforcement_cap": null
+        },
+        "attention_evidence": {
+          "severity": [],
+          "authority": [],
+          "public_impact": [],
+          "evidence": [
+            "satu sumber / informasi awal"
+          ],
+          "role": [],
+          "issue": [],
+          "handling": [],
+          "context": [],
+          "positive": []
+        },
+        "case_engine_version": "case-v6.5.3",
+        "case_processed_at": "2026-08-31T04:30:12.910932+00:00"
+      },
+      {
+        "id": "11c587528ee6383ca1b3955af4d26224220723cc",
+        "title": "Polres Malang Kawal Pangan dari Produksi hingga Distribusi - Website Resmi Polri",
+        "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOT2F6eTNCNjlieWtsSnlEbWVpZDFORjJGbzZhZWc4dzlXLVBUTW55akw1TDBhUHNWYzlOLVhaNmxCaFhaZV9UUm96dk9CbFhXMDdJdmdzRkNIQ0lDVFJxdjh0X1NiRHlCSTgtRmlVU1lvQnFvUjZRX1JjNzU2SkdvTTNWaDN5Z1dwN1N4RklTRVFWM3VNamktZVUxZjk1T1dzdnVFX2s1UU5lYnhrMnV1aFV0UVA0ajVpVGg0?oc=5",
+        "source": "Website Resmi Polri",
+        "published_at": "2026-08-31T03:36:32+00:00",
+        "collected_at": "2026-08-31T04:27:42.355467+00:00",
+        "region": "Jawa Timur",
+        "area_label": "Malang",
+        "is_jatim": true,
+        "polres": "POLRES MALANG",
+        "category": "NETRAL / LAINNYA",
+        "scope": "neutral",
+        "scope_label": "NETRAL",
+        "priority": "low",
+        "summary": "Polres Malang Kawal Pangan dari Produksi hingga Distribusi Website Resmi Polri",
+        "processing_status": "processed",
+        "classifier_version": "news-v6",
+        "classified_at": "2026-08-31T04:27:42.355467+00:00",
+        "case_id": null,
+        "discovery_families": [],
+        "discovery_tags": [],
+        "discovery_hits": [],
+        "discovery_version": "discovery-v6.5.3",
+        "locality": "Malang",
+        "polsek": null,
+        "location_confidence": 100,
+        "location_evidence": [
+          "polres malang",
+          "Malang"
+        ],
+        "location_status": "JAWA_TIMUR",
+        "location_source": "title",
+        "issue_type": "UMUM",
+        "issue_subtype": "Belum Teridentifikasi",
+        "issue_evidence": [],
+        "handling_status": "BELUM_ADA_INFORMASI",
+        "handling_evidence": [],
+        "attention_score": 7,
+        "attention_label": "Rendah",
+        "attention_components": {
+          "severity": 2,
+          "polri_relation": 0,
+          "authority": 0,
+          "public_impact": 4,
+          "handling": 0,
+          "evidence": 1,
+          "context_risk": 0,
+          "routine_enforcement_cap": null
+        },
+        "attention_evidence": {
+          "severity": [],
+          "authority": [],
+          "public_impact": [],
+          "evidence": [
+            "satu sumber / informasi awal"
+          ],
+          "role": [],
+          "issue": [],
+          "handling": [],
+          "context": [],
+          "positive": []
+        },
+        "case_engine_version": "case-v6.5.3",
+        "case_processed_at": "2026-08-31T04:30:12.965646+00:00"
+      },
+      {
+        "id": "53badc7e66de28b67ffd9f6c51d31b46613697ce",
+        "title": "Polres Malang Gandeng Warga Jadi Penggerak Ketahanan Pangan - Website Resmi Polri",
+        "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQVVJJNkdFSFVsWmE0b0g2NkRkOFlJaERVNVpqbHFXdXJhNFNGak1nYldGUUtTUU9IXzB3N2JxN3VId3NkNDBCNllrVmhNSGhBV0h5cEhMWHpzOFgwTTVNWENfS0hXalVGdzZBcWtuYVpjSkRKOF9BT3B1SUZ4OTh1aVpHaVJrQjJlS0JNanVYUks4VXBrdHhQS0J3WWJmTTdBckZSWDNleXljbGhKRV82eUJuRmlQeU5aMkRkZg?oc=5",
+        "source": "Website Resmi Polri",
+        "published_at": "2026-08-31T03:34:26+00:00",
+        "collected_at": "2026-08-31T04:27:42.355467+00:00",
+        "region": "Jawa Timur",
+        "area_label": "Malang",
+        "is_jatim": true,
+        "polres": "POLRES MALANG",
+        "category": "NETRAL / LAINNYA",
+        "scope": "neutral",
+        "scope_label": "NETRAL",
+        "priority": "low",
+        "summary": "Polres Malang Gandeng Warga Jadi Penggerak Ketahanan Pangan Website Resmi Polri",
+        "processing_status": "processed",
+        "classifier_version": "news-v6",
+        "classified_at": "2026-08-31T04:27:42.355467+00:00",
+        "case_id": null,
+        "discovery_families": [],
+        "discovery_tags": [],
+        "discovery_hits": [],
+        "discovery_version": "discovery-v6.5.3",
+        "locality": "Malang",
+        "polsek": null,
+        "location_confidence": 100,
+        "location_evidence": [
+          "polres malang",
+          "Malang"
+        ],
+        "location_status": "JAWA_TIMUR",
+        "location_source": "title",
+        "issue_type": "UMUM",
+        "issue_subtype": "Belum Teridentifikasi",
+        "issue_evidence": [],
+        "handling_status": "BELUM_ADA_INFORMASI",
+        "handling_evidence": [],
+        "attention_score": 15,
+        "attention_label": "Rendah",
+        "attention_components": {
+          "severity": 2,
+          "polri_relation": 0,
+          "authority": 0,
+          "public_impact": 12,
+          "handling": 0,
+          "evidence": 1,
+          "context_risk": 0,
+          "routine_enforcement_cap": null
+        },
+        "attention_evidence": {
+          "severity": [],
+          "authority": [],
+          "public_impact": [
+            "dampak kepada masyarakat"
+          ],
+          "evidence": [
+            "satu sumber / informasi awal"
+          ],
+          "role": [],
+          "issue": [],
+          "handling": [],
+          "context": [],
+          "positive": []
+        },
+        "case_engine_version": "case-v6.5.3",
+        "case_processed_at": "2026-08-31T04:30:13.022300+00:00"
+      },
+      {
+        "id": "faf67772e43744729d4afae9a15ab41dbcb2b869",
+        "title": "Polres Malang Jaga Ketahanan Pangan agar Berkelanjutan - Website Resmi Polri",
+        "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNSE02QlJJd1FGc2hfSmJFT01oeWIwSm9DVlZGUGJHTG5qcnZpc0E3czJGcmdvYm9haFFDOHVoZ1Vac1B1dXQyeTZ4eTVyZURla1BVNEpOdWNJV2JpZGc5bERyTWdFeFRUMFJpSEJnaUxjUHR0WFFSUDRkWnBYdUpBaGNaWGszVVo2T1hUbDFDcmhqTXlpa19iWWRBQnUwZzZ3TmkxX0JCQXg2WEo0V1plNGRpVE42Zw?oc=5",
+        "source": "Website Resmi Polri",
+        "published_at": "2026-08-31T03:32:20+00:00",
+        "collected_at": "2026-08-31T04:27:42.355467+00:00",
+        "region": "Jawa Timur",
+        "area_label": "Malang",
+        "is_jatim": true,
+        "polres": "POLRES MALANG",
+        "category": "NETRAL / LAINNYA",
+        "scope": "neutral",
+        "scope_label": "NETRAL",
+        "priority": "low",
+        "summary": "Polres Malang Jaga Ketahanan Pangan agar Berkelanjutan Website Resmi Polri",
+        "processing_status": "processed",
+        "classifier_version": "news-v6",
+        "classified_at": "2026-08-31T04:27:42.355467+00:00",
+        "case_id": null,
+        "discovery_families": [],
+        "discovery_tags": [],
+        "discovery_hits": [],
+        "discovery_version": "discovery-v6.5.3",
+        "locality": "Malang",
+        "polsek": null,
+        "location_confidence": 100,
+        "location_evidence": [
+          "polres malang",
+          "Malang"
+        ],
+        "location_status": "JAWA_TIMUR",
+        "location_source": "title",
+        "issue_type": "UMUM",
+        "issue_subtype": "Belum Teridentifikasi",
+        "issue_evidence": [],
+        "handling_status": "BELUM_ADA_INFORMASI",
+        "handling_evidence": [],
+        "attention_score": 7,
+        "attention_label": "Rendah",
+        "attention_components": {
+          "severity": 2,
+          "polri_relation": 0,
+          "authority": 0,
+          "public_impact": 4,
+          "handling": 0,
+          "evidence": 1,
+          "context_risk": 0,
+          "routine_enforcement_cap": null
+        },
+        "attention_evidence": {
+          "severity": [],
+          "authority": [],
+          "public_impact": [],
+          "evidence": [
+            "satu sumber / informasi awal"
+          ],
+          "role": [],
+          "issue": [],
+          "handling": [],
+          "context": [],
+          "positive": []
+        },
+        "case_engine_version": "case-v6.5.3",
+        "case_processed_at": "2026-08-31T04:30:13.076787+00:00"
+      },
+      {
+        "id": "4b7a5b048e9d54398ee1da404ba8828dd69bc685",
+        "title": "Kerusuhan di Triple X Night Club Surabaya, Polisi Amankan 3 Terduga Pelaku - Kabar Jawa Timur",
+        "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOWVV1VXpRWkx3R1pQUlFpQTRRekVfTEJBODdtbW1QQTQtbWFHT0Jkc2NDeVYyRmVFNFpaRk9QZGNhbXgyNXpxcTNIRzVXRHJ6cUkwckJXNzd4MlFTWG5yUmlPSThtTjhmZ3NMN1pMdGxyYWRGenUzMm5yNnhkUTVHbGhzel9Ma2djRlZEYS12cWFUUW5rZjk2V29saktld2pQRVdRa0hYbDNiRnZ0NUE?oc=5",
+        "source": "Kabar Jawa Timur",
+        "published_at": "2026-08-31T03:22:33+00:00",
+        "collected_at": "2026-08-31T04:27:42.355467+00:00",
+        "region": "Jawa Timur",
+        "area_label": "Surabaya",
+        "is_jatim": true,
+        "polres": null,
+        "category": "KEAMANAN / KAMTIBMAS",
+        "scope": "negative",
+        "scope_label": "NEGATIF / ATENSI",
+        "priority": "medium",
+        "summary": "Kerusuhan di Triple X Night Club Surabaya, Polisi Amankan 3 Terduga Pelaku Kabar Jawa Timur",
+        "processing_status": "processed",
+        "classifier_version": "news-v6",
+        "classified_at": "2026-08-31T04:27:42.355467+00:00",
+        "case_id": "CASE-000201",
+        "discovery_families": [
+          "security_public_order"
+        ],
+        "discovery_tags": [
+          "public_order",
+          "security"
+        ],
+        "discovery_hits": [
+          "kerusuhan"
+        ],
+        "discovery_version": "discovery-v6.5.3",
+        "locality": "Surabaya",
+        "polsek": null,
+        "location_confidence": 95,
+        "location_evidence": [
+          "Surabaya"
+        ],
+        "location_status": "JAWA_TIMUR",
+        "location_source": "title",
+        "issue_type": "KEAMANAN_DAN_KAMTIBMAS",
+        "issue_subtype": "Gangguan Keamanan / Kamtibmas",
+        "issue_evidence": [
+          "kerusuhan"
+        ],
+        "handling_status": "BELUM_ADA_INFORMASI",
+        "handling_evidence": [],
+        "attention_score": 40,
+        "attention_label": "Sedang",
+        "attention_components": {
+          "severity": 21,
+          "polri_relation": 2,
+          "authority": 0,
+          "public_impact": 10,
+          "handling": 0,
+          "evidence": 1,
+          "context_risk": 0,
+          "routine_enforcement_cap": 35
+        },
+        "attention_evidence": {
+          "severity": [],
+          "authority": [],
+          "public_impact": [
+            "dampak peristiwa"
+          ],
+          "evidence": [
+            "satu sumber / informasi awal"
+          ],
+          "role": [
+            "Polri sebagai pihak penindak"
+          ],
+          "issue": [
+            "kerusuhan"
+          ],
+          "handling": [],
+          "context": [],
+          "positive": []
+        },
+        "case_engine_version": "case-v6.5.3",
+        "case_processed_at": "2026-08-31T04:31:41.158706+00:00"
+      },
+      {
+        "id": "8593e2aa91c4b2ceecc173b85f66cdd60b3deee2",
+        "title": "Minta Uang ke Warga yang Hendak Mengambil Barang Bukti, Polisi di Surabaya Kena Demosi - Tribunnews.com",
+        "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNaFZLemtkOGM0WlRSTlllMFZpSmtVNE5ZVUdjMnV4OFhuMjE0MVZ1NkxNRHhjc3QwX0VtcTBITzQ5eDU2SXdVTVVjMmVhNUo0eVpvV0ZFZjY4S09reGxmUzRGWEdEMmdaYlNjMzJVMG5taC1xWXkwOUJMTmVlMkkyS2M4dndrSFd3c08wODdmRGF5b1dLLW5ZcUFnMlNMNkRzRVZUS1o4RG5oVno4aHIxUVIxM0lXMzhaaGx3ZGdUTUNPcUc1azZhNw?oc=5",
+        "source": "Tribunnews.com",
+        "published_at": "2026-08-31T03:20:00+00:00",
+        "collected_at": "2026-08-31T04:27:42.355467+00:00",
+        "region": "Jawa Timur",
+        "area_label": "Surabaya",
+        "is_jatim": true,
+        "polres": null,
+        "category": "OKNUM - INTEGRITAS/KEUANGAN",
+        "scope": "negative",
+        "scope_label": "NEGATIF / ATENSI",
+        "priority": "medium",
+        "summary": "Minta Uang ke Warga yang Hendak Mengambil Barang Bukti, Polisi di Surabaya Kena Demosi Tribunnews.com",
+        "processing_status": "processed",
+        "classifier_version": "news-v6",
+        "classified_at": "2026-08-31T04:27:42.355467+00:00",
+        "case_id": "CASE-000202",
+        "discovery_families": [
+          "financial_misconduct"
+        ],
+        "discovery_tags": [
+          "financial_misconduct",
+          "integrity"
+        ],
+        "discovery_hits": [
+          "minta uang"
+        ],
+        "discovery_version": "discovery-v6.5.3",
+        "locality": "Surabaya",
+        "polsek": null,
+        "location_confidence": 95,
+        "location_evidence": [
+          "Surabaya"
+        ],
+        "location_status": "JAWA_TIMUR",
+        "location_source": "title",
+        "issue_type": "INTEGRITAS_DAN_KEUANGAN",
+        "issue_subtype": "Pungli / Suap / Pemerasan",
+        "issue_evidence": [
+          "minta uang"
+        ],
+        "handling_status": "BELUM_ADA_INFORMASI",
+        "handling_evidence": [],
+        "attention_score": 40,
+        "attention_label": "Sedang",
+        "attention_components": {
+          "severity": 24,
+          "polri_relation": 0,
+          "authority": 0,
+          "public_impact": 12,
+          "handling": 0,
+          "evidence": 1,
+          "context_risk": 0,
+          "routine_enforcement_cap": null
+        },
+        "attention_evidence": {
+          "severity": [],
+          "authority": [],
+          "public_impact": [
+            "dampak kepada masyarakat"
+          ],
+          "evidence": [
+            "satu sumber / informasi awal"
+          ],
+          "role": [],
+          "issue": [
+            "minta uang"
+          ],
+          "handling": [],
+          "context": [],
+          "positive": []
+        },
+        "case_engine_version": "case-v6.5.3",
+        "case_processed_at": "2026-08-31T04:31:41.158708+00:00"
+      },
+      {
+        "id": "54b853dd2fbcfe83931ed7263b17d5e39ebc7028",
+        "title": "POLRES MADIUN – Commander Wish Pagi, Polsek Pilangkenceng Hadir Jaga Kelancaran Arus Lalu Lintas - Tribratanews Polres Madiun",
+        "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxOSWlWVnBWQl9yWklJMVhvNG9Pc0N6ejk2cjJVeEQ5SWczdktsek9KZ1ZhT0JJSzZJTDlHeGpqMzZRczZ4VHc5aVhQdnlBUUphMHA3WVMtazdndXgzbTdFZjRDN3hrRzdDLVdHcGhRajQxRnFXTXBScUtuSm5UblRfRUhjSElwNGhnUEUwdENEVWFzZi1xQjhJcTFxYVhUcW1IOEVtVW1CVU93cWxfZWNsZ3ZKMlBUZ1JyYVRwSEZtbWpib09jV1Nwa1Q2WEVXbEJvUVNPaEhn?oc=5",
+        "source": "Tribratanews Polres Madiun",
+        "published_at": "2026-08-31T03:16:00+00:00",
+        "collected_at": "2026-08-31T04:27:42.355467+00:00",
+        "region": "Jawa Timur",
+        "area_label": "Madiun",
+        "is_jatim": true,
+        "polres": "POLRES MADIUN",
+        "category": "NETRAL / LAINNYA",
+        "scope": "neutral",
+        "scope_label": "NETRAL",
+        "priority": "low",
+        "summary": "POLRES MADIUN – Commander Wish Pagi, Polsek Pilangkenceng Hadir Jaga Kelancaran Arus Lalu Lintas Tribratanews Polres Madiun",
+        "processing_status": "processed",
+        "classifier_version": "news-v6",
+        "classified_at": "2026-08-31T04:27:42.355467+00:00",
+        "case_id": null,
+        "discovery_families": [],
+        "discovery_tags": [],
+        "discovery_hits": [],
+        "discovery_version": "discovery-v6.5.3",
+        "locality": "Madiun",
+        "polsek": "POLSEK PILANGKENCENG HADIR JAGA",
+        "location_confidence": 100,
+        "location_evidence": [
+          "polres madiun",
+          "POLSEK PILANGKENCENG HADIR JAGA",
+          "Madiun"
+        ],
+        "location_status": "JAWA_TIMUR",
+        "location_source": "title",
+        "issue_type": "UMUM",
+        "issue_subtype": "Belum Teridentifikasi",
+        "issue_evidence": [],
+        "handling_status": "BELUM_ADA_INFORMASI",
+        "handling_evidence": [],
+        "attention_score": 7,
+        "attention_label": "Rendah",
+        "attention_components": {
+          "severity": 2,
+          "polri_relation": 0,
+          "authority": 0,
+          "public_impact": 4,
+          "handling": 0,
+          "evidence": 1,
+          "context_risk": 0,
+          "routine_enforcement_cap": null
+        },
+        "attention_evidence": {
+          "severity": [],
+          "authority": [],
+          "public_impact": [],
+          "evidence": [
+            "satu sumber / informasi awal"
+          ],
+          "role": [],
+          "issue": [],
+          "handling": [],
+          "context": [],
+          "positive": []
+        },
+        "case_engine_version": "case-v6.5.3",
+        "case_processed_at": "2026-08-31T04:30:13.153186+00:00"
+      },
+      {
+        "id": "6d577a8fd20ccec0dd0c46f9071132304f408e61",
+        "title": "Cegah Balap Liar, Polsek Dagangan Bekali Pelajar SMPN 1 Dagangan dengan Edukasi Kamtibmas - Tribratanews Polres Madiun",
+        "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOenlvZHhyNWRaWGNxY2hhd3ZnRHE4UHRpN0pRRU51b0RmZExMemhMdG1VeUdjNXV4Y1ZVLWFwSWJIZlVXU3REQ3dTRUNETWV6bEQ4el9TR2dBQld4LUVMY2ZpTFhYUzRwM1lqWVVkaDlRUlR2eXZkaXR5UGJkcWRtdVIyTHVRZ1hJWmh6MkViZEJxeXRFaDhhaDNTcEkxbXB1T1FxcGhHdFRsRHpZSk1KdEtmMVdoRU1QOW9PQVVsZmUzMnRqQXZfVlN4MFJjNXM?oc=5",
+        "source": "Tribratanews Polres Madiun",
+        "published_at": "2026-08-31T03:15:00+00:00",
+        "collected_at": "2026-08-31T04:27:42.355467+00:00",
+        "region": "BELUM TERPETAKAN",
+        "area_label": "BELUM TERPETAKAN",
+        "is_jatim": null,
+        "polres": null,
+        "category": "NETRAL / LAINNYA",
+        "scope": "neutral",
+        "scope_label": "NETRAL",
+        "priority": "low",
+        "summary": "Cegah Balap Liar, Polsek Dagangan Bekali Pelajar SMPN 1 Dagangan dengan Edukasi Kamtibmas Tribratanews Polres Madiun",
+        "processing_status": "processed",
+        "classifier_version": "news-v6",
+        "classified_at": "2026-08-31T04:27:42.355467+00:00",
+        "case_id": null,
+        "discovery_families": [],
+        "discovery_tags": [],
+        "discovery_hits": [],
+        "discovery_version": "discovery-v6.5.3",
+        "locality": "",
+        "polsek": "POLSEK DAGANGAN BEKALI PELAJAR",
+        "location_confidence": 0,
+        "location_evidence": [
+          "POLSEK DAGANGAN BEKALI PELAJAR"
+        ],
+        "location_status": "BELUM_TERPETAKAN",
+        "location_source": "title",
+        "issue_type": "UMUM",
+        "issue_subtype": "Belum Teridentifikasi",
+        "issue_evidence": [],
+        "handling_status": "BELUM_ADA_INFORMASI",
+        "handling_evidence": [],
+        "attention_score": 7,
+        "attention_label": "Rendah",
+        "attention_components": {
+          "severity": 2,
+          "polri_relation": 0,
+          "authority": 0,
+          "public_impact": 4,
+          "handling": 0,
+          "evidence": 1,
+          "context_risk": 0,
+          "routine_enforcement_cap": null
+        },
+        "attention_evidence": {
+          "severity": [],
+          "authority": [],
+          "public_impact": [],
+          "evidence": [
+            "satu sumber / informasi awal"
+          ],
+          "role": [],
+          "issue": [],
+          "handling": [],
+          "context": [],
+          "positive": []
+        },
+        "case_engine_version": "case-v6.5.3",
+        "case_processed_at": "2026-08-31T04:30:13.247330+00:00"
+      },
+      {
+        "id": "30f7adc448b0680843831420d0cfbc7214e7b7ee",
+        "title": "Bhabinkamtibmas Desa Bagi Hadiri Maulid Nabi, Pererat Sinergitas dengan Tokoh Agama dan Masyarakat - Tribratanews Polres Madiun",
+        "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxQcUJvbTAwaDZrU1QxbzhPMmVRZlIxS2xkVDladjNsOXdNRFFHN3NXZG92MTJ5RklsTF9jOHNOalpWMWtlRUNYd25PR1pjSXhsWnRUVy1ZWGNweXQ4bXROV0lUcXdWSUNEM1FKRkJfOUJ0cmRheVNncWVFeGRXS1hCMk9HaHUyelZpd2I5Q1Z0bXhJMGRMN2YxNUtPbFpIQ3lFZ0VhWE9WNDdmMTI3MXN1a3p3WVFWUUU1RG84Zmo0Q1FMWlR1MlFWbGJmelR0THNSZkpjaHBDYjhVbzA?oc=5",
+        "source": "Tribratanews Polres Madiun",
+        "published_at": "2026-08-31T03:13:00+00:00",
+        "collected_at": "2026-08-31T04:27:42.355467+00:00",
+        "region": "BELUM TERPETAKAN",
+        "area_label": "BELUM TERPETAKAN",
+        "is_jatim": null,
+        "polres": null,
+        "category": "NETRAL / LAINNYA",
+        "scope": "neutral",
+        "scope_label": "NETRAL",
+        "priority": "low",
+        "summary": "Bhabinkamtibmas Desa Bagi Hadiri Maulid Nabi, Pererat Sinergitas dengan Tokoh Agama dan Masyarakat Tribratanews Polres Madiun",
+        "processing_status": "processed",
+        "classifier_version": "news-v6",
+        "classified_at": "2026-08-31T04:27:42.355467+00:00",
+        "case_id": null,
+        "discovery_families": [],
+        "discovery_tags": [],
+        "discovery_hits": [],
+        "discovery_version": "discovery-v6.5.3",
+        "locality": "",
+        "polsek": null,
+        "location_confidence": 0,
+        "location_evidence": [],
+        "location_status": "BELUM_TERPETAKAN",
+        "location_source": "title",
+        "issue_type": "UMUM",
+        "issue_subtype": "Belum Teridentifikasi",
+        "issue_evidence": [],
+        "handling_status": "BELUM_ADA_INFORMASI",
+        "handling_evidence": [],
+        "attention_score": 15,
+        "attention_label": "Rendah",
+        "attention_components": {
+          "severity": 2,
+          "polri_relation": 0,
+          "authority": 0,
+          "public_impact": 12,
+          "handling": 0,
+          "evidence": 1,
+          "context_risk": 0,
+          "routine_enforcement_cap": null
+        },
+        "attention_evidence": {
+          "severity": [],
+          "authority": [],
+          "public_impact": [
+            "dampak kepada masyarakat"
+          ],
+          "evidence": [
+            "satu sumber / informasi awal"
+          ],
+          "role": [],
+          "issue": [],
+          "handling": [],
+          "context": [],
+          "positive": []
+        },
+        "case_engine_version": "case-v6.5.3",
+        "case_processed_at": "2026-08-31T04:30:13.336113+00:00"
+      },
+      {
+        "id": "602b73daf2b3f1841cdf2ccb2f5c244860779303",
+        "title": "Polsek Balerejo Dorong Masyarakat Kedungjati Perkuat Kamtibmas dan Ketahanan Pangan - Tribratanews Polres Madiun",
+        "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPMVR2UU8takh0Z2JtSVJBalZjSzgyTVltaTRXUUhmcXZWMkh3ZWlkd0JKc3JIUHdpNEpyakdNUkNkQTZyUXB5OU96dTFvWWpmUXFRVlJSV0E2U1lCczhMTHB3Y0VZTzlsc1A2QnNqdURadFFlMm1HMXgzOGYwSmgzX29lLV9hT3Q1Slo0aExBX3ZXX2JqUmQ1cXZKQUV0Nkd6QklOMHZUanJFTUNtQy0xV0tEcWhDaURFd0dEVTV2T3hXdGZNanZvdQ?oc=5",
+        "source": "Tribratanews Polres Madiun",
+        "published_at": "2026-08-31T03:07:00+00:00",
+        "collected_at": "2026-08-31T04:27:42.355467+00:00",
+        "region": "BELUM TERPETAKAN",
+        "area_label": "BELUM TERPETAKAN",
+        "is_jatim": null,
+        "polres": null,
+        "category": "NETRAL / LAINNYA",
+        "scope": "neutral",
+        "scope_label": "NETRAL",
+        "priority": "low",
+        "summary": "Polsek Balerejo Dorong Masyarakat Kedungjati Perkuat Kamtibmas dan Ketahanan Pangan Tribratanews Polres Madiun",
+        "processing_status": "processed",
+        "classifier_version": "news-v6",
+        "classified_at": "2026-08-31T04:27:42.355467+00:00",
+        "case_id": null,
+        "discovery_families": [],
+        "discovery_tags": [],
+        "discovery_hits": [],
+        "discovery_version": "discovery-v6.5.3",
+        "locality": "",
+        "polsek": "POLSEK BALEREJO DORONG MASYARAKAT",
+        "location_confidence": 0,
+        "location_evidence": [
+          "POLSEK BALEREJO DORONG MASYARAKAT"
+        ],
+        "location_status": "BELUM_TERPETAKAN",
+        "location_source": "title",
+        "issue_type": "UMUM",
+        "issue_subtype": "Belum Teridentifikasi",
+        "issue_evidence": [],
+        "handling_status": "BELUM_ADA_INFORMASI",
+        "handling_evidence": [],
+        "attention_score": 15,
+        "attention_label": "Rendah",
+        "attention_components": {
+          "severity": 2,
+          "polri_relation": 0,
+          "authority": 0,
+          "public_impact": 12,
+          "handling": 0,
+          "evidence": 1,
+          "context_risk": 0,
+          "routine_enforcement_cap": null
+        },
+        "attention_evidence": {
+          "severity": [],
+          "authority": [],
+          "public_impact": [
+            "dampak kepada masyarakat"
+          ],
+          "evidence": [
+            "satu sumber / informasi awal"
+          ],
+          "role": [],
+          "issue": [],
+          "handling": [],
+          "context": [],
+          "positive": []
+        },
+        "case_engine_version": "case-v6.5.3",
+        "case_processed_at": "2026-08-31T04:30:13.416686+00:00"
+      },
+      {
         "id": "f9812677a6f7ab243d2dbd70d350b8742f272ece",
         "title": "Polres Pacitan Ingatkan Ancaman Pidana Pembakar Hutan, Hukuman Maksimal 15 Tahun - beritajatim.com",
         "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNMWpIaTNvcEJKTlN0LWp1MTUxT0NidDJLUllid1U5LTdhVW15LUoyWkE1Wnp5eF9LV2RreXpTWjNnN2VidG1SZTdSQkJrYnh1dDFpejFkUEZyY3F0VnhtaWozNE1IVmJOaFNXdGpyS21la0RVVEpHSnIza2Fza2VxSzBGd2w1enMwbl9WZmtCdWI1VTNYbG56R1I4MmpiLXYyMUF4Yk9B?oc=5",
@@ -135,7 +1464,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-31T02:56:22.290006+00:00"
+        "case_processed_at": "2026-08-31T04:30:13.485466+00:00"
       },
       {
         "id": "45c1ed675dc11ba6918b4757b34df228e41b9d8d",
@@ -212,7 +1541,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-31T02:57:48.099453+00:00"
+        "case_processed_at": "2026-08-31T04:31:41.158713+00:00"
       },
       {
         "id": "93b5d7cb051b44f9471b5a3a05a443989bc1e7cb",
@@ -281,7 +1610,7 @@
           ]
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-31T02:56:22.375767+00:00"
+        "case_processed_at": "2026-08-31T04:30:13.565243+00:00"
       },
       {
         "id": "ac2e4d3eb40b68443b656a980f7b8064f088a54a",
@@ -347,7 +1676,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-31T02:56:22.457093+00:00"
+        "case_processed_at": "2026-08-31T04:30:13.644506+00:00"
       },
       {
         "id": "9a162fc4d7683572c8c36e5d9990d717ca362e0d",
@@ -418,7 +1747,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-31T02:56:22.528435+00:00"
+        "case_processed_at": "2026-08-31T04:30:13.718221+00:00"
       },
       {
         "id": "1ccdacc7a16e48d3423b02d0ea9a06407df70a69",
@@ -485,7 +1814,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-31T02:56:22.594975+00:00"
+        "case_processed_at": "2026-08-31T04:30:13.773953+00:00"
       },
       {
         "id": "16f2d204c4cfc4e7266ffd54fa1339feeee42306",
@@ -550,7 +1879,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-31T02:56:22.663938+00:00"
+        "case_processed_at": "2026-08-31T04:30:13.845415+00:00"
       },
       {
         "id": "7a5531aa428b42fcabedfa1255e1ab6960aa56c8",
@@ -626,7 +1955,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-31T02:57:48.099459+00:00"
+        "case_processed_at": "2026-08-31T04:31:41.158718+00:00"
       },
       {
         "id": "6b77c8e4342c01c222f774cc55b2398cfd691cf4",
@@ -711,7 +2040,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-31T02:57:48.099461+00:00"
+        "case_processed_at": "2026-08-31T04:31:41.158721+00:00"
       },
       {
         "id": "a0092b6f9db3e058f9f988ff13dfb3e332d231f0",
@@ -788,7 +2117,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-31T02:57:48.099463+00:00"
+        "case_processed_at": "2026-08-31T04:31:41.158723+00:00"
       },
       {
         "id": "8bff7193e219068bf8b47545412d1837e3897089",
@@ -865,7 +2194,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-31T02:57:48.099465+00:00"
+        "case_processed_at": "2026-08-31T04:31:41.158726+00:00"
       },
       {
         "id": "d0529b443aaacb29de700befca43ad0c7f3d8777",
@@ -930,7 +2259,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-31T02:56:22.740434+00:00"
+        "case_processed_at": "2026-08-31T04:30:13.924865+00:00"
       },
       {
         "id": "eb129ca3ff3ad1974da5bea14459849e9e000f25",
@@ -999,7 +2328,7 @@
           ]
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-31T02:56:22.846040+00:00"
+        "case_processed_at": "2026-08-31T04:30:14.034404+00:00"
       },
       {
         "id": "619e098b5f973438cb7ee7c3ecefcc824ca3d04c",
@@ -1068,7 +2397,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-31T02:56:22.916989+00:00"
+        "case_processed_at": "2026-08-31T04:30:14.107056+00:00"
       },
       {
         "id": "0447206c6f28c8d7622207c5f122a5dc58c8ef2e",
@@ -1136,7 +2465,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-31T02:56:22.988714+00:00"
+        "case_processed_at": "2026-08-31T04:30:14.180991+00:00"
       },
       {
         "id": "5a25788ecaf7476135ded1e01c841767e2942996",
@@ -1209,7 +2538,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-31T02:56:23.058124+00:00"
+        "case_processed_at": "2026-08-31T04:30:14.252406+00:00"
       },
       {
         "id": "ab07e34db625f7cc375a5915e09d0a42a7c95a30",
@@ -1278,7 +2607,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-31T02:56:23.140959+00:00"
+        "case_processed_at": "2026-08-31T04:30:14.338722+00:00"
       },
       {
         "id": "940996c13dbb9a158746c27225736afbc1d72da8",
@@ -1349,7 +2678,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-31T02:56:23.213807+00:00"
+        "case_processed_at": "2026-08-31T04:30:14.414539+00:00"
       },
       {
         "id": "d32d84791ebd09ecd584f7e1a981acfcad5f8cf4",
@@ -1417,7 +2746,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-31T02:56:23.273217+00:00"
+        "case_processed_at": "2026-08-31T04:30:14.475353+00:00"
       },
       {
         "id": "4e75eb37536e4887653b670f1aa87355a08e930a",
@@ -1490,7 +2819,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-31T02:56:23.363250+00:00"
+        "case_processed_at": "2026-08-31T04:30:14.566802+00:00"
       },
       {
         "id": "87517585e20d6c70f9a5e6238b0ba1bc0a156067",
@@ -1558,7 +2887,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-31T02:56:23.434721+00:00"
+        "case_processed_at": "2026-08-31T04:30:14.640563+00:00"
       },
       {
         "id": "405f1658a063b917e094dc0331d49fafbf5e0204",
@@ -1624,7 +2953,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-31T02:56:23.503739+00:00"
+        "case_processed_at": "2026-08-31T04:30:14.711688+00:00"
       },
       {
         "id": "38a3a69905f13f806c7fed8a0f1e9aa1e63ca589",
@@ -1695,7 +3024,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-31T02:56:23.562512+00:00"
+        "case_processed_at": "2026-08-31T04:30:14.772464+00:00"
       },
       {
         "id": "ea9b72c3b0f6d4a3924a763d5bcc6356b6dcd292",
@@ -1775,7 +3104,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-31T02:57:48.099470+00:00"
+        "case_processed_at": "2026-08-31T04:31:41.158733+00:00"
       },
       {
         "id": "e4dbb7f3d875f07e3127d4d64b5f78b0a87941bc",
@@ -1853,7 +3182,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-31T02:57:48.099472+00:00"
+        "case_processed_at": "2026-08-31T04:31:41.158735+00:00"
       },
       {
         "id": "877f490b0a8294ded947dc809e53ea290c21ef58",
@@ -1918,7 +3247,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-31T02:56:23.644411+00:00"
+        "case_processed_at": "2026-08-31T04:30:14.858366+00:00"
       },
       {
         "id": "2810852e20198493a100461e2836680d388b611a",
@@ -2001,7 +3330,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-31T02:57:48.099475+00:00"
+        "case_processed_at": "2026-08-31T04:31:41.158737+00:00"
       },
       {
         "id": "19894c03d044267b970b744a13207b07aa4c19fd",
@@ -2066,7 +3395,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-31T02:56:23.696526+00:00"
+        "case_processed_at": "2026-08-31T04:30:14.912227+00:00"
       },
       {
         "id": "e27bbceadb513c6124cee64b5a126b28296d1cf1",
@@ -2131,7 +3460,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-31T02:56:23.761916+00:00"
+        "case_processed_at": "2026-08-31T04:30:14.979819+00:00"
       },
       {
         "id": "3499dc65f4035bdd258f8decb5601fd84445c7f8",
@@ -2196,7 +3525,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-31T02:56:23.810885+00:00"
+        "case_processed_at": "2026-08-31T04:30:15.029583+00:00"
       },
       {
         "id": "91567e173456acf39e19426c3e87c8c517abbbe4",
@@ -2262,7 +3591,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-31T02:56:23.878428+00:00"
+        "case_processed_at": "2026-08-31T04:30:15.098851+00:00"
       },
       {
         "id": "08a4aa16e7e6996801c630eb44fa3832cbf2ff5f",
@@ -2331,7 +3660,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-31T02:56:23.935195+00:00"
+        "case_processed_at": "2026-08-31T04:30:15.157018+00:00"
       },
       {
         "id": "9e1d19cca08d3a6df56376b4f052564f07477820",
@@ -2394,7 +3723,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-31T02:56:24.008099+00:00"
+        "case_processed_at": "2026-08-31T04:30:15.231990+00:00"
       },
       {
         "id": "9bb2c56c99c49c9a071a3e3c13fedb2c67314c6f",
@@ -2471,7 +3800,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-31T02:56:24.073407+00:00"
+        "case_processed_at": "2026-08-31T04:30:15.298936+00:00"
       },
       {
         "id": "d22f352a03fcfb020d93bb6f88df57dead59be83",
@@ -2551,7 +3880,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-31T02:57:48.099479+00:00"
+        "case_processed_at": "2026-08-31T04:31:41.158743+00:00"
       },
       {
         "id": "e867bda30bd1b79f48decd17dfc4c07fb6b6bee7",
@@ -2617,7 +3946,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-31T02:56:24.134650+00:00"
+        "case_processed_at": "2026-08-31T04:30:15.362322+00:00"
       },
       {
         "id": "17a808e47ba2d1c4f71c68b9eed0c757722ea714",
@@ -2683,7 +4012,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-31T02:56:24.200630+00:00"
+        "case_processed_at": "2026-08-31T04:30:15.429969+00:00"
       },
       {
         "id": "fae166f6850f952782ebe053d47a44a45e19ec83",
@@ -2749,7 +4078,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-31T02:56:24.248038+00:00"
+        "case_processed_at": "2026-08-31T04:30:15.478540+00:00"
       },
       {
         "id": "532379fd5a3ffecd3755c62694e5797d203e4062",
@@ -2812,7 +4141,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-31T02:56:24.308296+00:00"
+        "case_processed_at": "2026-08-31T04:30:15.540203+00:00"
       },
       {
         "id": "2bbb7632fcee05d555e17c5144659f5628af9517",
@@ -2875,7 +4204,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-31T02:56:24.376043+00:00"
+        "case_processed_at": "2026-08-31T04:30:15.610027+00:00"
       },
       {
         "id": "6488122494924628b7730c769ed351502accc7f6",
@@ -2959,7 +4288,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-31T02:57:48.099483+00:00"
+        "case_processed_at": "2026-08-31T04:31:41.158748+00:00"
       },
       {
         "id": "86e6b9956a8affdecae25646c9913fe10c9c415f",
@@ -3026,7 +4355,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-31T02:56:24.435687+00:00"
+        "case_processed_at": "2026-08-31T04:30:15.670963+00:00"
       },
       {
         "id": "6dc694a02f94e8848b112f38cca70644278955ba",
@@ -3091,7 +4420,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-31T02:56:24.502945+00:00"
+        "case_processed_at": "2026-08-31T04:30:15.740095+00:00"
       },
       {
         "id": "a3fa52c67bdb82953cfbd4c4f2c365bcdbf99263",
@@ -3157,7 +4486,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-31T02:56:24.589971+00:00"
+        "case_processed_at": "2026-08-31T04:30:15.830122+00:00"
       },
       {
         "id": "7e186ca741a433c4a6cffbc7d66996055db388ae",
@@ -3228,7 +4557,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-31T02:56:24.658012+00:00"
+        "case_processed_at": "2026-08-31T04:30:15.902057+00:00"
       },
       {
         "id": "f7e3bfb7b7eb2b3f0195aa99be7d072b4aa1eb19",
@@ -3297,7 +4626,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-31T02:56:24.722242+00:00"
+        "case_processed_at": "2026-08-31T04:30:15.967688+00:00"
       },
       {
         "id": "b25078d938a8e0689b3cd06b528ae51c3edb3b6e",
@@ -3362,7 +4691,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-31T02:56:24.785741+00:00"
+        "case_processed_at": "2026-08-31T04:30:16.032173+00:00"
       },
       {
         "id": "666343ac9e300fb3b86ac937f3d40624943a079f",
@@ -3432,7 +4761,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-31T02:56:24.841168+00:00"
+        "case_processed_at": "2026-08-31T04:30:16.088796+00:00"
       },
       {
         "id": "28783407f2c216a20aa63955a9e353db1560e7ca",
@@ -3497,7 +4826,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-31T02:56:24.923112+00:00"
+        "case_processed_at": "2026-08-31T04:30:16.173794+00:00"
       },
       {
         "id": "bdab0a3bd33b3b1cdf2b6732d311e7d630dbd4fc",
@@ -3565,7 +4894,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-31T02:57:48.099488+00:00"
+        "case_processed_at": "2026-08-31T04:31:41.158753+00:00"
       },
       {
         "id": "d44abf0f47124fcc6afc0a83e24bbae78788d7b4",
@@ -3630,7 +4959,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-31T02:56:25.004376+00:00"
+        "case_processed_at": "2026-08-31T04:30:16.257777+00:00"
       },
       {
         "id": "2a6dba31b6aa2cc0d059f292438a8ac73be4072b",
@@ -3701,7 +5030,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-31T02:56:25.078951+00:00"
+        "case_processed_at": "2026-08-31T04:30:16.334182+00:00"
       },
       {
         "id": "d2372abed6518a159835202389ef01edbd7105a3",
@@ -3767,7 +5096,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-31T02:56:25.143141+00:00"
+        "case_processed_at": "2026-08-31T04:30:16.400260+00:00"
       },
       {
         "id": "a8f46c88840dbba79a34a6f2151f05f588861901",
@@ -3833,7 +5162,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-31T02:56:25.206951+00:00"
+        "case_processed_at": "2026-08-31T04:30:16.465191+00:00"
       },
       {
         "id": "d7e2e0a3e77814ff05e1ba147fd56f10ff500765",
@@ -3899,11 +5228,720 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-31T02:56:25.270273+00:00"
+        "case_processed_at": "2026-08-31T04:30:16.529709+00:00"
       }
     ],
     "jatim_items": [
       {
+        "id": "437cd45716fdabe0c18cfe1cf72571297341cca0",
+        "title": "Baru Pimpin Polres Kediri Rotasi Tigas Kapolsek, AKBP Wahyudin Latif Tekankan Penguatan Pelayanan ke Masyarakat - Kediri Tangguh",
+        "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPN0ZtaklnN2syeHRESlFWRG9mWE1wYjBGTTBRSVVnVWxieVdISGV4MGtacEtQT0l3UmhCVTBJVlBWYm5aYWdNdVdlT3NxNlFaYjNwSXBwcTA5b095X3NWY0VBU0thYWFack1ocGVwSzk1YTFpVzJiM0E1VXBTTnd2dzdXaTZnRHJyb2JmYVlad3c5MDJqeXZIZF9xeFdiR24tOGNSU2J2REdhdEdCQ0YzcUpINlBfbVpnZzB1SWxyUHJXY0x6bnV6djVIMXB6TGNIY2c?oc=5",
+        "source": "Kediri Tangguh",
+        "published_at": "2026-08-31T03:48:33+00:00",
+        "collected_at": "2026-08-31T04:27:42.355467+00:00",
+        "region": "Jawa Timur",
+        "area_label": "Kediri",
+        "is_jatim": true,
+        "polres": "POLRES KEDIRI",
+        "category": "PRESTASI / KEGIATAN POSITIF",
+        "scope": "positive",
+        "scope_label": "POSITIF / KEGIATAN",
+        "priority": "low",
+        "summary": "Baru Pimpin Polres Kediri Rotasi Tigas Kapolsek, AKBP Wahyudin Latif Tekankan Penguatan Pelayanan ke Masyarakat Kediri Tangguh",
+        "processing_status": "processed",
+        "classifier_version": "news-v6",
+        "classified_at": "2026-08-31T04:27:42.355467+00:00",
+        "case_id": null,
+        "discovery_families": [],
+        "discovery_tags": [],
+        "discovery_hits": [],
+        "discovery_version": "discovery-v6.5.3",
+        "locality": "Kediri",
+        "polsek": null,
+        "location_confidence": 100,
+        "location_evidence": [
+          "polres kediri",
+          "Kediri"
+        ],
+        "location_status": "JAWA_TIMUR",
+        "location_source": "title",
+        "issue_type": "UMUM",
+        "issue_subtype": "Belum Teridentifikasi",
+        "issue_evidence": [],
+        "handling_status": "BELUM_ADA_INFORMASI",
+        "handling_evidence": [],
+        "attention_score": 19,
+        "attention_label": "Rendah",
+        "attention_components": {
+          "severity": 2,
+          "polri_relation": 0,
+          "authority": 4,
+          "public_impact": 12,
+          "handling": 0,
+          "evidence": 1,
+          "context_risk": 0,
+          "routine_enforcement_cap": null
+        },
+        "attention_evidence": {
+          "severity": [],
+          "authority": [
+            "akbp"
+          ],
+          "public_impact": [
+            "dampak kepada masyarakat"
+          ],
+          "evidence": [
+            "satu sumber / informasi awal"
+          ],
+          "role": [],
+          "issue": [],
+          "handling": [],
+          "context": [],
+          "positive": [
+            "\\b(?:pelayanan|inovasi|prestasi|penghargaan|apresiasi)\\b.{0,100}\\b(?:polisi|polres|polda|polri)\\b"
+          ]
+        },
+        "case_engine_version": "case-v6.5.3",
+        "case_processed_at": "2026-08-31T04:30:12.585057+00:00"
+      },
+      {
+        "id": "29747d4baed2ac70341ee3ae531cff356efa86c8",
+        "title": "Respon Laporan 110, Polres Malang Bakar Arena Diduga Sabung Ayam di Sumberpucung - Website Resmi Polri",
+        "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxNYnVxVFQ2WHBhZjBaRklCZlhPaVhlcnNqbzNySnVXUnIxVnJIZFpBYkFWWG54MFMyY2pabHRoWDhpZWtFMmZGV3djWWlBZHZwNnFQa1YtVmxhU1lHRVlQTGZFYkI3X05CaDZEa1R2MUlaWHZkTUliZXFsWGlZbDJKcGd1V19WTl9YQzRoVFc5RTg3ekRLMUZVZFNQa2NtYjcxSXVBQ3pReUdRR0RpTDZsQUpWNTVwTlR4blJiSk0xZUlSOXpTejZUb090Y1ItdWxoS1F6OV9GOA?oc=5",
+        "source": "Website Resmi Polri",
+        "published_at": "2026-08-31T03:43:32+00:00",
+        "collected_at": "2026-08-31T04:27:42.355467+00:00",
+        "region": "Jawa Timur",
+        "area_label": "Malang",
+        "is_jatim": true,
+        "polres": "POLRES MALANG",
+        "category": "AKTIVITAS ILEGAL / DUGAAN PEMBIARAN",
+        "scope": "negative",
+        "scope_label": "NEGATIF / ATENSI",
+        "priority": "low",
+        "summary": "Respon Laporan 110, Polres Malang Bakar Arena Diduga Sabung Ayam di Sumberpucung Website Resmi Polri",
+        "processing_status": "processed",
+        "classifier_version": "news-v6",
+        "classified_at": "2026-08-31T04:27:42.355467+00:00",
+        "case_id": "CASE-000200",
+        "discovery_families": [
+          "illegal_activity_backing"
+        ],
+        "discovery_tags": [
+          "backing",
+          "illegal_activity",
+          "public_order"
+        ],
+        "discovery_hits": [
+          "sabung ayam"
+        ],
+        "discovery_version": "discovery-v6.5.3",
+        "locality": "Malang",
+        "polsek": null,
+        "location_confidence": 100,
+        "location_evidence": [
+          "polres malang",
+          "Malang"
+        ],
+        "location_status": "JAWA_TIMUR",
+        "location_source": "title",
+        "issue_type": "AKTIVITAS_ILEGAL",
+        "issue_subtype": "Aktivitas Ilegal",
+        "issue_evidence": [
+          "sabung ayam"
+        ],
+        "handling_status": "BELUM_ADA_INFORMASI",
+        "handling_evidence": [],
+        "attention_score": 27,
+        "attention_label": "Rendah",
+        "attention_components": {
+          "severity": 14,
+          "polri_relation": 0,
+          "authority": 0,
+          "public_impact": 12,
+          "handling": 0,
+          "evidence": 1,
+          "context_risk": 0,
+          "routine_enforcement_cap": null
+        },
+        "attention_evidence": {
+          "severity": [],
+          "authority": [],
+          "public_impact": [
+            "dampak kepada masyarakat"
+          ],
+          "evidence": [
+            "satu sumber / informasi awal"
+          ],
+          "role": [],
+          "issue": [
+            "sabung ayam"
+          ],
+          "handling": [],
+          "context": [],
+          "positive": []
+        },
+        "case_engine_version": "case-v6.5.3",
+        "case_processed_at": "2026-08-31T04:31:41.158699+00:00"
+      },
+      {
+        "id": "680b35b594e8dfe41df9360f29cf7d3f5213e93b",
+        "title": "Polres Malang Perkuat Kolaborasi Lintas Sektor Jaga Stabilitas Pangan - Website Resmi Polri",
+        "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPRnRpSWh5V203amNRWndhMHRmeGRlNTE3RHhDclI1VUxKOWNRRXVlSGthbHBieE1UU2lYOFVSMGZkY1o2eFRJLW9wanhzZ3FUNjd1NWtadU9wRUt6eTNJX0Zfa3ptM05yNTE4V0JTLWpBTnNraVdtSERtS3lEYkNMUnYzZng4a0xCRFBvc0FCZzhLbGE0ajQtWEpCSFVTNGpZUXVwV2tscjZTOXdkZkJDZTNtaWhJMGRPVjJCcTlhLVQzSUhlUkl5TnNB?oc=5",
+        "source": "Website Resmi Polri",
+        "published_at": "2026-08-31T03:39:45+00:00",
+        "collected_at": "2026-08-31T04:27:42.355467+00:00",
+        "region": "Jawa Timur",
+        "area_label": "Malang",
+        "is_jatim": true,
+        "polres": "POLRES MALANG",
+        "category": "NETRAL / LAINNYA",
+        "scope": "neutral",
+        "scope_label": "NETRAL",
+        "priority": "low",
+        "summary": "Polres Malang Perkuat Kolaborasi Lintas Sektor Jaga Stabilitas Pangan Website Resmi Polri",
+        "processing_status": "processed",
+        "classifier_version": "news-v6",
+        "classified_at": "2026-08-31T04:27:42.355467+00:00",
+        "case_id": null,
+        "discovery_families": [],
+        "discovery_tags": [],
+        "discovery_hits": [],
+        "discovery_version": "discovery-v6.5.3",
+        "locality": "Malang",
+        "polsek": null,
+        "location_confidence": 100,
+        "location_evidence": [
+          "polres malang",
+          "Malang"
+        ],
+        "location_status": "JAWA_TIMUR",
+        "location_source": "title",
+        "issue_type": "UMUM",
+        "issue_subtype": "Belum Teridentifikasi",
+        "issue_evidence": [],
+        "handling_status": "BELUM_ADA_INFORMASI",
+        "handling_evidence": [],
+        "attention_score": 7,
+        "attention_label": "Rendah",
+        "attention_components": {
+          "severity": 2,
+          "polri_relation": 0,
+          "authority": 0,
+          "public_impact": 4,
+          "handling": 0,
+          "evidence": 1,
+          "context_risk": 0,
+          "routine_enforcement_cap": null
+        },
+        "attention_evidence": {
+          "severity": [],
+          "authority": [],
+          "public_impact": [],
+          "evidence": [
+            "satu sumber / informasi awal"
+          ],
+          "role": [],
+          "issue": [],
+          "handling": [],
+          "context": [],
+          "positive": []
+        },
+        "case_engine_version": "case-v6.5.3",
+        "case_processed_at": "2026-08-31T04:30:12.852383+00:00"
+      },
+      {
+        "id": "7c68961b0d0db35ade80691e3281718f60a7c8b9",
+        "title": "Polres Malang Dorong Tiap Desa Maksimalkan Potensi Pangan Lokal - Website Resmi Polri",
+        "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNLXBYMEgzNTQtM2tVUFNfZDB5bWxyTmdnVjM2QmxoM1JvOVZic0k1akhqeldtQld5UUJ5QzJfcjBvQWtvWk44Ql85WWVta3BzRFBfZHlpQnpVY012WDFJNW5rbV9Ub2l4VG9HdnpxYjlDbnkwWHZXSmVDckhhNjdMT1pUbU9nRmxMV2dYb0dublF2eEF4UFhrN3JibUlUNVNWMjd2X0UyNVgxeEVYSldFc3djcTA2aVQ5MHYzME9WcmQwQQ?oc=5",
+        "source": "Website Resmi Polri",
+        "published_at": "2026-08-31T03:38:17+00:00",
+        "collected_at": "2026-08-31T04:27:42.355467+00:00",
+        "region": "Jawa Timur",
+        "area_label": "Malang",
+        "is_jatim": true,
+        "polres": "POLRES MALANG",
+        "category": "NETRAL / LAINNYA",
+        "scope": "neutral",
+        "scope_label": "NETRAL",
+        "priority": "low",
+        "summary": "Polres Malang Dorong Tiap Desa Maksimalkan Potensi Pangan Lokal Website Resmi Polri",
+        "processing_status": "processed",
+        "classifier_version": "news-v6",
+        "classified_at": "2026-08-31T04:27:42.355467+00:00",
+        "case_id": null,
+        "discovery_families": [],
+        "discovery_tags": [],
+        "discovery_hits": [],
+        "discovery_version": "discovery-v6.5.3",
+        "locality": "Malang",
+        "polsek": null,
+        "location_confidence": 100,
+        "location_evidence": [
+          "polres malang",
+          "Malang"
+        ],
+        "location_status": "JAWA_TIMUR",
+        "location_source": "title",
+        "issue_type": "UMUM",
+        "issue_subtype": "Belum Teridentifikasi",
+        "issue_evidence": [],
+        "handling_status": "BELUM_ADA_INFORMASI",
+        "handling_evidence": [],
+        "attention_score": 7,
+        "attention_label": "Rendah",
+        "attention_components": {
+          "severity": 2,
+          "polri_relation": 0,
+          "authority": 0,
+          "public_impact": 4,
+          "handling": 0,
+          "evidence": 1,
+          "context_risk": 0,
+          "routine_enforcement_cap": null
+        },
+        "attention_evidence": {
+          "severity": [],
+          "authority": [],
+          "public_impact": [],
+          "evidence": [
+            "satu sumber / informasi awal"
+          ],
+          "role": [],
+          "issue": [],
+          "handling": [],
+          "context": [],
+          "positive": []
+        },
+        "case_engine_version": "case-v6.5.3",
+        "case_processed_at": "2026-08-31T04:30:12.910932+00:00"
+      },
+      {
+        "id": "11c587528ee6383ca1b3955af4d26224220723cc",
+        "title": "Polres Malang Kawal Pangan dari Produksi hingga Distribusi - Website Resmi Polri",
+        "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOT2F6eTNCNjlieWtsSnlEbWVpZDFORjJGbzZhZWc4dzlXLVBUTW55akw1TDBhUHNWYzlOLVhaNmxCaFhaZV9UUm96dk9CbFhXMDdJdmdzRkNIQ0lDVFJxdjh0X1NiRHlCSTgtRmlVU1lvQnFvUjZRX1JjNzU2SkdvTTNWaDN5Z1dwN1N4RklTRVFWM3VNamktZVUxZjk1T1dzdnVFX2s1UU5lYnhrMnV1aFV0UVA0ajVpVGg0?oc=5",
+        "source": "Website Resmi Polri",
+        "published_at": "2026-08-31T03:36:32+00:00",
+        "collected_at": "2026-08-31T04:27:42.355467+00:00",
+        "region": "Jawa Timur",
+        "area_label": "Malang",
+        "is_jatim": true,
+        "polres": "POLRES MALANG",
+        "category": "NETRAL / LAINNYA",
+        "scope": "neutral",
+        "scope_label": "NETRAL",
+        "priority": "low",
+        "summary": "Polres Malang Kawal Pangan dari Produksi hingga Distribusi Website Resmi Polri",
+        "processing_status": "processed",
+        "classifier_version": "news-v6",
+        "classified_at": "2026-08-31T04:27:42.355467+00:00",
+        "case_id": null,
+        "discovery_families": [],
+        "discovery_tags": [],
+        "discovery_hits": [],
+        "discovery_version": "discovery-v6.5.3",
+        "locality": "Malang",
+        "polsek": null,
+        "location_confidence": 100,
+        "location_evidence": [
+          "polres malang",
+          "Malang"
+        ],
+        "location_status": "JAWA_TIMUR",
+        "location_source": "title",
+        "issue_type": "UMUM",
+        "issue_subtype": "Belum Teridentifikasi",
+        "issue_evidence": [],
+        "handling_status": "BELUM_ADA_INFORMASI",
+        "handling_evidence": [],
+        "attention_score": 7,
+        "attention_label": "Rendah",
+        "attention_components": {
+          "severity": 2,
+          "polri_relation": 0,
+          "authority": 0,
+          "public_impact": 4,
+          "handling": 0,
+          "evidence": 1,
+          "context_risk": 0,
+          "routine_enforcement_cap": null
+        },
+        "attention_evidence": {
+          "severity": [],
+          "authority": [],
+          "public_impact": [],
+          "evidence": [
+            "satu sumber / informasi awal"
+          ],
+          "role": [],
+          "issue": [],
+          "handling": [],
+          "context": [],
+          "positive": []
+        },
+        "case_engine_version": "case-v6.5.3",
+        "case_processed_at": "2026-08-31T04:30:12.965646+00:00"
+      },
+      {
+        "id": "53badc7e66de28b67ffd9f6c51d31b46613697ce",
+        "title": "Polres Malang Gandeng Warga Jadi Penggerak Ketahanan Pangan - Website Resmi Polri",
+        "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQVVJJNkdFSFVsWmE0b0g2NkRkOFlJaERVNVpqbHFXdXJhNFNGak1nYldGUUtTUU9IXzB3N2JxN3VId3NkNDBCNllrVmhNSGhBV0h5cEhMWHpzOFgwTTVNWENfS0hXalVGdzZBcWtuYVpjSkRKOF9BT3B1SUZ4OTh1aVpHaVJrQjJlS0JNanVYUks4VXBrdHhQS0J3WWJmTTdBckZSWDNleXljbGhKRV82eUJuRmlQeU5aMkRkZg?oc=5",
+        "source": "Website Resmi Polri",
+        "published_at": "2026-08-31T03:34:26+00:00",
+        "collected_at": "2026-08-31T04:27:42.355467+00:00",
+        "region": "Jawa Timur",
+        "area_label": "Malang",
+        "is_jatim": true,
+        "polres": "POLRES MALANG",
+        "category": "NETRAL / LAINNYA",
+        "scope": "neutral",
+        "scope_label": "NETRAL",
+        "priority": "low",
+        "summary": "Polres Malang Gandeng Warga Jadi Penggerak Ketahanan Pangan Website Resmi Polri",
+        "processing_status": "processed",
+        "classifier_version": "news-v6",
+        "classified_at": "2026-08-31T04:27:42.355467+00:00",
+        "case_id": null,
+        "discovery_families": [],
+        "discovery_tags": [],
+        "discovery_hits": [],
+        "discovery_version": "discovery-v6.5.3",
+        "locality": "Malang",
+        "polsek": null,
+        "location_confidence": 100,
+        "location_evidence": [
+          "polres malang",
+          "Malang"
+        ],
+        "location_status": "JAWA_TIMUR",
+        "location_source": "title",
+        "issue_type": "UMUM",
+        "issue_subtype": "Belum Teridentifikasi",
+        "issue_evidence": [],
+        "handling_status": "BELUM_ADA_INFORMASI",
+        "handling_evidence": [],
+        "attention_score": 15,
+        "attention_label": "Rendah",
+        "attention_components": {
+          "severity": 2,
+          "polri_relation": 0,
+          "authority": 0,
+          "public_impact": 12,
+          "handling": 0,
+          "evidence": 1,
+          "context_risk": 0,
+          "routine_enforcement_cap": null
+        },
+        "attention_evidence": {
+          "severity": [],
+          "authority": [],
+          "public_impact": [
+            "dampak kepada masyarakat"
+          ],
+          "evidence": [
+            "satu sumber / informasi awal"
+          ],
+          "role": [],
+          "issue": [],
+          "handling": [],
+          "context": [],
+          "positive": []
+        },
+        "case_engine_version": "case-v6.5.3",
+        "case_processed_at": "2026-08-31T04:30:13.022300+00:00"
+      },
+      {
+        "id": "faf67772e43744729d4afae9a15ab41dbcb2b869",
+        "title": "Polres Malang Jaga Ketahanan Pangan agar Berkelanjutan - Website Resmi Polri",
+        "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNSE02QlJJd1FGc2hfSmJFT01oeWIwSm9DVlZGUGJHTG5qcnZpc0E3czJGcmdvYm9haFFDOHVoZ1Vac1B1dXQyeTZ4eTVyZURla1BVNEpOdWNJV2JpZGc5bERyTWdFeFRUMFJpSEJnaUxjUHR0WFFSUDRkWnBYdUpBaGNaWGszVVo2T1hUbDFDcmhqTXlpa19iWWRBQnUwZzZ3TmkxX0JCQXg2WEo0V1plNGRpVE42Zw?oc=5",
+        "source": "Website Resmi Polri",
+        "published_at": "2026-08-31T03:32:20+00:00",
+        "collected_at": "2026-08-31T04:27:42.355467+00:00",
+        "region": "Jawa Timur",
+        "area_label": "Malang",
+        "is_jatim": true,
+        "polres": "POLRES MALANG",
+        "category": "NETRAL / LAINNYA",
+        "scope": "neutral",
+        "scope_label": "NETRAL",
+        "priority": "low",
+        "summary": "Polres Malang Jaga Ketahanan Pangan agar Berkelanjutan Website Resmi Polri",
+        "processing_status": "processed",
+        "classifier_version": "news-v6",
+        "classified_at": "2026-08-31T04:27:42.355467+00:00",
+        "case_id": null,
+        "discovery_families": [],
+        "discovery_tags": [],
+        "discovery_hits": [],
+        "discovery_version": "discovery-v6.5.3",
+        "locality": "Malang",
+        "polsek": null,
+        "location_confidence": 100,
+        "location_evidence": [
+          "polres malang",
+          "Malang"
+        ],
+        "location_status": "JAWA_TIMUR",
+        "location_source": "title",
+        "issue_type": "UMUM",
+        "issue_subtype": "Belum Teridentifikasi",
+        "issue_evidence": [],
+        "handling_status": "BELUM_ADA_INFORMASI",
+        "handling_evidence": [],
+        "attention_score": 7,
+        "attention_label": "Rendah",
+        "attention_components": {
+          "severity": 2,
+          "polri_relation": 0,
+          "authority": 0,
+          "public_impact": 4,
+          "handling": 0,
+          "evidence": 1,
+          "context_risk": 0,
+          "routine_enforcement_cap": null
+        },
+        "attention_evidence": {
+          "severity": [],
+          "authority": [],
+          "public_impact": [],
+          "evidence": [
+            "satu sumber / informasi awal"
+          ],
+          "role": [],
+          "issue": [],
+          "handling": [],
+          "context": [],
+          "positive": []
+        },
+        "case_engine_version": "case-v6.5.3",
+        "case_processed_at": "2026-08-31T04:30:13.076787+00:00"
+      },
+      {
+        "id": "4b7a5b048e9d54398ee1da404ba8828dd69bc685",
+        "title": "Kerusuhan di Triple X Night Club Surabaya, Polisi Amankan 3 Terduga Pelaku - Kabar Jawa Timur",
+        "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOWVV1VXpRWkx3R1pQUlFpQTRRekVfTEJBODdtbW1QQTQtbWFHT0Jkc2NDeVYyRmVFNFpaRk9QZGNhbXgyNXpxcTNIRzVXRHJ6cUkwckJXNzd4MlFTWG5yUmlPSThtTjhmZ3NMN1pMdGxyYWRGenUzMm5yNnhkUTVHbGhzel9Ma2djRlZEYS12cWFUUW5rZjk2V29saktld2pQRVdRa0hYbDNiRnZ0NUE?oc=5",
+        "source": "Kabar Jawa Timur",
+        "published_at": "2026-08-31T03:22:33+00:00",
+        "collected_at": "2026-08-31T04:27:42.355467+00:00",
+        "region": "Jawa Timur",
+        "area_label": "Surabaya",
+        "is_jatim": true,
+        "polres": null,
+        "category": "KEAMANAN / KAMTIBMAS",
+        "scope": "negative",
+        "scope_label": "NEGATIF / ATENSI",
+        "priority": "medium",
+        "summary": "Kerusuhan di Triple X Night Club Surabaya, Polisi Amankan 3 Terduga Pelaku Kabar Jawa Timur",
+        "processing_status": "processed",
+        "classifier_version": "news-v6",
+        "classified_at": "2026-08-31T04:27:42.355467+00:00",
+        "case_id": "CASE-000201",
+        "discovery_families": [
+          "security_public_order"
+        ],
+        "discovery_tags": [
+          "public_order",
+          "security"
+        ],
+        "discovery_hits": [
+          "kerusuhan"
+        ],
+        "discovery_version": "discovery-v6.5.3",
+        "locality": "Surabaya",
+        "polsek": null,
+        "location_confidence": 95,
+        "location_evidence": [
+          "Surabaya"
+        ],
+        "location_status": "JAWA_TIMUR",
+        "location_source": "title",
+        "issue_type": "KEAMANAN_DAN_KAMTIBMAS",
+        "issue_subtype": "Gangguan Keamanan / Kamtibmas",
+        "issue_evidence": [
+          "kerusuhan"
+        ],
+        "handling_status": "BELUM_ADA_INFORMASI",
+        "handling_evidence": [],
+        "attention_score": 40,
+        "attention_label": "Sedang",
+        "attention_components": {
+          "severity": 21,
+          "polri_relation": 2,
+          "authority": 0,
+          "public_impact": 10,
+          "handling": 0,
+          "evidence": 1,
+          "context_risk": 0,
+          "routine_enforcement_cap": 35
+        },
+        "attention_evidence": {
+          "severity": [],
+          "authority": [],
+          "public_impact": [
+            "dampak peristiwa"
+          ],
+          "evidence": [
+            "satu sumber / informasi awal"
+          ],
+          "role": [
+            "Polri sebagai pihak penindak"
+          ],
+          "issue": [
+            "kerusuhan"
+          ],
+          "handling": [],
+          "context": [],
+          "positive": []
+        },
+        "case_engine_version": "case-v6.5.3",
+        "case_processed_at": "2026-08-31T04:31:41.158706+00:00"
+      },
+      {
+        "id": "8593e2aa91c4b2ceecc173b85f66cdd60b3deee2",
+        "title": "Minta Uang ke Warga yang Hendak Mengambil Barang Bukti, Polisi di Surabaya Kena Demosi - Tribunnews.com",
+        "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNaFZLemtkOGM0WlRSTlllMFZpSmtVNE5ZVUdjMnV4OFhuMjE0MVZ1NkxNRHhjc3QwX0VtcTBITzQ5eDU2SXdVTVVjMmVhNUo0eVpvV0ZFZjY4S09reGxmUzRGWEdEMmdaYlNjMzJVMG5taC1xWXkwOUJMTmVlMkkyS2M4dndrSFd3c08wODdmRGF5b1dLLW5ZcUFnMlNMNkRzRVZUS1o4RG5oVno4aHIxUVIxM0lXMzhaaGx3ZGdUTUNPcUc1azZhNw?oc=5",
+        "source": "Tribunnews.com",
+        "published_at": "2026-08-31T03:20:00+00:00",
+        "collected_at": "2026-08-31T04:27:42.355467+00:00",
+        "region": "Jawa Timur",
+        "area_label": "Surabaya",
+        "is_jatim": true,
+        "polres": null,
+        "category": "OKNUM - INTEGRITAS/KEUANGAN",
+        "scope": "negative",
+        "scope_label": "NEGATIF / ATENSI",
+        "priority": "medium",
+        "summary": "Minta Uang ke Warga yang Hendak Mengambil Barang Bukti, Polisi di Surabaya Kena Demosi Tribunnews.com",
+        "processing_status": "processed",
+        "classifier_version": "news-v6",
+        "classified_at": "2026-08-31T04:27:42.355467+00:00",
+        "case_id": "CASE-000202",
+        "discovery_families": [
+          "financial_misconduct"
+        ],
+        "discovery_tags": [
+          "financial_misconduct",
+          "integrity"
+        ],
+        "discovery_hits": [
+          "minta uang"
+        ],
+        "discovery_version": "discovery-v6.5.3",
+        "locality": "Surabaya",
+        "polsek": null,
+        "location_confidence": 95,
+        "location_evidence": [
+          "Surabaya"
+        ],
+        "location_status": "JAWA_TIMUR",
+        "location_source": "title",
+        "issue_type": "INTEGRITAS_DAN_KEUANGAN",
+        "issue_subtype": "Pungli / Suap / Pemerasan",
+        "issue_evidence": [
+          "minta uang"
+        ],
+        "handling_status": "BELUM_ADA_INFORMASI",
+        "handling_evidence": [],
+        "attention_score": 40,
+        "attention_label": "Sedang",
+        "attention_components": {
+          "severity": 24,
+          "polri_relation": 0,
+          "authority": 0,
+          "public_impact": 12,
+          "handling": 0,
+          "evidence": 1,
+          "context_risk": 0,
+          "routine_enforcement_cap": null
+        },
+        "attention_evidence": {
+          "severity": [],
+          "authority": [],
+          "public_impact": [
+            "dampak kepada masyarakat"
+          ],
+          "evidence": [
+            "satu sumber / informasi awal"
+          ],
+          "role": [],
+          "issue": [
+            "minta uang"
+          ],
+          "handling": [],
+          "context": [],
+          "positive": []
+        },
+        "case_engine_version": "case-v6.5.3",
+        "case_processed_at": "2026-08-31T04:31:41.158708+00:00"
+      },
+      {
+        "id": "54b853dd2fbcfe83931ed7263b17d5e39ebc7028",
+        "title": "POLRES MADIUN – Commander Wish Pagi, Polsek Pilangkenceng Hadir Jaga Kelancaran Arus Lalu Lintas - Tribratanews Polres Madiun",
+        "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxOSWlWVnBWQl9yWklJMVhvNG9Pc0N6ejk2cjJVeEQ5SWczdktsek9KZ1ZhT0JJSzZJTDlHeGpqMzZRczZ4VHc5aVhQdnlBUUphMHA3WVMtazdndXgzbTdFZjRDN3hrRzdDLVdHcGhRajQxRnFXTXBScUtuSm5UblRfRUhjSElwNGhnUEUwdENEVWFzZi1xQjhJcTFxYVhUcW1IOEVtVW1CVU93cWxfZWNsZ3ZKMlBUZ1JyYVRwSEZtbWpib09jV1Nwa1Q2WEVXbEJvUVNPaEhn?oc=5",
+        "source": "Tribratanews Polres Madiun",
+        "published_at": "2026-08-31T03:16:00+00:00",
+        "collected_at": "2026-08-31T04:27:42.355467+00:00",
+        "region": "Jawa Timur",
+        "area_label": "Madiun",
+        "is_jatim": true,
+        "polres": "POLRES MADIUN",
+        "category": "NETRAL / LAINNYA",
+        "scope": "neutral",
+        "scope_label": "NETRAL",
+        "priority": "low",
+        "summary": "POLRES MADIUN – Commander Wish Pagi, Polsek Pilangkenceng Hadir Jaga Kelancaran Arus Lalu Lintas Tribratanews Polres Madiun",
+        "processing_status": "processed",
+        "classifier_version": "news-v6",
+        "classified_at": "2026-08-31T04:27:42.355467+00:00",
+        "case_id": null,
+        "discovery_families": [],
+        "discovery_tags": [],
+        "discovery_hits": [],
+        "discovery_version": "discovery-v6.5.3",
+        "locality": "Madiun",
+        "polsek": "POLSEK PILANGKENCENG HADIR JAGA",
+        "location_confidence": 100,
+        "location_evidence": [
+          "polres madiun",
+          "POLSEK PILANGKENCENG HADIR JAGA",
+          "Madiun"
+        ],
+        "location_status": "JAWA_TIMUR",
+        "location_source": "title",
+        "issue_type": "UMUM",
+        "issue_subtype": "Belum Teridentifikasi",
+        "issue_evidence": [],
+        "handling_status": "BELUM_ADA_INFORMASI",
+        "handling_evidence": [],
+        "attention_score": 7,
+        "attention_label": "Rendah",
+        "attention_components": {
+          "severity": 2,
+          "polri_relation": 0,
+          "authority": 0,
+          "public_impact": 4,
+          "handling": 0,
+          "evidence": 1,
+          "context_risk": 0,
+          "routine_enforcement_cap": null
+        },
+        "attention_evidence": {
+          "severity": [],
+          "authority": [],
+          "public_impact": [],
+          "evidence": [
+            "satu sumber / informasi awal"
+          ],
+          "role": [],
+          "issue": [],
+          "handling": [],
+          "context": [],
+          "positive": []
+        },
+        "case_engine_version": "case-v6.5.3",
+        "case_processed_at": "2026-08-31T04:30:13.153186+00:00"
+      },
+      {
         "id": "f9812677a6f7ab243d2dbd70d350b8742f272ece",
         "title": "Polres Pacitan Ingatkan Ancaman Pidana Pembakar Hutan, Hukuman Maksimal 15 Tahun - beritajatim.com",
         "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNMWpIaTNvcEJKTlN0LWp1MTUxT0NidDJLUllid1U5LTdhVW15LUoyWkE1Wnp5eF9LV2RreXpTWjNnN2VidG1SZTdSQkJrYnh1dDFpejFkUEZyY3F0VnhtaWozNE1IVmJOaFNXdGpyS21la0RVVEpHSnIza2Fza2VxSzBGd2w1enMwbl9WZmtCdWI1VTNYbG56R1I4MmpiLXYyMUF4Yk9B?oc=5",
@@ -3967,7 +6005,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-31T02:56:22.290006+00:00"
+        "case_processed_at": "2026-08-31T04:30:13.485466+00:00"
       },
       {
         "id": "45c1ed675dc11ba6918b4757b34df228e41b9d8d",
@@ -4044,7 +6082,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-31T02:57:48.099453+00:00"
+        "case_processed_at": "2026-08-31T04:31:41.158713+00:00"
       },
       {
         "id": "ac2e4d3eb40b68443b656a980f7b8064f088a54a",
@@ -4110,7 +6148,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-31T02:56:22.457093+00:00"
+        "case_processed_at": "2026-08-31T04:30:13.644506+00:00"
       },
       {
         "id": "7a5531aa428b42fcabedfa1255e1ab6960aa56c8",
@@ -4186,7 +6224,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-31T02:57:48.099459+00:00"
+        "case_processed_at": "2026-08-31T04:31:41.158718+00:00"
       },
       {
         "id": "6b77c8e4342c01c222f774cc55b2398cfd691cf4",
@@ -4271,7 +6309,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-31T02:57:48.099461+00:00"
+        "case_processed_at": "2026-08-31T04:31:41.158721+00:00"
       },
       {
         "id": "a0092b6f9db3e058f9f988ff13dfb3e332d231f0",
@@ -4348,7 +6386,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-31T02:57:48.099463+00:00"
+        "case_processed_at": "2026-08-31T04:31:41.158723+00:00"
       },
       {
         "id": "8bff7193e219068bf8b47545412d1837e3897089",
@@ -4425,7 +6463,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-31T02:57:48.099465+00:00"
+        "case_processed_at": "2026-08-31T04:31:41.158726+00:00"
       },
       {
         "id": "eb129ca3ff3ad1974da5bea14459849e9e000f25",
@@ -4494,7 +6532,7 @@
           ]
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-31T02:56:22.846040+00:00"
+        "case_processed_at": "2026-08-31T04:30:14.034404+00:00"
       },
       {
         "id": "0447206c6f28c8d7622207c5f122a5dc58c8ef2e",
@@ -4562,7 +6600,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-31T02:56:22.988714+00:00"
+        "case_processed_at": "2026-08-31T04:30:14.180991+00:00"
       },
       {
         "id": "d32d84791ebd09ecd584f7e1a981acfcad5f8cf4",
@@ -4630,7 +6668,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-31T02:56:23.273217+00:00"
+        "case_processed_at": "2026-08-31T04:30:14.475353+00:00"
       },
       {
         "id": "87517585e20d6c70f9a5e6238b0ba1bc0a156067",
@@ -4698,7 +6736,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-31T02:56:23.434721+00:00"
+        "case_processed_at": "2026-08-31T04:30:14.640563+00:00"
       },
       {
         "id": "405f1658a063b917e094dc0331d49fafbf5e0204",
@@ -4764,7 +6802,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-31T02:56:23.503739+00:00"
+        "case_processed_at": "2026-08-31T04:30:14.711688+00:00"
       },
       {
         "id": "e4dbb7f3d875f07e3127d4d64b5f78b0a87941bc",
@@ -4842,7 +6880,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-31T02:57:48.099472+00:00"
+        "case_processed_at": "2026-08-31T04:31:41.158735+00:00"
       },
       {
         "id": "19894c03d044267b970b744a13207b07aa4c19fd",
@@ -4907,7 +6945,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-31T02:56:23.696526+00:00"
+        "case_processed_at": "2026-08-31T04:30:14.912227+00:00"
       },
       {
         "id": "91567e173456acf39e19426c3e87c8c517abbbe4",
@@ -4973,7 +7011,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-31T02:56:23.878428+00:00"
+        "case_processed_at": "2026-08-31T04:30:15.098851+00:00"
       },
       {
         "id": "9bb2c56c99c49c9a071a3e3c13fedb2c67314c6f",
@@ -5050,7 +7088,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-31T02:56:24.073407+00:00"
+        "case_processed_at": "2026-08-31T04:30:15.298936+00:00"
       },
       {
         "id": "d22f352a03fcfb020d93bb6f88df57dead59be83",
@@ -5130,7 +7168,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-31T02:57:48.099479+00:00"
+        "case_processed_at": "2026-08-31T04:31:41.158743+00:00"
       },
       {
         "id": "e867bda30bd1b79f48decd17dfc4c07fb6b6bee7",
@@ -5196,7 +7234,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-31T02:56:24.134650+00:00"
+        "case_processed_at": "2026-08-31T04:30:15.362322+00:00"
       },
       {
         "id": "17a808e47ba2d1c4f71c68b9eed0c757722ea714",
@@ -5262,7 +7300,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-31T02:56:24.200630+00:00"
+        "case_processed_at": "2026-08-31T04:30:15.429969+00:00"
       },
       {
         "id": "fae166f6850f952782ebe053d47a44a45e19ec83",
@@ -5328,7 +7366,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-31T02:56:24.248038+00:00"
+        "case_processed_at": "2026-08-31T04:30:15.478540+00:00"
       },
       {
         "id": "a3fa52c67bdb82953cfbd4c4f2c365bcdbf99263",
@@ -5394,7 +7432,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-31T02:56:24.589971+00:00"
+        "case_processed_at": "2026-08-31T04:30:15.830122+00:00"
       },
       {
         "id": "7e186ca741a433c4a6cffbc7d66996055db388ae",
@@ -5465,7 +7503,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-31T02:56:24.658012+00:00"
+        "case_processed_at": "2026-08-31T04:30:15.902057+00:00"
       },
       {
         "id": "b25078d938a8e0689b3cd06b528ae51c3edb3b6e",
@@ -5530,7 +7568,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-31T02:56:24.785741+00:00"
+        "case_processed_at": "2026-08-31T04:30:16.032173+00:00"
       },
       {
         "id": "666343ac9e300fb3b86ac937f3d40624943a079f",
@@ -5600,7 +7638,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-31T02:56:24.841168+00:00"
+        "case_processed_at": "2026-08-31T04:30:16.088796+00:00"
       },
       {
         "id": "bdab0a3bd33b3b1cdf2b6732d311e7d630dbd4fc",
@@ -5668,7 +7706,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-31T02:57:48.099488+00:00"
+        "case_processed_at": "2026-08-31T04:31:41.158753+00:00"
       },
       {
         "id": "d44abf0f47124fcc6afc0a83e24bbae78788d7b4",
@@ -5733,7 +7771,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-31T02:56:25.004376+00:00"
+        "case_processed_at": "2026-08-31T04:30:16.257777+00:00"
       },
       {
         "id": "d2372abed6518a159835202389ef01edbd7105a3",
@@ -5799,7 +7837,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-31T02:56:25.143141+00:00"
+        "case_processed_at": "2026-08-31T04:30:16.400260+00:00"
       },
       {
         "id": "a8f46c88840dbba79a34a6f2151f05f588861901",
@@ -5865,7 +7903,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-31T02:56:25.206951+00:00"
+        "case_processed_at": "2026-08-31T04:30:16.465191+00:00"
       },
       {
         "id": "d7e2e0a3e77814ff05e1ba147fd56f10ff500765",
@@ -5931,10 +7969,611 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-31T02:56:25.270273+00:00"
+        "case_processed_at": "2026-08-31T04:30:16.529709+00:00"
       }
     ],
     "luar_jatim_items": [
+      {
+        "id": "b17e3b15f49fc0e0f605383054ba9256bfc5ad8f",
+        "title": "Jukir Tewas Ditembak Polisi di Palu, Propam Dalami Dugaan Kelalaian dan Kesalahan Prosedur - Kompas.com",
+        "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPWTdRNVlJYlRjZHJzMXdMYnJ4U2NlMVZ6RlZlSGxOMDlxNFlXaUlwdTdqSGlLYzBGREhGcFlxQU5BeFluTjVHVXdDZ3Vsc1ZyVlRUNXRYRFRuXzB4cTJ5NTJ1Q01xVW9sOVk2ZHVfVnBPNmk4WjVFRkJrTkt6Ump4bFE3WW9Vd0Nub3dqN3RNVDdCMzVNck9WTHZud0ZrNTdkMzZTMW9RU211aVl3Wk9uLVNwcEpZb1JlTk1ZeXlfX3B1dw?oc=5",
+        "source": "Kompas.com",
+        "published_at": "2026-08-31T04:20:00+00:00",
+        "collected_at": "2026-08-31T04:27:42.355467+00:00",
+        "region": "BELUM TERPETAKAN",
+        "area_label": "BELUM TERPETAKAN",
+        "is_jatim": null,
+        "polres": null,
+        "category": "NETRAL / LAINNYA",
+        "scope": "neutral",
+        "scope_label": "NETRAL",
+        "priority": "low",
+        "summary": "Jukir Tewas Ditembak Polisi di Palu, Propam Dalami Dugaan Kelalaian dan Kesalahan Prosedur Kompas.com",
+        "processing_status": "processed",
+        "classifier_version": "news-v6",
+        "classified_at": "2026-08-31T04:27:42.355467+00:00",
+        "case_id": null,
+        "discovery_families": [],
+        "discovery_tags": [],
+        "discovery_hits": [],
+        "discovery_version": "discovery-v6.5.3",
+        "locality": "",
+        "polsek": null,
+        "location_confidence": 0,
+        "location_evidence": [],
+        "location_status": "BELUM_TERPETAKAN",
+        "location_source": "title",
+        "issue_type": "DISIPLIN_DAN_LAYANAN",
+        "issue_subtype": "Disiplin / Layanan",
+        "issue_evidence": [
+          "kelalaian"
+        ],
+        "handling_status": "BELUM_ADA_INFORMASI",
+        "handling_evidence": [],
+        "attention_score": 20,
+        "attention_label": "Rendah",
+        "attention_components": {
+          "severity": 9,
+          "polri_relation": 0,
+          "authority": 4,
+          "public_impact": 4,
+          "handling": 0,
+          "evidence": 3,
+          "context_risk": 0,
+          "routine_enforcement_cap": null
+        },
+        "attention_evidence": {
+          "severity": [
+            "pembunuhan / korban meninggal",
+            "kekerasan berat"
+          ],
+          "authority": [
+            "propam"
+          ],
+          "public_impact": [],
+          "evidence": [
+            "satu sumber / informasi awal",
+            "ada tindak lanjut resmi"
+          ],
+          "role": [],
+          "issue": [
+            "kelalaian"
+          ],
+          "handling": [],
+          "context": [],
+          "positive": []
+        },
+        "case_engine_version": "case-v6.5.3",
+        "case_processed_at": "2026-08-31T04:30:12.382383+00:00"
+      },
+      {
+        "id": "393aa3e32156d38715b11939cfd92c47068f71bc",
+        "title": "Isu Tambang Emas Liar di Tayan Hilir Sanggau, Ini Hasil Pengecekan Polisi - faktakalbar",
+        "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPOXhMdDluWDNCWGZvV0dkU3BsQU0ybmFXVEFrd1NRR0xSYklMOW5Vc0QzRWZqUUJvZEVHellZRzZCV3JGSDdQeERSS2xsb3ZsRE9xUlJkN2N4RGd4MFJjTmdUT0ZGSjNXNzNtTnpLLVFlVDVPSU1va2dmOVZkT2h4S1g3alpBNHVuLV9VeDIwWnBwZXVZTVktSFR4bVVKQ1RfZlBtOA?oc=5",
+        "source": "faktakalbar",
+        "published_at": "2026-08-31T04:02:03+00:00",
+        "collected_at": "2026-08-31T04:27:42.355467+00:00",
+        "region": "BELUM TERPETAKAN",
+        "area_label": "BELUM TERPETAKAN",
+        "is_jatim": null,
+        "polres": null,
+        "category": "NETRAL / LAINNYA",
+        "scope": "neutral",
+        "scope_label": "NETRAL",
+        "priority": "low",
+        "summary": "Isu Tambang Emas Liar di Tayan Hilir Sanggau, Ini Hasil Pengecekan Polisi faktakalbar",
+        "processing_status": "processed",
+        "classifier_version": "news-v6",
+        "classified_at": "2026-08-31T04:27:42.355467+00:00",
+        "case_id": null,
+        "discovery_families": [],
+        "discovery_tags": [],
+        "discovery_hits": [],
+        "discovery_version": "discovery-v6.5.3",
+        "locality": "",
+        "polsek": null,
+        "location_confidence": 0,
+        "location_evidence": [],
+        "location_status": "BELUM_TERPETAKAN",
+        "location_source": "title",
+        "issue_type": "UMUM",
+        "issue_subtype": "Belum Teridentifikasi",
+        "issue_evidence": [],
+        "handling_status": "BELUM_ADA_INFORMASI",
+        "handling_evidence": [],
+        "attention_score": 7,
+        "attention_label": "Rendah",
+        "attention_components": {
+          "severity": 2,
+          "polri_relation": 0,
+          "authority": 0,
+          "public_impact": 4,
+          "handling": 0,
+          "evidence": 1,
+          "context_risk": 0,
+          "routine_enforcement_cap": null
+        },
+        "attention_evidence": {
+          "severity": [],
+          "authority": [],
+          "public_impact": [],
+          "evidence": [
+            "satu sumber / informasi awal"
+          ],
+          "role": [],
+          "issue": [],
+          "handling": [],
+          "context": [],
+          "positive": []
+        },
+        "case_engine_version": "case-v6.5.3",
+        "case_processed_at": "2026-08-31T04:30:12.445565+00:00"
+      },
+      {
+        "id": "e5ad0bc6cb0491b3813b3b4cd86dad1e25b56098",
+        "title": "4 Kali Tersandung Narkoba, Revaldo Kini Resmi Ditahan Polisi - VIVA.co.id",
+        "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOYVRrY0x4V2Q1S1lfUFJJSnNEeWFUcl9ZcXp6QjhkT0xFMzZPOWFBa24yd1pFejRwelRXWVh2MEt0cHdQMVJVY0Z5Y0tKa3pqb2dhSUstanJ2Njh3bmFERVVmcHdpVjhKXy1kOW82OURmTWNLdXZaUWc4STlWOTA4Q2RkeHB4ZDNRVk45VTg1X01tXzc3Z0tKWHp5SWIyZXhkRzRncGNR?oc=5",
+        "source": "VIVA.co.id",
+        "published_at": "2026-08-31T03:56:37+00:00",
+        "collected_at": "2026-08-31T04:27:42.355467+00:00",
+        "region": "BELUM TERPETAKAN",
+        "area_label": "BELUM TERPETAKAN",
+        "is_jatim": null,
+        "polres": null,
+        "category": "NETRAL / LAINNYA",
+        "scope": "neutral",
+        "scope_label": "NETRAL",
+        "priority": "low",
+        "summary": "4 Kali Tersandung Narkoba, Revaldo Kini Resmi Ditahan Polisi VIVA.co.id",
+        "processing_status": "processed",
+        "classifier_version": "news-v6",
+        "classified_at": "2026-08-31T04:27:42.355467+00:00",
+        "case_id": null,
+        "discovery_families": [],
+        "discovery_tags": [],
+        "discovery_hits": [],
+        "discovery_version": "discovery-v6.5.3",
+        "locality": "",
+        "polsek": null,
+        "location_confidence": 0,
+        "location_evidence": [],
+        "location_status": "BELUM_TERPETAKAN",
+        "location_source": "title",
+        "issue_type": "NARKOBA",
+        "issue_subtype": "Narkoba / Narkotika",
+        "issue_evidence": [
+          "narkoba"
+        ],
+        "handling_status": "SUDAH_DITINDAK",
+        "handling_evidence": [
+          "ditahan"
+        ],
+        "attention_score": 18,
+        "attention_label": "Rendah",
+        "attention_components": {
+          "severity": 11,
+          "polri_relation": 0,
+          "authority": 0,
+          "public_impact": 4,
+          "handling": 2,
+          "evidence": 1,
+          "context_risk": 0,
+          "routine_enforcement_cap": null
+        },
+        "attention_evidence": {
+          "severity": [],
+          "authority": [],
+          "public_impact": [],
+          "evidence": [
+            "satu sumber / informasi awal"
+          ],
+          "role": [],
+          "issue": [
+            "narkoba"
+          ],
+          "handling": [
+            "ditahan"
+          ],
+          "context": [],
+          "positive": []
+        },
+        "case_engine_version": "case-v6.5.3",
+        "case_processed_at": "2026-08-31T04:30:12.504099+00:00"
+      },
+      {
+        "id": "b073a90af1756b9a8d78f95a29fc53996f7bce89",
+        "title": "Anggota Polsek Srengat Menghadiri Kegiatan di Kel. Dandong - Website Resmi Polri",
+        "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPbHJjX09zMUV0aVctY05CZlpQOVVnRHpaa1hyelZIVTFRemRSM2dxeDc3ZlJzZWhBcU9hVGNENVFiLW9INGR4SXVxZGExMG9YOThoZXZUNFZDR3pVRTJtalZ3ZjVqcy1FSGVKZjViUG1GRTJrVHlsWm8tU3VoaGVvQklyQnlHR2tLZWxjYWpKTEN2Y1lmbEZEcDQ3T1lXZlQ4ZmpidWZza01MUml1VFliVVpPMVBDZ0RPclBfaw?oc=5",
+        "source": "Website Resmi Polri",
+        "published_at": "2026-08-31T03:47:20+00:00",
+        "collected_at": "2026-08-31T04:27:42.355467+00:00",
+        "region": "BELUM TERPETAKAN",
+        "area_label": "BELUM TERPETAKAN",
+        "is_jatim": null,
+        "polres": null,
+        "category": "NETRAL / LAINNYA",
+        "scope": "neutral",
+        "scope_label": "NETRAL",
+        "priority": "low",
+        "summary": "Anggota Polsek Srengat Menghadiri Kegiatan di Kel. Dandong Website Resmi Polri",
+        "processing_status": "processed",
+        "classifier_version": "news-v6",
+        "classified_at": "2026-08-31T04:27:42.355467+00:00",
+        "case_id": null,
+        "discovery_families": [],
+        "discovery_tags": [],
+        "discovery_hits": [],
+        "discovery_version": "discovery-v6.5.3",
+        "locality": "",
+        "polsek": "POLSEK SRENGAT MENGHADIRI KEGIATAN",
+        "location_confidence": 0,
+        "location_evidence": [
+          "POLSEK SRENGAT MENGHADIRI KEGIATAN"
+        ],
+        "location_status": "BELUM_TERPETAKAN",
+        "location_source": "title",
+        "issue_type": "UMUM",
+        "issue_subtype": "Belum Teridentifikasi",
+        "issue_evidence": [],
+        "handling_status": "BELUM_ADA_INFORMASI",
+        "handling_evidence": [],
+        "attention_score": 7,
+        "attention_label": "Rendah",
+        "attention_components": {
+          "severity": 2,
+          "polri_relation": 0,
+          "authority": 0,
+          "public_impact": 4,
+          "handling": 0,
+          "evidence": 1,
+          "context_risk": 0,
+          "routine_enforcement_cap": null
+        },
+        "attention_evidence": {
+          "severity": [],
+          "authority": [],
+          "public_impact": [],
+          "evidence": [
+            "satu sumber / informasi awal"
+          ],
+          "role": [],
+          "issue": [],
+          "handling": [],
+          "context": [],
+          "positive": []
+        },
+        "case_engine_version": "case-v6.5.3",
+        "case_processed_at": "2026-08-31T04:30:12.647801+00:00"
+      },
+      {
+        "id": "f4f4e474d89c96b3cde02e64d54416255597229e",
+        "title": "Gagal Berangkatkan Haji, Pria Asal NTB ditangkap Polres Tulungagung - jatimnow.com",
+        "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOd2hLVG10ME1MZloxLW50bGl2Tk5LWmw3OTU3SjFVVUtZT3c2MVp1S09KOENsb2tyZzNGV0RTem5ybFY4eHRDNHl3azhxWlBGdlVrNVRrSWtwSUtJeDBHMGlrSlp2VmhRMzJqcWZaY1JpTi0xeGNzdk1xUFNUaWFOYmE0U1cycHdNaWQyQ0NiR0RKVkdNZi1RNTRLZG1SNzDSAaQBQVVfeXFMTkxFcmwyS2JYT2F6YzNwcEF0ZFpnTVRCaEloSFdmSmlzZGNMcUs4OEFXb2J0ZGxfQWs4VU9odU4wZkN0aVQzYVBjSlhIdHdXZUZ5ODIyV1VVRHZsMmY1dnZrOEVIajVkV0I2bUFxdGQ4aGx4aXlVZEdsaXBVM0lQVGlJMVJpeHNCcmVyQlQyaF9yR1g0SllESGppZXBzT1JCMWg4TFM?oc=5",
+        "source": "jatimnow.com",
+        "published_at": "2026-08-31T03:45:00+00:00",
+        "collected_at": "2026-08-31T04:27:42.355467+00:00",
+        "region": "LUAR JATIM",
+        "area_label": "LUAR JATIM",
+        "is_jatim": false,
+        "polres": null,
+        "category": "NETRAL / LAINNYA",
+        "scope": "neutral",
+        "scope_label": "NETRAL",
+        "priority": "low",
+        "summary": "Gagal Berangkatkan Haji, Pria Asal NTB ditangkap Polres Tulungagung jatimnow.com",
+        "processing_status": "processed",
+        "classifier_version": "news-v6",
+        "classified_at": "2026-08-31T04:27:42.355467+00:00",
+        "case_id": null,
+        "discovery_families": [],
+        "discovery_tags": [],
+        "discovery_hits": [],
+        "discovery_version": "discovery-v6.5.3",
+        "locality": "",
+        "polsek": null,
+        "location_confidence": 100,
+        "location_evidence": [
+          "ntb"
+        ],
+        "location_status": "LUAR_JATIM",
+        "location_source": "title",
+        "issue_type": "UMUM",
+        "issue_subtype": "Belum Teridentifikasi",
+        "issue_evidence": [],
+        "handling_status": "BELUM_ADA_INFORMASI",
+        "handling_evidence": [],
+        "attention_score": 7,
+        "attention_label": "Rendah",
+        "attention_components": {
+          "severity": 2,
+          "polri_relation": 0,
+          "authority": 0,
+          "public_impact": 4,
+          "handling": 0,
+          "evidence": 1,
+          "context_risk": 0,
+          "routine_enforcement_cap": null
+        },
+        "attention_evidence": {
+          "severity": [],
+          "authority": [],
+          "public_impact": [],
+          "evidence": [
+            "satu sumber / informasi awal"
+          ],
+          "role": [],
+          "issue": [],
+          "handling": [],
+          "context": [],
+          "positive": []
+        },
+        "case_engine_version": "case-v6.5.3",
+        "case_processed_at": "2026-08-31T04:30:12.710488+00:00"
+      },
+      {
+        "id": "6369416476f9094172d411631affec18f9f7b1ed",
+        "title": "Kasus Bayi Dibuang di Pulau Sebatik, Polisi Amankan Wanita Diduga Pelaku Sekaligus Ibu Kandung - Kompas.com",
+        "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQY3lLWkNvMjNGclk2Q2F3NG5JSkY0d2Q0bHpvbERKYTN0Y29zcjBnNUZrZnVSNEx5OFdLYmwyTFlhNmcxOWxPTGMxVWZSSDZRZFpqdEhJbGNqbWR6S19iTWpnaXBvV3g5eDlPMzNjOURKLWo5ekxyUWpuQTZxYUc4WWVDV0p4Y2NuTmRCelRCcnpybFBEN0JoejhGUFhURHVMOHd1bzdEaHdtNFl4d0Z3Wk5yWUxGR1psQ1ZHdm85dlVOT00?oc=5",
+        "source": "Kompas.com",
+        "published_at": "2026-08-31T03:40:00+00:00",
+        "collected_at": "2026-08-31T04:27:42.355467+00:00",
+        "region": "BELUM TERPETAKAN",
+        "area_label": "BELUM TERPETAKAN",
+        "is_jatim": null,
+        "polres": null,
+        "category": "NETRAL / LAINNYA",
+        "scope": "neutral",
+        "scope_label": "NETRAL",
+        "priority": "low",
+        "summary": "Kasus Bayi Dibuang di Pulau Sebatik, Polisi Amankan Wanita Diduga Pelaku Sekaligus Ibu Kandung Kompas.com",
+        "processing_status": "processed",
+        "classifier_version": "news-v6",
+        "classified_at": "2026-08-31T04:27:42.355467+00:00",
+        "case_id": null,
+        "discovery_families": [],
+        "discovery_tags": [],
+        "discovery_hits": [],
+        "discovery_version": "discovery-v6.5.3",
+        "locality": "",
+        "polsek": null,
+        "location_confidence": 0,
+        "location_evidence": [],
+        "location_status": "BELUM_TERPETAKAN",
+        "location_source": "title",
+        "issue_type": "UMUM",
+        "issue_subtype": "Belum Teridentifikasi",
+        "issue_evidence": [],
+        "handling_status": "BELUM_ADA_INFORMASI",
+        "handling_evidence": [],
+        "attention_score": 29,
+        "attention_label": "Rendah",
+        "attention_components": {
+          "severity": 2,
+          "polri_relation": 16,
+          "authority": 0,
+          "public_impact": 10,
+          "handling": 0,
+          "evidence": 1,
+          "context_risk": 0,
+          "routine_enforcement_cap": null
+        },
+        "attention_evidence": {
+          "severity": [],
+          "authority": [],
+          "public_impact": [
+            "dampak institusional"
+          ],
+          "evidence": [
+            "satu sumber / informasi awal"
+          ],
+          "role": [
+            "Polri/personel menjadi subjek permasalahan"
+          ],
+          "issue": [],
+          "handling": [],
+          "context": [],
+          "positive": []
+        },
+        "case_engine_version": "case-v6.5.3",
+        "case_processed_at": "2026-08-31T04:30:12.791906+00:00"
+      },
+      {
+        "id": "6d577a8fd20ccec0dd0c46f9071132304f408e61",
+        "title": "Cegah Balap Liar, Polsek Dagangan Bekali Pelajar SMPN 1 Dagangan dengan Edukasi Kamtibmas - Tribratanews Polres Madiun",
+        "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOenlvZHhyNWRaWGNxY2hhd3ZnRHE4UHRpN0pRRU51b0RmZExMemhMdG1VeUdjNXV4Y1ZVLWFwSWJIZlVXU3REQ3dTRUNETWV6bEQ4el9TR2dBQld4LUVMY2ZpTFhYUzRwM1lqWVVkaDlRUlR2eXZkaXR5UGJkcWRtdVIyTHVRZ1hJWmh6MkViZEJxeXRFaDhhaDNTcEkxbXB1T1FxcGhHdFRsRHpZSk1KdEtmMVdoRU1QOW9PQVVsZmUzMnRqQXZfVlN4MFJjNXM?oc=5",
+        "source": "Tribratanews Polres Madiun",
+        "published_at": "2026-08-31T03:15:00+00:00",
+        "collected_at": "2026-08-31T04:27:42.355467+00:00",
+        "region": "BELUM TERPETAKAN",
+        "area_label": "BELUM TERPETAKAN",
+        "is_jatim": null,
+        "polres": null,
+        "category": "NETRAL / LAINNYA",
+        "scope": "neutral",
+        "scope_label": "NETRAL",
+        "priority": "low",
+        "summary": "Cegah Balap Liar, Polsek Dagangan Bekali Pelajar SMPN 1 Dagangan dengan Edukasi Kamtibmas Tribratanews Polres Madiun",
+        "processing_status": "processed",
+        "classifier_version": "news-v6",
+        "classified_at": "2026-08-31T04:27:42.355467+00:00",
+        "case_id": null,
+        "discovery_families": [],
+        "discovery_tags": [],
+        "discovery_hits": [],
+        "discovery_version": "discovery-v6.5.3",
+        "locality": "",
+        "polsek": "POLSEK DAGANGAN BEKALI PELAJAR",
+        "location_confidence": 0,
+        "location_evidence": [
+          "POLSEK DAGANGAN BEKALI PELAJAR"
+        ],
+        "location_status": "BELUM_TERPETAKAN",
+        "location_source": "title",
+        "issue_type": "UMUM",
+        "issue_subtype": "Belum Teridentifikasi",
+        "issue_evidence": [],
+        "handling_status": "BELUM_ADA_INFORMASI",
+        "handling_evidence": [],
+        "attention_score": 7,
+        "attention_label": "Rendah",
+        "attention_components": {
+          "severity": 2,
+          "polri_relation": 0,
+          "authority": 0,
+          "public_impact": 4,
+          "handling": 0,
+          "evidence": 1,
+          "context_risk": 0,
+          "routine_enforcement_cap": null
+        },
+        "attention_evidence": {
+          "severity": [],
+          "authority": [],
+          "public_impact": [],
+          "evidence": [
+            "satu sumber / informasi awal"
+          ],
+          "role": [],
+          "issue": [],
+          "handling": [],
+          "context": [],
+          "positive": []
+        },
+        "case_engine_version": "case-v6.5.3",
+        "case_processed_at": "2026-08-31T04:30:13.247330+00:00"
+      },
+      {
+        "id": "30f7adc448b0680843831420d0cfbc7214e7b7ee",
+        "title": "Bhabinkamtibmas Desa Bagi Hadiri Maulid Nabi, Pererat Sinergitas dengan Tokoh Agama dan Masyarakat - Tribratanews Polres Madiun",
+        "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxQcUJvbTAwaDZrU1QxbzhPMmVRZlIxS2xkVDladjNsOXdNRFFHN3NXZG92MTJ5RklsTF9jOHNOalpWMWtlRUNYd25PR1pjSXhsWnRUVy1ZWGNweXQ4bXROV0lUcXdWSUNEM1FKRkJfOUJ0cmRheVNncWVFeGRXS1hCMk9HaHUyelZpd2I5Q1Z0bXhJMGRMN2YxNUtPbFpIQ3lFZ0VhWE9WNDdmMTI3MXN1a3p3WVFWUUU1RG84Zmo0Q1FMWlR1MlFWbGJmelR0THNSZkpjaHBDYjhVbzA?oc=5",
+        "source": "Tribratanews Polres Madiun",
+        "published_at": "2026-08-31T03:13:00+00:00",
+        "collected_at": "2026-08-31T04:27:42.355467+00:00",
+        "region": "BELUM TERPETAKAN",
+        "area_label": "BELUM TERPETAKAN",
+        "is_jatim": null,
+        "polres": null,
+        "category": "NETRAL / LAINNYA",
+        "scope": "neutral",
+        "scope_label": "NETRAL",
+        "priority": "low",
+        "summary": "Bhabinkamtibmas Desa Bagi Hadiri Maulid Nabi, Pererat Sinergitas dengan Tokoh Agama dan Masyarakat Tribratanews Polres Madiun",
+        "processing_status": "processed",
+        "classifier_version": "news-v6",
+        "classified_at": "2026-08-31T04:27:42.355467+00:00",
+        "case_id": null,
+        "discovery_families": [],
+        "discovery_tags": [],
+        "discovery_hits": [],
+        "discovery_version": "discovery-v6.5.3",
+        "locality": "",
+        "polsek": null,
+        "location_confidence": 0,
+        "location_evidence": [],
+        "location_status": "BELUM_TERPETAKAN",
+        "location_source": "title",
+        "issue_type": "UMUM",
+        "issue_subtype": "Belum Teridentifikasi",
+        "issue_evidence": [],
+        "handling_status": "BELUM_ADA_INFORMASI",
+        "handling_evidence": [],
+        "attention_score": 15,
+        "attention_label": "Rendah",
+        "attention_components": {
+          "severity": 2,
+          "polri_relation": 0,
+          "authority": 0,
+          "public_impact": 12,
+          "handling": 0,
+          "evidence": 1,
+          "context_risk": 0,
+          "routine_enforcement_cap": null
+        },
+        "attention_evidence": {
+          "severity": [],
+          "authority": [],
+          "public_impact": [
+            "dampak kepada masyarakat"
+          ],
+          "evidence": [
+            "satu sumber / informasi awal"
+          ],
+          "role": [],
+          "issue": [],
+          "handling": [],
+          "context": [],
+          "positive": []
+        },
+        "case_engine_version": "case-v6.5.3",
+        "case_processed_at": "2026-08-31T04:30:13.336113+00:00"
+      },
+      {
+        "id": "602b73daf2b3f1841cdf2ccb2f5c244860779303",
+        "title": "Polsek Balerejo Dorong Masyarakat Kedungjati Perkuat Kamtibmas dan Ketahanan Pangan - Tribratanews Polres Madiun",
+        "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPMVR2UU8takh0Z2JtSVJBalZjSzgyTVltaTRXUUhmcXZWMkh3ZWlkd0JKc3JIUHdpNEpyakdNUkNkQTZyUXB5OU96dTFvWWpmUXFRVlJSV0E2U1lCczhMTHB3Y0VZTzlsc1A2QnNqdURadFFlMm1HMXgzOGYwSmgzX29lLV9hT3Q1Slo0aExBX3ZXX2JqUmQ1cXZKQUV0Nkd6QklOMHZUanJFTUNtQy0xV0tEcWhDaURFd0dEVTV2T3hXdGZNanZvdQ?oc=5",
+        "source": "Tribratanews Polres Madiun",
+        "published_at": "2026-08-31T03:07:00+00:00",
+        "collected_at": "2026-08-31T04:27:42.355467+00:00",
+        "region": "BELUM TERPETAKAN",
+        "area_label": "BELUM TERPETAKAN",
+        "is_jatim": null,
+        "polres": null,
+        "category": "NETRAL / LAINNYA",
+        "scope": "neutral",
+        "scope_label": "NETRAL",
+        "priority": "low",
+        "summary": "Polsek Balerejo Dorong Masyarakat Kedungjati Perkuat Kamtibmas dan Ketahanan Pangan Tribratanews Polres Madiun",
+        "processing_status": "processed",
+        "classifier_version": "news-v6",
+        "classified_at": "2026-08-31T04:27:42.355467+00:00",
+        "case_id": null,
+        "discovery_families": [],
+        "discovery_tags": [],
+        "discovery_hits": [],
+        "discovery_version": "discovery-v6.5.3",
+        "locality": "",
+        "polsek": "POLSEK BALEREJO DORONG MASYARAKAT",
+        "location_confidence": 0,
+        "location_evidence": [
+          "POLSEK BALEREJO DORONG MASYARAKAT"
+        ],
+        "location_status": "BELUM_TERPETAKAN",
+        "location_source": "title",
+        "issue_type": "UMUM",
+        "issue_subtype": "Belum Teridentifikasi",
+        "issue_evidence": [],
+        "handling_status": "BELUM_ADA_INFORMASI",
+        "handling_evidence": [],
+        "attention_score": 15,
+        "attention_label": "Rendah",
+        "attention_components": {
+          "severity": 2,
+          "polri_relation": 0,
+          "authority": 0,
+          "public_impact": 12,
+          "handling": 0,
+          "evidence": 1,
+          "context_risk": 0,
+          "routine_enforcement_cap": null
+        },
+        "attention_evidence": {
+          "severity": [],
+          "authority": [],
+          "public_impact": [
+            "dampak kepada masyarakat"
+          ],
+          "evidence": [
+            "satu sumber / informasi awal"
+          ],
+          "role": [],
+          "issue": [],
+          "handling": [],
+          "context": [],
+          "positive": []
+        },
+        "case_engine_version": "case-v6.5.3",
+        "case_processed_at": "2026-08-31T04:30:13.416686+00:00"
+      },
       {
         "id": "93b5d7cb051b44f9471b5a3a05a443989bc1e7cb",
         "title": "Dari Mengatur Lalu Lintas hingga Membongkar Narkoba, 17 Polisi Pringsewu Diganjar Penghargaan - Website Resmi Polri",
@@ -6002,7 +8641,7 @@
           ]
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-31T02:56:22.375767+00:00"
+        "case_processed_at": "2026-08-31T04:30:13.565243+00:00"
       },
       {
         "id": "9a162fc4d7683572c8c36e5d9990d717ca362e0d",
@@ -6073,7 +8712,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-31T02:56:22.528435+00:00"
+        "case_processed_at": "2026-08-31T04:30:13.718221+00:00"
       },
       {
         "id": "1ccdacc7a16e48d3423b02d0ea9a06407df70a69",
@@ -6140,7 +8779,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-31T02:56:22.594975+00:00"
+        "case_processed_at": "2026-08-31T04:30:13.773953+00:00"
       },
       {
         "id": "16f2d204c4cfc4e7266ffd54fa1339feeee42306",
@@ -6205,7 +8844,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-31T02:56:22.663938+00:00"
+        "case_processed_at": "2026-08-31T04:30:13.845415+00:00"
       },
       {
         "id": "d0529b443aaacb29de700befca43ad0c7f3d8777",
@@ -6270,7 +8909,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-31T02:56:22.740434+00:00"
+        "case_processed_at": "2026-08-31T04:30:13.924865+00:00"
       },
       {
         "id": "619e098b5f973438cb7ee7c3ecefcc824ca3d04c",
@@ -6339,7 +8978,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-31T02:56:22.916989+00:00"
+        "case_processed_at": "2026-08-31T04:30:14.107056+00:00"
       },
       {
         "id": "5a25788ecaf7476135ded1e01c841767e2942996",
@@ -6412,7 +9051,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-31T02:56:23.058124+00:00"
+        "case_processed_at": "2026-08-31T04:30:14.252406+00:00"
       },
       {
         "id": "ab07e34db625f7cc375a5915e09d0a42a7c95a30",
@@ -6481,7 +9120,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-31T02:56:23.140959+00:00"
+        "case_processed_at": "2026-08-31T04:30:14.338722+00:00"
       },
       {
         "id": "940996c13dbb9a158746c27225736afbc1d72da8",
@@ -6552,7 +9191,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-31T02:56:23.213807+00:00"
+        "case_processed_at": "2026-08-31T04:30:14.414539+00:00"
       },
       {
         "id": "4e75eb37536e4887653b670f1aa87355a08e930a",
@@ -6625,7 +9264,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-31T02:56:23.363250+00:00"
+        "case_processed_at": "2026-08-31T04:30:14.566802+00:00"
       },
       {
         "id": "38a3a69905f13f806c7fed8a0f1e9aa1e63ca589",
@@ -6696,7 +9335,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-31T02:56:23.562512+00:00"
+        "case_processed_at": "2026-08-31T04:30:14.772464+00:00"
       },
       {
         "id": "ea9b72c3b0f6d4a3924a763d5bcc6356b6dcd292",
@@ -6776,7 +9415,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-31T02:57:48.099470+00:00"
+        "case_processed_at": "2026-08-31T04:31:41.158733+00:00"
       },
       {
         "id": "877f490b0a8294ded947dc809e53ea290c21ef58",
@@ -6841,7 +9480,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-31T02:56:23.644411+00:00"
+        "case_processed_at": "2026-08-31T04:30:14.858366+00:00"
       },
       {
         "id": "2810852e20198493a100461e2836680d388b611a",
@@ -6924,7 +9563,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-31T02:57:48.099475+00:00"
+        "case_processed_at": "2026-08-31T04:31:41.158737+00:00"
       },
       {
         "id": "e27bbceadb513c6124cee64b5a126b28296d1cf1",
@@ -6989,7 +9628,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-31T02:56:23.761916+00:00"
+        "case_processed_at": "2026-08-31T04:30:14.979819+00:00"
       },
       {
         "id": "3499dc65f4035bdd258f8decb5601fd84445c7f8",
@@ -7054,7 +9693,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-31T02:56:23.810885+00:00"
+        "case_processed_at": "2026-08-31T04:30:15.029583+00:00"
       },
       {
         "id": "08a4aa16e7e6996801c630eb44fa3832cbf2ff5f",
@@ -7123,7 +9762,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-31T02:56:23.935195+00:00"
+        "case_processed_at": "2026-08-31T04:30:15.157018+00:00"
       },
       {
         "id": "9e1d19cca08d3a6df56376b4f052564f07477820",
@@ -7186,7 +9825,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-31T02:56:24.008099+00:00"
+        "case_processed_at": "2026-08-31T04:30:15.231990+00:00"
       },
       {
         "id": "532379fd5a3ffecd3755c62694e5797d203e4062",
@@ -7249,7 +9888,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-31T02:56:24.308296+00:00"
+        "case_processed_at": "2026-08-31T04:30:15.540203+00:00"
       },
       {
         "id": "2bbb7632fcee05d555e17c5144659f5628af9517",
@@ -7312,7 +9951,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-31T02:56:24.376043+00:00"
+        "case_processed_at": "2026-08-31T04:30:15.610027+00:00"
       },
       {
         "id": "6488122494924628b7730c769ed351502accc7f6",
@@ -7396,7 +10035,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-31T02:57:48.099483+00:00"
+        "case_processed_at": "2026-08-31T04:31:41.158748+00:00"
       },
       {
         "id": "86e6b9956a8affdecae25646c9913fe10c9c415f",
@@ -7463,7 +10102,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-31T02:56:24.435687+00:00"
+        "case_processed_at": "2026-08-31T04:30:15.670963+00:00"
       },
       {
         "id": "6dc694a02f94e8848b112f38cca70644278955ba",
@@ -7528,7 +10167,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-31T02:56:24.502945+00:00"
+        "case_processed_at": "2026-08-31T04:30:15.740095+00:00"
       },
       {
         "id": "f7e3bfb7b7eb2b3f0195aa99be7d072b4aa1eb19",
@@ -7597,7 +10236,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-31T02:56:24.722242+00:00"
+        "case_processed_at": "2026-08-31T04:30:15.967688+00:00"
       },
       {
         "id": "28783407f2c216a20aa63955a9e353db1560e7ca",
@@ -7662,7 +10301,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-31T02:56:24.923112+00:00"
+        "case_processed_at": "2026-08-31T04:30:16.173794+00:00"
       },
       {
         "id": "2a6dba31b6aa2cc0d059f292438a8ac73be4072b",
@@ -7733,16 +10372,16 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.3",
-        "case_processed_at": "2026-08-31T02:56:25.078951+00:00"
+        "case_processed_at": "2026-08-31T04:30:16.334182+00:00"
       }
     ]
   },
   "cases": {
-    "active": 7,
+    "active": 10,
     "priority_high": 2,
-    "jatim": 4,
+    "jatim": 7,
     "jatim_priority_high": 1,
-    "articles": 55,
+    "articles": 58,
     "case_ids": [
       "CASE-000076",
       "CASE-000194",
@@ -7750,7 +10389,10 @@
       "CASE-000196",
       "CASE-000197",
       "CASE-000198",
-      "CASE-000199"
+      "CASE-000199",
+      "CASE-000200",
+      "CASE-000201",
+      "CASE-000202"
     ],
     "items": [
       {
@@ -9755,7 +12397,7 @@
         ],
         "article_count": 49,
         "created_at": "2026-08-27T20:35:38.491662+00:00",
-        "updated_at": "2026-08-31T02:57:47.681169+00:00",
+        "updated_at": "2026-08-31T04:31:40.753702+00:00",
         "engine_version": "case-v6.5.3",
         "priority_score": 96,
         "priority_breakdown": {
@@ -9870,7 +12512,7 @@
         ],
         "article_count": 1,
         "created_at": "2026-08-30T17:35:09.288874+00:00",
-        "updated_at": "2026-08-31T02:57:48.085126+00:00",
+        "updated_at": "2026-08-31T04:31:41.136866+00:00",
         "engine_version": "case-v6.5.3",
         "priority_score": 70,
         "priority_breakdown": {
@@ -9976,7 +12618,7 @@
         ],
         "article_count": 1,
         "created_at": "2026-08-30T17:35:09.343803+00:00",
-        "updated_at": "2026-08-31T02:57:48.088181+00:00",
+        "updated_at": "2026-08-31T04:31:41.139773+00:00",
         "engine_version": "case-v6.5.3",
         "priority_score": 10,
         "priority_breakdown": {
@@ -10088,7 +12730,7 @@
         ],
         "article_count": 1,
         "created_at": "2026-08-30T21:12:43.384510+00:00",
-        "updated_at": "2026-08-31T02:57:48.091053+00:00",
+        "updated_at": "2026-08-31T04:31:41.142458+00:00",
         "engine_version": "case-v6.5.3",
         "priority_score": 38,
         "priority_breakdown": {
@@ -10194,7 +12836,7 @@
         ],
         "article_count": 1,
         "created_at": "2026-08-31T02:57:41.107628+00:00",
-        "updated_at": "2026-08-31T02:57:48.093543+00:00",
+        "updated_at": "2026-08-31T04:31:41.144840+00:00",
         "engine_version": "case-v6.5.3",
         "priority_score": 46,
         "priority_breakdown": {
@@ -10304,7 +12946,7 @@
         ],
         "article_count": 1,
         "created_at": "2026-08-31T02:57:41.173846+00:00",
-        "updated_at": "2026-08-31T02:57:48.096407+00:00",
+        "updated_at": "2026-08-31T04:31:41.147530+00:00",
         "engine_version": "case-v6.5.3",
         "priority_score": 30,
         "priority_breakdown": {
@@ -10415,7 +13057,7 @@
         ],
         "article_count": 1,
         "created_at": "2026-08-31T02:57:41.247970+00:00",
-        "updated_at": "2026-08-31T02:57:48.099365+00:00",
+        "updated_at": "2026-08-31T04:31:41.150306+00:00",
         "engine_version": "case-v6.5.3",
         "priority_score": 37,
         "priority_breakdown": {
@@ -10444,6 +13086,340 @@
             "Gangguan Keamanan / Kamtibmas",
             "Polri sebagai pihak penindak",
             "status: sudah ditindak"
+          ]
+        }
+      },
+      {
+        "case_id": "CASE-000200",
+        "title": "Respon Laporan 110, Polres Malang Bakar Arena Diduga Sabung Ayam di Sumberpucung - Website Resmi Polri",
+        "category": "AKTIVITAS ILEGAL / DUGAAN PEMBIARAN",
+        "scope": "negative",
+        "region": "Jawa Timur",
+        "locality": "Malang",
+        "is_jatim": true,
+        "polres": "POLRES MALANG",
+        "polsek": null,
+        "priority": "low",
+        "attention_score": 28,
+        "attention_label": "Rendah",
+        "signature": "POLRES MALANG Jawa Timur",
+        "incident_terms": [
+          "110",
+          "arena",
+          "ayam",
+          "bakar",
+          "laporan",
+          "malang",
+          "polres",
+          "resmi",
+          "respon",
+          "sabung",
+          "sumberpucung",
+          "website"
+        ],
+        "event_terms": [],
+        "location_terms": [
+          "malang"
+        ],
+        "discovery_families": [
+          "illegal_activity_backing"
+        ],
+        "first_seen": "2026-08-31T03:43:32+00:00",
+        "last_seen": "2026-08-31T04:27:42.355467+00:00",
+        "last_detected_at": "2026-08-31T04:27:42.355467+00:00",
+        "article_ids": [
+          "29747d4baed2ac70341ee3ae531cff356efa86c8"
+        ],
+        "articles": [
+          {
+            "id": "29747d4baed2ac70341ee3ae531cff356efa86c8",
+            "title": "Respon Laporan 110, Polres Malang Bakar Arena Diduga Sabung Ayam di Sumberpucung - Website Resmi Polri",
+            "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxNYnVxVFQ2WHBhZjBaRklCZlhPaVhlcnNqbzNySnVXUnIxVnJIZFpBYkFWWG54MFMyY2pabHRoWDhpZWtFMmZGV3djWWlBZHZwNnFQa1YtVmxhU1lHRVlQTGZFYkI3X05CaDZEa1R2MUlaWHZkTUliZXFsWGlZbDJKcGd1V19WTl9YQzRoVFc5RTg3ekRLMUZVZFNQa2NtYjcxSXVBQ3pReUdRR0RpTDZsQUpWNTVwTlR4blJiSk0xZUlSOXpTejZUb090Y1ItdWxoS1F6OV9GOA?oc=5",
+            "published_at": "2026-08-31T03:43:32+00:00",
+            "collected_at": "2026-08-31T04:27:42.355467+00:00",
+            "source": "Website Resmi Polri",
+            "match_score": 1.0,
+            "priority": "low",
+            "scope": "negative",
+            "category": "AKTIVITAS ILEGAL / DUGAAN PEMBIARAN",
+            "region": "Jawa Timur",
+            "locality": "Malang",
+            "is_jatim": true,
+            "polres": "POLRES MALANG",
+            "polsek": null,
+            "issue_type": "AKTIVITAS_ILEGAL",
+            "issue_subtype": "Aktivitas Ilegal",
+            "handling_status": "BELUM_ADA_INFORMASI",
+            "handling_evidence": [],
+            "polri_relation": null,
+            "polri_relation_points": 0,
+            "polri_relation_evidence": [],
+            "attention_score": 27,
+            "attention_label": "Rendah",
+            "attention_components": {
+              "severity": 14,
+              "polri_relation": 0,
+              "authority": 0,
+              "public_impact": 12,
+              "handling": 0,
+              "evidence": 1,
+              "context_risk": 0,
+              "routine_enforcement_cap": null
+            }
+          }
+        ],
+        "article_count": 1,
+        "created_at": "2026-08-31T04:31:33.764805+00:00",
+        "updated_at": "2026-08-31T04:31:41.152909+00:00",
+        "engine_version": "case-v6.5.3",
+        "priority_score": 28,
+        "priority_breakdown": {
+          "severity": 14,
+          "polri_relation": 0,
+          "authority_context": 0,
+          "public_impact": 12,
+          "handling": 0,
+          "evidence": 1,
+          "spread": 0,
+          "escalation": 0,
+          "current_activity": 1,
+          "context_risk": 0
+        },
+        "priority_evidence": {
+          "unique_sources": 1,
+          "active_today_articles": 1,
+          "escalation": [],
+          "issue_type": "AKTIVITAS_ILEGAL",
+          "issue_subtype": "Aktivitas Ilegal",
+          "sentiment": "negative",
+          "polri_relation": "INFORMASI_UMUM",
+          "handling_status": "BELUM_ADA_INFORMASI",
+          "reasons": [
+            "sifat berita: negatif",
+            "Aktivitas Ilegal",
+            "Hubungan Polri belum spesifik"
+          ]
+        }
+      },
+      {
+        "case_id": "CASE-000201",
+        "title": "Kerusuhan di Triple X Night Club Surabaya, Polisi Amankan 3 Terduga Pelaku - Kabar Jawa Timur",
+        "category": "KEAMANAN / KAMTIBMAS",
+        "scope": "negative",
+        "region": "Jawa Timur",
+        "locality": "Surabaya",
+        "is_jatim": true,
+        "polres": null,
+        "polsek": null,
+        "priority": "low",
+        "attention_score": 35,
+        "attention_label": "Rendah",
+        "signature": "Jawa Timur",
+        "incident_terms": [
+          "club",
+          "jawa",
+          "kabar",
+          "kerusuhan",
+          "night",
+          "surabaya",
+          "terduga",
+          "timur",
+          "triple"
+        ],
+        "event_terms": [
+          "kerusuhan"
+        ],
+        "location_terms": [
+          "surabaya"
+        ],
+        "discovery_families": [
+          "security_public_order"
+        ],
+        "first_seen": "2026-08-31T03:22:33+00:00",
+        "last_seen": "2026-08-31T04:27:42.355467+00:00",
+        "last_detected_at": "2026-08-31T04:27:42.355467+00:00",
+        "article_ids": [
+          "4b7a5b048e9d54398ee1da404ba8828dd69bc685"
+        ],
+        "articles": [
+          {
+            "id": "4b7a5b048e9d54398ee1da404ba8828dd69bc685",
+            "title": "Kerusuhan di Triple X Night Club Surabaya, Polisi Amankan 3 Terduga Pelaku - Kabar Jawa Timur",
+            "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOWVV1VXpRWkx3R1pQUlFpQTRRekVfTEJBODdtbW1QQTQtbWFHT0Jkc2NDeVYyRmVFNFpaRk9QZGNhbXgyNXpxcTNIRzVXRHJ6cUkwckJXNzd4MlFTWG5yUmlPSThtTjhmZ3NMN1pMdGxyYWRGenUzMm5yNnhkUTVHbGhzel9Ma2djRlZEYS12cWFUUW5rZjk2V29saktld2pQRVdRa0hYbDNiRnZ0NUE?oc=5",
+            "published_at": "2026-08-31T03:22:33+00:00",
+            "collected_at": "2026-08-31T04:27:42.355467+00:00",
+            "source": "Kabar Jawa Timur",
+            "match_score": 1.0,
+            "priority": "medium",
+            "scope": "negative",
+            "category": "KEAMANAN / KAMTIBMAS",
+            "region": "Jawa Timur",
+            "locality": "Surabaya",
+            "is_jatim": true,
+            "polres": null,
+            "polsek": null,
+            "issue_type": "KEAMANAN_DAN_KAMTIBMAS",
+            "issue_subtype": "Gangguan Keamanan / Kamtibmas",
+            "handling_status": "BELUM_ADA_INFORMASI",
+            "handling_evidence": [],
+            "polri_relation": null,
+            "polri_relation_points": 0,
+            "polri_relation_evidence": [],
+            "attention_score": 40,
+            "attention_label": "Sedang",
+            "attention_components": {
+              "severity": 21,
+              "polri_relation": 2,
+              "authority": 0,
+              "public_impact": 10,
+              "handling": 0,
+              "evidence": 1,
+              "context_risk": 0,
+              "routine_enforcement_cap": 35
+            }
+          }
+        ],
+        "article_count": 1,
+        "created_at": "2026-08-31T04:31:33.835171+00:00",
+        "updated_at": "2026-08-31T04:31:41.155909+00:00",
+        "engine_version": "case-v6.5.3",
+        "priority_score": 35,
+        "priority_breakdown": {
+          "severity": 21,
+          "polri_relation": 2,
+          "authority_context": 0,
+          "public_impact": 10,
+          "handling": 0,
+          "evidence": 1,
+          "spread": 0,
+          "escalation": 0,
+          "current_activity": 1,
+          "context_risk": 0
+        },
+        "priority_evidence": {
+          "unique_sources": 1,
+          "active_today_articles": 1,
+          "escalation": [],
+          "issue_type": "KEAMANAN_DAN_KAMTIBMAS",
+          "issue_subtype": "Gangguan Keamanan / Kamtibmas",
+          "sentiment": "negative",
+          "polri_relation": "PENEGAKAN_HUKUM",
+          "handling_status": "BELUM_ADA_INFORMASI",
+          "reasons": [
+            "sifat berita: negatif",
+            "Gangguan Keamanan / Kamtibmas",
+            "Polri sebagai pihak penindak"
+          ]
+        }
+      },
+      {
+        "case_id": "CASE-000202",
+        "title": "Minta Uang ke Warga yang Hendak Mengambil Barang Bukti, Polisi di Surabaya Kena Demosi - Tribunnews.com",
+        "category": "OKNUM - INTEGRITAS/KEUANGAN",
+        "scope": "negative",
+        "region": "Jawa Timur",
+        "locality": "Surabaya",
+        "is_jatim": true,
+        "polres": null,
+        "polsek": null,
+        "priority": "low",
+        "attention_score": 38,
+        "attention_label": "Rendah",
+        "signature": "Jawa Timur",
+        "incident_terms": [
+          "barang",
+          "bukti",
+          "com",
+          "demosi",
+          "hendak",
+          "kena",
+          "mengambil",
+          "minta",
+          "surabaya",
+          "tribunnews",
+          "uang"
+        ],
+        "event_terms": [],
+        "location_terms": [
+          "surabaya"
+        ],
+        "discovery_families": [
+          "financial_misconduct"
+        ],
+        "first_seen": "2026-08-31T03:20:00+00:00",
+        "last_seen": "2026-08-31T04:27:42.355467+00:00",
+        "last_detected_at": "2026-08-31T04:27:42.355467+00:00",
+        "article_ids": [
+          "8593e2aa91c4b2ceecc173b85f66cdd60b3deee2"
+        ],
+        "articles": [
+          {
+            "id": "8593e2aa91c4b2ceecc173b85f66cdd60b3deee2",
+            "title": "Minta Uang ke Warga yang Hendak Mengambil Barang Bukti, Polisi di Surabaya Kena Demosi - Tribunnews.com",
+            "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNaFZLemtkOGM0WlRSTlllMFZpSmtVNE5ZVUdjMnV4OFhuMjE0MVZ1NkxNRHhjc3QwX0VtcTBITzQ5eDU2SXdVTVVjMmVhNUo0eVpvV0ZFZjY4S09reGxmUzRGWEdEMmdaYlNjMzJVMG5taC1xWXkwOUJMTmVlMkkyS2M4dndrSFd3c08wODdmRGF5b1dLLW5ZcUFnMlNMNkRzRVZUS1o4RG5oVno4aHIxUVIxM0lXMzhaaGx3ZGdUTUNPcUc1azZhNw?oc=5",
+            "published_at": "2026-08-31T03:20:00+00:00",
+            "collected_at": "2026-08-31T04:27:42.355467+00:00",
+            "source": "Tribunnews.com",
+            "match_score": 1.0,
+            "priority": "medium",
+            "scope": "negative",
+            "category": "OKNUM - INTEGRITAS/KEUANGAN",
+            "region": "Jawa Timur",
+            "locality": "Surabaya",
+            "is_jatim": true,
+            "polres": null,
+            "polsek": null,
+            "issue_type": "INTEGRITAS_DAN_KEUANGAN",
+            "issue_subtype": "Pungli / Suap / Pemerasan",
+            "handling_status": "BELUM_ADA_INFORMASI",
+            "handling_evidence": [],
+            "polri_relation": null,
+            "polri_relation_points": 0,
+            "polri_relation_evidence": [],
+            "attention_score": 40,
+            "attention_label": "Sedang",
+            "attention_components": {
+              "severity": 24,
+              "polri_relation": 0,
+              "authority": 0,
+              "public_impact": 12,
+              "handling": 0,
+              "evidence": 1,
+              "context_risk": 0,
+              "routine_enforcement_cap": null
+            }
+          }
+        ],
+        "article_count": 1,
+        "created_at": "2026-08-31T04:31:33.911686+00:00",
+        "updated_at": "2026-08-31T04:31:41.158542+00:00",
+        "engine_version": "case-v6.5.3",
+        "priority_score": 38,
+        "priority_breakdown": {
+          "severity": 24,
+          "polri_relation": 0,
+          "authority_context": 0,
+          "public_impact": 12,
+          "handling": 0,
+          "evidence": 1,
+          "spread": 0,
+          "escalation": 0,
+          "current_activity": 1,
+          "context_risk": 0
+        },
+        "priority_evidence": {
+          "unique_sources": 1,
+          "active_today_articles": 1,
+          "escalation": [],
+          "issue_type": "INTEGRITAS_DAN_KEUANGAN",
+          "issue_subtype": "Pungli / Suap / Pemerasan",
+          "sentiment": "negative",
+          "polri_relation": "INFORMASI_UMUM",
+          "handling_status": "BELUM_ADA_INFORMASI",
+          "reasons": [
+            "sifat berita: negatif",
+            "Pungli / Suap / Pemerasan",
+            "Hubungan Polri belum spesifik"
           ]
         }
       }
@@ -12451,7 +15427,7 @@
         ],
         "article_count": 49,
         "created_at": "2026-08-27T20:35:38.491662+00:00",
-        "updated_at": "2026-08-31T02:57:47.681169+00:00",
+        "updated_at": "2026-08-31T04:31:40.753702+00:00",
         "engine_version": "case-v6.5.3",
         "priority_score": 96,
         "priority_breakdown": {
@@ -12563,7 +15539,7 @@
         ],
         "article_count": 1,
         "created_at": "2026-08-30T17:35:09.343803+00:00",
-        "updated_at": "2026-08-31T02:57:48.088181+00:00",
+        "updated_at": "2026-08-31T04:31:41.139773+00:00",
         "engine_version": "case-v6.5.3",
         "priority_score": 10,
         "priority_breakdown": {
@@ -12675,7 +15651,7 @@
         ],
         "article_count": 1,
         "created_at": "2026-08-30T21:12:43.384510+00:00",
-        "updated_at": "2026-08-31T02:57:48.091053+00:00",
+        "updated_at": "2026-08-31T04:31:41.142458+00:00",
         "engine_version": "case-v6.5.3",
         "priority_score": 38,
         "priority_breakdown": {
@@ -12785,7 +15761,7 @@
         ],
         "article_count": 1,
         "created_at": "2026-08-31T02:57:41.173846+00:00",
-        "updated_at": "2026-08-31T02:57:48.096407+00:00",
+        "updated_at": "2026-08-31T04:31:41.147530+00:00",
         "engine_version": "case-v6.5.3",
         "priority_score": 30,
         "priority_breakdown": {
@@ -12815,11 +15791,345 @@
             "Hubungan Polri belum spesifik"
           ]
         }
+      },
+      {
+        "case_id": "CASE-000200",
+        "title": "Respon Laporan 110, Polres Malang Bakar Arena Diduga Sabung Ayam di Sumberpucung - Website Resmi Polri",
+        "category": "AKTIVITAS ILEGAL / DUGAAN PEMBIARAN",
+        "scope": "negative",
+        "region": "Jawa Timur",
+        "locality": "Malang",
+        "is_jatim": true,
+        "polres": "POLRES MALANG",
+        "polsek": null,
+        "priority": "low",
+        "attention_score": 28,
+        "attention_label": "Rendah",
+        "signature": "POLRES MALANG Jawa Timur",
+        "incident_terms": [
+          "110",
+          "arena",
+          "ayam",
+          "bakar",
+          "laporan",
+          "malang",
+          "polres",
+          "resmi",
+          "respon",
+          "sabung",
+          "sumberpucung",
+          "website"
+        ],
+        "event_terms": [],
+        "location_terms": [
+          "malang"
+        ],
+        "discovery_families": [
+          "illegal_activity_backing"
+        ],
+        "first_seen": "2026-08-31T03:43:32+00:00",
+        "last_seen": "2026-08-31T04:27:42.355467+00:00",
+        "last_detected_at": "2026-08-31T04:27:42.355467+00:00",
+        "article_ids": [
+          "29747d4baed2ac70341ee3ae531cff356efa86c8"
+        ],
+        "articles": [
+          {
+            "id": "29747d4baed2ac70341ee3ae531cff356efa86c8",
+            "title": "Respon Laporan 110, Polres Malang Bakar Arena Diduga Sabung Ayam di Sumberpucung - Website Resmi Polri",
+            "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxNYnVxVFQ2WHBhZjBaRklCZlhPaVhlcnNqbzNySnVXUnIxVnJIZFpBYkFWWG54MFMyY2pabHRoWDhpZWtFMmZGV3djWWlBZHZwNnFQa1YtVmxhU1lHRVlQTGZFYkI3X05CaDZEa1R2MUlaWHZkTUliZXFsWGlZbDJKcGd1V19WTl9YQzRoVFc5RTg3ekRLMUZVZFNQa2NtYjcxSXVBQ3pReUdRR0RpTDZsQUpWNTVwTlR4blJiSk0xZUlSOXpTejZUb090Y1ItdWxoS1F6OV9GOA?oc=5",
+            "published_at": "2026-08-31T03:43:32+00:00",
+            "collected_at": "2026-08-31T04:27:42.355467+00:00",
+            "source": "Website Resmi Polri",
+            "match_score": 1.0,
+            "priority": "low",
+            "scope": "negative",
+            "category": "AKTIVITAS ILEGAL / DUGAAN PEMBIARAN",
+            "region": "Jawa Timur",
+            "locality": "Malang",
+            "is_jatim": true,
+            "polres": "POLRES MALANG",
+            "polsek": null,
+            "issue_type": "AKTIVITAS_ILEGAL",
+            "issue_subtype": "Aktivitas Ilegal",
+            "handling_status": "BELUM_ADA_INFORMASI",
+            "handling_evidence": [],
+            "polri_relation": null,
+            "polri_relation_points": 0,
+            "polri_relation_evidence": [],
+            "attention_score": 27,
+            "attention_label": "Rendah",
+            "attention_components": {
+              "severity": 14,
+              "polri_relation": 0,
+              "authority": 0,
+              "public_impact": 12,
+              "handling": 0,
+              "evidence": 1,
+              "context_risk": 0,
+              "routine_enforcement_cap": null
+            }
+          }
+        ],
+        "article_count": 1,
+        "created_at": "2026-08-31T04:31:33.764805+00:00",
+        "updated_at": "2026-08-31T04:31:41.152909+00:00",
+        "engine_version": "case-v6.5.3",
+        "priority_score": 28,
+        "priority_breakdown": {
+          "severity": 14,
+          "polri_relation": 0,
+          "authority_context": 0,
+          "public_impact": 12,
+          "handling": 0,
+          "evidence": 1,
+          "spread": 0,
+          "escalation": 0,
+          "current_activity": 1,
+          "context_risk": 0
+        },
+        "priority_evidence": {
+          "unique_sources": 1,
+          "active_today_articles": 1,
+          "escalation": [],
+          "issue_type": "AKTIVITAS_ILEGAL",
+          "issue_subtype": "Aktivitas Ilegal",
+          "sentiment": "negative",
+          "polri_relation": "INFORMASI_UMUM",
+          "handling_status": "BELUM_ADA_INFORMASI",
+          "reasons": [
+            "sifat berita: negatif",
+            "Aktivitas Ilegal",
+            "Hubungan Polri belum spesifik"
+          ]
+        }
+      },
+      {
+        "case_id": "CASE-000201",
+        "title": "Kerusuhan di Triple X Night Club Surabaya, Polisi Amankan 3 Terduga Pelaku - Kabar Jawa Timur",
+        "category": "KEAMANAN / KAMTIBMAS",
+        "scope": "negative",
+        "region": "Jawa Timur",
+        "locality": "Surabaya",
+        "is_jatim": true,
+        "polres": null,
+        "polsek": null,
+        "priority": "low",
+        "attention_score": 35,
+        "attention_label": "Rendah",
+        "signature": "Jawa Timur",
+        "incident_terms": [
+          "club",
+          "jawa",
+          "kabar",
+          "kerusuhan",
+          "night",
+          "surabaya",
+          "terduga",
+          "timur",
+          "triple"
+        ],
+        "event_terms": [
+          "kerusuhan"
+        ],
+        "location_terms": [
+          "surabaya"
+        ],
+        "discovery_families": [
+          "security_public_order"
+        ],
+        "first_seen": "2026-08-31T03:22:33+00:00",
+        "last_seen": "2026-08-31T04:27:42.355467+00:00",
+        "last_detected_at": "2026-08-31T04:27:42.355467+00:00",
+        "article_ids": [
+          "4b7a5b048e9d54398ee1da404ba8828dd69bc685"
+        ],
+        "articles": [
+          {
+            "id": "4b7a5b048e9d54398ee1da404ba8828dd69bc685",
+            "title": "Kerusuhan di Triple X Night Club Surabaya, Polisi Amankan 3 Terduga Pelaku - Kabar Jawa Timur",
+            "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOWVV1VXpRWkx3R1pQUlFpQTRRekVfTEJBODdtbW1QQTQtbWFHT0Jkc2NDeVYyRmVFNFpaRk9QZGNhbXgyNXpxcTNIRzVXRHJ6cUkwckJXNzd4MlFTWG5yUmlPSThtTjhmZ3NMN1pMdGxyYWRGenUzMm5yNnhkUTVHbGhzel9Ma2djRlZEYS12cWFUUW5rZjk2V29saktld2pQRVdRa0hYbDNiRnZ0NUE?oc=5",
+            "published_at": "2026-08-31T03:22:33+00:00",
+            "collected_at": "2026-08-31T04:27:42.355467+00:00",
+            "source": "Kabar Jawa Timur",
+            "match_score": 1.0,
+            "priority": "medium",
+            "scope": "negative",
+            "category": "KEAMANAN / KAMTIBMAS",
+            "region": "Jawa Timur",
+            "locality": "Surabaya",
+            "is_jatim": true,
+            "polres": null,
+            "polsek": null,
+            "issue_type": "KEAMANAN_DAN_KAMTIBMAS",
+            "issue_subtype": "Gangguan Keamanan / Kamtibmas",
+            "handling_status": "BELUM_ADA_INFORMASI",
+            "handling_evidence": [],
+            "polri_relation": null,
+            "polri_relation_points": 0,
+            "polri_relation_evidence": [],
+            "attention_score": 40,
+            "attention_label": "Sedang",
+            "attention_components": {
+              "severity": 21,
+              "polri_relation": 2,
+              "authority": 0,
+              "public_impact": 10,
+              "handling": 0,
+              "evidence": 1,
+              "context_risk": 0,
+              "routine_enforcement_cap": 35
+            }
+          }
+        ],
+        "article_count": 1,
+        "created_at": "2026-08-31T04:31:33.835171+00:00",
+        "updated_at": "2026-08-31T04:31:41.155909+00:00",
+        "engine_version": "case-v6.5.3",
+        "priority_score": 35,
+        "priority_breakdown": {
+          "severity": 21,
+          "polri_relation": 2,
+          "authority_context": 0,
+          "public_impact": 10,
+          "handling": 0,
+          "evidence": 1,
+          "spread": 0,
+          "escalation": 0,
+          "current_activity": 1,
+          "context_risk": 0
+        },
+        "priority_evidence": {
+          "unique_sources": 1,
+          "active_today_articles": 1,
+          "escalation": [],
+          "issue_type": "KEAMANAN_DAN_KAMTIBMAS",
+          "issue_subtype": "Gangguan Keamanan / Kamtibmas",
+          "sentiment": "negative",
+          "polri_relation": "PENEGAKAN_HUKUM",
+          "handling_status": "BELUM_ADA_INFORMASI",
+          "reasons": [
+            "sifat berita: negatif",
+            "Gangguan Keamanan / Kamtibmas",
+            "Polri sebagai pihak penindak"
+          ]
+        }
+      },
+      {
+        "case_id": "CASE-000202",
+        "title": "Minta Uang ke Warga yang Hendak Mengambil Barang Bukti, Polisi di Surabaya Kena Demosi - Tribunnews.com",
+        "category": "OKNUM - INTEGRITAS/KEUANGAN",
+        "scope": "negative",
+        "region": "Jawa Timur",
+        "locality": "Surabaya",
+        "is_jatim": true,
+        "polres": null,
+        "polsek": null,
+        "priority": "low",
+        "attention_score": 38,
+        "attention_label": "Rendah",
+        "signature": "Jawa Timur",
+        "incident_terms": [
+          "barang",
+          "bukti",
+          "com",
+          "demosi",
+          "hendak",
+          "kena",
+          "mengambil",
+          "minta",
+          "surabaya",
+          "tribunnews",
+          "uang"
+        ],
+        "event_terms": [],
+        "location_terms": [
+          "surabaya"
+        ],
+        "discovery_families": [
+          "financial_misconduct"
+        ],
+        "first_seen": "2026-08-31T03:20:00+00:00",
+        "last_seen": "2026-08-31T04:27:42.355467+00:00",
+        "last_detected_at": "2026-08-31T04:27:42.355467+00:00",
+        "article_ids": [
+          "8593e2aa91c4b2ceecc173b85f66cdd60b3deee2"
+        ],
+        "articles": [
+          {
+            "id": "8593e2aa91c4b2ceecc173b85f66cdd60b3deee2",
+            "title": "Minta Uang ke Warga yang Hendak Mengambil Barang Bukti, Polisi di Surabaya Kena Demosi - Tribunnews.com",
+            "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNaFZLemtkOGM0WlRSTlllMFZpSmtVNE5ZVUdjMnV4OFhuMjE0MVZ1NkxNRHhjc3QwX0VtcTBITzQ5eDU2SXdVTVVjMmVhNUo0eVpvV0ZFZjY4S09reGxmUzRGWEdEMmdaYlNjMzJVMG5taC1xWXkwOUJMTmVlMkkyS2M4dndrSFd3c08wODdmRGF5b1dLLW5ZcUFnMlNMNkRzRVZUS1o4RG5oVno4aHIxUVIxM0lXMzhaaGx3ZGdUTUNPcUc1azZhNw?oc=5",
+            "published_at": "2026-08-31T03:20:00+00:00",
+            "collected_at": "2026-08-31T04:27:42.355467+00:00",
+            "source": "Tribunnews.com",
+            "match_score": 1.0,
+            "priority": "medium",
+            "scope": "negative",
+            "category": "OKNUM - INTEGRITAS/KEUANGAN",
+            "region": "Jawa Timur",
+            "locality": "Surabaya",
+            "is_jatim": true,
+            "polres": null,
+            "polsek": null,
+            "issue_type": "INTEGRITAS_DAN_KEUANGAN",
+            "issue_subtype": "Pungli / Suap / Pemerasan",
+            "handling_status": "BELUM_ADA_INFORMASI",
+            "handling_evidence": [],
+            "polri_relation": null,
+            "polri_relation_points": 0,
+            "polri_relation_evidence": [],
+            "attention_score": 40,
+            "attention_label": "Sedang",
+            "attention_components": {
+              "severity": 24,
+              "polri_relation": 0,
+              "authority": 0,
+              "public_impact": 12,
+              "handling": 0,
+              "evidence": 1,
+              "context_risk": 0,
+              "routine_enforcement_cap": null
+            }
+          }
+        ],
+        "article_count": 1,
+        "created_at": "2026-08-31T04:31:33.911686+00:00",
+        "updated_at": "2026-08-31T04:31:41.158542+00:00",
+        "engine_version": "case-v6.5.3",
+        "priority_score": 38,
+        "priority_breakdown": {
+          "severity": 24,
+          "polri_relation": 0,
+          "authority_context": 0,
+          "public_impact": 12,
+          "handling": 0,
+          "evidence": 1,
+          "spread": 0,
+          "escalation": 0,
+          "current_activity": 1,
+          "context_risk": 0
+        },
+        "priority_evidence": {
+          "unique_sources": 1,
+          "active_today_articles": 1,
+          "escalation": [],
+          "issue_type": "INTEGRITAS_DAN_KEUANGAN",
+          "issue_subtype": "Pungli / Suap / Pemerasan",
+          "sentiment": "negative",
+          "polri_relation": "INFORMASI_UMUM",
+          "handling_status": "BELUM_ADA_INFORMASI",
+          "reasons": [
+            "sifat berita: negatif",
+            "Pungli / Suap / Pemerasan",
+            "Hubungan Polri belum spesifik"
+          ]
+        }
       }
     ]
   },
   "social": {
-    "detected": 112,
+    "detected": 113,
     "jatim": 15,
     "negative": 47,
     "priority_high": 26,
@@ -12835,6 +16145,7 @@
       "fAhpKvVP7nQ",
       "zUrVJ2Rki7s",
       "cuUcBsHXTvs",
+      "HHCWyC9EkcQ",
       "YnIqDoMH-H0",
       "SY0CtO5yFwI",
       "PcLq718END8",
@@ -12939,20 +16250,24 @@
     ]
   },
   "jatim": {
-    "news_today": 29,
-    "negative_today": 7,
-    "positive_today": 4,
+    "news_today": 39,
+    "negative_today": 10,
+    "positive_today": 5,
     "case_scope_today": 1,
-    "neutral_today": 17,
-    "case_today": 4,
+    "neutral_today": 23,
+    "case_today": 7,
     "case_high_active": 1,
     "article_high_today": 0,
-    "outside_jatim_today": 26
+    "outside_jatim_today": 35
   },
   "regions": [
     {
+      "name": "Malang",
+      "count": 7
+    },
+    {
       "name": "Surabaya",
-      "count": 5
+      "count": 7
     },
     {
       "name": "Lamongan",
@@ -12961,6 +16276,10 @@
     {
       "name": "Pasuruan",
       "count": 3
+    },
+    {
+      "name": "Kediri",
+      "count": 2
     },
     {
       "name": "Blitar",
@@ -12975,11 +16294,11 @@
       "count": 2
     },
     {
-      "name": "Pacitan",
+      "name": "Madiun",
       "count": 1
     },
     {
-      "name": "Kediri",
+      "name": "Pacitan",
       "count": 1
     },
     {
@@ -13003,10 +16322,6 @@
       "count": 1
     },
     {
-      "name": "Malang",
-      "count": 1
-    },
-    {
       "name": "Sampang",
       "count": 1
     },
@@ -13016,6 +16331,10 @@
     }
   ],
   "polres": [
+    {
+      "name": "POLRES MALANG",
+      "count": 6
+    },
     {
       "name": "POLRESTABES SURABAYA",
       "count": 3
@@ -13031,6 +16350,14 @@
     {
       "name": "POLRESTA SUMENEP",
       "count": 2
+    },
+    {
+      "name": "POLRES KEDIRI",
+      "count": 1
+    },
+    {
+      "name": "POLRES MADIUN",
+      "count": 1
     },
     {
       "name": "POLRES PACITAN",
@@ -13072,15 +16399,23 @@
   "categories": [
     {
       "name": "NETRAL / LAINNYA",
-      "count": 17
+      "count": 23
     },
     {
       "name": "OKNUM - INTEGRITAS/KEUANGAN",
-      "count": 6
+      "count": 7
     },
     {
       "name": "PRESTASI / KEGIATAN POSITIF",
-      "count": 4
+      "count": 5
+    },
+    {
+      "name": "AKTIVITAS ILEGAL / DUGAAN PEMBIARAN",
+      "count": 1
+    },
+    {
+      "name": "KEAMANAN / KAMTIBMAS",
+      "count": 1
     },
     {
       "name": "OKNUM - PENANGANAN PERKARA",
@@ -13092,19 +16427,19 @@
     }
   ],
   "summary": {
-    "news_today": 55,
-    "negative_today": 10,
-    "cases_today": 7,
+    "news_today": 74,
+    "negative_today": 13,
+    "cases_today": 10,
     "priority_high": 2,
     "article_priority_high": 2,
-    "jatim_news": 29,
-    "jatim_negative": 7,
-    "jatim_positive": 4,
+    "jatim_news": 39,
+    "jatim_negative": 10,
+    "jatim_positive": 5,
     "jatim_case_scope": 1,
-    "jatim_neutral": 17,
-    "jatim_cases_today": 4,
+    "jatim_neutral": 23,
+    "jatim_cases_today": 7,
     "jatim_case_high_active": 1,
-    "luar_jatim_news": 26,
-    "youtube_today": 112
+    "luar_jatim_news": 35,
+    "youtube_today": 113
   }
 }
