@@ -1,0 +1,38 @@
+/* JAGAT V7.0 — Laporan */
+#reportsView{display:flex;flex-direction:column;gap:16px}
+.report-hero{display:flex;align-items:flex-start;justify-content:space-between;gap:18px;padding:22px 24px;border:1px solid #17324e;border-radius:12px;background:linear-gradient(145deg,#091a2b,#07111e)}
+.report-hero h2{margin:4px 0 7px;font-size:24px;color:#eef6ff;letter-spacing:-.02em}
+.report-hero p{margin:0;color:#7990a9;font-size:12px;max-width:760px;line-height:1.6}
+.report-hero-badge{padding:7px 10px;border:1px solid #1d4d70;border-radius:999px;color:#66d8ee;background:#071b2b;font-size:9px;font-weight:800;letter-spacing:1px;white-space:nowrap}
+.report-toolbar{display:grid;grid-template-columns:1fr 1fr auto;gap:12px;align-items:end}
+.report-field{display:flex;flex-direction:column;gap:7px}
+.report-field label,.report-manual label{font-size:10px;text-transform:uppercase;letter-spacing:.7px;color:#6f89a2;font-weight:700}
+.report-field select,.report-field input,.report-manual textarea{width:100%;box-sizing:border-box;border:1px solid #173550;background:#061421;color:#eaf5ff;border-radius:8px;outline:none}
+.report-field select,.report-field input{height:39px;padding:0 11px;font-size:11px}
+.report-field select:focus,.report-field input:focus,.report-manual textarea:focus{border-color:#2b7398;box-shadow:0 0 0 3px rgba(34,211,238,.06)}
+.report-actions{display:flex;gap:8px}
+.report-actions button{height:39px}
+.report-primary{background:#0e5674;border-color:#2087a7;color:#e9fbff}
+.report-primary:hover{background:#126782;border-color:#36a3c2}
+.report-summary{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:10px}
+.report-summary .report-stat{padding:14px 15px;border:1px solid #17324e;background:#081725;border-radius:10px}
+.report-stat span{display:block;font-size:9px;color:#6f879e;text-transform:uppercase;letter-spacing:.55px}
+.report-stat strong{display:block;margin-top:8px;font-size:24px;color:#edf6ff}
+.report-layout{display:grid;grid-template-columns:minmax(300px,.85fr) minmax(0,1.3fr);gap:16px;align-items:start}
+.report-panel{border:1px solid #17324e;background:linear-gradient(145deg,#081623,#06101a);border-radius:10px;padding:16px}
+.report-panel h3{margin:0 0 5px;font-size:13px;text-transform:uppercase;letter-spacing:.65px;color:#dcecf9}
+.report-panel .muted{font-size:10px;line-height:1.5}
+.report-manual-grid{display:grid;gap:12px;margin-top:14px}
+.report-manual textarea{min-height:82px;padding:9px 10px;resize:vertical;font:11px/1.5 ui-monospace,SFMono-Regular,Consolas,"Liberation Mono",monospace}
+.report-note{margin-top:8px;padding:9px 10px;border-radius:7px;background:#071d2b;border:1px solid #164760;color:#6ea1ba;font-size:9px;line-height:1.5}
+.report-preview-wrap{display:flex;flex-direction:column;gap:10px}
+.report-preview-head{display:flex;align-items:center;justify-content:space-between;gap:10px}
+.report-preview-actions{display:flex;gap:7px}
+.report-preview-actions button{height:32px;font-size:10px}
+#reportPreview{margin:0;min-height:570px;max-height:720px;overflow:auto;white-space:pre-wrap;word-break:break-word;padding:18px;border:1px solid #16334d;border-radius:8px;background:#04101a;color:#dce9f5;font:11px/1.65 ui-monospace,SFMono-Regular,Consolas,"Liberation Mono",monospace}
+.report-preview-empty{display:flex!important;align-items:center;justify-content:center;color:#5f7890!important;text-align:center;font-family:inherit!important;white-space:normal!important}
+.report-source-count{font-size:9px;color:#6b879f}
+.report-error{padding:12px;border-radius:8px;background:#26121a;border:1px solid #6d2939;color:#ef9ca6;font-size:10px;line-height:1.5}
+@media (max-width:1050px){.report-layout{grid-template-columns:1fr}.report-preview-wrap{min-height:0}}
+@media (max-width:760px){.report-hero{padding:18px}.report-toolbar{grid-template-columns:1fr}.report-summary{grid-template-columns:repeat(2,minmax(0,1fr))}.report-actions{width:100%}.report-actions button{flex:1}}
+@media print{body.report-printing *{visibility:hidden!important}body.report-printing #reportsView,body.report-printing #reportsView *{visibility:visible!important}body.report-printing #reportsView{position:absolute;inset:0;background:#fff;padding:0!important}body.report-printing .report-hero,body.report-printing .report-toolbar,body.report-printing .report-summary,body.report-printing .report-panel:first-child,body.report-printing .report-preview-head,body.report-printing .report-note{display:none!important}body.report-printing .report-layout{display:block!important}body.report-printing .report-preview-wrap{display:block!important}body.report-printing #reportPreview{border:0;background:#fff;color:#111;max-height:none;min-height:0;padding:0;overflow:visible;font:11pt/1.55 "Times New Roman",serif}}
