@@ -1,196 +1,30 @@
 /* JAGAT V6.7 — focused command-dashboard presentation. */
 :root{
-  --j-bg:#050b14;
-  --j-bg2:#071321;
-  --j-panel:#0a1625;
-  --j-panel2:#0d1b2d;
-  --j-line:#17324e;
-  --j-line2:#1e4264;
-  --j-cyan:#22d3ee;
-  --j-blue:#3b82f6;
-  --j-green:#43d19e;
-  --j-red:#ff5c67;
-  --j-yellow:#f4c15d;
-  --j-white:#eef6ff;
-  --j-muted:#7890a9;
+  --j-bg:#050b14;--j-bg2:#071321;--j-panel:#0a1625;--j-panel2:#0d1b2d;--j-line:#17324e;--j-line2:#1e4264;
+  --j-cyan:#22d3ee;--j-blue:#3b82f6;--j-green:#43d19e;--j-red:#ff5c67;--j-yellow:#f4c15d;--j-white:#eef6ff;--j-muted:#7890a9;
 }
-
-/* Dashboard only: keep the existing data/interaction model, change presentation. */
-#dashboardView{
-  display:grid;
-  grid-template-columns:minmax(0,1.5fr) minmax(360px,.9fr);
-  gap:16px;
-  align-items:stretch;
-}
+#dashboardView{display:grid;grid-template-columns:minmax(0,1.5fr) minmax(360px,.9fr);gap:16px;align-items:stretch}
 #dashboardView .dashboard-hero{display:none!important}
-#dashboardView .dashboard-stats{
-  grid-column:1/-1;
-  grid-row:1;
-  grid-template-columns:repeat(4,minmax(0,1fr));
-  gap:12px;
-  margin:0;
-}
-#dashboardView .dashboard-map-panel{
-  grid-column:1;
-  grid-row:2;
-  margin:0;
-  padding:16px;
-  min-height:590px;
-  background:linear-gradient(145deg,rgba(8,24,41,.98),rgba(6,15,27,.98));
-  border-color:var(--j-line2);
-  box-shadow:0 18px 55px rgba(0,0,0,.20), inset 0 1px 0 rgba(91,174,255,.04);
-}
-#dashboardView .region-status-panel{
-  grid-column:2;
-  grid-row:2;
-  margin:0;
-  min-height:590px;
-  display:flex;
-  flex-direction:column;
-  padding:16px;
-  background:linear-gradient(145deg,rgba(8,22,38,.98),rgba(6,15,26,.98));
-  border-color:var(--j-line2);
-  box-shadow:0 18px 55px rgba(0,0,0,.18);
-}
-#dashboardView .dashboard-main-grid{
-  grid-column:1/-1;
-  grid-row:3;
-  display:grid;
-  grid-template-columns:1fr;
-  gap:16px;
-  margin:0;
-}
+#dashboardView .dashboard-stats{grid-column:1/-1;grid-row:1;grid-template-columns:repeat(4,minmax(0,1fr));gap:12px;margin:0}
+#dashboardView .dashboard-map-panel{grid-column:1;grid-row:2;margin:0;padding:16px;min-height:590px;background:linear-gradient(145deg,rgba(8,24,41,.98),rgba(6,15,27,.98));border-color:var(--j-line2);box-shadow:0 18px 55px rgba(0,0,0,.20),inset 0 1px 0 rgba(91,174,255,.04)}
+#dashboardView .region-status-panel{grid-column:2;grid-row:2;margin:0;min-height:590px;display:flex;flex-direction:column;padding:16px;background:linear-gradient(145deg,rgba(8,22,38,.98),rgba(6,15,26,.98));border-color:var(--j-line2);box-shadow:0 18px 55px rgba(0,0,0,.18)}
+#dashboardView .dashboard-main-grid{grid-column:1/-1;grid-row:3;display:grid;grid-template-columns:1fr;gap:16px;margin:0}
 #dashboardView .dashboard-news-panel{display:none}
 #dashboardView .dashboard-cases-panel{margin:0;background:linear-gradient(145deg,#081727,#07111e)}
-
-/* Header */
-#dashboardView ~ *{max-width:none}
-.topbar{
-  padding:2px 0 2px;
-  margin-bottom:18px;
-}
-.topbar h1{
-  font-size:28px;
-  letter-spacing:-.02em;
-  color:#f4f8fd;
-}
-.topbar .eyebrow{color:var(--j-cyan);font-size:9px;letter-spacing:2.6px}
-.topbar .today-date{color:#8298af}
-.top-actions{padding-top:2px}
-.update-box{padding:8px 11px;border:1px solid var(--j-line);border-radius:8px;background:rgba(8,20,34,.72)}
-.secondary{background:#0b1b2d;border-color:var(--j-line)}
-.secondary:hover{background:#0e2540;border-color:#27547d}
-
-/* KPI cards */
-#dashboardView .stat{
-  min-height:112px;
-  padding:16px 17px;
-  border-radius:10px;
-  border:1px solid var(--j-line);
-  background:linear-gradient(145deg,#0a192a,#081421);
-  position:relative;
-  overflow:hidden;
-}
-#dashboardView .stat::after{
-  content:"";
-  position:absolute;
-  left:0;right:0;top:0;height:2px;
-  background:linear-gradient(90deg,rgba(34,211,238,.8),rgba(59,130,246,.18));
-}
-#dashboardView .stat span{font-size:10px;text-transform:uppercase;letter-spacing:.55px;color:#7e96af}
-#dashboardView .stat strong{font-size:30px;line-height:1;margin-top:11px;color:#edf7ff;letter-spacing:-.02em}
-#dashboardView .stat:nth-child(1) strong{color:#34d5ee}
-#dashboardView .stat:nth-child(2) strong{color:#ff7b84}
-#dashboardView .stat:nth-child(3) strong{color:#51db9f}
-#dashboardView .stat:nth-child(4) strong{color:#f5ca6a}
-
-/* Map panel */
-#dashboardView .dashboard-map-panel .panel-head,
-#dashboardView .region-status-panel .panel-head,
-#dashboardView .dashboard-cases-panel .panel-head{
-  margin-bottom:12px;
-  padding-bottom:11px;
-  border-bottom:1px solid rgba(28,63,94,.7);
-}
+.topbar{padding:2px 0 2px;margin-bottom:18px}.topbar h1{font-size:28px;letter-spacing:-.02em;color:#f4f8fd}.topbar .eyebrow{color:var(--j-cyan);font-size:9px;letter-spacing:2.6px}.topbar .today-date{color:#8298af}.top-actions{padding-top:2px}.update-box{padding:8px 11px;border:1px solid var(--j-line);border-radius:8px;background:rgba(8,20,34,.72)}.secondary{background:#0b1b2d;border-color:var(--j-line)}.secondary:hover{background:#0e2540;border-color:#27547d}
+#dashboardView .stat{min-height:112px;padding:16px 17px;border-radius:10px;border:1px solid var(--j-line);background:linear-gradient(145deg,#0a192a,#081421);position:relative;overflow:hidden}
+#dashboardView .stat::after{content:"";position:absolute;left:0;right:0;top:0;height:2px;background:linear-gradient(90deg,rgba(34,211,238,.8),rgba(59,130,246,.18))}
+#dashboardView .stat span{font-size:10px;text-transform:uppercase;letter-spacing:.55px;color:#7e96af}#dashboardView .stat strong{font-size:30px;line-height:1;margin-top:11px;color:#edf7ff;letter-spacing:-.02em}#dashboardView .stat:nth-child(1) strong{color:#34d5ee}#dashboardView .stat:nth-child(2) strong{color:#ff7b84}#dashboardView .stat:nth-child(3) strong{color:#51db9f}#dashboardView .stat:nth-child(4) strong{color:#f5ca6a}
+#dashboardView .dashboard-map-panel .panel-head,#dashboardView .region-status-panel .panel-head,#dashboardView .dashboard-cases-panel .panel-head{margin-bottom:12px;padding-bottom:11px;border-bottom:1px solid rgba(28,63,94,.7)}
 #dashboardView .panel h3{font-size:13px;text-transform:uppercase;letter-spacing:.7px}
-#dashboardView .jatim-map{
-  height:510px;
-  border-radius:8px;
-  border-color:#12304b;
-  background:#05101c;
-  box-shadow:inset 0 0 0 1px rgba(52,211,238,.025);
-}
-#dashboardView .leaflet-container{background:#04101a}
-#dashboardView .leaflet-tile-pane{filter:brightness(.56) contrast(1.18) saturate(.72)}
-#dashboardView .leaflet-control-zoom a{
-  background:#081a2a!important;
-  color:#a9c8df!important;
-  border-color:#17324e!important;
-}
-#dashboardView .map-footer{padding-top:8px}
-#dashboardView .map-legend{gap:15px;color:#7992a9;font-size:9px;text-transform:uppercase;letter-spacing:.35px}
-#dashboardView .map-count{background:#091a2b;border-color:#1c4566;color:#77c8ef}
-
-/* Unit list — Polda + 39 Polres */
-.jagat-unit-list{min-height:0;display:flex;flex-direction:column;flex:1}
-.jagat-unit-tools{display:flex;gap:8px;align-items:center;margin-bottom:9px}
-.jagat-unit-tools input{
-  flex:1;min-width:0;height:35px;padding:8px 10px;
-  background:#06121f;border:1px solid #173550;border-radius:7px;
-  color:#eaf5ff;outline:none;font-size:10px;
-}
-.jagat-unit-tools input::placeholder{color:#5f7790}
-.jagat-unit-count{font-size:9px;color:#6d8aa4;white-space:nowrap;text-transform:uppercase;letter-spacing:.5px}
-.jagat-unit-scroll{overflow:auto;padding-right:3px;min-height:0;max-height:458px}
-.jagat-unit-row{
-  width:100%;display:grid;grid-template-columns:minmax(0,1fr) 76px 56px;
-  gap:8px;align-items:center;text-align:left;
-  padding:10px 8px;border:0;border-bottom:1px solid rgba(20,49,75,.7);
-  background:transparent;color:#eaf2fb;cursor:pointer;
-}
-.jagat-unit-row:hover{background:rgba(24,77,116,.13)}
-.jagat-unit-row.polda{background:linear-gradient(90deg,rgba(15,69,104,.18),transparent);border:1px solid rgba(34,211,238,.18);border-radius:7px;margin-bottom:5px}
-.jagat-unit-name{min-width:0}
-.jagat-unit-name strong{display:block;font-size:9px;letter-spacing:.45px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
-.jagat-unit-name small{display:block;margin-top:3px;color:#5f7a94;font-size:8px}
-.jagat-unit-num{font-size:10px;text-align:right;color:#c5d8ea;font-variant-numeric:tabular-nums}
-.jagat-unit-status{justify-self:end;width:8px;height:8px;border-radius:50%;background:#3b5267;box-shadow:0 0 0 3px rgba(59,82,103,.08)}
-.jagat-unit-status.high{background:var(--j-red);box-shadow:0 0 0 3px rgba(255,92,103,.09)}
-.jagat-unit-status.medium{background:var(--j-yellow);box-shadow:0 0 0 3px rgba(244,193,93,.09)}
-.jagat-unit-status.low{background:var(--j-green);box-shadow:0 0 0 3px rgba(67,209,158,.09)}
-.jagat-unit-no-data{color:#4f6880!important}
-.jagat-unit-divider{padding:8px 8px 5px;color:#486179;font-size:8px;text-transform:uppercase;letter-spacing:1.2px}
-
-/* Latest cases */
-#dashboardView .dashboard-cases-panel .case-grid{grid-template-columns:repeat(3,minmax(0,1fr));gap:10px}
-#dashboardView .dashboard-cases-panel .case-card{background:#071523;border-color:#143451;padding:13px}
-#dashboardView .dashboard-cases-panel .case-card:hover{background:#0a1c2e;border-color:#245177}
-#dashboardView .dashboard-cases-panel .news-card-meta{font-size:9px}
-
-/* Subtle neon separators inspired by the reference, without copying its IA. */
-#dashboardView .panel{position:relative}
-#dashboardView .panel::before{
-  content:"";position:absolute;left:16px;right:16px;top:-1px;height:1px;
-  background:linear-gradient(90deg,transparent,rgba(34,211,238,.36),transparent);
-  pointer-events:none;
-}
-
-/* Responsive */
-@media (max-width:1100px){
-  :root{--sidebar:220px}
-  #dashboardView{grid-template-columns:1fr}
-  #dashboardView .dashboard-map-panel{grid-column:1;grid-row:2;min-height:0}
-  #dashboardView .region-status-panel{grid-column:1;grid-row:3;min-height:0}
-  #dashboardView .dashboard-main-grid{grid-column:1;grid-row:4}
-  #dashboardView .jatim-map{height:460px}
-  .jagat-unit-scroll{max-height:420px}
-}
-@media (max-width:760px){
-  #dashboardView .dashboard-stats{grid-template-columns:repeat(2,minmax(0,1fr))}
-  #dashboardView .dashboard-cases-panel .case-grid{grid-template-columns:1fr}
-  #dashboardView .jatim-map{height:360px}
-  #dashboardView .dashboard-map-panel,#dashboardView .region-status-panel{padding:13px}
-  .main{padding:20px 14px 74px}
-  .topbar{margin-bottom:14px}
-  .top-actions .update-box{display:none}
-}
+#dashboardView .jatim-map{height:510px;border-radius:8px;border:1px solid #12304b;background:#05101c;box-shadow:inset 0 0 0 1px rgba(52,211,238,.025);position:relative;overflow:hidden}
+#dashboardView .jagat-situational-map{background:radial-gradient(circle at 50% 45%,#0b2235 0%,#05101c 72%)}
+#dashboardView .jagat-situational-map .leaflet-pane{background:transparent}
+#dashboardView .jagat-situational-map .leaflet-control-zoom{display:flex;flex-direction:column;gap:3px}.jagat-situational-map .leaflet-control-zoom a{background:#081a2a!important;color:#a9c8df!important;border:1px solid #17324e!important;width:28px;height:28px;line-height:27px}.jagat-situational-map .leaflet-control-attribution{background:rgba(4,12,20,.7)!important;color:#506b83!important}.jagat-situational-map .leaflet-control-attribution a{color:#638ca8!important}
+.jagat-situational-map .leaflet-interactive{transition:fill-opacity .15s ease,stroke .15s ease;filter:drop-shadow(0 0 4px rgba(34,211,238,.05))}.jagat-situational-map .leaflet-tooltip{background:#071522;color:#d9efff;border:1px solid #1e526e;box-shadow:0 8px 24px rgba(0,0,0,.4);font-size:9px;font-weight:700;text-transform:uppercase;letter-spacing:.45px;padding:5px 7px}.jagat-situational-map .leaflet-tooltip:before{display:none}
+.jagat-map-popup{min-width:210px;background:#071522;color:#dceeff;font-family:inherit}.jagat-map-popup-eyebrow{font-size:8px;letter-spacing:1.6px;color:#22d3ee;margin-bottom:4px}.jagat-map-popup strong{display:block;font-size:16px;margin-bottom:2px}.jagat-map-popup-status{font-size:9px;color:#7890a9;text-transform:uppercase}.jagat-map-popup-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:6px;margin:12px 0 9px}.jagat-map-popup-grid b{background:#0b1d2d;border:1px solid #173750;border-radius:5px;padding:7px 4px;text-align:center;font-size:13px}.jagat-map-popup-grid small{display:block;font-size:7px;color:#62819b;letter-spacing:.6px;margin-top:2px}.jagat-map-popup-news{border-top:1px solid #18364e;padding-top:8px;font-size:9px;color:#94aec3;line-height:1.45}.jagat-map-popup-news div{margin:3px 0}.jagat-map-open{margin-top:10px;width:100%;border:1px solid #1b607a;background:#09283a;color:#67d9f0;border-radius:5px;padding:7px;font-size:8px;font-weight:700;letter-spacing:.7px;cursor:pointer}.jagat-map-open:hover{background:#0c3850}.jagat-map-error{height:100%;display:flex;align-items:center;justify-content:center;flex-direction:column;gap:6px;color:#708aa2;font-size:10px}.jagat-map-error strong{color:#b7c9d8}.jagat-polda-map-badge{position:absolute;z-index:500;top:12px;left:12px;display:flex;align-items:center;gap:8px;padding:8px 10px;background:rgba(5,17,29,.91);border:1px solid rgba(34,211,238,.28);border-radius:7px;box-shadow:0 10px 25px rgba(0,0,0,.35);pointer-events:none}.jagat-polda-map-badge strong{display:block;font-size:9px;letter-spacing:.7px;color:#d9f5ff}.jagat-polda-map-badge small{display:block;font-size:7px;color:#66849b;margin-top:2px}.jagat-polda-pulse{width:7px;height:7px;border-radius:50%;background:#22d3ee;box-shadow:0 0 0 4px rgba(34,211,238,.08),0 0 12px rgba(34,211,238,.55)}
+#dashboardView .map-footer{padding-top:8px}#dashboardView .map-legend{gap:15px;color:#7992a9;font-size:9px;text-transform:uppercase;letter-spacing:.35px}#dashboardView .map-count{background:#091a2b;border-color:#1c4566;color:#77c8ef}
+.jagat-unit-list{min-height:0;display:flex;flex-direction:column;flex:1}.jagat-unit-tools{display:flex;gap:8px;align-items:center;margin-bottom:9px}.jagat-unit-tools input{flex:1;min-width:0;height:35px;padding:8px 10px;background:#06121f;border:1px solid #173550;border-radius:7px;color:#eaf5ff;outline:none;font-size:10px}.jagat-unit-tools input::placeholder{color:#5f7790}.jagat-unit-count{font-size:9px;color:#6d8aa4;white-space:nowrap;text-transform:uppercase;letter-spacing:.5px}.jagat-unit-scroll{overflow:auto;padding-right:3px;min-height:0;max-height:458px}.jagat-unit-row{width:100%;display:grid;grid-template-columns:minmax(0,1fr) 76px 56px;gap:8px;align-items:center;text-align:left;padding:10px 8px;border:0;border-bottom:1px solid rgba(20,49,75,.7);background:transparent;color:#eaf2fb;cursor:pointer}.jagat-unit-row:hover{background:rgba(24,77,116,.13)}.jagat-unit-row.polda{background:linear-gradient(90deg,rgba(15,69,104,.18),transparent);border:1px solid rgba(34,211,238,.18);border-radius:7px;margin-bottom:5px}.jagat-unit-name{min-width:0}.jagat-unit-name strong{display:block;font-size:9px;letter-spacing:.45px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}.jagat-unit-name small{display:block;margin-top:3px;color:#5f7a94;font-size:8px}.jagat-unit-num{font-size:10px;text-align:right;color:#c5d8ea;font-variant-numeric:tabular-nums}.jagat-unit-status{justify-self:end;width:8px;height:8px;border-radius:50%;background:#3b5267;box-shadow:0 0 0 3px rgba(59,82,103,.08)}.jagat-unit-status.high{background:var(--j-red);box-shadow:0 0 0 3px rgba(255,92,103,.09)}.jagat-unit-status.medium{background:var(--j-yellow);box-shadow:0 0 0 3px rgba(244,193,93,.09)}.jagat-unit-status.low{background:var(--j-green);box-shadow:0 0 0 3px rgba(67,209,158,.09)}.jagat-unit-no-data{color:#4f6880!important}.jagat-unit-divider{padding:8px 8px 5px;color:#486179;font-size:8px;text-transform:uppercase;letter-spacing:1.2px}
+#dashboardView .dashboard-cases-panel .case-grid{grid-template-columns:repeat(3,minmax(0,1fr));gap:10px}#dashboardView .dashboard-cases-panel .case-card{background:#071523;border-color:#143451;padding:13px}#dashboardView .dashboard-cases-panel .case-card:hover{background:#0a1c2e;border-color:#245177}#dashboardView .dashboard-cases-panel .news-card-meta{font-size:9px}#dashboardView .panel{position:relative}#dashboardView .panel::before{content:"";position:absolute;left:16px;right:16px;top:-1px;height:1px;background:linear-gradient(90deg,transparent,rgba(34,211,238,.36),transparent);pointer-events:none}
+@media (max-width:1100px){#dashboardView{grid-template-columns:1fr}#dashboardView .dashboard-map-panel{grid-column:1;grid-row:2;min-height:0}#dashboardView .region-status-panel{grid-column:1;grid-row:3;min-height:0}#dashboardView .dashboard-main-grid{grid-column:1;grid-row:4}#dashboardView .jatim-map{height:460px}.jagat-unit-scroll{max-height:420px}}
+@media (max-width:760px){#dashboardView .dashboard-stats{grid-template-columns:repeat(2,minmax(0,1fr))}#dashboardView .dashboard-cases-panel .case-grid{grid-template-columns:1fr}#dashboardView .jatim-map{height:360px}#dashboardView .dashboard-map-panel,#dashboardView .region-status-panel{padding:13px}.main{padding:20px 14px 74px}.topbar{margin-bottom:14px}.top-actions .update-box{display:none}}
