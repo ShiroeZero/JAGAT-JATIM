@@ -1,4 +1,4 @@
-name: JAGAT — Pengumpulan & Pembaruan Data V6.6.1
+name: JAGAT — Pengumpulan & Pembaruan Data V6.7.0
 
 on:
   workflow_dispatch:
@@ -58,13 +58,18 @@ jobs:
           PY
       - name: Validate final data
         run: python -u scripts/validate_data.py
+      - name: Wire focused frontend
+        run: python -u scripts/apply_frontend_ui.py
       - name: Check frontend assets
         run: |
           test -f index.html
           test -f app.js
           test -f styles.css
           test -f config.js
+          test -f dashboard-modern.css
+          test -f dashboard-modern.js
           node --check app.js
+          node --check dashboard-modern.js
       - name: Remove generated Python cache
         run: |
           find scripts -type d -name __pycache__ -prune -exec rm -rf {} +
@@ -73,15 +78,15 @@ jobs:
         run: |
           git config user.name "JAGAT Bot"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add data/ scripts/ assets/ .github/workflows/collect.yml index.html app.js styles.css config.js .gitignore README.md docs/
-          if git diff --cached --quiet; then echo "Tidak ada perubahan Git."; else git commit -m "chore: update JAGAT v6.6.1 monitoring data"; git push; fi
+          git add data/ scripts/ assets/ .github/workflows/collect.yml index.html app.js styles.css config.js dashboard-modern.css dashboard-modern.js .gitignore README.md docs/
+          if git diff --cached --quiet; then echo "Tidak ada perubahan Git."; else git commit -m "chore: update JAGAT v6.7.0 monitoring data"; git push; fi
       - name: Configure GitHub Pages
         uses: actions/configure-pages@v5
       - name: Prepare Pages site
         run: |
           rm -rf site
           mkdir -p site
-          cp index.html app.js styles.css config.js site/
+          cp index.html app.js styles.css config.js dashboard-modern.css dashboard-modern.js site/
           cp -r assets site/assets
           cp -r data site/data
       - name: Upload Pages artifact
