@@ -2,18 +2,21 @@
   "schema_version": "today-v3",
   "date": "2026-09-02",
   "timezone": "Asia/Jakarta",
-  "updated_at": "2026-09-02T01:45:47.069100+07:00",
-  "last_successful_update": "2026-09-02T01:45:47.069100+07:00",
+  "updated_at": "2026-09-02T04:58:50.434677+07:00",
+  "last_successful_update": "2026-09-02T04:58:50.434677+07:00",
   "news": {
-    "detected": 16,
-    "negative": 8,
+    "detected": 19,
+    "negative": 9,
     "positive": 1,
     "case": 0,
-    "neutral": 7,
+    "neutral": 9,
     "jatim": 5,
-    "luar_jatim": 11,
+    "luar_jatim": 14,
     "priority_high": 1,
     "article_ids": [
+      "28168d6db18c89b55eaa2ce2933900a5a212ed7e",
+      "80269745ed6e96e97b5dd317409d1d3707377d2b",
+      "fdcc5ce52c9f6f5b7021bbe36c98e3caea9162e9",
       "64185b61df4084b2169b844951ba286235736ea0",
       "518f9e060b666736d38afaf742af28a55744af4d",
       "30c61b1d2677338a59c4fdc55fcbb346c94e8ce2",
@@ -32,6 +35,209 @@
       "6974536254cd2640b4be7fb4f2e53393ff18cef4"
     ],
     "items": [
+      {
+        "id": "28168d6db18c89b55eaa2ce2933900a5a212ed7e",
+        "title": "Penembakan Maut di Belanda Libatkan 30 Pria Bertopeng, 34 Orang Ditangkap Polisi - Kompas.tv",
+        "url": "https://www.kompas.tv/internasional/688538/penembakan-maut-di-belanda-libatkan-30-pria-bertopeng-34-orang-ditangkap-polisi",
+        "source": "Kompas.tv",
+        "published_at": "2026-09-01T21:30:00+00:00",
+        "collected_at": "2026-09-01T21:48:49.627912+00:00",
+        "region": "BELUM TERPETAKAN",
+        "area_label": "BELUM TERPETAKAN",
+        "is_jatim": null,
+        "polres": null,
+        "category": "NEGATIF - KEKERASAN / PENGGUNAAN KEKUATAN",
+        "scope": "negative",
+        "scope_label": "Negatif",
+        "priority": "low",
+        "summary": "Penembakan Maut di Belanda Libatkan 30 Pria Bertopeng, 34 Orang Ditangkap Polisi Kompas.tv",
+        "processing_status": "processed",
+        "classifier_version": "news-v6",
+        "classified_at": "2026-09-01T21:48:49.627912+00:00",
+        "case_id": "CASE-000713",
+        "discovery_families": [],
+        "discovery_tags": [],
+        "discovery_hits": [],
+        "discovery_version": "discovery-v6.5.4",
+        "google_news_url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPQ2J0S1JWNVNJWEtPbDJ0ZEhJOGhKcFhLRFlHRExXM3dnWHZoR0RmbW5QQzZfUm5EX0NOVXVmWmF0SGtwb3VqMXNHMl8xVzRoVHdaNDdtYmY2YkRXX09hU3p0dUljSFpJczNzM28tOWR1VU42Q3FVaS1uNjdfenE2VjVqSjRzd1FhOXd6Z3dycU53MHJVV0x4V04yZ25IN2Y0UmJLeGRnek5xVnEzSlZWZ0s4LUQwcU41TGVUMmVUONIBxAFBVV95cUxQOTZKeTFoV3MxNFZoOEpDZmNlMGUxRHRGLVh2cWpkdW90Uzk0VWc0cVVlbzZoN2lkU184a21QakZwdzE5Zjh3dGRncWFIa3RHUVYtVnFWd19kRHZ6U1gyMVM2YjB0dFlQZHdITzNCWmxUTjNiano1bllFeVFLSlRvNHRoOElUVFE2eDJfVVJJYUYxTUFuUjQ1UjdoZ01zMlIyR1JnaGUxOFRtYm5xalY5UlBkLWRQaTRyUjE3Ni1jQjJUVEZf?oc=5",
+        "original_url": "https://www.kompas.tv/internasional/688538/penembakan-maut-di-belanda-libatkan-30-pria-bertopeng-34-orang-ditangkap-polisi",
+        "locality": "",
+        "polsek": null,
+        "location_confidence": 0,
+        "location_evidence": [],
+        "location_status": "BELUM_TERPETAKAN",
+        "location_source": "title",
+        "issue_type": "KEKERASAN_DAN_KEKUATAN",
+        "issue_subtype": "Kekerasan / Penggunaan Kekuatan",
+        "issue_evidence": [
+          "penembakan"
+        ],
+        "handling_status": "BELUM_ADA_INFORMASI",
+        "handling_evidence": [],
+        "attention_score": 39,
+        "attention_label": "Rendah",
+        "attention_components": {
+          "severity": 28,
+          "polri_relation": 0,
+          "authority": 0,
+          "public_impact": 4,
+          "handling": 0,
+          "evidence": 1,
+          "context_risk": 0,
+          "routine_enforcement_cap": null
+        },
+        "attention_evidence": {
+          "severity": [
+            "kekerasan berat"
+          ],
+          "authority": [],
+          "public_impact": [],
+          "evidence": [
+            "satu sumber / informasi awal"
+          ],
+          "role": [],
+          "issue": [
+            "penembakan"
+          ],
+          "handling": [],
+          "context": [],
+          "positive": []
+        },
+        "case_engine_version": "case-v6.5.4",
+        "case_processed_at": "2026-09-01T21:58:49.398818+00:00"
+      },
+      {
+        "id": "80269745ed6e96e97b5dd317409d1d3707377d2b",
+        "title": "Polisi Tangkap 3 Pria Asal Nuhon Banggai Yang Curi Sarang Burung Walet di Tiga Tempat Kejadian Berbeda - obor motindok",
+        "url": "https://www.obormotindok.co.id/polisi-tangkap-3-pria-asal-nuhon-banggai-yang-curi-sarang-burung-walet-di-tiga-tempat-kejadian-berbeda/",
+        "source": "obor motindok",
+        "published_at": "2026-09-01T21:08:14+00:00",
+        "collected_at": "2026-09-01T21:48:49.627912+00:00",
+        "region": "BELUM TERPETAKAN",
+        "area_label": "BELUM TERPETAKAN",
+        "is_jatim": null,
+        "polres": null,
+        "category": "NETRAL / LAINNYA",
+        "scope": "neutral",
+        "scope_label": "Netral",
+        "priority": "low",
+        "summary": "Polisi Tangkap 3 Pria Asal Nuhon Banggai Yang Curi Sarang Burung Walet di Tiga Tempat Kejadian Berbeda obor motindok",
+        "processing_status": "processed",
+        "classifier_version": "news-v6",
+        "classified_at": "2026-09-01T21:48:49.627912+00:00",
+        "case_id": null,
+        "discovery_families": [],
+        "discovery_tags": [],
+        "discovery_hits": [],
+        "discovery_version": "discovery-v6.5.4",
+        "google_news_url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOYmUteWEyRG94WHFiMXVBVDF1elItSWhFQTROZEJzaW4xenRSNlRfWHAxMU5FNjhoSTl1SmZwTklObUJLUjNZLXBqWUJEclB1c2xGcFNDUnJIbUFKV2FBb1VPRWJHcGJmWkhXWDdjbExJanNrMFRHVmJpeHJCQzNvR05WMlFuREhTVUVza3ptMF82NXVJaG03eHpMUXJROFJBblVGV3lKa3hkRFI3dEwxa2VpRC1rMjhvX19RdFd3MEtpVTRGQmV4dm9zSVM0RVE?oc=5",
+        "original_url": "https://www.obormotindok.co.id/polisi-tangkap-3-pria-asal-nuhon-banggai-yang-curi-sarang-burung-walet-di-tiga-tempat-kejadian-berbeda/",
+        "locality": "",
+        "polsek": null,
+        "location_confidence": 0,
+        "location_evidence": [],
+        "location_status": "BELUM_TERPETAKAN",
+        "location_source": "title",
+        "issue_type": "UMUM",
+        "issue_subtype": "Belum Teridentifikasi",
+        "issue_evidence": [],
+        "handling_status": "BELUM_ADA_INFORMASI",
+        "handling_evidence": [],
+        "attention_score": 7,
+        "attention_label": "Rendah",
+        "attention_components": {
+          "severity": 2,
+          "polri_relation": 0,
+          "authority": 0,
+          "public_impact": 4,
+          "handling": 0,
+          "evidence": 1,
+          "context_risk": 0,
+          "routine_enforcement_cap": null
+        },
+        "attention_evidence": {
+          "severity": [],
+          "authority": [],
+          "public_impact": [],
+          "evidence": [
+            "satu sumber / informasi awal"
+          ],
+          "role": [],
+          "issue": [],
+          "handling": [],
+          "context": [],
+          "positive": []
+        },
+        "case_engine_version": "case-v6.5.4",
+        "case_processed_at": "2026-09-01T21:54:34.771085+00:00"
+      },
+      {
+        "id": "fdcc5ce52c9f6f5b7021bbe36c98e3caea9162e9",
+        "title": "Kehadiran Brimob Ringankan Beban Warga, Rumah Terdampak Bencana Dibongkar - polreskedirikota.com",
+        "url": "https://polreskedirikota.com/kehadiran-brimob-ringankan-beban-warga-rumah-terdampak-bencana-dibongkar/",
+        "source": "polreskedirikota.com",
+        "published_at": "2026-09-01T18:41:43+00:00",
+        "collected_at": "2026-09-01T21:48:49.627912+00:00",
+        "region": "BELUM TERPETAKAN",
+        "area_label": "BELUM TERPETAKAN",
+        "is_jatim": null,
+        "polres": null,
+        "category": "NETRAL / LAINNYA",
+        "scope": "neutral",
+        "scope_label": "Netral",
+        "priority": "low",
+        "summary": "Kehadiran Brimob Ringankan Beban Warga, Rumah Terdampak Bencana Dibongkar polreskedirikota.com",
+        "processing_status": "processed",
+        "classifier_version": "news-v6",
+        "classified_at": "2026-09-01T21:48:49.627912+00:00",
+        "case_id": null,
+        "discovery_families": [],
+        "discovery_tags": [],
+        "discovery_hits": [],
+        "discovery_version": "discovery-v6.5.4",
+        "google_news_url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNc1VHc2pFa0VkZlNkYlhpNnVpQTg1TW5sX2RsUjZsWXp6WFNxVDJtS0s1Y1IzbHF2Y1BvaUhaVXpGQlNUaUdHS3I0Q1V6U1dRZElzZTZDX0RXYUdpYy1kcUtlMkl6M0x5S0k2RDRGYjFKU25KeTZKWWpBa0NxTFByY3FURDdMSUR5TU56Y0IyOE4xLWlqVWVIdHB0UjZiU3hoVm9NNw?oc=5",
+        "original_url": "https://polreskedirikota.com/kehadiran-brimob-ringankan-beban-warga-rumah-terdampak-bencana-dibongkar/",
+        "locality": "",
+        "polsek": null,
+        "location_confidence": 0,
+        "location_evidence": [],
+        "location_status": "BELUM_TERPETAKAN",
+        "location_source": "title",
+        "issue_type": "UMUM",
+        "issue_subtype": "Belum Teridentifikasi",
+        "issue_evidence": [],
+        "handling_status": "BELUM_ADA_INFORMASI",
+        "handling_evidence": [],
+        "attention_score": 15,
+        "attention_label": "Rendah",
+        "attention_components": {
+          "severity": 2,
+          "polri_relation": 0,
+          "authority": 0,
+          "public_impact": 12,
+          "handling": 0,
+          "evidence": 1,
+          "context_risk": 0,
+          "routine_enforcement_cap": null
+        },
+        "attention_evidence": {
+          "severity": [],
+          "authority": [],
+          "public_impact": [
+            "dampak kepada masyarakat"
+          ],
+          "evidence": [
+            "satu sumber / informasi awal"
+          ],
+          "role": [],
+          "issue": [],
+          "handling": [],
+          "context": [],
+          "positive": []
+        },
+        "case_engine_version": "case-v6.5.4",
+        "case_processed_at": "2026-09-01T21:54:34.967273+00:00"
+      },
       {
         "id": "64185b61df4084b2169b844951ba286235736ea0",
         "title": "Penegasan Divhumas Polri Dalam Memberikan Pelayanan Penyampaian Aspirasi - tribratanews.polrespasuruankota.com",
@@ -97,7 +303,7 @@
           ]
         },
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-09-01T18:40:12.617124+00:00"
+        "case_processed_at": "2026-09-01T21:54:35.194534+00:00"
       },
       {
         "id": "518f9e060b666736d38afaf742af28a55744af4d",
@@ -173,7 +379,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-09-01T18:45:45.630015+00:00"
+        "case_processed_at": "2026-09-01T21:58:49.398823+00:00"
       },
       {
         "id": "30c61b1d2677338a59c4fdc55fcbb346c94e8ce2",
@@ -240,7 +446,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-09-01T18:40:12.956249+00:00"
+        "case_processed_at": "2026-09-01T21:54:35.464551+00:00"
       },
       {
         "id": "d59edb1cecf548de7aa1d4db0c03494b8b0a6da5",
@@ -324,7 +530,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-09-01T18:45:45.630020+00:00"
+        "case_processed_at": "2026-09-01T21:58:49.398825+00:00"
       },
       {
         "id": "6a5807596a310390872e9c5847afdc342194de5c",
@@ -393,7 +599,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-09-01T18:45:45.630022+00:00"
+        "case_processed_at": "2026-09-01T21:58:49.398827+00:00"
       },
       {
         "id": "945b52945d516537a953c46720356427708793dc",
@@ -468,7 +674,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-09-01T18:45:45.630024+00:00"
+        "case_processed_at": "2026-09-01T21:58:49.398830+00:00"
       },
       {
         "id": "17654164baf751ee77060ba949d0ecc42629dc11",
@@ -533,7 +739,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-09-01T18:40:13.227277+00:00"
+        "case_processed_at": "2026-09-01T21:54:35.679874+00:00"
       },
       {
         "id": "a3dfd4f65d22b89e9ab6764978fa1c50e90ce33d",
@@ -598,7 +804,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-09-01T18:40:13.480268+00:00"
+        "case_processed_at": "2026-09-01T21:54:35.879201+00:00"
       },
       {
         "id": "8752b66565f9915d2be4e11fb19ed06bf4919591",
@@ -668,7 +874,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-09-01T18:40:13.746214+00:00"
+        "case_processed_at": "2026-09-01T21:54:36.089519+00:00"
       },
       {
         "id": "8bca9600e203a97de0eef9d4de3fef31f41d952b",
@@ -743,7 +949,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-09-01T18:45:45.630028+00:00"
+        "case_processed_at": "2026-09-01T21:58:49.398833+00:00"
       },
       {
         "id": "15baee03f28cebb430cc7e5289cbcfd31ec32d87",
@@ -812,7 +1018,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-09-01T18:45:45.630030+00:00"
+        "case_processed_at": "2026-09-01T21:58:49.398835+00:00"
       },
       {
         "id": "d0cb4b150742d0890a0c775c8342d92b9f6e435a",
@@ -881,7 +1087,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-09-01T18:45:45.630032+00:00"
+        "case_processed_at": "2026-09-01T21:58:49.398837+00:00"
       },
       {
         "id": "ee695d96831090f9f9d8034bdcd5cef8117fedcd",
@@ -946,7 +1152,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-09-01T18:40:13.943734+00:00"
+        "case_processed_at": "2026-09-01T21:54:36.244023+00:00"
       },
       {
         "id": "c771b5d82cde12a542f22a2b28c60d0bfc9caa25",
@@ -1029,7 +1235,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-09-01T18:45:45.630034+00:00"
+        "case_processed_at": "2026-09-01T21:58:49.398839+00:00"
       },
       {
         "id": "a460b0ccaf56de27f9dea21807c53f9893bfe41a",
@@ -1099,7 +1305,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-09-01T18:40:14.176184+00:00"
+        "case_processed_at": "2026-09-01T21:54:36.428373+00:00"
       },
       {
         "id": "6974536254cd2640b4be7fb4f2e53393ff18cef4",
@@ -1164,7 +1370,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-09-01T18:40:14.373059+00:00"
+        "case_processed_at": "2026-09-01T21:54:36.583181+00:00"
       }
     ],
     "jatim_items": [
@@ -1250,7 +1456,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-09-01T18:45:45.630020+00:00"
+        "case_processed_at": "2026-09-01T21:58:49.398825+00:00"
       },
       {
         "id": "945b52945d516537a953c46720356427708793dc",
@@ -1325,7 +1531,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-09-01T18:45:45.630024+00:00"
+        "case_processed_at": "2026-09-01T21:58:49.398830+00:00"
       },
       {
         "id": "8752b66565f9915d2be4e11fb19ed06bf4919591",
@@ -1395,7 +1601,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-09-01T18:40:13.746214+00:00"
+        "case_processed_at": "2026-09-01T21:54:36.089519+00:00"
       },
       {
         "id": "c771b5d82cde12a542f22a2b28c60d0bfc9caa25",
@@ -1478,7 +1684,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-09-01T18:45:45.630034+00:00"
+        "case_processed_at": "2026-09-01T21:58:49.398839+00:00"
       },
       {
         "id": "a460b0ccaf56de27f9dea21807c53f9893bfe41a",
@@ -1548,10 +1754,213 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-09-01T18:40:14.176184+00:00"
+        "case_processed_at": "2026-09-01T21:54:36.428373+00:00"
       }
     ],
     "luar_jatim_items": [
+      {
+        "id": "28168d6db18c89b55eaa2ce2933900a5a212ed7e",
+        "title": "Penembakan Maut di Belanda Libatkan 30 Pria Bertopeng, 34 Orang Ditangkap Polisi - Kompas.tv",
+        "url": "https://www.kompas.tv/internasional/688538/penembakan-maut-di-belanda-libatkan-30-pria-bertopeng-34-orang-ditangkap-polisi",
+        "source": "Kompas.tv",
+        "published_at": "2026-09-01T21:30:00+00:00",
+        "collected_at": "2026-09-01T21:48:49.627912+00:00",
+        "region": "BELUM TERPETAKAN",
+        "area_label": "BELUM TERPETAKAN",
+        "is_jatim": null,
+        "polres": null,
+        "category": "NEGATIF - KEKERASAN / PENGGUNAAN KEKUATAN",
+        "scope": "negative",
+        "scope_label": "Negatif",
+        "priority": "low",
+        "summary": "Penembakan Maut di Belanda Libatkan 30 Pria Bertopeng, 34 Orang Ditangkap Polisi Kompas.tv",
+        "processing_status": "processed",
+        "classifier_version": "news-v6",
+        "classified_at": "2026-09-01T21:48:49.627912+00:00",
+        "case_id": "CASE-000713",
+        "discovery_families": [],
+        "discovery_tags": [],
+        "discovery_hits": [],
+        "discovery_version": "discovery-v6.5.4",
+        "google_news_url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPQ2J0S1JWNVNJWEtPbDJ0ZEhJOGhKcFhLRFlHRExXM3dnWHZoR0RmbW5QQzZfUm5EX0NOVXVmWmF0SGtwb3VqMXNHMl8xVzRoVHdaNDdtYmY2YkRXX09hU3p0dUljSFpJczNzM28tOWR1VU42Q3FVaS1uNjdfenE2VjVqSjRzd1FhOXd6Z3dycU53MHJVV0x4V04yZ25IN2Y0UmJLeGRnek5xVnEzSlZWZ0s4LUQwcU41TGVUMmVUONIBxAFBVV95cUxQOTZKeTFoV3MxNFZoOEpDZmNlMGUxRHRGLVh2cWpkdW90Uzk0VWc0cVVlbzZoN2lkU184a21QakZwdzE5Zjh3dGRncWFIa3RHUVYtVnFWd19kRHZ6U1gyMVM2YjB0dFlQZHdITzNCWmxUTjNiano1bllFeVFLSlRvNHRoOElUVFE2eDJfVVJJYUYxTUFuUjQ1UjdoZ01zMlIyR1JnaGUxOFRtYm5xalY5UlBkLWRQaTRyUjE3Ni1jQjJUVEZf?oc=5",
+        "original_url": "https://www.kompas.tv/internasional/688538/penembakan-maut-di-belanda-libatkan-30-pria-bertopeng-34-orang-ditangkap-polisi",
+        "locality": "",
+        "polsek": null,
+        "location_confidence": 0,
+        "location_evidence": [],
+        "location_status": "BELUM_TERPETAKAN",
+        "location_source": "title",
+        "issue_type": "KEKERASAN_DAN_KEKUATAN",
+        "issue_subtype": "Kekerasan / Penggunaan Kekuatan",
+        "issue_evidence": [
+          "penembakan"
+        ],
+        "handling_status": "BELUM_ADA_INFORMASI",
+        "handling_evidence": [],
+        "attention_score": 39,
+        "attention_label": "Rendah",
+        "attention_components": {
+          "severity": 28,
+          "polri_relation": 0,
+          "authority": 0,
+          "public_impact": 4,
+          "handling": 0,
+          "evidence": 1,
+          "context_risk": 0,
+          "routine_enforcement_cap": null
+        },
+        "attention_evidence": {
+          "severity": [
+            "kekerasan berat"
+          ],
+          "authority": [],
+          "public_impact": [],
+          "evidence": [
+            "satu sumber / informasi awal"
+          ],
+          "role": [],
+          "issue": [
+            "penembakan"
+          ],
+          "handling": [],
+          "context": [],
+          "positive": []
+        },
+        "case_engine_version": "case-v6.5.4",
+        "case_processed_at": "2026-09-01T21:58:49.398818+00:00"
+      },
+      {
+        "id": "80269745ed6e96e97b5dd317409d1d3707377d2b",
+        "title": "Polisi Tangkap 3 Pria Asal Nuhon Banggai Yang Curi Sarang Burung Walet di Tiga Tempat Kejadian Berbeda - obor motindok",
+        "url": "https://www.obormotindok.co.id/polisi-tangkap-3-pria-asal-nuhon-banggai-yang-curi-sarang-burung-walet-di-tiga-tempat-kejadian-berbeda/",
+        "source": "obor motindok",
+        "published_at": "2026-09-01T21:08:14+00:00",
+        "collected_at": "2026-09-01T21:48:49.627912+00:00",
+        "region": "BELUM TERPETAKAN",
+        "area_label": "BELUM TERPETAKAN",
+        "is_jatim": null,
+        "polres": null,
+        "category": "NETRAL / LAINNYA",
+        "scope": "neutral",
+        "scope_label": "Netral",
+        "priority": "low",
+        "summary": "Polisi Tangkap 3 Pria Asal Nuhon Banggai Yang Curi Sarang Burung Walet di Tiga Tempat Kejadian Berbeda obor motindok",
+        "processing_status": "processed",
+        "classifier_version": "news-v6",
+        "classified_at": "2026-09-01T21:48:49.627912+00:00",
+        "case_id": null,
+        "discovery_families": [],
+        "discovery_tags": [],
+        "discovery_hits": [],
+        "discovery_version": "discovery-v6.5.4",
+        "google_news_url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOYmUteWEyRG94WHFiMXVBVDF1elItSWhFQTROZEJzaW4xenRSNlRfWHAxMU5FNjhoSTl1SmZwTklObUJLUjNZLXBqWUJEclB1c2xGcFNDUnJIbUFKV2FBb1VPRWJHcGJmWkhXWDdjbExJanNrMFRHVmJpeHJCQzNvR05WMlFuREhTVUVza3ptMF82NXVJaG03eHpMUXJROFJBblVGV3lKa3hkRFI3dEwxa2VpRC1rMjhvX19RdFd3MEtpVTRGQmV4dm9zSVM0RVE?oc=5",
+        "original_url": "https://www.obormotindok.co.id/polisi-tangkap-3-pria-asal-nuhon-banggai-yang-curi-sarang-burung-walet-di-tiga-tempat-kejadian-berbeda/",
+        "locality": "",
+        "polsek": null,
+        "location_confidence": 0,
+        "location_evidence": [],
+        "location_status": "BELUM_TERPETAKAN",
+        "location_source": "title",
+        "issue_type": "UMUM",
+        "issue_subtype": "Belum Teridentifikasi",
+        "issue_evidence": [],
+        "handling_status": "BELUM_ADA_INFORMASI",
+        "handling_evidence": [],
+        "attention_score": 7,
+        "attention_label": "Rendah",
+        "attention_components": {
+          "severity": 2,
+          "polri_relation": 0,
+          "authority": 0,
+          "public_impact": 4,
+          "handling": 0,
+          "evidence": 1,
+          "context_risk": 0,
+          "routine_enforcement_cap": null
+        },
+        "attention_evidence": {
+          "severity": [],
+          "authority": [],
+          "public_impact": [],
+          "evidence": [
+            "satu sumber / informasi awal"
+          ],
+          "role": [],
+          "issue": [],
+          "handling": [],
+          "context": [],
+          "positive": []
+        },
+        "case_engine_version": "case-v6.5.4",
+        "case_processed_at": "2026-09-01T21:54:34.771085+00:00"
+      },
+      {
+        "id": "fdcc5ce52c9f6f5b7021bbe36c98e3caea9162e9",
+        "title": "Kehadiran Brimob Ringankan Beban Warga, Rumah Terdampak Bencana Dibongkar - polreskedirikota.com",
+        "url": "https://polreskedirikota.com/kehadiran-brimob-ringankan-beban-warga-rumah-terdampak-bencana-dibongkar/",
+        "source": "polreskedirikota.com",
+        "published_at": "2026-09-01T18:41:43+00:00",
+        "collected_at": "2026-09-01T21:48:49.627912+00:00",
+        "region": "BELUM TERPETAKAN",
+        "area_label": "BELUM TERPETAKAN",
+        "is_jatim": null,
+        "polres": null,
+        "category": "NETRAL / LAINNYA",
+        "scope": "neutral",
+        "scope_label": "Netral",
+        "priority": "low",
+        "summary": "Kehadiran Brimob Ringankan Beban Warga, Rumah Terdampak Bencana Dibongkar polreskedirikota.com",
+        "processing_status": "processed",
+        "classifier_version": "news-v6",
+        "classified_at": "2026-09-01T21:48:49.627912+00:00",
+        "case_id": null,
+        "discovery_families": [],
+        "discovery_tags": [],
+        "discovery_hits": [],
+        "discovery_version": "discovery-v6.5.4",
+        "google_news_url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNc1VHc2pFa0VkZlNkYlhpNnVpQTg1TW5sX2RsUjZsWXp6WFNxVDJtS0s1Y1IzbHF2Y1BvaUhaVXpGQlNUaUdHS3I0Q1V6U1dRZElzZTZDX0RXYUdpYy1kcUtlMkl6M0x5S0k2RDRGYjFKU25KeTZKWWpBa0NxTFByY3FURDdMSUR5TU56Y0IyOE4xLWlqVWVIdHB0UjZiU3hoVm9NNw?oc=5",
+        "original_url": "https://polreskedirikota.com/kehadiran-brimob-ringankan-beban-warga-rumah-terdampak-bencana-dibongkar/",
+        "locality": "",
+        "polsek": null,
+        "location_confidence": 0,
+        "location_evidence": [],
+        "location_status": "BELUM_TERPETAKAN",
+        "location_source": "title",
+        "issue_type": "UMUM",
+        "issue_subtype": "Belum Teridentifikasi",
+        "issue_evidence": [],
+        "handling_status": "BELUM_ADA_INFORMASI",
+        "handling_evidence": [],
+        "attention_score": 15,
+        "attention_label": "Rendah",
+        "attention_components": {
+          "severity": 2,
+          "polri_relation": 0,
+          "authority": 0,
+          "public_impact": 12,
+          "handling": 0,
+          "evidence": 1,
+          "context_risk": 0,
+          "routine_enforcement_cap": null
+        },
+        "attention_evidence": {
+          "severity": [],
+          "authority": [],
+          "public_impact": [
+            "dampak kepada masyarakat"
+          ],
+          "evidence": [
+            "satu sumber / informasi awal"
+          ],
+          "role": [],
+          "issue": [],
+          "handling": [],
+          "context": [],
+          "positive": []
+        },
+        "case_engine_version": "case-v6.5.4",
+        "case_processed_at": "2026-09-01T21:54:34.967273+00:00"
+      },
       {
         "id": "64185b61df4084b2169b844951ba286235736ea0",
         "title": "Penegasan Divhumas Polri Dalam Memberikan Pelayanan Penyampaian Aspirasi - tribratanews.polrespasuruankota.com",
@@ -1617,7 +2026,7 @@
           ]
         },
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-09-01T18:40:12.617124+00:00"
+        "case_processed_at": "2026-09-01T21:54:35.194534+00:00"
       },
       {
         "id": "518f9e060b666736d38afaf742af28a55744af4d",
@@ -1693,7 +2102,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-09-01T18:45:45.630015+00:00"
+        "case_processed_at": "2026-09-01T21:58:49.398823+00:00"
       },
       {
         "id": "30c61b1d2677338a59c4fdc55fcbb346c94e8ce2",
@@ -1760,7 +2169,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-09-01T18:40:12.956249+00:00"
+        "case_processed_at": "2026-09-01T21:54:35.464551+00:00"
       },
       {
         "id": "6a5807596a310390872e9c5847afdc342194de5c",
@@ -1829,7 +2238,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-09-01T18:45:45.630022+00:00"
+        "case_processed_at": "2026-09-01T21:58:49.398827+00:00"
       },
       {
         "id": "17654164baf751ee77060ba949d0ecc42629dc11",
@@ -1894,7 +2303,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-09-01T18:40:13.227277+00:00"
+        "case_processed_at": "2026-09-01T21:54:35.679874+00:00"
       },
       {
         "id": "a3dfd4f65d22b89e9ab6764978fa1c50e90ce33d",
@@ -1959,7 +2368,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-09-01T18:40:13.480268+00:00"
+        "case_processed_at": "2026-09-01T21:54:35.879201+00:00"
       },
       {
         "id": "8bca9600e203a97de0eef9d4de3fef31f41d952b",
@@ -2034,7 +2443,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-09-01T18:45:45.630028+00:00"
+        "case_processed_at": "2026-09-01T21:58:49.398833+00:00"
       },
       {
         "id": "15baee03f28cebb430cc7e5289cbcfd31ec32d87",
@@ -2103,7 +2512,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-09-01T18:45:45.630030+00:00"
+        "case_processed_at": "2026-09-01T21:58:49.398835+00:00"
       },
       {
         "id": "d0cb4b150742d0890a0c775c8342d92b9f6e435a",
@@ -2172,7 +2581,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-09-01T18:45:45.630032+00:00"
+        "case_processed_at": "2026-09-01T21:58:49.398837+00:00"
       },
       {
         "id": "ee695d96831090f9f9d8034bdcd5cef8117fedcd",
@@ -2237,7 +2646,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-09-01T18:40:13.943734+00:00"
+        "case_processed_at": "2026-09-01T21:54:36.244023+00:00"
       },
       {
         "id": "6974536254cd2640b4be7fb4f2e53393ff18cef4",
@@ -2302,16 +2711,16 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-09-01T18:40:14.373059+00:00"
+        "case_processed_at": "2026-09-01T21:54:36.583181+00:00"
       }
     ]
   },
   "cases": {
-    "active": 8,
+    "active": 9,
     "priority_high": 2,
     "jatim": 3,
     "jatim_priority_high": 1,
-    "articles": 20,
+    "articles": 21,
     "case_ids": [
       "CASE-000033",
       "CASE-000706",
@@ -2320,7 +2729,8 @@
       "CASE-000709",
       "CASE-000710",
       "CASE-000711",
-      "CASE-000712"
+      "CASE-000712",
+      "CASE-000713"
     ],
     "items": [
       {
@@ -2893,7 +3303,7 @@
         ],
         "article_count": 13,
         "created_at": "2026-08-31T07:38:15.493509+00:00",
-        "updated_at": "2026-09-01T18:45:43.016895+00:00",
+        "updated_at": "2026-09-01T21:58:47.471305+00:00",
         "engine_version": "case-v6.5.4",
         "priority_score": 95,
         "priority_breakdown": {
@@ -3006,7 +3416,7 @@
         ],
         "article_count": 1,
         "created_at": "2026-09-01T18:44:31.028263+00:00",
-        "updated_at": "2026-09-01T18:45:45.610500+00:00",
+        "updated_at": "2026-09-01T21:58:49.382214+00:00",
         "engine_version": "case-v6.5.4",
         "priority_score": 38,
         "priority_breakdown": {
@@ -3117,7 +3527,7 @@
         ],
         "article_count": 1,
         "created_at": "2026-09-01T18:44:31.301716+00:00",
-        "updated_at": "2026-09-01T18:45:45.613710+00:00",
+        "updated_at": "2026-09-01T21:58:49.384540+00:00",
         "engine_version": "case-v6.5.4",
         "priority_score": 42,
         "priority_breakdown": {
@@ -3222,7 +3632,7 @@
         ],
         "article_count": 1,
         "created_at": "2026-09-01T18:44:31.542688+00:00",
-        "updated_at": "2026-09-01T18:45:45.616843+00:00",
+        "updated_at": "2026-09-01T21:58:49.386810+00:00",
         "engine_version": "case-v6.5.4",
         "priority_score": 17,
         "priority_breakdown": {
@@ -3329,7 +3739,7 @@
         ],
         "article_count": 1,
         "created_at": "2026-09-01T18:44:31.774802+00:00",
-        "updated_at": "2026-09-01T18:45:45.620094+00:00",
+        "updated_at": "2026-09-01T21:58:49.389174+00:00",
         "engine_version": "case-v6.5.4",
         "priority_score": 34,
         "priority_breakdown": {
@@ -3435,7 +3845,7 @@
         ],
         "article_count": 1,
         "created_at": "2026-09-01T18:44:32.005670+00:00",
-        "updated_at": "2026-09-01T18:45:45.623095+00:00",
+        "updated_at": "2026-09-01T21:58:49.391348+00:00",
         "engine_version": "case-v6.5.4",
         "priority_score": 70,
         "priority_breakdown": {
@@ -3539,7 +3949,7 @@
         ],
         "article_count": 1,
         "created_at": "2026-09-01T18:44:32.227726+00:00",
-        "updated_at": "2026-09-01T18:45:45.626146+00:00",
+        "updated_at": "2026-09-01T21:58:49.393575+00:00",
         "engine_version": "case-v6.5.4",
         "priority_score": 30,
         "priority_breakdown": {
@@ -3648,7 +4058,7 @@
         ],
         "article_count": 1,
         "created_at": "2026-09-01T18:44:32.495717+00:00",
-        "updated_at": "2026-09-01T18:45:45.629567+00:00",
+        "updated_at": "2026-09-01T21:58:49.396027+00:00",
         "engine_version": "case-v6.5.4",
         "priority_score": 8,
         "priority_breakdown": {
@@ -3674,6 +4084,112 @@
           "handling_status": "BELUM_ADA_INFORMASI",
           "reasons": [
             "sifat berita: netral",
+            "Hubungan Polri belum spesifik"
+          ]
+        }
+      },
+      {
+        "case_id": "CASE-000713",
+        "title": "Penembakan Maut di Belanda Libatkan 30 Pria Bertopeng, 34 Orang Ditangkap Polisi - Kompas.tv",
+        "category": "NEGATIF - KEKERASAN / PENGGUNAAN KEKUATAN",
+        "scope": "negative",
+        "region": "BELUM TERPETAKAN",
+        "locality": "",
+        "is_jatim": null,
+        "polres": null,
+        "polsek": null,
+        "priority": "low",
+        "attention_score": 34,
+        "attention_label": "Rendah",
+        "signature": "BELUM TERPETAKAN",
+        "incident_terms": [
+          "belanda",
+          "bertopeng",
+          "kompas",
+          "libatkan",
+          "maut",
+          "penembakan",
+          "pria"
+        ],
+        "event_terms": [
+          "penembakan"
+        ],
+        "location_terms": [],
+        "discovery_families": [],
+        "first_seen": "2026-09-01T21:30:00+00:00",
+        "last_seen": "2026-09-01T21:48:49.627912+00:00",
+        "last_detected_at": "2026-09-01T21:48:49.627912+00:00",
+        "article_ids": [
+          "28168d6db18c89b55eaa2ce2933900a5a212ed7e"
+        ],
+        "articles": [
+          {
+            "id": "28168d6db18c89b55eaa2ce2933900a5a212ed7e",
+            "title": "Penembakan Maut di Belanda Libatkan 30 Pria Bertopeng, 34 Orang Ditangkap Polisi - Kompas.tv",
+            "url": "https://www.kompas.tv/internasional/688538/penembakan-maut-di-belanda-libatkan-30-pria-bertopeng-34-orang-ditangkap-polisi",
+            "published_at": "2026-09-01T21:30:00+00:00",
+            "collected_at": "2026-09-01T21:48:49.627912+00:00",
+            "source": "Kompas.tv",
+            "match_score": 1.0,
+            "priority": "low",
+            "scope": "negative",
+            "category": "NEGATIF - KEKERASAN / PENGGUNAAN KEKUATAN",
+            "region": "BELUM TERPETAKAN",
+            "locality": "",
+            "is_jatim": false,
+            "polres": null,
+            "polsek": null,
+            "issue_type": "KEKERASAN_DAN_KEKUATAN",
+            "issue_subtype": "Kekerasan / Penggunaan Kekuatan",
+            "handling_status": "BELUM_ADA_INFORMASI",
+            "handling_evidence": [],
+            "polri_relation": null,
+            "polri_relation_points": 0,
+            "polri_relation_evidence": [],
+            "attention_score": 39,
+            "attention_label": "Rendah",
+            "attention_components": {
+              "severity": 28,
+              "polri_relation": 0,
+              "authority": 0,
+              "public_impact": 4,
+              "handling": 0,
+              "evidence": 1,
+              "context_risk": 0,
+              "routine_enforcement_cap": null
+            }
+          }
+        ],
+        "article_count": 1,
+        "created_at": "2026-09-01T21:57:52.710949+00:00",
+        "updated_at": "2026-09-01T21:58:49.398335+00:00",
+        "engine_version": "case-v6.5.4",
+        "priority_score": 34,
+        "priority_breakdown": {
+          "severity": 28,
+          "polri_relation": 0,
+          "authority_context": 0,
+          "public_impact": 4,
+          "handling": 0,
+          "evidence": 1,
+          "spread": 0,
+          "escalation": 0,
+          "current_activity": 1,
+          "context_risk": 0
+        },
+        "priority_evidence": {
+          "unique_sources": 1,
+          "active_today_articles": 1,
+          "escalation": [],
+          "issue_type": "KEKERASAN_DAN_KEKUATAN",
+          "issue_subtype": "Kekerasan / Penggunaan Kekuatan",
+          "sentiment": "negative",
+          "polri_relation": "INFORMASI_UMUM",
+          "handling_status": "BELUM_ADA_INFORMASI",
+          "reasons": [
+            "sifat berita: negatif",
+            "sifat berita: negatif",
+            "Kekerasan / Penggunaan Kekuatan",
             "Hubungan Polri belum spesifik"
           ]
         }
@@ -4250,7 +4766,7 @@
         ],
         "article_count": 13,
         "created_at": "2026-08-31T07:38:15.493509+00:00",
-        "updated_at": "2026-09-01T18:45:43.016895+00:00",
+        "updated_at": "2026-09-01T21:58:47.471305+00:00",
         "engine_version": "case-v6.5.4",
         "priority_score": 95,
         "priority_breakdown": {
@@ -4367,7 +4883,7 @@
         ],
         "article_count": 1,
         "created_at": "2026-09-01T18:44:31.301716+00:00",
-        "updated_at": "2026-09-01T18:45:45.613710+00:00",
+        "updated_at": "2026-09-01T21:58:49.384540+00:00",
         "engine_version": "case-v6.5.4",
         "priority_score": 42,
         "priority_breakdown": {
@@ -4474,7 +4990,7 @@
         ],
         "article_count": 1,
         "created_at": "2026-09-01T18:44:31.774802+00:00",
-        "updated_at": "2026-09-01T18:45:45.620094+00:00",
+        "updated_at": "2026-09-01T21:58:49.389174+00:00",
         "engine_version": "case-v6.5.4",
         "priority_score": 34,
         "priority_breakdown": {
@@ -4508,20 +5024,24 @@
     ]
   },
   "social": {
-    "detected": 54,
-    "jatim": 3,
-    "negative": 27,
-    "priority_high": 20,
+    "detected": 62,
+    "jatim": 6,
+    "negative": 32,
+    "priority_high": 25,
     "video_ids": [
       "SmXTJkRa5HI",
       "49Cj0FBbKBw",
+      "m5_zssrnyhk",
       "joee00NlxFQ",
+      "qezKCAB09aw",
       "rtrzs8ZbXV8",
       "GMCDtG28_eA",
       "OFZ7tedsSwE",
       "AgTFIn8Jh3U",
       "CWryUGcaigo",
+      "UxEzeyagiW0",
       "VxfoFOeyHIw",
+      "_NlgrZZynro",
       "WGQ6cqEqSXY",
       "yTiGbIkKa-M",
       "Orv8eQtEhN0",
@@ -4531,6 +5051,7 @@
       "zNwt0SxzL_s",
       "_zSI1e9ey3w",
       "VRiJ_muGZYA",
+      "cKeYOIv_LQI",
       "k4xXAvaPKrA",
       "hIqIbI9u6Ao",
       "eEfb_Tme_Nk",
@@ -4566,7 +5087,10 @@
       "QCeHPtnxev0",
       "YGKVLxwSCt8",
       "ShCeXbRNwKI",
-      "eIapXOGs0U4"
+      "1lyLskdKGZY",
+      "eIapXOGs0U4",
+      "YX6f1zog63A",
+      "t4pL3z9lIbc"
     ]
   },
   "jatim": {
@@ -4578,7 +5102,7 @@
     "case_today": 3,
     "case_high_active": 1,
     "article_high_today": 0,
-    "outside_jatim_today": 11
+    "outside_jatim_today": 14
   },
   "regions": [
     {
@@ -4623,9 +5147,9 @@
     }
   ],
   "summary": {
-    "news_today": 16,
-    "negative_today": 8,
-    "cases_today": 8,
+    "news_today": 19,
+    "negative_today": 9,
+    "cases_today": 9,
     "priority_high": 2,
     "article_priority_high": 1,
     "jatim_news": 5,
@@ -4635,7 +5159,7 @@
     "jatim_neutral": 2,
     "jatim_cases_today": 3,
     "jatim_case_high_active": 1,
-    "luar_jatim_news": 11,
-    "youtube_today": 54
+    "luar_jatim_news": 14,
+    "youtube_today": 62
   }
 }
