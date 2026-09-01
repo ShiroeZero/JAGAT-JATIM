@@ -2,18 +2,28 @@
   "schema_version": "today-v3",
   "date": "2026-09-01",
   "timezone": "Asia/Jakarta",
-  "updated_at": "2026-09-01T03:17:45.934588+07:00",
-  "last_successful_update": "2026-09-01T03:17:45.934588+07:00",
+  "updated_at": "2026-09-01T07:01:23.427597+07:00",
+  "last_successful_update": "2026-09-01T07:01:23.427597+07:00",
   "news": {
-    "detected": 32,
-    "negative": 18,
-    "positive": 6,
+    "detected": 42,
+    "negative": 19,
+    "positive": 8,
     "case": 0,
-    "neutral": 8,
-    "jatim": 12,
-    "luar_jatim": 20,
+    "neutral": 15,
+    "jatim": 16,
+    "luar_jatim": 26,
     "priority_high": 1,
     "article_ids": [
+      "656afe12a98d18990be9bf0456f936133261be7c",
+      "8aaaf1aa533bec8c1e4017cb5b83862e3b1e263d",
+      "a95bc382b021c3a17ca10c1bf9b3846a6c7fb220",
+      "dc6f9b82a8b51b1f9781ba663d8bba96a953d5b6",
+      "946eda3769d041e581ae06ef233061880d7fcdd0",
+      "71fa03baf1fc3c03ae47ff6f249592cd7c2e5b34",
+      "eae2216b7fa31e9f4970eeb84943a7fe6f8ca690",
+      "4482f7c79c11ae736153773aed3578c4d646615d",
+      "59912751a90bebd28ce7bda456da64c91213fe30",
+      "71fe5af70303af0e09db63e4aba632551aac6b8b",
       "9d94ff0ce9e06c80bf48a50e299d793d91315726",
       "f3a9f5e631ad67acbadc57d6e7143d84c7d0cbc4",
       "aff87921f43b3b1699584460529df460609b278b",
@@ -49,6 +59,695 @@
     ],
     "items": [
       {
+        "id": "656afe12a98d18990be9bf0456f936133261be7c",
+        "title": "Polisi Tangkap Tiga Pelaku Pengeroyokan di Triple X Club Surabaya - beritajatim.com",
+        "url": "https://beritajatim.com/polisi-tangkap-tiga-pelaku-pengeroyokan-di-triple-x-club-surabaya",
+        "source": "beritajatim.com",
+        "published_at": "2026-08-31T23:45:22+00:00",
+        "collected_at": "2026-08-31T23:52:45.054999+00:00",
+        "region": "Jawa Timur",
+        "area_label": "Surabaya",
+        "is_jatim": true,
+        "polres": null,
+        "category": "NETRAL / LAINNYA",
+        "scope": "neutral",
+        "scope_label": "Netral",
+        "priority": "low",
+        "summary": "Polisi Tangkap Tiga Pelaku Pengeroyokan di Triple X Club Surabaya beritajatim.com",
+        "processing_status": "processed",
+        "classifier_version": "news-v6",
+        "classified_at": "2026-08-31T23:52:45.054999+00:00",
+        "case_id": null,
+        "discovery_families": [],
+        "discovery_tags": [],
+        "discovery_hits": [],
+        "discovery_version": "discovery-v6.5.4",
+        "google_news_url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNSnYzLXJ5RnNOSWlJSk5lc0JfRU9iejNYakdvNWRrdzhEUGNfZENwdTF3ZXBleU9FUXZIWlBfWW04VDVyTmVxSlRDaGFaZm9qUzI3ZlR0TDdCeXdVeW8zRHI2b0JFTEFmYVU0YzFSTHhaWTVnN3ctNU5ndDV6c0JUQWdvcXVWQWQzRlozdHV0b3VyQ00?oc=5",
+        "original_url": "https://beritajatim.com/polisi-tangkap-tiga-pelaku-pengeroyokan-di-triple-x-club-surabaya",
+        "locality": "Surabaya",
+        "polsek": null,
+        "location_confidence": 95,
+        "location_evidence": [
+          "Surabaya"
+        ],
+        "location_status": "JAWA_TIMUR",
+        "location_source": "title",
+        "issue_type": "UMUM",
+        "issue_subtype": "Belum Teridentifikasi",
+        "issue_evidence": [],
+        "handling_status": "BELUM_ADA_INFORMASI",
+        "handling_evidence": [],
+        "attention_score": 7,
+        "attention_label": "Rendah",
+        "attention_components": {
+          "severity": 2,
+          "polri_relation": 0,
+          "authority": 0,
+          "public_impact": 4,
+          "handling": 0,
+          "evidence": 1,
+          "context_risk": 0,
+          "routine_enforcement_cap": null
+        },
+        "attention_evidence": {
+          "severity": [],
+          "authority": [],
+          "public_impact": [],
+          "evidence": [
+            "satu sumber / informasi awal"
+          ],
+          "role": [],
+          "issue": [],
+          "handling": [],
+          "context": [],
+          "positive": []
+        },
+        "case_engine_version": "case-v6.5.4",
+        "case_processed_at": "2026-08-31T23:58:43.049861+00:00"
+      },
+      {
+        "id": "8aaaf1aa533bec8c1e4017cb5b83862e3b1e263d",
+        "title": "Polisi Tangkap Pria yang Tusuk Jukir Gara-gara Masalah Parkir - Patma Media",
+        "url": "https://patmamedia.com/berita/polisi-tangkap-pria-yang-tusuk-jukir-gara-gara-masalah-parkir",
+        "source": "Patma Media",
+        "published_at": "2026-08-31T23:40:19+00:00",
+        "collected_at": "2026-08-31T23:52:45.054999+00:00",
+        "region": "BELUM TERPETAKAN",
+        "area_label": "BELUM TERPETAKAN",
+        "is_jatim": null,
+        "polres": null,
+        "category": "NETRAL / LAINNYA",
+        "scope": "neutral",
+        "scope_label": "Netral",
+        "priority": "low",
+        "summary": "Polisi Tangkap Pria yang Tusuk Jukir Gara-gara Masalah Parkir Patma Media",
+        "processing_status": "processed",
+        "classifier_version": "news-v6",
+        "classified_at": "2026-08-31T23:52:45.054999+00:00",
+        "case_id": null,
+        "discovery_families": [],
+        "discovery_tags": [],
+        "discovery_hits": [],
+        "discovery_version": "discovery-v6.5.4",
+        "google_news_url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNeWgtd2p6SHRyWkZxdTE4LVJEVUpmUV9LbW1heTh5amV0elNSeTh4LWVpWnkwbDEyeng3QnVvcElkRTV2ZHFHaFAyTnJ3Z3NSWTlfd1g0LXFkMU5KenVXU0RjeFQ0Y2dkXzhLVGpScjR6cXM4d09iUmhDT05wZ0thTGh4RWtEcllhMTcxQ0p1M2RkazM0MlE?oc=5",
+        "original_url": "https://patmamedia.com/berita/polisi-tangkap-pria-yang-tusuk-jukir-gara-gara-masalah-parkir",
+        "locality": "",
+        "polsek": null,
+        "location_confidence": 0,
+        "location_evidence": [],
+        "location_status": "BELUM_TERPETAKAN",
+        "location_source": "title",
+        "issue_type": "UMUM",
+        "issue_subtype": "Belum Teridentifikasi",
+        "issue_evidence": [],
+        "handling_status": "BELUM_ADA_INFORMASI",
+        "handling_evidence": [],
+        "attention_score": 7,
+        "attention_label": "Rendah",
+        "attention_components": {
+          "severity": 2,
+          "polri_relation": 0,
+          "authority": 0,
+          "public_impact": 4,
+          "handling": 0,
+          "evidence": 1,
+          "context_risk": 0,
+          "routine_enforcement_cap": null
+        },
+        "attention_evidence": {
+          "severity": [],
+          "authority": [],
+          "public_impact": [],
+          "evidence": [
+            "satu sumber / informasi awal"
+          ],
+          "role": [],
+          "issue": [],
+          "handling": [],
+          "context": [],
+          "positive": []
+        },
+        "case_engine_version": "case-v6.5.4",
+        "case_processed_at": "2026-08-31T23:58:43.179259+00:00"
+      },
+      {
+        "id": "a95bc382b021c3a17ca10c1bf9b3846a6c7fb220",
+        "title": "Polisi Tembak Perempuan yang Diduga Tikam 2 Orang di Times Square New York - MetroTVNews.com",
+        "url": "https://www.metrotvnews.com/read/N0BC1PdW-polisi-tembak-perempuan-yang-diduga-tikam-2-orang-di-times-square-new-york",
+        "source": "MetroTVNews.com",
+        "published_at": "2026-08-31T23:22:44+00:00",
+        "collected_at": "2026-08-31T23:52:45.054999+00:00",
+        "region": "BELUM TERPETAKAN",
+        "area_label": "BELUM TERPETAKAN",
+        "is_jatim": null,
+        "polres": null,
+        "category": "NEGATIF - BELUM TERIDENTIFIKASI",
+        "scope": "negative",
+        "scope_label": "Negatif",
+        "priority": "low",
+        "summary": "Polisi Tembak Perempuan yang Diduga Tikam 2 Orang di Times Square New York MetroTVNews.com",
+        "processing_status": "processed",
+        "classifier_version": "news-v6",
+        "classified_at": "2026-08-31T23:52:45.054999+00:00",
+        "case_id": "CASE-000645",
+        "discovery_families": [],
+        "discovery_tags": [],
+        "discovery_hits": [],
+        "discovery_version": "discovery-v6.5.4",
+        "google_news_url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQTXVRRmdKbzFNWHJ4TmdZcGFUYnJ4R3RDS1dYMG1Kb1NWTU5Eekk4ekoweE41Tnp4bktqRGtKeEFFWHJ2b0ZzNUl2dFY3dlkxazRNRDBKenFlVzk2NUVMZWtmb3pEWWt0cnFVNzI0TUM3OVBuWGFjS2MzRk1laUE4a2doUDIydXVZcXZqRzNxS1RJalo3VTJYMXFZclhmRklkMW8yblRiTEdrZERST1NLNzhBRHI2RDQ?oc=5",
+        "original_url": "https://www.metrotvnews.com/read/N0BC1PdW-polisi-tembak-perempuan-yang-diduga-tikam-2-orang-di-times-square-new-york",
+        "locality": "",
+        "polsek": null,
+        "location_confidence": 0,
+        "location_evidence": [],
+        "location_status": "BELUM_TERPETAKAN",
+        "location_source": "title",
+        "issue_type": "UMUM",
+        "issue_subtype": "Belum Teridentifikasi",
+        "issue_evidence": [],
+        "handling_status": "BELUM_ADA_INFORMASI",
+        "handling_evidence": [],
+        "attention_score": 29,
+        "attention_label": "Rendah",
+        "attention_components": {
+          "severity": 2,
+          "polri_relation": 16,
+          "authority": 0,
+          "public_impact": 10,
+          "handling": 0,
+          "evidence": 1,
+          "context_risk": 0,
+          "routine_enforcement_cap": null
+        },
+        "attention_evidence": {
+          "severity": [],
+          "authority": [],
+          "public_impact": [
+            "dampak institusional"
+          ],
+          "evidence": [
+            "satu sumber / informasi awal"
+          ],
+          "role": [
+            "Polri/personel menjadi subjek permasalahan"
+          ],
+          "issue": [],
+          "handling": [],
+          "context": [],
+          "positive": []
+        },
+        "case_engine_version": "case-v6.5.4",
+        "case_processed_at": "2026-09-01T00:01:21.725374+00:00"
+      },
+      {
+        "id": "dc6f9b82a8b51b1f9781ba663d8bba96a953d5b6",
+        "title": "Kasus Dugaan Penipuan Umrah Rp290 Juta, Pelapor Pertanyakan Penanganan Polres Jember - Balinetizen",
+        "url": "https://www.balinetizen.com/kasus-dugaan-penipuan-umrah-rp290-juta-pelapor-pertanyakan-penanganan-polres-jember/",
+        "source": "Balinetizen",
+        "published_at": "2026-08-31T23:04:26+00:00",
+        "collected_at": "2026-08-31T23:52:45.054999+00:00",
+        "region": "Jawa Timur",
+        "area_label": "Jember",
+        "is_jatim": true,
+        "polres": "POLRES JEMBER",
+        "category": "NETRAL / LAINNYA",
+        "scope": "neutral",
+        "scope_label": "Netral",
+        "priority": "low",
+        "summary": "Kasus Dugaan Penipuan Umrah Rp290 Juta, Pelapor Pertanyakan Penanganan Polres Jember Balinetizen",
+        "processing_status": "processed",
+        "classifier_version": "news-v6",
+        "classified_at": "2026-08-31T23:52:45.054999+00:00",
+        "case_id": null,
+        "discovery_families": [],
+        "discovery_tags": [],
+        "discovery_hits": [],
+        "discovery_version": "discovery-v6.5.4",
+        "google_news_url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQUVZBalJaSVcxTjBnSEdSbVBDazl6am5vdkR1dDR2SXptS2xlOTdpczJ1ODVyZXVwdG9GVE9EZ2dkRlBYbG5YSE0wM0dzbDhyM1l3Sy1OVlhhNE1vZE9ydTFWRUdtQzhvUG94bFBVT2gwN0ZhU2lTM1U1Q2NHQkNabXozMGJkODBlNHJUTUVES2IycHFVZzRfb2hnZmFJbmNsVkY3NVY1aEFTME1fU1VRMlRR?oc=5",
+        "original_url": "https://www.balinetizen.com/kasus-dugaan-penipuan-umrah-rp290-juta-pelapor-pertanyakan-penanganan-polres-jember/",
+        "locality": "Jember",
+        "polsek": null,
+        "location_confidence": 100,
+        "location_evidence": [
+          "polres jember",
+          "Jember"
+        ],
+        "location_status": "JAWA_TIMUR",
+        "location_source": "title",
+        "issue_type": "UMUM",
+        "issue_subtype": "Belum Teridentifikasi",
+        "issue_evidence": [],
+        "handling_status": "BELUM_ADA_INFORMASI",
+        "handling_evidence": [],
+        "attention_score": 7,
+        "attention_label": "Rendah",
+        "attention_components": {
+          "severity": 2,
+          "polri_relation": 0,
+          "authority": 0,
+          "public_impact": 4,
+          "handling": 0,
+          "evidence": 1,
+          "context_risk": 0,
+          "routine_enforcement_cap": null
+        },
+        "attention_evidence": {
+          "severity": [],
+          "authority": [],
+          "public_impact": [],
+          "evidence": [
+            "satu sumber / informasi awal"
+          ],
+          "role": [],
+          "issue": [],
+          "handling": [],
+          "context": [],
+          "positive": []
+        },
+        "case_engine_version": "case-v6.5.4",
+        "case_processed_at": "2026-08-31T23:58:43.315474+00:00"
+      },
+      {
+        "id": "946eda3769d041e581ae06ef233061880d7fcdd0",
+        "title": "Bakar Lahan Sawah Milik Sendiri, Petani di Banyuasin Ditangkap Polisi - detik.com",
+        "url": "https://www.detik.com/sumbagsel/berita/d-8641600/bakar-lahan-sawah-milik-sendiri-petani-di-banyuasin-ditangkap-polisi",
+        "source": "detik.com",
+        "published_at": "2026-08-31T22:31:04+00:00",
+        "collected_at": "2026-08-31T23:52:45.054999+00:00",
+        "region": "BELUM TERPETAKAN",
+        "area_label": "BELUM TERPETAKAN",
+        "is_jatim": null,
+        "polres": null,
+        "category": "NETRAL / LAINNYA",
+        "scope": "neutral",
+        "scope_label": "Netral",
+        "priority": "low",
+        "summary": "Bakar Lahan Sawah Milik Sendiri, Petani di Banyuasin Ditangkap Polisi detik.com",
+        "processing_status": "processed",
+        "classifier_version": "news-v6",
+        "classified_at": "2026-08-31T23:52:45.054999+00:00",
+        "case_id": null,
+        "discovery_families": [],
+        "discovery_tags": [],
+        "discovery_hits": [],
+        "discovery_version": "discovery-v6.5.4",
+        "google_news_url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPZk5tS0dHYmhaME8xOUlDWWJKWXE2QTNsdkdiZ1FKYWxkZVliY29ZR2dXcnMwVE9VcHhQTmxnX2hiSm1wSnZZc3VhZnNxNXF1aHh6NGRCY0h6NWZwNVRXOUVDSWhHc3NNOW9iS0ltOTd6R2pFX1hnSFlHMEN0dkc0ajJ6NjJZQUNERy1PUXZTTU9yTWJuVHExaURxRGRRd1VIUlpXUVRHaHhIMDc1Z21LWmtoakZuSjl10gG-AUFVX3lxTE5TdjNEZnlNMzVSb0loMHNqdTVENGJaZEZTRzZjaloxTElwc1pfZGRTUHVKNjQ3ZGFtckhGZ2Q5UlZLeWYwbE5rWFZDd3J6NWcxNTFkN3VEQkZlblF1Z0xJbWVweXpnT1JQM0pPZmVHNUlUOEZVNnNhaVFLbG9UZ0NwT2ZLblhOTW9zX0VtZUo1MWhrbjlOVHpHTEZsV1lEUDd3OGpMUlZzNjg4TUZ6M2dvTWpOcVA0T0ZWc0VZcmc?oc=5",
+        "original_url": "https://www.detik.com/sumbagsel/berita/d-8641600/bakar-lahan-sawah-milik-sendiri-petani-di-banyuasin-ditangkap-polisi",
+        "locality": "",
+        "polsek": null,
+        "location_confidence": 0,
+        "location_evidence": [],
+        "location_status": "BELUM_TERPETAKAN",
+        "location_source": "title",
+        "issue_type": "UMUM",
+        "issue_subtype": "Belum Teridentifikasi",
+        "issue_evidence": [],
+        "handling_status": "BELUM_ADA_INFORMASI",
+        "handling_evidence": [],
+        "attention_score": 7,
+        "attention_label": "Rendah",
+        "attention_components": {
+          "severity": 2,
+          "polri_relation": 0,
+          "authority": 0,
+          "public_impact": 4,
+          "handling": 0,
+          "evidence": 1,
+          "context_risk": 0,
+          "routine_enforcement_cap": null
+        },
+        "attention_evidence": {
+          "severity": [],
+          "authority": [],
+          "public_impact": [],
+          "evidence": [
+            "satu sumber / informasi awal"
+          ],
+          "role": [],
+          "issue": [],
+          "handling": [],
+          "context": [],
+          "positive": []
+        },
+        "case_engine_version": "case-v6.5.4",
+        "case_processed_at": "2026-08-31T23:58:43.428392+00:00"
+      },
+      {
+        "id": "71fa03baf1fc3c03ae47ff6f249592cd7c2e5b34",
+        "title": "Warga Lapor, Polisi Bergerak! 439 Botol Arak Bali Disita dari Mobil Pikap di Gresik - ketik.com",
+        "url": "https://ketik.com/gresik/hukum-kriminal/warga-lapor-polisi-bergerak-439-botol-arak-bali-disita-dari-mobil-pikap-di-gresik",
+        "source": "ketik.com",
+        "published_at": "2026-08-31T22:20:00+00:00",
+        "collected_at": "2026-08-31T23:52:45.054999+00:00",
+        "region": "LUAR JATIM",
+        "area_label": "LUAR JATIM",
+        "is_jatim": false,
+        "polres": null,
+        "category": "NETRAL / LAINNYA",
+        "scope": "neutral",
+        "scope_label": "Netral",
+        "priority": "low",
+        "summary": "Warga Lapor, Polisi Bergerak! 439 Botol Arak Bali Disita dari Mobil Pikap di Gresik ketik.com",
+        "processing_status": "processed",
+        "classifier_version": "news-v6",
+        "classified_at": "2026-08-31T23:52:45.054999+00:00",
+        "case_id": null,
+        "discovery_families": [],
+        "discovery_tags": [],
+        "discovery_hits": [],
+        "discovery_version": "discovery-v6.5.4",
+        "google_news_url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQbHozVjBmNGE5bWlnUkh1NHFINW5acUhIVWpJZndrUWZrcjY1dURFYURDN3Y1UE1VSmhnXzVWUlEzbTRpVTl4dGlLMG82MG90TjRmZ28wSjkzN3FyZE41OUlQOThqdWtlR0JLYXlUZXhtWEVUOEk0QUh1S0M0VXJLSng0UW9EbjN5aFFjc0pWdUNzRUcySDdTRWdTc2k2M29FM0RaN1dsUlJKX09UU0xWNnBOWU1aMHFsbVZnSWl30gGmAUFVX3lxTE5ZREZHZFVXWkt4UXdDZ3VpcTA2SlZ5S0hfYmo3MHVOcE10U1RoNk9BUEVpdkZuaElzTEpLc0oyRFU2SnBiSjNHNUhIZGhoVmtaUW53bFBZZVo0ZnFWMWlQVlBfbGNoSTMySTM5MzRPSEtaZHpfbTJIYzVHVWJkZG1Ob01sN2toR2s1TnQxbEpiNUoxZ1ZZd2tWVnlSNGp2Yy0zeFVMM3c?oc=5",
+        "original_url": "https://ketik.com/gresik/hukum-kriminal/warga-lapor-polisi-bergerak-439-botol-arak-bali-disita-dari-mobil-pikap-di-gresik",
+        "locality": "",
+        "polsek": null,
+        "location_confidence": 100,
+        "location_evidence": [
+          "bali"
+        ],
+        "location_status": "LUAR_JATIM",
+        "location_source": "title",
+        "issue_type": "UMUM",
+        "issue_subtype": "Belum Teridentifikasi",
+        "issue_evidence": [],
+        "handling_status": "BELUM_ADA_INFORMASI",
+        "handling_evidence": [],
+        "attention_score": 15,
+        "attention_label": "Rendah",
+        "attention_components": {
+          "severity": 2,
+          "polri_relation": 0,
+          "authority": 0,
+          "public_impact": 12,
+          "handling": 0,
+          "evidence": 1,
+          "context_risk": 0,
+          "routine_enforcement_cap": null
+        },
+        "attention_evidence": {
+          "severity": [],
+          "authority": [],
+          "public_impact": [
+            "dampak kepada masyarakat"
+          ],
+          "evidence": [
+            "satu sumber / informasi awal"
+          ],
+          "role": [],
+          "issue": [],
+          "handling": [],
+          "context": [],
+          "positive": []
+        },
+        "case_engine_version": "case-v6.5.4",
+        "case_processed_at": "2026-08-31T23:58:43.576968+00:00"
+      },
+      {
+        "id": "eae2216b7fa31e9f4970eeb84943a7fe6f8ca690",
+        "title": "Operasi Libas Lodaya 2026 Ungkap 37 Kasus, 31 Tersangka Diamankan Polres Cimahi - Pikiran Rakyat Koran",
+        "url": "https://koran.pikiran-rakyat.com/news/pr-30310424126/operasi-libas-lodaya-2026-ungkap-37-kasus-31-tersangka-diamankan-polres-cimahi",
+        "source": "Pikiran Rakyat Koran",
+        "published_at": "2026-08-31T22:00:00+00:00",
+        "collected_at": "2026-08-31T23:52:45.054999+00:00",
+        "region": "BELUM TERPETAKAN",
+        "area_label": "BELUM TERPETAKAN",
+        "is_jatim": null,
+        "polres": null,
+        "category": "POSITIF / PENEGAKAN HUKUM",
+        "scope": "positive",
+        "scope_label": "Positif",
+        "priority": "low",
+        "summary": "Operasi Libas Lodaya 2026 Ungkap 37 Kasus, 31 Tersangka Diamankan Polres Cimahi Pikiran Rakyat Koran",
+        "processing_status": "processed",
+        "classifier_version": "news-v6",
+        "classified_at": "2026-08-31T23:52:45.054999+00:00",
+        "case_id": null,
+        "discovery_families": [],
+        "discovery_tags": [],
+        "discovery_hits": [],
+        "discovery_version": "discovery-v6.5.4",
+        "google_news_url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPclptSU92bmFPbFR2bXFaTXQ3N05fQVdac1lXUWctSzd4d2FRVG9PUWVzVmJrZk80ZXBDSHNXN0xGQmVjd3ZJUEpjcTdUNHAzOFI1WVVxZ1I3bnFFY0lWSEwzOWZLODJHX3N0NWhrOFp0MEVWWktpa0hDLURKOGMxWnFPVGxYaUZzYjJrdlNwaTMyaExEa0Q1RmlQX3J0c2MwdWwwc0tpZXlhcGpYSWNoY1d0VWlhZnBSUnRDcTI3N0VKUXV0ZVlfNE9Lcw?oc=5",
+        "original_url": "https://koran.pikiran-rakyat.com/news/pr-30310424126/operasi-libas-lodaya-2026-ungkap-37-kasus-31-tersangka-diamankan-polres-cimahi",
+        "locality": "",
+        "polsek": null,
+        "location_confidence": 0,
+        "location_evidence": [],
+        "location_status": "BELUM_TERPETAKAN",
+        "location_source": "title",
+        "issue_type": "UMUM",
+        "issue_subtype": "Belum Teridentifikasi",
+        "issue_evidence": [],
+        "handling_status": "SUDAH_DITINDAK",
+        "handling_evidence": [
+          "tersangka"
+        ],
+        "attention_score": 11,
+        "attention_label": "Rendah",
+        "attention_components": {
+          "severity": 2,
+          "polri_relation": 2,
+          "authority": 0,
+          "public_impact": 4,
+          "handling": 2,
+          "evidence": 1,
+          "context_risk": 0,
+          "routine_enforcement_cap": 35
+        },
+        "attention_evidence": {
+          "severity": [],
+          "authority": [],
+          "public_impact": [],
+          "evidence": [
+            "satu sumber / informasi awal"
+          ],
+          "role": [
+            "Polri sebagai pihak penindak"
+          ],
+          "issue": [],
+          "handling": [
+            "tersangka"
+          ],
+          "context": [],
+          "positive": [
+            "\\b(?:operasi|operasi tumpas|razia|pengungkapan)\\b.{0,120}\\b(?:ungkap|tangkap|amankan|sita|tersangka)\\b"
+          ]
+        },
+        "case_engine_version": "case-v6.5.4",
+        "case_processed_at": "2026-08-31T23:58:43.728349+00:00"
+      },
+      {
+        "id": "4482f7c79c11ae736153773aed3578c4d646615d",
+        "title": "Curhat Kamtibmas di Desa Prambon, Polresta Sidoarjo Ajak Warga Jaga Situasi Kondusif - memorandum.disway.id - Memorandum.co.id",
+        "url": "https://memorandum.disway.id/polresta-sidoarjo/read/168234/curhat-kamtibmas-di-desa-prambon-polresta-sidoarjo-ajak-warga-jaga-situasi-kondusif",
+        "source": "Memorandum.co.id",
+        "published_at": "2026-08-31T21:06:00+00:00",
+        "collected_at": "2026-08-31T23:52:45.054999+00:00",
+        "region": "Jawa Timur",
+        "area_label": "Sidoarjo",
+        "is_jatim": true,
+        "polres": "POLRESTA SIDOARJO",
+        "category": "NETRAL / LAINNYA",
+        "scope": "neutral",
+        "scope_label": "Netral",
+        "priority": "low",
+        "summary": "Curhat Kamtibmas di Desa Prambon, Polresta Sidoarjo Ajak Warga Jaga Situasi Kondusif - memorandum.disway.id Memorandum.co.id",
+        "processing_status": "processed",
+        "classifier_version": "news-v6",
+        "classified_at": "2026-08-31T23:52:45.054999+00:00",
+        "case_id": null,
+        "discovery_families": [],
+        "discovery_tags": [],
+        "discovery_hits": [],
+        "discovery_version": "discovery-v6.5.4",
+        "google_news_url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxPYjNzZ3hmUEQ4UldBTXhvOHl1UG5CcEdLTU9PTV91NS1CV1d6QWZ0Qnp2Z2taYUFVSnkyYl9hbTJjYWljTktkNFEtd1hFVkJBNVM4OEJaY05xclNwRy10MVltSUhhSEhsTDVLbnhoQ1BZclJMSU1pQ3JNWktXcXJRQm4yeDlPUWlST1R4MlVfcWJiYkdoOG9QQXNRT0pFbzZvSkZQYnpvTUU5TGJWMDBkVW01M1pvT1R0UjY3d1Z6MW9KV0wycTZmcm1kSi1CRWgwbnJ4SVVRcWVLQdIBwAFBVV95cUxONG52Tzc0aEhNN2NUbzByUXR6OVRvVkV0b2RwenlnN1pybnNSbDY5S0dqMVBYYU5EdGRnYnlWdFlEZFd3d3Q1NzN2QVktTktZMWVCb3UteEhlNmM0Z2VsbXFUZ0VJSHFHd2RVV1M2dzJpMVpyajZ3SWE2U2U3c1FuQ1FxTDhmbG50TElFWXI3SHNlZlNfTkE1ZDMwWmhHRk44Y2ZTTTlOTGRhSjhvMmFVS1lCc3ptek14cEV6NzI3dFU?oc=5",
+        "original_url": "https://memorandum.disway.id/polresta-sidoarjo/read/168234/curhat-kamtibmas-di-desa-prambon-polresta-sidoarjo-ajak-warga-jaga-situasi-kondusif",
+        "locality": "Sidoarjo",
+        "polsek": null,
+        "location_confidence": 100,
+        "location_evidence": [
+          "polresta sidoarjo",
+          "Sidoarjo"
+        ],
+        "location_status": "JAWA_TIMUR",
+        "location_source": "title",
+        "issue_type": "UMUM",
+        "issue_subtype": "Belum Teridentifikasi",
+        "issue_evidence": [],
+        "handling_status": "BELUM_ADA_INFORMASI",
+        "handling_evidence": [],
+        "attention_score": 15,
+        "attention_label": "Rendah",
+        "attention_components": {
+          "severity": 2,
+          "polri_relation": 0,
+          "authority": 0,
+          "public_impact": 12,
+          "handling": 0,
+          "evidence": 1,
+          "context_risk": 0,
+          "routine_enforcement_cap": null
+        },
+        "attention_evidence": {
+          "severity": [],
+          "authority": [],
+          "public_impact": [
+            "dampak kepada masyarakat"
+          ],
+          "evidence": [
+            "satu sumber / informasi awal"
+          ],
+          "role": [],
+          "issue": [],
+          "handling": [],
+          "context": [],
+          "positive": []
+        },
+        "case_engine_version": "case-v6.5.4",
+        "case_processed_at": "2026-08-31T23:58:43.903257+00:00"
+      },
+      {
+        "id": "59912751a90bebd28ce7bda456da64c91213fe30",
+        "title": "Berita Foto - Ungkap Dugaan Penipuan, Satreskrim Polres Madiun Amankan Satu Tersangka - rri.co.id",
+        "url": "https://rri.co.id/madiun/berita-foto/56909/ungkap-dugaan-penipuan-satreskrim-polres-madiun-amankan-satu-tersangka",
+        "source": "rri.co.id",
+        "published_at": "2026-08-31T20:46:00+00:00",
+        "collected_at": "2026-08-31T23:52:45.054999+00:00",
+        "region": "Jawa Timur",
+        "area_label": "Madiun",
+        "is_jatim": true,
+        "polres": "POLRES MADIUN",
+        "category": "POSITIF / PENEGAKAN HUKUM",
+        "scope": "positive",
+        "scope_label": "Positif",
+        "priority": "low",
+        "summary": "Berita Foto - Ungkap Dugaan Penipuan, Satreskrim Polres Madiun Amankan Satu Tersangka rri.co.id",
+        "processing_status": "processed",
+        "classifier_version": "news-v6",
+        "classified_at": "2026-08-31T23:52:45.054999+00:00",
+        "case_id": null,
+        "discovery_families": [],
+        "discovery_tags": [],
+        "discovery_hits": [],
+        "discovery_version": "discovery-v6.5.4",
+        "google_news_url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOUS1icUdyX2I1UDFKbUpYVlVFYk9PLVU0ZU9KcmlEZFhISDVaZWFxeFV2LU0wVHR5aUphc1ZWM3E0NmtORTJfZVF4YldUbVRrSk5ieXlNZW52c21mR1BIT1NRZ25acnljZTluZ2pfNWhrR1I3aV9DRzdISzI0Q1QzTDQ5VWpUMzBWOWlMdmItUUh2LTBjWW1tc1ZodTRveGlmdmEtam81cW55c0xSRV83TlQ3dw?oc=5",
+        "original_url": "https://rri.co.id/madiun/berita-foto/56909/ungkap-dugaan-penipuan-satreskrim-polres-madiun-amankan-satu-tersangka",
+        "locality": "Madiun",
+        "polsek": null,
+        "location_confidence": 100,
+        "location_evidence": [
+          "polres madiun",
+          "Madiun"
+        ],
+        "location_status": "JAWA_TIMUR",
+        "location_source": "title",
+        "issue_type": "UMUM",
+        "issue_subtype": "Belum Teridentifikasi",
+        "issue_evidence": [],
+        "handling_status": "SUDAH_DITINDAK",
+        "handling_evidence": [
+          "tersangka"
+        ],
+        "attention_score": 11,
+        "attention_label": "Rendah",
+        "attention_components": {
+          "severity": 2,
+          "polri_relation": 2,
+          "authority": 0,
+          "public_impact": 4,
+          "handling": 2,
+          "evidence": 1,
+          "context_risk": 0,
+          "routine_enforcement_cap": 35
+        },
+        "attention_evidence": {
+          "severity": [],
+          "authority": [],
+          "public_impact": [],
+          "evidence": [
+            "satu sumber / informasi awal"
+          ],
+          "role": [
+            "Polri sebagai pihak penindak"
+          ],
+          "issue": [],
+          "handling": [
+            "tersangka"
+          ],
+          "context": [],
+          "positive": []
+        },
+        "case_engine_version": "case-v6.5.4",
+        "case_processed_at": "2026-08-31T23:58:44.043397+00:00"
+      },
+      {
+        "id": "71fe5af70303af0e09db63e4aba632551aac6b8b",
+        "title": "Polisi Jerat 9 Tersangka Karhutla di Kaltim, Luas Lahan Terbakar Capai 456 Hektare - EKSPOSKALTIM",
+        "url": "https://eksposkaltim.com/berita-18363-polisi-jerat-9-tersangka-karhutla-di-kaltim-luas-lahan-terbakar-capai-456-hektare.html",
+        "source": "EKSPOSKALTIM",
+        "published_at": "2026-08-31T20:40:53+00:00",
+        "collected_at": "2026-08-31T23:52:45.054999+00:00",
+        "region": "BELUM TERPETAKAN",
+        "area_label": "BELUM TERPETAKAN",
+        "is_jatim": null,
+        "polres": null,
+        "category": "NETRAL / LAINNYA",
+        "scope": "neutral",
+        "scope_label": "Netral",
+        "priority": "low",
+        "summary": "Polisi Jerat 9 Tersangka Karhutla di Kaltim, Luas Lahan Terbakar Capai 456 Hektare EKSPOSKALTIM",
+        "processing_status": "processed",
+        "classifier_version": "news-v6",
+        "classified_at": "2026-08-31T23:52:45.054999+00:00",
+        "case_id": null,
+        "discovery_families": [],
+        "discovery_tags": [],
+        "discovery_hits": [],
+        "discovery_version": "discovery-v6.5.4",
+        "google_news_url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQekRYcURsUjl0RGJlNVVyOTcxUWUybVUxcEZ2U3pOYUQxSTA5QWQtTnlqMG1iS0MtcnZYLUo0ckUzaGhwNlNyQnhKSU1Wdmg1ZjRXbUVBVzQtSzFKOVFrVmRuX05JZnN4MkNrRzdNX3FUMXZyVXpabEhwTHgta2dDTXBhMndKNTUtSDhRbkM0MzBmNHZLVENrUjVUOGpDMElUYmRzTzNiWGwxdGhUYVozUm9wUlFROGM5RjZWMURVVEM4Zw?oc=5",
+        "original_url": "https://eksposkaltim.com/berita-18363-polisi-jerat-9-tersangka-karhutla-di-kaltim-luas-lahan-terbakar-capai-456-hektare.html",
+        "locality": "",
+        "polsek": null,
+        "location_confidence": 0,
+        "location_evidence": [],
+        "location_status": "BELUM_TERPETAKAN",
+        "location_source": "title",
+        "issue_type": "UMUM",
+        "issue_subtype": "Belum Teridentifikasi",
+        "issue_evidence": [],
+        "handling_status": "SUDAH_DITINDAK",
+        "handling_evidence": [
+          "tersangka"
+        ],
+        "attention_score": 9,
+        "attention_label": "Rendah",
+        "attention_components": {
+          "severity": 2,
+          "polri_relation": 0,
+          "authority": 0,
+          "public_impact": 4,
+          "handling": 2,
+          "evidence": 1,
+          "context_risk": 0,
+          "routine_enforcement_cap": null
+        },
+        "attention_evidence": {
+          "severity": [],
+          "authority": [],
+          "public_impact": [],
+          "evidence": [
+            "satu sumber / informasi awal"
+          ],
+          "role": [],
+          "issue": [],
+          "handling": [
+            "tersangka"
+          ],
+          "context": [],
+          "positive": []
+        },
+        "case_engine_version": "case-v6.5.4",
+        "case_processed_at": "2026-08-31T23:58:44.198059+00:00"
+      },
+      {
         "id": "9d94ff0ce9e06c80bf48a50e299d793d91315726",
         "title": "Satreskrim Polres Madiun Amankan Tersangka Penggelapan Sepeda Motor - RRI.co.id",
         "url": "https://rri.co.id/madiun/hukum/kriminalitas/2698026/satreskrim-polres-madiun-amankan-tersangka-penggelapan-sepeda-motor",
@@ -120,7 +819,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-08-31T20:13:42.558657+00:00"
+        "case_processed_at": "2026-08-31T23:58:44.318962+00:00"
       },
       {
         "id": "f3a9f5e631ad67acbadc57d6e7143d84c7d0cbc4",
@@ -190,7 +889,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-08-31T20:13:42.781548+00:00"
+        "case_processed_at": "2026-08-31T23:58:44.463771+00:00"
       },
       {
         "id": "aff87921f43b3b1699584460529df460609b278b",
@@ -259,7 +958,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-08-31T20:17:44.634044+00:00"
+        "case_processed_at": "2026-09-01T00:01:21.725383+00:00"
       },
       {
         "id": "e5e25235f4e8d1f1e7d89222521c326305e9fbb5",
@@ -328,7 +1027,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-08-31T20:17:44.634049+00:00"
+        "case_processed_at": "2026-09-01T00:01:21.725385+00:00"
       },
       {
         "id": "3b3ccb01fbe7784bd55db85bf6544f3346b60cde",
@@ -395,7 +1094,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-08-31T20:13:43.022470+00:00"
+        "case_processed_at": "2026-08-31T23:58:44.619867+00:00"
       },
       {
         "id": "a5364f00e44dbe679ee0c2507e09a8e13be343cf",
@@ -483,7 +1182,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-08-31T20:17:44.634052+00:00"
+        "case_processed_at": "2026-09-01T00:01:21.725388+00:00"
       },
       {
         "id": "8cb64c63e8d6f0efea8df0d116a4538df29baf9f",
@@ -551,7 +1250,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-08-31T20:13:43.265354+00:00"
+        "case_processed_at": "2026-08-31T23:58:44.776430+00:00"
       },
       {
         "id": "9539466230fe69642fd0bb783a0e530170f1cdd2",
@@ -634,7 +1333,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-08-31T20:17:44.634055+00:00"
+        "case_processed_at": "2026-09-01T00:01:21.725390+00:00"
       },
       {
         "id": "3c2c774f2baa8dc755f17fcaaa9bd2d70ef30a88",
@@ -702,7 +1401,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-08-31T20:13:43.548122+00:00"
+        "case_processed_at": "2026-08-31T23:58:44.958189+00:00"
       },
       {
         "id": "082d3d0a4db7373ad16e1438921a610639b636a2",
@@ -783,7 +1482,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-08-31T20:17:44.634057+00:00"
+        "case_processed_at": "2026-09-01T00:01:21.725392+00:00"
       },
       {
         "id": "71703cdbb3340ece70fe57be448b5722b6f58a91",
@@ -864,7 +1563,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-08-31T20:17:44.634060+00:00"
+        "case_processed_at": "2026-09-01T00:01:21.725393+00:00"
       },
       {
         "id": "eeaac4f32d280352e20a71b6cbe35e0a2619b237",
@@ -931,7 +1630,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-08-31T20:13:43.744664+00:00"
+        "case_processed_at": "2026-08-31T23:58:45.085486+00:00"
       },
       {
         "id": "0a3bf5e26d66cc79e1a1daddf4d20b62a74334e3",
@@ -1003,7 +1702,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-08-31T20:13:43.987760+00:00"
+        "case_processed_at": "2026-08-31T23:58:45.243185+00:00"
       },
       {
         "id": "43a91f45aeb89090a51bff6c8563ee6e6498f179",
@@ -1072,7 +1771,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-08-31T20:17:44.634062+00:00"
+        "case_processed_at": "2026-09-01T00:01:21.725395+00:00"
       },
       {
         "id": "8c5a1419e5437c0f743172688f7acf88b98fe1d4",
@@ -1144,7 +1843,7 @@
           ]
         },
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-08-31T20:13:44.178855+00:00"
+        "case_processed_at": "2026-08-31T23:58:45.367506+00:00"
       },
       {
         "id": "c81a5070f0b09ed04546bc3638160b23e2db2d0c",
@@ -1213,7 +1912,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-08-31T20:13:44.411044+00:00"
+        "case_processed_at": "2026-08-31T23:58:45.519491+00:00"
       },
       {
         "id": "00d600930207d772686e22f9ee3b7fdb96ff6fdd",
@@ -1291,7 +1990,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-08-31T20:13:44.589859+00:00"
+        "case_processed_at": "2026-08-31T23:58:45.637004+00:00"
       },
       {
         "id": "760e9fa306bc52fc9fcd17e5a3f36f505ac75b81",
@@ -1363,7 +2062,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-08-31T20:13:44.765617+00:00"
+        "case_processed_at": "2026-08-31T23:58:45.752849+00:00"
       },
       {
         "id": "9bce39e97874dacfbe22a81c78eb6ea79539a10d",
@@ -1432,7 +2131,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-08-31T20:17:44.634066+00:00"
+        "case_processed_at": "2026-09-01T00:01:21.725398+00:00"
       },
       {
         "id": "741c6a6698961e59cc9cae90dc928267acdef900",
@@ -1501,7 +2200,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-08-31T20:13:45.001897+00:00"
+        "case_processed_at": "2026-08-31T23:58:45.920889+00:00"
       },
       {
         "id": "961dfc9d8925e3f4eb78a5934ce05c6c465dcd6b",
@@ -1570,7 +2269,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-08-31T20:13:45.320619+00:00"
+        "case_processed_at": "2026-08-31T23:58:46.135755+00:00"
       },
       {
         "id": "c8fc832d8ba7f2bed1a33e81e81c47a5f6a77a78",
@@ -1653,7 +2352,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-08-31T20:17:44.634068+00:00"
+        "case_processed_at": "2026-09-01T00:01:21.725400+00:00"
       },
       {
         "id": "2316e121e1402de83907d7ea889f65e4ebdc5f4b",
@@ -1726,7 +2425,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-08-31T20:17:44.634070+00:00"
+        "case_processed_at": "2026-09-01T00:01:21.725402+00:00"
       },
       {
         "id": "1925f706c9573171b2b81cdd79aec63bf5b56f77",
@@ -1797,7 +2496,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-08-31T20:17:44.634072+00:00"
+        "case_processed_at": "2026-09-01T00:01:21.725403+00:00"
       },
       {
         "id": "043be395ae394170b03e194a06654fecfa9cd5b5",
@@ -1872,7 +2571,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-08-31T20:17:44.634074+00:00"
+        "case_processed_at": "2026-09-01T00:01:21.725405+00:00"
       },
       {
         "id": "61fe223f1230fb59063821d20713f452df0f9deb",
@@ -1957,7 +2656,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-08-31T20:17:44.634075+00:00"
+        "case_processed_at": "2026-09-01T00:01:21.725407+00:00"
       },
       {
         "id": "8fc85ff21a2082a8688309503eb2437834bbf5cd",
@@ -2032,7 +2731,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-08-31T20:17:44.634077+00:00"
+        "case_processed_at": "2026-09-01T00:01:21.725408+00:00"
       },
       {
         "id": "3123fa00569c0e1955b4a442f1317554d7cefadc",
@@ -2108,7 +2807,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-08-31T20:17:44.634079+00:00"
+        "case_processed_at": "2026-09-01T00:01:21.725410+00:00"
       },
       {
         "id": "91ebc74105151757b35a331a49b98977964db0f9",
@@ -2181,7 +2880,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-08-31T20:17:44.634081+00:00"
+        "case_processed_at": "2026-09-01T00:01:21.725412+00:00"
       },
       {
         "id": "497b68a86d8a44f3fe2a11cb8e564226ab250b97",
@@ -2261,7 +2960,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-08-31T20:17:44.634083+00:00"
+        "case_processed_at": "2026-09-01T00:01:21.725414+00:00"
       },
       {
         "id": "b014e502133ca6d624fd52f6a4ba887ba666273e",
@@ -2331,7 +3030,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-08-31T20:13:45.553636+00:00"
+        "case_processed_at": "2026-08-31T23:58:46.288669+00:00"
       },
       {
         "id": "046b959f921ab3f06f9144ac91b2256961b830ae",
@@ -2406,11 +3105,290 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-08-31T20:17:44.634086+00:00"
+        "case_processed_at": "2026-09-01T00:01:21.725415+00:00"
       }
     ],
     "jatim_items": [
       {
+        "id": "656afe12a98d18990be9bf0456f936133261be7c",
+        "title": "Polisi Tangkap Tiga Pelaku Pengeroyokan di Triple X Club Surabaya - beritajatim.com",
+        "url": "https://beritajatim.com/polisi-tangkap-tiga-pelaku-pengeroyokan-di-triple-x-club-surabaya",
+        "source": "beritajatim.com",
+        "published_at": "2026-08-31T23:45:22+00:00",
+        "collected_at": "2026-08-31T23:52:45.054999+00:00",
+        "region": "Jawa Timur",
+        "area_label": "Surabaya",
+        "is_jatim": true,
+        "polres": null,
+        "category": "NETRAL / LAINNYA",
+        "scope": "neutral",
+        "scope_label": "Netral",
+        "priority": "low",
+        "summary": "Polisi Tangkap Tiga Pelaku Pengeroyokan di Triple X Club Surabaya beritajatim.com",
+        "processing_status": "processed",
+        "classifier_version": "news-v6",
+        "classified_at": "2026-08-31T23:52:45.054999+00:00",
+        "case_id": null,
+        "discovery_families": [],
+        "discovery_tags": [],
+        "discovery_hits": [],
+        "discovery_version": "discovery-v6.5.4",
+        "google_news_url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNSnYzLXJ5RnNOSWlJSk5lc0JfRU9iejNYakdvNWRrdzhEUGNfZENwdTF3ZXBleU9FUXZIWlBfWW04VDVyTmVxSlRDaGFaZm9qUzI3ZlR0TDdCeXdVeW8zRHI2b0JFTEFmYVU0YzFSTHhaWTVnN3ctNU5ndDV6c0JUQWdvcXVWQWQzRlozdHV0b3VyQ00?oc=5",
+        "original_url": "https://beritajatim.com/polisi-tangkap-tiga-pelaku-pengeroyokan-di-triple-x-club-surabaya",
+        "locality": "Surabaya",
+        "polsek": null,
+        "location_confidence": 95,
+        "location_evidence": [
+          "Surabaya"
+        ],
+        "location_status": "JAWA_TIMUR",
+        "location_source": "title",
+        "issue_type": "UMUM",
+        "issue_subtype": "Belum Teridentifikasi",
+        "issue_evidence": [],
+        "handling_status": "BELUM_ADA_INFORMASI",
+        "handling_evidence": [],
+        "attention_score": 7,
+        "attention_label": "Rendah",
+        "attention_components": {
+          "severity": 2,
+          "polri_relation": 0,
+          "authority": 0,
+          "public_impact": 4,
+          "handling": 0,
+          "evidence": 1,
+          "context_risk": 0,
+          "routine_enforcement_cap": null
+        },
+        "attention_evidence": {
+          "severity": [],
+          "authority": [],
+          "public_impact": [],
+          "evidence": [
+            "satu sumber / informasi awal"
+          ],
+          "role": [],
+          "issue": [],
+          "handling": [],
+          "context": [],
+          "positive": []
+        },
+        "case_engine_version": "case-v6.5.4",
+        "case_processed_at": "2026-08-31T23:58:43.049861+00:00"
+      },
+      {
+        "id": "dc6f9b82a8b51b1f9781ba663d8bba96a953d5b6",
+        "title": "Kasus Dugaan Penipuan Umrah Rp290 Juta, Pelapor Pertanyakan Penanganan Polres Jember - Balinetizen",
+        "url": "https://www.balinetizen.com/kasus-dugaan-penipuan-umrah-rp290-juta-pelapor-pertanyakan-penanganan-polres-jember/",
+        "source": "Balinetizen",
+        "published_at": "2026-08-31T23:04:26+00:00",
+        "collected_at": "2026-08-31T23:52:45.054999+00:00",
+        "region": "Jawa Timur",
+        "area_label": "Jember",
+        "is_jatim": true,
+        "polres": "POLRES JEMBER",
+        "category": "NETRAL / LAINNYA",
+        "scope": "neutral",
+        "scope_label": "Netral",
+        "priority": "low",
+        "summary": "Kasus Dugaan Penipuan Umrah Rp290 Juta, Pelapor Pertanyakan Penanganan Polres Jember Balinetizen",
+        "processing_status": "processed",
+        "classifier_version": "news-v6",
+        "classified_at": "2026-08-31T23:52:45.054999+00:00",
+        "case_id": null,
+        "discovery_families": [],
+        "discovery_tags": [],
+        "discovery_hits": [],
+        "discovery_version": "discovery-v6.5.4",
+        "google_news_url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQUVZBalJaSVcxTjBnSEdSbVBDazl6am5vdkR1dDR2SXptS2xlOTdpczJ1ODVyZXVwdG9GVE9EZ2dkRlBYbG5YSE0wM0dzbDhyM1l3Sy1OVlhhNE1vZE9ydTFWRUdtQzhvUG94bFBVT2gwN0ZhU2lTM1U1Q2NHQkNabXozMGJkODBlNHJUTUVES2IycHFVZzRfb2hnZmFJbmNsVkY3NVY1aEFTME1fU1VRMlRR?oc=5",
+        "original_url": "https://www.balinetizen.com/kasus-dugaan-penipuan-umrah-rp290-juta-pelapor-pertanyakan-penanganan-polres-jember/",
+        "locality": "Jember",
+        "polsek": null,
+        "location_confidence": 100,
+        "location_evidence": [
+          "polres jember",
+          "Jember"
+        ],
+        "location_status": "JAWA_TIMUR",
+        "location_source": "title",
+        "issue_type": "UMUM",
+        "issue_subtype": "Belum Teridentifikasi",
+        "issue_evidence": [],
+        "handling_status": "BELUM_ADA_INFORMASI",
+        "handling_evidence": [],
+        "attention_score": 7,
+        "attention_label": "Rendah",
+        "attention_components": {
+          "severity": 2,
+          "polri_relation": 0,
+          "authority": 0,
+          "public_impact": 4,
+          "handling": 0,
+          "evidence": 1,
+          "context_risk": 0,
+          "routine_enforcement_cap": null
+        },
+        "attention_evidence": {
+          "severity": [],
+          "authority": [],
+          "public_impact": [],
+          "evidence": [
+            "satu sumber / informasi awal"
+          ],
+          "role": [],
+          "issue": [],
+          "handling": [],
+          "context": [],
+          "positive": []
+        },
+        "case_engine_version": "case-v6.5.4",
+        "case_processed_at": "2026-08-31T23:58:43.315474+00:00"
+      },
+      {
+        "id": "4482f7c79c11ae736153773aed3578c4d646615d",
+        "title": "Curhat Kamtibmas di Desa Prambon, Polresta Sidoarjo Ajak Warga Jaga Situasi Kondusif - memorandum.disway.id - Memorandum.co.id",
+        "url": "https://memorandum.disway.id/polresta-sidoarjo/read/168234/curhat-kamtibmas-di-desa-prambon-polresta-sidoarjo-ajak-warga-jaga-situasi-kondusif",
+        "source": "Memorandum.co.id",
+        "published_at": "2026-08-31T21:06:00+00:00",
+        "collected_at": "2026-08-31T23:52:45.054999+00:00",
+        "region": "Jawa Timur",
+        "area_label": "Sidoarjo",
+        "is_jatim": true,
+        "polres": "POLRESTA SIDOARJO",
+        "category": "NETRAL / LAINNYA",
+        "scope": "neutral",
+        "scope_label": "Netral",
+        "priority": "low",
+        "summary": "Curhat Kamtibmas di Desa Prambon, Polresta Sidoarjo Ajak Warga Jaga Situasi Kondusif - memorandum.disway.id Memorandum.co.id",
+        "processing_status": "processed",
+        "classifier_version": "news-v6",
+        "classified_at": "2026-08-31T23:52:45.054999+00:00",
+        "case_id": null,
+        "discovery_families": [],
+        "discovery_tags": [],
+        "discovery_hits": [],
+        "discovery_version": "discovery-v6.5.4",
+        "google_news_url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxPYjNzZ3hmUEQ4UldBTXhvOHl1UG5CcEdLTU9PTV91NS1CV1d6QWZ0Qnp2Z2taYUFVSnkyYl9hbTJjYWljTktkNFEtd1hFVkJBNVM4OEJaY05xclNwRy10MVltSUhhSEhsTDVLbnhoQ1BZclJMSU1pQ3JNWktXcXJRQm4yeDlPUWlST1R4MlVfcWJiYkdoOG9QQXNRT0pFbzZvSkZQYnpvTUU5TGJWMDBkVW01M1pvT1R0UjY3d1Z6MW9KV0wycTZmcm1kSi1CRWgwbnJ4SVVRcWVLQdIBwAFBVV95cUxONG52Tzc0aEhNN2NUbzByUXR6OVRvVkV0b2RwenlnN1pybnNSbDY5S0dqMVBYYU5EdGRnYnlWdFlEZFd3d3Q1NzN2QVktTktZMWVCb3UteEhlNmM0Z2VsbXFUZ0VJSHFHd2RVV1M2dzJpMVpyajZ3SWE2U2U3c1FuQ1FxTDhmbG50TElFWXI3SHNlZlNfTkE1ZDMwWmhHRk44Y2ZTTTlOTGRhSjhvMmFVS1lCc3ptek14cEV6NzI3dFU?oc=5",
+        "original_url": "https://memorandum.disway.id/polresta-sidoarjo/read/168234/curhat-kamtibmas-di-desa-prambon-polresta-sidoarjo-ajak-warga-jaga-situasi-kondusif",
+        "locality": "Sidoarjo",
+        "polsek": null,
+        "location_confidence": 100,
+        "location_evidence": [
+          "polresta sidoarjo",
+          "Sidoarjo"
+        ],
+        "location_status": "JAWA_TIMUR",
+        "location_source": "title",
+        "issue_type": "UMUM",
+        "issue_subtype": "Belum Teridentifikasi",
+        "issue_evidence": [],
+        "handling_status": "BELUM_ADA_INFORMASI",
+        "handling_evidence": [],
+        "attention_score": 15,
+        "attention_label": "Rendah",
+        "attention_components": {
+          "severity": 2,
+          "polri_relation": 0,
+          "authority": 0,
+          "public_impact": 12,
+          "handling": 0,
+          "evidence": 1,
+          "context_risk": 0,
+          "routine_enforcement_cap": null
+        },
+        "attention_evidence": {
+          "severity": [],
+          "authority": [],
+          "public_impact": [
+            "dampak kepada masyarakat"
+          ],
+          "evidence": [
+            "satu sumber / informasi awal"
+          ],
+          "role": [],
+          "issue": [],
+          "handling": [],
+          "context": [],
+          "positive": []
+        },
+        "case_engine_version": "case-v6.5.4",
+        "case_processed_at": "2026-08-31T23:58:43.903257+00:00"
+      },
+      {
+        "id": "59912751a90bebd28ce7bda456da64c91213fe30",
+        "title": "Berita Foto - Ungkap Dugaan Penipuan, Satreskrim Polres Madiun Amankan Satu Tersangka - rri.co.id",
+        "url": "https://rri.co.id/madiun/berita-foto/56909/ungkap-dugaan-penipuan-satreskrim-polres-madiun-amankan-satu-tersangka",
+        "source": "rri.co.id",
+        "published_at": "2026-08-31T20:46:00+00:00",
+        "collected_at": "2026-08-31T23:52:45.054999+00:00",
+        "region": "Jawa Timur",
+        "area_label": "Madiun",
+        "is_jatim": true,
+        "polres": "POLRES MADIUN",
+        "category": "POSITIF / PENEGAKAN HUKUM",
+        "scope": "positive",
+        "scope_label": "Positif",
+        "priority": "low",
+        "summary": "Berita Foto - Ungkap Dugaan Penipuan, Satreskrim Polres Madiun Amankan Satu Tersangka rri.co.id",
+        "processing_status": "processed",
+        "classifier_version": "news-v6",
+        "classified_at": "2026-08-31T23:52:45.054999+00:00",
+        "case_id": null,
+        "discovery_families": [],
+        "discovery_tags": [],
+        "discovery_hits": [],
+        "discovery_version": "discovery-v6.5.4",
+        "google_news_url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOUS1icUdyX2I1UDFKbUpYVlVFYk9PLVU0ZU9KcmlEZFhISDVaZWFxeFV2LU0wVHR5aUphc1ZWM3E0NmtORTJfZVF4YldUbVRrSk5ieXlNZW52c21mR1BIT1NRZ25acnljZTluZ2pfNWhrR1I3aV9DRzdISzI0Q1QzTDQ5VWpUMzBWOWlMdmItUUh2LTBjWW1tc1ZodTRveGlmdmEtam81cW55c0xSRV83TlQ3dw?oc=5",
+        "original_url": "https://rri.co.id/madiun/berita-foto/56909/ungkap-dugaan-penipuan-satreskrim-polres-madiun-amankan-satu-tersangka",
+        "locality": "Madiun",
+        "polsek": null,
+        "location_confidence": 100,
+        "location_evidence": [
+          "polres madiun",
+          "Madiun"
+        ],
+        "location_status": "JAWA_TIMUR",
+        "location_source": "title",
+        "issue_type": "UMUM",
+        "issue_subtype": "Belum Teridentifikasi",
+        "issue_evidence": [],
+        "handling_status": "SUDAH_DITINDAK",
+        "handling_evidence": [
+          "tersangka"
+        ],
+        "attention_score": 11,
+        "attention_label": "Rendah",
+        "attention_components": {
+          "severity": 2,
+          "polri_relation": 2,
+          "authority": 0,
+          "public_impact": 4,
+          "handling": 2,
+          "evidence": 1,
+          "context_risk": 0,
+          "routine_enforcement_cap": 35
+        },
+        "attention_evidence": {
+          "severity": [],
+          "authority": [],
+          "public_impact": [],
+          "evidence": [
+            "satu sumber / informasi awal"
+          ],
+          "role": [
+            "Polri sebagai pihak penindak"
+          ],
+          "issue": [],
+          "handling": [
+            "tersangka"
+          ],
+          "context": [],
+          "positive": []
+        },
+        "case_engine_version": "case-v6.5.4",
+        "case_processed_at": "2026-08-31T23:58:44.043397+00:00"
+      },
+      {
         "id": "9d94ff0ce9e06c80bf48a50e299d793d91315726",
         "title": "Satreskrim Polres Madiun Amankan Tersangka Penggelapan Sepeda Motor - RRI.co.id",
         "url": "https://rri.co.id/madiun/hukum/kriminalitas/2698026/satreskrim-polres-madiun-amankan-tersangka-penggelapan-sepeda-motor",
@@ -2482,7 +3460,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-08-31T20:13:42.558657+00:00"
+        "case_processed_at": "2026-08-31T23:58:44.318962+00:00"
       },
       {
         "id": "f3a9f5e631ad67acbadc57d6e7143d84c7d0cbc4",
@@ -2552,7 +3530,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-08-31T20:13:42.781548+00:00"
+        "case_processed_at": "2026-08-31T23:58:44.463771+00:00"
       },
       {
         "id": "3b3ccb01fbe7784bd55db85bf6544f3346b60cde",
@@ -2619,7 +3597,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-08-31T20:13:43.022470+00:00"
+        "case_processed_at": "2026-08-31T23:58:44.619867+00:00"
       },
       {
         "id": "a5364f00e44dbe679ee0c2507e09a8e13be343cf",
@@ -2707,7 +3685,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-08-31T20:17:44.634052+00:00"
+        "case_processed_at": "2026-09-01T00:01:21.725388+00:00"
       },
       {
         "id": "8cb64c63e8d6f0efea8df0d116a4538df29baf9f",
@@ -2775,7 +3753,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-08-31T20:13:43.265354+00:00"
+        "case_processed_at": "2026-08-31T23:58:44.776430+00:00"
       },
       {
         "id": "9539466230fe69642fd0bb783a0e530170f1cdd2",
@@ -2858,7 +3836,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-08-31T20:17:44.634055+00:00"
+        "case_processed_at": "2026-09-01T00:01:21.725390+00:00"
       },
       {
         "id": "3c2c774f2baa8dc755f17fcaaa9bd2d70ef30a88",
@@ -2926,7 +3904,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-08-31T20:13:43.548122+00:00"
+        "case_processed_at": "2026-08-31T23:58:44.958189+00:00"
       },
       {
         "id": "0a3bf5e26d66cc79e1a1daddf4d20b62a74334e3",
@@ -2998,7 +3976,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-08-31T20:13:43.987760+00:00"
+        "case_processed_at": "2026-08-31T23:58:45.243185+00:00"
       },
       {
         "id": "8c5a1419e5437c0f743172688f7acf88b98fe1d4",
@@ -3070,7 +4048,7 @@
           ]
         },
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-08-31T20:13:44.178855+00:00"
+        "case_processed_at": "2026-08-31T23:58:45.367506+00:00"
       },
       {
         "id": "c8fc832d8ba7f2bed1a33e81e81c47a5f6a77a78",
@@ -3153,7 +4131,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-08-31T20:17:44.634068+00:00"
+        "case_processed_at": "2026-09-01T00:01:21.725400+00:00"
       },
       {
         "id": "61fe223f1230fb59063821d20713f452df0f9deb",
@@ -3238,7 +4216,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-08-31T20:17:44.634075+00:00"
+        "case_processed_at": "2026-09-01T00:01:21.725407+00:00"
       },
       {
         "id": "b014e502133ca6d624fd52f6a4ba887ba666273e",
@@ -3308,10 +4286,420 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-08-31T20:13:45.553636+00:00"
+        "case_processed_at": "2026-08-31T23:58:46.288669+00:00"
       }
     ],
     "luar_jatim_items": [
+      {
+        "id": "8aaaf1aa533bec8c1e4017cb5b83862e3b1e263d",
+        "title": "Polisi Tangkap Pria yang Tusuk Jukir Gara-gara Masalah Parkir - Patma Media",
+        "url": "https://patmamedia.com/berita/polisi-tangkap-pria-yang-tusuk-jukir-gara-gara-masalah-parkir",
+        "source": "Patma Media",
+        "published_at": "2026-08-31T23:40:19+00:00",
+        "collected_at": "2026-08-31T23:52:45.054999+00:00",
+        "region": "BELUM TERPETAKAN",
+        "area_label": "BELUM TERPETAKAN",
+        "is_jatim": null,
+        "polres": null,
+        "category": "NETRAL / LAINNYA",
+        "scope": "neutral",
+        "scope_label": "Netral",
+        "priority": "low",
+        "summary": "Polisi Tangkap Pria yang Tusuk Jukir Gara-gara Masalah Parkir Patma Media",
+        "processing_status": "processed",
+        "classifier_version": "news-v6",
+        "classified_at": "2026-08-31T23:52:45.054999+00:00",
+        "case_id": null,
+        "discovery_families": [],
+        "discovery_tags": [],
+        "discovery_hits": [],
+        "discovery_version": "discovery-v6.5.4",
+        "google_news_url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNeWgtd2p6SHRyWkZxdTE4LVJEVUpmUV9LbW1heTh5amV0elNSeTh4LWVpWnkwbDEyeng3QnVvcElkRTV2ZHFHaFAyTnJ3Z3NSWTlfd1g0LXFkMU5KenVXU0RjeFQ0Y2dkXzhLVGpScjR6cXM4d09iUmhDT05wZ0thTGh4RWtEcllhMTcxQ0p1M2RkazM0MlE?oc=5",
+        "original_url": "https://patmamedia.com/berita/polisi-tangkap-pria-yang-tusuk-jukir-gara-gara-masalah-parkir",
+        "locality": "",
+        "polsek": null,
+        "location_confidence": 0,
+        "location_evidence": [],
+        "location_status": "BELUM_TERPETAKAN",
+        "location_source": "title",
+        "issue_type": "UMUM",
+        "issue_subtype": "Belum Teridentifikasi",
+        "issue_evidence": [],
+        "handling_status": "BELUM_ADA_INFORMASI",
+        "handling_evidence": [],
+        "attention_score": 7,
+        "attention_label": "Rendah",
+        "attention_components": {
+          "severity": 2,
+          "polri_relation": 0,
+          "authority": 0,
+          "public_impact": 4,
+          "handling": 0,
+          "evidence": 1,
+          "context_risk": 0,
+          "routine_enforcement_cap": null
+        },
+        "attention_evidence": {
+          "severity": [],
+          "authority": [],
+          "public_impact": [],
+          "evidence": [
+            "satu sumber / informasi awal"
+          ],
+          "role": [],
+          "issue": [],
+          "handling": [],
+          "context": [],
+          "positive": []
+        },
+        "case_engine_version": "case-v6.5.4",
+        "case_processed_at": "2026-08-31T23:58:43.179259+00:00"
+      },
+      {
+        "id": "a95bc382b021c3a17ca10c1bf9b3846a6c7fb220",
+        "title": "Polisi Tembak Perempuan yang Diduga Tikam 2 Orang di Times Square New York - MetroTVNews.com",
+        "url": "https://www.metrotvnews.com/read/N0BC1PdW-polisi-tembak-perempuan-yang-diduga-tikam-2-orang-di-times-square-new-york",
+        "source": "MetroTVNews.com",
+        "published_at": "2026-08-31T23:22:44+00:00",
+        "collected_at": "2026-08-31T23:52:45.054999+00:00",
+        "region": "BELUM TERPETAKAN",
+        "area_label": "BELUM TERPETAKAN",
+        "is_jatim": null,
+        "polres": null,
+        "category": "NEGATIF - BELUM TERIDENTIFIKASI",
+        "scope": "negative",
+        "scope_label": "Negatif",
+        "priority": "low",
+        "summary": "Polisi Tembak Perempuan yang Diduga Tikam 2 Orang di Times Square New York MetroTVNews.com",
+        "processing_status": "processed",
+        "classifier_version": "news-v6",
+        "classified_at": "2026-08-31T23:52:45.054999+00:00",
+        "case_id": "CASE-000645",
+        "discovery_families": [],
+        "discovery_tags": [],
+        "discovery_hits": [],
+        "discovery_version": "discovery-v6.5.4",
+        "google_news_url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQTXVRRmdKbzFNWHJ4TmdZcGFUYnJ4R3RDS1dYMG1Kb1NWTU5Eekk4ekoweE41Tnp4bktqRGtKeEFFWHJ2b0ZzNUl2dFY3dlkxazRNRDBKenFlVzk2NUVMZWtmb3pEWWt0cnFVNzI0TUM3OVBuWGFjS2MzRk1laUE4a2doUDIydXVZcXZqRzNxS1RJalo3VTJYMXFZclhmRklkMW8yblRiTEdrZERST1NLNzhBRHI2RDQ?oc=5",
+        "original_url": "https://www.metrotvnews.com/read/N0BC1PdW-polisi-tembak-perempuan-yang-diduga-tikam-2-orang-di-times-square-new-york",
+        "locality": "",
+        "polsek": null,
+        "location_confidence": 0,
+        "location_evidence": [],
+        "location_status": "BELUM_TERPETAKAN",
+        "location_source": "title",
+        "issue_type": "UMUM",
+        "issue_subtype": "Belum Teridentifikasi",
+        "issue_evidence": [],
+        "handling_status": "BELUM_ADA_INFORMASI",
+        "handling_evidence": [],
+        "attention_score": 29,
+        "attention_label": "Rendah",
+        "attention_components": {
+          "severity": 2,
+          "polri_relation": 16,
+          "authority": 0,
+          "public_impact": 10,
+          "handling": 0,
+          "evidence": 1,
+          "context_risk": 0,
+          "routine_enforcement_cap": null
+        },
+        "attention_evidence": {
+          "severity": [],
+          "authority": [],
+          "public_impact": [
+            "dampak institusional"
+          ],
+          "evidence": [
+            "satu sumber / informasi awal"
+          ],
+          "role": [
+            "Polri/personel menjadi subjek permasalahan"
+          ],
+          "issue": [],
+          "handling": [],
+          "context": [],
+          "positive": []
+        },
+        "case_engine_version": "case-v6.5.4",
+        "case_processed_at": "2026-09-01T00:01:21.725374+00:00"
+      },
+      {
+        "id": "946eda3769d041e581ae06ef233061880d7fcdd0",
+        "title": "Bakar Lahan Sawah Milik Sendiri, Petani di Banyuasin Ditangkap Polisi - detik.com",
+        "url": "https://www.detik.com/sumbagsel/berita/d-8641600/bakar-lahan-sawah-milik-sendiri-petani-di-banyuasin-ditangkap-polisi",
+        "source": "detik.com",
+        "published_at": "2026-08-31T22:31:04+00:00",
+        "collected_at": "2026-08-31T23:52:45.054999+00:00",
+        "region": "BELUM TERPETAKAN",
+        "area_label": "BELUM TERPETAKAN",
+        "is_jatim": null,
+        "polres": null,
+        "category": "NETRAL / LAINNYA",
+        "scope": "neutral",
+        "scope_label": "Netral",
+        "priority": "low",
+        "summary": "Bakar Lahan Sawah Milik Sendiri, Petani di Banyuasin Ditangkap Polisi detik.com",
+        "processing_status": "processed",
+        "classifier_version": "news-v6",
+        "classified_at": "2026-08-31T23:52:45.054999+00:00",
+        "case_id": null,
+        "discovery_families": [],
+        "discovery_tags": [],
+        "discovery_hits": [],
+        "discovery_version": "discovery-v6.5.4",
+        "google_news_url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPZk5tS0dHYmhaME8xOUlDWWJKWXE2QTNsdkdiZ1FKYWxkZVliY29ZR2dXcnMwVE9VcHhQTmxnX2hiSm1wSnZZc3VhZnNxNXF1aHh6NGRCY0h6NWZwNVRXOUVDSWhHc3NNOW9iS0ltOTd6R2pFX1hnSFlHMEN0dkc0ajJ6NjJZQUNERy1PUXZTTU9yTWJuVHExaURxRGRRd1VIUlpXUVRHaHhIMDc1Z21LWmtoakZuSjl10gG-AUFVX3lxTE5TdjNEZnlNMzVSb0loMHNqdTVENGJaZEZTRzZjaloxTElwc1pfZGRTUHVKNjQ3ZGFtckhGZ2Q5UlZLeWYwbE5rWFZDd3J6NWcxNTFkN3VEQkZlblF1Z0xJbWVweXpnT1JQM0pPZmVHNUlUOEZVNnNhaVFLbG9UZ0NwT2ZLblhOTW9zX0VtZUo1MWhrbjlOVHpHTEZsV1lEUDd3OGpMUlZzNjg4TUZ6M2dvTWpOcVA0T0ZWc0VZcmc?oc=5",
+        "original_url": "https://www.detik.com/sumbagsel/berita/d-8641600/bakar-lahan-sawah-milik-sendiri-petani-di-banyuasin-ditangkap-polisi",
+        "locality": "",
+        "polsek": null,
+        "location_confidence": 0,
+        "location_evidence": [],
+        "location_status": "BELUM_TERPETAKAN",
+        "location_source": "title",
+        "issue_type": "UMUM",
+        "issue_subtype": "Belum Teridentifikasi",
+        "issue_evidence": [],
+        "handling_status": "BELUM_ADA_INFORMASI",
+        "handling_evidence": [],
+        "attention_score": 7,
+        "attention_label": "Rendah",
+        "attention_components": {
+          "severity": 2,
+          "polri_relation": 0,
+          "authority": 0,
+          "public_impact": 4,
+          "handling": 0,
+          "evidence": 1,
+          "context_risk": 0,
+          "routine_enforcement_cap": null
+        },
+        "attention_evidence": {
+          "severity": [],
+          "authority": [],
+          "public_impact": [],
+          "evidence": [
+            "satu sumber / informasi awal"
+          ],
+          "role": [],
+          "issue": [],
+          "handling": [],
+          "context": [],
+          "positive": []
+        },
+        "case_engine_version": "case-v6.5.4",
+        "case_processed_at": "2026-08-31T23:58:43.428392+00:00"
+      },
+      {
+        "id": "71fa03baf1fc3c03ae47ff6f249592cd7c2e5b34",
+        "title": "Warga Lapor, Polisi Bergerak! 439 Botol Arak Bali Disita dari Mobil Pikap di Gresik - ketik.com",
+        "url": "https://ketik.com/gresik/hukum-kriminal/warga-lapor-polisi-bergerak-439-botol-arak-bali-disita-dari-mobil-pikap-di-gresik",
+        "source": "ketik.com",
+        "published_at": "2026-08-31T22:20:00+00:00",
+        "collected_at": "2026-08-31T23:52:45.054999+00:00",
+        "region": "LUAR JATIM",
+        "area_label": "LUAR JATIM",
+        "is_jatim": false,
+        "polres": null,
+        "category": "NETRAL / LAINNYA",
+        "scope": "neutral",
+        "scope_label": "Netral",
+        "priority": "low",
+        "summary": "Warga Lapor, Polisi Bergerak! 439 Botol Arak Bali Disita dari Mobil Pikap di Gresik ketik.com",
+        "processing_status": "processed",
+        "classifier_version": "news-v6",
+        "classified_at": "2026-08-31T23:52:45.054999+00:00",
+        "case_id": null,
+        "discovery_families": [],
+        "discovery_tags": [],
+        "discovery_hits": [],
+        "discovery_version": "discovery-v6.5.4",
+        "google_news_url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQbHozVjBmNGE5bWlnUkh1NHFINW5acUhIVWpJZndrUWZrcjY1dURFYURDN3Y1UE1VSmhnXzVWUlEzbTRpVTl4dGlLMG82MG90TjRmZ28wSjkzN3FyZE41OUlQOThqdWtlR0JLYXlUZXhtWEVUOEk0QUh1S0M0VXJLSng0UW9EbjN5aFFjc0pWdUNzRUcySDdTRWdTc2k2M29FM0RaN1dsUlJKX09UU0xWNnBOWU1aMHFsbVZnSWl30gGmAUFVX3lxTE5ZREZHZFVXWkt4UXdDZ3VpcTA2SlZ5S0hfYmo3MHVOcE10U1RoNk9BUEVpdkZuaElzTEpLc0oyRFU2SnBiSjNHNUhIZGhoVmtaUW53bFBZZVo0ZnFWMWlQVlBfbGNoSTMySTM5MzRPSEtaZHpfbTJIYzVHVWJkZG1Ob01sN2toR2s1TnQxbEpiNUoxZ1ZZd2tWVnlSNGp2Yy0zeFVMM3c?oc=5",
+        "original_url": "https://ketik.com/gresik/hukum-kriminal/warga-lapor-polisi-bergerak-439-botol-arak-bali-disita-dari-mobil-pikap-di-gresik",
+        "locality": "",
+        "polsek": null,
+        "location_confidence": 100,
+        "location_evidence": [
+          "bali"
+        ],
+        "location_status": "LUAR_JATIM",
+        "location_source": "title",
+        "issue_type": "UMUM",
+        "issue_subtype": "Belum Teridentifikasi",
+        "issue_evidence": [],
+        "handling_status": "BELUM_ADA_INFORMASI",
+        "handling_evidence": [],
+        "attention_score": 15,
+        "attention_label": "Rendah",
+        "attention_components": {
+          "severity": 2,
+          "polri_relation": 0,
+          "authority": 0,
+          "public_impact": 12,
+          "handling": 0,
+          "evidence": 1,
+          "context_risk": 0,
+          "routine_enforcement_cap": null
+        },
+        "attention_evidence": {
+          "severity": [],
+          "authority": [],
+          "public_impact": [
+            "dampak kepada masyarakat"
+          ],
+          "evidence": [
+            "satu sumber / informasi awal"
+          ],
+          "role": [],
+          "issue": [],
+          "handling": [],
+          "context": [],
+          "positive": []
+        },
+        "case_engine_version": "case-v6.5.4",
+        "case_processed_at": "2026-08-31T23:58:43.576968+00:00"
+      },
+      {
+        "id": "eae2216b7fa31e9f4970eeb84943a7fe6f8ca690",
+        "title": "Operasi Libas Lodaya 2026 Ungkap 37 Kasus, 31 Tersangka Diamankan Polres Cimahi - Pikiran Rakyat Koran",
+        "url": "https://koran.pikiran-rakyat.com/news/pr-30310424126/operasi-libas-lodaya-2026-ungkap-37-kasus-31-tersangka-diamankan-polres-cimahi",
+        "source": "Pikiran Rakyat Koran",
+        "published_at": "2026-08-31T22:00:00+00:00",
+        "collected_at": "2026-08-31T23:52:45.054999+00:00",
+        "region": "BELUM TERPETAKAN",
+        "area_label": "BELUM TERPETAKAN",
+        "is_jatim": null,
+        "polres": null,
+        "category": "POSITIF / PENEGAKAN HUKUM",
+        "scope": "positive",
+        "scope_label": "Positif",
+        "priority": "low",
+        "summary": "Operasi Libas Lodaya 2026 Ungkap 37 Kasus, 31 Tersangka Diamankan Polres Cimahi Pikiran Rakyat Koran",
+        "processing_status": "processed",
+        "classifier_version": "news-v6",
+        "classified_at": "2026-08-31T23:52:45.054999+00:00",
+        "case_id": null,
+        "discovery_families": [],
+        "discovery_tags": [],
+        "discovery_hits": [],
+        "discovery_version": "discovery-v6.5.4",
+        "google_news_url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPclptSU92bmFPbFR2bXFaTXQ3N05fQVdac1lXUWctSzd4d2FRVG9PUWVzVmJrZk80ZXBDSHNXN0xGQmVjd3ZJUEpjcTdUNHAzOFI1WVVxZ1I3bnFFY0lWSEwzOWZLODJHX3N0NWhrOFp0MEVWWktpa0hDLURKOGMxWnFPVGxYaUZzYjJrdlNwaTMyaExEa0Q1RmlQX3J0c2MwdWwwc0tpZXlhcGpYSWNoY1d0VWlhZnBSUnRDcTI3N0VKUXV0ZVlfNE9Lcw?oc=5",
+        "original_url": "https://koran.pikiran-rakyat.com/news/pr-30310424126/operasi-libas-lodaya-2026-ungkap-37-kasus-31-tersangka-diamankan-polres-cimahi",
+        "locality": "",
+        "polsek": null,
+        "location_confidence": 0,
+        "location_evidence": [],
+        "location_status": "BELUM_TERPETAKAN",
+        "location_source": "title",
+        "issue_type": "UMUM",
+        "issue_subtype": "Belum Teridentifikasi",
+        "issue_evidence": [],
+        "handling_status": "SUDAH_DITINDAK",
+        "handling_evidence": [
+          "tersangka"
+        ],
+        "attention_score": 11,
+        "attention_label": "Rendah",
+        "attention_components": {
+          "severity": 2,
+          "polri_relation": 2,
+          "authority": 0,
+          "public_impact": 4,
+          "handling": 2,
+          "evidence": 1,
+          "context_risk": 0,
+          "routine_enforcement_cap": 35
+        },
+        "attention_evidence": {
+          "severity": [],
+          "authority": [],
+          "public_impact": [],
+          "evidence": [
+            "satu sumber / informasi awal"
+          ],
+          "role": [
+            "Polri sebagai pihak penindak"
+          ],
+          "issue": [],
+          "handling": [
+            "tersangka"
+          ],
+          "context": [],
+          "positive": [
+            "\\b(?:operasi|operasi tumpas|razia|pengungkapan)\\b.{0,120}\\b(?:ungkap|tangkap|amankan|sita|tersangka)\\b"
+          ]
+        },
+        "case_engine_version": "case-v6.5.4",
+        "case_processed_at": "2026-08-31T23:58:43.728349+00:00"
+      },
+      {
+        "id": "71fe5af70303af0e09db63e4aba632551aac6b8b",
+        "title": "Polisi Jerat 9 Tersangka Karhutla di Kaltim, Luas Lahan Terbakar Capai 456 Hektare - EKSPOSKALTIM",
+        "url": "https://eksposkaltim.com/berita-18363-polisi-jerat-9-tersangka-karhutla-di-kaltim-luas-lahan-terbakar-capai-456-hektare.html",
+        "source": "EKSPOSKALTIM",
+        "published_at": "2026-08-31T20:40:53+00:00",
+        "collected_at": "2026-08-31T23:52:45.054999+00:00",
+        "region": "BELUM TERPETAKAN",
+        "area_label": "BELUM TERPETAKAN",
+        "is_jatim": null,
+        "polres": null,
+        "category": "NETRAL / LAINNYA",
+        "scope": "neutral",
+        "scope_label": "Netral",
+        "priority": "low",
+        "summary": "Polisi Jerat 9 Tersangka Karhutla di Kaltim, Luas Lahan Terbakar Capai 456 Hektare EKSPOSKALTIM",
+        "processing_status": "processed",
+        "classifier_version": "news-v6",
+        "classified_at": "2026-08-31T23:52:45.054999+00:00",
+        "case_id": null,
+        "discovery_families": [],
+        "discovery_tags": [],
+        "discovery_hits": [],
+        "discovery_version": "discovery-v6.5.4",
+        "google_news_url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQekRYcURsUjl0RGJlNVVyOTcxUWUybVUxcEZ2U3pOYUQxSTA5QWQtTnlqMG1iS0MtcnZYLUo0ckUzaGhwNlNyQnhKSU1Wdmg1ZjRXbUVBVzQtSzFKOVFrVmRuX05JZnN4MkNrRzdNX3FUMXZyVXpabEhwTHgta2dDTXBhMndKNTUtSDhRbkM0MzBmNHZLVENrUjVUOGpDMElUYmRzTzNiWGwxdGhUYVozUm9wUlFROGM5RjZWMURVVEM4Zw?oc=5",
+        "original_url": "https://eksposkaltim.com/berita-18363-polisi-jerat-9-tersangka-karhutla-di-kaltim-luas-lahan-terbakar-capai-456-hektare.html",
+        "locality": "",
+        "polsek": null,
+        "location_confidence": 0,
+        "location_evidence": [],
+        "location_status": "BELUM_TERPETAKAN",
+        "location_source": "title",
+        "issue_type": "UMUM",
+        "issue_subtype": "Belum Teridentifikasi",
+        "issue_evidence": [],
+        "handling_status": "SUDAH_DITINDAK",
+        "handling_evidence": [
+          "tersangka"
+        ],
+        "attention_score": 9,
+        "attention_label": "Rendah",
+        "attention_components": {
+          "severity": 2,
+          "polri_relation": 0,
+          "authority": 0,
+          "public_impact": 4,
+          "handling": 2,
+          "evidence": 1,
+          "context_risk": 0,
+          "routine_enforcement_cap": null
+        },
+        "attention_evidence": {
+          "severity": [],
+          "authority": [],
+          "public_impact": [],
+          "evidence": [
+            "satu sumber / informasi awal"
+          ],
+          "role": [],
+          "issue": [],
+          "handling": [
+            "tersangka"
+          ],
+          "context": [],
+          "positive": []
+        },
+        "case_engine_version": "case-v6.5.4",
+        "case_processed_at": "2026-08-31T23:58:44.198059+00:00"
+      },
       {
         "id": "aff87921f43b3b1699584460529df460609b278b",
         "title": "HP Sutrimo yang Diduga Karumga Febrie Adriansyah Hilang Misterius, Keluarga Desak Polisi Periksa Febrio Adiono - VIVA.co.id",
@@ -3379,7 +4767,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-08-31T20:17:44.634044+00:00"
+        "case_processed_at": "2026-09-01T00:01:21.725383+00:00"
       },
       {
         "id": "e5e25235f4e8d1f1e7d89222521c326305e9fbb5",
@@ -3448,7 +4836,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-08-31T20:17:44.634049+00:00"
+        "case_processed_at": "2026-09-01T00:01:21.725385+00:00"
       },
       {
         "id": "082d3d0a4db7373ad16e1438921a610639b636a2",
@@ -3529,7 +4917,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-08-31T20:17:44.634057+00:00"
+        "case_processed_at": "2026-09-01T00:01:21.725392+00:00"
       },
       {
         "id": "71703cdbb3340ece70fe57be448b5722b6f58a91",
@@ -3610,7 +4998,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-08-31T20:17:44.634060+00:00"
+        "case_processed_at": "2026-09-01T00:01:21.725393+00:00"
       },
       {
         "id": "eeaac4f32d280352e20a71b6cbe35e0a2619b237",
@@ -3677,7 +5065,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-08-31T20:13:43.744664+00:00"
+        "case_processed_at": "2026-08-31T23:58:45.085486+00:00"
       },
       {
         "id": "43a91f45aeb89090a51bff6c8563ee6e6498f179",
@@ -3746,7 +5134,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-08-31T20:17:44.634062+00:00"
+        "case_processed_at": "2026-09-01T00:01:21.725395+00:00"
       },
       {
         "id": "c81a5070f0b09ed04546bc3638160b23e2db2d0c",
@@ -3815,7 +5203,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-08-31T20:13:44.411044+00:00"
+        "case_processed_at": "2026-08-31T23:58:45.519491+00:00"
       },
       {
         "id": "00d600930207d772686e22f9ee3b7fdb96ff6fdd",
@@ -3893,7 +5281,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-08-31T20:13:44.589859+00:00"
+        "case_processed_at": "2026-08-31T23:58:45.637004+00:00"
       },
       {
         "id": "760e9fa306bc52fc9fcd17e5a3f36f505ac75b81",
@@ -3965,7 +5353,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-08-31T20:13:44.765617+00:00"
+        "case_processed_at": "2026-08-31T23:58:45.752849+00:00"
       },
       {
         "id": "9bce39e97874dacfbe22a81c78eb6ea79539a10d",
@@ -4034,7 +5422,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-08-31T20:17:44.634066+00:00"
+        "case_processed_at": "2026-09-01T00:01:21.725398+00:00"
       },
       {
         "id": "741c6a6698961e59cc9cae90dc928267acdef900",
@@ -4103,7 +5491,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-08-31T20:13:45.001897+00:00"
+        "case_processed_at": "2026-08-31T23:58:45.920889+00:00"
       },
       {
         "id": "961dfc9d8925e3f4eb78a5934ce05c6c465dcd6b",
@@ -4172,7 +5560,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-08-31T20:13:45.320619+00:00"
+        "case_processed_at": "2026-08-31T23:58:46.135755+00:00"
       },
       {
         "id": "2316e121e1402de83907d7ea889f65e4ebdc5f4b",
@@ -4245,7 +5633,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-08-31T20:17:44.634070+00:00"
+        "case_processed_at": "2026-09-01T00:01:21.725402+00:00"
       },
       {
         "id": "1925f706c9573171b2b81cdd79aec63bf5b56f77",
@@ -4316,7 +5704,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-08-31T20:17:44.634072+00:00"
+        "case_processed_at": "2026-09-01T00:01:21.725403+00:00"
       },
       {
         "id": "043be395ae394170b03e194a06654fecfa9cd5b5",
@@ -4391,7 +5779,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-08-31T20:17:44.634074+00:00"
+        "case_processed_at": "2026-09-01T00:01:21.725405+00:00"
       },
       {
         "id": "8fc85ff21a2082a8688309503eb2437834bbf5cd",
@@ -4466,7 +5854,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-08-31T20:17:44.634077+00:00"
+        "case_processed_at": "2026-09-01T00:01:21.725408+00:00"
       },
       {
         "id": "3123fa00569c0e1955b4a442f1317554d7cefadc",
@@ -4542,7 +5930,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-08-31T20:17:44.634079+00:00"
+        "case_processed_at": "2026-09-01T00:01:21.725410+00:00"
       },
       {
         "id": "91ebc74105151757b35a331a49b98977964db0f9",
@@ -4615,7 +6003,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-08-31T20:17:44.634081+00:00"
+        "case_processed_at": "2026-09-01T00:01:21.725412+00:00"
       },
       {
         "id": "497b68a86d8a44f3fe2a11cb8e564226ab250b97",
@@ -4695,7 +6083,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-08-31T20:17:44.634083+00:00"
+        "case_processed_at": "2026-09-01T00:01:21.725414+00:00"
       },
       {
         "id": "046b959f921ab3f06f9144ac91b2256961b830ae",
@@ -4770,16 +6158,16 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-08-31T20:17:44.634086+00:00"
+        "case_processed_at": "2026-09-01T00:01:21.725415+00:00"
       }
     ]
   },
   "cases": {
-    "active": 16,
+    "active": 17,
     "priority_high": 2,
     "jatim": 3,
     "jatim_priority_high": 2,
-    "articles": 80,
+    "articles": 81,
     "case_ids": [
       "CASE-000008",
       "CASE-000033",
@@ -4796,7 +6184,8 @@
       "CASE-000641",
       "CASE-000642",
       "CASE-000643",
-      "CASE-000644"
+      "CASE-000644",
+      "CASE-000645"
     ],
     "items": [
       {
@@ -6996,7 +8385,7 @@
         ],
         "article_count": 54,
         "created_at": "2026-08-31T07:38:15.280818+00:00",
-        "updated_at": "2026-08-31T20:17:42.304210+00:00",
+        "updated_at": "2026-09-01T00:01:20.186575+00:00",
         "engine_version": "case-v6.5.4",
         "priority_score": 99,
         "priority_breakdown": {
@@ -7474,7 +8863,7 @@
         ],
         "article_count": 10,
         "created_at": "2026-08-31T07:38:15.493509+00:00",
-        "updated_at": "2026-08-31T20:17:42.442305+00:00",
+        "updated_at": "2026-09-01T00:01:20.276187+00:00",
         "engine_version": "case-v6.5.4",
         "priority_score": 93,
         "priority_breakdown": {
@@ -7636,7 +9025,7 @@
         ],
         "article_count": 2,
         "created_at": "2026-08-31T14:05:06.231101+00:00",
-        "updated_at": "2026-08-31T20:17:44.579421+00:00",
+        "updated_at": "2026-09-01T00:01:21.685898+00:00",
         "engine_version": "case-v6.5.4",
         "priority_score": 48,
         "priority_breakdown": {
@@ -7750,7 +9139,7 @@
         ],
         "article_count": 1,
         "created_at": "2026-08-31T20:16:41.592698+00:00",
-        "updated_at": "2026-08-31T20:17:44.595547+00:00",
+        "updated_at": "2026-09-01T00:01:21.696945+00:00",
         "engine_version": "case-v6.5.4",
         "priority_score": 8,
         "priority_breakdown": {
@@ -7855,7 +9244,7 @@
         ],
         "article_count": 1,
         "created_at": "2026-08-31T20:16:41.786553+00:00",
-        "updated_at": "2026-08-31T20:17:44.598328+00:00",
+        "updated_at": "2026-09-01T00:01:21.698841+00:00",
         "engine_version": "case-v6.5.4",
         "priority_score": 17,
         "priority_breakdown": {
@@ -8004,7 +9393,7 @@
         ],
         "article_count": 2,
         "created_at": "2026-08-31T20:16:42.485659+00:00",
-        "updated_at": "2026-08-31T20:17:44.603979+00:00",
+        "updated_at": "2026-09-01T00:01:21.702654+00:00",
         "engine_version": "case-v6.5.4",
         "priority_score": 39,
         "priority_breakdown": {
@@ -8116,7 +9505,7 @@
         ],
         "article_count": 1,
         "created_at": "2026-08-31T20:16:42.936990+00:00",
-        "updated_at": "2026-08-31T20:17:44.606989+00:00",
+        "updated_at": "2026-09-01T00:01:21.704879+00:00",
         "engine_version": "case-v6.5.4",
         "priority_score": 17,
         "priority_breakdown": {
@@ -8222,7 +9611,7 @@
         ],
         "article_count": 1,
         "created_at": "2026-08-31T20:16:43.097758+00:00",
-        "updated_at": "2026-08-31T20:17:44.609717+00:00",
+        "updated_at": "2026-09-01T00:01:21.706850+00:00",
         "engine_version": "case-v6.5.4",
         "priority_score": 17,
         "priority_breakdown": {
@@ -8337,7 +9726,7 @@
         ],
         "article_count": 1,
         "created_at": "2026-08-31T20:16:43.339991+00:00",
-        "updated_at": "2026-08-31T20:17:44.612660+00:00",
+        "updated_at": "2026-09-01T00:01:21.708923+00:00",
         "engine_version": "case-v6.5.4",
         "priority_score": 46,
         "priority_breakdown": {
@@ -8442,7 +9831,7 @@
         ],
         "article_count": 1,
         "created_at": "2026-08-31T20:16:43.483218+00:00",
-        "updated_at": "2026-08-31T20:17:44.615112+00:00",
+        "updated_at": "2026-09-01T00:01:21.710534+00:00",
         "engine_version": "case-v6.5.4",
         "priority_score": 21,
         "priority_breakdown": {
@@ -8552,7 +9941,7 @@
         ],
         "article_count": 1,
         "created_at": "2026-08-31T20:16:43.713397+00:00",
-        "updated_at": "2026-08-31T20:17:44.618272+00:00",
+        "updated_at": "2026-09-01T00:01:21.712641+00:00",
         "engine_version": "case-v6.5.4",
         "priority_score": 34,
         "priority_breakdown": {
@@ -8660,7 +10049,7 @@
         ],
         "article_count": 1,
         "created_at": "2026-08-31T20:16:43.938474+00:00",
-        "updated_at": "2026-08-31T20:17:44.621264+00:00",
+        "updated_at": "2026-09-01T00:01:21.714625+00:00",
         "engine_version": "case-v6.5.4",
         "priority_score": 36,
         "priority_breakdown": {
@@ -8766,7 +10155,7 @@
         ],
         "article_count": 1,
         "created_at": "2026-08-31T20:16:44.440797+00:00",
-        "updated_at": "2026-08-31T20:17:44.624543+00:00",
+        "updated_at": "2026-09-01T00:01:21.716817+00:00",
         "engine_version": "case-v6.5.4",
         "priority_score": 23,
         "priority_breakdown": {
@@ -8875,7 +10264,7 @@
         ],
         "article_count": 1,
         "created_at": "2026-08-31T20:16:44.724112+00:00",
-        "updated_at": "2026-08-31T20:17:44.627871+00:00",
+        "updated_at": "2026-09-01T00:01:21.719210+00:00",
         "engine_version": "case-v6.5.4",
         "priority_score": 17,
         "priority_breakdown": {
@@ -8983,7 +10372,7 @@
         ],
         "article_count": 1,
         "created_at": "2026-08-31T20:16:44.943587+00:00",
-        "updated_at": "2026-08-31T20:17:44.630827+00:00",
+        "updated_at": "2026-09-01T00:01:21.721202+00:00",
         "engine_version": "case-v6.5.4",
         "priority_score": 49,
         "priority_breakdown": {
@@ -9086,7 +10475,7 @@
         ],
         "article_count": 1,
         "created_at": "2026-08-31T20:16:45.306115+00:00",
-        "updated_at": "2026-08-31T20:17:44.633555+00:00",
+        "updated_at": "2026-09-01T00:01:21.723009+00:00",
         "engine_version": "case-v6.5.4",
         "priority_score": 36,
         "priority_breakdown": {
@@ -9115,6 +10504,110 @@
             "sifat berita: negatif",
             "Kekerasan / Penggunaan Kekuatan",
             "Hubungan Polri belum spesifik"
+          ]
+        }
+      },
+      {
+        "case_id": "CASE-000645",
+        "title": "Polisi Tembak Perempuan yang Diduga Tikam 2 Orang di Times Square New York - MetroTVNews.com",
+        "category": "NEGATIF - BELUM TERIDENTIFIKASI",
+        "scope": "negative",
+        "region": "BELUM TERPETAKAN",
+        "locality": "",
+        "is_jatim": null,
+        "polres": null,
+        "polsek": null,
+        "priority": "low",
+        "attention_score": 30,
+        "attention_label": "Rendah",
+        "signature": "BELUM TERPETAKAN",
+        "incident_terms": [
+          "com",
+          "metrotvnews",
+          "new",
+          "perempuan",
+          "square",
+          "tembak",
+          "tikam",
+          "times",
+          "york"
+        ],
+        "event_terms": [],
+        "location_terms": [],
+        "discovery_families": [],
+        "first_seen": "2026-08-31T23:22:44+00:00",
+        "last_seen": "2026-08-31T23:52:45.054999+00:00",
+        "last_detected_at": "2026-08-31T23:52:45.054999+00:00",
+        "article_ids": [
+          "a95bc382b021c3a17ca10c1bf9b3846a6c7fb220"
+        ],
+        "articles": [
+          {
+            "id": "a95bc382b021c3a17ca10c1bf9b3846a6c7fb220",
+            "title": "Polisi Tembak Perempuan yang Diduga Tikam 2 Orang di Times Square New York - MetroTVNews.com",
+            "url": "https://www.metrotvnews.com/read/N0BC1PdW-polisi-tembak-perempuan-yang-diduga-tikam-2-orang-di-times-square-new-york",
+            "published_at": "2026-08-31T23:22:44+00:00",
+            "collected_at": "2026-08-31T23:52:45.054999+00:00",
+            "source": "MetroTVNews.com",
+            "match_score": 1.0,
+            "priority": "low",
+            "scope": "negative",
+            "category": "NEGATIF - BELUM TERIDENTIFIKASI",
+            "region": "BELUM TERPETAKAN",
+            "locality": "",
+            "is_jatim": false,
+            "polres": null,
+            "polsek": null,
+            "issue_type": "UMUM",
+            "issue_subtype": "Belum Teridentifikasi",
+            "handling_status": "BELUM_ADA_INFORMASI",
+            "handling_evidence": [],
+            "polri_relation": null,
+            "polri_relation_points": 0,
+            "polri_relation_evidence": [],
+            "attention_score": 29,
+            "attention_label": "Rendah",
+            "attention_components": {
+              "severity": 2,
+              "polri_relation": 16,
+              "authority": 0,
+              "public_impact": 10,
+              "handling": 0,
+              "evidence": 1,
+              "context_risk": 0,
+              "routine_enforcement_cap": null
+            }
+          }
+        ],
+        "article_count": 1,
+        "created_at": "2026-09-01T00:00:42.755471+00:00",
+        "updated_at": "2026-09-01T00:01:21.724954+00:00",
+        "engine_version": "case-v6.5.4",
+        "priority_score": 30,
+        "priority_breakdown": {
+          "severity": 2,
+          "polri_relation": 16,
+          "authority_context": 0,
+          "public_impact": 10,
+          "handling": 0,
+          "evidence": 1,
+          "spread": 0,
+          "escalation": 0,
+          "current_activity": 1,
+          "context_risk": 0
+        },
+        "priority_evidence": {
+          "unique_sources": 1,
+          "active_today_articles": 1,
+          "escalation": [],
+          "issue_type": "UMUM",
+          "issue_subtype": "Belum Teridentifikasi",
+          "sentiment": "negative",
+          "polri_relation": "SUBJEK_PERMASALAHAN",
+          "handling_status": "BELUM_ADA_INFORMASI",
+          "reasons": [
+            "sifat berita: negatif",
+            "polisi + dugaan"
           ]
         }
       }
@@ -11317,7 +12810,7 @@
         ],
         "article_count": 54,
         "created_at": "2026-08-31T07:38:15.280818+00:00",
-        "updated_at": "2026-08-31T20:17:42.304210+00:00",
+        "updated_at": "2026-09-01T00:01:20.186575+00:00",
         "engine_version": "case-v6.5.4",
         "priority_score": 99,
         "priority_breakdown": {
@@ -11795,7 +13288,7 @@
         ],
         "article_count": 10,
         "created_at": "2026-08-31T07:38:15.493509+00:00",
-        "updated_at": "2026-08-31T20:17:42.442305+00:00",
+        "updated_at": "2026-09-01T00:01:20.276187+00:00",
         "engine_version": "case-v6.5.4",
         "priority_score": 93,
         "priority_breakdown": {
@@ -11916,7 +13409,7 @@
         ],
         "article_count": 1,
         "created_at": "2026-08-31T20:16:43.339991+00:00",
-        "updated_at": "2026-08-31T20:17:44.612660+00:00",
+        "updated_at": "2026-09-01T00:01:21.708923+00:00",
         "engine_version": "case-v6.5.4",
         "priority_score": 46,
         "priority_breakdown": {
@@ -11950,33 +13443,71 @@
     ]
   },
   "social": {
-    "detected": 41,
-    "jatim": 4,
-    "negative": 20,
-    "priority_high": 4,
+    "detected": 89,
+    "jatim": 6,
+    "negative": 42,
+    "priority_high": 19,
     "video_ids": [
+      "0Kegtz3a6CU",
+      "n3IEuOFHEnw",
+      "ldn-5uhlW7w",
+      "Hmf_NYCGZMc",
+      "jBq31jmMthQ",
+      "MtlZDa06CHM",
+      "W3pWo7K2Nrw",
+      "lzPFW2U5J6Q",
+      "VDsqk2mvc4c",
       "fVdHRQy3E4U",
       "OQt5zLdiBns",
       "scoFrt97BPs",
       "QcW0S3kknL4",
+      "0buJu2DywOg",
+      "QCeHPtnxev0",
+      "C04vFNBU1m4",
       "ScPtHiwLDes",
+      "YGKVLxwSCt8",
+      "PlwDQy13CWQ",
+      "ShCeXbRNwKI",
+      "2ZCYZzcu2Kw",
+      "UnH6Yao_9vY",
+      "-0ErA-ze7v4",
+      "vsIZzSr3tJQ",
+      "1pKtCzccqGQ",
+      "6iw_wfHHk00",
       "AG477gebZq8",
+      "_5SgUJJ9A9A",
+      "WZVskmKJxD8",
       "iMoxeo4DFW0",
+      "VQ5l58a8QHk",
+      "eYj9UrzVecc",
       "euYXvmowK3Q",
+      "270EkUZ-rYI",
       "jB0m7u46gXQ",
+      "8wYNumgdRoc",
+      "J_5QMK1z4aQ",
       "vqKLOsy9hbk",
+      "d-SUgxYTIHM",
+      "pOYZwRP6gJk",
       "ym4tyhcHPho",
+      "D-y9HIUuV2A",
       "pGJL3Z0YX7M",
       "KBdnuhsFFPE",
       "gbXCk27fcq4",
+      "nnH1gpkVZHk",
       "Gibo2Xz5Jtk",
+      "Q0-Bp9Yfuz0",
       "yMbJR3ZrLJU",
       "SeRY9PNzdaA",
+      "yffTxYcEzqw",
+      "1l5WXw70aJU",
       "1wSgAtoXd7A",
       "9qRDh18r5z0",
+      "g1jEgeG9UJo",
       "XxP3DMMb0gk",
+      "BvEFqPJEEXg",
       "A3G_iNwMNCo",
       "Cw3aZrjae7s",
+      "_25onWjfSzw",
       "g_3q8hRpuFM",
       "Al_4hsJj56U",
       "Nav8IJx67EA",
@@ -11987,11 +13518,21 @@
       "GgO6GcthtKk",
       "eZg92hSWd4M",
       "fAhpKvVP7nQ",
+      "SY0CtO5yFwI",
+      "beFBXFPqQJk",
+      "NbzuaWaE0xU",
+      "ZJpJmaifR64",
+      "mIG_ZZcmisM",
       "P96JRf9Hj3I",
+      "PYJJWyVeL0A",
       "wWKy-dydm6Y",
+      "K5PkbJTAp6I",
       "DteEjz054yA",
+      "DHZstGB4iO4",
       "ogyazd0jET0",
+      "CLAewomCnD4",
       "TYHOQBt-mSA",
+      "dzlBN4tBm-E",
       "scWd3J7dpX8",
       "qkEGm2twohY",
       "M07f-qnRt10",
@@ -11999,28 +13540,36 @@
     ]
   },
   "jatim": {
-    "news_today": 12,
+    "news_today": 16,
     "negative_today": 4,
-    "positive_today": 3,
+    "positive_today": 4,
     "case_scope_today": 0,
-    "neutral_today": 5,
+    "neutral_today": 8,
     "case_today": 3,
     "case_high_active": 2,
     "article_high_today": 1,
-    "outside_jatim_today": 20
+    "outside_jatim_today": 26
   },
   "regions": [
     {
-      "name": "Madiun",
-      "count": 3
+      "name": "Sidoarjo",
+      "count": 4
     },
     {
-      "name": "Sidoarjo",
-      "count": 3
+      "name": "Madiun",
+      "count": 4
+    },
+    {
+      "name": "Surabaya",
+      "count": 2
     },
     {
       "name": "Sumenep",
       "count": 2
+    },
+    {
+      "name": "Jember",
+      "count": 1
     },
     {
       "name": "Lamongan",
@@ -12033,20 +13582,20 @@
     {
       "name": "Kediri",
       "count": 1
-    },
-    {
-      "name": "Surabaya",
-      "count": 1
     }
   ],
   "polres": [
     {
-      "name": "POLRES MADIUN",
-      "count": 2
+      "name": "POLRESTA SIDOARJO",
+      "count": 3
     },
     {
-      "name": "POLRESTA SIDOARJO",
-      "count": 2
+      "name": "POLRES MADIUN",
+      "count": 3
+    },
+    {
+      "name": "POLRES JEMBER",
+      "count": 1
     },
     {
       "name": "POLRES MADIUN KOTA",
@@ -12064,11 +13613,11 @@
   "categories": [
     {
       "name": "NETRAL / LAINNYA",
-      "count": 5
+      "count": 8
     },
     {
       "name": "POSITIF / PENEGAKAN HUKUM",
-      "count": 3
+      "count": 4
     },
     {
       "name": "NEGATIF - KEJAHATAN SEKSUAL",
@@ -12080,19 +13629,19 @@
     }
   ],
   "summary": {
-    "news_today": 32,
-    "negative_today": 18,
-    "cases_today": 16,
+    "news_today": 42,
+    "negative_today": 19,
+    "cases_today": 17,
     "priority_high": 2,
     "article_priority_high": 1,
-    "jatim_news": 12,
+    "jatim_news": 16,
     "jatim_negative": 4,
-    "jatim_positive": 3,
+    "jatim_positive": 4,
     "jatim_case_scope": 0,
-    "jatim_neutral": 5,
+    "jatim_neutral": 8,
     "jatim_cases_today": 3,
     "jatim_case_high_active": 2,
-    "luar_jatim_news": 20,
-    "youtube_today": 41
+    "luar_jatim_news": 26,
+    "youtube_today": 89
   }
 }
