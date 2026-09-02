@@ -2,18 +2,23 @@
   "schema_version": "today-v3",
   "date": "2026-09-02",
   "timezone": "Asia/Jakarta",
-  "updated_at": "2026-09-02T04:58:50.434677+07:00",
-  "last_successful_update": "2026-09-02T04:58:50.434677+07:00",
+  "updated_at": "2026-09-02T07:29:05.343128+07:00",
+  "last_successful_update": "2026-09-02T07:29:05.343128+07:00",
   "news": {
-    "detected": 19,
-    "negative": 9,
-    "positive": 1,
+    "detected": 24,
+    "negative": 12,
+    "positive": 2,
     "case": 0,
-    "neutral": 9,
-    "jatim": 5,
-    "luar_jatim": 14,
+    "neutral": 10,
+    "jatim": 6,
+    "luar_jatim": 18,
     "priority_high": 1,
     "article_ids": [
+      "46f7dea8a1deae1ef8f86227c53ff7f3a0c0c8ea",
+      "fa3679875e3fb8d5776c79190ee36c9550911f93",
+      "31391100e612cfc56a4a0bea710f93930c90d6c2",
+      "4c3f6c9c523bdf57bcbf1fa2296191f8c515ac18",
+      "caf79ae3ff9c6104066ae0bed2ad95963352a7b2",
       "28168d6db18c89b55eaa2ce2933900a5a212ed7e",
       "80269745ed6e96e97b5dd317409d1d3707377d2b",
       "fdcc5ce52c9f6f5b7021bbe36c98e3caea9162e9",
@@ -36,6 +41,362 @@
     ],
     "items": [
       {
+        "id": "46f7dea8a1deae1ef8f86227c53ff7f3a0c0c8ea",
+        "title": "Bupati Bintan Apresiasi Polisi Ungkap 800 Kg Narkoba Jaringan Internasional - kepripedia.com",
+        "url": "https://kepripedia.com/bupati-bintan-apresiasi-polisi-ungkap-800-kg-narkoba-jaringan-internasional/",
+        "source": "kepripedia.com",
+        "published_at": "2026-09-01T23:53:45+00:00",
+        "collected_at": "2026-09-02T00:16:57.773945+00:00",
+        "region": "BELUM TERPETAKAN",
+        "area_label": "BELUM TERPETAKAN",
+        "is_jatim": null,
+        "polres": null,
+        "category": "POSITIF / PENEGAKAN HUKUM",
+        "scope": "positive",
+        "scope_label": "Positif",
+        "priority": "low",
+        "summary": "Bupati Bintan Apresiasi Polisi Ungkap 800 Kg Narkoba Jaringan Internasional kepripedia.com",
+        "processing_status": "processed",
+        "classifier_version": "news-v6",
+        "classified_at": "2026-09-02T00:16:57.773945+00:00",
+        "case_id": null,
+        "discovery_families": [],
+        "discovery_tags": [],
+        "discovery_hits": [],
+        "discovery_version": "discovery-v6.5.4",
+        "google_news_url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNaTdyTWhyYkZOZkNYdHNaNUNrN1JvQnB0clBTWEhuOTcyaFZsa0dmbUlZeDl2VERaWmRhN25lRmJjT1pNblhEakJLRWJQV1Rkb3Y5X2xiT1lwa3JJNjB2NnZrRHN6dk1hMm1mdXc4eXAzdlJVeXl6czR3VGd4Z25xZVRQVTdPNjV3ZVdiOGtUTFFXRjhQVDhhVHl5b0YxaDdV?oc=5",
+        "original_url": "https://kepripedia.com/bupati-bintan-apresiasi-polisi-ungkap-800-kg-narkoba-jaringan-internasional/",
+        "locality": "",
+        "polsek": null,
+        "location_confidence": 0,
+        "location_evidence": [],
+        "location_status": "BELUM_TERPETAKAN",
+        "location_source": "title",
+        "issue_type": "NARKOBA",
+        "issue_subtype": "Narkoba / Narkotika",
+        "issue_evidence": [
+          "narkoba"
+        ],
+        "handling_status": "BELUM_ADA_INFORMASI",
+        "handling_evidence": [],
+        "attention_score": 18,
+        "attention_label": "Rendah",
+        "attention_components": {
+          "severity": 11,
+          "polri_relation": 2,
+          "authority": 0,
+          "public_impact": 4,
+          "handling": 0,
+          "evidence": 1,
+          "context_risk": 0,
+          "routine_enforcement_cap": 35
+        },
+        "attention_evidence": {
+          "severity": [],
+          "authority": [],
+          "public_impact": [],
+          "evidence": [
+            "satu sumber / informasi awal"
+          ],
+          "role": [
+            "Polri sebagai pihak penindak"
+          ],
+          "issue": [
+            "narkoba"
+          ],
+          "handling": [],
+          "context": [],
+          "positive": [
+            "\\b(?:pelayanan|inovasi|prestasi|penghargaan|apresiasi)\\b.{0,100}\\b(?:polisi|polres|polda|polri)\\b"
+          ]
+        },
+        "case_engine_version": "case-v6.5.4",
+        "case_processed_at": "2026-09-02T00:23:25.927463+00:00"
+      },
+      {
+        "id": "fa3679875e3fb8d5776c79190ee36c9550911f93",
+        "title": "IPW Desak Polisi Tangkap Pelaku Pengeroyokan Bambang Setiawan dan Faturohman - Kedai Pena",
+        "url": "https://www.kedaipena.com/ipw-desak-polisi-tangkap-pelaku-pengeroyokan-bambang-setiawan-dan-faturohman/",
+        "source": "Kedai Pena",
+        "published_at": "2026-09-01T23:49:13+00:00",
+        "collected_at": "2026-09-02T00:16:57.773945+00:00",
+        "region": "BELUM TERPETAKAN",
+        "area_label": "BELUM TERPETAKAN",
+        "is_jatim": null,
+        "polres": null,
+        "category": "NETRAL / LAINNYA",
+        "scope": "neutral",
+        "scope_label": "Netral",
+        "priority": "low",
+        "summary": "IPW Desak Polisi Tangkap Pelaku Pengeroyokan Bambang Setiawan dan Faturohman Kedai Pena",
+        "processing_status": "processed",
+        "classifier_version": "news-v6",
+        "classified_at": "2026-09-02T00:16:57.773945+00:00",
+        "case_id": null,
+        "discovery_families": [],
+        "discovery_tags": [],
+        "discovery_hits": [],
+        "discovery_version": "discovery-v6.5.4",
+        "google_news_url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNWi1PZi1vam5XN0hTWGUwNGVuZF9KbmhnLVFlbi1wajNNZlRNbENIamxzcW9GQkFqQVNjbE52VExGZ3RfVzNrQ2lheGZtUElUUDc5dXpRa2wxa2VoTDVNcmt4NTNvb3ZSY1o3T0tnYmYzaFBtOW5vc1VCOE5tM1NiLXcweGl2TVNkdjVKRDRkOEY1Zzc2djlvZ0xCdDlWT1BNQldhOVBB?oc=5",
+        "original_url": "https://www.kedaipena.com/ipw-desak-polisi-tangkap-pelaku-pengeroyokan-bambang-setiawan-dan-faturohman/",
+        "locality": "",
+        "polsek": null,
+        "location_confidence": 0,
+        "location_evidence": [],
+        "location_status": "BELUM_TERPETAKAN",
+        "location_source": "title",
+        "issue_type": "UMUM",
+        "issue_subtype": "Belum Teridentifikasi",
+        "issue_evidence": [],
+        "handling_status": "BELUM_ADA_INFORMASI",
+        "handling_evidence": [],
+        "attention_score": 7,
+        "attention_label": "Rendah",
+        "attention_components": {
+          "severity": 2,
+          "polri_relation": 0,
+          "authority": 0,
+          "public_impact": 4,
+          "handling": 0,
+          "evidence": 1,
+          "context_risk": 0,
+          "routine_enforcement_cap": null
+        },
+        "attention_evidence": {
+          "severity": [],
+          "authority": [],
+          "public_impact": [],
+          "evidence": [
+            "satu sumber / informasi awal"
+          ],
+          "role": [],
+          "issue": [],
+          "handling": [],
+          "context": [],
+          "positive": []
+        },
+        "case_engine_version": "case-v6.5.4",
+        "case_processed_at": "2026-09-02T00:23:26.173529+00:00"
+      },
+      {
+        "id": "31391100e612cfc56a4a0bea710f93930c90d6c2",
+        "title": "Adik Wartawan CameraJurnalis.com Diduga Dianiaya, Virgo Dilaporkan ke Polisi - Lintas Cakrawala News",
+        "url": "https://lintascakrawalanews.com/2026/09/01/adik-wartawan-camerajurnalis-com-diduga-dianiaya-virgo-dilaporkan-ke-polisi/",
+        "source": "Lintas Cakrawala News",
+        "published_at": "2026-09-01T23:32:44+00:00",
+        "collected_at": "2026-09-02T00:16:57.773945+00:00",
+        "region": "BELUM TERPETAKAN",
+        "area_label": "BELUM TERPETAKAN",
+        "is_jatim": null,
+        "polres": null,
+        "category": "NEGATIF - BELUM TERIDENTIFIKASI",
+        "scope": "negative",
+        "scope_label": "Negatif",
+        "priority": "low",
+        "summary": "Adik Wartawan CameraJurnalis.com Diduga Dianiaya, Virgo Dilaporkan ke Polisi Lintas Cakrawala News",
+        "processing_status": "processed",
+        "classifier_version": "news-v6",
+        "classified_at": "2026-09-02T00:16:57.773945+00:00",
+        "case_id": "CASE-000714",
+        "discovery_families": [
+          "journalist_and_information"
+        ],
+        "discovery_tags": [
+          "information",
+          "journalist"
+        ],
+        "discovery_hits": [
+          "wartawan"
+        ],
+        "discovery_version": "discovery-v6.5.4",
+        "google_news_url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNcnRpcG1RS0t3eGYxZ1piUGNReU5lcTB6OW92Ym1wQnE3SEVvUVhwMVJ1Y2xzMzM0LUZjM2ZXZU53YzByR3ZkYmx4YXVwa3p2MUl6ZkhZbS1Kc0txWThWWVFMdEFraHpNZDVoaERBWlcwRzRwTU1DM1RCTnpYdk5lWVV4cTVvcmI2ZnNMZkVDQXNpUnQtM29DRmktUHR3eDk0U2tZQlN1Skg1MnlyTFljbUJ1QVk0dTJNQTc0?oc=5",
+        "original_url": "https://lintascakrawalanews.com/2026/09/01/adik-wartawan-camerajurnalis-com-diduga-dianiaya-virgo-dilaporkan-ke-polisi/",
+        "locality": "",
+        "polsek": null,
+        "location_confidence": 0,
+        "location_evidence": [],
+        "location_status": "BELUM_TERPETAKAN",
+        "location_source": "title",
+        "issue_type": "UMUM",
+        "issue_subtype": "Belum Teridentifikasi",
+        "issue_evidence": [],
+        "handling_status": "BELUM_ADA_INFORMASI",
+        "handling_evidence": [],
+        "attention_score": 37,
+        "attention_label": "Rendah",
+        "attention_components": {
+          "severity": 2,
+          "polri_relation": 16,
+          "authority": 0,
+          "public_impact": 18,
+          "handling": 0,
+          "evidence": 1,
+          "context_risk": 0,
+          "routine_enforcement_cap": null
+        },
+        "attention_evidence": {
+          "severity": [],
+          "authority": [],
+          "public_impact": [
+            "kelompok/korban publik rentan"
+          ],
+          "evidence": [
+            "satu sumber / informasi awal"
+          ],
+          "role": [
+            "Polri/personel menjadi subjek permasalahan"
+          ],
+          "issue": [],
+          "handling": [],
+          "context": [],
+          "positive": []
+        },
+        "case_engine_version": "case-v6.5.4",
+        "case_processed_at": "2026-09-02T00:29:03.914132+00:00"
+      },
+      {
+        "id": "4c3f6c9c523bdf57bcbf1fa2296191f8c515ac18",
+        "title": "Simpan 41,8 Gram Ganja di Kamar, Pemuda Surabaya Berurusan dengan Polisi - TargetNews.ID",
+        "url": "https://targetnews.id/2026/09/02/simpan-418-gram-ganja-di-kamar-pemuda-surabaya-berurusan-dengan-polisi/",
+        "source": "TargetNews.ID",
+        "published_at": "2026-09-01T22:59:00+00:00",
+        "collected_at": "2026-09-02T00:16:57.773945+00:00",
+        "region": "Jawa Timur",
+        "area_label": "Surabaya",
+        "is_jatim": true,
+        "polres": null,
+        "category": "NEGATIF - NARKOBA / NARKOTIKA",
+        "scope": "negative",
+        "scope_label": "Negatif",
+        "priority": "low",
+        "summary": "Simpan 41,8 Gram Ganja di Kamar, Pemuda Surabaya Berurusan dengan Polisi TargetNews.ID",
+        "processing_status": "processed",
+        "classifier_version": "news-v6",
+        "classified_at": "2026-09-02T00:16:57.773945+00:00",
+        "case_id": "CASE-000683",
+        "discovery_families": [],
+        "discovery_tags": [],
+        "discovery_hits": [],
+        "discovery_version": "discovery-v6.5.4",
+        "google_news_url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNYVg2UmZsTnIwbEdZWXVaOHYtZU1zZmtYaXl5V1QxVUhVZ05RemRSS0ZHTUN2QWIyb2xDV0lYMklyRlNEVGJ2Vk5MSU1aZXlmeEJLcDZoR3E2QVIwTVBqRFFNTzdpOXJRN21LTVBHS3NoZzNIQ2VSc2JoN3ZMOVZzRXhYUEp2RXI5OUdpWndaUEhEM0JUc05BSE9tS1NLWWZ2SjlydVNJSQ?oc=5",
+        "original_url": "https://targetnews.id/2026/09/02/simpan-418-gram-ganja-di-kamar-pemuda-surabaya-berurusan-dengan-polisi/",
+        "locality": "Surabaya",
+        "polsek": null,
+        "location_confidence": 95,
+        "location_evidence": [
+          "Surabaya"
+        ],
+        "location_status": "JAWA_TIMUR",
+        "location_source": "title",
+        "issue_type": "NARKOBA",
+        "issue_subtype": "Narkoba / Narkotika",
+        "issue_evidence": [
+          "ganja"
+        ],
+        "handling_status": "BELUM_ADA_INFORMASI",
+        "handling_evidence": [],
+        "attention_score": 16,
+        "attention_label": "Rendah",
+        "attention_components": {
+          "severity": 11,
+          "polri_relation": 0,
+          "authority": 0,
+          "public_impact": 4,
+          "handling": 0,
+          "evidence": 1,
+          "context_risk": 0,
+          "routine_enforcement_cap": null
+        },
+        "attention_evidence": {
+          "severity": [],
+          "authority": [],
+          "public_impact": [],
+          "evidence": [
+            "satu sumber / informasi awal"
+          ],
+          "role": [],
+          "issue": [
+            "ganja"
+          ],
+          "handling": [],
+          "context": [],
+          "positive": []
+        },
+        "case_engine_version": "case-v6.5.4",
+        "case_processed_at": "2026-09-02T00:29:03.914137+00:00"
+      },
+      {
+        "id": "caf79ae3ff9c6104066ae0bed2ad95963352a7b2",
+        "title": "Polisi Buru 2 Pelaku Pembunuhan di Bantul, 3 Orang Ditangkap - batamtimes.co",
+        "url": "https://www.batamtimes.co/2026/09/01/polisi-buru-2-pelaku-pembunuhan-di-bantul-3-orang-ditangkap/",
+        "source": "batamtimes.co",
+        "published_at": "2026-09-01T21:59:32+00:00",
+        "collected_at": "2026-09-02T00:16:57.773945+00:00",
+        "region": "BELUM TERPETAKAN",
+        "area_label": "BELUM TERPETAKAN",
+        "is_jatim": null,
+        "polres": null,
+        "category": "NEGATIF - KEKERASAN / PENGGUNAAN KEKUATAN",
+        "scope": "negative",
+        "scope_label": "Negatif",
+        "priority": "low",
+        "summary": "Polisi Buru 2 Pelaku Pembunuhan di Bantul, 3 Orang Ditangkap batamtimes.co",
+        "processing_status": "processed",
+        "classifier_version": "news-v6",
+        "classified_at": "2026-09-02T00:16:57.773945+00:00",
+        "case_id": "CASE-000715",
+        "discovery_families": [],
+        "discovery_tags": [],
+        "discovery_hits": [],
+        "discovery_version": "discovery-v6.5.4",
+        "google_news_url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQeUpXa25WWHZ0OWJYcmZmZHExNE9nZTl3SlNreF9rSEVjSlJqMWhzWWdNVnNjRWU4UkZzbWVkYjFnWkZ5MXdEQldJYkUweU1nTy11MUVJS1QzTUZnU2JsQlNhQ0ZiOWZMNU0tM0NUVlR2aDBnYjRvQU9mUHZxdTRmc2FWOEUzUU1OMWduaTRsb215TVR0eWQ4MEJPMWNvQQ?oc=5",
+        "original_url": "https://www.batamtimes.co/2026/09/01/polisi-buru-2-pelaku-pembunuhan-di-bantul-3-orang-ditangkap/",
+        "locality": "",
+        "polsek": null,
+        "location_confidence": 0,
+        "location_evidence": [],
+        "location_status": "BELUM_TERPETAKAN",
+        "location_source": "title",
+        "issue_type": "KEKERASAN_DAN_KEKUATAN",
+        "issue_subtype": "Kekerasan / Penggunaan Kekuatan",
+        "issue_evidence": [
+          "pembunuhan"
+        ],
+        "handling_status": "BELUM_ADA_INFORMASI",
+        "handling_evidence": [],
+        "attention_score": 39,
+        "attention_label": "Rendah",
+        "attention_components": {
+          "severity": 28,
+          "polri_relation": 0,
+          "authority": 0,
+          "public_impact": 4,
+          "handling": 0,
+          "evidence": 1,
+          "context_risk": 0,
+          "routine_enforcement_cap": null
+        },
+        "attention_evidence": {
+          "severity": [
+            "pembunuhan / korban meninggal"
+          ],
+          "authority": [],
+          "public_impact": [],
+          "evidence": [
+            "satu sumber / informasi awal"
+          ],
+          "role": [],
+          "issue": [
+            "pembunuhan"
+          ],
+          "handling": [],
+          "context": [],
+          "positive": []
+        },
+        "case_engine_version": "case-v6.5.4",
+        "case_processed_at": "2026-09-02T00:29:03.914140+00:00"
+      },
+      {
         "id": "28168d6db18c89b55eaa2ce2933900a5a212ed7e",
         "title": "Penembakan Maut di Belanda Libatkan 30 Pria Bertopeng, 34 Orang Ditangkap Polisi - Kompas.tv",
         "url": "https://www.kompas.tv/internasional/688538/penembakan-maut-di-belanda-libatkan-30-pria-bertopeng-34-orang-ditangkap-polisi",
@@ -104,7 +465,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-09-01T21:58:49.398818+00:00"
+        "case_processed_at": "2026-09-02T00:29:03.914143+00:00"
       },
       {
         "id": "80269745ed6e96e97b5dd317409d1d3707377d2b",
@@ -169,7 +530,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-09-01T21:54:34.771085+00:00"
+        "case_processed_at": "2026-09-02T00:23:26.512113+00:00"
       },
       {
         "id": "fdcc5ce52c9f6f5b7021bbe36c98e3caea9162e9",
@@ -236,7 +597,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-09-01T21:54:34.967273+00:00"
+        "case_processed_at": "2026-09-02T00:23:26.770047+00:00"
       },
       {
         "id": "64185b61df4084b2169b844951ba286235736ea0",
@@ -303,7 +664,7 @@
           ]
         },
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-09-01T21:54:35.194534+00:00"
+        "case_processed_at": "2026-09-02T00:23:27.060830+00:00"
       },
       {
         "id": "518f9e060b666736d38afaf742af28a55744af4d",
@@ -379,7 +740,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-09-01T21:58:49.398823+00:00"
+        "case_processed_at": "2026-09-02T00:29:03.914147+00:00"
       },
       {
         "id": "30c61b1d2677338a59c4fdc55fcbb346c94e8ce2",
@@ -446,7 +807,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-09-01T21:54:35.464551+00:00"
+        "case_processed_at": "2026-09-02T00:23:27.405324+00:00"
       },
       {
         "id": "d59edb1cecf548de7aa1d4db0c03494b8b0a6da5",
@@ -530,7 +891,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-09-01T21:58:49.398825+00:00"
+        "case_processed_at": "2026-09-02T00:29:03.914150+00:00"
       },
       {
         "id": "6a5807596a310390872e9c5847afdc342194de5c",
@@ -599,7 +960,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-09-01T21:58:49.398827+00:00"
+        "case_processed_at": "2026-09-02T00:29:03.914152+00:00"
       },
       {
         "id": "945b52945d516537a953c46720356427708793dc",
@@ -674,7 +1035,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-09-01T21:58:49.398830+00:00"
+        "case_processed_at": "2026-09-02T00:29:03.914154+00:00"
       },
       {
         "id": "17654164baf751ee77060ba949d0ecc42629dc11",
@@ -739,7 +1100,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-09-01T21:54:35.679874+00:00"
+        "case_processed_at": "2026-09-02T00:23:27.679197+00:00"
       },
       {
         "id": "a3dfd4f65d22b89e9ab6764978fa1c50e90ce33d",
@@ -804,7 +1165,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-09-01T21:54:35.879201+00:00"
+        "case_processed_at": "2026-09-02T00:23:27.935161+00:00"
       },
       {
         "id": "8752b66565f9915d2be4e11fb19ed06bf4919591",
@@ -874,7 +1235,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-09-01T21:54:36.089519+00:00"
+        "case_processed_at": "2026-09-02T00:23:28.203909+00:00"
       },
       {
         "id": "8bca9600e203a97de0eef9d4de3fef31f41d952b",
@@ -949,7 +1310,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-09-01T21:58:49.398833+00:00"
+        "case_processed_at": "2026-09-02T00:29:03.914157+00:00"
       },
       {
         "id": "15baee03f28cebb430cc7e5289cbcfd31ec32d87",
@@ -1018,7 +1379,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-09-01T21:58:49.398835+00:00"
+        "case_processed_at": "2026-09-02T00:29:03.914160+00:00"
       },
       {
         "id": "d0cb4b150742d0890a0c775c8342d92b9f6e435a",
@@ -1087,7 +1448,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-09-01T21:58:49.398837+00:00"
+        "case_processed_at": "2026-09-02T00:29:03.914162+00:00"
       },
       {
         "id": "ee695d96831090f9f9d8034bdcd5cef8117fedcd",
@@ -1152,7 +1513,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-09-01T21:54:36.244023+00:00"
+        "case_processed_at": "2026-09-02T00:23:28.404774+00:00"
       },
       {
         "id": "c771b5d82cde12a542f22a2b28c60d0bfc9caa25",
@@ -1235,7 +1596,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-09-01T21:58:49.398839+00:00"
+        "case_processed_at": "2026-09-02T00:29:03.914165+00:00"
       },
       {
         "id": "a460b0ccaf56de27f9dea21807c53f9893bfe41a",
@@ -1305,7 +1666,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-09-01T21:54:36.428373+00:00"
+        "case_processed_at": "2026-09-02T00:23:28.642032+00:00"
       },
       {
         "id": "6974536254cd2640b4be7fb4f2e53393ff18cef4",
@@ -1370,11 +1731,82 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-09-01T21:54:36.583181+00:00"
+        "case_processed_at": "2026-09-02T00:23:28.843149+00:00"
       }
     ],
     "jatim_items": [
       {
+        "id": "4c3f6c9c523bdf57bcbf1fa2296191f8c515ac18",
+        "title": "Simpan 41,8 Gram Ganja di Kamar, Pemuda Surabaya Berurusan dengan Polisi - TargetNews.ID",
+        "url": "https://targetnews.id/2026/09/02/simpan-418-gram-ganja-di-kamar-pemuda-surabaya-berurusan-dengan-polisi/",
+        "source": "TargetNews.ID",
+        "published_at": "2026-09-01T22:59:00+00:00",
+        "collected_at": "2026-09-02T00:16:57.773945+00:00",
+        "region": "Jawa Timur",
+        "area_label": "Surabaya",
+        "is_jatim": true,
+        "polres": null,
+        "category": "NEGATIF - NARKOBA / NARKOTIKA",
+        "scope": "negative",
+        "scope_label": "Negatif",
+        "priority": "low",
+        "summary": "Simpan 41,8 Gram Ganja di Kamar, Pemuda Surabaya Berurusan dengan Polisi TargetNews.ID",
+        "processing_status": "processed",
+        "classifier_version": "news-v6",
+        "classified_at": "2026-09-02T00:16:57.773945+00:00",
+        "case_id": "CASE-000683",
+        "discovery_families": [],
+        "discovery_tags": [],
+        "discovery_hits": [],
+        "discovery_version": "discovery-v6.5.4",
+        "google_news_url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNYVg2UmZsTnIwbEdZWXVaOHYtZU1zZmtYaXl5V1QxVUhVZ05RemRSS0ZHTUN2QWIyb2xDV0lYMklyRlNEVGJ2Vk5MSU1aZXlmeEJLcDZoR3E2QVIwTVBqRFFNTzdpOXJRN21LTVBHS3NoZzNIQ2VSc2JoN3ZMOVZzRXhYUEp2RXI5OUdpWndaUEhEM0JUc05BSE9tS1NLWWZ2SjlydVNJSQ?oc=5",
+        "original_url": "https://targetnews.id/2026/09/02/simpan-418-gram-ganja-di-kamar-pemuda-surabaya-berurusan-dengan-polisi/",
+        "locality": "Surabaya",
+        "polsek": null,
+        "location_confidence": 95,
+        "location_evidence": [
+          "Surabaya"
+        ],
+        "location_status": "JAWA_TIMUR",
+        "location_source": "title",
+        "issue_type": "NARKOBA",
+        "issue_subtype": "Narkoba / Narkotika",
+        "issue_evidence": [
+          "ganja"
+        ],
+        "handling_status": "BELUM_ADA_INFORMASI",
+        "handling_evidence": [],
+        "attention_score": 16,
+        "attention_label": "Rendah",
+        "attention_components": {
+          "severity": 11,
+          "polri_relation": 0,
+          "authority": 0,
+          "public_impact": 4,
+          "handling": 0,
+          "evidence": 1,
+          "context_risk": 0,
+          "routine_enforcement_cap": null
+        },
+        "attention_evidence": {
+          "severity": [],
+          "authority": [],
+          "public_impact": [],
+          "evidence": [
+            "satu sumber / informasi awal"
+          ],
+          "role": [],
+          "issue": [
+            "ganja"
+          ],
+          "handling": [],
+          "context": [],
+          "positive": []
+        },
+        "case_engine_version": "case-v6.5.4",
+        "case_processed_at": "2026-09-02T00:29:03.914137+00:00"
+      },
+      {
         "id": "d59edb1cecf548de7aa1d4db0c03494b8b0a6da5",
         "title": "Polisi Bongkar Arena Diduga untuk Judi Sabung Ayam di Tengah Ladang Tebu Malang - TagarJatim.id",
         "url": "https://tagarjatim.id/32785/polisi-bongkar-arena-diduga-untuk-judi-sabung-ayam-di-tengah-ladang-tebu-malang/",
@@ -1456,7 +1888,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-09-01T21:58:49.398825+00:00"
+        "case_processed_at": "2026-09-02T00:29:03.914150+00:00"
       },
       {
         "id": "945b52945d516537a953c46720356427708793dc",
@@ -1531,7 +1963,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-09-01T21:58:49.398830+00:00"
+        "case_processed_at": "2026-09-02T00:29:03.914154+00:00"
       },
       {
         "id": "8752b66565f9915d2be4e11fb19ed06bf4919591",
@@ -1601,7 +2033,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-09-01T21:54:36.089519+00:00"
+        "case_processed_at": "2026-09-02T00:23:28.203909+00:00"
       },
       {
         "id": "c771b5d82cde12a542f22a2b28c60d0bfc9caa25",
@@ -1684,7 +2116,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-09-01T21:58:49.398839+00:00"
+        "case_processed_at": "2026-09-02T00:29:03.914165+00:00"
       },
       {
         "id": "a460b0ccaf56de27f9dea21807c53f9893bfe41a",
@@ -1754,10 +2186,295 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-09-01T21:54:36.428373+00:00"
+        "case_processed_at": "2026-09-02T00:23:28.642032+00:00"
       }
     ],
     "luar_jatim_items": [
+      {
+        "id": "46f7dea8a1deae1ef8f86227c53ff7f3a0c0c8ea",
+        "title": "Bupati Bintan Apresiasi Polisi Ungkap 800 Kg Narkoba Jaringan Internasional - kepripedia.com",
+        "url": "https://kepripedia.com/bupati-bintan-apresiasi-polisi-ungkap-800-kg-narkoba-jaringan-internasional/",
+        "source": "kepripedia.com",
+        "published_at": "2026-09-01T23:53:45+00:00",
+        "collected_at": "2026-09-02T00:16:57.773945+00:00",
+        "region": "BELUM TERPETAKAN",
+        "area_label": "BELUM TERPETAKAN",
+        "is_jatim": null,
+        "polres": null,
+        "category": "POSITIF / PENEGAKAN HUKUM",
+        "scope": "positive",
+        "scope_label": "Positif",
+        "priority": "low",
+        "summary": "Bupati Bintan Apresiasi Polisi Ungkap 800 Kg Narkoba Jaringan Internasional kepripedia.com",
+        "processing_status": "processed",
+        "classifier_version": "news-v6",
+        "classified_at": "2026-09-02T00:16:57.773945+00:00",
+        "case_id": null,
+        "discovery_families": [],
+        "discovery_tags": [],
+        "discovery_hits": [],
+        "discovery_version": "discovery-v6.5.4",
+        "google_news_url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNaTdyTWhyYkZOZkNYdHNaNUNrN1JvQnB0clBTWEhuOTcyaFZsa0dmbUlZeDl2VERaWmRhN25lRmJjT1pNblhEakJLRWJQV1Rkb3Y5X2xiT1lwa3JJNjB2NnZrRHN6dk1hMm1mdXc4eXAzdlJVeXl6czR3VGd4Z25xZVRQVTdPNjV3ZVdiOGtUTFFXRjhQVDhhVHl5b0YxaDdV?oc=5",
+        "original_url": "https://kepripedia.com/bupati-bintan-apresiasi-polisi-ungkap-800-kg-narkoba-jaringan-internasional/",
+        "locality": "",
+        "polsek": null,
+        "location_confidence": 0,
+        "location_evidence": [],
+        "location_status": "BELUM_TERPETAKAN",
+        "location_source": "title",
+        "issue_type": "NARKOBA",
+        "issue_subtype": "Narkoba / Narkotika",
+        "issue_evidence": [
+          "narkoba"
+        ],
+        "handling_status": "BELUM_ADA_INFORMASI",
+        "handling_evidence": [],
+        "attention_score": 18,
+        "attention_label": "Rendah",
+        "attention_components": {
+          "severity": 11,
+          "polri_relation": 2,
+          "authority": 0,
+          "public_impact": 4,
+          "handling": 0,
+          "evidence": 1,
+          "context_risk": 0,
+          "routine_enforcement_cap": 35
+        },
+        "attention_evidence": {
+          "severity": [],
+          "authority": [],
+          "public_impact": [],
+          "evidence": [
+            "satu sumber / informasi awal"
+          ],
+          "role": [
+            "Polri sebagai pihak penindak"
+          ],
+          "issue": [
+            "narkoba"
+          ],
+          "handling": [],
+          "context": [],
+          "positive": [
+            "\\b(?:pelayanan|inovasi|prestasi|penghargaan|apresiasi)\\b.{0,100}\\b(?:polisi|polres|polda|polri)\\b"
+          ]
+        },
+        "case_engine_version": "case-v6.5.4",
+        "case_processed_at": "2026-09-02T00:23:25.927463+00:00"
+      },
+      {
+        "id": "fa3679875e3fb8d5776c79190ee36c9550911f93",
+        "title": "IPW Desak Polisi Tangkap Pelaku Pengeroyokan Bambang Setiawan dan Faturohman - Kedai Pena",
+        "url": "https://www.kedaipena.com/ipw-desak-polisi-tangkap-pelaku-pengeroyokan-bambang-setiawan-dan-faturohman/",
+        "source": "Kedai Pena",
+        "published_at": "2026-09-01T23:49:13+00:00",
+        "collected_at": "2026-09-02T00:16:57.773945+00:00",
+        "region": "BELUM TERPETAKAN",
+        "area_label": "BELUM TERPETAKAN",
+        "is_jatim": null,
+        "polres": null,
+        "category": "NETRAL / LAINNYA",
+        "scope": "neutral",
+        "scope_label": "Netral",
+        "priority": "low",
+        "summary": "IPW Desak Polisi Tangkap Pelaku Pengeroyokan Bambang Setiawan dan Faturohman Kedai Pena",
+        "processing_status": "processed",
+        "classifier_version": "news-v6",
+        "classified_at": "2026-09-02T00:16:57.773945+00:00",
+        "case_id": null,
+        "discovery_families": [],
+        "discovery_tags": [],
+        "discovery_hits": [],
+        "discovery_version": "discovery-v6.5.4",
+        "google_news_url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNWi1PZi1vam5XN0hTWGUwNGVuZF9KbmhnLVFlbi1wajNNZlRNbENIamxzcW9GQkFqQVNjbE52VExGZ3RfVzNrQ2lheGZtUElUUDc5dXpRa2wxa2VoTDVNcmt4NTNvb3ZSY1o3T0tnYmYzaFBtOW5vc1VCOE5tM1NiLXcweGl2TVNkdjVKRDRkOEY1Zzc2djlvZ0xCdDlWT1BNQldhOVBB?oc=5",
+        "original_url": "https://www.kedaipena.com/ipw-desak-polisi-tangkap-pelaku-pengeroyokan-bambang-setiawan-dan-faturohman/",
+        "locality": "",
+        "polsek": null,
+        "location_confidence": 0,
+        "location_evidence": [],
+        "location_status": "BELUM_TERPETAKAN",
+        "location_source": "title",
+        "issue_type": "UMUM",
+        "issue_subtype": "Belum Teridentifikasi",
+        "issue_evidence": [],
+        "handling_status": "BELUM_ADA_INFORMASI",
+        "handling_evidence": [],
+        "attention_score": 7,
+        "attention_label": "Rendah",
+        "attention_components": {
+          "severity": 2,
+          "polri_relation": 0,
+          "authority": 0,
+          "public_impact": 4,
+          "handling": 0,
+          "evidence": 1,
+          "context_risk": 0,
+          "routine_enforcement_cap": null
+        },
+        "attention_evidence": {
+          "severity": [],
+          "authority": [],
+          "public_impact": [],
+          "evidence": [
+            "satu sumber / informasi awal"
+          ],
+          "role": [],
+          "issue": [],
+          "handling": [],
+          "context": [],
+          "positive": []
+        },
+        "case_engine_version": "case-v6.5.4",
+        "case_processed_at": "2026-09-02T00:23:26.173529+00:00"
+      },
+      {
+        "id": "31391100e612cfc56a4a0bea710f93930c90d6c2",
+        "title": "Adik Wartawan CameraJurnalis.com Diduga Dianiaya, Virgo Dilaporkan ke Polisi - Lintas Cakrawala News",
+        "url": "https://lintascakrawalanews.com/2026/09/01/adik-wartawan-camerajurnalis-com-diduga-dianiaya-virgo-dilaporkan-ke-polisi/",
+        "source": "Lintas Cakrawala News",
+        "published_at": "2026-09-01T23:32:44+00:00",
+        "collected_at": "2026-09-02T00:16:57.773945+00:00",
+        "region": "BELUM TERPETAKAN",
+        "area_label": "BELUM TERPETAKAN",
+        "is_jatim": null,
+        "polres": null,
+        "category": "NEGATIF - BELUM TERIDENTIFIKASI",
+        "scope": "negative",
+        "scope_label": "Negatif",
+        "priority": "low",
+        "summary": "Adik Wartawan CameraJurnalis.com Diduga Dianiaya, Virgo Dilaporkan ke Polisi Lintas Cakrawala News",
+        "processing_status": "processed",
+        "classifier_version": "news-v6",
+        "classified_at": "2026-09-02T00:16:57.773945+00:00",
+        "case_id": "CASE-000714",
+        "discovery_families": [
+          "journalist_and_information"
+        ],
+        "discovery_tags": [
+          "information",
+          "journalist"
+        ],
+        "discovery_hits": [
+          "wartawan"
+        ],
+        "discovery_version": "discovery-v6.5.4",
+        "google_news_url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNcnRpcG1RS0t3eGYxZ1piUGNReU5lcTB6OW92Ym1wQnE3SEVvUVhwMVJ1Y2xzMzM0LUZjM2ZXZU53YzByR3ZkYmx4YXVwa3p2MUl6ZkhZbS1Kc0txWThWWVFMdEFraHpNZDVoaERBWlcwRzRwTU1DM1RCTnpYdk5lWVV4cTVvcmI2ZnNMZkVDQXNpUnQtM29DRmktUHR3eDk0U2tZQlN1Skg1MnlyTFljbUJ1QVk0dTJNQTc0?oc=5",
+        "original_url": "https://lintascakrawalanews.com/2026/09/01/adik-wartawan-camerajurnalis-com-diduga-dianiaya-virgo-dilaporkan-ke-polisi/",
+        "locality": "",
+        "polsek": null,
+        "location_confidence": 0,
+        "location_evidence": [],
+        "location_status": "BELUM_TERPETAKAN",
+        "location_source": "title",
+        "issue_type": "UMUM",
+        "issue_subtype": "Belum Teridentifikasi",
+        "issue_evidence": [],
+        "handling_status": "BELUM_ADA_INFORMASI",
+        "handling_evidence": [],
+        "attention_score": 37,
+        "attention_label": "Rendah",
+        "attention_components": {
+          "severity": 2,
+          "polri_relation": 16,
+          "authority": 0,
+          "public_impact": 18,
+          "handling": 0,
+          "evidence": 1,
+          "context_risk": 0,
+          "routine_enforcement_cap": null
+        },
+        "attention_evidence": {
+          "severity": [],
+          "authority": [],
+          "public_impact": [
+            "kelompok/korban publik rentan"
+          ],
+          "evidence": [
+            "satu sumber / informasi awal"
+          ],
+          "role": [
+            "Polri/personel menjadi subjek permasalahan"
+          ],
+          "issue": [],
+          "handling": [],
+          "context": [],
+          "positive": []
+        },
+        "case_engine_version": "case-v6.5.4",
+        "case_processed_at": "2026-09-02T00:29:03.914132+00:00"
+      },
+      {
+        "id": "caf79ae3ff9c6104066ae0bed2ad95963352a7b2",
+        "title": "Polisi Buru 2 Pelaku Pembunuhan di Bantul, 3 Orang Ditangkap - batamtimes.co",
+        "url": "https://www.batamtimes.co/2026/09/01/polisi-buru-2-pelaku-pembunuhan-di-bantul-3-orang-ditangkap/",
+        "source": "batamtimes.co",
+        "published_at": "2026-09-01T21:59:32+00:00",
+        "collected_at": "2026-09-02T00:16:57.773945+00:00",
+        "region": "BELUM TERPETAKAN",
+        "area_label": "BELUM TERPETAKAN",
+        "is_jatim": null,
+        "polres": null,
+        "category": "NEGATIF - KEKERASAN / PENGGUNAAN KEKUATAN",
+        "scope": "negative",
+        "scope_label": "Negatif",
+        "priority": "low",
+        "summary": "Polisi Buru 2 Pelaku Pembunuhan di Bantul, 3 Orang Ditangkap batamtimes.co",
+        "processing_status": "processed",
+        "classifier_version": "news-v6",
+        "classified_at": "2026-09-02T00:16:57.773945+00:00",
+        "case_id": "CASE-000715",
+        "discovery_families": [],
+        "discovery_tags": [],
+        "discovery_hits": [],
+        "discovery_version": "discovery-v6.5.4",
+        "google_news_url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQeUpXa25WWHZ0OWJYcmZmZHExNE9nZTl3SlNreF9rSEVjSlJqMWhzWWdNVnNjRWU4UkZzbWVkYjFnWkZ5MXdEQldJYkUweU1nTy11MUVJS1QzTUZnU2JsQlNhQ0ZiOWZMNU0tM0NUVlR2aDBnYjRvQU9mUHZxdTRmc2FWOEUzUU1OMWduaTRsb215TVR0eWQ4MEJPMWNvQQ?oc=5",
+        "original_url": "https://www.batamtimes.co/2026/09/01/polisi-buru-2-pelaku-pembunuhan-di-bantul-3-orang-ditangkap/",
+        "locality": "",
+        "polsek": null,
+        "location_confidence": 0,
+        "location_evidence": [],
+        "location_status": "BELUM_TERPETAKAN",
+        "location_source": "title",
+        "issue_type": "KEKERASAN_DAN_KEKUATAN",
+        "issue_subtype": "Kekerasan / Penggunaan Kekuatan",
+        "issue_evidence": [
+          "pembunuhan"
+        ],
+        "handling_status": "BELUM_ADA_INFORMASI",
+        "handling_evidence": [],
+        "attention_score": 39,
+        "attention_label": "Rendah",
+        "attention_components": {
+          "severity": 28,
+          "polri_relation": 0,
+          "authority": 0,
+          "public_impact": 4,
+          "handling": 0,
+          "evidence": 1,
+          "context_risk": 0,
+          "routine_enforcement_cap": null
+        },
+        "attention_evidence": {
+          "severity": [
+            "pembunuhan / korban meninggal"
+          ],
+          "authority": [],
+          "public_impact": [],
+          "evidence": [
+            "satu sumber / informasi awal"
+          ],
+          "role": [],
+          "issue": [
+            "pembunuhan"
+          ],
+          "handling": [],
+          "context": [],
+          "positive": []
+        },
+        "case_engine_version": "case-v6.5.4",
+        "case_processed_at": "2026-09-02T00:29:03.914140+00:00"
+      },
       {
         "id": "28168d6db18c89b55eaa2ce2933900a5a212ed7e",
         "title": "Penembakan Maut di Belanda Libatkan 30 Pria Bertopeng, 34 Orang Ditangkap Polisi - Kompas.tv",
@@ -1827,7 +2544,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-09-01T21:58:49.398818+00:00"
+        "case_processed_at": "2026-09-02T00:29:03.914143+00:00"
       },
       {
         "id": "80269745ed6e96e97b5dd317409d1d3707377d2b",
@@ -1892,7 +2609,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-09-01T21:54:34.771085+00:00"
+        "case_processed_at": "2026-09-02T00:23:26.512113+00:00"
       },
       {
         "id": "fdcc5ce52c9f6f5b7021bbe36c98e3caea9162e9",
@@ -1959,7 +2676,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-09-01T21:54:34.967273+00:00"
+        "case_processed_at": "2026-09-02T00:23:26.770047+00:00"
       },
       {
         "id": "64185b61df4084b2169b844951ba286235736ea0",
@@ -2026,7 +2743,7 @@
           ]
         },
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-09-01T21:54:35.194534+00:00"
+        "case_processed_at": "2026-09-02T00:23:27.060830+00:00"
       },
       {
         "id": "518f9e060b666736d38afaf742af28a55744af4d",
@@ -2102,7 +2819,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-09-01T21:58:49.398823+00:00"
+        "case_processed_at": "2026-09-02T00:29:03.914147+00:00"
       },
       {
         "id": "30c61b1d2677338a59c4fdc55fcbb346c94e8ce2",
@@ -2169,7 +2886,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-09-01T21:54:35.464551+00:00"
+        "case_processed_at": "2026-09-02T00:23:27.405324+00:00"
       },
       {
         "id": "6a5807596a310390872e9c5847afdc342194de5c",
@@ -2238,7 +2955,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-09-01T21:58:49.398827+00:00"
+        "case_processed_at": "2026-09-02T00:29:03.914152+00:00"
       },
       {
         "id": "17654164baf751ee77060ba949d0ecc42629dc11",
@@ -2303,7 +3020,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-09-01T21:54:35.679874+00:00"
+        "case_processed_at": "2026-09-02T00:23:27.679197+00:00"
       },
       {
         "id": "a3dfd4f65d22b89e9ab6764978fa1c50e90ce33d",
@@ -2368,7 +3085,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-09-01T21:54:35.879201+00:00"
+        "case_processed_at": "2026-09-02T00:23:27.935161+00:00"
       },
       {
         "id": "8bca9600e203a97de0eef9d4de3fef31f41d952b",
@@ -2443,7 +3160,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-09-01T21:58:49.398833+00:00"
+        "case_processed_at": "2026-09-02T00:29:03.914157+00:00"
       },
       {
         "id": "15baee03f28cebb430cc7e5289cbcfd31ec32d87",
@@ -2512,7 +3229,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-09-01T21:58:49.398835+00:00"
+        "case_processed_at": "2026-09-02T00:29:03.914160+00:00"
       },
       {
         "id": "d0cb4b150742d0890a0c775c8342d92b9f6e435a",
@@ -2581,7 +3298,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-09-01T21:58:49.398837+00:00"
+        "case_processed_at": "2026-09-02T00:29:03.914162+00:00"
       },
       {
         "id": "ee695d96831090f9f9d8034bdcd5cef8117fedcd",
@@ -2646,7 +3363,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-09-01T21:54:36.244023+00:00"
+        "case_processed_at": "2026-09-02T00:23:28.404774+00:00"
       },
       {
         "id": "6974536254cd2640b4be7fb4f2e53393ff18cef4",
@@ -2711,18 +3428,19 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-09-01T21:54:36.583181+00:00"
+        "case_processed_at": "2026-09-02T00:23:28.843149+00:00"
       }
     ]
   },
   "cases": {
-    "active": 9,
+    "active": 12,
     "priority_high": 2,
-    "jatim": 3,
+    "jatim": 4,
     "jatim_priority_high": 1,
-    "articles": 21,
+    "articles": 27,
     "case_ids": [
       "CASE-000033",
+      "CASE-000683",
       "CASE-000706",
       "CASE-000707",
       "CASE-000708",
@@ -2730,7 +3448,9 @@
       "CASE-000710",
       "CASE-000711",
       "CASE-000712",
-      "CASE-000713"
+      "CASE-000713",
+      "CASE-000714",
+      "CASE-000715"
     ],
     "items": [
       {
@@ -3303,7 +4023,7 @@
         ],
         "article_count": 13,
         "created_at": "2026-08-31T07:38:15.493509+00:00",
-        "updated_at": "2026-09-01T21:58:47.471305+00:00",
+        "updated_at": "2026-09-02T00:29:01.252545+00:00",
         "engine_version": "case-v6.5.4",
         "priority_score": 95,
         "priority_breakdown": {
@@ -3336,6 +4056,250 @@
             "dugaan kejahatan seksual terkait personel",
             "pemberitaan lintas 8 sumber",
             "proses pidana"
+          ]
+        }
+      },
+      {
+        "case_id": "CASE-000683",
+        "title": "Satresnarkoba Polres Tanjung Perak Ungkap Peredaran Ganja dan Sita 41,8 Gram - detiknews.id",
+        "category": "NEGATIF - NARKOBA / NARKOTIKA",
+        "scope": "negative",
+        "region": "Jawa Timur",
+        "locality": "Surabaya",
+        "is_jatim": true,
+        "polres": "POLRES PELABUHAN TANJUNG PERAK",
+        "polsek": null,
+        "priority": "low",
+        "attention_score": 29,
+        "attention_label": "Rendah",
+        "signature": "POLRES PELABUHAN TANJUNG PERAK Jawa Timur",
+        "incident_terms": [
+          "abadi",
+          "banyu",
+          "berurusan",
+          "bisnis",
+          "detiknews",
+          "diciduk",
+          "diringkus",
+          "disway",
+          "ganja",
+          "gram",
+          "instagram",
+          "jual",
+          "kamar",
+          "kedok",
+          "lewat",
+          "memorandum",
+          "news",
+          "nusantara",
+          "pelabuhan",
+          "pemuda",
+          "perak",
+          "peredaran",
+          "polres",
+          "ranjau",
+          "satresnarkoba",
+          "simpan",
+          "sistem",
+          "sita",
+          "surabaya",
+          "tanjung",
+          "targetnews",
+          "terbongkar",
+          "urip"
+        ],
+        "event_terms": [
+          "ganja"
+        ],
+        "location_terms": [
+          "surabaya"
+        ],
+        "discovery_families": [],
+        "first_seen": "2026-09-01T13:02:25+00:00",
+        "last_seen": "2026-09-02T00:16:57.773945+00:00",
+        "last_detected_at": "2026-09-02T00:16:57.773945+00:00",
+        "article_ids": [
+          "b41933234b323e9d54393ab802d83d33fffa2da3",
+          "9c04f43f23a263fee5cc20473368791ca43e203e",
+          "8245046650c1440b09fc21fccc4d24fd0f180442",
+          "4c3f6c9c523bdf57bcbf1fa2296191f8c515ac18"
+        ],
+        "articles": [
+          {
+            "id": "b41933234b323e9d54393ab802d83d33fffa2da3",
+            "title": "Satresnarkoba Polres Tanjung Perak Ungkap Peredaran Ganja dan Sita 41,8 Gram - detiknews.id",
+            "url": "https://detiknews.id/detiknews/satresnarkoba-polres-tanjung-perak-ungkap-peredaran-ganja-dan-sita-418-gram/",
+            "published_at": "2026-09-01T14:39:55+00:00",
+            "collected_at": "2026-09-01T14:55:52.206678+00:00",
+            "source": "detiknews.id",
+            "match_score": 1.0,
+            "priority": "low",
+            "scope": "negative",
+            "category": "NEGATIF - NARKOBA / NARKOTIKA",
+            "region": "Jawa Timur",
+            "locality": "Surabaya",
+            "is_jatim": true,
+            "polres": "POLRES PELABUHAN TANJUNG PERAK",
+            "polsek": null,
+            "issue_type": "NARKOBA",
+            "issue_subtype": "Narkoba / Narkotika",
+            "handling_status": "BELUM_ADA_INFORMASI",
+            "handling_evidence": [],
+            "polri_relation": null,
+            "polri_relation_points": 0,
+            "polri_relation_evidence": [],
+            "attention_score": 18,
+            "attention_label": "Rendah",
+            "attention_components": {
+              "severity": 11,
+              "polri_relation": 2,
+              "authority": 0,
+              "public_impact": 4,
+              "handling": 0,
+              "evidence": 1,
+              "context_risk": 0,
+              "routine_enforcement_cap": 35
+            }
+          },
+          {
+            "id": "9c04f43f23a263fee5cc20473368791ca43e203e",
+            "title": "Bisnis Ganja Sistem Ranjau Terbongkar, Pemuda Banyu Urip Diringkus Polres Pelabuhan Tanjung Perak - memorandum.disway.id - Memorandum.co.id",
+            "url": "https://memorandum.disway.id/polres-tanjung-perak/read/168320/bisnis-ganja-sistem-ranjau-terbongkar-pemuda-banyu-urip-diringkus-polres-pelabuhan-tanjung-perak",
+            "published_at": "2026-09-01T14:20:00+00:00",
+            "collected_at": "2026-09-01T14:55:52.206678+00:00",
+            "source": "Memorandum.co.id",
+            "match_score": 0.7815,
+            "priority": "low",
+            "scope": "negative",
+            "category": "NEGATIF - NARKOBA / NARKOTIKA",
+            "region": "Jawa Timur",
+            "locality": "Surabaya",
+            "is_jatim": true,
+            "polres": "POLRES PELABUHAN TANJUNG PERAK",
+            "polsek": null,
+            "issue_type": "NARKOBA",
+            "issue_subtype": "Narkoba / Narkotika",
+            "handling_status": "BELUM_ADA_INFORMASI",
+            "handling_evidence": [],
+            "polri_relation": null,
+            "polri_relation_points": 0,
+            "polri_relation_evidence": [],
+            "attention_score": 16,
+            "attention_label": "Rendah",
+            "attention_components": {
+              "severity": 11,
+              "polri_relation": 0,
+              "authority": 0,
+              "public_impact": 4,
+              "handling": 0,
+              "evidence": 1,
+              "context_risk": 0,
+              "routine_enforcement_cap": null
+            }
+          },
+          {
+            "id": "8245046650c1440b09fc21fccc4d24fd0f180442",
+            "title": "Kedok Jual Ganja Lewat Instagram Terbongkar, Pemuda Banyu Urip Diciduk Satresnarkoba Polres Pelabuhan Tanjung Perak Surabaya - Nusantara Abadi News",
+            "url": "https://nusantaraabadinews.com/2026/09/01/kedok-jual-ganja-lewat-instagram-terbongkar-pemuda-banyu-urip-diciduk-satresnarkoba-polres-pelabuhan-tanjung-perak-surabaya/",
+            "published_at": "2026-09-01T13:02:25+00:00",
+            "collected_at": "2026-09-01T14:55:52.206678+00:00",
+            "source": "Nusantara Abadi News",
+            "match_score": 0.7901,
+            "priority": "low",
+            "scope": "negative",
+            "category": "NEGATIF - NARKOBA / NARKOTIKA",
+            "region": "Jawa Timur",
+            "locality": "Surabaya",
+            "is_jatim": true,
+            "polres": "POLRES PELABUHAN TANJUNG PERAK",
+            "polsek": null,
+            "issue_type": "NARKOBA",
+            "issue_subtype": "Narkoba / Narkotika",
+            "handling_status": "BELUM_ADA_INFORMASI",
+            "handling_evidence": [],
+            "polri_relation": null,
+            "polri_relation_points": 0,
+            "polri_relation_evidence": [],
+            "attention_score": 16,
+            "attention_label": "Rendah",
+            "attention_components": {
+              "severity": 11,
+              "polri_relation": 0,
+              "authority": 0,
+              "public_impact": 4,
+              "handling": 0,
+              "evidence": 1,
+              "context_risk": 0,
+              "routine_enforcement_cap": null
+            }
+          },
+          {
+            "id": "4c3f6c9c523bdf57bcbf1fa2296191f8c515ac18",
+            "title": "Simpan 41,8 Gram Ganja di Kamar, Pemuda Surabaya Berurusan dengan Polisi - TargetNews.ID",
+            "url": "https://targetnews.id/2026/09/02/simpan-418-gram-ganja-di-kamar-pemuda-surabaya-berurusan-dengan-polisi/",
+            "published_at": "2026-09-01T22:59:00+00:00",
+            "collected_at": "2026-09-02T00:16:57.773945+00:00",
+            "source": "TargetNews.ID",
+            "match_score": 0.8686,
+            "priority": "low",
+            "scope": "negative",
+            "category": "NEGATIF - NARKOBA / NARKOTIKA",
+            "region": "Jawa Timur",
+            "locality": "Surabaya",
+            "is_jatim": true,
+            "polres": null,
+            "polsek": null,
+            "issue_type": "NARKOBA",
+            "issue_subtype": "Narkoba / Narkotika",
+            "handling_status": "BELUM_ADA_INFORMASI",
+            "handling_evidence": [],
+            "polri_relation": null,
+            "polri_relation_points": 0,
+            "polri_relation_evidence": [],
+            "attention_score": 16,
+            "attention_label": "Rendah",
+            "attention_components": {
+              "severity": 11,
+              "polri_relation": 0,
+              "authority": 0,
+              "public_impact": 4,
+              "handling": 0,
+              "evidence": 1,
+              "context_risk": 0,
+              "routine_enforcement_cap": null
+            }
+          }
+        ],
+        "article_count": 4,
+        "created_at": "2026-09-01T15:05:59.409993+00:00",
+        "updated_at": "2026-09-02T00:29:03.798134+00:00",
+        "engine_version": "case-v6.5.4",
+        "priority_score": 29,
+        "priority_breakdown": {
+          "severity": 11,
+          "polri_relation": 2,
+          "authority_context": 0,
+          "public_impact": 4,
+          "handling": 0,
+          "evidence": 5,
+          "spread": 6,
+          "escalation": 0,
+          "current_activity": 1,
+          "context_risk": 0
+        },
+        "priority_evidence": {
+          "unique_sources": 4,
+          "active_today_articles": 1,
+          "escalation": [],
+          "issue_type": "NARKOBA",
+          "issue_subtype": "Narkoba / Narkotika",
+          "sentiment": "negative",
+          "polri_relation": "PENEGAKAN_HUKUM",
+          "handling_status": "BELUM_ADA_INFORMASI",
+          "reasons": [
+            "sifat berita: negatif",
+            "Narkoba / Narkotika",
+            "Polri sebagai pihak penindak"
           ]
         }
       },
@@ -3416,7 +4380,7 @@
         ],
         "article_count": 1,
         "created_at": "2026-09-01T18:44:31.028263+00:00",
-        "updated_at": "2026-09-01T21:58:49.382214+00:00",
+        "updated_at": "2026-09-02T00:29:03.884805+00:00",
         "engine_version": "case-v6.5.4",
         "priority_score": 38,
         "priority_breakdown": {
@@ -3527,7 +4491,7 @@
         ],
         "article_count": 1,
         "created_at": "2026-09-01T18:44:31.301716+00:00",
-        "updated_at": "2026-09-01T21:58:49.384540+00:00",
+        "updated_at": "2026-09-02T00:29:03.888065+00:00",
         "engine_version": "case-v6.5.4",
         "priority_score": 42,
         "priority_breakdown": {
@@ -3632,7 +4596,7 @@
         ],
         "article_count": 1,
         "created_at": "2026-09-01T18:44:31.542688+00:00",
-        "updated_at": "2026-09-01T21:58:49.386810+00:00",
+        "updated_at": "2026-09-02T00:29:03.891224+00:00",
         "engine_version": "case-v6.5.4",
         "priority_score": 17,
         "priority_breakdown": {
@@ -3739,7 +4703,7 @@
         ],
         "article_count": 1,
         "created_at": "2026-09-01T18:44:31.774802+00:00",
-        "updated_at": "2026-09-01T21:58:49.389174+00:00",
+        "updated_at": "2026-09-02T00:29:03.894544+00:00",
         "engine_version": "case-v6.5.4",
         "priority_score": 34,
         "priority_breakdown": {
@@ -3845,7 +4809,7 @@
         ],
         "article_count": 1,
         "created_at": "2026-09-01T18:44:32.005670+00:00",
-        "updated_at": "2026-09-01T21:58:49.391348+00:00",
+        "updated_at": "2026-09-02T00:29:03.897589+00:00",
         "engine_version": "case-v6.5.4",
         "priority_score": 70,
         "priority_breakdown": {
@@ -3949,7 +4913,7 @@
         ],
         "article_count": 1,
         "created_at": "2026-09-01T18:44:32.227726+00:00",
-        "updated_at": "2026-09-01T21:58:49.393575+00:00",
+        "updated_at": "2026-09-02T00:29:03.900671+00:00",
         "engine_version": "case-v6.5.4",
         "priority_score": 30,
         "priority_breakdown": {
@@ -4058,7 +5022,7 @@
         ],
         "article_count": 1,
         "created_at": "2026-09-01T18:44:32.495717+00:00",
-        "updated_at": "2026-09-01T21:58:49.396027+00:00",
+        "updated_at": "2026-09-02T00:29:03.904212+00:00",
         "engine_version": "case-v6.5.4",
         "priority_score": 8,
         "priority_breakdown": {
@@ -4162,7 +5126,217 @@
         ],
         "article_count": 1,
         "created_at": "2026-09-01T21:57:52.710949+00:00",
-        "updated_at": "2026-09-01T21:58:49.398335+00:00",
+        "updated_at": "2026-09-02T00:29:03.907439+00:00",
+        "engine_version": "case-v6.5.4",
+        "priority_score": 34,
+        "priority_breakdown": {
+          "severity": 28,
+          "polri_relation": 0,
+          "authority_context": 0,
+          "public_impact": 4,
+          "handling": 0,
+          "evidence": 1,
+          "spread": 0,
+          "escalation": 0,
+          "current_activity": 1,
+          "context_risk": 0
+        },
+        "priority_evidence": {
+          "unique_sources": 1,
+          "active_today_articles": 1,
+          "escalation": [],
+          "issue_type": "KEKERASAN_DAN_KEKUATAN",
+          "issue_subtype": "Kekerasan / Penggunaan Kekuatan",
+          "sentiment": "negative",
+          "polri_relation": "INFORMASI_UMUM",
+          "handling_status": "BELUM_ADA_INFORMASI",
+          "reasons": [
+            "sifat berita: negatif",
+            "sifat berita: negatif",
+            "Kekerasan / Penggunaan Kekuatan",
+            "Hubungan Polri belum spesifik"
+          ]
+        }
+      },
+      {
+        "case_id": "CASE-000714",
+        "title": "Adik Wartawan CameraJurnalis.com Diduga Dianiaya, Virgo Dilaporkan ke Polisi - Lintas Cakrawala News",
+        "category": "NEGATIF - BELUM TERIDENTIFIKASI",
+        "scope": "negative",
+        "region": "BELUM TERPETAKAN",
+        "locality": "",
+        "is_jatim": null,
+        "polres": null,
+        "polsek": null,
+        "priority": "low",
+        "attention_score": 22,
+        "attention_label": "Rendah",
+        "signature": "BELUM TERPETAKAN",
+        "incident_terms": [
+          "adik",
+          "cakrawala",
+          "camerajurnalis",
+          "com",
+          "dianiaya",
+          "dilaporkan",
+          "lintas",
+          "news",
+          "virgo",
+          "wartawan"
+        ],
+        "event_terms": [
+          "wartawan"
+        ],
+        "location_terms": [],
+        "discovery_families": [
+          "journalist_and_information"
+        ],
+        "first_seen": "2026-09-01T23:32:44+00:00",
+        "last_seen": "2026-09-02T00:16:57.773945+00:00",
+        "last_detected_at": "2026-09-02T00:16:57.773945+00:00",
+        "article_ids": [
+          "31391100e612cfc56a4a0bea710f93930c90d6c2"
+        ],
+        "articles": [
+          {
+            "id": "31391100e612cfc56a4a0bea710f93930c90d6c2",
+            "title": "Adik Wartawan CameraJurnalis.com Diduga Dianiaya, Virgo Dilaporkan ke Polisi - Lintas Cakrawala News",
+            "url": "https://lintascakrawalanews.com/2026/09/01/adik-wartawan-camerajurnalis-com-diduga-dianiaya-virgo-dilaporkan-ke-polisi/",
+            "published_at": "2026-09-01T23:32:44+00:00",
+            "collected_at": "2026-09-02T00:16:57.773945+00:00",
+            "source": "Lintas Cakrawala News",
+            "match_score": 1.0,
+            "priority": "low",
+            "scope": "negative",
+            "category": "NEGATIF - BELUM TERIDENTIFIKASI",
+            "region": "BELUM TERPETAKAN",
+            "locality": "",
+            "is_jatim": false,
+            "polres": null,
+            "polsek": null,
+            "issue_type": "UMUM",
+            "issue_subtype": "Belum Teridentifikasi",
+            "handling_status": "BELUM_ADA_INFORMASI",
+            "handling_evidence": [],
+            "polri_relation": null,
+            "polri_relation_points": 0,
+            "polri_relation_evidence": [],
+            "attention_score": 37,
+            "attention_label": "Rendah",
+            "attention_components": {
+              "severity": 2,
+              "polri_relation": 16,
+              "authority": 0,
+              "public_impact": 18,
+              "handling": 0,
+              "evidence": 1,
+              "context_risk": 0,
+              "routine_enforcement_cap": null
+            }
+          }
+        ],
+        "article_count": 1,
+        "created_at": "2026-09-02T00:27:49.834520+00:00",
+        "updated_at": "2026-09-02T00:29:03.910763+00:00",
+        "engine_version": "case-v6.5.4",
+        "priority_score": 22,
+        "priority_breakdown": {
+          "severity": 2,
+          "polri_relation": 0,
+          "authority_context": 0,
+          "public_impact": 18,
+          "handling": 0,
+          "evidence": 1,
+          "spread": 0,
+          "escalation": 0,
+          "current_activity": 1,
+          "context_risk": 0
+        },
+        "priority_evidence": {
+          "unique_sources": 1,
+          "active_today_articles": 1,
+          "escalation": [],
+          "issue_type": "UMUM",
+          "issue_subtype": "Belum Teridentifikasi",
+          "sentiment": "neutral",
+          "polri_relation": "INFORMASI_UMUM",
+          "handling_status": "BELUM_ADA_INFORMASI",
+          "reasons": [
+            "sifat berita: netral",
+            "Hubungan Polri belum spesifik"
+          ]
+        }
+      },
+      {
+        "case_id": "CASE-000715",
+        "title": "Polisi Buru 2 Pelaku Pembunuhan di Bantul, 3 Orang Ditangkap - batamtimes.co",
+        "category": "NEGATIF - KEKERASAN / PENGGUNAAN KEKUATAN",
+        "scope": "negative",
+        "region": "BELUM TERPETAKAN",
+        "locality": "",
+        "is_jatim": null,
+        "polres": null,
+        "polsek": null,
+        "priority": "low",
+        "attention_score": 34,
+        "attention_label": "Rendah",
+        "signature": "BELUM TERPETAKAN",
+        "incident_terms": [
+          "bantul",
+          "batamtimes",
+          "buru",
+          "pembunuhan"
+        ],
+        "event_terms": [],
+        "location_terms": [],
+        "discovery_families": [],
+        "first_seen": "2026-09-01T21:59:32+00:00",
+        "last_seen": "2026-09-02T00:16:57.773945+00:00",
+        "last_detected_at": "2026-09-02T00:16:57.773945+00:00",
+        "article_ids": [
+          "caf79ae3ff9c6104066ae0bed2ad95963352a7b2"
+        ],
+        "articles": [
+          {
+            "id": "caf79ae3ff9c6104066ae0bed2ad95963352a7b2",
+            "title": "Polisi Buru 2 Pelaku Pembunuhan di Bantul, 3 Orang Ditangkap - batamtimes.co",
+            "url": "https://www.batamtimes.co/2026/09/01/polisi-buru-2-pelaku-pembunuhan-di-bantul-3-orang-ditangkap/",
+            "published_at": "2026-09-01T21:59:32+00:00",
+            "collected_at": "2026-09-02T00:16:57.773945+00:00",
+            "source": "batamtimes.co",
+            "match_score": 1.0,
+            "priority": "low",
+            "scope": "negative",
+            "category": "NEGATIF - KEKERASAN / PENGGUNAAN KEKUATAN",
+            "region": "BELUM TERPETAKAN",
+            "locality": "",
+            "is_jatim": false,
+            "polres": null,
+            "polsek": null,
+            "issue_type": "KEKERASAN_DAN_KEKUATAN",
+            "issue_subtype": "Kekerasan / Penggunaan Kekuatan",
+            "handling_status": "BELUM_ADA_INFORMASI",
+            "handling_evidence": [],
+            "polri_relation": null,
+            "polri_relation_points": 0,
+            "polri_relation_evidence": [],
+            "attention_score": 39,
+            "attention_label": "Rendah",
+            "attention_components": {
+              "severity": 28,
+              "polri_relation": 0,
+              "authority": 0,
+              "public_impact": 4,
+              "handling": 0,
+              "evidence": 1,
+              "context_risk": 0,
+              "routine_enforcement_cap": null
+            }
+          }
+        ],
+        "article_count": 1,
+        "created_at": "2026-09-02T00:27:50.261918+00:00",
+        "updated_at": "2026-09-02T00:29:03.913679+00:00",
         "engine_version": "case-v6.5.4",
         "priority_score": 34,
         "priority_breakdown": {
@@ -4766,7 +5940,7 @@
         ],
         "article_count": 13,
         "created_at": "2026-08-31T07:38:15.493509+00:00",
-        "updated_at": "2026-09-01T21:58:47.471305+00:00",
+        "updated_at": "2026-09-02T00:29:01.252545+00:00",
         "engine_version": "case-v6.5.4",
         "priority_score": 95,
         "priority_breakdown": {
@@ -4799,6 +5973,250 @@
             "dugaan kejahatan seksual terkait personel",
             "pemberitaan lintas 8 sumber",
             "proses pidana"
+          ]
+        }
+      },
+      {
+        "case_id": "CASE-000683",
+        "title": "Satresnarkoba Polres Tanjung Perak Ungkap Peredaran Ganja dan Sita 41,8 Gram - detiknews.id",
+        "category": "NEGATIF - NARKOBA / NARKOTIKA",
+        "scope": "negative",
+        "region": "Jawa Timur",
+        "locality": "Surabaya",
+        "is_jatim": true,
+        "polres": "POLRES PELABUHAN TANJUNG PERAK",
+        "polsek": null,
+        "priority": "low",
+        "attention_score": 29,
+        "attention_label": "Rendah",
+        "signature": "POLRES PELABUHAN TANJUNG PERAK Jawa Timur",
+        "incident_terms": [
+          "abadi",
+          "banyu",
+          "berurusan",
+          "bisnis",
+          "detiknews",
+          "diciduk",
+          "diringkus",
+          "disway",
+          "ganja",
+          "gram",
+          "instagram",
+          "jual",
+          "kamar",
+          "kedok",
+          "lewat",
+          "memorandum",
+          "news",
+          "nusantara",
+          "pelabuhan",
+          "pemuda",
+          "perak",
+          "peredaran",
+          "polres",
+          "ranjau",
+          "satresnarkoba",
+          "simpan",
+          "sistem",
+          "sita",
+          "surabaya",
+          "tanjung",
+          "targetnews",
+          "terbongkar",
+          "urip"
+        ],
+        "event_terms": [
+          "ganja"
+        ],
+        "location_terms": [
+          "surabaya"
+        ],
+        "discovery_families": [],
+        "first_seen": "2026-09-01T13:02:25+00:00",
+        "last_seen": "2026-09-02T00:16:57.773945+00:00",
+        "last_detected_at": "2026-09-02T00:16:57.773945+00:00",
+        "article_ids": [
+          "b41933234b323e9d54393ab802d83d33fffa2da3",
+          "9c04f43f23a263fee5cc20473368791ca43e203e",
+          "8245046650c1440b09fc21fccc4d24fd0f180442",
+          "4c3f6c9c523bdf57bcbf1fa2296191f8c515ac18"
+        ],
+        "articles": [
+          {
+            "id": "b41933234b323e9d54393ab802d83d33fffa2da3",
+            "title": "Satresnarkoba Polres Tanjung Perak Ungkap Peredaran Ganja dan Sita 41,8 Gram - detiknews.id",
+            "url": "https://detiknews.id/detiknews/satresnarkoba-polres-tanjung-perak-ungkap-peredaran-ganja-dan-sita-418-gram/",
+            "published_at": "2026-09-01T14:39:55+00:00",
+            "collected_at": "2026-09-01T14:55:52.206678+00:00",
+            "source": "detiknews.id",
+            "match_score": 1.0,
+            "priority": "low",
+            "scope": "negative",
+            "category": "NEGATIF - NARKOBA / NARKOTIKA",
+            "region": "Jawa Timur",
+            "locality": "Surabaya",
+            "is_jatim": true,
+            "polres": "POLRES PELABUHAN TANJUNG PERAK",
+            "polsek": null,
+            "issue_type": "NARKOBA",
+            "issue_subtype": "Narkoba / Narkotika",
+            "handling_status": "BELUM_ADA_INFORMASI",
+            "handling_evidence": [],
+            "polri_relation": null,
+            "polri_relation_points": 0,
+            "polri_relation_evidence": [],
+            "attention_score": 18,
+            "attention_label": "Rendah",
+            "attention_components": {
+              "severity": 11,
+              "polri_relation": 2,
+              "authority": 0,
+              "public_impact": 4,
+              "handling": 0,
+              "evidence": 1,
+              "context_risk": 0,
+              "routine_enforcement_cap": 35
+            }
+          },
+          {
+            "id": "9c04f43f23a263fee5cc20473368791ca43e203e",
+            "title": "Bisnis Ganja Sistem Ranjau Terbongkar, Pemuda Banyu Urip Diringkus Polres Pelabuhan Tanjung Perak - memorandum.disway.id - Memorandum.co.id",
+            "url": "https://memorandum.disway.id/polres-tanjung-perak/read/168320/bisnis-ganja-sistem-ranjau-terbongkar-pemuda-banyu-urip-diringkus-polres-pelabuhan-tanjung-perak",
+            "published_at": "2026-09-01T14:20:00+00:00",
+            "collected_at": "2026-09-01T14:55:52.206678+00:00",
+            "source": "Memorandum.co.id",
+            "match_score": 0.7815,
+            "priority": "low",
+            "scope": "negative",
+            "category": "NEGATIF - NARKOBA / NARKOTIKA",
+            "region": "Jawa Timur",
+            "locality": "Surabaya",
+            "is_jatim": true,
+            "polres": "POLRES PELABUHAN TANJUNG PERAK",
+            "polsek": null,
+            "issue_type": "NARKOBA",
+            "issue_subtype": "Narkoba / Narkotika",
+            "handling_status": "BELUM_ADA_INFORMASI",
+            "handling_evidence": [],
+            "polri_relation": null,
+            "polri_relation_points": 0,
+            "polri_relation_evidence": [],
+            "attention_score": 16,
+            "attention_label": "Rendah",
+            "attention_components": {
+              "severity": 11,
+              "polri_relation": 0,
+              "authority": 0,
+              "public_impact": 4,
+              "handling": 0,
+              "evidence": 1,
+              "context_risk": 0,
+              "routine_enforcement_cap": null
+            }
+          },
+          {
+            "id": "8245046650c1440b09fc21fccc4d24fd0f180442",
+            "title": "Kedok Jual Ganja Lewat Instagram Terbongkar, Pemuda Banyu Urip Diciduk Satresnarkoba Polres Pelabuhan Tanjung Perak Surabaya - Nusantara Abadi News",
+            "url": "https://nusantaraabadinews.com/2026/09/01/kedok-jual-ganja-lewat-instagram-terbongkar-pemuda-banyu-urip-diciduk-satresnarkoba-polres-pelabuhan-tanjung-perak-surabaya/",
+            "published_at": "2026-09-01T13:02:25+00:00",
+            "collected_at": "2026-09-01T14:55:52.206678+00:00",
+            "source": "Nusantara Abadi News",
+            "match_score": 0.7901,
+            "priority": "low",
+            "scope": "negative",
+            "category": "NEGATIF - NARKOBA / NARKOTIKA",
+            "region": "Jawa Timur",
+            "locality": "Surabaya",
+            "is_jatim": true,
+            "polres": "POLRES PELABUHAN TANJUNG PERAK",
+            "polsek": null,
+            "issue_type": "NARKOBA",
+            "issue_subtype": "Narkoba / Narkotika",
+            "handling_status": "BELUM_ADA_INFORMASI",
+            "handling_evidence": [],
+            "polri_relation": null,
+            "polri_relation_points": 0,
+            "polri_relation_evidence": [],
+            "attention_score": 16,
+            "attention_label": "Rendah",
+            "attention_components": {
+              "severity": 11,
+              "polri_relation": 0,
+              "authority": 0,
+              "public_impact": 4,
+              "handling": 0,
+              "evidence": 1,
+              "context_risk": 0,
+              "routine_enforcement_cap": null
+            }
+          },
+          {
+            "id": "4c3f6c9c523bdf57bcbf1fa2296191f8c515ac18",
+            "title": "Simpan 41,8 Gram Ganja di Kamar, Pemuda Surabaya Berurusan dengan Polisi - TargetNews.ID",
+            "url": "https://targetnews.id/2026/09/02/simpan-418-gram-ganja-di-kamar-pemuda-surabaya-berurusan-dengan-polisi/",
+            "published_at": "2026-09-01T22:59:00+00:00",
+            "collected_at": "2026-09-02T00:16:57.773945+00:00",
+            "source": "TargetNews.ID",
+            "match_score": 0.8686,
+            "priority": "low",
+            "scope": "negative",
+            "category": "NEGATIF - NARKOBA / NARKOTIKA",
+            "region": "Jawa Timur",
+            "locality": "Surabaya",
+            "is_jatim": true,
+            "polres": null,
+            "polsek": null,
+            "issue_type": "NARKOBA",
+            "issue_subtype": "Narkoba / Narkotika",
+            "handling_status": "BELUM_ADA_INFORMASI",
+            "handling_evidence": [],
+            "polri_relation": null,
+            "polri_relation_points": 0,
+            "polri_relation_evidence": [],
+            "attention_score": 16,
+            "attention_label": "Rendah",
+            "attention_components": {
+              "severity": 11,
+              "polri_relation": 0,
+              "authority": 0,
+              "public_impact": 4,
+              "handling": 0,
+              "evidence": 1,
+              "context_risk": 0,
+              "routine_enforcement_cap": null
+            }
+          }
+        ],
+        "article_count": 4,
+        "created_at": "2026-09-01T15:05:59.409993+00:00",
+        "updated_at": "2026-09-02T00:29:03.798134+00:00",
+        "engine_version": "case-v6.5.4",
+        "priority_score": 29,
+        "priority_breakdown": {
+          "severity": 11,
+          "polri_relation": 2,
+          "authority_context": 0,
+          "public_impact": 4,
+          "handling": 0,
+          "evidence": 5,
+          "spread": 6,
+          "escalation": 0,
+          "current_activity": 1,
+          "context_risk": 0
+        },
+        "priority_evidence": {
+          "unique_sources": 4,
+          "active_today_articles": 1,
+          "escalation": [],
+          "issue_type": "NARKOBA",
+          "issue_subtype": "Narkoba / Narkotika",
+          "sentiment": "negative",
+          "polri_relation": "PENEGAKAN_HUKUM",
+          "handling_status": "BELUM_ADA_INFORMASI",
+          "reasons": [
+            "sifat berita: negatif",
+            "Narkoba / Narkotika",
+            "Polri sebagai pihak penindak"
           ]
         }
       },
@@ -4883,7 +6301,7 @@
         ],
         "article_count": 1,
         "created_at": "2026-09-01T18:44:31.301716+00:00",
-        "updated_at": "2026-09-01T21:58:49.384540+00:00",
+        "updated_at": "2026-09-02T00:29:03.888065+00:00",
         "engine_version": "case-v6.5.4",
         "priority_score": 42,
         "priority_breakdown": {
@@ -4990,7 +6408,7 @@
         ],
         "article_count": 1,
         "created_at": "2026-09-01T18:44:31.774802+00:00",
-        "updated_at": "2026-09-01T21:58:49.389174+00:00",
+        "updated_at": "2026-09-02T00:29:03.894544+00:00",
         "engine_version": "case-v6.5.4",
         "priority_score": 34,
         "priority_breakdown": {
@@ -5024,11 +6442,13 @@
     ]
   },
   "social": {
-    "detected": 62,
-    "jatim": 6,
-    "negative": 32,
+    "detected": 94,
+    "jatim": 8,
+    "negative": 40,
     "priority_high": 25,
     "video_ids": [
+      "didIRhqG6gU",
+      "bCHgSXjgknY",
       "SmXTJkRa5HI",
       "49Cj0FBbKBw",
       "m5_zssrnyhk",
@@ -5036,10 +6456,12 @@
       "qezKCAB09aw",
       "rtrzs8ZbXV8",
       "GMCDtG28_eA",
+      "HXKdI7zhXg8",
       "OFZ7tedsSwE",
       "AgTFIn8Jh3U",
       "CWryUGcaigo",
       "UxEzeyagiW0",
+      "6K9ShXjwuSg",
       "VxfoFOeyHIw",
       "_NlgrZZynro",
       "WGQ6cqEqSXY",
@@ -5052,62 +6474,94 @@
       "_zSI1e9ey3w",
       "VRiJ_muGZYA",
       "cKeYOIv_LQI",
+      "tclOr2BoFq8",
+      "33j1NrBpJ6c",
       "k4xXAvaPKrA",
       "hIqIbI9u6Ao",
+      "qH3RJ3KbsZU",
+      "2hteYLfmv9c",
+      "EHF7sCOG-qU",
       "eEfb_Tme_Nk",
       "RBi61VV4iHo",
       "kOEQGxz0OK0",
       "hHWBz9b5cts",
+      "3GOMpYylHX8",
       "_INhsLkPKZA",
       "_cMyR2Tsnlg",
       "9SdogddzalA",
+      "fEp5WNt86mY",
       "5pRbTYTPaWA",
       "eMqUl_7qxzs",
       "gDDjxwZroDs",
       "iWM4e10EOCg",
       "TtTbqZC1B7s",
+      "jOFoyqhi8A4",
       "Kmy-qRLKVxo",
+      "krFPDDdeGLY",
       "8tvLNcG_cpA",
+      "kQS5diWe9Vc",
       "X2xNZoGa5t0",
       "HyhgcdFayzk",
       "c16qJABJLxI",
       "D1BpKiJCEKE",
+      "-_hYitA3dPc",
+      "ZJu2OMSjeDg",
       "Ricm7EBd1Us",
       "zdfKzfO8IBE",
       "vf4RYvAR-8o",
       "o0bZupenNqY",
       "iPcE9bwr7Ds",
+      "twVbtbYChOQ",
       "U_6QCvJt4Ho",
       "SToLGYJ0KuU",
       "d8aE_lSxxFM",
       "7kxjukbhIxM",
+      "w_pGQdIsJ5k",
+      "c15tIfJX5Wo",
+      "OYJvbNSPdeo",
       "NUva8KHQ2nY",
+      "tJqN_KxzhOM",
+      "JeMiaz2TZag",
+      "V5if_rPpXtw",
       "0HUOyxGWLzQ",
+      "atSTJCQ4LIo",
       "W3pWo7K2Nrw",
+      "22VInVlXkVU",
+      "ls1eebf4hv4",
+      "mom1mbnu2jU",
+      "82pFQQlmaR4",
       "QCeHPtnxev0",
+      "C04vFNBU1m4",
+      "pYJL0nEz9TU",
       "YGKVLxwSCt8",
       "ShCeXbRNwKI",
+      "XPNuSxIUEOw",
       "1lyLskdKGZY",
       "eIapXOGs0U4",
       "YX6f1zog63A",
+      "g_3q8hRpuFM",
       "t4pL3z9lIbc"
     ]
   },
   "jatim": {
-    "news_today": 5,
-    "negative_today": 3,
+    "news_today": 6,
+    "negative_today": 4,
     "positive_today": 0,
     "case_scope_today": 0,
     "neutral_today": 2,
-    "case_today": 3,
+    "case_today": 4,
     "case_high_active": 1,
     "article_high_today": 0,
-    "outside_jatim_today": 14
+    "outside_jatim_today": 18
   },
   "regions": [
     {
       "name": "Gresik",
       "count": 2
+    },
+    {
+      "name": "Surabaya",
+      "count": 1
     },
     {
       "name": "Malang",
@@ -5134,6 +6588,10 @@
       "count": 2
     },
     {
+      "name": "NEGATIF - NARKOBA / NARKOTIKA",
+      "count": 1
+    },
+    {
       "name": "NEGATIF - AKTIVITAS ILEGAL",
       "count": 1
     },
@@ -5147,19 +6605,19 @@
     }
   ],
   "summary": {
-    "news_today": 19,
-    "negative_today": 9,
-    "cases_today": 9,
+    "news_today": 24,
+    "negative_today": 12,
+    "cases_today": 12,
     "priority_high": 2,
     "article_priority_high": 1,
-    "jatim_news": 5,
-    "jatim_negative": 3,
+    "jatim_news": 6,
+    "jatim_negative": 4,
     "jatim_positive": 0,
     "jatim_case_scope": 0,
     "jatim_neutral": 2,
-    "jatim_cases_today": 3,
+    "jatim_cases_today": 4,
     "jatim_case_high_active": 1,
-    "luar_jatim_news": 14,
-    "youtube_today": 62
+    "luar_jatim_news": 18,
+    "youtube_today": 94
   }
 }
