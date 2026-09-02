@@ -2,18 +2,20 @@
   "schema_version": "today-v3",
   "date": "2026-09-03",
   "timezone": "Asia/Jakarta",
-  "updated_at": "2026-09-03T01:57:36.277549+07:00",
-  "last_successful_update": "2026-09-03T01:57:36.277549+07:00",
+  "updated_at": "2026-09-03T05:04:38.226321+07:00",
+  "last_successful_update": "2026-09-03T05:04:38.226321+07:00",
   "news": {
-    "detected": 10,
-    "negative": 3,
+    "detected": 12,
+    "negative": 4,
     "positive": 2,
     "case": 0,
-    "neutral": 5,
-    "jatim": 5,
+    "neutral": 6,
+    "jatim": 7,
     "luar_jatim": 5,
     "priority_high": 0,
     "article_ids": [
+      "22f037835eb393f50d09749d874b715c2bc2e71a",
+      "2b7b75e2ac668bca37400b89669af494b27909c6",
       "156dd467c8e13eaa434391eda5fe0d2497d3c9a8",
       "ec01044ac9b762d28624725a680007ec945f2e72",
       "83da8184568fb7e4343e81d7e2b08bfa3b8f1a3b",
@@ -26,6 +28,148 @@
       "0969a2fde602adae96fea937937f2ddc1053a58b"
     ],
     "items": [
+      {
+        "id": "22f037835eb393f50d09749d874b715c2bc2e71a",
+        "title": "Kapolres Sampang Gelar Kunjungan Kerja ke Polsek Camplong - RRI.co.id",
+        "url": "https://rri.co.id/sampang/regional/2703102/kapolres-sampang-gelar-kunjungan-kerja-ke-polsek-camplong",
+        "source": "RRI.co.id",
+        "published_at": "2026-09-02T19:58:00+00:00",
+        "collected_at": "2026-09-02T21:51:23.874692+00:00",
+        "region": "Jawa Timur",
+        "area_label": "Sampang",
+        "is_jatim": true,
+        "polres": null,
+        "category": "NETRAL / LAINNYA",
+        "scope": "neutral",
+        "scope_label": "Netral",
+        "priority": "low",
+        "summary": "Kapolres Sampang Gelar Kunjungan Kerja ke Polsek Camplong RRI.co.id",
+        "processing_status": "processed",
+        "classifier_version": "news-v6",
+        "classified_at": "2026-09-02T21:51:23.874692+00:00",
+        "case_id": null,
+        "discovery_families": [],
+        "discovery_tags": [],
+        "discovery_hits": [],
+        "discovery_version": "discovery-v6.5.4",
+        "google_news_url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOYm5nVlVua1E3dFFYYkc2blpCZGU0NHItS1R4Vy1iNzZuV0IwYWI5c0h2bEw1YzBvd1VSYXpEdnFmeEdSZDg4R3BpLTg2elZMakx4UFNQWFdyME5ic1hDN0lVRmg2T08wcDdrNGd6ZS1IX0IyWmllcnIwZkx6SXZkMWlyVWJfeFBETk5uMzJxMTJrd1ptYUFrSlphNjAyd1lyUEE?oc=5",
+        "original_url": "https://rri.co.id/sampang/regional/2703102/kapolres-sampang-gelar-kunjungan-kerja-ke-polsek-camplong",
+        "locality": "Sampang",
+        "polsek": "POLSEK CAMPLONG",
+        "location_confidence": 95,
+        "location_evidence": [
+          "POLSEK CAMPLONG",
+          "Sampang"
+        ],
+        "location_status": "JAWA_TIMUR",
+        "location_source": "title",
+        "issue_type": "UMUM",
+        "issue_subtype": "Belum Teridentifikasi",
+        "issue_evidence": [],
+        "handling_status": "BELUM_ADA_INFORMASI",
+        "handling_evidence": [],
+        "attention_score": 11,
+        "attention_label": "Rendah",
+        "attention_components": {
+          "severity": 2,
+          "polri_relation": 0,
+          "authority": 4,
+          "public_impact": 4,
+          "handling": 0,
+          "evidence": 1,
+          "context_risk": 0,
+          "routine_enforcement_cap": null
+        },
+        "attention_evidence": {
+          "severity": [],
+          "authority": [
+            "kapolres"
+          ],
+          "public_impact": [],
+          "evidence": [
+            "satu sumber / informasi awal"
+          ],
+          "role": [],
+          "issue": [],
+          "handling": [],
+          "context": [],
+          "positive": []
+        },
+        "case_engine_version": "case-v6.5.4",
+        "case_processed_at": "2026-09-02T21:58:00.800566+00:00"
+      },
+      {
+        "id": "2b7b75e2ac668bca37400b89669af494b27909c6",
+        "title": "Polres Sampang Edukasi Bahaya Narkoba di Pesantren - RRI.co.id",
+        "url": "https://rri.co.id/sampang/regional/2703101/polres-sampang-edukasi-bahaya-narkoba-di-pesantren",
+        "source": "RRI.co.id",
+        "published_at": "2026-09-02T19:57:00+00:00",
+        "collected_at": "2026-09-02T21:51:23.874692+00:00",
+        "region": "Jawa Timur",
+        "area_label": "Sampang",
+        "is_jatim": true,
+        "polres": "POLRES SAMPANG",
+        "category": "NEGATIF - NARKOBA / NARKOTIKA",
+        "scope": "negative",
+        "scope_label": "Negatif",
+        "priority": "low",
+        "summary": "Polres Sampang Edukasi Bahaya Narkoba di Pesantren RRI.co.id",
+        "processing_status": "processed",
+        "classifier_version": "news-v6",
+        "classified_at": "2026-09-02T21:51:23.874692+00:00",
+        "case_id": "CASE-000760",
+        "discovery_families": [],
+        "discovery_tags": [],
+        "discovery_hits": [],
+        "discovery_version": "discovery-v6.5.4",
+        "google_news_url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNank0ZV8tREx3Nk9BbUV4dlR1NXc0dUlFWGlrYXJLUmRsTEZQNU5tNUhFOE1GNWdpSHJyNlBtREtRSVpHOC1MRVktN2ZNbl8yNE5TaFMtRWxIMGJqX0xxOWczNmhScHlzcDlVZlhCLWxMZ05SRU9wQjh4R1JzMFVpWWJ1c2F2ZVlkbDVqNkdWbVMzbTE3WEtfaA?oc=5",
+        "original_url": "https://rri.co.id/sampang/regional/2703101/polres-sampang-edukasi-bahaya-narkoba-di-pesantren",
+        "locality": "Sampang",
+        "polsek": null,
+        "location_confidence": 100,
+        "location_evidence": [
+          "polres sampang",
+          "Sampang"
+        ],
+        "location_status": "JAWA_TIMUR",
+        "location_source": "title",
+        "issue_type": "NARKOBA",
+        "issue_subtype": "Narkoba / Narkotika",
+        "issue_evidence": [
+          "narkoba"
+        ],
+        "handling_status": "BELUM_ADA_INFORMASI",
+        "handling_evidence": [],
+        "attention_score": 16,
+        "attention_label": "Rendah",
+        "attention_components": {
+          "severity": 11,
+          "polri_relation": 0,
+          "authority": 0,
+          "public_impact": 4,
+          "handling": 0,
+          "evidence": 1,
+          "context_risk": 0,
+          "routine_enforcement_cap": null
+        },
+        "attention_evidence": {
+          "severity": [],
+          "authority": [],
+          "public_impact": [],
+          "evidence": [
+            "satu sumber / informasi awal"
+          ],
+          "role": [],
+          "issue": [
+            "narkoba"
+          ],
+          "handling": [],
+          "context": [],
+          "positive": []
+        },
+        "case_engine_version": "case-v6.5.4",
+        "case_processed_at": "2026-09-02T22:04:36.648041+00:00"
+      },
       {
         "id": "156dd467c8e13eaa434391eda5fe0d2497d3c9a8",
         "title": "Polisi Amankan Terduga Pelaku Curanmor yang Sempat Ditelanjangi Warga - putraindonews.com",
@@ -93,7 +237,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-09-02T18:51:12.092757+00:00"
+        "case_processed_at": "2026-09-02T21:58:01.077634+00:00"
       },
       {
         "id": "ec01044ac9b762d28624725a680007ec945f2e72",
@@ -160,7 +304,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-09-02T18:51:12.340150+00:00"
+        "case_processed_at": "2026-09-02T21:58:01.333877+00:00"
       },
       {
         "id": "83da8184568fb7e4343e81d7e2b08bfa3b8f1a3b",
@@ -232,7 +376,7 @@
           ]
         },
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-09-02T18:51:12.610339+00:00"
+        "case_processed_at": "2026-09-02T21:58:01.613669+00:00"
       },
       {
         "id": "daa3aca621cbc98caa345111a8a661bec7cceca8",
@@ -305,7 +449,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-09-02T18:57:34.844461+00:00"
+        "case_processed_at": "2026-09-02T22:04:36.648048+00:00"
       },
       {
         "id": "6156fd3167b613093aed939c984135bc57f46d7d",
@@ -378,7 +522,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-09-02T18:57:34.844466+00:00"
+        "case_processed_at": "2026-09-02T22:04:36.648052+00:00"
       },
       {
         "id": "8e2d22e124d19621ec595fa644a12d07ed5a87db",
@@ -445,7 +589,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-09-02T18:51:12.789869+00:00"
+        "case_processed_at": "2026-09-02T21:58:01.801244+00:00"
       },
       {
         "id": "7887cb1a0ced8e9da872aa11e3bf390d2f6a79b8",
@@ -515,7 +659,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-09-02T18:51:13.045268+00:00"
+        "case_processed_at": "2026-09-02T21:58:02.065165+00:00"
       },
       {
         "id": "9b56bcc209b38fb95b5adb969c62fac7e8167488",
@@ -584,7 +728,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-09-02T18:51:13.283016+00:00"
+        "case_processed_at": "2026-09-02T21:58:02.310610+00:00"
       },
       {
         "id": "5c5901c0e7ba05c55eaeea23897db20739e1b22a",
@@ -657,7 +801,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-09-02T18:57:34.844471+00:00"
+        "case_processed_at": "2026-09-02T22:04:36.648055+00:00"
       },
       {
         "id": "0969a2fde602adae96fea937937f2ddc1053a58b",
@@ -724,10 +868,152 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-09-02T18:51:13.500103+00:00"
+        "case_processed_at": "2026-09-02T21:58:02.537233+00:00"
       }
     ],
     "jatim_items": [
+      {
+        "id": "22f037835eb393f50d09749d874b715c2bc2e71a",
+        "title": "Kapolres Sampang Gelar Kunjungan Kerja ke Polsek Camplong - RRI.co.id",
+        "url": "https://rri.co.id/sampang/regional/2703102/kapolres-sampang-gelar-kunjungan-kerja-ke-polsek-camplong",
+        "source": "RRI.co.id",
+        "published_at": "2026-09-02T19:58:00+00:00",
+        "collected_at": "2026-09-02T21:51:23.874692+00:00",
+        "region": "Jawa Timur",
+        "area_label": "Sampang",
+        "is_jatim": true,
+        "polres": null,
+        "category": "NETRAL / LAINNYA",
+        "scope": "neutral",
+        "scope_label": "Netral",
+        "priority": "low",
+        "summary": "Kapolres Sampang Gelar Kunjungan Kerja ke Polsek Camplong RRI.co.id",
+        "processing_status": "processed",
+        "classifier_version": "news-v6",
+        "classified_at": "2026-09-02T21:51:23.874692+00:00",
+        "case_id": null,
+        "discovery_families": [],
+        "discovery_tags": [],
+        "discovery_hits": [],
+        "discovery_version": "discovery-v6.5.4",
+        "google_news_url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOYm5nVlVua1E3dFFYYkc2blpCZGU0NHItS1R4Vy1iNzZuV0IwYWI5c0h2bEw1YzBvd1VSYXpEdnFmeEdSZDg4R3BpLTg2elZMakx4UFNQWFdyME5ic1hDN0lVRmg2T08wcDdrNGd6ZS1IX0IyWmllcnIwZkx6SXZkMWlyVWJfeFBETk5uMzJxMTJrd1ptYUFrSlphNjAyd1lyUEE?oc=5",
+        "original_url": "https://rri.co.id/sampang/regional/2703102/kapolres-sampang-gelar-kunjungan-kerja-ke-polsek-camplong",
+        "locality": "Sampang",
+        "polsek": "POLSEK CAMPLONG",
+        "location_confidence": 95,
+        "location_evidence": [
+          "POLSEK CAMPLONG",
+          "Sampang"
+        ],
+        "location_status": "JAWA_TIMUR",
+        "location_source": "title",
+        "issue_type": "UMUM",
+        "issue_subtype": "Belum Teridentifikasi",
+        "issue_evidence": [],
+        "handling_status": "BELUM_ADA_INFORMASI",
+        "handling_evidence": [],
+        "attention_score": 11,
+        "attention_label": "Rendah",
+        "attention_components": {
+          "severity": 2,
+          "polri_relation": 0,
+          "authority": 4,
+          "public_impact": 4,
+          "handling": 0,
+          "evidence": 1,
+          "context_risk": 0,
+          "routine_enforcement_cap": null
+        },
+        "attention_evidence": {
+          "severity": [],
+          "authority": [
+            "kapolres"
+          ],
+          "public_impact": [],
+          "evidence": [
+            "satu sumber / informasi awal"
+          ],
+          "role": [],
+          "issue": [],
+          "handling": [],
+          "context": [],
+          "positive": []
+        },
+        "case_engine_version": "case-v6.5.4",
+        "case_processed_at": "2026-09-02T21:58:00.800566+00:00"
+      },
+      {
+        "id": "2b7b75e2ac668bca37400b89669af494b27909c6",
+        "title": "Polres Sampang Edukasi Bahaya Narkoba di Pesantren - RRI.co.id",
+        "url": "https://rri.co.id/sampang/regional/2703101/polres-sampang-edukasi-bahaya-narkoba-di-pesantren",
+        "source": "RRI.co.id",
+        "published_at": "2026-09-02T19:57:00+00:00",
+        "collected_at": "2026-09-02T21:51:23.874692+00:00",
+        "region": "Jawa Timur",
+        "area_label": "Sampang",
+        "is_jatim": true,
+        "polres": "POLRES SAMPANG",
+        "category": "NEGATIF - NARKOBA / NARKOTIKA",
+        "scope": "negative",
+        "scope_label": "Negatif",
+        "priority": "low",
+        "summary": "Polres Sampang Edukasi Bahaya Narkoba di Pesantren RRI.co.id",
+        "processing_status": "processed",
+        "classifier_version": "news-v6",
+        "classified_at": "2026-09-02T21:51:23.874692+00:00",
+        "case_id": "CASE-000760",
+        "discovery_families": [],
+        "discovery_tags": [],
+        "discovery_hits": [],
+        "discovery_version": "discovery-v6.5.4",
+        "google_news_url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNank0ZV8tREx3Nk9BbUV4dlR1NXc0dUlFWGlrYXJLUmRsTEZQNU5tNUhFOE1GNWdpSHJyNlBtREtRSVpHOC1MRVktN2ZNbl8yNE5TaFMtRWxIMGJqX0xxOWczNmhScHlzcDlVZlhCLWxMZ05SRU9wQjh4R1JzMFVpWWJ1c2F2ZVlkbDVqNkdWbVMzbTE3WEtfaA?oc=5",
+        "original_url": "https://rri.co.id/sampang/regional/2703101/polres-sampang-edukasi-bahaya-narkoba-di-pesantren",
+        "locality": "Sampang",
+        "polsek": null,
+        "location_confidence": 100,
+        "location_evidence": [
+          "polres sampang",
+          "Sampang"
+        ],
+        "location_status": "JAWA_TIMUR",
+        "location_source": "title",
+        "issue_type": "NARKOBA",
+        "issue_subtype": "Narkoba / Narkotika",
+        "issue_evidence": [
+          "narkoba"
+        ],
+        "handling_status": "BELUM_ADA_INFORMASI",
+        "handling_evidence": [],
+        "attention_score": 16,
+        "attention_label": "Rendah",
+        "attention_components": {
+          "severity": 11,
+          "polri_relation": 0,
+          "authority": 0,
+          "public_impact": 4,
+          "handling": 0,
+          "evidence": 1,
+          "context_risk": 0,
+          "routine_enforcement_cap": null
+        },
+        "attention_evidence": {
+          "severity": [],
+          "authority": [],
+          "public_impact": [],
+          "evidence": [
+            "satu sumber / informasi awal"
+          ],
+          "role": [],
+          "issue": [
+            "narkoba"
+          ],
+          "handling": [],
+          "context": [],
+          "positive": []
+        },
+        "case_engine_version": "case-v6.5.4",
+        "case_processed_at": "2026-09-02T22:04:36.648041+00:00"
+      },
       {
         "id": "83da8184568fb7e4343e81d7e2b08bfa3b8f1a3b",
         "title": "Polres Jember Ungkap 75 Perkara Kriminal Dalam Dua Bulan, 60 Kasus Berhasil Diselesaikan - detailnews.id",
@@ -798,7 +1084,7 @@
           ]
         },
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-09-02T18:51:12.610339+00:00"
+        "case_processed_at": "2026-09-02T21:58:01.613669+00:00"
       },
       {
         "id": "daa3aca621cbc98caa345111a8a661bec7cceca8",
@@ -871,7 +1157,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-09-02T18:57:34.844461+00:00"
+        "case_processed_at": "2026-09-02T22:04:36.648048+00:00"
       },
       {
         "id": "7887cb1a0ced8e9da872aa11e3bf390d2f6a79b8",
@@ -941,7 +1227,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-09-02T18:51:13.045268+00:00"
+        "case_processed_at": "2026-09-02T21:58:02.065165+00:00"
       },
       {
         "id": "9b56bcc209b38fb95b5adb969c62fac7e8167488",
@@ -1010,7 +1296,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-09-02T18:51:13.283016+00:00"
+        "case_processed_at": "2026-09-02T21:58:02.310610+00:00"
       },
       {
         "id": "5c5901c0e7ba05c55eaeea23897db20739e1b22a",
@@ -1083,7 +1369,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-09-02T18:57:34.844471+00:00"
+        "case_processed_at": "2026-09-02T22:04:36.648055+00:00"
       }
     ],
     "luar_jatim_items": [
@@ -1154,7 +1440,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-09-02T18:51:12.092757+00:00"
+        "case_processed_at": "2026-09-02T21:58:01.077634+00:00"
       },
       {
         "id": "ec01044ac9b762d28624725a680007ec945f2e72",
@@ -1221,7 +1507,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-09-02T18:51:12.340150+00:00"
+        "case_processed_at": "2026-09-02T21:58:01.333877+00:00"
       },
       {
         "id": "6156fd3167b613093aed939c984135bc57f46d7d",
@@ -1294,7 +1580,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-09-02T18:57:34.844466+00:00"
+        "case_processed_at": "2026-09-02T22:04:36.648052+00:00"
       },
       {
         "id": "8e2d22e124d19621ec595fa644a12d07ed5a87db",
@@ -1361,7 +1647,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-09-02T18:51:12.789869+00:00"
+        "case_processed_at": "2026-09-02T21:58:01.801244+00:00"
       },
       {
         "id": "0969a2fde602adae96fea937937f2ddc1053a58b",
@@ -1428,20 +1714,21 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-09-02T18:51:13.500103+00:00"
+        "case_processed_at": "2026-09-02T21:58:02.537233+00:00"
       }
     ]
   },
   "cases": {
-    "active": 3,
+    "active": 4,
     "priority_high": 0,
-    "jatim": 2,
+    "jatim": 3,
     "jatim_priority_high": 0,
-    "articles": 7,
+    "articles": 8,
     "case_ids": [
       "CASE-000274",
       "CASE-000296",
-      "CASE-000759"
+      "CASE-000759",
+      "CASE-000760"
     ],
     "items": [
       {
@@ -1609,7 +1896,7 @@
         ],
         "article_count": 3,
         "created_at": "2026-08-31T08:00:01.636153+00:00",
-        "updated_at": "2026-09-02T18:57:33.189856+00:00",
+        "updated_at": "2026-09-02T22:04:34.871295+00:00",
         "engine_version": "case-v6.5.4",
         "priority_score": 55,
         "priority_breakdown": {
@@ -1806,7 +2093,7 @@
         ],
         "article_count": 3,
         "created_at": "2026-08-31T08:00:04.486651+00:00",
-        "updated_at": "2026-09-02T18:57:33.263425+00:00",
+        "updated_at": "2026-09-02T22:04:34.950685+00:00",
         "engine_version": "case-v6.5.4",
         "priority_score": 35,
         "priority_breakdown": {
@@ -1911,7 +2198,7 @@
         ],
         "article_count": 1,
         "created_at": "2026-09-02T18:56:12.002673+00:00",
-        "updated_at": "2026-09-02T18:57:34.843833+00:00",
+        "updated_at": "2026-09-02T22:04:36.644865+00:00",
         "engine_version": "case-v6.5.4",
         "priority_score": 39,
         "priority_breakdown": {
@@ -1939,6 +2226,113 @@
             "sifat berita: negatif",
             "Narkoba / Narkotika",
             "polisi + dugaan"
+          ]
+        }
+      },
+      {
+        "case_id": "CASE-000760",
+        "title": "Polres Sampang Edukasi Bahaya Narkoba di Pesantren - RRI.co.id",
+        "category": "NEGATIF - NARKOBA / NARKOTIKA",
+        "scope": "negative",
+        "region": "Jawa Timur",
+        "locality": "Sampang",
+        "is_jatim": true,
+        "polres": "POLRES SAMPANG",
+        "polsek": null,
+        "priority": "low",
+        "attention_score": 17,
+        "attention_label": "Rendah",
+        "signature": "POLRES SAMPANG Jawa Timur",
+        "incident_terms": [
+          "bahaya",
+          "edukasi",
+          "narkoba",
+          "pesantren",
+          "polres",
+          "rri",
+          "sampang"
+        ],
+        "event_terms": [
+          "narkoba"
+        ],
+        "location_terms": [
+          "sampang"
+        ],
+        "discovery_families": [],
+        "first_seen": "2026-09-02T19:57:00+00:00",
+        "last_seen": "2026-09-02T21:51:23.874692+00:00",
+        "last_detected_at": "2026-09-02T21:51:23.874692+00:00",
+        "article_ids": [
+          "2b7b75e2ac668bca37400b89669af494b27909c6"
+        ],
+        "articles": [
+          {
+            "id": "2b7b75e2ac668bca37400b89669af494b27909c6",
+            "title": "Polres Sampang Edukasi Bahaya Narkoba di Pesantren - RRI.co.id",
+            "url": "https://rri.co.id/sampang/regional/2703101/polres-sampang-edukasi-bahaya-narkoba-di-pesantren",
+            "published_at": "2026-09-02T19:57:00+00:00",
+            "collected_at": "2026-09-02T21:51:23.874692+00:00",
+            "source": "RRI.co.id",
+            "match_score": 1.0,
+            "priority": "low",
+            "scope": "negative",
+            "category": "NEGATIF - NARKOBA / NARKOTIKA",
+            "region": "Jawa Timur",
+            "locality": "Sampang",
+            "is_jatim": true,
+            "polres": "POLRES SAMPANG",
+            "polsek": null,
+            "issue_type": "NARKOBA",
+            "issue_subtype": "Narkoba / Narkotika",
+            "handling_status": "BELUM_ADA_INFORMASI",
+            "handling_evidence": [],
+            "polri_relation": null,
+            "polri_relation_points": 0,
+            "polri_relation_evidence": [],
+            "attention_score": 16,
+            "attention_label": "Rendah",
+            "attention_components": {
+              "severity": 11,
+              "polri_relation": 0,
+              "authority": 0,
+              "public_impact": 4,
+              "handling": 0,
+              "evidence": 1,
+              "context_risk": 0,
+              "routine_enforcement_cap": null
+            }
+          }
+        ],
+        "article_count": 1,
+        "created_at": "2026-09-02T22:03:13.149922+00:00",
+        "updated_at": "2026-09-02T22:04:36.647566+00:00",
+        "engine_version": "case-v6.5.4",
+        "priority_score": 17,
+        "priority_breakdown": {
+          "severity": 11,
+          "polri_relation": 0,
+          "authority_context": 0,
+          "public_impact": 4,
+          "handling": 0,
+          "evidence": 1,
+          "spread": 0,
+          "escalation": 0,
+          "current_activity": 1,
+          "context_risk": 0
+        },
+        "priority_evidence": {
+          "unique_sources": 1,
+          "active_today_articles": 1,
+          "escalation": [],
+          "issue_type": "NARKOBA",
+          "issue_subtype": "Narkoba / Narkotika",
+          "sentiment": "negative",
+          "polri_relation": "INFORMASI_UMUM",
+          "handling_status": "BELUM_ADA_INFORMASI",
+          "reasons": [
+            "sifat berita: negatif",
+            "Narkoba / Narkotika",
+            "Hubungan Polri belum spesifik"
           ]
         }
       }
@@ -2109,7 +2503,7 @@
         ],
         "article_count": 3,
         "created_at": "2026-08-31T08:00:01.636153+00:00",
-        "updated_at": "2026-09-02T18:57:33.189856+00:00",
+        "updated_at": "2026-09-02T22:04:34.871295+00:00",
         "engine_version": "case-v6.5.4",
         "priority_score": 55,
         "priority_breakdown": {
@@ -2306,7 +2700,7 @@
         ],
         "article_count": 3,
         "created_at": "2026-08-31T08:00:04.486651+00:00",
-        "updated_at": "2026-09-02T18:57:33.263425+00:00",
+        "updated_at": "2026-09-02T22:04:34.950685+00:00",
         "engine_version": "case-v6.5.4",
         "priority_score": 35,
         "priority_breakdown": {
@@ -2336,51 +2730,202 @@
             "Hubungan Polri belum spesifik"
           ]
         }
+      },
+      {
+        "case_id": "CASE-000760",
+        "title": "Polres Sampang Edukasi Bahaya Narkoba di Pesantren - RRI.co.id",
+        "category": "NEGATIF - NARKOBA / NARKOTIKA",
+        "scope": "negative",
+        "region": "Jawa Timur",
+        "locality": "Sampang",
+        "is_jatim": true,
+        "polres": "POLRES SAMPANG",
+        "polsek": null,
+        "priority": "low",
+        "attention_score": 17,
+        "attention_label": "Rendah",
+        "signature": "POLRES SAMPANG Jawa Timur",
+        "incident_terms": [
+          "bahaya",
+          "edukasi",
+          "narkoba",
+          "pesantren",
+          "polres",
+          "rri",
+          "sampang"
+        ],
+        "event_terms": [
+          "narkoba"
+        ],
+        "location_terms": [
+          "sampang"
+        ],
+        "discovery_families": [],
+        "first_seen": "2026-09-02T19:57:00+00:00",
+        "last_seen": "2026-09-02T21:51:23.874692+00:00",
+        "last_detected_at": "2026-09-02T21:51:23.874692+00:00",
+        "article_ids": [
+          "2b7b75e2ac668bca37400b89669af494b27909c6"
+        ],
+        "articles": [
+          {
+            "id": "2b7b75e2ac668bca37400b89669af494b27909c6",
+            "title": "Polres Sampang Edukasi Bahaya Narkoba di Pesantren - RRI.co.id",
+            "url": "https://rri.co.id/sampang/regional/2703101/polres-sampang-edukasi-bahaya-narkoba-di-pesantren",
+            "published_at": "2026-09-02T19:57:00+00:00",
+            "collected_at": "2026-09-02T21:51:23.874692+00:00",
+            "source": "RRI.co.id",
+            "match_score": 1.0,
+            "priority": "low",
+            "scope": "negative",
+            "category": "NEGATIF - NARKOBA / NARKOTIKA",
+            "region": "Jawa Timur",
+            "locality": "Sampang",
+            "is_jatim": true,
+            "polres": "POLRES SAMPANG",
+            "polsek": null,
+            "issue_type": "NARKOBA",
+            "issue_subtype": "Narkoba / Narkotika",
+            "handling_status": "BELUM_ADA_INFORMASI",
+            "handling_evidence": [],
+            "polri_relation": null,
+            "polri_relation_points": 0,
+            "polri_relation_evidence": [],
+            "attention_score": 16,
+            "attention_label": "Rendah",
+            "attention_components": {
+              "severity": 11,
+              "polri_relation": 0,
+              "authority": 0,
+              "public_impact": 4,
+              "handling": 0,
+              "evidence": 1,
+              "context_risk": 0,
+              "routine_enforcement_cap": null
+            }
+          }
+        ],
+        "article_count": 1,
+        "created_at": "2026-09-02T22:03:13.149922+00:00",
+        "updated_at": "2026-09-02T22:04:36.647566+00:00",
+        "engine_version": "case-v6.5.4",
+        "priority_score": 17,
+        "priority_breakdown": {
+          "severity": 11,
+          "polri_relation": 0,
+          "authority_context": 0,
+          "public_impact": 4,
+          "handling": 0,
+          "evidence": 1,
+          "spread": 0,
+          "escalation": 0,
+          "current_activity": 1,
+          "context_risk": 0
+        },
+        "priority_evidence": {
+          "unique_sources": 1,
+          "active_today_articles": 1,
+          "escalation": [],
+          "issue_type": "NARKOBA",
+          "issue_subtype": "Narkoba / Narkotika",
+          "sentiment": "negative",
+          "polri_relation": "INFORMASI_UMUM",
+          "handling_status": "BELUM_ADA_INFORMASI",
+          "reasons": [
+            "sifat berita: negatif",
+            "Narkoba / Narkotika",
+            "Hubungan Polri belum spesifik"
+          ]
+        }
       }
     ]
   },
   "social": {
-    "detected": 50,
-    "jatim": 4,
-    "negative": 19,
-    "priority_high": 4,
+    "detected": 99,
+    "jatim": 8,
+    "negative": 43,
+    "priority_high": 24,
     "video_ids": [
+      "F9uIJSoigqM",
+      "6wgkGAT3L8Q",
+      "zCre-jIAwRU",
+      "7IK9gMEEX8Y",
       "utee05oB1Q0",
+      "PtN5N9FxM-Y",
       "xJmt3NKVKBg",
+      "jFCJPFL9Gl8",
+      "Xa6XZSr1SKM",
       "s9ZaqmTGLmE",
+      "2cc5ojY11vg",
+      "YYwZNDtuVlU",
+      "dKDlV6voEg0",
+      "wdwGOqruq8w",
       "QIJz1Y-LRMc",
+      "QkG-9Tiol2M",
+      "EK2fFMcWblY",
+      "T2wGcLWKbbw",
       "gVlkMpO6vH0",
+      "5u-kzQsb8PU",
+      "PO3ZADuuvG4",
       "vSZWE4K9KRE",
+      "Mr3nX4qwgmo",
       "G3-GyeknsBs",
+      "8cIJCmh4hYI",
+      "Q05EJGOhJqk",
+      "0Yz91kiW_Og",
+      "HA7hUvUYnmA",
+      "a-pO8YeneH8",
+      "LplazfTMrUM",
+      "6ObdC-n8J8Y",
+      "Y_T2t7qMKCw",
+      "NVFwZBd0cDM",
+      "AVfAfYEA8ZI",
       "fw9Xuq58hHo",
       "tkBWk86MLF0",
+      "H3PDoUYnhaU",
       "czKSmdkWlPc",
       "eXbw5ITTz9A",
       "nbK5xyPwnnw",
       "BAo0cuTAJ7c",
+      "dzhI9qaS1Ro",
       "Mz48Rnbthto",
       "mhiKee3KVOc",
       "oyhO2Q-xGZI",
       "YPPvw_l9UmQ",
+      "Qibx7aWDSnE",
+      "_8b_rn_i42A",
       "8ynyNZNXCxc",
       "8lB9FO9S0FY",
+      "DGvDQ9dF3ck",
       "QKwfgxxOlwk",
+      "oMTKR1sAXlw",
+      "hWVH_PC2wYI",
       "SFkLkrpALes",
+      "6VA1SaRd2M4",
+      "zZQJnH4hGnc",
+      "VG_wIzBt2i8",
       "JUGcoazK8Ko",
       "JvgQyF1EVUg",
       "oVlfOeZXRAU",
       "CunYyIrLr2E",
       "didIRhqG6gU",
       "bCHgSXjgknY",
+      "SmXTJkRa5HI",
       "WxyHnU8LiOs",
       "m5_zssrnyhk",
+      "joee00NlxFQ",
+      "rtrzs8ZbXV8",
       "_hqJloPujMs",
+      "GMCDtG28_eA",
       "Zjnkwlz9xQo",
+      "zbQrl6SYdRc",
       "HXKdI7zhXg8",
+      "OFZ7tedsSwE",
       "y4rmoxzhUZc",
       "UjqzcPeeUCc",
       "6K9ShXjwuSg",
       "dColmVv0B6w",
+      "yTiGbIkKa-M",
       "hIp718f8mPE",
       "IWFll7K9AoM",
       "cs88Ay9dbBs",
@@ -2388,27 +2933,36 @@
       "05J_yth9cTo",
       "tclOr2BoFq8",
       "33j1NrBpJ6c",
+      "k4xXAvaPKrA",
       "qH3RJ3KbsZU",
       "2hteYLfmv9c",
       "EHF7sCOG-qU",
+      "kOEQGxz0OK0",
       "3GOMpYylHX8",
+      "_INhsLkPKZA",
+      "_cMyR2Tsnlg",
+      "5pRbTYTPaWA",
       "6sIGCi6YyX4",
       "87_xQNAsNN0",
       "iCFNSgxObCU"
     ]
   },
   "jatim": {
-    "news_today": 5,
-    "negative_today": 2,
+    "news_today": 7,
+    "negative_today": 3,
     "positive_today": 1,
     "case_scope_today": 0,
-    "neutral_today": 2,
-    "case_today": 2,
+    "neutral_today": 3,
+    "case_today": 3,
     "case_high_active": 0,
     "article_high_today": 0,
     "outside_jatim_today": 5
   },
   "regions": [
+    {
+      "name": "Sampang",
+      "count": 2
+    },
     {
       "name": "Tulungagung",
       "count": 2
@@ -2428,6 +2982,10 @@
   ],
   "polres": [
     {
+      "name": "POLRES SAMPANG",
+      "count": 1
+    },
+    {
       "name": "POLRES JEMBER",
       "count": 1
     },
@@ -2439,14 +2997,14 @@
   "categories": [
     {
       "name": "NETRAL / LAINNYA",
+      "count": 3
+    },
+    {
+      "name": "NEGATIF - NARKOBA / NARKOTIKA",
       "count": 2
     },
     {
       "name": "POSITIF / PENEGAKAN HUKUM",
-      "count": 1
-    },
-    {
-      "name": "NEGATIF - NARKOBA / NARKOTIKA",
       "count": 1
     },
     {
@@ -2455,19 +3013,19 @@
     }
   ],
   "summary": {
-    "news_today": 10,
-    "negative_today": 3,
-    "cases_today": 3,
+    "news_today": 12,
+    "negative_today": 4,
+    "cases_today": 4,
     "priority_high": 0,
     "article_priority_high": 0,
-    "jatim_news": 5,
-    "jatim_negative": 2,
+    "jatim_news": 7,
+    "jatim_negative": 3,
     "jatim_positive": 1,
     "jatim_case_scope": 0,
-    "jatim_neutral": 2,
-    "jatim_cases_today": 2,
+    "jatim_neutral": 3,
+    "jatim_cases_today": 3,
     "jatim_case_high_active": 0,
     "luar_jatim_news": 5,
-    "youtube_today": 50
+    "youtube_today": 99
   }
 }
