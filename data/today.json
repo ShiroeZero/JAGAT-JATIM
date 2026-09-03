@@ -2,18 +2,24 @@
   "schema_version": "today-v3",
   "date": "2026-09-03",
   "timezone": "Asia/Jakarta",
-  "updated_at": "2026-09-03T05:04:38.226321+07:00",
-  "last_successful_update": "2026-09-03T05:04:38.226321+07:00",
+  "updated_at": "2026-09-03T07:27:45.294826+07:00",
+  "last_successful_update": "2026-09-03T07:27:45.294826+07:00",
   "news": {
-    "detected": 12,
-    "negative": 4,
-    "positive": 2,
+    "detected": 18,
+    "negative": 6,
+    "positive": 3,
     "case": 0,
-    "neutral": 6,
-    "jatim": 7,
-    "luar_jatim": 5,
+    "neutral": 9,
+    "jatim": 8,
+    "luar_jatim": 10,
     "priority_high": 0,
     "article_ids": [
+      "0014799468ff2478908ab7ba95575e23fdf1d488",
+      "0dc13faaeb42b53e143360f241450b9c29d3c1e0",
+      "c41feea352757899a927ccffa4bbf186f0af21f2",
+      "4e8dfc58e4699883660657a9f06d335d4b2f212a",
+      "15706c3582746bcdbe0580419be46202419ab3c3",
+      "5bb9136251ddd5b9b646dddf39930ed88ade2fed",
       "22f037835eb393f50d09749d874b715c2bc2e71a",
       "2b7b75e2ac668bca37400b89669af494b27909c6",
       "156dd467c8e13eaa434391eda5fe0d2497d3c9a8",
@@ -29,6 +35,428 @@
     ],
     "items": [
       {
+        "id": "0014799468ff2478908ab7ba95575e23fdf1d488",
+        "title": "Mayat Pria Ditemukan Mengapung di Waduk Tunggu Pampang Makassar, Polisi: Tak Ada Tanda Kekerasan - Kompas.com",
+        "url": "https://makassar.kompas.com/read/2026/09/03/070600478/mayat-pria-ditemukan-mengapung-di-waduk-tunggu-pampang-makassar-polisi-tak",
+        "source": "Kompas.com",
+        "published_at": "2026-09-03T00:06:00+00:00",
+        "collected_at": "2026-09-03T00:18:44.805262+00:00",
+        "region": "BELUM TERPETAKAN",
+        "area_label": "BELUM TERPETAKAN",
+        "is_jatim": null,
+        "polres": null,
+        "category": "NETRAL / LAINNYA",
+        "scope": "neutral",
+        "scope_label": "Netral",
+        "priority": "low",
+        "summary": "Mayat Pria Ditemukan Mengapung di Waduk Tunggu Pampang Makassar, Polisi: Tak Ada Tanda Kekerasan Kompas.com",
+        "processing_status": "processed",
+        "classifier_version": "news-v6",
+        "classified_at": "2026-09-03T00:18:44.805262+00:00",
+        "case_id": null,
+        "discovery_families": [],
+        "discovery_tags": [],
+        "discovery_hits": [],
+        "discovery_version": "discovery-v6.5.4",
+        "google_news_url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQSHh1QUFCUEx2ZzdGVUVDUlpadXVpZ0Y0RXVKRlFCRGtvT1B3Z1c0MmdYeF9VOTZBVl85aTRwR3Bpa2ttbGJFdDU4TXFyTHo3eTJldFZKZ1laRmx2VUtSWFZyYkFWcW5GTTkyQXZNSkpCZFk2TkZnRjZkRHUzN0h1aXp2czNIdWpVRzhtQ2VJUzZnbGpQenNLUTBtT3h6YVlFVlJPODFBWG5pR2hacVViSUU3c2JNSW12U2thc2ZESHZQR3FGTmIw?oc=5",
+        "original_url": "https://makassar.kompas.com/read/2026/09/03/070600478/mayat-pria-ditemukan-mengapung-di-waduk-tunggu-pampang-makassar-polisi-tak",
+        "locality": "",
+        "polsek": null,
+        "location_confidence": 0,
+        "location_evidence": [],
+        "location_status": "BELUM_TERPETAKAN",
+        "location_source": "title",
+        "issue_type": "UMUM",
+        "issue_subtype": "Belum Teridentifikasi",
+        "issue_evidence": [],
+        "handling_status": "BELUM_ADA_INFORMASI",
+        "handling_evidence": [],
+        "attention_score": 7,
+        "attention_label": "Rendah",
+        "attention_components": {
+          "severity": 2,
+          "polri_relation": 0,
+          "authority": 0,
+          "public_impact": 4,
+          "handling": 0,
+          "evidence": 1,
+          "context_risk": 0,
+          "routine_enforcement_cap": null
+        },
+        "attention_evidence": {
+          "severity": [],
+          "authority": [],
+          "public_impact": [],
+          "evidence": [
+            "satu sumber / informasi awal"
+          ],
+          "role": [],
+          "issue": [],
+          "handling": [],
+          "context": [],
+          "positive": []
+        },
+        "case_engine_version": "case-v6.5.4",
+        "case_processed_at": "2026-09-03T00:24:05.129629+00:00"
+      },
+      {
+        "id": "0dc13faaeb42b53e143360f241450b9c29d3c1e0",
+        "title": "Sejumlah Petugas Polisi Terluka dalam Insiden Penembakan di Minneapolis - mediaindonesia.com",
+        "url": "https://mediaindonesia.com/internasional/929126/sejumlah-petugas-polisi-terluka-dalam-insiden-penembakan-di-minneapolis",
+        "source": "mediaindonesia.com",
+        "published_at": "2026-09-03T00:01:26+00:00",
+        "collected_at": "2026-09-03T00:18:44.805262+00:00",
+        "region": "BELUM TERPETAKAN",
+        "area_label": "BELUM TERPETAKAN",
+        "is_jatim": null,
+        "polres": null,
+        "category": "NEGATIF - KEKERASAN / PENGGUNAAN KEKUATAN",
+        "scope": "negative",
+        "scope_label": "Negatif",
+        "priority": "low",
+        "summary": "Sejumlah Petugas Polisi Terluka dalam Insiden Penembakan di Minneapolis mediaindonesia.com",
+        "processing_status": "processed",
+        "classifier_version": "news-v6",
+        "classified_at": "2026-09-03T00:18:44.805262+00:00",
+        "case_id": "CASE-000761",
+        "discovery_families": [
+          "security_public_order"
+        ],
+        "discovery_tags": [
+          "public_order",
+          "security"
+        ],
+        "discovery_hits": [
+          "polisi terluka"
+        ],
+        "discovery_version": "discovery-v6.5.4",
+        "google_news_url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNZUdhUEJRYkhlT2VPZ0dleWxYZllUVFB4V2hDMEtSQUtobFVFWjZWcTdqbFZvcjgyUXBNYzl2allLbTlkR3l0T1hndW5zaEhydnVEWHQxNFlJaE54Q1hWa2VXcWRtMndLVVcxbk91MVpZSkVzYVdTd0RDT19xYWphYmVQRXA2cmtqajFYUzJmS1ItTkZseXhVM1J1OVdtWHNVRnVsVnBtQTlMSzhiOFo1MFpIa0JPZFpBNFFN?oc=5",
+        "original_url": "https://mediaindonesia.com/internasional/929126/sejumlah-petugas-polisi-terluka-dalam-insiden-penembakan-di-minneapolis",
+        "locality": "",
+        "polsek": null,
+        "location_confidence": 0,
+        "location_evidence": [],
+        "location_status": "BELUM_TERPETAKAN",
+        "location_source": "title",
+        "issue_type": "KEKERASAN_DAN_KEKUATAN",
+        "issue_subtype": "Kekerasan / Penggunaan Kekuatan",
+        "issue_evidence": [
+          "penembakan"
+        ],
+        "handling_status": "BELUM_ADA_INFORMASI",
+        "handling_evidence": [],
+        "attention_score": 25,
+        "attention_label": "Rendah",
+        "attention_components": {
+          "severity": 14,
+          "polri_relation": 6,
+          "authority": 0,
+          "public_impact": 4,
+          "handling": 0,
+          "evidence": 1,
+          "context_risk": 0,
+          "routine_enforcement_cap": null
+        },
+        "attention_evidence": {
+          "severity": [
+            "kekerasan berat"
+          ],
+          "authority": [],
+          "public_impact": [],
+          "evidence": [
+            "satu sumber / informasi awal"
+          ],
+          "role": [
+            "Polisi sebagai korban"
+          ],
+          "issue": [
+            "penembakan"
+          ],
+          "handling": [],
+          "context": [],
+          "positive": []
+        },
+        "case_engine_version": "case-v6.5.4",
+        "case_processed_at": "2026-09-03T00:27:44.251363+00:00"
+      },
+      {
+        "id": "c41feea352757899a927ccffa4bbf186f0af21f2",
+        "title": "Polisi Gagalkan Pencurian Kabel Tower di Kediri, Dua Pria Ditangkap - Jurnal Jatim",
+        "url": "https://jurnaljatim.com/2026/09/polisi-gagalkan-pencurian-kabel-tower-di-kediri-dua-pria-ditangkap/",
+        "source": "Jurnal Jatim",
+        "published_at": "2026-09-02T23:47:15+00:00",
+        "collected_at": "2026-09-03T00:18:44.805262+00:00",
+        "region": "Jawa Timur",
+        "area_label": "Kediri",
+        "is_jatim": true,
+        "polres": null,
+        "category": "POSITIF / PENEGAKAN HUKUM",
+        "scope": "positive",
+        "scope_label": "Positif",
+        "priority": "low",
+        "summary": "Polisi Gagalkan Pencurian Kabel Tower di Kediri, Dua Pria Ditangkap Jurnal Jatim",
+        "processing_status": "processed",
+        "classifier_version": "news-v6",
+        "classified_at": "2026-09-03T00:18:44.805262+00:00",
+        "case_id": null,
+        "discovery_families": [],
+        "discovery_tags": [],
+        "discovery_hits": [],
+        "discovery_version": "discovery-v6.5.4",
+        "google_news_url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQVElJcThrWDZwWHlwNjNYelpBamFDWDRZT2RwUTlsWGNiVE9sZGxSUFRiOUdFeGw0eXM2cm4xNWtTbkNfbzdJZDRDSVREdkZfeW1NeEJUUE9rUERUdG4yYmppckhrbmNYbzd3czdSU21vMzlndXZDM3UzUnVVQjdGdWtBMlZYZHJES0ZMT2UtRmxXWkZncXFKNlh6R25ScjIz?oc=5",
+        "original_url": "https://jurnaljatim.com/2026/09/polisi-gagalkan-pencurian-kabel-tower-di-kediri-dua-pria-ditangkap/",
+        "locality": "Kediri",
+        "polsek": null,
+        "location_confidence": 95,
+        "location_evidence": [
+          "Kediri"
+        ],
+        "location_status": "JAWA_TIMUR",
+        "location_source": "title",
+        "issue_type": "UMUM",
+        "issue_subtype": "Belum Teridentifikasi",
+        "issue_evidence": [],
+        "handling_status": "BELUM_ADA_INFORMASI",
+        "handling_evidence": [],
+        "attention_score": 9,
+        "attention_label": "Rendah",
+        "attention_components": {
+          "severity": 2,
+          "polri_relation": 2,
+          "authority": 0,
+          "public_impact": 4,
+          "handling": 0,
+          "evidence": 1,
+          "context_risk": 0,
+          "routine_enforcement_cap": 35
+        },
+        "attention_evidence": {
+          "severity": [],
+          "authority": [],
+          "public_impact": [],
+          "evidence": [
+            "satu sumber / informasi awal"
+          ],
+          "role": [
+            "Polri sebagai pihak penindak"
+          ],
+          "issue": [],
+          "handling": [],
+          "context": [],
+          "positive": []
+        },
+        "case_engine_version": "case-v6.5.4",
+        "case_processed_at": "2026-09-03T00:24:05.274212+00:00"
+      },
+      {
+        "id": "4e8dfc58e4699883660657a9f06d335d4b2f212a",
+        "title": "Terduga Pelaku Janjikan Lolos Polri ditangkap polres Meranti - Radargep.com",
+        "url": "https://radargep.com/terduga-pelaku-janjikan-lolos-polri-ditangkap-polres-meranti.html",
+        "source": "Radargep.com",
+        "published_at": "2026-09-02T23:25:23+00:00",
+        "collected_at": "2026-09-03T00:18:44.805262+00:00",
+        "region": "BELUM TERPETAKAN",
+        "area_label": "BELUM TERPETAKAN",
+        "is_jatim": null,
+        "polres": null,
+        "category": "NETRAL / LAINNYA",
+        "scope": "neutral",
+        "scope_label": "Netral",
+        "priority": "low",
+        "summary": "Terduga Pelaku Janjikan Lolos Polri ditangkap polres Meranti Radargep.com",
+        "processing_status": "processed",
+        "classifier_version": "news-v6",
+        "classified_at": "2026-09-03T00:18:44.805262+00:00",
+        "case_id": null,
+        "discovery_families": [],
+        "discovery_tags": [],
+        "discovery_hits": [],
+        "discovery_version": "discovery-v6.5.4",
+        "google_news_url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQUlJUd1hPdng3elNvSXBQTTh0Y0FtQXZWTGpxcEp4bnBOVkQ4eHlFZTVraXVwWEVOWmpRbTN3d1FvODZxWUlCeHd1VmN4a3RHN1p4LVN6UVpDb3IxT2kxMDJUWUNoYWlSQlRzUW91X0FKTV80WGlpT0dBTjZjakVsUXg0VkM2bkdnWUs4VkhCWQ?oc=5",
+        "original_url": "https://radargep.com/terduga-pelaku-janjikan-lolos-polri-ditangkap-polres-meranti.html",
+        "locality": "",
+        "polsek": null,
+        "location_confidence": 0,
+        "location_evidence": [],
+        "location_status": "BELUM_TERPETAKAN",
+        "location_source": "title",
+        "issue_type": "UMUM",
+        "issue_subtype": "Belum Teridentifikasi",
+        "issue_evidence": [],
+        "handling_status": "BELUM_ADA_INFORMASI",
+        "handling_evidence": [],
+        "attention_score": 7,
+        "attention_label": "Rendah",
+        "attention_components": {
+          "severity": 2,
+          "polri_relation": 0,
+          "authority": 0,
+          "public_impact": 4,
+          "handling": 0,
+          "evidence": 1,
+          "context_risk": 0,
+          "routine_enforcement_cap": null
+        },
+        "attention_evidence": {
+          "severity": [],
+          "authority": [],
+          "public_impact": [],
+          "evidence": [
+            "satu sumber / informasi awal"
+          ],
+          "role": [],
+          "issue": [],
+          "handling": [],
+          "context": [],
+          "positive": []
+        },
+        "case_engine_version": "case-v6.5.4",
+        "case_processed_at": "2026-09-03T00:24:05.398860+00:00"
+      },
+      {
+        "id": "15706c3582746bcdbe0580419be46202419ab3c3",
+        "title": "Sebulan Berlalu, Ketua DPRD Bone Terlapor Aniaya Staf Mangkir Panggilan Polisi - detikcom",
+        "url": "https://www.detik.com/sulsel/watampone/d-8645906/sebulan-berlalu-ketua-dprd-bone-terlapor-aniaya-staf-mangkir-panggilan-polisi",
+        "source": "detikcom",
+        "published_at": "2026-09-02T22:45:55+00:00",
+        "collected_at": "2026-09-03T00:18:44.805262+00:00",
+        "region": "BELUM TERPETAKAN",
+        "area_label": "BELUM TERPETAKAN",
+        "is_jatim": null,
+        "polres": null,
+        "category": "NETRAL / LAINNYA",
+        "scope": "neutral",
+        "scope_label": "Netral",
+        "priority": "low",
+        "summary": "Sebulan Berlalu, Ketua DPRD Bone Terlapor Aniaya Staf Mangkir Panggilan Polisi detikcom",
+        "processing_status": "processed",
+        "classifier_version": "news-v6",
+        "classified_at": "2026-09-03T00:18:44.805262+00:00",
+        "case_id": null,
+        "discovery_families": [],
+        "discovery_tags": [],
+        "discovery_hits": [],
+        "discovery_version": "discovery-v6.5.4",
+        "google_news_url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPZlE5U3d2dVVBQ3JPZXo1bEFfaWdBTFdBV2phZ0Y3WlFjXy1KMWRtLWNRSWl4QUxSQkFwanFESnBCcTVMYlJSSWdkR2N5aFE3am9wVkZkejEtTXVYbW1CVHFRRFpEZXM0REk3X3RwdDhOTWNsQjQxa25uclRVTzVQNHBTeFZSWU85S1JjYmhYbzN5UC1HMEpCQ09uazVGb3dtcllyU1Frd3owdFFBM1JTRmZhY1Q2U2pEeUhGTU1TVkUtN0ND0gHKAUFVX3lxTE51NTVuM2Ywa09rNmpqbUhPZHRVcy04ckZCUjIxVWtIQ2J0eE1XZjI3OVc5dlh1aUVxNjJoT1hMaEc4OHpOZklYTFM5TGdJaS1vdXZGa0RrZEd3QmtqelJJRFBhNVM4WHdyLVRxWURkc3JrSHRoekpTbDhSLW9kRGR0VnpOOTlfMHkyUXRYaW9mM2tLRTZ6R3pZNlBSQWZYdmxRUGlxdTE4WElVUGRQYXp0SUNiMk9EeE9ZN2JKYk9iLTM0NzBWLUtEaEE?oc=5",
+        "original_url": "https://www.detik.com/sulsel/watampone/d-8645906/sebulan-berlalu-ketua-dprd-bone-terlapor-aniaya-staf-mangkir-panggilan-polisi",
+        "locality": "",
+        "polsek": null,
+        "location_confidence": 0,
+        "location_evidence": [],
+        "location_status": "BELUM_TERPETAKAN",
+        "location_source": "title",
+        "issue_type": "UMUM",
+        "issue_subtype": "Belum Teridentifikasi",
+        "issue_evidence": [],
+        "handling_status": "BELUM_ADA_INFORMASI",
+        "handling_evidence": [],
+        "attention_score": 7,
+        "attention_label": "Rendah",
+        "attention_components": {
+          "severity": 2,
+          "polri_relation": 0,
+          "authority": 0,
+          "public_impact": 4,
+          "handling": 0,
+          "evidence": 1,
+          "context_risk": 0,
+          "routine_enforcement_cap": null
+        },
+        "attention_evidence": {
+          "severity": [],
+          "authority": [],
+          "public_impact": [],
+          "evidence": [
+            "satu sumber / informasi awal"
+          ],
+          "role": [],
+          "issue": [],
+          "handling": [],
+          "context": [],
+          "positive": []
+        },
+        "case_engine_version": "case-v6.5.4",
+        "case_processed_at": "2026-09-03T00:24:05.516246+00:00"
+      },
+      {
+        "id": "5bb9136251ddd5b9b646dddf39930ed88ade2fed",
+        "title": "500 Kg Sianida Haji Hartini Diduga “Menguap”, Oknum Polisi Terseret - Tribun Maluku",
+        "url": "https://www.tribun-maluku.com/500-kg-sianida-haji-hartini-diduga-menguap-oknum-polisi-terseret/09/03/",
+        "source": "Tribun Maluku",
+        "published_at": "2026-09-02T22:32:40+00:00",
+        "collected_at": "2026-09-03T00:18:44.805262+00:00",
+        "region": "BELUM TERPETAKAN",
+        "area_label": "BELUM TERPETAKAN",
+        "is_jatim": null,
+        "polres": null,
+        "category": "NEGATIF - BELUM TERIDENTIFIKASI",
+        "scope": "negative",
+        "scope_label": "Negatif",
+        "priority": "low",
+        "summary": "500 Kg Sianida Haji Hartini Diduga “Menguap”, Oknum Polisi Terseret Tribun Maluku",
+        "processing_status": "processed",
+        "classifier_version": "news-v6",
+        "classified_at": "2026-09-03T00:18:44.805262+00:00",
+        "case_id": "CASE-000762",
+        "discovery_families": [
+          "general_police_misconduct"
+        ],
+        "discovery_tags": [
+          "ethics",
+          "oknum"
+        ],
+        "discovery_hits": [
+          "oknum polisi"
+        ],
+        "discovery_version": "discovery-v6.5.4",
+        "google_news_url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxORUZzTk9jczZScnltUE0yWjM2WW9LRjZZUGlwc1BGX1FRYTlCbFZGbS1SV1NGYWZIQWJIWFcyWFpwZ3hPSEFfdkpWT3JRQ3JEa0RIbXBkb2VyM0tWRnFSckJLc0dmQ3B0M0VvN212QzJhNUN6ZEl4cUFSY21wcGRXeEI4eWhyaW9hcUtWalRxbmZnOFZuMnpVVHJYVTZ6RTlxV2VR?oc=5",
+        "original_url": "https://www.tribun-maluku.com/500-kg-sianida-haji-hartini-diduga-menguap-oknum-polisi-terseret/09/03/",
+        "locality": "",
+        "polsek": null,
+        "location_confidence": 0,
+        "location_evidence": [],
+        "location_status": "BELUM_TERPETAKAN",
+        "location_source": "title",
+        "issue_type": "UMUM",
+        "issue_subtype": "Belum Teridentifikasi",
+        "issue_evidence": [],
+        "handling_status": "BELUM_ADA_INFORMASI",
+        "handling_evidence": [],
+        "attention_score": 29,
+        "attention_label": "Rendah",
+        "attention_components": {
+          "severity": 2,
+          "polri_relation": 16,
+          "authority": 0,
+          "public_impact": 10,
+          "handling": 0,
+          "evidence": 1,
+          "context_risk": 0,
+          "routine_enforcement_cap": null
+        },
+        "attention_evidence": {
+          "severity": [],
+          "authority": [
+            "oknum polisi"
+          ],
+          "public_impact": [
+            "dampak institusional"
+          ],
+          "evidence": [
+            "satu sumber / informasi awal"
+          ],
+          "role": [
+            "Polri/personel menjadi subjek permasalahan"
+          ],
+          "issue": [],
+          "handling": [],
+          "context": [],
+          "positive": []
+        },
+        "case_engine_version": "case-v6.5.4",
+        "case_processed_at": "2026-09-03T00:27:44.251367+00:00"
+      },
+      {
         "id": "22f037835eb393f50d09749d874b715c2bc2e71a",
         "title": "Kapolres Sampang Gelar Kunjungan Kerja ke Polsek Camplong - RRI.co.id",
         "url": "https://rri.co.id/sampang/regional/2703102/kapolres-sampang-gelar-kunjungan-kerja-ke-polsek-camplong",
@@ -96,7 +524,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-09-02T21:58:00.800566+00:00"
+        "case_processed_at": "2026-09-03T00:24:05.637009+00:00"
       },
       {
         "id": "2b7b75e2ac668bca37400b89669af494b27909c6",
@@ -168,7 +596,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-09-02T22:04:36.648041+00:00"
+        "case_processed_at": "2026-09-03T00:27:44.251370+00:00"
       },
       {
         "id": "156dd467c8e13eaa434391eda5fe0d2497d3c9a8",
@@ -237,7 +665,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-09-02T21:58:01.077634+00:00"
+        "case_processed_at": "2026-09-03T00:24:05.788152+00:00"
       },
       {
         "id": "ec01044ac9b762d28624725a680007ec945f2e72",
@@ -304,7 +732,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-09-02T21:58:01.333877+00:00"
+        "case_processed_at": "2026-09-03T00:24:05.928777+00:00"
       },
       {
         "id": "83da8184568fb7e4343e81d7e2b08bfa3b8f1a3b",
@@ -376,7 +804,7 @@
           ]
         },
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-09-02T21:58:01.613669+00:00"
+        "case_processed_at": "2026-09-03T00:24:06.080667+00:00"
       },
       {
         "id": "daa3aca621cbc98caa345111a8a661bec7cceca8",
@@ -449,7 +877,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-09-02T22:04:36.648048+00:00"
+        "case_processed_at": "2026-09-03T00:27:44.251373+00:00"
       },
       {
         "id": "6156fd3167b613093aed939c984135bc57f46d7d",
@@ -522,7 +950,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-09-02T22:04:36.648052+00:00"
+        "case_processed_at": "2026-09-03T00:27:44.251375+00:00"
       },
       {
         "id": "8e2d22e124d19621ec595fa644a12d07ed5a87db",
@@ -589,7 +1017,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-09-02T21:58:01.801244+00:00"
+        "case_processed_at": "2026-09-03T00:24:06.183565+00:00"
       },
       {
         "id": "7887cb1a0ced8e9da872aa11e3bf390d2f6a79b8",
@@ -659,7 +1087,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-09-02T21:58:02.065165+00:00"
+        "case_processed_at": "2026-09-03T00:24:06.326538+00:00"
       },
       {
         "id": "9b56bcc209b38fb95b5adb969c62fac7e8167488",
@@ -728,7 +1156,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-09-02T21:58:02.310610+00:00"
+        "case_processed_at": "2026-09-03T00:24:06.493527+00:00"
       },
       {
         "id": "5c5901c0e7ba05c55eaeea23897db20739e1b22a",
@@ -801,7 +1229,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-09-02T22:04:36.648055+00:00"
+        "case_processed_at": "2026-09-03T00:27:44.251378+00:00"
       },
       {
         "id": "0969a2fde602adae96fea937937f2ddc1053a58b",
@@ -868,11 +1296,80 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-09-02T21:58:02.537233+00:00"
+        "case_processed_at": "2026-09-03T00:24:06.633571+00:00"
       }
     ],
     "jatim_items": [
       {
+        "id": "c41feea352757899a927ccffa4bbf186f0af21f2",
+        "title": "Polisi Gagalkan Pencurian Kabel Tower di Kediri, Dua Pria Ditangkap - Jurnal Jatim",
+        "url": "https://jurnaljatim.com/2026/09/polisi-gagalkan-pencurian-kabel-tower-di-kediri-dua-pria-ditangkap/",
+        "source": "Jurnal Jatim",
+        "published_at": "2026-09-02T23:47:15+00:00",
+        "collected_at": "2026-09-03T00:18:44.805262+00:00",
+        "region": "Jawa Timur",
+        "area_label": "Kediri",
+        "is_jatim": true,
+        "polres": null,
+        "category": "POSITIF / PENEGAKAN HUKUM",
+        "scope": "positive",
+        "scope_label": "Positif",
+        "priority": "low",
+        "summary": "Polisi Gagalkan Pencurian Kabel Tower di Kediri, Dua Pria Ditangkap Jurnal Jatim",
+        "processing_status": "processed",
+        "classifier_version": "news-v6",
+        "classified_at": "2026-09-03T00:18:44.805262+00:00",
+        "case_id": null,
+        "discovery_families": [],
+        "discovery_tags": [],
+        "discovery_hits": [],
+        "discovery_version": "discovery-v6.5.4",
+        "google_news_url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQVElJcThrWDZwWHlwNjNYelpBamFDWDRZT2RwUTlsWGNiVE9sZGxSUFRiOUdFeGw0eXM2cm4xNWtTbkNfbzdJZDRDSVREdkZfeW1NeEJUUE9rUERUdG4yYmppckhrbmNYbzd3czdSU21vMzlndXZDM3UzUnVVQjdGdWtBMlZYZHJES0ZMT2UtRmxXWkZncXFKNlh6R25ScjIz?oc=5",
+        "original_url": "https://jurnaljatim.com/2026/09/polisi-gagalkan-pencurian-kabel-tower-di-kediri-dua-pria-ditangkap/",
+        "locality": "Kediri",
+        "polsek": null,
+        "location_confidence": 95,
+        "location_evidence": [
+          "Kediri"
+        ],
+        "location_status": "JAWA_TIMUR",
+        "location_source": "title",
+        "issue_type": "UMUM",
+        "issue_subtype": "Belum Teridentifikasi",
+        "issue_evidence": [],
+        "handling_status": "BELUM_ADA_INFORMASI",
+        "handling_evidence": [],
+        "attention_score": 9,
+        "attention_label": "Rendah",
+        "attention_components": {
+          "severity": 2,
+          "polri_relation": 2,
+          "authority": 0,
+          "public_impact": 4,
+          "handling": 0,
+          "evidence": 1,
+          "context_risk": 0,
+          "routine_enforcement_cap": 35
+        },
+        "attention_evidence": {
+          "severity": [],
+          "authority": [],
+          "public_impact": [],
+          "evidence": [
+            "satu sumber / informasi awal"
+          ],
+          "role": [
+            "Polri sebagai pihak penindak"
+          ],
+          "issue": [],
+          "handling": [],
+          "context": [],
+          "positive": []
+        },
+        "case_engine_version": "case-v6.5.4",
+        "case_processed_at": "2026-09-03T00:24:05.274212+00:00"
+      },
+      {
         "id": "22f037835eb393f50d09749d874b715c2bc2e71a",
         "title": "Kapolres Sampang Gelar Kunjungan Kerja ke Polsek Camplong - RRI.co.id",
         "url": "https://rri.co.id/sampang/regional/2703102/kapolres-sampang-gelar-kunjungan-kerja-ke-polsek-camplong",
@@ -940,7 +1437,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-09-02T21:58:00.800566+00:00"
+        "case_processed_at": "2026-09-03T00:24:05.637009+00:00"
       },
       {
         "id": "2b7b75e2ac668bca37400b89669af494b27909c6",
@@ -1012,7 +1509,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-09-02T22:04:36.648041+00:00"
+        "case_processed_at": "2026-09-03T00:27:44.251370+00:00"
       },
       {
         "id": "83da8184568fb7e4343e81d7e2b08bfa3b8f1a3b",
@@ -1084,7 +1581,7 @@
           ]
         },
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-09-02T21:58:01.613669+00:00"
+        "case_processed_at": "2026-09-03T00:24:06.080667+00:00"
       },
       {
         "id": "daa3aca621cbc98caa345111a8a661bec7cceca8",
@@ -1157,7 +1654,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-09-02T22:04:36.648048+00:00"
+        "case_processed_at": "2026-09-03T00:27:44.251373+00:00"
       },
       {
         "id": "7887cb1a0ced8e9da872aa11e3bf390d2f6a79b8",
@@ -1227,7 +1724,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-09-02T21:58:02.065165+00:00"
+        "case_processed_at": "2026-09-03T00:24:06.326538+00:00"
       },
       {
         "id": "9b56bcc209b38fb95b5adb969c62fac7e8167488",
@@ -1296,7 +1793,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-09-02T21:58:02.310610+00:00"
+        "case_processed_at": "2026-09-03T00:24:06.493527+00:00"
       },
       {
         "id": "5c5901c0e7ba05c55eaeea23897db20739e1b22a",
@@ -1369,10 +1866,363 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-09-02T22:04:36.648055+00:00"
+        "case_processed_at": "2026-09-03T00:27:44.251378+00:00"
       }
     ],
     "luar_jatim_items": [
+      {
+        "id": "0014799468ff2478908ab7ba95575e23fdf1d488",
+        "title": "Mayat Pria Ditemukan Mengapung di Waduk Tunggu Pampang Makassar, Polisi: Tak Ada Tanda Kekerasan - Kompas.com",
+        "url": "https://makassar.kompas.com/read/2026/09/03/070600478/mayat-pria-ditemukan-mengapung-di-waduk-tunggu-pampang-makassar-polisi-tak",
+        "source": "Kompas.com",
+        "published_at": "2026-09-03T00:06:00+00:00",
+        "collected_at": "2026-09-03T00:18:44.805262+00:00",
+        "region": "BELUM TERPETAKAN",
+        "area_label": "BELUM TERPETAKAN",
+        "is_jatim": null,
+        "polres": null,
+        "category": "NETRAL / LAINNYA",
+        "scope": "neutral",
+        "scope_label": "Netral",
+        "priority": "low",
+        "summary": "Mayat Pria Ditemukan Mengapung di Waduk Tunggu Pampang Makassar, Polisi: Tak Ada Tanda Kekerasan Kompas.com",
+        "processing_status": "processed",
+        "classifier_version": "news-v6",
+        "classified_at": "2026-09-03T00:18:44.805262+00:00",
+        "case_id": null,
+        "discovery_families": [],
+        "discovery_tags": [],
+        "discovery_hits": [],
+        "discovery_version": "discovery-v6.5.4",
+        "google_news_url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQSHh1QUFCUEx2ZzdGVUVDUlpadXVpZ0Y0RXVKRlFCRGtvT1B3Z1c0MmdYeF9VOTZBVl85aTRwR3Bpa2ttbGJFdDU4TXFyTHo3eTJldFZKZ1laRmx2VUtSWFZyYkFWcW5GTTkyQXZNSkpCZFk2TkZnRjZkRHUzN0h1aXp2czNIdWpVRzhtQ2VJUzZnbGpQenNLUTBtT3h6YVlFVlJPODFBWG5pR2hacVViSUU3c2JNSW12U2thc2ZESHZQR3FGTmIw?oc=5",
+        "original_url": "https://makassar.kompas.com/read/2026/09/03/070600478/mayat-pria-ditemukan-mengapung-di-waduk-tunggu-pampang-makassar-polisi-tak",
+        "locality": "",
+        "polsek": null,
+        "location_confidence": 0,
+        "location_evidence": [],
+        "location_status": "BELUM_TERPETAKAN",
+        "location_source": "title",
+        "issue_type": "UMUM",
+        "issue_subtype": "Belum Teridentifikasi",
+        "issue_evidence": [],
+        "handling_status": "BELUM_ADA_INFORMASI",
+        "handling_evidence": [],
+        "attention_score": 7,
+        "attention_label": "Rendah",
+        "attention_components": {
+          "severity": 2,
+          "polri_relation": 0,
+          "authority": 0,
+          "public_impact": 4,
+          "handling": 0,
+          "evidence": 1,
+          "context_risk": 0,
+          "routine_enforcement_cap": null
+        },
+        "attention_evidence": {
+          "severity": [],
+          "authority": [],
+          "public_impact": [],
+          "evidence": [
+            "satu sumber / informasi awal"
+          ],
+          "role": [],
+          "issue": [],
+          "handling": [],
+          "context": [],
+          "positive": []
+        },
+        "case_engine_version": "case-v6.5.4",
+        "case_processed_at": "2026-09-03T00:24:05.129629+00:00"
+      },
+      {
+        "id": "0dc13faaeb42b53e143360f241450b9c29d3c1e0",
+        "title": "Sejumlah Petugas Polisi Terluka dalam Insiden Penembakan di Minneapolis - mediaindonesia.com",
+        "url": "https://mediaindonesia.com/internasional/929126/sejumlah-petugas-polisi-terluka-dalam-insiden-penembakan-di-minneapolis",
+        "source": "mediaindonesia.com",
+        "published_at": "2026-09-03T00:01:26+00:00",
+        "collected_at": "2026-09-03T00:18:44.805262+00:00",
+        "region": "BELUM TERPETAKAN",
+        "area_label": "BELUM TERPETAKAN",
+        "is_jatim": null,
+        "polres": null,
+        "category": "NEGATIF - KEKERASAN / PENGGUNAAN KEKUATAN",
+        "scope": "negative",
+        "scope_label": "Negatif",
+        "priority": "low",
+        "summary": "Sejumlah Petugas Polisi Terluka dalam Insiden Penembakan di Minneapolis mediaindonesia.com",
+        "processing_status": "processed",
+        "classifier_version": "news-v6",
+        "classified_at": "2026-09-03T00:18:44.805262+00:00",
+        "case_id": "CASE-000761",
+        "discovery_families": [
+          "security_public_order"
+        ],
+        "discovery_tags": [
+          "public_order",
+          "security"
+        ],
+        "discovery_hits": [
+          "polisi terluka"
+        ],
+        "discovery_version": "discovery-v6.5.4",
+        "google_news_url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNZUdhUEJRYkhlT2VPZ0dleWxYZllUVFB4V2hDMEtSQUtobFVFWjZWcTdqbFZvcjgyUXBNYzl2allLbTlkR3l0T1hndW5zaEhydnVEWHQxNFlJaE54Q1hWa2VXcWRtMndLVVcxbk91MVpZSkVzYVdTd0RDT19xYWphYmVQRXA2cmtqajFYUzJmS1ItTkZseXhVM1J1OVdtWHNVRnVsVnBtQTlMSzhiOFo1MFpIa0JPZFpBNFFN?oc=5",
+        "original_url": "https://mediaindonesia.com/internasional/929126/sejumlah-petugas-polisi-terluka-dalam-insiden-penembakan-di-minneapolis",
+        "locality": "",
+        "polsek": null,
+        "location_confidence": 0,
+        "location_evidence": [],
+        "location_status": "BELUM_TERPETAKAN",
+        "location_source": "title",
+        "issue_type": "KEKERASAN_DAN_KEKUATAN",
+        "issue_subtype": "Kekerasan / Penggunaan Kekuatan",
+        "issue_evidence": [
+          "penembakan"
+        ],
+        "handling_status": "BELUM_ADA_INFORMASI",
+        "handling_evidence": [],
+        "attention_score": 25,
+        "attention_label": "Rendah",
+        "attention_components": {
+          "severity": 14,
+          "polri_relation": 6,
+          "authority": 0,
+          "public_impact": 4,
+          "handling": 0,
+          "evidence": 1,
+          "context_risk": 0,
+          "routine_enforcement_cap": null
+        },
+        "attention_evidence": {
+          "severity": [
+            "kekerasan berat"
+          ],
+          "authority": [],
+          "public_impact": [],
+          "evidence": [
+            "satu sumber / informasi awal"
+          ],
+          "role": [
+            "Polisi sebagai korban"
+          ],
+          "issue": [
+            "penembakan"
+          ],
+          "handling": [],
+          "context": [],
+          "positive": []
+        },
+        "case_engine_version": "case-v6.5.4",
+        "case_processed_at": "2026-09-03T00:27:44.251363+00:00"
+      },
+      {
+        "id": "4e8dfc58e4699883660657a9f06d335d4b2f212a",
+        "title": "Terduga Pelaku Janjikan Lolos Polri ditangkap polres Meranti - Radargep.com",
+        "url": "https://radargep.com/terduga-pelaku-janjikan-lolos-polri-ditangkap-polres-meranti.html",
+        "source": "Radargep.com",
+        "published_at": "2026-09-02T23:25:23+00:00",
+        "collected_at": "2026-09-03T00:18:44.805262+00:00",
+        "region": "BELUM TERPETAKAN",
+        "area_label": "BELUM TERPETAKAN",
+        "is_jatim": null,
+        "polres": null,
+        "category": "NETRAL / LAINNYA",
+        "scope": "neutral",
+        "scope_label": "Netral",
+        "priority": "low",
+        "summary": "Terduga Pelaku Janjikan Lolos Polri ditangkap polres Meranti Radargep.com",
+        "processing_status": "processed",
+        "classifier_version": "news-v6",
+        "classified_at": "2026-09-03T00:18:44.805262+00:00",
+        "case_id": null,
+        "discovery_families": [],
+        "discovery_tags": [],
+        "discovery_hits": [],
+        "discovery_version": "discovery-v6.5.4",
+        "google_news_url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQUlJUd1hPdng3elNvSXBQTTh0Y0FtQXZWTGpxcEp4bnBOVkQ4eHlFZTVraXVwWEVOWmpRbTN3d1FvODZxWUlCeHd1VmN4a3RHN1p4LVN6UVpDb3IxT2kxMDJUWUNoYWlSQlRzUW91X0FKTV80WGlpT0dBTjZjakVsUXg0VkM2bkdnWUs4VkhCWQ?oc=5",
+        "original_url": "https://radargep.com/terduga-pelaku-janjikan-lolos-polri-ditangkap-polres-meranti.html",
+        "locality": "",
+        "polsek": null,
+        "location_confidence": 0,
+        "location_evidence": [],
+        "location_status": "BELUM_TERPETAKAN",
+        "location_source": "title",
+        "issue_type": "UMUM",
+        "issue_subtype": "Belum Teridentifikasi",
+        "issue_evidence": [],
+        "handling_status": "BELUM_ADA_INFORMASI",
+        "handling_evidence": [],
+        "attention_score": 7,
+        "attention_label": "Rendah",
+        "attention_components": {
+          "severity": 2,
+          "polri_relation": 0,
+          "authority": 0,
+          "public_impact": 4,
+          "handling": 0,
+          "evidence": 1,
+          "context_risk": 0,
+          "routine_enforcement_cap": null
+        },
+        "attention_evidence": {
+          "severity": [],
+          "authority": [],
+          "public_impact": [],
+          "evidence": [
+            "satu sumber / informasi awal"
+          ],
+          "role": [],
+          "issue": [],
+          "handling": [],
+          "context": [],
+          "positive": []
+        },
+        "case_engine_version": "case-v6.5.4",
+        "case_processed_at": "2026-09-03T00:24:05.398860+00:00"
+      },
+      {
+        "id": "15706c3582746bcdbe0580419be46202419ab3c3",
+        "title": "Sebulan Berlalu, Ketua DPRD Bone Terlapor Aniaya Staf Mangkir Panggilan Polisi - detikcom",
+        "url": "https://www.detik.com/sulsel/watampone/d-8645906/sebulan-berlalu-ketua-dprd-bone-terlapor-aniaya-staf-mangkir-panggilan-polisi",
+        "source": "detikcom",
+        "published_at": "2026-09-02T22:45:55+00:00",
+        "collected_at": "2026-09-03T00:18:44.805262+00:00",
+        "region": "BELUM TERPETAKAN",
+        "area_label": "BELUM TERPETAKAN",
+        "is_jatim": null,
+        "polres": null,
+        "category": "NETRAL / LAINNYA",
+        "scope": "neutral",
+        "scope_label": "Netral",
+        "priority": "low",
+        "summary": "Sebulan Berlalu, Ketua DPRD Bone Terlapor Aniaya Staf Mangkir Panggilan Polisi detikcom",
+        "processing_status": "processed",
+        "classifier_version": "news-v6",
+        "classified_at": "2026-09-03T00:18:44.805262+00:00",
+        "case_id": null,
+        "discovery_families": [],
+        "discovery_tags": [],
+        "discovery_hits": [],
+        "discovery_version": "discovery-v6.5.4",
+        "google_news_url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPZlE5U3d2dVVBQ3JPZXo1bEFfaWdBTFdBV2phZ0Y3WlFjXy1KMWRtLWNRSWl4QUxSQkFwanFESnBCcTVMYlJSSWdkR2N5aFE3am9wVkZkejEtTXVYbW1CVHFRRFpEZXM0REk3X3RwdDhOTWNsQjQxa25uclRVTzVQNHBTeFZSWU85S1JjYmhYbzN5UC1HMEpCQ09uazVGb3dtcllyU1Frd3owdFFBM1JTRmZhY1Q2U2pEeUhGTU1TVkUtN0ND0gHKAUFVX3lxTE51NTVuM2Ywa09rNmpqbUhPZHRVcy04ckZCUjIxVWtIQ2J0eE1XZjI3OVc5dlh1aUVxNjJoT1hMaEc4OHpOZklYTFM5TGdJaS1vdXZGa0RrZEd3QmtqelJJRFBhNVM4WHdyLVRxWURkc3JrSHRoekpTbDhSLW9kRGR0VnpOOTlfMHkyUXRYaW9mM2tLRTZ6R3pZNlBSQWZYdmxRUGlxdTE4WElVUGRQYXp0SUNiMk9EeE9ZN2JKYk9iLTM0NzBWLUtEaEE?oc=5",
+        "original_url": "https://www.detik.com/sulsel/watampone/d-8645906/sebulan-berlalu-ketua-dprd-bone-terlapor-aniaya-staf-mangkir-panggilan-polisi",
+        "locality": "",
+        "polsek": null,
+        "location_confidence": 0,
+        "location_evidence": [],
+        "location_status": "BELUM_TERPETAKAN",
+        "location_source": "title",
+        "issue_type": "UMUM",
+        "issue_subtype": "Belum Teridentifikasi",
+        "issue_evidence": [],
+        "handling_status": "BELUM_ADA_INFORMASI",
+        "handling_evidence": [],
+        "attention_score": 7,
+        "attention_label": "Rendah",
+        "attention_components": {
+          "severity": 2,
+          "polri_relation": 0,
+          "authority": 0,
+          "public_impact": 4,
+          "handling": 0,
+          "evidence": 1,
+          "context_risk": 0,
+          "routine_enforcement_cap": null
+        },
+        "attention_evidence": {
+          "severity": [],
+          "authority": [],
+          "public_impact": [],
+          "evidence": [
+            "satu sumber / informasi awal"
+          ],
+          "role": [],
+          "issue": [],
+          "handling": [],
+          "context": [],
+          "positive": []
+        },
+        "case_engine_version": "case-v6.5.4",
+        "case_processed_at": "2026-09-03T00:24:05.516246+00:00"
+      },
+      {
+        "id": "5bb9136251ddd5b9b646dddf39930ed88ade2fed",
+        "title": "500 Kg Sianida Haji Hartini Diduga “Menguap”, Oknum Polisi Terseret - Tribun Maluku",
+        "url": "https://www.tribun-maluku.com/500-kg-sianida-haji-hartini-diduga-menguap-oknum-polisi-terseret/09/03/",
+        "source": "Tribun Maluku",
+        "published_at": "2026-09-02T22:32:40+00:00",
+        "collected_at": "2026-09-03T00:18:44.805262+00:00",
+        "region": "BELUM TERPETAKAN",
+        "area_label": "BELUM TERPETAKAN",
+        "is_jatim": null,
+        "polres": null,
+        "category": "NEGATIF - BELUM TERIDENTIFIKASI",
+        "scope": "negative",
+        "scope_label": "Negatif",
+        "priority": "low",
+        "summary": "500 Kg Sianida Haji Hartini Diduga “Menguap”, Oknum Polisi Terseret Tribun Maluku",
+        "processing_status": "processed",
+        "classifier_version": "news-v6",
+        "classified_at": "2026-09-03T00:18:44.805262+00:00",
+        "case_id": "CASE-000762",
+        "discovery_families": [
+          "general_police_misconduct"
+        ],
+        "discovery_tags": [
+          "ethics",
+          "oknum"
+        ],
+        "discovery_hits": [
+          "oknum polisi"
+        ],
+        "discovery_version": "discovery-v6.5.4",
+        "google_news_url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxORUZzTk9jczZScnltUE0yWjM2WW9LRjZZUGlwc1BGX1FRYTlCbFZGbS1SV1NGYWZIQWJIWFcyWFpwZ3hPSEFfdkpWT3JRQ3JEa0RIbXBkb2VyM0tWRnFSckJLc0dmQ3B0M0VvN212QzJhNUN6ZEl4cUFSY21wcGRXeEI4eWhyaW9hcUtWalRxbmZnOFZuMnpVVHJYVTZ6RTlxV2VR?oc=5",
+        "original_url": "https://www.tribun-maluku.com/500-kg-sianida-haji-hartini-diduga-menguap-oknum-polisi-terseret/09/03/",
+        "locality": "",
+        "polsek": null,
+        "location_confidence": 0,
+        "location_evidence": [],
+        "location_status": "BELUM_TERPETAKAN",
+        "location_source": "title",
+        "issue_type": "UMUM",
+        "issue_subtype": "Belum Teridentifikasi",
+        "issue_evidence": [],
+        "handling_status": "BELUM_ADA_INFORMASI",
+        "handling_evidence": [],
+        "attention_score": 29,
+        "attention_label": "Rendah",
+        "attention_components": {
+          "severity": 2,
+          "polri_relation": 16,
+          "authority": 0,
+          "public_impact": 10,
+          "handling": 0,
+          "evidence": 1,
+          "context_risk": 0,
+          "routine_enforcement_cap": null
+        },
+        "attention_evidence": {
+          "severity": [],
+          "authority": [
+            "oknum polisi"
+          ],
+          "public_impact": [
+            "dampak institusional"
+          ],
+          "evidence": [
+            "satu sumber / informasi awal"
+          ],
+          "role": [
+            "Polri/personel menjadi subjek permasalahan"
+          ],
+          "issue": [],
+          "handling": [],
+          "context": [],
+          "positive": []
+        },
+        "case_engine_version": "case-v6.5.4",
+        "case_processed_at": "2026-09-03T00:27:44.251367+00:00"
+      },
       {
         "id": "156dd467c8e13eaa434391eda5fe0d2497d3c9a8",
         "title": "Polisi Amankan Terduga Pelaku Curanmor yang Sempat Ditelanjangi Warga - putraindonews.com",
@@ -1440,7 +2290,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-09-02T21:58:01.077634+00:00"
+        "case_processed_at": "2026-09-03T00:24:05.788152+00:00"
       },
       {
         "id": "ec01044ac9b762d28624725a680007ec945f2e72",
@@ -1507,7 +2357,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-09-02T21:58:01.333877+00:00"
+        "case_processed_at": "2026-09-03T00:24:05.928777+00:00"
       },
       {
         "id": "6156fd3167b613093aed939c984135bc57f46d7d",
@@ -1580,7 +2430,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-09-02T22:04:36.648052+00:00"
+        "case_processed_at": "2026-09-03T00:27:44.251375+00:00"
       },
       {
         "id": "8e2d22e124d19621ec595fa644a12d07ed5a87db",
@@ -1647,7 +2497,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-09-02T21:58:01.801244+00:00"
+        "case_processed_at": "2026-09-03T00:24:06.183565+00:00"
       },
       {
         "id": "0969a2fde602adae96fea937937f2ddc1053a58b",
@@ -1714,21 +2564,23 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-09-02T21:58:02.537233+00:00"
+        "case_processed_at": "2026-09-03T00:24:06.633571+00:00"
       }
     ]
   },
   "cases": {
-    "active": 4,
+    "active": 6,
     "priority_high": 0,
     "jatim": 3,
     "jatim_priority_high": 0,
-    "articles": 8,
+    "articles": 10,
     "case_ids": [
       "CASE-000274",
       "CASE-000296",
       "CASE-000759",
-      "CASE-000760"
+      "CASE-000760",
+      "CASE-000761",
+      "CASE-000762"
     ],
     "items": [
       {
@@ -1896,7 +2748,7 @@
         ],
         "article_count": 3,
         "created_at": "2026-08-31T08:00:01.636153+00:00",
-        "updated_at": "2026-09-02T22:04:34.871295+00:00",
+        "updated_at": "2026-09-03T00:27:43.273606+00:00",
         "engine_version": "case-v6.5.4",
         "priority_score": 55,
         "priority_breakdown": {
@@ -2093,7 +2945,7 @@
         ],
         "article_count": 3,
         "created_at": "2026-08-31T08:00:04.486651+00:00",
-        "updated_at": "2026-09-02T22:04:34.950685+00:00",
+        "updated_at": "2026-09-03T00:27:43.316199+00:00",
         "engine_version": "case-v6.5.4",
         "priority_score": 35,
         "priority_breakdown": {
@@ -2198,7 +3050,7 @@
         ],
         "article_count": 1,
         "created_at": "2026-09-02T18:56:12.002673+00:00",
-        "updated_at": "2026-09-02T22:04:36.644865+00:00",
+        "updated_at": "2026-09-03T00:27:44.245921+00:00",
         "engine_version": "case-v6.5.4",
         "priority_score": 39,
         "priority_breakdown": {
@@ -2305,7 +3157,7 @@
         ],
         "article_count": 1,
         "created_at": "2026-09-02T22:03:13.149922+00:00",
-        "updated_at": "2026-09-02T22:04:36.647566+00:00",
+        "updated_at": "2026-09-03T00:27:44.247408+00:00",
         "engine_version": "case-v6.5.4",
         "priority_score": 17,
         "priority_breakdown": {
@@ -2332,6 +3184,219 @@
           "reasons": [
             "sifat berita: negatif",
             "Narkoba / Narkotika",
+            "Hubungan Polri belum spesifik"
+          ]
+        }
+      },
+      {
+        "case_id": "CASE-000761",
+        "title": "Sejumlah Petugas Polisi Terluka dalam Insiden Penembakan di Minneapolis - mediaindonesia.com",
+        "category": "NEGATIF - KEKERASAN / PENGGUNAAN KEKUATAN",
+        "scope": "negative",
+        "region": "BELUM TERPETAKAN",
+        "locality": "",
+        "is_jatim": null,
+        "polres": null,
+        "polsek": null,
+        "priority": "low",
+        "attention_score": 26,
+        "attention_label": "Rendah",
+        "signature": "BELUM TERPETAKAN",
+        "incident_terms": [
+          "com",
+          "insiden",
+          "mediaindonesia",
+          "minneapolis",
+          "penembakan",
+          "petugas",
+          "terluka"
+        ],
+        "event_terms": [
+          "penembakan"
+        ],
+        "location_terms": [],
+        "discovery_families": [
+          "security_public_order"
+        ],
+        "first_seen": "2026-09-03T00:01:26+00:00",
+        "last_seen": "2026-09-03T00:18:44.805262+00:00",
+        "last_detected_at": "2026-09-03T00:18:44.805262+00:00",
+        "article_ids": [
+          "0dc13faaeb42b53e143360f241450b9c29d3c1e0"
+        ],
+        "articles": [
+          {
+            "id": "0dc13faaeb42b53e143360f241450b9c29d3c1e0",
+            "title": "Sejumlah Petugas Polisi Terluka dalam Insiden Penembakan di Minneapolis - mediaindonesia.com",
+            "url": "https://mediaindonesia.com/internasional/929126/sejumlah-petugas-polisi-terluka-dalam-insiden-penembakan-di-minneapolis",
+            "published_at": "2026-09-03T00:01:26+00:00",
+            "collected_at": "2026-09-03T00:18:44.805262+00:00",
+            "source": "mediaindonesia.com",
+            "match_score": 1.0,
+            "priority": "low",
+            "scope": "negative",
+            "category": "NEGATIF - KEKERASAN / PENGGUNAAN KEKUATAN",
+            "region": "BELUM TERPETAKAN",
+            "locality": "",
+            "is_jatim": false,
+            "polres": null,
+            "polsek": null,
+            "issue_type": "KEKERASAN_DAN_KEKUATAN",
+            "issue_subtype": "Kekerasan / Penggunaan Kekuatan",
+            "handling_status": "BELUM_ADA_INFORMASI",
+            "handling_evidence": [],
+            "polri_relation": null,
+            "polri_relation_points": 0,
+            "polri_relation_evidence": [],
+            "attention_score": 25,
+            "attention_label": "Rendah",
+            "attention_components": {
+              "severity": 14,
+              "polri_relation": 6,
+              "authority": 0,
+              "public_impact": 4,
+              "handling": 0,
+              "evidence": 1,
+              "context_risk": 0,
+              "routine_enforcement_cap": null
+            }
+          }
+        ],
+        "article_count": 1,
+        "created_at": "2026-09-03T00:26:58.063897+00:00",
+        "updated_at": "2026-09-03T00:27:44.249011+00:00",
+        "engine_version": "case-v6.5.4",
+        "priority_score": 26,
+        "priority_breakdown": {
+          "severity": 14,
+          "polri_relation": 6,
+          "authority_context": 0,
+          "public_impact": 4,
+          "handling": 0,
+          "evidence": 1,
+          "spread": 0,
+          "escalation": 0,
+          "current_activity": 1,
+          "context_risk": 0
+        },
+        "priority_evidence": {
+          "unique_sources": 1,
+          "active_today_articles": 1,
+          "escalation": [],
+          "issue_type": "KEKERASAN_DAN_KEKUATAN",
+          "issue_subtype": "Kekerasan / Penggunaan Kekuatan",
+          "sentiment": "negative",
+          "polri_relation": "KORBAN",
+          "handling_status": "BELUM_ADA_INFORMASI",
+          "reasons": [
+            "sifat berita: negatif",
+            "sifat berita: negatif",
+            "Kekerasan / Penggunaan Kekuatan",
+            "Polisi sebagai korban"
+          ]
+        }
+      },
+      {
+        "case_id": "CASE-000762",
+        "title": "500 Kg Sianida Haji Hartini Diduga “Menguap”, Oknum Polisi Terseret - Tribun Maluku",
+        "category": "NEGATIF - BELUM TERIDENTIFIKASI",
+        "scope": "negative",
+        "region": "BELUM TERPETAKAN",
+        "locality": "",
+        "is_jatim": null,
+        "polres": null,
+        "polsek": null,
+        "priority": "low",
+        "attention_score": 8,
+        "attention_label": "Rendah",
+        "signature": "BELUM TERPETAKAN",
+        "incident_terms": [
+          "500",
+          "haji",
+          "hartini",
+          "maluku",
+          "menguap",
+          "sianida",
+          "terseret",
+          "tribun"
+        ],
+        "event_terms": [],
+        "location_terms": [],
+        "discovery_families": [
+          "general_police_misconduct"
+        ],
+        "first_seen": "2026-09-02T22:32:40+00:00",
+        "last_seen": "2026-09-03T00:18:44.805262+00:00",
+        "last_detected_at": "2026-09-03T00:18:44.805262+00:00",
+        "article_ids": [
+          "5bb9136251ddd5b9b646dddf39930ed88ade2fed"
+        ],
+        "articles": [
+          {
+            "id": "5bb9136251ddd5b9b646dddf39930ed88ade2fed",
+            "title": "500 Kg Sianida Haji Hartini Diduga “Menguap”, Oknum Polisi Terseret - Tribun Maluku",
+            "url": "https://www.tribun-maluku.com/500-kg-sianida-haji-hartini-diduga-menguap-oknum-polisi-terseret/09/03/",
+            "published_at": "2026-09-02T22:32:40+00:00",
+            "collected_at": "2026-09-03T00:18:44.805262+00:00",
+            "source": "Tribun Maluku",
+            "match_score": 1.0,
+            "priority": "low",
+            "scope": "negative",
+            "category": "NEGATIF - BELUM TERIDENTIFIKASI",
+            "region": "BELUM TERPETAKAN",
+            "locality": "",
+            "is_jatim": false,
+            "polres": null,
+            "polsek": null,
+            "issue_type": "UMUM",
+            "issue_subtype": "Belum Teridentifikasi",
+            "handling_status": "BELUM_ADA_INFORMASI",
+            "handling_evidence": [],
+            "polri_relation": null,
+            "polri_relation_points": 0,
+            "polri_relation_evidence": [],
+            "attention_score": 29,
+            "attention_label": "Rendah",
+            "attention_components": {
+              "severity": 2,
+              "polri_relation": 16,
+              "authority": 0,
+              "public_impact": 10,
+              "handling": 0,
+              "evidence": 1,
+              "context_risk": 0,
+              "routine_enforcement_cap": null
+            }
+          }
+        ],
+        "article_count": 1,
+        "created_at": "2026-09-03T00:26:58.189140+00:00",
+        "updated_at": "2026-09-03T00:27:44.250875+00:00",
+        "engine_version": "case-v6.5.4",
+        "priority_score": 8,
+        "priority_breakdown": {
+          "severity": 2,
+          "polri_relation": 0,
+          "authority_context": 0,
+          "public_impact": 4,
+          "handling": 0,
+          "evidence": 1,
+          "spread": 0,
+          "escalation": 0,
+          "current_activity": 1,
+          "context_risk": 0
+        },
+        "priority_evidence": {
+          "unique_sources": 1,
+          "active_today_articles": 1,
+          "escalation": [],
+          "issue_type": "UMUM",
+          "issue_subtype": "Belum Teridentifikasi",
+          "sentiment": "neutral",
+          "polri_relation": "INFORMASI_UMUM",
+          "handling_status": "BELUM_ADA_INFORMASI",
+          "reasons": [
+            "sifat berita: netral",
             "Hubungan Polri belum spesifik"
           ]
         }
@@ -2503,7 +3568,7 @@
         ],
         "article_count": 3,
         "created_at": "2026-08-31T08:00:01.636153+00:00",
-        "updated_at": "2026-09-02T22:04:34.871295+00:00",
+        "updated_at": "2026-09-03T00:27:43.273606+00:00",
         "engine_version": "case-v6.5.4",
         "priority_score": 55,
         "priority_breakdown": {
@@ -2700,7 +3765,7 @@
         ],
         "article_count": 3,
         "created_at": "2026-08-31T08:00:04.486651+00:00",
-        "updated_at": "2026-09-02T22:04:34.950685+00:00",
+        "updated_at": "2026-09-03T00:27:43.316199+00:00",
         "engine_version": "case-v6.5.4",
         "priority_score": 35,
         "priority_breakdown": {
@@ -2807,7 +3872,7 @@
         ],
         "article_count": 1,
         "created_at": "2026-09-02T22:03:13.149922+00:00",
-        "updated_at": "2026-09-02T22:04:36.647566+00:00",
+        "updated_at": "2026-09-03T00:27:44.247408+00:00",
         "engine_version": "case-v6.5.4",
         "priority_score": 17,
         "priority_breakdown": {
@@ -2841,15 +3906,18 @@
     ]
   },
   "social": {
-    "detected": 99,
-    "jatim": 8,
-    "negative": 43,
-    "priority_high": 24,
+    "detected": 117,
+    "jatim": 9,
+    "negative": 47,
+    "priority_high": 28,
     "video_ids": [
+      "i54l88BzcuE",
+      "RN3T0xr-VNA",
       "F9uIJSoigqM",
       "6wgkGAT3L8Q",
       "zCre-jIAwRU",
       "7IK9gMEEX8Y",
+      "07m2CjojTfM",
       "utee05oB1Q0",
       "PtN5N9FxM-Y",
       "xJmt3NKVKBg",
@@ -2868,6 +3936,7 @@
       "5u-kzQsb8PU",
       "PO3ZADuuvG4",
       "vSZWE4K9KRE",
+      "IK5iYWMyGZY",
       "Mr3nX4qwgmo",
       "G3-GyeknsBs",
       "8cIJCmh4hYI",
@@ -2877,6 +3946,7 @@
       "a-pO8YeneH8",
       "LplazfTMrUM",
       "6ObdC-n8J8Y",
+      "XgMbqbNItKc",
       "Y_T2t7qMKCw",
       "NVFwZBd0cDM",
       "AVfAfYEA8ZI",
@@ -2885,16 +3955,21 @@
       "H3PDoUYnhaU",
       "czKSmdkWlPc",
       "eXbw5ITTz9A",
+      "UaSxHeZZL5k",
       "nbK5xyPwnnw",
       "BAo0cuTAJ7c",
       "dzhI9qaS1Ro",
       "Mz48Rnbthto",
       "mhiKee3KVOc",
+      "qezKCAB09aw",
       "oyhO2Q-xGZI",
+      "SE1QT_h9k7A",
+      "y_QyOGLfFrQ",
       "YPPvw_l9UmQ",
       "Qibx7aWDSnE",
       "_8b_rn_i42A",
       "8ynyNZNXCxc",
+      "knh6gmVIxWU",
       "8lB9FO9S0FY",
       "DGvDQ9dF3ck",
       "QKwfgxxOlwk",
@@ -2903,16 +3978,19 @@
       "SFkLkrpALes",
       "6VA1SaRd2M4",
       "zZQJnH4hGnc",
+      "l4cObDYLm0E",
       "VG_wIzBt2i8",
       "JUGcoazK8Ko",
       "JvgQyF1EVUg",
       "oVlfOeZXRAU",
+      "eIX1RbP_o_Q",
       "CunYyIrLr2E",
       "didIRhqG6gU",
       "bCHgSXjgknY",
       "SmXTJkRa5HI",
       "WxyHnU8LiOs",
       "m5_zssrnyhk",
+      "JHTORE4hEWI",
       "joee00NlxFQ",
       "rtrzs8ZbXV8",
       "_hqJloPujMs",
@@ -2923,7 +4001,9 @@
       "OFZ7tedsSwE",
       "y4rmoxzhUZc",
       "UjqzcPeeUCc",
+      "UxEzeyagiW0",
       "6K9ShXjwuSg",
+      "_NlgrZZynro",
       "dColmVv0B6w",
       "yTiGbIkKa-M",
       "hIp718f8mPE",
@@ -2931,6 +4011,7 @@
       "cs88Ay9dbBs",
       "N4eShJsnfoc",
       "05J_yth9cTo",
+      "cKeYOIv_LQI",
       "tclOr2BoFq8",
       "33j1NrBpJ6c",
       "k4xXAvaPKrA",
@@ -2942,21 +4023,23 @@
       "_INhsLkPKZA",
       "_cMyR2Tsnlg",
       "5pRbTYTPaWA",
+      "eMqUl_7qxzs",
       "6sIGCi6YyX4",
       "87_xQNAsNN0",
-      "iCFNSgxObCU"
+      "iCFNSgxObCU",
+      "Y02ywU6UWTA"
     ]
   },
   "jatim": {
-    "news_today": 7,
+    "news_today": 8,
     "negative_today": 3,
-    "positive_today": 1,
+    "positive_today": 2,
     "case_scope_today": 0,
     "neutral_today": 3,
     "case_today": 3,
     "case_high_active": 0,
     "article_high_today": 0,
-    "outside_jatim_today": 5
+    "outside_jatim_today": 10
   },
   "regions": [
     {
@@ -2966,6 +4049,10 @@
     {
       "name": "Tulungagung",
       "count": 2
+    },
+    {
+      "name": "Kediri",
+      "count": 1
     },
     {
       "name": "Jember",
@@ -3000,12 +4087,12 @@
       "count": 3
     },
     {
-      "name": "NEGATIF - NARKOBA / NARKOTIKA",
+      "name": "POSITIF / PENEGAKAN HUKUM",
       "count": 2
     },
     {
-      "name": "POSITIF / PENEGAKAN HUKUM",
-      "count": 1
+      "name": "NEGATIF - NARKOBA / NARKOTIKA",
+      "count": 2
     },
     {
       "name": "NEGATIF - KEKERASAN / PENGGUNAAN KEKUATAN",
@@ -3013,19 +4100,19 @@
     }
   ],
   "summary": {
-    "news_today": 12,
-    "negative_today": 4,
-    "cases_today": 4,
+    "news_today": 18,
+    "negative_today": 6,
+    "cases_today": 6,
     "priority_high": 0,
     "article_priority_high": 0,
-    "jatim_news": 7,
+    "jatim_news": 8,
     "jatim_negative": 3,
-    "jatim_positive": 1,
+    "jatim_positive": 2,
     "jatim_case_scope": 0,
     "jatim_neutral": 3,
     "jatim_cases_today": 3,
     "jatim_case_high_active": 0,
-    "luar_jatim_news": 5,
-    "youtube_today": 99
+    "luar_jatim_news": 10,
+    "youtube_today": 117
   }
 }
