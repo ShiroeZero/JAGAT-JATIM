@@ -1,23 +1,23 @@
 {
-  "generated_at": "2026-09-03T20:05:20.069639+00:00",
+  "generated_at": "2026-09-03T22:50:26.761212+00:00",
   "platform": "YouTube",
-  "query_cursor": 5,
+  "query_cursor": 8,
   "query_batch_size": 3,
   "query_success": 3,
   "query_skipped": 0,
   "quota_warning": false,
   "quota_block_date": null,
-  "total": 907,
-  "new_videos": 43,
+  "total": 910,
+  "new_videos": 3,
   "statistics": {
-    "total": 907,
+    "total": 910,
     "jatim": 61,
-    "negative": 353,
+    "negative": 354,
     "incident": 31,
     "case": 127,
-    "neutral": 345,
+    "neutral": 347,
     "noise": 7,
-    "high_priority": 180
+    "high_priority": 181
   },
   "items": [
     {
@@ -749,6 +749,30 @@
       "collected_at": "2026-09-03T20:05:20.069639+00:00"
     },
     {
+      "id": "0003e90f881f602e1954d7d568acb14e7b86cab8",
+      "video_id": "L0r8KocpJnA",
+      "platform": "YouTube",
+      "type": "video",
+      "title": "&quot;16 Tahun Tanpa Suap: Polisi Ini Bikin Haru Netizen Lewat Kejujurannya&quot;",
+      "channel": "DuniaBerkata",
+      "published_at": "2026-09-03T07:43:19Z",
+      "url": "https://www.youtube.com/watch?v=L0r8KocpJnA",
+      "thumbnail": "https://i.ytimg.com/vi/L0r8KocpJnA/hqdefault.jpg",
+      "description": "BripkaSeladi #PolisiJujur #Inspirasi #KisahInspiratif #PolisiIndonesia #KisahHaru #PrinsipHidup #Kejujuran #FYPIndonesia.",
+      "relevance": "medium",
+      "scope": "neutral",
+      "category": "Berita Polisi Lainnya",
+      "classification_score": 25,
+      "is_jatim": false,
+      "region": "Indonesia",
+      "polres": null,
+      "location_confidence": 0,
+      "location_source": null,
+      "location_evidence": [],
+      "priority": "low",
+      "collected_at": "2026-09-03T22:50:26.761212+00:00"
+    },
+    {
       "id": "0df5a63d2d3cfba65ea2e039cbed4b70add49617",
       "video_id": "mSzMcidNZJU",
       "platform": "YouTube",
@@ -795,6 +819,30 @@
       "location_evidence": [],
       "priority": "low",
       "collected_at": "2026-09-03T20:05:20.069639+00:00"
+    },
+    {
+      "id": "b05fbbfa2c23f66674d0e3bd6c178bada7a7ad21",
+      "video_id": "0JgGgwVdavw",
+      "platform": "YouTube",
+      "type": "video",
+      "title": "KAKEK TUKANG BECAK TOLAK SUAP POLISI—TAK DISANGKA, GUBERNUR LANGSUNG TURUN TA",
+      "channel": "Kisah Sebuah Hati",
+      "published_at": "2026-09-03T06:00:06Z",
+      "url": "https://www.youtube.com/watch?v=0JgGgwVdavw",
+      "thumbnail": "https://i.ytimg.com/vi/0JgGgwVdavw/hqdefault.jpg",
+      "description": "Selamat datang! Temukan cerita yang membawa kamu menyusuri berbagai perjalanan hidup. Setiap kisah memiliki karakter unik ...",
+      "relevance": "medium",
+      "scope": "neutral",
+      "category": "Berita Polisi Lainnya",
+      "classification_score": 25,
+      "is_jatim": false,
+      "region": "Indonesia",
+      "polres": null,
+      "location_confidence": 0,
+      "location_source": null,
+      "location_evidence": [],
+      "priority": "low",
+      "collected_at": "2026-09-03T22:50:26.761212+00:00"
     },
     {
       "id": "f5e400a4ddfe44bf57a7a381a409b19a81973dee",
@@ -914,7 +962,31 @@
       "location_source": null,
       "location_evidence": [],
       "priority": "high",
-      "collected_at": "2026-09-03T11:31:46.756123+00:00"
+      "collected_at": "2026-09-03T22:50:26.761212+00:00"
+    },
+    {
+      "id": "a96f2b8de8d156d16657f938f3f662ec9799f72d",
+      "video_id": "B3J6LdDOx0Q",
+      "platform": "YouTube",
+      "type": "video",
+      "title": "polisi suap # #collab #reaction #shorts #youtubeshorts #viral #trending #education #zackdfilm #best",
+      "channel": "Penerima Wahyu Channel",
+      "published_at": "2026-09-03T03:00:00Z",
+      "url": "https://www.youtube.com/watch?v=B3J6LdDOx0Q",
+      "thumbnail": "https://i.ytimg.com/vi/B3J6LdDOx0Q/hqdefault.jpg",
+      "description": "ini adaLah video koLaborasi dengan channeL ‪@zackdfiLm‬ yang di upLoad di hari Kamis jam 10.00 wib tujuan dari video ini ...",
+      "relevance": "high",
+      "scope": "negative",
+      "category": "Oknum / Korupsi / Pungli",
+      "classification_score": 100,
+      "is_jatim": false,
+      "region": "Indonesia",
+      "polres": null,
+      "location_confidence": 0,
+      "location_source": null,
+      "location_evidence": [],
+      "priority": "high",
+      "collected_at": "2026-09-03T22:50:26.761212+00:00"
     },
     {
       "id": "f5cca2e3efa4648b0108f3d4e6eec7e214acb206",
@@ -1085,7 +1157,7 @@
         "surabaya"
       ],
       "priority": "high",
-      "collected_at": "2026-09-03T00:27:44.562950+00:00"
+      "collected_at": "2026-09-03T22:50:26.761212+00:00"
     },
     {
       "id": "769e3b5b1c05b83bb877d7ab28674f01a4920f03",
@@ -1157,7 +1229,7 @@
       "location_source": null,
       "location_evidence": [],
       "priority": "low",
-      "collected_at": "2026-09-03T00:27:44.562950+00:00"
+      "collected_at": "2026-09-03T22:50:26.761212+00:00"
     },
     {
       "id": "94227205e2a49ca322aae2f2efbca81894d92302",
@@ -2112,7 +2184,7 @@
         "surabaya"
       ],
       "priority": "high",
-      "collected_at": "2026-09-03T11:31:46.756123+00:00"
+      "collected_at": "2026-09-03T22:50:26.761212+00:00"
     },
     {
       "id": "09fce88e7fe9c5aee7b7bc56210ae7a5adc9b087",
@@ -2880,7 +2952,7 @@
       "location_source": null,
       "location_evidence": [],
       "priority": "low",
-      "collected_at": "2026-09-03T00:27:44.562950+00:00"
+      "collected_at": "2026-09-03T22:50:26.761212+00:00"
     },
     {
       "id": "d285cb25a550d3fdc73a6343a46520faa6df3021",
@@ -3148,7 +3220,7 @@
       "location_source": null,
       "location_evidence": [],
       "priority": "high",
-      "collected_at": "2026-09-03T00:27:44.562950+00:00"
+      "collected_at": "2026-09-03T22:50:26.761212+00:00"
     },
     {
       "id": "af891c47c657ac7dcbcb2de9b78c753cdea9e181",
@@ -3220,7 +3292,7 @@
       "location_source": null,
       "location_evidence": [],
       "priority": "low",
-      "collected_at": "2026-09-03T00:27:44.562950+00:00"
+      "collected_at": "2026-09-03T22:50:26.761212+00:00"
     },
     {
       "id": "fdbb5c368eb76e6152098c1ada92a11a1d16b714",
@@ -3926,7 +3998,7 @@
       "location_source": null,
       "location_evidence": [],
       "priority": "low",
-      "collected_at": "2026-09-03T00:27:44.562950+00:00"
+      "collected_at": "2026-09-03T22:50:26.761212+00:00"
     },
     {
       "id": "6487c60054133b0df8dffa15bb0e18dd60c6a11f",

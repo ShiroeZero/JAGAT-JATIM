@@ -2,18 +2,21 @@
   "schema_version": "today-v3",
   "date": "2026-09-04",
   "timezone": "Asia/Jakarta",
-  "updated_at": "2026-09-04T03:05:21.320872+07:00",
-  "last_successful_update": "2026-09-04T03:05:21.320872+07:00",
+  "updated_at": "2026-09-04T05:50:27.761875+07:00",
+  "last_successful_update": "2026-09-04T05:50:27.761875+07:00",
   "news": {
-    "detected": 53,
-    "negative": 17,
+    "detected": 56,
+    "negative": 18,
     "positive": 5,
     "case": 0,
-    "neutral": 31,
-    "jatim": 32,
-    "luar_jatim": 21,
+    "neutral": 33,
+    "jatim": 33,
+    "luar_jatim": 23,
     "priority_high": 0,
     "article_ids": [
+      "87a11def8343ee66c6a1ea30138aabd3ef01d38b",
+      "4756cec1853f3636a4f62f7cbf6b2873b032e74d",
+      "a933cc013ea379af538b4c09ed14231f0db0d88d",
       "2dddbbc4a669d4990d0cccac64c24c246c92b2df",
       "ac108ab1fba9543b34b474799bba38fea711becb",
       "f55940c95bf958ace2b238dd9ffa8eea80212150",
@@ -70,6 +73,225 @@
     ],
     "items": [
       {
+        "id": "87a11def8343ee66c6a1ea30138aabd3ef01d38b",
+        "title": "Polisi Tangkap Pelaku Pengeroyokan dan Konvoi Liar di Jombang - RRI.co.id",
+        "url": "https://rri.co.id/kediri/regional/2705502/polisi-tangkap-pelaku-pengeroyokan-dan-konvoi-liar-di-jombang",
+        "source": "RRI.co.id",
+        "published_at": "2026-09-03T22:19:00+00:00",
+        "collected_at": "2026-09-03T22:37:02.258370+00:00",
+        "region": "Jawa Timur",
+        "area_label": "Jombang",
+        "is_jatim": true,
+        "polres": null,
+        "category": "NETRAL / LAINNYA",
+        "scope": "neutral",
+        "scope_label": "Netral",
+        "priority": "low",
+        "summary": "Polisi Tangkap Pelaku Pengeroyokan dan Konvoi Liar di Jombang RRI.co.id",
+        "processing_status": "processed",
+        "classifier_version": "news-v6",
+        "classified_at": "2026-09-03T22:37:02.258370+00:00",
+        "case_id": null,
+        "discovery_families": [],
+        "discovery_tags": [],
+        "discovery_hits": [],
+        "discovery_version": "discovery-v6.5.4",
+        "google_news_url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNd3hSVS03MUkxdU9jNzVSZEZHMlhyOHJWRjQwR09LTENrdUhocU03cGZXbjVYYWV2RjFkRFFNNXlvYzgxMjhKWmxJUXM1Q0Rpb3F2VEVEZG9kcVUyZTNiRi12cHN3WkJjTTZUY21VZ2xXUFhEZF8zb1lIQnhsM2llWDFRRHR2ckFQV0swMl9Cc0JDaVUyak9ncE1iREVBRURXd0k4STJR?oc=5",
+        "original_url": "https://rri.co.id/kediri/regional/2705502/polisi-tangkap-pelaku-pengeroyokan-dan-konvoi-liar-di-jombang",
+        "locality": "Jombang",
+        "polsek": null,
+        "location_confidence": 95,
+        "location_evidence": [
+          "Jombang"
+        ],
+        "location_status": "JAWA_TIMUR",
+        "location_source": "title",
+        "issue_type": "UMUM",
+        "issue_subtype": "Belum Teridentifikasi",
+        "issue_evidence": [],
+        "handling_status": "BELUM_ADA_INFORMASI",
+        "handling_evidence": [],
+        "attention_score": 7,
+        "attention_label": "Rendah",
+        "attention_components": {
+          "severity": 2,
+          "polri_relation": 0,
+          "authority": 0,
+          "public_impact": 4,
+          "handling": 0,
+          "evidence": 1,
+          "context_risk": 0,
+          "routine_enforcement_cap": null
+        },
+        "attention_evidence": {
+          "severity": [],
+          "authority": [],
+          "public_impact": [],
+          "evidence": [
+            "satu sumber / informasi awal"
+          ],
+          "role": [],
+          "issue": [],
+          "handling": [],
+          "context": [],
+          "positive": []
+        },
+        "case_engine_version": "case-v6.5.4",
+        "case_processed_at": "2026-09-03T22:43:04.405631+00:00"
+      },
+      {
+        "id": "4756cec1853f3636a4f62f7cbf6b2873b032e74d",
+        "title": "Diduga 6 Oknum Wartawan Ngaku Polisi Peras Penjual Obat Keras di Tangerang, Ditangkap Warga - Target Berita",
+        "url": "https://targetberita.co.id/diduga-6-oknum-wartawan-ngaku-polisi-peras-penjual-obat-keras-di-tangerang-ditangkap-warga/",
+        "source": "Target Berita",
+        "published_at": "2026-09-03T22:03:50+00:00",
+        "collected_at": "2026-09-03T22:37:02.258370+00:00",
+        "region": "BELUM TERPETAKAN",
+        "area_label": "BELUM TERPETAKAN",
+        "is_jatim": null,
+        "polres": null,
+        "category": "NEGATIF - BELUM TERIDENTIFIKASI",
+        "scope": "negative",
+        "scope_label": "Negatif",
+        "priority": "low",
+        "summary": "Diduga 6 Oknum Wartawan Ngaku Polisi Peras Penjual Obat Keras di Tangerang, Ditangkap Warga Target Berita",
+        "processing_status": "processed",
+        "classifier_version": "news-v6",
+        "classified_at": "2026-09-03T22:37:02.258370+00:00",
+        "case_id": "CASE-000806",
+        "discovery_families": [
+          "financial_misconduct",
+          "journalist_and_information"
+        ],
+        "discovery_tags": [
+          "financial_misconduct",
+          "information",
+          "integrity",
+          "journalist"
+        ],
+        "discovery_hits": [
+          "wartawan",
+          "peras"
+        ],
+        "discovery_version": "discovery-v6.5.4",
+        "google_news_url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOTG9JQnRaX29zbVc5X0RJZTZfdVRtbWVSSDNnVll1U0JsZDNtRXFtU3dKVnFiTVp4V2VjOFRpdVFOdnhPX29FTXJWb3dCQ19uQ3EwQnU5QzA1RXl4aXdUN2g5d3dOVlFZR04tWXdXWVJBVmloTVVFMlRvQ1lRVEZnZW9nTGxCUWVNa1hQS294SjAxY19tSS0xdG1mN0Q4bFItdnFqQ1F2eHJVNS1GMHZSd1FVY0Rjem05MEE?oc=5",
+        "original_url": "https://targetberita.co.id/diduga-6-oknum-wartawan-ngaku-polisi-peras-penjual-obat-keras-di-tangerang-ditangkap-warga/",
+        "locality": "",
+        "polsek": null,
+        "location_confidence": 0,
+        "location_evidence": [],
+        "location_status": "BELUM_TERPETAKAN",
+        "location_source": "title",
+        "issue_type": "UMUM",
+        "issue_subtype": "Belum Teridentifikasi",
+        "issue_evidence": [],
+        "handling_status": "BELUM_ADA_INFORMASI",
+        "handling_evidence": [],
+        "attention_score": 37,
+        "attention_label": "Rendah",
+        "attention_components": {
+          "severity": 2,
+          "polri_relation": 16,
+          "authority": 0,
+          "public_impact": 18,
+          "handling": 0,
+          "evidence": 1,
+          "context_risk": 0,
+          "routine_enforcement_cap": null
+        },
+        "attention_evidence": {
+          "severity": [],
+          "authority": [],
+          "public_impact": [
+            "kelompok/korban publik rentan"
+          ],
+          "evidence": [
+            "satu sumber / informasi awal"
+          ],
+          "role": [
+            "Polri/personel menjadi subjek permasalahan"
+          ],
+          "issue": [],
+          "handling": [],
+          "context": [],
+          "positive": []
+        },
+        "case_engine_version": "case-v6.5.4",
+        "case_processed_at": "2026-09-03T22:50:26.404180+00:00"
+      },
+      {
+        "id": "a933cc013ea379af538b4c09ed14231f0db0d88d",
+        "title": "UGM Kecam Polisi Biarkan Ormas Aniaya Mahasiswa Demo - ruang.id",
+        "url": "https://www.ruang.id/ugm-kecam-polisi-biarkan-ormas-aniaya-mahasiswa-demo/",
+        "source": "ruang.id",
+        "published_at": "2026-09-03T20:30:12+00:00",
+        "collected_at": "2026-09-03T22:37:02.258370+00:00",
+        "region": "BELUM TERPETAKAN",
+        "area_label": "BELUM TERPETAKAN",
+        "is_jatim": null,
+        "polres": null,
+        "category": "NETRAL / LAINNYA",
+        "scope": "neutral",
+        "scope_label": "Netral",
+        "priority": "low",
+        "summary": "UGM Kecam Polisi Biarkan Ormas Aniaya Mahasiswa Demo ruang.id",
+        "processing_status": "processed",
+        "classifier_version": "news-v6",
+        "classified_at": "2026-09-03T22:37:02.258370+00:00",
+        "case_id": null,
+        "discovery_families": [
+          "security_public_order"
+        ],
+        "discovery_tags": [
+          "public_order",
+          "security"
+        ],
+        "discovery_hits": [
+          "demo"
+        ],
+        "discovery_version": "discovery-v6.5.4",
+        "google_news_url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFAtWGdvQnMweW9UbzhYaXRhVzl5TENsbmlKU1p4bkJaNjJHWTlUcmltQnQ0V19RS3liOFM3NmtoNmN1bDVEZWg0MVo5Zk1GMXp5a3JsTGplb2NYR09YUmY1NEFfdlNJU3dzWHZnNzlMdzFTc2ZtRzRfWURLWTlJQjg?oc=5",
+        "original_url": "https://www.ruang.id/ugm-kecam-polisi-biarkan-ormas-aniaya-mahasiswa-demo/",
+        "locality": "",
+        "polsek": null,
+        "location_confidence": 0,
+        "location_evidence": [],
+        "location_status": "BELUM_TERPETAKAN",
+        "location_source": "title",
+        "issue_type": "UMUM",
+        "issue_subtype": "Belum Teridentifikasi",
+        "issue_evidence": [],
+        "handling_status": "BELUM_ADA_INFORMASI",
+        "handling_evidence": [],
+        "attention_score": 7,
+        "attention_label": "Rendah",
+        "attention_components": {
+          "severity": 2,
+          "polri_relation": 0,
+          "authority": 0,
+          "public_impact": 4,
+          "handling": 0,
+          "evidence": 1,
+          "context_risk": 0,
+          "routine_enforcement_cap": null
+        },
+        "attention_evidence": {
+          "severity": [],
+          "authority": [],
+          "public_impact": [],
+          "evidence": [
+            "satu sumber / informasi awal"
+          ],
+          "role": [],
+          "issue": [],
+          "handling": [],
+          "context": [],
+          "positive": []
+        },
+        "case_engine_version": "case-v6.5.4",
+        "case_processed_at": "2026-09-03T22:43:04.615830+00:00"
+      },
+      {
         "id": "2dddbbc4a669d4990d0cccac64c24c246c92b2df",
         "title": "Satlantas Polres Kediri Kota Patroli MQR, Pantau Arus Lalu Lintas dan Cegah Gangguan Keamanan di Ruang Publik - polreskedirikota.com",
         "url": "https://polreskedirikota.com/satlantas-polres-kediri-kota-patroli-mqr-pantau-arus-lalu-lintas-dan-cegah-gangguan-keamanan-di-ruang-publik/",
@@ -137,7 +359,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-09-03T19:58:36.953269+00:00"
+        "case_processed_at": "2026-09-03T22:43:04.966655+00:00"
       },
       {
         "id": "ac108ab1fba9543b34b474799bba38fea711becb",
@@ -208,7 +430,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-09-03T20:05:19.780634+00:00"
+        "case_processed_at": "2026-09-03T22:50:26.404187+00:00"
       },
       {
         "id": "f55940c95bf958ace2b238dd9ffa8eea80212150",
@@ -276,7 +498,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-09-03T19:58:37.268731+00:00"
+        "case_processed_at": "2026-09-03T22:43:05.307957+00:00"
       },
       {
         "id": "3faaa4dc5c914198f1a8a2df8a784f0f23008ccd",
@@ -348,7 +570,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-09-03T19:58:37.583479+00:00"
+        "case_processed_at": "2026-09-03T22:43:05.657260+00:00"
       },
       {
         "id": "0b52fe71bf757d996a3cce86d4e421b897f472df",
@@ -418,7 +640,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-09-03T19:58:37.885135+00:00"
+        "case_processed_at": "2026-09-03T22:43:05.995837+00:00"
       },
       {
         "id": "55ddff7f8a21b103b72aab0c5eef83cf7efb38f2",
@@ -486,7 +708,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-09-03T19:58:38.184976+00:00"
+        "case_processed_at": "2026-09-03T22:43:06.329276+00:00"
       },
       {
         "id": "8dd1586a6e9ea09660c05f52703f40b39a5b2e70",
@@ -554,7 +776,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-09-03T19:58:38.514428+00:00"
+        "case_processed_at": "2026-09-03T22:43:06.696036+00:00"
       },
       {
         "id": "9574e2d47ac79829df99cf08d3f5585c706e5b58",
@@ -625,7 +847,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-09-03T20:05:19.780641+00:00"
+        "case_processed_at": "2026-09-03T22:50:26.404194+00:00"
       },
       {
         "id": "b0d00be98a2559a7fc076c428ba7431fade741ec",
@@ -692,7 +914,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-09-03T19:58:38.723880+00:00"
+        "case_processed_at": "2026-09-03T22:43:06.927368+00:00"
       },
       {
         "id": "8bcfdbbbc14ce18bc9c7e57cbb0eb6d15d7bde32",
@@ -763,7 +985,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-09-03T20:05:19.780644+00:00"
+        "case_processed_at": "2026-09-03T22:50:26.404198+00:00"
       },
       {
         "id": "48c949532401b25bd5b5529fd93ab6186b37ae3f",
@@ -828,7 +1050,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-09-03T19:58:38.926154+00:00"
+        "case_processed_at": "2026-09-03T22:43:07.151434+00:00"
       },
       {
         "id": "48272d1fcc4ff099621f3e71d221724cc8f2f5e6",
@@ -909,7 +1131,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-09-03T20:05:19.780647+00:00"
+        "case_processed_at": "2026-09-03T22:50:26.404202+00:00"
       },
       {
         "id": "239b40e381e954b3b42ec7ce879efccfc8645033",
@@ -977,7 +1199,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-09-03T19:58:39.206305+00:00"
+        "case_processed_at": "2026-09-03T22:43:07.462848+00:00"
       },
       {
         "id": "998afc11f88c95889be33f5da0e5f2dc44429fb9",
@@ -1045,7 +1267,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-09-03T19:58:39.434440+00:00"
+        "case_processed_at": "2026-09-03T22:43:07.717195+00:00"
       },
       {
         "id": "15c399315918e8624eb415c0e5bc514d1a0cacb0",
@@ -1126,7 +1348,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-09-03T20:05:19.780650+00:00"
+        "case_processed_at": "2026-09-03T22:50:26.404206+00:00"
       },
       {
         "id": "1603da98545c72b1555ea6628cb34f76f1ffb54a",
@@ -1197,7 +1419,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-09-03T20:05:19.780652+00:00"
+        "case_processed_at": "2026-09-03T22:50:26.404209+00:00"
       },
       {
         "id": "7e8dc4bbebe7fb018349ab7c49cfdcdd1e121546",
@@ -1273,7 +1495,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-09-03T20:05:19.780654+00:00"
+        "case_processed_at": "2026-09-03T22:50:26.404213+00:00"
       },
       {
         "id": "143b5887a1bf00aa790ea4c63dded8026c089d44",
@@ -1352,7 +1574,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-09-03T20:05:19.780656+00:00"
+        "case_processed_at": "2026-09-03T22:50:26.404216+00:00"
       },
       {
         "id": "7ffa43cce8710e7a2de7c16a1641d27288138abf",
@@ -1420,7 +1642,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-09-03T19:58:39.638114+00:00"
+        "case_processed_at": "2026-09-03T22:43:07.941662+00:00"
       },
       {
         "id": "e9ffead2cde760373a1f7aaecbbf5a651a4ac169",
@@ -1489,7 +1711,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-09-03T19:58:39.844549+00:00"
+        "case_processed_at": "2026-09-03T22:43:08.169338+00:00"
       },
       {
         "id": "faac2d0c91e17381f3ef0ca5c27ae048582bc2f3",
@@ -1561,7 +1783,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-09-03T19:58:40.082137+00:00"
+        "case_processed_at": "2026-09-03T22:43:08.433294+00:00"
       },
       {
         "id": "bdc233170644ecd039d429203fad06a3eceb9ece",
@@ -1644,7 +1866,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-09-03T20:05:19.780659+00:00"
+        "case_processed_at": "2026-09-03T22:50:26.404220+00:00"
       },
       {
         "id": "268e8563dff198d4a0ec991ce259cee100343124",
@@ -1724,7 +1946,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-09-03T20:05:19.780661+00:00"
+        "case_processed_at": "2026-09-03T22:50:26.404222+00:00"
       },
       {
         "id": "bdb8d9a6617ed6162cfbd7805bb0cad6d9e920f4",
@@ -1792,7 +2014,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-09-03T19:58:40.331541+00:00"
+        "case_processed_at": "2026-09-03T22:43:08.711064+00:00"
       },
       {
         "id": "3dadbefeeaec78becf55c454c11643a60bd03d61",
@@ -1860,7 +2082,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-09-03T19:58:40.571613+00:00"
+        "case_processed_at": "2026-09-03T22:43:08.960031+00:00"
       },
       {
         "id": "56884e0e978e5ff0a3fa2833918bbd8b1c4a9571",
@@ -1928,7 +2150,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-09-03T19:58:40.803860+00:00"
+        "case_processed_at": "2026-09-03T22:43:09.217486+00:00"
       },
       {
         "id": "372fec27f2d5ba34086758dd1c150b1c5f2818ff",
@@ -1995,7 +2217,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-09-03T19:58:41.083424+00:00"
+        "case_processed_at": "2026-09-03T22:43:09.527415+00:00"
       },
       {
         "id": "c1f4c56e3a8c81ee1a015c61f4250ebee4bc0167",
@@ -2065,7 +2287,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-09-03T19:58:41.319786+00:00"
+        "case_processed_at": "2026-09-03T22:43:09.789434+00:00"
       },
       {
         "id": "dab48ab6ebd0353bc7dae5156477bf3a0642d0d0",
@@ -2133,7 +2355,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-09-03T19:58:41.563078+00:00"
+        "case_processed_at": "2026-09-03T22:43:10.059006+00:00"
       },
       {
         "id": "b1762ea1114c7bea3e668f37744bb2ac5bf4ef90",
@@ -2198,7 +2420,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-09-03T19:58:41.806020+00:00"
+        "case_processed_at": "2026-09-03T22:43:10.329226+00:00"
       },
       {
         "id": "48809e3bc77e71f1366b3c93dca1f0f8c5ac9baf",
@@ -2267,7 +2489,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-09-03T19:58:42.074336+00:00"
+        "case_processed_at": "2026-09-03T22:43:10.626677+00:00"
       },
       {
         "id": "52ced1fc2b5879fdf283d8ccd1204f3fca89c2da",
@@ -2334,7 +2556,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-09-03T19:58:42.302582+00:00"
+        "case_processed_at": "2026-09-03T22:43:10.878384+00:00"
       },
       {
         "id": "a70df720c438f7dc4582e3eb853956a73afa5479",
@@ -2403,7 +2625,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-09-03T19:58:42.559369+00:00"
+        "case_processed_at": "2026-09-03T22:43:11.162966+00:00"
       },
       {
         "id": "54b584ef53d1e7377eb45f9cb13403c01e02d5a1",
@@ -2479,7 +2701,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-09-03T20:05:19.780666+00:00"
+        "case_processed_at": "2026-09-03T22:50:26.404229+00:00"
       },
       {
         "id": "54a27842dc3420f7e661e2572156e980cce4a326",
@@ -2546,7 +2768,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-09-03T19:58:42.699377+00:00"
+        "case_processed_at": "2026-09-03T22:43:11.317583+00:00"
       },
       {
         "id": "c366a72d7b63330ad2833dc6931ced5d1d3c45c5",
@@ -2615,7 +2837,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-09-03T20:05:19.780668+00:00"
+        "case_processed_at": "2026-09-03T22:50:26.404233+00:00"
       },
       {
         "id": "250848e4b1f3f32230ae5b6e4c1fcdcc82c859e2",
@@ -2687,7 +2909,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-09-03T19:58:42.960600+00:00"
+        "case_processed_at": "2026-09-03T22:43:11.605590+00:00"
       },
       {
         "id": "fe92c563b4d9382520cb9f1d4e13d020f8666ea0",
@@ -2760,7 +2982,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-09-03T20:05:19.780670+00:00"
+        "case_processed_at": "2026-09-03T22:50:26.404235+00:00"
       },
       {
         "id": "b391cf9e06e1385f234cefbe9681f00171a4b222",
@@ -2828,7 +3050,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-09-03T19:58:43.206523+00:00"
+        "case_processed_at": "2026-09-03T22:43:11.878900+00:00"
       },
       {
         "id": "fb803925466254d2aecee0d636baecc336fbd486",
@@ -2901,7 +3123,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-09-03T19:58:43.427205+00:00"
+        "case_processed_at": "2026-09-03T22:43:12.117946+00:00"
       },
       {
         "id": "5b1217c6a2652c3fb020656295b7d7abeabe76e5",
@@ -2968,7 +3190,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-09-03T19:58:43.624319+00:00"
+        "case_processed_at": "2026-09-03T22:43:12.331244+00:00"
       },
       {
         "id": "effeb091ad1c4a62eb67a82ebb04e7b062bcabfd",
@@ -3041,7 +3263,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-09-03T20:05:19.780673+00:00"
+        "case_processed_at": "2026-09-03T22:50:26.404239+00:00"
       },
       {
         "id": "58eeed0f51baf430d2c2eba211c812126058f6c5",
@@ -3108,7 +3330,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-09-03T19:58:43.827067+00:00"
+        "case_processed_at": "2026-09-03T22:43:12.552918+00:00"
       },
       {
         "id": "019c4807da49ec5e10ec3f7ed48c52497f6de0f7",
@@ -3184,7 +3406,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-09-03T19:58:44.101213+00:00"
+        "case_processed_at": "2026-09-03T22:43:12.857775+00:00"
       },
       {
         "id": "df6f8b4ccbe6dc6dd6ba4350a54df165a87178cd",
@@ -3258,7 +3480,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-09-03T20:05:19.780676+00:00"
+        "case_processed_at": "2026-09-03T22:50:26.404243+00:00"
       },
       {
         "id": "df3a1f023165964fed53b78c89859d93d19b92e0",
@@ -3323,7 +3545,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-09-03T19:58:44.325206+00:00"
+        "case_processed_at": "2026-09-03T22:43:13.107430+00:00"
       },
       {
         "id": "8dd3e2759a30592ce76660d1e7224f08a6042148",
@@ -3393,7 +3615,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-09-03T20:05:19.780678+00:00"
+        "case_processed_at": "2026-09-03T22:50:26.404246+00:00"
       },
       {
         "id": "4e92172d70688b16de785fa5c8103da0213b3aa2",
@@ -3460,7 +3682,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-09-03T19:58:44.466254+00:00"
+        "case_processed_at": "2026-09-03T22:43:13.261914+00:00"
       },
       {
         "id": "4722abff04fe601d380ea0722c5fe090260d9c8a",
@@ -3538,7 +3760,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-09-03T20:05:19.780680+00:00"
+        "case_processed_at": "2026-09-03T22:50:26.404250+00:00"
       },
       {
         "id": "8ffb4dfb393a4b434527020c0711b889cf40b9b7",
@@ -3606,7 +3828,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-09-03T19:58:44.621213+00:00"
+        "case_processed_at": "2026-09-03T22:43:13.431932+00:00"
       },
       {
         "id": "7569698ab22bea0e0c360be74545a9a12497b0ef",
@@ -3673,7 +3895,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-09-03T19:58:44.887266+00:00"
+        "case_processed_at": "2026-09-03T22:43:13.728815+00:00"
       },
       {
         "id": "a1d47c9a130cebeec3c00c174300eab981d6cda4",
@@ -3745,7 +3967,7 @@
           ]
         },
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-09-03T19:58:45.077685+00:00"
+        "case_processed_at": "2026-09-03T22:43:13.941520+00:00"
       },
       {
         "id": "3eaeff3dcb828f03c37f7ec356cc98a36b38e22d",
@@ -3810,11 +4032,78 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-09-03T19:58:45.334156+00:00"
+        "case_processed_at": "2026-09-03T22:43:14.221155+00:00"
       }
     ],
     "jatim_items": [
       {
+        "id": "87a11def8343ee66c6a1ea30138aabd3ef01d38b",
+        "title": "Polisi Tangkap Pelaku Pengeroyokan dan Konvoi Liar di Jombang - RRI.co.id",
+        "url": "https://rri.co.id/kediri/regional/2705502/polisi-tangkap-pelaku-pengeroyokan-dan-konvoi-liar-di-jombang",
+        "source": "RRI.co.id",
+        "published_at": "2026-09-03T22:19:00+00:00",
+        "collected_at": "2026-09-03T22:37:02.258370+00:00",
+        "region": "Jawa Timur",
+        "area_label": "Jombang",
+        "is_jatim": true,
+        "polres": null,
+        "category": "NETRAL / LAINNYA",
+        "scope": "neutral",
+        "scope_label": "Netral",
+        "priority": "low",
+        "summary": "Polisi Tangkap Pelaku Pengeroyokan dan Konvoi Liar di Jombang RRI.co.id",
+        "processing_status": "processed",
+        "classifier_version": "news-v6",
+        "classified_at": "2026-09-03T22:37:02.258370+00:00",
+        "case_id": null,
+        "discovery_families": [],
+        "discovery_tags": [],
+        "discovery_hits": [],
+        "discovery_version": "discovery-v6.5.4",
+        "google_news_url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNd3hSVS03MUkxdU9jNzVSZEZHMlhyOHJWRjQwR09LTENrdUhocU03cGZXbjVYYWV2RjFkRFFNNXlvYzgxMjhKWmxJUXM1Q0Rpb3F2VEVEZG9kcVUyZTNiRi12cHN3WkJjTTZUY21VZ2xXUFhEZF8zb1lIQnhsM2llWDFRRHR2ckFQV0swMl9Cc0JDaVUyak9ncE1iREVBRURXd0k4STJR?oc=5",
+        "original_url": "https://rri.co.id/kediri/regional/2705502/polisi-tangkap-pelaku-pengeroyokan-dan-konvoi-liar-di-jombang",
+        "locality": "Jombang",
+        "polsek": null,
+        "location_confidence": 95,
+        "location_evidence": [
+          "Jombang"
+        ],
+        "location_status": "JAWA_TIMUR",
+        "location_source": "title",
+        "issue_type": "UMUM",
+        "issue_subtype": "Belum Teridentifikasi",
+        "issue_evidence": [],
+        "handling_status": "BELUM_ADA_INFORMASI",
+        "handling_evidence": [],
+        "attention_score": 7,
+        "attention_label": "Rendah",
+        "attention_components": {
+          "severity": 2,
+          "polri_relation": 0,
+          "authority": 0,
+          "public_impact": 4,
+          "handling": 0,
+          "evidence": 1,
+          "context_risk": 0,
+          "routine_enforcement_cap": null
+        },
+        "attention_evidence": {
+          "severity": [],
+          "authority": [],
+          "public_impact": [],
+          "evidence": [
+            "satu sumber / informasi awal"
+          ],
+          "role": [],
+          "issue": [],
+          "handling": [],
+          "context": [],
+          "positive": []
+        },
+        "case_engine_version": "case-v6.5.4",
+        "case_processed_at": "2026-09-03T22:43:04.405631+00:00"
+      },
+      {
         "id": "2dddbbc4a669d4990d0cccac64c24c246c92b2df",
         "title": "Satlantas Polres Kediri Kota Patroli MQR, Pantau Arus Lalu Lintas dan Cegah Gangguan Keamanan di Ruang Publik - polreskedirikota.com",
         "url": "https://polreskedirikota.com/satlantas-polres-kediri-kota-patroli-mqr-pantau-arus-lalu-lintas-dan-cegah-gangguan-keamanan-di-ruang-publik/",
@@ -3882,7 +4171,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-09-03T19:58:36.953269+00:00"
+        "case_processed_at": "2026-09-03T22:43:04.966655+00:00"
       },
       {
         "id": "f55940c95bf958ace2b238dd9ffa8eea80212150",
@@ -3950,7 +4239,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-09-03T19:58:37.268731+00:00"
+        "case_processed_at": "2026-09-03T22:43:05.307957+00:00"
       },
       {
         "id": "3faaa4dc5c914198f1a8a2df8a784f0f23008ccd",
@@ -4022,7 +4311,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-09-03T19:58:37.583479+00:00"
+        "case_processed_at": "2026-09-03T22:43:05.657260+00:00"
       },
       {
         "id": "0b52fe71bf757d996a3cce86d4e421b897f472df",
@@ -4092,7 +4381,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-09-03T19:58:37.885135+00:00"
+        "case_processed_at": "2026-09-03T22:43:05.995837+00:00"
       },
       {
         "id": "55ddff7f8a21b103b72aab0c5eef83cf7efb38f2",
@@ -4160,7 +4449,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-09-03T19:58:38.184976+00:00"
+        "case_processed_at": "2026-09-03T22:43:06.329276+00:00"
       },
       {
         "id": "8dd1586a6e9ea09660c05f52703f40b39a5b2e70",
@@ -4228,7 +4517,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-09-03T19:58:38.514428+00:00"
+        "case_processed_at": "2026-09-03T22:43:06.696036+00:00"
       },
       {
         "id": "48272d1fcc4ff099621f3e71d221724cc8f2f5e6",
@@ -4309,7 +4598,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-09-03T20:05:19.780647+00:00"
+        "case_processed_at": "2026-09-03T22:50:26.404202+00:00"
       },
       {
         "id": "239b40e381e954b3b42ec7ce879efccfc8645033",
@@ -4377,7 +4666,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-09-03T19:58:39.206305+00:00"
+        "case_processed_at": "2026-09-03T22:43:07.462848+00:00"
       },
       {
         "id": "998afc11f88c95889be33f5da0e5f2dc44429fb9",
@@ -4445,7 +4734,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-09-03T19:58:39.434440+00:00"
+        "case_processed_at": "2026-09-03T22:43:07.717195+00:00"
       },
       {
         "id": "1603da98545c72b1555ea6628cb34f76f1ffb54a",
@@ -4516,7 +4805,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-09-03T20:05:19.780652+00:00"
+        "case_processed_at": "2026-09-03T22:50:26.404209+00:00"
       },
       {
         "id": "7e8dc4bbebe7fb018349ab7c49cfdcdd1e121546",
@@ -4592,7 +4881,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-09-03T20:05:19.780654+00:00"
+        "case_processed_at": "2026-09-03T22:50:26.404213+00:00"
       },
       {
         "id": "143b5887a1bf00aa790ea4c63dded8026c089d44",
@@ -4671,7 +4960,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-09-03T20:05:19.780656+00:00"
+        "case_processed_at": "2026-09-03T22:50:26.404216+00:00"
       },
       {
         "id": "7ffa43cce8710e7a2de7c16a1641d27288138abf",
@@ -4739,7 +5028,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-09-03T19:58:39.638114+00:00"
+        "case_processed_at": "2026-09-03T22:43:07.941662+00:00"
       },
       {
         "id": "e9ffead2cde760373a1f7aaecbbf5a651a4ac169",
@@ -4808,7 +5097,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-09-03T19:58:39.844549+00:00"
+        "case_processed_at": "2026-09-03T22:43:08.169338+00:00"
       },
       {
         "id": "faac2d0c91e17381f3ef0ca5c27ae048582bc2f3",
@@ -4880,7 +5169,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-09-03T19:58:40.082137+00:00"
+        "case_processed_at": "2026-09-03T22:43:08.433294+00:00"
       },
       {
         "id": "bdc233170644ecd039d429203fad06a3eceb9ece",
@@ -4963,7 +5252,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-09-03T20:05:19.780659+00:00"
+        "case_processed_at": "2026-09-03T22:50:26.404220+00:00"
       },
       {
         "id": "268e8563dff198d4a0ec991ce259cee100343124",
@@ -5043,7 +5332,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-09-03T20:05:19.780661+00:00"
+        "case_processed_at": "2026-09-03T22:50:26.404222+00:00"
       },
       {
         "id": "bdb8d9a6617ed6162cfbd7805bb0cad6d9e920f4",
@@ -5111,7 +5400,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-09-03T19:58:40.331541+00:00"
+        "case_processed_at": "2026-09-03T22:43:08.711064+00:00"
       },
       {
         "id": "3dadbefeeaec78becf55c454c11643a60bd03d61",
@@ -5179,7 +5468,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-09-03T19:58:40.571613+00:00"
+        "case_processed_at": "2026-09-03T22:43:08.960031+00:00"
       },
       {
         "id": "56884e0e978e5ff0a3fa2833918bbd8b1c4a9571",
@@ -5247,7 +5536,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-09-03T19:58:40.803860+00:00"
+        "case_processed_at": "2026-09-03T22:43:09.217486+00:00"
       },
       {
         "id": "c1f4c56e3a8c81ee1a015c61f4250ebee4bc0167",
@@ -5317,7 +5606,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-09-03T19:58:41.319786+00:00"
+        "case_processed_at": "2026-09-03T22:43:09.789434+00:00"
       },
       {
         "id": "dab48ab6ebd0353bc7dae5156477bf3a0642d0d0",
@@ -5385,7 +5674,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-09-03T19:58:41.563078+00:00"
+        "case_processed_at": "2026-09-03T22:43:10.059006+00:00"
       },
       {
         "id": "52ced1fc2b5879fdf283d8ccd1204f3fca89c2da",
@@ -5452,7 +5741,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-09-03T19:58:42.302582+00:00"
+        "case_processed_at": "2026-09-03T22:43:10.878384+00:00"
       },
       {
         "id": "b391cf9e06e1385f234cefbe9681f00171a4b222",
@@ -5520,7 +5809,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-09-03T19:58:43.206523+00:00"
+        "case_processed_at": "2026-09-03T22:43:11.878900+00:00"
       },
       {
         "id": "5b1217c6a2652c3fb020656295b7d7abeabe76e5",
@@ -5587,7 +5876,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-09-03T19:58:43.624319+00:00"
+        "case_processed_at": "2026-09-03T22:43:12.331244+00:00"
       },
       {
         "id": "58eeed0f51baf430d2c2eba211c812126058f6c5",
@@ -5654,7 +5943,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-09-03T19:58:43.827067+00:00"
+        "case_processed_at": "2026-09-03T22:43:12.552918+00:00"
       },
       {
         "id": "df6f8b4ccbe6dc6dd6ba4350a54df165a87178cd",
@@ -5728,7 +6017,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-09-03T20:05:19.780676+00:00"
+        "case_processed_at": "2026-09-03T22:50:26.404243+00:00"
       },
       {
         "id": "8dd3e2759a30592ce76660d1e7224f08a6042148",
@@ -5798,7 +6087,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-09-03T20:05:19.780678+00:00"
+        "case_processed_at": "2026-09-03T22:50:26.404246+00:00"
       },
       {
         "id": "4722abff04fe601d380ea0722c5fe090260d9c8a",
@@ -5876,7 +6165,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-09-03T20:05:19.780680+00:00"
+        "case_processed_at": "2026-09-03T22:50:26.404250+00:00"
       },
       {
         "id": "8ffb4dfb393a4b434527020c0711b889cf40b9b7",
@@ -5944,7 +6233,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-09-03T19:58:44.621213+00:00"
+        "case_processed_at": "2026-09-03T22:43:13.431932+00:00"
       },
       {
         "id": "7569698ab22bea0e0c360be74545a9a12497b0ef",
@@ -6011,7 +6300,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-09-03T19:58:44.887266+00:00"
+        "case_processed_at": "2026-09-03T22:43:13.728815+00:00"
       },
       {
         "id": "a1d47c9a130cebeec3c00c174300eab981d6cda4",
@@ -6083,10 +6372,162 @@
           ]
         },
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-09-03T19:58:45.077685+00:00"
+        "case_processed_at": "2026-09-03T22:43:13.941520+00:00"
       }
     ],
     "luar_jatim_items": [
+      {
+        "id": "4756cec1853f3636a4f62f7cbf6b2873b032e74d",
+        "title": "Diduga 6 Oknum Wartawan Ngaku Polisi Peras Penjual Obat Keras di Tangerang, Ditangkap Warga - Target Berita",
+        "url": "https://targetberita.co.id/diduga-6-oknum-wartawan-ngaku-polisi-peras-penjual-obat-keras-di-tangerang-ditangkap-warga/",
+        "source": "Target Berita",
+        "published_at": "2026-09-03T22:03:50+00:00",
+        "collected_at": "2026-09-03T22:37:02.258370+00:00",
+        "region": "BELUM TERPETAKAN",
+        "area_label": "BELUM TERPETAKAN",
+        "is_jatim": null,
+        "polres": null,
+        "category": "NEGATIF - BELUM TERIDENTIFIKASI",
+        "scope": "negative",
+        "scope_label": "Negatif",
+        "priority": "low",
+        "summary": "Diduga 6 Oknum Wartawan Ngaku Polisi Peras Penjual Obat Keras di Tangerang, Ditangkap Warga Target Berita",
+        "processing_status": "processed",
+        "classifier_version": "news-v6",
+        "classified_at": "2026-09-03T22:37:02.258370+00:00",
+        "case_id": "CASE-000806",
+        "discovery_families": [
+          "financial_misconduct",
+          "journalist_and_information"
+        ],
+        "discovery_tags": [
+          "financial_misconduct",
+          "information",
+          "integrity",
+          "journalist"
+        ],
+        "discovery_hits": [
+          "wartawan",
+          "peras"
+        ],
+        "discovery_version": "discovery-v6.5.4",
+        "google_news_url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOTG9JQnRaX29zbVc5X0RJZTZfdVRtbWVSSDNnVll1U0JsZDNtRXFtU3dKVnFiTVp4V2VjOFRpdVFOdnhPX29FTXJWb3dCQ19uQ3EwQnU5QzA1RXl4aXdUN2g5d3dOVlFZR04tWXdXWVJBVmloTVVFMlRvQ1lRVEZnZW9nTGxCUWVNa1hQS294SjAxY19tSS0xdG1mN0Q4bFItdnFqQ1F2eHJVNS1GMHZSd1FVY0Rjem05MEE?oc=5",
+        "original_url": "https://targetberita.co.id/diduga-6-oknum-wartawan-ngaku-polisi-peras-penjual-obat-keras-di-tangerang-ditangkap-warga/",
+        "locality": "",
+        "polsek": null,
+        "location_confidence": 0,
+        "location_evidence": [],
+        "location_status": "BELUM_TERPETAKAN",
+        "location_source": "title",
+        "issue_type": "UMUM",
+        "issue_subtype": "Belum Teridentifikasi",
+        "issue_evidence": [],
+        "handling_status": "BELUM_ADA_INFORMASI",
+        "handling_evidence": [],
+        "attention_score": 37,
+        "attention_label": "Rendah",
+        "attention_components": {
+          "severity": 2,
+          "polri_relation": 16,
+          "authority": 0,
+          "public_impact": 18,
+          "handling": 0,
+          "evidence": 1,
+          "context_risk": 0,
+          "routine_enforcement_cap": null
+        },
+        "attention_evidence": {
+          "severity": [],
+          "authority": [],
+          "public_impact": [
+            "kelompok/korban publik rentan"
+          ],
+          "evidence": [
+            "satu sumber / informasi awal"
+          ],
+          "role": [
+            "Polri/personel menjadi subjek permasalahan"
+          ],
+          "issue": [],
+          "handling": [],
+          "context": [],
+          "positive": []
+        },
+        "case_engine_version": "case-v6.5.4",
+        "case_processed_at": "2026-09-03T22:50:26.404180+00:00"
+      },
+      {
+        "id": "a933cc013ea379af538b4c09ed14231f0db0d88d",
+        "title": "UGM Kecam Polisi Biarkan Ormas Aniaya Mahasiswa Demo - ruang.id",
+        "url": "https://www.ruang.id/ugm-kecam-polisi-biarkan-ormas-aniaya-mahasiswa-demo/",
+        "source": "ruang.id",
+        "published_at": "2026-09-03T20:30:12+00:00",
+        "collected_at": "2026-09-03T22:37:02.258370+00:00",
+        "region": "BELUM TERPETAKAN",
+        "area_label": "BELUM TERPETAKAN",
+        "is_jatim": null,
+        "polres": null,
+        "category": "NETRAL / LAINNYA",
+        "scope": "neutral",
+        "scope_label": "Netral",
+        "priority": "low",
+        "summary": "UGM Kecam Polisi Biarkan Ormas Aniaya Mahasiswa Demo ruang.id",
+        "processing_status": "processed",
+        "classifier_version": "news-v6",
+        "classified_at": "2026-09-03T22:37:02.258370+00:00",
+        "case_id": null,
+        "discovery_families": [
+          "security_public_order"
+        ],
+        "discovery_tags": [
+          "public_order",
+          "security"
+        ],
+        "discovery_hits": [
+          "demo"
+        ],
+        "discovery_version": "discovery-v6.5.4",
+        "google_news_url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFAtWGdvQnMweW9UbzhYaXRhVzl5TENsbmlKU1p4bkJaNjJHWTlUcmltQnQ0V19RS3liOFM3NmtoNmN1bDVEZWg0MVo5Zk1GMXp5a3JsTGplb2NYR09YUmY1NEFfdlNJU3dzWHZnNzlMdzFTc2ZtRzRfWURLWTlJQjg?oc=5",
+        "original_url": "https://www.ruang.id/ugm-kecam-polisi-biarkan-ormas-aniaya-mahasiswa-demo/",
+        "locality": "",
+        "polsek": null,
+        "location_confidence": 0,
+        "location_evidence": [],
+        "location_status": "BELUM_TERPETAKAN",
+        "location_source": "title",
+        "issue_type": "UMUM",
+        "issue_subtype": "Belum Teridentifikasi",
+        "issue_evidence": [],
+        "handling_status": "BELUM_ADA_INFORMASI",
+        "handling_evidence": [],
+        "attention_score": 7,
+        "attention_label": "Rendah",
+        "attention_components": {
+          "severity": 2,
+          "polri_relation": 0,
+          "authority": 0,
+          "public_impact": 4,
+          "handling": 0,
+          "evidence": 1,
+          "context_risk": 0,
+          "routine_enforcement_cap": null
+        },
+        "attention_evidence": {
+          "severity": [],
+          "authority": [],
+          "public_impact": [],
+          "evidence": [
+            "satu sumber / informasi awal"
+          ],
+          "role": [],
+          "issue": [],
+          "handling": [],
+          "context": [],
+          "positive": []
+        },
+        "case_engine_version": "case-v6.5.4",
+        "case_processed_at": "2026-09-03T22:43:04.615830+00:00"
+      },
       {
         "id": "ac108ab1fba9543b34b474799bba38fea711becb",
         "title": "Kurir Narkoba di Nunukan Ditangkap Polisi, Sembilan Paket Sabu Seberat 6,5 Gram Diamankan - PusaranMedia.com",
@@ -6156,7 +6597,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-09-03T20:05:19.780634+00:00"
+        "case_processed_at": "2026-09-03T22:50:26.404187+00:00"
       },
       {
         "id": "9574e2d47ac79829df99cf08d3f5585c706e5b58",
@@ -6227,7 +6668,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-09-03T20:05:19.780641+00:00"
+        "case_processed_at": "2026-09-03T22:50:26.404194+00:00"
       },
       {
         "id": "b0d00be98a2559a7fc076c428ba7431fade741ec",
@@ -6294,7 +6735,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-09-03T19:58:38.723880+00:00"
+        "case_processed_at": "2026-09-03T22:43:06.927368+00:00"
       },
       {
         "id": "8bcfdbbbc14ce18bc9c7e57cbb0eb6d15d7bde32",
@@ -6365,7 +6806,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-09-03T20:05:19.780644+00:00"
+        "case_processed_at": "2026-09-03T22:50:26.404198+00:00"
       },
       {
         "id": "48c949532401b25bd5b5529fd93ab6186b37ae3f",
@@ -6430,7 +6871,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-09-03T19:58:38.926154+00:00"
+        "case_processed_at": "2026-09-03T22:43:07.151434+00:00"
       },
       {
         "id": "15c399315918e8624eb415c0e5bc514d1a0cacb0",
@@ -6511,7 +6952,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-09-03T20:05:19.780650+00:00"
+        "case_processed_at": "2026-09-03T22:50:26.404206+00:00"
       },
       {
         "id": "372fec27f2d5ba34086758dd1c150b1c5f2818ff",
@@ -6578,7 +7019,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-09-03T19:58:41.083424+00:00"
+        "case_processed_at": "2026-09-03T22:43:09.527415+00:00"
       },
       {
         "id": "b1762ea1114c7bea3e668f37744bb2ac5bf4ef90",
@@ -6643,7 +7084,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-09-03T19:58:41.806020+00:00"
+        "case_processed_at": "2026-09-03T22:43:10.329226+00:00"
       },
       {
         "id": "48809e3bc77e71f1366b3c93dca1f0f8c5ac9baf",
@@ -6712,7 +7153,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-09-03T19:58:42.074336+00:00"
+        "case_processed_at": "2026-09-03T22:43:10.626677+00:00"
       },
       {
         "id": "a70df720c438f7dc4582e3eb853956a73afa5479",
@@ -6781,7 +7222,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-09-03T19:58:42.559369+00:00"
+        "case_processed_at": "2026-09-03T22:43:11.162966+00:00"
       },
       {
         "id": "54b584ef53d1e7377eb45f9cb13403c01e02d5a1",
@@ -6857,7 +7298,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-09-03T20:05:19.780666+00:00"
+        "case_processed_at": "2026-09-03T22:50:26.404229+00:00"
       },
       {
         "id": "54a27842dc3420f7e661e2572156e980cce4a326",
@@ -6924,7 +7365,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-09-03T19:58:42.699377+00:00"
+        "case_processed_at": "2026-09-03T22:43:11.317583+00:00"
       },
       {
         "id": "c366a72d7b63330ad2833dc6931ced5d1d3c45c5",
@@ -6993,7 +7434,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-09-03T20:05:19.780668+00:00"
+        "case_processed_at": "2026-09-03T22:50:26.404233+00:00"
       },
       {
         "id": "250848e4b1f3f32230ae5b6e4c1fcdcc82c859e2",
@@ -7065,7 +7506,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-09-03T19:58:42.960600+00:00"
+        "case_processed_at": "2026-09-03T22:43:11.605590+00:00"
       },
       {
         "id": "fe92c563b4d9382520cb9f1d4e13d020f8666ea0",
@@ -7138,7 +7579,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-09-03T20:05:19.780670+00:00"
+        "case_processed_at": "2026-09-03T22:50:26.404235+00:00"
       },
       {
         "id": "fb803925466254d2aecee0d636baecc336fbd486",
@@ -7211,7 +7652,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-09-03T19:58:43.427205+00:00"
+        "case_processed_at": "2026-09-03T22:43:12.117946+00:00"
       },
       {
         "id": "effeb091ad1c4a62eb67a82ebb04e7b062bcabfd",
@@ -7284,7 +7725,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-09-03T20:05:19.780673+00:00"
+        "case_processed_at": "2026-09-03T22:50:26.404239+00:00"
       },
       {
         "id": "019c4807da49ec5e10ec3f7ed48c52497f6de0f7",
@@ -7360,7 +7801,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-09-03T19:58:44.101213+00:00"
+        "case_processed_at": "2026-09-03T22:43:12.857775+00:00"
       },
       {
         "id": "df3a1f023165964fed53b78c89859d93d19b92e0",
@@ -7425,7 +7866,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-09-03T19:58:44.325206+00:00"
+        "case_processed_at": "2026-09-03T22:43:13.107430+00:00"
       },
       {
         "id": "4e92172d70688b16de785fa5c8103da0213b3aa2",
@@ -7492,7 +7933,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-09-03T19:58:44.466254+00:00"
+        "case_processed_at": "2026-09-03T22:43:13.261914+00:00"
       },
       {
         "id": "3eaeff3dcb828f03c37f7ec356cc98a36b38e22d",
@@ -7557,16 +7998,16 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-09-03T19:58:45.334156+00:00"
+        "case_processed_at": "2026-09-03T22:43:14.221155+00:00"
       }
     ]
   },
   "cases": {
-    "active": 17,
+    "active": 18,
     "priority_high": 1,
     "jatim": 9,
     "jatim_priority_high": 1,
-    "articles": 38,
+    "articles": 39,
     "case_ids": [
       "CASE-000033",
       "CASE-000067",
@@ -7584,7 +8025,8 @@
       "CASE-000802",
       "CASE-000803",
       "CASE-000804",
-      "CASE-000805"
+      "CASE-000805",
+      "CASE-000806"
     ],
     "items": [
       {
@@ -8200,7 +8642,7 @@
         ],
         "article_count": 14,
         "created_at": "2026-08-31T07:38:15.493509+00:00",
-        "updated_at": "2026-09-03T20:05:17.110650+00:00",
+        "updated_at": "2026-09-03T22:50:23.530642+00:00",
         "engine_version": "case-v6.5.4",
         "priority_score": 95,
         "priority_breakdown": {
@@ -8364,7 +8806,7 @@
         ],
         "article_count": 2,
         "created_at": "2026-08-31T07:38:16.512143+00:00",
-        "updated_at": "2026-09-03T20:05:17.230183+00:00",
+        "updated_at": "2026-09-03T22:50:23.657181+00:00",
         "engine_version": "case-v6.5.4",
         "priority_score": 43,
         "priority_breakdown": {
@@ -8681,7 +9123,7 @@
         ],
         "article_count": 6,
         "created_at": "2026-08-31T08:00:04.486651+00:00",
-        "updated_at": "2026-09-03T20:05:18.171367+00:00",
+        "updated_at": "2026-09-03T22:50:24.654261+00:00",
         "engine_version": "case-v6.5.4",
         "priority_score": 40,
         "priority_breakdown": {
@@ -8838,7 +9280,7 @@
         ],
         "article_count": 2,
         "created_at": "2026-09-03T06:02:15.156310+00:00",
-        "updated_at": "2026-09-03T20:05:19.668893+00:00",
+        "updated_at": "2026-09-03T22:50:26.265807+00:00",
         "engine_version": "case-v6.5.4",
         "priority_score": 25,
         "priority_breakdown": {
@@ -8994,7 +9436,7 @@
         ],
         "article_count": 2,
         "created_at": "2026-09-03T11:30:14.110458+00:00",
-        "updated_at": "2026-09-03T20:05:19.727093+00:00",
+        "updated_at": "2026-09-03T22:50:26.330280+00:00",
         "engine_version": "case-v6.5.4",
         "priority_score": 38,
         "priority_breakdown": {
@@ -9102,7 +9544,7 @@
         ],
         "article_count": 1,
         "created_at": "2026-09-03T20:03:52.844004+00:00",
-        "updated_at": "2026-09-03T20:05:19.748483+00:00",
+        "updated_at": "2026-09-03T22:50:26.353879+00:00",
         "engine_version": "case-v6.5.4",
         "priority_score": 17,
         "priority_breakdown": {
@@ -9210,7 +9652,7 @@
         ],
         "article_count": 1,
         "created_at": "2026-09-03T20:03:53.091426+00:00",
-        "updated_at": "2026-09-03T20:05:19.751443+00:00",
+        "updated_at": "2026-09-03T22:50:26.357137+00:00",
         "engine_version": "case-v6.5.4",
         "priority_score": 22,
         "priority_breakdown": {
@@ -9314,7 +9756,7 @@
         ],
         "article_count": 1,
         "created_at": "2026-09-03T20:03:53.353870+00:00",
-        "updated_at": "2026-09-03T20:05:19.754426+00:00",
+        "updated_at": "2026-09-03T22:50:26.361983+00:00",
         "engine_version": "case-v6.5.4",
         "priority_score": 34,
         "priority_breakdown": {
@@ -9426,7 +9868,7 @@
         ],
         "article_count": 1,
         "created_at": "2026-09-03T20:03:53.862488+00:00",
-        "updated_at": "2026-09-03T20:05:19.757263+00:00",
+        "updated_at": "2026-09-03T22:50:26.366626+00:00",
         "engine_version": "case-v6.5.4",
         "priority_score": 46,
         "priority_breakdown": {
@@ -9540,7 +9982,7 @@
         ],
         "article_count": 1,
         "created_at": "2026-09-03T20:03:54.153527+00:00",
-        "updated_at": "2026-09-03T20:05:19.760222+00:00",
+        "updated_at": "2026-09-03T22:50:26.370651+00:00",
         "engine_version": "case-v6.5.4",
         "priority_score": 20,
         "priority_breakdown": {
@@ -9647,7 +10089,7 @@
         ],
         "article_count": 1,
         "created_at": "2026-09-03T20:03:54.388463+00:00",
-        "updated_at": "2026-09-03T20:05:19.763032+00:00",
+        "updated_at": "2026-09-03T22:50:26.373792+00:00",
         "engine_version": "case-v6.5.4",
         "priority_score": 23,
         "priority_breakdown": {
@@ -9758,7 +10200,7 @@
         ],
         "article_count": 1,
         "created_at": "2026-09-03T20:03:55.224216+00:00",
-        "updated_at": "2026-09-03T20:05:19.765699+00:00",
+        "updated_at": "2026-09-03T22:50:26.376749+00:00",
         "engine_version": "case-v6.5.4",
         "priority_score": 29,
         "priority_breakdown": {
@@ -9869,7 +10311,7 @@
         ],
         "article_count": 1,
         "created_at": "2026-09-03T20:03:55.508504+00:00",
-        "updated_at": "2026-09-03T20:05:19.768559+00:00",
+        "updated_at": "2026-09-03T22:50:26.380202+00:00",
         "engine_version": "case-v6.5.4",
         "priority_score": 38,
         "priority_breakdown": {
@@ -9973,7 +10415,7 @@
         ],
         "article_count": 1,
         "created_at": "2026-09-03T20:03:55.768307+00:00",
-        "updated_at": "2026-09-03T20:05:19.771375+00:00",
+        "updated_at": "2026-09-03T22:50:26.385066+00:00",
         "engine_version": "case-v6.5.4",
         "priority_score": 30,
         "priority_breakdown": {
@@ -10081,7 +10523,7 @@
         ],
         "article_count": 1,
         "created_at": "2026-09-03T20:03:56.023209+00:00",
-        "updated_at": "2026-09-03T20:05:19.774206+00:00",
+        "updated_at": "2026-09-03T22:50:26.389688+00:00",
         "engine_version": "case-v6.5.4",
         "priority_score": 12,
         "priority_breakdown": {
@@ -10191,7 +10633,7 @@
         ],
         "article_count": 1,
         "created_at": "2026-09-03T20:03:56.313627+00:00",
-        "updated_at": "2026-09-03T20:05:19.777167+00:00",
+        "updated_at": "2026-09-03T22:50:26.394560+00:00",
         "engine_version": "case-v6.5.4",
         "priority_score": 23,
         "priority_breakdown": {
@@ -10299,7 +10741,7 @@
         ],
         "article_count": 1,
         "created_at": "2026-09-03T20:03:56.817037+00:00",
-        "updated_at": "2026-09-03T20:05:19.780040+00:00",
+        "updated_at": "2026-09-03T22:50:26.399059+00:00",
         "engine_version": "case-v6.5.4",
         "priority_score": 16,
         "priority_breakdown": {
@@ -10325,6 +10767,116 @@
           "handling_status": "BELUM_ADA_INFORMASI",
           "reasons": [
             "sifat berita: negatif",
+            "sifat berita: netral",
+            "Hubungan Polri belum spesifik"
+          ]
+        }
+      },
+      {
+        "case_id": "CASE-000806",
+        "title": "Diduga 6 Oknum Wartawan Ngaku Polisi Peras Penjual Obat Keras di Tangerang, Ditangkap Warga - Target Berita",
+        "category": "NEGATIF - BELUM TERIDENTIFIKASI",
+        "scope": "negative",
+        "region": "BELUM TERPETAKAN",
+        "locality": "",
+        "is_jatim": null,
+        "polres": null,
+        "polsek": null,
+        "priority": "low",
+        "attention_score": 22,
+        "attention_label": "Rendah",
+        "signature": "BELUM TERPETAKAN",
+        "incident_terms": [
+          "keras",
+          "ngaku",
+          "obat",
+          "penjual",
+          "peras",
+          "tangerang",
+          "target",
+          "wartawan"
+        ],
+        "event_terms": [
+          "wartawan"
+        ],
+        "location_terms": [
+          "tangerang"
+        ],
+        "discovery_families": [
+          "financial_misconduct",
+          "journalist_and_information"
+        ],
+        "first_seen": "2026-09-03T22:03:50+00:00",
+        "last_seen": "2026-09-03T22:37:02.258370+00:00",
+        "last_detected_at": "2026-09-03T22:37:02.258370+00:00",
+        "article_ids": [
+          "4756cec1853f3636a4f62f7cbf6b2873b032e74d"
+        ],
+        "articles": [
+          {
+            "id": "4756cec1853f3636a4f62f7cbf6b2873b032e74d",
+            "title": "Diduga 6 Oknum Wartawan Ngaku Polisi Peras Penjual Obat Keras di Tangerang, Ditangkap Warga - Target Berita",
+            "url": "https://targetberita.co.id/diduga-6-oknum-wartawan-ngaku-polisi-peras-penjual-obat-keras-di-tangerang-ditangkap-warga/",
+            "published_at": "2026-09-03T22:03:50+00:00",
+            "collected_at": "2026-09-03T22:37:02.258370+00:00",
+            "source": "Target Berita",
+            "match_score": 1.0,
+            "priority": "low",
+            "scope": "negative",
+            "category": "NEGATIF - BELUM TERIDENTIFIKASI",
+            "region": "BELUM TERPETAKAN",
+            "locality": "",
+            "is_jatim": false,
+            "polres": null,
+            "polsek": null,
+            "issue_type": "UMUM",
+            "issue_subtype": "Belum Teridentifikasi",
+            "handling_status": "BELUM_ADA_INFORMASI",
+            "handling_evidence": [],
+            "polri_relation": null,
+            "polri_relation_points": 0,
+            "polri_relation_evidence": [],
+            "attention_score": 37,
+            "attention_label": "Rendah",
+            "attention_components": {
+              "severity": 2,
+              "polri_relation": 16,
+              "authority": 0,
+              "public_impact": 18,
+              "handling": 0,
+              "evidence": 1,
+              "context_risk": 0,
+              "routine_enforcement_cap": null
+            }
+          }
+        ],
+        "article_count": 1,
+        "created_at": "2026-09-03T22:48:53.788030+00:00",
+        "updated_at": "2026-09-03T22:50:26.403455+00:00",
+        "engine_version": "case-v6.5.4",
+        "priority_score": 22,
+        "priority_breakdown": {
+          "severity": 2,
+          "polri_relation": 0,
+          "authority_context": 0,
+          "public_impact": 18,
+          "handling": 0,
+          "evidence": 1,
+          "spread": 0,
+          "escalation": 0,
+          "current_activity": 1,
+          "context_risk": 0
+        },
+        "priority_evidence": {
+          "unique_sources": 1,
+          "active_today_articles": 1,
+          "escalation": [],
+          "issue_type": "UMUM",
+          "issue_subtype": "Belum Teridentifikasi",
+          "sentiment": "neutral",
+          "polri_relation": "INFORMASI_UMUM",
+          "handling_status": "BELUM_ADA_INFORMASI",
+          "reasons": [
             "sifat berita: netral",
             "Hubungan Polri belum spesifik"
           ]
@@ -10945,7 +11497,7 @@
         ],
         "article_count": 14,
         "created_at": "2026-08-31T07:38:15.493509+00:00",
-        "updated_at": "2026-09-03T20:05:17.110650+00:00",
+        "updated_at": "2026-09-03T22:50:23.530642+00:00",
         "engine_version": "case-v6.5.4",
         "priority_score": 95,
         "priority_breakdown": {
@@ -11109,7 +11661,7 @@
         ],
         "article_count": 2,
         "created_at": "2026-08-31T07:38:16.512143+00:00",
-        "updated_at": "2026-09-03T20:05:17.230183+00:00",
+        "updated_at": "2026-09-03T22:50:23.657181+00:00",
         "engine_version": "case-v6.5.4",
         "priority_score": 43,
         "priority_breakdown": {
@@ -11426,7 +11978,7 @@
         ],
         "article_count": 6,
         "created_at": "2026-08-31T08:00:04.486651+00:00",
-        "updated_at": "2026-09-03T20:05:18.171367+00:00",
+        "updated_at": "2026-09-03T22:50:24.654261+00:00",
         "engine_version": "case-v6.5.4",
         "priority_score": 40,
         "priority_breakdown": {
@@ -11583,7 +12135,7 @@
         ],
         "article_count": 2,
         "created_at": "2026-09-03T06:02:15.156310+00:00",
-        "updated_at": "2026-09-03T20:05:19.668893+00:00",
+        "updated_at": "2026-09-03T22:50:26.265807+00:00",
         "engine_version": "case-v6.5.4",
         "priority_score": 25,
         "priority_breakdown": {
@@ -11739,7 +12291,7 @@
         ],
         "article_count": 2,
         "created_at": "2026-09-03T11:30:14.110458+00:00",
-        "updated_at": "2026-09-03T20:05:19.727093+00:00",
+        "updated_at": "2026-09-03T22:50:26.330280+00:00",
         "engine_version": "case-v6.5.4",
         "priority_score": 38,
         "priority_breakdown": {
@@ -11852,7 +12404,7 @@
         ],
         "article_count": 1,
         "created_at": "2026-09-03T20:03:54.153527+00:00",
-        "updated_at": "2026-09-03T20:05:19.760222+00:00",
+        "updated_at": "2026-09-03T22:50:26.370651+00:00",
         "engine_version": "case-v6.5.4",
         "priority_score": 20,
         "priority_breakdown": {
@@ -11959,7 +12511,7 @@
         ],
         "article_count": 1,
         "created_at": "2026-09-03T20:03:54.388463+00:00",
-        "updated_at": "2026-09-03T20:05:19.763032+00:00",
+        "updated_at": "2026-09-03T22:50:26.373792+00:00",
         "engine_version": "case-v6.5.4",
         "priority_score": 23,
         "priority_breakdown": {
@@ -12070,7 +12622,7 @@
         ],
         "article_count": 1,
         "created_at": "2026-09-03T20:03:55.224216+00:00",
-        "updated_at": "2026-09-03T20:05:19.765699+00:00",
+        "updated_at": "2026-09-03T22:50:26.376749+00:00",
         "engine_version": "case-v6.5.4",
         "priority_score": 29,
         "priority_breakdown": {
@@ -12177,7 +12729,7 @@
         ],
         "article_count": 1,
         "created_at": "2026-09-03T20:03:56.817037+00:00",
-        "updated_at": "2026-09-03T20:05:19.780040+00:00",
+        "updated_at": "2026-09-03T22:50:26.399059+00:00",
         "engine_version": "case-v6.5.4",
         "priority_score": 16,
         "priority_breakdown": {
@@ -12211,10 +12763,10 @@
     ]
   },
   "social": {
-    "detected": 61,
-    "jatim": 7,
-    "negative": 14,
-    "priority_high": 12,
+    "detected": 72,
+    "jatim": 9,
+    "negative": 19,
+    "priority_high": 17,
     "video_ids": [
       "oaiNc-XvwoU",
       "KfTmV1b_VLM",
@@ -12243,13 +12795,19 @@
       "793z77U6_zk",
       "JqCUw15Z3vk",
       "ZjZy-iwTnXw",
+      "L0r8KocpJnA",
       "mSzMcidNZJU",
       "9s2LM2asYeE",
+      "0JgGgwVdavw",
       "AfbAQSPsHCw",
       "2rOWNqR19yE",
+      "QAag_YQOsY4",
+      "B3J6LdDOx0Q",
       "iDPls32MGkM",
+      "i54l88BzcuE",
       "-7V5BK12l80",
       "S7Aly4f0EYs",
+      "RN3T0xr-VNA",
       "H2U1EKLFLZk",
       "6wgkGAT3L8Q",
       "gUIvo82ssTU",
@@ -12260,6 +12818,7 @@
       "dPTJ4eM4zQE",
       "wdwGOqruq8w",
       "5u-kzQsb8PU",
+      "vSZWE4K9KRE",
       "IK5iYWMyGZY",
       "Mr3nX4qwgmo",
       "2IrCldqVLrk",
@@ -12267,7 +12826,10 @@
       "pW5ts_Usarw",
       "XgMbqbNItKc",
       "tkBWk86MLF0",
+      "UaSxHeZZL5k",
       "dzhI9qaS1Ro",
+      "qezKCAB09aw",
+      "SE1QT_h9k7A",
       "R5CVTdkfxjw",
       "y_QyOGLfFrQ",
       "Qibx7aWDSnE",
@@ -12276,19 +12838,20 @@
       "knh6gmVIxWU",
       "DGvDQ9dF3ck",
       "oMTKR1sAXlw",
+      "l4cObDYLm0E",
       "eIX1RbP_o_Q"
     ]
   },
   "jatim": {
-    "news_today": 32,
+    "news_today": 33,
     "negative_today": 9,
     "positive_today": 3,
     "case_scope_today": 0,
-    "neutral_today": 20,
+    "neutral_today": 21,
     "case_today": 9,
     "case_high_active": 1,
     "article_high_today": 0,
-    "outside_jatim_today": 21
+    "outside_jatim_today": 23
   },
   "regions": [
     {
@@ -12326,6 +12889,10 @@
     {
       "name": "Sumenep",
       "count": 2
+    },
+    {
+      "name": "Jombang",
+      "count": 1
     },
     {
       "name": "Bangkalan",
@@ -12401,7 +12968,7 @@
   "categories": [
     {
       "name": "NETRAL / LAINNYA",
-      "count": 20
+      "count": 21
     },
     {
       "name": "POSITIF / PENEGAKAN HUKUM",
@@ -12433,19 +13000,19 @@
     }
   ],
   "summary": {
-    "news_today": 53,
-    "negative_today": 17,
-    "cases_today": 17,
+    "news_today": 56,
+    "negative_today": 18,
+    "cases_today": 18,
     "priority_high": 1,
     "article_priority_high": 0,
-    "jatim_news": 32,
+    "jatim_news": 33,
     "jatim_negative": 9,
     "jatim_positive": 3,
     "jatim_case_scope": 0,
-    "jatim_neutral": 20,
+    "jatim_neutral": 21,
     "jatim_cases_today": 9,
     "jatim_case_high_active": 1,
-    "luar_jatim_news": 21,
-    "youtube_today": 61
+    "luar_jatim_news": 23,
+    "youtube_today": 72
   }
 }
