@@ -2,18 +2,19 @@
   "schema_version": "today-v3",
   "date": "2026-09-05",
   "timezone": "Asia/Jakarta",
-  "updated_at": "2026-09-05T02:52:02.927385+07:00",
-  "last_successful_update": "2026-09-05T02:52:02.927385+07:00",
+  "updated_at": "2026-09-05T05:37:52.031876+07:00",
+  "last_successful_update": "2026-09-05T05:37:52.031876+07:00",
   "news": {
-    "detected": 7,
-    "negative": 5,
+    "detected": 8,
+    "negative": 6,
     "positive": 1,
     "case": 0,
     "neutral": 1,
     "jatim": 2,
-    "luar_jatim": 5,
+    "luar_jatim": 6,
     "priority_high": 0,
     "article_ids": [
+      "4206f0c1fc3d3902ee9b7aa4bec16c64c3dc558b",
       "3a08c09110d34a99386c2b87aeb1be3e746efd3b",
       "d7cc476b23c7f58d727d1d89056cbf9fb00128ea",
       "2de3f237581d64d5aaaea61d1003092ddd149369",
@@ -23,6 +24,79 @@
       "e4daf182416f6fdf7317fa1728aaffbf95219da9"
     ],
     "items": [
+      {
+        "id": "4206f0c1fc3d3902ee9b7aa4bec16c64c3dc558b",
+        "title": "Dua Pria Diamankan di Ampenan, Polisi Temukan 1,72 Gram Diduga Sabu - insidelombok",
+        "url": "https://insidelombok.id/mataram/dua-pria-diamankan-di-ampenan-polisi-temukan-172-gram-diduga-sabu/",
+        "source": "insidelombok",
+        "published_at": "2026-09-04T19:39:01+00:00",
+        "collected_at": "2026-09-04T22:22:27.605093+00:00",
+        "region": "BELUM TERPETAKAN",
+        "area_label": "BELUM TERPETAKAN",
+        "is_jatim": null,
+        "polres": null,
+        "category": "NEGATIF - NARKOBA / NARKOTIKA",
+        "scope": "negative",
+        "scope_label": "Negatif",
+        "priority": "low",
+        "summary": "Dua Pria Diamankan di Ampenan, Polisi Temukan 1,72 Gram Diduga Sabu insidelombok",
+        "processing_status": "processed",
+        "classifier_version": "news-v6",
+        "classified_at": "2026-09-04T22:22:27.605093+00:00",
+        "case_id": "CASE-000862",
+        "discovery_families": [],
+        "discovery_tags": [],
+        "discovery_hits": [],
+        "discovery_version": "discovery-v6.5.4",
+        "google_news_url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOWDBpdlBRM1hyY1c2WjYyNnhmclA2Ni1qRG52aGFCLXR1RUJTUTgxUTdLZXJMYUFYY0JNb2xpbldjWUlab0pOX2xmeVFNNkJPZ2o5eWZ6Mlhtdjk0bW9tZlZQLU8wZDV6b002ME8wNkV2VjB1R2FyQnJtYTk0S3ByM3huZGFoRGNsZkhUMXdFa1N2R2dFOWM2c1ZOSjhHaTA?oc=5",
+        "original_url": "https://insidelombok.id/mataram/dua-pria-diamankan-di-ampenan-polisi-temukan-172-gram-diduga-sabu/",
+        "locality": "",
+        "polsek": null,
+        "location_confidence": 0,
+        "location_evidence": [],
+        "location_status": "BELUM_TERPETAKAN",
+        "location_source": "title",
+        "issue_type": "NARKOBA",
+        "issue_subtype": "Narkoba / Narkotika",
+        "issue_evidence": [
+          "sabu"
+        ],
+        "handling_status": "BELUM_ADA_INFORMASI",
+        "handling_evidence": [],
+        "attention_score": 38,
+        "attention_label": "Rendah",
+        "attention_components": {
+          "severity": 11,
+          "polri_relation": 16,
+          "authority": 0,
+          "public_impact": 10,
+          "handling": 0,
+          "evidence": 1,
+          "context_risk": 0,
+          "routine_enforcement_cap": null
+        },
+        "attention_evidence": {
+          "severity": [],
+          "authority": [],
+          "public_impact": [
+            "dampak institusional"
+          ],
+          "evidence": [
+            "satu sumber / informasi awal"
+          ],
+          "role": [
+            "Polri/personel menjadi subjek permasalahan"
+          ],
+          "issue": [
+            "sabu"
+          ],
+          "handling": [],
+          "context": [],
+          "positive": []
+        },
+        "case_engine_version": "case-v6.5.4",
+        "case_processed_at": "2026-09-04T22:37:50.594113+00:00"
+      },
       {
         "id": "3a08c09110d34a99386c2b87aeb1be3e746efd3b",
         "title": "167 Tersangka Karhutla Diringkus, Publik Tanya Keberanian Polisi Bidik Korporasi di Lahan Konsesi - inilah.com",
@@ -90,7 +164,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-09-04T19:44:45.818198+00:00"
+        "case_processed_at": "2026-09-04T22:28:40.134038+00:00"
       },
       {
         "id": "d7cc476b23c7f58d727d1d89056cbf9fb00128ea",
@@ -163,7 +237,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-09-04T19:52:01.469545+00:00"
+        "case_processed_at": "2026-09-04T22:37:50.594118+00:00"
       },
       {
         "id": "2de3f237581d64d5aaaea61d1003092ddd149369",
@@ -234,7 +308,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-09-04T19:52:01.469550+00:00"
+        "case_processed_at": "2026-09-04T22:37:50.594122+00:00"
       },
       {
         "id": "221e3c796e42fb40a35f70e60783fd3175252b10",
@@ -306,7 +380,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-09-04T19:52:01.469552+00:00"
+        "case_processed_at": "2026-09-04T22:37:50.594124+00:00"
       },
       {
         "id": "7adb1dae9c35258066aa794ac1d9411c56c93947",
@@ -378,7 +452,7 @@
           ]
         },
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-09-04T19:44:46.105022+00:00"
+        "case_processed_at": "2026-09-04T22:28:40.494783+00:00"
       },
       {
         "id": "a84de3d3bef2dba386508bcad03b804cce8a7b6e",
@@ -447,7 +521,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-09-04T19:52:01.469554+00:00"
+        "case_processed_at": "2026-09-04T22:37:50.594127+00:00"
       },
       {
         "id": "e4daf182416f6fdf7317fa1728aaffbf95219da9",
@@ -518,7 +592,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-09-04T19:52:01.469556+00:00"
+        "case_processed_at": "2026-09-04T22:37:50.594129+00:00"
       }
     ],
     "jatim_items": [
@@ -592,7 +666,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-09-04T19:52:01.469552+00:00"
+        "case_processed_at": "2026-09-04T22:37:50.594124+00:00"
       },
       {
         "id": "7adb1dae9c35258066aa794ac1d9411c56c93947",
@@ -664,10 +738,83 @@
           ]
         },
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-09-04T19:44:46.105022+00:00"
+        "case_processed_at": "2026-09-04T22:28:40.494783+00:00"
       }
     ],
     "luar_jatim_items": [
+      {
+        "id": "4206f0c1fc3d3902ee9b7aa4bec16c64c3dc558b",
+        "title": "Dua Pria Diamankan di Ampenan, Polisi Temukan 1,72 Gram Diduga Sabu - insidelombok",
+        "url": "https://insidelombok.id/mataram/dua-pria-diamankan-di-ampenan-polisi-temukan-172-gram-diduga-sabu/",
+        "source": "insidelombok",
+        "published_at": "2026-09-04T19:39:01+00:00",
+        "collected_at": "2026-09-04T22:22:27.605093+00:00",
+        "region": "BELUM TERPETAKAN",
+        "area_label": "BELUM TERPETAKAN",
+        "is_jatim": null,
+        "polres": null,
+        "category": "NEGATIF - NARKOBA / NARKOTIKA",
+        "scope": "negative",
+        "scope_label": "Negatif",
+        "priority": "low",
+        "summary": "Dua Pria Diamankan di Ampenan, Polisi Temukan 1,72 Gram Diduga Sabu insidelombok",
+        "processing_status": "processed",
+        "classifier_version": "news-v6",
+        "classified_at": "2026-09-04T22:22:27.605093+00:00",
+        "case_id": "CASE-000862",
+        "discovery_families": [],
+        "discovery_tags": [],
+        "discovery_hits": [],
+        "discovery_version": "discovery-v6.5.4",
+        "google_news_url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOWDBpdlBRM1hyY1c2WjYyNnhmclA2Ni1qRG52aGFCLXR1RUJTUTgxUTdLZXJMYUFYY0JNb2xpbldjWUlab0pOX2xmeVFNNkJPZ2o5eWZ6Mlhtdjk0bW9tZlZQLU8wZDV6b002ME8wNkV2VjB1R2FyQnJtYTk0S3ByM3huZGFoRGNsZkhUMXdFa1N2R2dFOWM2c1ZOSjhHaTA?oc=5",
+        "original_url": "https://insidelombok.id/mataram/dua-pria-diamankan-di-ampenan-polisi-temukan-172-gram-diduga-sabu/",
+        "locality": "",
+        "polsek": null,
+        "location_confidence": 0,
+        "location_evidence": [],
+        "location_status": "BELUM_TERPETAKAN",
+        "location_source": "title",
+        "issue_type": "NARKOBA",
+        "issue_subtype": "Narkoba / Narkotika",
+        "issue_evidence": [
+          "sabu"
+        ],
+        "handling_status": "BELUM_ADA_INFORMASI",
+        "handling_evidence": [],
+        "attention_score": 38,
+        "attention_label": "Rendah",
+        "attention_components": {
+          "severity": 11,
+          "polri_relation": 16,
+          "authority": 0,
+          "public_impact": 10,
+          "handling": 0,
+          "evidence": 1,
+          "context_risk": 0,
+          "routine_enforcement_cap": null
+        },
+        "attention_evidence": {
+          "severity": [],
+          "authority": [],
+          "public_impact": [
+            "dampak institusional"
+          ],
+          "evidence": [
+            "satu sumber / informasi awal"
+          ],
+          "role": [
+            "Polri/personel menjadi subjek permasalahan"
+          ],
+          "issue": [
+            "sabu"
+          ],
+          "handling": [],
+          "context": [],
+          "positive": []
+        },
+        "case_engine_version": "case-v6.5.4",
+        "case_processed_at": "2026-09-04T22:37:50.594113+00:00"
+      },
       {
         "id": "3a08c09110d34a99386c2b87aeb1be3e746efd3b",
         "title": "167 Tersangka Karhutla Diringkus, Publik Tanya Keberanian Polisi Bidik Korporasi di Lahan Konsesi - inilah.com",
@@ -735,7 +882,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-09-04T19:44:45.818198+00:00"
+        "case_processed_at": "2026-09-04T22:28:40.134038+00:00"
       },
       {
         "id": "d7cc476b23c7f58d727d1d89056cbf9fb00128ea",
@@ -808,7 +955,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-09-04T19:52:01.469545+00:00"
+        "case_processed_at": "2026-09-04T22:37:50.594118+00:00"
       },
       {
         "id": "2de3f237581d64d5aaaea61d1003092ddd149369",
@@ -879,7 +1026,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-09-04T19:52:01.469550+00:00"
+        "case_processed_at": "2026-09-04T22:37:50.594122+00:00"
       },
       {
         "id": "a84de3d3bef2dba386508bcad03b804cce8a7b6e",
@@ -948,7 +1095,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-09-04T19:52:01.469554+00:00"
+        "case_processed_at": "2026-09-04T22:37:50.594127+00:00"
       },
       {
         "id": "e4daf182416f6fdf7317fa1728aaffbf95219da9",
@@ -1019,22 +1166,23 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-09-04T19:52:01.469556+00:00"
+        "case_processed_at": "2026-09-04T22:37:50.594129+00:00"
       }
     ]
   },
   "cases": {
-    "active": 5,
+    "active": 6,
     "priority_high": 0,
     "jatim": 1,
     "jatim_priority_high": 0,
-    "articles": 8,
+    "articles": 9,
     "case_ids": [
       "CASE-000167",
       "CASE-000858",
       "CASE-000859",
       "CASE-000860",
-      "CASE-000861"
+      "CASE-000861",
+      "CASE-000862"
     ],
     "items": [
       {
@@ -1242,7 +1390,7 @@
         ],
         "article_count": 4,
         "created_at": "2026-08-31T07:38:22.214710+00:00",
-        "updated_at": "2026-09-04T19:51:59.453862+00:00",
+        "updated_at": "2026-09-04T22:37:47.978924+00:00",
         "engine_version": "case-v6.5.4",
         "priority_score": 27,
         "priority_breakdown": {
@@ -1346,7 +1494,7 @@
         ],
         "article_count": 1,
         "created_at": "2026-09-04T19:50:36.629766+00:00",
-        "updated_at": "2026-09-04T19:52:01.462080+00:00",
+        "updated_at": "2026-09-04T22:37:50.581778+00:00",
         "engine_version": "case-v6.5.4",
         "priority_score": 39,
         "priority_breakdown": {
@@ -1451,7 +1599,7 @@
         ],
         "article_count": 1,
         "created_at": "2026-09-04T19:50:36.864376+00:00",
-        "updated_at": "2026-09-04T19:52:01.464420+00:00",
+        "updated_at": "2026-09-04T22:37:50.584851+00:00",
         "engine_version": "case-v6.5.4",
         "priority_score": 34,
         "priority_breakdown": {
@@ -1554,7 +1702,7 @@
         ],
         "article_count": 1,
         "created_at": "2026-09-04T19:50:37.241089+00:00",
-        "updated_at": "2026-09-04T19:52:01.466706+00:00",
+        "updated_at": "2026-09-04T22:37:50.587817+00:00",
         "engine_version": "case-v6.5.4",
         "priority_score": 30,
         "priority_breakdown": {
@@ -1661,7 +1809,7 @@
         ],
         "article_count": 1,
         "created_at": "2026-09-04T19:50:37.450824+00:00",
-        "updated_at": "2026-09-04T19:52:01.468974+00:00",
+        "updated_at": "2026-09-04T22:37:50.590776+00:00",
         "engine_version": "case-v6.5.4",
         "priority_score": 31,
         "priority_breakdown": {
@@ -1689,6 +1837,110 @@
             "sifat berita: negatif",
             "Narkoba / Narkotika",
             "Hubungan Polri belum spesifik"
+          ]
+        }
+      },
+      {
+        "case_id": "CASE-000862",
+        "title": "Dua Pria Diamankan di Ampenan, Polisi Temukan 1,72 Gram Diduga Sabu - insidelombok",
+        "category": "NEGATIF - NARKOBA / NARKOTIKA",
+        "scope": "negative",
+        "region": "BELUM TERPETAKAN",
+        "locality": "",
+        "is_jatim": null,
+        "polres": null,
+        "polsek": null,
+        "priority": "low",
+        "attention_score": 39,
+        "attention_label": "Rendah",
+        "signature": "BELUM TERPETAKAN",
+        "incident_terms": [
+          "ampenan",
+          "gram",
+          "insidelombok",
+          "pria",
+          "sabu",
+          "temukan"
+        ],
+        "event_terms": [
+          "sabu"
+        ],
+        "location_terms": [],
+        "discovery_families": [],
+        "first_seen": "2026-09-04T19:39:01+00:00",
+        "last_seen": "2026-09-04T22:22:27.605093+00:00",
+        "last_detected_at": "2026-09-04T22:22:27.605093+00:00",
+        "article_ids": [
+          "4206f0c1fc3d3902ee9b7aa4bec16c64c3dc558b"
+        ],
+        "articles": [
+          {
+            "id": "4206f0c1fc3d3902ee9b7aa4bec16c64c3dc558b",
+            "title": "Dua Pria Diamankan di Ampenan, Polisi Temukan 1,72 Gram Diduga Sabu - insidelombok",
+            "url": "https://insidelombok.id/mataram/dua-pria-diamankan-di-ampenan-polisi-temukan-172-gram-diduga-sabu/",
+            "published_at": "2026-09-04T19:39:01+00:00",
+            "collected_at": "2026-09-04T22:22:27.605093+00:00",
+            "source": "insidelombok",
+            "match_score": 1.0,
+            "priority": "low",
+            "scope": "negative",
+            "category": "NEGATIF - NARKOBA / NARKOTIKA",
+            "region": "BELUM TERPETAKAN",
+            "locality": "",
+            "is_jatim": false,
+            "polres": null,
+            "polsek": null,
+            "issue_type": "NARKOBA",
+            "issue_subtype": "Narkoba / Narkotika",
+            "handling_status": "BELUM_ADA_INFORMASI",
+            "handling_evidence": [],
+            "polri_relation": null,
+            "polri_relation_points": 0,
+            "polri_relation_evidence": [],
+            "attention_score": 38,
+            "attention_label": "Rendah",
+            "attention_components": {
+              "severity": 11,
+              "polri_relation": 16,
+              "authority": 0,
+              "public_impact": 10,
+              "handling": 0,
+              "evidence": 1,
+              "context_risk": 0,
+              "routine_enforcement_cap": null
+            }
+          }
+        ],
+        "article_count": 1,
+        "created_at": "2026-09-04T22:36:03.153656+00:00",
+        "updated_at": "2026-09-04T22:37:50.593826+00:00",
+        "engine_version": "case-v6.5.4",
+        "priority_score": 39,
+        "priority_breakdown": {
+          "severity": 11,
+          "polri_relation": 16,
+          "authority_context": 0,
+          "public_impact": 10,
+          "handling": 0,
+          "evidence": 1,
+          "spread": 0,
+          "escalation": 0,
+          "current_activity": 1,
+          "context_risk": 0
+        },
+        "priority_evidence": {
+          "unique_sources": 1,
+          "active_today_articles": 1,
+          "escalation": [],
+          "issue_type": "NARKOBA",
+          "issue_subtype": "Narkoba / Narkotika",
+          "sentiment": "negative",
+          "polri_relation": "SUBJEK_PERMASALAHAN",
+          "handling_status": "BELUM_ADA_INFORMASI",
+          "reasons": [
+            "sifat berita: negatif",
+            "Narkoba / Narkotika",
+            "polisi + dugaan"
           ]
         }
       }
@@ -1899,7 +2151,7 @@
         ],
         "article_count": 4,
         "created_at": "2026-08-31T07:38:22.214710+00:00",
-        "updated_at": "2026-09-04T19:51:59.453862+00:00",
+        "updated_at": "2026-09-04T22:37:47.978924+00:00",
         "engine_version": "case-v6.5.4",
         "priority_score": 27,
         "priority_breakdown": {
@@ -1933,24 +2185,56 @@
     ]
   },
   "social": {
-    "detected": 56,
-    "jatim": 2,
-    "negative": 19,
-    "priority_high": 3,
+    "detected": 104,
+    "jatim": 11,
+    "negative": 30,
+    "priority_high": 11,
     "video_ids": [
+      "dWRRyXoBCpY",
+      "l8x87hYHt0c",
+      "y1ktI4XCnDA",
+      "YLVmzedaidQ",
       "-fSbb-4yn7w",
+      "EqgRdPKqhQQ",
       "Wtk6t68qo0o",
       "cKE5iylvTUw",
+      "vdB7q2YOeds",
       "cu6jYlOqdTE",
       "B4htu-xf4n8",
+      "nKiMspi2l3s",
       "9WH14FNU9Q0",
+      "rkjEH5b8Aw8",
+      "SRCxp6ffTjQ",
+      "MZY2IQA1-1Y",
+      "A5ieKHBh5Hs",
+      "2BPFZyCfnVY",
+      "j0nHZXRxBGs",
+      "IEomzz16QDc",
+      "6ylTbakcnE4",
+      "eomXX4anORw",
+      "Sc1ltOKxQns",
+      "74Zbhk8P-Q4",
+      "GkMbLUvT-6I",
+      "CWlTbp53hR4",
       "V3pRVRn_V5Q",
+      "dkho3iPwqO4",
       "VQ6JBD2ArD4",
       "ZSb2VfQJ5Z0",
+      "eCjt1QxwsD4",
       "9GxzdyXUU1o",
+      "CRiamsTWYAM",
       "KskU6KXEufQ",
+      "XNdps9Y7jOo",
+      "nAhAEBA_BoA",
+      "GF57f3VFTn0",
+      "mY1DX3eTpm8",
+      "wLqqwfAPbX4",
       "rt9CLm-PH6c",
       "4S33Yxl-Jw8",
+      "e_UNAq9UomU",
+      "acCN-5FQvKA",
+      "ci3HpFZkl6o",
+      "V5ESoMeuaeg",
       "J2zm1v_jPdY",
       "RQ9LEHzOGyI",
       "m_6pNzz8sAU",
@@ -1959,12 +2243,18 @@
       "U1lLuVSLGPM",
       "ACfZrQJlRz8",
       "BUK7eEBTKWM",
+      "5OqRggkz6R4",
       "NjGi_-aaqfc",
       "33Rv59tu4cE",
+      "TB6Jqt--ru8",
       "zFEd05oSzHs",
+      "AXnJE7ZWQp8",
       "kkaxaj96Hnk",
+      "mDUCKIZRB6g",
       "zbr0LUlUe2Y",
       "m10rYU1Jyfo",
+      "GX3ZoFUgnF4",
+      "NzpE6yKNDhA",
       "pnJzNUNNKEo",
       "-yebwvC5K64",
       "m1Vr0SFOhjM",
@@ -1972,20 +2262,28 @@
       "BTTypj9-6sk",
       "XJoFQNjyScY",
       "qpqoI8rSEek",
+      "4nFEJ-BqDkE",
+      "dWKWPdVecHI",
       "B_472mXU0Y0",
       "Pfh-LF8wao0",
       "IHf9AKEeJJU",
       "20Uezs-lax8",
+      "kiLdE0W59bg",
+      "LDj4C4qcKm0",
       "ttd6TqtJg0U",
       "hRPoXJtflLM",
       "vt_G2j8vNmg",
       "HEA1AX1TLiM",
       "M6ycsmiNpYg",
+      "mkDOfrs8WiE",
       "QQ7K6YAgFHA",
+      "n2ahProi5uw",
+      "JqCUw15Z3vk",
       "dab_85Napjo",
       "vgnDW9YF2hE",
       "J3l18bcwa4o",
       "FPrllgac2Zg",
+      "AfbAQSPsHCw",
       "QAag_YQOsY4",
       "E9EyDkaQ8HQ",
       "LypAqQmCGGA",
@@ -1993,7 +2291,9 @@
       "Mry2_YiCueA",
       "WGTAstqzIkY",
       "0savg1hpJoQ",
-      "a8DG37TdXDg"
+      "a8DG37TdXDg",
+      "-7V5BK12l80",
+      "S7Aly4f0EYs"
     ]
   },
   "jatim": {
@@ -2005,7 +2305,7 @@
     "case_today": 1,
     "case_high_active": 0,
     "article_high_today": 0,
-    "outside_jatim_today": 5
+    "outside_jatim_today": 6
   },
   "regions": [
     {
@@ -2038,9 +2338,9 @@
     }
   ],
   "summary": {
-    "news_today": 7,
-    "negative_today": 5,
-    "cases_today": 5,
+    "news_today": 8,
+    "negative_today": 6,
+    "cases_today": 6,
     "priority_high": 0,
     "article_priority_high": 0,
     "jatim_news": 2,
@@ -2050,7 +2350,7 @@
     "jatim_neutral": 0,
     "jatim_cases_today": 1,
     "jatim_case_high_active": 0,
-    "luar_jatim_news": 5,
-    "youtube_today": 56
+    "luar_jatim_news": 6,
+    "youtube_today": 104
   }
 }

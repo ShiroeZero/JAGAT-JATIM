@@ -1,25 +1,128 @@
 {
-  "generated_at": "2026-09-04T19:52:01.762711+00:00",
+  "generated_at": "2026-09-04T22:37:50.932968+00:00",
   "platform": "YouTube",
-  "query_cursor": 1,
+  "query_cursor": 4,
   "query_batch_size": 3,
   "query_success": 3,
   "query_skipped": 0,
   "quota_warning": false,
   "quota_block_date": null,
-  "total": 1023,
-  "new_videos": 30,
+  "total": 1048,
+  "new_videos": 25,
   "statistics": {
-    "total": 1023,
-    "jatim": 66,
-    "negative": 383,
+    "total": 1048,
+    "jatim": 73,
+    "negative": 387,
     "incident": 33,
-    "case": 137,
-    "neutral": 419,
-    "noise": 7,
-    "high_priority": 192
+    "case": 151,
+    "neutral": 425,
+    "noise": 8,
+    "high_priority": 193
   },
   "items": [
+    {
+      "id": "1a29685d63b4c0819f7e29488b5cb2c8533142ef",
+      "video_id": "dWRRyXoBCpY",
+      "platform": "YouTube",
+      "type": "video",
+      "title": "Tato Belum Selesai, Seniman Ditangkap#Tato#Polisi#Kasus",
+      "channel": "Seputar Fakta",
+      "published_at": "2026-09-04T21:10:08Z",
+      "url": "https://www.youtube.com/watch?v=dWRRyXoBCpY",
+      "thumbnail": "https://i.ytimg.com/vi/dWRRyXoBCpY/hqdefault.jpg",
+      "description": "Di Glassboro, New Jersey, seorang pria memiliki tato di wajah yang belum selesai dikerjakan karena pembuatnya ditangkap ...",
+      "relevance": "medium",
+      "scope": "neutral",
+      "category": "Berita Polisi Lainnya",
+      "classification_score": 25,
+      "is_jatim": false,
+      "region": "Indonesia",
+      "polres": null,
+      "location_confidence": 0,
+      "location_source": null,
+      "location_evidence": [],
+      "priority": "low",
+      "collected_at": "2026-09-04T22:37:50.932968+00:00"
+    },
+    {
+      "id": "32325028663b2f526dc95b972a353fa1e080aed5",
+      "video_id": "l8x87hYHt0c",
+      "platform": "YouTube",
+      "type": "video",
+      "title": "MISS TOLONG ADEKKU DIA DITANGKAP POLISI DI PERAIRAN SANA DAN PEMILIK PT DAN AGENSI JUGA DI RINGKUS",
+      "channel": "Yuni  TKW Hong Kong@CURHATAN BMI",
+      "published_at": "2026-09-04T20:00:38Z",
+      "url": "https://www.youtube.com/watch?v=l8x87hYHt0c",
+      "thumbnail": "https://i.ytimg.com/vi/l8x87hYHt0c/hqdefault.jpg",
+      "description": "Konten ini berisi tentang kisah kisah dan keluh kesah tentang TKW Hongkong yang kita naikkan ke dalam konten agar kita semua ...",
+      "relevance": "high",
+      "scope": "case",
+      "category": "Ungkap Kasus",
+      "classification_score": 60,
+      "is_jatim": false,
+      "region": "Indonesia",
+      "polres": null,
+      "location_confidence": 0,
+      "location_source": null,
+      "location_evidence": [],
+      "priority": "low",
+      "collected_at": "2026-09-04T22:37:50.932968+00:00"
+    },
+    {
+      "id": "a76d1f5873eb3b8c9fd70cd13bec3d70a3fab6e4",
+      "video_id": "y1ktI4XCnDA",
+      "platform": "YouTube",
+      "type": "video",
+      "title": "🔴TAMPANG PELAKU PERUSAK MOBIL DI JAGAKARSA SAAT DITANGKAP POLISI",
+      "channel": "Tribun Singkawang",
+      "published_at": "2026-09-04T18:14:47Z",
+      "url": "https://www.youtube.com/watch?v=y1ktI4XCnDA",
+      "thumbnail": "https://i.ytimg.com/vi/y1ktI4XCnDA/hqdefault.jpg",
+      "description": "Tampang pelaku perusakan mobil yang viral di Jagakarsa, Jakarta Selatan, akhirnya terungkap setelah polisi menangkap pria ...",
+      "relevance": "high",
+      "scope": "case",
+      "category": "Ungkap Kasus",
+      "classification_score": 60,
+      "is_jatim": false,
+      "region": "Indonesia",
+      "polres": null,
+      "location_confidence": 0,
+      "location_source": "outside",
+      "location_evidence": [
+        "LUAR:jakarta",
+        "LUAR:jakarta selatan"
+      ],
+      "priority": "low",
+      "collected_at": "2026-09-04T22:37:50.932968+00:00"
+    },
+    {
+      "id": "b605e2e0fab632ebe44fad21604e5242c6641da5",
+      "video_id": "YLVmzedaidQ",
+      "platform": "YouTube",
+      "type": "video",
+      "title": "🔴PELAKU PELEMPAR BATU KE MOBIL YANG VIRAL DI JAGAKARSA DITANGKAP POLISI",
+      "channel": "Tribun Pontianak",
+      "published_at": "2026-09-04T17:34:54Z",
+      "url": "https://www.youtube.com/watch?v=YLVmzedaidQ",
+      "thumbnail": "https://i.ytimg.com/vi/YLVmzedaidQ/hqdefault.jpg",
+      "description": "Tampang pelaku perusakan mobil yang viral di Jagakarsa, Jakarta Selatan, akhirnya terungkap setelah polisi menangkap pria ...",
+      "relevance": "high",
+      "scope": "case",
+      "category": "Ungkap Kasus",
+      "classification_score": 60,
+      "is_jatim": false,
+      "region": "Indonesia",
+      "polres": null,
+      "location_confidence": 0,
+      "location_source": "location",
+      "location_evidence": [
+        "batu",
+        "LUAR:jakarta",
+        "LUAR:jakarta selatan"
+      ],
+      "priority": "low",
+      "collected_at": "2026-09-04T22:37:50.932968+00:00"
+    },
     {
       "id": "42d5793c1eccca9c6210916c17937760f0edd05e",
       "video_id": "-fSbb-4yn7w",
@@ -43,6 +146,30 @@
       "location_evidence": [],
       "priority": "medium",
       "collected_at": "2026-09-04T19:52:01.762711+00:00"
+    },
+    {
+      "id": "b482c2f65998bddb9719ae19afcd156a0bd741ef",
+      "video_id": "EqgRdPKqhQQ",
+      "platform": "YouTube",
+      "type": "video",
+      "title": "Ditangkap Polisi Malah Bahagia",
+      "channel": "KAIN USANG",
+      "published_at": "2026-09-04T14:30:32Z",
+      "url": "https://www.youtube.com/watch?v=EqgRdPKqhQQ",
+      "thumbnail": "https://i.ytimg.com/vi/EqgRdPKqhQQ/hqdefault.jpg",
+      "description": "Kamera pengawas di dalam mobil patroli kepolisian merekam sebuah momen ganjil yang kemudian viral di berbagai platform ...",
+      "relevance": "high",
+      "scope": "case",
+      "category": "Ungkap Kasus",
+      "classification_score": 60,
+      "is_jatim": false,
+      "region": "Indonesia",
+      "polres": null,
+      "location_confidence": 0,
+      "location_source": null,
+      "location_evidence": [],
+      "priority": "low",
+      "collected_at": "2026-09-04T22:37:50.932968+00:00"
     },
     {
       "id": "b524c97de252e32746299487579ceeb99d7f67f5",
@@ -117,7 +244,7 @@
       "location_source": null,
       "location_evidence": [],
       "priority": "low",
-      "collected_at": "2026-09-04T16:40:26.746271+00:00"
+      "collected_at": "2026-09-04T22:37:50.932968+00:00"
     },
     {
       "id": "4415dd798b9b0b868d72d85faa89fdfee04b78a4",
@@ -168,6 +295,30 @@
       "collected_at": "2026-09-04T19:52:01.762711+00:00"
     },
     {
+      "id": "b776e438b1ab64d26f6cc191347a17109d72410e",
+      "video_id": "nKiMspi2l3s",
+      "platform": "YouTube",
+      "type": "video",
+      "title": "DITANGKAP POLISI GARA2 PAKAI BIKINI!! 😱😤",
+      "channel": "Risyad and Son",
+      "published_at": "2026-09-04T11:51:59Z",
+      "url": "https://www.youtube.com/watch?v=nKiMspi2l3s",
+      "thumbnail": "https://i.ytimg.com/vi/nKiMspi2l3s/hqdefault.jpg",
+      "description": "",
+      "relevance": "high",
+      "scope": "case",
+      "category": "Ungkap Kasus",
+      "classification_score": 60,
+      "is_jatim": false,
+      "region": "Indonesia",
+      "polres": null,
+      "location_confidence": 0,
+      "location_source": null,
+      "location_evidence": [],
+      "priority": "low",
+      "collected_at": "2026-09-04T22:37:50.932968+00:00"
+    },
+    {
       "id": "edba1cb73f9e176e07fe26774c068631b9fb346c",
       "video_id": "9WH14FNU9Q0",
       "platform": "YouTube",
@@ -190,6 +341,290 @@
       "location_evidence": [],
       "priority": "low",
       "collected_at": "2026-09-04T19:52:01.762711+00:00"
+    },
+    {
+      "id": "03ce79525b8bf66072cf80e79606e2768ff7bc4e",
+      "video_id": "rkjEH5b8Aw8",
+      "platform": "YouTube",
+      "type": "video",
+      "title": "2 Pelaku Penculikan Bayi Baru Lahir Ditangkap Polisi, Ternyata Mantan Perawat",
+      "channel": "Tribun Jateng",
+      "published_at": "2026-09-04T11:44:58Z",
+      "url": "https://www.youtube.com/watch?v=rkjEH5b8Aw8",
+      "thumbnail": "https://i.ytimg.com/vi/rkjEH5b8Aw8/hqdefault.jpg",
+      "description": "Dua pelaku penculikan bayi laki-laki yang baru lahir di Rumah Sakit (RS) Sundari, Kecamatan Medan Sunggal, Kota Medan pada ...",
+      "relevance": "high",
+      "scope": "case",
+      "category": "Ungkap Kasus",
+      "classification_score": 60,
+      "is_jatim": false,
+      "region": "Indonesia",
+      "polres": null,
+      "location_confidence": 0,
+      "location_source": null,
+      "location_evidence": [],
+      "priority": "low",
+      "collected_at": "2026-09-04T22:37:50.932968+00:00"
+    },
+    {
+      "id": "fe2cd09c211c948c62ec842b1f44062ecca286e1",
+      "video_id": "SRCxp6ffTjQ",
+      "platform": "YouTube",
+      "type": "video",
+      "title": "Apes, Sunaryo Maling Motor Di Lumajang Ditangkap Polisi Saat Karaoke, 4 Kali Curi Motor",
+      "channel": "TribunMadura Official",
+      "published_at": "2026-09-04T11:32:19Z",
+      "url": "https://www.youtube.com/watch?v=SRCxp6ffTjQ",
+      "thumbnail": "https://i.ytimg.com/vi/SRCxp6ffTjQ/hqdefault.jpg",
+      "description": "Download aplikasi berita TribunX di Play Store atau App Store untuk dapatkan pengalaman baru Host : Septyana Eka VP : Reza ...",
+      "relevance": "high",
+      "scope": "case",
+      "category": "Ungkap Kasus",
+      "classification_score": 60,
+      "is_jatim": true,
+      "region": "Jawa Timur",
+      "polres": "POLRES LUMAJANG",
+      "location_confidence": 100,
+      "location_source": "polres",
+      "location_evidence": [
+        "lumajang",
+        "lumajang"
+      ],
+      "priority": "low",
+      "collected_at": "2026-09-04T22:37:50.932968+00:00"
+    },
+    {
+      "id": "6dbbab86c1eebe9f168a51ff23571b8b7859a29a",
+      "video_id": "MZY2IQA1-1Y",
+      "platform": "YouTube",
+      "type": "video",
+      "title": "Apes, Sunaryo Maling Motor Di Lumajang Ditangkap Polisi Saat Karaoke, 4 Kali Curi Motor",
+      "channel": "Tribun Mataraman",
+      "published_at": "2026-09-04T11:31:47Z",
+      "url": "https://www.youtube.com/watch?v=MZY2IQA1-1Y",
+      "thumbnail": "https://i.ytimg.com/vi/MZY2IQA1-1Y/hqdefault.jpg",
+      "description": "Download aplikasi berita TribunX di Play Store atau App Store untuk dapatkan pengalaman baru Host : Septyana Eka VP : Reza ...",
+      "relevance": "high",
+      "scope": "case",
+      "category": "Ungkap Kasus",
+      "classification_score": 60,
+      "is_jatim": true,
+      "region": "Jawa Timur",
+      "polres": "POLRES LUMAJANG",
+      "location_confidence": 100,
+      "location_source": "polres",
+      "location_evidence": [
+        "lumajang",
+        "lumajang"
+      ],
+      "priority": "low",
+      "collected_at": "2026-09-04T22:37:50.932968+00:00"
+    },
+    {
+      "id": "09ee7e27be1cc5dbe042cb9ca52e60536ba679ba",
+      "video_id": "A5ieKHBh5Hs",
+      "platform": "YouTube",
+      "type": "video",
+      "title": "Apes, Sunaryo Maling Motor Di Lumajang Ditangkap Polisi Saat Karaoke, 4 Kali Curi Motor",
+      "channel": "TribunJatim Official",
+      "published_at": "2026-09-04T11:31:32Z",
+      "url": "https://www.youtube.com/watch?v=A5ieKHBh5Hs",
+      "thumbnail": "https://i.ytimg.com/vi/A5ieKHBh5Hs/hqdefault.jpg",
+      "description": "Download aplikasi berita TribunX di Play Store atau App Store untuk dapatkan pengalaman baru Host : Septyana Eka VP : Reza ...",
+      "relevance": "high",
+      "scope": "case",
+      "category": "Ungkap Kasus",
+      "classification_score": 60,
+      "is_jatim": true,
+      "region": "Jawa Timur",
+      "polres": "POLRES LUMAJANG",
+      "location_confidence": 100,
+      "location_source": "polres",
+      "location_evidence": [
+        "lumajang",
+        "lumajang"
+      ],
+      "priority": "low",
+      "collected_at": "2026-09-04T22:37:50.932968+00:00"
+    },
+    {
+      "id": "2c18902e07d6b143717c4a45d8524dbc57af5098",
+      "video_id": "2BPFZyCfnVY",
+      "platform": "YouTube",
+      "type": "video",
+      "title": "Apes, Sunaryo Maling Motor Di Lumajang Ditangkap Polisi Saat Karaoke, 4 Kali Curi Motor",
+      "channel": "SURYAMALANG. com (SURYAMALANG.com)",
+      "published_at": "2026-09-04T11:31:05Z",
+      "url": "https://www.youtube.com/watch?v=2BPFZyCfnVY",
+      "thumbnail": "https://i.ytimg.com/vi/2BPFZyCfnVY/hqdefault.jpg",
+      "description": "Download aplikasi berita TribunX di Play Store atau App Store untuk dapatkan pengalaman baru Host : Septyana Eka VP : Reza ...",
+      "relevance": "high",
+      "scope": "case",
+      "category": "Ungkap Kasus",
+      "classification_score": 60,
+      "is_jatim": true,
+      "region": "Jawa Timur",
+      "polres": "POLRES LUMAJANG",
+      "location_confidence": 100,
+      "location_source": "polres",
+      "location_evidence": [
+        "lumajang",
+        "lumajang"
+      ],
+      "priority": "low",
+      "collected_at": "2026-09-04T22:37:50.932968+00:00"
+    },
+    {
+      "id": "36ea47008a955e0e7f73a46d742e46a4e1909352",
+      "video_id": "j0nHZXRxBGs",
+      "platform": "YouTube",
+      "type": "video",
+      "title": "Apes, Sunaryo Maling Motor Di Lumajang Ditangkap Polisi Saat Karaoke, 4 Kali Curi Motor",
+      "channel": "Harian Surya",
+      "published_at": "2026-09-04T11:30:51Z",
+      "url": "https://www.youtube.com/watch?v=j0nHZXRxBGs",
+      "thumbnail": "https://i.ytimg.com/vi/j0nHZXRxBGs/hqdefault.jpg",
+      "description": "Download aplikasi berita TribunX di Play Store atau App Store untuk dapatkan pengalaman baru Host : Septyana Eka VP : Reza ...",
+      "relevance": "high",
+      "scope": "case",
+      "category": "Ungkap Kasus",
+      "classification_score": 60,
+      "is_jatim": true,
+      "region": "Jawa Timur",
+      "polres": "POLRES LUMAJANG",
+      "location_confidence": 100,
+      "location_source": "polres",
+      "location_evidence": [
+        "lumajang",
+        "lumajang"
+      ],
+      "priority": "low",
+      "collected_at": "2026-09-04T22:37:50.932968+00:00"
+    },
+    {
+      "id": "1a6126cff75f1266a1dc6ef64202cb3574c9c02e",
+      "video_id": "IEomzz16QDc",
+      "platform": "YouTube",
+      "type": "video",
+      "title": "Pelaku penusukan pedagang pecel lele saat tawuran di Palembang ditangkap polisi.",
+      "channel": "KILAS.PALEMBANG",
+      "published_at": "2026-09-04T11:07:26Z",
+      "url": "https://www.youtube.com/watch?v=IEomzz16QDc",
+      "thumbnail": "https://i.ytimg.com/vi/IEomzz16QDc/hqdefault.jpg",
+      "description": "",
+      "relevance": "high",
+      "scope": "case",
+      "category": "Ungkap Kasus",
+      "classification_score": 60,
+      "is_jatim": false,
+      "region": "Indonesia",
+      "polres": null,
+      "location_confidence": 0,
+      "location_source": "outside",
+      "location_evidence": [
+        "LUAR:palembang"
+      ],
+      "priority": "low",
+      "collected_at": "2026-09-04T22:37:50.932968+00:00"
+    },
+    {
+      "id": "2eb389b2c64078e63680c293fc96f284e8de4d97",
+      "video_id": "6ylTbakcnE4",
+      "platform": "YouTube",
+      "type": "video",
+      "title": "NENEK KAGET DITANGKAP POLISI SAAT MELUKIS‼️🤯😱@ARVIprod #remix #dubbing #trending",
+      "channel": "Kaleb Andri",
+      "published_at": "2026-09-04T11:04:45Z",
+      "url": "https://www.youtube.com/watch?v=6ylTbakcnE4",
+      "thumbnail": "https://i.ytimg.com/vi/6ylTbakcnE4/hqdefault.jpg",
+      "description": "",
+      "relevance": "noise",
+      "scope": "noise",
+      "category": "Tidak Relevan",
+      "classification_score": 0,
+      "is_jatim": false,
+      "region": "Indonesia",
+      "polres": null,
+      "location_confidence": 0,
+      "location_source": null,
+      "location_evidence": [],
+      "priority": "low",
+      "collected_at": "2026-09-04T22:37:50.932968+00:00"
+    },
+    {
+      "id": "25f66d7e8ad8595d79bc5716889151cf52535492",
+      "video_id": "eomXX4anORw",
+      "platform": "YouTube",
+      "type": "video",
+      "title": "APES, Sunaryo Maling Motor Di Lumajang Ditangkap Polisi Saat Karaoke, 4 Kali Curi Motor",
+      "channel": "TribunJatim Official",
+      "published_at": "2026-09-04T11:00:51Z",
+      "url": "https://www.youtube.com/watch?v=eomXX4anORw",
+      "thumbnail": "https://i.ytimg.com/vi/eomXX4anORw/hqdefault.jpg",
+      "description": "Download aplikasi berita TribunX di Play Store atau App Store untuk dapatkan pengalaman baru TRIBUNJATIM.COM - Nasib ...",
+      "relevance": "high",
+      "scope": "case",
+      "category": "Ungkap Kasus",
+      "classification_score": 60,
+      "is_jatim": true,
+      "region": "Jawa Timur",
+      "polres": "POLRES LUMAJANG",
+      "location_confidence": 100,
+      "location_source": "polres",
+      "location_evidence": [
+        "lumajang",
+        "lumajang"
+      ],
+      "priority": "low",
+      "collected_at": "2026-09-04T22:37:50.932968+00:00"
+    },
+    {
+      "id": "c42e8b3a003c0c6539303ceb086c3ee5aa358b4f",
+      "video_id": "Sc1ltOKxQns",
+      "platform": "YouTube",
+      "type": "video",
+      "title": "Pengedar Sabu Ditangkap, Polisi Sita 1,2 Kilogram Sabu",
+      "channel": "TVRI Bangka Belitung",
+      "published_at": "2026-09-04T11:00:02Z",
+      "url": "https://www.youtube.com/watch?v=Sc1ltOKxQns",
+      "thumbnail": "https://i.ytimg.com/vi/Sc1ltOKxQns/hqdefault.jpg",
+      "description": "Saksikan Bangka Belitung Hari Ini Setiap Hari pukul 16.00 WIB Hanya di TVRI Bangka Belitung #TVRI #tvribangkabelitung ...",
+      "relevance": "high",
+      "scope": "negative",
+      "category": "Oknum / Narkoba",
+      "classification_score": 100,
+      "is_jatim": false,
+      "region": "Indonesia",
+      "polres": null,
+      "location_confidence": 0,
+      "location_source": null,
+      "location_evidence": [],
+      "priority": "high",
+      "collected_at": "2026-09-04T22:37:50.932968+00:00"
+    },
+    {
+      "id": "356e012604dddd48c116a8477008f8a4bb162c42",
+      "video_id": "74Zbhk8P-Q4",
+      "platform": "YouTube",
+      "type": "video",
+      "title": "3 Hari Sketsa Disebar Tapi Pelaku Belum Ditangkap, Polisi Lambat atau Ada Kendala?",
+      "channel": "KOMPASTV SORONG",
+      "published_at": "2026-09-04T10:59:37Z",
+      "url": "https://www.youtube.com/watch?v=74Zbhk8P-Q4",
+      "thumbnail": "https://i.ytimg.com/vi/74Zbhk8P-Q4/hqdefault.jpg",
+      "description": "KOMPAS.TV - Warga sekitar mengenali sketsa wajah pelaku pengeroyokan Bambang Setyawan warga Pejompongan, karena ...",
+      "relevance": "medium",
+      "scope": "neutral",
+      "category": "Berita Polisi Lainnya",
+      "classification_score": 25,
+      "is_jatim": false,
+      "region": "Indonesia",
+      "polres": null,
+      "location_confidence": 0,
+      "location_source": null,
+      "location_evidence": [],
+      "priority": "low",
+      "collected_at": "2026-09-04T22:37:50.932968+00:00"
     },
     {
       "id": "56ea78934ff428dead2f1c8ffe44dcca6af0be2a",
@@ -216,6 +651,32 @@
       ],
       "priority": "low",
       "collected_at": "2026-09-04T16:40:26.746271+00:00"
+    },
+    {
+      "id": "fae5785c486d69f2ef9051a92c61d8e7124fe1be",
+      "video_id": "GkMbLUvT-6I",
+      "platform": "YouTube",
+      "type": "video",
+      "title": "Pria di Purwakarta Bawa Samurai Nekat Palak Polisi Berakhir Ditangkap | Liputan 6",
+      "channel": "Liputan6",
+      "published_at": "2026-09-04T10:36:09Z",
+      "url": "https://www.youtube.com/watch?v=GkMbLUvT-6I",
+      "thumbnail": "https://i.ytimg.com/vi/GkMbLUvT-6I/hqdefault.jpg",
+      "description": "Seorang pria di Purwakarta, Jawa Barat, nekat memalak polisi yang tengah berbelanja di minimarket. Pelaku bahkan membawa ...",
+      "relevance": "high",
+      "scope": "negative",
+      "category": "Oknum / Pelanggaran Anggota",
+      "classification_score": 100,
+      "is_jatim": false,
+      "region": "Indonesia",
+      "polres": null,
+      "location_confidence": 0,
+      "location_source": "outside",
+      "location_evidence": [
+        "LUAR:jawa barat"
+      ],
+      "priority": "medium",
+      "collected_at": "2026-09-04T22:37:50.932968+00:00"
     },
     {
       "id": "6c219fea3a9ebab5e8419a1a26514637495b6d21",
@@ -245,6 +706,30 @@
       "collected_at": "2026-09-04T16:40:26.746271+00:00"
     },
     {
+      "id": "22ff6cf15a33e86f8b4bcb256d32ecf956067e77",
+      "video_id": "CWlTbp53hR4",
+      "platform": "YouTube",
+      "type": "video",
+      "title": "Terungkap Kamera CCTV, Ibu di Sentani Ditangkap Polisi Usai Buang Bayi Baru Lahir",
+      "channel": "Kilas.Jayapura",
+      "published_at": "2026-09-04T10:08:31Z",
+      "url": "https://www.youtube.com/watch?v=CWlTbp53hR4",
+      "thumbnail": "https://i.ytimg.com/vi/CWlTbp53hR4/hqdefault.jpg",
+      "description": "",
+      "relevance": "high",
+      "scope": "case",
+      "category": "Ungkap Kasus",
+      "classification_score": 60,
+      "is_jatim": false,
+      "region": "Indonesia",
+      "polres": null,
+      "location_confidence": 0,
+      "location_source": null,
+      "location_evidence": [],
+      "priority": "low",
+      "collected_at": "2026-09-04T22:37:50.932968+00:00"
+    },
+    {
       "id": "05b5dabe638fab5e1ae7c6abeeaee870f7f1170b",
       "video_id": "V3pRVRn_V5Q",
       "platform": "YouTube",
@@ -267,6 +752,32 @@
       "location_evidence": [],
       "priority": "low",
       "collected_at": "2026-09-04T19:52:01.762711+00:00"
+    },
+    {
+      "id": "31bcca6748146ed0ff8f63fab7c28162cbef549b",
+      "video_id": "dkho3iPwqO4",
+      "platform": "YouTube",
+      "type": "video",
+      "title": "Saor Siagian Desak Polisi Segera Tangkap Pelaku Pengeroyokan Bambang Ditangkap, Ini Kata Kompolnas",
+      "channel": "KOMPASTV PALEMBANG",
+      "published_at": "2026-09-04T09:57:47Z",
+      "url": "https://www.youtube.com/watch?v=dkho3iPwqO4",
+      "thumbnail": "https://i.ytimg.com/vi/dkho3iPwqO4/hqdefault.jpg",
+      "description": "Sahabat Kompas TV Palembang, jangan lupa like, comment, dan subscribe channel YouTube Kompas TV Palembang, juga ...",
+      "relevance": "high",
+      "scope": "negative",
+      "category": "Oknum / Pelanggaran Anggota",
+      "classification_score": 100,
+      "is_jatim": false,
+      "region": "Indonesia",
+      "polres": null,
+      "location_confidence": 0,
+      "location_source": "outside",
+      "location_evidence": [
+        "LUAR:palembang"
+      ],
+      "priority": "medium",
+      "collected_at": "2026-09-04T22:37:50.932968+00:00"
     },
     {
       "id": "0b38c12657addb04877f7beedee8925d5f776610",
@@ -317,6 +828,32 @@
       "collected_at": "2026-09-04T19:52:01.762711+00:00"
     },
     {
+      "id": "30d6fbcb39efd710d4fbfe9009c1588d33c83ed6",
+      "video_id": "eCjt1QxwsD4",
+      "platform": "YouTube",
+      "type": "video",
+      "title": "Pelaku penjambretan nenek bertongkat di Semarang akhirnya berhasil ditangkap polisi.",
+      "channel": "enter berita",
+      "published_at": "2026-09-04T09:39:23Z",
+      "url": "https://www.youtube.com/watch?v=eCjt1QxwsD4",
+      "thumbnail": "https://i.ytimg.com/vi/eCjt1QxwsD4/hqdefault.jpg",
+      "description": "Pelaku penjambretan nenek bertongkat di Semarang akhirnya berhasil ditangkap polisi. Insiden yang sempat viral di media ...",
+      "relevance": "high",
+      "scope": "negative",
+      "category": "Oknum / Pelanggaran Anggota",
+      "classification_score": 100,
+      "is_jatim": false,
+      "region": "Indonesia",
+      "polres": null,
+      "location_confidence": 0,
+      "location_source": "outside",
+      "location_evidence": [
+        "LUAR:semarang"
+      ],
+      "priority": "medium",
+      "collected_at": "2026-09-04T22:37:50.932968+00:00"
+    },
+    {
       "id": "66fb1a34220b3c2b5f48c29f29df09e8bd4eece2",
       "video_id": "9GxzdyXUU1o",
       "platform": "YouTube",
@@ -339,6 +876,30 @@
       "location_evidence": [],
       "priority": "low",
       "collected_at": "2026-09-04T19:52:01.762711+00:00"
+    },
+    {
+      "id": "c992f9864b22988377d6848e09109f4b0f17fa75",
+      "video_id": "CRiamsTWYAM",
+      "platform": "YouTube",
+      "type": "video",
+      "title": "강남경찰서 인근서 마약 소지한 10대 검거, 현재 상황은?",
+      "channel": "CAT Issue",
+      "published_at": "2026-09-04T09:00:14Z",
+      "url": "https://www.youtube.com/watch?v=CRiamsTWYAM",
+      "thumbnail": "https://i.ytimg.com/vi/CRiamsTWYAM/hqdefault.jpg",
+      "description": "강남경찰서 인근에서 마약을 소지하고 있던 10대 여성이 검거되었습니다. 현재 경찰 조사 상황을 정리해 드립니다.",
+      "relevance": "low",
+      "scope": "neutral",
+      "category": "Tidak Relevan",
+      "classification_score": 0,
+      "is_jatim": false,
+      "region": "Indonesia",
+      "polres": null,
+      "location_confidence": 0,
+      "location_source": null,
+      "location_evidence": [],
+      "priority": "low",
+      "collected_at": "2026-09-04T22:37:50.932968+00:00"
     },
     {
       "id": "ad98772a0f79510daac5180f7eb6d0460c8ea17f",
@@ -365,6 +926,54 @@
       "collected_at": "2026-09-04T19:52:01.762711+00:00"
     },
     {
+      "id": "41f5e225cf222c05c03ecd222e65730cc05fe976",
+      "video_id": "XNdps9Y7jOo",
+      "platform": "YouTube",
+      "type": "video",
+      "title": "#cops #bodycam #arrested #policeoftiktok #copsusa",
+      "channel": "Milon Noemi",
+      "published_at": "2026-09-04T08:00:07Z",
+      "url": "https://www.youtube.com/watch?v=XNdps9Y7jOo",
+      "thumbnail": "https://i.ytimg.com/vi/XNdps9Y7jOo/hqdefault.jpg",
+      "description": "",
+      "relevance": "low",
+      "scope": "neutral",
+      "category": "Tidak Relevan",
+      "classification_score": 0,
+      "is_jatim": false,
+      "region": "Indonesia",
+      "polres": null,
+      "location_confidence": 0,
+      "location_source": null,
+      "location_evidence": [],
+      "priority": "low",
+      "collected_at": "2026-09-04T22:37:50.932968+00:00"
+    },
+    {
+      "id": "cd16de9b276693e84c9190986f8ad72a1d649ff8",
+      "video_id": "nAhAEBA_BoA",
+      "platform": "YouTube",
+      "type": "video",
+      "title": "Penjahat itu hampir ditangkap polisi namun dia menyamar #sakura #sakuraschoolsimulator #sss #shorts",
+      "channel": "Peaceful Rain Ambience",
+      "published_at": "2026-09-04T07:32:06Z",
+      "url": "https://www.youtube.com/watch?v=nAhAEBA_BoA",
+      "thumbnail": "https://i.ytimg.com/vi/nAhAEBA_BoA/hqdefault.jpg",
+      "description": "",
+      "relevance": "high",
+      "scope": "case",
+      "category": "Ungkap Kasus",
+      "classification_score": 60,
+      "is_jatim": false,
+      "region": "Indonesia",
+      "polres": null,
+      "location_confidence": 0,
+      "location_source": null,
+      "location_evidence": [],
+      "priority": "low",
+      "collected_at": "2026-09-04T22:37:50.932968+00:00"
+    },
+    {
       "id": "2686553523766cf655f4dc55ccf665dbbabc0e29",
       "video_id": "GF57f3VFTn0",
       "platform": "YouTube",
@@ -386,7 +995,31 @@
       "location_source": null,
       "location_evidence": [],
       "priority": "high",
-      "collected_at": "2026-09-04T11:36:12.289378+00:00"
+      "collected_at": "2026-09-04T22:37:50.932968+00:00"
+    },
+    {
+      "id": "b48a47c74e45bc193cbc3282341805e833a8d3a1",
+      "video_id": "mY1DX3eTpm8",
+      "platform": "YouTube",
+      "type": "video",
+      "title": "BREAKING NEWS.. REFLI DITANGKAP POLISI KRNA PEMALSUAN? &#39; ROY SURYO RESMI DITINGGALKAN REFLI HARUN",
+      "channel": "Update-an Bang Boy",
+      "published_at": "2026-09-04T06:34:30Z",
+      "url": "https://www.youtube.com/watch?v=mY1DX3eTpm8",
+      "thumbnail": "https://i.ytimg.com/vi/mY1DX3eTpm8/hqdefault.jpg",
+      "description": "jokowi #gibran #jokowidodo #jokowi #gibran #jokowidodo #jokowi #gibran #jokowidodo #jokowi #gibran #jokowidodo ...",
+      "relevance": "high",
+      "scope": "case",
+      "category": "Ungkap Kasus",
+      "classification_score": 60,
+      "is_jatim": false,
+      "region": "Indonesia",
+      "polres": null,
+      "location_confidence": 0,
+      "location_source": null,
+      "location_evidence": [],
+      "priority": "low",
+      "collected_at": "2026-09-04T22:37:50.932968+00:00"
     },
     {
       "id": "3116f83f77d96d14893ea520b244bb40e281306f",
@@ -436,7 +1069,7 @@
         "LUAR:lampung"
       ],
       "priority": "high",
-      "collected_at": "2026-09-04T11:36:12.289378+00:00"
+      "collected_at": "2026-09-04T22:37:50.932968+00:00"
     },
     {
       "id": "2ba75d37e7502b2e419bdea6c004bb769613fe34",
@@ -583,7 +1216,7 @@
       "location_source": null,
       "location_evidence": [],
       "priority": "high",
-      "collected_at": "2026-09-04T11:36:12.289378+00:00"
+      "collected_at": "2026-09-04T22:37:50.932968+00:00"
     },
     {
       "id": "9385f5241c86cd2cbbf9d9f1186ab007a2b33784",
@@ -607,7 +1240,7 @@
       "location_source": null,
       "location_evidence": [],
       "priority": "high",
-      "collected_at": "2026-09-04T11:36:12.289378+00:00"
+      "collected_at": "2026-09-04T22:37:50.932968+00:00"
     },
     {
       "id": "ba6be0aafc8245fbf2dc56fd2952dd03aebe4812",
@@ -631,7 +1264,7 @@
       "location_source": null,
       "location_evidence": [],
       "priority": "high",
-      "collected_at": "2026-09-04T11:36:12.289378+00:00"
+      "collected_at": "2026-09-04T22:37:50.932968+00:00"
     },
     {
       "id": "9452611a57057352df0d1581525bcd19f5bf65e2",
@@ -655,7 +1288,7 @@
       "location_source": null,
       "location_evidence": [],
       "priority": "high",
-      "collected_at": "2026-09-04T11:36:12.289378+00:00"
+      "collected_at": "2026-09-04T22:37:50.932968+00:00"
     },
     {
       "id": "6999b2bfdd9a8c5ffd134273c757b8cab918bfc9",
@@ -922,61 +1555,6 @@
       "collected_at": "2026-09-04T11:36:12.289378+00:00"
     },
     {
-      "id": "a76d1f5873eb3b8c9fd70cd13bec3d70a3fab6e4",
-      "video_id": "y1ktI4XCnDA",
-      "platform": "YouTube",
-      "type": "video",
-      "title": "🔴TAMPANG PELAKU PERUSAK MOBIL DI JAGAKARSA SAAT DITANGKAP POLISI",
-      "channel": "Tribun Singkawang",
-      "published_at": "2026-09-04T02:22:15Z",
-      "url": "https://www.youtube.com/watch?v=y1ktI4XCnDA",
-      "thumbnail": "https://i.ytimg.com/vi/y1ktI4XCnDA/hqdefault.jpg",
-      "description": "Tampang pelaku perusakan mobil yang viral di Jagakarsa, Jakarta Selatan, akhirnya terungkap setelah polisi menangkap pria ...",
-      "relevance": "high",
-      "scope": "case",
-      "category": "Ungkap Kasus",
-      "classification_score": 60,
-      "is_jatim": false,
-      "region": "Indonesia",
-      "polres": null,
-      "location_confidence": 0,
-      "location_source": "outside",
-      "location_evidence": [
-        "LUAR:jakarta",
-        "LUAR:jakarta selatan"
-      ],
-      "priority": "low",
-      "collected_at": "2026-09-04T06:10:20.966105+00:00"
-    },
-    {
-      "id": "b605e2e0fab632ebe44fad21604e5242c6641da5",
-      "video_id": "YLVmzedaidQ",
-      "platform": "YouTube",
-      "type": "video",
-      "title": "🔴PELAKU PELEMPAR BATU KE MOBIL YANG VIRAL DI JAGAKARSA DITANGKAP POLISI",
-      "channel": "Tribun Pontianak",
-      "published_at": "2026-09-04T02:22:11Z",
-      "url": "https://www.youtube.com/watch?v=YLVmzedaidQ",
-      "thumbnail": "https://i.ytimg.com/vi/YLVmzedaidQ/hqdefault.jpg",
-      "description": "Tampang pelaku perusakan mobil yang viral di Jagakarsa, Jakarta Selatan, akhirnya terungkap setelah polisi menangkap pria ...",
-      "relevance": "high",
-      "scope": "case",
-      "category": "Ungkap Kasus",
-      "classification_score": 60,
-      "is_jatim": false,
-      "region": "Indonesia",
-      "polres": null,
-      "location_confidence": 0,
-      "location_source": "location",
-      "location_evidence": [
-        "batu",
-        "LUAR:jakarta",
-        "LUAR:jakarta selatan"
-      ],
-      "priority": "low",
-      "collected_at": "2026-09-04T06:10:20.966105+00:00"
-    },
-    {
       "id": "96526df3b3280cbf5614955606e59b4ffad42c5a",
       "video_id": "U1lLuVSLGPM",
       "platform": "YouTube",
@@ -1047,6 +1625,30 @@
       "location_evidence": [],
       "priority": "low",
       "collected_at": "2026-09-04T19:52:01.762711+00:00"
+    },
+    {
+      "id": "2add3fed245ef2ff2053bed421f87c093aae6528",
+      "video_id": "5OqRggkz6R4",
+      "platform": "YouTube",
+      "type": "video",
+      "title": "Police Framed Him With Drugs… But They Had No Idea Who They Were Messing With ⚡😳 #shorts",
+      "channel": "NIGHTVAULT RECAPS",
+      "published_at": "2026-09-04T01:25:27Z",
+      "url": "https://www.youtube.com/watch?v=5OqRggkz6R4",
+      "thumbnail": "https://i.ytimg.com/vi/5OqRggkz6R4/hqdefault.jpg",
+      "description": "Movie Title: Black Lightning.",
+      "relevance": "low",
+      "scope": "neutral",
+      "category": "Tidak Relevan",
+      "classification_score": 0,
+      "is_jatim": false,
+      "region": "Indonesia",
+      "polres": null,
+      "location_confidence": 0,
+      "location_source": null,
+      "location_evidence": [],
+      "priority": "low",
+      "collected_at": "2026-09-04T22:37:50.932968+00:00"
     },
     {
       "id": "00e31e6bc1217a7d221c15f4d242b34facc1dfbb",
@@ -1245,7 +1847,7 @@
       "location_source": null,
       "location_evidence": [],
       "priority": "low",
-      "collected_at": "2026-09-04T11:36:12.289378+00:00"
+      "collected_at": "2026-09-04T22:37:50.932968+00:00"
     },
     {
       "id": "faf39d2d6c4f4351c80e40c9fd3bfb3d71a6eabc",
@@ -1293,7 +1895,7 @@
       "location_source": null,
       "location_evidence": [],
       "priority": "low",
-      "collected_at": "2026-09-04T11:36:12.289378+00:00"
+      "collected_at": "2026-09-04T22:37:50.932968+00:00"
     },
     {
       "id": "91d8ac259665675bc0e0f8b09664e999ccac1ba3",
@@ -1439,7 +2041,7 @@
       "location_source": null,
       "location_evidence": [],
       "priority": "low",
-      "collected_at": "2026-09-04T11:36:12.289378+00:00"
+      "collected_at": "2026-09-04T22:37:50.932968+00:00"
     },
     {
       "id": "e05c86189169d6b61773610c03de5de71e2f3f91",
@@ -1511,7 +2113,7 @@
       "location_source": null,
       "location_evidence": [],
       "priority": "low",
-      "collected_at": "2026-09-04T11:36:12.289378+00:00"
+      "collected_at": "2026-09-04T22:37:50.932968+00:00"
     },
     {
       "id": "330343f2336119f3e8d6249b69e966b80e6ed38b",
@@ -1559,7 +2161,7 @@
       "location_source": null,
       "location_evidence": [],
       "priority": "low",
-      "collected_at": "2026-09-04T11:36:12.289378+00:00"
+      "collected_at": "2026-09-04T22:37:50.932968+00:00"
     },
     {
       "id": "87934f77a5bcd350dc07f16838bbe0816989d804",
@@ -2026,6 +2628,33 @@
       "collected_at": "2026-09-04T06:10:20.966105+00:00"
     },
     {
+      "id": "2672e081abf3523db7951cbbaad4625930b6f191",
+      "video_id": "4nFEJ-BqDkE",
+      "platform": "YouTube",
+      "type": "video",
+      "title": "POLRES LUMAJANG UNGKAP SEJUMLAH KASUS SELAMA OPERASI TUMPAS NARKOBA",
+      "channel": "TV Radio Polri",
+      "published_at": "2026-09-03T12:12:18Z",
+      "url": "https://www.youtube.com/watch?v=4nFEJ-BqDkE",
+      "thumbnail": "https://i.ytimg.com/vi/4nFEJ-BqDkE/hqdefault.jpg",
+      "description": "PolriTV #RadioTVPolri #DivHumasPolri #PolriPresisi #Polri #Polisi #Polisiindonesia.",
+      "relevance": "medium",
+      "scope": "neutral",
+      "category": "Berita Polisi Lainnya",
+      "classification_score": 25,
+      "is_jatim": true,
+      "region": "Jawa Timur",
+      "polres": "POLRES LUMAJANG",
+      "location_confidence": 100,
+      "location_source": "polres",
+      "location_evidence": [
+        "polres lumajang",
+        "lumajang"
+      ],
+      "priority": "low",
+      "collected_at": "2026-09-04T22:37:50.932968+00:00"
+    },
+    {
       "id": "962665c0b6eb4fcd9b4b592b4fece2897187e6df",
       "video_id": "MvWKBGFUios",
       "platform": "YouTube",
@@ -2071,7 +2700,7 @@
       "location_source": null,
       "location_evidence": [],
       "priority": "low",
-      "collected_at": "2026-09-04T11:36:12.289378+00:00"
+      "collected_at": "2026-09-04T22:37:50.932968+00:00"
     },
     {
       "id": "874f5cf3956a20c553e20693f8a459f199a15fb7",
@@ -2394,7 +3023,7 @@
       "location_source": null,
       "location_evidence": [],
       "priority": "low",
-      "collected_at": "2026-09-04T11:36:12.289378+00:00"
+      "collected_at": "2026-09-04T22:37:50.932968+00:00"
     },
     {
       "id": "b34188e8a71882137b53996543dc03ad43401063",
@@ -2420,7 +3049,7 @@
         "malang"
       ],
       "priority": "high",
-      "collected_at": "2026-09-04T11:36:12.289378+00:00"
+      "collected_at": "2026-09-04T22:37:50.932968+00:00"
     },
     {
       "id": "6e74a91b142635373987740bc2377f2642bf3cc1",
@@ -2695,7 +3324,7 @@
       "location_source": null,
       "location_evidence": [],
       "priority": "low",
-      "collected_at": "2026-09-03T20:05:20.069639+00:00"
+      "collected_at": "2026-09-04T22:37:50.932968+00:00"
     },
     {
       "id": "90ef08cf59e94c481f2985137577fed90783f9d7",
@@ -2771,7 +3400,7 @@
         "LUAR:riau"
       ],
       "priority": "low",
-      "collected_at": "2026-09-04T11:36:12.289378+00:00"
+      "collected_at": "2026-09-04T22:37:50.932968+00:00"
     },
     {
       "id": "70fcb7cd17a273445ce7069208e75f02d9a108c3",
@@ -2821,7 +3450,7 @@
         "batu"
       ],
       "priority": "low",
-      "collected_at": "2026-09-04T11:36:12.289378+00:00"
+      "collected_at": "2026-09-04T22:37:50.932968+00:00"
     },
     {
       "id": "deeac06b1697810f5b00f486da23d271c6a22505",
@@ -3093,7 +3722,7 @@
       "location_source": null,
       "location_evidence": [],
       "priority": "low",
-      "collected_at": "2026-09-04T11:36:12.289378+00:00"
+      "collected_at": "2026-09-04T22:37:50.932968+00:00"
     },
     {
       "id": "53e7c6dfcbd0ae0790df928acb982fbb81947453",
@@ -3528,7 +4157,7 @@
       "location_source": null,
       "location_evidence": [],
       "priority": "low",
-      "collected_at": "2026-09-04T11:36:12.289378+00:00"
+      "collected_at": "2026-09-04T22:37:50.932968+00:00"
     },
     {
       "id": "69ce5b3950f143dde6b209b58bafd23502173488",
@@ -3552,7 +4181,7 @@
       "location_source": null,
       "location_evidence": [],
       "priority": "low",
-      "collected_at": "2026-09-04T11:36:12.289378+00:00"
+      "collected_at": "2026-09-04T22:37:50.932968+00:00"
     },
     {
       "id": "0214c7c0b963262b3ab7a5a049e056cabe35cbe4",
