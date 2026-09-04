@@ -244,6 +244,15 @@ def classify_existing(item):
         ),
         "scope": analysis.get("sentiment", item.get("scope", "neutral")),
         "scope_label": analysis.get("sentiment_label", item.get("scope_label", "NETRAL")),
+        "category": analysis.get("classification_category") or (
+            "NEGATIF - " + analysis["issue_subtype"].upper()
+            if analysis.get("sentiment") == "negative"
+            else "POSITIF / PENEGAKAN HUKUM"
+            if analysis.get("sentiment") == "positive"
+            else "NETRAL / LAINNYA"
+        ),
+        "scope": analysis.get("sentiment", item.get("scope", "neutral")),
+        "scope_label": analysis.get("sentiment_label", item.get("scope_label", "NETRAL")),
         "issue_type": analysis["issue_type"],
         "issue_subtype": analysis["issue_subtype"],
         "issue_evidence": analysis["issue_evidence"],
