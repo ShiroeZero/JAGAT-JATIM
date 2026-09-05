@@ -2,18 +2,23 @@
   "schema_version": "today-v3",
   "date": "2026-09-05",
   "timezone": "Asia/Jakarta",
-  "updated_at": "2026-09-05T05:37:52.031876+07:00",
-  "last_successful_update": "2026-09-05T05:37:52.031876+07:00",
+  "updated_at": "2026-09-05T08:15:04.509957+07:00",
+  "last_successful_update": "2026-09-05T08:15:04.509957+07:00",
   "news": {
-    "detected": 8,
-    "negative": 6,
-    "positive": 1,
+    "detected": 13,
+    "negative": 7,
+    "positive": 2,
     "case": 0,
-    "neutral": 1,
-    "jatim": 2,
-    "luar_jatim": 6,
+    "neutral": 4,
+    "jatim": 4,
+    "luar_jatim": 9,
     "priority_high": 0,
     "article_ids": [
+      "508f5187a964caa5b94a4d262228384151bee524",
+      "4412b4bedef2590ecc4446aebb520f6ba6322bd9",
+      "bbbdd7af845d8485a23746431fa5b230df9f6d02",
+      "5543a7bc39b1b367caf43005301c6a776566e36a",
+      "7490eafdd6d99a15043c4d5b83b136a1aeed2f2d",
       "4206f0c1fc3d3902ee9b7aa4bec16c64c3dc558b",
       "3a08c09110d34a99386c2b87aeb1be3e746efd3b",
       "d7cc476b23c7f58d727d1d89056cbf9fb00128ea",
@@ -25,6 +30,351 @@
     ],
     "items": [
       {
+        "id": "508f5187a964caa5b94a4d262228384151bee524",
+        "title": "Dukung Asta Cita, Polsek Jombang Pantau Lahan Jagung 10.000 di Desa Mojoangapit - kabarjagad",
+        "url": "https://www.kabarjagad.id/tni-polri/dukung-asta-cita-polsek-jombang-pantau-lahan-jagung-10-000-di-desa-mojoangapit/",
+        "source": "kabarjagad",
+        "published_at": "2026-09-05T00:50:19+00:00",
+        "collected_at": "2026-09-05T00:59:43.322690+00:00",
+        "region": "Jawa Timur",
+        "area_label": "Jombang",
+        "is_jatim": true,
+        "polres": "POLRES JOMBANG",
+        "category": "NETRAL / LAINNYA",
+        "scope": "neutral",
+        "scope_label": "Netral",
+        "priority": "low",
+        "summary": "Dukung Asta Cita, Polsek Jombang Pantau Lahan Jagung 10.000 di Desa Mojoangapit kabarjagad",
+        "processing_status": "processed",
+        "classifier_version": "news-v6",
+        "classified_at": "2026-09-05T00:59:43.322690+00:00",
+        "case_id": null,
+        "discovery_families": [],
+        "discovery_tags": [],
+        "discovery_hits": [],
+        "discovery_version": "discovery-v6.5.4",
+        "google_news_url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQZTE5WXltSURoUDdlVklsak1CeFhIRjlJRzZ0bzdMZVhCVFJWeUpNMzhBeTRLWUpKcDB6N2lDS2hod1NUX1lkZjE1U3Fnc2E4WS1OWW5mQU5yUUtiS0pvWl9BQmtkTGY5bnJPcDBFUGxSSWp1WG1yNlNucGM5XzNPbkctZmJrZzNUbkxJMDI3ZDdSLTlpQlZJOHBTMVYwR0hfRVBFdjZqcEdocjRJWlhZXzkzcHo4UQ?oc=5",
+        "original_url": "https://www.kabarjagad.id/tni-polri/dukung-asta-cita-polsek-jombang-pantau-lahan-jagung-10-000-di-desa-mojoangapit/",
+        "locality": "Jombang",
+        "polsek": "POLSEK JOMBANG",
+        "location_confidence": 100,
+        "location_evidence": [
+          "POLSEK JOMBANG",
+          "Jombang"
+        ],
+        "location_status": "JAWA_TIMUR",
+        "location_source": "master_entity",
+        "issue_type": "UMUM",
+        "issue_subtype": "Belum Teridentifikasi",
+        "issue_evidence": [],
+        "handling_status": "BELUM_ADA_INFORMASI",
+        "handling_evidence": [],
+        "attention_score": 7,
+        "attention_label": "Rendah",
+        "attention_components": {
+          "severity": 2,
+          "polri_relation": 0,
+          "authority": 0,
+          "public_impact": 4,
+          "handling": 0,
+          "evidence": 1,
+          "context_risk": 0,
+          "routine_enforcement_cap": null
+        },
+        "attention_evidence": {
+          "severity": [],
+          "authority": [],
+          "public_impact": [],
+          "evidence": [
+            "satu sumber / informasi awal"
+          ],
+          "role": [],
+          "issue": [],
+          "handling": [],
+          "context": [],
+          "positive": []
+        },
+        "case_engine_version": "case-v6.5.4",
+        "case_processed_at": "2026-09-05T01:05:58.716088+00:00"
+      },
+      {
+        "id": "4412b4bedef2590ecc4446aebb520f6ba6322bd9",
+        "title": "Kejahatan Jalanan di Makassar Diburu, Polisi Amankan 47 Tersangka dalam Sebulan - distori.id",
+        "url": "https://distori.id/2026/09/05/kejahatan-jalanan-di-makassar-diburu-polisi-amankan-47-tersangka-dalam-sebulan/",
+        "source": "distori.id",
+        "published_at": "2026-09-05T00:10:28+00:00",
+        "collected_at": "2026-09-05T00:59:43.322690+00:00",
+        "region": "BELUM TERPETAKAN",
+        "area_label": "BELUM TERPETAKAN",
+        "is_jatim": null,
+        "polres": null,
+        "category": "POSITIF / PENEGAKAN HUKUM",
+        "scope": "positive",
+        "scope_label": "Positif",
+        "priority": "low",
+        "summary": "Kejahatan Jalanan di Makassar Diburu, Polisi Amankan 47 Tersangka dalam Sebulan distori.id",
+        "processing_status": "processed",
+        "classifier_version": "news-v6",
+        "classified_at": "2026-09-05T00:59:43.322690+00:00",
+        "case_id": null,
+        "discovery_families": [],
+        "discovery_tags": [],
+        "discovery_hits": [],
+        "discovery_version": "discovery-v6.5.4",
+        "google_news_url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOWVE2dW9wV0ltV3Z2MmRhazJHZmU3bE1oMERzQk5JeVJURWlZdzlMZVBPNWRTUkNNbVppSVJSNWt3OXh0em1lQ1FxUGFQVVpId3FkRUh6b2MwZmhWclpQelB1ZXprTXBmelA5UW9FVTdVTjFFLTg2eTdJSzZYNW5wenlKbXdtR3Q5eGJTQUFyTzBZVVY1aW0yVVV3UHhJb0kwTzdRTFZyRDVYek5UdXc?oc=5",
+        "original_url": "https://distori.id/2026/09/05/kejahatan-jalanan-di-makassar-diburu-polisi-amankan-47-tersangka-dalam-sebulan/",
+        "locality": "",
+        "polsek": null,
+        "location_confidence": 0,
+        "location_evidence": [],
+        "location_status": "BELUM_TERPETAKAN",
+        "location_source": "title",
+        "issue_type": "UMUM",
+        "issue_subtype": "Belum Teridentifikasi",
+        "issue_evidence": [],
+        "handling_status": "SUDAH_DITINDAK",
+        "handling_evidence": [
+          "tersangka"
+        ],
+        "attention_score": 11,
+        "attention_label": "Rendah",
+        "attention_components": {
+          "severity": 2,
+          "polri_relation": 2,
+          "authority": 0,
+          "public_impact": 4,
+          "handling": 2,
+          "evidence": 1,
+          "context_risk": 0,
+          "routine_enforcement_cap": 35
+        },
+        "attention_evidence": {
+          "severity": [],
+          "authority": [],
+          "public_impact": [],
+          "evidence": [
+            "satu sumber / informasi awal"
+          ],
+          "role": [
+            "Polri sebagai pihak penindak"
+          ],
+          "issue": [],
+          "handling": [
+            "tersangka"
+          ],
+          "context": [],
+          "positive": []
+        },
+        "case_engine_version": "case-v6.5.4",
+        "case_processed_at": "2026-09-05T01:05:59.000014+00:00"
+      },
+      {
+        "id": "bbbdd7af845d8485a23746431fa5b230df9f6d02",
+        "title": "Bhabinkamtibmas Sambangi Petani, Dukung Semangat Petani Wujudkan Swasembada Pangan - Website Resmi Polri",
+        "url": "https://tribratanews.restablitar.jatim.polri.go.id/05/09/2026/bhabinkamtibmas-sambangi-petani-dukung-semangat-petani-wujudkan-swasembada-pangan/",
+        "source": "Website Resmi Polri",
+        "published_at": "2026-09-05T00:05:22+00:00",
+        "collected_at": "2026-09-05T00:59:43.322690+00:00",
+        "region": "BELUM TERPETAKAN",
+        "area_label": "BELUM TERPETAKAN",
+        "is_jatim": null,
+        "polres": null,
+        "category": "NETRAL / LAINNYA",
+        "scope": "neutral",
+        "scope_label": "Netral",
+        "priority": "low",
+        "summary": "Bhabinkamtibmas Sambangi Petani, Dukung Semangat Petani Wujudkan Swasembada Pangan Website Resmi Polri",
+        "processing_status": "processed",
+        "classifier_version": "news-v6",
+        "classified_at": "2026-09-05T00:59:43.322690+00:00",
+        "case_id": null,
+        "discovery_families": [],
+        "discovery_tags": [],
+        "discovery_hits": [],
+        "discovery_version": "discovery-v6.5.4",
+        "google_news_url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxNQ1pMNFZsR2JLUWxRYWpZZGhjWHVGaGpJTFNDMmpBVFhRUEV0ZGgtandoYzlIc1ZWVTNCZHgxWWdhSjRsRERubkNCVU9mbzJJai1ybFJ4dzFQS0dtemtSc0pvNmwwRzR1OEprVXdqMUhLQnRmMDlCVnQ1VkdRY3ZMMVZEaURMRWFZWExIWTNOcjFwOHJxb1dKNFhoU1BJeGUwdjFBM0RuWDVRVmh4YmwyTVNRcHBiaUFfQjNHaFVWMU9aV2tjRk5wZWdPTFQwQTBweUk4REZkMGN3ejBw?oc=5",
+        "original_url": "https://tribratanews.restablitar.jatim.polri.go.id/05/09/2026/bhabinkamtibmas-sambangi-petani-dukung-semangat-petani-wujudkan-swasembada-pangan/",
+        "locality": "",
+        "polsek": null,
+        "location_confidence": 0,
+        "location_evidence": [],
+        "location_status": "BELUM_TERPETAKAN",
+        "location_source": "title",
+        "issue_type": "UMUM",
+        "issue_subtype": "Belum Teridentifikasi",
+        "issue_evidence": [],
+        "handling_status": "BELUM_ADA_INFORMASI",
+        "handling_evidence": [],
+        "attention_score": 7,
+        "attention_label": "Rendah",
+        "attention_components": {
+          "severity": 2,
+          "polri_relation": 0,
+          "authority": 0,
+          "public_impact": 4,
+          "handling": 0,
+          "evidence": 1,
+          "context_risk": 0,
+          "routine_enforcement_cap": null
+        },
+        "attention_evidence": {
+          "severity": [],
+          "authority": [],
+          "public_impact": [],
+          "evidence": [
+            "satu sumber / informasi awal"
+          ],
+          "role": [],
+          "issue": [],
+          "handling": [],
+          "context": [],
+          "positive": []
+        },
+        "case_engine_version": "case-v6.5.4",
+        "case_processed_at": "2026-09-05T01:05:59.312438+00:00"
+      },
+      {
+        "id": "5543a7bc39b1b367caf43005301c6a776566e36a",
+        "title": "Jejak Perangkat Elektronik Antar Polisi Ungkap Kasus Hilangnya Mozza, Terduga Pelaku Pembunuhan Ditangkap di Blora - rasikafm.com",
+        "url": "https://rasikafm.com/jejak-perangkat-elektronik-antar-polisi-ungkap-kasus-hilangnya-mozza-terduga-pelaku-pembunuhan-ditangkap-di-blora/",
+        "source": "rasikafm.com",
+        "published_at": "2026-09-04T23:47:00+00:00",
+        "collected_at": "2026-09-05T00:59:43.322690+00:00",
+        "region": "BELUM TERPETAKAN",
+        "area_label": "BELUM TERPETAKAN",
+        "is_jatim": null,
+        "polres": null,
+        "category": "NEGATIF - KEKERASAN / PENGGUNAAN KEKUATAN",
+        "scope": "negative",
+        "scope_label": "Negatif",
+        "priority": "low",
+        "summary": "Jejak Perangkat Elektronik Antar Polisi Ungkap Kasus Hilangnya Mozza, Terduga Pelaku Pembunuhan Ditangkap di Blora rasikafm.com",
+        "processing_status": "processed",
+        "classifier_version": "news-v6",
+        "classified_at": "2026-09-05T00:59:43.322690+00:00",
+        "case_id": "CASE-000863",
+        "discovery_families": [],
+        "discovery_tags": [],
+        "discovery_hits": [],
+        "discovery_version": "discovery-v6.5.4",
+        "google_news_url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPUlpZMDd4a3JNbUlsYVA3NmVOYkl6aGdxSDc3UnViYnlxYVNDYk05RFVpaGVwSlF2U2tyd0tKQVFPa0ttTFR6blJhVUFlZTVmZllFOFJSYVZSVnVoTGFCS0h2MEVLU0g0RUJPZzZHZTBjVnpkS1FXc2kxWGxiQTV2S2YtVVB2bGgyd3RjYkFaQ2p0RHNXa2VHMDdJNjc0a3RGZ1ZtM1BQUnFsM3p4SjlrX0xvRWhVTUVzWWtZdWtBZnotdmx6X1N4QUNmdUZXV2V0?oc=5",
+        "original_url": "https://rasikafm.com/jejak-perangkat-elektronik-antar-polisi-ungkap-kasus-hilangnya-mozza-terduga-pelaku-pembunuhan-ditangkap-di-blora/",
+        "locality": "",
+        "polsek": null,
+        "location_confidence": 0,
+        "location_evidence": [],
+        "location_status": "BELUM_TERPETAKAN",
+        "location_source": "title",
+        "issue_type": "KEKERASAN_DAN_KEKUATAN",
+        "issue_subtype": "Kekerasan / Penggunaan Kekuatan",
+        "issue_evidence": [
+          "pembunuhan"
+        ],
+        "handling_status": "BELUM_ADA_INFORMASI",
+        "handling_evidence": [],
+        "attention_score": 22,
+        "attention_label": "Rendah",
+        "attention_components": {
+          "severity": 15,
+          "polri_relation": 2,
+          "authority": 0,
+          "public_impact": 4,
+          "handling": 0,
+          "evidence": 1,
+          "context_risk": 0,
+          "routine_enforcement_cap": null
+        },
+        "attention_evidence": {
+          "severity": [
+            "pembunuhan / korban meninggal"
+          ],
+          "authority": [],
+          "public_impact": [],
+          "evidence": [
+            "satu sumber / informasi awal"
+          ],
+          "role": [
+            "Polri sebagai pihak penindak"
+          ],
+          "issue": [
+            "pembunuhan"
+          ],
+          "handling": [],
+          "context": [],
+          "positive": []
+        },
+        "case_engine_version": "case-v6.5.4",
+        "case_processed_at": "2026-09-05T01:15:02.896566+00:00"
+      },
+      {
+        "id": "7490eafdd6d99a15043c4d5b83b136a1aeed2f2d",
+        "title": "Cegah Kecelakaan, Polres Pelabuhan Tanjung Perak, Ramp Check Bus Peziarah di Sunan Ampel. - GempurNews.Com",
+        "url": "https://www.gempurnews.com/2026/09/05/cegah-kecelakaan-polres-pelabuhan-tanjung-perak-ramp-check-bus-peziarah-di-sunan-ampel/",
+        "source": "GempurNews.Com",
+        "published_at": "2026-09-04T23:01:00+00:00",
+        "collected_at": "2026-09-05T00:59:43.322690+00:00",
+        "region": "Jawa Timur",
+        "area_label": "Surabaya",
+        "is_jatim": true,
+        "polres": "POLRES PELABUHAN TANJUNG PERAK",
+        "category": "NETRAL / LAINNYA",
+        "scope": "neutral",
+        "scope_label": "Netral",
+        "priority": "low",
+        "summary": "Cegah Kecelakaan, Polres Pelabuhan Tanjung Perak, Ramp Check Bus Peziarah di Sunan Ampel. GempurNews.Com",
+        "processing_status": "processed",
+        "classifier_version": "news-v6",
+        "classified_at": "2026-09-05T00:59:43.322690+00:00",
+        "case_id": null,
+        "discovery_families": [],
+        "discovery_tags": [],
+        "discovery_hits": [],
+        "discovery_version": "discovery-v6.5.4",
+        "google_news_url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQOUZueUY5bnFPcEl1THA2RkJrb004bUZGOGRWYW1XZVR6eXUtVzd3ZDVxeGNaSldZeVB6UWRqZ0RYRktKbEZhMF9GOURVQ21uN2dqOHowdFhpYkFfZjVFU29rZUpLRjlLX3NkM0ZDRVJfZ1RDamRyWThTUGpPalhDTEFBcWtacWhDRzYzbmJRdWNpd0hLZDJVT3BSRWc1ZTBaTldmYmJuaDRCMGFTbjFCNTRsT1h6YWRGQXhOYnFhZW5YZEk?oc=5",
+        "original_url": "https://www.gempurnews.com/2026/09/05/cegah-kecelakaan-polres-pelabuhan-tanjung-perak-ramp-check-bus-peziarah-di-sunan-ampel/",
+        "locality": "Surabaya",
+        "polsek": null,
+        "location_confidence": 100,
+        "location_evidence": [
+          "polres pelabuhan tanjung perak",
+          "Surabaya"
+        ],
+        "location_status": "JAWA_TIMUR",
+        "location_source": "title",
+        "issue_type": "UMUM",
+        "issue_subtype": "Belum Teridentifikasi",
+        "issue_evidence": [],
+        "handling_status": "BELUM_ADA_INFORMASI",
+        "handling_evidence": [],
+        "attention_score": 7,
+        "attention_label": "Rendah",
+        "attention_components": {
+          "severity": 2,
+          "polri_relation": 0,
+          "authority": 0,
+          "public_impact": 4,
+          "handling": 0,
+          "evidence": 1,
+          "context_risk": 0,
+          "routine_enforcement_cap": null
+        },
+        "attention_evidence": {
+          "severity": [],
+          "authority": [],
+          "public_impact": [],
+          "evidence": [
+            "satu sumber / informasi awal"
+          ],
+          "role": [],
+          "issue": [],
+          "handling": [],
+          "context": [],
+          "positive": []
+        },
+        "case_engine_version": "case-v6.5.4",
+        "case_processed_at": "2026-09-05T01:05:59.624748+00:00"
+      },
+      {
         "id": "4206f0c1fc3d3902ee9b7aa4bec16c64c3dc558b",
         "title": "Dua Pria Diamankan di Ampenan, Polisi Temukan 1,72 Gram Diduga Sabu - insidelombok",
         "url": "https://insidelombok.id/mataram/dua-pria-diamankan-di-ampenan-polisi-temukan-172-gram-diduga-sabu/",
@@ -95,7 +445,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-09-04T22:37:50.594113+00:00"
+        "case_processed_at": "2026-09-05T01:15:02.896571+00:00"
       },
       {
         "id": "3a08c09110d34a99386c2b87aeb1be3e746efd3b",
@@ -164,7 +514,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-09-04T22:28:40.134038+00:00"
+        "case_processed_at": "2026-09-05T01:05:59.938792+00:00"
       },
       {
         "id": "d7cc476b23c7f58d727d1d89056cbf9fb00128ea",
@@ -237,7 +587,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-09-04T22:37:50.594118+00:00"
+        "case_processed_at": "2026-09-05T01:15:02.896574+00:00"
       },
       {
         "id": "2de3f237581d64d5aaaea61d1003092ddd149369",
@@ -308,7 +658,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-09-04T22:37:50.594122+00:00"
+        "case_processed_at": "2026-09-05T01:15:02.896576+00:00"
       },
       {
         "id": "221e3c796e42fb40a35f70e60783fd3175252b10",
@@ -380,7 +730,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-09-04T22:37:50.594124+00:00"
+        "case_processed_at": "2026-09-05T01:15:02.896579+00:00"
       },
       {
         "id": "7adb1dae9c35258066aa794ac1d9411c56c93947",
@@ -452,7 +802,7 @@
           ]
         },
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-09-04T22:28:40.494783+00:00"
+        "case_processed_at": "2026-09-05T01:06:00.290998+00:00"
       },
       {
         "id": "a84de3d3bef2dba386508bcad03b804cce8a7b6e",
@@ -521,7 +871,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-09-04T22:37:50.594127+00:00"
+        "case_processed_at": "2026-09-05T01:15:02.896581+00:00"
       },
       {
         "id": "e4daf182416f6fdf7317fa1728aaffbf95219da9",
@@ -592,11 +942,147 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-09-04T22:37:50.594129+00:00"
+        "case_processed_at": "2026-09-05T01:15:02.896583+00:00"
       }
     ],
     "jatim_items": [
       {
+        "id": "508f5187a964caa5b94a4d262228384151bee524",
+        "title": "Dukung Asta Cita, Polsek Jombang Pantau Lahan Jagung 10.000 di Desa Mojoangapit - kabarjagad",
+        "url": "https://www.kabarjagad.id/tni-polri/dukung-asta-cita-polsek-jombang-pantau-lahan-jagung-10-000-di-desa-mojoangapit/",
+        "source": "kabarjagad",
+        "published_at": "2026-09-05T00:50:19+00:00",
+        "collected_at": "2026-09-05T00:59:43.322690+00:00",
+        "region": "Jawa Timur",
+        "area_label": "Jombang",
+        "is_jatim": true,
+        "polres": "POLRES JOMBANG",
+        "category": "NETRAL / LAINNYA",
+        "scope": "neutral",
+        "scope_label": "Netral",
+        "priority": "low",
+        "summary": "Dukung Asta Cita, Polsek Jombang Pantau Lahan Jagung 10.000 di Desa Mojoangapit kabarjagad",
+        "processing_status": "processed",
+        "classifier_version": "news-v6",
+        "classified_at": "2026-09-05T00:59:43.322690+00:00",
+        "case_id": null,
+        "discovery_families": [],
+        "discovery_tags": [],
+        "discovery_hits": [],
+        "discovery_version": "discovery-v6.5.4",
+        "google_news_url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQZTE5WXltSURoUDdlVklsak1CeFhIRjlJRzZ0bzdMZVhCVFJWeUpNMzhBeTRLWUpKcDB6N2lDS2hod1NUX1lkZjE1U3Fnc2E4WS1OWW5mQU5yUUtiS0pvWl9BQmtkTGY5bnJPcDBFUGxSSWp1WG1yNlNucGM5XzNPbkctZmJrZzNUbkxJMDI3ZDdSLTlpQlZJOHBTMVYwR0hfRVBFdjZqcEdocjRJWlhZXzkzcHo4UQ?oc=5",
+        "original_url": "https://www.kabarjagad.id/tni-polri/dukung-asta-cita-polsek-jombang-pantau-lahan-jagung-10-000-di-desa-mojoangapit/",
+        "locality": "Jombang",
+        "polsek": "POLSEK JOMBANG",
+        "location_confidence": 100,
+        "location_evidence": [
+          "POLSEK JOMBANG",
+          "Jombang"
+        ],
+        "location_status": "JAWA_TIMUR",
+        "location_source": "master_entity",
+        "issue_type": "UMUM",
+        "issue_subtype": "Belum Teridentifikasi",
+        "issue_evidence": [],
+        "handling_status": "BELUM_ADA_INFORMASI",
+        "handling_evidence": [],
+        "attention_score": 7,
+        "attention_label": "Rendah",
+        "attention_components": {
+          "severity": 2,
+          "polri_relation": 0,
+          "authority": 0,
+          "public_impact": 4,
+          "handling": 0,
+          "evidence": 1,
+          "context_risk": 0,
+          "routine_enforcement_cap": null
+        },
+        "attention_evidence": {
+          "severity": [],
+          "authority": [],
+          "public_impact": [],
+          "evidence": [
+            "satu sumber / informasi awal"
+          ],
+          "role": [],
+          "issue": [],
+          "handling": [],
+          "context": [],
+          "positive": []
+        },
+        "case_engine_version": "case-v6.5.4",
+        "case_processed_at": "2026-09-05T01:05:58.716088+00:00"
+      },
+      {
+        "id": "7490eafdd6d99a15043c4d5b83b136a1aeed2f2d",
+        "title": "Cegah Kecelakaan, Polres Pelabuhan Tanjung Perak, Ramp Check Bus Peziarah di Sunan Ampel. - GempurNews.Com",
+        "url": "https://www.gempurnews.com/2026/09/05/cegah-kecelakaan-polres-pelabuhan-tanjung-perak-ramp-check-bus-peziarah-di-sunan-ampel/",
+        "source": "GempurNews.Com",
+        "published_at": "2026-09-04T23:01:00+00:00",
+        "collected_at": "2026-09-05T00:59:43.322690+00:00",
+        "region": "Jawa Timur",
+        "area_label": "Surabaya",
+        "is_jatim": true,
+        "polres": "POLRES PELABUHAN TANJUNG PERAK",
+        "category": "NETRAL / LAINNYA",
+        "scope": "neutral",
+        "scope_label": "Netral",
+        "priority": "low",
+        "summary": "Cegah Kecelakaan, Polres Pelabuhan Tanjung Perak, Ramp Check Bus Peziarah di Sunan Ampel. GempurNews.Com",
+        "processing_status": "processed",
+        "classifier_version": "news-v6",
+        "classified_at": "2026-09-05T00:59:43.322690+00:00",
+        "case_id": null,
+        "discovery_families": [],
+        "discovery_tags": [],
+        "discovery_hits": [],
+        "discovery_version": "discovery-v6.5.4",
+        "google_news_url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQOUZueUY5bnFPcEl1THA2RkJrb004bUZGOGRWYW1XZVR6eXUtVzd3ZDVxeGNaSldZeVB6UWRqZ0RYRktKbEZhMF9GOURVQ21uN2dqOHowdFhpYkFfZjVFU29rZUpLRjlLX3NkM0ZDRVJfZ1RDamRyWThTUGpPalhDTEFBcWtacWhDRzYzbmJRdWNpd0hLZDJVT3BSRWc1ZTBaTldmYmJuaDRCMGFTbjFCNTRsT1h6YWRGQXhOYnFhZW5YZEk?oc=5",
+        "original_url": "https://www.gempurnews.com/2026/09/05/cegah-kecelakaan-polres-pelabuhan-tanjung-perak-ramp-check-bus-peziarah-di-sunan-ampel/",
+        "locality": "Surabaya",
+        "polsek": null,
+        "location_confidence": 100,
+        "location_evidence": [
+          "polres pelabuhan tanjung perak",
+          "Surabaya"
+        ],
+        "location_status": "JAWA_TIMUR",
+        "location_source": "title",
+        "issue_type": "UMUM",
+        "issue_subtype": "Belum Teridentifikasi",
+        "issue_evidence": [],
+        "handling_status": "BELUM_ADA_INFORMASI",
+        "handling_evidence": [],
+        "attention_score": 7,
+        "attention_label": "Rendah",
+        "attention_components": {
+          "severity": 2,
+          "polri_relation": 0,
+          "authority": 0,
+          "public_impact": 4,
+          "handling": 0,
+          "evidence": 1,
+          "context_risk": 0,
+          "routine_enforcement_cap": null
+        },
+        "attention_evidence": {
+          "severity": [],
+          "authority": [],
+          "public_impact": [],
+          "evidence": [
+            "satu sumber / informasi awal"
+          ],
+          "role": [],
+          "issue": [],
+          "handling": [],
+          "context": [],
+          "positive": []
+        },
+        "case_engine_version": "case-v6.5.4",
+        "case_processed_at": "2026-09-05T01:05:59.624748+00:00"
+      },
+      {
         "id": "221e3c796e42fb40a35f70e60783fd3175252b10",
         "title": "Polres Gresik Bekuk Pengedar Sabu Dibungkus Permen - Beritautama.co",
         "url": "https://beritautama.co/polres-gresik-bekuk-pengedar-sabu-dibungkus-permen/",
@@ -666,7 +1152,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-09-04T22:37:50.594124+00:00"
+        "case_processed_at": "2026-09-05T01:15:02.896579+00:00"
       },
       {
         "id": "7adb1dae9c35258066aa794ac1d9411c56c93947",
@@ -738,10 +1224,219 @@
           ]
         },
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-09-04T22:28:40.494783+00:00"
+        "case_processed_at": "2026-09-05T01:06:00.290998+00:00"
       }
     ],
     "luar_jatim_items": [
+      {
+        "id": "4412b4bedef2590ecc4446aebb520f6ba6322bd9",
+        "title": "Kejahatan Jalanan di Makassar Diburu, Polisi Amankan 47 Tersangka dalam Sebulan - distori.id",
+        "url": "https://distori.id/2026/09/05/kejahatan-jalanan-di-makassar-diburu-polisi-amankan-47-tersangka-dalam-sebulan/",
+        "source": "distori.id",
+        "published_at": "2026-09-05T00:10:28+00:00",
+        "collected_at": "2026-09-05T00:59:43.322690+00:00",
+        "region": "BELUM TERPETAKAN",
+        "area_label": "BELUM TERPETAKAN",
+        "is_jatim": null,
+        "polres": null,
+        "category": "POSITIF / PENEGAKAN HUKUM",
+        "scope": "positive",
+        "scope_label": "Positif",
+        "priority": "low",
+        "summary": "Kejahatan Jalanan di Makassar Diburu, Polisi Amankan 47 Tersangka dalam Sebulan distori.id",
+        "processing_status": "processed",
+        "classifier_version": "news-v6",
+        "classified_at": "2026-09-05T00:59:43.322690+00:00",
+        "case_id": null,
+        "discovery_families": [],
+        "discovery_tags": [],
+        "discovery_hits": [],
+        "discovery_version": "discovery-v6.5.4",
+        "google_news_url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOWVE2dW9wV0ltV3Z2MmRhazJHZmU3bE1oMERzQk5JeVJURWlZdzlMZVBPNWRTUkNNbVppSVJSNWt3OXh0em1lQ1FxUGFQVVpId3FkRUh6b2MwZmhWclpQelB1ZXprTXBmelA5UW9FVTdVTjFFLTg2eTdJSzZYNW5wenlKbXdtR3Q5eGJTQUFyTzBZVVY1aW0yVVV3UHhJb0kwTzdRTFZyRDVYek5UdXc?oc=5",
+        "original_url": "https://distori.id/2026/09/05/kejahatan-jalanan-di-makassar-diburu-polisi-amankan-47-tersangka-dalam-sebulan/",
+        "locality": "",
+        "polsek": null,
+        "location_confidence": 0,
+        "location_evidence": [],
+        "location_status": "BELUM_TERPETAKAN",
+        "location_source": "title",
+        "issue_type": "UMUM",
+        "issue_subtype": "Belum Teridentifikasi",
+        "issue_evidence": [],
+        "handling_status": "SUDAH_DITINDAK",
+        "handling_evidence": [
+          "tersangka"
+        ],
+        "attention_score": 11,
+        "attention_label": "Rendah",
+        "attention_components": {
+          "severity": 2,
+          "polri_relation": 2,
+          "authority": 0,
+          "public_impact": 4,
+          "handling": 2,
+          "evidence": 1,
+          "context_risk": 0,
+          "routine_enforcement_cap": 35
+        },
+        "attention_evidence": {
+          "severity": [],
+          "authority": [],
+          "public_impact": [],
+          "evidence": [
+            "satu sumber / informasi awal"
+          ],
+          "role": [
+            "Polri sebagai pihak penindak"
+          ],
+          "issue": [],
+          "handling": [
+            "tersangka"
+          ],
+          "context": [],
+          "positive": []
+        },
+        "case_engine_version": "case-v6.5.4",
+        "case_processed_at": "2026-09-05T01:05:59.000014+00:00"
+      },
+      {
+        "id": "bbbdd7af845d8485a23746431fa5b230df9f6d02",
+        "title": "Bhabinkamtibmas Sambangi Petani, Dukung Semangat Petani Wujudkan Swasembada Pangan - Website Resmi Polri",
+        "url": "https://tribratanews.restablitar.jatim.polri.go.id/05/09/2026/bhabinkamtibmas-sambangi-petani-dukung-semangat-petani-wujudkan-swasembada-pangan/",
+        "source": "Website Resmi Polri",
+        "published_at": "2026-09-05T00:05:22+00:00",
+        "collected_at": "2026-09-05T00:59:43.322690+00:00",
+        "region": "BELUM TERPETAKAN",
+        "area_label": "BELUM TERPETAKAN",
+        "is_jatim": null,
+        "polres": null,
+        "category": "NETRAL / LAINNYA",
+        "scope": "neutral",
+        "scope_label": "Netral",
+        "priority": "low",
+        "summary": "Bhabinkamtibmas Sambangi Petani, Dukung Semangat Petani Wujudkan Swasembada Pangan Website Resmi Polri",
+        "processing_status": "processed",
+        "classifier_version": "news-v6",
+        "classified_at": "2026-09-05T00:59:43.322690+00:00",
+        "case_id": null,
+        "discovery_families": [],
+        "discovery_tags": [],
+        "discovery_hits": [],
+        "discovery_version": "discovery-v6.5.4",
+        "google_news_url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxNQ1pMNFZsR2JLUWxRYWpZZGhjWHVGaGpJTFNDMmpBVFhRUEV0ZGgtandoYzlIc1ZWVTNCZHgxWWdhSjRsRERubkNCVU9mbzJJai1ybFJ4dzFQS0dtemtSc0pvNmwwRzR1OEprVXdqMUhLQnRmMDlCVnQ1VkdRY3ZMMVZEaURMRWFZWExIWTNOcjFwOHJxb1dKNFhoU1BJeGUwdjFBM0RuWDVRVmh4YmwyTVNRcHBiaUFfQjNHaFVWMU9aV2tjRk5wZWdPTFQwQTBweUk4REZkMGN3ejBw?oc=5",
+        "original_url": "https://tribratanews.restablitar.jatim.polri.go.id/05/09/2026/bhabinkamtibmas-sambangi-petani-dukung-semangat-petani-wujudkan-swasembada-pangan/",
+        "locality": "",
+        "polsek": null,
+        "location_confidence": 0,
+        "location_evidence": [],
+        "location_status": "BELUM_TERPETAKAN",
+        "location_source": "title",
+        "issue_type": "UMUM",
+        "issue_subtype": "Belum Teridentifikasi",
+        "issue_evidence": [],
+        "handling_status": "BELUM_ADA_INFORMASI",
+        "handling_evidence": [],
+        "attention_score": 7,
+        "attention_label": "Rendah",
+        "attention_components": {
+          "severity": 2,
+          "polri_relation": 0,
+          "authority": 0,
+          "public_impact": 4,
+          "handling": 0,
+          "evidence": 1,
+          "context_risk": 0,
+          "routine_enforcement_cap": null
+        },
+        "attention_evidence": {
+          "severity": [],
+          "authority": [],
+          "public_impact": [],
+          "evidence": [
+            "satu sumber / informasi awal"
+          ],
+          "role": [],
+          "issue": [],
+          "handling": [],
+          "context": [],
+          "positive": []
+        },
+        "case_engine_version": "case-v6.5.4",
+        "case_processed_at": "2026-09-05T01:05:59.312438+00:00"
+      },
+      {
+        "id": "5543a7bc39b1b367caf43005301c6a776566e36a",
+        "title": "Jejak Perangkat Elektronik Antar Polisi Ungkap Kasus Hilangnya Mozza, Terduga Pelaku Pembunuhan Ditangkap di Blora - rasikafm.com",
+        "url": "https://rasikafm.com/jejak-perangkat-elektronik-antar-polisi-ungkap-kasus-hilangnya-mozza-terduga-pelaku-pembunuhan-ditangkap-di-blora/",
+        "source": "rasikafm.com",
+        "published_at": "2026-09-04T23:47:00+00:00",
+        "collected_at": "2026-09-05T00:59:43.322690+00:00",
+        "region": "BELUM TERPETAKAN",
+        "area_label": "BELUM TERPETAKAN",
+        "is_jatim": null,
+        "polres": null,
+        "category": "NEGATIF - KEKERASAN / PENGGUNAAN KEKUATAN",
+        "scope": "negative",
+        "scope_label": "Negatif",
+        "priority": "low",
+        "summary": "Jejak Perangkat Elektronik Antar Polisi Ungkap Kasus Hilangnya Mozza, Terduga Pelaku Pembunuhan Ditangkap di Blora rasikafm.com",
+        "processing_status": "processed",
+        "classifier_version": "news-v6",
+        "classified_at": "2026-09-05T00:59:43.322690+00:00",
+        "case_id": "CASE-000863",
+        "discovery_families": [],
+        "discovery_tags": [],
+        "discovery_hits": [],
+        "discovery_version": "discovery-v6.5.4",
+        "google_news_url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPUlpZMDd4a3JNbUlsYVA3NmVOYkl6aGdxSDc3UnViYnlxYVNDYk05RFVpaGVwSlF2U2tyd0tKQVFPa0ttTFR6blJhVUFlZTVmZllFOFJSYVZSVnVoTGFCS0h2MEVLU0g0RUJPZzZHZTBjVnpkS1FXc2kxWGxiQTV2S2YtVVB2bGgyd3RjYkFaQ2p0RHNXa2VHMDdJNjc0a3RGZ1ZtM1BQUnFsM3p4SjlrX0xvRWhVTUVzWWtZdWtBZnotdmx6X1N4QUNmdUZXV2V0?oc=5",
+        "original_url": "https://rasikafm.com/jejak-perangkat-elektronik-antar-polisi-ungkap-kasus-hilangnya-mozza-terduga-pelaku-pembunuhan-ditangkap-di-blora/",
+        "locality": "",
+        "polsek": null,
+        "location_confidence": 0,
+        "location_evidence": [],
+        "location_status": "BELUM_TERPETAKAN",
+        "location_source": "title",
+        "issue_type": "KEKERASAN_DAN_KEKUATAN",
+        "issue_subtype": "Kekerasan / Penggunaan Kekuatan",
+        "issue_evidence": [
+          "pembunuhan"
+        ],
+        "handling_status": "BELUM_ADA_INFORMASI",
+        "handling_evidence": [],
+        "attention_score": 22,
+        "attention_label": "Rendah",
+        "attention_components": {
+          "severity": 15,
+          "polri_relation": 2,
+          "authority": 0,
+          "public_impact": 4,
+          "handling": 0,
+          "evidence": 1,
+          "context_risk": 0,
+          "routine_enforcement_cap": null
+        },
+        "attention_evidence": {
+          "severity": [
+            "pembunuhan / korban meninggal"
+          ],
+          "authority": [],
+          "public_impact": [],
+          "evidence": [
+            "satu sumber / informasi awal"
+          ],
+          "role": [
+            "Polri sebagai pihak penindak"
+          ],
+          "issue": [
+            "pembunuhan"
+          ],
+          "handling": [],
+          "context": [],
+          "positive": []
+        },
+        "case_engine_version": "case-v6.5.4",
+        "case_processed_at": "2026-09-05T01:15:02.896566+00:00"
+      },
       {
         "id": "4206f0c1fc3d3902ee9b7aa4bec16c64c3dc558b",
         "title": "Dua Pria Diamankan di Ampenan, Polisi Temukan 1,72 Gram Diduga Sabu - insidelombok",
@@ -813,7 +1508,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-09-04T22:37:50.594113+00:00"
+        "case_processed_at": "2026-09-05T01:15:02.896571+00:00"
       },
       {
         "id": "3a08c09110d34a99386c2b87aeb1be3e746efd3b",
@@ -882,7 +1577,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-09-04T22:28:40.134038+00:00"
+        "case_processed_at": "2026-09-05T01:05:59.938792+00:00"
       },
       {
         "id": "d7cc476b23c7f58d727d1d89056cbf9fb00128ea",
@@ -955,7 +1650,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-09-04T22:37:50.594118+00:00"
+        "case_processed_at": "2026-09-05T01:15:02.896574+00:00"
       },
       {
         "id": "2de3f237581d64d5aaaea61d1003092ddd149369",
@@ -1026,7 +1721,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-09-04T22:37:50.594122+00:00"
+        "case_processed_at": "2026-09-05T01:15:02.896576+00:00"
       },
       {
         "id": "a84de3d3bef2dba386508bcad03b804cce8a7b6e",
@@ -1095,7 +1790,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-09-04T22:37:50.594127+00:00"
+        "case_processed_at": "2026-09-05T01:15:02.896581+00:00"
       },
       {
         "id": "e4daf182416f6fdf7317fa1728aaffbf95219da9",
@@ -1166,23 +1861,24 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-09-04T22:37:50.594129+00:00"
+        "case_processed_at": "2026-09-05T01:15:02.896583+00:00"
       }
     ]
   },
   "cases": {
-    "active": 6,
+    "active": 7,
     "priority_high": 0,
     "jatim": 1,
     "jatim_priority_high": 0,
-    "articles": 9,
+    "articles": 10,
     "case_ids": [
       "CASE-000167",
       "CASE-000858",
       "CASE-000859",
       "CASE-000860",
       "CASE-000861",
-      "CASE-000862"
+      "CASE-000862",
+      "CASE-000863"
     ],
     "items": [
       {
@@ -1390,7 +2086,7 @@
         ],
         "article_count": 4,
         "created_at": "2026-08-31T07:38:22.214710+00:00",
-        "updated_at": "2026-09-04T22:37:47.978924+00:00",
+        "updated_at": "2026-09-05T01:15:00.327990+00:00",
         "engine_version": "case-v6.5.4",
         "priority_score": 27,
         "priority_breakdown": {
@@ -1494,7 +2190,7 @@
         ],
         "article_count": 1,
         "created_at": "2026-09-04T19:50:36.629766+00:00",
-        "updated_at": "2026-09-04T22:37:50.581778+00:00",
+        "updated_at": "2026-09-05T01:15:02.880688+00:00",
         "engine_version": "case-v6.5.4",
         "priority_score": 39,
         "priority_breakdown": {
@@ -1599,7 +2295,7 @@
         ],
         "article_count": 1,
         "created_at": "2026-09-04T19:50:36.864376+00:00",
-        "updated_at": "2026-09-04T22:37:50.584851+00:00",
+        "updated_at": "2026-09-05T01:15:02.883689+00:00",
         "engine_version": "case-v6.5.4",
         "priority_score": 34,
         "priority_breakdown": {
@@ -1702,7 +2398,7 @@
         ],
         "article_count": 1,
         "created_at": "2026-09-04T19:50:37.241089+00:00",
-        "updated_at": "2026-09-04T22:37:50.587817+00:00",
+        "updated_at": "2026-09-05T01:15:02.886680+00:00",
         "engine_version": "case-v6.5.4",
         "priority_score": 30,
         "priority_breakdown": {
@@ -1809,7 +2505,7 @@
         ],
         "article_count": 1,
         "created_at": "2026-09-04T19:50:37.450824+00:00",
-        "updated_at": "2026-09-04T22:37:50.590776+00:00",
+        "updated_at": "2026-09-05T01:15:02.889548+00:00",
         "engine_version": "case-v6.5.4",
         "priority_score": 31,
         "priority_breakdown": {
@@ -1913,7 +2609,7 @@
         ],
         "article_count": 1,
         "created_at": "2026-09-04T22:36:03.153656+00:00",
-        "updated_at": "2026-09-04T22:37:50.593826+00:00",
+        "updated_at": "2026-09-05T01:15:02.892528+00:00",
         "engine_version": "case-v6.5.4",
         "priority_score": 39,
         "priority_breakdown": {
@@ -1941,6 +2637,114 @@
             "sifat berita: negatif",
             "Narkoba / Narkotika",
             "polisi + dugaan"
+          ]
+        }
+      },
+      {
+        "case_id": "CASE-000863",
+        "title": "Jejak Perangkat Elektronik Antar Polisi Ungkap Kasus Hilangnya Mozza, Terduga Pelaku Pembunuhan Ditangkap di Blora - rasikafm.com",
+        "category": "NEGATIF - KEKERASAN / PENGGUNAAN KEKUATAN",
+        "scope": "negative",
+        "region": "BELUM TERPETAKAN",
+        "locality": "",
+        "is_jatim": null,
+        "polres": null,
+        "polsek": null,
+        "priority": "low",
+        "attention_score": 23,
+        "attention_label": "Rendah",
+        "signature": "BELUM TERPETAKAN",
+        "incident_terms": [
+          "antar",
+          "blora",
+          "com",
+          "elektronik",
+          "hilangnya",
+          "jejak",
+          "mozza",
+          "pembunuhan",
+          "perangkat",
+          "rasikafm",
+          "terduga"
+        ],
+        "event_terms": [],
+        "location_terms": [],
+        "discovery_families": [],
+        "first_seen": "2026-09-04T23:47:00+00:00",
+        "last_seen": "2026-09-05T00:59:43.322690+00:00",
+        "last_detected_at": "2026-09-05T00:59:43.322690+00:00",
+        "article_ids": [
+          "5543a7bc39b1b367caf43005301c6a776566e36a"
+        ],
+        "articles": [
+          {
+            "id": "5543a7bc39b1b367caf43005301c6a776566e36a",
+            "title": "Jejak Perangkat Elektronik Antar Polisi Ungkap Kasus Hilangnya Mozza, Terduga Pelaku Pembunuhan Ditangkap di Blora - rasikafm.com",
+            "url": "https://rasikafm.com/jejak-perangkat-elektronik-antar-polisi-ungkap-kasus-hilangnya-mozza-terduga-pelaku-pembunuhan-ditangkap-di-blora/",
+            "published_at": "2026-09-04T23:47:00+00:00",
+            "collected_at": "2026-09-05T00:59:43.322690+00:00",
+            "source": "rasikafm.com",
+            "match_score": 1.0,
+            "priority": "low",
+            "scope": "negative",
+            "category": "NEGATIF - KEKERASAN / PENGGUNAAN KEKUATAN",
+            "region": "BELUM TERPETAKAN",
+            "locality": "",
+            "is_jatim": false,
+            "polres": null,
+            "polsek": null,
+            "issue_type": "KEKERASAN_DAN_KEKUATAN",
+            "issue_subtype": "Kekerasan / Penggunaan Kekuatan",
+            "handling_status": "BELUM_ADA_INFORMASI",
+            "handling_evidence": [],
+            "polri_relation": null,
+            "polri_relation_points": 0,
+            "polri_relation_evidence": [],
+            "attention_score": 22,
+            "attention_label": "Rendah",
+            "attention_components": {
+              "severity": 15,
+              "polri_relation": 2,
+              "authority": 0,
+              "public_impact": 4,
+              "handling": 0,
+              "evidence": 1,
+              "context_risk": 0,
+              "routine_enforcement_cap": null
+            }
+          }
+        ],
+        "article_count": 1,
+        "created_at": "2026-09-05T01:13:17.506495+00:00",
+        "updated_at": "2026-09-05T01:15:02.896156+00:00",
+        "engine_version": "case-v6.5.4",
+        "priority_score": 23,
+        "priority_breakdown": {
+          "severity": 15,
+          "polri_relation": 2,
+          "authority_context": 0,
+          "public_impact": 4,
+          "handling": 0,
+          "evidence": 1,
+          "spread": 0,
+          "escalation": 0,
+          "current_activity": 1,
+          "context_risk": 0
+        },
+        "priority_evidence": {
+          "unique_sources": 1,
+          "active_today_articles": 1,
+          "escalation": [],
+          "issue_type": "KEKERASAN_DAN_KEKUATAN",
+          "issue_subtype": "Kekerasan / Penggunaan Kekuatan",
+          "sentiment": "negative",
+          "polri_relation": "PENEGAKAN_HUKUM",
+          "handling_status": "BELUM_ADA_INFORMASI",
+          "reasons": [
+            "sifat berita: negatif",
+            "sifat berita: negatif",
+            "sifat berita: negatif",
+            "Kekerasan / Penggunaan Kekuatan"
           ]
         }
       }
@@ -2151,7 +2955,7 @@
         ],
         "article_count": 4,
         "created_at": "2026-08-31T07:38:22.214710+00:00",
-        "updated_at": "2026-09-04T22:37:47.978924+00:00",
+        "updated_at": "2026-09-05T01:15:00.327990+00:00",
         "engine_version": "case-v6.5.4",
         "priority_score": 27,
         "priority_breakdown": {
@@ -2185,10 +2989,10 @@
     ]
   },
   "social": {
-    "detected": 104,
-    "jatim": 11,
-    "negative": 30,
-    "priority_high": 11,
+    "detected": 113,
+    "jatim": 12,
+    "negative": 33,
+    "priority_high": 14,
     "video_ids": [
       "dWRRyXoBCpY",
       "l8x87hYHt0c",
@@ -2231,6 +3035,7 @@
       "wLqqwfAPbX4",
       "rt9CLm-PH6c",
       "4S33Yxl-Jw8",
+      "SsbMZm9ioAk",
       "e_UNAq9UomU",
       "acCN-5FQvKA",
       "ci3HpFZkl6o",
@@ -2240,6 +3045,7 @@
       "m_6pNzz8sAU",
       "xCBwwoRL2QY",
       "7QZdvldTYh8",
+      "63-V30zeH0Y",
       "U1lLuVSLGPM",
       "ACfZrQJlRz8",
       "BUK7eEBTKWM",
@@ -2249,6 +3055,7 @@
       "TB6Jqt--ru8",
       "zFEd05oSzHs",
       "AXnJE7ZWQp8",
+      "Gyqg1h2_HF8",
       "kkaxaj96Hnk",
       "mDUCKIZRB6g",
       "zbr0LUlUe2Y",
@@ -2261,6 +3068,7 @@
       "z4QUh5VZaoM",
       "BTTypj9-6sk",
       "XJoFQNjyScY",
+      "ShybVCBeWYY",
       "qpqoI8rSEek",
       "4nFEJ-BqDkE",
       "dWKWPdVecHI",
@@ -2275,18 +3083,23 @@
       "vt_G2j8vNmg",
       "HEA1AX1TLiM",
       "M6ycsmiNpYg",
+      "ONYmA2TCgTE",
       "mkDOfrs8WiE",
       "QQ7K6YAgFHA",
       "n2ahProi5uw",
       "JqCUw15Z3vk",
+      "L0r8KocpJnA",
       "dab_85Napjo",
+      "0JgGgwVdavw",
       "vgnDW9YF2hE",
       "J3l18bcwa4o",
       "FPrllgac2Zg",
       "AfbAQSPsHCw",
+      "2rOWNqR19yE",
       "QAag_YQOsY4",
       "E9EyDkaQ8HQ",
       "LypAqQmCGGA",
+      "B3J6LdDOx0Q",
       "XRpa4uK5r-k",
       "Mry2_YiCueA",
       "WGTAstqzIkY",
@@ -2297,17 +3110,25 @@
     ]
   },
   "jatim": {
-    "news_today": 2,
+    "news_today": 4,
     "negative_today": 1,
     "positive_today": 1,
     "case_scope_today": 0,
-    "neutral_today": 0,
+    "neutral_today": 2,
     "case_today": 1,
     "case_high_active": 0,
     "article_high_today": 0,
-    "outside_jatim_today": 6
+    "outside_jatim_today": 9
   },
   "regions": [
+    {
+      "name": "Jombang",
+      "count": 1
+    },
+    {
+      "name": "Surabaya",
+      "count": 1
+    },
     {
       "name": "Gresik",
       "count": 1
@@ -2319,6 +3140,14 @@
   ],
   "polres": [
     {
+      "name": "POLRES JOMBANG",
+      "count": 1
+    },
+    {
+      "name": "POLRES PELABUHAN TANJUNG PERAK",
+      "count": 1
+    },
+    {
       "name": "POLRES GRESIK",
       "count": 1
     },
@@ -2329,6 +3158,10 @@
   ],
   "categories": [
     {
+      "name": "NETRAL / LAINNYA",
+      "count": 2
+    },
+    {
       "name": "NEGATIF - NARKOBA / NARKOTIKA",
       "count": 1
     },
@@ -2338,19 +3171,19 @@
     }
   ],
   "summary": {
-    "news_today": 8,
-    "negative_today": 6,
-    "cases_today": 6,
+    "news_today": 13,
+    "negative_today": 7,
+    "cases_today": 7,
     "priority_high": 0,
     "article_priority_high": 0,
-    "jatim_news": 2,
+    "jatim_news": 4,
     "jatim_negative": 1,
     "jatim_positive": 1,
     "jatim_case_scope": 0,
-    "jatim_neutral": 0,
+    "jatim_neutral": 2,
     "jatim_cases_today": 1,
     "jatim_case_high_active": 0,
-    "luar_jatim_news": 6,
-    "youtube_today": 104
+    "luar_jatim_news": 9,
+    "youtube_today": 113
   }
 }
