@@ -2,23 +2,175 @@
   "schema_version": "today-v3",
   "date": "2026-09-06",
   "timezone": "Asia/Jakarta",
-  "updated_at": "2026-09-06T04:33:38.874222+07:00",
-  "last_successful_update": "2026-09-06T04:33:38.874222+07:00",
+  "updated_at": "2026-09-06T06:15:45.647297+07:00",
+  "last_successful_update": "2026-09-06T06:15:45.647297+07:00",
   "news": {
-    "detected": 3,
-    "negative": 2,
+    "detected": 5,
+    "negative": 4,
     "positive": 0,
     "case": 0,
     "neutral": 1,
     "jatim": 1,
-    "luar_jatim": 2,
-    "priority_high": 0,
+    "luar_jatim": 4,
+    "priority_high": 1,
     "article_ids": [
+      "eaa836aefb00b240c595ab9a6484414d3e61b87a",
+      "e5b4df5f3e3b5395c01b8e1f26b5f1c4430f4f6e",
       "1b697c4abea168a4a9572af4dfcad51ebf3e94e5",
       "5b59b26d6cd474f3761ee51f332345b8ae2bb62d",
       "f7619b193b29df30243fb4c330c71fa97f412f11"
     ],
     "items": [
+      {
+        "id": "eaa836aefb00b240c595ab9a6484414d3e61b87a",
+        "title": "Buron ke Deli Serdang, Oknum Kades Pelaku Dugaan Pemerasan Ditangkap Polisi - Link Sumsel",
+        "url": "https://linksumsel.com/buron-ke-deli-serdang-oknum-kades-pelaku-dugaan-pemerasan-ditangkap-polisi/",
+        "source": "Link Sumsel",
+        "published_at": "2026-09-05T22:31:53+00:00",
+        "collected_at": "2026-09-05T22:59:34.191620+00:00",
+        "region": "BELUM TERPETAKAN",
+        "area_label": "BELUM TERPETAKAN",
+        "is_jatim": null,
+        "polres": null,
+        "category": "NEGATIF - PUNGLI / SUAP / PEMERASAN",
+        "scope": "negative",
+        "scope_label": "Negatif",
+        "priority": "high",
+        "summary": "Buron ke Deli Serdang, Oknum Kades Pelaku Dugaan Pemerasan Ditangkap Polisi Link Sumsel",
+        "processing_status": "processed",
+        "classifier_version": "news-v6",
+        "classified_at": "2026-09-05T22:59:34.191620+00:00",
+        "case_id": "CASE-000896",
+        "discovery_families": [
+          "financial_misconduct"
+        ],
+        "discovery_tags": [
+          "financial_misconduct",
+          "integrity"
+        ],
+        "discovery_hits": [
+          "pemerasan"
+        ],
+        "discovery_version": "discovery-v6.5.4",
+        "google_news_url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOUnlBQkdZVkZoUURMSVlFdXphVnpiMXNud1ZER3ZnaFpnMHh6aXlUYmtCZF9DajdJaG5fVlk4X2lTX1JWaHlfUHpCQzIyTTBsSXE4UkdyeWFWMXhKdUFQdjgyOUthcDNlem9xUE1sd0tRMlAyb3JUdEZ5a3lwdjJSUFZmOXMwZ2FWRmgtbks2VkFhNzYwU2FJdF83RDBWMG8?oc=5",
+        "original_url": "https://linksumsel.com/buron-ke-deli-serdang-oknum-kades-pelaku-dugaan-pemerasan-ditangkap-polisi/",
+        "locality": "",
+        "polsek": null,
+        "location_confidence": 0,
+        "location_evidence": [],
+        "location_status": "BELUM_TERPETAKAN",
+        "location_source": "title",
+        "issue_type": "INTEGRITAS_DAN_KEUANGAN",
+        "issue_subtype": "Pungli / Suap / Pemerasan",
+        "issue_evidence": [],
+        "handling_status": "BELUM_ADA_INFORMASI",
+        "handling_evidence": [],
+        "attention_score": 70,
+        "attention_label": "Tinggi",
+        "attention_components": {
+          "severity": 24,
+          "polri_relation": 0,
+          "authority": 0,
+          "public_impact": 4,
+          "handling": 0,
+          "evidence": 1,
+          "context_risk": 0,
+          "routine_enforcement_cap": null
+        },
+        "attention_evidence": {
+          "severity": [],
+          "authority": [],
+          "public_impact": [],
+          "evidence": [
+            "satu sumber / informasi awal"
+          ],
+          "role": [],
+          "issue": [
+            "pemerasan"
+          ],
+          "handling": [],
+          "context": [],
+          "positive": []
+        },
+        "case_engine_version": "case-v6.5.4",
+        "case_processed_at": "2026-09-05T23:15:43.999122+00:00"
+      },
+      {
+        "id": "e5b4df5f3e3b5395c01b8e1f26b5f1c4430f4f6e",
+        "title": "Tentara Israel Tewas Ditembak Polisi Sendiri, Dikira Warga Palestina - Minanews.net",
+        "url": "https://minanews.net/tentara-israel-tewas-ditembak-polisi-sendiri-dikira-warga-palestina/",
+        "source": "Minanews.net",
+        "published_at": "2026-09-05T21:22:51+00:00",
+        "collected_at": "2026-09-05T22:59:34.191620+00:00",
+        "region": "BELUM TERPETAKAN",
+        "area_label": "BELUM TERPETAKAN",
+        "is_jatim": null,
+        "polres": null,
+        "category": "NEGATIF - KEKERASAN / PENGGUNAAN KEKUATAN",
+        "scope": "negative",
+        "scope_label": "Negatif",
+        "priority": "low",
+        "summary": "Tentara Israel Tewas Ditembak Polisi Sendiri, Dikira Warga Palestina Minanews.net",
+        "processing_status": "processed",
+        "classifier_version": "news-v6",
+        "classified_at": "2026-09-05T22:59:34.191620+00:00",
+        "case_id": "CASE-000897",
+        "discovery_families": [],
+        "discovery_tags": [],
+        "discovery_hits": [],
+        "discovery_version": "discovery-v6.5.4",
+        "google_news_url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNRk4tUXBLZTRONXlIZTJzRGw4ZURyTzU0b1hqcDhnaHBTbW5wTnZWSzdnbUlTVm83WlM0S0xnVzdXakJpeUpIal9HLUFKRnFIZWxkRi1KOWhNWTRBMFVCVkY4VUJydTRKYnpDSDRfbWc4YVp1WklLWm9kbXc3QUROZmdBVHVQWFRIczNNWkk3NFpseDA?oc=5",
+        "original_url": "https://minanews.net/tentara-israel-tewas-ditembak-polisi-sendiri-dikira-warga-palestina/",
+        "locality": "",
+        "polsek": null,
+        "location_confidence": 0,
+        "location_evidence": [],
+        "location_status": "BELUM_TERPETAKAN",
+        "location_source": "title",
+        "issue_type": "KEKERASAN_DAN_KEKUATAN",
+        "issue_subtype": "Kekerasan / Penggunaan Kekuatan",
+        "issue_evidence": [
+          "ditembak",
+          "tewas"
+        ],
+        "handling_status": "BELUM_ADA_INFORMASI",
+        "handling_evidence": [],
+        "attention_score": 39,
+        "attention_label": "Rendah",
+        "attention_components": {
+          "severity": 28,
+          "polri_relation": 0,
+          "authority": 0,
+          "public_impact": 12,
+          "handling": 0,
+          "evidence": 1,
+          "context_risk": 0,
+          "routine_enforcement_cap": null
+        },
+        "attention_evidence": {
+          "severity": [
+            "pembunuhan / korban meninggal",
+            "kekerasan berat"
+          ],
+          "authority": [],
+          "public_impact": [
+            "dampak kepada masyarakat"
+          ],
+          "evidence": [
+            "satu sumber / informasi awal"
+          ],
+          "role": [],
+          "issue": [
+            "ditembak",
+            "tewas"
+          ],
+          "handling": [],
+          "context": [],
+          "positive": []
+        },
+        "case_engine_version": "case-v6.5.4",
+        "case_processed_at": "2026-09-05T23:15:43.999127+00:00"
+      },
       {
         "id": "1b697c4abea168a4a9572af4dfcad51ebf3e94e5",
         "title": "Cegah Kecelakaan, Polres Pelabuhan Tanjung Perak Gelar Ramp Check Bus Peziarah di Sunan Ampel - tribratanews.polrespasuruankota.com",
@@ -85,7 +237,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-09-05T21:23:26.072235+00:00"
+        "case_processed_at": "2026-09-05T23:05:42.837752+00:00"
       },
       {
         "id": "5b59b26d6cd474f3761ee51f332345b8ae2bb62d",
@@ -158,7 +310,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-09-05T21:33:37.351348+00:00"
+        "case_processed_at": "2026-09-05T23:15:43.999131+00:00"
       },
       {
         "id": "f7619b193b29df30243fb4c330c71fa97f412f11",
@@ -227,7 +379,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-09-05T21:33:37.351354+00:00"
+        "case_processed_at": "2026-09-05T23:15:43.999134+00:00"
       }
     ],
     "jatim_items": [
@@ -297,10 +449,160 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-09-05T21:23:26.072235+00:00"
+        "case_processed_at": "2026-09-05T23:05:42.837752+00:00"
       }
     ],
     "luar_jatim_items": [
+      {
+        "id": "eaa836aefb00b240c595ab9a6484414d3e61b87a",
+        "title": "Buron ke Deli Serdang, Oknum Kades Pelaku Dugaan Pemerasan Ditangkap Polisi - Link Sumsel",
+        "url": "https://linksumsel.com/buron-ke-deli-serdang-oknum-kades-pelaku-dugaan-pemerasan-ditangkap-polisi/",
+        "source": "Link Sumsel",
+        "published_at": "2026-09-05T22:31:53+00:00",
+        "collected_at": "2026-09-05T22:59:34.191620+00:00",
+        "region": "BELUM TERPETAKAN",
+        "area_label": "BELUM TERPETAKAN",
+        "is_jatim": null,
+        "polres": null,
+        "category": "NEGATIF - PUNGLI / SUAP / PEMERASAN",
+        "scope": "negative",
+        "scope_label": "Negatif",
+        "priority": "high",
+        "summary": "Buron ke Deli Serdang, Oknum Kades Pelaku Dugaan Pemerasan Ditangkap Polisi Link Sumsel",
+        "processing_status": "processed",
+        "classifier_version": "news-v6",
+        "classified_at": "2026-09-05T22:59:34.191620+00:00",
+        "case_id": "CASE-000896",
+        "discovery_families": [
+          "financial_misconduct"
+        ],
+        "discovery_tags": [
+          "financial_misconduct",
+          "integrity"
+        ],
+        "discovery_hits": [
+          "pemerasan"
+        ],
+        "discovery_version": "discovery-v6.5.4",
+        "google_news_url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOUnlBQkdZVkZoUURMSVlFdXphVnpiMXNud1ZER3ZnaFpnMHh6aXlUYmtCZF9DajdJaG5fVlk4X2lTX1JWaHlfUHpCQzIyTTBsSXE4UkdyeWFWMXhKdUFQdjgyOUthcDNlem9xUE1sd0tRMlAyb3JUdEZ5a3lwdjJSUFZmOXMwZ2FWRmgtbks2VkFhNzYwU2FJdF83RDBWMG8?oc=5",
+        "original_url": "https://linksumsel.com/buron-ke-deli-serdang-oknum-kades-pelaku-dugaan-pemerasan-ditangkap-polisi/",
+        "locality": "",
+        "polsek": null,
+        "location_confidence": 0,
+        "location_evidence": [],
+        "location_status": "BELUM_TERPETAKAN",
+        "location_source": "title",
+        "issue_type": "INTEGRITAS_DAN_KEUANGAN",
+        "issue_subtype": "Pungli / Suap / Pemerasan",
+        "issue_evidence": [],
+        "handling_status": "BELUM_ADA_INFORMASI",
+        "handling_evidence": [],
+        "attention_score": 70,
+        "attention_label": "Tinggi",
+        "attention_components": {
+          "severity": 24,
+          "polri_relation": 0,
+          "authority": 0,
+          "public_impact": 4,
+          "handling": 0,
+          "evidence": 1,
+          "context_risk": 0,
+          "routine_enforcement_cap": null
+        },
+        "attention_evidence": {
+          "severity": [],
+          "authority": [],
+          "public_impact": [],
+          "evidence": [
+            "satu sumber / informasi awal"
+          ],
+          "role": [],
+          "issue": [
+            "pemerasan"
+          ],
+          "handling": [],
+          "context": [],
+          "positive": []
+        },
+        "case_engine_version": "case-v6.5.4",
+        "case_processed_at": "2026-09-05T23:15:43.999122+00:00"
+      },
+      {
+        "id": "e5b4df5f3e3b5395c01b8e1f26b5f1c4430f4f6e",
+        "title": "Tentara Israel Tewas Ditembak Polisi Sendiri, Dikira Warga Palestina - Minanews.net",
+        "url": "https://minanews.net/tentara-israel-tewas-ditembak-polisi-sendiri-dikira-warga-palestina/",
+        "source": "Minanews.net",
+        "published_at": "2026-09-05T21:22:51+00:00",
+        "collected_at": "2026-09-05T22:59:34.191620+00:00",
+        "region": "BELUM TERPETAKAN",
+        "area_label": "BELUM TERPETAKAN",
+        "is_jatim": null,
+        "polres": null,
+        "category": "NEGATIF - KEKERASAN / PENGGUNAAN KEKUATAN",
+        "scope": "negative",
+        "scope_label": "Negatif",
+        "priority": "low",
+        "summary": "Tentara Israel Tewas Ditembak Polisi Sendiri, Dikira Warga Palestina Minanews.net",
+        "processing_status": "processed",
+        "classifier_version": "news-v6",
+        "classified_at": "2026-09-05T22:59:34.191620+00:00",
+        "case_id": "CASE-000897",
+        "discovery_families": [],
+        "discovery_tags": [],
+        "discovery_hits": [],
+        "discovery_version": "discovery-v6.5.4",
+        "google_news_url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNRk4tUXBLZTRONXlIZTJzRGw4ZURyTzU0b1hqcDhnaHBTbW5wTnZWSzdnbUlTVm83WlM0S0xnVzdXakJpeUpIal9HLUFKRnFIZWxkRi1KOWhNWTRBMFVCVkY4VUJydTRKYnpDSDRfbWc4YVp1WklLWm9kbXc3QUROZmdBVHVQWFRIczNNWkk3NFpseDA?oc=5",
+        "original_url": "https://minanews.net/tentara-israel-tewas-ditembak-polisi-sendiri-dikira-warga-palestina/",
+        "locality": "",
+        "polsek": null,
+        "location_confidence": 0,
+        "location_evidence": [],
+        "location_status": "BELUM_TERPETAKAN",
+        "location_source": "title",
+        "issue_type": "KEKERASAN_DAN_KEKUATAN",
+        "issue_subtype": "Kekerasan / Penggunaan Kekuatan",
+        "issue_evidence": [
+          "ditembak",
+          "tewas"
+        ],
+        "handling_status": "BELUM_ADA_INFORMASI",
+        "handling_evidence": [],
+        "attention_score": 39,
+        "attention_label": "Rendah",
+        "attention_components": {
+          "severity": 28,
+          "polri_relation": 0,
+          "authority": 0,
+          "public_impact": 12,
+          "handling": 0,
+          "evidence": 1,
+          "context_risk": 0,
+          "routine_enforcement_cap": null
+        },
+        "attention_evidence": {
+          "severity": [
+            "pembunuhan / korban meninggal",
+            "kekerasan berat"
+          ],
+          "authority": [],
+          "public_impact": [
+            "dampak kepada masyarakat"
+          ],
+          "evidence": [
+            "satu sumber / informasi awal"
+          ],
+          "role": [],
+          "issue": [
+            "ditembak",
+            "tewas"
+          ],
+          "handling": [],
+          "context": [],
+          "positive": []
+        },
+        "case_engine_version": "case-v6.5.4",
+        "case_processed_at": "2026-09-05T23:15:43.999127+00:00"
+      },
       {
         "id": "5b59b26d6cd474f3761ee51f332345b8ae2bb62d",
         "title": "Polisi Bongkar Jaringan Joker Malaysia di Makassar, Sita Sabu-Ekstasi - CNN Indonesia",
@@ -372,7 +674,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-09-05T21:33:37.351348+00:00"
+        "case_processed_at": "2026-09-05T23:15:43.999131+00:00"
       },
       {
         "id": "f7619b193b29df30243fb4c330c71fa97f412f11",
@@ -441,19 +743,21 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-09-05T21:33:37.351354+00:00"
+        "case_processed_at": "2026-09-05T23:15:43.999134+00:00"
       }
     ]
   },
   "cases": {
-    "active": 2,
-    "priority_high": 0,
+    "active": 4,
+    "priority_high": 1,
     "jatim": 0,
     "jatim_priority_high": 0,
-    "articles": 2,
+    "articles": 4,
     "case_ids": [
       "CASE-000894",
-      "CASE-000895"
+      "CASE-000895",
+      "CASE-000896",
+      "CASE-000897"
     ],
     "items": [
       {
@@ -533,7 +837,7 @@
         ],
         "article_count": 1,
         "created_at": "2026-09-05T19:17:54.338124+00:00",
-        "updated_at": "2026-09-05T21:33:37.347678+00:00",
+        "updated_at": "2026-09-05T23:15:43.989884+00:00",
         "engine_version": "case-v6.5.4",
         "priority_score": 19,
         "priority_breakdown": {
@@ -638,7 +942,7 @@
         ],
         "article_count": 1,
         "created_at": "2026-09-05T19:17:54.661887+00:00",
-        "updated_at": "2026-09-05T21:33:37.350787+00:00",
+        "updated_at": "2026-09-05T23:15:43.992751+00:00",
         "engine_version": "case-v6.5.4",
         "priority_score": 17,
         "priority_breakdown": {
@@ -668,37 +972,264 @@
             "Hubungan Polri belum spesifik"
           ]
         }
+      },
+      {
+        "case_id": "CASE-000896",
+        "title": "Buron ke Deli Serdang, Oknum Kades Pelaku Dugaan Pemerasan Ditangkap Polisi - Link Sumsel",
+        "category": "NEGATIF - PUNGLI / SUAP / PEMERASAN",
+        "scope": "negative",
+        "region": "BELUM TERPETAKAN",
+        "locality": "",
+        "is_jatim": null,
+        "polres": null,
+        "polsek": null,
+        "priority": "high",
+        "attention_score": 70,
+        "attention_label": "Tinggi",
+        "signature": "BELUM TERPETAKAN",
+        "incident_terms": [
+          "buron",
+          "deli",
+          "dugaan",
+          "kades",
+          "link",
+          "pemerasan",
+          "serdang",
+          "sumsel"
+        ],
+        "event_terms": [
+          "pemerasan"
+        ],
+        "location_terms": [],
+        "discovery_families": [
+          "financial_misconduct"
+        ],
+        "first_seen": "2026-09-05T22:31:53+00:00",
+        "last_seen": "2026-09-05T22:59:34.191620+00:00",
+        "last_detected_at": "2026-09-05T22:59:34.191620+00:00",
+        "article_ids": [
+          "eaa836aefb00b240c595ab9a6484414d3e61b87a"
+        ],
+        "articles": [
+          {
+            "id": "eaa836aefb00b240c595ab9a6484414d3e61b87a",
+            "title": "Buron ke Deli Serdang, Oknum Kades Pelaku Dugaan Pemerasan Ditangkap Polisi - Link Sumsel",
+            "url": "https://linksumsel.com/buron-ke-deli-serdang-oknum-kades-pelaku-dugaan-pemerasan-ditangkap-polisi/",
+            "published_at": "2026-09-05T22:31:53+00:00",
+            "collected_at": "2026-09-05T22:59:34.191620+00:00",
+            "source": "Link Sumsel",
+            "match_score": 1.0,
+            "priority": "high",
+            "scope": "negative",
+            "category": "NEGATIF - PUNGLI / SUAP / PEMERASAN",
+            "region": "BELUM TERPETAKAN",
+            "locality": "",
+            "is_jatim": false,
+            "polres": null,
+            "polsek": null,
+            "issue_type": "INTEGRITAS_DAN_KEUANGAN",
+            "issue_subtype": "Pungli / Suap / Pemerasan",
+            "handling_status": "BELUM_ADA_INFORMASI",
+            "handling_evidence": [],
+            "polri_relation": null,
+            "polri_relation_points": 0,
+            "polri_relation_evidence": [],
+            "attention_score": 70,
+            "attention_label": "Tinggi",
+            "attention_components": {
+              "severity": 24,
+              "polri_relation": 0,
+              "authority": 0,
+              "public_impact": 4,
+              "handling": 0,
+              "evidence": 1,
+              "context_risk": 0,
+              "routine_enforcement_cap": null
+            }
+          }
+        ],
+        "article_count": 1,
+        "created_at": "2026-09-05T23:13:48.669946+00:00",
+        "updated_at": "2026-09-05T23:15:43.995697+00:00",
+        "engine_version": "case-v6.5.4",
+        "priority_score": 70,
+        "priority_breakdown": {
+          "severity": 24,
+          "polri_relation": 0,
+          "authority_context": 0,
+          "public_impact": 4,
+          "handling": 0,
+          "evidence": 1,
+          "spread": 0,
+          "escalation": 0,
+          "current_activity": 1,
+          "context_risk": 0
+        },
+        "priority_evidence": {
+          "unique_sources": 1,
+          "active_today_articles": 1,
+          "escalation": [],
+          "issue_type": "INTEGRITAS_DAN_KEUANGAN",
+          "issue_subtype": "Pungli / Suap / Pemerasan",
+          "sentiment": "negative",
+          "polri_relation": "SUBJEK_PERMASALAHAN",
+          "handling_status": "BELUM_ADA_INFORMASI",
+          "reasons": [
+            "indikasi pelanggaran integritas/keuangan terdeteksi secara kontekstual",
+            "kata kunci dibaca bersama konteks dugaan, aktor, dan/atau lokasi Polri"
+          ]
+        }
+      },
+      {
+        "case_id": "CASE-000897",
+        "title": "Tentara Israel Tewas Ditembak Polisi Sendiri, Dikira Warga Palestina - Minanews.net",
+        "category": "NEGATIF - KEKERASAN / PENGGUNAAN KEKUATAN",
+        "scope": "negative",
+        "region": "BELUM TERPETAKAN",
+        "locality": "",
+        "is_jatim": null,
+        "polres": null,
+        "polsek": null,
+        "priority": "medium",
+        "attention_score": 42,
+        "attention_label": "Sedang",
+        "signature": "BELUM TERPETAKAN",
+        "incident_terms": [
+          "dikira",
+          "ditembak",
+          "israel",
+          "minanews",
+          "net",
+          "palestina",
+          "sendiri",
+          "tentara",
+          "tewas"
+        ],
+        "event_terms": [],
+        "location_terms": [],
+        "discovery_families": [],
+        "first_seen": "2026-09-05T21:22:51+00:00",
+        "last_seen": "2026-09-05T22:59:34.191620+00:00",
+        "last_detected_at": "2026-09-05T22:59:34.191620+00:00",
+        "article_ids": [
+          "e5b4df5f3e3b5395c01b8e1f26b5f1c4430f4f6e"
+        ],
+        "articles": [
+          {
+            "id": "e5b4df5f3e3b5395c01b8e1f26b5f1c4430f4f6e",
+            "title": "Tentara Israel Tewas Ditembak Polisi Sendiri, Dikira Warga Palestina - Minanews.net",
+            "url": "https://minanews.net/tentara-israel-tewas-ditembak-polisi-sendiri-dikira-warga-palestina/",
+            "published_at": "2026-09-05T21:22:51+00:00",
+            "collected_at": "2026-09-05T22:59:34.191620+00:00",
+            "source": "Minanews.net",
+            "match_score": 1.0,
+            "priority": "low",
+            "scope": "negative",
+            "category": "NEGATIF - KEKERASAN / PENGGUNAAN KEKUATAN",
+            "region": "BELUM TERPETAKAN",
+            "locality": "",
+            "is_jatim": false,
+            "polres": null,
+            "polsek": null,
+            "issue_type": "KEKERASAN_DAN_KEKUATAN",
+            "issue_subtype": "Kekerasan / Penggunaan Kekuatan",
+            "handling_status": "BELUM_ADA_INFORMASI",
+            "handling_evidence": [],
+            "polri_relation": null,
+            "polri_relation_points": 0,
+            "polri_relation_evidence": [],
+            "attention_score": 39,
+            "attention_label": "Rendah",
+            "attention_components": {
+              "severity": 28,
+              "polri_relation": 0,
+              "authority": 0,
+              "public_impact": 12,
+              "handling": 0,
+              "evidence": 1,
+              "context_risk": 0,
+              "routine_enforcement_cap": null
+            }
+          }
+        ],
+        "article_count": 1,
+        "created_at": "2026-09-05T23:13:48.946406+00:00",
+        "updated_at": "2026-09-05T23:15:43.998431+00:00",
+        "engine_version": "case-v6.5.4",
+        "priority_score": 42,
+        "priority_breakdown": {
+          "severity": 28,
+          "polri_relation": 0,
+          "authority_context": 0,
+          "public_impact": 12,
+          "handling": 0,
+          "evidence": 1,
+          "spread": 0,
+          "escalation": 0,
+          "current_activity": 1,
+          "context_risk": 0
+        },
+        "priority_evidence": {
+          "unique_sources": 1,
+          "active_today_articles": 1,
+          "escalation": [],
+          "issue_type": "KEKERASAN_DAN_KEKUATAN",
+          "issue_subtype": "Kekerasan / Penggunaan Kekuatan",
+          "sentiment": "negative",
+          "polri_relation": "INFORMASI_UMUM",
+          "handling_status": "BELUM_ADA_INFORMASI",
+          "reasons": [
+            "sifat berita: negatif",
+            "sifat berita: negatif",
+            "Kekerasan / Penggunaan Kekuatan",
+            "Hubungan Polri belum spesifik"
+          ]
+        }
       }
     ],
     "jatim_items": []
   },
   "social": {
-    "detected": 70,
-    "jatim": 2,
-    "negative": 22,
-    "priority_high": 6,
+    "detected": 98,
+    "jatim": 4,
+    "negative": 39,
+    "priority_high": 21,
     "video_ids": [
+      "xsylSdDvOy8",
       "y6LRj_gsA5s",
       "dIHRQ8zKjyo",
+      "HZfwKln90qw",
       "1nqnJJBIoaM",
       "dtFUFnKDawc",
+      "cbkgId_bh1Y",
       "aNp4vk5MXgA",
       "lPd9Aax29ss",
       "sQth7ona_YM",
       "0PN_5ol8_rA",
+      "WgN9B5_aIFs",
+      "GWYXL4_ScOU",
       "3LgtU3-C6PE",
+      "yHxQbDEz2qM",
       "9C8j6E9Zaas",
+      "nYU7XRhgdys",
       "sd86SJksmKw",
       "OYkBpnkNJiI",
+      "xSvka_Al1dw",
+      "iVr-NH5XnT4",
       "XsNLJpTX1j4",
+      "GGFfdNXKsTI",
       "cfXGP3maWAw",
       "KnfN46ZPRso",
+      "xc3QZRemY9w",
       "WF8zaQb6a0k",
       "79GP7W76PFs",
+      "nhoU3Qrt07Y",
       "LwKeae2Fcxc",
       "plHqAhFvkC4",
       "bXIo_wdlsRM",
+      "WtwDBklJvKY",
       "UX3A-dHB560",
+      "gKloB10jPb4",
       "5pcj1jdqRGg",
       "izh1d5xpbXQ",
       "4_7EQvf1yCI",
@@ -707,11 +1238,15 @@
       "E9DbLMDef2c",
       "6FgKjbcxoB8",
       "tOsFNqhB30s",
+      "REQfA-Ya47s",
+      "0YA3elIXm7c",
+      "upq37XZDjUE",
       "KMT-GWYu9_I",
       "4x0jMqm-bL8",
       "4JFGhRLpPuQ",
       "rG5viuDAV5Q",
       "aHjWqKA_0Vo",
+      "Db1kgZnHUYU",
       "nAqd7xO6sgY",
       "5GfKFOvReKA",
       "-fSbb-4yn7w",
@@ -724,17 +1259,25 @@
       "B4htu-xf4n8",
       "9WH14FNU9Q0",
       "a_yN980CSEM",
+      "0CYMbUoLFyw",
       "Bcw_M2kotQI",
       "V3pRVRn_V5Q",
       "oDMnIHjJhLQ",
       "VQ6JBD2ArD4",
       "YX6dMz8_L8w",
       "9GxzdyXUU1o",
+      "CRiamsTWYAM",
       "KskU6KXEufQ",
       "fEl6DnfjLUY",
+      "GF57f3VFTn0",
       "VwBptpA7oyA",
+      "wLqqwfAPbX4",
       "rt9CLm-PH6c",
       "SsbMZm9ioAk",
+      "e_UNAq9UomU",
+      "acCN-5FQvKA",
+      "ci3HpFZkl6o",
+      "V5ESoMeuaeg",
       "RQ9LEHzOGyI",
       "Kp55YogTgG8",
       "sm3ouXgZKng",
@@ -746,8 +1289,10 @@
       "U1lLuVSLGPM",
       "ACfZrQJlRz8",
       "BUK7eEBTKWM",
+      "5OqRggkz6R4",
       "NjGi_-aaqfc",
-      "33Rv59tu4cE"
+      "33Rv59tu4cE",
+      "TB6Jqt--ru8"
     ]
   },
   "jatim": {
@@ -759,7 +1304,7 @@
     "case_today": 0,
     "case_high_active": 0,
     "article_high_today": 0,
-    "outside_jatim_today": 2
+    "outside_jatim_today": 4
   },
   "regions": [
     {
@@ -780,11 +1325,11 @@
     }
   ],
   "summary": {
-    "news_today": 3,
-    "negative_today": 2,
-    "cases_today": 2,
-    "priority_high": 0,
-    "article_priority_high": 0,
+    "news_today": 5,
+    "negative_today": 4,
+    "cases_today": 4,
+    "priority_high": 1,
+    "article_priority_high": 1,
     "jatim_news": 1,
     "jatim_negative": 0,
     "jatim_positive": 0,
@@ -792,7 +1337,7 @@
     "jatim_neutral": 1,
     "jatim_cases_today": 0,
     "jatim_case_high_active": 0,
-    "luar_jatim_news": 2,
-    "youtube_today": 70
+    "luar_jatim_news": 4,
+    "youtube_today": 98
   }
 }
