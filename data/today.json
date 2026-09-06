@@ -2,18 +2,19 @@
   "schema_version": "today-v3",
   "date": "2026-09-07",
   "timezone": "Asia/Jakarta",
-  "updated_at": "2026-09-07T00:23:08.734307+07:00",
-  "last_successful_update": "2026-09-07T00:23:08.734307+07:00",
+  "updated_at": "2026-09-07T02:31:56.662898+07:00",
+  "last_successful_update": "2026-09-07T02:31:56.662898+07:00",
   "news": {
-    "detected": 8,
+    "detected": 9,
     "negative": 2,
     "positive": 0,
     "case": 0,
-    "neutral": 6,
+    "neutral": 7,
     "jatim": 3,
-    "luar_jatim": 5,
+    "luar_jatim": 6,
     "priority_high": 0,
     "article_ids": [
+      "d980f2b7d4e1245a96b9c365f50ab7307fe55a22",
       "2af2bce2e255c15726fde3d8fa4dc4ef9f831b17",
       "32b6ea6e1cfc089d76788c46e14201e6e80ddb06",
       "9fceb0db2cc93133a4ced574b25eb9c3d3d9476c",
@@ -24,6 +25,71 @@
       "fbd7598380c14295886a8fbaa1bb177155988334"
     ],
     "items": [
+      {
+        "id": "d980f2b7d4e1245a96b9c365f50ab7307fe55a22",
+        "title": "Polisi selidiki dugaan penipuan bermodus tawaran konten TikTok - ANTARA News Bengkulu",
+        "url": "https://bengkulu.antaranews.com/berita/478852/polisi-selidiki-dugaan-penipuan-bermodus-tawaran-konten-tiktok",
+        "source": "ANTARA News Bengkulu",
+        "published_at": "2026-09-06T17:32:39+00:00",
+        "collected_at": "2026-09-06T19:13:54.997210+00:00",
+        "region": "BELUM TERPETAKAN",
+        "area_label": "BELUM TERPETAKAN",
+        "is_jatim": null,
+        "polres": null,
+        "category": "NETRAL / LAINNYA",
+        "scope": "neutral",
+        "scope_label": "Netral",
+        "priority": "low",
+        "summary": "Polisi selidiki dugaan penipuan bermodus tawaran konten TikTok ANTARA News Bengkulu",
+        "processing_status": "processed",
+        "classifier_version": "news-v6",
+        "classified_at": "2026-09-06T19:13:54.997210+00:00",
+        "case_id": null,
+        "discovery_families": [],
+        "discovery_tags": [],
+        "discovery_hits": [],
+        "discovery_version": "discovery-v6.5.4",
+        "google_news_url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxORGRDQjh0MGJDTnh6SllBU0p6NEF4Z2pjdUZkWE1OS0ZWTUtzS0g2MTVKS2FsSHdJbWpWdTVUQzdVbzBHc0xOcVRoRjQ4eG5mam1hUEwtUVROZWpiYnB0MS1MYUthOFA0TDAtSkE1ZjdobW9PRGJ1RVBEOTdQWlVVTWxkMWk5Tjl1RlJJN3FqNlhtMHFTcm9KeHZzM09rWmpCM0wwMVE5TWxLdm0x0gGyAUFVX3lxTE1JUVc5RWdyMThMeDNPTVpLVGlsb1g3ZUxlR0ZTSlJRNTlGMmszZW5LTUpJbTUwdUZjT2FvZFBRRUhpR3pWR3JRYnZNaThHc0RKS3liN1NtOWJqOTFHa09HcmMzSDZSdTRVc19XWWhuWmNnWmtRaGJOc3c0aldOaEhNcWlpSUs4R2lQRV9TOHpVVGl3elp4cy1XUXJ5cndiVG92U1ZMSzduNXJQa2JIR2NPSUE?oc=5",
+        "original_url": "https://bengkulu.antaranews.com/berita/478852/polisi-selidiki-dugaan-penipuan-bermodus-tawaran-konten-tiktok",
+        "locality": "",
+        "polsek": null,
+        "location_confidence": 0,
+        "location_evidence": [],
+        "location_status": "BELUM_TERPETAKAN",
+        "location_source": "title",
+        "issue_type": "UMUM",
+        "issue_subtype": "Belum Teridentifikasi",
+        "issue_evidence": [],
+        "handling_status": "BELUM_ADA_INFORMASI",
+        "handling_evidence": [],
+        "attention_score": 7,
+        "attention_label": "Rendah",
+        "attention_components": {
+          "severity": 2,
+          "polri_relation": 0,
+          "authority": 0,
+          "public_impact": 4,
+          "handling": 0,
+          "evidence": 1,
+          "context_risk": 0,
+          "routine_enforcement_cap": null
+        },
+        "attention_evidence": {
+          "severity": [],
+          "authority": [],
+          "public_impact": [],
+          "evidence": [
+            "satu sumber / informasi awal"
+          ],
+          "role": [],
+          "issue": [],
+          "handling": [],
+          "context": [],
+          "positive": []
+        },
+        "case_engine_version": "case-v6.5.4",
+        "case_processed_at": "2026-09-06T19:20:29.733280+00:00"
+      },
       {
         "id": "2af2bce2e255c15726fde3d8fa4dc4ef9f831b17",
         "title": "108 Orang yang Diamankan Polisi dari Kampung Madani Batam Positif Narkoba - detikcom",
@@ -91,7 +157,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-09-06T17:23:07.142288+00:00"
+        "case_processed_at": "2026-09-06T19:31:55.473381+00:00"
       },
       {
         "id": "32b6ea6e1cfc089d76788c46e14201e6e80ddb06",
@@ -156,7 +222,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-09-06T17:12:06.397271+00:00"
+        "case_processed_at": "2026-09-06T19:20:30.124711+00:00"
       },
       {
         "id": "9fceb0db2cc93133a4ced574b25eb9c3d3d9476c",
@@ -223,7 +289,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-09-06T17:12:06.769546+00:00"
+        "case_processed_at": "2026-09-06T19:20:30.525198+00:00"
       },
       {
         "id": "ed2f27d122815a8a577eba0e4af92eb2e77ec332",
@@ -293,7 +359,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-09-06T17:12:07.098233+00:00"
+        "case_processed_at": "2026-09-06T19:20:30.872644+00:00"
       },
       {
         "id": "eb1b42f780affd91cf9d59e047e3e72652c2e83d",
@@ -363,7 +429,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-09-06T17:12:07.405232+00:00"
+        "case_processed_at": "2026-09-06T19:20:31.194756+00:00"
       },
       {
         "id": "523b196ede18611ec8296b213cc5889507a6de2c",
@@ -431,7 +497,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-09-06T17:12:07.770656+00:00"
+        "case_processed_at": "2026-09-06T19:20:31.575548+00:00"
       },
       {
         "id": "9dfb8ed819a4523641ec039c61ac64add4935376",
@@ -498,7 +564,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-09-06T17:12:08.023645+00:00"
+        "case_processed_at": "2026-09-06T19:20:31.839797+00:00"
       },
       {
         "id": "fbd7598380c14295886a8fbaa1bb177155988334",
@@ -567,7 +633,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-09-06T17:23:07.142296+00:00"
+        "case_processed_at": "2026-09-06T19:31:55.473389+00:00"
       }
     ],
     "jatim_items": [
@@ -636,7 +702,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-09-06T17:12:06.769546+00:00"
+        "case_processed_at": "2026-09-06T19:20:30.525198+00:00"
       },
       {
         "id": "eb1b42f780affd91cf9d59e047e3e72652c2e83d",
@@ -706,7 +772,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-09-06T17:12:07.405232+00:00"
+        "case_processed_at": "2026-09-06T19:20:31.194756+00:00"
       },
       {
         "id": "523b196ede18611ec8296b213cc5889507a6de2c",
@@ -774,10 +840,75 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-09-06T17:12:07.770656+00:00"
+        "case_processed_at": "2026-09-06T19:20:31.575548+00:00"
       }
     ],
     "luar_jatim_items": [
+      {
+        "id": "d980f2b7d4e1245a96b9c365f50ab7307fe55a22",
+        "title": "Polisi selidiki dugaan penipuan bermodus tawaran konten TikTok - ANTARA News Bengkulu",
+        "url": "https://bengkulu.antaranews.com/berita/478852/polisi-selidiki-dugaan-penipuan-bermodus-tawaran-konten-tiktok",
+        "source": "ANTARA News Bengkulu",
+        "published_at": "2026-09-06T17:32:39+00:00",
+        "collected_at": "2026-09-06T19:13:54.997210+00:00",
+        "region": "BELUM TERPETAKAN",
+        "area_label": "BELUM TERPETAKAN",
+        "is_jatim": null,
+        "polres": null,
+        "category": "NETRAL / LAINNYA",
+        "scope": "neutral",
+        "scope_label": "Netral",
+        "priority": "low",
+        "summary": "Polisi selidiki dugaan penipuan bermodus tawaran konten TikTok ANTARA News Bengkulu",
+        "processing_status": "processed",
+        "classifier_version": "news-v6",
+        "classified_at": "2026-09-06T19:13:54.997210+00:00",
+        "case_id": null,
+        "discovery_families": [],
+        "discovery_tags": [],
+        "discovery_hits": [],
+        "discovery_version": "discovery-v6.5.4",
+        "google_news_url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxORGRDQjh0MGJDTnh6SllBU0p6NEF4Z2pjdUZkWE1OS0ZWTUtzS0g2MTVKS2FsSHdJbWpWdTVUQzdVbzBHc0xOcVRoRjQ4eG5mam1hUEwtUVROZWpiYnB0MS1MYUthOFA0TDAtSkE1ZjdobW9PRGJ1RVBEOTdQWlVVTWxkMWk5Tjl1RlJJN3FqNlhtMHFTcm9KeHZzM09rWmpCM0wwMVE5TWxLdm0x0gGyAUFVX3lxTE1JUVc5RWdyMThMeDNPTVpLVGlsb1g3ZUxlR0ZTSlJRNTlGMmszZW5LTUpJbTUwdUZjT2FvZFBRRUhpR3pWR3JRYnZNaThHc0RKS3liN1NtOWJqOTFHa09HcmMzSDZSdTRVc19XWWhuWmNnWmtRaGJOc3c0aldOaEhNcWlpSUs4R2lQRV9TOHpVVGl3elp4cy1XUXJ5cndiVG92U1ZMSzduNXJQa2JIR2NPSUE?oc=5",
+        "original_url": "https://bengkulu.antaranews.com/berita/478852/polisi-selidiki-dugaan-penipuan-bermodus-tawaran-konten-tiktok",
+        "locality": "",
+        "polsek": null,
+        "location_confidence": 0,
+        "location_evidence": [],
+        "location_status": "BELUM_TERPETAKAN",
+        "location_source": "title",
+        "issue_type": "UMUM",
+        "issue_subtype": "Belum Teridentifikasi",
+        "issue_evidence": [],
+        "handling_status": "BELUM_ADA_INFORMASI",
+        "handling_evidence": [],
+        "attention_score": 7,
+        "attention_label": "Rendah",
+        "attention_components": {
+          "severity": 2,
+          "polri_relation": 0,
+          "authority": 0,
+          "public_impact": 4,
+          "handling": 0,
+          "evidence": 1,
+          "context_risk": 0,
+          "routine_enforcement_cap": null
+        },
+        "attention_evidence": {
+          "severity": [],
+          "authority": [],
+          "public_impact": [],
+          "evidence": [
+            "satu sumber / informasi awal"
+          ],
+          "role": [],
+          "issue": [],
+          "handling": [],
+          "context": [],
+          "positive": []
+        },
+        "case_engine_version": "case-v6.5.4",
+        "case_processed_at": "2026-09-06T19:20:29.733280+00:00"
+      },
       {
         "id": "2af2bce2e255c15726fde3d8fa4dc4ef9f831b17",
         "title": "108 Orang yang Diamankan Polisi dari Kampung Madani Batam Positif Narkoba - detikcom",
@@ -845,7 +976,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-09-06T17:23:07.142288+00:00"
+        "case_processed_at": "2026-09-06T19:31:55.473381+00:00"
       },
       {
         "id": "32b6ea6e1cfc089d76788c46e14201e6e80ddb06",
@@ -910,7 +1041,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-09-06T17:12:06.397271+00:00"
+        "case_processed_at": "2026-09-06T19:20:30.124711+00:00"
       },
       {
         "id": "ed2f27d122815a8a577eba0e4af92eb2e77ec332",
@@ -980,7 +1111,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-09-06T17:12:07.098233+00:00"
+        "case_processed_at": "2026-09-06T19:20:30.872644+00:00"
       },
       {
         "id": "9dfb8ed819a4523641ec039c61ac64add4935376",
@@ -1047,7 +1178,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-09-06T17:12:08.023645+00:00"
+        "case_processed_at": "2026-09-06T19:20:31.839797+00:00"
       },
       {
         "id": "fbd7598380c14295886a8fbaa1bb177155988334",
@@ -1116,7 +1247,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-09-06T17:23:07.142296+00:00"
+        "case_processed_at": "2026-09-06T19:31:55.473389+00:00"
       }
     ]
   },
@@ -1252,7 +1383,7 @@
         ],
         "article_count": 2,
         "created_at": "2026-08-31T08:00:14.988817+00:00",
-        "updated_at": "2026-09-06T17:23:05.225926+00:00",
+        "updated_at": "2026-09-06T19:31:53.403390+00:00",
         "engine_version": "case-v6.5.4",
         "priority_score": 22,
         "priority_breakdown": {
@@ -1356,7 +1487,7 @@
         ],
         "article_count": 1,
         "created_at": "2026-09-06T17:21:02.378817+00:00",
-        "updated_at": "2026-09-06T17:23:07.141608+00:00",
+        "updated_at": "2026-09-06T19:31:55.472776+00:00",
         "engine_version": "case-v6.5.4",
         "priority_score": 38,
         "priority_breakdown": {
@@ -1390,28 +1521,46 @@
     "jatim_items": []
   },
   "social": {
-    "detected": 19,
+    "detected": 37,
     "jatim": 0,
-    "negative": 5,
-    "priority_high": 0,
+    "negative": 16,
+    "priority_high": 1,
     "video_ids": [
+      "SpQpng_DgJA",
+      "XdCCl022u3U",
+      "X3VOk-IAF-A",
       "eDCbrgb-cgQ",
       "6U2u5NmceEs",
       "kIfu_c1bA5I",
       "fEF4R44S5Ds",
+      "YuVhEcSnF10",
+      "MDb87GYGllo",
+      "Goyn8sxr2Rw",
+      "S1f5Yctri20",
       "oxUHhE-uXQA",
+      "pCD1vLbi1fw",
+      "I-56SXzHTMc",
       "J_8c3Zv4oBM",
       "eSl9FpEG7VQ",
+      "K1hKtqX1YV8",
       "f9aCRrWd6Dg",
+      "HK-ZrhfWw20",
+      "lLaulFvtieo",
       "pgPcGd_Wfv8",
       "1IhnjIDLnXY",
       "ufsRwKOvwaA",
+      "OYkBpnkNJiI",
+      "cfXGP3maWAw",
       "APQtrnQlkIQ",
+      "5pcj1jdqRGg",
+      "iJcKnSZ1U68",
       "TcGAdwYuwXE",
       "a29qIjogGZQ",
       "FxC3N0asecY",
       "dhFDFktFplA",
       "lMRAbYP9nHA",
+      "KMT-GWYu9_I",
+      "4x0jMqm-bL8",
       "KBc4W4mHBf4",
       "rG5viuDAV5Q"
     ]
@@ -1425,7 +1574,7 @@
     "case_today": 0,
     "case_high_active": 0,
     "article_high_today": 0,
-    "outside_jatim_today": 5
+    "outside_jatim_today": 6
   },
   "regions": [
     {
@@ -1458,7 +1607,7 @@
     }
   ],
   "summary": {
-    "news_today": 8,
+    "news_today": 9,
     "negative_today": 2,
     "cases_today": 2,
     "priority_high": 0,
@@ -1470,7 +1619,7 @@
     "jatim_neutral": 3,
     "jatim_cases_today": 0,
     "jatim_case_high_active": 0,
-    "luar_jatim_news": 5,
-    "youtube_today": 19
+    "luar_jatim_news": 6,
+    "youtube_today": 37
   }
 }
