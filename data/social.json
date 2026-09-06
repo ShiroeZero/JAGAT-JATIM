@@ -1,25 +1,49 @@
 {
-  "generated_at": "2026-09-06T14:30:12.983776+00:00",
+  "generated_at": "2026-09-06T17:23:07.527166+00:00",
   "platform": "YouTube",
-  "query_cursor": 7,
+  "query_cursor": 10,
   "query_batch_size": 3,
   "query_success": 3,
   "query_skipped": 0,
   "quota_warning": false,
   "quota_block_date": null,
-  "total": 1172,
-  "new_videos": 6,
+  "total": 1181,
+  "new_videos": 9,
   "statistics": {
-    "total": 1172,
+    "total": 1181,
     "jatim": 78,
-    "negative": 426,
+    "negative": 429,
     "incident": 34,
     "case": 168,
-    "neutral": 491,
+    "neutral": 497,
     "noise": 9,
     "high_priority": 210
   },
   "items": [
+    {
+      "id": "c9c2e1c370ae8149c662ae33871ab213f6fc243b",
+      "video_id": "eDCbrgb-cgQ",
+      "platform": "YouTube",
+      "type": "video",
+      "title": "POLISI TANGKAP PELAKU PENGANIAYAAN DI MATARAM DENGAN PISTOL",
+      "channel": "TV9 Lombok News",
+      "published_at": "2026-09-06T13:05:50Z",
+      "url": "https://www.youtube.com/watch?v=eDCbrgb-cgQ",
+      "thumbnail": "https://i.ytimg.com/vi/eDCbrgb-cgQ/hqdefault.jpg",
+      "description": "",
+      "relevance": "high",
+      "scope": "negative",
+      "category": "Kekerasan / Penganiayaan",
+      "classification_score": 100,
+      "is_jatim": false,
+      "region": "Indonesia",
+      "polres": null,
+      "location_confidence": 0,
+      "location_source": null,
+      "location_evidence": [],
+      "priority": "medium",
+      "collected_at": "2026-09-06T17:23:07.527166+00:00"
+    },
     {
       "id": "e1fb5a1f5d139428190294e4974fabd458fde87d",
       "video_id": "dK1wnCqvnVI",
@@ -115,6 +139,82 @@
       "location_evidence": [],
       "priority": "medium",
       "collected_at": "2026-09-06T11:17:38.887278+00:00"
+    },
+    {
+      "id": "16f050dbb9624c7650532ce36e2ae917368ab686",
+      "video_id": "6U2u5NmceEs",
+      "platform": "YouTube",
+      "type": "video",
+      "title": "Sempat Kabur, Pelaku Penganiayaan Akhirnya Dibekuk Polisi",
+      "channel": "TVRI Bangka Belitung",
+      "published_at": "2026-09-06T11:00:03Z",
+      "url": "https://www.youtube.com/watch?v=6U2u5NmceEs",
+      "thumbnail": "https://i.ytimg.com/vi/6U2u5NmceEs/hqdefault.jpg",
+      "description": "",
+      "relevance": "medium",
+      "scope": "neutral",
+      "category": "Berita Polisi Lainnya",
+      "classification_score": 25,
+      "is_jatim": false,
+      "region": "Indonesia",
+      "polres": null,
+      "location_confidence": 0,
+      "location_source": null,
+      "location_evidence": [],
+      "priority": "low",
+      "collected_at": "2026-09-06T17:23:07.527166+00:00"
+    },
+    {
+      "id": "4e2fad55ae6566864fce17dc18a098460229211b",
+      "video_id": "kIfu_c1bA5I",
+      "platform": "YouTube",
+      "type": "video",
+      "title": "Mediasi Buntu, Polisi Siapkan Gelar Perkara Dugaan Penganiayaan di Cilongok Banyumas #shrots",
+      "channel": "GARUDA TV JAWA TENGAH",
+      "published_at": "2026-09-06T10:54:02Z",
+      "url": "https://www.youtube.com/watch?v=kIfu_c1bA5I",
+      "thumbnail": "https://i.ytimg.com/vi/kIfu_c1bA5I/hqdefault.jpg",
+      "description": "Mediasi kasus dugaan penganiayaan di Cilongok, Banyumas, Jawa Tengah, belum mencapai kesepakatan. Perkara ini bermula ...",
+      "relevance": "high",
+      "scope": "negative",
+      "category": "Kekerasan / Penganiayaan",
+      "classification_score": 100,
+      "is_jatim": false,
+      "region": "Indonesia",
+      "polres": null,
+      "location_confidence": 0,
+      "location_source": "outside",
+      "location_evidence": [
+        "LUAR:jawa tengah"
+      ],
+      "priority": "medium",
+      "collected_at": "2026-09-06T17:23:07.527166+00:00"
+    },
+    {
+      "id": "7437a9d32bf5f4f2037d2933f91873aeea31af3b",
+      "video_id": "fEF4R44S5Ds",
+      "platform": "YouTube",
+      "type": "video",
+      "title": "Mediasi Buntu, Polisi Siapkan Gelar Perkara Dugaan Penganiayaan di Cilongok Banyumas",
+      "channel": "GARUDA TV JAWA TENGAH",
+      "published_at": "2026-09-06T10:43:54Z",
+      "url": "https://www.youtube.com/watch?v=fEF4R44S5Ds",
+      "thumbnail": "https://i.ytimg.com/vi/fEF4R44S5Ds/hqdefault.jpg",
+      "description": "Mediasi kasus dugaan penganiayaan di Cilongok, Banyumas, Jawa Tengah, belum mencapai kesepakatan. Perkara ini bermula ...",
+      "relevance": "high",
+      "scope": "negative",
+      "category": "Kekerasan / Penganiayaan",
+      "classification_score": 100,
+      "is_jatim": false,
+      "region": "Indonesia",
+      "polres": null,
+      "location_confidence": 0,
+      "location_source": "outside",
+      "location_evidence": [
+        "LUAR:jawa tengah"
+      ],
+      "priority": "medium",
+      "collected_at": "2026-09-06T17:23:07.527166+00:00"
     },
     {
       "id": "8d8855eae4bb638323751da4c6e3e7d9c7b22fa5",
@@ -258,7 +358,7 @@
       "location_source": null,
       "location_evidence": [],
       "priority": "medium",
-      "collected_at": "2026-09-06T06:14:52.204572+00:00"
+      "collected_at": "2026-09-06T17:23:07.527166+00:00"
     },
     {
       "id": "18cf8d71a1e860dbe1ad8c03e424f66f9ebf6857",
@@ -381,6 +481,30 @@
       "collected_at": "2026-09-06T11:17:38.887278+00:00"
     },
     {
+      "id": "b212b3e3c6a773047697e42845daa6c737ac59a4",
+      "video_id": "J_8c3Zv4oBM",
+      "platform": "YouTube",
+      "type": "video",
+      "title": "&quot;Very, Very Distressing&quot; SC Judge Ujjal Bhuyan Flags Police Assaults on Jantar Mantar Protesters",
+      "channel": "Lawtinum",
+      "published_at": "2026-09-06T01:27:39Z",
+      "url": "https://www.youtube.com/watch?v=J_8c3Zv4oBM",
+      "thumbnail": "https://i.ytimg.com/vi/J_8c3Zv4oBM/hqdefault.jpg",
+      "description": "Supreme Court Justice Ujjal Bhuyan expressed “grave concern” over reports of police assaulting student protesters at Delhi's ...",
+      "relevance": "low",
+      "scope": "neutral",
+      "category": "Tidak Relevan",
+      "classification_score": 0,
+      "is_jatim": false,
+      "region": "Indonesia",
+      "polres": null,
+      "location_confidence": 0,
+      "location_source": null,
+      "location_evidence": [],
+      "priority": "low",
+      "collected_at": "2026-09-06T17:23:07.527166+00:00"
+    },
+    {
       "id": "42354e07efac2b0ff92b6ba0ec6d34abb53e8045",
       "video_id": "NUII0f1fieQ",
       "platform": "YouTube",
@@ -426,7 +550,7 @@
       "location_source": null,
       "location_evidence": [],
       "priority": "medium",
-      "collected_at": "2026-09-06T06:14:52.204572+00:00"
+      "collected_at": "2026-09-06T17:23:07.527166+00:00"
     },
     {
       "id": "af66624dd231613f0b1fa8b47e4923ea43d1a8d6",
@@ -717,6 +841,30 @@
       "collected_at": "2026-09-06T11:17:38.887278+00:00"
     },
     {
+      "id": "35a6e02f88d6d430dae328ce47d64e63d0d0ada1",
+      "video_id": "f9aCRrWd6Dg",
+      "platform": "YouTube",
+      "type": "video",
+      "title": "UK Police CLASH With Auditor… He’s Left BLEEDING After Heated Confrontation!",
+      "channel": "𝗨𝗞 𝗖𝗿𝗶𝗺𝗲 𝗪𝗮𝘁𝗰𝗵",
+      "published_at": "2026-09-05T16:15:07Z",
+      "url": "https://www.youtube.com/watch?v=f9aCRrWd6Dg",
+      "thumbnail": "https://i.ytimg.com/vi/f9aCRrWd6Dg/hqdefault.jpg",
+      "description": "This intense UK police encounter escalates quickly as officers clash with an auditor during a heated confrontation. What begins as ...",
+      "relevance": "low",
+      "scope": "neutral",
+      "category": "Tidak Relevan",
+      "classification_score": 0,
+      "is_jatim": false,
+      "region": "Indonesia",
+      "polres": null,
+      "location_confidence": 0,
+      "location_source": null,
+      "location_evidence": [],
+      "priority": "low",
+      "collected_at": "2026-09-06T17:23:07.527166+00:00"
+    },
+    {
       "id": "039e3cd91f18a185c2a50238586004f40f406555",
       "video_id": "dIHRQ8zKjyo",
       "platform": "YouTube",
@@ -932,7 +1080,7 @@
       "location_source": null,
       "location_evidence": [],
       "priority": "low",
-      "collected_at": "2026-09-06T06:14:52.204572+00:00"
+      "collected_at": "2026-09-06T17:23:07.527166+00:00"
     },
     {
       "id": "a4aec80bb2a8cdda2ed366b671b25903502ace14",
@@ -959,6 +1107,30 @@
       "collected_at": "2026-09-06T11:17:38.887278+00:00"
     },
     {
+      "id": "ab5c19de176c5927e442eb621eae47c2301b78b7",
+      "video_id": "1IhnjIDLnXY",
+      "platform": "YouTube",
+      "type": "video",
+      "title": "🔴LIVE: Very Pembunuh Mozza Diciduk saat Asyik Nonton Voli di Banjarejo Blora, Bikin Kaget Tetangga",
+      "channel": "Tribunnews",
+      "published_at": "2026-09-05T12:19:18Z",
+      "url": "https://www.youtube.com/watch?v=1IhnjIDLnXY",
+      "thumbnail": "https://i.ytimg.com/vi/1IhnjIDLnXY/hqdefault.jpg",
+      "description": "Download aplikasi berita TribunX di Play Store atau App Store untuk dapatkan pengalaman baru TRIBUN-VIDEO.COM- MVDA ...",
+      "relevance": "low",
+      "scope": "neutral",
+      "category": "Tidak Relevan",
+      "classification_score": 0,
+      "is_jatim": false,
+      "region": "Indonesia",
+      "polres": null,
+      "location_confidence": 0,
+      "location_source": null,
+      "location_evidence": [],
+      "priority": "low",
+      "collected_at": "2026-09-06T17:23:07.527166+00:00"
+    },
+    {
       "id": "bb2cf6492f514b8e5602879df7778370d759b2de",
       "video_id": "0PN_5ol8_rA",
       "platform": "YouTube",
@@ -981,6 +1153,30 @@
       "location_evidence": [],
       "priority": "low",
       "collected_at": "2026-09-06T11:17:38.887278+00:00"
+    },
+    {
+      "id": "033e4835fe92ce7d21750431cf69e53b04d550ec",
+      "video_id": "ufsRwKOvwaA",
+      "platform": "YouTube",
+      "type": "video",
+      "title": "Police Surprise Abusive Husband After Neighbors Secretly Call 911 Police Bodycam",
+      "channel": "CopWatch Live",
+      "published_at": "2026-09-05T12:00:14Z",
+      "url": "https://www.youtube.com/watch?v=ufsRwKOvwaA",
+      "thumbnail": "https://i.ytimg.com/vi/ufsRwKOvwaA/hqdefault.jpg",
+      "description": "PoliceBodycam #BodycamFootage #PoliceArrest Police respond to a reported domestic dispute, but what starts as a simple ...",
+      "relevance": "low",
+      "scope": "neutral",
+      "category": "Tidak Relevan",
+      "classification_score": 0,
+      "is_jatim": false,
+      "region": "Indonesia",
+      "polres": null,
+      "location_confidence": 0,
+      "location_source": null,
+      "location_evidence": [],
+      "priority": "low",
+      "collected_at": "2026-09-06T17:23:07.527166+00:00"
     },
     {
       "id": "bd45d19247e23feb26e09f229550744cd7a2f74e",
@@ -1397,7 +1593,7 @@
       "location_source": null,
       "location_evidence": [],
       "priority": "low",
-      "collected_at": "2026-09-06T06:14:52.204572+00:00"
+      "collected_at": "2026-09-06T17:23:07.527166+00:00"
     },
     {
       "id": "99841625a6504973bba815a7248834e7038ccf3e",
@@ -1795,6 +1991,30 @@
       "collected_at": "2026-09-05T21:33:37.709947+00:00"
     },
     {
+      "id": "70606bb2132734e6f561da45124094a837812608",
+      "video_id": "TcGAdwYuwXE",
+      "platform": "YouTube",
+      "type": "video",
+      "title": "Polisi Jadi ODGJ, Temb4ki Warga Dengan Brut4l !!! #drama #dramapendek #videopendek",
+      "channel": "Seyan Arjuna",
+      "published_at": "2026-09-05T04:24:29Z",
+      "url": "https://www.youtube.com/watch?v=TcGAdwYuwXE",
+      "thumbnail": "https://i.ytimg.com/vi/TcGAdwYuwXE/hqdefault.jpg",
+      "description": "",
+      "relevance": "medium",
+      "scope": "neutral",
+      "category": "Berita Polisi Lainnya",
+      "classification_score": 25,
+      "is_jatim": false,
+      "region": "Indonesia",
+      "polres": null,
+      "location_confidence": 0,
+      "location_source": null,
+      "location_evidence": [],
+      "priority": "low",
+      "collected_at": "2026-09-06T17:23:07.527166+00:00"
+    },
+    {
       "id": "8c381f2c7af2ea8e4a094352e953c05c238a9c34",
       "video_id": "6FgKjbcxoB8",
       "platform": "YouTube",
@@ -1864,7 +2084,7 @@
       "location_source": null,
       "location_evidence": [],
       "priority": "low",
-      "collected_at": "2026-09-06T06:14:52.204572+00:00"
+      "collected_at": "2026-09-06T17:23:07.527166+00:00"
     },
     {
       "id": "f6b663905d083962586ffad8d0dde3a9c4bb7c72",
@@ -1939,7 +2159,7 @@
       "location_source": null,
       "location_evidence": [],
       "priority": "low",
-      "collected_at": "2026-09-06T06:14:52.204572+00:00"
+      "collected_at": "2026-09-06T17:23:07.527166+00:00"
     },
     {
       "id": "3051cda98b88ebaf9e766dc380c573b34ae56ad7",
@@ -2155,7 +2375,7 @@
       "location_source": null,
       "location_evidence": [],
       "priority": "low",
-      "collected_at": "2026-09-06T06:14:52.204572+00:00"
+      "collected_at": "2026-09-06T17:23:07.527166+00:00"
     },
     {
       "id": "cb25627ba30f305c27a31dc5ae14d623f5311cd9",
@@ -2179,7 +2399,7 @@
       "location_source": null,
       "location_evidence": [],
       "priority": "low",
-      "collected_at": "2026-09-06T06:14:52.204572+00:00"
+      "collected_at": "2026-09-06T17:23:07.527166+00:00"
     },
     {
       "id": "f63e0ee42e209c475135811db2681db5e4792d40",
@@ -2323,7 +2543,7 @@
       "location_source": null,
       "location_evidence": [],
       "priority": "low",
-      "collected_at": "2026-09-06T06:14:52.204572+00:00"
+      "collected_at": "2026-09-06T17:23:07.527166+00:00"
     },
     {
       "id": "633f419fff2bb8df669103ce637178f0378627b9",
@@ -2398,7 +2618,7 @@
       "location_source": null,
       "location_evidence": [],
       "priority": "low",
-      "collected_at": "2026-09-06T01:18:14.739947+00:00"
+      "collected_at": "2026-09-06T17:23:07.527166+00:00"
     },
     {
       "id": "b605e2e0fab632ebe44fad21604e5242c6641da5",
