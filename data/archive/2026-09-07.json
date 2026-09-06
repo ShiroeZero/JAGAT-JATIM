@@ -2,18 +2,20 @@
   "schema_version": "today-v3",
   "date": "2026-09-07",
   "timezone": "Asia/Jakarta",
-  "updated_at": "2026-09-07T02:31:56.662898+07:00",
-  "last_successful_update": "2026-09-07T02:31:56.662898+07:00",
+  "updated_at": "2026-09-07T04:42:53.696842+07:00",
+  "last_successful_update": "2026-09-07T04:42:53.696842+07:00",
   "news": {
-    "detected": 9,
-    "negative": 2,
+    "detected": 11,
+    "negative": 3,
     "positive": 0,
     "case": 0,
-    "neutral": 7,
+    "neutral": 8,
     "jatim": 3,
-    "luar_jatim": 6,
+    "luar_jatim": 8,
     "priority_high": 0,
     "article_ids": [
+      "76b23b628993db71db5b3ef0e6b307b01a201c65",
+      "2716c71d56966045d6bfa2752488c239c563c0fc",
       "d980f2b7d4e1245a96b9c365f50ab7307fe55a22",
       "2af2bce2e255c15726fde3d8fa4dc4ef9f831b17",
       "32b6ea6e1cfc089d76788c46e14201e6e80ddb06",
@@ -25,6 +27,154 @@
       "fbd7598380c14295886a8fbaa1bb177155988334"
     ],
     "items": [
+      {
+        "id": "76b23b628993db71db5b3ef0e6b307b01a201c65",
+        "title": "Polisi Bantah Ada Damai di Kasus Dugaan Kekerasan Seksual Brimob Polda NTB - SUARANTB.com",
+        "url": "https://suarantb.com/2026/09/07/polisi-bantah-ada-damai-di-kasus-dugaan-kekerasan-seksual-brimob-polda-ntb/",
+        "source": "SUARANTB.com",
+        "published_at": "2026-09-06T20:15:28+00:00",
+        "collected_at": "2026-09-06T21:24:47.649130+00:00",
+        "region": "LUAR JATIM",
+        "area_label": "LUAR JATIM",
+        "is_jatim": false,
+        "polres": null,
+        "category": "NEGATIF - KEJAHATAN SEKSUAL",
+        "scope": "negative",
+        "scope_label": "Negatif",
+        "priority": "low",
+        "summary": "Polisi Bantah Ada Damai di Kasus Dugaan Kekerasan Seksual Brimob Polda NTB SUARANTB.com",
+        "processing_status": "processed",
+        "classifier_version": "news-v6",
+        "classified_at": "2026-09-06T21:24:47.649130+00:00",
+        "case_id": "CASE-000943",
+        "discovery_families": [
+          "ethics_personal_misconduct"
+        ],
+        "discovery_tags": [
+          "ethics",
+          "sexual_misconduct",
+          "violence"
+        ],
+        "discovery_hits": [
+          "kekerasan seksual"
+        ],
+        "discovery_version": "discovery-v6.5.4",
+        "google_news_url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOc0FTWU43QmJUVmhTb1MzN3pYaXhYaFBqanlVVkxWMGJTd09CbTgtMXA2YmpuRUJwZUdKVENzdWtCelRyQW1ESk12Qk81RnczTE9kdVZIUnFsNVN0WXV0U3BMMzkyQjk1LUsxYXFDb0x1RWdNM0M4OGdvUmFRVzcwcllvSU13VkJObnA5YVVyZEhFdlRFcXZKOUswZUtyTTdtQUM0UUxsMzlMV2M?oc=5",
+        "original_url": "https://suarantb.com/2026/09/07/polisi-bantah-ada-damai-di-kasus-dugaan-kekerasan-seksual-brimob-polda-ntb/",
+        "locality": "",
+        "polsek": null,
+        "location_confidence": 100,
+        "location_evidence": [
+          "ntb"
+        ],
+        "location_status": "LUAR_JATIM",
+        "location_source": "title",
+        "issue_type": "KEJAHATAN_SEKSUAL",
+        "issue_subtype": "Kejahatan Seksual",
+        "issue_evidence": [
+          "kekerasan seksual"
+        ],
+        "handling_status": "BELUM_ADA_INFORMASI",
+        "handling_evidence": [],
+        "attention_score": 39,
+        "attention_label": "Rendah",
+        "attention_components": {
+          "severity": 26,
+          "polri_relation": 0,
+          "authority": 0,
+          "public_impact": 10,
+          "handling": 0,
+          "evidence": 1,
+          "context_risk": 0,
+          "routine_enforcement_cap": null
+        },
+        "attention_evidence": {
+          "severity": [
+            "kekerasan berat"
+          ],
+          "authority": [],
+          "public_impact": [
+            "dampak peristiwa"
+          ],
+          "evidence": [
+            "satu sumber / informasi awal"
+          ],
+          "role": [],
+          "issue": [
+            "kekerasan seksual"
+          ],
+          "handling": [],
+          "context": [],
+          "positive": []
+        },
+        "case_engine_version": "case-v6.5.4",
+        "case_processed_at": "2026-09-06T21:42:52.259586+00:00"
+      },
+      {
+        "id": "2716c71d56966045d6bfa2752488c239c563c0fc",
+        "title": "Polri Perkuat Kesiapsiagaan Pasukan Hadapi Dampak Aktivitas Gunung Api - polreskedirikota.com",
+        "url": "https://polreskedirikota.com/polri-perkuat-kesiapsiagaan-pasukan-hadapi-dampak-aktivitas-gunung-api/",
+        "source": "polreskedirikota.com",
+        "published_at": "2026-09-06T19:49:56+00:00",
+        "collected_at": "2026-09-06T21:24:47.649130+00:00",
+        "region": "BELUM TERPETAKAN",
+        "area_label": "BELUM TERPETAKAN",
+        "is_jatim": null,
+        "polres": null,
+        "category": "NETRAL / LAINNYA",
+        "scope": "neutral",
+        "scope_label": "Netral",
+        "priority": "low",
+        "summary": "Polri Perkuat Kesiapsiagaan Pasukan Hadapi Dampak Aktivitas Gunung Api polreskedirikota.com",
+        "processing_status": "processed",
+        "classifier_version": "news-v6",
+        "classified_at": "2026-09-06T21:24:47.649130+00:00",
+        "case_id": null,
+        "discovery_families": [],
+        "discovery_tags": [],
+        "discovery_hits": [],
+        "discovery_version": "discovery-v6.5.4",
+        "google_news_url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOdjkyWXlFVUQtOE9Ia1hTd25LQjhkbjlOMVB0c3RZa3NVcFY4R1NFOHZyQmZ4dHFKRS1ZN1gzSEo4SU9DaU9fcW04M0VCLTgxVVk4WFIzX0dxQjlkSmxDQVIwVXhEVjJIbndnd3AwY0xBYlByZVg1OWNhTmpmbWxhUlhRY0NYQ2x4VXpnaENMcEtvMXBIbE9DZzRWbTNkOVZGWmc?oc=5",
+        "original_url": "https://polreskedirikota.com/polri-perkuat-kesiapsiagaan-pasukan-hadapi-dampak-aktivitas-gunung-api/",
+        "locality": "",
+        "polsek": null,
+        "location_confidence": 0,
+        "location_evidence": [],
+        "location_status": "BELUM_TERPETAKAN",
+        "location_source": "title",
+        "issue_type": "UMUM",
+        "issue_subtype": "Belum Teridentifikasi",
+        "issue_evidence": [],
+        "handling_status": "BELUM_ADA_INFORMASI",
+        "handling_evidence": [],
+        "attention_score": 7,
+        "attention_label": "Rendah",
+        "attention_components": {
+          "severity": 2,
+          "polri_relation": 0,
+          "authority": 0,
+          "public_impact": 4,
+          "handling": 0,
+          "evidence": 1,
+          "context_risk": 0,
+          "routine_enforcement_cap": null
+        },
+        "attention_evidence": {
+          "severity": [],
+          "authority": [],
+          "public_impact": [],
+          "evidence": [
+            "satu sumber / informasi awal"
+          ],
+          "role": [],
+          "issue": [],
+          "handling": [],
+          "context": [],
+          "positive": []
+        },
+        "case_engine_version": "case-v6.5.4",
+        "case_processed_at": "2026-09-06T21:31:14.385021+00:00"
+      },
       {
         "id": "d980f2b7d4e1245a96b9c365f50ab7307fe55a22",
         "title": "Polisi selidiki dugaan penipuan bermodus tawaran konten TikTok - ANTARA News Bengkulu",
@@ -88,7 +238,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-09-06T19:20:29.733280+00:00"
+        "case_processed_at": "2026-09-06T21:31:14.711519+00:00"
       },
       {
         "id": "2af2bce2e255c15726fde3d8fa4dc4ef9f831b17",
@@ -157,7 +307,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-09-06T19:31:55.473381+00:00"
+        "case_processed_at": "2026-09-06T21:42:52.259593+00:00"
       },
       {
         "id": "32b6ea6e1cfc089d76788c46e14201e6e80ddb06",
@@ -222,7 +372,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-09-06T19:20:30.124711+00:00"
+        "case_processed_at": "2026-09-06T21:31:15.149794+00:00"
       },
       {
         "id": "9fceb0db2cc93133a4ced574b25eb9c3d3d9476c",
@@ -289,7 +439,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-09-06T19:20:30.525198+00:00"
+        "case_processed_at": "2026-09-06T21:31:15.538497+00:00"
       },
       {
         "id": "ed2f27d122815a8a577eba0e4af92eb2e77ec332",
@@ -359,7 +509,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-09-06T19:20:30.872644+00:00"
+        "case_processed_at": "2026-09-06T21:31:15.887103+00:00"
       },
       {
         "id": "eb1b42f780affd91cf9d59e047e3e72652c2e83d",
@@ -429,7 +579,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-09-06T19:20:31.194756+00:00"
+        "case_processed_at": "2026-09-06T21:31:16.212656+00:00"
       },
       {
         "id": "523b196ede18611ec8296b213cc5889507a6de2c",
@@ -497,7 +647,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-09-06T19:20:31.575548+00:00"
+        "case_processed_at": "2026-09-06T21:31:16.597231+00:00"
       },
       {
         "id": "9dfb8ed819a4523641ec039c61ac64add4935376",
@@ -564,7 +714,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-09-06T19:20:31.839797+00:00"
+        "case_processed_at": "2026-09-06T21:31:16.866436+00:00"
       },
       {
         "id": "fbd7598380c14295886a8fbaa1bb177155988334",
@@ -633,7 +783,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-09-06T19:31:55.473389+00:00"
+        "case_processed_at": "2026-09-06T21:42:52.259599+00:00"
       }
     ],
     "jatim_items": [
@@ -702,7 +852,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-09-06T19:20:30.525198+00:00"
+        "case_processed_at": "2026-09-06T21:31:15.538497+00:00"
       },
       {
         "id": "eb1b42f780affd91cf9d59e047e3e72652c2e83d",
@@ -772,7 +922,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-09-06T19:20:31.194756+00:00"
+        "case_processed_at": "2026-09-06T21:31:16.212656+00:00"
       },
       {
         "id": "523b196ede18611ec8296b213cc5889507a6de2c",
@@ -840,10 +990,158 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-09-06T19:20:31.575548+00:00"
+        "case_processed_at": "2026-09-06T21:31:16.597231+00:00"
       }
     ],
     "luar_jatim_items": [
+      {
+        "id": "76b23b628993db71db5b3ef0e6b307b01a201c65",
+        "title": "Polisi Bantah Ada Damai di Kasus Dugaan Kekerasan Seksual Brimob Polda NTB - SUARANTB.com",
+        "url": "https://suarantb.com/2026/09/07/polisi-bantah-ada-damai-di-kasus-dugaan-kekerasan-seksual-brimob-polda-ntb/",
+        "source": "SUARANTB.com",
+        "published_at": "2026-09-06T20:15:28+00:00",
+        "collected_at": "2026-09-06T21:24:47.649130+00:00",
+        "region": "LUAR JATIM",
+        "area_label": "LUAR JATIM",
+        "is_jatim": false,
+        "polres": null,
+        "category": "NEGATIF - KEJAHATAN SEKSUAL",
+        "scope": "negative",
+        "scope_label": "Negatif",
+        "priority": "low",
+        "summary": "Polisi Bantah Ada Damai di Kasus Dugaan Kekerasan Seksual Brimob Polda NTB SUARANTB.com",
+        "processing_status": "processed",
+        "classifier_version": "news-v6",
+        "classified_at": "2026-09-06T21:24:47.649130+00:00",
+        "case_id": "CASE-000943",
+        "discovery_families": [
+          "ethics_personal_misconduct"
+        ],
+        "discovery_tags": [
+          "ethics",
+          "sexual_misconduct",
+          "violence"
+        ],
+        "discovery_hits": [
+          "kekerasan seksual"
+        ],
+        "discovery_version": "discovery-v6.5.4",
+        "google_news_url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOc0FTWU43QmJUVmhTb1MzN3pYaXhYaFBqanlVVkxWMGJTd09CbTgtMXA2YmpuRUJwZUdKVENzdWtCelRyQW1ESk12Qk81RnczTE9kdVZIUnFsNVN0WXV0U3BMMzkyQjk1LUsxYXFDb0x1RWdNM0M4OGdvUmFRVzcwcllvSU13VkJObnA5YVVyZEhFdlRFcXZKOUswZUtyTTdtQUM0UUxsMzlMV2M?oc=5",
+        "original_url": "https://suarantb.com/2026/09/07/polisi-bantah-ada-damai-di-kasus-dugaan-kekerasan-seksual-brimob-polda-ntb/",
+        "locality": "",
+        "polsek": null,
+        "location_confidence": 100,
+        "location_evidence": [
+          "ntb"
+        ],
+        "location_status": "LUAR_JATIM",
+        "location_source": "title",
+        "issue_type": "KEJAHATAN_SEKSUAL",
+        "issue_subtype": "Kejahatan Seksual",
+        "issue_evidence": [
+          "kekerasan seksual"
+        ],
+        "handling_status": "BELUM_ADA_INFORMASI",
+        "handling_evidence": [],
+        "attention_score": 39,
+        "attention_label": "Rendah",
+        "attention_components": {
+          "severity": 26,
+          "polri_relation": 0,
+          "authority": 0,
+          "public_impact": 10,
+          "handling": 0,
+          "evidence": 1,
+          "context_risk": 0,
+          "routine_enforcement_cap": null
+        },
+        "attention_evidence": {
+          "severity": [
+            "kekerasan berat"
+          ],
+          "authority": [],
+          "public_impact": [
+            "dampak peristiwa"
+          ],
+          "evidence": [
+            "satu sumber / informasi awal"
+          ],
+          "role": [],
+          "issue": [
+            "kekerasan seksual"
+          ],
+          "handling": [],
+          "context": [],
+          "positive": []
+        },
+        "case_engine_version": "case-v6.5.4",
+        "case_processed_at": "2026-09-06T21:42:52.259586+00:00"
+      },
+      {
+        "id": "2716c71d56966045d6bfa2752488c239c563c0fc",
+        "title": "Polri Perkuat Kesiapsiagaan Pasukan Hadapi Dampak Aktivitas Gunung Api - polreskedirikota.com",
+        "url": "https://polreskedirikota.com/polri-perkuat-kesiapsiagaan-pasukan-hadapi-dampak-aktivitas-gunung-api/",
+        "source": "polreskedirikota.com",
+        "published_at": "2026-09-06T19:49:56+00:00",
+        "collected_at": "2026-09-06T21:24:47.649130+00:00",
+        "region": "BELUM TERPETAKAN",
+        "area_label": "BELUM TERPETAKAN",
+        "is_jatim": null,
+        "polres": null,
+        "category": "NETRAL / LAINNYA",
+        "scope": "neutral",
+        "scope_label": "Netral",
+        "priority": "low",
+        "summary": "Polri Perkuat Kesiapsiagaan Pasukan Hadapi Dampak Aktivitas Gunung Api polreskedirikota.com",
+        "processing_status": "processed",
+        "classifier_version": "news-v6",
+        "classified_at": "2026-09-06T21:24:47.649130+00:00",
+        "case_id": null,
+        "discovery_families": [],
+        "discovery_tags": [],
+        "discovery_hits": [],
+        "discovery_version": "discovery-v6.5.4",
+        "google_news_url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOdjkyWXlFVUQtOE9Ia1hTd25LQjhkbjlOMVB0c3RZa3NVcFY4R1NFOHZyQmZ4dHFKRS1ZN1gzSEo4SU9DaU9fcW04M0VCLTgxVVk4WFIzX0dxQjlkSmxDQVIwVXhEVjJIbndnd3AwY0xBYlByZVg1OWNhTmpmbWxhUlhRY0NYQ2x4VXpnaENMcEtvMXBIbE9DZzRWbTNkOVZGWmc?oc=5",
+        "original_url": "https://polreskedirikota.com/polri-perkuat-kesiapsiagaan-pasukan-hadapi-dampak-aktivitas-gunung-api/",
+        "locality": "",
+        "polsek": null,
+        "location_confidence": 0,
+        "location_evidence": [],
+        "location_status": "BELUM_TERPETAKAN",
+        "location_source": "title",
+        "issue_type": "UMUM",
+        "issue_subtype": "Belum Teridentifikasi",
+        "issue_evidence": [],
+        "handling_status": "BELUM_ADA_INFORMASI",
+        "handling_evidence": [],
+        "attention_score": 7,
+        "attention_label": "Rendah",
+        "attention_components": {
+          "severity": 2,
+          "polri_relation": 0,
+          "authority": 0,
+          "public_impact": 4,
+          "handling": 0,
+          "evidence": 1,
+          "context_risk": 0,
+          "routine_enforcement_cap": null
+        },
+        "attention_evidence": {
+          "severity": [],
+          "authority": [],
+          "public_impact": [],
+          "evidence": [
+            "satu sumber / informasi awal"
+          ],
+          "role": [],
+          "issue": [],
+          "handling": [],
+          "context": [],
+          "positive": []
+        },
+        "case_engine_version": "case-v6.5.4",
+        "case_processed_at": "2026-09-06T21:31:14.385021+00:00"
+      },
       {
         "id": "d980f2b7d4e1245a96b9c365f50ab7307fe55a22",
         "title": "Polisi selidiki dugaan penipuan bermodus tawaran konten TikTok - ANTARA News Bengkulu",
@@ -907,7 +1205,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-09-06T19:20:29.733280+00:00"
+        "case_processed_at": "2026-09-06T21:31:14.711519+00:00"
       },
       {
         "id": "2af2bce2e255c15726fde3d8fa4dc4ef9f831b17",
@@ -976,7 +1274,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-09-06T19:31:55.473381+00:00"
+        "case_processed_at": "2026-09-06T21:42:52.259593+00:00"
       },
       {
         "id": "32b6ea6e1cfc089d76788c46e14201e6e80ddb06",
@@ -1041,7 +1339,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-09-06T19:20:30.124711+00:00"
+        "case_processed_at": "2026-09-06T21:31:15.149794+00:00"
       },
       {
         "id": "ed2f27d122815a8a577eba0e4af92eb2e77ec332",
@@ -1111,7 +1409,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-09-06T19:20:30.872644+00:00"
+        "case_processed_at": "2026-09-06T21:31:15.887103+00:00"
       },
       {
         "id": "9dfb8ed819a4523641ec039c61ac64add4935376",
@@ -1178,7 +1476,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-09-06T19:20:31.839797+00:00"
+        "case_processed_at": "2026-09-06T21:31:16.866436+00:00"
       },
       {
         "id": "fbd7598380c14295886a8fbaa1bb177155988334",
@@ -1247,19 +1545,20 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-09-06T19:31:55.473389+00:00"
+        "case_processed_at": "2026-09-06T21:42:52.259599+00:00"
       }
     ]
   },
   "cases": {
-    "active": 2,
+    "active": 3,
     "priority_high": 0,
     "jatim": 0,
     "jatim_priority_high": 0,
-    "articles": 3,
+    "articles": 4,
     "case_ids": [
       "CASE-000378",
-      "CASE-000942"
+      "CASE-000942",
+      "CASE-000943"
     ],
     "items": [
       {
@@ -1383,7 +1682,7 @@
         ],
         "article_count": 2,
         "created_at": "2026-08-31T08:00:14.988817+00:00",
-        "updated_at": "2026-09-06T19:31:53.403390+00:00",
+        "updated_at": "2026-09-06T21:42:50.152859+00:00",
         "engine_version": "case-v6.5.4",
         "priority_score": 22,
         "priority_breakdown": {
@@ -1487,7 +1786,7 @@
         ],
         "article_count": 1,
         "created_at": "2026-09-06T17:21:02.378817+00:00",
-        "updated_at": "2026-09-06T19:31:55.472776+00:00",
+        "updated_at": "2026-09-06T21:42:52.255645+00:00",
         "engine_version": "case-v6.5.4",
         "priority_score": 38,
         "priority_breakdown": {
@@ -1516,47 +1815,215 @@
             "polisi + dugaan"
           ]
         }
+      },
+      {
+        "case_id": "CASE-000943",
+        "title": "Polisi Bantah Ada Damai di Kasus Dugaan Kekerasan Seksual Brimob Polda NTB - SUARANTB.com",
+        "category": "NEGATIF - KEJAHATAN SEKSUAL",
+        "scope": "negative",
+        "region": "LUAR JATIM",
+        "locality": "",
+        "is_jatim": false,
+        "polres": null,
+        "polsek": null,
+        "priority": "low",
+        "attention_score": 38,
+        "attention_label": "Rendah",
+        "signature": "LUAR JATIM",
+        "incident_terms": [
+          "ada",
+          "bantah",
+          "brimob",
+          "com",
+          "damai",
+          "dugaan",
+          "kekerasan",
+          "ntb",
+          "polda",
+          "seksual",
+          "suarantb"
+        ],
+        "event_terms": [
+          "kekerasan",
+          "seksual"
+        ],
+        "location_terms": [],
+        "discovery_families": [
+          "ethics_personal_misconduct"
+        ],
+        "first_seen": "2026-09-06T20:15:28+00:00",
+        "last_seen": "2026-09-06T21:24:47.649130+00:00",
+        "last_detected_at": "2026-09-06T21:24:47.649130+00:00",
+        "article_ids": [
+          "76b23b628993db71db5b3ef0e6b307b01a201c65"
+        ],
+        "articles": [
+          {
+            "id": "76b23b628993db71db5b3ef0e6b307b01a201c65",
+            "title": "Polisi Bantah Ada Damai di Kasus Dugaan Kekerasan Seksual Brimob Polda NTB - SUARANTB.com",
+            "url": "https://suarantb.com/2026/09/07/polisi-bantah-ada-damai-di-kasus-dugaan-kekerasan-seksual-brimob-polda-ntb/",
+            "published_at": "2026-09-06T20:15:28+00:00",
+            "collected_at": "2026-09-06T21:24:47.649130+00:00",
+            "source": "SUARANTB.com",
+            "match_score": 1.0,
+            "priority": "low",
+            "scope": "negative",
+            "category": "NEGATIF - KEJAHATAN SEKSUAL",
+            "region": "LUAR JATIM",
+            "locality": "",
+            "is_jatim": false,
+            "polres": null,
+            "polsek": null,
+            "issue_type": "KEJAHATAN_SEKSUAL",
+            "issue_subtype": "Kejahatan Seksual",
+            "handling_status": "BELUM_ADA_INFORMASI",
+            "handling_evidence": [],
+            "polri_relation": null,
+            "polri_relation_points": 0,
+            "polri_relation_evidence": [],
+            "attention_score": 39,
+            "attention_label": "Rendah",
+            "attention_components": {
+              "severity": 26,
+              "polri_relation": 0,
+              "authority": 0,
+              "public_impact": 10,
+              "handling": 0,
+              "evidence": 1,
+              "context_risk": 0,
+              "routine_enforcement_cap": null
+            }
+          }
+        ],
+        "article_count": 1,
+        "created_at": "2026-09-06T21:40:42.123285+00:00",
+        "updated_at": "2026-09-06T21:42:52.258901+00:00",
+        "engine_version": "case-v6.5.4",
+        "priority_score": 38,
+        "priority_breakdown": {
+          "severity": 26,
+          "polri_relation": 0,
+          "authority_context": 0,
+          "public_impact": 10,
+          "handling": 0,
+          "evidence": 1,
+          "spread": 0,
+          "escalation": 0,
+          "current_activity": 1,
+          "context_risk": 0
+        },
+        "priority_evidence": {
+          "unique_sources": 1,
+          "active_today_articles": 1,
+          "escalation": [],
+          "issue_type": "KEJAHATAN_SEKSUAL",
+          "issue_subtype": "Kejahatan Seksual",
+          "sentiment": "negative",
+          "polri_relation": "INFORMASI_UMUM",
+          "handling_status": "BELUM_ADA_INFORMASI",
+          "reasons": [
+            "sifat berita: negatif",
+            "sifat berita: negatif",
+            "Kejahatan Seksual",
+            "Hubungan Polri belum spesifik"
+          ]
+        }
       }
     ],
     "jatim_items": []
   },
   "social": {
-    "detected": 37,
-    "jatim": 0,
-    "negative": 16,
-    "priority_high": 1,
+    "detected": 92,
+    "jatim": 2,
+    "negative": 46,
+    "priority_high": 17,
     "video_ids": [
+      "iPA_Y8bUMnk",
+      "P3q9uM77new",
+      "fVj0g6d_nq0",
+      "j_tqnTRfzkM",
+      "HlIb8xMfCL0",
+      "DkIni0740Zg",
+      "LoTrlSLr0Mg",
       "SpQpng_DgJA",
+      "n9gLCZxfZu4",
       "XdCCl022u3U",
       "X3VOk-IAF-A",
+      "OvKO-R_Sgpc",
       "eDCbrgb-cgQ",
+      "Tso-YzHvGz0",
+      "i8n8S2TcCuc",
+      "x5BUm5Fd8h8",
+      "dK1wnCqvnVI",
+      "KUGf0VSo0Tc",
+      "fYa-5MMFfho",
+      "8tnkBV8PJbo",
       "6U2u5NmceEs",
       "kIfu_c1bA5I",
       "fEF4R44S5Ds",
+      "j6jr3CQ0onU",
+      "glMWvWcGjRU",
+      "GZevu9yzSyo",
       "YuVhEcSnF10",
       "MDb87GYGllo",
       "Goyn8sxr2Rw",
+      "AJJEiOSDSe4",
+      "m8t6CawgzGk",
       "S1f5Yctri20",
+      "bkLGp27VGS8",
       "oxUHhE-uXQA",
+      "q61b96RWSB8",
       "pCD1vLbi1fw",
       "I-56SXzHTMc",
+      "i-QbBXYVYT4",
+      "GP66Wh6d5UE",
       "J_8c3Zv4oBM",
+      "NUII0f1fieQ",
       "eSl9FpEG7VQ",
+      "-oXf8zWoOhI",
+      "8YH8dqZpUDM",
       "K1hKtqX1YV8",
+      "KuUx6lzsFMo",
+      "dzuNYYWssmQ",
+      "6fanfXSEyMY",
+      "OfEpnC6WU8A",
+      "8CZUDuC7mQg",
+      "_mQyDeQgjnk",
+      "Cnd0p4M7oTw",
+      "y6LRj_gsA5s",
       "f9aCRrWd6Dg",
+      "dIHRQ8zKjyo",
+      "HZfwKln90qw",
+      "1nqnJJBIoaM",
       "HK-ZrhfWw20",
+      "cbkgId_bh1Y",
       "lLaulFvtieo",
       "pgPcGd_Wfv8",
       "1IhnjIDLnXY",
       "ufsRwKOvwaA",
+      "WgN9B5_aIFs",
+      "GWYXL4_ScOU",
+      "yHxQbDEz2qM",
+      "nYU7XRhgdys",
       "OYkBpnkNJiI",
+      "xSvka_Al1dw",
+      "iVr-NH5XnT4",
+      "GGFfdNXKsTI",
       "cfXGP3maWAw",
       "APQtrnQlkIQ",
+      "xc3QZRemY9w",
+      "nhoU3Qrt07Y",
+      "WtwDBklJvKY",
+      "gKloB10jPb4",
       "5pcj1jdqRGg",
       "iJcKnSZ1U68",
       "TcGAdwYuwXE",
       "a29qIjogGZQ",
       "FxC3N0asecY",
+      "REQfA-Ya47s",
+      "0YA3elIXm7c",
+      "upq37XZDjUE",
+      "0grW8VpIQEs",
       "dhFDFktFplA",
       "lMRAbYP9nHA",
       "KMT-GWYu9_I",
@@ -1574,7 +2041,7 @@
     "case_today": 0,
     "case_high_active": 0,
     "article_high_today": 0,
-    "outside_jatim_today": 6
+    "outside_jatim_today": 8
   },
   "regions": [
     {
@@ -1607,9 +2074,9 @@
     }
   ],
   "summary": {
-    "news_today": 9,
-    "negative_today": 2,
-    "cases_today": 2,
+    "news_today": 11,
+    "negative_today": 3,
+    "cases_today": 3,
     "priority_high": 0,
     "article_priority_high": 0,
     "jatim_news": 3,
@@ -1619,7 +2086,7 @@
     "jatim_neutral": 3,
     "jatim_cases_today": 0,
     "jatim_case_high_active": 0,
-    "luar_jatim_news": 6,
-    "youtube_today": 37
+    "luar_jatim_news": 8,
+    "youtube_today": 92
   }
 }
