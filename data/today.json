@@ -2,18 +2,22 @@
   "schema_version": "today-v3",
   "date": "2026-09-07",
   "timezone": "Asia/Jakarta",
-  "updated_at": "2026-09-07T04:42:53.696842+07:00",
-  "last_successful_update": "2026-09-07T04:42:53.696842+07:00",
+  "updated_at": "2026-09-07T07:14:34.945855+07:00",
+  "last_successful_update": "2026-09-07T07:14:34.945855+07:00",
   "news": {
-    "detected": 11,
-    "negative": 3,
+    "detected": 15,
+    "negative": 6,
     "positive": 0,
     "case": 0,
-    "neutral": 8,
-    "jatim": 3,
-    "luar_jatim": 8,
+    "neutral": 9,
+    "jatim": 4,
+    "luar_jatim": 11,
     "priority_high": 0,
     "article_ids": [
+      "ec585d4d15527b5bf16e8b199824d94a9becea35",
+      "818923c9d8daeff0be89163c18bd44d7e1aaa32e",
+      "d4dee4cfa6d32b61b362d1a15e92e9494b424549",
+      "9cd67bb542fdbaaf59873168a214bbdc4a851243",
       "76b23b628993db71db5b3ef0e6b307b01a201c65",
       "2716c71d56966045d6bfa2752488c239c563c0fc",
       "d980f2b7d4e1245a96b9c365f50ab7307fe55a22",
@@ -28,6 +32,289 @@
     ],
     "items": [
       {
+        "id": "ec585d4d15527b5bf16e8b199824d94a9becea35",
+        "title": "Wanita Kepling di Medan Ini Ditangkap Polisi terkait Narkoba - JPNN.com",
+        "url": "https://m.jpnn.com/news/wanita-kepling-di-medan-ini-ditangkap-polisi-terkait-narkoba",
+        "source": "JPNN.com",
+        "published_at": "2026-09-06T23:30:00+00:00",
+        "collected_at": "2026-09-06T23:57:09.680947+00:00",
+        "region": "BELUM TERPETAKAN",
+        "area_label": "BELUM TERPETAKAN",
+        "is_jatim": null,
+        "polres": null,
+        "category": "NEGATIF - NARKOBA / NARKOTIKA",
+        "scope": "negative",
+        "scope_label": "Negatif",
+        "priority": "low",
+        "summary": "Wanita Kepling di Medan Ini Ditangkap Polisi terkait Narkoba JPNN.com",
+        "processing_status": "processed",
+        "classifier_version": "news-v6",
+        "classified_at": "2026-09-06T23:57:09.680947+00:00",
+        "case_id": "CASE-000257",
+        "discovery_families": [],
+        "discovery_tags": [],
+        "discovery_hits": [],
+        "discovery_version": "discovery-v6.5.4",
+        "google_news_url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNRWk0dW1sWWxicUxZNUZLcldkWmhJWXZLN282NkpnUV9meW1GN0tXYTNlQnR6cC1qN3o4dVR2Q3lzMzlSRGxhWkZNNWMtRTdzendqSGVTdTNpblV2V2d4Y1hmQmhZanpWT3pfQm1fTnpRV01Mb2FReERuaGViUnJ3clRtTk50a2Vmc1V6d9IBkgFBVV95cUxNQ3A0NHRHaVFZWC1hZThORFJlajlEQjNLR1o2TVVpNER5M0JFdVNaSnFHZTk0X0pjV2VxY0NvV3FzQ0xNaXJTOTFYT1p1dU9IaUZsQlhTeFJfRkl5MlNRc1Zha2NKcWU1SnU5X2tHSUw5dEtNVkx0djc0X0hDSVl6WERCRFY0czdJMElSWUx0Znd5QQ?oc=5",
+        "original_url": "https://m.jpnn.com/news/wanita-kepling-di-medan-ini-ditangkap-polisi-terkait-narkoba",
+        "locality": "",
+        "polsek": null,
+        "location_confidence": 0,
+        "location_evidence": [],
+        "location_status": "BELUM_TERPETAKAN",
+        "location_source": "title",
+        "issue_type": "NARKOBA",
+        "issue_subtype": "Narkoba / Narkotika",
+        "issue_evidence": [
+          "narkoba"
+        ],
+        "handling_status": "BELUM_ADA_INFORMASI",
+        "handling_evidence": [],
+        "attention_score": 16,
+        "attention_label": "Rendah",
+        "attention_components": {
+          "severity": 11,
+          "polri_relation": 0,
+          "authority": 0,
+          "public_impact": 4,
+          "handling": 0,
+          "evidence": 1,
+          "context_risk": 0,
+          "routine_enforcement_cap": null
+        },
+        "attention_evidence": {
+          "severity": [],
+          "authority": [],
+          "public_impact": [],
+          "evidence": [
+            "satu sumber / informasi awal"
+          ],
+          "role": [],
+          "issue": [
+            "narkoba"
+          ],
+          "handling": [],
+          "context": [],
+          "positive": []
+        },
+        "case_engine_version": "case-v6.5.4",
+        "case_processed_at": "2026-09-07T00:14:33.807486+00:00"
+      },
+      {
+        "id": "818923c9d8daeff0be89163c18bd44d7e1aaa32e",
+        "title": "Penegasan Polisi Usut Ketua DPRD Bone Diduga Aniaya Staf Meski Mangkir Panggilan - detikcom",
+        "url": "https://www.detik.com/sulsel/watampone/d-8651477/penegasan-polisi-usut-ketua-dprd-bone-diduga-aniaya-staf-meski-mangkir-panggilan",
+        "source": "detikcom",
+        "published_at": "2026-09-06T22:45:44+00:00",
+        "collected_at": "2026-09-06T23:57:09.680947+00:00",
+        "region": "BELUM TERPETAKAN",
+        "area_label": "BELUM TERPETAKAN",
+        "is_jatim": null,
+        "polres": null,
+        "category": "NEGATIF - BELUM TERIDENTIFIKASI",
+        "scope": "negative",
+        "scope_label": "Negatif",
+        "priority": "low",
+        "summary": "Penegasan Polisi Usut Ketua DPRD Bone Diduga Aniaya Staf Meski Mangkir Panggilan detikcom",
+        "processing_status": "processed",
+        "classifier_version": "news-v6",
+        "classified_at": "2026-09-06T23:57:09.680947+00:00",
+        "case_id": "CASE-000944",
+        "discovery_families": [],
+        "discovery_tags": [],
+        "discovery_hits": [],
+        "discovery_version": "discovery-v6.5.4",
+        "google_news_url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNR1ZOUUZuak83N1llUmVUUXU5N2pMRklhQVU1eXliZF94T3V2Q0xMWHV1OG1jZVVtLXdCT1I0TUVweTFKTFZKR2NDVDlncWZUSmdCb2tsMTZiS2tsQTlCNHkzSUhZNGxLRkdjcnZLZjJsQUdiNDFpQ1doXzlORkRtbWxaekVPME9RaTllYmI1NDUwXzJqbkk0VWNuS2RjNXp3RFgzYTQ0OWMzT19VYXVNZUZ1a1cyZjZZWmw1b2NPTHhKU0Rzd0JHZNIBzgFBVV95cUxQSEdPcncxY2NGNHlMU1UtUVhVaWludWtRNnA3YmNTRVFaU0c3YS1VUnJKTUJLMThJS2drSHVQVkJRT2RVLVl6X2RETEI0ZWIwLVA2UEVWbW11eW53eVNDTnNWcWJBY1JncFA3UmFyTmczVU9qMzdxeUJuX2V2N1pzX0NCSjd4emhFdHdCZW83bkkzLXNBX0VETDFqeDBJeUVzbnJmQjh1ZTBlVWRzM2pZYUlZOENOcHpTVnptd3N5SDlWenZ6VXozLTlGNkxFUQ?oc=5",
+        "original_url": "https://www.detik.com/sulsel/watampone/d-8651477/penegasan-polisi-usut-ketua-dprd-bone-diduga-aniaya-staf-meski-mangkir-panggilan",
+        "locality": "",
+        "polsek": null,
+        "location_confidence": 0,
+        "location_evidence": [],
+        "location_status": "BELUM_TERPETAKAN",
+        "location_source": "title",
+        "issue_type": "UMUM",
+        "issue_subtype": "Belum Teridentifikasi",
+        "issue_evidence": [],
+        "handling_status": "BELUM_ADA_INFORMASI",
+        "handling_evidence": [],
+        "attention_score": 29,
+        "attention_label": "Rendah",
+        "attention_components": {
+          "severity": 2,
+          "polri_relation": 16,
+          "authority": 0,
+          "public_impact": 10,
+          "handling": 0,
+          "evidence": 1,
+          "context_risk": 0,
+          "routine_enforcement_cap": null
+        },
+        "attention_evidence": {
+          "severity": [],
+          "authority": [],
+          "public_impact": [
+            "dampak institusional"
+          ],
+          "evidence": [
+            "satu sumber / informasi awal"
+          ],
+          "role": [
+            "Polri/personel menjadi subjek permasalahan"
+          ],
+          "issue": [],
+          "handling": [],
+          "context": [],
+          "positive": []
+        },
+        "case_engine_version": "case-v6.5.4",
+        "case_processed_at": "2026-09-07T00:14:33.807493+00:00"
+      },
+      {
+        "id": "d4dee4cfa6d32b61b362d1a15e92e9494b424549",
+        "title": "Polsek Sampang Kota Intensifkan Patroli Dini Hari - RRI.co.id",
+        "url": "https://rri.co.id/sampang/regional/2711171/polsek-sampang-kota-intensifkan-patroli-dini-hari",
+        "source": "RRI.co.id",
+        "published_at": "2026-09-06T22:40:00+00:00",
+        "collected_at": "2026-09-06T23:57:09.680947+00:00",
+        "region": "Jawa Timur",
+        "area_label": "Sampang",
+        "is_jatim": true,
+        "polres": null,
+        "category": "NETRAL / LAINNYA",
+        "scope": "neutral",
+        "scope_label": "Netral",
+        "priority": "low",
+        "summary": "Polsek Sampang Kota Intensifkan Patroli Dini Hari RRI.co.id",
+        "processing_status": "processed",
+        "classifier_version": "news-v6",
+        "classified_at": "2026-09-06T23:57:09.680947+00:00",
+        "case_id": null,
+        "discovery_families": [],
+        "discovery_tags": [],
+        "discovery_hits": [],
+        "discovery_version": "discovery-v6.5.4",
+        "google_news_url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQOGlTVFZ3YndEd3hUREd3MGVfMjl1TXN6MC1XYjVKMzl2dUthOGIxeDA1b0FGcUoteW1qcktZREpzLUJCRmRZZzNPMDRHUk5KaG1PMTg4TE9taFRjRGFLR3FicTdtSGdWUHhRdW9HU1N2X2xvaVhmN0NDNEthS1FoaENrWFVlV0VMdGxhYXpReTltMlJtZDdR?oc=5",
+        "original_url": "https://rri.co.id/sampang/regional/2711171/polsek-sampang-kota-intensifkan-patroli-dini-hari",
+        "locality": "Sampang",
+        "polsek": "POLSEK SAMPANG KOTA INTENSIFKAN",
+        "location_confidence": 95,
+        "location_evidence": [
+          "POLSEK SAMPANG KOTA INTENSIFKAN",
+          "Sampang"
+        ],
+        "location_status": "JAWA_TIMUR",
+        "location_source": "title",
+        "issue_type": "UMUM",
+        "issue_subtype": "Belum Teridentifikasi",
+        "issue_evidence": [],
+        "handling_status": "BELUM_ADA_INFORMASI",
+        "handling_evidence": [],
+        "attention_score": 7,
+        "attention_label": "Rendah",
+        "attention_components": {
+          "severity": 2,
+          "polri_relation": 0,
+          "authority": 0,
+          "public_impact": 4,
+          "handling": 0,
+          "evidence": 1,
+          "context_risk": 0,
+          "routine_enforcement_cap": null
+        },
+        "attention_evidence": {
+          "severity": [],
+          "authority": [],
+          "public_impact": [],
+          "evidence": [
+            "satu sumber / informasi awal"
+          ],
+          "role": [],
+          "issue": [],
+          "handling": [],
+          "context": [],
+          "positive": []
+        },
+        "case_engine_version": "case-v6.5.4",
+        "case_processed_at": "2026-09-07T00:03:49.971948+00:00"
+      },
+      {
+        "id": "9cd67bb542fdbaaf59873168a214bbdc4a851243",
+        "title": "Polisi Makassar tangkap empat anak di bawah umur diduga geng motor - ANTARA News Makassar",
+        "url": "https://makassar.antaranews.com/berita/637532/polisi-makassar-tangkap-empat-anak-di-bawah-umur-diduga-geng-motor",
+        "source": "ANTARA News Makassar",
+        "published_at": "2026-09-06T21:29:24+00:00",
+        "collected_at": "2026-09-06T23:57:09.680947+00:00",
+        "region": "BELUM TERPETAKAN",
+        "area_label": "BELUM TERPETAKAN",
+        "is_jatim": null,
+        "polres": null,
+        "category": "NEGATIF - BELUM TERIDENTIFIKASI",
+        "scope": "negative",
+        "scope_label": "Negatif",
+        "priority": "low",
+        "summary": "Polisi Makassar tangkap empat anak di bawah umur diduga geng motor ANTARA News Makassar",
+        "processing_status": "processed",
+        "classifier_version": "news-v6",
+        "classified_at": "2026-09-06T23:57:09.680947+00:00",
+        "case_id": "CASE-000945",
+        "discovery_families": [
+          "ethics_personal_misconduct"
+        ],
+        "discovery_tags": [
+          "ethics",
+          "sexual_misconduct",
+          "violence"
+        ],
+        "discovery_hits": [
+          "anak di bawah umur"
+        ],
+        "discovery_version": "discovery-v6.5.4",
+        "google_news_url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPTUIzN0hZbVF2WnBFbGVRRTB1ZU43bTg0c0pIVlN2TDI3MEJ0dTFyeGVzX3pNR0FzSmdTOFJ2U1ZjWUw5QVRMUER5cmMzZTFuZjFENXQxTENPaWN3cV8zaFhQQ2sxS1NkSHNwMy01c2tWMFg1UFVNWWVYZE1iRU13NmhnTjduZGM4SDRVbjdFcXg5Sm5qakMwQjRzeXNlSG9vb3RUV0hSZEY1bk9hNHJ4S1dR?oc=5",
+        "original_url": "https://makassar.antaranews.com/berita/637532/polisi-makassar-tangkap-empat-anak-di-bawah-umur-diduga-geng-motor",
+        "locality": "",
+        "polsek": null,
+        "location_confidence": 0,
+        "location_evidence": [],
+        "location_status": "BELUM_TERPETAKAN",
+        "location_source": "title",
+        "issue_type": "UMUM",
+        "issue_subtype": "Belum Teridentifikasi",
+        "issue_evidence": [],
+        "handling_status": "BELUM_ADA_INFORMASI",
+        "handling_evidence": [],
+        "attention_score": 37,
+        "attention_label": "Rendah",
+        "attention_components": {
+          "severity": 2,
+          "polri_relation": 16,
+          "authority": 0,
+          "public_impact": 18,
+          "handling": 0,
+          "evidence": 1,
+          "context_risk": 0,
+          "routine_enforcement_cap": null
+        },
+        "attention_evidence": {
+          "severity": [],
+          "authority": [],
+          "public_impact": [
+            "kelompok/korban publik rentan"
+          ],
+          "evidence": [
+            "satu sumber / informasi awal"
+          ],
+          "role": [
+            "Polri/personel menjadi subjek permasalahan"
+          ],
+          "issue": [],
+          "handling": [],
+          "context": [],
+          "positive": []
+        },
+        "case_engine_version": "case-v6.5.4",
+        "case_processed_at": "2026-09-07T00:14:33.807495+00:00"
+      },
+      {
         "id": "76b23b628993db71db5b3ef0e6b307b01a201c65",
         "title": "Polisi Bantah Ada Damai di Kasus Dugaan Kekerasan Seksual Brimob Polda NTB - SUARANTB.com",
         "url": "https://suarantb.com/2026/09/07/polisi-bantah-ada-damai-di-kasus-dugaan-kekerasan-seksual-brimob-polda-ntb/",
@@ -108,7 +395,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-09-06T21:42:52.259586+00:00"
+        "case_processed_at": "2026-09-07T00:14:33.807498+00:00"
       },
       {
         "id": "2716c71d56966045d6bfa2752488c239c563c0fc",
@@ -173,7 +460,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-09-06T21:31:14.385021+00:00"
+        "case_processed_at": "2026-09-07T00:03:50.297198+00:00"
       },
       {
         "id": "d980f2b7d4e1245a96b9c365f50ab7307fe55a22",
@@ -238,7 +525,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-09-06T21:31:14.711519+00:00"
+        "case_processed_at": "2026-09-07T00:03:50.600320+00:00"
       },
       {
         "id": "2af2bce2e255c15726fde3d8fa4dc4ef9f831b17",
@@ -307,7 +594,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-09-06T21:42:52.259593+00:00"
+        "case_processed_at": "2026-09-07T00:14:33.807502+00:00"
       },
       {
         "id": "32b6ea6e1cfc089d76788c46e14201e6e80ddb06",
@@ -372,7 +659,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-09-06T21:31:15.149794+00:00"
+        "case_processed_at": "2026-09-07T00:03:50.962156+00:00"
       },
       {
         "id": "9fceb0db2cc93133a4ced574b25eb9c3d3d9476c",
@@ -439,7 +726,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-09-06T21:31:15.538497+00:00"
+        "case_processed_at": "2026-09-07T00:03:51.323317+00:00"
       },
       {
         "id": "ed2f27d122815a8a577eba0e4af92eb2e77ec332",
@@ -509,7 +796,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-09-06T21:31:15.887103+00:00"
+        "case_processed_at": "2026-09-07T00:03:51.645855+00:00"
       },
       {
         "id": "eb1b42f780affd91cf9d59e047e3e72652c2e83d",
@@ -579,7 +866,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-09-06T21:31:16.212656+00:00"
+        "case_processed_at": "2026-09-07T00:03:51.949005+00:00"
       },
       {
         "id": "523b196ede18611ec8296b213cc5889507a6de2c",
@@ -647,7 +934,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-09-06T21:31:16.597231+00:00"
+        "case_processed_at": "2026-09-07T00:03:52.304585+00:00"
       },
       {
         "id": "9dfb8ed819a4523641ec039c61ac64add4935376",
@@ -714,7 +1001,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-09-06T21:31:16.866436+00:00"
+        "case_processed_at": "2026-09-07T00:03:52.552978+00:00"
       },
       {
         "id": "fbd7598380c14295886a8fbaa1bb177155988334",
@@ -783,11 +1070,79 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-09-06T21:42:52.259599+00:00"
+        "case_processed_at": "2026-09-07T00:14:33.807506+00:00"
       }
     ],
     "jatim_items": [
       {
+        "id": "d4dee4cfa6d32b61b362d1a15e92e9494b424549",
+        "title": "Polsek Sampang Kota Intensifkan Patroli Dini Hari - RRI.co.id",
+        "url": "https://rri.co.id/sampang/regional/2711171/polsek-sampang-kota-intensifkan-patroli-dini-hari",
+        "source": "RRI.co.id",
+        "published_at": "2026-09-06T22:40:00+00:00",
+        "collected_at": "2026-09-06T23:57:09.680947+00:00",
+        "region": "Jawa Timur",
+        "area_label": "Sampang",
+        "is_jatim": true,
+        "polres": null,
+        "category": "NETRAL / LAINNYA",
+        "scope": "neutral",
+        "scope_label": "Netral",
+        "priority": "low",
+        "summary": "Polsek Sampang Kota Intensifkan Patroli Dini Hari RRI.co.id",
+        "processing_status": "processed",
+        "classifier_version": "news-v6",
+        "classified_at": "2026-09-06T23:57:09.680947+00:00",
+        "case_id": null,
+        "discovery_families": [],
+        "discovery_tags": [],
+        "discovery_hits": [],
+        "discovery_version": "discovery-v6.5.4",
+        "google_news_url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQOGlTVFZ3YndEd3hUREd3MGVfMjl1TXN6MC1XYjVKMzl2dUthOGIxeDA1b0FGcUoteW1qcktZREpzLUJCRmRZZzNPMDRHUk5KaG1PMTg4TE9taFRjRGFLR3FicTdtSGdWUHhRdW9HU1N2X2xvaVhmN0NDNEthS1FoaENrWFVlV0VMdGxhYXpReTltMlJtZDdR?oc=5",
+        "original_url": "https://rri.co.id/sampang/regional/2711171/polsek-sampang-kota-intensifkan-patroli-dini-hari",
+        "locality": "Sampang",
+        "polsek": "POLSEK SAMPANG KOTA INTENSIFKAN",
+        "location_confidence": 95,
+        "location_evidence": [
+          "POLSEK SAMPANG KOTA INTENSIFKAN",
+          "Sampang"
+        ],
+        "location_status": "JAWA_TIMUR",
+        "location_source": "title",
+        "issue_type": "UMUM",
+        "issue_subtype": "Belum Teridentifikasi",
+        "issue_evidence": [],
+        "handling_status": "BELUM_ADA_INFORMASI",
+        "handling_evidence": [],
+        "attention_score": 7,
+        "attention_label": "Rendah",
+        "attention_components": {
+          "severity": 2,
+          "polri_relation": 0,
+          "authority": 0,
+          "public_impact": 4,
+          "handling": 0,
+          "evidence": 1,
+          "context_risk": 0,
+          "routine_enforcement_cap": null
+        },
+        "attention_evidence": {
+          "severity": [],
+          "authority": [],
+          "public_impact": [],
+          "evidence": [
+            "satu sumber / informasi awal"
+          ],
+          "role": [],
+          "issue": [],
+          "handling": [],
+          "context": [],
+          "positive": []
+        },
+        "case_engine_version": "case-v6.5.4",
+        "case_processed_at": "2026-09-07T00:03:49.971948+00:00"
+      },
+      {
         "id": "9fceb0db2cc93133a4ced574b25eb9c3d3d9476c",
         "title": "Urai Macet Ketapang, Dirlantas Polda Jatim Siagakan 60 Personel di Sepanjang Jalur Terdampak - Kabar Banyuwangi",
         "url": "https://kabarbanyuwangi.co.id/urai-macet-ketapang-dirlantas-polda-jatim-siagakan-60-personel-di-sepanjang-jalur-terdampak",
@@ -852,7 +1207,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-09-06T21:31:15.538497+00:00"
+        "case_processed_at": "2026-09-07T00:03:51.323317+00:00"
       },
       {
         "id": "eb1b42f780affd91cf9d59e047e3e72652c2e83d",
@@ -922,7 +1277,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-09-06T21:31:16.212656+00:00"
+        "case_processed_at": "2026-09-07T00:03:51.949005+00:00"
       },
       {
         "id": "523b196ede18611ec8296b213cc5889507a6de2c",
@@ -990,10 +1345,225 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-09-06T21:31:16.597231+00:00"
+        "case_processed_at": "2026-09-07T00:03:52.304585+00:00"
       }
     ],
     "luar_jatim_items": [
+      {
+        "id": "ec585d4d15527b5bf16e8b199824d94a9becea35",
+        "title": "Wanita Kepling di Medan Ini Ditangkap Polisi terkait Narkoba - JPNN.com",
+        "url": "https://m.jpnn.com/news/wanita-kepling-di-medan-ini-ditangkap-polisi-terkait-narkoba",
+        "source": "JPNN.com",
+        "published_at": "2026-09-06T23:30:00+00:00",
+        "collected_at": "2026-09-06T23:57:09.680947+00:00",
+        "region": "BELUM TERPETAKAN",
+        "area_label": "BELUM TERPETAKAN",
+        "is_jatim": null,
+        "polres": null,
+        "category": "NEGATIF - NARKOBA / NARKOTIKA",
+        "scope": "negative",
+        "scope_label": "Negatif",
+        "priority": "low",
+        "summary": "Wanita Kepling di Medan Ini Ditangkap Polisi terkait Narkoba JPNN.com",
+        "processing_status": "processed",
+        "classifier_version": "news-v6",
+        "classified_at": "2026-09-06T23:57:09.680947+00:00",
+        "case_id": "CASE-000257",
+        "discovery_families": [],
+        "discovery_tags": [],
+        "discovery_hits": [],
+        "discovery_version": "discovery-v6.5.4",
+        "google_news_url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNRWk0dW1sWWxicUxZNUZLcldkWmhJWXZLN282NkpnUV9meW1GN0tXYTNlQnR6cC1qN3o4dVR2Q3lzMzlSRGxhWkZNNWMtRTdzendqSGVTdTNpblV2V2d4Y1hmQmhZanpWT3pfQm1fTnpRV01Mb2FReERuaGViUnJ3clRtTk50a2Vmc1V6d9IBkgFBVV95cUxNQ3A0NHRHaVFZWC1hZThORFJlajlEQjNLR1o2TVVpNER5M0JFdVNaSnFHZTk0X0pjV2VxY0NvV3FzQ0xNaXJTOTFYT1p1dU9IaUZsQlhTeFJfRkl5MlNRc1Zha2NKcWU1SnU5X2tHSUw5dEtNVkx0djc0X0hDSVl6WERCRFY0czdJMElSWUx0Znd5QQ?oc=5",
+        "original_url": "https://m.jpnn.com/news/wanita-kepling-di-medan-ini-ditangkap-polisi-terkait-narkoba",
+        "locality": "",
+        "polsek": null,
+        "location_confidence": 0,
+        "location_evidence": [],
+        "location_status": "BELUM_TERPETAKAN",
+        "location_source": "title",
+        "issue_type": "NARKOBA",
+        "issue_subtype": "Narkoba / Narkotika",
+        "issue_evidence": [
+          "narkoba"
+        ],
+        "handling_status": "BELUM_ADA_INFORMASI",
+        "handling_evidence": [],
+        "attention_score": 16,
+        "attention_label": "Rendah",
+        "attention_components": {
+          "severity": 11,
+          "polri_relation": 0,
+          "authority": 0,
+          "public_impact": 4,
+          "handling": 0,
+          "evidence": 1,
+          "context_risk": 0,
+          "routine_enforcement_cap": null
+        },
+        "attention_evidence": {
+          "severity": [],
+          "authority": [],
+          "public_impact": [],
+          "evidence": [
+            "satu sumber / informasi awal"
+          ],
+          "role": [],
+          "issue": [
+            "narkoba"
+          ],
+          "handling": [],
+          "context": [],
+          "positive": []
+        },
+        "case_engine_version": "case-v6.5.4",
+        "case_processed_at": "2026-09-07T00:14:33.807486+00:00"
+      },
+      {
+        "id": "818923c9d8daeff0be89163c18bd44d7e1aaa32e",
+        "title": "Penegasan Polisi Usut Ketua DPRD Bone Diduga Aniaya Staf Meski Mangkir Panggilan - detikcom",
+        "url": "https://www.detik.com/sulsel/watampone/d-8651477/penegasan-polisi-usut-ketua-dprd-bone-diduga-aniaya-staf-meski-mangkir-panggilan",
+        "source": "detikcom",
+        "published_at": "2026-09-06T22:45:44+00:00",
+        "collected_at": "2026-09-06T23:57:09.680947+00:00",
+        "region": "BELUM TERPETAKAN",
+        "area_label": "BELUM TERPETAKAN",
+        "is_jatim": null,
+        "polres": null,
+        "category": "NEGATIF - BELUM TERIDENTIFIKASI",
+        "scope": "negative",
+        "scope_label": "Negatif",
+        "priority": "low",
+        "summary": "Penegasan Polisi Usut Ketua DPRD Bone Diduga Aniaya Staf Meski Mangkir Panggilan detikcom",
+        "processing_status": "processed",
+        "classifier_version": "news-v6",
+        "classified_at": "2026-09-06T23:57:09.680947+00:00",
+        "case_id": "CASE-000944",
+        "discovery_families": [],
+        "discovery_tags": [],
+        "discovery_hits": [],
+        "discovery_version": "discovery-v6.5.4",
+        "google_news_url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNR1ZOUUZuak83N1llUmVUUXU5N2pMRklhQVU1eXliZF94T3V2Q0xMWHV1OG1jZVVtLXdCT1I0TUVweTFKTFZKR2NDVDlncWZUSmdCb2tsMTZiS2tsQTlCNHkzSUhZNGxLRkdjcnZLZjJsQUdiNDFpQ1doXzlORkRtbWxaekVPME9RaTllYmI1NDUwXzJqbkk0VWNuS2RjNXp3RFgzYTQ0OWMzT19VYXVNZUZ1a1cyZjZZWmw1b2NPTHhKU0Rzd0JHZNIBzgFBVV95cUxQSEdPcncxY2NGNHlMU1UtUVhVaWludWtRNnA3YmNTRVFaU0c3YS1VUnJKTUJLMThJS2drSHVQVkJRT2RVLVl6X2RETEI0ZWIwLVA2UEVWbW11eW53eVNDTnNWcWJBY1JncFA3UmFyTmczVU9qMzdxeUJuX2V2N1pzX0NCSjd4emhFdHdCZW83bkkzLXNBX0VETDFqeDBJeUVzbnJmQjh1ZTBlVWRzM2pZYUlZOENOcHpTVnptd3N5SDlWenZ6VXozLTlGNkxFUQ?oc=5",
+        "original_url": "https://www.detik.com/sulsel/watampone/d-8651477/penegasan-polisi-usut-ketua-dprd-bone-diduga-aniaya-staf-meski-mangkir-panggilan",
+        "locality": "",
+        "polsek": null,
+        "location_confidence": 0,
+        "location_evidence": [],
+        "location_status": "BELUM_TERPETAKAN",
+        "location_source": "title",
+        "issue_type": "UMUM",
+        "issue_subtype": "Belum Teridentifikasi",
+        "issue_evidence": [],
+        "handling_status": "BELUM_ADA_INFORMASI",
+        "handling_evidence": [],
+        "attention_score": 29,
+        "attention_label": "Rendah",
+        "attention_components": {
+          "severity": 2,
+          "polri_relation": 16,
+          "authority": 0,
+          "public_impact": 10,
+          "handling": 0,
+          "evidence": 1,
+          "context_risk": 0,
+          "routine_enforcement_cap": null
+        },
+        "attention_evidence": {
+          "severity": [],
+          "authority": [],
+          "public_impact": [
+            "dampak institusional"
+          ],
+          "evidence": [
+            "satu sumber / informasi awal"
+          ],
+          "role": [
+            "Polri/personel menjadi subjek permasalahan"
+          ],
+          "issue": [],
+          "handling": [],
+          "context": [],
+          "positive": []
+        },
+        "case_engine_version": "case-v6.5.4",
+        "case_processed_at": "2026-09-07T00:14:33.807493+00:00"
+      },
+      {
+        "id": "9cd67bb542fdbaaf59873168a214bbdc4a851243",
+        "title": "Polisi Makassar tangkap empat anak di bawah umur diduga geng motor - ANTARA News Makassar",
+        "url": "https://makassar.antaranews.com/berita/637532/polisi-makassar-tangkap-empat-anak-di-bawah-umur-diduga-geng-motor",
+        "source": "ANTARA News Makassar",
+        "published_at": "2026-09-06T21:29:24+00:00",
+        "collected_at": "2026-09-06T23:57:09.680947+00:00",
+        "region": "BELUM TERPETAKAN",
+        "area_label": "BELUM TERPETAKAN",
+        "is_jatim": null,
+        "polres": null,
+        "category": "NEGATIF - BELUM TERIDENTIFIKASI",
+        "scope": "negative",
+        "scope_label": "Negatif",
+        "priority": "low",
+        "summary": "Polisi Makassar tangkap empat anak di bawah umur diduga geng motor ANTARA News Makassar",
+        "processing_status": "processed",
+        "classifier_version": "news-v6",
+        "classified_at": "2026-09-06T23:57:09.680947+00:00",
+        "case_id": "CASE-000945",
+        "discovery_families": [
+          "ethics_personal_misconduct"
+        ],
+        "discovery_tags": [
+          "ethics",
+          "sexual_misconduct",
+          "violence"
+        ],
+        "discovery_hits": [
+          "anak di bawah umur"
+        ],
+        "discovery_version": "discovery-v6.5.4",
+        "google_news_url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPTUIzN0hZbVF2WnBFbGVRRTB1ZU43bTg0c0pIVlN2TDI3MEJ0dTFyeGVzX3pNR0FzSmdTOFJ2U1ZjWUw5QVRMUER5cmMzZTFuZjFENXQxTENPaWN3cV8zaFhQQ2sxS1NkSHNwMy01c2tWMFg1UFVNWWVYZE1iRU13NmhnTjduZGM4SDRVbjdFcXg5Sm5qakMwQjRzeXNlSG9vb3RUV0hSZEY1bk9hNHJ4S1dR?oc=5",
+        "original_url": "https://makassar.antaranews.com/berita/637532/polisi-makassar-tangkap-empat-anak-di-bawah-umur-diduga-geng-motor",
+        "locality": "",
+        "polsek": null,
+        "location_confidence": 0,
+        "location_evidence": [],
+        "location_status": "BELUM_TERPETAKAN",
+        "location_source": "title",
+        "issue_type": "UMUM",
+        "issue_subtype": "Belum Teridentifikasi",
+        "issue_evidence": [],
+        "handling_status": "BELUM_ADA_INFORMASI",
+        "handling_evidence": [],
+        "attention_score": 37,
+        "attention_label": "Rendah",
+        "attention_components": {
+          "severity": 2,
+          "polri_relation": 16,
+          "authority": 0,
+          "public_impact": 18,
+          "handling": 0,
+          "evidence": 1,
+          "context_risk": 0,
+          "routine_enforcement_cap": null
+        },
+        "attention_evidence": {
+          "severity": [],
+          "authority": [],
+          "public_impact": [
+            "kelompok/korban publik rentan"
+          ],
+          "evidence": [
+            "satu sumber / informasi awal"
+          ],
+          "role": [
+            "Polri/personel menjadi subjek permasalahan"
+          ],
+          "issue": [],
+          "handling": [],
+          "context": [],
+          "positive": []
+        },
+        "case_engine_version": "case-v6.5.4",
+        "case_processed_at": "2026-09-07T00:14:33.807495+00:00"
+      },
       {
         "id": "76b23b628993db71db5b3ef0e6b307b01a201c65",
         "title": "Polisi Bantah Ada Damai di Kasus Dugaan Kekerasan Seksual Brimob Polda NTB - SUARANTB.com",
@@ -1075,7 +1645,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-09-06T21:42:52.259586+00:00"
+        "case_processed_at": "2026-09-07T00:14:33.807498+00:00"
       },
       {
         "id": "2716c71d56966045d6bfa2752488c239c563c0fc",
@@ -1140,7 +1710,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-09-06T21:31:14.385021+00:00"
+        "case_processed_at": "2026-09-07T00:03:50.297198+00:00"
       },
       {
         "id": "d980f2b7d4e1245a96b9c365f50ab7307fe55a22",
@@ -1205,7 +1775,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-09-06T21:31:14.711519+00:00"
+        "case_processed_at": "2026-09-07T00:03:50.600320+00:00"
       },
       {
         "id": "2af2bce2e255c15726fde3d8fa4dc4ef9f831b17",
@@ -1274,7 +1844,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-09-06T21:42:52.259593+00:00"
+        "case_processed_at": "2026-09-07T00:14:33.807502+00:00"
       },
       {
         "id": "32b6ea6e1cfc089d76788c46e14201e6e80ddb06",
@@ -1339,7 +1909,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-09-06T21:31:15.149794+00:00"
+        "case_processed_at": "2026-09-07T00:03:50.962156+00:00"
       },
       {
         "id": "ed2f27d122815a8a577eba0e4af92eb2e77ec332",
@@ -1409,7 +1979,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-09-06T21:31:15.887103+00:00"
+        "case_processed_at": "2026-09-07T00:03:51.645855+00:00"
       },
       {
         "id": "9dfb8ed819a4523641ec039c61ac64add4935376",
@@ -1476,7 +2046,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-09-06T21:31:16.866436+00:00"
+        "case_processed_at": "2026-09-07T00:03:52.552978+00:00"
       },
       {
         "id": "fbd7598380c14295886a8fbaa1bb177155988334",
@@ -1545,22 +2115,686 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-09-06T21:42:52.259599+00:00"
+        "case_processed_at": "2026-09-07T00:14:33.807506+00:00"
       }
     ]
   },
   "cases": {
-    "active": 3,
+    "active": 6,
     "priority_high": 0,
     "jatim": 0,
     "jatim_priority_high": 0,
-    "articles": 4,
+    "articles": 20,
     "case_ids": [
+      "CASE-000257",
       "CASE-000378",
       "CASE-000942",
-      "CASE-000943"
+      "CASE-000943",
+      "CASE-000944",
+      "CASE-000945"
     ],
     "items": [
+      {
+        "case_id": "CASE-000257",
+        "title": "Lagi..!!Satres Narkoba Polrestabes Medan Amankan Enam Tersangka Pengedar Narkoba Jenis Sabu-Sabu - Media 24 Jam",
+        "category": "NEGATIF - NARKOBA / NARKOTIKA",
+        "scope": "negative",
+        "region": "BELUM TERPETAKAN",
+        "locality": "",
+        "is_jatim": null,
+        "polres": null,
+        "polsek": null,
+        "priority": "medium",
+        "attention_score": 61,
+        "attention_label": "Sedang",
+        "signature": "BELUM TERPETAKAN",
+        "incident_terms": [
+          "0ns",
+          "bandar",
+          "baru",
+          "belakang",
+          "bocah",
+          "cnn",
+          "com",
+          "dairi",
+          "detikcom",
+          "digerebek",
+          "disita",
+          "dista",
+          "dnaberita",
+          "edarkan",
+          "ekstasi",
+          "fakta",
+          "foto",
+          "ganja",
+          "gerebek",
+          "getar",
+          "gram",
+          "gunakan",
+          "hariansib",
+          "indonesia",
+          "irt",
+          "jalan",
+          "jam",
+          "jenis",
+          "jpnn",
+          "jual",
+          "kabupaten",
+          "kejar",
+          "kepala",
+          "kepling",
+          "kompas",
+          "kota",
+          "lagi",
+          "lingkungan",
+          "lokasi",
+          "maimun",
+          "malaysia",
+          "medan",
+          "media",
+          "menangis",
+          "metrotvnews",
+          "narkoba",
+          "nyambi",
+          "oke",
+          "paket",
+          "pemasok",
+          "penganiayaan",
+          "pengedar",
+          "perempuan",
+          "pewarta",
+          "pod",
+          "polrestabes",
+          "positif",
+          "pria",
+          "rumah",
+          "sabu",
+          "sadis",
+          "samurai",
+          "sarang",
+          "sari",
+          "satpam",
+          "satres",
+          "tanjung",
+          "ternama",
+          "vape",
+          "viva",
+          "wanita",
+          "warung",
+          "waspada"
+        ],
+        "event_terms": [
+          "ganja",
+          "narkoba",
+          "penganiayaan",
+          "sabu"
+        ],
+        "location_terms": [
+          "medan"
+        ],
+        "discovery_families": [],
+        "first_seen": "2026-08-24T11:03:31+00:00",
+        "last_seen": "2026-09-06T23:57:09.680947+00:00",
+        "last_detected_at": "2026-09-06T23:57:09.680947+00:00",
+        "article_ids": [
+          "fb75d31d1f53249e9e65e20d8ab6faec6ab3d346",
+          "ffcc8346ef65aaec6a1fa83465907ebf73bf2e94",
+          "51ac14736889b419b6d24409fef7e74f483e4b3c",
+          "688744bed4a392b637178b99a58f27e224b12220",
+          "e2f24145d7e3745a920edab06e080c839e0c315e",
+          "4d5210eb6e25b799455b98c3b971651825faf9a8",
+          "cc0da5da57dfdeab1e450a1aca2e846b3c0d1bfb",
+          "47de4a4fc6e59ef6624ae320f09dce4b003d942e",
+          "4304d1044be8a32dbb3706f04f36ed8d000bb00c",
+          "8398c8b7da92943f4236d2832426b4bbf75b7552",
+          "d8b254f755dac702e29b51bab65e30c63bdf299e",
+          "cedbf68105d9c96133e7504bd574dee0336d30b0",
+          "20e9d4293ad4e4e1c9b43957a06a58751ddc1f1b",
+          "ec585d4d15527b5bf16e8b199824d94a9becea35"
+        ],
+        "articles": [
+          {
+            "id": "fb75d31d1f53249e9e65e20d8ab6faec6ab3d346",
+            "title": "Lagi..!!Satres Narkoba Polrestabes Medan Amankan Enam Tersangka Pengedar Narkoba Jenis Sabu-Sabu - Media 24 Jam",
+            "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPVkJXeU10aHR0aE9raHdUaEhUX1FDbTdBeTFUVUxFbkhtaXc4UlZqYmUwMVFsd1RYeGIwVHpQbldJb3JIM0tydDVRTEZwb3hGcEN2b2l1T2tEUVdJVnB6VHRDWDgwSWRXTU5XQzNwY1NYZWh6VjdacXl1dnlpZm8tX1ptU1JiTnpOZzRYc1BPT1NpWDVvdnI4Y3pJSWZFSl9kSXZPa0pONzMyMmMyUE5MQms5N1g5ZGVIMThDZDVB?oc=5",
+            "published_at": "2026-08-29T14:02:45+00:00",
+            "collected_at": "2026-08-29T14:30:23.229247+00:00",
+            "source": "Media 24 Jam",
+            "match_score": 1.0,
+            "priority": "low",
+            "scope": "negative",
+            "category": "NEGATIF - NARKOBA / NARKOTIKA",
+            "region": "BELUM TERPETAKAN",
+            "locality": "",
+            "is_jatim": false,
+            "polres": null,
+            "polsek": null,
+            "issue_type": "NARKOBA",
+            "issue_subtype": "Narkoba / Narkotika",
+            "handling_status": "SUDAH_DITINDAK",
+            "handling_evidence": [
+              "tersangka"
+            ],
+            "polri_relation": null,
+            "polri_relation_points": 0,
+            "polri_relation_evidence": [],
+            "attention_score": 24,
+            "attention_label": "Rendah",
+            "attention_components": {
+              "severity": 11,
+              "polri_relation": 2,
+              "authority": 4,
+              "public_impact": 4,
+              "handling": 2,
+              "evidence": 1,
+              "context_risk": 0,
+              "routine_enforcement_cap": 35
+            }
+          },
+          {
+            "id": "ffcc8346ef65aaec6a1fa83465907ebf73bf2e94",
+            "title": "Rumah IRT Bandar Digerebek Polisi, 40 Paket Sabu dan Samurai Disita - Oke Medan",
+            "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQYWFjSW9ScldHZ1hCR2NwbkoySDJ1WUlNTkpCa3RwajlFMTQ5WlVKdERMRkxUdHNUNFgydkhWZGkwWEVLYkFNc1BkTnNTTWdfQ2JsNmIyQXl4Rzk0SW9qSEgtNnpFWGZnbWk5V29oUDJiUnlGaHJlXzR6NDJub0JabFV1T0w4U2ZQUzdSYWNqNUdsRkxycHNfTDAyME5zeEoy?oc=5",
+            "published_at": "2026-08-29T09:10:34+00:00",
+            "collected_at": "2026-08-29T14:30:23.229247+00:00",
+            "source": "Oke Medan",
+            "match_score": 0.65,
+            "priority": "low",
+            "scope": "negative",
+            "category": "NEGATIF - NARKOBA / NARKOTIKA",
+            "region": "BELUM TERPETAKAN",
+            "locality": "",
+            "is_jatim": false,
+            "polres": null,
+            "polsek": null,
+            "issue_type": "NARKOBA",
+            "issue_subtype": "Narkoba / Narkotika",
+            "handling_status": "BELUM_ADA_INFORMASI",
+            "handling_evidence": [],
+            "polri_relation": null,
+            "polri_relation_points": 0,
+            "polri_relation_evidence": [],
+            "attention_score": 16,
+            "attention_label": "Rendah",
+            "attention_components": {
+              "severity": 11,
+              "polri_relation": 0,
+              "authority": 0,
+              "public_impact": 4,
+              "handling": 0,
+              "evidence": 1,
+              "context_risk": 0,
+              "routine_enforcement_cap": null
+            }
+          },
+          {
+            "id": "51ac14736889b419b6d24409fef7e74f483e4b3c",
+            "title": "Diduga Jual Sabu dari Belakang Warung, Pria di Medan Menangis Saat Digerebek Polisi - Kompas.com",
+            "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPRlpSdjhlMVFCWFQ3YXByRkRVaEozLUdFZmpvNjRHaHF0bkN3eENKb2EzdlhPVFBvYXA0OGh4RjZuaXNVRWRGNGFlbUQyVnY5UHFUZWxaVEI5SkhpYklaWkwxb0pjRjBZZU5uX2dpWG5CRkhWNnZsS0tzOGVOVHVwTkx2Qm56ZjNaa3k0YkRLd0FGUlM2Z3Y1MTJ2NFNiLXN3b21sM2VKQWxtZTdMRUwtTUx4cDZfaENnTFVYX2pSTW5rc250?oc=5",
+            "published_at": "2026-08-28T04:42:00+00:00",
+            "collected_at": "2026-08-28T05:25:58.358079+00:00",
+            "source": "Kompas.com",
+            "match_score": 0.7092,
+            "priority": "low",
+            "scope": "negative",
+            "category": "NEGATIF - NARKOBA / NARKOTIKA",
+            "region": "BELUM TERPETAKAN",
+            "locality": "",
+            "is_jatim": false,
+            "polres": null,
+            "polsek": null,
+            "issue_type": "NARKOBA",
+            "issue_subtype": "Narkoba / Narkotika",
+            "handling_status": "BELUM_ADA_INFORMASI",
+            "handling_evidence": [],
+            "polri_relation": null,
+            "polri_relation_points": 0,
+            "polri_relation_evidence": [],
+            "attention_score": 38,
+            "attention_label": "Rendah",
+            "attention_components": {
+              "severity": 11,
+              "polri_relation": 16,
+              "authority": 0,
+              "public_impact": 10,
+              "handling": 0,
+              "evidence": 1,
+              "context_risk": 0,
+              "routine_enforcement_cap": null
+            }
+          },
+          {
+            "id": "688744bed4a392b637178b99a58f27e224b12220",
+            "title": "Jual Vape Narkoba, DJ Ternama Kota Medan Ditangkap Polisi - detikcom",
+            "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNeFN0WVVPU0NfdDAyV3B6RnFPajZmaXRDcVoyWGk3NHdXTW5EblVxQ2Y2VmIwQ2FFSm05T0U4VUkzdW1ndEItRndiSUw3d3Z5UlVPbmRpaUFfaEJweF9JbEFWV0N1clFvRUpLWW1MQzVnUDFxZDc3d3NWVVhubWpEU1phZWVkOWh3THBqVG52WnlfMHZYZGZKMmxwRVJxVW9Wdi01WWM2d3VQQm1RS2NIMnVaa9IBuAFBVV95cUxQSUUxWWxkejRyUkpZZlJUeHpqb2xKam9hUDNpbG5md3psSTl0c3ZCenlnZ3RtNXJHdE9veUcxU0pRN2VfYnhoTmoyUlRmVjU4VHJoeGlzYWJCRDVGVm9MUS00b3hpdVlFeDNXdkk5ZHFHLWh5MkNvTEtIcnE2LWppUURPUUJNdEZaOGZieTQtQmwwNS00a0F4NTctdjB6WWJBTUJyY3FTamtqaUJGLUhCTEM5NkR4N0RN?oc=5",
+            "published_at": "2026-08-27T19:31:55+00:00",
+            "collected_at": "2026-08-27T20:32:51.366685+00:00",
+            "source": "detikcom",
+            "match_score": 0.7206,
+            "priority": "low",
+            "scope": "negative",
+            "category": "NEGATIF - NARKOBA / NARKOTIKA",
+            "region": "BELUM TERPETAKAN",
+            "locality": "",
+            "is_jatim": false,
+            "polres": null,
+            "polsek": null,
+            "issue_type": "NARKOBA",
+            "issue_subtype": "Narkoba / Narkotika",
+            "handling_status": "BELUM_ADA_INFORMASI",
+            "handling_evidence": [],
+            "polri_relation": null,
+            "polri_relation_points": 0,
+            "polri_relation_evidence": [],
+            "attention_score": 16,
+            "attention_label": "Rendah",
+            "attention_components": {
+              "severity": 11,
+              "polri_relation": 0,
+              "authority": 0,
+              "public_impact": 4,
+              "handling": 0,
+              "evidence": 1,
+              "context_risk": 0,
+              "routine_enforcement_cap": null
+            }
+          },
+          {
+            "id": "e2f24145d7e3745a920edab06e080c839e0c315e",
+            "title": "Diduga Edarkan Vape Narkoba, DJ Perempuan di Medan Ditangkap Polisi - CNN Indonesia",
+            "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNa3pneElvNlJ6OFRhdElLTU5hdUpwN3JRckl5T1NpbjJ0blpXRk1fWjZWZThOU2dNcTFabjFyMkVJR1N6czh4NkhDeWZRSWd1SE5JODVqWEZjZ2pEeFhYVlRLd1pCZTNVaFRoeko4M20wemoyZGdERzZlWVdsS24wWVAzSGpmZW5hbXN3VnYwU21NZERvanNCN01vdnpLSWZaZVY1TXBYM3JpeGhnWmRoZE9RVjI4NEMzT3M1bjN0TG9FSHJ1ZXk2MHlB0gHPAUFVX3lxTFBsNUhZTGJxeXl4SWdRVkNyQVpKNUNnT3I4aWJOV3dYckFEXzdCMmVQMGxYZ3FCcjBZOVJaU1o1bDJiS0hlQ2I1Rm5DaElXMFpKREREU1N6ZUhPd0RGTXYteUllM1ZaOHlUVGtsM2tmNVJqSm1SQTNiZ3d6Ry1JVVhBMkxNcWJLWnNQWktTamg0a1Z0dkEzOHhpZnBGaFhBWG1mT0V4dTdLQl93UFB0N1c4aTg5bklLU3Y4eGkwVmU2cWt4TDhVUkZPMXhxTURyMA?oc=5",
+            "published_at": "2026-08-27T04:13:10+00:00",
+            "collected_at": "2026-08-27T08:21:05.636149+00:00",
+            "source": "CNN Indonesia",
+            "match_score": 0.7187,
+            "priority": "low",
+            "scope": "negative",
+            "category": "NEGATIF - NARKOBA / NARKOTIKA",
+            "region": "BELUM TERPETAKAN",
+            "locality": "",
+            "is_jatim": false,
+            "polres": null,
+            "polsek": null,
+            "issue_type": "NARKOBA",
+            "issue_subtype": "Narkoba / Narkotika",
+            "handling_status": "BELUM_ADA_INFORMASI",
+            "handling_evidence": [],
+            "polri_relation": null,
+            "polri_relation_points": 0,
+            "polri_relation_evidence": [],
+            "attention_score": 38,
+            "attention_label": "Rendah",
+            "attention_components": {
+              "severity": 11,
+              "polri_relation": 16,
+              "authority": 0,
+              "public_impact": 10,
+              "handling": 0,
+              "evidence": 1,
+              "context_risk": 0,
+              "routine_enforcement_cap": null
+            }
+          },
+          {
+            "id": "4d5210eb6e25b799455b98c3b971651825faf9a8",
+            "title": "DJ Ternama Medan Ditangkap Jual Vape Narkoba, Polisi Kejar Pemasok - DNABerita",
+            "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNUlBneU9tbUpmc1NOaDJxZU5peFVxYk1UVzE4d25PdXF3YzZuaW14WkFFQUhRNmktVWY2RlFRNlluXzU3MVh5TF92OHJTRWEwX1REZUhiQThYMFZRNHBER1dsZUtTbk1zd3ozb3c3VUpDc1BzbHVQbDFoX0hZd2ZxZjBzUEsxXzczQmFtYkNzYU0yQQ?oc=5",
+            "published_at": "2026-08-27T02:26:21+00:00",
+            "collected_at": "2026-08-27T08:21:05.636149+00:00",
+            "source": "DNABerita",
+            "match_score": 0.7533,
+            "priority": "low",
+            "scope": "negative",
+            "category": "NEGATIF - NARKOBA / NARKOTIKA",
+            "region": "BELUM TERPETAKAN",
+            "locality": "",
+            "is_jatim": false,
+            "polres": null,
+            "polsek": null,
+            "issue_type": "NARKOBA",
+            "issue_subtype": "Narkoba / Narkotika",
+            "handling_status": "BELUM_ADA_INFORMASI",
+            "handling_evidence": [],
+            "polri_relation": null,
+            "polri_relation_points": 0,
+            "polri_relation_evidence": [],
+            "attention_score": 16,
+            "attention_label": "Rendah",
+            "attention_components": {
+              "severity": 11,
+              "polri_relation": 0,
+              "authority": 0,
+              "public_impact": 4,
+              "handling": 0,
+              "evidence": 1,
+              "context_risk": 0,
+              "routine_enforcement_cap": null
+            }
+          },
+          {
+            "id": "cc0da5da57dfdeab1e450a1aca2e846b3c0d1bfb",
+            "title": "Polisi Tangkap WN Malaysia Pemasok Vape Narkoba di Medan - MetroTVNews.com",
+            "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNOWdTVThDYW00TnNLQWZ6ZnZMdkdfWVRtZlFMbmMyVXRuellmVHNtVklLeEpZck5qTUItRmRyWFk3dzdsQ2hSWENnSWlKUGhjd1dVMUZ0TURqZ1lSbm5fNmxqUTlVMmR5Rkl5NF9iUTJ5T2RleUNqSXBJZy1qM19KaFhIUDBCbGR3VWJzQ21FRUdkNlJpUHp6OE1xaWNLc1U?oc=5",
+            "published_at": "2026-08-26T13:53:03+00:00",
+            "collected_at": "2026-08-26T14:39:53.611783+00:00",
+            "source": "MetroTVNews.com",
+            "match_score": 0.7493,
+            "priority": "low",
+            "scope": "negative",
+            "category": "NEGATIF - NARKOBA / NARKOTIKA",
+            "region": "BELUM TERPETAKAN",
+            "locality": "",
+            "is_jatim": false,
+            "polres": null,
+            "polsek": null,
+            "issue_type": "NARKOBA",
+            "issue_subtype": "Narkoba / Narkotika",
+            "handling_status": "BELUM_ADA_INFORMASI",
+            "handling_evidence": [],
+            "polri_relation": null,
+            "polri_relation_points": 0,
+            "polri_relation_evidence": [],
+            "attention_score": 16,
+            "attention_label": "Rendah",
+            "attention_components": {
+              "severity": 11,
+              "polri_relation": 0,
+              "authority": 0,
+              "public_impact": 4,
+              "handling": 0,
+              "evidence": 1,
+              "context_risk": 0,
+              "routine_enforcement_cap": null
+            }
+          },
+          {
+            "id": "47de4a4fc6e59ef6624ae320f09dce4b003d942e",
+            "title": "Jadi Sarang Narkoba di Medan, 2 Lokasi Ini Digerebek Polisi - JPNN.com",
+            "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNTGpMRC02SEZvYW9KTXFaaTVIVTU5anQ0clg5QUZxQlRJdFlBVktxUC1nUEl5el9Eclg3TC1LaWlGTzFVNXRlT01GTFNrWkFoaGxjYzNXQXRELTYwWF9naTlCTF9wZkxJVHY0NmRiMHZqWmVpTFNLZG5zSWpYbDU2bEJzTXFpc2FCalHSAY8BQVVfeXFMT18yN0hKcHJjQ0VfQlV6eDVPb1RQemk5a252alFzMXR1TWNCbF9QNUxjOWZNV2NjNmlCVEJFTmwyLTcxWHRMeWpNcjRRRXRoN3pfRjR0Z0NsMG5YcU5GcEpYTTA5SzZqalBhOWFGSVVycmpON0xHQ3BEeVdwWjdtNkRHOHM0RHlvam1xTW1YVGM?oc=5",
+            "published_at": "2026-08-25T22:14:00+00:00",
+            "collected_at": "2026-08-26T10:49:33.010254+00:00",
+            "source": "JPNN.com",
+            "match_score": 0.7666,
+            "priority": "low",
+            "scope": "negative",
+            "category": "NEGATIF - NARKOBA / NARKOTIKA",
+            "region": "BELUM TERPETAKAN",
+            "locality": "",
+            "is_jatim": false,
+            "polres": null,
+            "polsek": null,
+            "issue_type": "NARKOBA",
+            "issue_subtype": "Narkoba / Narkotika",
+            "handling_status": "BELUM_ADA_INFORMASI",
+            "handling_evidence": [],
+            "polri_relation": null,
+            "polri_relation_points": 0,
+            "polri_relation_evidence": [],
+            "attention_score": 16,
+            "attention_label": "Rendah",
+            "attention_components": {
+              "severity": 11,
+              "polri_relation": 0,
+              "authority": 0,
+              "public_impact": 4,
+              "handling": 0,
+              "evidence": 1,
+              "context_risk": 0,
+              "routine_enforcement_cap": null
+            }
+          },
+          {
+            "id": "4304d1044be8a32dbb3706f04f36ed8d000bb00c",
+            "title": "Foto Fakta Baru Kasus Penganiayaan Sadis Dua Bocah di Kabupaten Dairi, Polisi: Pelaku Positif Gunakan Sabu-sabu - VIVA Medan",
+            "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxNYWRfUmh4QmxCTGRwWHpyaDdKbXZMdHVrNDUtRVFXcGhxM1hNZkJRSGZzaVJkbmFLYjAxYVdVMFZqZGUxZUFrQmpyNFh4OGJwak85dzBkYjU0bURRbUNRY3lfdktMbldwWXRTa1FrNE4tMGNXc053MFBrVlJNc3ZFTEZ1S0FHSlVleGR4b0t5WEhCM2VENjdadVFZUl9IcDluQzd4UTJoWGlvSkFzMzU2OG1nUURGXzhpVFc1OEFfcjN3SnF6RUtXSFlrTnZrMU9KTUNLTWNCRQ?oc=5",
+            "published_at": "2026-08-24T11:03:31+00:00",
+            "collected_at": "2026-08-26T10:49:33.010254+00:00",
+            "source": "VIVA Medan",
+            "match_score": 0.6521,
+            "priority": "low",
+            "scope": "negative",
+            "category": "NEGATIF - KEKERASAN / PENGGUNAAN KEKUATAN",
+            "region": "BELUM TERPETAKAN",
+            "locality": "",
+            "is_jatim": false,
+            "polres": null,
+            "polsek": null,
+            "issue_type": "KEKERASAN_DAN_KEKUATAN",
+            "issue_subtype": "Kekerasan / Penggunaan Kekuatan",
+            "handling_status": "BELUM_ADA_INFORMASI",
+            "handling_evidence": [],
+            "polri_relation": null,
+            "polri_relation_points": 0,
+            "polri_relation_evidence": [],
+            "attention_score": 39,
+            "attention_label": "Rendah",
+            "attention_components": {
+              "severity": 28,
+              "polri_relation": 0,
+              "authority": 0,
+              "public_impact": 4,
+              "handling": 0,
+              "evidence": 1,
+              "context_risk": 0,
+              "routine_enforcement_cap": null
+            }
+          },
+          {
+            "id": "8398c8b7da92943f4236d2832426b4bbf75b7552",
+            "title": "Seorang Oknum Satpam Ditangkap Polisi Edarkan Narkoba di Jalan Tanjung Sari Medan, Ganja 3 0ns Dista - Pewarta.co",
+            "url": "https://pewarta.co/news/medan/seorang-oknum-satpam-ditangkap-polisi-edarkan-narkoba-di-jalan-tanjung-sari-medan-ganja-3-0ns-dista",
+            "published_at": "2026-09-04T15:10:21+00:00",
+            "collected_at": "2026-09-04T16:24:12.941671+00:00",
+            "source": "Pewarta.co",
+            "match_score": 0.7131,
+            "priority": "low",
+            "scope": "negative",
+            "category": "NEGATIF - NARKOBA / NARKOTIKA",
+            "region": "BELUM TERPETAKAN",
+            "locality": "",
+            "is_jatim": false,
+            "polres": null,
+            "polsek": null,
+            "issue_type": "NARKOBA",
+            "issue_subtype": "Narkoba / Narkotika",
+            "handling_status": "BELUM_ADA_INFORMASI",
+            "handling_evidence": [],
+            "polri_relation": null,
+            "polri_relation_points": 0,
+            "polri_relation_evidence": [],
+            "attention_score": 16,
+            "attention_label": "Rendah",
+            "attention_components": {
+              "severity": 11,
+              "polri_relation": 0,
+              "authority": 0,
+              "public_impact": 4,
+              "handling": 0,
+              "evidence": 1,
+              "context_risk": 0,
+              "routine_enforcement_cap": null
+            }
+          },
+          {
+            "id": "d8b254f755dac702e29b51bab65e30c63bdf299e",
+            "title": "Oknum Kepala Lingkungan Wanita di Medan Ditangkap Polisi karena Edarkan Narkoba - waspada.id",
+            "url": "https://www.waspada.id/berita/oknum-kepala-lingkungan-wanita-di-medan-ditangkap-polisi-karena-edarkan-narkoba",
+            "published_at": "2026-09-04T14:28:43+00:00",
+            "collected_at": "2026-09-04T16:24:12.941671+00:00",
+            "source": "waspada.id",
+            "match_score": 0.6957,
+            "priority": "low",
+            "scope": "negative",
+            "category": "NEGATIF - NARKOBA / NARKOTIKA",
+            "region": "BELUM TERPETAKAN",
+            "locality": "",
+            "is_jatim": false,
+            "polres": null,
+            "polsek": null,
+            "issue_type": "NARKOBA",
+            "issue_subtype": "Narkoba / Narkotika",
+            "handling_status": "BELUM_ADA_INFORMASI",
+            "handling_evidence": [],
+            "polri_relation": null,
+            "polri_relation_points": 0,
+            "polri_relation_evidence": [],
+            "attention_score": 16,
+            "attention_label": "Rendah",
+            "attention_components": {
+              "severity": 11,
+              "polri_relation": 0,
+              "authority": 0,
+              "public_impact": 4,
+              "handling": 0,
+              "evidence": 1,
+              "context_risk": 0,
+              "routine_enforcement_cap": null
+            }
+          },
+          {
+            "id": "cedbf68105d9c96133e7504bd574dee0336d30b0",
+            "title": "Polisi Gerebek Sarang Narkoba di Medan Maimun, 11 Gram Sabu Disita - harianSIB.com",
+            "url": "https://www.hariansib.com/Kriminal/449451/polisi-gerebek-sarang-narkoba-di-medan-maimun-11-gram-sabu-disita/",
+            "published_at": "2026-09-05T02:38:00+00:00",
+            "collected_at": "2026-09-05T05:47:02.400621+00:00",
+            "source": "harianSIB.com",
+            "match_score": 0.9505,
+            "priority": "low",
+            "scope": "negative",
+            "category": "NEGATIF - NARKOBA / NARKOTIKA",
+            "region": "BELUM TERPETAKAN",
+            "locality": "",
+            "is_jatim": false,
+            "polres": null,
+            "polsek": null,
+            "issue_type": "NARKOBA",
+            "issue_subtype": "Narkoba / Narkotika",
+            "handling_status": "BELUM_ADA_INFORMASI",
+            "handling_evidence": [],
+            "polri_relation": null,
+            "polri_relation_points": 0,
+            "polri_relation_evidence": [],
+            "attention_score": 16,
+            "attention_label": "Rendah",
+            "attention_components": {
+              "severity": 11,
+              "polri_relation": 0,
+              "authority": 0,
+              "public_impact": 4,
+              "handling": 0,
+              "evidence": 1,
+              "context_risk": 0,
+              "routine_enforcement_cap": null
+            }
+          },
+          {
+            "id": "20e9d4293ad4e4e1c9b43957a06a58751ddc1f1b",
+            "title": "Nyambi Edarkan Narkoba, Oknum Kepling di Medan Ditangkap Polisi, 2 Pod Getar dan Ekstasi Disita - DNABerita",
+            "url": "https://dnaberita.com/nyambi-edarkan-narkoba-oknum-kepling-di-medan-ditangkap-polisi-2-pod-getar-dan-ekstasi-disita/",
+            "published_at": "2026-09-05T01:18:57+00:00",
+            "collected_at": "2026-09-05T05:47:02.400621+00:00",
+            "source": "DNABerita",
+            "match_score": 0.7689,
+            "priority": "low",
+            "scope": "negative",
+            "category": "NEGATIF - NARKOBA / NARKOTIKA",
+            "region": "BELUM TERPETAKAN",
+            "locality": "",
+            "is_jatim": false,
+            "polres": null,
+            "polsek": null,
+            "issue_type": "NARKOBA",
+            "issue_subtype": "Narkoba / Narkotika",
+            "handling_status": "BELUM_ADA_INFORMASI",
+            "handling_evidence": [],
+            "polri_relation": null,
+            "polri_relation_points": 0,
+            "polri_relation_evidence": [],
+            "attention_score": 16,
+            "attention_label": "Rendah",
+            "attention_components": {
+              "severity": 11,
+              "polri_relation": 0,
+              "authority": 0,
+              "public_impact": 4,
+              "handling": 0,
+              "evidence": 1,
+              "context_risk": 0,
+              "routine_enforcement_cap": null
+            }
+          },
+          {
+            "id": "ec585d4d15527b5bf16e8b199824d94a9becea35",
+            "title": "Wanita Kepling di Medan Ini Ditangkap Polisi terkait Narkoba - JPNN.com",
+            "url": "https://m.jpnn.com/news/wanita-kepling-di-medan-ini-ditangkap-polisi-terkait-narkoba",
+            "published_at": "2026-09-06T23:30:00+00:00",
+            "collected_at": "2026-09-06T23:57:09.680947+00:00",
+            "source": "JPNN.com",
+            "match_score": 0.7692,
+            "priority": "low",
+            "scope": "negative",
+            "category": "NEGATIF - NARKOBA / NARKOTIKA",
+            "region": "BELUM TERPETAKAN",
+            "locality": "",
+            "is_jatim": false,
+            "polres": null,
+            "polsek": null,
+            "issue_type": "NARKOBA",
+            "issue_subtype": "Narkoba / Narkotika",
+            "handling_status": "BELUM_ADA_INFORMASI",
+            "handling_evidence": [],
+            "polri_relation": null,
+            "polri_relation_points": 0,
+            "polri_relation_evidence": [],
+            "attention_score": 16,
+            "attention_label": "Rendah",
+            "attention_components": {
+              "severity": 11,
+              "polri_relation": 0,
+              "authority": 0,
+              "public_impact": 4,
+              "handling": 0,
+              "evidence": 1,
+              "context_risk": 0,
+              "routine_enforcement_cap": null
+            }
+          }
+        ],
+        "article_count": 14,
+        "created_at": "2026-08-31T07:59:59.650913+00:00",
+        "updated_at": "2026-09-07T00:14:31.578193+00:00",
+        "engine_version": "case-v6.5.4",
+        "priority_score": 61,
+        "priority_breakdown": {
+          "severity": 28,
+          "polri_relation": 2,
+          "authority_context": 4,
+          "public_impact": 4,
+          "handling": 2,
+          "evidence": 5,
+          "spread": 15,
+          "escalation": 0,
+          "current_activity": 1,
+          "context_risk": 0
+        },
+        "priority_evidence": {
+          "unique_sources": 12,
+          "active_today_articles": 1,
+          "escalation": [],
+          "issue_type": "KEKERASAN_DAN_KEKUATAN",
+          "issue_subtype": "Kekerasan / Penggunaan Kekuatan",
+          "sentiment": "negative",
+          "polri_relation": "INFORMASI_UMUM",
+          "handling_status": "BELUM_ADA_INFORMASI",
+          "reasons": [
+            "sifat berita: negatif",
+            "sifat berita: negatif",
+            "Kekerasan / Penggunaan Kekuatan",
+            "Hubungan Polri belum spesifik",
+            "pemberitaan lintas 12 sumber"
+          ]
+        }
+      },
       {
         "case_id": "CASE-000378",
         "title": "Ferrari Rp 5 M dan 4 Mobil Mewah Lainnya Disita Polisi dari Buronan Narkoba Batam Yuwanky - Batamnews",
@@ -1682,7 +2916,7 @@
         ],
         "article_count": 2,
         "created_at": "2026-08-31T08:00:14.988817+00:00",
-        "updated_at": "2026-09-06T21:42:50.152859+00:00",
+        "updated_at": "2026-09-07T00:14:31.964267+00:00",
         "engine_version": "case-v6.5.4",
         "priority_score": 22,
         "priority_breakdown": {
@@ -1786,7 +3020,7 @@
         ],
         "article_count": 1,
         "created_at": "2026-09-06T17:21:02.378817+00:00",
-        "updated_at": "2026-09-06T21:42:52.255645+00:00",
+        "updated_at": "2026-09-07T00:14:33.798388+00:00",
         "engine_version": "case-v6.5.4",
         "priority_score": 38,
         "priority_breakdown": {
@@ -1897,7 +3131,7 @@
         ],
         "article_count": 1,
         "created_at": "2026-09-06T21:40:42.123285+00:00",
-        "updated_at": "2026-09-06T21:42:52.258901+00:00",
+        "updated_at": "2026-09-07T00:14:33.801274+00:00",
         "engine_version": "case-v6.5.4",
         "priority_score": 38,
         "priority_breakdown": {
@@ -1928,16 +3162,230 @@
             "Hubungan Polri belum spesifik"
           ]
         }
+      },
+      {
+        "case_id": "CASE-000944",
+        "title": "Penegasan Polisi Usut Ketua DPRD Bone Diduga Aniaya Staf Meski Mangkir Panggilan - detikcom",
+        "category": "NEGATIF - BELUM TERIDENTIFIKASI",
+        "scope": "negative",
+        "region": "BELUM TERPETAKAN",
+        "locality": "",
+        "is_jatim": null,
+        "polres": null,
+        "polsek": null,
+        "priority": "low",
+        "attention_score": 30,
+        "attention_label": "Rendah",
+        "signature": "BELUM TERPETAKAN",
+        "incident_terms": [
+          "aniaya",
+          "bone",
+          "detikcom",
+          "dprd",
+          "ketua",
+          "mangkir",
+          "meski",
+          "panggilan",
+          "penegasan",
+          "staf",
+          "usut"
+        ],
+        "event_terms": [],
+        "location_terms": [],
+        "discovery_families": [],
+        "first_seen": "2026-09-06T22:45:44+00:00",
+        "last_seen": "2026-09-06T23:57:09.680947+00:00",
+        "last_detected_at": "2026-09-06T23:57:09.680947+00:00",
+        "article_ids": [
+          "818923c9d8daeff0be89163c18bd44d7e1aaa32e"
+        ],
+        "articles": [
+          {
+            "id": "818923c9d8daeff0be89163c18bd44d7e1aaa32e",
+            "title": "Penegasan Polisi Usut Ketua DPRD Bone Diduga Aniaya Staf Meski Mangkir Panggilan - detikcom",
+            "url": "https://www.detik.com/sulsel/watampone/d-8651477/penegasan-polisi-usut-ketua-dprd-bone-diduga-aniaya-staf-meski-mangkir-panggilan",
+            "published_at": "2026-09-06T22:45:44+00:00",
+            "collected_at": "2026-09-06T23:57:09.680947+00:00",
+            "source": "detikcom",
+            "match_score": 1.0,
+            "priority": "low",
+            "scope": "negative",
+            "category": "NEGATIF - BELUM TERIDENTIFIKASI",
+            "region": "BELUM TERPETAKAN",
+            "locality": "",
+            "is_jatim": false,
+            "polres": null,
+            "polsek": null,
+            "issue_type": "UMUM",
+            "issue_subtype": "Belum Teridentifikasi",
+            "handling_status": "BELUM_ADA_INFORMASI",
+            "handling_evidence": [],
+            "polri_relation": null,
+            "polri_relation_points": 0,
+            "polri_relation_evidence": [],
+            "attention_score": 29,
+            "attention_label": "Rendah",
+            "attention_components": {
+              "severity": 2,
+              "polri_relation": 16,
+              "authority": 0,
+              "public_impact": 10,
+              "handling": 0,
+              "evidence": 1,
+              "context_risk": 0,
+              "routine_enforcement_cap": null
+            }
+          }
+        ],
+        "article_count": 1,
+        "created_at": "2026-09-07T00:12:32.691373+00:00",
+        "updated_at": "2026-09-07T00:14:33.804089+00:00",
+        "engine_version": "case-v6.5.4",
+        "priority_score": 30,
+        "priority_breakdown": {
+          "severity": 2,
+          "polri_relation": 16,
+          "authority_context": 0,
+          "public_impact": 10,
+          "handling": 0,
+          "evidence": 1,
+          "spread": 0,
+          "escalation": 0,
+          "current_activity": 1,
+          "context_risk": 0
+        },
+        "priority_evidence": {
+          "unique_sources": 1,
+          "active_today_articles": 1,
+          "escalation": [],
+          "issue_type": "UMUM",
+          "issue_subtype": "Belum Teridentifikasi",
+          "sentiment": "negative",
+          "polri_relation": "SUBJEK_PERMASALAHAN",
+          "handling_status": "BELUM_ADA_INFORMASI",
+          "reasons": [
+            "sifat berita: negatif",
+            "polisi + dugaan"
+          ]
+        }
+      },
+      {
+        "case_id": "CASE-000945",
+        "title": "Polisi Makassar tangkap empat anak di bawah umur diduga geng motor - ANTARA News Makassar",
+        "category": "NEGATIF - BELUM TERIDENTIFIKASI",
+        "scope": "negative",
+        "region": "BELUM TERPETAKAN",
+        "locality": "",
+        "is_jatim": null,
+        "polres": null,
+        "polsek": null,
+        "priority": "low",
+        "attention_score": 38,
+        "attention_label": "Rendah",
+        "signature": "BELUM TERPETAKAN",
+        "incident_terms": [
+          "anak",
+          "antara",
+          "bawah",
+          "geng",
+          "makassar",
+          "motor",
+          "news",
+          "umur"
+        ],
+        "event_terms": [
+          "motor"
+        ],
+        "location_terms": [],
+        "discovery_families": [
+          "ethics_personal_misconduct"
+        ],
+        "first_seen": "2026-09-06T21:29:24+00:00",
+        "last_seen": "2026-09-06T23:57:09.680947+00:00",
+        "last_detected_at": "2026-09-06T23:57:09.680947+00:00",
+        "article_ids": [
+          "9cd67bb542fdbaaf59873168a214bbdc4a851243"
+        ],
+        "articles": [
+          {
+            "id": "9cd67bb542fdbaaf59873168a214bbdc4a851243",
+            "title": "Polisi Makassar tangkap empat anak di bawah umur diduga geng motor - ANTARA News Makassar",
+            "url": "https://makassar.antaranews.com/berita/637532/polisi-makassar-tangkap-empat-anak-di-bawah-umur-diduga-geng-motor",
+            "published_at": "2026-09-06T21:29:24+00:00",
+            "collected_at": "2026-09-06T23:57:09.680947+00:00",
+            "source": "ANTARA News Makassar",
+            "match_score": 1.0,
+            "priority": "low",
+            "scope": "negative",
+            "category": "NEGATIF - BELUM TERIDENTIFIKASI",
+            "region": "BELUM TERPETAKAN",
+            "locality": "",
+            "is_jatim": false,
+            "polres": null,
+            "polsek": null,
+            "issue_type": "UMUM",
+            "issue_subtype": "Belum Teridentifikasi",
+            "handling_status": "BELUM_ADA_INFORMASI",
+            "handling_evidence": [],
+            "polri_relation": null,
+            "polri_relation_points": 0,
+            "polri_relation_evidence": [],
+            "attention_score": 37,
+            "attention_label": "Rendah",
+            "attention_components": {
+              "severity": 2,
+              "polri_relation": 16,
+              "authority": 0,
+              "public_impact": 18,
+              "handling": 0,
+              "evidence": 1,
+              "context_risk": 0,
+              "routine_enforcement_cap": null
+            }
+          }
+        ],
+        "article_count": 1,
+        "created_at": "2026-09-07T00:12:33.008369+00:00",
+        "updated_at": "2026-09-07T00:14:33.806912+00:00",
+        "engine_version": "case-v6.5.4",
+        "priority_score": 38,
+        "priority_breakdown": {
+          "severity": 2,
+          "polri_relation": 16,
+          "authority_context": 0,
+          "public_impact": 18,
+          "handling": 0,
+          "evidence": 1,
+          "spread": 0,
+          "escalation": 0,
+          "current_activity": 1,
+          "context_risk": 0
+        },
+        "priority_evidence": {
+          "unique_sources": 1,
+          "active_today_articles": 1,
+          "escalation": [],
+          "issue_type": "UMUM",
+          "issue_subtype": "Belum Teridentifikasi",
+          "sentiment": "negative",
+          "polri_relation": "SUBJEK_PERMASALAHAN",
+          "handling_status": "BELUM_ADA_INFORMASI",
+          "reasons": [
+            "sifat berita: negatif",
+            "polisi + dugaan"
+          ]
+        }
       }
     ],
     "jatim_items": []
   },
   "social": {
-    "detected": 92,
+    "detected": 98,
     "jatim": 2,
-    "negative": 46,
-    "priority_high": 17,
+    "negative": 47,
+    "priority_high": 18,
     "video_ids": [
+      "O1gYHystuMw",
       "iPA_Y8bUMnk",
       "P3q9uM77new",
       "fVj0g6d_nq0",
@@ -1972,6 +3420,7 @@
       "S1f5Yctri20",
       "bkLGp27VGS8",
       "oxUHhE-uXQA",
+      "s4FzQ76rOU0",
       "q61b96RWSB8",
       "pCD1vLbi1fw",
       "I-56SXzHTMc",
@@ -1983,11 +3432,14 @@
       "-oXf8zWoOhI",
       "8YH8dqZpUDM",
       "K1hKtqX1YV8",
+      "ilkLu7CqBDM",
       "KuUx6lzsFMo",
       "dzuNYYWssmQ",
       "6fanfXSEyMY",
       "OfEpnC6WU8A",
       "8CZUDuC7mQg",
+      "xsylSdDvOy8",
+      "qlzVpP6JWzg",
       "_mQyDeQgjnk",
       "Cnd0p4M7oTw",
       "y6LRj_gsA5s",
@@ -2010,6 +3462,7 @@
       "iVr-NH5XnT4",
       "GGFfdNXKsTI",
       "cfXGP3maWAw",
+      "KnfN46ZPRso",
       "APQtrnQlkIQ",
       "xc3QZRemY9w",
       "nhoU3Qrt07Y",
@@ -2033,17 +3486,21 @@
     ]
   },
   "jatim": {
-    "news_today": 3,
+    "news_today": 4,
     "negative_today": 0,
     "positive_today": 0,
     "case_scope_today": 0,
-    "neutral_today": 3,
+    "neutral_today": 4,
     "case_today": 0,
     "case_high_active": 0,
     "article_high_today": 0,
-    "outside_jatim_today": 8
+    "outside_jatim_today": 11
   },
   "regions": [
+    {
+      "name": "Sampang",
+      "count": 1
+    },
     {
       "name": "Polda Jatim",
       "count": 1
@@ -2070,23 +3527,23 @@
   "categories": [
     {
       "name": "NETRAL / LAINNYA",
-      "count": 3
+      "count": 4
     }
   ],
   "summary": {
-    "news_today": 11,
-    "negative_today": 3,
-    "cases_today": 3,
+    "news_today": 15,
+    "negative_today": 6,
+    "cases_today": 6,
     "priority_high": 0,
     "article_priority_high": 0,
-    "jatim_news": 3,
+    "jatim_news": 4,
     "jatim_negative": 0,
     "jatim_positive": 0,
     "jatim_case_scope": 0,
-    "jatim_neutral": 3,
+    "jatim_neutral": 4,
     "jatim_cases_today": 0,
     "jatim_case_high_active": 0,
-    "luar_jatim_news": 8,
-    "youtube_today": 92
+    "luar_jatim_news": 11,
+    "youtube_today": 98
   }
 }
