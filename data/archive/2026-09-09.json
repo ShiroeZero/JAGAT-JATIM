@@ -2,18 +2,20 @@
   "schema_version": "today-v3",
   "date": "2026-09-09",
   "timezone": "Asia/Jakarta",
-  "updated_at": "2026-09-09T01:59:52.740901+07:00",
-  "last_successful_update": "2026-09-09T01:59:52.740901+07:00",
+  "updated_at": "2026-09-09T05:16:15.111615+07:00",
+  "last_successful_update": "2026-09-09T05:16:15.111615+07:00",
   "news": {
-    "detected": 25,
-    "negative": 11,
+    "detected": 27,
+    "negative": 12,
     "positive": 3,
     "case": 0,
-    "neutral": 11,
-    "jatim": 13,
+    "neutral": 12,
+    "jatim": 15,
     "luar_jatim": 12,
     "priority_high": 0,
     "article_ids": [
+      "be251b36144c0aade3aecf1f5c9f6c69a9285378",
+      "9ac5553b76e279ca47ac3b11b7c4f7a4bce2f970",
       "57fc09eb77555350daaa9045c5d42f74931547ff",
       "1ec6e84b39b389dc852db7e297c4d9823d30771d",
       "47b2fdf6e7cc5cb33c636fa4335d95aab9e2adcb",
@@ -41,6 +43,157 @@
       "e87a29cdc83da861b831a7bc18b72a4cbf5e4550"
     ],
     "items": [
+      {
+        "id": "be251b36144c0aade3aecf1f5c9f6c69a9285378",
+        "title": "Kontraktor Wangsakarta Adukan Pengembang ke Polres Malang, Persoalkan Tagihan Rp1,7 Miliar - Javasatu.com",
+        "url": "https://javasatu.com/berita/kontraktor-wangsakarta-adukan-pengembang-ke-polres-malang-persoalkan-tagihan-rp17-miliar/",
+        "source": "Javasatu.com",
+        "published_at": "2026-09-08T20:43:58+00:00",
+        "collected_at": "2026-09-08T21:53:24.140113+00:00",
+        "region": "Jawa Timur",
+        "area_label": "Malang",
+        "is_jatim": true,
+        "polres": "POLRES MALANG",
+        "category": "NETRAL / LAINNYA",
+        "scope": "neutral",
+        "scope_label": "Netral",
+        "priority": "low",
+        "summary": "Kontraktor Wangsakarta Adukan Pengembang ke Polres Malang, Persoalkan Tagihan Rp1,7 Miliar Javasatu.com",
+        "processing_status": "processed",
+        "classifier_version": "news-v6",
+        "classified_at": "2026-09-08T21:53:24.140113+00:00",
+        "case_id": null,
+        "discovery_families": [],
+        "discovery_tags": [],
+        "discovery_hits": [],
+        "discovery_version": "discovery-v6.5.4",
+        "google_news_url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNbnF4TVJYeUY3aVVnY3R3MGtJNElpVmRScXNHWk1tMkVndVNZenloWllDcDl2WkUtZ0FfZTladjRrT0tDcUpyUGNTMkFDb01kWjQ5c0NHcG9VQnY4VmpxOHpoLVBCaUNRMVg0VmtpcVkwaEIzNjhiMUpQUW96LWtLN0xpN1lGQ0llcS1CMXducFBXd29seDFKdzJGdE80OXJ6VFNUb29lanVaS1F0Vnh4Z0lacDJaejBR?oc=5",
+        "original_url": "https://javasatu.com/berita/kontraktor-wangsakarta-adukan-pengembang-ke-polres-malang-persoalkan-tagihan-rp17-miliar/",
+        "locality": "Malang",
+        "polsek": null,
+        "location_confidence": 100,
+        "location_evidence": [
+          "polres malang",
+          "Malang"
+        ],
+        "location_status": "JAWA_TIMUR",
+        "location_source": "title",
+        "issue_type": "UMUM",
+        "issue_subtype": "Belum Teridentifikasi",
+        "issue_evidence": [],
+        "handling_status": "BELUM_ADA_INFORMASI",
+        "handling_evidence": [],
+        "attention_score": 7,
+        "attention_label": "Rendah",
+        "attention_components": {
+          "severity": 2,
+          "polri_relation": 0,
+          "authority": 0,
+          "public_impact": 4,
+          "handling": 0,
+          "evidence": 1,
+          "context_risk": 0,
+          "routine_enforcement_cap": null
+        },
+        "attention_evidence": {
+          "severity": [],
+          "authority": [],
+          "public_impact": [],
+          "evidence": [
+            "satu sumber / informasi awal"
+          ],
+          "role": [],
+          "issue": [],
+          "handling": [],
+          "context": [],
+          "positive": []
+        },
+        "case_engine_version": "case-v6.5.4",
+        "case_processed_at": "2026-09-08T22:00:17.229339+00:00"
+      },
+      {
+        "id": "9ac5553b76e279ca47ac3b11b7c4f7a4bce2f970",
+        "title": "Kemensos Klarifikasi Data Penerima Bansos Terindikasi Judi Online di Dandangan Kediri, Polisi Ingatkan Dampak Judol - polreskedirikota.com",
+        "url": "https://polreskedirikota.com/kemensos-klarifikasi-data-penerima-bansos-terindikasi-judi-online-di-dandangan-kediri-polisi-ingatkan-dampak-judol-2/",
+        "source": "polreskedirikota.com",
+        "published_at": "2026-09-08T19:31:03+00:00",
+        "collected_at": "2026-09-08T21:53:24.140113+00:00",
+        "region": "Jawa Timur",
+        "area_label": "Kediri",
+        "is_jatim": true,
+        "polres": null,
+        "category": "NEGATIF - AKTIVITAS ILEGAL",
+        "scope": "negative",
+        "scope_label": "Negatif",
+        "priority": "low",
+        "summary": "Kemensos Klarifikasi Data Penerima Bansos Terindikasi Judi Online di Dandangan Kediri, Polisi Ingatkan Dampak Judol polreskedirikota.com",
+        "processing_status": "processed",
+        "classifier_version": "news-v6",
+        "classified_at": "2026-09-08T21:53:24.140113+00:00",
+        "case_id": "CASE-001009",
+        "discovery_families": [
+          "illegal_activity_backing"
+        ],
+        "discovery_tags": [
+          "backing",
+          "illegal_activity",
+          "public_order"
+        ],
+        "discovery_hits": [
+          "judi online",
+          "judol"
+        ],
+        "discovery_version": "discovery-v6.5.4",
+        "google_news_url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxNWThrRklselBQcXU3aXE0NktlOFpPeC1SRXM0TWg3S2N6Vk9Ba25yQ3VtZzZheHZJREw5eDV3aTZPcE5Yb0ZSVW1oQ3VISy12ZHhqRWp3c3dteU12VzZsSTg1SzZ2OGNtcUlaVGJPcjVmaFM2WEZqbEZiajcxY3BucU1pbzhKQm9PRjdJcnpVZE83aGpuT2kwMTVUUmlTOHlSX2FKR0R1bVBTZFhaaHpsdEZXUjZOeWVFdlJJemNKYm1aSFk0MXpGNnFqUFdGZklOOXpSYkdDS3c4MHFGelpF?oc=5",
+        "original_url": "https://polreskedirikota.com/kemensos-klarifikasi-data-penerima-bansos-terindikasi-judi-online-di-dandangan-kediri-polisi-ingatkan-dampak-judol-2/",
+        "locality": "Kediri",
+        "polsek": null,
+        "location_confidence": 95,
+        "location_evidence": [
+          "Kediri"
+        ],
+        "location_status": "JAWA_TIMUR",
+        "location_source": "title",
+        "issue_type": "AKTIVITAS_ILEGAL",
+        "issue_subtype": "Aktivitas Ilegal",
+        "issue_evidence": [
+          "judi online",
+          "judol"
+        ],
+        "handling_status": "BELUM_ADA_INFORMASI",
+        "handling_evidence": [],
+        "attention_score": 21,
+        "attention_label": "Rendah",
+        "attention_components": {
+          "severity": 14,
+          "polri_relation": 0,
+          "authority": 0,
+          "public_impact": 4,
+          "handling": 0,
+          "evidence": 3,
+          "context_risk": 0,
+          "routine_enforcement_cap": null
+        },
+        "attention_evidence": {
+          "severity": [],
+          "authority": [],
+          "public_impact": [],
+          "evidence": [
+            "satu sumber / informasi awal",
+            "ada tanggapan/klarifikasi"
+          ],
+          "role": [],
+          "issue": [
+            "judi online",
+            "judol"
+          ],
+          "handling": [],
+          "context": [],
+          "positive": []
+        },
+        "case_engine_version": "case-v6.5.4",
+        "case_processed_at": "2026-09-08T22:16:13.508763+00:00"
+      },
       {
         "id": "57fc09eb77555350daaa9045c5d42f74931547ff",
         "title": "Polresta Sidoarjo Bongkar Sindikat Peredaran Uang Palsu Antarprovinsi yang Dibeli Lewat Facebook - Mattanews.co",
@@ -107,7 +260,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-09-08T18:49:46.962428+00:00"
+        "case_processed_at": "2026-09-08T22:00:17.653111+00:00"
       },
       {
         "id": "1ec6e84b39b389dc852db7e297c4d9823d30771d",
@@ -178,7 +331,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-09-08T18:59:51.333567+00:00"
+        "case_processed_at": "2026-09-08T22:16:13.508770+00:00"
       },
       {
         "id": "47b2fdf6e7cc5cb33c636fa4335d95aab9e2adcb",
@@ -245,7 +398,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-09-08T18:49:47.212319+00:00"
+        "case_processed_at": "2026-09-08T22:00:18.003530+00:00"
       },
       {
         "id": "52bd07edcaeb2a6e00e36c2aa570c64bc1ad11e9",
@@ -313,7 +466,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-09-08T18:49:47.412751+00:00"
+        "case_processed_at": "2026-09-08T22:00:18.330383+00:00"
       },
       {
         "id": "8b634a239d3d4f91eb8ac9c1557cd93ccd13b0b0",
@@ -382,7 +535,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-09-08T18:59:51.333574+00:00"
+        "case_processed_at": "2026-09-08T22:16:13.508774+00:00"
       },
       {
         "id": "064320cf75de109c1cbbca647dfebf36da9a36fd",
@@ -451,7 +604,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-09-08T18:59:51.333576+00:00"
+        "case_processed_at": "2026-09-08T22:16:13.508777+00:00"
       },
       {
         "id": "83c5813f6a3e1d49fe2e82c305a52a77930933bd",
@@ -516,7 +669,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-09-08T18:49:47.620172+00:00"
+        "case_processed_at": "2026-09-08T22:00:18.644033+00:00"
       },
       {
         "id": "4fd992189a1c0b2340868b14c65c76b2c9bf0877",
@@ -584,7 +737,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-09-08T18:49:47.912010+00:00"
+        "case_processed_at": "2026-09-08T22:00:19.063060+00:00"
       },
       {
         "id": "2511174243ea99fb4e44b63939513da73301b4b6",
@@ -653,7 +806,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-09-08T18:49:48.133512+00:00"
+        "case_processed_at": "2026-09-08T22:00:19.421382+00:00"
       },
       {
         "id": "02510aeb348185e594a24765aa6177f1c6364def",
@@ -723,7 +876,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-09-08T18:49:48.400730+00:00"
+        "case_processed_at": "2026-09-08T22:00:19.854642+00:00"
       },
       {
         "id": "4388e6bd8b1a8b45421e8cff2be2160a3d01e5f9",
@@ -803,7 +956,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-09-08T18:59:51.333579+00:00"
+        "case_processed_at": "2026-09-08T22:16:13.508780+00:00"
       },
       {
         "id": "47b18b1ca38395ad5518706cfb4ed03ce3b65b85",
@@ -871,7 +1024,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-09-08T18:49:48.599436+00:00"
+        "case_processed_at": "2026-09-08T22:00:20.175277+00:00"
       },
       {
         "id": "f5ab4c8bb88b29617ee49b0c52b0da5af25fb73a",
@@ -942,7 +1095,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-09-08T18:59:51.333581+00:00"
+        "case_processed_at": "2026-09-08T22:16:13.508783+00:00"
       },
       {
         "id": "cd1d69656dcd2a96bee93cb373e7b0b35e97d735",
@@ -1015,7 +1168,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-09-08T18:59:51.333582+00:00"
+        "case_processed_at": "2026-09-08T22:16:13.508786+00:00"
       },
       {
         "id": "4a14c2dd34aa906cefd78aad441612cf9ce7edb1",
@@ -1095,7 +1248,7 @@
           ]
         },
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-09-08T18:49:48.804635+00:00"
+        "case_processed_at": "2026-09-08T22:00:20.505865+00:00"
       },
       {
         "id": "2a7ea05bdc3e328b8dfd98bd95cadad19b1799d1",
@@ -1172,7 +1325,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-09-08T18:59:51.333584+00:00"
+        "case_processed_at": "2026-09-08T22:16:13.508790+00:00"
       },
       {
         "id": "6852feea1ce478e574a14a16fe2ccb0f984b8978",
@@ -1239,7 +1392,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-09-08T18:49:49.025780+00:00"
+        "case_processed_at": "2026-09-08T22:00:20.861369+00:00"
       },
       {
         "id": "c4ee9ad23a2786cb27f8d0f36a493b95a2396095",
@@ -1310,7 +1463,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-09-08T18:59:51.333586+00:00"
+        "case_processed_at": "2026-09-08T22:16:13.508793+00:00"
       },
       {
         "id": "03d7140e9dc5e73ae439aee3b82a20c77d63d1c1",
@@ -1379,7 +1532,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-09-08T18:59:51.333587+00:00"
+        "case_processed_at": "2026-09-08T22:16:13.508795+00:00"
       },
       {
         "id": "fc46bbacc580bdb5ccad103de2053a4ef99f998b",
@@ -1447,7 +1600,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-09-08T18:49:49.281328+00:00"
+        "case_processed_at": "2026-09-08T22:00:21.291259+00:00"
       },
       {
         "id": "000dd5e58e8a9ab778b9d6785631d9b04ce68695",
@@ -1516,7 +1669,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-09-08T18:59:51.333589+00:00"
+        "case_processed_at": "2026-09-08T22:16:13.508798+00:00"
       },
       {
         "id": "2d606af98f57745cc6128aeeb72c9d1f018db743",
@@ -1586,7 +1739,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-09-08T18:49:49.498867+00:00"
+        "case_processed_at": "2026-09-08T22:00:21.640650+00:00"
       },
       {
         "id": "c7bb78bb6c72eef02957d7ec1e9ccd78f88fe801",
@@ -1656,7 +1809,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-09-08T18:49:49.682398+00:00"
+        "case_processed_at": "2026-09-08T22:00:21.932604+00:00"
       },
       {
         "id": "d4a1d11b2883f3a86956153aa7de3525e32f7b27",
@@ -1739,7 +1892,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-09-08T18:59:51.333592+00:00"
+        "case_processed_at": "2026-09-08T22:16:13.508800+00:00"
       },
       {
         "id": "e87a29cdc83da861b831a7bc18b72a4cbf5e4550",
@@ -1807,10 +1960,161 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-09-08T18:49:49.927049+00:00"
+        "case_processed_at": "2026-09-08T22:00:22.311918+00:00"
       }
     ],
     "jatim_items": [
+      {
+        "id": "be251b36144c0aade3aecf1f5c9f6c69a9285378",
+        "title": "Kontraktor Wangsakarta Adukan Pengembang ke Polres Malang, Persoalkan Tagihan Rp1,7 Miliar - Javasatu.com",
+        "url": "https://javasatu.com/berita/kontraktor-wangsakarta-adukan-pengembang-ke-polres-malang-persoalkan-tagihan-rp17-miliar/",
+        "source": "Javasatu.com",
+        "published_at": "2026-09-08T20:43:58+00:00",
+        "collected_at": "2026-09-08T21:53:24.140113+00:00",
+        "region": "Jawa Timur",
+        "area_label": "Malang",
+        "is_jatim": true,
+        "polres": "POLRES MALANG",
+        "category": "NETRAL / LAINNYA",
+        "scope": "neutral",
+        "scope_label": "Netral",
+        "priority": "low",
+        "summary": "Kontraktor Wangsakarta Adukan Pengembang ke Polres Malang, Persoalkan Tagihan Rp1,7 Miliar Javasatu.com",
+        "processing_status": "processed",
+        "classifier_version": "news-v6",
+        "classified_at": "2026-09-08T21:53:24.140113+00:00",
+        "case_id": null,
+        "discovery_families": [],
+        "discovery_tags": [],
+        "discovery_hits": [],
+        "discovery_version": "discovery-v6.5.4",
+        "google_news_url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNbnF4TVJYeUY3aVVnY3R3MGtJNElpVmRScXNHWk1tMkVndVNZenloWllDcDl2WkUtZ0FfZTladjRrT0tDcUpyUGNTMkFDb01kWjQ5c0NHcG9VQnY4VmpxOHpoLVBCaUNRMVg0VmtpcVkwaEIzNjhiMUpQUW96LWtLN0xpN1lGQ0llcS1CMXducFBXd29seDFKdzJGdE80OXJ6VFNUb29lanVaS1F0Vnh4Z0lacDJaejBR?oc=5",
+        "original_url": "https://javasatu.com/berita/kontraktor-wangsakarta-adukan-pengembang-ke-polres-malang-persoalkan-tagihan-rp17-miliar/",
+        "locality": "Malang",
+        "polsek": null,
+        "location_confidence": 100,
+        "location_evidence": [
+          "polres malang",
+          "Malang"
+        ],
+        "location_status": "JAWA_TIMUR",
+        "location_source": "title",
+        "issue_type": "UMUM",
+        "issue_subtype": "Belum Teridentifikasi",
+        "issue_evidence": [],
+        "handling_status": "BELUM_ADA_INFORMASI",
+        "handling_evidence": [],
+        "attention_score": 7,
+        "attention_label": "Rendah",
+        "attention_components": {
+          "severity": 2,
+          "polri_relation": 0,
+          "authority": 0,
+          "public_impact": 4,
+          "handling": 0,
+          "evidence": 1,
+          "context_risk": 0,
+          "routine_enforcement_cap": null
+        },
+        "attention_evidence": {
+          "severity": [],
+          "authority": [],
+          "public_impact": [],
+          "evidence": [
+            "satu sumber / informasi awal"
+          ],
+          "role": [],
+          "issue": [],
+          "handling": [],
+          "context": [],
+          "positive": []
+        },
+        "case_engine_version": "case-v6.5.4",
+        "case_processed_at": "2026-09-08T22:00:17.229339+00:00"
+      },
+      {
+        "id": "9ac5553b76e279ca47ac3b11b7c4f7a4bce2f970",
+        "title": "Kemensos Klarifikasi Data Penerima Bansos Terindikasi Judi Online di Dandangan Kediri, Polisi Ingatkan Dampak Judol - polreskedirikota.com",
+        "url": "https://polreskedirikota.com/kemensos-klarifikasi-data-penerima-bansos-terindikasi-judi-online-di-dandangan-kediri-polisi-ingatkan-dampak-judol-2/",
+        "source": "polreskedirikota.com",
+        "published_at": "2026-09-08T19:31:03+00:00",
+        "collected_at": "2026-09-08T21:53:24.140113+00:00",
+        "region": "Jawa Timur",
+        "area_label": "Kediri",
+        "is_jatim": true,
+        "polres": null,
+        "category": "NEGATIF - AKTIVITAS ILEGAL",
+        "scope": "negative",
+        "scope_label": "Negatif",
+        "priority": "low",
+        "summary": "Kemensos Klarifikasi Data Penerima Bansos Terindikasi Judi Online di Dandangan Kediri, Polisi Ingatkan Dampak Judol polreskedirikota.com",
+        "processing_status": "processed",
+        "classifier_version": "news-v6",
+        "classified_at": "2026-09-08T21:53:24.140113+00:00",
+        "case_id": "CASE-001009",
+        "discovery_families": [
+          "illegal_activity_backing"
+        ],
+        "discovery_tags": [
+          "backing",
+          "illegal_activity",
+          "public_order"
+        ],
+        "discovery_hits": [
+          "judi online",
+          "judol"
+        ],
+        "discovery_version": "discovery-v6.5.4",
+        "google_news_url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxNWThrRklselBQcXU3aXE0NktlOFpPeC1SRXM0TWg3S2N6Vk9Ba25yQ3VtZzZheHZJREw5eDV3aTZPcE5Yb0ZSVW1oQ3VISy12ZHhqRWp3c3dteU12VzZsSTg1SzZ2OGNtcUlaVGJPcjVmaFM2WEZqbEZiajcxY3BucU1pbzhKQm9PRjdJcnpVZE83aGpuT2kwMTVUUmlTOHlSX2FKR0R1bVBTZFhaaHpsdEZXUjZOeWVFdlJJemNKYm1aSFk0MXpGNnFqUFdGZklOOXpSYkdDS3c4MHFGelpF?oc=5",
+        "original_url": "https://polreskedirikota.com/kemensos-klarifikasi-data-penerima-bansos-terindikasi-judi-online-di-dandangan-kediri-polisi-ingatkan-dampak-judol-2/",
+        "locality": "Kediri",
+        "polsek": null,
+        "location_confidence": 95,
+        "location_evidence": [
+          "Kediri"
+        ],
+        "location_status": "JAWA_TIMUR",
+        "location_source": "title",
+        "issue_type": "AKTIVITAS_ILEGAL",
+        "issue_subtype": "Aktivitas Ilegal",
+        "issue_evidence": [
+          "judi online",
+          "judol"
+        ],
+        "handling_status": "BELUM_ADA_INFORMASI",
+        "handling_evidence": [],
+        "attention_score": 21,
+        "attention_label": "Rendah",
+        "attention_components": {
+          "severity": 14,
+          "polri_relation": 0,
+          "authority": 0,
+          "public_impact": 4,
+          "handling": 0,
+          "evidence": 3,
+          "context_risk": 0,
+          "routine_enforcement_cap": null
+        },
+        "attention_evidence": {
+          "severity": [],
+          "authority": [],
+          "public_impact": [],
+          "evidence": [
+            "satu sumber / informasi awal",
+            "ada tanggapan/klarifikasi"
+          ],
+          "role": [],
+          "issue": [
+            "judi online",
+            "judol"
+          ],
+          "handling": [],
+          "context": [],
+          "positive": []
+        },
+        "case_engine_version": "case-v6.5.4",
+        "case_processed_at": "2026-09-08T22:16:13.508763+00:00"
+      },
       {
         "id": "57fc09eb77555350daaa9045c5d42f74931547ff",
         "title": "Polresta Sidoarjo Bongkar Sindikat Peredaran Uang Palsu Antarprovinsi yang Dibeli Lewat Facebook - Mattanews.co",
@@ -1877,7 +2181,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-09-08T18:49:46.962428+00:00"
+        "case_processed_at": "2026-09-08T22:00:17.653111+00:00"
       },
       {
         "id": "1ec6e84b39b389dc852db7e297c4d9823d30771d",
@@ -1948,7 +2252,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-09-08T18:59:51.333567+00:00"
+        "case_processed_at": "2026-09-08T22:16:13.508770+00:00"
       },
       {
         "id": "52bd07edcaeb2a6e00e36c2aa570c64bc1ad11e9",
@@ -2016,7 +2320,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-09-08T18:49:47.412751+00:00"
+        "case_processed_at": "2026-09-08T22:00:18.330383+00:00"
       },
       {
         "id": "4fd992189a1c0b2340868b14c65c76b2c9bf0877",
@@ -2084,7 +2388,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-09-08T18:49:47.912010+00:00"
+        "case_processed_at": "2026-09-08T22:00:19.063060+00:00"
       },
       {
         "id": "02510aeb348185e594a24765aa6177f1c6364def",
@@ -2154,7 +2458,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-09-08T18:49:48.400730+00:00"
+        "case_processed_at": "2026-09-08T22:00:19.854642+00:00"
       },
       {
         "id": "47b18b1ca38395ad5518706cfb4ed03ce3b65b85",
@@ -2222,7 +2526,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-09-08T18:49:48.599436+00:00"
+        "case_processed_at": "2026-09-08T22:00:20.175277+00:00"
       },
       {
         "id": "4a14c2dd34aa906cefd78aad441612cf9ce7edb1",
@@ -2302,7 +2606,7 @@
           ]
         },
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-09-08T18:49:48.804635+00:00"
+        "case_processed_at": "2026-09-08T22:00:20.505865+00:00"
       },
       {
         "id": "c4ee9ad23a2786cb27f8d0f36a493b95a2396095",
@@ -2373,7 +2677,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-09-08T18:59:51.333586+00:00"
+        "case_processed_at": "2026-09-08T22:16:13.508793+00:00"
       },
       {
         "id": "fc46bbacc580bdb5ccad103de2053a4ef99f998b",
@@ -2441,7 +2745,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-09-08T18:49:49.281328+00:00"
+        "case_processed_at": "2026-09-08T22:00:21.291259+00:00"
       },
       {
         "id": "2d606af98f57745cc6128aeeb72c9d1f018db743",
@@ -2511,7 +2815,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-09-08T18:49:49.498867+00:00"
+        "case_processed_at": "2026-09-08T22:00:21.640650+00:00"
       },
       {
         "id": "c7bb78bb6c72eef02957d7ec1e9ccd78f88fe801",
@@ -2581,7 +2885,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-09-08T18:49:49.682398+00:00"
+        "case_processed_at": "2026-09-08T22:00:21.932604+00:00"
       },
       {
         "id": "d4a1d11b2883f3a86956153aa7de3525e32f7b27",
@@ -2664,7 +2968,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-09-08T18:59:51.333592+00:00"
+        "case_processed_at": "2026-09-08T22:16:13.508800+00:00"
       },
       {
         "id": "e87a29cdc83da861b831a7bc18b72a4cbf5e4550",
@@ -2732,7 +3036,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-09-08T18:49:49.927049+00:00"
+        "case_processed_at": "2026-09-08T22:00:22.311918+00:00"
       }
     ],
     "luar_jatim_items": [
@@ -2801,7 +3105,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-09-08T18:49:47.212319+00:00"
+        "case_processed_at": "2026-09-08T22:00:18.003530+00:00"
       },
       {
         "id": "8b634a239d3d4f91eb8ac9c1557cd93ccd13b0b0",
@@ -2870,7 +3174,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-09-08T18:59:51.333574+00:00"
+        "case_processed_at": "2026-09-08T22:16:13.508774+00:00"
       },
       {
         "id": "064320cf75de109c1cbbca647dfebf36da9a36fd",
@@ -2939,7 +3243,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-09-08T18:59:51.333576+00:00"
+        "case_processed_at": "2026-09-08T22:16:13.508777+00:00"
       },
       {
         "id": "83c5813f6a3e1d49fe2e82c305a52a77930933bd",
@@ -3004,7 +3308,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-09-08T18:49:47.620172+00:00"
+        "case_processed_at": "2026-09-08T22:00:18.644033+00:00"
       },
       {
         "id": "2511174243ea99fb4e44b63939513da73301b4b6",
@@ -3073,7 +3377,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-09-08T18:49:48.133512+00:00"
+        "case_processed_at": "2026-09-08T22:00:19.421382+00:00"
       },
       {
         "id": "4388e6bd8b1a8b45421e8cff2be2160a3d01e5f9",
@@ -3153,7 +3457,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-09-08T18:59:51.333579+00:00"
+        "case_processed_at": "2026-09-08T22:16:13.508780+00:00"
       },
       {
         "id": "f5ab4c8bb88b29617ee49b0c52b0da5af25fb73a",
@@ -3224,7 +3528,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-09-08T18:59:51.333581+00:00"
+        "case_processed_at": "2026-09-08T22:16:13.508783+00:00"
       },
       {
         "id": "cd1d69656dcd2a96bee93cb373e7b0b35e97d735",
@@ -3297,7 +3601,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-09-08T18:59:51.333582+00:00"
+        "case_processed_at": "2026-09-08T22:16:13.508786+00:00"
       },
       {
         "id": "2a7ea05bdc3e328b8dfd98bd95cadad19b1799d1",
@@ -3374,7 +3678,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-09-08T18:59:51.333584+00:00"
+        "case_processed_at": "2026-09-08T22:16:13.508790+00:00"
       },
       {
         "id": "6852feea1ce478e574a14a16fe2ccb0f984b8978",
@@ -3441,7 +3745,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-09-08T18:49:49.025780+00:00"
+        "case_processed_at": "2026-09-08T22:00:20.861369+00:00"
       },
       {
         "id": "03d7140e9dc5e73ae439aee3b82a20c77d63d1c1",
@@ -3510,7 +3814,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-09-08T18:59:51.333587+00:00"
+        "case_processed_at": "2026-09-08T22:16:13.508795+00:00"
       },
       {
         "id": "000dd5e58e8a9ab778b9d6785631d9b04ce68695",
@@ -3579,18 +3883,19 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-09-08T18:59:51.333589+00:00"
+        "case_processed_at": "2026-09-08T22:16:13.508798+00:00"
       }
     ]
   },
   "cases": {
-    "active": 11,
-    "priority_high": 0,
-    "jatim": 3,
-    "jatim_priority_high": 0,
-    "articles": 12,
+    "active": 12,
+    "priority_high": 1,
+    "jatim": 4,
+    "jatim_priority_high": 1,
+    "articles": 15,
     "case_ids": [
       "CASE-000949",
+      "CASE-001009",
       "CASE-001050",
       "CASE-001051",
       "CASE-001052",
@@ -3728,7 +4033,7 @@
         ],
         "article_count": 2,
         "created_at": "2026-09-07T04:58:57.910978+00:00",
-        "updated_at": "2026-09-08T18:59:51.110363+00:00",
+        "updated_at": "2026-09-08T22:16:13.112571+00:00",
         "engine_version": "case-v6.5.4",
         "priority_score": 22,
         "priority_breakdown": {
@@ -3756,6 +4061,210 @@
             "sifat berita: negatif",
             "Narkoba / Narkotika",
             "Hubungan Polri belum spesifik"
+          ]
+        }
+      },
+      {
+        "case_id": "CASE-001009",
+        "title": "Diduga Tangkap Lepas Kasus Judol di Kediri, Dua Warga Diamankan Polda Jatim Namun Dikabarkan Bebas Sehari Kemudian - Informasi-Realita.net",
+        "category": "NEGATIF - DUGAAN TANGKAP LEPAS / IMBALAN",
+        "scope": "negative",
+        "region": "Jawa Timur",
+        "locality": "Polda Jatim",
+        "is_jatim": true,
+        "polres": null,
+        "polsek": null,
+        "priority": "high",
+        "attention_score": 70,
+        "attention_label": "Tinggi",
+        "signature": "Jawa Timur",
+        "incident_terms": [
+          "bansos",
+          "bebas",
+          "com",
+          "dampak",
+          "dandangan",
+          "data",
+          "dikabarkan",
+          "informasi",
+          "ingatkan",
+          "jatim",
+          "judi",
+          "judol",
+          "kediri",
+          "kemensos",
+          "kemudian",
+          "klarifikasi",
+          "lepas",
+          "namun",
+          "net",
+          "online",
+          "penerima",
+          "polda",
+          "polreskedirikota",
+          "realita",
+          "sehari",
+          "terindikasi"
+        ],
+        "event_terms": [
+          "bebas",
+          "judi",
+          "judol"
+        ],
+        "location_terms": [
+          "kediri"
+        ],
+        "discovery_families": [
+          "case_handling",
+          "illegal_activity_backing"
+        ],
+        "first_seen": "2026-09-08T01:20:07+00:00",
+        "last_seen": "2026-09-08T21:53:24.140113+00:00",
+        "last_detected_at": "2026-09-08T21:53:24.140113+00:00",
+        "article_ids": [
+          "60be1d133e3dc04f9fcdd7915a2d9022a7029e15",
+          "ef5fd2f37003f4b77e34d0f6aa8c3ba87fe7e67a",
+          "9ac5553b76e279ca47ac3b11b7c4f7a4bce2f970"
+        ],
+        "articles": [
+          {
+            "id": "60be1d133e3dc04f9fcdd7915a2d9022a7029e15",
+            "title": "Diduga Tangkap Lepas Kasus Judol di Kediri, Dua Warga Diamankan Polda Jatim Namun Dikabarkan Bebas Sehari Kemudian - Informasi-Realita.net",
+            "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxQSlI4WDExMzQxb2ZWR18xWktlTnVfdFMyM3VtOU5IYVVEWEJ2bTFKSHFoSjlfVHhEQUQ3VEZ6MGdRN0RIUUxhSE8xZEcwcnhiZkZ0U1J2VnBzUXhZcjFKZDdWN1p5dVJQQ054WW9IZTFuWWZpR01ueWdZeHl0ZS1zc0ppN09UdUNQWE1PUEw1NkIwTzBmYmZXejl5dVptTGJOYjBDTFhWZGpIbDJoYTlVOXBxWEZvVFB5QlZkbkFBUEh2U216S1BidHFNazU4bEFqZWVucUFhUFotYzJnYzhVekRHWFIyVWlGMWZB?oc=5",
+            "published_at": "2026-09-08T01:20:07+00:00",
+            "collected_at": "2026-09-08T04:41:22.866435+00:00",
+            "source": "Informasi-Realita.net",
+            "match_score": 1.0,
+            "priority": "medium",
+            "scope": "negative",
+            "category": "NEGATIF - DUGAAN TANGKAP LEPAS / IMBALAN",
+            "region": "Jawa Timur",
+            "locality": "Polda Jatim",
+            "is_jatim": true,
+            "polres": null,
+            "polsek": null,
+            "issue_type": "INTEGRITAS_DAN_KEUANGAN",
+            "issue_subtype": "Dugaan Tangkap Lepas / Imbalan",
+            "handling_status": "BELUM_ADA_INFORMASI",
+            "handling_evidence": [],
+            "polri_relation": null,
+            "polri_relation_points": 0,
+            "polri_relation_evidence": [],
+            "attention_score": 55,
+            "attention_label": "Sedang",
+            "attention_components": {
+              "severity": 24,
+              "polri_relation": 0,
+              "authority": 0,
+              "public_impact": 12,
+              "handling": 0,
+              "evidence": 1,
+              "context_risk": 0,
+              "routine_enforcement_cap": null
+            }
+          },
+          {
+            "id": "ef5fd2f37003f4b77e34d0f6aa8c3ba87fe7e67a",
+            "title": "Kemensos Klarifikasi Data Penerima Bansos Terindikasi Judi Online di Dandangan Kediri, Polisi Ingatkan Dampak Judol - polreskedirikota.com",
+            "url": "https://polreskedirikota.com/kemensos-klarifikasi-data-penerima-bansos-terindikasi-judi-online-di-dandangan-kediri-polisi-ingatkan-dampak-judol/",
+            "published_at": "2026-09-08T12:50:50+00:00",
+            "collected_at": "2026-09-08T14:34:27.173418+00:00",
+            "source": "polreskedirikota.com",
+            "match_score": 0.7325,
+            "priority": "low",
+            "scope": "negative",
+            "category": "NEGATIF - AKTIVITAS ILEGAL",
+            "region": "Jawa Timur",
+            "locality": "Kediri",
+            "is_jatim": true,
+            "polres": null,
+            "polsek": null,
+            "issue_type": "AKTIVITAS_ILEGAL",
+            "issue_subtype": "Aktivitas Ilegal",
+            "handling_status": "BELUM_ADA_INFORMASI",
+            "handling_evidence": [],
+            "polri_relation": null,
+            "polri_relation_points": 0,
+            "polri_relation_evidence": [],
+            "attention_score": 21,
+            "attention_label": "Rendah",
+            "attention_components": {
+              "severity": 14,
+              "polri_relation": 0,
+              "authority": 0,
+              "public_impact": 4,
+              "handling": 0,
+              "evidence": 3,
+              "context_risk": 0,
+              "routine_enforcement_cap": null
+            }
+          },
+          {
+            "id": "9ac5553b76e279ca47ac3b11b7c4f7a4bce2f970",
+            "title": "Kemensos Klarifikasi Data Penerima Bansos Terindikasi Judi Online di Dandangan Kediri, Polisi Ingatkan Dampak Judol - polreskedirikota.com",
+            "url": "https://polreskedirikota.com/kemensos-klarifikasi-data-penerima-bansos-terindikasi-judi-online-di-dandangan-kediri-polisi-ingatkan-dampak-judol-2/",
+            "published_at": "2026-09-08T19:31:03+00:00",
+            "collected_at": "2026-09-08T21:53:24.140113+00:00",
+            "source": "polreskedirikota.com",
+            "match_score": 1.0,
+            "priority": "low",
+            "scope": "negative",
+            "category": "NEGATIF - AKTIVITAS ILEGAL",
+            "region": "Jawa Timur",
+            "locality": "Kediri",
+            "is_jatim": true,
+            "polres": null,
+            "polsek": null,
+            "issue_type": "AKTIVITAS_ILEGAL",
+            "issue_subtype": "Aktivitas Ilegal",
+            "handling_status": "BELUM_ADA_INFORMASI",
+            "handling_evidence": [],
+            "polri_relation": null,
+            "polri_relation_points": 0,
+            "polri_relation_evidence": [],
+            "attention_score": 21,
+            "attention_label": "Rendah",
+            "attention_components": {
+              "severity": 14,
+              "polri_relation": 0,
+              "authority": 0,
+              "public_impact": 4,
+              "handling": 0,
+              "evidence": 3,
+              "context_risk": 0,
+              "routine_enforcement_cap": null
+            }
+          }
+        ],
+        "article_count": 3,
+        "created_at": "2026-09-08T04:58:39.791240+00:00",
+        "updated_at": "2026-09-08T22:16:13.350849+00:00",
+        "engine_version": "case-v6.5.4",
+        "priority_score": 70,
+        "priority_breakdown": {
+          "severity": 24,
+          "polri_relation": 0,
+          "authority_context": 0,
+          "public_impact": 12,
+          "handling": 0,
+          "evidence": 5,
+          "spread": 3,
+          "escalation": 0,
+          "current_activity": 1,
+          "context_risk": 0
+        },
+        "priority_evidence": {
+          "unique_sources": 2,
+          "active_today_articles": 1,
+          "escalation": [],
+          "issue_type": "INTEGRITAS_DAN_KEUANGAN",
+          "issue_subtype": "Dugaan Tangkap Lepas / Imbalan",
+          "sentiment": "negative",
+          "polri_relation": "SUBJEK_PERMASALAHAN",
+          "handling_status": "BELUM_ADA_INFORMASI",
+          "reasons": [
+            "indikasi pelanggaran integritas/keuangan terdeteksi secara kontekstual",
+            "kata kunci dibaca bersama konteks dugaan, aktor, dan/atau lokasi Polri"
           ]
         }
       },
@@ -3831,7 +4340,7 @@
         ],
         "article_count": 1,
         "created_at": "2026-09-08T18:58:05.572913+00:00",
-        "updated_at": "2026-09-08T18:59:51.315865+00:00",
+        "updated_at": "2026-09-08T22:16:13.480138+00:00",
         "engine_version": "case-v6.5.4",
         "priority_score": 30,
         "priority_breakdown": {
@@ -3933,7 +4442,7 @@
         ],
         "article_count": 1,
         "created_at": "2026-09-08T18:58:05.796196+00:00",
-        "updated_at": "2026-09-08T18:59:51.317747+00:00",
+        "updated_at": "2026-09-08T22:16:13.483258+00:00",
         "engine_version": "case-v6.5.4",
         "priority_score": 30,
         "priority_breakdown": {
@@ -4036,7 +4545,7 @@
         ],
         "article_count": 1,
         "created_at": "2026-09-08T18:58:06.015544+00:00",
-        "updated_at": "2026-09-08T18:59:51.319548+00:00",
+        "updated_at": "2026-09-08T22:16:13.486192+00:00",
         "engine_version": "case-v6.5.4",
         "priority_score": 49,
         "priority_breakdown": {
@@ -4140,7 +4649,7 @@
         ],
         "article_count": 1,
         "created_at": "2026-09-08T18:58:06.195872+00:00",
-        "updated_at": "2026-09-08T18:59:51.321210+00:00",
+        "updated_at": "2026-09-08T22:16:13.488961+00:00",
         "engine_version": "case-v6.5.4",
         "priority_score": 34,
         "priority_breakdown": {
@@ -4248,7 +4757,7 @@
         ],
         "article_count": 1,
         "created_at": "2026-09-08T18:58:06.483727+00:00",
-        "updated_at": "2026-09-08T18:59:51.323393+00:00",
+        "updated_at": "2026-09-08T22:16:13.492567+00:00",
         "engine_version": "case-v6.5.4",
         "priority_score": 23,
         "priority_breakdown": {
@@ -4356,7 +4865,7 @@
         ],
         "article_count": 1,
         "created_at": "2026-09-08T18:58:06.695392+00:00",
-        "updated_at": "2026-09-08T18:59:51.325173+00:00",
+        "updated_at": "2026-09-08T22:16:13.495498+00:00",
         "engine_version": "case-v6.5.4",
         "priority_score": 20,
         "priority_breakdown": {
@@ -4463,7 +4972,7 @@
         ],
         "article_count": 1,
         "created_at": "2026-09-08T18:58:06.885056+00:00",
-        "updated_at": "2026-09-08T18:59:51.327014+00:00",
+        "updated_at": "2026-09-08T22:16:13.498531+00:00",
         "engine_version": "case-v6.5.4",
         "priority_score": 8,
         "priority_breakdown": {
@@ -4568,7 +5077,7 @@
         ],
         "article_count": 1,
         "created_at": "2026-09-08T18:58:07.102256+00:00",
-        "updated_at": "2026-09-08T18:59:51.328866+00:00",
+        "updated_at": "2026-09-08T22:16:13.501617+00:00",
         "engine_version": "case-v6.5.4",
         "priority_score": 32,
         "priority_breakdown": {
@@ -4673,7 +5182,7 @@
         ],
         "article_count": 1,
         "created_at": "2026-09-08T18:58:07.340515+00:00",
-        "updated_at": "2026-09-08T18:59:51.330814+00:00",
+        "updated_at": "2026-09-08T22:16:13.504793+00:00",
         "engine_version": "case-v6.5.4",
         "priority_score": 34,
         "priority_breakdown": {
@@ -4785,7 +5294,7 @@
         ],
         "article_count": 1,
         "created_at": "2026-09-08T18:58:07.581313+00:00",
-        "updated_at": "2026-09-08T18:59:51.332727+00:00",
+        "updated_at": "2026-09-08T22:16:13.508036+00:00",
         "engine_version": "case-v6.5.4",
         "priority_score": 38,
         "priority_breakdown": {
@@ -4943,7 +5452,7 @@
         ],
         "article_count": 2,
         "created_at": "2026-09-07T04:58:57.910978+00:00",
-        "updated_at": "2026-09-08T18:59:51.110363+00:00",
+        "updated_at": "2026-09-08T22:16:13.112571+00:00",
         "engine_version": "case-v6.5.4",
         "priority_score": 22,
         "priority_breakdown": {
@@ -4971,6 +5480,210 @@
             "sifat berita: negatif",
             "Narkoba / Narkotika",
             "Hubungan Polri belum spesifik"
+          ]
+        }
+      },
+      {
+        "case_id": "CASE-001009",
+        "title": "Diduga Tangkap Lepas Kasus Judol di Kediri, Dua Warga Diamankan Polda Jatim Namun Dikabarkan Bebas Sehari Kemudian - Informasi-Realita.net",
+        "category": "NEGATIF - DUGAAN TANGKAP LEPAS / IMBALAN",
+        "scope": "negative",
+        "region": "Jawa Timur",
+        "locality": "Polda Jatim",
+        "is_jatim": true,
+        "polres": null,
+        "polsek": null,
+        "priority": "high",
+        "attention_score": 70,
+        "attention_label": "Tinggi",
+        "signature": "Jawa Timur",
+        "incident_terms": [
+          "bansos",
+          "bebas",
+          "com",
+          "dampak",
+          "dandangan",
+          "data",
+          "dikabarkan",
+          "informasi",
+          "ingatkan",
+          "jatim",
+          "judi",
+          "judol",
+          "kediri",
+          "kemensos",
+          "kemudian",
+          "klarifikasi",
+          "lepas",
+          "namun",
+          "net",
+          "online",
+          "penerima",
+          "polda",
+          "polreskedirikota",
+          "realita",
+          "sehari",
+          "terindikasi"
+        ],
+        "event_terms": [
+          "bebas",
+          "judi",
+          "judol"
+        ],
+        "location_terms": [
+          "kediri"
+        ],
+        "discovery_families": [
+          "case_handling",
+          "illegal_activity_backing"
+        ],
+        "first_seen": "2026-09-08T01:20:07+00:00",
+        "last_seen": "2026-09-08T21:53:24.140113+00:00",
+        "last_detected_at": "2026-09-08T21:53:24.140113+00:00",
+        "article_ids": [
+          "60be1d133e3dc04f9fcdd7915a2d9022a7029e15",
+          "ef5fd2f37003f4b77e34d0f6aa8c3ba87fe7e67a",
+          "9ac5553b76e279ca47ac3b11b7c4f7a4bce2f970"
+        ],
+        "articles": [
+          {
+            "id": "60be1d133e3dc04f9fcdd7915a2d9022a7029e15",
+            "title": "Diduga Tangkap Lepas Kasus Judol di Kediri, Dua Warga Diamankan Polda Jatim Namun Dikabarkan Bebas Sehari Kemudian - Informasi-Realita.net",
+            "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxQSlI4WDExMzQxb2ZWR18xWktlTnVfdFMyM3VtOU5IYVVEWEJ2bTFKSHFoSjlfVHhEQUQ3VEZ6MGdRN0RIUUxhSE8xZEcwcnhiZkZ0U1J2VnBzUXhZcjFKZDdWN1p5dVJQQ054WW9IZTFuWWZpR01ueWdZeHl0ZS1zc0ppN09UdUNQWE1PUEw1NkIwTzBmYmZXejl5dVptTGJOYjBDTFhWZGpIbDJoYTlVOXBxWEZvVFB5QlZkbkFBUEh2U216S1BidHFNazU4bEFqZWVucUFhUFotYzJnYzhVekRHWFIyVWlGMWZB?oc=5",
+            "published_at": "2026-09-08T01:20:07+00:00",
+            "collected_at": "2026-09-08T04:41:22.866435+00:00",
+            "source": "Informasi-Realita.net",
+            "match_score": 1.0,
+            "priority": "medium",
+            "scope": "negative",
+            "category": "NEGATIF - DUGAAN TANGKAP LEPAS / IMBALAN",
+            "region": "Jawa Timur",
+            "locality": "Polda Jatim",
+            "is_jatim": true,
+            "polres": null,
+            "polsek": null,
+            "issue_type": "INTEGRITAS_DAN_KEUANGAN",
+            "issue_subtype": "Dugaan Tangkap Lepas / Imbalan",
+            "handling_status": "BELUM_ADA_INFORMASI",
+            "handling_evidence": [],
+            "polri_relation": null,
+            "polri_relation_points": 0,
+            "polri_relation_evidence": [],
+            "attention_score": 55,
+            "attention_label": "Sedang",
+            "attention_components": {
+              "severity": 24,
+              "polri_relation": 0,
+              "authority": 0,
+              "public_impact": 12,
+              "handling": 0,
+              "evidence": 1,
+              "context_risk": 0,
+              "routine_enforcement_cap": null
+            }
+          },
+          {
+            "id": "ef5fd2f37003f4b77e34d0f6aa8c3ba87fe7e67a",
+            "title": "Kemensos Klarifikasi Data Penerima Bansos Terindikasi Judi Online di Dandangan Kediri, Polisi Ingatkan Dampak Judol - polreskedirikota.com",
+            "url": "https://polreskedirikota.com/kemensos-klarifikasi-data-penerima-bansos-terindikasi-judi-online-di-dandangan-kediri-polisi-ingatkan-dampak-judol/",
+            "published_at": "2026-09-08T12:50:50+00:00",
+            "collected_at": "2026-09-08T14:34:27.173418+00:00",
+            "source": "polreskedirikota.com",
+            "match_score": 0.7325,
+            "priority": "low",
+            "scope": "negative",
+            "category": "NEGATIF - AKTIVITAS ILEGAL",
+            "region": "Jawa Timur",
+            "locality": "Kediri",
+            "is_jatim": true,
+            "polres": null,
+            "polsek": null,
+            "issue_type": "AKTIVITAS_ILEGAL",
+            "issue_subtype": "Aktivitas Ilegal",
+            "handling_status": "BELUM_ADA_INFORMASI",
+            "handling_evidence": [],
+            "polri_relation": null,
+            "polri_relation_points": 0,
+            "polri_relation_evidence": [],
+            "attention_score": 21,
+            "attention_label": "Rendah",
+            "attention_components": {
+              "severity": 14,
+              "polri_relation": 0,
+              "authority": 0,
+              "public_impact": 4,
+              "handling": 0,
+              "evidence": 3,
+              "context_risk": 0,
+              "routine_enforcement_cap": null
+            }
+          },
+          {
+            "id": "9ac5553b76e279ca47ac3b11b7c4f7a4bce2f970",
+            "title": "Kemensos Klarifikasi Data Penerima Bansos Terindikasi Judi Online di Dandangan Kediri, Polisi Ingatkan Dampak Judol - polreskedirikota.com",
+            "url": "https://polreskedirikota.com/kemensos-klarifikasi-data-penerima-bansos-terindikasi-judi-online-di-dandangan-kediri-polisi-ingatkan-dampak-judol-2/",
+            "published_at": "2026-09-08T19:31:03+00:00",
+            "collected_at": "2026-09-08T21:53:24.140113+00:00",
+            "source": "polreskedirikota.com",
+            "match_score": 1.0,
+            "priority": "low",
+            "scope": "negative",
+            "category": "NEGATIF - AKTIVITAS ILEGAL",
+            "region": "Jawa Timur",
+            "locality": "Kediri",
+            "is_jatim": true,
+            "polres": null,
+            "polsek": null,
+            "issue_type": "AKTIVITAS_ILEGAL",
+            "issue_subtype": "Aktivitas Ilegal",
+            "handling_status": "BELUM_ADA_INFORMASI",
+            "handling_evidence": [],
+            "polri_relation": null,
+            "polri_relation_points": 0,
+            "polri_relation_evidence": [],
+            "attention_score": 21,
+            "attention_label": "Rendah",
+            "attention_components": {
+              "severity": 14,
+              "polri_relation": 0,
+              "authority": 0,
+              "public_impact": 4,
+              "handling": 0,
+              "evidence": 3,
+              "context_risk": 0,
+              "routine_enforcement_cap": null
+            }
+          }
+        ],
+        "article_count": 3,
+        "created_at": "2026-09-08T04:58:39.791240+00:00",
+        "updated_at": "2026-09-08T22:16:13.350849+00:00",
+        "engine_version": "case-v6.5.4",
+        "priority_score": 70,
+        "priority_breakdown": {
+          "severity": 24,
+          "polri_relation": 0,
+          "authority_context": 0,
+          "public_impact": 12,
+          "handling": 0,
+          "evidence": 5,
+          "spread": 3,
+          "escalation": 0,
+          "current_activity": 1,
+          "context_risk": 0
+        },
+        "priority_evidence": {
+          "unique_sources": 2,
+          "active_today_articles": 1,
+          "escalation": [],
+          "issue_type": "INTEGRITAS_DAN_KEUANGAN",
+          "issue_subtype": "Dugaan Tangkap Lepas / Imbalan",
+          "sentiment": "negative",
+          "polri_relation": "SUBJEK_PERMASALAHAN",
+          "handling_status": "BELUM_ADA_INFORMASI",
+          "reasons": [
+            "indikasi pelanggaran integritas/keuangan terdeteksi secara kontekstual",
+            "kata kunci dibaca bersama konteks dugaan, aktor, dan/atau lokasi Polri"
           ]
         }
       },
@@ -5050,7 +5763,7 @@
         ],
         "article_count": 1,
         "created_at": "2026-09-08T18:58:06.885056+00:00",
-        "updated_at": "2026-09-08T18:59:51.327014+00:00",
+        "updated_at": "2026-09-08T22:16:13.498531+00:00",
         "engine_version": "case-v6.5.4",
         "priority_score": 8,
         "priority_breakdown": {
@@ -5161,7 +5874,7 @@
         ],
         "article_count": 1,
         "created_at": "2026-09-08T18:58:07.581313+00:00",
-        "updated_at": "2026-09-08T18:59:51.332727+00:00",
+        "updated_at": "2026-09-08T22:16:13.508036+00:00",
         "engine_version": "case-v6.5.4",
         "priority_score": 38,
         "priority_breakdown": {
@@ -5195,63 +5908,120 @@
     ]
   },
   "social": {
-    "detected": 27,
-    "jatim": 0,
-    "negative": 20,
-    "priority_high": 1,
+    "detected": 80,
+    "jatim": 2,
+    "negative": 49,
+    "priority_high": 21,
     "video_ids": [
+      "66Ba-MaMLDc",
+      "JjkIDNSMnkc",
+      "zXyMkgTMw8M",
       "276HoL1En3U",
       "fpWHyxssL5o",
       "0uuM-jN1eDk",
+      "SQ-Zu4TiDtc",
       "sXfN-peRN4U",
       "lldl1yexdZQ",
+      "lc-ph5yjGTY",
+      "X7iu0U0O-j0",
+      "DLoYqQdLikk",
+      "koe7yYaQ-i4",
+      "0TwEOjJ-4_c",
+      "TLfQo_DskCM",
+      "eo4hRiZxFrQ",
+      "96IgL7tvEwQ",
+      "ci--MmRjC7M",
       "xKnpYe6ScpE",
+      "iB9wtQZ174M",
+      "V9uAvEZbBWY",
+      "RQNsPn47nkI",
+      "hFITGOaH3rQ",
+      "OUAUX2v1zlI",
+      "TV_Dh1DXv84",
+      "HV_E_11dIiU",
+      "x1Q30DUmV9Q",
+      "2UKmknGGiww",
+      "RQGIjUDBhZ8",
+      "h3OfQ2V4lT8",
+      "f-wO76r3GQE",
+      "AQ9rdhAsVoU",
+      "qS_paYecCZM",
       "uzl32RHaYSc",
+      "kGZNwDkSy7Y",
+      "pglLcV-sZS4",
+      "XsjUFaChZAA",
+      "gQv2buig91Q",
+      "i67sUAb8hU0",
       "9aeqhkDr9E0",
+      "odPLI8Wqsjg",
       "Sa2vDYj8e-U",
       "dnt37KuTgcs",
+      "0zGTNVj5nws",
+      "6NS-HovTnvI",
       "R3ldy6ImGhs",
       "vgnDW9YF2hE",
+      "MrnZHEFmUKA",
       "933S-adEoEE",
+      "iuzUTboA2wo",
+      "o_Pzx25e_NE",
+      "4EgsDJ8YivY",
       "MNEQDN2taJQ",
+      "9IGAd8nPG9E",
+      "-8-NBcA4SnE",
+      "fVc4PyDhEPk",
+      "6QpWqwcwgdw",
       "oJkbu0cypOI",
+      "hx7oCqTuKJE",
       "8a18SkUqu3A",
+      "CD1ZsXSlQdc",
       "5pbzb1QdzQA",
       "x96OTBKtpKw",
       "rLd0zl3tmlM",
       "ieXTnnkGNoM",
+      "Gl_ldPMNgE0",
+      "_ICkXxDLwU0",
+      "CGsweH0N5TY",
+      "iUGL8IaAHa8",
       "IPJFHqbhzuY",
+      "U6GRkoO9Oc0",
+      "S5xz4mi7O2E",
       "x2nAI7C2eis",
       "dvattYKePMY",
       "xg8wVIuPh6E",
+      "w0JkDOhg4D0",
+      "4YXozka0YjY",
       "NmRUHAHf91c",
       "SoXLLWnsYDI",
       "SDAw7H2UNhc"
     ]
   },
   "jatim": {
-    "news_today": 13,
-    "negative_today": 3,
+    "news_today": 15,
+    "negative_today": 4,
     "positive_today": 2,
     "case_scope_today": 0,
-    "neutral_today": 8,
-    "case_today": 3,
-    "case_high_active": 0,
+    "neutral_today": 9,
+    "case_today": 4,
+    "case_high_active": 1,
     "article_high_today": 0,
     "outside_jatim_today": 12
   },
   "regions": [
     {
-      "name": "Sidoarjo",
-      "count": 3
+      "name": "Malang",
+      "count": 4
     },
     {
-      "name": "Malang",
+      "name": "Sidoarjo",
       "count": 3
     },
     {
       "name": "Jombang",
       "count": 2
+    },
+    {
+      "name": "Kediri",
+      "count": 1
     },
     {
       "name": "Bangkalan",
@@ -5276,12 +6046,12 @@
   ],
   "polres": [
     {
-      "name": "POLRESTA SIDOARJO",
+      "name": "POLRES MALANG",
       "count": 3
     },
     {
-      "name": "POLRES MALANG",
-      "count": 2
+      "name": "POLRESTA SIDOARJO",
+      "count": 3
     },
     {
       "name": "POLRES BATU",
@@ -5307,11 +6077,15 @@
   "categories": [
     {
       "name": "NETRAL / LAINNYA",
-      "count": 8
+      "count": 9
     },
     {
       "name": "POSITIF / PENEGAKAN HUKUM",
       "count": 2
+    },
+    {
+      "name": "NEGATIF - AKTIVITAS ILEGAL",
+      "count": 1
     },
     {
       "name": "NEGATIF - NARKOBA / NARKOTIKA",
@@ -5327,19 +6101,19 @@
     }
   ],
   "summary": {
-    "news_today": 25,
-    "negative_today": 11,
-    "cases_today": 11,
-    "priority_high": 0,
+    "news_today": 27,
+    "negative_today": 12,
+    "cases_today": 12,
+    "priority_high": 1,
     "article_priority_high": 0,
-    "jatim_news": 13,
-    "jatim_negative": 3,
+    "jatim_news": 15,
+    "jatim_negative": 4,
     "jatim_positive": 2,
     "jatim_case_scope": 0,
-    "jatim_neutral": 8,
-    "jatim_cases_today": 3,
-    "jatim_case_high_active": 0,
+    "jatim_neutral": 9,
+    "jatim_cases_today": 4,
+    "jatim_case_high_active": 1,
     "luar_jatim_news": 12,
-    "youtube_today": 27
+    "youtube_today": 80
   }
 }
