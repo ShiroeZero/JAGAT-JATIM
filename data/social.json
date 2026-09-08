@@ -1,21 +1,21 @@
 {
-  "generated_at": "2026-09-07T20:56:25.946472+00:00",
+  "generated_at": "2026-09-08T00:22:32.182213+00:00",
   "platform": "YouTube",
-  "query_cursor": 9,
+  "query_cursor": 1,
   "query_batch_size": 3,
   "query_success": 3,
   "query_skipped": 0,
   "quota_warning": false,
   "quota_block_date": null,
-  "total": 1253,
-  "new_videos": 2,
+  "total": 1271,
+  "new_videos": 18,
   "statistics": {
-    "total": 1253,
+    "total": 1271,
     "jatim": 79,
-    "negative": 463,
-    "incident": 36,
+    "negative": 467,
+    "incident": 37,
     "case": 181,
-    "neutral": 519,
+    "neutral": 532,
     "noise": 10,
     "high_priority": 222
   },
@@ -42,7 +42,57 @@
       "location_source": null,
       "location_evidence": [],
       "priority": "high",
-      "collected_at": "2026-09-07T20:56:25.946472+00:00"
+      "collected_at": "2026-09-08T00:22:32.182213+00:00"
+    },
+    {
+      "id": "5e459042ff880099d9573a3310d8d29dab26414a",
+      "video_id": "3VfQwjp2FSs",
+      "platform": "YouTube",
+      "type": "video",
+      "title": "Viral Video Perempuan Diduga Dipukul di Taman Kota Pekanbaru, Korban Lapor Polisi",
+      "channel": "RiauAktual ",
+      "published_at": "2026-09-07T16:19:16Z",
+      "url": "https://www.youtube.com/watch?v=3VfQwjp2FSs",
+      "thumbnail": "https://i.ytimg.com/vi/3VfQwjp2FSs/hqdefault.jpg",
+      "description": "PEKANBARU (RA) - Video yang memperlihatkan dugaan aksi kekerasan terhadap seorang perempuan di Taman Kota ...",
+      "relevance": "high",
+      "scope": "negative",
+      "category": "Kekerasan / Penganiayaan",
+      "classification_score": 100,
+      "is_jatim": false,
+      "region": "Indonesia",
+      "polres": null,
+      "location_confidence": 0,
+      "location_source": "outside",
+      "location_evidence": [
+        "LUAR:pekanbaru"
+      ],
+      "priority": "medium",
+      "collected_at": "2026-09-08T00:22:32.182213+00:00"
+    },
+    {
+      "id": "6ef627ad21f5d6aa0d5d161b4a172db51460a2c5",
+      "video_id": "hPmiNAQEqu4",
+      "platform": "YouTube",
+      "type": "video",
+      "title": "Can Officers Use Force Just Because You’re Being Mouthy?",
+      "channel": "Brian Zeiger",
+      "published_at": "2026-09-07T15:02:55Z",
+      "url": "https://www.youtube.com/watch?v=hPmiNAQEqu4",
+      "thumbnail": "https://i.ytimg.com/vi/hPmiNAQEqu4/hqdefault.jpg",
+      "description": "Harsh words alone do not permit officers to use force, issue a citation, or make an arrest; that changes when statements become a ...",
+      "relevance": "low",
+      "scope": "neutral",
+      "category": "Tidak Relevan",
+      "classification_score": 0,
+      "is_jatim": false,
+      "region": "Indonesia",
+      "polres": null,
+      "location_confidence": 0,
+      "location_source": null,
+      "location_evidence": [],
+      "priority": "low",
+      "collected_at": "2026-09-08T00:22:32.182213+00:00"
     },
     {
       "id": "31e31ab77758fcc9634479c79f612157bff266fc",
@@ -70,6 +120,102 @@
       ],
       "priority": "low",
       "collected_at": "2026-09-07T16:49:55.615287+00:00"
+    },
+    {
+      "id": "14f2df97ff0b0e4eb38923c55646bdad3f251eed",
+      "video_id": "oJkbu0cypOI",
+      "platform": "YouTube",
+      "type": "video",
+      "title": "Officer&#39;s Excessive Force On Unarmed Man!! #shorts #reaction Reaction!",
+      "channel": "Drool Smith",
+      "published_at": "2026-09-07T12:30:27Z",
+      "url": "https://www.youtube.com/watch?v=oJkbu0cypOI",
+      "thumbnail": "https://i.ytimg.com/vi/oJkbu0cypOI/hqdefault.jpg",
+      "description": "",
+      "relevance": "low",
+      "scope": "neutral",
+      "category": "Tidak Relevan",
+      "classification_score": 0,
+      "is_jatim": false,
+      "region": "Indonesia",
+      "polres": null,
+      "location_confidence": 0,
+      "location_source": null,
+      "location_evidence": [],
+      "priority": "low",
+      "collected_at": "2026-09-08T00:22:32.182213+00:00"
+    },
+    {
+      "id": "57437150d7b4e30dfbd7e6296ee8d1bbc754213d",
+      "video_id": "8a18SkUqu3A",
+      "platform": "YouTube",
+      "type": "video",
+      "title": "🔥REKAMAN CCTV MEMBONGKAR SEMUANYA! Kebohongan Oknum Polisi Akhirnya Terbongkar di Depan Banyak Orang",
+      "channel": "Ceritara",
+      "published_at": "2026-09-07T12:00:23Z",
+      "url": "https://www.youtube.com/watch?v=8a18SkUqu3A",
+      "thumbnail": "https://i.ytimg.com/vi/8a18SkUqu3A/hqdefault.jpg",
+      "description": "Sebuah pemeriksaan kendaraan di tengah jalan berubah menjadi kejadian yang membuat banyak orang terkejut. Seorang ...",
+      "relevance": "high",
+      "scope": "negative",
+      "category": "Oknum / Pelanggaran Anggota",
+      "classification_score": 100,
+      "is_jatim": false,
+      "region": "Indonesia",
+      "polres": null,
+      "location_confidence": 0,
+      "location_source": null,
+      "location_evidence": [],
+      "priority": "low",
+      "collected_at": "2026-09-08T00:22:32.182213+00:00"
+    },
+    {
+      "id": "5f5d925174492103c6539c5e45bc204cde2d3abd",
+      "video_id": "5pbzb1QdzQA",
+      "platform": "YouTube",
+      "type": "video",
+      "title": "Dikejar Sampai Kubangan! Detik-Detik Istri Sah Bongkar Kejahatan Oknum Polisi Sumut di Depan Mapolda",
+      "channel": "Sisi Lain Takdir",
+      "published_at": "2026-09-07T11:00:21Z",
+      "url": "https://www.youtube.com/watch?v=5pbzb1QdzQA",
+      "thumbnail": "https://i.ytimg.com/vi/5pbzb1QdzQA/hqdefault.jpg",
+      "description": "Dikejar Sampai Kubangan! Detik-Detik Istri Sah Bongkar Kejahatan Oknum Polisi Sumut di Depan Mapolda! Kisah nyata nan ...",
+      "relevance": "high",
+      "scope": "negative",
+      "category": "Oknum / Pelanggaran Anggota",
+      "classification_score": 100,
+      "is_jatim": false,
+      "region": "Indonesia",
+      "polres": null,
+      "location_confidence": 0,
+      "location_source": null,
+      "location_evidence": [],
+      "priority": "low",
+      "collected_at": "2026-09-08T00:22:32.182213+00:00"
+    },
+    {
+      "id": "9220ab244ecc7d1ac41c87d0b05184b86edd212b",
+      "video_id": "x96OTBKtpKw",
+      "platform": "YouTube",
+      "type": "video",
+      "title": "Warga Tangkap Pelaku Pencurian Ternak di Haharu, Diduga Oknum Polisi",
+      "channel": "POS KUPANG",
+      "published_at": "2026-09-07T10:43:14Z",
+      "url": "https://www.youtube.com/watch?v=x96OTBKtpKw",
+      "thumbnail": "https://i.ytimg.com/vi/x96OTBKtpKw/hqdefault.jpg",
+      "description": "POS-KUPANG.COM - Sejumlah warga di Desa Praibakul, Kecamatan Haharu, menangkap dan mengamankan seorang oknum ...",
+      "relevance": "high",
+      "scope": "negative",
+      "category": "Oknum / Pelanggaran Anggota",
+      "classification_score": 100,
+      "is_jatim": false,
+      "region": "Indonesia",
+      "polres": null,
+      "location_confidence": 0,
+      "location_source": null,
+      "location_evidence": [],
+      "priority": "medium",
+      "collected_at": "2026-09-08T00:22:32.182213+00:00"
     },
     {
       "id": "bf46e15934e510b21e69f470f53575349bb97e0d",
@@ -120,7 +266,7 @@
       "location_source": null,
       "location_evidence": [],
       "priority": "low",
-      "collected_at": "2026-09-07T10:41:16.964353+00:00"
+      "collected_at": "2026-09-08T00:22:32.182213+00:00"
     },
     {
       "id": "333a499a3ebd93194638ce54e5d1478f838795d5",
@@ -195,6 +341,30 @@
       "collected_at": "2026-09-07T10:41:16.964353+00:00"
     },
     {
+      "id": "9aeb7d7ae0be100adfa6ca6061d5083641b1c2e1",
+      "video_id": "5FlvIxb4eOM",
+      "platform": "YouTube",
+      "type": "video",
+      "title": "Cop Slams Teenage Girl, Then Her Dad Shows Up/4",
+      "channel": "Josh Henderson",
+      "published_at": "2026-09-07T09:12:55Z",
+      "url": "https://www.youtube.com/watch?v=5FlvIxb4eOM",
+      "thumbnail": "https://i.ytimg.com/vi/5FlvIxb4eOM/hqdefault.jpg",
+      "description": "Cop Slams 18-Year-Old High School Senior to the Ground During Traffic Stop — Father Confronts Officer | Complete Case ...",
+      "relevance": "low",
+      "scope": "neutral",
+      "category": "Tidak Relevan",
+      "classification_score": 0,
+      "is_jatim": false,
+      "region": "Indonesia",
+      "polres": null,
+      "location_confidence": 0,
+      "location_source": null,
+      "location_evidence": [],
+      "priority": "low",
+      "collected_at": "2026-09-08T00:22:32.182213+00:00"
+    },
+    {
       "id": "474c6770586980c530be056d127e1ceac7414e9a",
       "video_id": "CGsweH0N5TY",
       "platform": "YouTube",
@@ -243,7 +413,7 @@
       "location_source": null,
       "location_evidence": [],
       "priority": "low",
-      "collected_at": "2026-09-07T10:41:16.964353+00:00"
+      "collected_at": "2026-09-08T00:22:32.182213+00:00"
     },
     {
       "id": "cc89518c7049ba41a901fce562baf90f563aab10",
@@ -319,7 +489,7 @@
       "location_source": null,
       "location_evidence": [],
       "priority": "low",
-      "collected_at": "2026-09-07T20:56:25.946472+00:00"
+      "collected_at": "2026-09-08T00:22:32.182213+00:00"
     },
     {
       "id": "1648e29a9918d867ae6d20e7059b97cb6f4b17d0",
@@ -415,7 +585,7 @@
       "location_source": null,
       "location_evidence": [],
       "priority": "low",
-      "collected_at": "2026-09-07T10:41:16.964353+00:00"
+      "collected_at": "2026-09-08T00:22:32.182213+00:00"
     },
     {
       "id": "76dbdd39dd9ccace947eb76d0e603bad16a58d81",
@@ -487,7 +657,7 @@
       "location_source": null,
       "location_evidence": [],
       "priority": "low",
-      "collected_at": "2026-09-07T10:41:16.964353+00:00"
+      "collected_at": "2026-09-08T00:22:32.182213+00:00"
     },
     {
       "id": "0d4cbfe2c96fd1800de3f1fc53fd6f7af6d6db44",
@@ -511,7 +681,7 @@
       "location_source": null,
       "location_evidence": [],
       "priority": "low",
-      "collected_at": "2026-09-07T10:41:16.964353+00:00"
+      "collected_at": "2026-09-08T00:22:32.182213+00:00"
     },
     {
       "id": "523e77ec22ee75ebe7ce949d50fefdb95ce605e7",
@@ -584,6 +754,30 @@
       "location_evidence": [],
       "priority": "low",
       "collected_at": "2026-09-07T10:41:16.964353+00:00"
+    },
+    {
+      "id": "d03795ce96a7e2d5e7062909827713291cab44fd",
+      "video_id": "1YSoD4N0S48",
+      "platform": "YouTube",
+      "type": "video",
+      "title": "Waukesha police respond to domestic abuse incident",
+      "channel": "WISN 12 News",
+      "published_at": "2026-09-07T04:04:29Z",
+      "url": "https://www.youtube.com/watch?v=1YSoD4N0S48",
+      "thumbnail": "https://i.ytimg.com/vi/1YSoD4N0S48/hqdefault.jpg",
+      "description": "Officials say the suspect was armed inside a Waukesha apartment complex WISN 12 is your home for Wisconsin breaking news ...",
+      "relevance": "low",
+      "scope": "neutral",
+      "category": "Tidak Relevan",
+      "classification_score": 0,
+      "is_jatim": false,
+      "region": "Indonesia",
+      "polres": null,
+      "location_confidence": 0,
+      "location_source": null,
+      "location_evidence": [],
+      "priority": "low",
+      "collected_at": "2026-09-08T00:22:32.182213+00:00"
     },
     {
       "id": "006b0f8b4970ac835dcc9b54cd7d9067b95d9c70",
@@ -802,6 +996,78 @@
       "collected_at": "2026-09-07T10:41:16.964353+00:00"
     },
     {
+      "id": "1a5ad6eb1abb3802f5da2205838aabe8d4fd2f2d",
+      "video_id": "NmRUHAHf91c",
+      "platform": "YouTube",
+      "type": "video",
+      "title": "Have you seen the F!SHY Policeman SEX TAPE?",
+      "channel": "THE 119 Channel",
+      "published_at": "2026-09-07T00:39:24Z",
+      "url": "https://www.youtube.com/watch?v=NmRUHAHf91c",
+      "thumbnail": "https://i.ytimg.com/vi/NmRUHAHf91c/hqdefault.jpg",
+      "description": "Police #lawenforcement #lgbt #law #crime #lgbtq #119 #119ine.",
+      "relevance": "low",
+      "scope": "neutral",
+      "category": "Tidak Relevan",
+      "classification_score": 0,
+      "is_jatim": false,
+      "region": "Indonesia",
+      "polres": null,
+      "location_confidence": 0,
+      "location_source": null,
+      "location_evidence": [],
+      "priority": "low",
+      "collected_at": "2026-09-08T00:22:32.182213+00:00"
+    },
+    {
+      "id": "cbb529bce3cf6b41384b73a6538a245e14d391fc",
+      "video_id": "SoXLLWnsYDI",
+      "platform": "YouTube",
+      "type": "video",
+      "title": "Tedrick Washington, Jr- Trooper Gone Wild Police Abuse (short form)",
+      "channel": "Bob Bianchi I True Crime",
+      "published_at": "2026-09-07T00:15:01Z",
+      "url": "https://www.youtube.com/watch?v=SoXLLWnsYDI",
+      "thumbnail": "https://i.ytimg.com/vi/SoXLLWnsYDI/hqdefault.jpg",
+      "description": "Tedrick Washington, Jr a division, was in the backseat of a car that was alluding police. He did nothing wrong, yet he was the ...",
+      "relevance": "low",
+      "scope": "neutral",
+      "category": "Tidak Relevan",
+      "classification_score": 0,
+      "is_jatim": false,
+      "region": "Indonesia",
+      "polres": null,
+      "location_confidence": 0,
+      "location_source": null,
+      "location_evidence": [],
+      "priority": "low",
+      "collected_at": "2026-09-08T00:22:32.182213+00:00"
+    },
+    {
+      "id": "a9d5c87a51a4b799c6af9076eba359f76b7c839d",
+      "video_id": "SDAw7H2UNhc",
+      "platform": "YouTube",
+      "type": "video",
+      "title": "Tedrick Washington, Jr: Arkansas Trooper Gone Wild! Police abuse. Wow! ",
+      "channel": "Bob Bianchi I True Crime",
+      "published_at": "2026-09-06T23:26:24Z",
+      "url": "https://www.youtube.com/watch?v=SDAw7H2UNhc",
+      "thumbnail": "https://i.ytimg.com/vi/SDAw7H2UNhc/hqdefault.jpg",
+      "description": "Tedrick Washington, Jr a division, was in the backseat of a car that was alluding police. He did nothing wrong, yet he was the ...",
+      "relevance": "low",
+      "scope": "neutral",
+      "category": "Tidak Relevan",
+      "classification_score": 0,
+      "is_jatim": false,
+      "region": "Indonesia",
+      "polres": null,
+      "location_confidence": 0,
+      "location_source": null,
+      "location_evidence": [],
+      "priority": "low",
+      "collected_at": "2026-09-08T00:22:32.182213+00:00"
+    },
+    {
       "id": "a49943cc2fb1129da3ec1812b63b185cd2614b57",
       "video_id": "O1gYHystuMw",
       "platform": "YouTube",
@@ -852,6 +1118,54 @@
       "collected_at": "2026-09-07T16:49:55.615287+00:00"
     },
     {
+      "id": "719bc407af79a4b9a99e64a6da8bb4a31ed88ebc",
+      "video_id": "195cHVAVBbo",
+      "platform": "YouTube",
+      "type": "video",
+      "title": "노인 때리는 촉법소년 말리다 조사받은 60대",
+      "channel": "봐바봤",
+      "published_at": "2026-09-06T22:06:20Z",
+      "url": "https://www.youtube.com/watch?v=195cHVAVBbo",
+      "thumbnail": "https://i.ytimg.com/vi/195cHVAVBbo/hqdefault.jpg",
+      "description": "촉법소년 #아동복지법 #용인 #경찰조사 #소년범죄 지난달 경기 용인의 한 아파트 앞에서 노인을 우산과 돌로 때리던 10대를 말리던 ...",
+      "relevance": "low",
+      "scope": "neutral",
+      "category": "Tidak Relevan",
+      "classification_score": 0,
+      "is_jatim": false,
+      "region": "Indonesia",
+      "polres": null,
+      "location_confidence": 0,
+      "location_source": null,
+      "location_evidence": [],
+      "priority": "low",
+      "collected_at": "2026-09-08T00:22:32.182213+00:00"
+    },
+    {
+      "id": "da6bd91da2f47b83251c6fa6d1af44b90907d206",
+      "video_id": "_FaNjOuVWdg",
+      "platform": "YouTube",
+      "type": "video",
+      "title": "POLICE VIOLENTLY ASSAULT MAN AND PEPPER SPRAY CROUD. PICCADILLY GARDENS",
+      "channel": "BAREBONES ",
+      "published_at": "2026-09-06T21:36:46Z",
+      "url": "https://www.youtube.com/watch?v=_FaNjOuVWdg",
+      "thumbnail": "https://i.ytimg.com/vi/_FaNjOuVWdg/hqdefault.jpg",
+      "description": "Credit to @StreetLife80s Share this AND GO VIRAL.",
+      "relevance": "low",
+      "scope": "neutral",
+      "category": "Tidak Relevan",
+      "classification_score": 0,
+      "is_jatim": false,
+      "region": "Indonesia",
+      "polres": null,
+      "location_confidence": 0,
+      "location_source": null,
+      "location_evidence": [],
+      "priority": "low",
+      "collected_at": "2026-09-08T00:22:32.182213+00:00"
+    },
+    {
       "id": "7b3c752c0bec19e06961fca0de7ed6609880e2bb",
       "video_id": "iPA_Y8bUMnk",
       "platform": "YouTube",
@@ -877,6 +1191,30 @@
       ],
       "priority": "high",
       "collected_at": "2026-09-07T16:49:55.615287+00:00"
+    },
+    {
+      "id": "a3db4c7e97c7fee79a429e911372ca27804474a6",
+      "video_id": "BAcfvO98IRc",
+      "platform": "YouTube",
+      "type": "video",
+      "title": "Des Moines man alleges excessive force by city police officers",
+      "channel": "KCCI",
+      "published_at": "2026-09-06T19:24:45Z",
+      "url": "https://www.youtube.com/watch?v=BAcfvO98IRc",
+      "thumbnail": "https://i.ytimg.com/vi/BAcfvO98IRc/hqdefault.jpg",
+      "description": "Des Moines man alleges excessive force by city police officers KCCI NewsChannel 8 is your home for Iowa breaking news and ...",
+      "relevance": "low",
+      "scope": "neutral",
+      "category": "Tidak Relevan",
+      "classification_score": 0,
+      "is_jatim": false,
+      "region": "Indonesia",
+      "polres": null,
+      "location_confidence": 0,
+      "location_source": null,
+      "location_evidence": [],
+      "priority": "low",
+      "collected_at": "2026-09-08T00:22:32.182213+00:00"
     },
     {
       "id": "69b50380895248b949387c13a5ffc655e294b4df",
@@ -925,6 +1263,30 @@
       "location_evidence": [],
       "priority": "medium",
       "collected_at": "2026-09-07T10:41:16.964353+00:00"
+    },
+    {
+      "id": "ca0f58b8f23c387f60cc3cfb617737e0d216467b",
+      "video_id": "iGT59m33IDA",
+      "platform": "YouTube",
+      "type": "video",
+      "title": "How Nigerian Police Lied About a Suicide That Never Happened: The Story of Olatunji Jimoh",
+      "channel": "Top Reality Pulse TV",
+      "published_at": "2026-09-06T15:33:24Z",
+      "url": "https://www.youtube.com/watch?v=iGT59m33IDA",
+      "thumbnail": "https://i.ytimg.com/vi/iGT59m33IDA/hqdefault.jpg",
+      "description": "He raised the exact money to clear his debt. Hours later, his family found blood on the floor of his police cell. This is the story of ...",
+      "relevance": "low",
+      "scope": "neutral",
+      "category": "Tidak Relevan",
+      "classification_score": 0,
+      "is_jatim": false,
+      "region": "Indonesia",
+      "polres": null,
+      "location_confidence": 0,
+      "location_source": null,
+      "location_evidence": [],
+      "priority": "low",
+      "collected_at": "2026-09-08T00:22:32.182213+00:00"
     },
     {
       "id": "0c9d95f314cd82977f2b1214ca94d23d67f2893e",
@@ -1118,7 +1480,7 @@
       "location_source": null,
       "location_evidence": [],
       "priority": "low",
-      "collected_at": "2026-09-07T10:41:16.964353+00:00"
+      "collected_at": "2026-09-08T00:22:32.182213+00:00"
     },
     {
       "id": "91ddc5207edca61c92cc8450f05bd5c6a3b19c73",
@@ -1145,6 +1507,30 @@
       "collected_at": "2026-09-06T21:42:52.651058+00:00"
     },
     {
+      "id": "9d46b244302f91ce0373d8055297c8a6847f8441",
+      "video_id": "FkgrBhKhlBE",
+      "platform": "YouTube",
+      "type": "video",
+      "title": "Racist Cop Cuffed a Black Man Then Saw His FBI Badge Part 4 #movie #cinematicstory #jamaicanpolice",
+      "channel": "Front Porch Stories",
+      "published_at": "2026-09-06T13:49:46Z",
+      "url": "https://www.youtube.com/watch?v=FkgrBhKhlBE",
+      "thumbnail": "https://i.ytimg.com/vi/FkgrBhKhlBE/hqdefault.jpg",
+      "description": "A Black federal agent driving a luxury Mercedes through Midtown Manhattan becomes the target of a racist police officer who ...",
+      "relevance": "low",
+      "scope": "neutral",
+      "category": "Tidak Relevan",
+      "classification_score": 0,
+      "is_jatim": false,
+      "region": "Indonesia",
+      "polres": null,
+      "location_confidence": 0,
+      "location_source": null,
+      "location_evidence": [],
+      "priority": "low",
+      "collected_at": "2026-09-08T00:22:32.182213+00:00"
+    },
+    {
       "id": "a2e4d07ebb879966448ecffe6ee3bfbfe7276667",
       "video_id": "XdCCl022u3U",
       "platform": "YouTube",
@@ -1166,7 +1552,7 @@
       "location_source": null,
       "location_evidence": [],
       "priority": "medium",
-      "collected_at": "2026-09-07T10:41:16.964353+00:00"
+      "collected_at": "2026-09-08T00:22:32.182213+00:00"
     },
     {
       "id": "548af7a7435e56560819a78eab587c00b97e28a4",
@@ -1190,7 +1576,7 @@
       "location_source": null,
       "location_evidence": [],
       "priority": "low",
-      "collected_at": "2026-09-07T10:41:16.964353+00:00"
+      "collected_at": "2026-09-08T00:22:32.182213+00:00"
     },
     {
       "id": "9e4bcdabae406d7b7a9a813a532cea242310c58e",
@@ -1263,6 +1649,30 @@
       "location_evidence": [],
       "priority": "low",
       "collected_at": "2026-09-07T16:49:55.615287+00:00"
+    },
+    {
+      "id": "63668d336299654fc91e2b89451ca2d70a6d43c8",
+      "video_id": "8v-fz8CZg0g",
+      "platform": "YouTube",
+      "type": "video",
+      "title": "POLISI JUJUR BERUSAHA MENGHANCURKAN PARA PETINGGI YANG KORUP",
+      "channel": "maniak drakor",
+      "published_at": "2026-09-06T12:45:36Z",
+      "url": "https://www.youtube.com/watch?v=8v-fz8CZg0g",
+      "thumbnail": "https://i.ytimg.com/vi/8v-fz8CZg0g/hqdefault.jpg",
+      "description": "",
+      "relevance": "medium",
+      "scope": "neutral",
+      "category": "Berita Polisi Lainnya",
+      "classification_score": 25,
+      "is_jatim": false,
+      "region": "Indonesia",
+      "polres": null,
+      "location_confidence": 0,
+      "location_source": null,
+      "location_evidence": [],
+      "priority": "low",
+      "collected_at": "2026-09-08T00:22:32.182213+00:00"
     },
     {
       "id": "bca70f085fcfe4af36a6a9ad72528e27856f7fab",
@@ -1364,7 +1774,7 @@
       "location_source": null,
       "location_evidence": [],
       "priority": "low",
-      "collected_at": "2026-09-07T10:41:16.964353+00:00"
+      "collected_at": "2026-09-08T00:22:32.182213+00:00"
     },
     {
       "id": "e1fb5a1f5d139428190294e4974fabd458fde87d",
@@ -1534,7 +1944,7 @@
         "LUAR:jawa tengah"
       ],
       "priority": "medium",
-      "collected_at": "2026-09-07T20:56:25.946472+00:00"
+      "collected_at": "2026-09-08T00:22:32.182213+00:00"
     },
     {
       "id": "7437a9d32bf5f4f2037d2933f91873aeea31af3b",
@@ -1608,7 +2018,7 @@
       "location_source": null,
       "location_evidence": [],
       "priority": "low",
-      "collected_at": "2026-09-07T10:41:16.964353+00:00"
+      "collected_at": "2026-09-08T00:22:32.182213+00:00"
     },
     {
       "id": "192d265f37c597353afb040fbb5b3be00e296f88",
@@ -1632,7 +2042,7 @@
       "location_source": null,
       "location_evidence": [],
       "priority": "low",
-      "collected_at": "2026-09-07T10:41:16.964353+00:00"
+      "collected_at": "2026-09-08T00:22:32.182213+00:00"
     },
     {
       "id": "91b744231ecf81227412f4ff3497c3e0917e2107",
@@ -1656,7 +2066,31 @@
       "location_source": null,
       "location_evidence": [],
       "priority": "low",
-      "collected_at": "2026-09-07T10:41:16.964353+00:00"
+      "collected_at": "2026-09-08T00:22:32.182213+00:00"
+    },
+    {
+      "id": "efd8a81a3a40707b7a2ce41ae9bb96de2e4049e5",
+      "video_id": "fJKKrWhcIFk",
+      "platform": "YouTube",
+      "type": "video",
+      "title": "MATARAM HEBOH‼️ Penjaga Gudang Ditemukan Tewas Saat Pagi, Polisi Temukan Kejanggalan di Lokasi!",
+      "channel": "Arsip Samar",
+      "published_at": "2026-09-06T09:00:37Z",
+      "url": "https://www.youtube.com/watch?v=fJKKrWhcIFk",
+      "thumbnail": "https://i.ytimg.com/vi/fJKKrWhcIFk/hqdefault.jpg",
+      "description": "MATARAM HEBOH‼️ Penjaga gudang ditemukan tewas pada pagi hari dan membuat warga sekitar bertanya-tanya. Polisi ...",
+      "relevance": "high",
+      "scope": "incident",
+      "category": "Peristiwa Melibatkan Polisi",
+      "classification_score": 70,
+      "is_jatim": false,
+      "region": "Indonesia",
+      "polres": null,
+      "location_confidence": 0,
+      "location_source": null,
+      "location_evidence": [],
+      "priority": "low",
+      "collected_at": "2026-09-08T00:22:32.182213+00:00"
     },
     {
       "id": "b113d076616495dea8ac163f66d2c2efd14f90df",
@@ -1704,7 +2138,7 @@
       "location_source": null,
       "location_evidence": [],
       "priority": "low",
-      "collected_at": "2026-09-07T05:00:41.668353+00:00"
+      "collected_at": "2026-09-08T00:22:32.182213+00:00"
     },
     {
       "id": "a3561d27de34b3dcb0f2cd2c2b89ba0bda37efb5",
@@ -1776,7 +2210,7 @@
       "location_source": null,
       "location_evidence": [],
       "priority": "low",
-      "collected_at": "2026-09-07T05:00:41.668353+00:00"
+      "collected_at": "2026-09-08T00:22:32.182213+00:00"
     },
     {
       "id": "1d1746a11ec40c84765303a73f1ae7c7d7fb1a00",
@@ -1800,7 +2234,7 @@
       "location_source": null,
       "location_evidence": [],
       "priority": "low",
-      "collected_at": "2026-09-07T05:00:41.668353+00:00"
+      "collected_at": "2026-09-08T00:22:32.182213+00:00"
     },
     {
       "id": "506a0a63d55b9cb38a70377cf74f7349859ccfb5",
@@ -1824,7 +2258,7 @@
       "location_source": null,
       "location_evidence": [],
       "priority": "medium",
-      "collected_at": "2026-09-07T10:41:16.964353+00:00"
+      "collected_at": "2026-09-08T00:22:32.182213+00:00"
     },
     {
       "id": "d684daa12f7bf948e13fb99392a87a4379199b86",
@@ -1872,7 +2306,7 @@
       "location_source": null,
       "location_evidence": [],
       "priority": "medium",
-      "collected_at": "2026-09-07T05:00:41.668353+00:00"
+      "collected_at": "2026-09-08T00:22:32.182213+00:00"
     },
     {
       "id": "18cf8d71a1e860dbe1ad8c03e424f66f9ebf6857",
@@ -1920,7 +2354,7 @@
       "location_source": null,
       "location_evidence": [],
       "priority": "low",
-      "collected_at": "2026-09-07T05:00:41.668353+00:00"
+      "collected_at": "2026-09-08T00:22:32.182213+00:00"
     },
     {
       "id": "35355fe7dc553717368ebd03f7e888bce26aa5d8",
@@ -1968,7 +2402,7 @@
       "location_source": null,
       "location_evidence": [],
       "priority": "low",
-      "collected_at": "2026-09-07T10:41:16.964353+00:00"
+      "collected_at": "2026-09-08T00:22:32.182213+00:00"
     },
     {
       "id": "82fcdf9836efc29ed0e95b47981f2dc53b294f18",
@@ -1992,7 +2426,7 @@
       "location_source": null,
       "location_evidence": [],
       "priority": "low",
-      "collected_at": "2026-09-07T10:41:16.964353+00:00"
+      "collected_at": "2026-09-08T00:22:32.182213+00:00"
     },
     {
       "id": "99d2b5e8ba978a2a2d823b9efdf80ee7fe72971e",
@@ -2064,7 +2498,7 @@
       "location_source": null,
       "location_evidence": [],
       "priority": "low",
-      "collected_at": "2026-09-07T05:00:41.668353+00:00"
+      "collected_at": "2026-09-08T00:22:32.182213+00:00"
     },
     {
       "id": "42354e07efac2b0ff92b6ba0ec6d34abb53e8045",
@@ -2184,7 +2618,7 @@
       "location_source": null,
       "location_evidence": [],
       "priority": "low",
-      "collected_at": "2026-09-07T10:41:16.964353+00:00"
+      "collected_at": "2026-09-08T00:22:32.182213+00:00"
     },
     {
       "id": "1434b1c39ca20038b7103c087e848f4131d6ced6",
