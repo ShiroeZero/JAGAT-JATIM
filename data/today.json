@@ -2,18 +2,33 @@
   "schema_version": "today-v3",
   "date": "2026-09-09",
   "timezone": "Asia/Jakarta",
-  "updated_at": "2026-09-09T05:16:15.111615+07:00",
-  "last_successful_update": "2026-09-09T05:16:15.111615+07:00",
+  "updated_at": "2026-09-09T07:39:53.631879+07:00",
+  "last_successful_update": "2026-09-09T07:39:53.631879+07:00",
   "news": {
-    "detected": 27,
-    "negative": 12,
-    "positive": 3,
+    "detected": 42,
+    "negative": 16,
+    "positive": 6,
     "case": 0,
-    "neutral": 12,
-    "jatim": 15,
-    "luar_jatim": 12,
+    "neutral": 20,
+    "jatim": 23,
+    "luar_jatim": 19,
     "priority_high": 0,
     "article_ids": [
+      "245924a9757fbaac88c1abdb2eedee451a75b60f",
+      "df09aa3598edeb39b4a6dafd5f1df75a65cef197",
+      "9309e085ab64f6052fbbea7d1f89fef999d43985",
+      "a0b6615a04d282849bc53bdc448e2c28e3584eb3",
+      "049dfc952f81dea1207aca61291f35a9009e6b4d",
+      "af69943fa27c73c8f0a4add60d4712ac6cf007a2",
+      "7634967cd143ac06ec4c24ff8e465b6089938698",
+      "2d983509345b84626b4a766ff231094d0b10c8d6",
+      "0d9509d80e7447a9a2f3ada3d46fbf107b1cde21",
+      "1073248217d157883fc0ca359c5fd76a0b6dbb8b",
+      "96409ca72dd1dede47168ba7cfe83405b2e1fcec",
+      "dab609e5767c07568dec4c6155f37b0a26d1b317",
+      "b7dd94ac05c480fd8723b3854fdbd5e483868e44",
+      "ed0a42db562cf189d7ead0435172de82dd957ae2",
+      "322521501ed2dfd46f9c9b0c826e8670b6202a9d",
       "be251b36144c0aade3aecf1f5c9f6c69a9285378",
       "9ac5553b76e279ca47ac3b11b7c4f7a4bce2f970",
       "57fc09eb77555350daaa9045c5d42f74931547ff",
@@ -44,6 +59,1071 @@
     ],
     "items": [
       {
+        "id": "245924a9757fbaac88c1abdb2eedee451a75b60f",
+        "title": "Satreskrim Polresta Sidoarjo Ungkap Penyelundupan Benih Lobster Senilai Rp4,4 Miliar di Bandara Juanda - Mattanews.co",
+        "url": "https://mattanews.co/satreskrim-polresta-sidoarjo-ungkap-penyelundupan-benih-lobster-senilai-rp44-miliar-di-bandara-juanda/",
+        "source": "Mattanews.co",
+        "published_at": "2026-09-09T00:14:31+00:00",
+        "collected_at": "2026-09-09T00:17:23.305269+00:00",
+        "region": "Jawa Timur",
+        "area_label": "Sidoarjo",
+        "is_jatim": true,
+        "polres": "POLRESTA SIDOARJO",
+        "category": "POSITIF / PENEGAKAN HUKUM",
+        "scope": "positive",
+        "scope_label": "Positif",
+        "priority": "low",
+        "summary": "Satreskrim Polresta Sidoarjo Ungkap Penyelundupan Benih Lobster Senilai Rp4,4 Miliar di Bandara Juanda Mattanews.co",
+        "processing_status": "processed",
+        "classifier_version": "news-v6",
+        "classified_at": "2026-09-09T00:17:23.305269+00:00",
+        "case_id": null,
+        "discovery_families": [],
+        "discovery_tags": [],
+        "discovery_hits": [],
+        "discovery_version": "discovery-v6.5.4",
+        "google_news_url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxORC1RT2c2VEx6VDhkLWNCSXlId3dlVmRJc2ctUzJVUHBpaGkwbzBqcUhENjd1aktENzJpYnJSRWs3WVRiUkRvT1FfV0pPZzNuV1RaUkpqU2g2Y0h1UHZ3bU1kWHdOcVh2bGRoQjhSQkI1SEVPQTRDWW9ZMFcwNEVIdEMtRXNrVC04RTdKVlNIaC1ReVZxVzdKUTVhSWUtTF9rdzQ1V2Z4WmVYeVg5ZXRUSEtrUTFGSmpxQ2xQWEJrN20?oc=5",
+        "original_url": "https://mattanews.co/satreskrim-polresta-sidoarjo-ungkap-penyelundupan-benih-lobster-senilai-rp44-miliar-di-bandara-juanda/",
+        "locality": "Sidoarjo",
+        "polsek": null,
+        "location_confidence": 100,
+        "location_evidence": [
+          "polresta sidoarjo",
+          "Sidoarjo"
+        ],
+        "location_status": "JAWA_TIMUR",
+        "location_source": "title",
+        "issue_type": "UMUM",
+        "issue_subtype": "Belum Teridentifikasi",
+        "issue_evidence": [],
+        "handling_status": "BELUM_ADA_INFORMASI",
+        "handling_evidence": [],
+        "attention_score": 9,
+        "attention_label": "Rendah",
+        "attention_components": {
+          "severity": 2,
+          "polri_relation": 2,
+          "authority": 0,
+          "public_impact": 4,
+          "handling": 0,
+          "evidence": 1,
+          "context_risk": 0,
+          "routine_enforcement_cap": 35
+        },
+        "attention_evidence": {
+          "severity": [],
+          "authority": [],
+          "public_impact": [],
+          "evidence": [
+            "satu sumber / informasi awal"
+          ],
+          "role": [
+            "Polri sebagai pihak penindak"
+          ],
+          "issue": [],
+          "handling": [],
+          "context": [],
+          "positive": []
+        },
+        "case_engine_version": "case-v6.5.4",
+        "case_processed_at": "2026-09-09T00:24:12.195484+00:00"
+      },
+      {
+        "id": "df09aa3598edeb39b4a6dafd5f1df75a65cef197",
+        "title": "Polresta Malang Kota Kawal Stabilitas Inflasi, Waspadai Penimbunan dan Penyalahgunaan BBM - mitratoday.com",
+        "url": "https://www.mitratoday.com/polresta-malang-kota-kawal-stabilitas-inflasi-waspadai-penimbunan-dan-penyalahgunaan-bbm/",
+        "source": "mitratoday.com",
+        "published_at": "2026-09-09T00:05:22+00:00",
+        "collected_at": "2026-09-09T00:17:23.305269+00:00",
+        "region": "Jawa Timur",
+        "area_label": "Malang",
+        "is_jatim": true,
+        "polres": "POLRESTA MALANG KOTA",
+        "category": "NETRAL / LAINNYA",
+        "scope": "neutral",
+        "scope_label": "Netral",
+        "priority": "low",
+        "summary": "Polresta Malang Kota Kawal Stabilitas Inflasi, Waspadai Penimbunan dan Penyalahgunaan BBM mitratoday.com",
+        "processing_status": "processed",
+        "classifier_version": "news-v6",
+        "classified_at": "2026-09-09T00:17:23.305269+00:00",
+        "case_id": null,
+        "discovery_families": [],
+        "discovery_tags": [],
+        "discovery_hits": [],
+        "discovery_version": "discovery-v6.5.4",
+        "google_news_url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNeTlCcjFvTlItSDVtNjQ5N05aUWFVU0NyS19oc2pqQVFWM3ViVkdzdWxkN012U29NQ0tCaE4xZUMxUHBBMm1YQ3ZBTG0wUW5EZ1FqS3FZWGJHVnFkTUNsTlhfdGlYM3d6XzluM2NFYlJfTlhWLXA3VHV0V0taLU5JX1JneXh5d1dqcXZkeDZzUVUwQ1RrQ2pJdGJkblFSb2Nkb0Z4bTVxV25sS0lUR1M2QzVnMzNCWjA?oc=5",
+        "original_url": "https://www.mitratoday.com/polresta-malang-kota-kawal-stabilitas-inflasi-waspadai-penimbunan-dan-penyalahgunaan-bbm/",
+        "locality": "Malang",
+        "polsek": null,
+        "location_confidence": 100,
+        "location_evidence": [
+          "polresta malang kota",
+          "Malang"
+        ],
+        "location_status": "JAWA_TIMUR",
+        "location_source": "title",
+        "issue_type": "UMUM",
+        "issue_subtype": "Belum Teridentifikasi",
+        "issue_evidence": [],
+        "handling_status": "BELUM_ADA_INFORMASI",
+        "handling_evidence": [],
+        "attention_score": 7,
+        "attention_label": "Rendah",
+        "attention_components": {
+          "severity": 2,
+          "polri_relation": 0,
+          "authority": 0,
+          "public_impact": 4,
+          "handling": 0,
+          "evidence": 1,
+          "context_risk": 0,
+          "routine_enforcement_cap": null
+        },
+        "attention_evidence": {
+          "severity": [],
+          "authority": [],
+          "public_impact": [],
+          "evidence": [
+            "satu sumber / informasi awal"
+          ],
+          "role": [],
+          "issue": [],
+          "handling": [],
+          "context": [],
+          "positive": []
+        },
+        "case_engine_version": "case-v6.5.4",
+        "case_processed_at": "2026-09-09T00:24:12.585252+00:00"
+      },
+      {
+        "id": "9309e085ab64f6052fbbea7d1f89fef999d43985",
+        "title": "Satgas Pangan Polres Batu Pastikan Stok Beras Aman, Harga Premium dan Medium Stabil - mitratoday.com",
+        "url": "https://www.mitratoday.com/satgas-pangan-polres-batu-pastikan-stok-beras-aman-harga-premium-dan-medium-stabil/",
+        "source": "mitratoday.com",
+        "published_at": "2026-09-09T00:04:30+00:00",
+        "collected_at": "2026-09-09T00:17:23.305269+00:00",
+        "region": "Jawa Timur",
+        "area_label": "Batu",
+        "is_jatim": true,
+        "polres": "POLRES BATU",
+        "category": "NETRAL / LAINNYA",
+        "scope": "neutral",
+        "scope_label": "Netral",
+        "priority": "low",
+        "summary": "Satgas Pangan Polres Batu Pastikan Stok Beras Aman, Harga Premium dan Medium Stabil mitratoday.com",
+        "processing_status": "processed",
+        "classifier_version": "news-v6",
+        "classified_at": "2026-09-09T00:17:23.305269+00:00",
+        "case_id": null,
+        "discovery_families": [],
+        "discovery_tags": [],
+        "discovery_hits": [],
+        "discovery_version": "discovery-v6.5.4",
+        "google_news_url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOelFmdGJwcE9yeVpQdnpPQlRBR1JZN1BUZk1UVHY5ZXI0SzZhd2QzX0VjTjRiRnJpNWkxMDhNZVR6ZnAxRW1ZSEJXSlFoSUlnR3U4YzVBanBfUnVXblI5YnlyMG1pSjRhaUh4aEdxVDJvV3VwV3lSZUdfZFdnbEFQTWtENmJiYjF2aWVqeG1FclVtc2xOOVBkbTVlNEwwMnRWS016eVlvNnd1Z2hKdDJV?oc=5",
+        "original_url": "https://www.mitratoday.com/satgas-pangan-polres-batu-pastikan-stok-beras-aman-harga-premium-dan-medium-stabil/",
+        "locality": "Batu",
+        "polsek": null,
+        "location_confidence": 100,
+        "location_evidence": [
+          "polres batu",
+          "Batu"
+        ],
+        "location_status": "JAWA_TIMUR",
+        "location_source": "title",
+        "issue_type": "UMUM",
+        "issue_subtype": "Belum Teridentifikasi",
+        "issue_evidence": [],
+        "handling_status": "BELUM_ADA_INFORMASI",
+        "handling_evidence": [],
+        "attention_score": 7,
+        "attention_label": "Rendah",
+        "attention_components": {
+          "severity": 2,
+          "polri_relation": 0,
+          "authority": 0,
+          "public_impact": 4,
+          "handling": 0,
+          "evidence": 1,
+          "context_risk": 0,
+          "routine_enforcement_cap": null
+        },
+        "attention_evidence": {
+          "severity": [],
+          "authority": [],
+          "public_impact": [],
+          "evidence": [
+            "satu sumber / informasi awal"
+          ],
+          "role": [],
+          "issue": [],
+          "handling": [],
+          "context": [],
+          "positive": []
+        },
+        "case_engine_version": "case-v6.5.4",
+        "case_processed_at": "2026-09-09T00:24:12.961926+00:00"
+      },
+      {
+        "id": "a0b6615a04d282849bc53bdc448e2c28e3584eb3",
+        "title": "Berawal dari Laporan Warga, Polisi Gerebek Diduga Sarang Narkoba di Kandibata - Suara Buruh Nasional",
+        "url": "https://www.suaraburuhnasional.com/2026/09/berawal-dari-laporan-warga-polisi-gerebek-diduga-sarang-narkoba-di-kandibata/",
+        "source": "Suara Buruh Nasional",
+        "published_at": "2026-09-09T00:01:23+00:00",
+        "collected_at": "2026-09-09T00:17:23.305269+00:00",
+        "region": "BELUM TERPETAKAN",
+        "area_label": "BELUM TERPETAKAN",
+        "is_jatim": null,
+        "polres": null,
+        "category": "NEGATIF - NARKOBA / NARKOTIKA",
+        "scope": "negative",
+        "scope_label": "Negatif",
+        "priority": "medium",
+        "summary": "Berawal dari Laporan Warga, Polisi Gerebek Diduga Sarang Narkoba di Kandibata Suara Buruh Nasional",
+        "processing_status": "processed",
+        "classifier_version": "news-v6",
+        "classified_at": "2026-09-09T00:17:23.305269+00:00",
+        "case_id": "CASE-001060",
+        "discovery_families": [],
+        "discovery_tags": [],
+        "discovery_hits": [],
+        "discovery_version": "discovery-v6.5.4",
+        "google_news_url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNZk16Ym02RzNFWVdzWmdYWDk4NjhLaUdmUjhuNUl2alVxT29JaFlhVmZHVW5uemxGQVd2VEdZWDJGaEp6cG51ZVNlWHBHaWtncWxPbThHM2J2ZURPR2pZd1VxMEc2b3BxcHhzelNSRjI1dkowS01TeGZOb2Nsd0lEczAxczFROEdLSFNKdnYxQUExOWRKT3FsMTZWRzdveGZKWHlpRHJfZDg1ZVVVbV9QX05tOG9KLWlLanhTdg?oc=5",
+        "original_url": "https://www.suaraburuhnasional.com/2026/09/berawal-dari-laporan-warga-polisi-gerebek-diduga-sarang-narkoba-di-kandibata/",
+        "locality": "",
+        "polsek": null,
+        "location_confidence": 0,
+        "location_evidence": [],
+        "location_status": "BELUM_TERPETAKAN",
+        "location_source": "title",
+        "issue_type": "NARKOBA",
+        "issue_subtype": "Narkoba / Narkotika",
+        "issue_evidence": [
+          "narkoba"
+        ],
+        "handling_status": "BELUM_ADA_INFORMASI",
+        "handling_evidence": [],
+        "attention_score": 40,
+        "attention_label": "Sedang",
+        "attention_components": {
+          "severity": 11,
+          "polri_relation": 16,
+          "authority": 0,
+          "public_impact": 12,
+          "handling": 0,
+          "evidence": 1,
+          "context_risk": 0,
+          "routine_enforcement_cap": null
+        },
+        "attention_evidence": {
+          "severity": [],
+          "authority": [],
+          "public_impact": [
+            "dampak kepada masyarakat"
+          ],
+          "evidence": [
+            "satu sumber / informasi awal"
+          ],
+          "role": [
+            "Polri/personel menjadi subjek permasalahan"
+          ],
+          "issue": [
+            "narkoba"
+          ],
+          "handling": [],
+          "context": [],
+          "positive": []
+        },
+        "case_engine_version": "case-v6.5.4",
+        "case_processed_at": "2026-09-09T00:39:52.236435+00:00"
+      },
+      {
+        "id": "049dfc952f81dea1207aca61291f35a9009e6b4d",
+        "title": "Modus Catut Nama Pemprov Jatim Terungkap, 13 Personel Polres Malang Raih Penghargaan - bacamalang.com",
+        "url": "https://bacamalang.com/modus-catut-nama-pemprov-jatim-terungkap-13-personel-polres-malang-raih-penghargaan/",
+        "source": "bacamalang.com",
+        "published_at": "2026-09-08T23:40:00+00:00",
+        "collected_at": "2026-09-09T00:17:23.305269+00:00",
+        "region": "Jawa Timur",
+        "area_label": "Malang",
+        "is_jatim": true,
+        "polres": "POLRES MALANG",
+        "category": "POSITIF / PENEGAKAN HUKUM",
+        "scope": "positive",
+        "scope_label": "Positif",
+        "priority": "low",
+        "summary": "Modus Catut Nama Pemprov Jatim Terungkap, 13 Personel Polres Malang Raih Penghargaan bacamalang.com",
+        "processing_status": "processed",
+        "classifier_version": "news-v6",
+        "classified_at": "2026-09-09T00:17:23.305269+00:00",
+        "case_id": null,
+        "discovery_families": [],
+        "discovery_tags": [],
+        "discovery_hits": [],
+        "discovery_version": "discovery-v6.5.4",
+        "google_news_url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNRGRMSkRWRF9yWlNZQWZDNEI1R3FwLVNPaFRrZlgtOFJ3TUV3X0Jha3J0V3FNNWd1UUN2eGJ3SW1yRUhJS3kwQm5QWTFyWnBUNlpnN0F0TS1JMC14MElNSTJzYldQcXNVb3BINXo5YVp5YU1VQXE4b1JTd3FBTGI1VDhIYldzbGVtNlBndzF2UHpfak5ORy1rZWU3VzFZZU5ZRDFPdkxPcnAtb0k?oc=5",
+        "original_url": "https://bacamalang.com/modus-catut-nama-pemprov-jatim-terungkap-13-personel-polres-malang-raih-penghargaan/",
+        "locality": "Malang",
+        "polsek": null,
+        "location_confidence": 100,
+        "location_evidence": [
+          "polres malang",
+          "Malang",
+          "Jawa Timur/Jatim"
+        ],
+        "location_status": "JAWA_TIMUR",
+        "location_source": "title",
+        "issue_type": "UMUM",
+        "issue_subtype": "Belum Teridentifikasi",
+        "issue_evidence": [],
+        "handling_status": "BELUM_ADA_INFORMASI",
+        "handling_evidence": [],
+        "attention_score": 7,
+        "attention_label": "Rendah",
+        "attention_components": {
+          "severity": 2,
+          "polri_relation": 0,
+          "authority": 0,
+          "public_impact": 4,
+          "handling": 0,
+          "evidence": 1,
+          "context_risk": 0,
+          "routine_enforcement_cap": null
+        },
+        "attention_evidence": {
+          "severity": [],
+          "authority": [],
+          "public_impact": [],
+          "evidence": [
+            "satu sumber / informasi awal"
+          ],
+          "role": [],
+          "issue": [],
+          "handling": [],
+          "context": [],
+          "positive": [
+            "\\b(?:pelayanan|inovasi|prestasi|penghargaan|apresiasi)\\b.{0,100}\\b(?:polisi|polres|polda|polri)\\b"
+          ]
+        },
+        "case_engine_version": "case-v6.5.4",
+        "case_processed_at": "2026-09-09T00:24:13.324893+00:00"
+      },
+      {
+        "id": "af69943fa27c73c8f0a4add60d4712ac6cf007a2",
+        "title": "Hutan Jati di Desa Tiudan Terbakar, Polsek Gondang Bersama Damkar Dan Warga Padamkan Api - Tribratanews - Polres Tulungagung",
+        "url": "https://tribratanews.restulungagung.jatim.polri.go.id/09/09/2026/hutan-jati-di-desa-tiudan-terbakar-polsek-gondang-bersama-damkar-dan-warga-padamkan-api/",
+        "source": "Tribratanews - Polres Tulungagung",
+        "published_at": "2026-09-08T23:36:01+00:00",
+        "collected_at": "2026-09-09T00:17:23.305269+00:00",
+        "region": "BELUM TERPETAKAN",
+        "area_label": "BELUM TERPETAKAN",
+        "is_jatim": null,
+        "polres": null,
+        "category": "NETRAL / LAINNYA",
+        "scope": "neutral",
+        "scope_label": "Netral",
+        "priority": "low",
+        "summary": "Hutan Jati di Desa Tiudan Terbakar, Polsek Gondang Bersama Damkar Dan Warga Padamkan Api Tribratanews - Polres Tulungagung",
+        "processing_status": "processed",
+        "classifier_version": "news-v6",
+        "classified_at": "2026-09-09T00:17:23.305269+00:00",
+        "case_id": null,
+        "discovery_families": [],
+        "discovery_tags": [],
+        "discovery_hits": [],
+        "discovery_version": "discovery-v6.5.4",
+        "google_news_url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxNV25wdmpDWlVBTFRDQVJTb29uSzhBRHlfOVNkOG5rSTlPTzhOYWRNZWtnMTB0T2ZsNWx4MHIzWVRQcWFUMnpiRURvMEJnRWExLW1pWGdQUU1zV2ZHekE2QWhUQmJyaDB1a215Mm1KR0MwVmJvVG5iM29tb2F0MFVwMmRqbExwYWRORGVNeFpnbk80Q2dySWNObjZzVFBheVloTDhqc2p1VDl3TWtyMlp1RzZpb0tVV1JBQkxSWlNHdDhyZll4ZEJCV3A0Q0Y5dWZpSzl6Ri01QmphM0F3TDQ2WWd6cjF5bXg1?oc=5",
+        "original_url": "https://tribratanews.restulungagung.jatim.polri.go.id/09/09/2026/hutan-jati-di-desa-tiudan-terbakar-polsek-gondang-bersama-damkar-dan-warga-padamkan-api/",
+        "locality": "",
+        "polsek": "POLSEK GONDANG BERSAMA DAMKAR",
+        "location_confidence": 0,
+        "location_evidence": [
+          "POLSEK GONDANG BERSAMA DAMKAR"
+        ],
+        "location_status": "BELUM_TERPETAKAN",
+        "location_source": "title",
+        "issue_type": "UMUM",
+        "issue_subtype": "Belum Teridentifikasi",
+        "issue_evidence": [],
+        "handling_status": "BELUM_ADA_INFORMASI",
+        "handling_evidence": [],
+        "attention_score": 15,
+        "attention_label": "Rendah",
+        "attention_components": {
+          "severity": 2,
+          "polri_relation": 0,
+          "authority": 0,
+          "public_impact": 12,
+          "handling": 0,
+          "evidence": 1,
+          "context_risk": 0,
+          "routine_enforcement_cap": null
+        },
+        "attention_evidence": {
+          "severity": [],
+          "authority": [],
+          "public_impact": [
+            "dampak kepada masyarakat"
+          ],
+          "evidence": [
+            "satu sumber / informasi awal"
+          ],
+          "role": [],
+          "issue": [],
+          "handling": [],
+          "context": [],
+          "positive": []
+        },
+        "case_engine_version": "case-v6.5.4",
+        "case_processed_at": "2026-09-09T00:24:13.792454+00:00"
+      },
+      {
+        "id": "7634967cd143ac06ec4c24ff8e465b6089938698",
+        "title": "Polsek Tulungagung Kota Datangi TKP Kebakaran Rumah di Kelurahan Bago, Diduga Akibat Korsleting Charger HP - Tribratanews - Polres Tulungagung",
+        "url": "https://tribratanews.restulungagung.jatim.polri.go.id/09/09/2026/polsek-tulungagung-kota-datangi-tkp-kebakaran-rumah-di-kelurahan-bago-diduga-akibat-korsleting-charger-hp/",
+        "source": "Tribratanews - Polres Tulungagung",
+        "published_at": "2026-09-08T23:33:36+00:00",
+        "collected_at": "2026-09-09T00:17:23.305269+00:00",
+        "region": "Jawa Timur",
+        "area_label": "Tulungagung",
+        "is_jatim": true,
+        "polres": null,
+        "category": "NETRAL / LAINNYA",
+        "scope": "neutral",
+        "scope_label": "Netral",
+        "priority": "low",
+        "summary": "Polsek Tulungagung Kota Datangi TKP Kebakaran Rumah di Kelurahan Bago, Diduga Akibat Korsleting Charger HP Tribratanews - Polres Tulungagung",
+        "processing_status": "processed",
+        "classifier_version": "news-v6",
+        "classified_at": "2026-09-09T00:17:23.305269+00:00",
+        "case_id": null,
+        "discovery_families": [],
+        "discovery_tags": [],
+        "discovery_hits": [],
+        "discovery_version": "discovery-v6.5.4",
+        "google_news_url": "https://news.google.com/rss/articles/CBMigAJBVV95cUxQMzB0SXhYV1FVaGp0RG9PaDk3NGU1bjBnLXdETkhfeWxzMVdQVEY1MFdOY1VaYzdXbDVMLU1BVkRvMTk2Um1KOHBXQ1h4UjlMVTNBZXMySlRsYnYwZDk2cllhbE5EMEE2eDdQRDJvQUo1Nno3V2o2bEJZM2dWZlhtektXNU9jLTA1bGdZdkpibmExVUZKLVZnLWhsLXlxX0ViU3gwU0stTVdpRjBZYndPakpuTHkxOWJaVFY3YnQxVjNHOC1FYlY5NFF2VUtCVGlIMVhydU5aRkdSNDNzdHRKWkRVdnozT2NtcVFwY2lidFZuS2s1d0R3UFpzWEUzdTFa?oc=5",
+        "original_url": "https://tribratanews.restulungagung.jatim.polri.go.id/09/09/2026/polsek-tulungagung-kota-datangi-tkp-kebakaran-rumah-di-kelurahan-bago-diduga-akibat-korsleting-charger-hp/",
+        "locality": "Tulungagung",
+        "polsek": "POLSEK TULUNGAGUNG KOTA DATANGI",
+        "location_confidence": 95,
+        "location_evidence": [
+          "POLSEK TULUNGAGUNG KOTA DATANGI",
+          "Tulungagung"
+        ],
+        "location_status": "JAWA_TIMUR",
+        "location_source": "title",
+        "issue_type": "UMUM",
+        "issue_subtype": "Belum Teridentifikasi",
+        "issue_evidence": [],
+        "handling_status": "BELUM_ADA_INFORMASI",
+        "handling_evidence": [],
+        "attention_score": 7,
+        "attention_label": "Rendah",
+        "attention_components": {
+          "severity": 2,
+          "polri_relation": 0,
+          "authority": 0,
+          "public_impact": 4,
+          "handling": 0,
+          "evidence": 1,
+          "context_risk": 0,
+          "routine_enforcement_cap": null
+        },
+        "attention_evidence": {
+          "severity": [],
+          "authority": [],
+          "public_impact": [],
+          "evidence": [
+            "satu sumber / informasi awal"
+          ],
+          "role": [],
+          "issue": [],
+          "handling": [],
+          "context": [],
+          "positive": []
+        },
+        "case_engine_version": "case-v6.5.4",
+        "case_processed_at": "2026-09-09T00:24:14.292648+00:00"
+      },
+      {
+        "id": "2d983509345b84626b4a766ff231094d0b10c8d6",
+        "title": "Residivis Diduga Edarkan Sabu di Labura, Polisi Sita 2,13 Gram - hariansib.com",
+        "url": "https://www.hariansib.com/Kriminal/449612/residivis-diduga-edarkan-sabu-di-labura-polisi-sita-213-gram/",
+        "source": "hariansib.com",
+        "published_at": "2026-09-08T23:30:00+00:00",
+        "collected_at": "2026-09-09T00:17:23.305269+00:00",
+        "region": "BELUM TERPETAKAN",
+        "area_label": "BELUM TERPETAKAN",
+        "is_jatim": null,
+        "polres": null,
+        "category": "NEGATIF - NARKOBA / NARKOTIKA",
+        "scope": "negative",
+        "scope_label": "Negatif",
+        "priority": "low",
+        "summary": "Residivis Diduga Edarkan Sabu di Labura, Polisi Sita 2,13 Gram hariansib.com",
+        "processing_status": "processed",
+        "classifier_version": "news-v6",
+        "classified_at": "2026-09-09T00:17:23.305269+00:00",
+        "case_id": "CASE-001061",
+        "discovery_families": [],
+        "discovery_tags": [],
+        "discovery_hits": [],
+        "discovery_version": "discovery-v6.5.4",
+        "google_news_url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNS2hkQ0ZnUTNBcm5sSUlQdXJvcEdWYXlCOGdlY1NIdHI3TzJoNC1Qb3BJRkZSV3U3b2M4WHpReGxiLWVWOXZaZlNEeEJ4eDNiTVlZT0ZIM1BFSUJsbzYtVTh2T3JsUkxKaFJORkRwbE9TX0ZhQUlCVE8xMGg5VDlNTzRQSWFOaDBINjhxM094M2Voa2dSVkdCT1Q3NkZwVDl1UGN1RjRB0gGmAUFVX3lxTFBCbGEwdC1mMGE4NHc4TjQwNnR1eFVjZ1k2OWwtRFFyYUhfb1ZxMDlDY1Z0dWFueEVLeWl5TEpYaFRHemtmRm9saWEzenMwU2pQdVhhMTN0RVdSSV9PY1NVdkZpM3NxbjFiMjZ2bHFOQ1NNZllNOFVkenNxVkNPYnAwaEVIc2VZMlRraEVkUno0YjdfMVpaRFpqWVhDZGZTVTlsN0M4emc?oc=5",
+        "original_url": "https://www.hariansib.com/Kriminal/449612/residivis-diduga-edarkan-sabu-di-labura-polisi-sita-213-gram/",
+        "locality": "",
+        "polsek": null,
+        "location_confidence": 0,
+        "location_evidence": [],
+        "location_status": "BELUM_TERPETAKAN",
+        "location_source": "title",
+        "issue_type": "NARKOBA",
+        "issue_subtype": "Narkoba / Narkotika",
+        "issue_evidence": [
+          "sabu"
+        ],
+        "handling_status": "BELUM_ADA_INFORMASI",
+        "handling_evidence": [],
+        "attention_score": 38,
+        "attention_label": "Rendah",
+        "attention_components": {
+          "severity": 11,
+          "polri_relation": 16,
+          "authority": 0,
+          "public_impact": 10,
+          "handling": 0,
+          "evidence": 1,
+          "context_risk": 0,
+          "routine_enforcement_cap": null
+        },
+        "attention_evidence": {
+          "severity": [],
+          "authority": [],
+          "public_impact": [
+            "dampak institusional"
+          ],
+          "evidence": [
+            "satu sumber / informasi awal"
+          ],
+          "role": [
+            "Polri/personel menjadi subjek permasalahan"
+          ],
+          "issue": [
+            "sabu"
+          ],
+          "handling": [],
+          "context": [],
+          "positive": []
+        },
+        "case_engine_version": "case-v6.5.4",
+        "case_processed_at": "2026-09-09T00:39:52.236441+00:00"
+      },
+      {
+        "id": "0d9509d80e7447a9a2f3ada3d46fbf107b1cde21",
+        "title": "Polsek Jrengik Bersihkan Jalur Potensi Api di Desa Kotah - RRI.co.id",
+        "url": "https://rri.co.id/sampang/regional/2716471/polsek-jrengik-bersihkan-jalur-potensi-api-di-desa-kotah",
+        "source": "RRI.co.id",
+        "published_at": "2026-09-08T23:14:00+00:00",
+        "collected_at": "2026-09-09T00:17:23.305269+00:00",
+        "region": "BELUM TERPETAKAN",
+        "area_label": "BELUM TERPETAKAN",
+        "is_jatim": null,
+        "polres": null,
+        "category": "NETRAL / LAINNYA",
+        "scope": "neutral",
+        "scope_label": "Netral",
+        "priority": "low",
+        "summary": "Polsek Jrengik Bersihkan Jalur Potensi Api di Desa Kotah RRI.co.id",
+        "processing_status": "processed",
+        "classifier_version": "news-v6",
+        "classified_at": "2026-09-09T00:17:23.305269+00:00",
+        "case_id": null,
+        "discovery_families": [],
+        "discovery_tags": [],
+        "discovery_hits": [],
+        "discovery_version": "discovery-v6.5.4",
+        "google_news_url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNanZTYTlIOHpPWS04WTJGVUJtajhrZ29HSHRPa0gyS1J4dkRYeVRjNFJOTWhYclhzYWJ2c0dqLVRtTW9IQzNJOVhlU2x2OVpZeGlVUHIyeDJBcmV3SHRtaXlCMzBWM3Azb2NqZTN0al9vUHJ0M282dlAwWnp3dzhNTkxTZHdyMWZCejNwR1JiOGd4cG4tYVVrZlQ1bzFIZXJY?oc=5",
+        "original_url": "https://rri.co.id/sampang/regional/2716471/polsek-jrengik-bersihkan-jalur-potensi-api-di-desa-kotah",
+        "locality": "",
+        "polsek": "POLSEK JRENGIK BERSIHKAN JALUR",
+        "location_confidence": 0,
+        "location_evidence": [
+          "POLSEK JRENGIK BERSIHKAN JALUR"
+        ],
+        "location_status": "BELUM_TERPETAKAN",
+        "location_source": "title",
+        "issue_type": "UMUM",
+        "issue_subtype": "Belum Teridentifikasi",
+        "issue_evidence": [],
+        "handling_status": "BELUM_ADA_INFORMASI",
+        "handling_evidence": [],
+        "attention_score": 7,
+        "attention_label": "Rendah",
+        "attention_components": {
+          "severity": 2,
+          "polri_relation": 0,
+          "authority": 0,
+          "public_impact": 4,
+          "handling": 0,
+          "evidence": 1,
+          "context_risk": 0,
+          "routine_enforcement_cap": null
+        },
+        "attention_evidence": {
+          "severity": [],
+          "authority": [],
+          "public_impact": [],
+          "evidence": [
+            "satu sumber / informasi awal"
+          ],
+          "role": [],
+          "issue": [],
+          "handling": [],
+          "context": [],
+          "positive": []
+        },
+        "case_engine_version": "case-v6.5.4",
+        "case_processed_at": "2026-09-09T00:24:14.593208+00:00"
+      },
+      {
+        "id": "1073248217d157883fc0ca359c5fd76a0b6dbb8b",
+        "title": "Polresta Sidoarjo Gagalkan Penyelundupan Benih Lobster ke Singapura - radarnusantara.com",
+        "url": "http://www.radarnusantara.com/2026/09/polresta-sidoarjo-gagalkan.html",
+        "source": "radarnusantara.com",
+        "published_at": "2026-09-08T23:07:00+00:00",
+        "collected_at": "2026-09-09T00:17:23.305269+00:00",
+        "region": "Jawa Timur",
+        "area_label": "Sidoarjo",
+        "is_jatim": true,
+        "polres": "POLRESTA SIDOARJO",
+        "category": "POSITIF / PENEGAKAN HUKUM",
+        "scope": "positive",
+        "scope_label": "Positif",
+        "priority": "low",
+        "summary": "Polresta Sidoarjo Gagalkan Penyelundupan Benih Lobster ke Singapura radarnusantara.com",
+        "processing_status": "processed",
+        "classifier_version": "news-v6",
+        "classified_at": "2026-09-09T00:17:23.305269+00:00",
+        "case_id": null,
+        "discovery_families": [],
+        "discovery_tags": [],
+        "discovery_hits": [],
+        "discovery_version": "discovery-v6.5.4",
+        "google_news_url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9kSTM4UzdVWG82U1VvbTJQbXNDNkRzbWNOMDl5bk1aVGpkd3E4TmtETTJkOWlmUUZOUGI3aDBUR3FVNFh6SHdjTV91N0h1WHo2cnF4S2VxTUx0c3lNMWJZbVdncmhwYU40akxGYjR1UG9lSW8ydTFBaw?oc=5",
+        "original_url": "http://www.radarnusantara.com/2026/09/polresta-sidoarjo-gagalkan.html",
+        "locality": "Sidoarjo",
+        "polsek": null,
+        "location_confidence": 100,
+        "location_evidence": [
+          "polresta sidoarjo",
+          "Sidoarjo"
+        ],
+        "location_status": "JAWA_TIMUR",
+        "location_source": "title",
+        "issue_type": "UMUM",
+        "issue_subtype": "Belum Teridentifikasi",
+        "issue_evidence": [],
+        "handling_status": "BELUM_ADA_INFORMASI",
+        "handling_evidence": [],
+        "attention_score": 9,
+        "attention_label": "Rendah",
+        "attention_components": {
+          "severity": 2,
+          "polri_relation": 2,
+          "authority": 0,
+          "public_impact": 4,
+          "handling": 0,
+          "evidence": 1,
+          "context_risk": 0,
+          "routine_enforcement_cap": 35
+        },
+        "attention_evidence": {
+          "severity": [],
+          "authority": [],
+          "public_impact": [],
+          "evidence": [
+            "satu sumber / informasi awal"
+          ],
+          "role": [
+            "Polri sebagai pihak penindak"
+          ],
+          "issue": [],
+          "handling": [],
+          "context": [],
+          "positive": []
+        },
+        "case_engine_version": "case-v6.5.4",
+        "case_processed_at": "2026-09-09T00:24:14.943716+00:00"
+      },
+      {
+        "id": "96409ca72dd1dede47168ba7cfe83405b2e1fcec",
+        "title": "Polisi Situbondo cek stok BBM di SPBU pastikan kelancaran distribusi - Antara News jatim",
+        "url": "https://jatim.antaranews.com/berita/1097100/polisi-situbondo-cek-stok-bbm-di-spbu-pastikan-kelancaran-distribusi",
+        "source": "Antara News jatim",
+        "published_at": "2026-09-08T23:06:51+00:00",
+        "collected_at": "2026-09-09T00:17:23.305269+00:00",
+        "region": "Jawa Timur",
+        "area_label": "Situbondo",
+        "is_jatim": true,
+        "polres": null,
+        "category": "NETRAL / LAINNYA",
+        "scope": "neutral",
+        "scope_label": "Netral",
+        "priority": "low",
+        "summary": "Polisi Situbondo cek stok BBM di SPBU pastikan kelancaran distribusi Antara News jatim",
+        "processing_status": "processed",
+        "classifier_version": "news-v6",
+        "classified_at": "2026-09-09T00:17:23.305269+00:00",
+        "case_id": null,
+        "discovery_families": [],
+        "discovery_tags": [],
+        "discovery_hits": [],
+        "discovery_version": "discovery-v6.5.4",
+        "google_news_url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOckM1VHNfb3ZWNEVscjVZcF9PakpfME5JN25WcUxQM2xjbTdBU2tVNmwzd3ZQU3hJQUUyZlBzMlk3LVhTblFQc0s3bVk0LXR1TDZDWE9qNmZJb2E0ZVFSMk5wRUpRZnZyWk9YbG1BVlRrZkpaZEZYYmx4b1pKNkUyeVUwTjNzVXlWZ2dkRVp3eVB3bzctMjd6WTNfQ3hZSUJRc1VGa1d5QXpuLXgydzlhVlpR0gG3AUFVX3lxTE1ldFhaQ1NaS0VMTGdhTFpHXzhuT0hBNTd4ZTN1Slh5d3huNVJEb3M0YklYcWo5Z1hZRkZaQVktWFNLSF9TcXBrNXU3YUdjQ2pudE9qYS13dk9scHM4YlgwcjRpRF82UEFQdjJ0WlB4UlBZLTVITEtISDdaZlNIeHk4U1NhdWJEbXM5cDF6aUhfcklNLTM0NDlUWThQbTRCWVVQS0Y2VlRPY1FwZWx0b3BXM190QUF4RQ?oc=5",
+        "original_url": "https://jatim.antaranews.com/berita/1097100/polisi-situbondo-cek-stok-bbm-di-spbu-pastikan-kelancaran-distribusi",
+        "locality": "Situbondo",
+        "polsek": null,
+        "location_confidence": 95,
+        "location_evidence": [
+          "Situbondo"
+        ],
+        "location_status": "JAWA_TIMUR",
+        "location_source": "title",
+        "issue_type": "UMUM",
+        "issue_subtype": "Belum Teridentifikasi",
+        "issue_evidence": [],
+        "handling_status": "BELUM_ADA_INFORMASI",
+        "handling_evidence": [],
+        "attention_score": 7,
+        "attention_label": "Rendah",
+        "attention_components": {
+          "severity": 2,
+          "polri_relation": 0,
+          "authority": 0,
+          "public_impact": 4,
+          "handling": 0,
+          "evidence": 1,
+          "context_risk": 0,
+          "routine_enforcement_cap": null
+        },
+        "attention_evidence": {
+          "severity": [],
+          "authority": [],
+          "public_impact": [],
+          "evidence": [
+            "satu sumber / informasi awal"
+          ],
+          "role": [],
+          "issue": [],
+          "handling": [],
+          "context": [],
+          "positive": []
+        },
+        "case_engine_version": "case-v6.5.4",
+        "case_processed_at": "2026-09-09T00:24:15.308948+00:00"
+      },
+      {
+        "id": "dab609e5767c07568dec4c6155f37b0a26d1b317",
+        "title": "Terlibat Peredaran Narkoba, Pria di Mepanga Parimo Ini Diringkus Polisi - SultengTerkini",
+        "url": "https://sultengterkini.id/2026/09/09/terlibat-peredaran-narkoba-pria-di-mepanga-parimo-ini-diringkus-polisi/",
+        "source": "SultengTerkini",
+        "published_at": "2026-09-08T23:05:25+00:00",
+        "collected_at": "2026-09-09T00:17:23.305269+00:00",
+        "region": "BELUM TERPETAKAN",
+        "area_label": "BELUM TERPETAKAN",
+        "is_jatim": null,
+        "polres": null,
+        "category": "NEGATIF - NARKOBA / NARKOTIKA",
+        "scope": "negative",
+        "scope_label": "Negatif",
+        "priority": "low",
+        "summary": "Terlibat Peredaran Narkoba, Pria di Mepanga Parimo Ini Diringkus Polisi SultengTerkini",
+        "processing_status": "processed",
+        "classifier_version": "news-v6",
+        "classified_at": "2026-09-09T00:17:23.305269+00:00",
+        "case_id": "CASE-001062",
+        "discovery_families": [],
+        "discovery_tags": [],
+        "discovery_hits": [],
+        "discovery_version": "discovery-v6.5.4",
+        "google_news_url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQQ0NsV29qenNzYmhDbkI5eTJjRWtwdWxUQ0x3RjJWUWM1eXpmb0tLUnFnMElhc25LMVctVzlpSUpUWnRJT2JmRlo3TkQzbWtCUnlJWnNOdVhnamc2MURuakx5UUhETktyQ3dZaGJMX1VUS2VTY3U5bWp1NTV0Ym5DZHQyRDVSbUlLUmc2OGxrYTJOWjVQemtCTE1lZHJJTmtGZWhHUlhFTkxYYmVv?oc=5",
+        "original_url": "https://sultengterkini.id/2026/09/09/terlibat-peredaran-narkoba-pria-di-mepanga-parimo-ini-diringkus-polisi/",
+        "locality": "",
+        "polsek": null,
+        "location_confidence": 0,
+        "location_evidence": [],
+        "location_status": "BELUM_TERPETAKAN",
+        "location_source": "title",
+        "issue_type": "NARKOBA",
+        "issue_subtype": "Narkoba / Narkotika",
+        "issue_evidence": [
+          "narkoba"
+        ],
+        "handling_status": "BELUM_ADA_INFORMASI",
+        "handling_evidence": [],
+        "attention_score": 38,
+        "attention_label": "Rendah",
+        "attention_components": {
+          "severity": 11,
+          "polri_relation": 16,
+          "authority": 0,
+          "public_impact": 10,
+          "handling": 0,
+          "evidence": 1,
+          "context_risk": 0,
+          "routine_enforcement_cap": null
+        },
+        "attention_evidence": {
+          "severity": [],
+          "authority": [],
+          "public_impact": [
+            "dampak institusional"
+          ],
+          "evidence": [
+            "satu sumber / informasi awal"
+          ],
+          "role": [
+            "Polri/personel menjadi subjek permasalahan"
+          ],
+          "issue": [
+            "narkoba"
+          ],
+          "handling": [],
+          "context": [],
+          "positive": []
+        },
+        "case_engine_version": "case-v6.5.4",
+        "case_processed_at": "2026-09-09T00:39:52.236444+00:00"
+      },
+      {
+        "id": "b7dd94ac05c480fd8723b3854fdbd5e483868e44",
+        "title": "3 Polisi di Bogor Dipecat, Ada yang Desersi Hingga Penyalahgunaan Narkoba - VIVA.co.id",
+        "url": "https://www.viva.co.id/berita/metro/1927262-3-polisi-di-bogor-dipecat-ada-yang-desersi-hingga-penyalahgunaan-narkoba",
+        "source": "VIVA.co.id",
+        "published_at": "2026-09-08T23:00:00+00:00",
+        "collected_at": "2026-09-09T00:17:23.305269+00:00",
+        "region": "BELUM TERPETAKAN",
+        "area_label": "BELUM TERPETAKAN",
+        "is_jatim": null,
+        "polres": null,
+        "category": "NEGATIF - NARKOBA / NARKOTIKA",
+        "scope": "negative",
+        "scope_label": "Negatif",
+        "priority": "low",
+        "summary": "3 Polisi di Bogor Dipecat, Ada yang Desersi Hingga Penyalahgunaan Narkoba VIVA.co.id",
+        "processing_status": "processed",
+        "classifier_version": "news-v6",
+        "classified_at": "2026-09-09T00:17:23.305269+00:00",
+        "case_id": "CASE-001063",
+        "discovery_families": [
+          "general_police_misconduct"
+        ],
+        "discovery_tags": [
+          "ethics",
+          "oknum"
+        ],
+        "discovery_hits": [
+          "dipecat"
+        ],
+        "discovery_version": "discovery-v6.5.4",
+        "google_news_url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPTzVod2EyOTdhTkV3OEIzQ2tCdEd6YU1EWVg0RW9lbFZ6X2F6Z2NEbDVQU204bDN6YWpVOEhBa3NmTnBBaUdMb3kxREV0c1FYYUJEQVJKWGxsQjRHYmloNS0tQmI3N2YtWWFscUtlUG43QmNlYlBiN0VGUEVMWm8ta0djQXE2OGVzYnM0cGozT2lHODNQUGJERHB3Z2Zzc1FSVnU4RnpqNndFVXJFR0JWR3I5ankwM3fSAbwBQVVfeXFMTkxFU0VvRksyeXUyLVlMNExsTnpROVJoVnBtUWczbmRHRHJnT0s0V05uNWdMeklrSC1sQW01TlVvRktVUndWY2JIOGJYUWlWYm9DWlJzSVFuaFZHWkR0WGdOckltdjc0ZVpmSFZjYzE3N1A0anc5SEJ4cE0ybEVaMm5SMENMTmwyYWpacy0zLUIwVkgxYVVFbmJiNTJ5dG13UUhjM0NjN1NCSzJlck5PUEFZTFlibThWRVE0ZWk?oc=5",
+        "original_url": "https://www.viva.co.id/berita/metro/1927262-3-polisi-di-bogor-dipecat-ada-yang-desersi-hingga-penyalahgunaan-narkoba",
+        "locality": "",
+        "polsek": null,
+        "location_confidence": 0,
+        "location_evidence": [],
+        "location_status": "BELUM_TERPETAKAN",
+        "location_source": "title",
+        "issue_type": "NARKOBA",
+        "issue_subtype": "Narkoba / Narkotika",
+        "issue_evidence": [
+          "narkoba"
+        ],
+        "handling_status": "SUDAH_DITINDAK",
+        "handling_evidence": [
+          "dipecat"
+        ],
+        "attention_score": 18,
+        "attention_label": "Rendah",
+        "attention_components": {
+          "severity": 11,
+          "polri_relation": 0,
+          "authority": 0,
+          "public_impact": 4,
+          "handling": 2,
+          "evidence": 1,
+          "context_risk": 0,
+          "routine_enforcement_cap": null
+        },
+        "attention_evidence": {
+          "severity": [],
+          "authority": [],
+          "public_impact": [],
+          "evidence": [
+            "satu sumber / informasi awal"
+          ],
+          "role": [],
+          "issue": [
+            "narkoba"
+          ],
+          "handling": [
+            "dipecat"
+          ],
+          "context": [],
+          "positive": []
+        },
+        "case_engine_version": "case-v6.5.4",
+        "case_processed_at": "2026-09-09T00:39:52.236446+00:00"
+      },
+      {
+        "id": "ed0a42db562cf189d7ead0435172de82dd957ae2",
+        "title": "Polres Malang Salurkan 4.000 Liter Air Bersih untuk Warga Terdampak Kekeringan di Bantur - beritajatim.com",
+        "url": "https://beritajatim.com/polres-malang-salurkan-4-000-liter-air-bersih-untuk-warga-terdampak-kekeringan-di-bantur",
+        "source": "beritajatim.com",
+        "published_at": "2026-09-08T22:27:13+00:00",
+        "collected_at": "2026-09-09T00:17:23.305269+00:00",
+        "region": "Jawa Timur",
+        "area_label": "Malang",
+        "is_jatim": true,
+        "polres": "POLRES MALANG",
+        "category": "NETRAL / LAINNYA",
+        "scope": "neutral",
+        "scope_label": "Netral",
+        "priority": "low",
+        "summary": "Polres Malang Salurkan 4.000 Liter Air Bersih untuk Warga Terdampak Kekeringan di Bantur beritajatim.com",
+        "processing_status": "processed",
+        "classifier_version": "news-v6",
+        "classified_at": "2026-09-09T00:17:23.305269+00:00",
+        "case_id": null,
+        "discovery_families": [],
+        "discovery_tags": [],
+        "discovery_hits": [],
+        "discovery_version": "discovery-v6.5.4",
+        "google_news_url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPaUdoWHNKb0hIWGNFdUFVd2NFdUhGYVBOU2Q0Yk93QldmemE2T3gwT1JrOExGc3BEb0FmMWEtMk5qWFFQcEZyMFM4U0pBTWVHYmVjdFZCTFlDcGkwMjU3VG12RHVqdDdFUkNCQmQzNkRmOGJaZ2J1ZnNXZEtDdnRqNzdCRmFqNE9aQzZqa0VxRG94dXdObUctZmVqQWlMMF9rMktFZjUxQ0JOb2JKendJWVdR?oc=5",
+        "original_url": "https://beritajatim.com/polres-malang-salurkan-4-000-liter-air-bersih-untuk-warga-terdampak-kekeringan-di-bantur",
+        "locality": "Malang",
+        "polsek": null,
+        "location_confidence": 100,
+        "location_evidence": [
+          "polres malang",
+          "Malang"
+        ],
+        "location_status": "JAWA_TIMUR",
+        "location_source": "title",
+        "issue_type": "UMUM",
+        "issue_subtype": "Belum Teridentifikasi",
+        "issue_evidence": [],
+        "handling_status": "BELUM_ADA_INFORMASI",
+        "handling_evidence": [],
+        "attention_score": 15,
+        "attention_label": "Rendah",
+        "attention_components": {
+          "severity": 2,
+          "polri_relation": 0,
+          "authority": 0,
+          "public_impact": 12,
+          "handling": 0,
+          "evidence": 1,
+          "context_risk": 0,
+          "routine_enforcement_cap": null
+        },
+        "attention_evidence": {
+          "severity": [],
+          "authority": [],
+          "public_impact": [
+            "dampak kepada masyarakat"
+          ],
+          "evidence": [
+            "satu sumber / informasi awal"
+          ],
+          "role": [],
+          "issue": [],
+          "handling": [],
+          "context": [],
+          "positive": []
+        },
+        "case_engine_version": "case-v6.5.4",
+        "case_processed_at": "2026-09-09T00:24:15.703078+00:00"
+      },
+      {
+        "id": "322521501ed2dfd46f9c9b0c826e8670b6202a9d",
+        "title": "Tegas 21 Polisi di Maluku Utara Dipecat, Ada Polwan - Target Berita",
+        "url": "https://targetberita.co.id/tegas-21-polisi-di-maluku-utara-dipecat-ada-polwan/",
+        "source": "Target Berita",
+        "published_at": "2026-09-08T22:12:24+00:00",
+        "collected_at": "2026-09-09T00:17:23.305269+00:00",
+        "region": "LUAR JATIM",
+        "area_label": "LUAR JATIM",
+        "is_jatim": false,
+        "polres": null,
+        "category": "NETRAL / LAINNYA",
+        "scope": "neutral",
+        "scope_label": "Netral",
+        "priority": "low",
+        "summary": "Tegas 21 Polisi di Maluku Utara Dipecat, Ada Polwan Target Berita",
+        "processing_status": "processed",
+        "classifier_version": "news-v6",
+        "classified_at": "2026-09-09T00:17:23.305269+00:00",
+        "case_id": null,
+        "discovery_families": [
+          "general_police_misconduct"
+        ],
+        "discovery_tags": [
+          "ethics",
+          "oknum"
+        ],
+        "discovery_hits": [
+          "dipecat"
+        ],
+        "discovery_version": "discovery-v6.5.4",
+        "google_news_url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNb3FGdDFIb2hWVFh0N2NWNnkwLWppWHlYUmh4OWJIalJVQmViOFJZLWZjVGZBYl9HNmVtaHdNTGozZ1RiWlZEUUlPU1JmRGR0N1ZDTDlWUHlHSG1taUF0MXJxWkNqdkFRQlRmSS1VODNqbThGbzNtWXp4WjZHckQ2OWVuSng?oc=5",
+        "original_url": "https://targetberita.co.id/tegas-21-polisi-di-maluku-utara-dipecat-ada-polwan/",
+        "locality": "",
+        "polsek": null,
+        "location_confidence": 100,
+        "location_evidence": [
+          "maluku"
+        ],
+        "location_status": "LUAR_JATIM",
+        "location_source": "title",
+        "issue_type": "UMUM",
+        "issue_subtype": "Belum Teridentifikasi",
+        "issue_evidence": [],
+        "handling_status": "SUDAH_DITINDAK",
+        "handling_evidence": [
+          "dipecat"
+        ],
+        "attention_score": 9,
+        "attention_label": "Rendah",
+        "attention_components": {
+          "severity": 2,
+          "polri_relation": 0,
+          "authority": 0,
+          "public_impact": 4,
+          "handling": 2,
+          "evidence": 1,
+          "context_risk": 0,
+          "routine_enforcement_cap": null
+        },
+        "attention_evidence": {
+          "severity": [],
+          "authority": [],
+          "public_impact": [],
+          "evidence": [
+            "satu sumber / informasi awal"
+          ],
+          "role": [],
+          "issue": [],
+          "handling": [
+            "dipecat"
+          ],
+          "context": [],
+          "positive": []
+        },
+        "case_engine_version": "case-v6.5.4",
+        "case_processed_at": "2026-09-09T00:24:15.991742+00:00"
+      },
+      {
         "id": "be251b36144c0aade3aecf1f5c9f6c69a9285378",
         "title": "Kontraktor Wangsakarta Adukan Pengembang ke Polres Malang, Persoalkan Tagihan Rp1,7 Miliar - Javasatu.com",
         "url": "https://javasatu.com/berita/kontraktor-wangsakarta-adukan-pengembang-ke-polres-malang-persoalkan-tagihan-rp17-miliar/",
@@ -109,7 +1189,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-09-08T22:00:17.229339+00:00"
+        "case_processed_at": "2026-09-09T00:24:16.382864+00:00"
       },
       {
         "id": "9ac5553b76e279ca47ac3b11b7c4f7a4bce2f970",
@@ -192,7 +1272,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-09-08T22:16:13.508763+00:00"
+        "case_processed_at": "2026-09-09T00:39:52.236449+00:00"
       },
       {
         "id": "57fc09eb77555350daaa9045c5d42f74931547ff",
@@ -260,7 +1340,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-09-08T22:00:17.653111+00:00"
+        "case_processed_at": "2026-09-09T00:24:16.787099+00:00"
       },
       {
         "id": "1ec6e84b39b389dc852db7e297c4d9823d30771d",
@@ -331,7 +1411,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-09-08T22:16:13.508770+00:00"
+        "case_processed_at": "2026-09-09T00:39:52.236451+00:00"
       },
       {
         "id": "47b2fdf6e7cc5cb33c636fa4335d95aab9e2adcb",
@@ -398,7 +1478,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-09-08T22:00:18.003530+00:00"
+        "case_processed_at": "2026-09-09T00:24:17.131844+00:00"
       },
       {
         "id": "52bd07edcaeb2a6e00e36c2aa570c64bc1ad11e9",
@@ -466,7 +1546,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-09-08T22:00:18.330383+00:00"
+        "case_processed_at": "2026-09-09T00:24:17.415389+00:00"
       },
       {
         "id": "8b634a239d3d4f91eb8ac9c1557cd93ccd13b0b0",
@@ -535,7 +1615,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-09-08T22:16:13.508774+00:00"
+        "case_processed_at": "2026-09-09T00:39:52.236454+00:00"
       },
       {
         "id": "064320cf75de109c1cbbca647dfebf36da9a36fd",
@@ -604,7 +1684,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-09-08T22:16:13.508777+00:00"
+        "case_processed_at": "2026-09-09T00:39:52.236456+00:00"
       },
       {
         "id": "83c5813f6a3e1d49fe2e82c305a52a77930933bd",
@@ -669,7 +1749,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-09-08T22:00:18.644033+00:00"
+        "case_processed_at": "2026-09-09T00:24:17.717954+00:00"
       },
       {
         "id": "4fd992189a1c0b2340868b14c65c76b2c9bf0877",
@@ -737,7 +1817,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-09-08T22:00:19.063060+00:00"
+        "case_processed_at": "2026-09-09T00:24:18.134396+00:00"
       },
       {
         "id": "2511174243ea99fb4e44b63939513da73301b4b6",
@@ -806,7 +1886,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-09-08T22:00:19.421382+00:00"
+        "case_processed_at": "2026-09-09T00:24:18.491073+00:00"
       },
       {
         "id": "02510aeb348185e594a24765aa6177f1c6364def",
@@ -876,7 +1956,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-09-08T22:00:19.854642+00:00"
+        "case_processed_at": "2026-09-09T00:24:18.922700+00:00"
       },
       {
         "id": "4388e6bd8b1a8b45421e8cff2be2160a3d01e5f9",
@@ -956,7 +2036,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-09-08T22:16:13.508780+00:00"
+        "case_processed_at": "2026-09-09T00:39:52.236459+00:00"
       },
       {
         "id": "47b18b1ca38395ad5518706cfb4ed03ce3b65b85",
@@ -1024,7 +2104,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-09-08T22:00:20.175277+00:00"
+        "case_processed_at": "2026-09-09T00:24:19.242262+00:00"
       },
       {
         "id": "f5ab4c8bb88b29617ee49b0c52b0da5af25fb73a",
@@ -1095,7 +2175,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-09-08T22:16:13.508783+00:00"
+        "case_processed_at": "2026-09-09T00:39:52.236462+00:00"
       },
       {
         "id": "cd1d69656dcd2a96bee93cb373e7b0b35e97d735",
@@ -1168,7 +2248,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-09-08T22:16:13.508786+00:00"
+        "case_processed_at": "2026-09-09T00:39:52.236465+00:00"
       },
       {
         "id": "4a14c2dd34aa906cefd78aad441612cf9ce7edb1",
@@ -1248,7 +2328,7 @@
           ]
         },
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-09-08T22:00:20.505865+00:00"
+        "case_processed_at": "2026-09-09T00:24:19.571007+00:00"
       },
       {
         "id": "2a7ea05bdc3e328b8dfd98bd95cadad19b1799d1",
@@ -1325,7 +2405,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-09-08T22:16:13.508790+00:00"
+        "case_processed_at": "2026-09-09T00:39:52.236467+00:00"
       },
       {
         "id": "6852feea1ce478e574a14a16fe2ccb0f984b8978",
@@ -1392,7 +2472,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-09-08T22:00:20.861369+00:00"
+        "case_processed_at": "2026-09-09T00:24:19.926403+00:00"
       },
       {
         "id": "c4ee9ad23a2786cb27f8d0f36a493b95a2396095",
@@ -1463,7 +2543,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-09-08T22:16:13.508793+00:00"
+        "case_processed_at": "2026-09-09T00:39:52.236470+00:00"
       },
       {
         "id": "03d7140e9dc5e73ae439aee3b82a20c77d63d1c1",
@@ -1532,7 +2612,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-09-08T22:16:13.508795+00:00"
+        "case_processed_at": "2026-09-09T00:39:52.236472+00:00"
       },
       {
         "id": "fc46bbacc580bdb5ccad103de2053a4ef99f998b",
@@ -1600,7 +2680,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-09-08T22:00:21.291259+00:00"
+        "case_processed_at": "2026-09-09T00:24:20.337733+00:00"
       },
       {
         "id": "000dd5e58e8a9ab778b9d6785631d9b04ce68695",
@@ -1669,7 +2749,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-09-08T22:16:13.508798+00:00"
+        "case_processed_at": "2026-09-09T00:39:52.236475+00:00"
       },
       {
         "id": "2d606af98f57745cc6128aeeb72c9d1f018db743",
@@ -1739,7 +2819,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-09-08T22:00:21.640650+00:00"
+        "case_processed_at": "2026-09-09T00:24:20.688823+00:00"
       },
       {
         "id": "c7bb78bb6c72eef02957d7ec1e9ccd78f88fe801",
@@ -1809,7 +2889,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-09-08T22:00:21.932604+00:00"
+        "case_processed_at": "2026-09-09T00:24:20.981822+00:00"
       },
       {
         "id": "d4a1d11b2883f3a86956153aa7de3525e32f7b27",
@@ -1892,7 +2972,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-09-08T22:16:13.508800+00:00"
+        "case_processed_at": "2026-09-09T00:39:52.236478+00:00"
       },
       {
         "id": "e87a29cdc83da861b831a7bc18b72a4cbf5e4550",
@@ -1960,11 +3040,563 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-09-08T22:00:22.311918+00:00"
+        "case_processed_at": "2026-09-09T00:24:21.364530+00:00"
       }
     ],
     "jatim_items": [
       {
+        "id": "245924a9757fbaac88c1abdb2eedee451a75b60f",
+        "title": "Satreskrim Polresta Sidoarjo Ungkap Penyelundupan Benih Lobster Senilai Rp4,4 Miliar di Bandara Juanda - Mattanews.co",
+        "url": "https://mattanews.co/satreskrim-polresta-sidoarjo-ungkap-penyelundupan-benih-lobster-senilai-rp44-miliar-di-bandara-juanda/",
+        "source": "Mattanews.co",
+        "published_at": "2026-09-09T00:14:31+00:00",
+        "collected_at": "2026-09-09T00:17:23.305269+00:00",
+        "region": "Jawa Timur",
+        "area_label": "Sidoarjo",
+        "is_jatim": true,
+        "polres": "POLRESTA SIDOARJO",
+        "category": "POSITIF / PENEGAKAN HUKUM",
+        "scope": "positive",
+        "scope_label": "Positif",
+        "priority": "low",
+        "summary": "Satreskrim Polresta Sidoarjo Ungkap Penyelundupan Benih Lobster Senilai Rp4,4 Miliar di Bandara Juanda Mattanews.co",
+        "processing_status": "processed",
+        "classifier_version": "news-v6",
+        "classified_at": "2026-09-09T00:17:23.305269+00:00",
+        "case_id": null,
+        "discovery_families": [],
+        "discovery_tags": [],
+        "discovery_hits": [],
+        "discovery_version": "discovery-v6.5.4",
+        "google_news_url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxORC1RT2c2VEx6VDhkLWNCSXlId3dlVmRJc2ctUzJVUHBpaGkwbzBqcUhENjd1aktENzJpYnJSRWs3WVRiUkRvT1FfV0pPZzNuV1RaUkpqU2g2Y0h1UHZ3bU1kWHdOcVh2bGRoQjhSQkI1SEVPQTRDWW9ZMFcwNEVIdEMtRXNrVC04RTdKVlNIaC1ReVZxVzdKUTVhSWUtTF9rdzQ1V2Z4WmVYeVg5ZXRUSEtrUTFGSmpxQ2xQWEJrN20?oc=5",
+        "original_url": "https://mattanews.co/satreskrim-polresta-sidoarjo-ungkap-penyelundupan-benih-lobster-senilai-rp44-miliar-di-bandara-juanda/",
+        "locality": "Sidoarjo",
+        "polsek": null,
+        "location_confidence": 100,
+        "location_evidence": [
+          "polresta sidoarjo",
+          "Sidoarjo"
+        ],
+        "location_status": "JAWA_TIMUR",
+        "location_source": "title",
+        "issue_type": "UMUM",
+        "issue_subtype": "Belum Teridentifikasi",
+        "issue_evidence": [],
+        "handling_status": "BELUM_ADA_INFORMASI",
+        "handling_evidence": [],
+        "attention_score": 9,
+        "attention_label": "Rendah",
+        "attention_components": {
+          "severity": 2,
+          "polri_relation": 2,
+          "authority": 0,
+          "public_impact": 4,
+          "handling": 0,
+          "evidence": 1,
+          "context_risk": 0,
+          "routine_enforcement_cap": 35
+        },
+        "attention_evidence": {
+          "severity": [],
+          "authority": [],
+          "public_impact": [],
+          "evidence": [
+            "satu sumber / informasi awal"
+          ],
+          "role": [
+            "Polri sebagai pihak penindak"
+          ],
+          "issue": [],
+          "handling": [],
+          "context": [],
+          "positive": []
+        },
+        "case_engine_version": "case-v6.5.4",
+        "case_processed_at": "2026-09-09T00:24:12.195484+00:00"
+      },
+      {
+        "id": "df09aa3598edeb39b4a6dafd5f1df75a65cef197",
+        "title": "Polresta Malang Kota Kawal Stabilitas Inflasi, Waspadai Penimbunan dan Penyalahgunaan BBM - mitratoday.com",
+        "url": "https://www.mitratoday.com/polresta-malang-kota-kawal-stabilitas-inflasi-waspadai-penimbunan-dan-penyalahgunaan-bbm/",
+        "source": "mitratoday.com",
+        "published_at": "2026-09-09T00:05:22+00:00",
+        "collected_at": "2026-09-09T00:17:23.305269+00:00",
+        "region": "Jawa Timur",
+        "area_label": "Malang",
+        "is_jatim": true,
+        "polres": "POLRESTA MALANG KOTA",
+        "category": "NETRAL / LAINNYA",
+        "scope": "neutral",
+        "scope_label": "Netral",
+        "priority": "low",
+        "summary": "Polresta Malang Kota Kawal Stabilitas Inflasi, Waspadai Penimbunan dan Penyalahgunaan BBM mitratoday.com",
+        "processing_status": "processed",
+        "classifier_version": "news-v6",
+        "classified_at": "2026-09-09T00:17:23.305269+00:00",
+        "case_id": null,
+        "discovery_families": [],
+        "discovery_tags": [],
+        "discovery_hits": [],
+        "discovery_version": "discovery-v6.5.4",
+        "google_news_url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNeTlCcjFvTlItSDVtNjQ5N05aUWFVU0NyS19oc2pqQVFWM3ViVkdzdWxkN012U29NQ0tCaE4xZUMxUHBBMm1YQ3ZBTG0wUW5EZ1FqS3FZWGJHVnFkTUNsTlhfdGlYM3d6XzluM2NFYlJfTlhWLXA3VHV0V0taLU5JX1JneXh5d1dqcXZkeDZzUVUwQ1RrQ2pJdGJkblFSb2Nkb0Z4bTVxV25sS0lUR1M2QzVnMzNCWjA?oc=5",
+        "original_url": "https://www.mitratoday.com/polresta-malang-kota-kawal-stabilitas-inflasi-waspadai-penimbunan-dan-penyalahgunaan-bbm/",
+        "locality": "Malang",
+        "polsek": null,
+        "location_confidence": 100,
+        "location_evidence": [
+          "polresta malang kota",
+          "Malang"
+        ],
+        "location_status": "JAWA_TIMUR",
+        "location_source": "title",
+        "issue_type": "UMUM",
+        "issue_subtype": "Belum Teridentifikasi",
+        "issue_evidence": [],
+        "handling_status": "BELUM_ADA_INFORMASI",
+        "handling_evidence": [],
+        "attention_score": 7,
+        "attention_label": "Rendah",
+        "attention_components": {
+          "severity": 2,
+          "polri_relation": 0,
+          "authority": 0,
+          "public_impact": 4,
+          "handling": 0,
+          "evidence": 1,
+          "context_risk": 0,
+          "routine_enforcement_cap": null
+        },
+        "attention_evidence": {
+          "severity": [],
+          "authority": [],
+          "public_impact": [],
+          "evidence": [
+            "satu sumber / informasi awal"
+          ],
+          "role": [],
+          "issue": [],
+          "handling": [],
+          "context": [],
+          "positive": []
+        },
+        "case_engine_version": "case-v6.5.4",
+        "case_processed_at": "2026-09-09T00:24:12.585252+00:00"
+      },
+      {
+        "id": "9309e085ab64f6052fbbea7d1f89fef999d43985",
+        "title": "Satgas Pangan Polres Batu Pastikan Stok Beras Aman, Harga Premium dan Medium Stabil - mitratoday.com",
+        "url": "https://www.mitratoday.com/satgas-pangan-polres-batu-pastikan-stok-beras-aman-harga-premium-dan-medium-stabil/",
+        "source": "mitratoday.com",
+        "published_at": "2026-09-09T00:04:30+00:00",
+        "collected_at": "2026-09-09T00:17:23.305269+00:00",
+        "region": "Jawa Timur",
+        "area_label": "Batu",
+        "is_jatim": true,
+        "polres": "POLRES BATU",
+        "category": "NETRAL / LAINNYA",
+        "scope": "neutral",
+        "scope_label": "Netral",
+        "priority": "low",
+        "summary": "Satgas Pangan Polres Batu Pastikan Stok Beras Aman, Harga Premium dan Medium Stabil mitratoday.com",
+        "processing_status": "processed",
+        "classifier_version": "news-v6",
+        "classified_at": "2026-09-09T00:17:23.305269+00:00",
+        "case_id": null,
+        "discovery_families": [],
+        "discovery_tags": [],
+        "discovery_hits": [],
+        "discovery_version": "discovery-v6.5.4",
+        "google_news_url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOelFmdGJwcE9yeVpQdnpPQlRBR1JZN1BUZk1UVHY5ZXI0SzZhd2QzX0VjTjRiRnJpNWkxMDhNZVR6ZnAxRW1ZSEJXSlFoSUlnR3U4YzVBanBfUnVXblI5YnlyMG1pSjRhaUh4aEdxVDJvV3VwV3lSZUdfZFdnbEFQTWtENmJiYjF2aWVqeG1FclVtc2xOOVBkbTVlNEwwMnRWS016eVlvNnd1Z2hKdDJV?oc=5",
+        "original_url": "https://www.mitratoday.com/satgas-pangan-polres-batu-pastikan-stok-beras-aman-harga-premium-dan-medium-stabil/",
+        "locality": "Batu",
+        "polsek": null,
+        "location_confidence": 100,
+        "location_evidence": [
+          "polres batu",
+          "Batu"
+        ],
+        "location_status": "JAWA_TIMUR",
+        "location_source": "title",
+        "issue_type": "UMUM",
+        "issue_subtype": "Belum Teridentifikasi",
+        "issue_evidence": [],
+        "handling_status": "BELUM_ADA_INFORMASI",
+        "handling_evidence": [],
+        "attention_score": 7,
+        "attention_label": "Rendah",
+        "attention_components": {
+          "severity": 2,
+          "polri_relation": 0,
+          "authority": 0,
+          "public_impact": 4,
+          "handling": 0,
+          "evidence": 1,
+          "context_risk": 0,
+          "routine_enforcement_cap": null
+        },
+        "attention_evidence": {
+          "severity": [],
+          "authority": [],
+          "public_impact": [],
+          "evidence": [
+            "satu sumber / informasi awal"
+          ],
+          "role": [],
+          "issue": [],
+          "handling": [],
+          "context": [],
+          "positive": []
+        },
+        "case_engine_version": "case-v6.5.4",
+        "case_processed_at": "2026-09-09T00:24:12.961926+00:00"
+      },
+      {
+        "id": "049dfc952f81dea1207aca61291f35a9009e6b4d",
+        "title": "Modus Catut Nama Pemprov Jatim Terungkap, 13 Personel Polres Malang Raih Penghargaan - bacamalang.com",
+        "url": "https://bacamalang.com/modus-catut-nama-pemprov-jatim-terungkap-13-personel-polres-malang-raih-penghargaan/",
+        "source": "bacamalang.com",
+        "published_at": "2026-09-08T23:40:00+00:00",
+        "collected_at": "2026-09-09T00:17:23.305269+00:00",
+        "region": "Jawa Timur",
+        "area_label": "Malang",
+        "is_jatim": true,
+        "polres": "POLRES MALANG",
+        "category": "POSITIF / PENEGAKAN HUKUM",
+        "scope": "positive",
+        "scope_label": "Positif",
+        "priority": "low",
+        "summary": "Modus Catut Nama Pemprov Jatim Terungkap, 13 Personel Polres Malang Raih Penghargaan bacamalang.com",
+        "processing_status": "processed",
+        "classifier_version": "news-v6",
+        "classified_at": "2026-09-09T00:17:23.305269+00:00",
+        "case_id": null,
+        "discovery_families": [],
+        "discovery_tags": [],
+        "discovery_hits": [],
+        "discovery_version": "discovery-v6.5.4",
+        "google_news_url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNRGRMSkRWRF9yWlNZQWZDNEI1R3FwLVNPaFRrZlgtOFJ3TUV3X0Jha3J0V3FNNWd1UUN2eGJ3SW1yRUhJS3kwQm5QWTFyWnBUNlpnN0F0TS1JMC14MElNSTJzYldQcXNVb3BINXo5YVp5YU1VQXE4b1JTd3FBTGI1VDhIYldzbGVtNlBndzF2UHpfak5ORy1rZWU3VzFZZU5ZRDFPdkxPcnAtb0k?oc=5",
+        "original_url": "https://bacamalang.com/modus-catut-nama-pemprov-jatim-terungkap-13-personel-polres-malang-raih-penghargaan/",
+        "locality": "Malang",
+        "polsek": null,
+        "location_confidence": 100,
+        "location_evidence": [
+          "polres malang",
+          "Malang",
+          "Jawa Timur/Jatim"
+        ],
+        "location_status": "JAWA_TIMUR",
+        "location_source": "title",
+        "issue_type": "UMUM",
+        "issue_subtype": "Belum Teridentifikasi",
+        "issue_evidence": [],
+        "handling_status": "BELUM_ADA_INFORMASI",
+        "handling_evidence": [],
+        "attention_score": 7,
+        "attention_label": "Rendah",
+        "attention_components": {
+          "severity": 2,
+          "polri_relation": 0,
+          "authority": 0,
+          "public_impact": 4,
+          "handling": 0,
+          "evidence": 1,
+          "context_risk": 0,
+          "routine_enforcement_cap": null
+        },
+        "attention_evidence": {
+          "severity": [],
+          "authority": [],
+          "public_impact": [],
+          "evidence": [
+            "satu sumber / informasi awal"
+          ],
+          "role": [],
+          "issue": [],
+          "handling": [],
+          "context": [],
+          "positive": [
+            "\\b(?:pelayanan|inovasi|prestasi|penghargaan|apresiasi)\\b.{0,100}\\b(?:polisi|polres|polda|polri)\\b"
+          ]
+        },
+        "case_engine_version": "case-v6.5.4",
+        "case_processed_at": "2026-09-09T00:24:13.324893+00:00"
+      },
+      {
+        "id": "7634967cd143ac06ec4c24ff8e465b6089938698",
+        "title": "Polsek Tulungagung Kota Datangi TKP Kebakaran Rumah di Kelurahan Bago, Diduga Akibat Korsleting Charger HP - Tribratanews - Polres Tulungagung",
+        "url": "https://tribratanews.restulungagung.jatim.polri.go.id/09/09/2026/polsek-tulungagung-kota-datangi-tkp-kebakaran-rumah-di-kelurahan-bago-diduga-akibat-korsleting-charger-hp/",
+        "source": "Tribratanews - Polres Tulungagung",
+        "published_at": "2026-09-08T23:33:36+00:00",
+        "collected_at": "2026-09-09T00:17:23.305269+00:00",
+        "region": "Jawa Timur",
+        "area_label": "Tulungagung",
+        "is_jatim": true,
+        "polres": null,
+        "category": "NETRAL / LAINNYA",
+        "scope": "neutral",
+        "scope_label": "Netral",
+        "priority": "low",
+        "summary": "Polsek Tulungagung Kota Datangi TKP Kebakaran Rumah di Kelurahan Bago, Diduga Akibat Korsleting Charger HP Tribratanews - Polres Tulungagung",
+        "processing_status": "processed",
+        "classifier_version": "news-v6",
+        "classified_at": "2026-09-09T00:17:23.305269+00:00",
+        "case_id": null,
+        "discovery_families": [],
+        "discovery_tags": [],
+        "discovery_hits": [],
+        "discovery_version": "discovery-v6.5.4",
+        "google_news_url": "https://news.google.com/rss/articles/CBMigAJBVV95cUxQMzB0SXhYV1FVaGp0RG9PaDk3NGU1bjBnLXdETkhfeWxzMVdQVEY1MFdOY1VaYzdXbDVMLU1BVkRvMTk2Um1KOHBXQ1h4UjlMVTNBZXMySlRsYnYwZDk2cllhbE5EMEE2eDdQRDJvQUo1Nno3V2o2bEJZM2dWZlhtektXNU9jLTA1bGdZdkpibmExVUZKLVZnLWhsLXlxX0ViU3gwU0stTVdpRjBZYndPakpuTHkxOWJaVFY3YnQxVjNHOC1FYlY5NFF2VUtCVGlIMVhydU5aRkdSNDNzdHRKWkRVdnozT2NtcVFwY2lidFZuS2s1d0R3UFpzWEUzdTFa?oc=5",
+        "original_url": "https://tribratanews.restulungagung.jatim.polri.go.id/09/09/2026/polsek-tulungagung-kota-datangi-tkp-kebakaran-rumah-di-kelurahan-bago-diduga-akibat-korsleting-charger-hp/",
+        "locality": "Tulungagung",
+        "polsek": "POLSEK TULUNGAGUNG KOTA DATANGI",
+        "location_confidence": 95,
+        "location_evidence": [
+          "POLSEK TULUNGAGUNG KOTA DATANGI",
+          "Tulungagung"
+        ],
+        "location_status": "JAWA_TIMUR",
+        "location_source": "title",
+        "issue_type": "UMUM",
+        "issue_subtype": "Belum Teridentifikasi",
+        "issue_evidence": [],
+        "handling_status": "BELUM_ADA_INFORMASI",
+        "handling_evidence": [],
+        "attention_score": 7,
+        "attention_label": "Rendah",
+        "attention_components": {
+          "severity": 2,
+          "polri_relation": 0,
+          "authority": 0,
+          "public_impact": 4,
+          "handling": 0,
+          "evidence": 1,
+          "context_risk": 0,
+          "routine_enforcement_cap": null
+        },
+        "attention_evidence": {
+          "severity": [],
+          "authority": [],
+          "public_impact": [],
+          "evidence": [
+            "satu sumber / informasi awal"
+          ],
+          "role": [],
+          "issue": [],
+          "handling": [],
+          "context": [],
+          "positive": []
+        },
+        "case_engine_version": "case-v6.5.4",
+        "case_processed_at": "2026-09-09T00:24:14.292648+00:00"
+      },
+      {
+        "id": "1073248217d157883fc0ca359c5fd76a0b6dbb8b",
+        "title": "Polresta Sidoarjo Gagalkan Penyelundupan Benih Lobster ke Singapura - radarnusantara.com",
+        "url": "http://www.radarnusantara.com/2026/09/polresta-sidoarjo-gagalkan.html",
+        "source": "radarnusantara.com",
+        "published_at": "2026-09-08T23:07:00+00:00",
+        "collected_at": "2026-09-09T00:17:23.305269+00:00",
+        "region": "Jawa Timur",
+        "area_label": "Sidoarjo",
+        "is_jatim": true,
+        "polres": "POLRESTA SIDOARJO",
+        "category": "POSITIF / PENEGAKAN HUKUM",
+        "scope": "positive",
+        "scope_label": "Positif",
+        "priority": "low",
+        "summary": "Polresta Sidoarjo Gagalkan Penyelundupan Benih Lobster ke Singapura radarnusantara.com",
+        "processing_status": "processed",
+        "classifier_version": "news-v6",
+        "classified_at": "2026-09-09T00:17:23.305269+00:00",
+        "case_id": null,
+        "discovery_families": [],
+        "discovery_tags": [],
+        "discovery_hits": [],
+        "discovery_version": "discovery-v6.5.4",
+        "google_news_url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9kSTM4UzdVWG82U1VvbTJQbXNDNkRzbWNOMDl5bk1aVGpkd3E4TmtETTJkOWlmUUZOUGI3aDBUR3FVNFh6SHdjTV91N0h1WHo2cnF4S2VxTUx0c3lNMWJZbVdncmhwYU40akxGYjR1UG9lSW8ydTFBaw?oc=5",
+        "original_url": "http://www.radarnusantara.com/2026/09/polresta-sidoarjo-gagalkan.html",
+        "locality": "Sidoarjo",
+        "polsek": null,
+        "location_confidence": 100,
+        "location_evidence": [
+          "polresta sidoarjo",
+          "Sidoarjo"
+        ],
+        "location_status": "JAWA_TIMUR",
+        "location_source": "title",
+        "issue_type": "UMUM",
+        "issue_subtype": "Belum Teridentifikasi",
+        "issue_evidence": [],
+        "handling_status": "BELUM_ADA_INFORMASI",
+        "handling_evidence": [],
+        "attention_score": 9,
+        "attention_label": "Rendah",
+        "attention_components": {
+          "severity": 2,
+          "polri_relation": 2,
+          "authority": 0,
+          "public_impact": 4,
+          "handling": 0,
+          "evidence": 1,
+          "context_risk": 0,
+          "routine_enforcement_cap": 35
+        },
+        "attention_evidence": {
+          "severity": [],
+          "authority": [],
+          "public_impact": [],
+          "evidence": [
+            "satu sumber / informasi awal"
+          ],
+          "role": [
+            "Polri sebagai pihak penindak"
+          ],
+          "issue": [],
+          "handling": [],
+          "context": [],
+          "positive": []
+        },
+        "case_engine_version": "case-v6.5.4",
+        "case_processed_at": "2026-09-09T00:24:14.943716+00:00"
+      },
+      {
+        "id": "96409ca72dd1dede47168ba7cfe83405b2e1fcec",
+        "title": "Polisi Situbondo cek stok BBM di SPBU pastikan kelancaran distribusi - Antara News jatim",
+        "url": "https://jatim.antaranews.com/berita/1097100/polisi-situbondo-cek-stok-bbm-di-spbu-pastikan-kelancaran-distribusi",
+        "source": "Antara News jatim",
+        "published_at": "2026-09-08T23:06:51+00:00",
+        "collected_at": "2026-09-09T00:17:23.305269+00:00",
+        "region": "Jawa Timur",
+        "area_label": "Situbondo",
+        "is_jatim": true,
+        "polres": null,
+        "category": "NETRAL / LAINNYA",
+        "scope": "neutral",
+        "scope_label": "Netral",
+        "priority": "low",
+        "summary": "Polisi Situbondo cek stok BBM di SPBU pastikan kelancaran distribusi Antara News jatim",
+        "processing_status": "processed",
+        "classifier_version": "news-v6",
+        "classified_at": "2026-09-09T00:17:23.305269+00:00",
+        "case_id": null,
+        "discovery_families": [],
+        "discovery_tags": [],
+        "discovery_hits": [],
+        "discovery_version": "discovery-v6.5.4",
+        "google_news_url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOckM1VHNfb3ZWNEVscjVZcF9PakpfME5JN25WcUxQM2xjbTdBU2tVNmwzd3ZQU3hJQUUyZlBzMlk3LVhTblFQc0s3bVk0LXR1TDZDWE9qNmZJb2E0ZVFSMk5wRUpRZnZyWk9YbG1BVlRrZkpaZEZYYmx4b1pKNkUyeVUwTjNzVXlWZ2dkRVp3eVB3bzctMjd6WTNfQ3hZSUJRc1VGa1d5QXpuLXgydzlhVlpR0gG3AUFVX3lxTE1ldFhaQ1NaS0VMTGdhTFpHXzhuT0hBNTd4ZTN1Slh5d3huNVJEb3M0YklYcWo5Z1hZRkZaQVktWFNLSF9TcXBrNXU3YUdjQ2pudE9qYS13dk9scHM4YlgwcjRpRF82UEFQdjJ0WlB4UlBZLTVITEtISDdaZlNIeHk4U1NhdWJEbXM5cDF6aUhfcklNLTM0NDlUWThQbTRCWVVQS0Y2VlRPY1FwZWx0b3BXM190QUF4RQ?oc=5",
+        "original_url": "https://jatim.antaranews.com/berita/1097100/polisi-situbondo-cek-stok-bbm-di-spbu-pastikan-kelancaran-distribusi",
+        "locality": "Situbondo",
+        "polsek": null,
+        "location_confidence": 95,
+        "location_evidence": [
+          "Situbondo"
+        ],
+        "location_status": "JAWA_TIMUR",
+        "location_source": "title",
+        "issue_type": "UMUM",
+        "issue_subtype": "Belum Teridentifikasi",
+        "issue_evidence": [],
+        "handling_status": "BELUM_ADA_INFORMASI",
+        "handling_evidence": [],
+        "attention_score": 7,
+        "attention_label": "Rendah",
+        "attention_components": {
+          "severity": 2,
+          "polri_relation": 0,
+          "authority": 0,
+          "public_impact": 4,
+          "handling": 0,
+          "evidence": 1,
+          "context_risk": 0,
+          "routine_enforcement_cap": null
+        },
+        "attention_evidence": {
+          "severity": [],
+          "authority": [],
+          "public_impact": [],
+          "evidence": [
+            "satu sumber / informasi awal"
+          ],
+          "role": [],
+          "issue": [],
+          "handling": [],
+          "context": [],
+          "positive": []
+        },
+        "case_engine_version": "case-v6.5.4",
+        "case_processed_at": "2026-09-09T00:24:15.308948+00:00"
+      },
+      {
+        "id": "ed0a42db562cf189d7ead0435172de82dd957ae2",
+        "title": "Polres Malang Salurkan 4.000 Liter Air Bersih untuk Warga Terdampak Kekeringan di Bantur - beritajatim.com",
+        "url": "https://beritajatim.com/polres-malang-salurkan-4-000-liter-air-bersih-untuk-warga-terdampak-kekeringan-di-bantur",
+        "source": "beritajatim.com",
+        "published_at": "2026-09-08T22:27:13+00:00",
+        "collected_at": "2026-09-09T00:17:23.305269+00:00",
+        "region": "Jawa Timur",
+        "area_label": "Malang",
+        "is_jatim": true,
+        "polres": "POLRES MALANG",
+        "category": "NETRAL / LAINNYA",
+        "scope": "neutral",
+        "scope_label": "Netral",
+        "priority": "low",
+        "summary": "Polres Malang Salurkan 4.000 Liter Air Bersih untuk Warga Terdampak Kekeringan di Bantur beritajatim.com",
+        "processing_status": "processed",
+        "classifier_version": "news-v6",
+        "classified_at": "2026-09-09T00:17:23.305269+00:00",
+        "case_id": null,
+        "discovery_families": [],
+        "discovery_tags": [],
+        "discovery_hits": [],
+        "discovery_version": "discovery-v6.5.4",
+        "google_news_url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPaUdoWHNKb0hIWGNFdUFVd2NFdUhGYVBOU2Q0Yk93QldmemE2T3gwT1JrOExGc3BEb0FmMWEtMk5qWFFQcEZyMFM4U0pBTWVHYmVjdFZCTFlDcGkwMjU3VG12RHVqdDdFUkNCQmQzNkRmOGJaZ2J1ZnNXZEtDdnRqNzdCRmFqNE9aQzZqa0VxRG94dXdObUctZmVqQWlMMF9rMktFZjUxQ0JOb2JKendJWVdR?oc=5",
+        "original_url": "https://beritajatim.com/polres-malang-salurkan-4-000-liter-air-bersih-untuk-warga-terdampak-kekeringan-di-bantur",
+        "locality": "Malang",
+        "polsek": null,
+        "location_confidence": 100,
+        "location_evidence": [
+          "polres malang",
+          "Malang"
+        ],
+        "location_status": "JAWA_TIMUR",
+        "location_source": "title",
+        "issue_type": "UMUM",
+        "issue_subtype": "Belum Teridentifikasi",
+        "issue_evidence": [],
+        "handling_status": "BELUM_ADA_INFORMASI",
+        "handling_evidence": [],
+        "attention_score": 15,
+        "attention_label": "Rendah",
+        "attention_components": {
+          "severity": 2,
+          "polri_relation": 0,
+          "authority": 0,
+          "public_impact": 12,
+          "handling": 0,
+          "evidence": 1,
+          "context_risk": 0,
+          "routine_enforcement_cap": null
+        },
+        "attention_evidence": {
+          "severity": [],
+          "authority": [],
+          "public_impact": [
+            "dampak kepada masyarakat"
+          ],
+          "evidence": [
+            "satu sumber / informasi awal"
+          ],
+          "role": [],
+          "issue": [],
+          "handling": [],
+          "context": [],
+          "positive": []
+        },
+        "case_engine_version": "case-v6.5.4",
+        "case_processed_at": "2026-09-09T00:24:15.703078+00:00"
+      },
+      {
         "id": "be251b36144c0aade3aecf1f5c9f6c69a9285378",
         "title": "Kontraktor Wangsakarta Adukan Pengembang ke Polres Malang, Persoalkan Tagihan Rp1,7 Miliar - Javasatu.com",
         "url": "https://javasatu.com/berita/kontraktor-wangsakarta-adukan-pengembang-ke-polres-malang-persoalkan-tagihan-rp17-miliar/",
@@ -2030,7 +3662,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-09-08T22:00:17.229339+00:00"
+        "case_processed_at": "2026-09-09T00:24:16.382864+00:00"
       },
       {
         "id": "9ac5553b76e279ca47ac3b11b7c4f7a4bce2f970",
@@ -2113,7 +3745,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-09-08T22:16:13.508763+00:00"
+        "case_processed_at": "2026-09-09T00:39:52.236449+00:00"
       },
       {
         "id": "57fc09eb77555350daaa9045c5d42f74931547ff",
@@ -2181,7 +3813,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-09-08T22:00:17.653111+00:00"
+        "case_processed_at": "2026-09-09T00:24:16.787099+00:00"
       },
       {
         "id": "1ec6e84b39b389dc852db7e297c4d9823d30771d",
@@ -2252,7 +3884,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-09-08T22:16:13.508770+00:00"
+        "case_processed_at": "2026-09-09T00:39:52.236451+00:00"
       },
       {
         "id": "52bd07edcaeb2a6e00e36c2aa570c64bc1ad11e9",
@@ -2320,7 +3952,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-09-08T22:00:18.330383+00:00"
+        "case_processed_at": "2026-09-09T00:24:17.415389+00:00"
       },
       {
         "id": "4fd992189a1c0b2340868b14c65c76b2c9bf0877",
@@ -2388,7 +4020,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-09-08T22:00:19.063060+00:00"
+        "case_processed_at": "2026-09-09T00:24:18.134396+00:00"
       },
       {
         "id": "02510aeb348185e594a24765aa6177f1c6364def",
@@ -2458,7 +4090,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-09-08T22:00:19.854642+00:00"
+        "case_processed_at": "2026-09-09T00:24:18.922700+00:00"
       },
       {
         "id": "47b18b1ca38395ad5518706cfb4ed03ce3b65b85",
@@ -2526,7 +4158,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-09-08T22:00:20.175277+00:00"
+        "case_processed_at": "2026-09-09T00:24:19.242262+00:00"
       },
       {
         "id": "4a14c2dd34aa906cefd78aad441612cf9ce7edb1",
@@ -2606,7 +4238,7 @@
           ]
         },
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-09-08T22:00:20.505865+00:00"
+        "case_processed_at": "2026-09-09T00:24:19.571007+00:00"
       },
       {
         "id": "c4ee9ad23a2786cb27f8d0f36a493b95a2396095",
@@ -2677,7 +4309,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-09-08T22:16:13.508793+00:00"
+        "case_processed_at": "2026-09-09T00:39:52.236470+00:00"
       },
       {
         "id": "fc46bbacc580bdb5ccad103de2053a4ef99f998b",
@@ -2745,7 +4377,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-09-08T22:00:21.291259+00:00"
+        "case_processed_at": "2026-09-09T00:24:20.337733+00:00"
       },
       {
         "id": "2d606af98f57745cc6128aeeb72c9d1f018db743",
@@ -2815,7 +4447,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-09-08T22:00:21.640650+00:00"
+        "case_processed_at": "2026-09-09T00:24:20.688823+00:00"
       },
       {
         "id": "c7bb78bb6c72eef02957d7ec1e9ccd78f88fe801",
@@ -2885,7 +4517,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-09-08T22:00:21.932604+00:00"
+        "case_processed_at": "2026-09-09T00:24:20.981822+00:00"
       },
       {
         "id": "d4a1d11b2883f3a86956153aa7de3525e32f7b27",
@@ -2968,7 +4600,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-09-08T22:16:13.508800+00:00"
+        "case_processed_at": "2026-09-09T00:39:52.236478+00:00"
       },
       {
         "id": "e87a29cdc83da861b831a7bc18b72a4cbf5e4550",
@@ -3036,10 +4668,523 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-09-08T22:00:22.311918+00:00"
+        "case_processed_at": "2026-09-09T00:24:21.364530+00:00"
       }
     ],
     "luar_jatim_items": [
+      {
+        "id": "a0b6615a04d282849bc53bdc448e2c28e3584eb3",
+        "title": "Berawal dari Laporan Warga, Polisi Gerebek Diduga Sarang Narkoba di Kandibata - Suara Buruh Nasional",
+        "url": "https://www.suaraburuhnasional.com/2026/09/berawal-dari-laporan-warga-polisi-gerebek-diduga-sarang-narkoba-di-kandibata/",
+        "source": "Suara Buruh Nasional",
+        "published_at": "2026-09-09T00:01:23+00:00",
+        "collected_at": "2026-09-09T00:17:23.305269+00:00",
+        "region": "BELUM TERPETAKAN",
+        "area_label": "BELUM TERPETAKAN",
+        "is_jatim": null,
+        "polres": null,
+        "category": "NEGATIF - NARKOBA / NARKOTIKA",
+        "scope": "negative",
+        "scope_label": "Negatif",
+        "priority": "medium",
+        "summary": "Berawal dari Laporan Warga, Polisi Gerebek Diduga Sarang Narkoba di Kandibata Suara Buruh Nasional",
+        "processing_status": "processed",
+        "classifier_version": "news-v6",
+        "classified_at": "2026-09-09T00:17:23.305269+00:00",
+        "case_id": "CASE-001060",
+        "discovery_families": [],
+        "discovery_tags": [],
+        "discovery_hits": [],
+        "discovery_version": "discovery-v6.5.4",
+        "google_news_url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNZk16Ym02RzNFWVdzWmdYWDk4NjhLaUdmUjhuNUl2alVxT29JaFlhVmZHVW5uemxGQVd2VEdZWDJGaEp6cG51ZVNlWHBHaWtncWxPbThHM2J2ZURPR2pZd1VxMEc2b3BxcHhzelNSRjI1dkowS01TeGZOb2Nsd0lEczAxczFROEdLSFNKdnYxQUExOWRKT3FsMTZWRzdveGZKWHlpRHJfZDg1ZVVVbV9QX05tOG9KLWlLanhTdg?oc=5",
+        "original_url": "https://www.suaraburuhnasional.com/2026/09/berawal-dari-laporan-warga-polisi-gerebek-diduga-sarang-narkoba-di-kandibata/",
+        "locality": "",
+        "polsek": null,
+        "location_confidence": 0,
+        "location_evidence": [],
+        "location_status": "BELUM_TERPETAKAN",
+        "location_source": "title",
+        "issue_type": "NARKOBA",
+        "issue_subtype": "Narkoba / Narkotika",
+        "issue_evidence": [
+          "narkoba"
+        ],
+        "handling_status": "BELUM_ADA_INFORMASI",
+        "handling_evidence": [],
+        "attention_score": 40,
+        "attention_label": "Sedang",
+        "attention_components": {
+          "severity": 11,
+          "polri_relation": 16,
+          "authority": 0,
+          "public_impact": 12,
+          "handling": 0,
+          "evidence": 1,
+          "context_risk": 0,
+          "routine_enforcement_cap": null
+        },
+        "attention_evidence": {
+          "severity": [],
+          "authority": [],
+          "public_impact": [
+            "dampak kepada masyarakat"
+          ],
+          "evidence": [
+            "satu sumber / informasi awal"
+          ],
+          "role": [
+            "Polri/personel menjadi subjek permasalahan"
+          ],
+          "issue": [
+            "narkoba"
+          ],
+          "handling": [],
+          "context": [],
+          "positive": []
+        },
+        "case_engine_version": "case-v6.5.4",
+        "case_processed_at": "2026-09-09T00:39:52.236435+00:00"
+      },
+      {
+        "id": "af69943fa27c73c8f0a4add60d4712ac6cf007a2",
+        "title": "Hutan Jati di Desa Tiudan Terbakar, Polsek Gondang Bersama Damkar Dan Warga Padamkan Api - Tribratanews - Polres Tulungagung",
+        "url": "https://tribratanews.restulungagung.jatim.polri.go.id/09/09/2026/hutan-jati-di-desa-tiudan-terbakar-polsek-gondang-bersama-damkar-dan-warga-padamkan-api/",
+        "source": "Tribratanews - Polres Tulungagung",
+        "published_at": "2026-09-08T23:36:01+00:00",
+        "collected_at": "2026-09-09T00:17:23.305269+00:00",
+        "region": "BELUM TERPETAKAN",
+        "area_label": "BELUM TERPETAKAN",
+        "is_jatim": null,
+        "polres": null,
+        "category": "NETRAL / LAINNYA",
+        "scope": "neutral",
+        "scope_label": "Netral",
+        "priority": "low",
+        "summary": "Hutan Jati di Desa Tiudan Terbakar, Polsek Gondang Bersama Damkar Dan Warga Padamkan Api Tribratanews - Polres Tulungagung",
+        "processing_status": "processed",
+        "classifier_version": "news-v6",
+        "classified_at": "2026-09-09T00:17:23.305269+00:00",
+        "case_id": null,
+        "discovery_families": [],
+        "discovery_tags": [],
+        "discovery_hits": [],
+        "discovery_version": "discovery-v6.5.4",
+        "google_news_url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxNV25wdmpDWlVBTFRDQVJTb29uSzhBRHlfOVNkOG5rSTlPTzhOYWRNZWtnMTB0T2ZsNWx4MHIzWVRQcWFUMnpiRURvMEJnRWExLW1pWGdQUU1zV2ZHekE2QWhUQmJyaDB1a215Mm1KR0MwVmJvVG5iM29tb2F0MFVwMmRqbExwYWRORGVNeFpnbk80Q2dySWNObjZzVFBheVloTDhqc2p1VDl3TWtyMlp1RzZpb0tVV1JBQkxSWlNHdDhyZll4ZEJCV3A0Q0Y5dWZpSzl6Ri01QmphM0F3TDQ2WWd6cjF5bXg1?oc=5",
+        "original_url": "https://tribratanews.restulungagung.jatim.polri.go.id/09/09/2026/hutan-jati-di-desa-tiudan-terbakar-polsek-gondang-bersama-damkar-dan-warga-padamkan-api/",
+        "locality": "",
+        "polsek": "POLSEK GONDANG BERSAMA DAMKAR",
+        "location_confidence": 0,
+        "location_evidence": [
+          "POLSEK GONDANG BERSAMA DAMKAR"
+        ],
+        "location_status": "BELUM_TERPETAKAN",
+        "location_source": "title",
+        "issue_type": "UMUM",
+        "issue_subtype": "Belum Teridentifikasi",
+        "issue_evidence": [],
+        "handling_status": "BELUM_ADA_INFORMASI",
+        "handling_evidence": [],
+        "attention_score": 15,
+        "attention_label": "Rendah",
+        "attention_components": {
+          "severity": 2,
+          "polri_relation": 0,
+          "authority": 0,
+          "public_impact": 12,
+          "handling": 0,
+          "evidence": 1,
+          "context_risk": 0,
+          "routine_enforcement_cap": null
+        },
+        "attention_evidence": {
+          "severity": [],
+          "authority": [],
+          "public_impact": [
+            "dampak kepada masyarakat"
+          ],
+          "evidence": [
+            "satu sumber / informasi awal"
+          ],
+          "role": [],
+          "issue": [],
+          "handling": [],
+          "context": [],
+          "positive": []
+        },
+        "case_engine_version": "case-v6.5.4",
+        "case_processed_at": "2026-09-09T00:24:13.792454+00:00"
+      },
+      {
+        "id": "2d983509345b84626b4a766ff231094d0b10c8d6",
+        "title": "Residivis Diduga Edarkan Sabu di Labura, Polisi Sita 2,13 Gram - hariansib.com",
+        "url": "https://www.hariansib.com/Kriminal/449612/residivis-diduga-edarkan-sabu-di-labura-polisi-sita-213-gram/",
+        "source": "hariansib.com",
+        "published_at": "2026-09-08T23:30:00+00:00",
+        "collected_at": "2026-09-09T00:17:23.305269+00:00",
+        "region": "BELUM TERPETAKAN",
+        "area_label": "BELUM TERPETAKAN",
+        "is_jatim": null,
+        "polres": null,
+        "category": "NEGATIF - NARKOBA / NARKOTIKA",
+        "scope": "negative",
+        "scope_label": "Negatif",
+        "priority": "low",
+        "summary": "Residivis Diduga Edarkan Sabu di Labura, Polisi Sita 2,13 Gram hariansib.com",
+        "processing_status": "processed",
+        "classifier_version": "news-v6",
+        "classified_at": "2026-09-09T00:17:23.305269+00:00",
+        "case_id": "CASE-001061",
+        "discovery_families": [],
+        "discovery_tags": [],
+        "discovery_hits": [],
+        "discovery_version": "discovery-v6.5.4",
+        "google_news_url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNS2hkQ0ZnUTNBcm5sSUlQdXJvcEdWYXlCOGdlY1NIdHI3TzJoNC1Qb3BJRkZSV3U3b2M4WHpReGxiLWVWOXZaZlNEeEJ4eDNiTVlZT0ZIM1BFSUJsbzYtVTh2T3JsUkxKaFJORkRwbE9TX0ZhQUlCVE8xMGg5VDlNTzRQSWFOaDBINjhxM094M2Voa2dSVkdCT1Q3NkZwVDl1UGN1RjRB0gGmAUFVX3lxTFBCbGEwdC1mMGE4NHc4TjQwNnR1eFVjZ1k2OWwtRFFyYUhfb1ZxMDlDY1Z0dWFueEVLeWl5TEpYaFRHemtmRm9saWEzenMwU2pQdVhhMTN0RVdSSV9PY1NVdkZpM3NxbjFiMjZ2bHFOQ1NNZllNOFVkenNxVkNPYnAwaEVIc2VZMlRraEVkUno0YjdfMVpaRFpqWVhDZGZTVTlsN0M4emc?oc=5",
+        "original_url": "https://www.hariansib.com/Kriminal/449612/residivis-diduga-edarkan-sabu-di-labura-polisi-sita-213-gram/",
+        "locality": "",
+        "polsek": null,
+        "location_confidence": 0,
+        "location_evidence": [],
+        "location_status": "BELUM_TERPETAKAN",
+        "location_source": "title",
+        "issue_type": "NARKOBA",
+        "issue_subtype": "Narkoba / Narkotika",
+        "issue_evidence": [
+          "sabu"
+        ],
+        "handling_status": "BELUM_ADA_INFORMASI",
+        "handling_evidence": [],
+        "attention_score": 38,
+        "attention_label": "Rendah",
+        "attention_components": {
+          "severity": 11,
+          "polri_relation": 16,
+          "authority": 0,
+          "public_impact": 10,
+          "handling": 0,
+          "evidence": 1,
+          "context_risk": 0,
+          "routine_enforcement_cap": null
+        },
+        "attention_evidence": {
+          "severity": [],
+          "authority": [],
+          "public_impact": [
+            "dampak institusional"
+          ],
+          "evidence": [
+            "satu sumber / informasi awal"
+          ],
+          "role": [
+            "Polri/personel menjadi subjek permasalahan"
+          ],
+          "issue": [
+            "sabu"
+          ],
+          "handling": [],
+          "context": [],
+          "positive": []
+        },
+        "case_engine_version": "case-v6.5.4",
+        "case_processed_at": "2026-09-09T00:39:52.236441+00:00"
+      },
+      {
+        "id": "0d9509d80e7447a9a2f3ada3d46fbf107b1cde21",
+        "title": "Polsek Jrengik Bersihkan Jalur Potensi Api di Desa Kotah - RRI.co.id",
+        "url": "https://rri.co.id/sampang/regional/2716471/polsek-jrengik-bersihkan-jalur-potensi-api-di-desa-kotah",
+        "source": "RRI.co.id",
+        "published_at": "2026-09-08T23:14:00+00:00",
+        "collected_at": "2026-09-09T00:17:23.305269+00:00",
+        "region": "BELUM TERPETAKAN",
+        "area_label": "BELUM TERPETAKAN",
+        "is_jatim": null,
+        "polres": null,
+        "category": "NETRAL / LAINNYA",
+        "scope": "neutral",
+        "scope_label": "Netral",
+        "priority": "low",
+        "summary": "Polsek Jrengik Bersihkan Jalur Potensi Api di Desa Kotah RRI.co.id",
+        "processing_status": "processed",
+        "classifier_version": "news-v6",
+        "classified_at": "2026-09-09T00:17:23.305269+00:00",
+        "case_id": null,
+        "discovery_families": [],
+        "discovery_tags": [],
+        "discovery_hits": [],
+        "discovery_version": "discovery-v6.5.4",
+        "google_news_url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNanZTYTlIOHpPWS04WTJGVUJtajhrZ29HSHRPa0gyS1J4dkRYeVRjNFJOTWhYclhzYWJ2c0dqLVRtTW9IQzNJOVhlU2x2OVpZeGlVUHIyeDJBcmV3SHRtaXlCMzBWM3Azb2NqZTN0al9vUHJ0M282dlAwWnp3dzhNTkxTZHdyMWZCejNwR1JiOGd4cG4tYVVrZlQ1bzFIZXJY?oc=5",
+        "original_url": "https://rri.co.id/sampang/regional/2716471/polsek-jrengik-bersihkan-jalur-potensi-api-di-desa-kotah",
+        "locality": "",
+        "polsek": "POLSEK JRENGIK BERSIHKAN JALUR",
+        "location_confidence": 0,
+        "location_evidence": [
+          "POLSEK JRENGIK BERSIHKAN JALUR"
+        ],
+        "location_status": "BELUM_TERPETAKAN",
+        "location_source": "title",
+        "issue_type": "UMUM",
+        "issue_subtype": "Belum Teridentifikasi",
+        "issue_evidence": [],
+        "handling_status": "BELUM_ADA_INFORMASI",
+        "handling_evidence": [],
+        "attention_score": 7,
+        "attention_label": "Rendah",
+        "attention_components": {
+          "severity": 2,
+          "polri_relation": 0,
+          "authority": 0,
+          "public_impact": 4,
+          "handling": 0,
+          "evidence": 1,
+          "context_risk": 0,
+          "routine_enforcement_cap": null
+        },
+        "attention_evidence": {
+          "severity": [],
+          "authority": [],
+          "public_impact": [],
+          "evidence": [
+            "satu sumber / informasi awal"
+          ],
+          "role": [],
+          "issue": [],
+          "handling": [],
+          "context": [],
+          "positive": []
+        },
+        "case_engine_version": "case-v6.5.4",
+        "case_processed_at": "2026-09-09T00:24:14.593208+00:00"
+      },
+      {
+        "id": "dab609e5767c07568dec4c6155f37b0a26d1b317",
+        "title": "Terlibat Peredaran Narkoba, Pria di Mepanga Parimo Ini Diringkus Polisi - SultengTerkini",
+        "url": "https://sultengterkini.id/2026/09/09/terlibat-peredaran-narkoba-pria-di-mepanga-parimo-ini-diringkus-polisi/",
+        "source": "SultengTerkini",
+        "published_at": "2026-09-08T23:05:25+00:00",
+        "collected_at": "2026-09-09T00:17:23.305269+00:00",
+        "region": "BELUM TERPETAKAN",
+        "area_label": "BELUM TERPETAKAN",
+        "is_jatim": null,
+        "polres": null,
+        "category": "NEGATIF - NARKOBA / NARKOTIKA",
+        "scope": "negative",
+        "scope_label": "Negatif",
+        "priority": "low",
+        "summary": "Terlibat Peredaran Narkoba, Pria di Mepanga Parimo Ini Diringkus Polisi SultengTerkini",
+        "processing_status": "processed",
+        "classifier_version": "news-v6",
+        "classified_at": "2026-09-09T00:17:23.305269+00:00",
+        "case_id": "CASE-001062",
+        "discovery_families": [],
+        "discovery_tags": [],
+        "discovery_hits": [],
+        "discovery_version": "discovery-v6.5.4",
+        "google_news_url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQQ0NsV29qenNzYmhDbkI5eTJjRWtwdWxUQ0x3RjJWUWM1eXpmb0tLUnFnMElhc25LMVctVzlpSUpUWnRJT2JmRlo3TkQzbWtCUnlJWnNOdVhnamc2MURuakx5UUhETktyQ3dZaGJMX1VUS2VTY3U5bWp1NTV0Ym5DZHQyRDVSbUlLUmc2OGxrYTJOWjVQemtCTE1lZHJJTmtGZWhHUlhFTkxYYmVv?oc=5",
+        "original_url": "https://sultengterkini.id/2026/09/09/terlibat-peredaran-narkoba-pria-di-mepanga-parimo-ini-diringkus-polisi/",
+        "locality": "",
+        "polsek": null,
+        "location_confidence": 0,
+        "location_evidence": [],
+        "location_status": "BELUM_TERPETAKAN",
+        "location_source": "title",
+        "issue_type": "NARKOBA",
+        "issue_subtype": "Narkoba / Narkotika",
+        "issue_evidence": [
+          "narkoba"
+        ],
+        "handling_status": "BELUM_ADA_INFORMASI",
+        "handling_evidence": [],
+        "attention_score": 38,
+        "attention_label": "Rendah",
+        "attention_components": {
+          "severity": 11,
+          "polri_relation": 16,
+          "authority": 0,
+          "public_impact": 10,
+          "handling": 0,
+          "evidence": 1,
+          "context_risk": 0,
+          "routine_enforcement_cap": null
+        },
+        "attention_evidence": {
+          "severity": [],
+          "authority": [],
+          "public_impact": [
+            "dampak institusional"
+          ],
+          "evidence": [
+            "satu sumber / informasi awal"
+          ],
+          "role": [
+            "Polri/personel menjadi subjek permasalahan"
+          ],
+          "issue": [
+            "narkoba"
+          ],
+          "handling": [],
+          "context": [],
+          "positive": []
+        },
+        "case_engine_version": "case-v6.5.4",
+        "case_processed_at": "2026-09-09T00:39:52.236444+00:00"
+      },
+      {
+        "id": "b7dd94ac05c480fd8723b3854fdbd5e483868e44",
+        "title": "3 Polisi di Bogor Dipecat, Ada yang Desersi Hingga Penyalahgunaan Narkoba - VIVA.co.id",
+        "url": "https://www.viva.co.id/berita/metro/1927262-3-polisi-di-bogor-dipecat-ada-yang-desersi-hingga-penyalahgunaan-narkoba",
+        "source": "VIVA.co.id",
+        "published_at": "2026-09-08T23:00:00+00:00",
+        "collected_at": "2026-09-09T00:17:23.305269+00:00",
+        "region": "BELUM TERPETAKAN",
+        "area_label": "BELUM TERPETAKAN",
+        "is_jatim": null,
+        "polres": null,
+        "category": "NEGATIF - NARKOBA / NARKOTIKA",
+        "scope": "negative",
+        "scope_label": "Negatif",
+        "priority": "low",
+        "summary": "3 Polisi di Bogor Dipecat, Ada yang Desersi Hingga Penyalahgunaan Narkoba VIVA.co.id",
+        "processing_status": "processed",
+        "classifier_version": "news-v6",
+        "classified_at": "2026-09-09T00:17:23.305269+00:00",
+        "case_id": "CASE-001063",
+        "discovery_families": [
+          "general_police_misconduct"
+        ],
+        "discovery_tags": [
+          "ethics",
+          "oknum"
+        ],
+        "discovery_hits": [
+          "dipecat"
+        ],
+        "discovery_version": "discovery-v6.5.4",
+        "google_news_url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPTzVod2EyOTdhTkV3OEIzQ2tCdEd6YU1EWVg0RW9lbFZ6X2F6Z2NEbDVQU204bDN6YWpVOEhBa3NmTnBBaUdMb3kxREV0c1FYYUJEQVJKWGxsQjRHYmloNS0tQmI3N2YtWWFscUtlUG43QmNlYlBiN0VGUEVMWm8ta0djQXE2OGVzYnM0cGozT2lHODNQUGJERHB3Z2Zzc1FSVnU4RnpqNndFVXJFR0JWR3I5ankwM3fSAbwBQVVfeXFMTkxFU0VvRksyeXUyLVlMNExsTnpROVJoVnBtUWczbmRHRHJnT0s0V05uNWdMeklrSC1sQW01TlVvRktVUndWY2JIOGJYUWlWYm9DWlJzSVFuaFZHWkR0WGdOckltdjc0ZVpmSFZjYzE3N1A0anc5SEJ4cE0ybEVaMm5SMENMTmwyYWpacy0zLUIwVkgxYVVFbmJiNTJ5dG13UUhjM0NjN1NCSzJlck5PUEFZTFlibThWRVE0ZWk?oc=5",
+        "original_url": "https://www.viva.co.id/berita/metro/1927262-3-polisi-di-bogor-dipecat-ada-yang-desersi-hingga-penyalahgunaan-narkoba",
+        "locality": "",
+        "polsek": null,
+        "location_confidence": 0,
+        "location_evidence": [],
+        "location_status": "BELUM_TERPETAKAN",
+        "location_source": "title",
+        "issue_type": "NARKOBA",
+        "issue_subtype": "Narkoba / Narkotika",
+        "issue_evidence": [
+          "narkoba"
+        ],
+        "handling_status": "SUDAH_DITINDAK",
+        "handling_evidence": [
+          "dipecat"
+        ],
+        "attention_score": 18,
+        "attention_label": "Rendah",
+        "attention_components": {
+          "severity": 11,
+          "polri_relation": 0,
+          "authority": 0,
+          "public_impact": 4,
+          "handling": 2,
+          "evidence": 1,
+          "context_risk": 0,
+          "routine_enforcement_cap": null
+        },
+        "attention_evidence": {
+          "severity": [],
+          "authority": [],
+          "public_impact": [],
+          "evidence": [
+            "satu sumber / informasi awal"
+          ],
+          "role": [],
+          "issue": [
+            "narkoba"
+          ],
+          "handling": [
+            "dipecat"
+          ],
+          "context": [],
+          "positive": []
+        },
+        "case_engine_version": "case-v6.5.4",
+        "case_processed_at": "2026-09-09T00:39:52.236446+00:00"
+      },
+      {
+        "id": "322521501ed2dfd46f9c9b0c826e8670b6202a9d",
+        "title": "Tegas 21 Polisi di Maluku Utara Dipecat, Ada Polwan - Target Berita",
+        "url": "https://targetberita.co.id/tegas-21-polisi-di-maluku-utara-dipecat-ada-polwan/",
+        "source": "Target Berita",
+        "published_at": "2026-09-08T22:12:24+00:00",
+        "collected_at": "2026-09-09T00:17:23.305269+00:00",
+        "region": "LUAR JATIM",
+        "area_label": "LUAR JATIM",
+        "is_jatim": false,
+        "polres": null,
+        "category": "NETRAL / LAINNYA",
+        "scope": "neutral",
+        "scope_label": "Netral",
+        "priority": "low",
+        "summary": "Tegas 21 Polisi di Maluku Utara Dipecat, Ada Polwan Target Berita",
+        "processing_status": "processed",
+        "classifier_version": "news-v6",
+        "classified_at": "2026-09-09T00:17:23.305269+00:00",
+        "case_id": null,
+        "discovery_families": [
+          "general_police_misconduct"
+        ],
+        "discovery_tags": [
+          "ethics",
+          "oknum"
+        ],
+        "discovery_hits": [
+          "dipecat"
+        ],
+        "discovery_version": "discovery-v6.5.4",
+        "google_news_url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNb3FGdDFIb2hWVFh0N2NWNnkwLWppWHlYUmh4OWJIalJVQmViOFJZLWZjVGZBYl9HNmVtaHdNTGozZ1RiWlZEUUlPU1JmRGR0N1ZDTDlWUHlHSG1taUF0MXJxWkNqdkFRQlRmSS1VODNqbThGbzNtWXp4WjZHckQ2OWVuSng?oc=5",
+        "original_url": "https://targetberita.co.id/tegas-21-polisi-di-maluku-utara-dipecat-ada-polwan/",
+        "locality": "",
+        "polsek": null,
+        "location_confidence": 100,
+        "location_evidence": [
+          "maluku"
+        ],
+        "location_status": "LUAR_JATIM",
+        "location_source": "title",
+        "issue_type": "UMUM",
+        "issue_subtype": "Belum Teridentifikasi",
+        "issue_evidence": [],
+        "handling_status": "SUDAH_DITINDAK",
+        "handling_evidence": [
+          "dipecat"
+        ],
+        "attention_score": 9,
+        "attention_label": "Rendah",
+        "attention_components": {
+          "severity": 2,
+          "polri_relation": 0,
+          "authority": 0,
+          "public_impact": 4,
+          "handling": 2,
+          "evidence": 1,
+          "context_risk": 0,
+          "routine_enforcement_cap": null
+        },
+        "attention_evidence": {
+          "severity": [],
+          "authority": [],
+          "public_impact": [],
+          "evidence": [
+            "satu sumber / informasi awal"
+          ],
+          "role": [],
+          "issue": [],
+          "handling": [
+            "dipecat"
+          ],
+          "context": [],
+          "positive": []
+        },
+        "case_engine_version": "case-v6.5.4",
+        "case_processed_at": "2026-09-09T00:24:15.991742+00:00"
+      },
       {
         "id": "47b2fdf6e7cc5cb33c636fa4335d95aab9e2adcb",
         "title": "Polisi Gagalkan Pengiriman Benur Rp 4,6 M ke Singapura via Juanda - detikcom",
@@ -3105,7 +5250,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-09-08T22:00:18.003530+00:00"
+        "case_processed_at": "2026-09-09T00:24:17.131844+00:00"
       },
       {
         "id": "8b634a239d3d4f91eb8ac9c1557cd93ccd13b0b0",
@@ -3174,7 +5319,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-09-08T22:16:13.508774+00:00"
+        "case_processed_at": "2026-09-09T00:39:52.236454+00:00"
       },
       {
         "id": "064320cf75de109c1cbbca647dfebf36da9a36fd",
@@ -3243,7 +5388,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-09-08T22:16:13.508777+00:00"
+        "case_processed_at": "2026-09-09T00:39:52.236456+00:00"
       },
       {
         "id": "83c5813f6a3e1d49fe2e82c305a52a77930933bd",
@@ -3308,7 +5453,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-09-08T22:00:18.644033+00:00"
+        "case_processed_at": "2026-09-09T00:24:17.717954+00:00"
       },
       {
         "id": "2511174243ea99fb4e44b63939513da73301b4b6",
@@ -3377,7 +5522,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-09-08T22:00:19.421382+00:00"
+        "case_processed_at": "2026-09-09T00:24:18.491073+00:00"
       },
       {
         "id": "4388e6bd8b1a8b45421e8cff2be2160a3d01e5f9",
@@ -3457,7 +5602,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-09-08T22:16:13.508780+00:00"
+        "case_processed_at": "2026-09-09T00:39:52.236459+00:00"
       },
       {
         "id": "f5ab4c8bb88b29617ee49b0c52b0da5af25fb73a",
@@ -3528,7 +5673,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-09-08T22:16:13.508783+00:00"
+        "case_processed_at": "2026-09-09T00:39:52.236462+00:00"
       },
       {
         "id": "cd1d69656dcd2a96bee93cb373e7b0b35e97d735",
@@ -3601,7 +5746,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-09-08T22:16:13.508786+00:00"
+        "case_processed_at": "2026-09-09T00:39:52.236465+00:00"
       },
       {
         "id": "2a7ea05bdc3e328b8dfd98bd95cadad19b1799d1",
@@ -3678,7 +5823,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-09-08T22:16:13.508790+00:00"
+        "case_processed_at": "2026-09-09T00:39:52.236467+00:00"
       },
       {
         "id": "6852feea1ce478e574a14a16fe2ccb0f984b8978",
@@ -3745,7 +5890,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-09-08T22:00:20.861369+00:00"
+        "case_processed_at": "2026-09-09T00:24:19.926403+00:00"
       },
       {
         "id": "03d7140e9dc5e73ae439aee3b82a20c77d63d1c1",
@@ -3814,7 +5959,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-09-08T22:16:13.508795+00:00"
+        "case_processed_at": "2026-09-09T00:39:52.236472+00:00"
       },
       {
         "id": "000dd5e58e8a9ab778b9d6785631d9b04ce68695",
@@ -3883,16 +6028,16 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-09-08T22:16:13.508798+00:00"
+        "case_processed_at": "2026-09-09T00:39:52.236475+00:00"
       }
     ]
   },
   "cases": {
-    "active": 12,
+    "active": 16,
     "priority_high": 1,
     "jatim": 4,
     "jatim_priority_high": 1,
-    "articles": 15,
+    "articles": 19,
     "case_ids": [
       "CASE-000949",
       "CASE-001009",
@@ -3905,7 +6050,11 @@
       "CASE-001056",
       "CASE-001057",
       "CASE-001058",
-      "CASE-001059"
+      "CASE-001059",
+      "CASE-001060",
+      "CASE-001061",
+      "CASE-001062",
+      "CASE-001063"
     ],
     "items": [
       {
@@ -4033,7 +6182,7 @@
         ],
         "article_count": 2,
         "created_at": "2026-09-07T04:58:57.910978+00:00",
-        "updated_at": "2026-09-08T22:16:13.112571+00:00",
+        "updated_at": "2026-09-09T00:39:51.861122+00:00",
         "engine_version": "case-v6.5.4",
         "priority_score": 22,
         "priority_breakdown": {
@@ -4238,7 +6387,7 @@
         ],
         "article_count": 3,
         "created_at": "2026-09-08T04:58:39.791240+00:00",
-        "updated_at": "2026-09-08T22:16:13.350849+00:00",
+        "updated_at": "2026-09-09T00:39:52.071214+00:00",
         "engine_version": "case-v6.5.4",
         "priority_score": 70,
         "priority_breakdown": {
@@ -4340,7 +6489,7 @@
         ],
         "article_count": 1,
         "created_at": "2026-09-08T18:58:05.572913+00:00",
-        "updated_at": "2026-09-08T22:16:13.480138+00:00",
+        "updated_at": "2026-09-09T00:39:52.196248+00:00",
         "engine_version": "case-v6.5.4",
         "priority_score": 30,
         "priority_breakdown": {
@@ -4442,7 +6591,7 @@
         ],
         "article_count": 1,
         "created_at": "2026-09-08T18:58:05.796196+00:00",
-        "updated_at": "2026-09-08T22:16:13.483258+00:00",
+        "updated_at": "2026-09-09T00:39:52.199330+00:00",
         "engine_version": "case-v6.5.4",
         "priority_score": 30,
         "priority_breakdown": {
@@ -4545,7 +6694,7 @@
         ],
         "article_count": 1,
         "created_at": "2026-09-08T18:58:06.015544+00:00",
-        "updated_at": "2026-09-08T22:16:13.486192+00:00",
+        "updated_at": "2026-09-09T00:39:52.202211+00:00",
         "engine_version": "case-v6.5.4",
         "priority_score": 49,
         "priority_breakdown": {
@@ -4649,7 +6798,7 @@
         ],
         "article_count": 1,
         "created_at": "2026-09-08T18:58:06.195872+00:00",
-        "updated_at": "2026-09-08T22:16:13.488961+00:00",
+        "updated_at": "2026-09-09T00:39:52.204939+00:00",
         "engine_version": "case-v6.5.4",
         "priority_score": 34,
         "priority_breakdown": {
@@ -4757,7 +6906,7 @@
         ],
         "article_count": 1,
         "created_at": "2026-09-08T18:58:06.483727+00:00",
-        "updated_at": "2026-09-08T22:16:13.492567+00:00",
+        "updated_at": "2026-09-09T00:39:52.208463+00:00",
         "engine_version": "case-v6.5.4",
         "priority_score": 23,
         "priority_breakdown": {
@@ -4865,7 +7014,7 @@
         ],
         "article_count": 1,
         "created_at": "2026-09-08T18:58:06.695392+00:00",
-        "updated_at": "2026-09-08T22:16:13.495498+00:00",
+        "updated_at": "2026-09-09T00:39:52.211351+00:00",
         "engine_version": "case-v6.5.4",
         "priority_score": 20,
         "priority_breakdown": {
@@ -4972,7 +7121,7 @@
         ],
         "article_count": 1,
         "created_at": "2026-09-08T18:58:06.885056+00:00",
-        "updated_at": "2026-09-08T22:16:13.498531+00:00",
+        "updated_at": "2026-09-09T00:39:52.214369+00:00",
         "engine_version": "case-v6.5.4",
         "priority_score": 8,
         "priority_breakdown": {
@@ -5077,7 +7226,7 @@
         ],
         "article_count": 1,
         "created_at": "2026-09-08T18:58:07.102256+00:00",
-        "updated_at": "2026-09-08T22:16:13.501617+00:00",
+        "updated_at": "2026-09-09T00:39:52.217426+00:00",
         "engine_version": "case-v6.5.4",
         "priority_score": 32,
         "priority_breakdown": {
@@ -5182,7 +7331,7 @@
         ],
         "article_count": 1,
         "created_at": "2026-09-08T18:58:07.340515+00:00",
-        "updated_at": "2026-09-08T22:16:13.504793+00:00",
+        "updated_at": "2026-09-09T00:39:52.220608+00:00",
         "engine_version": "case-v6.5.4",
         "priority_score": 34,
         "priority_breakdown": {
@@ -5294,7 +7443,7 @@
         ],
         "article_count": 1,
         "created_at": "2026-09-08T18:58:07.581313+00:00",
-        "updated_at": "2026-09-08T22:16:13.508036+00:00",
+        "updated_at": "2026-09-09T00:39:52.223698+00:00",
         "engine_version": "case-v6.5.4",
         "priority_score": 38,
         "priority_breakdown": {
@@ -5322,6 +7471,439 @@
             "sifat berita: negatif",
             "Kejahatan Seksual",
             "Hubungan Polri belum spesifik"
+          ]
+        }
+      },
+      {
+        "case_id": "CASE-001060",
+        "title": "Berawal dari Laporan Warga, Polisi Gerebek Diduga Sarang Narkoba di Kandibata - Suara Buruh Nasional",
+        "category": "NEGATIF - NARKOBA / NARKOTIKA",
+        "scope": "negative",
+        "region": "BELUM TERPETAKAN",
+        "locality": "",
+        "is_jatim": null,
+        "polres": null,
+        "polsek": null,
+        "priority": "medium",
+        "attention_score": 41,
+        "attention_label": "Sedang",
+        "signature": "BELUM TERPETAKAN",
+        "incident_terms": [
+          "berawal",
+          "buruh",
+          "gerebek",
+          "kandibata",
+          "laporan",
+          "narkoba",
+          "nasional",
+          "sarang",
+          "suara"
+        ],
+        "event_terms": [
+          "narkoba"
+        ],
+        "location_terms": [],
+        "discovery_families": [],
+        "first_seen": "2026-09-09T00:01:23+00:00",
+        "last_seen": "2026-09-09T00:17:23.305269+00:00",
+        "last_detected_at": "2026-09-09T00:17:23.305269+00:00",
+        "article_ids": [
+          "a0b6615a04d282849bc53bdc448e2c28e3584eb3"
+        ],
+        "articles": [
+          {
+            "id": "a0b6615a04d282849bc53bdc448e2c28e3584eb3",
+            "title": "Berawal dari Laporan Warga, Polisi Gerebek Diduga Sarang Narkoba di Kandibata - Suara Buruh Nasional",
+            "url": "https://www.suaraburuhnasional.com/2026/09/berawal-dari-laporan-warga-polisi-gerebek-diduga-sarang-narkoba-di-kandibata/",
+            "published_at": "2026-09-09T00:01:23+00:00",
+            "collected_at": "2026-09-09T00:17:23.305269+00:00",
+            "source": "Suara Buruh Nasional",
+            "match_score": 1.0,
+            "priority": "medium",
+            "scope": "negative",
+            "category": "NEGATIF - NARKOBA / NARKOTIKA",
+            "region": "BELUM TERPETAKAN",
+            "locality": "",
+            "is_jatim": false,
+            "polres": null,
+            "polsek": null,
+            "issue_type": "NARKOBA",
+            "issue_subtype": "Narkoba / Narkotika",
+            "handling_status": "BELUM_ADA_INFORMASI",
+            "handling_evidence": [],
+            "polri_relation": null,
+            "polri_relation_points": 0,
+            "polri_relation_evidence": [],
+            "attention_score": 40,
+            "attention_label": "Sedang",
+            "attention_components": {
+              "severity": 11,
+              "polri_relation": 16,
+              "authority": 0,
+              "public_impact": 12,
+              "handling": 0,
+              "evidence": 1,
+              "context_risk": 0,
+              "routine_enforcement_cap": null
+            }
+          }
+        ],
+        "article_count": 1,
+        "created_at": "2026-09-09T00:37:12.812351+00:00",
+        "updated_at": "2026-09-09T00:39:52.226899+00:00",
+        "engine_version": "case-v6.5.4",
+        "priority_score": 41,
+        "priority_breakdown": {
+          "severity": 11,
+          "polri_relation": 16,
+          "authority_context": 0,
+          "public_impact": 12,
+          "handling": 0,
+          "evidence": 1,
+          "spread": 0,
+          "escalation": 0,
+          "current_activity": 1,
+          "context_risk": 0
+        },
+        "priority_evidence": {
+          "unique_sources": 1,
+          "active_today_articles": 1,
+          "escalation": [],
+          "issue_type": "NARKOBA",
+          "issue_subtype": "Narkoba / Narkotika",
+          "sentiment": "negative",
+          "polri_relation": "SUBJEK_PERMASALAHAN",
+          "handling_status": "BELUM_ADA_INFORMASI",
+          "reasons": [
+            "sifat berita: negatif",
+            "Narkoba / Narkotika",
+            "polisi + dugaan"
+          ]
+        }
+      },
+      {
+        "case_id": "CASE-001061",
+        "title": "Residivis Diduga Edarkan Sabu di Labura, Polisi Sita 2,13 Gram - hariansib.com",
+        "category": "NEGATIF - NARKOBA / NARKOTIKA",
+        "scope": "negative",
+        "region": "BELUM TERPETAKAN",
+        "locality": "",
+        "is_jatim": null,
+        "polres": null,
+        "polsek": null,
+        "priority": "low",
+        "attention_score": 19,
+        "attention_label": "Rendah",
+        "signature": "BELUM TERPETAKAN",
+        "incident_terms": [
+          "com",
+          "edarkan",
+          "gram",
+          "hariansib",
+          "labura",
+          "residivis",
+          "sabu",
+          "sita"
+        ],
+        "event_terms": [
+          "sabu"
+        ],
+        "location_terms": [],
+        "discovery_families": [],
+        "first_seen": "2026-09-08T23:30:00+00:00",
+        "last_seen": "2026-09-09T00:17:23.305269+00:00",
+        "last_detected_at": "2026-09-09T00:17:23.305269+00:00",
+        "article_ids": [
+          "2d983509345b84626b4a766ff231094d0b10c8d6"
+        ],
+        "articles": [
+          {
+            "id": "2d983509345b84626b4a766ff231094d0b10c8d6",
+            "title": "Residivis Diduga Edarkan Sabu di Labura, Polisi Sita 2,13 Gram - hariansib.com",
+            "url": "https://www.hariansib.com/Kriminal/449612/residivis-diduga-edarkan-sabu-di-labura-polisi-sita-213-gram/",
+            "published_at": "2026-09-08T23:30:00+00:00",
+            "collected_at": "2026-09-09T00:17:23.305269+00:00",
+            "source": "hariansib.com",
+            "match_score": 1.0,
+            "priority": "low",
+            "scope": "negative",
+            "category": "NEGATIF - NARKOBA / NARKOTIKA",
+            "region": "BELUM TERPETAKAN",
+            "locality": "",
+            "is_jatim": false,
+            "polres": null,
+            "polsek": null,
+            "issue_type": "NARKOBA",
+            "issue_subtype": "Narkoba / Narkotika",
+            "handling_status": "BELUM_ADA_INFORMASI",
+            "handling_evidence": [],
+            "polri_relation": null,
+            "polri_relation_points": 0,
+            "polri_relation_evidence": [],
+            "attention_score": 38,
+            "attention_label": "Rendah",
+            "attention_components": {
+              "severity": 11,
+              "polri_relation": 16,
+              "authority": 0,
+              "public_impact": 10,
+              "handling": 0,
+              "evidence": 1,
+              "context_risk": 0,
+              "routine_enforcement_cap": null
+            }
+          }
+        ],
+        "article_count": 1,
+        "created_at": "2026-09-09T00:37:13.134569+00:00",
+        "updated_at": "2026-09-09T00:39:52.230147+00:00",
+        "engine_version": "case-v6.5.4",
+        "priority_score": 19,
+        "priority_breakdown": {
+          "severity": 11,
+          "polri_relation": 2,
+          "authority_context": 0,
+          "public_impact": 4,
+          "handling": 0,
+          "evidence": 1,
+          "spread": 0,
+          "escalation": 0,
+          "current_activity": 1,
+          "context_risk": 0
+        },
+        "priority_evidence": {
+          "unique_sources": 1,
+          "active_today_articles": 1,
+          "escalation": [],
+          "issue_type": "NARKOBA",
+          "issue_subtype": "Narkoba / Narkotika",
+          "sentiment": "negative",
+          "polri_relation": "PENEGAKAN_HUKUM",
+          "handling_status": "BELUM_ADA_INFORMASI",
+          "reasons": [
+            "sifat berita: negatif",
+            "Narkoba / Narkotika",
+            "Polri sebagai pihak penindak"
+          ]
+        }
+      },
+      {
+        "case_id": "CASE-001062",
+        "title": "Terlibat Peredaran Narkoba, Pria di Mepanga Parimo Ini Diringkus Polisi - SultengTerkini",
+        "category": "NEGATIF - NARKOBA / NARKOTIKA",
+        "scope": "negative",
+        "region": "BELUM TERPETAKAN",
+        "locality": "",
+        "is_jatim": null,
+        "polres": null,
+        "polsek": null,
+        "priority": "low",
+        "attention_score": 17,
+        "attention_label": "Rendah",
+        "signature": "BELUM TERPETAKAN",
+        "incident_terms": [
+          "diringkus",
+          "mepanga",
+          "narkoba",
+          "parimo",
+          "peredaran",
+          "pria",
+          "sultengterkini",
+          "terlibat"
+        ],
+        "event_terms": [
+          "narkoba"
+        ],
+        "location_terms": [],
+        "discovery_families": [],
+        "first_seen": "2026-09-08T23:05:25+00:00",
+        "last_seen": "2026-09-09T00:17:23.305269+00:00",
+        "last_detected_at": "2026-09-09T00:17:23.305269+00:00",
+        "article_ids": [
+          "dab609e5767c07568dec4c6155f37b0a26d1b317"
+        ],
+        "articles": [
+          {
+            "id": "dab609e5767c07568dec4c6155f37b0a26d1b317",
+            "title": "Terlibat Peredaran Narkoba, Pria di Mepanga Parimo Ini Diringkus Polisi - SultengTerkini",
+            "url": "https://sultengterkini.id/2026/09/09/terlibat-peredaran-narkoba-pria-di-mepanga-parimo-ini-diringkus-polisi/",
+            "published_at": "2026-09-08T23:05:25+00:00",
+            "collected_at": "2026-09-09T00:17:23.305269+00:00",
+            "source": "SultengTerkini",
+            "match_score": 1.0,
+            "priority": "low",
+            "scope": "negative",
+            "category": "NEGATIF - NARKOBA / NARKOTIKA",
+            "region": "BELUM TERPETAKAN",
+            "locality": "",
+            "is_jatim": false,
+            "polres": null,
+            "polsek": null,
+            "issue_type": "NARKOBA",
+            "issue_subtype": "Narkoba / Narkotika",
+            "handling_status": "BELUM_ADA_INFORMASI",
+            "handling_evidence": [],
+            "polri_relation": null,
+            "polri_relation_points": 0,
+            "polri_relation_evidence": [],
+            "attention_score": 38,
+            "attention_label": "Rendah",
+            "attention_components": {
+              "severity": 11,
+              "polri_relation": 16,
+              "authority": 0,
+              "public_impact": 10,
+              "handling": 0,
+              "evidence": 1,
+              "context_risk": 0,
+              "routine_enforcement_cap": null
+            }
+          }
+        ],
+        "article_count": 1,
+        "created_at": "2026-09-09T00:37:13.451062+00:00",
+        "updated_at": "2026-09-09T00:39:52.233173+00:00",
+        "engine_version": "case-v6.5.4",
+        "priority_score": 17,
+        "priority_breakdown": {
+          "severity": 11,
+          "polri_relation": 0,
+          "authority_context": 0,
+          "public_impact": 4,
+          "handling": 0,
+          "evidence": 1,
+          "spread": 0,
+          "escalation": 0,
+          "current_activity": 1,
+          "context_risk": 0
+        },
+        "priority_evidence": {
+          "unique_sources": 1,
+          "active_today_articles": 1,
+          "escalation": [],
+          "issue_type": "NARKOBA",
+          "issue_subtype": "Narkoba / Narkotika",
+          "sentiment": "negative",
+          "polri_relation": "INFORMASI_UMUM",
+          "handling_status": "BELUM_ADA_INFORMASI",
+          "reasons": [
+            "sifat berita: negatif",
+            "Narkoba / Narkotika",
+            "Hubungan Polri belum spesifik"
+          ]
+        }
+      },
+      {
+        "case_id": "CASE-001063",
+        "title": "3 Polisi di Bogor Dipecat, Ada yang Desersi Hingga Penyalahgunaan Narkoba - VIVA.co.id",
+        "category": "NEGATIF - NARKOBA / NARKOTIKA",
+        "scope": "negative",
+        "region": "BELUM TERPETAKAN",
+        "locality": "",
+        "is_jatim": null,
+        "polres": null,
+        "polsek": null,
+        "priority": "low",
+        "attention_score": 21,
+        "attention_label": "Rendah",
+        "signature": "BELUM TERPETAKAN",
+        "incident_terms": [
+          "ada",
+          "bogor",
+          "desersi",
+          "dipecat",
+          "narkoba",
+          "penyalahgunaan",
+          "viva"
+        ],
+        "event_terms": [
+          "narkoba",
+          "penyalahgunaan"
+        ],
+        "location_terms": [],
+        "discovery_families": [
+          "general_police_misconduct"
+        ],
+        "first_seen": "2026-09-08T23:00:00+00:00",
+        "last_seen": "2026-09-09T00:17:23.305269+00:00",
+        "last_detected_at": "2026-09-09T00:17:23.305269+00:00",
+        "article_ids": [
+          "b7dd94ac05c480fd8723b3854fdbd5e483868e44"
+        ],
+        "articles": [
+          {
+            "id": "b7dd94ac05c480fd8723b3854fdbd5e483868e44",
+            "title": "3 Polisi di Bogor Dipecat, Ada yang Desersi Hingga Penyalahgunaan Narkoba - VIVA.co.id",
+            "url": "https://www.viva.co.id/berita/metro/1927262-3-polisi-di-bogor-dipecat-ada-yang-desersi-hingga-penyalahgunaan-narkoba",
+            "published_at": "2026-09-08T23:00:00+00:00",
+            "collected_at": "2026-09-09T00:17:23.305269+00:00",
+            "source": "VIVA.co.id",
+            "match_score": 1.0,
+            "priority": "low",
+            "scope": "negative",
+            "category": "NEGATIF - NARKOBA / NARKOTIKA",
+            "region": "BELUM TERPETAKAN",
+            "locality": "",
+            "is_jatim": false,
+            "polres": null,
+            "polsek": null,
+            "issue_type": "NARKOBA",
+            "issue_subtype": "Narkoba / Narkotika",
+            "handling_status": "SUDAH_DITINDAK",
+            "handling_evidence": [
+              "dipecat"
+            ],
+            "polri_relation": null,
+            "polri_relation_points": 0,
+            "polri_relation_evidence": [],
+            "attention_score": 18,
+            "attention_label": "Rendah",
+            "attention_components": {
+              "severity": 11,
+              "polri_relation": 0,
+              "authority": 0,
+              "public_impact": 4,
+              "handling": 2,
+              "evidence": 1,
+              "context_risk": 0,
+              "routine_enforcement_cap": null
+            }
+          }
+        ],
+        "article_count": 1,
+        "created_at": "2026-09-09T00:37:13.813703+00:00",
+        "updated_at": "2026-09-09T00:39:52.236108+00:00",
+        "engine_version": "case-v6.5.4",
+        "priority_score": 21,
+        "priority_breakdown": {
+          "severity": 11,
+          "polri_relation": 0,
+          "authority_context": 0,
+          "public_impact": 4,
+          "handling": 2,
+          "evidence": 1,
+          "spread": 0,
+          "escalation": 2,
+          "current_activity": 1,
+          "context_risk": 0
+        },
+        "priority_evidence": {
+          "unique_sources": 1,
+          "active_today_articles": 1,
+          "escalation": [
+            "tindakan disiplin"
+          ],
+          "issue_type": "NARKOBA",
+          "issue_subtype": "Narkoba / Narkotika",
+          "sentiment": "negative",
+          "polri_relation": "INFORMASI_UMUM",
+          "handling_status": "SUDAH_DITINDAK",
+          "reasons": [
+            "sifat berita: negatif",
+            "Narkoba / Narkotika",
+            "Hubungan Polri belum spesifik",
+            "status: sudah ditindak",
+            "tindakan disiplin"
           ]
         }
       }
@@ -5452,7 +8034,7 @@
         ],
         "article_count": 2,
         "created_at": "2026-09-07T04:58:57.910978+00:00",
-        "updated_at": "2026-09-08T22:16:13.112571+00:00",
+        "updated_at": "2026-09-09T00:39:51.861122+00:00",
         "engine_version": "case-v6.5.4",
         "priority_score": 22,
         "priority_breakdown": {
@@ -5657,7 +8239,7 @@
         ],
         "article_count": 3,
         "created_at": "2026-09-08T04:58:39.791240+00:00",
-        "updated_at": "2026-09-08T22:16:13.350849+00:00",
+        "updated_at": "2026-09-09T00:39:52.071214+00:00",
         "engine_version": "case-v6.5.4",
         "priority_score": 70,
         "priority_breakdown": {
@@ -5763,7 +8345,7 @@
         ],
         "article_count": 1,
         "created_at": "2026-09-08T18:58:06.885056+00:00",
-        "updated_at": "2026-09-08T22:16:13.498531+00:00",
+        "updated_at": "2026-09-09T00:39:52.214369+00:00",
         "engine_version": "case-v6.5.4",
         "priority_score": 8,
         "priority_breakdown": {
@@ -5874,7 +8456,7 @@
         ],
         "article_count": 1,
         "created_at": "2026-09-08T18:58:07.581313+00:00",
-        "updated_at": "2026-09-08T22:16:13.508036+00:00",
+        "updated_at": "2026-09-09T00:39:52.223698+00:00",
         "engine_version": "case-v6.5.4",
         "priority_score": 38,
         "priority_breakdown": {
@@ -5908,7 +8490,7 @@
     ]
   },
   "social": {
-    "detected": 80,
+    "detected": 89,
     "jatim": 2,
     "negative": 49,
     "priority_high": 21,
@@ -5966,25 +8548,34 @@
       "o_Pzx25e_NE",
       "4EgsDJ8YivY",
       "MNEQDN2taJQ",
+      "VKxG3zr7i-E",
       "9IGAd8nPG9E",
       "-8-NBcA4SnE",
+      "EGJevAGBve4",
+      "HCCdYYJ4m6c",
       "fVc4PyDhEPk",
       "6QpWqwcwgdw",
       "oJkbu0cypOI",
       "hx7oCqTuKJE",
       "8a18SkUqu3A",
+      "_FCbCoOoN2A",
       "CD1ZsXSlQdc",
       "5pbzb1QdzQA",
+      "l-nOXJglljA",
       "x96OTBKtpKw",
       "rLd0zl3tmlM",
       "ieXTnnkGNoM",
       "Gl_ldPMNgE0",
       "_ICkXxDLwU0",
+      "3HTtTFec2g8",
       "CGsweH0N5TY",
       "iUGL8IaAHa8",
       "IPJFHqbhzuY",
       "U6GRkoO9Oc0",
       "S5xz4mi7O2E",
+      "SE7n_F0Z42w",
+      "oLEEILS-Vs8",
+      "t9Cjr2fua_k",
       "x2nAI7C2eis",
       "dvattYKePMY",
       "xg8wVIuPh6E",
@@ -5996,28 +8587,40 @@
     ]
   },
   "jatim": {
-    "news_today": 15,
+    "news_today": 23,
     "negative_today": 4,
-    "positive_today": 2,
+    "positive_today": 5,
     "case_scope_today": 0,
-    "neutral_today": 9,
+    "neutral_today": 14,
     "case_today": 4,
     "case_high_active": 1,
     "article_high_today": 0,
-    "outside_jatim_today": 12
+    "outside_jatim_today": 19
   },
   "regions": [
     {
       "name": "Malang",
-      "count": 4
+      "count": 7
     },
     {
       "name": "Sidoarjo",
-      "count": 3
+      "count": 5
+    },
+    {
+      "name": "Batu",
+      "count": 2
     },
     {
       "name": "Jombang",
       "count": 2
+    },
+    {
+      "name": "Tulungagung",
+      "count": 1
+    },
+    {
+      "name": "Situbondo",
+      "count": 1
     },
     {
       "name": "Kediri",
@@ -6025,10 +8628,6 @@
     },
     {
       "name": "Bangkalan",
-      "count": 1
-    },
-    {
-      "name": "Batu",
       "count": 1
     },
     {
@@ -6046,16 +8645,20 @@
   ],
   "polres": [
     {
-      "name": "POLRES MALANG",
-      "count": 3
+      "name": "POLRESTA SIDOARJO",
+      "count": 5
     },
     {
-      "name": "POLRESTA SIDOARJO",
-      "count": 3
+      "name": "POLRES MALANG",
+      "count": 5
+    },
+    {
+      "name": "POLRESTA MALANG KOTA",
+      "count": 2
     },
     {
       "name": "POLRES BATU",
-      "count": 1
+      "count": 2
     },
     {
       "name": "POLRES GRESIK",
@@ -6068,20 +8671,16 @@
     {
       "name": "POLRESTABES SURABAYA",
       "count": 1
-    },
-    {
-      "name": "POLRESTA MALANG KOTA",
-      "count": 1
     }
   ],
   "categories": [
     {
       "name": "NETRAL / LAINNYA",
-      "count": 9
+      "count": 14
     },
     {
       "name": "POSITIF / PENEGAKAN HUKUM",
-      "count": 2
+      "count": 5
     },
     {
       "name": "NEGATIF - AKTIVITAS ILEGAL",
@@ -6101,19 +8700,19 @@
     }
   ],
   "summary": {
-    "news_today": 27,
-    "negative_today": 12,
-    "cases_today": 12,
+    "news_today": 42,
+    "negative_today": 16,
+    "cases_today": 16,
     "priority_high": 1,
     "article_priority_high": 0,
-    "jatim_news": 15,
+    "jatim_news": 23,
     "jatim_negative": 4,
-    "jatim_positive": 2,
+    "jatim_positive": 5,
     "jatim_case_scope": 0,
-    "jatim_neutral": 9,
+    "jatim_neutral": 14,
     "jatim_cases_today": 4,
     "jatim_case_high_active": 1,
-    "luar_jatim_news": 12,
-    "youtube_today": 80
+    "luar_jatim_news": 19,
+    "youtube_today": 89
   }
 }
