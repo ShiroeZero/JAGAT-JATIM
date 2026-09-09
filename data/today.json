@@ -2,18 +2,23 @@
   "schema_version": "today-v3",
   "date": "2026-09-10",
   "timezone": "Asia/Jakarta",
-  "updated_at": "2026-09-10T03:13:21.396519+07:00",
-  "last_successful_update": "2026-09-10T03:13:21.396519+07:00",
+  "updated_at": "2026-09-10T06:00:33.734426+07:00",
+  "last_successful_update": "2026-09-10T06:00:33.734426+07:00",
   "news": {
-    "detected": 8,
-    "negative": 3,
+    "detected": 13,
+    "negative": 5,
     "positive": 0,
     "case": 0,
-    "neutral": 5,
+    "neutral": 8,
     "jatim": 3,
-    "luar_jatim": 5,
+    "luar_jatim": 10,
     "priority_high": 0,
     "article_ids": [
+      "3337b0e72a346c69c8dac0e939a2570ffc5cd119",
+      "0a6c39c9689c503ef1298527f62ffdc36f7a48d1",
+      "28c80ab4c75198218205198b0ee4ed213b3014b4",
+      "f5c37b6dc7705ce8294b75c476d4e0840b720973",
+      "4a829f77dcddf191d16c486c3d713658e74f4d43",
       "fd1b2df1ffb1df3cf4bf783bdcfc7624eabaf746",
       "57f19e07287e08c1fd68ca8246ad2ff3fd2d4da4",
       "e0f5d8c544a6962938d62baf55ebec2b020daaa0",
@@ -24,6 +29,354 @@
       "71fd5aa00e4e6db68a4c4aac936921b5d3edc536"
     ],
     "items": [
+      {
+        "id": "3337b0e72a346c69c8dac0e939a2570ffc5cd119",
+        "title": "Polisi Beberkan Kronologis Penembakan yang Tewaskan Tiga ASN Dinas Pertanian Jayawijaya - fajarpapua.com",
+        "url": "https://fajarpapua.com/2026/09/10/polisi-beberkan-kronologis-penembakan-yang-tewaskan-tiga-asn-dinas-pertanian-jayawijaya",
+        "source": "fajarpapua.com",
+        "published_at": "2026-09-09T22:19:04+00:00",
+        "collected_at": "2026-09-09T22:34:44.730935+00:00",
+        "region": "BELUM TERPETAKAN",
+        "area_label": "BELUM TERPETAKAN",
+        "is_jatim": null,
+        "polres": null,
+        "category": "NEGATIF - KEKERASAN / PENGGUNAAN KEKUATAN",
+        "scope": "negative",
+        "scope_label": "Negatif",
+        "priority": "low",
+        "summary": "Polisi Beberkan Kronologis Penembakan yang Tewaskan Tiga ASN Dinas Pertanian Jayawijaya fajarpapua.com",
+        "processing_status": "processed",
+        "classifier_version": "news-v6",
+        "classified_at": "2026-09-09T22:34:44.730935+00:00",
+        "case_id": "CASE-001135",
+        "discovery_families": [],
+        "discovery_tags": [],
+        "discovery_hits": [],
+        "discovery_version": "discovery-v6.5.4",
+        "google_news_url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNV3oxS2ZPdjdaTGN2cmNIY1RGQzBJVU42U2dFcGJ5ZVR1dnFyRFUxdkNFc3RyVzlEeF9rQ0xvVm1rNDEzbTUxNkh5YzdhZnNudGRXbXVWUlR0eFFWTmhfcklkZ1NubVpoSmhOVlotVWVONmFSSkx0RVNBakZZOVgtV203UDdDdHAwZWcyY2JmbFFtcWNRWWhmb3dHbDBwUEROVExGUzQyaTU1VjNZTmszLWplU3JaQVFyWU9VcGFn?oc=5",
+        "original_url": "https://fajarpapua.com/2026/09/10/polisi-beberkan-kronologis-penembakan-yang-tewaskan-tiga-asn-dinas-pertanian-jayawijaya",
+        "locality": "",
+        "polsek": null,
+        "location_confidence": 0,
+        "location_evidence": [],
+        "location_status": "BELUM_TERPETAKAN",
+        "location_source": "title",
+        "issue_type": "KEKERASAN_DAN_KEKUATAN",
+        "issue_subtype": "Kekerasan / Penggunaan Kekuatan",
+        "issue_evidence": [
+          "penembakan"
+        ],
+        "handling_status": "BELUM_ADA_INFORMASI",
+        "handling_evidence": [],
+        "attention_score": 39,
+        "attention_label": "Rendah",
+        "attention_components": {
+          "severity": 28,
+          "polri_relation": 0,
+          "authority": 0,
+          "public_impact": 4,
+          "handling": 0,
+          "evidence": 1,
+          "context_risk": 0,
+          "routine_enforcement_cap": null
+        },
+        "attention_evidence": {
+          "severity": [
+            "kekerasan berat"
+          ],
+          "authority": [],
+          "public_impact": [],
+          "evidence": [
+            "satu sumber / informasi awal"
+          ],
+          "role": [],
+          "issue": [
+            "penembakan"
+          ],
+          "handling": [],
+          "context": [],
+          "positive": []
+        },
+        "case_engine_version": "case-v6.5.4",
+        "case_processed_at": "2026-09-09T23:00:32.241718+00:00"
+      },
+      {
+        "id": "0a6c39c9689c503ef1298527f62ffdc36f7a48d1",
+        "title": "Teror Bom Molotov Hantam Kantor Komnas HAM Papua, Polisi Didesak Tangkap Pelaku - Tribunpapuatengah.com",
+        "url": "https://papuatengah.tribunnews.com/jayapura/7228/teror-bom-molotov-hantam-kantor-komnas-ham-papua-polisi-didesak-tangkap-pelaku",
+        "source": "Tribunpapuatengah.com",
+        "published_at": "2026-09-09T22:13:24+00:00",
+        "collected_at": "2026-09-09T22:34:44.730935+00:00",
+        "region": "LUAR JATIM",
+        "area_label": "LUAR JATIM",
+        "is_jatim": false,
+        "polres": null,
+        "category": "NEGATIF - GANGGUAN KEAMANAN / KAMTIBMAS",
+        "scope": "negative",
+        "scope_label": "Negatif",
+        "priority": "medium",
+        "summary": "Teror Bom Molotov Hantam Kantor Komnas HAM Papua, Polisi Didesak Tangkap Pelaku Tribunpapuatengah.com",
+        "processing_status": "processed",
+        "classifier_version": "news-v6",
+        "classified_at": "2026-09-09T22:34:44.730935+00:00",
+        "case_id": "CASE-001136",
+        "discovery_families": [],
+        "discovery_tags": [],
+        "discovery_hits": [],
+        "discovery_version": "discovery-v6.5.4",
+        "google_news_url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNa0s3anJSWHRYUU5DZjJZY3RIQUJnQ2ZVX3J6M3QtUHhxSEJDdFdXTUdQUWdlM2lVMEdIMjRqNURhOGRlWGNaemZxSUNYT2RnazgyVXR2ZmhRbWNqYW1kZDNDcG0xMXNqa01kbk5zQW9Fal9KSmwtQVVON1drbTlHdHMzd0QyTmNQMGpUV3FnZmEyaEs3a1B2Nk43eEhyT2pqQXBmNkFlTHc1Q1ZMMVZGWlpZWlFRQllJMXh3QmZvVkNwWHZXTWc?oc=5",
+        "original_url": "https://papuatengah.tribunnews.com/jayapura/7228/teror-bom-molotov-hantam-kantor-komnas-ham-papua-polisi-didesak-tangkap-pelaku",
+        "locality": "",
+        "polsek": null,
+        "location_confidence": 100,
+        "location_evidence": [
+          "papua"
+        ],
+        "location_status": "LUAR_JATIM",
+        "location_source": "title",
+        "issue_type": "KEAMANAN_DAN_KAMTIBMAS",
+        "issue_subtype": "Gangguan Keamanan / Kamtibmas",
+        "issue_evidence": [
+          "molotov"
+        ],
+        "handling_status": "BELUM_ADA_INFORMASI",
+        "handling_evidence": [],
+        "attention_score": 40,
+        "attention_label": "Sedang",
+        "attention_components": {
+          "severity": 21,
+          "polri_relation": 0,
+          "authority": 0,
+          "public_impact": 10,
+          "handling": 0,
+          "evidence": 1,
+          "context_risk": 0,
+          "routine_enforcement_cap": null
+        },
+        "attention_evidence": {
+          "severity": [],
+          "authority": [],
+          "public_impact": [
+            "dampak peristiwa"
+          ],
+          "evidence": [
+            "satu sumber / informasi awal"
+          ],
+          "role": [],
+          "issue": [
+            "molotov"
+          ],
+          "handling": [],
+          "context": [],
+          "positive": []
+        },
+        "case_engine_version": "case-v6.5.4",
+        "case_processed_at": "2026-09-09T23:00:32.241723+00:00"
+      },
+      {
+        "id": "28c80ab4c75198218205198b0ee4ed213b3014b4",
+        "title": "Sinergitas TNI-Polri dan Masyarakat, Polsek Besuki Ikuti Penanaman Mangrove di Pantai Bayem - Tribratanews - Polres Tulungagung",
+        "url": "https://tribratanews.restulungagung.jatim.polri.go.id/10/09/2026/sinergitas-tni-polri-dan-masyarakat-polsek-besuki-ikuti-penanaman-mangrove-di-pantai-bayem/",
+        "source": "Tribratanews - Polres Tulungagung",
+        "published_at": "2026-09-09T22:03:27+00:00",
+        "collected_at": "2026-09-09T22:34:44.730935+00:00",
+        "region": "BELUM TERPETAKAN",
+        "area_label": "BELUM TERPETAKAN",
+        "is_jatim": null,
+        "polres": null,
+        "category": "NETRAL / LAINNYA",
+        "scope": "neutral",
+        "scope_label": "Netral",
+        "priority": "low",
+        "summary": "Sinergitas TNI-Polri dan Masyarakat, Polsek Besuki Ikuti Penanaman Mangrove di Pantai Bayem Tribratanews - Polres Tulungagung",
+        "processing_status": "processed",
+        "classifier_version": "news-v6",
+        "classified_at": "2026-09-09T22:34:44.730935+00:00",
+        "case_id": null,
+        "discovery_families": [],
+        "discovery_tags": [],
+        "discovery_hits": [],
+        "discovery_version": "discovery-v6.5.4",
+        "google_news_url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxOaFlCYzU3WW4wWXh4cWE1ckdPWFZvYWluLUk3SVJVdjFRanc5ekxYckN5SXRRRmc1R1kybk5udFZvOEYtS0d2cENKcHJTQUE1NEI2dVhVaHItSUFRMHk0TTk2WEtZTFVwdWZWUzNTS3FuMGN3X2VTUzJpeGxBRHFsVEprSGg1eEtJXzBLSExtOEJ5TGNaSzZKZjIwcnBwcm5sYld5QU1ISGc5ckNQWXJFbzhUTzl6c05LOUl0Uk1qR3F1N2JyM1FFdXlRS24yQzRuTU5QZm1CUkhSRlhyYnRMVW9ySWtnQVhGbGNoaw?oc=5",
+        "original_url": "https://tribratanews.restulungagung.jatim.polri.go.id/10/09/2026/sinergitas-tni-polri-dan-masyarakat-polsek-besuki-ikuti-penanaman-mangrove-di-pantai-bayem/",
+        "locality": "",
+        "polsek": "POLSEK BESUKI IKUTI PENANAMAN",
+        "location_confidence": 0,
+        "location_evidence": [
+          "POLSEK BESUKI IKUTI PENANAMAN"
+        ],
+        "location_status": "BELUM_TERPETAKAN",
+        "location_source": "title",
+        "issue_type": "UMUM",
+        "issue_subtype": "Belum Teridentifikasi",
+        "issue_evidence": [],
+        "handling_status": "BELUM_ADA_INFORMASI",
+        "handling_evidence": [],
+        "attention_score": 15,
+        "attention_label": "Rendah",
+        "attention_components": {
+          "severity": 2,
+          "polri_relation": 0,
+          "authority": 0,
+          "public_impact": 12,
+          "handling": 0,
+          "evidence": 1,
+          "context_risk": 0,
+          "routine_enforcement_cap": null
+        },
+        "attention_evidence": {
+          "severity": [],
+          "authority": [],
+          "public_impact": [
+            "dampak kepada masyarakat"
+          ],
+          "evidence": [
+            "satu sumber / informasi awal"
+          ],
+          "role": [],
+          "issue": [],
+          "handling": [],
+          "context": [],
+          "positive": []
+        },
+        "case_engine_version": "case-v6.5.4",
+        "case_processed_at": "2026-09-09T22:41:56.597317+00:00"
+      },
+      {
+        "id": "f5c37b6dc7705ce8294b75c476d4e0840b720973",
+        "title": "Autopsi Siti Maemunah Digelar, Polisi Tunggu Hasil Pemeriksaan Laboratorium - Pikiran Rakyat Koran",
+        "url": "https://koran.pikiran-rakyat.com/news/pr-30310441250/autopsi-siti-maemunah-digelar-polisi-tunggu-hasil-pemeriksaan-laboratorium",
+        "source": "Pikiran Rakyat Koran",
+        "published_at": "2026-09-09T22:00:00+00:00",
+        "collected_at": "2026-09-09T22:34:44.730935+00:00",
+        "region": "BELUM TERPETAKAN",
+        "area_label": "BELUM TERPETAKAN",
+        "is_jatim": null,
+        "polres": null,
+        "category": "NETRAL / LAINNYA",
+        "scope": "neutral",
+        "scope_label": "Netral",
+        "priority": "low",
+        "summary": "Autopsi Siti Maemunah Digelar, Polisi Tunggu Hasil Pemeriksaan Laboratorium Pikiran Rakyat Koran",
+        "processing_status": "processed",
+        "classifier_version": "news-v6",
+        "classified_at": "2026-09-09T22:34:44.730935+00:00",
+        "case_id": null,
+        "discovery_families": [],
+        "discovery_tags": [],
+        "discovery_hits": [],
+        "discovery_version": "discovery-v6.5.4",
+        "google_news_url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQM2lfQXpzRG1NYTMyNWdqczZ4QUdHbV84WW0tbVQ5UHZPc1U3UkZiUWxuN0pnX1JqSWphZWI1dWZKVy1WMHdjSVJ0ZEMzcjVmUWtKQUhtSkV4UTY5Tk5NOThhWWpSQ1hhS1pQemJnV09yTXJZbVhqTzNWd1h1U2FSa2NpYjVWcEtTT2Q4VmtpaDBkaVJrTkJEbXFrWW03b2FMQ0lBLUVQLXV1RmdjSXpiOXJFNUtTMjZTQ1gtbXU3cGFMdFo1RFE?oc=5",
+        "original_url": "https://koran.pikiran-rakyat.com/news/pr-30310441250/autopsi-siti-maemunah-digelar-polisi-tunggu-hasil-pemeriksaan-laboratorium",
+        "locality": "",
+        "polsek": null,
+        "location_confidence": 0,
+        "location_evidence": [],
+        "location_status": "BELUM_TERPETAKAN",
+        "location_source": "title",
+        "issue_type": "UMUM",
+        "issue_subtype": "Belum Teridentifikasi",
+        "issue_evidence": [],
+        "handling_status": "BELUM_ADA_INFORMASI",
+        "handling_evidence": [],
+        "attention_score": 9,
+        "attention_label": "Rendah",
+        "attention_components": {
+          "severity": 2,
+          "polri_relation": 0,
+          "authority": 0,
+          "public_impact": 4,
+          "handling": 0,
+          "evidence": 3,
+          "context_risk": 0,
+          "routine_enforcement_cap": null
+        },
+        "attention_evidence": {
+          "severity": [],
+          "authority": [],
+          "public_impact": [],
+          "evidence": [
+            "satu sumber / informasi awal",
+            "ada tindak lanjut resmi"
+          ],
+          "role": [],
+          "issue": [],
+          "handling": [],
+          "context": [],
+          "positive": []
+        },
+        "case_engine_version": "case-v6.5.4",
+        "case_processed_at": "2026-09-09T22:41:57.010124+00:00"
+      },
+      {
+        "id": "4a829f77dcddf191d16c486c3d713658e74f4d43",
+        "title": "Semarak HUT TNI ke-81, Polsek Sendang Ikuti Penanaman Pohon Bersama Masyarakat - Tribratanews - Polres Tulungagung",
+        "url": "https://tribratanews.restulungagung.jatim.polri.go.id/10/09/2026/semarak-hut-tni-ke-81-polsek-sendang-ikuti-penanaman-pohon-bersama-masyarakat/",
+        "source": "Tribratanews - Polres Tulungagung",
+        "published_at": "2026-09-09T21:49:57+00:00",
+        "collected_at": "2026-09-09T22:34:44.730935+00:00",
+        "region": "BELUM TERPETAKAN",
+        "area_label": "BELUM TERPETAKAN",
+        "is_jatim": null,
+        "polres": null,
+        "category": "NETRAL / LAINNYA",
+        "scope": "neutral",
+        "scope_label": "Netral",
+        "priority": "low",
+        "summary": "Semarak HUT TNI ke-81, Polsek Sendang Ikuti Penanaman Pohon Bersama Masyarakat Tribratanews - Polres Tulungagung",
+        "processing_status": "processed",
+        "classifier_version": "news-v6",
+        "classified_at": "2026-09-09T22:34:44.730935+00:00",
+        "case_id": null,
+        "discovery_families": [],
+        "discovery_tags": [],
+        "discovery_hits": [],
+        "discovery_version": "discovery-v6.5.4",
+        "google_news_url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxPZzRYVDQxcHhVbkxuazlIeUIxbEpYWWwyaE5hMHBqMmhIZnJkdFRMdHlHcUFSYzd6SkUxNGRNWkpMZ1hIVGhfbGxBMEtzT2VQOWJKT1NQSHZ5UHdWb2JiNFJ5QzhoVDU4d0NrYVRuS01sdVNsTGRKSmJ6RFZiR1RXRFRsWHRILURnLXZZNGFXdm1ndVFnYmtCTUU3akhkNDRWNmtyRWNXLV9KU0Qzc0xVRzBGMmlZX1pROVZhTkJ4dWQtQmRqbHJfZmxTYUM5UUFKS3BvbmM2VTR5Zlk?oc=5",
+        "original_url": "https://tribratanews.restulungagung.jatim.polri.go.id/10/09/2026/semarak-hut-tni-ke-81-polsek-sendang-ikuti-penanaman-pohon-bersama-masyarakat/",
+        "locality": "",
+        "polsek": "POLSEK SENDANG IKUTI PENANAMAN",
+        "location_confidence": 0,
+        "location_evidence": [
+          "POLSEK SENDANG IKUTI PENANAMAN"
+        ],
+        "location_status": "BELUM_TERPETAKAN",
+        "location_source": "title",
+        "issue_type": "UMUM",
+        "issue_subtype": "Belum Teridentifikasi",
+        "issue_evidence": [],
+        "handling_status": "BELUM_ADA_INFORMASI",
+        "handling_evidence": [],
+        "attention_score": 15,
+        "attention_label": "Rendah",
+        "attention_components": {
+          "severity": 2,
+          "polri_relation": 0,
+          "authority": 0,
+          "public_impact": 12,
+          "handling": 0,
+          "evidence": 1,
+          "context_risk": 0,
+          "routine_enforcement_cap": null
+        },
+        "attention_evidence": {
+          "severity": [],
+          "authority": [],
+          "public_impact": [
+            "dampak kepada masyarakat"
+          ],
+          "evidence": [
+            "satu sumber / informasi awal"
+          ],
+          "role": [],
+          "issue": [],
+          "handling": [],
+          "context": [],
+          "positive": []
+        },
+        "case_engine_version": "case-v6.5.4",
+        "case_processed_at": "2026-09-09T22:41:57.474256+00:00"
+      },
       {
         "id": "fd1b2df1ffb1df3cf4bf783bdcfc7624eabaf746",
         "title": "Polsek Mojoroto Kawal Audiensi Klarifikasi Dugaan Penerimaan Uang Terkait Seleksi CPNS di RS Kilisuci Kediri - polreskedirikota.com",
@@ -91,7 +444,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-09-09T19:54:36.229856+00:00"
+        "case_processed_at": "2026-09-09T22:41:57.998158+00:00"
       },
       {
         "id": "57f19e07287e08c1fd68ca8246ad2ff3fd2d4da4",
@@ -158,7 +511,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-09-09T19:54:36.697862+00:00"
+        "case_processed_at": "2026-09-09T22:41:58.460331+00:00"
       },
       {
         "id": "e0f5d8c544a6962938d62baf55ebec2b020daaa0",
@@ -223,7 +576,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-09-09T19:54:37.046553+00:00"
+        "case_processed_at": "2026-09-09T22:41:58.811012+00:00"
       },
       {
         "id": "e1c513ffb5175bfd2a9e3bf15d4e50de98baa6fe",
@@ -296,7 +649,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-09-09T20:13:19.863123+00:00"
+        "case_processed_at": "2026-09-09T23:00:32.241728+00:00"
       },
       {
         "id": "71624acc7524d973d0960d3c666955e0de43b493",
@@ -363,7 +716,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-09-09T19:54:37.468098+00:00"
+        "case_processed_at": "2026-09-09T22:41:59.232212+00:00"
       },
       {
         "id": "157768daf8513716641c046694f1269f8159d51d",
@@ -432,7 +785,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-09-09T20:13:19.863128+00:00"
+        "case_processed_at": "2026-09-09T23:00:32.241732+00:00"
       },
       {
         "id": "cee9f8a57b98601edf3eb6e342e33c6b02f069c6",
@@ -501,7 +854,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-09-09T20:13:19.863130+00:00"
+        "case_processed_at": "2026-09-09T23:00:32.241735+00:00"
       },
       {
         "id": "71fd5aa00e4e6db68a4c4aac936921b5d3edc536",
@@ -568,7 +921,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-09-09T19:54:37.833832+00:00"
+        "case_processed_at": "2026-09-09T22:41:59.595158+00:00"
       }
     ],
     "jatim_items": [
@@ -639,7 +992,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-09-09T19:54:36.229856+00:00"
+        "case_processed_at": "2026-09-09T22:41:57.998158+00:00"
       },
       {
         "id": "57f19e07287e08c1fd68ca8246ad2ff3fd2d4da4",
@@ -706,7 +1059,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-09-09T19:54:36.697862+00:00"
+        "case_processed_at": "2026-09-09T22:41:58.460331+00:00"
       },
       {
         "id": "71fd5aa00e4e6db68a4c4aac936921b5d3edc536",
@@ -773,10 +1126,358 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-09-09T19:54:37.833832+00:00"
+        "case_processed_at": "2026-09-09T22:41:59.595158+00:00"
       }
     ],
     "luar_jatim_items": [
+      {
+        "id": "3337b0e72a346c69c8dac0e939a2570ffc5cd119",
+        "title": "Polisi Beberkan Kronologis Penembakan yang Tewaskan Tiga ASN Dinas Pertanian Jayawijaya - fajarpapua.com",
+        "url": "https://fajarpapua.com/2026/09/10/polisi-beberkan-kronologis-penembakan-yang-tewaskan-tiga-asn-dinas-pertanian-jayawijaya",
+        "source": "fajarpapua.com",
+        "published_at": "2026-09-09T22:19:04+00:00",
+        "collected_at": "2026-09-09T22:34:44.730935+00:00",
+        "region": "BELUM TERPETAKAN",
+        "area_label": "BELUM TERPETAKAN",
+        "is_jatim": null,
+        "polres": null,
+        "category": "NEGATIF - KEKERASAN / PENGGUNAAN KEKUATAN",
+        "scope": "negative",
+        "scope_label": "Negatif",
+        "priority": "low",
+        "summary": "Polisi Beberkan Kronologis Penembakan yang Tewaskan Tiga ASN Dinas Pertanian Jayawijaya fajarpapua.com",
+        "processing_status": "processed",
+        "classifier_version": "news-v6",
+        "classified_at": "2026-09-09T22:34:44.730935+00:00",
+        "case_id": "CASE-001135",
+        "discovery_families": [],
+        "discovery_tags": [],
+        "discovery_hits": [],
+        "discovery_version": "discovery-v6.5.4",
+        "google_news_url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNV3oxS2ZPdjdaTGN2cmNIY1RGQzBJVU42U2dFcGJ5ZVR1dnFyRFUxdkNFc3RyVzlEeF9rQ0xvVm1rNDEzbTUxNkh5YzdhZnNudGRXbXVWUlR0eFFWTmhfcklkZ1NubVpoSmhOVlotVWVONmFSSkx0RVNBakZZOVgtV203UDdDdHAwZWcyY2JmbFFtcWNRWWhmb3dHbDBwUEROVExGUzQyaTU1VjNZTmszLWplU3JaQVFyWU9VcGFn?oc=5",
+        "original_url": "https://fajarpapua.com/2026/09/10/polisi-beberkan-kronologis-penembakan-yang-tewaskan-tiga-asn-dinas-pertanian-jayawijaya",
+        "locality": "",
+        "polsek": null,
+        "location_confidence": 0,
+        "location_evidence": [],
+        "location_status": "BELUM_TERPETAKAN",
+        "location_source": "title",
+        "issue_type": "KEKERASAN_DAN_KEKUATAN",
+        "issue_subtype": "Kekerasan / Penggunaan Kekuatan",
+        "issue_evidence": [
+          "penembakan"
+        ],
+        "handling_status": "BELUM_ADA_INFORMASI",
+        "handling_evidence": [],
+        "attention_score": 39,
+        "attention_label": "Rendah",
+        "attention_components": {
+          "severity": 28,
+          "polri_relation": 0,
+          "authority": 0,
+          "public_impact": 4,
+          "handling": 0,
+          "evidence": 1,
+          "context_risk": 0,
+          "routine_enforcement_cap": null
+        },
+        "attention_evidence": {
+          "severity": [
+            "kekerasan berat"
+          ],
+          "authority": [],
+          "public_impact": [],
+          "evidence": [
+            "satu sumber / informasi awal"
+          ],
+          "role": [],
+          "issue": [
+            "penembakan"
+          ],
+          "handling": [],
+          "context": [],
+          "positive": []
+        },
+        "case_engine_version": "case-v6.5.4",
+        "case_processed_at": "2026-09-09T23:00:32.241718+00:00"
+      },
+      {
+        "id": "0a6c39c9689c503ef1298527f62ffdc36f7a48d1",
+        "title": "Teror Bom Molotov Hantam Kantor Komnas HAM Papua, Polisi Didesak Tangkap Pelaku - Tribunpapuatengah.com",
+        "url": "https://papuatengah.tribunnews.com/jayapura/7228/teror-bom-molotov-hantam-kantor-komnas-ham-papua-polisi-didesak-tangkap-pelaku",
+        "source": "Tribunpapuatengah.com",
+        "published_at": "2026-09-09T22:13:24+00:00",
+        "collected_at": "2026-09-09T22:34:44.730935+00:00",
+        "region": "LUAR JATIM",
+        "area_label": "LUAR JATIM",
+        "is_jatim": false,
+        "polres": null,
+        "category": "NEGATIF - GANGGUAN KEAMANAN / KAMTIBMAS",
+        "scope": "negative",
+        "scope_label": "Negatif",
+        "priority": "medium",
+        "summary": "Teror Bom Molotov Hantam Kantor Komnas HAM Papua, Polisi Didesak Tangkap Pelaku Tribunpapuatengah.com",
+        "processing_status": "processed",
+        "classifier_version": "news-v6",
+        "classified_at": "2026-09-09T22:34:44.730935+00:00",
+        "case_id": "CASE-001136",
+        "discovery_families": [],
+        "discovery_tags": [],
+        "discovery_hits": [],
+        "discovery_version": "discovery-v6.5.4",
+        "google_news_url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNa0s3anJSWHRYUU5DZjJZY3RIQUJnQ2ZVX3J6M3QtUHhxSEJDdFdXTUdQUWdlM2lVMEdIMjRqNURhOGRlWGNaemZxSUNYT2RnazgyVXR2ZmhRbWNqYW1kZDNDcG0xMXNqa01kbk5zQW9Fal9KSmwtQVVON1drbTlHdHMzd0QyTmNQMGpUV3FnZmEyaEs3a1B2Nk43eEhyT2pqQXBmNkFlTHc1Q1ZMMVZGWlpZWlFRQllJMXh3QmZvVkNwWHZXTWc?oc=5",
+        "original_url": "https://papuatengah.tribunnews.com/jayapura/7228/teror-bom-molotov-hantam-kantor-komnas-ham-papua-polisi-didesak-tangkap-pelaku",
+        "locality": "",
+        "polsek": null,
+        "location_confidence": 100,
+        "location_evidence": [
+          "papua"
+        ],
+        "location_status": "LUAR_JATIM",
+        "location_source": "title",
+        "issue_type": "KEAMANAN_DAN_KAMTIBMAS",
+        "issue_subtype": "Gangguan Keamanan / Kamtibmas",
+        "issue_evidence": [
+          "molotov"
+        ],
+        "handling_status": "BELUM_ADA_INFORMASI",
+        "handling_evidence": [],
+        "attention_score": 40,
+        "attention_label": "Sedang",
+        "attention_components": {
+          "severity": 21,
+          "polri_relation": 0,
+          "authority": 0,
+          "public_impact": 10,
+          "handling": 0,
+          "evidence": 1,
+          "context_risk": 0,
+          "routine_enforcement_cap": null
+        },
+        "attention_evidence": {
+          "severity": [],
+          "authority": [],
+          "public_impact": [
+            "dampak peristiwa"
+          ],
+          "evidence": [
+            "satu sumber / informasi awal"
+          ],
+          "role": [],
+          "issue": [
+            "molotov"
+          ],
+          "handling": [],
+          "context": [],
+          "positive": []
+        },
+        "case_engine_version": "case-v6.5.4",
+        "case_processed_at": "2026-09-09T23:00:32.241723+00:00"
+      },
+      {
+        "id": "28c80ab4c75198218205198b0ee4ed213b3014b4",
+        "title": "Sinergitas TNI-Polri dan Masyarakat, Polsek Besuki Ikuti Penanaman Mangrove di Pantai Bayem - Tribratanews - Polres Tulungagung",
+        "url": "https://tribratanews.restulungagung.jatim.polri.go.id/10/09/2026/sinergitas-tni-polri-dan-masyarakat-polsek-besuki-ikuti-penanaman-mangrove-di-pantai-bayem/",
+        "source": "Tribratanews - Polres Tulungagung",
+        "published_at": "2026-09-09T22:03:27+00:00",
+        "collected_at": "2026-09-09T22:34:44.730935+00:00",
+        "region": "BELUM TERPETAKAN",
+        "area_label": "BELUM TERPETAKAN",
+        "is_jatim": null,
+        "polres": null,
+        "category": "NETRAL / LAINNYA",
+        "scope": "neutral",
+        "scope_label": "Netral",
+        "priority": "low",
+        "summary": "Sinergitas TNI-Polri dan Masyarakat, Polsek Besuki Ikuti Penanaman Mangrove di Pantai Bayem Tribratanews - Polres Tulungagung",
+        "processing_status": "processed",
+        "classifier_version": "news-v6",
+        "classified_at": "2026-09-09T22:34:44.730935+00:00",
+        "case_id": null,
+        "discovery_families": [],
+        "discovery_tags": [],
+        "discovery_hits": [],
+        "discovery_version": "discovery-v6.5.4",
+        "google_news_url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxOaFlCYzU3WW4wWXh4cWE1ckdPWFZvYWluLUk3SVJVdjFRanc5ekxYckN5SXRRRmc1R1kybk5udFZvOEYtS0d2cENKcHJTQUE1NEI2dVhVaHItSUFRMHk0TTk2WEtZTFVwdWZWUzNTS3FuMGN3X2VTUzJpeGxBRHFsVEprSGg1eEtJXzBLSExtOEJ5TGNaSzZKZjIwcnBwcm5sYld5QU1ISGc5ckNQWXJFbzhUTzl6c05LOUl0Uk1qR3F1N2JyM1FFdXlRS24yQzRuTU5QZm1CUkhSRlhyYnRMVW9ySWtnQVhGbGNoaw?oc=5",
+        "original_url": "https://tribratanews.restulungagung.jatim.polri.go.id/10/09/2026/sinergitas-tni-polri-dan-masyarakat-polsek-besuki-ikuti-penanaman-mangrove-di-pantai-bayem/",
+        "locality": "",
+        "polsek": "POLSEK BESUKI IKUTI PENANAMAN",
+        "location_confidence": 0,
+        "location_evidence": [
+          "POLSEK BESUKI IKUTI PENANAMAN"
+        ],
+        "location_status": "BELUM_TERPETAKAN",
+        "location_source": "title",
+        "issue_type": "UMUM",
+        "issue_subtype": "Belum Teridentifikasi",
+        "issue_evidence": [],
+        "handling_status": "BELUM_ADA_INFORMASI",
+        "handling_evidence": [],
+        "attention_score": 15,
+        "attention_label": "Rendah",
+        "attention_components": {
+          "severity": 2,
+          "polri_relation": 0,
+          "authority": 0,
+          "public_impact": 12,
+          "handling": 0,
+          "evidence": 1,
+          "context_risk": 0,
+          "routine_enforcement_cap": null
+        },
+        "attention_evidence": {
+          "severity": [],
+          "authority": [],
+          "public_impact": [
+            "dampak kepada masyarakat"
+          ],
+          "evidence": [
+            "satu sumber / informasi awal"
+          ],
+          "role": [],
+          "issue": [],
+          "handling": [],
+          "context": [],
+          "positive": []
+        },
+        "case_engine_version": "case-v6.5.4",
+        "case_processed_at": "2026-09-09T22:41:56.597317+00:00"
+      },
+      {
+        "id": "f5c37b6dc7705ce8294b75c476d4e0840b720973",
+        "title": "Autopsi Siti Maemunah Digelar, Polisi Tunggu Hasil Pemeriksaan Laboratorium - Pikiran Rakyat Koran",
+        "url": "https://koran.pikiran-rakyat.com/news/pr-30310441250/autopsi-siti-maemunah-digelar-polisi-tunggu-hasil-pemeriksaan-laboratorium",
+        "source": "Pikiran Rakyat Koran",
+        "published_at": "2026-09-09T22:00:00+00:00",
+        "collected_at": "2026-09-09T22:34:44.730935+00:00",
+        "region": "BELUM TERPETAKAN",
+        "area_label": "BELUM TERPETAKAN",
+        "is_jatim": null,
+        "polres": null,
+        "category": "NETRAL / LAINNYA",
+        "scope": "neutral",
+        "scope_label": "Netral",
+        "priority": "low",
+        "summary": "Autopsi Siti Maemunah Digelar, Polisi Tunggu Hasil Pemeriksaan Laboratorium Pikiran Rakyat Koran",
+        "processing_status": "processed",
+        "classifier_version": "news-v6",
+        "classified_at": "2026-09-09T22:34:44.730935+00:00",
+        "case_id": null,
+        "discovery_families": [],
+        "discovery_tags": [],
+        "discovery_hits": [],
+        "discovery_version": "discovery-v6.5.4",
+        "google_news_url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQM2lfQXpzRG1NYTMyNWdqczZ4QUdHbV84WW0tbVQ5UHZPc1U3UkZiUWxuN0pnX1JqSWphZWI1dWZKVy1WMHdjSVJ0ZEMzcjVmUWtKQUhtSkV4UTY5Tk5NOThhWWpSQ1hhS1pQemJnV09yTXJZbVhqTzNWd1h1U2FSa2NpYjVWcEtTT2Q4VmtpaDBkaVJrTkJEbXFrWW03b2FMQ0lBLUVQLXV1RmdjSXpiOXJFNUtTMjZTQ1gtbXU3cGFMdFo1RFE?oc=5",
+        "original_url": "https://koran.pikiran-rakyat.com/news/pr-30310441250/autopsi-siti-maemunah-digelar-polisi-tunggu-hasil-pemeriksaan-laboratorium",
+        "locality": "",
+        "polsek": null,
+        "location_confidence": 0,
+        "location_evidence": [],
+        "location_status": "BELUM_TERPETAKAN",
+        "location_source": "title",
+        "issue_type": "UMUM",
+        "issue_subtype": "Belum Teridentifikasi",
+        "issue_evidence": [],
+        "handling_status": "BELUM_ADA_INFORMASI",
+        "handling_evidence": [],
+        "attention_score": 9,
+        "attention_label": "Rendah",
+        "attention_components": {
+          "severity": 2,
+          "polri_relation": 0,
+          "authority": 0,
+          "public_impact": 4,
+          "handling": 0,
+          "evidence": 3,
+          "context_risk": 0,
+          "routine_enforcement_cap": null
+        },
+        "attention_evidence": {
+          "severity": [],
+          "authority": [],
+          "public_impact": [],
+          "evidence": [
+            "satu sumber / informasi awal",
+            "ada tindak lanjut resmi"
+          ],
+          "role": [],
+          "issue": [],
+          "handling": [],
+          "context": [],
+          "positive": []
+        },
+        "case_engine_version": "case-v6.5.4",
+        "case_processed_at": "2026-09-09T22:41:57.010124+00:00"
+      },
+      {
+        "id": "4a829f77dcddf191d16c486c3d713658e74f4d43",
+        "title": "Semarak HUT TNI ke-81, Polsek Sendang Ikuti Penanaman Pohon Bersama Masyarakat - Tribratanews - Polres Tulungagung",
+        "url": "https://tribratanews.restulungagung.jatim.polri.go.id/10/09/2026/semarak-hut-tni-ke-81-polsek-sendang-ikuti-penanaman-pohon-bersama-masyarakat/",
+        "source": "Tribratanews - Polres Tulungagung",
+        "published_at": "2026-09-09T21:49:57+00:00",
+        "collected_at": "2026-09-09T22:34:44.730935+00:00",
+        "region": "BELUM TERPETAKAN",
+        "area_label": "BELUM TERPETAKAN",
+        "is_jatim": null,
+        "polres": null,
+        "category": "NETRAL / LAINNYA",
+        "scope": "neutral",
+        "scope_label": "Netral",
+        "priority": "low",
+        "summary": "Semarak HUT TNI ke-81, Polsek Sendang Ikuti Penanaman Pohon Bersama Masyarakat Tribratanews - Polres Tulungagung",
+        "processing_status": "processed",
+        "classifier_version": "news-v6",
+        "classified_at": "2026-09-09T22:34:44.730935+00:00",
+        "case_id": null,
+        "discovery_families": [],
+        "discovery_tags": [],
+        "discovery_hits": [],
+        "discovery_version": "discovery-v6.5.4",
+        "google_news_url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxPZzRYVDQxcHhVbkxuazlIeUIxbEpYWWwyaE5hMHBqMmhIZnJkdFRMdHlHcUFSYzd6SkUxNGRNWkpMZ1hIVGhfbGxBMEtzT2VQOWJKT1NQSHZ5UHdWb2JiNFJ5QzhoVDU4d0NrYVRuS01sdVNsTGRKSmJ6RFZiR1RXRFRsWHRILURnLXZZNGFXdm1ndVFnYmtCTUU3akhkNDRWNmtyRWNXLV9KU0Qzc0xVRzBGMmlZX1pROVZhTkJ4dWQtQmRqbHJfZmxTYUM5UUFKS3BvbmM2VTR5Zlk?oc=5",
+        "original_url": "https://tribratanews.restulungagung.jatim.polri.go.id/10/09/2026/semarak-hut-tni-ke-81-polsek-sendang-ikuti-penanaman-pohon-bersama-masyarakat/",
+        "locality": "",
+        "polsek": "POLSEK SENDANG IKUTI PENANAMAN",
+        "location_confidence": 0,
+        "location_evidence": [
+          "POLSEK SENDANG IKUTI PENANAMAN"
+        ],
+        "location_status": "BELUM_TERPETAKAN",
+        "location_source": "title",
+        "issue_type": "UMUM",
+        "issue_subtype": "Belum Teridentifikasi",
+        "issue_evidence": [],
+        "handling_status": "BELUM_ADA_INFORMASI",
+        "handling_evidence": [],
+        "attention_score": 15,
+        "attention_label": "Rendah",
+        "attention_components": {
+          "severity": 2,
+          "polri_relation": 0,
+          "authority": 0,
+          "public_impact": 12,
+          "handling": 0,
+          "evidence": 1,
+          "context_risk": 0,
+          "routine_enforcement_cap": null
+        },
+        "attention_evidence": {
+          "severity": [],
+          "authority": [],
+          "public_impact": [
+            "dampak kepada masyarakat"
+          ],
+          "evidence": [
+            "satu sumber / informasi awal"
+          ],
+          "role": [],
+          "issue": [],
+          "handling": [],
+          "context": [],
+          "positive": []
+        },
+        "case_engine_version": "case-v6.5.4",
+        "case_processed_at": "2026-09-09T22:41:57.474256+00:00"
+      },
       {
         "id": "e0f5d8c544a6962938d62baf55ebec2b020daaa0",
         "title": "GSN di Kandibata, Polisi Tak Temukan Barang Bukti Narkotika - Mawartanews.com",
@@ -840,7 +1541,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-09-09T19:54:37.046553+00:00"
+        "case_processed_at": "2026-09-09T22:41:58.811012+00:00"
       },
       {
         "id": "e1c513ffb5175bfd2a9e3bf15d4e50de98baa6fe",
@@ -913,7 +1614,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-09-09T20:13:19.863123+00:00"
+        "case_processed_at": "2026-09-09T23:00:32.241728+00:00"
       },
       {
         "id": "71624acc7524d973d0960d3c666955e0de43b493",
@@ -980,7 +1681,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-09-09T19:54:37.468098+00:00"
+        "case_processed_at": "2026-09-09T22:41:59.232212+00:00"
       },
       {
         "id": "157768daf8513716641c046694f1269f8159d51d",
@@ -1049,7 +1750,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-09-09T20:13:19.863128+00:00"
+        "case_processed_at": "2026-09-09T23:00:32.241732+00:00"
       },
       {
         "id": "cee9f8a57b98601edf3eb6e342e33c6b02f069c6",
@@ -1118,20 +1819,22 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-09-09T20:13:19.863130+00:00"
+        "case_processed_at": "2026-09-09T23:00:32.241735+00:00"
       }
     ]
   },
   "cases": {
-    "active": 3,
+    "active": 5,
     "priority_high": 0,
     "jatim": 0,
     "jatim_priority_high": 0,
-    "articles": 3,
+    "articles": 5,
     "case_ids": [
       "CASE-001132",
       "CASE-001133",
-      "CASE-001134"
+      "CASE-001134",
+      "CASE-001135",
+      "CASE-001136"
     ],
     "items": [
       {
@@ -1204,7 +1907,7 @@
         ],
         "article_count": 1,
         "created_at": "2026-09-09T20:10:14.209363+00:00",
-        "updated_at": "2026-09-09T20:13:19.856422+00:00",
+        "updated_at": "2026-09-09T23:00:32.228270+00:00",
         "engine_version": "case-v6.5.4",
         "priority_score": 23,
         "priority_breakdown": {
@@ -1310,7 +2013,7 @@
         ],
         "article_count": 1,
         "created_at": "2026-09-09T20:10:14.586216+00:00",
-        "updated_at": "2026-09-09T20:13:19.859340+00:00",
+        "updated_at": "2026-09-09T23:00:32.231266+00:00",
         "engine_version": "case-v6.5.4",
         "priority_score": 17,
         "priority_breakdown": {
@@ -1417,7 +2120,7 @@
         ],
         "article_count": 1,
         "created_at": "2026-09-09T20:10:14.967292+00:00",
-        "updated_at": "2026-09-09T20:13:19.862440+00:00",
+        "updated_at": "2026-09-09T23:00:32.234438+00:00",
         "engine_version": "case-v6.5.4",
         "priority_score": 8,
         "priority_breakdown": {
@@ -1446,15 +2149,233 @@
             "Hubungan Polri belum spesifik"
           ]
         }
+      },
+      {
+        "case_id": "CASE-001135",
+        "title": "Polisi Beberkan Kronologis Penembakan yang Tewaskan Tiga ASN Dinas Pertanian Jayawijaya - fajarpapua.com",
+        "category": "NEGATIF - KEKERASAN / PENGGUNAAN KEKUATAN",
+        "scope": "negative",
+        "region": "BELUM TERPETAKAN",
+        "locality": "",
+        "is_jatim": null,
+        "polres": null,
+        "polsek": null,
+        "priority": "low",
+        "attention_score": 34,
+        "attention_label": "Rendah",
+        "signature": "BELUM TERPETAKAN",
+        "incident_terms": [
+          "asn",
+          "beberkan",
+          "com",
+          "dinas",
+          "fajarpapua",
+          "jayawijaya",
+          "kronologis",
+          "penembakan",
+          "pertanian",
+          "tewaskan"
+        ],
+        "event_terms": [
+          "penembakan"
+        ],
+        "location_terms": [],
+        "discovery_families": [],
+        "first_seen": "2026-09-09T22:19:04+00:00",
+        "last_seen": "2026-09-09T22:34:44.730935+00:00",
+        "last_detected_at": "2026-09-09T22:34:44.730935+00:00",
+        "article_ids": [
+          "3337b0e72a346c69c8dac0e939a2570ffc5cd119"
+        ],
+        "articles": [
+          {
+            "id": "3337b0e72a346c69c8dac0e939a2570ffc5cd119",
+            "title": "Polisi Beberkan Kronologis Penembakan yang Tewaskan Tiga ASN Dinas Pertanian Jayawijaya - fajarpapua.com",
+            "url": "https://fajarpapua.com/2026/09/10/polisi-beberkan-kronologis-penembakan-yang-tewaskan-tiga-asn-dinas-pertanian-jayawijaya",
+            "published_at": "2026-09-09T22:19:04+00:00",
+            "collected_at": "2026-09-09T22:34:44.730935+00:00",
+            "source": "fajarpapua.com",
+            "match_score": 1.0,
+            "priority": "low",
+            "scope": "negative",
+            "category": "NEGATIF - KEKERASAN / PENGGUNAAN KEKUATAN",
+            "region": "BELUM TERPETAKAN",
+            "locality": "",
+            "is_jatim": false,
+            "polres": null,
+            "polsek": null,
+            "issue_type": "KEKERASAN_DAN_KEKUATAN",
+            "issue_subtype": "Kekerasan / Penggunaan Kekuatan",
+            "handling_status": "BELUM_ADA_INFORMASI",
+            "handling_evidence": [],
+            "polri_relation": null,
+            "polri_relation_points": 0,
+            "polri_relation_evidence": [],
+            "attention_score": 39,
+            "attention_label": "Rendah",
+            "attention_components": {
+              "severity": 28,
+              "polri_relation": 0,
+              "authority": 0,
+              "public_impact": 4,
+              "handling": 0,
+              "evidence": 1,
+              "context_risk": 0,
+              "routine_enforcement_cap": null
+            }
+          }
+        ],
+        "article_count": 1,
+        "created_at": "2026-09-09T22:57:29.135457+00:00",
+        "updated_at": "2026-09-09T23:00:32.237690+00:00",
+        "engine_version": "case-v6.5.4",
+        "priority_score": 34,
+        "priority_breakdown": {
+          "severity": 28,
+          "polri_relation": 0,
+          "authority_context": 0,
+          "public_impact": 4,
+          "handling": 0,
+          "evidence": 1,
+          "spread": 0,
+          "escalation": 0,
+          "current_activity": 1,
+          "context_risk": 0
+        },
+        "priority_evidence": {
+          "unique_sources": 1,
+          "active_today_articles": 1,
+          "escalation": [],
+          "issue_type": "KEKERASAN_DAN_KEKUATAN",
+          "issue_subtype": "Kekerasan / Penggunaan Kekuatan",
+          "sentiment": "negative",
+          "polri_relation": "INFORMASI_UMUM",
+          "handling_status": "BELUM_ADA_INFORMASI",
+          "reasons": [
+            "sifat berita: negatif",
+            "sifat berita: negatif",
+            "Kekerasan / Penggunaan Kekuatan",
+            "Hubungan Polri belum spesifik"
+          ]
+        }
+      },
+      {
+        "case_id": "CASE-001136",
+        "title": "Teror Bom Molotov Hantam Kantor Komnas HAM Papua, Polisi Didesak Tangkap Pelaku - Tribunpapuatengah.com",
+        "category": "NEGATIF - GANGGUAN KEAMANAN / KAMTIBMAS",
+        "scope": "negative",
+        "region": "LUAR JATIM",
+        "locality": "",
+        "is_jatim": false,
+        "polres": null,
+        "polsek": null,
+        "priority": "low",
+        "attention_score": 33,
+        "attention_label": "Rendah",
+        "signature": "LUAR JATIM",
+        "incident_terms": [
+          "bom",
+          "com",
+          "didesak",
+          "ham",
+          "hantam",
+          "kantor",
+          "komnas",
+          "molotov",
+          "papua",
+          "teror",
+          "tribunpapuatengah"
+        ],
+        "event_terms": [
+          "molotov"
+        ],
+        "location_terms": [],
+        "discovery_families": [],
+        "first_seen": "2026-09-09T22:13:24+00:00",
+        "last_seen": "2026-09-09T22:34:44.730935+00:00",
+        "last_detected_at": "2026-09-09T22:34:44.730935+00:00",
+        "article_ids": [
+          "0a6c39c9689c503ef1298527f62ffdc36f7a48d1"
+        ],
+        "articles": [
+          {
+            "id": "0a6c39c9689c503ef1298527f62ffdc36f7a48d1",
+            "title": "Teror Bom Molotov Hantam Kantor Komnas HAM Papua, Polisi Didesak Tangkap Pelaku - Tribunpapuatengah.com",
+            "url": "https://papuatengah.tribunnews.com/jayapura/7228/teror-bom-molotov-hantam-kantor-komnas-ham-papua-polisi-didesak-tangkap-pelaku",
+            "published_at": "2026-09-09T22:13:24+00:00",
+            "collected_at": "2026-09-09T22:34:44.730935+00:00",
+            "source": "Tribunpapuatengah.com",
+            "match_score": 1.0,
+            "priority": "medium",
+            "scope": "negative",
+            "category": "NEGATIF - GANGGUAN KEAMANAN / KAMTIBMAS",
+            "region": "LUAR JATIM",
+            "locality": "",
+            "is_jatim": false,
+            "polres": null,
+            "polsek": null,
+            "issue_type": "KEAMANAN_DAN_KAMTIBMAS",
+            "issue_subtype": "Gangguan Keamanan / Kamtibmas",
+            "handling_status": "BELUM_ADA_INFORMASI",
+            "handling_evidence": [],
+            "polri_relation": null,
+            "polri_relation_points": 0,
+            "polri_relation_evidence": [],
+            "attention_score": 40,
+            "attention_label": "Sedang",
+            "attention_components": {
+              "severity": 21,
+              "polri_relation": 0,
+              "authority": 0,
+              "public_impact": 10,
+              "handling": 0,
+              "evidence": 1,
+              "context_risk": 0,
+              "routine_enforcement_cap": null
+            }
+          }
+        ],
+        "article_count": 1,
+        "created_at": "2026-09-09T22:57:29.538884+00:00",
+        "updated_at": "2026-09-09T23:00:32.240987+00:00",
+        "engine_version": "case-v6.5.4",
+        "priority_score": 33,
+        "priority_breakdown": {
+          "severity": 21,
+          "polri_relation": 0,
+          "authority_context": 0,
+          "public_impact": 10,
+          "handling": 0,
+          "evidence": 1,
+          "spread": 0,
+          "escalation": 0,
+          "current_activity": 1,
+          "context_risk": 0
+        },
+        "priority_evidence": {
+          "unique_sources": 1,
+          "active_today_articles": 1,
+          "escalation": [],
+          "issue_type": "KEAMANAN_DAN_KAMTIBMAS",
+          "issue_subtype": "Gangguan Keamanan / Kamtibmas",
+          "sentiment": "negative",
+          "polri_relation": "INFORMASI_UMUM",
+          "handling_status": "BELUM_ADA_INFORMASI",
+          "reasons": [
+            "sifat berita: negatif",
+            "Gangguan Keamanan / Kamtibmas",
+            "Hubungan Polri belum spesifik"
+          ]
+        }
       }
     ],
     "jatim_items": []
   },
   "social": {
-    "detected": 91,
+    "detected": 99,
     "jatim": 3,
-    "negative": 48,
-    "priority_high": 25,
+    "negative": 52,
+    "priority_high": 26,
     "video_ids": [
       "CMfmAFNy3vA",
       "sFId3AjMIdo",
@@ -1473,6 +2394,7 @@
       "_vcYuc6v6iM",
       "nx2bgPsG0a0",
       "J5YsSiA2xy8",
+      "NGl4QUac_xI",
       "9wMy_M_I4pk",
       "52BTSVGdxKI",
       "6E9xEX49yik",
@@ -1494,7 +2416,9 @@
       "rgxuHMW7BB0",
       "Vd4hyq70xvA",
       "sXfN-peRN4U",
+      "PdGMTIKxalc",
       "w_V0KbpWWOU",
+      "P192DmiF3o4",
       "7MRKD9YwC3U",
       "q0UbV8Hjp1I",
       "C61fxIz1NwQ",
@@ -1507,6 +2431,7 @@
       "iWGZ881MQKU",
       "6awHGQie4v8",
       "FxmnekAMLYQ",
+      "jDtrMMb-vSo",
       "s-kaGK7Wufc",
       "SgYRnxLSuRc",
       "42yJFd6eLiU",
@@ -1516,6 +2441,7 @@
       "oz3BOdUHeK8",
       "YDB_tDD6WlE",
       "YrVLsMC8MJc",
+      "qfb6RCyq-ic",
       "66Ba-MaMLDc",
       "JbUk48xRdzo",
       "TEoyOi_TJNw",
@@ -1526,14 +2452,17 @@
       "lldl1yexdZQ",
       "DLoYqQdLikk",
       "E9yoyczfIqs",
+      "jcDvQNg-xm8",
       "f4GbSAmmxb8",
       "TLfQo_DskCM",
+      "2l-QGE3Igjk",
       "xKnpYe6ScpE",
       "V9uAvEZbBWY",
       "-5PemY2Crmo",
       "RQNsPn47nkI",
       "hFITGOaH3rQ",
       "x1Q30DUmV9Q",
+      "NOHCETs2ZX0",
       "h3OfQ2V4lT8",
       "5X1Rivzxh5E",
       "pglLcV-sZS4",
@@ -1558,7 +2487,7 @@
     "case_today": 0,
     "case_high_active": 0,
     "article_high_today": 0,
-    "outside_jatim_today": 5
+    "outside_jatim_today": 10
   },
   "regions": [
     {
@@ -1582,9 +2511,9 @@
     }
   ],
   "summary": {
-    "news_today": 8,
-    "negative_today": 3,
-    "cases_today": 3,
+    "news_today": 13,
+    "negative_today": 5,
+    "cases_today": 5,
     "priority_high": 0,
     "article_priority_high": 0,
     "jatim_news": 3,
@@ -1594,7 +2523,7 @@
     "jatim_neutral": 3,
     "jatim_cases_today": 0,
     "jatim_case_high_active": 0,
-    "luar_jatim_news": 5,
-    "youtube_today": 91
+    "luar_jatim_news": 10,
+    "youtube_today": 99
   }
 }
