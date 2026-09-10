@@ -2,18 +2,23 @@
   "schema_version": "today-v3",
   "date": "2026-09-11",
   "timezone": "Asia/Jakarta",
-  "updated_at": "2026-09-11T03:14:00.663829+07:00",
-  "last_successful_update": "2026-09-11T03:14:00.663829+07:00",
+  "updated_at": "2026-09-11T06:06:12.977799+07:00",
+  "last_successful_update": "2026-09-11T06:06:12.977799+07:00",
   "news": {
-    "detected": 6,
-    "negative": 2,
+    "detected": 11,
+    "negative": 7,
     "positive": 1,
     "case": 0,
     "neutral": 3,
     "jatim": 0,
-    "luar_jatim": 6,
+    "luar_jatim": 11,
     "priority_high": 0,
     "article_ids": [
+      "c4d7caae4fe3322b6c414caf0fbfbfa1956586ab",
+      "593e9d389695a1ec55df1109021973ef67e405cf",
+      "c939e1e6f834428112e4c91897828168b0a0bcc0",
+      "dc2336111b502ca13862c9592d124951e96457c5",
+      "98ab1e7b2522f2af694c9dc831437a0afe03220d",
       "13ec2b83470cdc5fab288c9b6930a639093410c5",
       "c108fdb9f5a258cef0c3b9579a08293120c820a8",
       "2c3f5dfa0ff4550e02f33a7a71da8b7846d165c8",
@@ -23,6 +28,378 @@
     ],
     "items": [
       {
+        "id": "c4d7caae4fe3322b6c414caf0fbfbfa1956586ab",
+        "title": "Nama Oknum Polisi Hilang dalam Dakwaan Kasus Narkoba Jaringan Internasional Erol-Nyai - Target Berita",
+        "url": "https://targetberita.co.id/nama-oknum-polisi-hilang-dalam-dakwaan-kasus-narkoba-jaringan-internasional-erol-nyai/",
+        "source": "Target Berita",
+        "published_at": "2026-09-10T22:16:14+00:00",
+        "collected_at": "2026-09-10T22:36:56.665474+00:00",
+        "region": "BELUM TERPETAKAN",
+        "area_label": "BELUM TERPETAKAN",
+        "is_jatim": null,
+        "polres": null,
+        "category": "NEGATIF - NARKOBA / NARKOTIKA",
+        "scope": "negative",
+        "scope_label": "Negatif",
+        "priority": "low",
+        "summary": "Nama Oknum Polisi Hilang dalam Dakwaan Kasus Narkoba Jaringan Internasional Erol-Nyai Target Berita",
+        "processing_status": "processed",
+        "classifier_version": "news-v6",
+        "classified_at": "2026-09-10T22:36:56.665474+00:00",
+        "case_id": "CASE-001226",
+        "discovery_families": [
+          "general_police_misconduct"
+        ],
+        "discovery_tags": [
+          "ethics",
+          "oknum"
+        ],
+        "discovery_hits": [
+          "oknum polisi"
+        ],
+        "discovery_version": "discovery-v6.5.4",
+        "google_news_url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPV1BmZVdWZXM4a3ZYdU5nbjdfNG9COU1US0R5eVVaejh1T2xKbTJRLXJqcU5Ud3NKM3A3YmIydnY5ZFRSWmthTGtSTFhpUGlLb2NyMVd3NkhjTWNmeTlldFoyaE9nRXpJUFdJUHpLOXJXVmppYTZhcWVHX2htYVFzN3d5aEdmY1RzQlM4bE5nTnZwLU9EcEY3bmM5UDRNSnhKZk5KYmJNQlQ3b2dkUUFwQ2hCYw?oc=5",
+        "original_url": "https://targetberita.co.id/nama-oknum-polisi-hilang-dalam-dakwaan-kasus-narkoba-jaringan-internasional-erol-nyai/",
+        "locality": "",
+        "polsek": null,
+        "location_confidence": 0,
+        "location_evidence": [],
+        "location_status": "BELUM_TERPETAKAN",
+        "location_source": "title",
+        "issue_type": "NARKOBA",
+        "issue_subtype": "Narkoba / Narkotika",
+        "issue_evidence": [
+          "narkoba"
+        ],
+        "handling_status": "BELUM_ADA_INFORMASI",
+        "handling_evidence": [],
+        "attention_score": 16,
+        "attention_label": "Rendah",
+        "attention_components": {
+          "severity": 11,
+          "polri_relation": 0,
+          "authority": 0,
+          "public_impact": 4,
+          "handling": 0,
+          "evidence": 1,
+          "context_risk": 0,
+          "routine_enforcement_cap": null
+        },
+        "attention_evidence": {
+          "severity": [],
+          "authority": [
+            "oknum polisi"
+          ],
+          "public_impact": [],
+          "evidence": [
+            "satu sumber / informasi awal"
+          ],
+          "role": [],
+          "issue": [
+            "narkoba"
+          ],
+          "handling": [],
+          "context": [],
+          "positive": []
+        },
+        "case_engine_version": "case-v6.5.4",
+        "case_processed_at": "2026-09-10T23:06:11.257511+00:00"
+      },
+      {
+        "id": "593e9d389695a1ec55df1109021973ef67e405cf",
+        "title": "Perundungan Garut Berujung Penganiayaan, Tujuh Remaja Putri Diperiksa Polisi - Pikiran Rakyat Koran",
+        "url": "https://koran.pikiran-rakyat.com/news/pr-30310443189/perundungan-garut-berujung-penganiayaan-tujuh-remaja-putri-diperiksa-polisi",
+        "source": "Pikiran Rakyat Koran",
+        "published_at": "2026-09-10T22:00:00+00:00",
+        "collected_at": "2026-09-10T22:36:56.665474+00:00",
+        "region": "BELUM TERPETAKAN",
+        "area_label": "BELUM TERPETAKAN",
+        "is_jatim": null,
+        "polres": null,
+        "category": "NEGATIF - KEKERASAN / PENGGUNAAN KEKUATAN",
+        "scope": "negative",
+        "scope_label": "Negatif",
+        "priority": "low",
+        "summary": "Perundungan Garut Berujung Penganiayaan, Tujuh Remaja Putri Diperiksa Polisi Pikiran Rakyat Koran",
+        "processing_status": "processed",
+        "classifier_version": "news-v6",
+        "classified_at": "2026-09-10T22:36:56.665474+00:00",
+        "case_id": "CASE-001227",
+        "discovery_families": [],
+        "discovery_tags": [],
+        "discovery_hits": [],
+        "discovery_version": "discovery-v6.5.4",
+        "google_news_url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPU3NvM3M1ZmpaTEF2cFNfX2UyMGNpRmhfamtBMElHT09kWHJUemJCZUF2MnpGMGpGcXB2ZURoeHFUVi1Qc1lXTjdDYVpNV0cyay16dXk1YW5XQ3ZRX2NDOW5IZy1kMm5QSDJraUo5aENlU09EZDg0NmJFTkQ3ZDFkNXdQb1RycGlLTnhtNU1sRUcxSERuUWpEM0Q4MlBmUF9TQkxpQkw3YmFYMFJmNGJsVmt5eVNMRy1oMkdXbXZpS09hLWFPb1pB?oc=5",
+        "original_url": "https://koran.pikiran-rakyat.com/news/pr-30310443189/perundungan-garut-berujung-penganiayaan-tujuh-remaja-putri-diperiksa-polisi",
+        "locality": "",
+        "polsek": null,
+        "location_confidence": 0,
+        "location_evidence": [],
+        "location_status": "BELUM_TERPETAKAN",
+        "location_source": "title",
+        "issue_type": "KEKERASAN_DAN_KEKUATAN",
+        "issue_subtype": "Kekerasan / Penggunaan Kekuatan",
+        "issue_evidence": [
+          "penganiayaan"
+        ],
+        "handling_status": "BELUM_ADA_INFORMASI",
+        "handling_evidence": [],
+        "attention_score": 39,
+        "attention_label": "Rendah",
+        "attention_components": {
+          "severity": 28,
+          "polri_relation": 0,
+          "authority": 0,
+          "public_impact": 4,
+          "handling": 0,
+          "evidence": 3,
+          "context_risk": 0,
+          "routine_enforcement_cap": null
+        },
+        "attention_evidence": {
+          "severity": [],
+          "authority": [],
+          "public_impact": [],
+          "evidence": [
+            "satu sumber / informasi awal",
+            "ada tindak lanjut resmi"
+          ],
+          "role": [],
+          "issue": [
+            "penganiayaan"
+          ],
+          "handling": [],
+          "context": [],
+          "positive": []
+        },
+        "case_engine_version": "case-v6.5.4",
+        "case_processed_at": "2026-09-10T23:06:11.257517+00:00"
+      },
+      {
+        "id": "c939e1e6f834428112e4c91897828168b0a0bcc0",
+        "title": "Ciri-ciri Pelaku Penembakan 3 ASN Dinas Pertanian Hingga Tewas di Papua Terkuak! Polisi Juga Sita Selongsong Peluru - VIVA.co.id",
+        "url": "https://www.viva.co.id/berita/nasional/1927791-ciri-ciri-pelaku-penembakan-3-asn-dinas-pertanian-hingga-tewas-di-papua-terkuak-polisi-juga-sita-selongsong-peluru",
+        "source": "VIVA.co.id",
+        "published_at": "2026-09-10T22:00:00+00:00",
+        "collected_at": "2026-09-10T22:36:56.665474+00:00",
+        "region": "LUAR JATIM",
+        "area_label": "LUAR JATIM",
+        "is_jatim": false,
+        "polres": null,
+        "category": "NEGATIF - KEKERASAN / PENGGUNAAN KEKUATAN",
+        "scope": "negative",
+        "scope_label": "Negatif",
+        "priority": "low",
+        "summary": "Ciri-ciri Pelaku Penembakan 3 ASN Dinas Pertanian Hingga Tewas di Papua Terkuak! Polisi Juga Sita Selongsong Peluru VIVA.co.id",
+        "processing_status": "processed",
+        "classifier_version": "news-v6",
+        "classified_at": "2026-09-10T22:36:56.665474+00:00",
+        "case_id": "CASE-001228",
+        "discovery_families": [],
+        "discovery_tags": [],
+        "discovery_hits": [],
+        "discovery_version": "discovery-v6.5.4",
+        "google_news_url": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxNbWdiRnN0VHc0N0ZEWklicDJ0MnJNY1piN0o3OHU2RmxiWEQzdUpKRFctQVUzODAzSDB0Sm4xWlNJZ3owRkR1LU1zeDQwVUJGYXlJcEt4UFFpMjY0TnpIRnhMUWkxUWhOZlVpcU05dkRhMmFpYlBDdmoySVVfVDFsVjNGanJQWm5mSHhneEhoVHpSY0hBYTJVUTJlbFdDaTQ3dVZYR0t3aWc5TTNETEZmRjlxLTg1MEh0QXgwLUVZYV9ZRlVUWENtMWh3b1lBaldDYV9uWTFKYk1CeFNzanRyaHFPQ0cwOWpXSklvcS01d1pOY28?oc=5",
+        "original_url": "https://www.viva.co.id/berita/nasional/1927791-ciri-ciri-pelaku-penembakan-3-asn-dinas-pertanian-hingga-tewas-di-papua-terkuak-polisi-juga-sita-selongsong-peluru",
+        "locality": "",
+        "polsek": null,
+        "location_confidence": 100,
+        "location_evidence": [
+          "papua"
+        ],
+        "location_status": "LUAR_JATIM",
+        "location_source": "title",
+        "issue_type": "KEKERASAN_DAN_KEKUATAN",
+        "issue_subtype": "Kekerasan / Penggunaan Kekuatan",
+        "issue_evidence": [
+          "penembakan",
+          "tewas"
+        ],
+        "handling_status": "BELUM_ADA_INFORMASI",
+        "handling_evidence": [],
+        "attention_score": 22,
+        "attention_label": "Rendah",
+        "attention_components": {
+          "severity": 15,
+          "polri_relation": 2,
+          "authority": 0,
+          "public_impact": 4,
+          "handling": 0,
+          "evidence": 1,
+          "context_risk": 0,
+          "routine_enforcement_cap": null
+        },
+        "attention_evidence": {
+          "severity": [
+            "pembunuhan / korban meninggal",
+            "kekerasan berat"
+          ],
+          "authority": [],
+          "public_impact": [],
+          "evidence": [
+            "satu sumber / informasi awal"
+          ],
+          "role": [
+            "Polri sebagai pihak penindak"
+          ],
+          "issue": [
+            "penembakan",
+            "tewas"
+          ],
+          "handling": [],
+          "context": [],
+          "positive": []
+        },
+        "case_engine_version": "case-v6.5.4",
+        "case_processed_at": "2026-09-10T23:06:11.257520+00:00"
+      },
+      {
+        "id": "dc2336111b502ca13862c9592d124951e96457c5",
+        "title": "Polisi Sebut Ada 4 Korban Dugaan Asusila Mantan Pengasuh Pesantren di Siak - RiauAktual.com",
+        "url": "https://riauaktual.com/news/detail/121977/polisi-sebut-ada-4-korban-dugaan-asusila-mantan-pengasuh-pesantren-di-siak",
+        "source": "RiauAktual.com",
+        "published_at": "2026-09-10T21:58:10+00:00",
+        "collected_at": "2026-09-10T22:36:56.665474+00:00",
+        "region": "BELUM TERPETAKAN",
+        "area_label": "BELUM TERPETAKAN",
+        "is_jatim": null,
+        "polres": null,
+        "category": "NEGATIF - ETIK / PERILAKU PERSONEL",
+        "scope": "negative",
+        "scope_label": "Negatif",
+        "priority": "low",
+        "summary": "Polisi Sebut Ada 4 Korban Dugaan Asusila Mantan Pengasuh Pesantren di Siak RiauAktual.com",
+        "processing_status": "processed",
+        "classifier_version": "news-v6",
+        "classified_at": "2026-09-10T22:36:56.665474+00:00",
+        "case_id": "CASE-001229",
+        "discovery_families": [
+          "ethics_personal_misconduct"
+        ],
+        "discovery_tags": [
+          "ethics",
+          "sexual_misconduct",
+          "violence"
+        ],
+        "discovery_hits": [
+          "asusila"
+        ],
+        "discovery_version": "discovery-v6.5.4",
+        "google_news_url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQZjFiVFQ0ZF9jaXNMcGNhSmh2ZHVLVGQwdEVBb1I2UTlaeVFmcGU2dkVtd2thbDluVExJM0pGSWFtQU1scXozWHV1SnVkLS1CaDlyUDd1MFhXZkNBaDdGWUptNUdNSlhnRzdONGxEVVZzZC1mYUNmVDdDSmdJcVdWdXFnZ3Jsa1RGN0ZhOTh0Z3hCT2thZ0QyMkZEOEIzbTNxNTNaMXBKOWFQbk1nNmRjeXRpSUY3VTDSAbYBQVVfeXFMT2g2OGdMdWpuSG93dWgyRHhFekNwZkFacHF4X1l6T2oyWDBoU0gycGxQaHpDWEx5d2JfaEVoS0I2d0dXS3BpQWh3ZzhHT2l6cUY1TmFYZVJIcTdCS2d3Z0l6V2I3WHdEZzdUVXQwZFZMQ1FjT1VIYVFKbW9TOVhMUXAtaFp5WHFNcFRsS3hDWkVDbVJ2dDljdHdNVzk1Snd3eEF4M2YyeWFUWWt1cUVjODVYYll6SFE?oc=5",
+        "original_url": "https://riauaktual.com/news/detail/121977/polisi-sebut-ada-4-korban-dugaan-asusila-mantan-pengasuh-pesantren-di-siak",
+        "locality": "",
+        "polsek": null,
+        "location_confidence": 0,
+        "location_evidence": [],
+        "location_status": "BELUM_TERPETAKAN",
+        "location_source": "title",
+        "issue_type": "ETIK_DAN_PERILAKU",
+        "issue_subtype": "Etik / Perilaku Personel",
+        "issue_evidence": [
+          "asusila"
+        ],
+        "handling_status": "BELUM_ADA_INFORMASI",
+        "handling_evidence": [],
+        "attention_score": 17,
+        "attention_label": "Rendah",
+        "attention_components": {
+          "severity": 12,
+          "polri_relation": 0,
+          "authority": 0,
+          "public_impact": 4,
+          "handling": 0,
+          "evidence": 1,
+          "context_risk": 0,
+          "routine_enforcement_cap": null
+        },
+        "attention_evidence": {
+          "severity": [],
+          "authority": [],
+          "public_impact": [],
+          "evidence": [
+            "satu sumber / informasi awal"
+          ],
+          "role": [],
+          "issue": [
+            "asusila"
+          ],
+          "handling": [],
+          "context": [],
+          "positive": []
+        },
+        "case_engine_version": "case-v6.5.4",
+        "case_processed_at": "2026-09-10T23:06:11.257522+00:00"
+      },
+      {
+        "id": "98ab1e7b2522f2af694c9dc831437a0afe03220d",
+        "title": "Dari Mobil Dinas Balikpapan, Polda Kaltim Bongkar Jaringan Narkoba Kelas Kakap Malaysia - EKSPOSKALTIM",
+        "url": "https://eksposkaltim.com/berita-18470-dari-mobil-dinas-balikpapan-polda-kaltim-bongkar-jaringan-narkoba-kelas-kakap-malaysia.html",
+        "source": "EKSPOSKALTIM",
+        "published_at": "2026-09-10T21:23:48+00:00",
+        "collected_at": "2026-09-10T22:36:56.665474+00:00",
+        "region": "BELUM TERPETAKAN",
+        "area_label": "BELUM TERPETAKAN",
+        "is_jatim": null,
+        "polres": null,
+        "category": "NEGATIF - NARKOBA / NARKOTIKA",
+        "scope": "negative",
+        "scope_label": "Negatif",
+        "priority": "low",
+        "summary": "Dari Mobil Dinas Balikpapan, Polda Kaltim Bongkar Jaringan Narkoba Kelas Kakap Malaysia EKSPOSKALTIM",
+        "processing_status": "processed",
+        "classifier_version": "news-v6",
+        "classified_at": "2026-09-10T22:36:56.665474+00:00",
+        "case_id": "CASE-001230",
+        "discovery_families": [],
+        "discovery_tags": [],
+        "discovery_hits": [],
+        "discovery_version": "discovery-v6.5.4",
+        "google_news_url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPZzZXcm5oSktuU2xjdmppS1dGSDZQb2ZVcXd2U08tRndMNzRqVl96anN4MW5Pa2NtTmhERC1qUmdEdnFMNmdCcU1TQkNuaU1ZSmZxR0pIVVpCcUM1WEFLVjdlSDRMR1BYck1uakI5SWQyY3JUbmd1NmxEVWJHQ3RmZlZrWUJ0akRRN05XMkd0VjdfYTExSlRua1ZHMldaQnBDN2QzMXlTdkduNFRMTzhSb3psUjRoUnhyR1FKVHFwSy1JeFBwcUk1Zg?oc=5",
+        "original_url": "https://eksposkaltim.com/berita-18470-dari-mobil-dinas-balikpapan-polda-kaltim-bongkar-jaringan-narkoba-kelas-kakap-malaysia.html",
+        "locality": "",
+        "polsek": null,
+        "location_confidence": 0,
+        "location_evidence": [],
+        "location_status": "BELUM_TERPETAKAN",
+        "location_source": "title",
+        "issue_type": "NARKOBA",
+        "issue_subtype": "Narkoba / Narkotika",
+        "issue_evidence": [
+          "narkoba"
+        ],
+        "handling_status": "BELUM_ADA_INFORMASI",
+        "handling_evidence": [],
+        "attention_score": 16,
+        "attention_label": "Rendah",
+        "attention_components": {
+          "severity": 11,
+          "polri_relation": 0,
+          "authority": 0,
+          "public_impact": 4,
+          "handling": 0,
+          "evidence": 1,
+          "context_risk": 0,
+          "routine_enforcement_cap": null
+        },
+        "attention_evidence": {
+          "severity": [],
+          "authority": [],
+          "public_impact": [],
+          "evidence": [
+            "satu sumber / informasi awal"
+          ],
+          "role": [],
+          "issue": [
+            "narkoba"
+          ],
+          "handling": [],
+          "context": [],
+          "positive": []
+        },
+        "case_engine_version": "case-v6.5.4",
+        "case_processed_at": "2026-09-10T23:06:11.257524+00:00"
+      },
+      {
         "id": "13ec2b83470cdc5fab288c9b6930a639093410c5",
         "title": "KPK geledah rumah anggota Polri dalam pengembangan kasus Ade Kunang - ANTARA News Sumbar",
         "url": "https://sumbar.antaranews.com/berita/778147/kpk-geledah-rumah-anggota-polri-dalam-pengembangan-kasus-ade-kunang",
@@ -87,7 +464,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-09-10T19:51:59.920606+00:00"
+        "case_processed_at": "2026-09-10T22:44:15.987351+00:00"
       },
       {
         "id": "c108fdb9f5a258cef0c3b9579a08293120c820a8",
@@ -152,7 +529,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-09-10T19:52:00.336732+00:00"
+        "case_processed_at": "2026-09-10T22:44:16.400936+00:00"
       },
       {
         "id": "2c3f5dfa0ff4550e02f33a7a71da8b7846d165c8",
@@ -217,7 +594,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-09-10T19:52:00.847335+00:00"
+        "case_processed_at": "2026-09-10T22:44:16.904469+00:00"
       },
       {
         "id": "fa5316109109804286903a92ea47e47bc31d84eb",
@@ -288,7 +665,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-09-10T20:13:59.020724+00:00"
+        "case_processed_at": "2026-09-10T23:06:11.257528+00:00"
       },
       {
         "id": "3c5fcf36bf10d420bccdd5ce8946c6208d33506b",
@@ -375,7 +752,7 @@
           ]
         },
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-09-10T19:52:01.563214+00:00"
+        "case_processed_at": "2026-09-10T22:44:17.616463+00:00"
       },
       {
         "id": "ab05cffd0661fcc278e7637fbb14ec031cfb93e6",
@@ -450,12 +827,384 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-09-10T20:13:59.020729+00:00"
+        "case_processed_at": "2026-09-10T23:06:11.257532+00:00"
       }
     ],
     "jatim_items": [],
     "luar_jatim_items": [
       {
+        "id": "c4d7caae4fe3322b6c414caf0fbfbfa1956586ab",
+        "title": "Nama Oknum Polisi Hilang dalam Dakwaan Kasus Narkoba Jaringan Internasional Erol-Nyai - Target Berita",
+        "url": "https://targetberita.co.id/nama-oknum-polisi-hilang-dalam-dakwaan-kasus-narkoba-jaringan-internasional-erol-nyai/",
+        "source": "Target Berita",
+        "published_at": "2026-09-10T22:16:14+00:00",
+        "collected_at": "2026-09-10T22:36:56.665474+00:00",
+        "region": "BELUM TERPETAKAN",
+        "area_label": "BELUM TERPETAKAN",
+        "is_jatim": null,
+        "polres": null,
+        "category": "NEGATIF - NARKOBA / NARKOTIKA",
+        "scope": "negative",
+        "scope_label": "Negatif",
+        "priority": "low",
+        "summary": "Nama Oknum Polisi Hilang dalam Dakwaan Kasus Narkoba Jaringan Internasional Erol-Nyai Target Berita",
+        "processing_status": "processed",
+        "classifier_version": "news-v6",
+        "classified_at": "2026-09-10T22:36:56.665474+00:00",
+        "case_id": "CASE-001226",
+        "discovery_families": [
+          "general_police_misconduct"
+        ],
+        "discovery_tags": [
+          "ethics",
+          "oknum"
+        ],
+        "discovery_hits": [
+          "oknum polisi"
+        ],
+        "discovery_version": "discovery-v6.5.4",
+        "google_news_url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPV1BmZVdWZXM4a3ZYdU5nbjdfNG9COU1US0R5eVVaejh1T2xKbTJRLXJqcU5Ud3NKM3A3YmIydnY5ZFRSWmthTGtSTFhpUGlLb2NyMVd3NkhjTWNmeTlldFoyaE9nRXpJUFdJUHpLOXJXVmppYTZhcWVHX2htYVFzN3d5aEdmY1RzQlM4bE5nTnZwLU9EcEY3bmM5UDRNSnhKZk5KYmJNQlQ3b2dkUUFwQ2hCYw?oc=5",
+        "original_url": "https://targetberita.co.id/nama-oknum-polisi-hilang-dalam-dakwaan-kasus-narkoba-jaringan-internasional-erol-nyai/",
+        "locality": "",
+        "polsek": null,
+        "location_confidence": 0,
+        "location_evidence": [],
+        "location_status": "BELUM_TERPETAKAN",
+        "location_source": "title",
+        "issue_type": "NARKOBA",
+        "issue_subtype": "Narkoba / Narkotika",
+        "issue_evidence": [
+          "narkoba"
+        ],
+        "handling_status": "BELUM_ADA_INFORMASI",
+        "handling_evidence": [],
+        "attention_score": 16,
+        "attention_label": "Rendah",
+        "attention_components": {
+          "severity": 11,
+          "polri_relation": 0,
+          "authority": 0,
+          "public_impact": 4,
+          "handling": 0,
+          "evidence": 1,
+          "context_risk": 0,
+          "routine_enforcement_cap": null
+        },
+        "attention_evidence": {
+          "severity": [],
+          "authority": [
+            "oknum polisi"
+          ],
+          "public_impact": [],
+          "evidence": [
+            "satu sumber / informasi awal"
+          ],
+          "role": [],
+          "issue": [
+            "narkoba"
+          ],
+          "handling": [],
+          "context": [],
+          "positive": []
+        },
+        "case_engine_version": "case-v6.5.4",
+        "case_processed_at": "2026-09-10T23:06:11.257511+00:00"
+      },
+      {
+        "id": "593e9d389695a1ec55df1109021973ef67e405cf",
+        "title": "Perundungan Garut Berujung Penganiayaan, Tujuh Remaja Putri Diperiksa Polisi - Pikiran Rakyat Koran",
+        "url": "https://koran.pikiran-rakyat.com/news/pr-30310443189/perundungan-garut-berujung-penganiayaan-tujuh-remaja-putri-diperiksa-polisi",
+        "source": "Pikiran Rakyat Koran",
+        "published_at": "2026-09-10T22:00:00+00:00",
+        "collected_at": "2026-09-10T22:36:56.665474+00:00",
+        "region": "BELUM TERPETAKAN",
+        "area_label": "BELUM TERPETAKAN",
+        "is_jatim": null,
+        "polres": null,
+        "category": "NEGATIF - KEKERASAN / PENGGUNAAN KEKUATAN",
+        "scope": "negative",
+        "scope_label": "Negatif",
+        "priority": "low",
+        "summary": "Perundungan Garut Berujung Penganiayaan, Tujuh Remaja Putri Diperiksa Polisi Pikiran Rakyat Koran",
+        "processing_status": "processed",
+        "classifier_version": "news-v6",
+        "classified_at": "2026-09-10T22:36:56.665474+00:00",
+        "case_id": "CASE-001227",
+        "discovery_families": [],
+        "discovery_tags": [],
+        "discovery_hits": [],
+        "discovery_version": "discovery-v6.5.4",
+        "google_news_url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPU3NvM3M1ZmpaTEF2cFNfX2UyMGNpRmhfamtBMElHT09kWHJUemJCZUF2MnpGMGpGcXB2ZURoeHFUVi1Qc1lXTjdDYVpNV0cyay16dXk1YW5XQ3ZRX2NDOW5IZy1kMm5QSDJraUo5aENlU09EZDg0NmJFTkQ3ZDFkNXdQb1RycGlLTnhtNU1sRUcxSERuUWpEM0Q4MlBmUF9TQkxpQkw3YmFYMFJmNGJsVmt5eVNMRy1oMkdXbXZpS09hLWFPb1pB?oc=5",
+        "original_url": "https://koran.pikiran-rakyat.com/news/pr-30310443189/perundungan-garut-berujung-penganiayaan-tujuh-remaja-putri-diperiksa-polisi",
+        "locality": "",
+        "polsek": null,
+        "location_confidence": 0,
+        "location_evidence": [],
+        "location_status": "BELUM_TERPETAKAN",
+        "location_source": "title",
+        "issue_type": "KEKERASAN_DAN_KEKUATAN",
+        "issue_subtype": "Kekerasan / Penggunaan Kekuatan",
+        "issue_evidence": [
+          "penganiayaan"
+        ],
+        "handling_status": "BELUM_ADA_INFORMASI",
+        "handling_evidence": [],
+        "attention_score": 39,
+        "attention_label": "Rendah",
+        "attention_components": {
+          "severity": 28,
+          "polri_relation": 0,
+          "authority": 0,
+          "public_impact": 4,
+          "handling": 0,
+          "evidence": 3,
+          "context_risk": 0,
+          "routine_enforcement_cap": null
+        },
+        "attention_evidence": {
+          "severity": [],
+          "authority": [],
+          "public_impact": [],
+          "evidence": [
+            "satu sumber / informasi awal",
+            "ada tindak lanjut resmi"
+          ],
+          "role": [],
+          "issue": [
+            "penganiayaan"
+          ],
+          "handling": [],
+          "context": [],
+          "positive": []
+        },
+        "case_engine_version": "case-v6.5.4",
+        "case_processed_at": "2026-09-10T23:06:11.257517+00:00"
+      },
+      {
+        "id": "c939e1e6f834428112e4c91897828168b0a0bcc0",
+        "title": "Ciri-ciri Pelaku Penembakan 3 ASN Dinas Pertanian Hingga Tewas di Papua Terkuak! Polisi Juga Sita Selongsong Peluru - VIVA.co.id",
+        "url": "https://www.viva.co.id/berita/nasional/1927791-ciri-ciri-pelaku-penembakan-3-asn-dinas-pertanian-hingga-tewas-di-papua-terkuak-polisi-juga-sita-selongsong-peluru",
+        "source": "VIVA.co.id",
+        "published_at": "2026-09-10T22:00:00+00:00",
+        "collected_at": "2026-09-10T22:36:56.665474+00:00",
+        "region": "LUAR JATIM",
+        "area_label": "LUAR JATIM",
+        "is_jatim": false,
+        "polres": null,
+        "category": "NEGATIF - KEKERASAN / PENGGUNAAN KEKUATAN",
+        "scope": "negative",
+        "scope_label": "Negatif",
+        "priority": "low",
+        "summary": "Ciri-ciri Pelaku Penembakan 3 ASN Dinas Pertanian Hingga Tewas di Papua Terkuak! Polisi Juga Sita Selongsong Peluru VIVA.co.id",
+        "processing_status": "processed",
+        "classifier_version": "news-v6",
+        "classified_at": "2026-09-10T22:36:56.665474+00:00",
+        "case_id": "CASE-001228",
+        "discovery_families": [],
+        "discovery_tags": [],
+        "discovery_hits": [],
+        "discovery_version": "discovery-v6.5.4",
+        "google_news_url": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxNbWdiRnN0VHc0N0ZEWklicDJ0MnJNY1piN0o3OHU2RmxiWEQzdUpKRFctQVUzODAzSDB0Sm4xWlNJZ3owRkR1LU1zeDQwVUJGYXlJcEt4UFFpMjY0TnpIRnhMUWkxUWhOZlVpcU05dkRhMmFpYlBDdmoySVVfVDFsVjNGanJQWm5mSHhneEhoVHpSY0hBYTJVUTJlbFdDaTQ3dVZYR0t3aWc5TTNETEZmRjlxLTg1MEh0QXgwLUVZYV9ZRlVUWENtMWh3b1lBaldDYV9uWTFKYk1CeFNzanRyaHFPQ0cwOWpXSklvcS01d1pOY28?oc=5",
+        "original_url": "https://www.viva.co.id/berita/nasional/1927791-ciri-ciri-pelaku-penembakan-3-asn-dinas-pertanian-hingga-tewas-di-papua-terkuak-polisi-juga-sita-selongsong-peluru",
+        "locality": "",
+        "polsek": null,
+        "location_confidence": 100,
+        "location_evidence": [
+          "papua"
+        ],
+        "location_status": "LUAR_JATIM",
+        "location_source": "title",
+        "issue_type": "KEKERASAN_DAN_KEKUATAN",
+        "issue_subtype": "Kekerasan / Penggunaan Kekuatan",
+        "issue_evidence": [
+          "penembakan",
+          "tewas"
+        ],
+        "handling_status": "BELUM_ADA_INFORMASI",
+        "handling_evidence": [],
+        "attention_score": 22,
+        "attention_label": "Rendah",
+        "attention_components": {
+          "severity": 15,
+          "polri_relation": 2,
+          "authority": 0,
+          "public_impact": 4,
+          "handling": 0,
+          "evidence": 1,
+          "context_risk": 0,
+          "routine_enforcement_cap": null
+        },
+        "attention_evidence": {
+          "severity": [
+            "pembunuhan / korban meninggal",
+            "kekerasan berat"
+          ],
+          "authority": [],
+          "public_impact": [],
+          "evidence": [
+            "satu sumber / informasi awal"
+          ],
+          "role": [
+            "Polri sebagai pihak penindak"
+          ],
+          "issue": [
+            "penembakan",
+            "tewas"
+          ],
+          "handling": [],
+          "context": [],
+          "positive": []
+        },
+        "case_engine_version": "case-v6.5.4",
+        "case_processed_at": "2026-09-10T23:06:11.257520+00:00"
+      },
+      {
+        "id": "dc2336111b502ca13862c9592d124951e96457c5",
+        "title": "Polisi Sebut Ada 4 Korban Dugaan Asusila Mantan Pengasuh Pesantren di Siak - RiauAktual.com",
+        "url": "https://riauaktual.com/news/detail/121977/polisi-sebut-ada-4-korban-dugaan-asusila-mantan-pengasuh-pesantren-di-siak",
+        "source": "RiauAktual.com",
+        "published_at": "2026-09-10T21:58:10+00:00",
+        "collected_at": "2026-09-10T22:36:56.665474+00:00",
+        "region": "BELUM TERPETAKAN",
+        "area_label": "BELUM TERPETAKAN",
+        "is_jatim": null,
+        "polres": null,
+        "category": "NEGATIF - ETIK / PERILAKU PERSONEL",
+        "scope": "negative",
+        "scope_label": "Negatif",
+        "priority": "low",
+        "summary": "Polisi Sebut Ada 4 Korban Dugaan Asusila Mantan Pengasuh Pesantren di Siak RiauAktual.com",
+        "processing_status": "processed",
+        "classifier_version": "news-v6",
+        "classified_at": "2026-09-10T22:36:56.665474+00:00",
+        "case_id": "CASE-001229",
+        "discovery_families": [
+          "ethics_personal_misconduct"
+        ],
+        "discovery_tags": [
+          "ethics",
+          "sexual_misconduct",
+          "violence"
+        ],
+        "discovery_hits": [
+          "asusila"
+        ],
+        "discovery_version": "discovery-v6.5.4",
+        "google_news_url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQZjFiVFQ0ZF9jaXNMcGNhSmh2ZHVLVGQwdEVBb1I2UTlaeVFmcGU2dkVtd2thbDluVExJM0pGSWFtQU1scXozWHV1SnVkLS1CaDlyUDd1MFhXZkNBaDdGWUptNUdNSlhnRzdONGxEVVZzZC1mYUNmVDdDSmdJcVdWdXFnZ3Jsa1RGN0ZhOTh0Z3hCT2thZ0QyMkZEOEIzbTNxNTNaMXBKOWFQbk1nNmRjeXRpSUY3VTDSAbYBQVVfeXFMT2g2OGdMdWpuSG93dWgyRHhFekNwZkFacHF4X1l6T2oyWDBoU0gycGxQaHpDWEx5d2JfaEVoS0I2d0dXS3BpQWh3ZzhHT2l6cUY1TmFYZVJIcTdCS2d3Z0l6V2I3WHdEZzdUVXQwZFZMQ1FjT1VIYVFKbW9TOVhMUXAtaFp5WHFNcFRsS3hDWkVDbVJ2dDljdHdNVzk1Snd3eEF4M2YyeWFUWWt1cUVjODVYYll6SFE?oc=5",
+        "original_url": "https://riauaktual.com/news/detail/121977/polisi-sebut-ada-4-korban-dugaan-asusila-mantan-pengasuh-pesantren-di-siak",
+        "locality": "",
+        "polsek": null,
+        "location_confidence": 0,
+        "location_evidence": [],
+        "location_status": "BELUM_TERPETAKAN",
+        "location_source": "title",
+        "issue_type": "ETIK_DAN_PERILAKU",
+        "issue_subtype": "Etik / Perilaku Personel",
+        "issue_evidence": [
+          "asusila"
+        ],
+        "handling_status": "BELUM_ADA_INFORMASI",
+        "handling_evidence": [],
+        "attention_score": 17,
+        "attention_label": "Rendah",
+        "attention_components": {
+          "severity": 12,
+          "polri_relation": 0,
+          "authority": 0,
+          "public_impact": 4,
+          "handling": 0,
+          "evidence": 1,
+          "context_risk": 0,
+          "routine_enforcement_cap": null
+        },
+        "attention_evidence": {
+          "severity": [],
+          "authority": [],
+          "public_impact": [],
+          "evidence": [
+            "satu sumber / informasi awal"
+          ],
+          "role": [],
+          "issue": [
+            "asusila"
+          ],
+          "handling": [],
+          "context": [],
+          "positive": []
+        },
+        "case_engine_version": "case-v6.5.4",
+        "case_processed_at": "2026-09-10T23:06:11.257522+00:00"
+      },
+      {
+        "id": "98ab1e7b2522f2af694c9dc831437a0afe03220d",
+        "title": "Dari Mobil Dinas Balikpapan, Polda Kaltim Bongkar Jaringan Narkoba Kelas Kakap Malaysia - EKSPOSKALTIM",
+        "url": "https://eksposkaltim.com/berita-18470-dari-mobil-dinas-balikpapan-polda-kaltim-bongkar-jaringan-narkoba-kelas-kakap-malaysia.html",
+        "source": "EKSPOSKALTIM",
+        "published_at": "2026-09-10T21:23:48+00:00",
+        "collected_at": "2026-09-10T22:36:56.665474+00:00",
+        "region": "BELUM TERPETAKAN",
+        "area_label": "BELUM TERPETAKAN",
+        "is_jatim": null,
+        "polres": null,
+        "category": "NEGATIF - NARKOBA / NARKOTIKA",
+        "scope": "negative",
+        "scope_label": "Negatif",
+        "priority": "low",
+        "summary": "Dari Mobil Dinas Balikpapan, Polda Kaltim Bongkar Jaringan Narkoba Kelas Kakap Malaysia EKSPOSKALTIM",
+        "processing_status": "processed",
+        "classifier_version": "news-v6",
+        "classified_at": "2026-09-10T22:36:56.665474+00:00",
+        "case_id": "CASE-001230",
+        "discovery_families": [],
+        "discovery_tags": [],
+        "discovery_hits": [],
+        "discovery_version": "discovery-v6.5.4",
+        "google_news_url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPZzZXcm5oSktuU2xjdmppS1dGSDZQb2ZVcXd2U08tRndMNzRqVl96anN4MW5Pa2NtTmhERC1qUmdEdnFMNmdCcU1TQkNuaU1ZSmZxR0pIVVpCcUM1WEFLVjdlSDRMR1BYck1uakI5SWQyY3JUbmd1NmxEVWJHQ3RmZlZrWUJ0akRRN05XMkd0VjdfYTExSlRua1ZHMldaQnBDN2QzMXlTdkduNFRMTzhSb3psUjRoUnhyR1FKVHFwSy1JeFBwcUk1Zg?oc=5",
+        "original_url": "https://eksposkaltim.com/berita-18470-dari-mobil-dinas-balikpapan-polda-kaltim-bongkar-jaringan-narkoba-kelas-kakap-malaysia.html",
+        "locality": "",
+        "polsek": null,
+        "location_confidence": 0,
+        "location_evidence": [],
+        "location_status": "BELUM_TERPETAKAN",
+        "location_source": "title",
+        "issue_type": "NARKOBA",
+        "issue_subtype": "Narkoba / Narkotika",
+        "issue_evidence": [
+          "narkoba"
+        ],
+        "handling_status": "BELUM_ADA_INFORMASI",
+        "handling_evidence": [],
+        "attention_score": 16,
+        "attention_label": "Rendah",
+        "attention_components": {
+          "severity": 11,
+          "polri_relation": 0,
+          "authority": 0,
+          "public_impact": 4,
+          "handling": 0,
+          "evidence": 1,
+          "context_risk": 0,
+          "routine_enforcement_cap": null
+        },
+        "attention_evidence": {
+          "severity": [],
+          "authority": [],
+          "public_impact": [],
+          "evidence": [
+            "satu sumber / informasi awal"
+          ],
+          "role": [],
+          "issue": [
+            "narkoba"
+          ],
+          "handling": [],
+          "context": [],
+          "positive": []
+        },
+        "case_engine_version": "case-v6.5.4",
+        "case_processed_at": "2026-09-10T23:06:11.257524+00:00"
+      },
+      {
         "id": "13ec2b83470cdc5fab288c9b6930a639093410c5",
         "title": "KPK geledah rumah anggota Polri dalam pengembangan kasus Ade Kunang - ANTARA News Sumbar",
         "url": "https://sumbar.antaranews.com/berita/778147/kpk-geledah-rumah-anggota-polri-dalam-pengembangan-kasus-ade-kunang",
@@ -520,7 +1269,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-09-10T19:51:59.920606+00:00"
+        "case_processed_at": "2026-09-10T22:44:15.987351+00:00"
       },
       {
         "id": "c108fdb9f5a258cef0c3b9579a08293120c820a8",
@@ -585,7 +1334,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-09-10T19:52:00.336732+00:00"
+        "case_processed_at": "2026-09-10T22:44:16.400936+00:00"
       },
       {
         "id": "2c3f5dfa0ff4550e02f33a7a71da8b7846d165c8",
@@ -650,7 +1399,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-09-10T19:52:00.847335+00:00"
+        "case_processed_at": "2026-09-10T22:44:16.904469+00:00"
       },
       {
         "id": "fa5316109109804286903a92ea47e47bc31d84eb",
@@ -721,7 +1470,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-09-10T20:13:59.020724+00:00"
+        "case_processed_at": "2026-09-10T23:06:11.257528+00:00"
       },
       {
         "id": "3c5fcf36bf10d420bccdd5ce8946c6208d33506b",
@@ -808,7 +1557,7 @@
           ]
         },
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-09-10T19:52:01.563214+00:00"
+        "case_processed_at": "2026-09-10T22:44:17.616463+00:00"
       },
       {
         "id": "ab05cffd0661fcc278e7637fbb14ec031cfb93e6",
@@ -883,19 +1632,24 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-09-10T20:13:59.020729+00:00"
+        "case_processed_at": "2026-09-10T23:06:11.257532+00:00"
       }
     ]
   },
   "cases": {
-    "active": 2,
+    "active": 7,
     "priority_high": 0,
     "jatim": 0,
     "jatim_priority_high": 0,
-    "articles": 2,
+    "articles": 7,
     "case_ids": [
       "CASE-001224",
-      "CASE-001225"
+      "CASE-001225",
+      "CASE-001226",
+      "CASE-001227",
+      "CASE-001228",
+      "CASE-001229",
+      "CASE-001230"
     ],
     "items": [
       {
@@ -975,7 +1729,7 @@
         ],
         "article_count": 1,
         "created_at": "2026-09-10T20:10:24.404230+00:00",
-        "updated_at": "2026-09-10T20:13:59.015960+00:00",
+        "updated_at": "2026-09-10T23:06:11.236102+00:00",
         "engine_version": "case-v6.5.4",
         "priority_score": 17,
         "priority_breakdown": {
@@ -1087,7 +1841,7 @@
         ],
         "article_count": 1,
         "created_at": "2026-09-10T20:10:25.024410+00:00",
-        "updated_at": "2026-09-10T20:13:59.019950+00:00",
+        "updated_at": "2026-09-10T23:06:11.240245+00:00",
         "engine_version": "case-v6.5.4",
         "priority_score": 42,
         "priority_breakdown": {
@@ -1118,42 +1872,650 @@
             "Hubungan Polri belum spesifik"
           ]
         }
+      },
+      {
+        "case_id": "CASE-001226",
+        "title": "Nama Oknum Polisi Hilang dalam Dakwaan Kasus Narkoba Jaringan Internasional Erol-Nyai - Target Berita",
+        "category": "NEGATIF - NARKOBA / NARKOTIKA",
+        "scope": "negative",
+        "region": "BELUM TERPETAKAN",
+        "locality": "",
+        "is_jatim": null,
+        "polres": null,
+        "polsek": null,
+        "priority": "low",
+        "attention_score": 17,
+        "attention_label": "Rendah",
+        "signature": "BELUM TERPETAKAN",
+        "incident_terms": [
+          "dakwaan",
+          "erol",
+          "hilang",
+          "internasional",
+          "jaringan",
+          "nama",
+          "narkoba",
+          "nyai",
+          "target"
+        ],
+        "event_terms": [
+          "hilang",
+          "narkoba"
+        ],
+        "location_terms": [],
+        "discovery_families": [
+          "general_police_misconduct"
+        ],
+        "first_seen": "2026-09-10T22:16:14+00:00",
+        "last_seen": "2026-09-10T22:36:56.665474+00:00",
+        "last_detected_at": "2026-09-10T22:36:56.665474+00:00",
+        "article_ids": [
+          "c4d7caae4fe3322b6c414caf0fbfbfa1956586ab"
+        ],
+        "articles": [
+          {
+            "id": "c4d7caae4fe3322b6c414caf0fbfbfa1956586ab",
+            "title": "Nama Oknum Polisi Hilang dalam Dakwaan Kasus Narkoba Jaringan Internasional Erol-Nyai - Target Berita",
+            "url": "https://targetberita.co.id/nama-oknum-polisi-hilang-dalam-dakwaan-kasus-narkoba-jaringan-internasional-erol-nyai/",
+            "published_at": "2026-09-10T22:16:14+00:00",
+            "collected_at": "2026-09-10T22:36:56.665474+00:00",
+            "source": "Target Berita",
+            "match_score": 1.0,
+            "priority": "low",
+            "scope": "negative",
+            "category": "NEGATIF - NARKOBA / NARKOTIKA",
+            "region": "BELUM TERPETAKAN",
+            "locality": "",
+            "is_jatim": false,
+            "polres": null,
+            "polsek": null,
+            "issue_type": "NARKOBA",
+            "issue_subtype": "Narkoba / Narkotika",
+            "handling_status": "BELUM_ADA_INFORMASI",
+            "handling_evidence": [],
+            "polri_relation": null,
+            "polri_relation_points": 0,
+            "polri_relation_evidence": [],
+            "attention_score": 16,
+            "attention_label": "Rendah",
+            "attention_components": {
+              "severity": 11,
+              "polri_relation": 0,
+              "authority": 0,
+              "public_impact": 4,
+              "handling": 0,
+              "evidence": 1,
+              "context_risk": 0,
+              "routine_enforcement_cap": null
+            }
+          }
+        ],
+        "article_count": 1,
+        "created_at": "2026-09-10T23:02:33.586960+00:00",
+        "updated_at": "2026-09-10T23:06:11.243520+00:00",
+        "engine_version": "case-v6.5.4",
+        "priority_score": 17,
+        "priority_breakdown": {
+          "severity": 11,
+          "polri_relation": 0,
+          "authority_context": 0,
+          "public_impact": 4,
+          "handling": 0,
+          "evidence": 1,
+          "spread": 0,
+          "escalation": 0,
+          "current_activity": 1,
+          "context_risk": 0
+        },
+        "priority_evidence": {
+          "unique_sources": 1,
+          "active_today_articles": 1,
+          "escalation": [],
+          "issue_type": "NARKOBA",
+          "issue_subtype": "Narkoba / Narkotika",
+          "sentiment": "negative",
+          "polri_relation": "INFORMASI_UMUM",
+          "handling_status": "BELUM_ADA_INFORMASI",
+          "reasons": [
+            "sifat berita: negatif",
+            "Narkoba / Narkotika",
+            "Hubungan Polri belum spesifik"
+          ]
+        }
+      },
+      {
+        "case_id": "CASE-001227",
+        "title": "Perundungan Garut Berujung Penganiayaan, Tujuh Remaja Putri Diperiksa Polisi - Pikiran Rakyat Koran",
+        "category": "NEGATIF - KEKERASAN / PENGGUNAAN KEKUATAN",
+        "scope": "negative",
+        "region": "BELUM TERPETAKAN",
+        "locality": "",
+        "is_jatim": null,
+        "polres": null,
+        "polsek": null,
+        "priority": "low",
+        "attention_score": 38,
+        "attention_label": "Rendah",
+        "signature": "BELUM TERPETAKAN",
+        "incident_terms": [
+          "berujung",
+          "garut",
+          "koran",
+          "penganiayaan",
+          "perundungan",
+          "pikiran",
+          "putri",
+          "rakyat",
+          "remaja"
+        ],
+        "event_terms": [
+          "penganiayaan"
+        ],
+        "location_terms": [],
+        "discovery_families": [],
+        "first_seen": "2026-09-10T22:00:00+00:00",
+        "last_seen": "2026-09-10T22:36:56.665474+00:00",
+        "last_detected_at": "2026-09-10T22:36:56.665474+00:00",
+        "article_ids": [
+          "593e9d389695a1ec55df1109021973ef67e405cf"
+        ],
+        "articles": [
+          {
+            "id": "593e9d389695a1ec55df1109021973ef67e405cf",
+            "title": "Perundungan Garut Berujung Penganiayaan, Tujuh Remaja Putri Diperiksa Polisi - Pikiran Rakyat Koran",
+            "url": "https://koran.pikiran-rakyat.com/news/pr-30310443189/perundungan-garut-berujung-penganiayaan-tujuh-remaja-putri-diperiksa-polisi",
+            "published_at": "2026-09-10T22:00:00+00:00",
+            "collected_at": "2026-09-10T22:36:56.665474+00:00",
+            "source": "Pikiran Rakyat Koran",
+            "match_score": 1.0,
+            "priority": "low",
+            "scope": "negative",
+            "category": "NEGATIF - KEKERASAN / PENGGUNAAN KEKUATAN",
+            "region": "BELUM TERPETAKAN",
+            "locality": "",
+            "is_jatim": false,
+            "polres": null,
+            "polsek": null,
+            "issue_type": "KEKERASAN_DAN_KEKUATAN",
+            "issue_subtype": "Kekerasan / Penggunaan Kekuatan",
+            "handling_status": "BELUM_ADA_INFORMASI",
+            "handling_evidence": [],
+            "polri_relation": null,
+            "polri_relation_points": 0,
+            "polri_relation_evidence": [],
+            "attention_score": 39,
+            "attention_label": "Rendah",
+            "attention_components": {
+              "severity": 28,
+              "polri_relation": 0,
+              "authority": 0,
+              "public_impact": 4,
+              "handling": 0,
+              "evidence": 3,
+              "context_risk": 0,
+              "routine_enforcement_cap": null
+            }
+          }
+        ],
+        "article_count": 1,
+        "created_at": "2026-09-10T23:02:33.992195+00:00",
+        "updated_at": "2026-09-10T23:06:11.246667+00:00",
+        "engine_version": "case-v6.5.4",
+        "priority_score": 38,
+        "priority_breakdown": {
+          "severity": 28,
+          "polri_relation": 0,
+          "authority_context": 0,
+          "public_impact": 4,
+          "handling": 0,
+          "evidence": 3,
+          "spread": 0,
+          "escalation": 2,
+          "current_activity": 1,
+          "context_risk": 0
+        },
+        "priority_evidence": {
+          "unique_sources": 1,
+          "active_today_articles": 1,
+          "escalation": [
+            "pemeriksaan resmi"
+          ],
+          "issue_type": "KEKERASAN_DAN_KEKUATAN",
+          "issue_subtype": "Kekerasan / Penggunaan Kekuatan",
+          "sentiment": "negative",
+          "polri_relation": "INFORMASI_UMUM",
+          "handling_status": "BELUM_ADA_INFORMASI",
+          "reasons": [
+            "sifat berita: negatif",
+            "sifat berita: negatif",
+            "Kekerasan / Penggunaan Kekuatan",
+            "Hubungan Polri belum spesifik",
+            "pemeriksaan resmi"
+          ]
+        }
+      },
+      {
+        "case_id": "CASE-001228",
+        "title": "Ciri-ciri Pelaku Penembakan 3 ASN Dinas Pertanian Hingga Tewas di Papua Terkuak! Polisi Juga Sita Selongsong Peluru - VIVA.co.id",
+        "category": "NEGATIF - KEKERASAN / PENGGUNAAN KEKUATAN",
+        "scope": "negative",
+        "region": "LUAR JATIM",
+        "locality": "",
+        "is_jatim": false,
+        "polres": null,
+        "polsek": null,
+        "priority": "low",
+        "attention_score": 23,
+        "attention_label": "Rendah",
+        "signature": "LUAR JATIM",
+        "incident_terms": [
+          "asn",
+          "ciri",
+          "dinas",
+          "juga",
+          "papua",
+          "peluru",
+          "penembakan",
+          "pertanian",
+          "selongsong",
+          "sita",
+          "terkuak",
+          "tewas",
+          "viva"
+        ],
+        "event_terms": [
+          "penembakan"
+        ],
+        "location_terms": [],
+        "discovery_families": [],
+        "first_seen": "2026-09-10T22:00:00+00:00",
+        "last_seen": "2026-09-10T22:36:56.665474+00:00",
+        "last_detected_at": "2026-09-10T22:36:56.665474+00:00",
+        "article_ids": [
+          "c939e1e6f834428112e4c91897828168b0a0bcc0"
+        ],
+        "articles": [
+          {
+            "id": "c939e1e6f834428112e4c91897828168b0a0bcc0",
+            "title": "Ciri-ciri Pelaku Penembakan 3 ASN Dinas Pertanian Hingga Tewas di Papua Terkuak! Polisi Juga Sita Selongsong Peluru - VIVA.co.id",
+            "url": "https://www.viva.co.id/berita/nasional/1927791-ciri-ciri-pelaku-penembakan-3-asn-dinas-pertanian-hingga-tewas-di-papua-terkuak-polisi-juga-sita-selongsong-peluru",
+            "published_at": "2026-09-10T22:00:00+00:00",
+            "collected_at": "2026-09-10T22:36:56.665474+00:00",
+            "source": "VIVA.co.id",
+            "match_score": 1.0,
+            "priority": "low",
+            "scope": "negative",
+            "category": "NEGATIF - KEKERASAN / PENGGUNAAN KEKUATAN",
+            "region": "LUAR JATIM",
+            "locality": "",
+            "is_jatim": false,
+            "polres": null,
+            "polsek": null,
+            "issue_type": "KEKERASAN_DAN_KEKUATAN",
+            "issue_subtype": "Kekerasan / Penggunaan Kekuatan",
+            "handling_status": "BELUM_ADA_INFORMASI",
+            "handling_evidence": [],
+            "polri_relation": null,
+            "polri_relation_points": 0,
+            "polri_relation_evidence": [],
+            "attention_score": 22,
+            "attention_label": "Rendah",
+            "attention_components": {
+              "severity": 15,
+              "polri_relation": 2,
+              "authority": 0,
+              "public_impact": 4,
+              "handling": 0,
+              "evidence": 1,
+              "context_risk": 0,
+              "routine_enforcement_cap": null
+            }
+          }
+        ],
+        "article_count": 1,
+        "created_at": "2026-09-10T23:02:34.536084+00:00",
+        "updated_at": "2026-09-10T23:06:11.250245+00:00",
+        "engine_version": "case-v6.5.4",
+        "priority_score": 23,
+        "priority_breakdown": {
+          "severity": 15,
+          "polri_relation": 2,
+          "authority_context": 0,
+          "public_impact": 4,
+          "handling": 0,
+          "evidence": 1,
+          "spread": 0,
+          "escalation": 0,
+          "current_activity": 1,
+          "context_risk": 0
+        },
+        "priority_evidence": {
+          "unique_sources": 1,
+          "active_today_articles": 1,
+          "escalation": [],
+          "issue_type": "KEKERASAN_DAN_KEKUATAN",
+          "issue_subtype": "Kekerasan / Penggunaan Kekuatan",
+          "sentiment": "negative",
+          "polri_relation": "PENEGAKAN_HUKUM",
+          "handling_status": "BELUM_ADA_INFORMASI",
+          "reasons": [
+            "sifat berita: negatif",
+            "sifat berita: negatif",
+            "sifat berita: negatif",
+            "Kekerasan / Penggunaan Kekuatan"
+          ]
+        }
+      },
+      {
+        "case_id": "CASE-001229",
+        "title": "Polisi Sebut Ada 4 Korban Dugaan Asusila Mantan Pengasuh Pesantren di Siak - RiauAktual.com",
+        "category": "NEGATIF - ETIK / PERILAKU PERSONEL",
+        "scope": "negative",
+        "region": "BELUM TERPETAKAN",
+        "locality": "",
+        "is_jatim": null,
+        "polres": null,
+        "polsek": null,
+        "priority": "low",
+        "attention_score": 18,
+        "attention_label": "Rendah",
+        "signature": "BELUM TERPETAKAN",
+        "incident_terms": [
+          "ada",
+          "asusila",
+          "com",
+          "dugaan",
+          "mantan",
+          "pengasuh",
+          "pesantren",
+          "riauaktual",
+          "sebut",
+          "siak"
+        ],
+        "event_terms": [
+          "asusila"
+        ],
+        "location_terms": [],
+        "discovery_families": [
+          "ethics_personal_misconduct"
+        ],
+        "first_seen": "2026-09-10T21:58:10+00:00",
+        "last_seen": "2026-09-10T22:36:56.665474+00:00",
+        "last_detected_at": "2026-09-10T22:36:56.665474+00:00",
+        "article_ids": [
+          "dc2336111b502ca13862c9592d124951e96457c5"
+        ],
+        "articles": [
+          {
+            "id": "dc2336111b502ca13862c9592d124951e96457c5",
+            "title": "Polisi Sebut Ada 4 Korban Dugaan Asusila Mantan Pengasuh Pesantren di Siak - RiauAktual.com",
+            "url": "https://riauaktual.com/news/detail/121977/polisi-sebut-ada-4-korban-dugaan-asusila-mantan-pengasuh-pesantren-di-siak",
+            "published_at": "2026-09-10T21:58:10+00:00",
+            "collected_at": "2026-09-10T22:36:56.665474+00:00",
+            "source": "RiauAktual.com",
+            "match_score": 1.0,
+            "priority": "low",
+            "scope": "negative",
+            "category": "NEGATIF - ETIK / PERILAKU PERSONEL",
+            "region": "BELUM TERPETAKAN",
+            "locality": "",
+            "is_jatim": false,
+            "polres": null,
+            "polsek": null,
+            "issue_type": "ETIK_DAN_PERILAKU",
+            "issue_subtype": "Etik / Perilaku Personel",
+            "handling_status": "BELUM_ADA_INFORMASI",
+            "handling_evidence": [],
+            "polri_relation": null,
+            "polri_relation_points": 0,
+            "polri_relation_evidence": [],
+            "attention_score": 17,
+            "attention_label": "Rendah",
+            "attention_components": {
+              "severity": 12,
+              "polri_relation": 0,
+              "authority": 0,
+              "public_impact": 4,
+              "handling": 0,
+              "evidence": 1,
+              "context_risk": 0,
+              "routine_enforcement_cap": null
+            }
+          }
+        ],
+        "article_count": 1,
+        "created_at": "2026-09-10T23:02:35.002485+00:00",
+        "updated_at": "2026-09-10T23:06:11.253429+00:00",
+        "engine_version": "case-v6.5.4",
+        "priority_score": 18,
+        "priority_breakdown": {
+          "severity": 12,
+          "polri_relation": 0,
+          "authority_context": 0,
+          "public_impact": 4,
+          "handling": 0,
+          "evidence": 1,
+          "spread": 0,
+          "escalation": 0,
+          "current_activity": 1,
+          "context_risk": 0
+        },
+        "priority_evidence": {
+          "unique_sources": 1,
+          "active_today_articles": 1,
+          "escalation": [],
+          "issue_type": "ETIK_DAN_PERILAKU",
+          "issue_subtype": "Etik / Perilaku Personel",
+          "sentiment": "negative",
+          "polri_relation": "INFORMASI_UMUM",
+          "handling_status": "BELUM_ADA_INFORMASI",
+          "reasons": [
+            "sifat berita: negatif",
+            "Etik / Perilaku Personel",
+            "Hubungan Polri belum spesifik"
+          ]
+        }
+      },
+      {
+        "case_id": "CASE-001230",
+        "title": "Dari Mobil Dinas Balikpapan, Polda Kaltim Bongkar Jaringan Narkoba Kelas Kakap Malaysia - EKSPOSKALTIM",
+        "category": "NEGATIF - NARKOBA / NARKOTIKA",
+        "scope": "negative",
+        "region": "BELUM TERPETAKAN",
+        "locality": "",
+        "is_jatim": null,
+        "polres": null,
+        "polsek": null,
+        "priority": "low",
+        "attention_score": 17,
+        "attention_label": "Rendah",
+        "signature": "BELUM TERPETAKAN",
+        "incident_terms": [
+          "balikpapan",
+          "bongkar",
+          "dinas",
+          "eksposkaltim",
+          "jaringan",
+          "kakap",
+          "kaltim",
+          "kelas",
+          "malaysia",
+          "mobil",
+          "narkoba",
+          "polda"
+        ],
+        "event_terms": [
+          "narkoba"
+        ],
+        "location_terms": [],
+        "discovery_families": [],
+        "first_seen": "2026-09-10T21:23:48+00:00",
+        "last_seen": "2026-09-10T22:36:56.665474+00:00",
+        "last_detected_at": "2026-09-10T22:36:56.665474+00:00",
+        "article_ids": [
+          "98ab1e7b2522f2af694c9dc831437a0afe03220d"
+        ],
+        "articles": [
+          {
+            "id": "98ab1e7b2522f2af694c9dc831437a0afe03220d",
+            "title": "Dari Mobil Dinas Balikpapan, Polda Kaltim Bongkar Jaringan Narkoba Kelas Kakap Malaysia - EKSPOSKALTIM",
+            "url": "https://eksposkaltim.com/berita-18470-dari-mobil-dinas-balikpapan-polda-kaltim-bongkar-jaringan-narkoba-kelas-kakap-malaysia.html",
+            "published_at": "2026-09-10T21:23:48+00:00",
+            "collected_at": "2026-09-10T22:36:56.665474+00:00",
+            "source": "EKSPOSKALTIM",
+            "match_score": 1.0,
+            "priority": "low",
+            "scope": "negative",
+            "category": "NEGATIF - NARKOBA / NARKOTIKA",
+            "region": "BELUM TERPETAKAN",
+            "locality": "",
+            "is_jatim": false,
+            "polres": null,
+            "polsek": null,
+            "issue_type": "NARKOBA",
+            "issue_subtype": "Narkoba / Narkotika",
+            "handling_status": "BELUM_ADA_INFORMASI",
+            "handling_evidence": [],
+            "polri_relation": null,
+            "polri_relation_points": 0,
+            "polri_relation_evidence": [],
+            "attention_score": 16,
+            "attention_label": "Rendah",
+            "attention_components": {
+              "severity": 11,
+              "polri_relation": 0,
+              "authority": 0,
+              "public_impact": 4,
+              "handling": 0,
+              "evidence": 1,
+              "context_risk": 0,
+              "routine_enforcement_cap": null
+            }
+          }
+        ],
+        "article_count": 1,
+        "created_at": "2026-09-10T23:02:35.476602+00:00",
+        "updated_at": "2026-09-10T23:06:11.256751+00:00",
+        "engine_version": "case-v6.5.4",
+        "priority_score": 17,
+        "priority_breakdown": {
+          "severity": 11,
+          "polri_relation": 0,
+          "authority_context": 0,
+          "public_impact": 4,
+          "handling": 0,
+          "evidence": 1,
+          "spread": 0,
+          "escalation": 0,
+          "current_activity": 1,
+          "context_risk": 0
+        },
+        "priority_evidence": {
+          "unique_sources": 1,
+          "active_today_articles": 1,
+          "escalation": [],
+          "issue_type": "NARKOBA",
+          "issue_subtype": "Narkoba / Narkotika",
+          "sentiment": "negative",
+          "polri_relation": "INFORMASI_UMUM",
+          "handling_status": "BELUM_ADA_INFORMASI",
+          "reasons": [
+            "sifat berita: negatif",
+            "Narkoba / Narkotika",
+            "Hubungan Polri belum spesifik"
+          ]
+        }
       }
     ],
     "jatim_items": []
   },
   "social": {
-    "detected": 26,
-    "jatim": 0,
-    "negative": 20,
-    "priority_high": 3,
+    "detected": 81,
+    "jatim": 3,
+    "negative": 52,
+    "priority_high": 27,
     "video_ids": [
+      "_Wg08cCL4Sc",
+      "N58dtVBy3uI",
       "y0R7I6rmyds",
+      "FkJh-zpqChw",
       "00jBK7awohg",
+      "2jYOALQ6sVM",
+      "FrkOBSpzM9k",
+      "Bt9m1F7eEGs",
+      "3_TorEHHcCQ",
       "BrGSrUlA_wk",
+      "fOw5piZkxKs",
+      "vIJuqUfgtFg",
       "pL3ieWdGvf4",
       "-A0UugwcjjA",
+      "Yb879lL4Kuw",
+      "7j5JGovC-6c",
+      "y7E0nwTnjyo",
+      "f1uUySApDNQ",
+      "aklTOuMA4fs",
+      "bqKYG5fS7pM",
+      "N8mrtQIVq3Y",
+      "Tq1iSEOr3VE",
+      "_OUwEIAfQ40",
+      "PO_apbu2Las",
+      "JLg8_kiy6k8",
+      "-ldBclNWs-4",
+      "g0sQY9eYugA",
       "jLhWA9Ld0EI",
+      "2QtA2vh7b1g",
       "Y78FU-4Svco",
+      "PBz3Us4btjY",
+      "XPV0repKddo",
+      "4FCmH5htyNQ",
+      "bpkAjmFdPVY",
+      "LwqGYD8ao8w",
+      "EkPnZeIKu34",
+      "RpiYIA9Y6zk",
+      "ro460PlC0iA",
+      "HDUzLVdueeM",
+      "ex2-DRhnuak",
+      "5fqx5wId854",
       "AhHtmEHHrDI",
+      "byd91eUg0NM",
+      "3P7txq60iUU",
       "9IKOJgU1Ri8",
+      "RiBFAqrBnHo",
+      "7cLrHJjGE6c",
+      "nx2bgPsG0a0",
       "nfP3k2Gu6mY",
       "6E9xEX49yik",
+      "BJjYO0QYo6o",
+      "g6hfEtZYM14",
       "m3j_5rLG4LA",
       "n7RfcXeLrNo",
+      "idUMZUh8vrw",
       "o4wmBIyCOPI",
       "gYQdrsmwrbY",
+      "QhA4hseL2Zs",
       "5yczB1uvO5c",
+      "C3KTWIluko8",
       "Yp4HcDPK1So",
       "4Rr-4PX1soM",
       "_vcYuc6v6iM",
       "9wMy_M_I4pk",
+      "52BTSVGdxKI",
       "276HoL1En3U",
+      "RS3P_JbXSGU",
       "3_7MvX-D9o8",
+      "XyMqeYiRR_Q",
+      "NxC3xKlxoAU",
+      "XfhangTOicI",
       "bQ6wnhnLAZw",
+      "QNLeQPp5N8Q",
       "d7cdyDfDjok",
       "rgxuHMW7BB0",
-      "Vd4hyq70xvA"
+      "Vd4hyq70xvA",
+      "7MRKD9YwC3U",
+      "q0UbV8Hjp1I",
+      "FxmnekAMLYQ",
+      "42yJFd6eLiU",
+      "YDB_tDD6WlE"
     ]
   },
   "jatim": {
@@ -1165,15 +2527,15 @@
     "case_today": 0,
     "case_high_active": 0,
     "article_high_today": 0,
-    "outside_jatim_today": 6
+    "outside_jatim_today": 11
   },
   "regions": [],
   "polres": [],
   "categories": [],
   "summary": {
-    "news_today": 6,
-    "negative_today": 2,
-    "cases_today": 2,
+    "news_today": 11,
+    "negative_today": 7,
+    "cases_today": 7,
     "priority_high": 0,
     "article_priority_high": 0,
     "jatim_news": 0,
@@ -1183,7 +2545,7 @@
     "jatim_neutral": 0,
     "jatim_cases_today": 0,
     "jatim_case_high_active": 0,
-    "luar_jatim_news": 6,
-    "youtube_today": 26
+    "luar_jatim_news": 11,
+    "youtube_today": 81
   }
 }
