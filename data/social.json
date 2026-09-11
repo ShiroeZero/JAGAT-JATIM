@@ -1,21 +1,21 @@
 {
-  "generated_at": "2026-09-11T17:04:04.725597+00:00",
+  "generated_at": "2026-09-11T20:16:55.398116+00:00",
   "platform": "YouTube",
-  "query_cursor": 6,
+  "query_cursor": 9,
   "query_batch_size": 3,
   "query_success": 3,
   "query_skipped": 0,
   "quota_warning": false,
   "quota_block_date": null,
   "total": 1500,
-  "new_videos": 28,
+  "new_videos": 2,
   "statistics": {
     "total": 1500,
-    "jatim": 88,
+    "jatim": 89,
     "negative": 590,
-    "incident": 36,
+    "incident": 37,
     "case": 235,
-    "neutral": 621,
+    "neutral": 622,
     "noise": 12,
     "high_priority": 281
   },
@@ -361,6 +361,34 @@
       "location_evidence": [],
       "priority": "low",
       "collected_at": "2026-09-11T17:04:04.725597+00:00"
+    },
+    {
+      "id": "dcb6d5f126990010d09760632324fbc4591a8886",
+      "video_id": "705px0lGpUA",
+      "platform": "YouTube",
+      "type": "video",
+      "title": "Viral! Polisi Cepek Diduga Dianiaya Sopir dan Kenek Truk di Sidoarjo",
+      "channel": "JTV Jember",
+      "published_at": "2026-09-11T10:12:07Z",
+      "url": "https://www.youtube.com/watch?v=705px0lGpUA",
+      "thumbnail": "https://i.ytimg.com/vi/705px0lGpUA/hqdefault.jpg",
+      "description": "JTV JEMBER -Viral! Seorang polisi cepek diduga menjadi korban penganiayaan oleh sopir dan kenek truk wingbox di Jalan ...",
+      "relevance": "high",
+      "scope": "incident",
+      "category": "Peristiwa Melibatkan Polisi",
+      "classification_score": 70,
+      "is_jatim": true,
+      "region": "Jawa Timur",
+      "polres": "POLRESTA SIDOARJO",
+      "location_confidence": 100,
+      "location_source": "polres",
+      "location_evidence": [
+        "sidoarjo",
+        "sidoarjo",
+        "jember"
+      ],
+      "priority": "low",
+      "collected_at": "2026-09-11T20:16:55.398116+00:00"
     },
     {
       "id": "0135acb183d086e62d84d1c1da02e4813bf74452",
@@ -1110,7 +1138,7 @@
       "location_source": null,
       "location_evidence": [],
       "priority": "medium",
-      "collected_at": "2026-09-11T06:26:00.708533+00:00"
+      "collected_at": "2026-09-11T20:16:55.398116+00:00"
     },
     {
       "id": "3207d4eb903a70776a6c62dbdb1d1b982166c0d5",
@@ -1313,6 +1341,30 @@
       "location_evidence": [],
       "priority": "low",
       "collected_at": "2026-09-11T11:56:50.375193+00:00"
+    },
+    {
+      "id": "35c71630d20e5e4a0bbf939ef2e576aa6b61bd16",
+      "video_id": "UsR1Nh4prWw",
+      "platform": "YouTube",
+      "type": "video",
+      "title": "Police searching for man accused of battery in Otay Mesa",
+      "channel": "FOX 5 San Diego",
+      "published_at": "2026-09-10T23:15:49Z",
+      "url": "https://www.youtube.com/watch?v=UsR1Nh4prWw",
+      "thumbnail": "https://i.ytimg.com/vi/UsR1Nh4prWw/hqdefault.jpg",
+      "description": "The man got into an altercation with someone else at an Otay Mesa parking lot over parking fees, authorities said. Follow FOX 5 ...",
+      "relevance": "low",
+      "scope": "neutral",
+      "category": "Tidak Relevan",
+      "classification_score": 0,
+      "is_jatim": false,
+      "region": "Indonesia",
+      "polres": null,
+      "location_confidence": 0,
+      "location_source": null,
+      "location_evidence": [],
+      "priority": "low",
+      "collected_at": "2026-09-11T20:16:55.398116+00:00"
     },
     {
       "id": "47c1719b024e221f36a1db616e5b73dc55a461d6",
@@ -2063,7 +2115,7 @@
       "location_source": null,
       "location_evidence": [],
       "priority": "medium",
-      "collected_at": "2026-09-11T06:26:00.708533+00:00"
+      "collected_at": "2026-09-11T20:16:55.398116+00:00"
     },
     {
       "id": "edb6fa05b3afb8381e22aa9f20229aafbba12d2d",
@@ -2087,7 +2139,7 @@
       "location_source": null,
       "location_evidence": [],
       "priority": "medium",
-      "collected_at": "2026-09-11T06:26:00.708533+00:00"
+      "collected_at": "2026-09-11T20:16:55.398116+00:00"
     },
     {
       "id": "fb0442eac505d0d6992aa377d2ebb1aff30fa9f4",
@@ -2233,7 +2285,7 @@
         "LUAR:bali"
       ],
       "priority": "medium",
-      "collected_at": "2026-09-11T06:26:00.708533+00:00"
+      "collected_at": "2026-09-11T20:16:55.398116+00:00"
     },
     {
       "id": "ef0d2ef23e4eba7b9a0f819f119f709e064ce3f7",
@@ -2281,7 +2333,7 @@
       "location_source": null,
       "location_evidence": [],
       "priority": "medium",
-      "collected_at": "2026-09-11T11:56:50.375193+00:00"
+      "collected_at": "2026-09-11T20:16:55.398116+00:00"
     },
     {
       "id": "9e363d189e4320572e6ece715a131079ed6ded8f",
@@ -36808,62 +36860,6 @@
       "id": "dea21aa750725220b644f8fe774e50f149c53d14",
       "relevance": "high",
       "classification_score": 100
-    },
-    {
-      "video_id": "bYvq0UlTwcM",
-      "platform": "YouTube",
-      "type": "video",
-      "title": "Situasi Mencekam! Gerebek Buronan Narkoba Berujung Baku Tembak, 3 Polisi Terluka",
-      "channel": "Pintas1",
-      "published_at": "2026-08-26T07:07:56Z",
-      "url": "https://www.youtube.com/watch?v=bYvq0UlTwcM",
-      "thumbnail": "https://i.ytimg.com/vi/bYvq0UlTwcM/hqdefault.jpg",
-      "description": "Lampung Utara I PINTAS1.com - Kontak senjata sengit pecah saat anggota Satresnarkoba Polres Lampung Utara menggerebek ...",
-      "scope": null,
-      "category": null,
-      "role": null,
-      "classification_confidence": null,
-      "classification_reason": [],
-      "is_jatim": null,
-      "region": null,
-      "polres": null,
-      "location_confidence": null,
-      "location_source": null,
-      "location_evidence": [],
-      "priority": null,
-      "processing_status": "new",
-      "classifier_version": null,
-      "classified_at": null,
-      "case_id": null,
-      "collected_at": "2026-08-26T10:50:12.356080+00:00"
-    },
-    {
-      "video_id": "U_sZnpt4BuM",
-      "platform": "YouTube",
-      "type": "video",
-      "title": "Polisi Tetapkan Revaldo Fifaldi Tersangka Kasus Narkoba #revaldo #narkoba",
-      "channel": "Berita Trending",
-      "published_at": "2026-08-26T06:57:47Z",
-      "url": "https://www.youtube.com/watch?v=U_sZnpt4BuM",
-      "thumbnail": "https://i.ytimg.com/vi/U_sZnpt4BuM/hqdefault.jpg",
-      "description": "",
-      "scope": null,
-      "category": null,
-      "role": null,
-      "classification_confidence": null,
-      "classification_reason": [],
-      "is_jatim": null,
-      "region": null,
-      "polres": null,
-      "location_confidence": null,
-      "location_source": null,
-      "location_evidence": [],
-      "priority": null,
-      "processing_status": "new",
-      "classifier_version": null,
-      "classified_at": null,
-      "case_id": null,
-      "collected_at": "2026-08-26T10:50:12.356080+00:00"
     }
   ]
 }

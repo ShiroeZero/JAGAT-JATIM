@@ -2,36 +2,1243 @@
   "schema_version": "today-v3",
   "date": "2026-09-12",
   "timezone": "Asia/Jakarta",
-  "updated_at": "2026-09-12T00:04:05.882764+07:00",
-  "last_successful_update": "2026-09-12T00:04:05.882764+07:00",
+  "updated_at": "2026-09-12T03:16:56.337822+07:00",
+  "last_successful_update": "2026-09-12T03:16:56.337822+07:00",
   "news": {
-    "detected": 0,
-    "negative": 0,
+    "detected": 5,
+    "negative": 3,
     "positive": 0,
     "case": 0,
-    "neutral": 0,
-    "jatim": 0,
-    "luar_jatim": 0,
+    "neutral": 2,
+    "jatim": 1,
+    "luar_jatim": 4,
     "priority_high": 0,
-    "article_ids": [],
-    "items": [],
-    "jatim_items": [],
-    "luar_jatim_items": []
+    "article_ids": [
+      "fc02b3d397377705b2e3fb928936479dc9f9c887",
+      "ad55dfd64ef1f39fe8be06562c3f1f6df0b447ee",
+      "5ab3aa3752b581233f866f7645e8aca69231ed66",
+      "8948a1cec2c97160ad2fcb8d9d2956a18efb5577",
+      "9421511af6a5d3ea72c134373811bb3574fb3669"
+    ],
+    "items": [
+      {
+        "id": "fc02b3d397377705b2e3fb928936479dc9f9c887",
+        "title": "Polresta Pati ungkap kekerasan seksual di lembaga pendidikan - ANTARA News Jateng",
+        "url": "https://jateng.antaranews.com/berita/644948/polresta-pati-ungkap-kekerasan-seksual-di-lembaga-pendidikan",
+        "source": "ANTARA News Jateng",
+        "published_at": "2026-09-11T18:17:04+00:00",
+        "collected_at": "2026-09-11T19:44:54.996991+00:00",
+        "region": "BELUM TERPETAKAN",
+        "area_label": "BELUM TERPETAKAN",
+        "is_jatim": null,
+        "polres": null,
+        "category": "NEGATIF - KEJAHATAN SEKSUAL",
+        "scope": "negative",
+        "scope_label": "Negatif",
+        "priority": "low",
+        "summary": "Polresta Pati ungkap kekerasan seksual di lembaga pendidikan ANTARA News Jateng",
+        "processing_status": "processed",
+        "classifier_version": "news-v6",
+        "classified_at": "2026-09-11T19:44:54.996991+00:00",
+        "case_id": "CASE-001324",
+        "discovery_families": [
+          "ethics_personal_misconduct"
+        ],
+        "discovery_tags": [
+          "ethics",
+          "sexual_misconduct",
+          "violence"
+        ],
+        "discovery_hits": [
+          "kekerasan seksual"
+        ],
+        "discovery_version": "discovery-v6.5.4",
+        "google_news_url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPdEVpc0JWWGkxejh2bEp2Zmw4MnBCRElzdkhPTTUtYk4tSk4zZ3pWVlFVZnVlbXZfS1ZXbXpiaEEwTG9VYUcyOVpBalVEQkRpY1pZOGJCdHJOWjdjcjM5Rjd4OTdtS1lyTXRTS1Z2MzIxNVNuSFI2Z1VFT3BYMnV0QjJYWk90LS1samxWM0d6V1VvREc3VGVtMEsxTTJNSkMydEk4MlpZNA?oc=5",
+        "original_url": "https://jateng.antaranews.com/berita/644948/polresta-pati-ungkap-kekerasan-seksual-di-lembaga-pendidikan",
+        "locality": "",
+        "polsek": null,
+        "location_confidence": 0,
+        "location_evidence": [],
+        "location_status": "BELUM_TERPETAKAN",
+        "location_source": "title",
+        "issue_type": "KEJAHATAN_SEKSUAL",
+        "issue_subtype": "Kejahatan Seksual",
+        "issue_evidence": [
+          "kekerasan seksual"
+        ],
+        "handling_status": "BELUM_ADA_INFORMASI",
+        "handling_evidence": [],
+        "attention_score": 27,
+        "attention_label": "Rendah",
+        "attention_components": {
+          "severity": 14,
+          "polri_relation": 2,
+          "authority": 0,
+          "public_impact": 10,
+          "handling": 0,
+          "evidence": 1,
+          "context_risk": 0,
+          "routine_enforcement_cap": null
+        },
+        "attention_evidence": {
+          "severity": [
+            "kekerasan berat"
+          ],
+          "authority": [],
+          "public_impact": [
+            "dampak peristiwa"
+          ],
+          "evidence": [
+            "satu sumber / informasi awal"
+          ],
+          "role": [
+            "Polri sebagai pihak penindak"
+          ],
+          "issue": [
+            "kekerasan seksual"
+          ],
+          "handling": [],
+          "context": [],
+          "positive": []
+        },
+        "case_engine_version": "case-v6.5.4",
+        "case_processed_at": "2026-09-11T20:16:54.925818+00:00"
+      },
+      {
+        "id": "ad55dfd64ef1f39fe8be06562c3f1f6df0b447ee",
+        "title": "Sempat Digeruduk Massa, Pengasuh Pesantren di Pati Ditahan Polisi - Liputan6.com",
+        "url": "https://www.liputan6.com/regional/read/8290115/sempat-digeruduk-massa-pengasuh-pesantren-di-pati-ditahan-polisi",
+        "source": "Liputan6.com",
+        "published_at": "2026-09-11T17:33:42+00:00",
+        "collected_at": "2026-09-11T19:44:54.996991+00:00",
+        "region": "BELUM TERPETAKAN",
+        "area_label": "BELUM TERPETAKAN",
+        "is_jatim": null,
+        "polres": null,
+        "category": "NETRAL / LAINNYA",
+        "scope": "neutral",
+        "scope_label": "Netral",
+        "priority": "low",
+        "summary": "Sempat Digeruduk Massa, Pengasuh Pesantren di Pati Ditahan Polisi Liputan6.com",
+        "processing_status": "processed",
+        "classifier_version": "news-v6",
+        "classified_at": "2026-09-11T19:44:54.996991+00:00",
+        "case_id": null,
+        "discovery_families": [],
+        "discovery_tags": [],
+        "discovery_hits": [],
+        "discovery_version": "discovery-v6.5.4",
+        "google_news_url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPMjYzYVJNMG82T285dEtRSUpXWWdZYjBlRlUxQTltbjQwYWg1WEVyeTk5aXdObjdLNHlHc2hyb05qN1BDWWM2UjdUWmoxUWMxcHRaODhqUmhYYko0Mi0zVGpZek1kXy1OUXNCcVpuRVlBYkVIdkRXNkdPR0t3aXkzYzdDcnpvVExjYmFtV2prbWJDUHYxQUxxeng2bUJ5c091YmJQa3dUdHdVWW5YVHN1VNIBowFBVV95cUxOZ3V0SThyUzdLVzYzRHhwZGlfWnVtWDZ3cGd3bVh2NGZrc1dkNFZjQ1k4MlY2Q2psQXpVTEdIWWtWbUhBM3BfLVlnUjczTVR5TC1vRmstVGpZWksyN3I5a3ZkLUZjVmFDOGc3RXpMS3JscldpYmpiQjk4eU1WS0lqUEkxbjhwa2VQakZQOG9zTm1LYWtBWFkwMmFsTUI5ZUFsVU9r?oc=5",
+        "original_url": "https://www.liputan6.com/regional/read/8290115/sempat-digeruduk-massa-pengasuh-pesantren-di-pati-ditahan-polisi",
+        "locality": "",
+        "polsek": null,
+        "location_confidence": 0,
+        "location_evidence": [],
+        "location_status": "BELUM_TERPETAKAN",
+        "location_source": "title",
+        "issue_type": "UMUM",
+        "issue_subtype": "Belum Teridentifikasi",
+        "issue_evidence": [],
+        "handling_status": "SUDAH_DITINDAK",
+        "handling_evidence": [
+          "ditahan"
+        ],
+        "attention_score": 9,
+        "attention_label": "Rendah",
+        "attention_components": {
+          "severity": 2,
+          "polri_relation": 0,
+          "authority": 0,
+          "public_impact": 4,
+          "handling": 2,
+          "evidence": 1,
+          "context_risk": 0,
+          "routine_enforcement_cap": null
+        },
+        "attention_evidence": {
+          "severity": [],
+          "authority": [],
+          "public_impact": [],
+          "evidence": [
+            "satu sumber / informasi awal"
+          ],
+          "role": [],
+          "issue": [],
+          "handling": [
+            "ditahan"
+          ],
+          "context": [],
+          "positive": []
+        },
+        "case_engine_version": "case-v6.5.4",
+        "case_processed_at": "2026-09-11T19:52:57.735678+00:00"
+      },
+      {
+        "id": "5ab3aa3752b581233f866f7645e8aca69231ed66",
+        "title": "Aduan Tambang Ilegal di Sumberagung Tulungagung Terjawab, Satreskrim Pastikan Operasional CV Kironggo Bangkit Jaya Berizin - Nusantara Abadi News",
+        "url": "https://nusantaraabadinews.com/2026/09/11/aduan-tambang-ilegal-di-sumberagung-tulungagung-terjawab-satreskrim-pastikan-operasional-cv-kironggo-bangkit-jaya-berizin/",
+        "source": "Nusantara Abadi News",
+        "published_at": "2026-09-11T17:27:10+00:00",
+        "collected_at": "2026-09-11T19:44:54.996991+00:00",
+        "region": "Jawa Timur",
+        "area_label": "Tulungagung",
+        "is_jatim": true,
+        "polres": null,
+        "category": "NEGATIF - AKTIVITAS ILEGAL",
+        "scope": "negative",
+        "scope_label": "Negatif",
+        "priority": "low",
+        "summary": "Aduan Tambang Ilegal di Sumberagung Tulungagung Terjawab, Satreskrim Pastikan Operasional CV Kironggo Bangkit Jaya Berizin Nusantara Abadi News",
+        "processing_status": "processed",
+        "classifier_version": "news-v6",
+        "classified_at": "2026-09-11T19:44:54.996991+00:00",
+        "case_id": "CASE-001325",
+        "discovery_families": [
+          "illegal_activity_backing"
+        ],
+        "discovery_tags": [
+          "backing",
+          "illegal_activity",
+          "public_order"
+        ],
+        "discovery_hits": [
+          "tambang ilegal"
+        ],
+        "discovery_version": "discovery-v6.5.4",
+        "google_news_url": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxOMGVEVFc1V0tYUmhvOXNtVGpKbUZfRjZJdmhGSzZhNjJ0Q0Zqb2V2T01YMzNybGRqR0s3ODVWNTVXYnZ2QkFmS2xOcEp3X2xxMFVRellKT19QTmpXQzNrc0htSFFfbzlTOUx4VDBVN1J3M1lqYkRjVERHRS12TTlQV0xuMW8zaEp5UnBpbkl5anRhLUNGdTZSOE5lOE1qMW4wRWYtM0w2RE54dzlqNGVWalM3blNvdnVrNzluV0RIUUJkREVUbk5sZ2R3VVJ4RUdVWnNzblB6TlZCRVAySXNfZVpRa0YzTjlobk1BVl8xWUNtc2EzcTRN?oc=5",
+        "original_url": "https://nusantaraabadinews.com/2026/09/11/aduan-tambang-ilegal-di-sumberagung-tulungagung-terjawab-satreskrim-pastikan-operasional-cv-kironggo-bangkit-jaya-berizin/",
+        "locality": "Tulungagung",
+        "polsek": null,
+        "location_confidence": 95,
+        "location_evidence": [
+          "Tulungagung"
+        ],
+        "location_status": "JAWA_TIMUR",
+        "location_source": "title",
+        "issue_type": "AKTIVITAS_ILEGAL",
+        "issue_subtype": "Aktivitas Ilegal",
+        "issue_evidence": [
+          "tambang ilegal",
+          "ilegal"
+        ],
+        "handling_status": "BELUM_ADA_INFORMASI",
+        "handling_evidence": [],
+        "attention_score": 19,
+        "attention_label": "Rendah",
+        "attention_components": {
+          "severity": 14,
+          "polri_relation": 0,
+          "authority": 0,
+          "public_impact": 4,
+          "handling": 0,
+          "evidence": 1,
+          "context_risk": 0,
+          "routine_enforcement_cap": null
+        },
+        "attention_evidence": {
+          "severity": [],
+          "authority": [],
+          "public_impact": [],
+          "evidence": [
+            "satu sumber / informasi awal"
+          ],
+          "role": [],
+          "issue": [
+            "tambang ilegal",
+            "ilegal"
+          ],
+          "handling": [],
+          "context": [],
+          "positive": []
+        },
+        "case_engine_version": "case-v6.5.4",
+        "case_processed_at": "2026-09-11T20:16:54.925824+00:00"
+      },
+      {
+        "id": "8948a1cec2c97160ad2fcb8d9d2956a18efb5577",
+        "title": "Jadi Kurir Narkoba, Seorang Satpam Bank di Padangsidimpuan Ditangkap Polisi | BERUT - Kompas.tv",
+        "url": "https://www.kompas.tv/regional/690237/jadi-kurir-narkoba-seorang-satpam-bank-di-padangsidimpuan-ditangkap-polisi-berut",
+        "source": "Kompas.tv",
+        "published_at": "2026-09-11T16:59:00+00:00",
+        "collected_at": "2026-09-11T19:44:54.996991+00:00",
+        "region": "BELUM TERPETAKAN",
+        "area_label": "BELUM TERPETAKAN",
+        "is_jatim": null,
+        "polres": null,
+        "category": "NEGATIF - NARKOBA / NARKOTIKA",
+        "scope": "negative",
+        "scope_label": "Negatif",
+        "priority": "low",
+        "summary": "Jadi Kurir Narkoba, Seorang Satpam Bank di Padangsidimpuan Ditangkap Polisi | BERUT Kompas.tv",
+        "processing_status": "processed",
+        "classifier_version": "news-v6",
+        "classified_at": "2026-09-11T19:44:54.996991+00:00",
+        "case_id": "CASE-001326",
+        "discovery_families": [],
+        "discovery_tags": [],
+        "discovery_hits": [],
+        "discovery_version": "discovery-v6.5.4",
+        "google_news_url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPUktJMlI5UDV3Y1duME4wU1BRZGZmN25hUHhYU1lUbkltVzVHYW5Tb1Z3c05sa2FNS3JfalpQUVkwSkpIRjhvc20zdVpGQ3g5U29lY2xDWXk0V25Id3dTcmt2S1duOFk1MWhhcmJ3VHBWQlNubXFvSE1iVjJxSEczelFORnJ2ZlNHVGJBaV93X2U5eWxwWGFWWF91ZTlXVHR0WnFjYl9RY09aVjRwYXhZTXNJLWgxMUhSSHfSAb8BQVVfeXFMTnNoNGtkazc0STFManp3QWNDQkh1cFhmU1hjck9YUDNNZXBsOVUwRWhqcGpKd1VIR1RoOWVoVVU1a2VJakd1dTZvR1k5QTlpa0hMMF82dVk1dG5mN21tbE51aEJHbUpMTzNiQlYtUjNGV1NyYU1nZkVfZTNQT2dXWk83Q3NveVg4NlBLdERIU2pxbkRKSmZpeS1qOHljM25GRm9Hdm9RbFg0QTdnMlVFa3lVemVHUkFIanprVy1kaWc?oc=5",
+        "original_url": "https://www.kompas.tv/regional/690237/jadi-kurir-narkoba-seorang-satpam-bank-di-padangsidimpuan-ditangkap-polisi-berut",
+        "locality": "",
+        "polsek": null,
+        "location_confidence": 0,
+        "location_evidence": [],
+        "location_status": "BELUM_TERPETAKAN",
+        "location_source": "title",
+        "issue_type": "NARKOBA",
+        "issue_subtype": "Narkoba / Narkotika",
+        "issue_evidence": [
+          "narkoba"
+        ],
+        "handling_status": "BELUM_ADA_INFORMASI",
+        "handling_evidence": [],
+        "attention_score": 16,
+        "attention_label": "Rendah",
+        "attention_components": {
+          "severity": 11,
+          "polri_relation": 0,
+          "authority": 0,
+          "public_impact": 4,
+          "handling": 0,
+          "evidence": 1,
+          "context_risk": 0,
+          "routine_enforcement_cap": null
+        },
+        "attention_evidence": {
+          "severity": [],
+          "authority": [],
+          "public_impact": [],
+          "evidence": [
+            "satu sumber / informasi awal"
+          ],
+          "role": [],
+          "issue": [
+            "narkoba"
+          ],
+          "handling": [],
+          "context": [],
+          "positive": []
+        },
+        "case_engine_version": "case-v6.5.4",
+        "case_processed_at": "2026-09-11T20:16:54.925826+00:00"
+      },
+      {
+        "id": "9421511af6a5d3ea72c134373811bb3574fb3669",
+        "title": "Mengenal AKP Muhamad Kevin Ramadhan, Rekam Jejak Pendidikan dan Karier Cemerlang Perwira Polri - ketik.com",
+        "url": "https://ketik.com/gresik/ketik-sosok/mengenal-akp-muhamad-kevin-ramadhan-rekam-jejak-pendidikan-dan-karier-cemerlang-perwira-polri",
+        "source": "ketik.com",
+        "published_at": "2026-09-11T16:40:00+00:00",
+        "collected_at": "2026-09-11T19:44:54.996991+00:00",
+        "region": "BELUM TERPETAKAN",
+        "area_label": "BELUM TERPETAKAN",
+        "is_jatim": null,
+        "polres": null,
+        "category": "NETRAL / LAINNYA",
+        "scope": "neutral",
+        "scope_label": "Netral",
+        "priority": "low",
+        "summary": "Mengenal AKP Muhamad Kevin Ramadhan, Rekam Jejak Pendidikan dan Karier Cemerlang Perwira Polri ketik.com",
+        "processing_status": "processed",
+        "classifier_version": "news-v6",
+        "classified_at": "2026-09-11T19:44:54.996991+00:00",
+        "case_id": null,
+        "discovery_families": [],
+        "discovery_tags": [],
+        "discovery_hits": [],
+        "discovery_version": "discovery-v6.5.4",
+        "google_news_url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQQmhqWW9TY25JOVdBaXRNSjZkc0M0TWpFTVdhc3YzcDlmRnVLOXd4dHE5dk15UmJ6cXI0QlVJODUtUjNTZlVHZU5nZjZMZXdlRFQxbGZ3OE5NS2ZhQmtWTHRaVnVTY2ZYSTVsRmFUc0FXT2t4cEF2STE5R1NjSzJZc3QxVkpMZDRjTmtFcHpXTzQ3WlNtU2NPYXp3NjlWOTRKYmx3dGV2NTRaVXhpa1h0YzBlNkZIVkZFWXFGTnhyUkFNaF9qR1NfZW9B?oc=5",
+        "original_url": "https://ketik.com/gresik/ketik-sosok/mengenal-akp-muhamad-kevin-ramadhan-rekam-jejak-pendidikan-dan-karier-cemerlang-perwira-polri",
+        "locality": "",
+        "polsek": null,
+        "location_confidence": 0,
+        "location_evidence": [],
+        "location_status": "BELUM_TERPETAKAN",
+        "location_source": "title",
+        "issue_type": "UMUM",
+        "issue_subtype": "Belum Teridentifikasi",
+        "issue_evidence": [],
+        "handling_status": "BELUM_ADA_INFORMASI",
+        "handling_evidence": [],
+        "attention_score": 11,
+        "attention_label": "Rendah",
+        "attention_components": {
+          "severity": 2,
+          "polri_relation": 0,
+          "authority": 4,
+          "public_impact": 4,
+          "handling": 0,
+          "evidence": 1,
+          "context_risk": 0,
+          "routine_enforcement_cap": null
+        },
+        "attention_evidence": {
+          "severity": [],
+          "authority": [
+            "perwira"
+          ],
+          "public_impact": [],
+          "evidence": [
+            "satu sumber / informasi awal"
+          ],
+          "role": [],
+          "issue": [],
+          "handling": [],
+          "context": [],
+          "positive": []
+        },
+        "case_engine_version": "case-v6.5.4",
+        "case_processed_at": "2026-09-11T19:52:58.211042+00:00"
+      }
+    ],
+    "jatim_items": [
+      {
+        "id": "5ab3aa3752b581233f866f7645e8aca69231ed66",
+        "title": "Aduan Tambang Ilegal di Sumberagung Tulungagung Terjawab, Satreskrim Pastikan Operasional CV Kironggo Bangkit Jaya Berizin - Nusantara Abadi News",
+        "url": "https://nusantaraabadinews.com/2026/09/11/aduan-tambang-ilegal-di-sumberagung-tulungagung-terjawab-satreskrim-pastikan-operasional-cv-kironggo-bangkit-jaya-berizin/",
+        "source": "Nusantara Abadi News",
+        "published_at": "2026-09-11T17:27:10+00:00",
+        "collected_at": "2026-09-11T19:44:54.996991+00:00",
+        "region": "Jawa Timur",
+        "area_label": "Tulungagung",
+        "is_jatim": true,
+        "polres": null,
+        "category": "NEGATIF - AKTIVITAS ILEGAL",
+        "scope": "negative",
+        "scope_label": "Negatif",
+        "priority": "low",
+        "summary": "Aduan Tambang Ilegal di Sumberagung Tulungagung Terjawab, Satreskrim Pastikan Operasional CV Kironggo Bangkit Jaya Berizin Nusantara Abadi News",
+        "processing_status": "processed",
+        "classifier_version": "news-v6",
+        "classified_at": "2026-09-11T19:44:54.996991+00:00",
+        "case_id": "CASE-001325",
+        "discovery_families": [
+          "illegal_activity_backing"
+        ],
+        "discovery_tags": [
+          "backing",
+          "illegal_activity",
+          "public_order"
+        ],
+        "discovery_hits": [
+          "tambang ilegal"
+        ],
+        "discovery_version": "discovery-v6.5.4",
+        "google_news_url": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxOMGVEVFc1V0tYUmhvOXNtVGpKbUZfRjZJdmhGSzZhNjJ0Q0Zqb2V2T01YMzNybGRqR0s3ODVWNTVXYnZ2QkFmS2xOcEp3X2xxMFVRellKT19QTmpXQzNrc0htSFFfbzlTOUx4VDBVN1J3M1lqYkRjVERHRS12TTlQV0xuMW8zaEp5UnBpbkl5anRhLUNGdTZSOE5lOE1qMW4wRWYtM0w2RE54dzlqNGVWalM3blNvdnVrNzluV0RIUUJkREVUbk5sZ2R3VVJ4RUdVWnNzblB6TlZCRVAySXNfZVpRa0YzTjlobk1BVl8xWUNtc2EzcTRN?oc=5",
+        "original_url": "https://nusantaraabadinews.com/2026/09/11/aduan-tambang-ilegal-di-sumberagung-tulungagung-terjawab-satreskrim-pastikan-operasional-cv-kironggo-bangkit-jaya-berizin/",
+        "locality": "Tulungagung",
+        "polsek": null,
+        "location_confidence": 95,
+        "location_evidence": [
+          "Tulungagung"
+        ],
+        "location_status": "JAWA_TIMUR",
+        "location_source": "title",
+        "issue_type": "AKTIVITAS_ILEGAL",
+        "issue_subtype": "Aktivitas Ilegal",
+        "issue_evidence": [
+          "tambang ilegal",
+          "ilegal"
+        ],
+        "handling_status": "BELUM_ADA_INFORMASI",
+        "handling_evidence": [],
+        "attention_score": 19,
+        "attention_label": "Rendah",
+        "attention_components": {
+          "severity": 14,
+          "polri_relation": 0,
+          "authority": 0,
+          "public_impact": 4,
+          "handling": 0,
+          "evidence": 1,
+          "context_risk": 0,
+          "routine_enforcement_cap": null
+        },
+        "attention_evidence": {
+          "severity": [],
+          "authority": [],
+          "public_impact": [],
+          "evidence": [
+            "satu sumber / informasi awal"
+          ],
+          "role": [],
+          "issue": [
+            "tambang ilegal",
+            "ilegal"
+          ],
+          "handling": [],
+          "context": [],
+          "positive": []
+        },
+        "case_engine_version": "case-v6.5.4",
+        "case_processed_at": "2026-09-11T20:16:54.925824+00:00"
+      }
+    ],
+    "luar_jatim_items": [
+      {
+        "id": "fc02b3d397377705b2e3fb928936479dc9f9c887",
+        "title": "Polresta Pati ungkap kekerasan seksual di lembaga pendidikan - ANTARA News Jateng",
+        "url": "https://jateng.antaranews.com/berita/644948/polresta-pati-ungkap-kekerasan-seksual-di-lembaga-pendidikan",
+        "source": "ANTARA News Jateng",
+        "published_at": "2026-09-11T18:17:04+00:00",
+        "collected_at": "2026-09-11T19:44:54.996991+00:00",
+        "region": "BELUM TERPETAKAN",
+        "area_label": "BELUM TERPETAKAN",
+        "is_jatim": null,
+        "polres": null,
+        "category": "NEGATIF - KEJAHATAN SEKSUAL",
+        "scope": "negative",
+        "scope_label": "Negatif",
+        "priority": "low",
+        "summary": "Polresta Pati ungkap kekerasan seksual di lembaga pendidikan ANTARA News Jateng",
+        "processing_status": "processed",
+        "classifier_version": "news-v6",
+        "classified_at": "2026-09-11T19:44:54.996991+00:00",
+        "case_id": "CASE-001324",
+        "discovery_families": [
+          "ethics_personal_misconduct"
+        ],
+        "discovery_tags": [
+          "ethics",
+          "sexual_misconduct",
+          "violence"
+        ],
+        "discovery_hits": [
+          "kekerasan seksual"
+        ],
+        "discovery_version": "discovery-v6.5.4",
+        "google_news_url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPdEVpc0JWWGkxejh2bEp2Zmw4MnBCRElzdkhPTTUtYk4tSk4zZ3pWVlFVZnVlbXZfS1ZXbXpiaEEwTG9VYUcyOVpBalVEQkRpY1pZOGJCdHJOWjdjcjM5Rjd4OTdtS1lyTXRTS1Z2MzIxNVNuSFI2Z1VFT3BYMnV0QjJYWk90LS1samxWM0d6V1VvREc3VGVtMEsxTTJNSkMydEk4MlpZNA?oc=5",
+        "original_url": "https://jateng.antaranews.com/berita/644948/polresta-pati-ungkap-kekerasan-seksual-di-lembaga-pendidikan",
+        "locality": "",
+        "polsek": null,
+        "location_confidence": 0,
+        "location_evidence": [],
+        "location_status": "BELUM_TERPETAKAN",
+        "location_source": "title",
+        "issue_type": "KEJAHATAN_SEKSUAL",
+        "issue_subtype": "Kejahatan Seksual",
+        "issue_evidence": [
+          "kekerasan seksual"
+        ],
+        "handling_status": "BELUM_ADA_INFORMASI",
+        "handling_evidence": [],
+        "attention_score": 27,
+        "attention_label": "Rendah",
+        "attention_components": {
+          "severity": 14,
+          "polri_relation": 2,
+          "authority": 0,
+          "public_impact": 10,
+          "handling": 0,
+          "evidence": 1,
+          "context_risk": 0,
+          "routine_enforcement_cap": null
+        },
+        "attention_evidence": {
+          "severity": [
+            "kekerasan berat"
+          ],
+          "authority": [],
+          "public_impact": [
+            "dampak peristiwa"
+          ],
+          "evidence": [
+            "satu sumber / informasi awal"
+          ],
+          "role": [
+            "Polri sebagai pihak penindak"
+          ],
+          "issue": [
+            "kekerasan seksual"
+          ],
+          "handling": [],
+          "context": [],
+          "positive": []
+        },
+        "case_engine_version": "case-v6.5.4",
+        "case_processed_at": "2026-09-11T20:16:54.925818+00:00"
+      },
+      {
+        "id": "ad55dfd64ef1f39fe8be06562c3f1f6df0b447ee",
+        "title": "Sempat Digeruduk Massa, Pengasuh Pesantren di Pati Ditahan Polisi - Liputan6.com",
+        "url": "https://www.liputan6.com/regional/read/8290115/sempat-digeruduk-massa-pengasuh-pesantren-di-pati-ditahan-polisi",
+        "source": "Liputan6.com",
+        "published_at": "2026-09-11T17:33:42+00:00",
+        "collected_at": "2026-09-11T19:44:54.996991+00:00",
+        "region": "BELUM TERPETAKAN",
+        "area_label": "BELUM TERPETAKAN",
+        "is_jatim": null,
+        "polres": null,
+        "category": "NETRAL / LAINNYA",
+        "scope": "neutral",
+        "scope_label": "Netral",
+        "priority": "low",
+        "summary": "Sempat Digeruduk Massa, Pengasuh Pesantren di Pati Ditahan Polisi Liputan6.com",
+        "processing_status": "processed",
+        "classifier_version": "news-v6",
+        "classified_at": "2026-09-11T19:44:54.996991+00:00",
+        "case_id": null,
+        "discovery_families": [],
+        "discovery_tags": [],
+        "discovery_hits": [],
+        "discovery_version": "discovery-v6.5.4",
+        "google_news_url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPMjYzYVJNMG82T285dEtRSUpXWWdZYjBlRlUxQTltbjQwYWg1WEVyeTk5aXdObjdLNHlHc2hyb05qN1BDWWM2UjdUWmoxUWMxcHRaODhqUmhYYko0Mi0zVGpZek1kXy1OUXNCcVpuRVlBYkVIdkRXNkdPR0t3aXkzYzdDcnpvVExjYmFtV2prbWJDUHYxQUxxeng2bUJ5c091YmJQa3dUdHdVWW5YVHN1VNIBowFBVV95cUxOZ3V0SThyUzdLVzYzRHhwZGlfWnVtWDZ3cGd3bVh2NGZrc1dkNFZjQ1k4MlY2Q2psQXpVTEdIWWtWbUhBM3BfLVlnUjczTVR5TC1vRmstVGpZWksyN3I5a3ZkLUZjVmFDOGc3RXpMS3JscldpYmpiQjk4eU1WS0lqUEkxbjhwa2VQakZQOG9zTm1LYWtBWFkwMmFsTUI5ZUFsVU9r?oc=5",
+        "original_url": "https://www.liputan6.com/regional/read/8290115/sempat-digeruduk-massa-pengasuh-pesantren-di-pati-ditahan-polisi",
+        "locality": "",
+        "polsek": null,
+        "location_confidence": 0,
+        "location_evidence": [],
+        "location_status": "BELUM_TERPETAKAN",
+        "location_source": "title",
+        "issue_type": "UMUM",
+        "issue_subtype": "Belum Teridentifikasi",
+        "issue_evidence": [],
+        "handling_status": "SUDAH_DITINDAK",
+        "handling_evidence": [
+          "ditahan"
+        ],
+        "attention_score": 9,
+        "attention_label": "Rendah",
+        "attention_components": {
+          "severity": 2,
+          "polri_relation": 0,
+          "authority": 0,
+          "public_impact": 4,
+          "handling": 2,
+          "evidence": 1,
+          "context_risk": 0,
+          "routine_enforcement_cap": null
+        },
+        "attention_evidence": {
+          "severity": [],
+          "authority": [],
+          "public_impact": [],
+          "evidence": [
+            "satu sumber / informasi awal"
+          ],
+          "role": [],
+          "issue": [],
+          "handling": [
+            "ditahan"
+          ],
+          "context": [],
+          "positive": []
+        },
+        "case_engine_version": "case-v6.5.4",
+        "case_processed_at": "2026-09-11T19:52:57.735678+00:00"
+      },
+      {
+        "id": "8948a1cec2c97160ad2fcb8d9d2956a18efb5577",
+        "title": "Jadi Kurir Narkoba, Seorang Satpam Bank di Padangsidimpuan Ditangkap Polisi | BERUT - Kompas.tv",
+        "url": "https://www.kompas.tv/regional/690237/jadi-kurir-narkoba-seorang-satpam-bank-di-padangsidimpuan-ditangkap-polisi-berut",
+        "source": "Kompas.tv",
+        "published_at": "2026-09-11T16:59:00+00:00",
+        "collected_at": "2026-09-11T19:44:54.996991+00:00",
+        "region": "BELUM TERPETAKAN",
+        "area_label": "BELUM TERPETAKAN",
+        "is_jatim": null,
+        "polres": null,
+        "category": "NEGATIF - NARKOBA / NARKOTIKA",
+        "scope": "negative",
+        "scope_label": "Negatif",
+        "priority": "low",
+        "summary": "Jadi Kurir Narkoba, Seorang Satpam Bank di Padangsidimpuan Ditangkap Polisi | BERUT Kompas.tv",
+        "processing_status": "processed",
+        "classifier_version": "news-v6",
+        "classified_at": "2026-09-11T19:44:54.996991+00:00",
+        "case_id": "CASE-001326",
+        "discovery_families": [],
+        "discovery_tags": [],
+        "discovery_hits": [],
+        "discovery_version": "discovery-v6.5.4",
+        "google_news_url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPUktJMlI5UDV3Y1duME4wU1BRZGZmN25hUHhYU1lUbkltVzVHYW5Tb1Z3c05sa2FNS3JfalpQUVkwSkpIRjhvc20zdVpGQ3g5U29lY2xDWXk0V25Id3dTcmt2S1duOFk1MWhhcmJ3VHBWQlNubXFvSE1iVjJxSEczelFORnJ2ZlNHVGJBaV93X2U5eWxwWGFWWF91ZTlXVHR0WnFjYl9RY09aVjRwYXhZTXNJLWgxMUhSSHfSAb8BQVVfeXFMTnNoNGtkazc0STFManp3QWNDQkh1cFhmU1hjck9YUDNNZXBsOVUwRWhqcGpKd1VIR1RoOWVoVVU1a2VJakd1dTZvR1k5QTlpa0hMMF82dVk1dG5mN21tbE51aEJHbUpMTzNiQlYtUjNGV1NyYU1nZkVfZTNQT2dXWk83Q3NveVg4NlBLdERIU2pxbkRKSmZpeS1qOHljM25GRm9Hdm9RbFg0QTdnMlVFa3lVemVHUkFIanprVy1kaWc?oc=5",
+        "original_url": "https://www.kompas.tv/regional/690237/jadi-kurir-narkoba-seorang-satpam-bank-di-padangsidimpuan-ditangkap-polisi-berut",
+        "locality": "",
+        "polsek": null,
+        "location_confidence": 0,
+        "location_evidence": [],
+        "location_status": "BELUM_TERPETAKAN",
+        "location_source": "title",
+        "issue_type": "NARKOBA",
+        "issue_subtype": "Narkoba / Narkotika",
+        "issue_evidence": [
+          "narkoba"
+        ],
+        "handling_status": "BELUM_ADA_INFORMASI",
+        "handling_evidence": [],
+        "attention_score": 16,
+        "attention_label": "Rendah",
+        "attention_components": {
+          "severity": 11,
+          "polri_relation": 0,
+          "authority": 0,
+          "public_impact": 4,
+          "handling": 0,
+          "evidence": 1,
+          "context_risk": 0,
+          "routine_enforcement_cap": null
+        },
+        "attention_evidence": {
+          "severity": [],
+          "authority": [],
+          "public_impact": [],
+          "evidence": [
+            "satu sumber / informasi awal"
+          ],
+          "role": [],
+          "issue": [
+            "narkoba"
+          ],
+          "handling": [],
+          "context": [],
+          "positive": []
+        },
+        "case_engine_version": "case-v6.5.4",
+        "case_processed_at": "2026-09-11T20:16:54.925826+00:00"
+      },
+      {
+        "id": "9421511af6a5d3ea72c134373811bb3574fb3669",
+        "title": "Mengenal AKP Muhamad Kevin Ramadhan, Rekam Jejak Pendidikan dan Karier Cemerlang Perwira Polri - ketik.com",
+        "url": "https://ketik.com/gresik/ketik-sosok/mengenal-akp-muhamad-kevin-ramadhan-rekam-jejak-pendidikan-dan-karier-cemerlang-perwira-polri",
+        "source": "ketik.com",
+        "published_at": "2026-09-11T16:40:00+00:00",
+        "collected_at": "2026-09-11T19:44:54.996991+00:00",
+        "region": "BELUM TERPETAKAN",
+        "area_label": "BELUM TERPETAKAN",
+        "is_jatim": null,
+        "polres": null,
+        "category": "NETRAL / LAINNYA",
+        "scope": "neutral",
+        "scope_label": "Netral",
+        "priority": "low",
+        "summary": "Mengenal AKP Muhamad Kevin Ramadhan, Rekam Jejak Pendidikan dan Karier Cemerlang Perwira Polri ketik.com",
+        "processing_status": "processed",
+        "classifier_version": "news-v6",
+        "classified_at": "2026-09-11T19:44:54.996991+00:00",
+        "case_id": null,
+        "discovery_families": [],
+        "discovery_tags": [],
+        "discovery_hits": [],
+        "discovery_version": "discovery-v6.5.4",
+        "google_news_url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQQmhqWW9TY25JOVdBaXRNSjZkc0M0TWpFTVdhc3YzcDlmRnVLOXd4dHE5dk15UmJ6cXI0QlVJODUtUjNTZlVHZU5nZjZMZXdlRFQxbGZ3OE5NS2ZhQmtWTHRaVnVTY2ZYSTVsRmFUc0FXT2t4cEF2STE5R1NjSzJZc3QxVkpMZDRjTmtFcHpXTzQ3WlNtU2NPYXp3NjlWOTRKYmx3dGV2NTRaVXhpa1h0YzBlNkZIVkZFWXFGTnhyUkFNaF9qR1NfZW9B?oc=5",
+        "original_url": "https://ketik.com/gresik/ketik-sosok/mengenal-akp-muhamad-kevin-ramadhan-rekam-jejak-pendidikan-dan-karier-cemerlang-perwira-polri",
+        "locality": "",
+        "polsek": null,
+        "location_confidence": 0,
+        "location_evidence": [],
+        "location_status": "BELUM_TERPETAKAN",
+        "location_source": "title",
+        "issue_type": "UMUM",
+        "issue_subtype": "Belum Teridentifikasi",
+        "issue_evidence": [],
+        "handling_status": "BELUM_ADA_INFORMASI",
+        "handling_evidence": [],
+        "attention_score": 11,
+        "attention_label": "Rendah",
+        "attention_components": {
+          "severity": 2,
+          "polri_relation": 0,
+          "authority": 4,
+          "public_impact": 4,
+          "handling": 0,
+          "evidence": 1,
+          "context_risk": 0,
+          "routine_enforcement_cap": null
+        },
+        "attention_evidence": {
+          "severity": [],
+          "authority": [
+            "perwira"
+          ],
+          "public_impact": [],
+          "evidence": [
+            "satu sumber / informasi awal"
+          ],
+          "role": [],
+          "issue": [],
+          "handling": [],
+          "context": [],
+          "positive": []
+        },
+        "case_engine_version": "case-v6.5.4",
+        "case_processed_at": "2026-09-11T19:52:58.211042+00:00"
+      }
+    ]
   },
   "cases": {
-    "active": 0,
+    "active": 3,
     "priority_high": 0,
-    "jatim": 0,
+    "jatim": 1,
     "jatim_priority_high": 0,
-    "articles": 0,
-    "case_ids": [],
-    "items": [],
-    "jatim_items": []
+    "articles": 3,
+    "case_ids": [
+      "CASE-001324",
+      "CASE-001325",
+      "CASE-001326"
+    ],
+    "items": [
+      {
+        "case_id": "CASE-001324",
+        "title": "Polresta Pati ungkap kekerasan seksual di lembaga pendidikan - ANTARA News Jateng",
+        "category": "NEGATIF - KEJAHATAN SEKSUAL",
+        "scope": "negative",
+        "region": "BELUM TERPETAKAN",
+        "locality": "",
+        "is_jatim": null,
+        "polres": null,
+        "polsek": null,
+        "priority": "low",
+        "attention_score": 28,
+        "attention_label": "Rendah",
+        "signature": "BELUM TERPETAKAN",
+        "incident_terms": [
+          "antara",
+          "jateng",
+          "kekerasan",
+          "lembaga",
+          "news",
+          "pati",
+          "pendidikan",
+          "polresta",
+          "seksual"
+        ],
+        "event_terms": [
+          "kekerasan",
+          "seksual"
+        ],
+        "location_terms": [],
+        "discovery_families": [
+          "ethics_personal_misconduct"
+        ],
+        "first_seen": "2026-09-11T18:17:04+00:00",
+        "last_seen": "2026-09-11T19:44:54.996991+00:00",
+        "last_detected_at": "2026-09-11T19:44:54.996991+00:00",
+        "article_ids": [
+          "fc02b3d397377705b2e3fb928936479dc9f9c887"
+        ],
+        "articles": [
+          {
+            "id": "fc02b3d397377705b2e3fb928936479dc9f9c887",
+            "title": "Polresta Pati ungkap kekerasan seksual di lembaga pendidikan - ANTARA News Jateng",
+            "url": "https://jateng.antaranews.com/berita/644948/polresta-pati-ungkap-kekerasan-seksual-di-lembaga-pendidikan",
+            "published_at": "2026-09-11T18:17:04+00:00",
+            "collected_at": "2026-09-11T19:44:54.996991+00:00",
+            "source": "ANTARA News Jateng",
+            "match_score": 1.0,
+            "priority": "low",
+            "scope": "negative",
+            "category": "NEGATIF - KEJAHATAN SEKSUAL",
+            "region": "BELUM TERPETAKAN",
+            "locality": "",
+            "is_jatim": false,
+            "polres": null,
+            "polsek": null,
+            "issue_type": "KEJAHATAN_SEKSUAL",
+            "issue_subtype": "Kejahatan Seksual",
+            "handling_status": "BELUM_ADA_INFORMASI",
+            "handling_evidence": [],
+            "polri_relation": null,
+            "polri_relation_points": 0,
+            "polri_relation_evidence": [],
+            "attention_score": 27,
+            "attention_label": "Rendah",
+            "attention_components": {
+              "severity": 14,
+              "polri_relation": 2,
+              "authority": 0,
+              "public_impact": 10,
+              "handling": 0,
+              "evidence": 1,
+              "context_risk": 0,
+              "routine_enforcement_cap": null
+            }
+          }
+        ],
+        "article_count": 1,
+        "created_at": "2026-09-11T20:13:01.124803+00:00",
+        "updated_at": "2026-09-11T20:16:54.918835+00:00",
+        "engine_version": "case-v6.5.4",
+        "priority_score": 28,
+        "priority_breakdown": {
+          "severity": 14,
+          "polri_relation": 2,
+          "authority_context": 0,
+          "public_impact": 10,
+          "handling": 0,
+          "evidence": 1,
+          "spread": 0,
+          "escalation": 0,
+          "current_activity": 1,
+          "context_risk": 0
+        },
+        "priority_evidence": {
+          "unique_sources": 1,
+          "active_today_articles": 1,
+          "escalation": [],
+          "issue_type": "KEJAHATAN_SEKSUAL",
+          "issue_subtype": "Kejahatan Seksual",
+          "sentiment": "negative",
+          "polri_relation": "PENEGAKAN_HUKUM",
+          "handling_status": "BELUM_ADA_INFORMASI",
+          "reasons": [
+            "sifat berita: negatif",
+            "sifat berita: negatif",
+            "sifat berita: negatif",
+            "Kejahatan Seksual"
+          ]
+        }
+      },
+      {
+        "case_id": "CASE-001325",
+        "title": "Aduan Tambang Ilegal di Sumberagung Tulungagung Terjawab, Satreskrim Pastikan Operasional CV Kironggo Bangkit Jaya Berizin - Nusantara Abadi News",
+        "category": "NEGATIF - AKTIVITAS ILEGAL",
+        "scope": "negative",
+        "region": "Jawa Timur",
+        "locality": "Tulungagung",
+        "is_jatim": true,
+        "polres": null,
+        "polsek": null,
+        "priority": "low",
+        "attention_score": 20,
+        "attention_label": "Rendah",
+        "signature": "Jawa Timur",
+        "incident_terms": [
+          "abadi",
+          "aduan",
+          "bangkit",
+          "berizin",
+          "ilegal",
+          "jaya",
+          "kironggo",
+          "news",
+          "nusantara",
+          "operasional",
+          "pastikan",
+          "satreskrim",
+          "sumberagung",
+          "tambang",
+          "terjawab",
+          "tulungagung"
+        ],
+        "event_terms": [
+          "ilegal",
+          "tambang"
+        ],
+        "location_terms": [
+          "tulungagung"
+        ],
+        "discovery_families": [
+          "illegal_activity_backing"
+        ],
+        "first_seen": "2026-09-11T17:27:10+00:00",
+        "last_seen": "2026-09-11T19:44:54.996991+00:00",
+        "last_detected_at": "2026-09-11T19:44:54.996991+00:00",
+        "article_ids": [
+          "5ab3aa3752b581233f866f7645e8aca69231ed66"
+        ],
+        "articles": [
+          {
+            "id": "5ab3aa3752b581233f866f7645e8aca69231ed66",
+            "title": "Aduan Tambang Ilegal di Sumberagung Tulungagung Terjawab, Satreskrim Pastikan Operasional CV Kironggo Bangkit Jaya Berizin - Nusantara Abadi News",
+            "url": "https://nusantaraabadinews.com/2026/09/11/aduan-tambang-ilegal-di-sumberagung-tulungagung-terjawab-satreskrim-pastikan-operasional-cv-kironggo-bangkit-jaya-berizin/",
+            "published_at": "2026-09-11T17:27:10+00:00",
+            "collected_at": "2026-09-11T19:44:54.996991+00:00",
+            "source": "Nusantara Abadi News",
+            "match_score": 1.0,
+            "priority": "low",
+            "scope": "negative",
+            "category": "NEGATIF - AKTIVITAS ILEGAL",
+            "region": "Jawa Timur",
+            "locality": "Tulungagung",
+            "is_jatim": true,
+            "polres": null,
+            "polsek": null,
+            "issue_type": "AKTIVITAS_ILEGAL",
+            "issue_subtype": "Aktivitas Ilegal",
+            "handling_status": "BELUM_ADA_INFORMASI",
+            "handling_evidence": [],
+            "polri_relation": null,
+            "polri_relation_points": 0,
+            "polri_relation_evidence": [],
+            "attention_score": 19,
+            "attention_label": "Rendah",
+            "attention_components": {
+              "severity": 14,
+              "polri_relation": 0,
+              "authority": 0,
+              "public_impact": 4,
+              "handling": 0,
+              "evidence": 1,
+              "context_risk": 0,
+              "routine_enforcement_cap": null
+            }
+          }
+        ],
+        "article_count": 1,
+        "created_at": "2026-09-11T20:13:01.760789+00:00",
+        "updated_at": "2026-09-11T20:16:54.922197+00:00",
+        "engine_version": "case-v6.5.4",
+        "priority_score": 20,
+        "priority_breakdown": {
+          "severity": 14,
+          "polri_relation": 0,
+          "authority_context": 0,
+          "public_impact": 4,
+          "handling": 0,
+          "evidence": 1,
+          "spread": 0,
+          "escalation": 0,
+          "current_activity": 1,
+          "context_risk": 0
+        },
+        "priority_evidence": {
+          "unique_sources": 1,
+          "active_today_articles": 1,
+          "escalation": [],
+          "issue_type": "AKTIVITAS_ILEGAL",
+          "issue_subtype": "Aktivitas Ilegal",
+          "sentiment": "negative",
+          "polri_relation": "INFORMASI_UMUM",
+          "handling_status": "BELUM_ADA_INFORMASI",
+          "reasons": [
+            "sifat berita: negatif",
+            "Aktivitas Ilegal",
+            "Hubungan Polri belum spesifik"
+          ]
+        }
+      },
+      {
+        "case_id": "CASE-001326",
+        "title": "Jadi Kurir Narkoba, Seorang Satpam Bank di Padangsidimpuan Ditangkap Polisi | BERUT - Kompas.tv",
+        "category": "NEGATIF - NARKOBA / NARKOTIKA",
+        "scope": "negative",
+        "region": "BELUM TERPETAKAN",
+        "locality": "",
+        "is_jatim": null,
+        "polres": null,
+        "polsek": null,
+        "priority": "low",
+        "attention_score": 17,
+        "attention_label": "Rendah",
+        "signature": "BELUM TERPETAKAN",
+        "incident_terms": [
+          "bank",
+          "berut",
+          "kompas",
+          "kurir",
+          "narkoba",
+          "padangsidimpuan",
+          "satpam"
+        ],
+        "event_terms": [
+          "narkoba"
+        ],
+        "location_terms": [],
+        "discovery_families": [],
+        "first_seen": "2026-09-11T16:59:00+00:00",
+        "last_seen": "2026-09-11T19:44:54.996991+00:00",
+        "last_detected_at": "2026-09-11T19:44:54.996991+00:00",
+        "article_ids": [
+          "8948a1cec2c97160ad2fcb8d9d2956a18efb5577"
+        ],
+        "articles": [
+          {
+            "id": "8948a1cec2c97160ad2fcb8d9d2956a18efb5577",
+            "title": "Jadi Kurir Narkoba, Seorang Satpam Bank di Padangsidimpuan Ditangkap Polisi | BERUT - Kompas.tv",
+            "url": "https://www.kompas.tv/regional/690237/jadi-kurir-narkoba-seorang-satpam-bank-di-padangsidimpuan-ditangkap-polisi-berut",
+            "published_at": "2026-09-11T16:59:00+00:00",
+            "collected_at": "2026-09-11T19:44:54.996991+00:00",
+            "source": "Kompas.tv",
+            "match_score": 1.0,
+            "priority": "low",
+            "scope": "negative",
+            "category": "NEGATIF - NARKOBA / NARKOTIKA",
+            "region": "BELUM TERPETAKAN",
+            "locality": "",
+            "is_jatim": false,
+            "polres": null,
+            "polsek": null,
+            "issue_type": "NARKOBA",
+            "issue_subtype": "Narkoba / Narkotika",
+            "handling_status": "BELUM_ADA_INFORMASI",
+            "handling_evidence": [],
+            "polri_relation": null,
+            "polri_relation_points": 0,
+            "polri_relation_evidence": [],
+            "attention_score": 16,
+            "attention_label": "Rendah",
+            "attention_components": {
+              "severity": 11,
+              "polri_relation": 0,
+              "authority": 0,
+              "public_impact": 4,
+              "handling": 0,
+              "evidence": 1,
+              "context_risk": 0,
+              "routine_enforcement_cap": null
+            }
+          }
+        ],
+        "article_count": 1,
+        "created_at": "2026-09-11T20:13:02.152539+00:00",
+        "updated_at": "2026-09-11T20:16:54.925068+00:00",
+        "engine_version": "case-v6.5.4",
+        "priority_score": 17,
+        "priority_breakdown": {
+          "severity": 11,
+          "polri_relation": 0,
+          "authority_context": 0,
+          "public_impact": 4,
+          "handling": 0,
+          "evidence": 1,
+          "spread": 0,
+          "escalation": 0,
+          "current_activity": 1,
+          "context_risk": 0
+        },
+        "priority_evidence": {
+          "unique_sources": 1,
+          "active_today_articles": 1,
+          "escalation": [],
+          "issue_type": "NARKOBA",
+          "issue_subtype": "Narkoba / Narkotika",
+          "sentiment": "negative",
+          "polri_relation": "INFORMASI_UMUM",
+          "handling_status": "BELUM_ADA_INFORMASI",
+          "reasons": [
+            "sifat berita: negatif",
+            "Narkoba / Narkotika",
+            "Hubungan Polri belum spesifik"
+          ]
+        }
+      }
+    ],
+    "jatim_items": [
+      {
+        "case_id": "CASE-001325",
+        "title": "Aduan Tambang Ilegal di Sumberagung Tulungagung Terjawab, Satreskrim Pastikan Operasional CV Kironggo Bangkit Jaya Berizin - Nusantara Abadi News",
+        "category": "NEGATIF - AKTIVITAS ILEGAL",
+        "scope": "negative",
+        "region": "Jawa Timur",
+        "locality": "Tulungagung",
+        "is_jatim": true,
+        "polres": null,
+        "polsek": null,
+        "priority": "low",
+        "attention_score": 20,
+        "attention_label": "Rendah",
+        "signature": "Jawa Timur",
+        "incident_terms": [
+          "abadi",
+          "aduan",
+          "bangkit",
+          "berizin",
+          "ilegal",
+          "jaya",
+          "kironggo",
+          "news",
+          "nusantara",
+          "operasional",
+          "pastikan",
+          "satreskrim",
+          "sumberagung",
+          "tambang",
+          "terjawab",
+          "tulungagung"
+        ],
+        "event_terms": [
+          "ilegal",
+          "tambang"
+        ],
+        "location_terms": [
+          "tulungagung"
+        ],
+        "discovery_families": [
+          "illegal_activity_backing"
+        ],
+        "first_seen": "2026-09-11T17:27:10+00:00",
+        "last_seen": "2026-09-11T19:44:54.996991+00:00",
+        "last_detected_at": "2026-09-11T19:44:54.996991+00:00",
+        "article_ids": [
+          "5ab3aa3752b581233f866f7645e8aca69231ed66"
+        ],
+        "articles": [
+          {
+            "id": "5ab3aa3752b581233f866f7645e8aca69231ed66",
+            "title": "Aduan Tambang Ilegal di Sumberagung Tulungagung Terjawab, Satreskrim Pastikan Operasional CV Kironggo Bangkit Jaya Berizin - Nusantara Abadi News",
+            "url": "https://nusantaraabadinews.com/2026/09/11/aduan-tambang-ilegal-di-sumberagung-tulungagung-terjawab-satreskrim-pastikan-operasional-cv-kironggo-bangkit-jaya-berizin/",
+            "published_at": "2026-09-11T17:27:10+00:00",
+            "collected_at": "2026-09-11T19:44:54.996991+00:00",
+            "source": "Nusantara Abadi News",
+            "match_score": 1.0,
+            "priority": "low",
+            "scope": "negative",
+            "category": "NEGATIF - AKTIVITAS ILEGAL",
+            "region": "Jawa Timur",
+            "locality": "Tulungagung",
+            "is_jatim": true,
+            "polres": null,
+            "polsek": null,
+            "issue_type": "AKTIVITAS_ILEGAL",
+            "issue_subtype": "Aktivitas Ilegal",
+            "handling_status": "BELUM_ADA_INFORMASI",
+            "handling_evidence": [],
+            "polri_relation": null,
+            "polri_relation_points": 0,
+            "polri_relation_evidence": [],
+            "attention_score": 19,
+            "attention_label": "Rendah",
+            "attention_components": {
+              "severity": 14,
+              "polri_relation": 0,
+              "authority": 0,
+              "public_impact": 4,
+              "handling": 0,
+              "evidence": 1,
+              "context_risk": 0,
+              "routine_enforcement_cap": null
+            }
+          }
+        ],
+        "article_count": 1,
+        "created_at": "2026-09-11T20:13:01.760789+00:00",
+        "updated_at": "2026-09-11T20:16:54.922197+00:00",
+        "engine_version": "case-v6.5.4",
+        "priority_score": 20,
+        "priority_breakdown": {
+          "severity": 14,
+          "polri_relation": 0,
+          "authority_context": 0,
+          "public_impact": 4,
+          "handling": 0,
+          "evidence": 1,
+          "spread": 0,
+          "escalation": 0,
+          "current_activity": 1,
+          "context_risk": 0
+        },
+        "priority_evidence": {
+          "unique_sources": 1,
+          "active_today_articles": 1,
+          "escalation": [],
+          "issue_type": "AKTIVITAS_ILEGAL",
+          "issue_subtype": "Aktivitas Ilegal",
+          "sentiment": "negative",
+          "polri_relation": "INFORMASI_UMUM",
+          "handling_status": "BELUM_ADA_INFORMASI",
+          "reasons": [
+            "sifat berita: negatif",
+            "Aktivitas Ilegal",
+            "Hubungan Polri belum spesifik"
+          ]
+        }
+      }
+    ]
   },
   "social": {
-    "detected": 41,
-    "jatim": 3,
-    "negative": 24,
+    "detected": 48,
+    "jatim": 4,
+    "negative": 29,
     "priority_high": 24,
     "video_ids": [
       "VkmuJiGGbEs",
@@ -39,6 +1246,7 @@
       "8HFdhnAkuJw",
       "Ids7aF_cnWo",
       "pB2fDGOpYHY",
+      "705px0lGpUA",
       "oB7wJqKyMNM",
       "tKo9WvK5WeQ",
       "G4uxFZxlTiU",
@@ -54,10 +1262,12 @@
       "fiBmkCUQNcQ",
       "qdWnPbom6KU",
       "S2X35GMYI7w",
+      "HZmuCoVJIs0",
       "TE3EJSmA1dY",
       "Kwz9tp3DNIk",
       "7c5lFWiSlbY",
       "w-oJwcnSY0U",
+      "UsR1Nh4prWw",
       "N58dtVBy3uI",
       "rpno7Q2MYGQ",
       "eozFxoLFwjY",
@@ -70,6 +1280,10 @@
       "_YXfo2l2CP0",
       "d4gww3D9KGc",
       "pL3ieWdGvf4",
+      "RH1BP8zgUB4",
+      "XUt6W6nvRO0",
+      "jGiTmxgFX_M",
+      "jLhWA9Ld0EI",
       "PBz3Us4btjY",
       "XPV0repKddo",
       "axYJQIsNY_g",
@@ -78,33 +1292,43 @@
     ]
   },
   "jatim": {
-    "news_today": 0,
-    "negative_today": 0,
+    "news_today": 1,
+    "negative_today": 1,
     "positive_today": 0,
     "case_scope_today": 0,
     "neutral_today": 0,
-    "case_today": 0,
+    "case_today": 1,
     "case_high_active": 0,
     "article_high_today": 0,
-    "outside_jatim_today": 0
+    "outside_jatim_today": 4
   },
-  "regions": [],
+  "regions": [
+    {
+      "name": "Tulungagung",
+      "count": 1
+    }
+  ],
   "polres": [],
-  "categories": [],
+  "categories": [
+    {
+      "name": "NEGATIF - AKTIVITAS ILEGAL",
+      "count": 1
+    }
+  ],
   "summary": {
-    "news_today": 0,
-    "negative_today": 0,
-    "cases_today": 0,
+    "news_today": 5,
+    "negative_today": 3,
+    "cases_today": 3,
     "priority_high": 0,
     "article_priority_high": 0,
-    "jatim_news": 0,
-    "jatim_negative": 0,
+    "jatim_news": 1,
+    "jatim_negative": 1,
     "jatim_positive": 0,
     "jatim_case_scope": 0,
     "jatim_neutral": 0,
-    "jatim_cases_today": 0,
+    "jatim_cases_today": 1,
     "jatim_case_high_active": 0,
-    "luar_jatim_news": 0,
-    "youtube_today": 41
+    "luar_jatim_news": 4,
+    "youtube_today": 48
   }
 }
