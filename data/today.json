@@ -2,18 +2,22 @@
   "schema_version": "today-v3",
   "date": "2026-09-12",
   "timezone": "Asia/Jakarta",
-  "updated_at": "2026-09-12T03:16:56.337822+07:00",
-  "last_successful_update": "2026-09-12T03:16:56.337822+07:00",
+  "updated_at": "2026-09-12T06:03:04.233032+07:00",
+  "last_successful_update": "2026-09-12T06:03:04.233032+07:00",
   "news": {
-    "detected": 5,
-    "negative": 3,
-    "positive": 0,
+    "detected": 9,
+    "negative": 4,
+    "positive": 1,
     "case": 0,
-    "neutral": 2,
-    "jatim": 1,
-    "luar_jatim": 4,
+    "neutral": 4,
+    "jatim": 3,
+    "luar_jatim": 6,
     "priority_high": 0,
     "article_ids": [
+      "e32243ad23ef38e3f96e956d0c46a197e045638a",
+      "d19624b993ba4dff1975cd4c7baace5291203c31",
+      "63132df66a0644151a2ce834fc1e3989df5a94c2",
+      "15f43ea23b4c8a8f26ccb752977fe00f6128262d",
       "fc02b3d397377705b2e3fb928936479dc9f9c887",
       "ad55dfd64ef1f39fe8be06562c3f1f6df0b447ee",
       "5ab3aa3752b581233f866f7645e8aca69231ed66",
@@ -22,6 +26,296 @@
     ],
     "items": [
       {
+        "id": "e32243ad23ef38e3f96e956d0c46a197e045638a",
+        "title": "Polwan Polres Ogan Ilir Amankan Salat Jumat dan Patroli, Wujud Kehadiran Polri di Tengah Masyarakat - Gempurnews.com",
+        "url": "https://www.gempurnews.com/2026/09/11/polwan-polres-ogan-ilir-amankan-salat-jumat-dan-patroli-wujud-kehadiran-polri-di-tengah-masyarakat/",
+        "source": "Gempurnews.com",
+        "published_at": "2026-09-11T22:32:38+00:00",
+        "collected_at": "2026-09-11T22:37:08.652255+00:00",
+        "region": "BELUM TERPETAKAN",
+        "area_label": "BELUM TERPETAKAN",
+        "is_jatim": null,
+        "polres": null,
+        "category": "POSITIF / PENEGAKAN HUKUM",
+        "scope": "positive",
+        "scope_label": "Positif",
+        "priority": "low",
+        "summary": "Polwan Polres Ogan Ilir Amankan Salat Jumat dan Patroli, Wujud Kehadiran Polri di Tengah Masyarakat Gempurnews.com",
+        "processing_status": "processed",
+        "classifier_version": "news-v6",
+        "classified_at": "2026-09-11T22:37:08.652255+00:00",
+        "case_id": null,
+        "discovery_families": [],
+        "discovery_tags": [],
+        "discovery_hits": [],
+        "discovery_version": "discovery-v6.5.4",
+        "google_news_url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQRnVDYzNCREJRcFhkV0VOTFc1T1NJblAwRTlmczlLdXZqY2xraHB5NVB1ZG9yazN1c01MQVRJODVOSTZqVzYwbnBhLXBWYzBqUFIwTDVaZ2g1VF9ZUUJGVWpnM2h2OVZIWVhEUWFQRURPZVd5Qm1XUGFKcGxGLW9sRjk4emRCY09zOTc1ZUNhZ216UHRJc093bmEyVkJUUHZjR3p6S0dGUkNrNmh0NGo1dHpRSzBjTFdLczhwY21qdE1Cb1Vyb2lKdWpKSVBEeHp0aTdF?oc=5",
+        "original_url": "https://www.gempurnews.com/2026/09/11/polwan-polres-ogan-ilir-amankan-salat-jumat-dan-patroli-wujud-kehadiran-polri-di-tengah-masyarakat/",
+        "locality": "",
+        "polsek": null,
+        "location_confidence": 0,
+        "location_evidence": [],
+        "location_status": "BELUM_TERPETAKAN",
+        "location_source": "title",
+        "issue_type": "UMUM",
+        "issue_subtype": "Belum Teridentifikasi",
+        "issue_evidence": [],
+        "handling_status": "BELUM_ADA_INFORMASI",
+        "handling_evidence": [],
+        "attention_score": 17,
+        "attention_label": "Rendah",
+        "attention_components": {
+          "severity": 2,
+          "polri_relation": 2,
+          "authority": 0,
+          "public_impact": 12,
+          "handling": 0,
+          "evidence": 1,
+          "context_risk": 0,
+          "routine_enforcement_cap": 35
+        },
+        "attention_evidence": {
+          "severity": [],
+          "authority": [],
+          "public_impact": [
+            "dampak kepada masyarakat"
+          ],
+          "evidence": [
+            "satu sumber / informasi awal"
+          ],
+          "role": [
+            "Polri sebagai pihak penindak"
+          ],
+          "issue": [],
+          "handling": [],
+          "context": [],
+          "positive": []
+        },
+        "case_engine_version": "case-v6.5.4",
+        "case_processed_at": "2026-09-11T22:43:40.153234+00:00"
+      },
+      {
+        "id": "d19624b993ba4dff1975cd4c7baace5291203c31",
+        "title": "Kekerasan Seksual Anak Subang, Polisi Ungkap Tiga Kasus Terbaru - Pikiran Rakyat Koran",
+        "url": "https://koran.pikiran-rakyat.com/news/pr-30310445117/kekerasan-seksual-anak-subang-polisi-ungkap-tiga-kasus-terbaru",
+        "source": "Pikiran Rakyat Koran",
+        "published_at": "2026-09-11T22:00:00+00:00",
+        "collected_at": "2026-09-11T22:37:08.652255+00:00",
+        "region": "BELUM TERPETAKAN",
+        "area_label": "BELUM TERPETAKAN",
+        "is_jatim": null,
+        "polres": null,
+        "category": "NEGATIF - KEJAHATAN SEKSUAL",
+        "scope": "negative",
+        "scope_label": "Negatif",
+        "priority": "low",
+        "summary": "Kekerasan Seksual Anak Subang, Polisi Ungkap Tiga Kasus Terbaru Pikiran Rakyat Koran",
+        "processing_status": "processed",
+        "classifier_version": "news-v6",
+        "classified_at": "2026-09-11T22:37:08.652255+00:00",
+        "case_id": "CASE-001327",
+        "discovery_families": [
+          "ethics_personal_misconduct"
+        ],
+        "discovery_tags": [
+          "ethics",
+          "sexual_misconduct",
+          "violence"
+        ],
+        "discovery_hits": [
+          "kekerasan seksual"
+        ],
+        "discovery_version": "discovery-v6.5.4",
+        "google_news_url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQcDl0c1QtWnZTOVA1TlJXYVFiTTZvcUFRTFVWMGNmVXNFUC1WOXlXSk9WSFEtYzczQkhwN0VMN0hLRnlBS1lNSkZUTFpsaUdvdnBaVHdMY2doVlZ4OFJyOXA2bDdycWVsYWdpX2NNVldxbTRPR2JCY25IY0JNLUVvelJwMXJQQnd3OVdGazM2TWVPTHl5UHRCMC1vYWlVVVdtSnp5NGFsZVl5R3ZEQjl0b0VxdHBiQQ?oc=5",
+        "original_url": "https://koran.pikiran-rakyat.com/news/pr-30310445117/kekerasan-seksual-anak-subang-polisi-ungkap-tiga-kasus-terbaru",
+        "locality": "",
+        "polsek": null,
+        "location_confidence": 0,
+        "location_evidence": [],
+        "location_status": "BELUM_TERPETAKAN",
+        "location_source": "title",
+        "issue_type": "KEJAHATAN_SEKSUAL",
+        "issue_subtype": "Kejahatan Seksual",
+        "issue_evidence": [
+          "kekerasan seksual"
+        ],
+        "handling_status": "BELUM_ADA_INFORMASI",
+        "handling_evidence": [],
+        "attention_score": 35,
+        "attention_label": "Rendah",
+        "attention_components": {
+          "severity": 14,
+          "polri_relation": 2,
+          "authority": 0,
+          "public_impact": 18,
+          "handling": 0,
+          "evidence": 1,
+          "context_risk": 0,
+          "routine_enforcement_cap": null
+        },
+        "attention_evidence": {
+          "severity": [
+            "kekerasan berat"
+          ],
+          "authority": [],
+          "public_impact": [
+            "kelompok/korban publik rentan"
+          ],
+          "evidence": [
+            "satu sumber / informasi awal"
+          ],
+          "role": [
+            "Polri sebagai pihak penindak"
+          ],
+          "issue": [
+            "kekerasan seksual"
+          ],
+          "handling": [],
+          "context": [],
+          "positive": []
+        },
+        "case_engine_version": "case-v6.5.4",
+        "case_processed_at": "2026-09-11T23:03:02.682931+00:00"
+      },
+      {
+        "id": "63132df66a0644151a2ce834fc1e3989df5a94c2",
+        "title": "Peduli Anak: Polisi RW Polresta Malang Kota, Dorong Anak Rajin Sekolah dan Meninggalkan Kebiasaan Yang Merugikan diri Sendiri - Website Resmi Polri",
+        "url": "https://tribratanews.jatim.polri.go.id/peduli-anak-polisi-rw-polresta-malang-kota-dorong-anak-rajin-sekolah-dan-meninggalkan-kebiasaan-yang-merugikan-diri-sendiri",
+        "source": "Website Resmi Polri",
+        "published_at": "2026-09-11T20:48:00+00:00",
+        "collected_at": "2026-09-11T22:37:08.652255+00:00",
+        "region": "Jawa Timur",
+        "area_label": "Malang",
+        "is_jatim": true,
+        "polres": "POLRESTA MALANG KOTA",
+        "category": "NETRAL / LAINNYA",
+        "scope": "neutral",
+        "scope_label": "Netral",
+        "priority": "low",
+        "summary": "Peduli Anak: Polisi RW Polresta Malang Kota, Dorong Anak Rajin Sekolah dan Meninggalkan Kebiasaan Yang Merugikan diri Sendiri Website Resmi Polri",
+        "processing_status": "processed",
+        "classifier_version": "news-v6",
+        "classified_at": "2026-09-11T22:37:08.652255+00:00",
+        "case_id": null,
+        "discovery_families": [],
+        "discovery_tags": [],
+        "discovery_hits": [],
+        "discovery_version": "discovery-v6.5.4",
+        "google_news_url": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxPTjRaYXc3R2NlcDZDR2tTRWp5ZTBHQ3BxRWV2Q09qQUVUM0RQRFRIY1RMcDBuVTE4eGJlSTNMdFZsT0lfVE8yQ19IR1JPRzBwbFhscnJ3RlA4V2RDXzBrd01zMXhhSzJESThrTDZ5OU1yMFc3RGdYX0hoSnVmazNQYV92YVVsUDBROGdQRTdvMHl5QmQzUlM5TUVZbi1kSkFIYWw0ckg4dW5WTnNSbThsZE1fMWhMQ3Z5R1hNVlF3WnBrbGZtejAyQ2FabV9HcFpOSVRIOE5oclZEMVNZREpsNzVocWhoOURGbmZLRTVOeC01VXAt?oc=5",
+        "original_url": "https://tribratanews.jatim.polri.go.id/peduli-anak-polisi-rw-polresta-malang-kota-dorong-anak-rajin-sekolah-dan-meninggalkan-kebiasaan-yang-merugikan-diri-sendiri",
+        "locality": "Malang",
+        "polsek": null,
+        "location_confidence": 100,
+        "location_evidence": [
+          "polresta malang kota",
+          "Malang"
+        ],
+        "location_status": "JAWA_TIMUR",
+        "location_source": "title",
+        "issue_type": "UMUM",
+        "issue_subtype": "Belum Teridentifikasi",
+        "issue_evidence": [],
+        "handling_status": "BELUM_ADA_INFORMASI",
+        "handling_evidence": [],
+        "attention_score": 21,
+        "attention_label": "Rendah",
+        "attention_components": {
+          "severity": 2,
+          "polri_relation": 0,
+          "authority": 0,
+          "public_impact": 18,
+          "handling": 0,
+          "evidence": 1,
+          "context_risk": 0,
+          "routine_enforcement_cap": null
+        },
+        "attention_evidence": {
+          "severity": [],
+          "authority": [],
+          "public_impact": [
+            "kelompok/korban publik rentan"
+          ],
+          "evidence": [
+            "satu sumber / informasi awal"
+          ],
+          "role": [],
+          "issue": [],
+          "handling": [],
+          "context": [],
+          "positive": []
+        },
+        "case_engine_version": "case-v6.5.4",
+        "case_processed_at": "2026-09-11T22:43:40.645402+00:00"
+      },
+      {
+        "id": "15f43ea23b4c8a8f26ccb752977fe00f6128262d",
+        "title": "Cegah Karhutla, Polres Ponorogo Gencarkan Edukasi dan Patroli Kawasan Hutan - Website Resmi Polri",
+        "url": "https://tribratanews.jatim.polri.go.id/cegah-karhutla-polres-ponorogo-gencarkan-edukasi-dan-patroli-kawasan-hutan",
+        "source": "Website Resmi Polri",
+        "published_at": "2026-09-11T20:38:00+00:00",
+        "collected_at": "2026-09-11T22:37:08.652255+00:00",
+        "region": "Jawa Timur",
+        "area_label": "Ponorogo",
+        "is_jatim": true,
+        "polres": "POLRES PONOROGO",
+        "category": "NETRAL / LAINNYA",
+        "scope": "neutral",
+        "scope_label": "Netral",
+        "priority": "low",
+        "summary": "Cegah Karhutla, Polres Ponorogo Gencarkan Edukasi dan Patroli Kawasan Hutan Website Resmi Polri",
+        "processing_status": "processed",
+        "classifier_version": "news-v6",
+        "classified_at": "2026-09-11T22:37:08.652255+00:00",
+        "case_id": null,
+        "discovery_families": [],
+        "discovery_tags": [],
+        "discovery_hits": [],
+        "discovery_version": "discovery-v6.5.4",
+        "google_news_url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQMkJpQUg5elNCZmVVVUF5V3FHLWxfZ25YZ3BzRnJTUjVaTUo5MkNIb0NRVEVMeGJLTVFIQUpscmowbXRaVHpqVlBSdHBXS3Y3TWFrTENGRGVTUDVuMGJtSUtwM1BpRFR3Y3pCdDZoWG9ONjVxeFNIVmVxaTVyZ0JLb29RTGEzc1NnNk80c3ZHbmg3ajhVR0dvTW53OE4yRGxIcEJWdFVYRlV2NWctdVhJZC1xQQ?oc=5",
+        "original_url": "https://tribratanews.jatim.polri.go.id/cegah-karhutla-polres-ponorogo-gencarkan-edukasi-dan-patroli-kawasan-hutan",
+        "locality": "Ponorogo",
+        "polsek": null,
+        "location_confidence": 100,
+        "location_evidence": [
+          "polres ponorogo",
+          "Ponorogo"
+        ],
+        "location_status": "JAWA_TIMUR",
+        "location_source": "title",
+        "issue_type": "UMUM",
+        "issue_subtype": "Belum Teridentifikasi",
+        "issue_evidence": [],
+        "handling_status": "BELUM_ADA_INFORMASI",
+        "handling_evidence": [],
+        "attention_score": 7,
+        "attention_label": "Rendah",
+        "attention_components": {
+          "severity": 2,
+          "polri_relation": 0,
+          "authority": 0,
+          "public_impact": 4,
+          "handling": 0,
+          "evidence": 1,
+          "context_risk": 0,
+          "routine_enforcement_cap": null
+        },
+        "attention_evidence": {
+          "severity": [],
+          "authority": [],
+          "public_impact": [],
+          "evidence": [
+            "satu sumber / informasi awal"
+          ],
+          "role": [],
+          "issue": [],
+          "handling": [],
+          "context": [],
+          "positive": []
+        },
+        "case_engine_version": "case-v6.5.4",
+        "case_processed_at": "2026-09-11T22:43:40.976481+00:00"
+      },
+      {
         "id": "fc02b3d397377705b2e3fb928936479dc9f9c887",
         "title": "Polresta Pati ungkap kekerasan seksual di lembaga pendidikan - ANTARA News Jateng",
         "url": "https://jateng.antaranews.com/berita/644948/polresta-pati-ungkap-kekerasan-seksual-di-lembaga-pendidikan",
@@ -102,7 +396,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-09-11T20:16:54.925818+00:00"
+        "case_processed_at": "2026-09-11T23:03:02.682936+00:00"
       },
       {
         "id": "ad55dfd64ef1f39fe8be06562c3f1f6df0b447ee",
@@ -171,7 +465,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-09-11T19:52:57.735678+00:00"
+        "case_processed_at": "2026-09-11T22:43:41.240937+00:00"
       },
       {
         "id": "5ab3aa3752b581233f866f7645e8aca69231ed66",
@@ -252,7 +546,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-09-11T20:16:54.925824+00:00"
+        "case_processed_at": "2026-09-11T23:03:02.682939+00:00"
       },
       {
         "id": "8948a1cec2c97160ad2fcb8d9d2956a18efb5577",
@@ -321,7 +615,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-09-11T20:16:54.925826+00:00"
+        "case_processed_at": "2026-09-11T23:03:02.682941+00:00"
       },
       {
         "id": "9421511af6a5d3ea72c134373811bb3574fb3669",
@@ -388,11 +682,149 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-09-11T19:52:58.211042+00:00"
+        "case_processed_at": "2026-09-11T22:43:41.620883+00:00"
       }
     ],
     "jatim_items": [
       {
+        "id": "63132df66a0644151a2ce834fc1e3989df5a94c2",
+        "title": "Peduli Anak: Polisi RW Polresta Malang Kota, Dorong Anak Rajin Sekolah dan Meninggalkan Kebiasaan Yang Merugikan diri Sendiri - Website Resmi Polri",
+        "url": "https://tribratanews.jatim.polri.go.id/peduli-anak-polisi-rw-polresta-malang-kota-dorong-anak-rajin-sekolah-dan-meninggalkan-kebiasaan-yang-merugikan-diri-sendiri",
+        "source": "Website Resmi Polri",
+        "published_at": "2026-09-11T20:48:00+00:00",
+        "collected_at": "2026-09-11T22:37:08.652255+00:00",
+        "region": "Jawa Timur",
+        "area_label": "Malang",
+        "is_jatim": true,
+        "polres": "POLRESTA MALANG KOTA",
+        "category": "NETRAL / LAINNYA",
+        "scope": "neutral",
+        "scope_label": "Netral",
+        "priority": "low",
+        "summary": "Peduli Anak: Polisi RW Polresta Malang Kota, Dorong Anak Rajin Sekolah dan Meninggalkan Kebiasaan Yang Merugikan diri Sendiri Website Resmi Polri",
+        "processing_status": "processed",
+        "classifier_version": "news-v6",
+        "classified_at": "2026-09-11T22:37:08.652255+00:00",
+        "case_id": null,
+        "discovery_families": [],
+        "discovery_tags": [],
+        "discovery_hits": [],
+        "discovery_version": "discovery-v6.5.4",
+        "google_news_url": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxPTjRaYXc3R2NlcDZDR2tTRWp5ZTBHQ3BxRWV2Q09qQUVUM0RQRFRIY1RMcDBuVTE4eGJlSTNMdFZsT0lfVE8yQ19IR1JPRzBwbFhscnJ3RlA4V2RDXzBrd01zMXhhSzJESThrTDZ5OU1yMFc3RGdYX0hoSnVmazNQYV92YVVsUDBROGdQRTdvMHl5QmQzUlM5TUVZbi1kSkFIYWw0ckg4dW5WTnNSbThsZE1fMWhMQ3Z5R1hNVlF3WnBrbGZtejAyQ2FabV9HcFpOSVRIOE5oclZEMVNZREpsNzVocWhoOURGbmZLRTVOeC01VXAt?oc=5",
+        "original_url": "https://tribratanews.jatim.polri.go.id/peduli-anak-polisi-rw-polresta-malang-kota-dorong-anak-rajin-sekolah-dan-meninggalkan-kebiasaan-yang-merugikan-diri-sendiri",
+        "locality": "Malang",
+        "polsek": null,
+        "location_confidence": 100,
+        "location_evidence": [
+          "polresta malang kota",
+          "Malang"
+        ],
+        "location_status": "JAWA_TIMUR",
+        "location_source": "title",
+        "issue_type": "UMUM",
+        "issue_subtype": "Belum Teridentifikasi",
+        "issue_evidence": [],
+        "handling_status": "BELUM_ADA_INFORMASI",
+        "handling_evidence": [],
+        "attention_score": 21,
+        "attention_label": "Rendah",
+        "attention_components": {
+          "severity": 2,
+          "polri_relation": 0,
+          "authority": 0,
+          "public_impact": 18,
+          "handling": 0,
+          "evidence": 1,
+          "context_risk": 0,
+          "routine_enforcement_cap": null
+        },
+        "attention_evidence": {
+          "severity": [],
+          "authority": [],
+          "public_impact": [
+            "kelompok/korban publik rentan"
+          ],
+          "evidence": [
+            "satu sumber / informasi awal"
+          ],
+          "role": [],
+          "issue": [],
+          "handling": [],
+          "context": [],
+          "positive": []
+        },
+        "case_engine_version": "case-v6.5.4",
+        "case_processed_at": "2026-09-11T22:43:40.645402+00:00"
+      },
+      {
+        "id": "15f43ea23b4c8a8f26ccb752977fe00f6128262d",
+        "title": "Cegah Karhutla, Polres Ponorogo Gencarkan Edukasi dan Patroli Kawasan Hutan - Website Resmi Polri",
+        "url": "https://tribratanews.jatim.polri.go.id/cegah-karhutla-polres-ponorogo-gencarkan-edukasi-dan-patroli-kawasan-hutan",
+        "source": "Website Resmi Polri",
+        "published_at": "2026-09-11T20:38:00+00:00",
+        "collected_at": "2026-09-11T22:37:08.652255+00:00",
+        "region": "Jawa Timur",
+        "area_label": "Ponorogo",
+        "is_jatim": true,
+        "polres": "POLRES PONOROGO",
+        "category": "NETRAL / LAINNYA",
+        "scope": "neutral",
+        "scope_label": "Netral",
+        "priority": "low",
+        "summary": "Cegah Karhutla, Polres Ponorogo Gencarkan Edukasi dan Patroli Kawasan Hutan Website Resmi Polri",
+        "processing_status": "processed",
+        "classifier_version": "news-v6",
+        "classified_at": "2026-09-11T22:37:08.652255+00:00",
+        "case_id": null,
+        "discovery_families": [],
+        "discovery_tags": [],
+        "discovery_hits": [],
+        "discovery_version": "discovery-v6.5.4",
+        "google_news_url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQMkJpQUg5elNCZmVVVUF5V3FHLWxfZ25YZ3BzRnJTUjVaTUo5MkNIb0NRVEVMeGJLTVFIQUpscmowbXRaVHpqVlBSdHBXS3Y3TWFrTENGRGVTUDVuMGJtSUtwM1BpRFR3Y3pCdDZoWG9ONjVxeFNIVmVxaTVyZ0JLb29RTGEzc1NnNk80c3ZHbmg3ajhVR0dvTW53OE4yRGxIcEJWdFVYRlV2NWctdVhJZC1xQQ?oc=5",
+        "original_url": "https://tribratanews.jatim.polri.go.id/cegah-karhutla-polres-ponorogo-gencarkan-edukasi-dan-patroli-kawasan-hutan",
+        "locality": "Ponorogo",
+        "polsek": null,
+        "location_confidence": 100,
+        "location_evidence": [
+          "polres ponorogo",
+          "Ponorogo"
+        ],
+        "location_status": "JAWA_TIMUR",
+        "location_source": "title",
+        "issue_type": "UMUM",
+        "issue_subtype": "Belum Teridentifikasi",
+        "issue_evidence": [],
+        "handling_status": "BELUM_ADA_INFORMASI",
+        "handling_evidence": [],
+        "attention_score": 7,
+        "attention_label": "Rendah",
+        "attention_components": {
+          "severity": 2,
+          "polri_relation": 0,
+          "authority": 0,
+          "public_impact": 4,
+          "handling": 0,
+          "evidence": 1,
+          "context_risk": 0,
+          "routine_enforcement_cap": null
+        },
+        "attention_evidence": {
+          "severity": [],
+          "authority": [],
+          "public_impact": [],
+          "evidence": [
+            "satu sumber / informasi awal"
+          ],
+          "role": [],
+          "issue": [],
+          "handling": [],
+          "context": [],
+          "positive": []
+        },
+        "case_engine_version": "case-v6.5.4",
+        "case_processed_at": "2026-09-11T22:43:40.976481+00:00"
+      },
+      {
         "id": "5ab3aa3752b581233f866f7645e8aca69231ed66",
         "title": "Aduan Tambang Ilegal di Sumberagung Tulungagung Terjawab, Satreskrim Pastikan Operasional CV Kironggo Bangkit Jaya Berizin - Nusantara Abadi News",
         "url": "https://nusantaraabadinews.com/2026/09/11/aduan-tambang-ilegal-di-sumberagung-tulungagung-terjawab-satreskrim-pastikan-operasional-cv-kironggo-bangkit-jaya-berizin/",
@@ -471,10 +903,162 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-09-11T20:16:54.925824+00:00"
+        "case_processed_at": "2026-09-11T23:03:02.682939+00:00"
       }
     ],
     "luar_jatim_items": [
+      {
+        "id": "e32243ad23ef38e3f96e956d0c46a197e045638a",
+        "title": "Polwan Polres Ogan Ilir Amankan Salat Jumat dan Patroli, Wujud Kehadiran Polri di Tengah Masyarakat - Gempurnews.com",
+        "url": "https://www.gempurnews.com/2026/09/11/polwan-polres-ogan-ilir-amankan-salat-jumat-dan-patroli-wujud-kehadiran-polri-di-tengah-masyarakat/",
+        "source": "Gempurnews.com",
+        "published_at": "2026-09-11T22:32:38+00:00",
+        "collected_at": "2026-09-11T22:37:08.652255+00:00",
+        "region": "BELUM TERPETAKAN",
+        "area_label": "BELUM TERPETAKAN",
+        "is_jatim": null,
+        "polres": null,
+        "category": "POSITIF / PENEGAKAN HUKUM",
+        "scope": "positive",
+        "scope_label": "Positif",
+        "priority": "low",
+        "summary": "Polwan Polres Ogan Ilir Amankan Salat Jumat dan Patroli, Wujud Kehadiran Polri di Tengah Masyarakat Gempurnews.com",
+        "processing_status": "processed",
+        "classifier_version": "news-v6",
+        "classified_at": "2026-09-11T22:37:08.652255+00:00",
+        "case_id": null,
+        "discovery_families": [],
+        "discovery_tags": [],
+        "discovery_hits": [],
+        "discovery_version": "discovery-v6.5.4",
+        "google_news_url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQRnVDYzNCREJRcFhkV0VOTFc1T1NJblAwRTlmczlLdXZqY2xraHB5NVB1ZG9yazN1c01MQVRJODVOSTZqVzYwbnBhLXBWYzBqUFIwTDVaZ2g1VF9ZUUJGVWpnM2h2OVZIWVhEUWFQRURPZVd5Qm1XUGFKcGxGLW9sRjk4emRCY09zOTc1ZUNhZ216UHRJc093bmEyVkJUUHZjR3p6S0dGUkNrNmh0NGo1dHpRSzBjTFdLczhwY21qdE1Cb1Vyb2lKdWpKSVBEeHp0aTdF?oc=5",
+        "original_url": "https://www.gempurnews.com/2026/09/11/polwan-polres-ogan-ilir-amankan-salat-jumat-dan-patroli-wujud-kehadiran-polri-di-tengah-masyarakat/",
+        "locality": "",
+        "polsek": null,
+        "location_confidence": 0,
+        "location_evidence": [],
+        "location_status": "BELUM_TERPETAKAN",
+        "location_source": "title",
+        "issue_type": "UMUM",
+        "issue_subtype": "Belum Teridentifikasi",
+        "issue_evidence": [],
+        "handling_status": "BELUM_ADA_INFORMASI",
+        "handling_evidence": [],
+        "attention_score": 17,
+        "attention_label": "Rendah",
+        "attention_components": {
+          "severity": 2,
+          "polri_relation": 2,
+          "authority": 0,
+          "public_impact": 12,
+          "handling": 0,
+          "evidence": 1,
+          "context_risk": 0,
+          "routine_enforcement_cap": 35
+        },
+        "attention_evidence": {
+          "severity": [],
+          "authority": [],
+          "public_impact": [
+            "dampak kepada masyarakat"
+          ],
+          "evidence": [
+            "satu sumber / informasi awal"
+          ],
+          "role": [
+            "Polri sebagai pihak penindak"
+          ],
+          "issue": [],
+          "handling": [],
+          "context": [],
+          "positive": []
+        },
+        "case_engine_version": "case-v6.5.4",
+        "case_processed_at": "2026-09-11T22:43:40.153234+00:00"
+      },
+      {
+        "id": "d19624b993ba4dff1975cd4c7baace5291203c31",
+        "title": "Kekerasan Seksual Anak Subang, Polisi Ungkap Tiga Kasus Terbaru - Pikiran Rakyat Koran",
+        "url": "https://koran.pikiran-rakyat.com/news/pr-30310445117/kekerasan-seksual-anak-subang-polisi-ungkap-tiga-kasus-terbaru",
+        "source": "Pikiran Rakyat Koran",
+        "published_at": "2026-09-11T22:00:00+00:00",
+        "collected_at": "2026-09-11T22:37:08.652255+00:00",
+        "region": "BELUM TERPETAKAN",
+        "area_label": "BELUM TERPETAKAN",
+        "is_jatim": null,
+        "polres": null,
+        "category": "NEGATIF - KEJAHATAN SEKSUAL",
+        "scope": "negative",
+        "scope_label": "Negatif",
+        "priority": "low",
+        "summary": "Kekerasan Seksual Anak Subang, Polisi Ungkap Tiga Kasus Terbaru Pikiran Rakyat Koran",
+        "processing_status": "processed",
+        "classifier_version": "news-v6",
+        "classified_at": "2026-09-11T22:37:08.652255+00:00",
+        "case_id": "CASE-001327",
+        "discovery_families": [
+          "ethics_personal_misconduct"
+        ],
+        "discovery_tags": [
+          "ethics",
+          "sexual_misconduct",
+          "violence"
+        ],
+        "discovery_hits": [
+          "kekerasan seksual"
+        ],
+        "discovery_version": "discovery-v6.5.4",
+        "google_news_url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQcDl0c1QtWnZTOVA1TlJXYVFiTTZvcUFRTFVWMGNmVXNFUC1WOXlXSk9WSFEtYzczQkhwN0VMN0hLRnlBS1lNSkZUTFpsaUdvdnBaVHdMY2doVlZ4OFJyOXA2bDdycWVsYWdpX2NNVldxbTRPR2JCY25IY0JNLUVvelJwMXJQQnd3OVdGazM2TWVPTHl5UHRCMC1vYWlVVVdtSnp5NGFsZVl5R3ZEQjl0b0VxdHBiQQ?oc=5",
+        "original_url": "https://koran.pikiran-rakyat.com/news/pr-30310445117/kekerasan-seksual-anak-subang-polisi-ungkap-tiga-kasus-terbaru",
+        "locality": "",
+        "polsek": null,
+        "location_confidence": 0,
+        "location_evidence": [],
+        "location_status": "BELUM_TERPETAKAN",
+        "location_source": "title",
+        "issue_type": "KEJAHATAN_SEKSUAL",
+        "issue_subtype": "Kejahatan Seksual",
+        "issue_evidence": [
+          "kekerasan seksual"
+        ],
+        "handling_status": "BELUM_ADA_INFORMASI",
+        "handling_evidence": [],
+        "attention_score": 35,
+        "attention_label": "Rendah",
+        "attention_components": {
+          "severity": 14,
+          "polri_relation": 2,
+          "authority": 0,
+          "public_impact": 18,
+          "handling": 0,
+          "evidence": 1,
+          "context_risk": 0,
+          "routine_enforcement_cap": null
+        },
+        "attention_evidence": {
+          "severity": [
+            "kekerasan berat"
+          ],
+          "authority": [],
+          "public_impact": [
+            "kelompok/korban publik rentan"
+          ],
+          "evidence": [
+            "satu sumber / informasi awal"
+          ],
+          "role": [
+            "Polri sebagai pihak penindak"
+          ],
+          "issue": [
+            "kekerasan seksual"
+          ],
+          "handling": [],
+          "context": [],
+          "positive": []
+        },
+        "case_engine_version": "case-v6.5.4",
+        "case_processed_at": "2026-09-11T23:03:02.682931+00:00"
+      },
       {
         "id": "fc02b3d397377705b2e3fb928936479dc9f9c887",
         "title": "Polresta Pati ungkap kekerasan seksual di lembaga pendidikan - ANTARA News Jateng",
@@ -556,7 +1140,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-09-11T20:16:54.925818+00:00"
+        "case_processed_at": "2026-09-11T23:03:02.682936+00:00"
       },
       {
         "id": "ad55dfd64ef1f39fe8be06562c3f1f6df0b447ee",
@@ -625,7 +1209,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-09-11T19:52:57.735678+00:00"
+        "case_processed_at": "2026-09-11T22:43:41.240937+00:00"
       },
       {
         "id": "8948a1cec2c97160ad2fcb8d9d2956a18efb5577",
@@ -694,7 +1278,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-09-11T20:16:54.925826+00:00"
+        "case_processed_at": "2026-09-11T23:03:02.682941+00:00"
       },
       {
         "id": "9421511af6a5d3ea72c134373811bb3574fb3669",
@@ -761,20 +1345,21 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-09-11T19:52:58.211042+00:00"
+        "case_processed_at": "2026-09-11T22:43:41.620883+00:00"
       }
     ]
   },
   "cases": {
-    "active": 3,
+    "active": 4,
     "priority_high": 0,
     "jatim": 1,
     "jatim_priority_high": 0,
-    "articles": 3,
+    "articles": 4,
     "case_ids": [
       "CASE-001324",
       "CASE-001325",
-      "CASE-001326"
+      "CASE-001326",
+      "CASE-001327"
     ],
     "items": [
       {
@@ -856,7 +1441,7 @@
         ],
         "article_count": 1,
         "created_at": "2026-09-11T20:13:01.124803+00:00",
-        "updated_at": "2026-09-11T20:16:54.918835+00:00",
+        "updated_at": "2026-09-11T23:03:02.674779+00:00",
         "engine_version": "case-v6.5.4",
         "priority_score": 28,
         "priority_breakdown": {
@@ -976,7 +1561,7 @@
         ],
         "article_count": 1,
         "created_at": "2026-09-11T20:13:01.760789+00:00",
-        "updated_at": "2026-09-11T20:16:54.922197+00:00",
+        "updated_at": "2026-09-11T23:03:02.677542+00:00",
         "engine_version": "case-v6.5.4",
         "priority_score": 20,
         "priority_breakdown": {
@@ -1081,7 +1666,7 @@
         ],
         "article_count": 1,
         "created_at": "2026-09-11T20:13:02.152539+00:00",
-        "updated_at": "2026-09-11T20:16:54.925068+00:00",
+        "updated_at": "2026-09-11T23:03:02.679877+00:00",
         "engine_version": "case-v6.5.4",
         "priority_score": 17,
         "priority_breakdown": {
@@ -1109,6 +1694,116 @@
             "sifat berita: negatif",
             "Narkoba / Narkotika",
             "Hubungan Polri belum spesifik"
+          ]
+        }
+      },
+      {
+        "case_id": "CASE-001327",
+        "title": "Kekerasan Seksual Anak Subang, Polisi Ungkap Tiga Kasus Terbaru - Pikiran Rakyat Koran",
+        "category": "NEGATIF - KEJAHATAN SEKSUAL",
+        "scope": "negative",
+        "region": "BELUM TERPETAKAN",
+        "locality": "",
+        "is_jatim": null,
+        "polres": null,
+        "polsek": null,
+        "priority": "low",
+        "attention_score": 36,
+        "attention_label": "Rendah",
+        "signature": "BELUM TERPETAKAN",
+        "incident_terms": [
+          "anak",
+          "kekerasan",
+          "koran",
+          "pikiran",
+          "rakyat",
+          "seksual",
+          "subang",
+          "terbaru"
+        ],
+        "event_terms": [
+          "kekerasan",
+          "seksual"
+        ],
+        "location_terms": [],
+        "discovery_families": [
+          "ethics_personal_misconduct"
+        ],
+        "first_seen": "2026-09-11T22:00:00+00:00",
+        "last_seen": "2026-09-11T22:37:08.652255+00:00",
+        "last_detected_at": "2026-09-11T22:37:08.652255+00:00",
+        "article_ids": [
+          "d19624b993ba4dff1975cd4c7baace5291203c31"
+        ],
+        "articles": [
+          {
+            "id": "d19624b993ba4dff1975cd4c7baace5291203c31",
+            "title": "Kekerasan Seksual Anak Subang, Polisi Ungkap Tiga Kasus Terbaru - Pikiran Rakyat Koran",
+            "url": "https://koran.pikiran-rakyat.com/news/pr-30310445117/kekerasan-seksual-anak-subang-polisi-ungkap-tiga-kasus-terbaru",
+            "published_at": "2026-09-11T22:00:00+00:00",
+            "collected_at": "2026-09-11T22:37:08.652255+00:00",
+            "source": "Pikiran Rakyat Koran",
+            "match_score": 1.0,
+            "priority": "low",
+            "scope": "negative",
+            "category": "NEGATIF - KEJAHATAN SEKSUAL",
+            "region": "BELUM TERPETAKAN",
+            "locality": "",
+            "is_jatim": false,
+            "polres": null,
+            "polsek": null,
+            "issue_type": "KEJAHATAN_SEKSUAL",
+            "issue_subtype": "Kejahatan Seksual",
+            "handling_status": "BELUM_ADA_INFORMASI",
+            "handling_evidence": [],
+            "polri_relation": null,
+            "polri_relation_points": 0,
+            "polri_relation_evidence": [],
+            "attention_score": 35,
+            "attention_label": "Rendah",
+            "attention_components": {
+              "severity": 14,
+              "polri_relation": 2,
+              "authority": 0,
+              "public_impact": 18,
+              "handling": 0,
+              "evidence": 1,
+              "context_risk": 0,
+              "routine_enforcement_cap": null
+            }
+          }
+        ],
+        "article_count": 1,
+        "created_at": "2026-09-11T22:59:50.694369+00:00",
+        "updated_at": "2026-09-11T23:03:02.682118+00:00",
+        "engine_version": "case-v6.5.4",
+        "priority_score": 36,
+        "priority_breakdown": {
+          "severity": 14,
+          "polri_relation": 2,
+          "authority_context": 0,
+          "public_impact": 18,
+          "handling": 0,
+          "evidence": 1,
+          "spread": 0,
+          "escalation": 0,
+          "current_activity": 1,
+          "context_risk": 0
+        },
+        "priority_evidence": {
+          "unique_sources": 1,
+          "active_today_articles": 1,
+          "escalation": [],
+          "issue_type": "KEJAHATAN_SEKSUAL",
+          "issue_subtype": "Kejahatan Seksual",
+          "sentiment": "negative",
+          "polri_relation": "PENEGAKAN_HUKUM",
+          "handling_status": "BELUM_ADA_INFORMASI",
+          "reasons": [
+            "sifat berita: negatif",
+            "sifat berita: negatif",
+            "sifat berita: negatif",
+            "Kejahatan Seksual"
           ]
         }
       }
@@ -1202,7 +1897,7 @@
         ],
         "article_count": 1,
         "created_at": "2026-09-11T20:13:01.760789+00:00",
-        "updated_at": "2026-09-11T20:16:54.922197+00:00",
+        "updated_at": "2026-09-11T23:03:02.677542+00:00",
         "engine_version": "case-v6.5.4",
         "priority_score": 20,
         "priority_breakdown": {
@@ -1236,14 +1931,20 @@
     ]
   },
   "social": {
-    "detected": 48,
+    "detected": 73,
     "jatim": 4,
-    "negative": 29,
+    "negative": 43,
     "priority_high": 24,
     "video_ids": [
+      "qchW-vbgN6Y",
       "VkmuJiGGbEs",
       "KhOlIIZhNO0",
       "8HFdhnAkuJw",
+      "CPe8bBPqWd8",
+      "7UBmFW2LUiw",
+      "8AszTEMp5AQ",
+      "q8gOzU511fU",
+      "t2dk-Pf4kK4",
       "Ids7aF_cnWo",
       "pB2fDGOpYHY",
       "705px0lGpUA",
@@ -1252,6 +1953,7 @@
       "G4uxFZxlTiU",
       "8Ul2AzgdndY",
       "mNfyh6sfylE",
+      "NVxtkQM6PEA",
       "ptego0o7zpM",
       "4XfyUtYpRKU",
       "8lHbLPW837Q",
@@ -1259,76 +1961,115 @@
       "UDnBcBrD87M",
       "gsK8fl8FHjw",
       "iPmvpxenJEI",
+      "MZ2Y99Zyl0E",
       "fiBmkCUQNcQ",
       "qdWnPbom6KU",
+      "hV1JxlUNfgE",
       "S2X35GMYI7w",
       "HZmuCoVJIs0",
+      "In9WQPoS9WM",
+      "JlWPC9D3z6w",
+      "29UsibU4quI",
+      "BWIxofzmMMk",
       "TE3EJSmA1dY",
       "Kwz9tp3DNIk",
       "7c5lFWiSlbY",
       "w-oJwcnSY0U",
+      "m_hobzeG5hQ",
+      "FjyLnN0U0_k",
       "UsR1Nh4prWw",
+      "jyVmvzMD8_4",
+      "_RLDW213Iug",
       "N58dtVBy3uI",
+      "W56YPGFPUt0",
       "rpno7Q2MYGQ",
       "eozFxoLFwjY",
       "W-cbhkH9xqM",
       "y0R7I6rmyds",
       "FkJh-zpqChw",
       "Ir9U4R_HwxQ",
+      "00jBK7awohg",
       "FrkOBSpzM9k",
       "Bt9m1F7eEGs",
+      "BrGSrUlA_wk",
       "_YXfo2l2CP0",
       "d4gww3D9KGc",
       "pL3ieWdGvf4",
+      "-A0UugwcjjA",
       "RH1BP8zgUB4",
       "XUt6W6nvRO0",
       "jGiTmxgFX_M",
       "jLhWA9Ld0EI",
+      "Y78FU-4Svco",
       "PBz3Us4btjY",
       "XPV0repKddo",
+      "H7ZNBIJ_Kgc",
       "axYJQIsNY_g",
+      "AhHtmEHHrDI",
+      "9IKOJgU1Ri8",
       "DcU0wW9w4ek",
       "BJjYO0QYo6o"
     ]
   },
   "jatim": {
-    "news_today": 1,
+    "news_today": 3,
     "negative_today": 1,
     "positive_today": 0,
     "case_scope_today": 0,
-    "neutral_today": 0,
+    "neutral_today": 2,
     "case_today": 1,
     "case_high_active": 0,
     "article_high_today": 0,
-    "outside_jatim_today": 4
+    "outside_jatim_today": 6
   },
   "regions": [
+    {
+      "name": "Malang",
+      "count": 1
+    },
+    {
+      "name": "Ponorogo",
+      "count": 1
+    },
     {
       "name": "Tulungagung",
       "count": 1
     }
   ],
-  "polres": [],
+  "polres": [
+    {
+      "name": "POLRESTA MALANG KOTA",
+      "count": 1
+    },
+    {
+      "name": "POLRES PONOROGO",
+      "count": 1
+    }
+  ],
   "categories": [
+    {
+      "name": "NETRAL / LAINNYA",
+      "count": 2
+    },
     {
       "name": "NEGATIF - AKTIVITAS ILEGAL",
       "count": 1
     }
   ],
   "summary": {
-    "news_today": 5,
-    "negative_today": 3,
-    "cases_today": 3,
+    "news_today": 9,
+    "negative_today": 4,
+    "cases_today": 4,
     "priority_high": 0,
     "article_priority_high": 0,
-    "jatim_news": 1,
+    "jatim_news": 3,
     "jatim_negative": 1,
     "jatim_positive": 0,
     "jatim_case_scope": 0,
-    "jatim_neutral": 0,
+    "jatim_neutral": 2,
     "jatim_cases_today": 1,
     "jatim_case_high_active": 0,
-    "luar_jatim_news": 4,
-    "youtube_today": 48
+    "luar_jatim_news": 6,
+    "youtube_today": 73
   }
 }
