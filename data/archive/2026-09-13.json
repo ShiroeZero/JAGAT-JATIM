@@ -2,18 +2,22 @@
   "schema_version": "today-v3",
   "date": "2026-09-13",
   "timezone": "Asia/Jakarta",
-  "updated_at": "2026-09-13T02:57:49.108416+07:00",
-  "last_successful_update": "2026-09-13T02:57:49.108416+07:00",
+  "updated_at": "2026-09-13T05:56:22.161129+07:00",
+  "last_successful_update": "2026-09-13T05:56:22.161129+07:00",
   "news": {
-    "detected": 25,
-    "negative": 17,
+    "detected": 29,
+    "negative": 19,
     "positive": 0,
     "case": 0,
-    "neutral": 8,
-    "jatim": 8,
-    "luar_jatim": 17,
+    "neutral": 10,
+    "jatim": 10,
+    "luar_jatim": 19,
     "priority_high": 0,
     "article_ids": [
+      "53108187d7645c6b5eacf5f5376f55bb25be0820",
+      "05ee6f13d537ceb919aed5ee74bc827181fc4040",
+      "0e1041fee2058dc429477fbccc64c8012c01ef90",
+      "243375851ef4951ada2170232394b7d4b885f9e8",
       "15cdaa6230e74a809737ec4cd3cba4f4def638ca",
       "c6fcd84c704008a7f41638fecfed3acd81c56eae",
       "a1ef893cc143722d1f42691bccf8418774e1a84c",
@@ -42,6 +46,286 @@
     ],
     "items": [
       {
+        "id": "53108187d7645c6b5eacf5f5376f55bb25be0820",
+        "title": "Polsek Laren Sita Puluhan Liter Tuak dan Arak di Lamongan - radarbangsa.co.id",
+        "url": "https://radarbangsa.co.id/polsek-laren-sita-puluhan-liter-tuak-dan-arak-di-lamongan/",
+        "source": "radarbangsa.co.id",
+        "published_at": "2026-09-12T22:13:37+00:00",
+        "collected_at": "2026-09-12T22:20:12.743273+00:00",
+        "region": "Jawa Timur",
+        "area_label": "Lamongan",
+        "is_jatim": true,
+        "polres": null,
+        "category": "NETRAL / LAINNYA",
+        "scope": "neutral",
+        "scope_label": "Netral",
+        "priority": "low",
+        "summary": "Polsek Laren Sita Puluhan Liter Tuak dan Arak di Lamongan radarbangsa.co.id",
+        "processing_status": "processed",
+        "classifier_version": "news-v6",
+        "classified_at": "2026-09-12T22:20:12.743273+00:00",
+        "case_id": null,
+        "discovery_families": [],
+        "discovery_tags": [],
+        "discovery_hits": [],
+        "discovery_version": "discovery-v6.5.4",
+        "google_news_url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOS3RndlN5U09WcHg0VWZCcUZoVjFOdVdjc2dyWlRSTUQ0eERTNWRNRm4xXzdLTEhKZHdtMjNrR0o2Zy1RdFN6dl9hMlQ0cGZwcGlyRGUxMUJ0V3F1RXo0NnFSMzJZOEFUTnZxd3EtRUVtRGZ1RUdTLTI3OGVWdGZaMGRpOTN6SHJHQm9TMg?oc=5",
+        "original_url": "https://radarbangsa.co.id/polsek-laren-sita-puluhan-liter-tuak-dan-arak-di-lamongan/",
+        "locality": "Lamongan",
+        "polsek": "POLSEK LAREN SITA PULUHAN",
+        "location_confidence": 95,
+        "location_evidence": [
+          "POLSEK LAREN SITA PULUHAN",
+          "Lamongan"
+        ],
+        "location_status": "JAWA_TIMUR",
+        "location_source": "title",
+        "issue_type": "UMUM",
+        "issue_subtype": "Belum Teridentifikasi",
+        "issue_evidence": [],
+        "handling_status": "BELUM_ADA_INFORMASI",
+        "handling_evidence": [],
+        "attention_score": 7,
+        "attention_label": "Rendah",
+        "attention_components": {
+          "severity": 2,
+          "polri_relation": 0,
+          "authority": 0,
+          "public_impact": 4,
+          "handling": 0,
+          "evidence": 1,
+          "context_risk": 0,
+          "routine_enforcement_cap": null
+        },
+        "attention_evidence": {
+          "severity": [],
+          "authority": [],
+          "public_impact": [],
+          "evidence": [
+            "satu sumber / informasi awal"
+          ],
+          "role": [],
+          "issue": [],
+          "handling": [],
+          "context": [],
+          "positive": []
+        },
+        "case_engine_version": "case-v6.5.4",
+        "case_processed_at": "2026-09-12T22:27:54.822729+00:00"
+      },
+      {
+        "id": "05ee6f13d537ceb919aed5ee74bc827181fc4040",
+        "title": "Polisi Bongkar Sindikat Peredaran Sabu Pakai Senpi di Paluta, 4 Orang Ditangkap - detikNews",
+        "url": "https://news.detik.com/berita/d-8660379/polisi-bongkar-sindikat-peredaran-sabu-pakai-senpi-di-paluta-4-orang-ditangkap",
+        "source": "detikNews",
+        "published_at": "2026-09-12T21:31:46+00:00",
+        "collected_at": "2026-09-12T22:20:12.743273+00:00",
+        "region": "BELUM TERPETAKAN",
+        "area_label": "BELUM TERPETAKAN",
+        "is_jatim": null,
+        "polres": null,
+        "category": "NEGATIF - NARKOBA / NARKOTIKA",
+        "scope": "negative",
+        "scope_label": "Negatif",
+        "priority": "low",
+        "summary": "Polisi Bongkar Sindikat Peredaran Sabu Pakai Senpi di Paluta, 4 Orang Ditangkap detikNews",
+        "processing_status": "processed",
+        "classifier_version": "news-v6",
+        "classified_at": "2026-09-12T22:20:12.743273+00:00",
+        "case_id": "CASE-001395",
+        "discovery_families": [],
+        "discovery_tags": [],
+        "discovery_hits": [],
+        "discovery_version": "discovery-v6.5.4",
+        "google_news_url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPdk5ySUF5REl4NW5BSWR0OTBqQS11d3hUZ0Jib2xrY2YxemIxeWxiS01KalJrVXlnTWtyd3ZJUzVzS0lKQ1NnZlZMdkYxaTFRRXlpSFpDMlB0Wk1wc2VLMFNlaDdOSWQwclFPVDA1SGRYVnhTNkF4MjNiVzc4TEJvcXNCanI2RjQ5UEFPWGZwTzJWU0ZReW1NZEdiZV9VMWw1QnVFaTFsSUpvVkxCYnJ6ZWxXZGtLQ1VfeGfSAb8BQVVfeXFMTVZMc0lNNHRLYkE4dXp2RVJNVnNZaW55VEFodG1fS3hZMl8wYS1rd3lpUUUtRnpLSjdtMy0yS1YxdmNkVzl5d0p6T1g1SlNTc01vQ1lNRng4REVpXy02MG9hV3k0VWhXeC0zbXNuaGFZTG9EemdPa21EamE0dUVGQzdsT3VaWURiaE5RUEpuZmhaWkRySEotbmJoZUdTckFNZXc1ZXVKTGNEWlRoVHM1WlhwRDVRRnVQNHlwODZkVkU?oc=5",
+        "original_url": "https://news.detik.com/berita/d-8660379/polisi-bongkar-sindikat-peredaran-sabu-pakai-senpi-di-paluta-4-orang-ditangkap",
+        "locality": "",
+        "polsek": null,
+        "location_confidence": 0,
+        "location_evidence": [],
+        "location_status": "BELUM_TERPETAKAN",
+        "location_source": "title",
+        "issue_type": "NARKOBA",
+        "issue_subtype": "Narkoba / Narkotika",
+        "issue_evidence": [
+          "sabu"
+        ],
+        "handling_status": "BELUM_ADA_INFORMASI",
+        "handling_evidence": [],
+        "attention_score": 16,
+        "attention_label": "Rendah",
+        "attention_components": {
+          "severity": 11,
+          "polri_relation": 0,
+          "authority": 0,
+          "public_impact": 4,
+          "handling": 0,
+          "evidence": 1,
+          "context_risk": 0,
+          "routine_enforcement_cap": null
+        },
+        "attention_evidence": {
+          "severity": [],
+          "authority": [],
+          "public_impact": [],
+          "evidence": [
+            "satu sumber / informasi awal"
+          ],
+          "role": [],
+          "issue": [
+            "sabu"
+          ],
+          "handling": [],
+          "context": [],
+          "positive": []
+        },
+        "case_engine_version": "case-v6.5.4",
+        "case_processed_at": "2026-09-12T22:56:20.572030+00:00"
+      },
+      {
+        "id": "0e1041fee2058dc429477fbccc64c8012c01ef90",
+        "title": "Satreskrim Polres Batu Ringkus Terduga Pelaku Curat, Warga Lumajang - TargetNews.ID",
+        "url": "https://targetnews.id/2026/09/13/satreskrim-polres-batu-ringkus-terduga-pelaku-curat-warga-lumajang/",
+        "source": "TargetNews.ID",
+        "published_at": "2026-09-12T20:39:00+00:00",
+        "collected_at": "2026-09-12T22:20:12.743273+00:00",
+        "region": "Jawa Timur",
+        "area_label": "Batu",
+        "is_jatim": true,
+        "polres": "POLRES BATU",
+        "category": "NETRAL / LAINNYA",
+        "scope": "neutral",
+        "scope_label": "Netral",
+        "priority": "low",
+        "summary": "Satreskrim Polres Batu Ringkus Terduga Pelaku Curat, Warga Lumajang TargetNews.ID",
+        "processing_status": "processed",
+        "classifier_version": "news-v6",
+        "classified_at": "2026-09-12T22:20:12.743273+00:00",
+        "case_id": null,
+        "discovery_families": [],
+        "discovery_tags": [],
+        "discovery_hits": [],
+        "discovery_version": "discovery-v6.5.4",
+        "google_news_url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQcHItZGM0dnBiWHVHTVhYcTYxSjZVT3NSV3BCVnpKX1ppOHJMVVp1YmFLZzRfNDJRQnNHalNILTVvRGo4c2FhZXdWaXF4SmpaVDVtUUpQRXlnRlAzUlA5Rl9GZU5JNFFwYmIwbFpNVmdWcjBDVkhwUmVBUWNtZlYxckZLdDhlaEVwVWprcFdpckNYMU92Q1BnVEhCbnpfSkVjNmc?oc=5",
+        "original_url": "https://targetnews.id/2026/09/13/satreskrim-polres-batu-ringkus-terduga-pelaku-curat-warga-lumajang/",
+        "locality": "Batu",
+        "polsek": null,
+        "location_confidence": 100,
+        "location_evidence": [
+          "polres batu",
+          "Batu"
+        ],
+        "location_status": "JAWA_TIMUR",
+        "location_source": "title",
+        "issue_type": "UMUM",
+        "issue_subtype": "Belum Teridentifikasi",
+        "issue_evidence": [],
+        "handling_status": "BELUM_ADA_INFORMASI",
+        "handling_evidence": [],
+        "attention_score": 15,
+        "attention_label": "Rendah",
+        "attention_components": {
+          "severity": 2,
+          "polri_relation": 0,
+          "authority": 0,
+          "public_impact": 12,
+          "handling": 0,
+          "evidence": 1,
+          "context_risk": 0,
+          "routine_enforcement_cap": null
+        },
+        "attention_evidence": {
+          "severity": [],
+          "authority": [],
+          "public_impact": [
+            "dampak kepada masyarakat"
+          ],
+          "evidence": [
+            "satu sumber / informasi awal"
+          ],
+          "role": [],
+          "issue": [],
+          "handling": [],
+          "context": [],
+          "positive": []
+        },
+        "case_engine_version": "case-v6.5.4",
+        "case_processed_at": "2026-09-12T22:27:55.239551+00:00"
+      },
+      {
+        "id": "243375851ef4951ada2170232394b7d4b885f9e8",
+        "title": "Rumah Toko yang Diduga Tempat Penyimpanan Sabu 65 Kilogram Disegel Polisi - Pekanbaru Pos",
+        "url": "https://pekanbarupos.co/2026/09/12/61255/",
+        "source": "Pekanbaru Pos",
+        "published_at": "2026-09-12T19:45:01+00:00",
+        "collected_at": "2026-09-12T22:20:12.743273+00:00",
+        "region": "BELUM TERPETAKAN",
+        "area_label": "BELUM TERPETAKAN",
+        "is_jatim": null,
+        "polres": null,
+        "category": "NEGATIF - NARKOBA / NARKOTIKA",
+        "scope": "negative",
+        "scope_label": "Negatif",
+        "priority": "low",
+        "summary": "Rumah Toko yang Diduga Tempat Penyimpanan Sabu 65 Kilogram Disegel Polisi Pekanbaru Pos",
+        "processing_status": "processed",
+        "classifier_version": "news-v6",
+        "classified_at": "2026-09-12T22:20:12.743273+00:00",
+        "case_id": "CASE-001396",
+        "discovery_families": [],
+        "discovery_tags": [],
+        "discovery_hits": [],
+        "discovery_version": "discovery-v6.5.4",
+        "google_news_url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFB6MWVSd3F1bm9mZ3lUbjYyTEVFZmpXdUYtY2lPZ1c1TmNKcDJTcU03aUg0ZS1fckdWQjRobWtDM1ZqQTY5VXhHdnRQT2dBZVR5MDJv?oc=5",
+        "original_url": "https://pekanbarupos.co/2026/09/12/61255/",
+        "locality": "",
+        "polsek": null,
+        "location_confidence": 0,
+        "location_evidence": [],
+        "location_status": "BELUM_TERPETAKAN",
+        "location_source": "title",
+        "issue_type": "NARKOBA",
+        "issue_subtype": "Narkoba / Narkotika",
+        "issue_evidence": [
+          "sabu"
+        ],
+        "handling_status": "BELUM_ADA_INFORMASI",
+        "handling_evidence": [],
+        "attention_score": 38,
+        "attention_label": "Rendah",
+        "attention_components": {
+          "severity": 11,
+          "polri_relation": 16,
+          "authority": 0,
+          "public_impact": 10,
+          "handling": 0,
+          "evidence": 1,
+          "context_risk": 0,
+          "routine_enforcement_cap": null
+        },
+        "attention_evidence": {
+          "severity": [],
+          "authority": [],
+          "public_impact": [
+            "dampak institusional"
+          ],
+          "evidence": [
+            "satu sumber / informasi awal"
+          ],
+          "role": [
+            "Polri/personel menjadi subjek permasalahan"
+          ],
+          "issue": [
+            "sabu"
+          ],
+          "handling": [],
+          "context": [],
+          "positive": []
+        },
+        "case_engine_version": "case-v6.5.4",
+        "case_processed_at": "2026-09-12T22:56:20.572035+00:00"
+      },
+      {
         "id": "15cdaa6230e74a809737ec4cd3cba4f4def638ca",
         "title": "Artis Muda Inisial BP Dilaporkan ke Polisi Terkait Dugaan Kekerasan Seksual - Sudutpandang.id",
         "url": "https://sudutpandang.id/artis-muda-inisial-bp-dilaporkan-ke-polisi-terkait-dugaan-kekerasan-seksual/",
@@ -120,7 +404,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-09-12T19:57:47.324719+00:00"
+        "case_processed_at": "2026-09-12T22:56:20.572038+00:00"
       },
       {
         "id": "c6fcd84c704008a7f41638fecfed3acd81c56eae",
@@ -201,7 +485,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-09-12T19:57:47.324725+00:00"
+        "case_processed_at": "2026-09-12T22:56:20.572040+00:00"
       },
       {
         "id": "a1ef893cc143722d1f42691bccf8418774e1a84c",
@@ -270,7 +554,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-09-12T19:32:44.132650+00:00"
+        "case_processed_at": "2026-09-12T22:27:55.792465+00:00"
       },
       {
         "id": "bbed467ac172448496359a0a62c31a748b3d4587",
@@ -339,7 +623,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-09-12T19:57:47.324737+00:00"
+        "case_processed_at": "2026-09-12T22:56:20.572043+00:00"
       },
       {
         "id": "9a65427a80b9038c5af493429f24b9ede8c8d192",
@@ -420,7 +704,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-09-12T19:57:47.324741+00:00"
+        "case_processed_at": "2026-09-12T22:56:20.572046+00:00"
       },
       {
         "id": "bf66db8014ea3b34be04b0430e29ca1a8c4b583c",
@@ -491,7 +775,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-09-12T19:57:47.324744+00:00"
+        "case_processed_at": "2026-09-12T22:56:20.572048+00:00"
       },
       {
         "id": "82ccfdb736b1142d79b8ae50ab1d44a65464fa0e",
@@ -572,7 +856,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-09-12T19:57:47.324746+00:00"
+        "case_processed_at": "2026-09-12T22:56:20.572051+00:00"
       },
       {
         "id": "409bdb9904b8dd1f14c40ca6e05ed89dc82f9135",
@@ -640,7 +924,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-09-12T19:32:44.516499+00:00"
+        "case_processed_at": "2026-09-12T22:27:56.226743+00:00"
       },
       {
         "id": "662aa189569bb3dddb43ac3f8ccaafdaf252100b",
@@ -711,7 +995,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-09-12T19:57:47.324749+00:00"
+        "case_processed_at": "2026-09-12T22:56:20.572054+00:00"
       },
       {
         "id": "a0892e72d677fa2bf90eea14a9dc7765bd58ac8a",
@@ -785,7 +1069,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-09-12T19:57:47.324751+00:00"
+        "case_processed_at": "2026-09-12T22:56:20.572056+00:00"
       },
       {
         "id": "a69fb7820153fa72d0a83168f564231f58e88006",
@@ -853,7 +1137,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-09-12T19:32:44.923132+00:00"
+        "case_processed_at": "2026-09-12T22:27:56.687539+00:00"
       },
       {
         "id": "7cc327c4f8623d1753e0d94f41813ed897dfcb4a",
@@ -921,7 +1205,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-09-12T19:32:45.335092+00:00"
+        "case_processed_at": "2026-09-12T22:27:57.156681+00:00"
       },
       {
         "id": "f003113e4f36e53752b49eddb2009243d9a89296",
@@ -1003,7 +1287,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-09-12T19:57:47.324755+00:00"
+        "case_processed_at": "2026-09-12T22:56:20.572059+00:00"
       },
       {
         "id": "588f8298e0ff3f61be9a029b5c33c13b37860fa2",
@@ -1074,7 +1358,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-09-12T19:57:47.324757+00:00"
+        "case_processed_at": "2026-09-12T22:56:20.572062+00:00"
       },
       {
         "id": "b9bd30b5f047369785090b505b66ec1118e2a6dd",
@@ -1155,7 +1439,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-09-12T19:57:47.324760+00:00"
+        "case_processed_at": "2026-09-12T22:56:20.572064+00:00"
       },
       {
         "id": "c8fe54b4ea6d471d29cf61ba6c9db296bbc21277",
@@ -1222,7 +1506,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-09-12T19:32:45.773947+00:00"
+        "case_processed_at": "2026-09-12T22:27:57.658320+00:00"
       },
       {
         "id": "66fac8017305d240db90fbd459d38b6acc1f0311",
@@ -1289,7 +1573,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-09-12T19:32:46.256467+00:00"
+        "case_processed_at": "2026-09-12T22:27:58.206887+00:00"
       },
       {
         "id": "67a574993362ffe5e9aa33b4519f916a77869ecd",
@@ -1357,7 +1641,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-09-12T19:32:46.754997+00:00"
+        "case_processed_at": "2026-09-12T22:27:58.772308+00:00"
       },
       {
         "id": "3ddda065c060b5583fefd4563e03547bf516f3e2",
@@ -1438,7 +1722,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-09-12T19:57:47.324763+00:00"
+        "case_processed_at": "2026-09-12T22:56:20.572067+00:00"
       },
       {
         "id": "2bd8c59fee00c066b1346109748ea9dc6f832f80",
@@ -1519,7 +1803,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-09-12T19:57:47.324765+00:00"
+        "case_processed_at": "2026-09-12T22:56:20.572070+00:00"
       },
       {
         "id": "22d7d4ffda5463d855b469c43ae6ffc6774eb0d8",
@@ -1600,7 +1884,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-09-12T19:57:47.324767+00:00"
+        "case_processed_at": "2026-09-12T22:56:20.572072+00:00"
       },
       {
         "id": "f46ef55fe659b74c98d895addbf46ada6531fe22",
@@ -1681,7 +1965,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-09-12T19:57:47.324769+00:00"
+        "case_processed_at": "2026-09-12T22:56:20.572075+00:00"
       },
       {
         "id": "87c5cb1e76cfe469604e2a38131b2fe2b63af62a",
@@ -1749,7 +2033,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-09-12T19:32:47.184278+00:00"
+        "case_processed_at": "2026-09-12T22:27:59.262694+00:00"
       },
       {
         "id": "6402e0a1b884077cc5f3b1eecbabb65387c24730",
@@ -1820,7 +2104,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-09-12T19:57:47.324772+00:00"
+        "case_processed_at": "2026-09-12T22:56:20.572077+00:00"
       },
       {
         "id": "0f1154e840fcba56cf1f0408f6f612e552639c09",
@@ -1901,11 +2185,149 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-09-12T19:57:47.324774+00:00"
+        "case_processed_at": "2026-09-12T22:56:20.572079+00:00"
       }
     ],
     "jatim_items": [
       {
+        "id": "53108187d7645c6b5eacf5f5376f55bb25be0820",
+        "title": "Polsek Laren Sita Puluhan Liter Tuak dan Arak di Lamongan - radarbangsa.co.id",
+        "url": "https://radarbangsa.co.id/polsek-laren-sita-puluhan-liter-tuak-dan-arak-di-lamongan/",
+        "source": "radarbangsa.co.id",
+        "published_at": "2026-09-12T22:13:37+00:00",
+        "collected_at": "2026-09-12T22:20:12.743273+00:00",
+        "region": "Jawa Timur",
+        "area_label": "Lamongan",
+        "is_jatim": true,
+        "polres": null,
+        "category": "NETRAL / LAINNYA",
+        "scope": "neutral",
+        "scope_label": "Netral",
+        "priority": "low",
+        "summary": "Polsek Laren Sita Puluhan Liter Tuak dan Arak di Lamongan radarbangsa.co.id",
+        "processing_status": "processed",
+        "classifier_version": "news-v6",
+        "classified_at": "2026-09-12T22:20:12.743273+00:00",
+        "case_id": null,
+        "discovery_families": [],
+        "discovery_tags": [],
+        "discovery_hits": [],
+        "discovery_version": "discovery-v6.5.4",
+        "google_news_url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOS3RndlN5U09WcHg0VWZCcUZoVjFOdVdjc2dyWlRSTUQ0eERTNWRNRm4xXzdLTEhKZHdtMjNrR0o2Zy1RdFN6dl9hMlQ0cGZwcGlyRGUxMUJ0V3F1RXo0NnFSMzJZOEFUTnZxd3EtRUVtRGZ1RUdTLTI3OGVWdGZaMGRpOTN6SHJHQm9TMg?oc=5",
+        "original_url": "https://radarbangsa.co.id/polsek-laren-sita-puluhan-liter-tuak-dan-arak-di-lamongan/",
+        "locality": "Lamongan",
+        "polsek": "POLSEK LAREN SITA PULUHAN",
+        "location_confidence": 95,
+        "location_evidence": [
+          "POLSEK LAREN SITA PULUHAN",
+          "Lamongan"
+        ],
+        "location_status": "JAWA_TIMUR",
+        "location_source": "title",
+        "issue_type": "UMUM",
+        "issue_subtype": "Belum Teridentifikasi",
+        "issue_evidence": [],
+        "handling_status": "BELUM_ADA_INFORMASI",
+        "handling_evidence": [],
+        "attention_score": 7,
+        "attention_label": "Rendah",
+        "attention_components": {
+          "severity": 2,
+          "polri_relation": 0,
+          "authority": 0,
+          "public_impact": 4,
+          "handling": 0,
+          "evidence": 1,
+          "context_risk": 0,
+          "routine_enforcement_cap": null
+        },
+        "attention_evidence": {
+          "severity": [],
+          "authority": [],
+          "public_impact": [],
+          "evidence": [
+            "satu sumber / informasi awal"
+          ],
+          "role": [],
+          "issue": [],
+          "handling": [],
+          "context": [],
+          "positive": []
+        },
+        "case_engine_version": "case-v6.5.4",
+        "case_processed_at": "2026-09-12T22:27:54.822729+00:00"
+      },
+      {
+        "id": "0e1041fee2058dc429477fbccc64c8012c01ef90",
+        "title": "Satreskrim Polres Batu Ringkus Terduga Pelaku Curat, Warga Lumajang - TargetNews.ID",
+        "url": "https://targetnews.id/2026/09/13/satreskrim-polres-batu-ringkus-terduga-pelaku-curat-warga-lumajang/",
+        "source": "TargetNews.ID",
+        "published_at": "2026-09-12T20:39:00+00:00",
+        "collected_at": "2026-09-12T22:20:12.743273+00:00",
+        "region": "Jawa Timur",
+        "area_label": "Batu",
+        "is_jatim": true,
+        "polres": "POLRES BATU",
+        "category": "NETRAL / LAINNYA",
+        "scope": "neutral",
+        "scope_label": "Netral",
+        "priority": "low",
+        "summary": "Satreskrim Polres Batu Ringkus Terduga Pelaku Curat, Warga Lumajang TargetNews.ID",
+        "processing_status": "processed",
+        "classifier_version": "news-v6",
+        "classified_at": "2026-09-12T22:20:12.743273+00:00",
+        "case_id": null,
+        "discovery_families": [],
+        "discovery_tags": [],
+        "discovery_hits": [],
+        "discovery_version": "discovery-v6.5.4",
+        "google_news_url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQcHItZGM0dnBiWHVHTVhYcTYxSjZVT3NSV3BCVnpKX1ppOHJMVVp1YmFLZzRfNDJRQnNHalNILTVvRGo4c2FhZXdWaXF4SmpaVDVtUUpQRXlnRlAzUlA5Rl9GZU5JNFFwYmIwbFpNVmdWcjBDVkhwUmVBUWNtZlYxckZLdDhlaEVwVWprcFdpckNYMU92Q1BnVEhCbnpfSkVjNmc?oc=5",
+        "original_url": "https://targetnews.id/2026/09/13/satreskrim-polres-batu-ringkus-terduga-pelaku-curat-warga-lumajang/",
+        "locality": "Batu",
+        "polsek": null,
+        "location_confidence": 100,
+        "location_evidence": [
+          "polres batu",
+          "Batu"
+        ],
+        "location_status": "JAWA_TIMUR",
+        "location_source": "title",
+        "issue_type": "UMUM",
+        "issue_subtype": "Belum Teridentifikasi",
+        "issue_evidence": [],
+        "handling_status": "BELUM_ADA_INFORMASI",
+        "handling_evidence": [],
+        "attention_score": 15,
+        "attention_label": "Rendah",
+        "attention_components": {
+          "severity": 2,
+          "polri_relation": 0,
+          "authority": 0,
+          "public_impact": 12,
+          "handling": 0,
+          "evidence": 1,
+          "context_risk": 0,
+          "routine_enforcement_cap": null
+        },
+        "attention_evidence": {
+          "severity": [],
+          "authority": [],
+          "public_impact": [
+            "dampak kepada masyarakat"
+          ],
+          "evidence": [
+            "satu sumber / informasi awal"
+          ],
+          "role": [],
+          "issue": [],
+          "handling": [],
+          "context": [],
+          "positive": []
+        },
+        "case_engine_version": "case-v6.5.4",
+        "case_processed_at": "2026-09-12T22:27:55.239551+00:00"
+      },
+      {
         "id": "409bdb9904b8dd1f14c40ca6e05ed89dc82f9135",
         "title": "Pastikan Ketersediaan BBM, Satreskrim Polres Probolinggo Sidak Sejumlah SPBU - RRI.co.id",
         "url": "https://rri.co.id/malang/regional/2724916/pastikan-ketersediaan-bbm-satreskrim-polres-probolinggo-sidak-sejumlah-spbu",
@@ -1971,7 +2393,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-09-12T19:32:44.516499+00:00"
+        "case_processed_at": "2026-09-12T22:27:56.226743+00:00"
       },
       {
         "id": "a0892e72d677fa2bf90eea14a9dc7765bd58ac8a",
@@ -2045,7 +2467,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-09-12T19:57:47.324751+00:00"
+        "case_processed_at": "2026-09-12T22:56:20.572056+00:00"
       },
       {
         "id": "a69fb7820153fa72d0a83168f564231f58e88006",
@@ -2113,7 +2535,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-09-12T19:32:44.923132+00:00"
+        "case_processed_at": "2026-09-12T22:27:56.687539+00:00"
       },
       {
         "id": "7cc327c4f8623d1753e0d94f41813ed897dfcb4a",
@@ -2181,7 +2603,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-09-12T19:32:45.335092+00:00"
+        "case_processed_at": "2026-09-12T22:27:57.156681+00:00"
       },
       {
         "id": "c8fe54b4ea6d471d29cf61ba6c9db296bbc21277",
@@ -2248,7 +2670,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-09-12T19:32:45.773947+00:00"
+        "case_processed_at": "2026-09-12T22:27:57.658320+00:00"
       },
       {
         "id": "66fac8017305d240db90fbd459d38b6acc1f0311",
@@ -2315,7 +2737,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-09-12T19:32:46.256467+00:00"
+        "case_processed_at": "2026-09-12T22:27:58.206887+00:00"
       },
       {
         "id": "67a574993362ffe5e9aa33b4519f916a77869ecd",
@@ -2383,7 +2805,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-09-12T19:32:46.754997+00:00"
+        "case_processed_at": "2026-09-12T22:27:58.772308+00:00"
       },
       {
         "id": "87c5cb1e76cfe469604e2a38131b2fe2b63af62a",
@@ -2451,10 +2873,152 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-09-12T19:32:47.184278+00:00"
+        "case_processed_at": "2026-09-12T22:27:59.262694+00:00"
       }
     ],
     "luar_jatim_items": [
+      {
+        "id": "05ee6f13d537ceb919aed5ee74bc827181fc4040",
+        "title": "Polisi Bongkar Sindikat Peredaran Sabu Pakai Senpi di Paluta, 4 Orang Ditangkap - detikNews",
+        "url": "https://news.detik.com/berita/d-8660379/polisi-bongkar-sindikat-peredaran-sabu-pakai-senpi-di-paluta-4-orang-ditangkap",
+        "source": "detikNews",
+        "published_at": "2026-09-12T21:31:46+00:00",
+        "collected_at": "2026-09-12T22:20:12.743273+00:00",
+        "region": "BELUM TERPETAKAN",
+        "area_label": "BELUM TERPETAKAN",
+        "is_jatim": null,
+        "polres": null,
+        "category": "NEGATIF - NARKOBA / NARKOTIKA",
+        "scope": "negative",
+        "scope_label": "Negatif",
+        "priority": "low",
+        "summary": "Polisi Bongkar Sindikat Peredaran Sabu Pakai Senpi di Paluta, 4 Orang Ditangkap detikNews",
+        "processing_status": "processed",
+        "classifier_version": "news-v6",
+        "classified_at": "2026-09-12T22:20:12.743273+00:00",
+        "case_id": "CASE-001395",
+        "discovery_families": [],
+        "discovery_tags": [],
+        "discovery_hits": [],
+        "discovery_version": "discovery-v6.5.4",
+        "google_news_url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPdk5ySUF5REl4NW5BSWR0OTBqQS11d3hUZ0Jib2xrY2YxemIxeWxiS01KalJrVXlnTWtyd3ZJUzVzS0lKQ1NnZlZMdkYxaTFRRXlpSFpDMlB0Wk1wc2VLMFNlaDdOSWQwclFPVDA1SGRYVnhTNkF4MjNiVzc4TEJvcXNCanI2RjQ5UEFPWGZwTzJWU0ZReW1NZEdiZV9VMWw1QnVFaTFsSUpvVkxCYnJ6ZWxXZGtLQ1VfeGfSAb8BQVVfeXFMTVZMc0lNNHRLYkE4dXp2RVJNVnNZaW55VEFodG1fS3hZMl8wYS1rd3lpUUUtRnpLSjdtMy0yS1YxdmNkVzl5d0p6T1g1SlNTc01vQ1lNRng4REVpXy02MG9hV3k0VWhXeC0zbXNuaGFZTG9EemdPa21EamE0dUVGQzdsT3VaWURiaE5RUEpuZmhaWkRySEotbmJoZUdTckFNZXc1ZXVKTGNEWlRoVHM1WlhwRDVRRnVQNHlwODZkVkU?oc=5",
+        "original_url": "https://news.detik.com/berita/d-8660379/polisi-bongkar-sindikat-peredaran-sabu-pakai-senpi-di-paluta-4-orang-ditangkap",
+        "locality": "",
+        "polsek": null,
+        "location_confidence": 0,
+        "location_evidence": [],
+        "location_status": "BELUM_TERPETAKAN",
+        "location_source": "title",
+        "issue_type": "NARKOBA",
+        "issue_subtype": "Narkoba / Narkotika",
+        "issue_evidence": [
+          "sabu"
+        ],
+        "handling_status": "BELUM_ADA_INFORMASI",
+        "handling_evidence": [],
+        "attention_score": 16,
+        "attention_label": "Rendah",
+        "attention_components": {
+          "severity": 11,
+          "polri_relation": 0,
+          "authority": 0,
+          "public_impact": 4,
+          "handling": 0,
+          "evidence": 1,
+          "context_risk": 0,
+          "routine_enforcement_cap": null
+        },
+        "attention_evidence": {
+          "severity": [],
+          "authority": [],
+          "public_impact": [],
+          "evidence": [
+            "satu sumber / informasi awal"
+          ],
+          "role": [],
+          "issue": [
+            "sabu"
+          ],
+          "handling": [],
+          "context": [],
+          "positive": []
+        },
+        "case_engine_version": "case-v6.5.4",
+        "case_processed_at": "2026-09-12T22:56:20.572030+00:00"
+      },
+      {
+        "id": "243375851ef4951ada2170232394b7d4b885f9e8",
+        "title": "Rumah Toko yang Diduga Tempat Penyimpanan Sabu 65 Kilogram Disegel Polisi - Pekanbaru Pos",
+        "url": "https://pekanbarupos.co/2026/09/12/61255/",
+        "source": "Pekanbaru Pos",
+        "published_at": "2026-09-12T19:45:01+00:00",
+        "collected_at": "2026-09-12T22:20:12.743273+00:00",
+        "region": "BELUM TERPETAKAN",
+        "area_label": "BELUM TERPETAKAN",
+        "is_jatim": null,
+        "polres": null,
+        "category": "NEGATIF - NARKOBA / NARKOTIKA",
+        "scope": "negative",
+        "scope_label": "Negatif",
+        "priority": "low",
+        "summary": "Rumah Toko yang Diduga Tempat Penyimpanan Sabu 65 Kilogram Disegel Polisi Pekanbaru Pos",
+        "processing_status": "processed",
+        "classifier_version": "news-v6",
+        "classified_at": "2026-09-12T22:20:12.743273+00:00",
+        "case_id": "CASE-001396",
+        "discovery_families": [],
+        "discovery_tags": [],
+        "discovery_hits": [],
+        "discovery_version": "discovery-v6.5.4",
+        "google_news_url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFB6MWVSd3F1bm9mZ3lUbjYyTEVFZmpXdUYtY2lPZ1c1TmNKcDJTcU03aUg0ZS1fckdWQjRobWtDM1ZqQTY5VXhHdnRQT2dBZVR5MDJv?oc=5",
+        "original_url": "https://pekanbarupos.co/2026/09/12/61255/",
+        "locality": "",
+        "polsek": null,
+        "location_confidence": 0,
+        "location_evidence": [],
+        "location_status": "BELUM_TERPETAKAN",
+        "location_source": "title",
+        "issue_type": "NARKOBA",
+        "issue_subtype": "Narkoba / Narkotika",
+        "issue_evidence": [
+          "sabu"
+        ],
+        "handling_status": "BELUM_ADA_INFORMASI",
+        "handling_evidence": [],
+        "attention_score": 38,
+        "attention_label": "Rendah",
+        "attention_components": {
+          "severity": 11,
+          "polri_relation": 16,
+          "authority": 0,
+          "public_impact": 10,
+          "handling": 0,
+          "evidence": 1,
+          "context_risk": 0,
+          "routine_enforcement_cap": null
+        },
+        "attention_evidence": {
+          "severity": [],
+          "authority": [],
+          "public_impact": [
+            "dampak institusional"
+          ],
+          "evidence": [
+            "satu sumber / informasi awal"
+          ],
+          "role": [
+            "Polri/personel menjadi subjek permasalahan"
+          ],
+          "issue": [
+            "sabu"
+          ],
+          "handling": [],
+          "context": [],
+          "positive": []
+        },
+        "case_engine_version": "case-v6.5.4",
+        "case_processed_at": "2026-09-12T22:56:20.572035+00:00"
+      },
       {
         "id": "15cdaa6230e74a809737ec4cd3cba4f4def638ca",
         "title": "Artis Muda Inisial BP Dilaporkan ke Polisi Terkait Dugaan Kekerasan Seksual - Sudutpandang.id",
@@ -2534,7 +3098,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-09-12T19:57:47.324719+00:00"
+        "case_processed_at": "2026-09-12T22:56:20.572038+00:00"
       },
       {
         "id": "c6fcd84c704008a7f41638fecfed3acd81c56eae",
@@ -2615,7 +3179,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-09-12T19:57:47.324725+00:00"
+        "case_processed_at": "2026-09-12T22:56:20.572040+00:00"
       },
       {
         "id": "a1ef893cc143722d1f42691bccf8418774e1a84c",
@@ -2684,7 +3248,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-09-12T19:32:44.132650+00:00"
+        "case_processed_at": "2026-09-12T22:27:55.792465+00:00"
       },
       {
         "id": "bbed467ac172448496359a0a62c31a748b3d4587",
@@ -2753,7 +3317,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-09-12T19:57:47.324737+00:00"
+        "case_processed_at": "2026-09-12T22:56:20.572043+00:00"
       },
       {
         "id": "9a65427a80b9038c5af493429f24b9ede8c8d192",
@@ -2834,7 +3398,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-09-12T19:57:47.324741+00:00"
+        "case_processed_at": "2026-09-12T22:56:20.572046+00:00"
       },
       {
         "id": "bf66db8014ea3b34be04b0430e29ca1a8c4b583c",
@@ -2905,7 +3469,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-09-12T19:57:47.324744+00:00"
+        "case_processed_at": "2026-09-12T22:56:20.572048+00:00"
       },
       {
         "id": "82ccfdb736b1142d79b8ae50ab1d44a65464fa0e",
@@ -2986,7 +3550,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-09-12T19:57:47.324746+00:00"
+        "case_processed_at": "2026-09-12T22:56:20.572051+00:00"
       },
       {
         "id": "662aa189569bb3dddb43ac3f8ccaafdaf252100b",
@@ -3057,7 +3621,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-09-12T19:57:47.324749+00:00"
+        "case_processed_at": "2026-09-12T22:56:20.572054+00:00"
       },
       {
         "id": "f003113e4f36e53752b49eddb2009243d9a89296",
@@ -3139,7 +3703,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-09-12T19:57:47.324755+00:00"
+        "case_processed_at": "2026-09-12T22:56:20.572059+00:00"
       },
       {
         "id": "588f8298e0ff3f61be9a029b5c33c13b37860fa2",
@@ -3210,7 +3774,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-09-12T19:57:47.324757+00:00"
+        "case_processed_at": "2026-09-12T22:56:20.572062+00:00"
       },
       {
         "id": "b9bd30b5f047369785090b505b66ec1118e2a6dd",
@@ -3291,7 +3855,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-09-12T19:57:47.324760+00:00"
+        "case_processed_at": "2026-09-12T22:56:20.572064+00:00"
       },
       {
         "id": "3ddda065c060b5583fefd4563e03547bf516f3e2",
@@ -3372,7 +3936,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-09-12T19:57:47.324763+00:00"
+        "case_processed_at": "2026-09-12T22:56:20.572067+00:00"
       },
       {
         "id": "2bd8c59fee00c066b1346109748ea9dc6f832f80",
@@ -3453,7 +4017,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-09-12T19:57:47.324765+00:00"
+        "case_processed_at": "2026-09-12T22:56:20.572070+00:00"
       },
       {
         "id": "22d7d4ffda5463d855b469c43ae6ffc6774eb0d8",
@@ -3534,7 +4098,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-09-12T19:57:47.324767+00:00"
+        "case_processed_at": "2026-09-12T22:56:20.572072+00:00"
       },
       {
         "id": "f46ef55fe659b74c98d895addbf46ada6531fe22",
@@ -3615,7 +4179,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-09-12T19:57:47.324769+00:00"
+        "case_processed_at": "2026-09-12T22:56:20.572075+00:00"
       },
       {
         "id": "6402e0a1b884077cc5f3b1eecbabb65387c24730",
@@ -3686,7 +4250,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-09-12T19:57:47.324772+00:00"
+        "case_processed_at": "2026-09-12T22:56:20.572077+00:00"
       },
       {
         "id": "0f1154e840fcba56cf1f0408f6f612e552639c09",
@@ -3767,16 +4331,16 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-09-12T19:57:47.324774+00:00"
+        "case_processed_at": "2026-09-12T22:56:20.572079+00:00"
       }
     ]
   },
   "cases": {
-    "active": 14,
+    "active": 16,
     "priority_high": 0,
     "jatim": 1,
     "jatim_priority_high": 0,
-    "articles": 36,
+    "articles": 38,
     "case_ids": [
       "CASE-000257",
       "CASE-001380",
@@ -3791,7 +4355,9 @@
       "CASE-001391",
       "CASE-001392",
       "CASE-001393",
-      "CASE-001394"
+      "CASE-001394",
+      "CASE-001395",
+      "CASE-001396"
     ],
     "items": [
       {
@@ -4630,7 +5196,7 @@
         ],
         "article_count": 19,
         "created_at": "2026-08-31T07:59:59.650913+00:00",
-        "updated_at": "2026-09-12T19:57:43.667950+00:00",
+        "updated_at": "2026-09-12T22:56:16.414534+00:00",
         "engine_version": "case-v6.5.4",
         "priority_score": 61,
         "priority_breakdown": {
@@ -4783,7 +5349,7 @@
         ],
         "article_count": 2,
         "created_at": "2026-09-12T14:42:25.467903+00:00",
-        "updated_at": "2026-09-12T19:57:47.277119+00:00",
+        "updated_at": "2026-09-12T22:56:20.512004+00:00",
         "engine_version": "case-v6.5.4",
         "priority_score": 26,
         "priority_breakdown": {
@@ -4891,7 +5457,7 @@
         ],
         "article_count": 1,
         "created_at": "2026-09-12T17:44:04.135006+00:00",
-        "updated_at": "2026-09-12T19:57:47.285663+00:00",
+        "updated_at": "2026-09-12T22:56:20.521583+00:00",
         "engine_version": "case-v6.5.4",
         "priority_score": 17,
         "priority_breakdown": {
@@ -5041,7 +5607,7 @@
         ],
         "article_count": 2,
         "created_at": "2026-09-12T17:44:04.603404+00:00",
-        "updated_at": "2026-09-12T19:57:47.291108+00:00",
+        "updated_at": "2026-09-12T22:56:20.527748+00:00",
         "engine_version": "case-v6.5.4",
         "priority_score": 44,
         "priority_breakdown": {
@@ -5148,7 +5714,7 @@
         ],
         "article_count": 1,
         "created_at": "2026-09-12T17:44:05.044974+00:00",
-        "updated_at": "2026-09-12T19:57:47.293931+00:00",
+        "updated_at": "2026-09-12T22:56:20.530949+00:00",
         "engine_version": "case-v6.5.4",
         "priority_score": 8,
         "priority_breakdown": {
@@ -5250,7 +5816,7 @@
         ],
         "article_count": 1,
         "created_at": "2026-09-12T17:44:05.951825+00:00",
-        "updated_at": "2026-09-12T19:57:47.296437+00:00",
+        "updated_at": "2026-09-12T22:56:20.533828+00:00",
         "engine_version": "case-v6.5.4",
         "priority_score": 35,
         "priority_breakdown": {
@@ -5356,7 +5922,7 @@
         ],
         "article_count": 1,
         "created_at": "2026-09-12T17:44:06.384105+00:00",
-        "updated_at": "2026-09-12T19:57:47.299198+00:00",
+        "updated_at": "2026-09-12T22:56:20.536938+00:00",
         "engine_version": "case-v6.5.4",
         "priority_score": 48,
         "priority_breakdown": {
@@ -5467,7 +6033,7 @@
         ],
         "article_count": 1,
         "created_at": "2026-09-12T17:44:06.848337+00:00",
-        "updated_at": "2026-09-12T19:57:47.301722+00:00",
+        "updated_at": "2026-09-12T22:56:20.539807+00:00",
         "engine_version": "case-v6.5.4",
         "priority_score": 46,
         "priority_breakdown": {
@@ -5579,7 +6145,7 @@
         ],
         "article_count": 1,
         "created_at": "2026-09-12T17:44:07.380119+00:00",
-        "updated_at": "2026-09-12T19:57:47.304495+00:00",
+        "updated_at": "2026-09-12T22:56:20.542936+00:00",
         "engine_version": "case-v6.5.4",
         "priority_score": 38,
         "priority_breakdown": {
@@ -5765,7 +6331,7 @@
         ],
         "article_count": 3,
         "created_at": "2026-09-12T17:44:07.796173+00:00",
-        "updated_at": "2026-09-12T19:57:47.312180+00:00",
+        "updated_at": "2026-09-12T22:56:20.551651+00:00",
         "engine_version": "case-v6.5.4",
         "priority_score": 49,
         "priority_breakdown": {
@@ -5878,7 +6444,7 @@
         ],
         "article_count": 1,
         "created_at": "2026-09-12T17:44:08.289021+00:00",
-        "updated_at": "2026-09-12T19:57:47.315007+00:00",
+        "updated_at": "2026-09-12T22:56:20.554864+00:00",
         "engine_version": "case-v6.5.4",
         "priority_score": 38,
         "priority_breakdown": {
@@ -5990,7 +6556,7 @@
         ],
         "article_count": 1,
         "created_at": "2026-09-12T17:44:09.199123+00:00",
-        "updated_at": "2026-09-12T19:57:47.318378+00:00",
+        "updated_at": "2026-09-12T22:56:20.558700+00:00",
         "engine_version": "case-v6.5.4",
         "priority_score": 19,
         "priority_breakdown": {
@@ -6099,7 +6665,7 @@
         ],
         "article_count": 1,
         "created_at": "2026-09-12T17:44:09.687451+00:00",
-        "updated_at": "2026-09-12T19:57:47.321028+00:00",
+        "updated_at": "2026-09-12T22:56:20.561719+00:00",
         "engine_version": "case-v6.5.4",
         "priority_score": 38,
         "priority_breakdown": {
@@ -6210,7 +6776,7 @@
         ],
         "article_count": 1,
         "created_at": "2026-09-12T19:53:44.565544+00:00",
-        "updated_at": "2026-09-12T19:57:47.323830+00:00",
+        "updated_at": "2026-09-12T22:56:20.564895+00:00",
         "engine_version": "case-v6.5.4",
         "priority_score": 38,
         "priority_breakdown": {
@@ -6238,6 +6804,219 @@
             "sifat berita: negatif",
             "sifat berita: negatif",
             "Kejahatan Seksual",
+            "Hubungan Polri belum spesifik"
+          ]
+        }
+      },
+      {
+        "case_id": "CASE-001395",
+        "title": "Polisi Bongkar Sindikat Peredaran Sabu Pakai Senpi di Paluta, 4 Orang Ditangkap - detikNews",
+        "category": "NEGATIF - NARKOBA / NARKOTIKA",
+        "scope": "negative",
+        "region": "BELUM TERPETAKAN",
+        "locality": "",
+        "is_jatim": null,
+        "polres": null,
+        "polsek": null,
+        "priority": "low",
+        "attention_score": 17,
+        "attention_label": "Rendah",
+        "signature": "BELUM TERPETAKAN",
+        "incident_terms": [
+          "bongkar",
+          "detiknews",
+          "pakai",
+          "paluta",
+          "peredaran",
+          "sabu",
+          "senpi",
+          "sindikat"
+        ],
+        "event_terms": [
+          "sabu"
+        ],
+        "location_terms": [],
+        "discovery_families": [],
+        "first_seen": "2026-09-12T21:31:46+00:00",
+        "last_seen": "2026-09-12T22:20:12.743273+00:00",
+        "last_detected_at": "2026-09-12T22:20:12.743273+00:00",
+        "article_ids": [
+          "05ee6f13d537ceb919aed5ee74bc827181fc4040"
+        ],
+        "articles": [
+          {
+            "id": "05ee6f13d537ceb919aed5ee74bc827181fc4040",
+            "title": "Polisi Bongkar Sindikat Peredaran Sabu Pakai Senpi di Paluta, 4 Orang Ditangkap - detikNews",
+            "url": "https://news.detik.com/berita/d-8660379/polisi-bongkar-sindikat-peredaran-sabu-pakai-senpi-di-paluta-4-orang-ditangkap",
+            "published_at": "2026-09-12T21:31:46+00:00",
+            "collected_at": "2026-09-12T22:20:12.743273+00:00",
+            "source": "detikNews",
+            "match_score": 1.0,
+            "priority": "low",
+            "scope": "negative",
+            "category": "NEGATIF - NARKOBA / NARKOTIKA",
+            "region": "BELUM TERPETAKAN",
+            "locality": "",
+            "is_jatim": false,
+            "polres": null,
+            "polsek": null,
+            "issue_type": "NARKOBA",
+            "issue_subtype": "Narkoba / Narkotika",
+            "handling_status": "BELUM_ADA_INFORMASI",
+            "handling_evidence": [],
+            "polri_relation": null,
+            "polri_relation_points": 0,
+            "polri_relation_evidence": [],
+            "attention_score": 16,
+            "attention_label": "Rendah",
+            "attention_components": {
+              "severity": 11,
+              "polri_relation": 0,
+              "authority": 0,
+              "public_impact": 4,
+              "handling": 0,
+              "evidence": 1,
+              "context_risk": 0,
+              "routine_enforcement_cap": null
+            }
+          }
+        ],
+        "article_count": 1,
+        "created_at": "2026-09-12T22:51:47.477518+00:00",
+        "updated_at": "2026-09-12T22:56:20.568042+00:00",
+        "engine_version": "case-v6.5.4",
+        "priority_score": 17,
+        "priority_breakdown": {
+          "severity": 11,
+          "polri_relation": 0,
+          "authority_context": 0,
+          "public_impact": 4,
+          "handling": 0,
+          "evidence": 1,
+          "spread": 0,
+          "escalation": 0,
+          "current_activity": 1,
+          "context_risk": 0
+        },
+        "priority_evidence": {
+          "unique_sources": 1,
+          "active_today_articles": 1,
+          "escalation": [],
+          "issue_type": "NARKOBA",
+          "issue_subtype": "Narkoba / Narkotika",
+          "sentiment": "negative",
+          "polri_relation": "INFORMASI_UMUM",
+          "handling_status": "BELUM_ADA_INFORMASI",
+          "reasons": [
+            "sifat berita: negatif",
+            "Narkoba / Narkotika",
+            "Hubungan Polri belum spesifik"
+          ]
+        }
+      },
+      {
+        "case_id": "CASE-001396",
+        "title": "Rumah Toko yang Diduga Tempat Penyimpanan Sabu 65 Kilogram Disegel Polisi - Pekanbaru Pos",
+        "category": "NEGATIF - NARKOBA / NARKOTIKA",
+        "scope": "negative",
+        "region": "BELUM TERPETAKAN",
+        "locality": "",
+        "is_jatim": null,
+        "polres": null,
+        "polsek": null,
+        "priority": "low",
+        "attention_score": 17,
+        "attention_label": "Rendah",
+        "signature": "BELUM TERPETAKAN",
+        "incident_terms": [
+          "disegel",
+          "kilogram",
+          "pekanbaru",
+          "penyimpanan",
+          "pos",
+          "rumah",
+          "sabu",
+          "tempat",
+          "toko"
+        ],
+        "event_terms": [
+          "sabu"
+        ],
+        "location_terms": [],
+        "discovery_families": [],
+        "first_seen": "2026-09-12T19:45:01+00:00",
+        "last_seen": "2026-09-12T22:20:12.743273+00:00",
+        "last_detected_at": "2026-09-12T22:20:12.743273+00:00",
+        "article_ids": [
+          "243375851ef4951ada2170232394b7d4b885f9e8"
+        ],
+        "articles": [
+          {
+            "id": "243375851ef4951ada2170232394b7d4b885f9e8",
+            "title": "Rumah Toko yang Diduga Tempat Penyimpanan Sabu 65 Kilogram Disegel Polisi - Pekanbaru Pos",
+            "url": "https://pekanbarupos.co/2026/09/12/61255/",
+            "published_at": "2026-09-12T19:45:01+00:00",
+            "collected_at": "2026-09-12T22:20:12.743273+00:00",
+            "source": "Pekanbaru Pos",
+            "match_score": 1.0,
+            "priority": "low",
+            "scope": "negative",
+            "category": "NEGATIF - NARKOBA / NARKOTIKA",
+            "region": "BELUM TERPETAKAN",
+            "locality": "",
+            "is_jatim": false,
+            "polres": null,
+            "polsek": null,
+            "issue_type": "NARKOBA",
+            "issue_subtype": "Narkoba / Narkotika",
+            "handling_status": "BELUM_ADA_INFORMASI",
+            "handling_evidence": [],
+            "polri_relation": null,
+            "polri_relation_points": 0,
+            "polri_relation_evidence": [],
+            "attention_score": 38,
+            "attention_label": "Rendah",
+            "attention_components": {
+              "severity": 11,
+              "polri_relation": 16,
+              "authority": 0,
+              "public_impact": 10,
+              "handling": 0,
+              "evidence": 1,
+              "context_risk": 0,
+              "routine_enforcement_cap": null
+            }
+          }
+        ],
+        "article_count": 1,
+        "created_at": "2026-09-12T22:51:47.910002+00:00",
+        "updated_at": "2026-09-12T22:56:20.571198+00:00",
+        "engine_version": "case-v6.5.4",
+        "priority_score": 17,
+        "priority_breakdown": {
+          "severity": 11,
+          "polri_relation": 0,
+          "authority_context": 0,
+          "public_impact": 4,
+          "handling": 0,
+          "evidence": 1,
+          "spread": 0,
+          "escalation": 0,
+          "current_activity": 1,
+          "context_risk": 0
+        },
+        "priority_evidence": {
+          "unique_sources": 1,
+          "active_today_articles": 1,
+          "escalation": [],
+          "issue_type": "NARKOBA",
+          "issue_subtype": "Narkoba / Narkotika",
+          "sentiment": "negative",
+          "polri_relation": "INFORMASI_UMUM",
+          "handling_status": "BELUM_ADA_INFORMASI",
+          "reasons": [
+            "sifat berita: negatif",
+            "Narkoba / Narkotika",
             "Hubungan Polri belum spesifik"
           ]
         }
@@ -6364,7 +7143,7 @@
         ],
         "article_count": 2,
         "created_at": "2026-09-12T14:42:25.467903+00:00",
-        "updated_at": "2026-09-12T19:57:47.277119+00:00",
+        "updated_at": "2026-09-12T22:56:20.512004+00:00",
         "engine_version": "case-v6.5.4",
         "priority_score": 26,
         "priority_breakdown": {
@@ -6399,11 +7178,14 @@
     ]
   },
   "social": {
-    "detected": 60,
-    "jatim": 2,
-    "negative": 22,
+    "detected": 85,
+    "jatim": 3,
+    "negative": 26,
     "priority_high": 18,
     "video_ids": [
+      "cXZpZUOwQkw",
+      "wO8Jb9I8TVI",
+      "xwpOCNRakUM",
       "Kl9CsCb2sD0",
       "zsUyqJk5xoI",
       "tXvMSXHe8nI",
@@ -6423,10 +7205,13 @@
       "Mcm-tQ4SacI",
       "WsYtsTMYI08",
       "X_rQcyS48og",
+      "rS_zq_SrCCo",
+      "KanvoxnUZo4",
       "ceoN8QOXBzg",
       "IiIO61YA0wc",
       "JmDjS9FsZQA",
       "rsNjccdjbBs",
+      "geA7Fg1ncc4",
       "71MxzGIu07s",
       "rMFn9dWayik",
       "l-2-dlsH5TA",
@@ -6438,44 +7223,63 @@
       "FnmH_GrUrxw",
       "2sjME8-SZvI",
       "6aY_tLrhAl4",
+      "sQ6tHYUUFds",
       "gzYEjZTNkB4",
       "VEFqz-gJjtc",
       "J5VSZnWD-7o",
       "KSoGXjzzUQg",
+      "5NhW12kpSpo",
+      "GVopW_gWh94",
+      "cG1e46oLsDw",
       "bQRLBtXAAlw",
       "D7MkrByGpPw",
+      "k9guiBN7s8A",
       "VkmuJiGGbEs",
       "37LL3y_0xdo",
       "KhOlIIZhNO0",
       "8HFdhnAkuJw",
+      "4DXsRA0gTXw",
+      "NYV8DHkLAVc",
+      "CpxYOJ_KMMk",
       "bD2-KKjiNeY",
       "vK6lPsrszX4",
       "7IxomXRZKgY",
       "5aP3I7mexU8",
       "pB2fDGOpYHY",
+      "705px0lGpUA",
+      "r56bHZ-x0Is",
       "NE0BtUAJeas",
       "oB7wJqKyMNM",
       "tKo9WvK5WeQ",
       "G4uxFZxlTiU",
+      "TLpwhLIfyT8",
       "8Ul2AzgdndY",
       "ps24VUWk2xA",
       "fiBmkCUQNcQ",
+      "hV1JxlUNfgE",
       "S2X35GMYI7w",
+      "s3o5cGk_py8",
+      "HZmuCoVJIs0",
+      "JlWPC9D3z6w",
+      "29UsibU4quI",
+      "F3ZlboxgRuA",
+      "FjyLnN0U0_k",
+      "UsR1Nh4prWw",
       "l8hVhSIe2xk",
       "rpno7Q2MYGQ",
       "eozFxoLFwjY"
     ]
   },
   "jatim": {
-    "news_today": 8,
+    "news_today": 10,
     "negative_today": 1,
     "positive_today": 0,
     "case_scope_today": 0,
-    "neutral_today": 7,
+    "neutral_today": 9,
     "case_today": 1,
     "case_high_active": 0,
     "article_high_today": 0,
-    "outside_jatim_today": 17
+    "outside_jatim_today": 19
   },
   "regions": [
     {
@@ -6485,6 +7289,14 @@
     {
       "name": "Surabaya",
       "count": 3
+    },
+    {
+      "name": "Lamongan",
+      "count": 1
+    },
+    {
+      "name": "Batu",
+      "count": 1
     },
     {
       "name": "Tulungagung",
@@ -6499,6 +7311,10 @@
     {
       "name": "POLRES PROBOLINGGO",
       "count": 2
+    },
+    {
+      "name": "POLRES BATU",
+      "count": 1
     },
     {
       "name": "POLRES PROBOLINGGO KOTA",
@@ -6520,7 +7336,7 @@
   "categories": [
     {
       "name": "NETRAL / LAINNYA",
-      "count": 7
+      "count": 9
     },
     {
       "name": "NEGATIF - NARKOBA / NARKOTIKA",
@@ -6528,19 +7344,19 @@
     }
   ],
   "summary": {
-    "news_today": 25,
-    "negative_today": 17,
-    "cases_today": 14,
+    "news_today": 29,
+    "negative_today": 19,
+    "cases_today": 16,
     "priority_high": 0,
     "article_priority_high": 0,
-    "jatim_news": 8,
+    "jatim_news": 10,
     "jatim_negative": 1,
     "jatim_positive": 0,
     "jatim_case_scope": 0,
-    "jatim_neutral": 7,
+    "jatim_neutral": 9,
     "jatim_cases_today": 1,
     "jatim_case_high_active": 0,
-    "luar_jatim_news": 17,
-    "youtube_today": 60
+    "luar_jatim_news": 19,
+    "youtube_today": 85
   }
 }
