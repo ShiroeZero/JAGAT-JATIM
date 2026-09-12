@@ -2,18 +2,23 @@
   "schema_version": "today-v3",
   "date": "2026-09-13",
   "timezone": "Asia/Jakarta",
-  "updated_at": "2026-09-13T00:48:47.459733+07:00",
-  "last_successful_update": "2026-09-13T00:48:47.459733+07:00",
+  "updated_at": "2026-09-13T02:57:49.108416+07:00",
+  "last_successful_update": "2026-09-13T02:57:49.108416+07:00",
   "news": {
-    "detected": 20,
-    "negative": 13,
+    "detected": 25,
+    "negative": 17,
     "positive": 0,
     "case": 0,
-    "neutral": 7,
+    "neutral": 8,
     "jatim": 8,
-    "luar_jatim": 12,
+    "luar_jatim": 17,
     "priority_high": 0,
     "article_ids": [
+      "15cdaa6230e74a809737ec4cd3cba4f4def638ca",
+      "c6fcd84c704008a7f41638fecfed3acd81c56eae",
+      "a1ef893cc143722d1f42691bccf8418774e1a84c",
+      "bbed467ac172448496359a0a62c31a748b3d4587",
+      "9a65427a80b9038c5af493429f24b9ede8c8d192",
       "bf66db8014ea3b34be04b0430e29ca1a8c4b583c",
       "82ccfdb736b1142d79b8ae50ab1d44a65464fa0e",
       "409bdb9904b8dd1f14c40ca6e05ed89dc82f9135",
@@ -36,6 +41,387 @@
       "0f1154e840fcba56cf1f0408f6f612e552639c09"
     ],
     "items": [
+      {
+        "id": "15cdaa6230e74a809737ec4cd3cba4f4def638ca",
+        "title": "Artis Muda Inisial BP Dilaporkan ke Polisi Terkait Dugaan Kekerasan Seksual - Sudutpandang.id",
+        "url": "https://sudutpandang.id/artis-muda-inisial-bp-dilaporkan-ke-polisi-terkait-dugaan-kekerasan-seksual/",
+        "source": "Sudutpandang.id",
+        "published_at": "2026-09-12T19:18:36+00:00",
+        "collected_at": "2026-09-12T19:24:50.151431+00:00",
+        "region": "BELUM TERPETAKAN",
+        "area_label": "BELUM TERPETAKAN",
+        "is_jatim": null,
+        "polres": null,
+        "category": "NEGATIF - KEJAHATAN SEKSUAL",
+        "scope": "negative",
+        "scope_label": "Negatif",
+        "priority": "low",
+        "summary": "Artis Muda Inisial BP Dilaporkan ke Polisi Terkait Dugaan Kekerasan Seksual Sudutpandang.id",
+        "processing_status": "processed",
+        "classifier_version": "news-v6",
+        "classified_at": "2026-09-12T19:24:50.151431+00:00",
+        "case_id": "CASE-001390",
+        "discovery_families": [
+          "ethics_personal_misconduct"
+        ],
+        "discovery_tags": [
+          "ethics",
+          "sexual_misconduct",
+          "violence"
+        ],
+        "discovery_hits": [
+          "kekerasan seksual"
+        ],
+        "discovery_version": "discovery-v6.5.4",
+        "google_news_url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPLXNVcHg5S195ZEVUbi1qbnhUSDNYSGE1MEp5eThuNlJoRFFCdnZ2V2x3SkVGVHZRcm5kS09Dc2hvSGNhQ3hMUWxMZmgzQmNYbGR2dENWUFpCUzFTWm0xamVRTWJVdko0T04ydDllMW5SLVNNSmRIaGNjYzlxN1FzRTd3Vnd0UU9kU3hUa1M1YWk5UEtucEdaaWdYRHN3TVM0Nmc?oc=5",
+        "original_url": "https://sudutpandang.id/artis-muda-inisial-bp-dilaporkan-ke-polisi-terkait-dugaan-kekerasan-seksual/",
+        "locality": "",
+        "polsek": null,
+        "location_confidence": 0,
+        "location_evidence": [],
+        "location_status": "BELUM_TERPETAKAN",
+        "location_source": "title",
+        "issue_type": "KEJAHATAN_SEKSUAL",
+        "issue_subtype": "Kejahatan Seksual",
+        "issue_evidence": [
+          "kekerasan seksual"
+        ],
+        "handling_status": "BELUM_ADA_INFORMASI",
+        "handling_evidence": [],
+        "attention_score": 39,
+        "attention_label": "Rendah",
+        "attention_components": {
+          "severity": 26,
+          "polri_relation": 0,
+          "authority": 0,
+          "public_impact": 10,
+          "handling": 0,
+          "evidence": 1,
+          "context_risk": 0,
+          "routine_enforcement_cap": null
+        },
+        "attention_evidence": {
+          "severity": [
+            "kekerasan berat"
+          ],
+          "authority": [],
+          "public_impact": [
+            "dampak peristiwa"
+          ],
+          "evidence": [
+            "satu sumber / informasi awal"
+          ],
+          "role": [],
+          "issue": [
+            "kekerasan seksual"
+          ],
+          "handling": [],
+          "context": [],
+          "positive": []
+        },
+        "case_engine_version": "case-v6.5.4",
+        "case_processed_at": "2026-09-12T19:57:47.324719+00:00"
+      },
+      {
+        "id": "c6fcd84c704008a7f41638fecfed3acd81c56eae",
+        "title": "Artis Inisial BP Dilaporkan ke Polda Metro Jaya terkait Dugaan Kekerasan Seksual - VIVA.co.id",
+        "url": "https://www.viva.co.id/berita/metro/1928170-artis-inisial-bp-dilaporkan-ke-polda-metro-jaya-terkait-dugaan-kekerasan-seksual",
+        "source": "VIVA.co.id",
+        "published_at": "2026-09-12T18:10:00+00:00",
+        "collected_at": "2026-09-12T19:24:50.151431+00:00",
+        "region": "BELUM TERPETAKAN",
+        "area_label": "BELUM TERPETAKAN",
+        "is_jatim": null,
+        "polres": null,
+        "category": "NEGATIF - KEJAHATAN SEKSUAL",
+        "scope": "negative",
+        "scope_label": "Negatif",
+        "priority": "low",
+        "summary": "Artis Inisial BP Dilaporkan ke Polda Metro Jaya terkait Dugaan Kekerasan Seksual VIVA.co.id",
+        "processing_status": "processed",
+        "classifier_version": "news-v6",
+        "classified_at": "2026-09-12T19:24:50.151431+00:00",
+        "case_id": "CASE-001384",
+        "discovery_families": [
+          "ethics_personal_misconduct"
+        ],
+        "discovery_tags": [
+          "ethics",
+          "sexual_misconduct",
+          "violence"
+        ],
+        "discovery_hits": [
+          "kekerasan seksual"
+        ],
+        "discovery_version": "discovery-v6.5.4",
+        "google_news_url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQUDNGOV9oeUUycTBvRUlObVd5WE1tcWxzY0dZaEN3eVRsN25sSl9mNDR3dEhkTDZrTDJqTlNrYmxFTUV5V3JnZHluNy1pcE1CT0hxSDAyTnI2MWo2b01XRjNiOGJBbUUxUWlaWl9WYVVHbGVUN25Qc25pbnRHQ254NWFSdkZIVkZDdVZMVVh0ak50cEdkdXprMUNyTlhSa04tTkZGTkFFczVYeUFZcll4c1hfRHlzRTJYRUdESTZsd0lUd9IBxwFBVV95cUxQT2FoU0VYX1NJSkxnUXlaMjdHdG00aVBLQ09ibXgtV3l1ZmI5RlJ5eGdVRERqVHhycHdTYkdxNVlTUmI3dTVuZ2ktLXpXMC1LSVVodEd4UWZDVGF5ZHlBdkZILVFIVFFvdF9vMVZ0LVFnbzJIZ1cyUDduTFRWc3VaczNDMlVlQUJUYkNNVXZYZ2h4TjBvcWZqR1BZNGRpYURpUVNTQndVNG85ZzlNaGtZa3R3aFJPTlkyUDN0dDlvVGtpNUN0ZUln?oc=5",
+        "original_url": "https://www.viva.co.id/berita/metro/1928170-artis-inisial-bp-dilaporkan-ke-polda-metro-jaya-terkait-dugaan-kekerasan-seksual",
+        "locality": "",
+        "polsek": null,
+        "location_confidence": 0,
+        "location_evidence": [],
+        "location_status": "BELUM_TERPETAKAN",
+        "location_source": "title",
+        "issue_type": "KEJAHATAN_SEKSUAL",
+        "issue_subtype": "Kejahatan Seksual",
+        "issue_evidence": [
+          "kekerasan seksual"
+        ],
+        "handling_status": "BELUM_ADA_INFORMASI",
+        "handling_evidence": [],
+        "attention_score": 39,
+        "attention_label": "Rendah",
+        "attention_components": {
+          "severity": 26,
+          "polri_relation": 0,
+          "authority": 0,
+          "public_impact": 10,
+          "handling": 0,
+          "evidence": 1,
+          "context_risk": 0,
+          "routine_enforcement_cap": null
+        },
+        "attention_evidence": {
+          "severity": [
+            "kekerasan berat"
+          ],
+          "authority": [],
+          "public_impact": [
+            "dampak peristiwa"
+          ],
+          "evidence": [
+            "satu sumber / informasi awal"
+          ],
+          "role": [],
+          "issue": [
+            "kekerasan seksual"
+          ],
+          "handling": [],
+          "context": [],
+          "positive": []
+        },
+        "case_engine_version": "case-v6.5.4",
+        "case_processed_at": "2026-09-12T19:57:47.324725+00:00"
+      },
+      {
+        "id": "a1ef893cc143722d1f42691bccf8418774e1a84c",
+        "title": "Wujud Kepedulian Sosial, Polsek Taman Berbagi Sembako untuk Warga - memorandum.disway.id - Memorandum.co.id",
+        "url": "https://memorandum.disway.id/polresta-sidoarjo/read/169253/wujud-kepedulian-sosial-polsek-taman-berbagi-sembako-untuk-warga",
+        "source": "Memorandum.co.id",
+        "published_at": "2026-09-12T17:35:04+00:00",
+        "collected_at": "2026-09-12T19:24:50.151431+00:00",
+        "region": "BELUM TERPETAKAN",
+        "area_label": "BELUM TERPETAKAN",
+        "is_jatim": null,
+        "polres": null,
+        "category": "NETRAL / LAINNYA",
+        "scope": "neutral",
+        "scope_label": "Netral",
+        "priority": "low",
+        "summary": "Wujud Kepedulian Sosial, Polsek Taman Berbagi Sembako untuk Warga - memorandum.disway.id Memorandum.co.id",
+        "processing_status": "processed",
+        "classifier_version": "news-v6",
+        "classified_at": "2026-09-12T19:24:50.151431+00:00",
+        "case_id": null,
+        "discovery_families": [],
+        "discovery_tags": [],
+        "discovery_hits": [],
+        "discovery_version": "discovery-v6.5.4",
+        "google_news_url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPaWNScWVhdXVhcVo3QWxqRDl5blFoRHB4b3Y5azdPU0dUUUFNR3BLSTdkaE5TLUY4cVpZS1JHT1hmblRHakRxa1NMY1c5NTNJQ3c2b1VkbFhkV3hlbkR6NTRiX3BUZ0NRZGZMdTFxMmVQeWV2QzlfbGpVQ09UTW9rMTlMX25NYlVUb09uZlJsQ0VsdXM1UEdpV0Vqd3p6MWpybHlRRGg0VkdHcjlyUG1ZR0pSRV9UZTdhN3h1RjNRSXjSAacBQVVfeXFMUEtkVGRyQnkwd0wyNmNxYmtYblVFOUFTVUEtV0FRWUk0VmFpeVNTMWV6dEhzeWMzV3hIajNvZWFQckotei1PZGllTU1mX2d6Z1RvdWdUaVhlTnMzTUxvVVoyUDBONVh2em1XcVZHZUdJb3dSX2RINlV0bVZJVFlBZlhfalhDTm5oQkhvZS13eHI0Y05oaE5qSVpxQWVwQkU2dFYyNHV0Ykk?oc=5",
+        "original_url": "https://memorandum.disway.id/polresta-sidoarjo/read/169253/wujud-kepedulian-sosial-polsek-taman-berbagi-sembako-untuk-warga",
+        "locality": "",
+        "polsek": "POLSEK TAMAN BERBAGI SEMBAKO",
+        "location_confidence": 0,
+        "location_evidence": [
+          "POLSEK TAMAN BERBAGI SEMBAKO"
+        ],
+        "location_status": "BELUM_TERPETAKAN",
+        "location_source": "title",
+        "issue_type": "UMUM",
+        "issue_subtype": "Belum Teridentifikasi",
+        "issue_evidence": [],
+        "handling_status": "BELUM_ADA_INFORMASI",
+        "handling_evidence": [],
+        "attention_score": 15,
+        "attention_label": "Rendah",
+        "attention_components": {
+          "severity": 2,
+          "polri_relation": 0,
+          "authority": 0,
+          "public_impact": 12,
+          "handling": 0,
+          "evidence": 1,
+          "context_risk": 0,
+          "routine_enforcement_cap": null
+        },
+        "attention_evidence": {
+          "severity": [],
+          "authority": [],
+          "public_impact": [
+            "dampak kepada masyarakat"
+          ],
+          "evidence": [
+            "satu sumber / informasi awal"
+          ],
+          "role": [],
+          "issue": [],
+          "handling": [],
+          "context": [],
+          "positive": []
+        },
+        "case_engine_version": "case-v6.5.4",
+        "case_processed_at": "2026-09-12T19:32:44.132650+00:00"
+      },
+      {
+        "id": "bbed467ac172448496359a0a62c31a748b3d4587",
+        "title": "Nekat Jual Narkoba Demi Biaya Nikah, Pemuda di Medan Ditangkap Polisi - MetroTVNews.com",
+        "url": "https://www.metrotvnews.com/play/Ky6C5XOj-nekat-jual-narkoba-demi-biaya-nikah-pemuda-di-medan-ditangkap-polisi",
+        "source": "MetroTVNews.com",
+        "published_at": "2026-09-12T17:27:28+00:00",
+        "collected_at": "2026-09-12T19:24:50.151431+00:00",
+        "region": "BELUM TERPETAKAN",
+        "area_label": "BELUM TERPETAKAN",
+        "is_jatim": null,
+        "polres": null,
+        "category": "NEGATIF - NARKOBA / NARKOTIKA",
+        "scope": "negative",
+        "scope_label": "Negatif",
+        "priority": "low",
+        "summary": "Nekat Jual Narkoba Demi Biaya Nikah, Pemuda di Medan Ditangkap Polisi MetroTVNews.com",
+        "processing_status": "processed",
+        "classifier_version": "news-v6",
+        "classified_at": "2026-09-12T19:24:50.151431+00:00",
+        "case_id": "CASE-000257",
+        "discovery_families": [],
+        "discovery_tags": [],
+        "discovery_hits": [],
+        "discovery_version": "discovery-v6.5.4",
+        "google_news_url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOSkVONG1NMHNuNGFmNVZOMTlISEdjaTBDNzRkZG5WYWdBWDVvRnJkMXNkdHV2bmFoTWtEX3RKU1FEUi1zcGhqSjcyS1VtSTBPR3ZfdnllR01hazZhTUZrYWM4RFdwUGFmc0tSay1NclQ3aTAwRDNXdTVTSlgxblVwOEVFTHV4UHFZYUtWN1R2R0VRZTRBR0NXMVlLOUZlbW9EXzVub0dLdGlxSXpLQkpR?oc=5",
+        "original_url": "https://www.metrotvnews.com/play/Ky6C5XOj-nekat-jual-narkoba-demi-biaya-nikah-pemuda-di-medan-ditangkap-polisi",
+        "locality": "",
+        "polsek": null,
+        "location_confidence": 0,
+        "location_evidence": [],
+        "location_status": "BELUM_TERPETAKAN",
+        "location_source": "title",
+        "issue_type": "NARKOBA",
+        "issue_subtype": "Narkoba / Narkotika",
+        "issue_evidence": [
+          "narkoba"
+        ],
+        "handling_status": "BELUM_ADA_INFORMASI",
+        "handling_evidence": [],
+        "attention_score": 16,
+        "attention_label": "Rendah",
+        "attention_components": {
+          "severity": 11,
+          "polri_relation": 0,
+          "authority": 0,
+          "public_impact": 4,
+          "handling": 0,
+          "evidence": 1,
+          "context_risk": 0,
+          "routine_enforcement_cap": null
+        },
+        "attention_evidence": {
+          "severity": [],
+          "authority": [],
+          "public_impact": [],
+          "evidence": [
+            "satu sumber / informasi awal"
+          ],
+          "role": [],
+          "issue": [
+            "narkoba"
+          ],
+          "handling": [],
+          "context": [],
+          "positive": []
+        },
+        "case_engine_version": "case-v6.5.4",
+        "case_processed_at": "2026-09-12T19:57:47.324737+00:00"
+      },
+      {
+        "id": "9a65427a80b9038c5af493429f24b9ede8c8d192",
+        "title": "Heboh! Artis Muda Inisial BP Dilaporkan atas Dugaan Kekerasan Seksual ke Polisi - VIVA.co.id",
+        "url": "https://www.viva.co.id/gaya-hidup/showbiz/1928177-heboh-artis-muda-inisial-bp-dilaporkan-atas-dugaan-kekerasan-seksual-ke-polisi",
+        "source": "VIVA.co.id",
+        "published_at": "2026-09-12T17:14:03+00:00",
+        "collected_at": "2026-09-12T19:24:50.151431+00:00",
+        "region": "BELUM TERPETAKAN",
+        "area_label": "BELUM TERPETAKAN",
+        "is_jatim": null,
+        "polres": null,
+        "category": "NEGATIF - KEJAHATAN SEKSUAL",
+        "scope": "negative",
+        "scope_label": "Negatif",
+        "priority": "low",
+        "summary": "Heboh! Artis Muda Inisial BP Dilaporkan atas Dugaan Kekerasan Seksual ke Polisi VIVA.co.id",
+        "processing_status": "processed",
+        "classifier_version": "news-v6",
+        "classified_at": "2026-09-12T19:24:50.151431+00:00",
+        "case_id": "CASE-001394",
+        "discovery_families": [
+          "ethics_personal_misconduct"
+        ],
+        "discovery_tags": [
+          "ethics",
+          "sexual_misconduct",
+          "violence"
+        ],
+        "discovery_hits": [
+          "kekerasan seksual"
+        ],
+        "discovery_version": "discovery-v6.5.4",
+        "google_news_url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNNVd0d2RsdU9XMkJVRHdHWVRXdWlReUZaTkhScEpRYzBKRzd3aTVwRkdPdnQ1WGRoNUlMM0M5T1Z6TDhNYVNTYUU1aGs0OTlRU0duMG5BT0o3YXl0WkhKcmxCaG5FLVZDZFR6bDNqUnUxZG9SWVBuVDdJMVZGb2c0X0pXejh5UjNBeU5zM1NLZWlRX3hldFFsNnFjYjNPdDJheHNQaVVUQ09ya19QNVdBd0JOeU5MT2JHdjlNQ2M5bXltWlNYNTFZ0gHMAUFVX3lxTE5kQ0ozaWF6MGs0a2lSV21zdmtSenVQMkJ5bHhCakpPRmJhQUlZNEx6YmU5S3hiYmhkSEVhYklTQVE3bnBDeUM0ZEl0X0FwMGt3NE9ZNUN1dS1tOUxVcGYtQTRmYk1sWjFpMjRmM0ZfenoyaEZydnpmbVg3eGNSV2NoUEplQVFqbGI3Q1BkREE5QlBXTVVHZndXSHQtQWpHc0FGLXU1UGl1cHZUUmJxbEtHMkxIWDZVbWI0VWZUakNPOENITExaOG1NWTJlbw?oc=5",
+        "original_url": "https://www.viva.co.id/gaya-hidup/showbiz/1928177-heboh-artis-muda-inisial-bp-dilaporkan-atas-dugaan-kekerasan-seksual-ke-polisi",
+        "locality": "",
+        "polsek": null,
+        "location_confidence": 0,
+        "location_evidence": [],
+        "location_status": "BELUM_TERPETAKAN",
+        "location_source": "title",
+        "issue_type": "KEJAHATAN_SEKSUAL",
+        "issue_subtype": "Kejahatan Seksual",
+        "issue_evidence": [
+          "kekerasan seksual"
+        ],
+        "handling_status": "BELUM_ADA_INFORMASI",
+        "handling_evidence": [],
+        "attention_score": 39,
+        "attention_label": "Rendah",
+        "attention_components": {
+          "severity": 26,
+          "polri_relation": 0,
+          "authority": 0,
+          "public_impact": 10,
+          "handling": 0,
+          "evidence": 1,
+          "context_risk": 0,
+          "routine_enforcement_cap": null
+        },
+        "attention_evidence": {
+          "severity": [
+            "kekerasan berat"
+          ],
+          "authority": [],
+          "public_impact": [
+            "dampak peristiwa"
+          ],
+          "evidence": [
+            "satu sumber / informasi awal"
+          ],
+          "role": [],
+          "issue": [
+            "kekerasan seksual"
+          ],
+          "handling": [],
+          "context": [],
+          "positive": []
+        },
+        "case_engine_version": "case-v6.5.4",
+        "case_processed_at": "2026-09-12T19:57:47.324741+00:00"
+      },
       {
         "id": "bf66db8014ea3b34be04b0430e29ca1a8c4b583c",
         "title": "Dua Pemuda Pengedar Narkoba di Luwuk Ditangkap Polisi, 36 Paket Sabu-sabu Disita - sultengterkini.id",
@@ -105,7 +491,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-09-12T17:48:45.616690+00:00"
+        "case_processed_at": "2026-09-12T19:57:47.324744+00:00"
       },
       {
         "id": "82ccfdb736b1142d79b8ae50ab1d44a65464fa0e",
@@ -186,7 +572,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-09-12T17:48:45.616697+00:00"
+        "case_processed_at": "2026-09-12T19:57:47.324746+00:00"
       },
       {
         "id": "409bdb9904b8dd1f14c40ca6e05ed89dc82f9135",
@@ -254,7 +640,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-09-12T17:20:28.336890+00:00"
+        "case_processed_at": "2026-09-12T19:32:44.516499+00:00"
       },
       {
         "id": "662aa189569bb3dddb43ac3f8ccaafdaf252100b",
@@ -325,7 +711,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-09-12T17:48:45.616700+00:00"
+        "case_processed_at": "2026-09-12T19:57:47.324749+00:00"
       },
       {
         "id": "a0892e72d677fa2bf90eea14a9dc7765bd58ac8a",
@@ -399,7 +785,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-09-12T17:48:45.616702+00:00"
+        "case_processed_at": "2026-09-12T19:57:47.324751+00:00"
       },
       {
         "id": "a69fb7820153fa72d0a83168f564231f58e88006",
@@ -467,7 +853,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-09-12T17:20:28.782275+00:00"
+        "case_processed_at": "2026-09-12T19:32:44.923132+00:00"
       },
       {
         "id": "7cc327c4f8623d1753e0d94f41813ed897dfcb4a",
@@ -535,7 +921,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-09-12T17:20:29.232574+00:00"
+        "case_processed_at": "2026-09-12T19:32:45.335092+00:00"
       },
       {
         "id": "f003113e4f36e53752b49eddb2009243d9a89296",
@@ -617,7 +1003,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-09-12T17:48:45.616705+00:00"
+        "case_processed_at": "2026-09-12T19:57:47.324755+00:00"
       },
       {
         "id": "588f8298e0ff3f61be9a029b5c33c13b37860fa2",
@@ -688,7 +1074,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-09-12T17:48:45.616707+00:00"
+        "case_processed_at": "2026-09-12T19:57:47.324757+00:00"
       },
       {
         "id": "b9bd30b5f047369785090b505b66ec1118e2a6dd",
@@ -769,7 +1155,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-09-12T17:48:45.616708+00:00"
+        "case_processed_at": "2026-09-12T19:57:47.324760+00:00"
       },
       {
         "id": "c8fe54b4ea6d471d29cf61ba6c9db296bbc21277",
@@ -836,7 +1222,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-09-12T17:20:29.716250+00:00"
+        "case_processed_at": "2026-09-12T19:32:45.773947+00:00"
       },
       {
         "id": "66fac8017305d240db90fbd459d38b6acc1f0311",
@@ -903,7 +1289,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-09-12T17:20:30.246820+00:00"
+        "case_processed_at": "2026-09-12T19:32:46.256467+00:00"
       },
       {
         "id": "67a574993362ffe5e9aa33b4519f916a77869ecd",
@@ -971,7 +1357,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-09-12T17:20:30.798485+00:00"
+        "case_processed_at": "2026-09-12T19:32:46.754997+00:00"
       },
       {
         "id": "3ddda065c060b5583fefd4563e03547bf516f3e2",
@@ -1052,7 +1438,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-09-12T17:48:45.616712+00:00"
+        "case_processed_at": "2026-09-12T19:57:47.324763+00:00"
       },
       {
         "id": "2bd8c59fee00c066b1346109748ea9dc6f832f80",
@@ -1133,7 +1519,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-09-12T17:48:45.616714+00:00"
+        "case_processed_at": "2026-09-12T19:57:47.324765+00:00"
       },
       {
         "id": "22d7d4ffda5463d855b469c43ae6ffc6774eb0d8",
@@ -1214,7 +1600,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-09-12T17:48:45.616717+00:00"
+        "case_processed_at": "2026-09-12T19:57:47.324767+00:00"
       },
       {
         "id": "f46ef55fe659b74c98d895addbf46ada6531fe22",
@@ -1295,7 +1681,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-09-12T17:48:45.616718+00:00"
+        "case_processed_at": "2026-09-12T19:57:47.324769+00:00"
       },
       {
         "id": "87c5cb1e76cfe469604e2a38131b2fe2b63af62a",
@@ -1363,7 +1749,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-09-12T17:20:31.271432+00:00"
+        "case_processed_at": "2026-09-12T19:32:47.184278+00:00"
       },
       {
         "id": "6402e0a1b884077cc5f3b1eecbabb65387c24730",
@@ -1434,7 +1820,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-09-12T17:48:45.616721+00:00"
+        "case_processed_at": "2026-09-12T19:57:47.324772+00:00"
       },
       {
         "id": "0f1154e840fcba56cf1f0408f6f612e552639c09",
@@ -1515,7 +1901,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-09-12T17:48:45.616724+00:00"
+        "case_processed_at": "2026-09-12T19:57:47.324774+00:00"
       }
     ],
     "jatim_items": [
@@ -1585,7 +1971,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-09-12T17:20:28.336890+00:00"
+        "case_processed_at": "2026-09-12T19:32:44.516499+00:00"
       },
       {
         "id": "a0892e72d677fa2bf90eea14a9dc7765bd58ac8a",
@@ -1659,7 +2045,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-09-12T17:48:45.616702+00:00"
+        "case_processed_at": "2026-09-12T19:57:47.324751+00:00"
       },
       {
         "id": "a69fb7820153fa72d0a83168f564231f58e88006",
@@ -1727,7 +2113,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-09-12T17:20:28.782275+00:00"
+        "case_processed_at": "2026-09-12T19:32:44.923132+00:00"
       },
       {
         "id": "7cc327c4f8623d1753e0d94f41813ed897dfcb4a",
@@ -1795,7 +2181,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-09-12T17:20:29.232574+00:00"
+        "case_processed_at": "2026-09-12T19:32:45.335092+00:00"
       },
       {
         "id": "c8fe54b4ea6d471d29cf61ba6c9db296bbc21277",
@@ -1862,7 +2248,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-09-12T17:20:29.716250+00:00"
+        "case_processed_at": "2026-09-12T19:32:45.773947+00:00"
       },
       {
         "id": "66fac8017305d240db90fbd459d38b6acc1f0311",
@@ -1929,7 +2315,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-09-12T17:20:30.246820+00:00"
+        "case_processed_at": "2026-09-12T19:32:46.256467+00:00"
       },
       {
         "id": "67a574993362ffe5e9aa33b4519f916a77869ecd",
@@ -1997,7 +2383,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-09-12T17:20:30.798485+00:00"
+        "case_processed_at": "2026-09-12T19:32:46.754997+00:00"
       },
       {
         "id": "87c5cb1e76cfe469604e2a38131b2fe2b63af62a",
@@ -2065,10 +2451,391 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-09-12T17:20:31.271432+00:00"
+        "case_processed_at": "2026-09-12T19:32:47.184278+00:00"
       }
     ],
     "luar_jatim_items": [
+      {
+        "id": "15cdaa6230e74a809737ec4cd3cba4f4def638ca",
+        "title": "Artis Muda Inisial BP Dilaporkan ke Polisi Terkait Dugaan Kekerasan Seksual - Sudutpandang.id",
+        "url": "https://sudutpandang.id/artis-muda-inisial-bp-dilaporkan-ke-polisi-terkait-dugaan-kekerasan-seksual/",
+        "source": "Sudutpandang.id",
+        "published_at": "2026-09-12T19:18:36+00:00",
+        "collected_at": "2026-09-12T19:24:50.151431+00:00",
+        "region": "BELUM TERPETAKAN",
+        "area_label": "BELUM TERPETAKAN",
+        "is_jatim": null,
+        "polres": null,
+        "category": "NEGATIF - KEJAHATAN SEKSUAL",
+        "scope": "negative",
+        "scope_label": "Negatif",
+        "priority": "low",
+        "summary": "Artis Muda Inisial BP Dilaporkan ke Polisi Terkait Dugaan Kekerasan Seksual Sudutpandang.id",
+        "processing_status": "processed",
+        "classifier_version": "news-v6",
+        "classified_at": "2026-09-12T19:24:50.151431+00:00",
+        "case_id": "CASE-001390",
+        "discovery_families": [
+          "ethics_personal_misconduct"
+        ],
+        "discovery_tags": [
+          "ethics",
+          "sexual_misconduct",
+          "violence"
+        ],
+        "discovery_hits": [
+          "kekerasan seksual"
+        ],
+        "discovery_version": "discovery-v6.5.4",
+        "google_news_url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPLXNVcHg5S195ZEVUbi1qbnhUSDNYSGE1MEp5eThuNlJoRFFCdnZ2V2x3SkVGVHZRcm5kS09Dc2hvSGNhQ3hMUWxMZmgzQmNYbGR2dENWUFpCUzFTWm0xamVRTWJVdko0T04ydDllMW5SLVNNSmRIaGNjYzlxN1FzRTd3Vnd0UU9kU3hUa1M1YWk5UEtucEdaaWdYRHN3TVM0Nmc?oc=5",
+        "original_url": "https://sudutpandang.id/artis-muda-inisial-bp-dilaporkan-ke-polisi-terkait-dugaan-kekerasan-seksual/",
+        "locality": "",
+        "polsek": null,
+        "location_confidence": 0,
+        "location_evidence": [],
+        "location_status": "BELUM_TERPETAKAN",
+        "location_source": "title",
+        "issue_type": "KEJAHATAN_SEKSUAL",
+        "issue_subtype": "Kejahatan Seksual",
+        "issue_evidence": [
+          "kekerasan seksual"
+        ],
+        "handling_status": "BELUM_ADA_INFORMASI",
+        "handling_evidence": [],
+        "attention_score": 39,
+        "attention_label": "Rendah",
+        "attention_components": {
+          "severity": 26,
+          "polri_relation": 0,
+          "authority": 0,
+          "public_impact": 10,
+          "handling": 0,
+          "evidence": 1,
+          "context_risk": 0,
+          "routine_enforcement_cap": null
+        },
+        "attention_evidence": {
+          "severity": [
+            "kekerasan berat"
+          ],
+          "authority": [],
+          "public_impact": [
+            "dampak peristiwa"
+          ],
+          "evidence": [
+            "satu sumber / informasi awal"
+          ],
+          "role": [],
+          "issue": [
+            "kekerasan seksual"
+          ],
+          "handling": [],
+          "context": [],
+          "positive": []
+        },
+        "case_engine_version": "case-v6.5.4",
+        "case_processed_at": "2026-09-12T19:57:47.324719+00:00"
+      },
+      {
+        "id": "c6fcd84c704008a7f41638fecfed3acd81c56eae",
+        "title": "Artis Inisial BP Dilaporkan ke Polda Metro Jaya terkait Dugaan Kekerasan Seksual - VIVA.co.id",
+        "url": "https://www.viva.co.id/berita/metro/1928170-artis-inisial-bp-dilaporkan-ke-polda-metro-jaya-terkait-dugaan-kekerasan-seksual",
+        "source": "VIVA.co.id",
+        "published_at": "2026-09-12T18:10:00+00:00",
+        "collected_at": "2026-09-12T19:24:50.151431+00:00",
+        "region": "BELUM TERPETAKAN",
+        "area_label": "BELUM TERPETAKAN",
+        "is_jatim": null,
+        "polres": null,
+        "category": "NEGATIF - KEJAHATAN SEKSUAL",
+        "scope": "negative",
+        "scope_label": "Negatif",
+        "priority": "low",
+        "summary": "Artis Inisial BP Dilaporkan ke Polda Metro Jaya terkait Dugaan Kekerasan Seksual VIVA.co.id",
+        "processing_status": "processed",
+        "classifier_version": "news-v6",
+        "classified_at": "2026-09-12T19:24:50.151431+00:00",
+        "case_id": "CASE-001384",
+        "discovery_families": [
+          "ethics_personal_misconduct"
+        ],
+        "discovery_tags": [
+          "ethics",
+          "sexual_misconduct",
+          "violence"
+        ],
+        "discovery_hits": [
+          "kekerasan seksual"
+        ],
+        "discovery_version": "discovery-v6.5.4",
+        "google_news_url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQUDNGOV9oeUUycTBvRUlObVd5WE1tcWxzY0dZaEN3eVRsN25sSl9mNDR3dEhkTDZrTDJqTlNrYmxFTUV5V3JnZHluNy1pcE1CT0hxSDAyTnI2MWo2b01XRjNiOGJBbUUxUWlaWl9WYVVHbGVUN25Qc25pbnRHQ254NWFSdkZIVkZDdVZMVVh0ak50cEdkdXprMUNyTlhSa04tTkZGTkFFczVYeUFZcll4c1hfRHlzRTJYRUdESTZsd0lUd9IBxwFBVV95cUxQT2FoU0VYX1NJSkxnUXlaMjdHdG00aVBLQ09ibXgtV3l1ZmI5RlJ5eGdVRERqVHhycHdTYkdxNVlTUmI3dTVuZ2ktLXpXMC1LSVVodEd4UWZDVGF5ZHlBdkZILVFIVFFvdF9vMVZ0LVFnbzJIZ1cyUDduTFRWc3VaczNDMlVlQUJUYkNNVXZYZ2h4TjBvcWZqR1BZNGRpYURpUVNTQndVNG85ZzlNaGtZa3R3aFJPTlkyUDN0dDlvVGtpNUN0ZUln?oc=5",
+        "original_url": "https://www.viva.co.id/berita/metro/1928170-artis-inisial-bp-dilaporkan-ke-polda-metro-jaya-terkait-dugaan-kekerasan-seksual",
+        "locality": "",
+        "polsek": null,
+        "location_confidence": 0,
+        "location_evidence": [],
+        "location_status": "BELUM_TERPETAKAN",
+        "location_source": "title",
+        "issue_type": "KEJAHATAN_SEKSUAL",
+        "issue_subtype": "Kejahatan Seksual",
+        "issue_evidence": [
+          "kekerasan seksual"
+        ],
+        "handling_status": "BELUM_ADA_INFORMASI",
+        "handling_evidence": [],
+        "attention_score": 39,
+        "attention_label": "Rendah",
+        "attention_components": {
+          "severity": 26,
+          "polri_relation": 0,
+          "authority": 0,
+          "public_impact": 10,
+          "handling": 0,
+          "evidence": 1,
+          "context_risk": 0,
+          "routine_enforcement_cap": null
+        },
+        "attention_evidence": {
+          "severity": [
+            "kekerasan berat"
+          ],
+          "authority": [],
+          "public_impact": [
+            "dampak peristiwa"
+          ],
+          "evidence": [
+            "satu sumber / informasi awal"
+          ],
+          "role": [],
+          "issue": [
+            "kekerasan seksual"
+          ],
+          "handling": [],
+          "context": [],
+          "positive": []
+        },
+        "case_engine_version": "case-v6.5.4",
+        "case_processed_at": "2026-09-12T19:57:47.324725+00:00"
+      },
+      {
+        "id": "a1ef893cc143722d1f42691bccf8418774e1a84c",
+        "title": "Wujud Kepedulian Sosial, Polsek Taman Berbagi Sembako untuk Warga - memorandum.disway.id - Memorandum.co.id",
+        "url": "https://memorandum.disway.id/polresta-sidoarjo/read/169253/wujud-kepedulian-sosial-polsek-taman-berbagi-sembako-untuk-warga",
+        "source": "Memorandum.co.id",
+        "published_at": "2026-09-12T17:35:04+00:00",
+        "collected_at": "2026-09-12T19:24:50.151431+00:00",
+        "region": "BELUM TERPETAKAN",
+        "area_label": "BELUM TERPETAKAN",
+        "is_jatim": null,
+        "polres": null,
+        "category": "NETRAL / LAINNYA",
+        "scope": "neutral",
+        "scope_label": "Netral",
+        "priority": "low",
+        "summary": "Wujud Kepedulian Sosial, Polsek Taman Berbagi Sembako untuk Warga - memorandum.disway.id Memorandum.co.id",
+        "processing_status": "processed",
+        "classifier_version": "news-v6",
+        "classified_at": "2026-09-12T19:24:50.151431+00:00",
+        "case_id": null,
+        "discovery_families": [],
+        "discovery_tags": [],
+        "discovery_hits": [],
+        "discovery_version": "discovery-v6.5.4",
+        "google_news_url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPaWNScWVhdXVhcVo3QWxqRDl5blFoRHB4b3Y5azdPU0dUUUFNR3BLSTdkaE5TLUY4cVpZS1JHT1hmblRHakRxa1NMY1c5NTNJQ3c2b1VkbFhkV3hlbkR6NTRiX3BUZ0NRZGZMdTFxMmVQeWV2QzlfbGpVQ09UTW9rMTlMX25NYlVUb09uZlJsQ0VsdXM1UEdpV0Vqd3p6MWpybHlRRGg0VkdHcjlyUG1ZR0pSRV9UZTdhN3h1RjNRSXjSAacBQVVfeXFMUEtkVGRyQnkwd0wyNmNxYmtYblVFOUFTVUEtV0FRWUk0VmFpeVNTMWV6dEhzeWMzV3hIajNvZWFQckotei1PZGllTU1mX2d6Z1RvdWdUaVhlTnMzTUxvVVoyUDBONVh2em1XcVZHZUdJb3dSX2RINlV0bVZJVFlBZlhfalhDTm5oQkhvZS13eHI0Y05oaE5qSVpxQWVwQkU2dFYyNHV0Ykk?oc=5",
+        "original_url": "https://memorandum.disway.id/polresta-sidoarjo/read/169253/wujud-kepedulian-sosial-polsek-taman-berbagi-sembako-untuk-warga",
+        "locality": "",
+        "polsek": "POLSEK TAMAN BERBAGI SEMBAKO",
+        "location_confidence": 0,
+        "location_evidence": [
+          "POLSEK TAMAN BERBAGI SEMBAKO"
+        ],
+        "location_status": "BELUM_TERPETAKAN",
+        "location_source": "title",
+        "issue_type": "UMUM",
+        "issue_subtype": "Belum Teridentifikasi",
+        "issue_evidence": [],
+        "handling_status": "BELUM_ADA_INFORMASI",
+        "handling_evidence": [],
+        "attention_score": 15,
+        "attention_label": "Rendah",
+        "attention_components": {
+          "severity": 2,
+          "polri_relation": 0,
+          "authority": 0,
+          "public_impact": 12,
+          "handling": 0,
+          "evidence": 1,
+          "context_risk": 0,
+          "routine_enforcement_cap": null
+        },
+        "attention_evidence": {
+          "severity": [],
+          "authority": [],
+          "public_impact": [
+            "dampak kepada masyarakat"
+          ],
+          "evidence": [
+            "satu sumber / informasi awal"
+          ],
+          "role": [],
+          "issue": [],
+          "handling": [],
+          "context": [],
+          "positive": []
+        },
+        "case_engine_version": "case-v6.5.4",
+        "case_processed_at": "2026-09-12T19:32:44.132650+00:00"
+      },
+      {
+        "id": "bbed467ac172448496359a0a62c31a748b3d4587",
+        "title": "Nekat Jual Narkoba Demi Biaya Nikah, Pemuda di Medan Ditangkap Polisi - MetroTVNews.com",
+        "url": "https://www.metrotvnews.com/play/Ky6C5XOj-nekat-jual-narkoba-demi-biaya-nikah-pemuda-di-medan-ditangkap-polisi",
+        "source": "MetroTVNews.com",
+        "published_at": "2026-09-12T17:27:28+00:00",
+        "collected_at": "2026-09-12T19:24:50.151431+00:00",
+        "region": "BELUM TERPETAKAN",
+        "area_label": "BELUM TERPETAKAN",
+        "is_jatim": null,
+        "polres": null,
+        "category": "NEGATIF - NARKOBA / NARKOTIKA",
+        "scope": "negative",
+        "scope_label": "Negatif",
+        "priority": "low",
+        "summary": "Nekat Jual Narkoba Demi Biaya Nikah, Pemuda di Medan Ditangkap Polisi MetroTVNews.com",
+        "processing_status": "processed",
+        "classifier_version": "news-v6",
+        "classified_at": "2026-09-12T19:24:50.151431+00:00",
+        "case_id": "CASE-000257",
+        "discovery_families": [],
+        "discovery_tags": [],
+        "discovery_hits": [],
+        "discovery_version": "discovery-v6.5.4",
+        "google_news_url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOSkVONG1NMHNuNGFmNVZOMTlISEdjaTBDNzRkZG5WYWdBWDVvRnJkMXNkdHV2bmFoTWtEX3RKU1FEUi1zcGhqSjcyS1VtSTBPR3ZfdnllR01hazZhTUZrYWM4RFdwUGFmc0tSay1NclQ3aTAwRDNXdTVTSlgxblVwOEVFTHV4UHFZYUtWN1R2R0VRZTRBR0NXMVlLOUZlbW9EXzVub0dLdGlxSXpLQkpR?oc=5",
+        "original_url": "https://www.metrotvnews.com/play/Ky6C5XOj-nekat-jual-narkoba-demi-biaya-nikah-pemuda-di-medan-ditangkap-polisi",
+        "locality": "",
+        "polsek": null,
+        "location_confidence": 0,
+        "location_evidence": [],
+        "location_status": "BELUM_TERPETAKAN",
+        "location_source": "title",
+        "issue_type": "NARKOBA",
+        "issue_subtype": "Narkoba / Narkotika",
+        "issue_evidence": [
+          "narkoba"
+        ],
+        "handling_status": "BELUM_ADA_INFORMASI",
+        "handling_evidence": [],
+        "attention_score": 16,
+        "attention_label": "Rendah",
+        "attention_components": {
+          "severity": 11,
+          "polri_relation": 0,
+          "authority": 0,
+          "public_impact": 4,
+          "handling": 0,
+          "evidence": 1,
+          "context_risk": 0,
+          "routine_enforcement_cap": null
+        },
+        "attention_evidence": {
+          "severity": [],
+          "authority": [],
+          "public_impact": [],
+          "evidence": [
+            "satu sumber / informasi awal"
+          ],
+          "role": [],
+          "issue": [
+            "narkoba"
+          ],
+          "handling": [],
+          "context": [],
+          "positive": []
+        },
+        "case_engine_version": "case-v6.5.4",
+        "case_processed_at": "2026-09-12T19:57:47.324737+00:00"
+      },
+      {
+        "id": "9a65427a80b9038c5af493429f24b9ede8c8d192",
+        "title": "Heboh! Artis Muda Inisial BP Dilaporkan atas Dugaan Kekerasan Seksual ke Polisi - VIVA.co.id",
+        "url": "https://www.viva.co.id/gaya-hidup/showbiz/1928177-heboh-artis-muda-inisial-bp-dilaporkan-atas-dugaan-kekerasan-seksual-ke-polisi",
+        "source": "VIVA.co.id",
+        "published_at": "2026-09-12T17:14:03+00:00",
+        "collected_at": "2026-09-12T19:24:50.151431+00:00",
+        "region": "BELUM TERPETAKAN",
+        "area_label": "BELUM TERPETAKAN",
+        "is_jatim": null,
+        "polres": null,
+        "category": "NEGATIF - KEJAHATAN SEKSUAL",
+        "scope": "negative",
+        "scope_label": "Negatif",
+        "priority": "low",
+        "summary": "Heboh! Artis Muda Inisial BP Dilaporkan atas Dugaan Kekerasan Seksual ke Polisi VIVA.co.id",
+        "processing_status": "processed",
+        "classifier_version": "news-v6",
+        "classified_at": "2026-09-12T19:24:50.151431+00:00",
+        "case_id": "CASE-001394",
+        "discovery_families": [
+          "ethics_personal_misconduct"
+        ],
+        "discovery_tags": [
+          "ethics",
+          "sexual_misconduct",
+          "violence"
+        ],
+        "discovery_hits": [
+          "kekerasan seksual"
+        ],
+        "discovery_version": "discovery-v6.5.4",
+        "google_news_url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNNVd0d2RsdU9XMkJVRHdHWVRXdWlReUZaTkhScEpRYzBKRzd3aTVwRkdPdnQ1WGRoNUlMM0M5T1Z6TDhNYVNTYUU1aGs0OTlRU0duMG5BT0o3YXl0WkhKcmxCaG5FLVZDZFR6bDNqUnUxZG9SWVBuVDdJMVZGb2c0X0pXejh5UjNBeU5zM1NLZWlRX3hldFFsNnFjYjNPdDJheHNQaVVUQ09ya19QNVdBd0JOeU5MT2JHdjlNQ2M5bXltWlNYNTFZ0gHMAUFVX3lxTE5kQ0ozaWF6MGs0a2lSV21zdmtSenVQMkJ5bHhCakpPRmJhQUlZNEx6YmU5S3hiYmhkSEVhYklTQVE3bnBDeUM0ZEl0X0FwMGt3NE9ZNUN1dS1tOUxVcGYtQTRmYk1sWjFpMjRmM0ZfenoyaEZydnpmbVg3eGNSV2NoUEplQVFqbGI3Q1BkREE5QlBXTVVHZndXSHQtQWpHc0FGLXU1UGl1cHZUUmJxbEtHMkxIWDZVbWI0VWZUakNPOENITExaOG1NWTJlbw?oc=5",
+        "original_url": "https://www.viva.co.id/gaya-hidup/showbiz/1928177-heboh-artis-muda-inisial-bp-dilaporkan-atas-dugaan-kekerasan-seksual-ke-polisi",
+        "locality": "",
+        "polsek": null,
+        "location_confidence": 0,
+        "location_evidence": [],
+        "location_status": "BELUM_TERPETAKAN",
+        "location_source": "title",
+        "issue_type": "KEJAHATAN_SEKSUAL",
+        "issue_subtype": "Kejahatan Seksual",
+        "issue_evidence": [
+          "kekerasan seksual"
+        ],
+        "handling_status": "BELUM_ADA_INFORMASI",
+        "handling_evidence": [],
+        "attention_score": 39,
+        "attention_label": "Rendah",
+        "attention_components": {
+          "severity": 26,
+          "polri_relation": 0,
+          "authority": 0,
+          "public_impact": 10,
+          "handling": 0,
+          "evidence": 1,
+          "context_risk": 0,
+          "routine_enforcement_cap": null
+        },
+        "attention_evidence": {
+          "severity": [
+            "kekerasan berat"
+          ],
+          "authority": [],
+          "public_impact": [
+            "dampak peristiwa"
+          ],
+          "evidence": [
+            "satu sumber / informasi awal"
+          ],
+          "role": [],
+          "issue": [
+            "kekerasan seksual"
+          ],
+          "handling": [],
+          "context": [],
+          "positive": []
+        },
+        "case_engine_version": "case-v6.5.4",
+        "case_processed_at": "2026-09-12T19:57:47.324741+00:00"
+      },
       {
         "id": "bf66db8014ea3b34be04b0430e29ca1a8c4b583c",
         "title": "Dua Pemuda Pengedar Narkoba di Luwuk Ditangkap Polisi, 36 Paket Sabu-sabu Disita - sultengterkini.id",
@@ -2138,7 +2905,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-09-12T17:48:45.616690+00:00"
+        "case_processed_at": "2026-09-12T19:57:47.324744+00:00"
       },
       {
         "id": "82ccfdb736b1142d79b8ae50ab1d44a65464fa0e",
@@ -2219,7 +2986,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-09-12T17:48:45.616697+00:00"
+        "case_processed_at": "2026-09-12T19:57:47.324746+00:00"
       },
       {
         "id": "662aa189569bb3dddb43ac3f8ccaafdaf252100b",
@@ -2290,7 +3057,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-09-12T17:48:45.616700+00:00"
+        "case_processed_at": "2026-09-12T19:57:47.324749+00:00"
       },
       {
         "id": "f003113e4f36e53752b49eddb2009243d9a89296",
@@ -2372,7 +3139,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-09-12T17:48:45.616705+00:00"
+        "case_processed_at": "2026-09-12T19:57:47.324755+00:00"
       },
       {
         "id": "588f8298e0ff3f61be9a029b5c33c13b37860fa2",
@@ -2443,7 +3210,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-09-12T17:48:45.616707+00:00"
+        "case_processed_at": "2026-09-12T19:57:47.324757+00:00"
       },
       {
         "id": "b9bd30b5f047369785090b505b66ec1118e2a6dd",
@@ -2524,7 +3291,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-09-12T17:48:45.616708+00:00"
+        "case_processed_at": "2026-09-12T19:57:47.324760+00:00"
       },
       {
         "id": "3ddda065c060b5583fefd4563e03547bf516f3e2",
@@ -2605,7 +3372,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-09-12T17:48:45.616712+00:00"
+        "case_processed_at": "2026-09-12T19:57:47.324763+00:00"
       },
       {
         "id": "2bd8c59fee00c066b1346109748ea9dc6f832f80",
@@ -2686,7 +3453,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-09-12T17:48:45.616714+00:00"
+        "case_processed_at": "2026-09-12T19:57:47.324765+00:00"
       },
       {
         "id": "22d7d4ffda5463d855b469c43ae6ffc6774eb0d8",
@@ -2767,7 +3534,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-09-12T17:48:45.616717+00:00"
+        "case_processed_at": "2026-09-12T19:57:47.324767+00:00"
       },
       {
         "id": "f46ef55fe659b74c98d895addbf46ada6531fe22",
@@ -2848,7 +3615,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-09-12T17:48:45.616718+00:00"
+        "case_processed_at": "2026-09-12T19:57:47.324769+00:00"
       },
       {
         "id": "6402e0a1b884077cc5f3b1eecbabb65387c24730",
@@ -2919,7 +3686,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-09-12T17:48:45.616721+00:00"
+        "case_processed_at": "2026-09-12T19:57:47.324772+00:00"
       },
       {
         "id": "0f1154e840fcba56cf1f0408f6f612e552639c09",
@@ -3000,17 +3767,18 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-09-12T17:48:45.616724+00:00"
+        "case_processed_at": "2026-09-12T19:57:47.324774+00:00"
       }
     ]
   },
   "cases": {
-    "active": 12,
+    "active": 14,
     "priority_high": 0,
     "jatim": 1,
     "jatim_priority_high": 0,
-    "articles": 14,
+    "articles": 36,
     "case_ids": [
+      "CASE-000257",
       "CASE-001380",
       "CASE-001383",
       "CASE-001384",
@@ -3022,9 +3790,879 @@
       "CASE-001390",
       "CASE-001391",
       "CASE-001392",
-      "CASE-001393"
+      "CASE-001393",
+      "CASE-001394"
     ],
     "items": [
+      {
+        "case_id": "CASE-000257",
+        "title": "Lagi..!!Satres Narkoba Polrestabes Medan Amankan Enam Tersangka Pengedar Narkoba Jenis Sabu-Sabu - Media 24 Jam",
+        "category": "NEGATIF - NARKOBA / NARKOTIKA",
+        "scope": "negative",
+        "region": "BELUM TERPETAKAN",
+        "locality": "",
+        "is_jatim": null,
+        "polres": null,
+        "polsek": null,
+        "priority": "medium",
+        "attention_score": 61,
+        "attention_label": "Sedang",
+        "signature": "BELUM TERPETAKAN",
+        "incident_terms": [
+          "0ns",
+          "141",
+          "atap",
+          "bandar",
+          "baru",
+          "belakang",
+          "biaya",
+          "bilal",
+          "bocah",
+          "cnn",
+          "com",
+          "dairi",
+          "demi",
+          "detikcom",
+          "digerebek",
+          "diringkus",
+          "disita",
+          "dista",
+          "dnaberita",
+          "edar",
+          "edarkan",
+          "ekstasi",
+          "fakta",
+          "foto",
+          "ganja",
+          "gerebek",
+          "getar",
+          "gram",
+          "gunakan",
+          "hariansib",
+          "indonesia",
+          "inews",
+          "irt",
+          "jalan",
+          "jam",
+          "jenis",
+          "jpnn",
+          "jual",
+          "kabupaten",
+          "kejar",
+          "kejaran",
+          "kepala",
+          "kepling",
+          "kompas",
+          "kota",
+          "lagi",
+          "lingkungan",
+          "lokasi",
+          "maimun",
+          "malaysia",
+          "medan",
+          "media",
+          "menangis",
+          "metrotvnews",
+          "mimbar",
+          "narkoba",
+          "nekat",
+          "nikah",
+          "nyambi",
+          "oke",
+          "online",
+          "paket",
+          "pemasok",
+          "pemuda",
+          "pencurian",
+          "penganiayaan",
+          "pengedar",
+          "perempuan",
+          "pewarta",
+          "pod",
+          "polonia",
+          "polrestabes",
+          "positif",
+          "pria",
+          "rcti",
+          "residivis",
+          "rumah",
+          "sabu",
+          "sadis",
+          "samurai",
+          "sarang",
+          "sari",
+          "satpam",
+          "satres",
+          "siap",
+          "sita",
+          "tanjung",
+          "ternama",
+          "umum",
+          "utama",
+          "vape",
+          "viva",
+          "wanita",
+          "warung",
+          "waspada"
+        ],
+        "event_terms": [
+          "ganja",
+          "narkoba",
+          "pencurian",
+          "penganiayaan",
+          "sabu"
+        ],
+        "location_terms": [
+          "medan"
+        ],
+        "discovery_families": [],
+        "first_seen": "2026-08-24T11:03:31+00:00",
+        "last_seen": "2026-09-12T19:24:50.151431+00:00",
+        "last_detected_at": "2026-09-12T19:24:50.151431+00:00",
+        "article_ids": [
+          "fb75d31d1f53249e9e65e20d8ab6faec6ab3d346",
+          "ffcc8346ef65aaec6a1fa83465907ebf73bf2e94",
+          "51ac14736889b419b6d24409fef7e74f483e4b3c",
+          "688744bed4a392b637178b99a58f27e224b12220",
+          "e2f24145d7e3745a920edab06e080c839e0c315e",
+          "4d5210eb6e25b799455b98c3b971651825faf9a8",
+          "cc0da5da57dfdeab1e450a1aca2e846b3c0d1bfb",
+          "47de4a4fc6e59ef6624ae320f09dce4b003d942e",
+          "4304d1044be8a32dbb3706f04f36ed8d000bb00c",
+          "8398c8b7da92943f4236d2832426b4bbf75b7552",
+          "d8b254f755dac702e29b51bab65e30c63bdf299e",
+          "cedbf68105d9c96133e7504bd574dee0336d30b0",
+          "20e9d4293ad4e4e1c9b43957a06a58751ddc1f1b",
+          "ec585d4d15527b5bf16e8b199824d94a9becea35",
+          "02baec5abf470fc9dfbea41b669b43fba207f8c6",
+          "d11a83277820758a17dedc298d99e2bedc81c129",
+          "1d69b4645f4ae275f4e888b3c65cceee412653fc",
+          "907bba80e94bc3d3bc6494384ee0b6cdd7ab5ac3",
+          "bbed467ac172448496359a0a62c31a748b3d4587"
+        ],
+        "articles": [
+          {
+            "id": "fb75d31d1f53249e9e65e20d8ab6faec6ab3d346",
+            "title": "Lagi..!!Satres Narkoba Polrestabes Medan Amankan Enam Tersangka Pengedar Narkoba Jenis Sabu-Sabu - Media 24 Jam",
+            "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPVkJXeU10aHR0aE9raHdUaEhUX1FDbTdBeTFUVUxFbkhtaXc4UlZqYmUwMVFsd1RYeGIwVHpQbldJb3JIM0tydDVRTEZwb3hGcEN2b2l1T2tEUVdJVnB6VHRDWDgwSWRXTU5XQzNwY1NYZWh6VjdacXl1dnlpZm8tX1ptU1JiTnpOZzRYc1BPT1NpWDVvdnI4Y3pJSWZFSl9kSXZPa0pONzMyMmMyUE5MQms5N1g5ZGVIMThDZDVB?oc=5",
+            "published_at": "2026-08-29T14:02:45+00:00",
+            "collected_at": "2026-08-29T14:30:23.229247+00:00",
+            "source": "Media 24 Jam",
+            "match_score": 1.0,
+            "priority": "low",
+            "scope": "negative",
+            "category": "NEGATIF - NARKOBA / NARKOTIKA",
+            "region": "BELUM TERPETAKAN",
+            "locality": "",
+            "is_jatim": false,
+            "polres": null,
+            "polsek": null,
+            "issue_type": "NARKOBA",
+            "issue_subtype": "Narkoba / Narkotika",
+            "handling_status": "SUDAH_DITINDAK",
+            "handling_evidence": [
+              "tersangka"
+            ],
+            "polri_relation": null,
+            "polri_relation_points": 0,
+            "polri_relation_evidence": [],
+            "attention_score": 24,
+            "attention_label": "Rendah",
+            "attention_components": {
+              "severity": 11,
+              "polri_relation": 2,
+              "authority": 4,
+              "public_impact": 4,
+              "handling": 2,
+              "evidence": 1,
+              "context_risk": 0,
+              "routine_enforcement_cap": 35
+            }
+          },
+          {
+            "id": "ffcc8346ef65aaec6a1fa83465907ebf73bf2e94",
+            "title": "Rumah IRT Bandar Digerebek Polisi, 40 Paket Sabu dan Samurai Disita - Oke Medan",
+            "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQYWFjSW9ScldHZ1hCR2NwbkoySDJ1WUlNTkpCa3RwajlFMTQ5WlVKdERMRkxUdHNUNFgydkhWZGkwWEVLYkFNc1BkTnNTTWdfQ2JsNmIyQXl4Rzk0SW9qSEgtNnpFWGZnbWk5V29oUDJiUnlGaHJlXzR6NDJub0JabFV1T0w4U2ZQUzdSYWNqNUdsRkxycHNfTDAyME5zeEoy?oc=5",
+            "published_at": "2026-08-29T09:10:34+00:00",
+            "collected_at": "2026-08-29T14:30:23.229247+00:00",
+            "source": "Oke Medan",
+            "match_score": 0.65,
+            "priority": "low",
+            "scope": "negative",
+            "category": "NEGATIF - NARKOBA / NARKOTIKA",
+            "region": "BELUM TERPETAKAN",
+            "locality": "",
+            "is_jatim": false,
+            "polres": null,
+            "polsek": null,
+            "issue_type": "NARKOBA",
+            "issue_subtype": "Narkoba / Narkotika",
+            "handling_status": "BELUM_ADA_INFORMASI",
+            "handling_evidence": [],
+            "polri_relation": null,
+            "polri_relation_points": 0,
+            "polri_relation_evidence": [],
+            "attention_score": 16,
+            "attention_label": "Rendah",
+            "attention_components": {
+              "severity": 11,
+              "polri_relation": 0,
+              "authority": 0,
+              "public_impact": 4,
+              "handling": 0,
+              "evidence": 1,
+              "context_risk": 0,
+              "routine_enforcement_cap": null
+            }
+          },
+          {
+            "id": "51ac14736889b419b6d24409fef7e74f483e4b3c",
+            "title": "Diduga Jual Sabu dari Belakang Warung, Pria di Medan Menangis Saat Digerebek Polisi - Kompas.com",
+            "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPRlpSdjhlMVFCWFQ3YXByRkRVaEozLUdFZmpvNjRHaHF0bkN3eENKb2EzdlhPVFBvYXA0OGh4RjZuaXNVRWRGNGFlbUQyVnY5UHFUZWxaVEI5SkhpYklaWkwxb0pjRjBZZU5uX2dpWG5CRkhWNnZsS0tzOGVOVHVwTkx2Qm56ZjNaa3k0YkRLd0FGUlM2Z3Y1MTJ2NFNiLXN3b21sM2VKQWxtZTdMRUwtTUx4cDZfaENnTFVYX2pSTW5rc250?oc=5",
+            "published_at": "2026-08-28T04:42:00+00:00",
+            "collected_at": "2026-08-28T05:25:58.358079+00:00",
+            "source": "Kompas.com",
+            "match_score": 0.7092,
+            "priority": "low",
+            "scope": "negative",
+            "category": "NEGATIF - NARKOBA / NARKOTIKA",
+            "region": "BELUM TERPETAKAN",
+            "locality": "",
+            "is_jatim": false,
+            "polres": null,
+            "polsek": null,
+            "issue_type": "NARKOBA",
+            "issue_subtype": "Narkoba / Narkotika",
+            "handling_status": "BELUM_ADA_INFORMASI",
+            "handling_evidence": [],
+            "polri_relation": null,
+            "polri_relation_points": 0,
+            "polri_relation_evidence": [],
+            "attention_score": 38,
+            "attention_label": "Rendah",
+            "attention_components": {
+              "severity": 11,
+              "polri_relation": 16,
+              "authority": 0,
+              "public_impact": 10,
+              "handling": 0,
+              "evidence": 1,
+              "context_risk": 0,
+              "routine_enforcement_cap": null
+            }
+          },
+          {
+            "id": "688744bed4a392b637178b99a58f27e224b12220",
+            "title": "Jual Vape Narkoba, DJ Ternama Kota Medan Ditangkap Polisi - detikcom",
+            "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNeFN0WVVPU0NfdDAyV3B6RnFPajZmaXRDcVoyWGk3NHdXTW5EblVxQ2Y2VmIwQ2FFSm05T0U4VUkzdW1ndEItRndiSUw3d3Z5UlVPbmRpaUFfaEJweF9JbEFWV0N1clFvRUpLWW1MQzVnUDFxZDc3d3NWVVhubWpEU1phZWVkOWh3THBqVG52WnlfMHZYZGZKMmxwRVJxVW9Wdi01WWM2d3VQQm1RS2NIMnVaa9IBuAFBVV95cUxQSUUxWWxkejRyUkpZZlJUeHpqb2xKam9hUDNpbG5md3psSTl0c3ZCenlnZ3RtNXJHdE9veUcxU0pRN2VfYnhoTmoyUlRmVjU4VHJoeGlzYWJCRDVGVm9MUS00b3hpdVlFeDNXdkk5ZHFHLWh5MkNvTEtIcnE2LWppUURPUUJNdEZaOGZieTQtQmwwNS00a0F4NTctdjB6WWJBTUJyY3FTamtqaUJGLUhCTEM5NkR4N0RN?oc=5",
+            "published_at": "2026-08-27T19:31:55+00:00",
+            "collected_at": "2026-08-27T20:32:51.366685+00:00",
+            "source": "detikcom",
+            "match_score": 0.7206,
+            "priority": "low",
+            "scope": "negative",
+            "category": "NEGATIF - NARKOBA / NARKOTIKA",
+            "region": "BELUM TERPETAKAN",
+            "locality": "",
+            "is_jatim": false,
+            "polres": null,
+            "polsek": null,
+            "issue_type": "NARKOBA",
+            "issue_subtype": "Narkoba / Narkotika",
+            "handling_status": "BELUM_ADA_INFORMASI",
+            "handling_evidence": [],
+            "polri_relation": null,
+            "polri_relation_points": 0,
+            "polri_relation_evidence": [],
+            "attention_score": 16,
+            "attention_label": "Rendah",
+            "attention_components": {
+              "severity": 11,
+              "polri_relation": 0,
+              "authority": 0,
+              "public_impact": 4,
+              "handling": 0,
+              "evidence": 1,
+              "context_risk": 0,
+              "routine_enforcement_cap": null
+            }
+          },
+          {
+            "id": "e2f24145d7e3745a920edab06e080c839e0c315e",
+            "title": "Diduga Edarkan Vape Narkoba, DJ Perempuan di Medan Ditangkap Polisi - CNN Indonesia",
+            "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNa3pneElvNlJ6OFRhdElLTU5hdUpwN3JRckl5T1NpbjJ0blpXRk1fWjZWZThOU2dNcTFabjFyMkVJR1N6czh4NkhDeWZRSWd1SE5JODVqWEZjZ2pEeFhYVlRLd1pCZTNVaFRoeko4M20wemoyZGdERzZlWVdsS24wWVAzSGpmZW5hbXN3VnYwU21NZERvanNCN01vdnpLSWZaZVY1TXBYM3JpeGhnWmRoZE9RVjI4NEMzT3M1bjN0TG9FSHJ1ZXk2MHlB0gHPAUFVX3lxTFBsNUhZTGJxeXl4SWdRVkNyQVpKNUNnT3I4aWJOV3dYckFEXzdCMmVQMGxYZ3FCcjBZOVJaU1o1bDJiS0hlQ2I1Rm5DaElXMFpKREREU1N6ZUhPd0RGTXYteUllM1ZaOHlUVGtsM2tmNVJqSm1SQTNiZ3d6Ry1JVVhBMkxNcWJLWnNQWktTamg0a1Z0dkEzOHhpZnBGaFhBWG1mT0V4dTdLQl93UFB0N1c4aTg5bklLU3Y4eGkwVmU2cWt4TDhVUkZPMXhxTURyMA?oc=5",
+            "published_at": "2026-08-27T04:13:10+00:00",
+            "collected_at": "2026-08-27T08:21:05.636149+00:00",
+            "source": "CNN Indonesia",
+            "match_score": 0.7187,
+            "priority": "low",
+            "scope": "negative",
+            "category": "NEGATIF - NARKOBA / NARKOTIKA",
+            "region": "BELUM TERPETAKAN",
+            "locality": "",
+            "is_jatim": false,
+            "polres": null,
+            "polsek": null,
+            "issue_type": "NARKOBA",
+            "issue_subtype": "Narkoba / Narkotika",
+            "handling_status": "BELUM_ADA_INFORMASI",
+            "handling_evidence": [],
+            "polri_relation": null,
+            "polri_relation_points": 0,
+            "polri_relation_evidence": [],
+            "attention_score": 38,
+            "attention_label": "Rendah",
+            "attention_components": {
+              "severity": 11,
+              "polri_relation": 16,
+              "authority": 0,
+              "public_impact": 10,
+              "handling": 0,
+              "evidence": 1,
+              "context_risk": 0,
+              "routine_enforcement_cap": null
+            }
+          },
+          {
+            "id": "4d5210eb6e25b799455b98c3b971651825faf9a8",
+            "title": "DJ Ternama Medan Ditangkap Jual Vape Narkoba, Polisi Kejar Pemasok - DNABerita",
+            "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNUlBneU9tbUpmc1NOaDJxZU5peFVxYk1UVzE4d25PdXF3YzZuaW14WkFFQUhRNmktVWY2RlFRNlluXzU3MVh5TF92OHJTRWEwX1REZUhiQThYMFZRNHBER1dsZUtTbk1zd3ozb3c3VUpDc1BzbHVQbDFoX0hZd2ZxZjBzUEsxXzczQmFtYkNzYU0yQQ?oc=5",
+            "published_at": "2026-08-27T02:26:21+00:00",
+            "collected_at": "2026-08-27T08:21:05.636149+00:00",
+            "source": "DNABerita",
+            "match_score": 0.7533,
+            "priority": "low",
+            "scope": "negative",
+            "category": "NEGATIF - NARKOBA / NARKOTIKA",
+            "region": "BELUM TERPETAKAN",
+            "locality": "",
+            "is_jatim": false,
+            "polres": null,
+            "polsek": null,
+            "issue_type": "NARKOBA",
+            "issue_subtype": "Narkoba / Narkotika",
+            "handling_status": "BELUM_ADA_INFORMASI",
+            "handling_evidence": [],
+            "polri_relation": null,
+            "polri_relation_points": 0,
+            "polri_relation_evidence": [],
+            "attention_score": 16,
+            "attention_label": "Rendah",
+            "attention_components": {
+              "severity": 11,
+              "polri_relation": 0,
+              "authority": 0,
+              "public_impact": 4,
+              "handling": 0,
+              "evidence": 1,
+              "context_risk": 0,
+              "routine_enforcement_cap": null
+            }
+          },
+          {
+            "id": "cc0da5da57dfdeab1e450a1aca2e846b3c0d1bfb",
+            "title": "Polisi Tangkap WN Malaysia Pemasok Vape Narkoba di Medan - MetroTVNews.com",
+            "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNOWdTVThDYW00TnNLQWZ6ZnZMdkdfWVRtZlFMbmMyVXRuellmVHNtVklLeEpZck5qTUItRmRyWFk3dzdsQ2hSWENnSWlKUGhjd1dVMUZ0TURqZ1lSbm5fNmxqUTlVMmR5Rkl5NF9iUTJ5T2RleUNqSXBJZy1qM19KaFhIUDBCbGR3VWJzQ21FRUdkNlJpUHp6OE1xaWNLc1U?oc=5",
+            "published_at": "2026-08-26T13:53:03+00:00",
+            "collected_at": "2026-08-26T14:39:53.611783+00:00",
+            "source": "MetroTVNews.com",
+            "match_score": 0.7493,
+            "priority": "low",
+            "scope": "negative",
+            "category": "NEGATIF - NARKOBA / NARKOTIKA",
+            "region": "BELUM TERPETAKAN",
+            "locality": "",
+            "is_jatim": false,
+            "polres": null,
+            "polsek": null,
+            "issue_type": "NARKOBA",
+            "issue_subtype": "Narkoba / Narkotika",
+            "handling_status": "BELUM_ADA_INFORMASI",
+            "handling_evidence": [],
+            "polri_relation": null,
+            "polri_relation_points": 0,
+            "polri_relation_evidence": [],
+            "attention_score": 16,
+            "attention_label": "Rendah",
+            "attention_components": {
+              "severity": 11,
+              "polri_relation": 0,
+              "authority": 0,
+              "public_impact": 4,
+              "handling": 0,
+              "evidence": 1,
+              "context_risk": 0,
+              "routine_enforcement_cap": null
+            }
+          },
+          {
+            "id": "47de4a4fc6e59ef6624ae320f09dce4b003d942e",
+            "title": "Jadi Sarang Narkoba di Medan, 2 Lokasi Ini Digerebek Polisi - JPNN.com",
+            "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNTGpMRC02SEZvYW9KTXFaaTVIVTU5anQ0clg5QUZxQlRJdFlBVktxUC1nUEl5el9Eclg3TC1LaWlGTzFVNXRlT01GTFNrWkFoaGxjYzNXQXRELTYwWF9naTlCTF9wZkxJVHY0NmRiMHZqWmVpTFNLZG5zSWpYbDU2bEJzTXFpc2FCalHSAY8BQVVfeXFMT18yN0hKcHJjQ0VfQlV6eDVPb1RQemk5a252alFzMXR1TWNCbF9QNUxjOWZNV2NjNmlCVEJFTmwyLTcxWHRMeWpNcjRRRXRoN3pfRjR0Z0NsMG5YcU5GcEpYTTA5SzZqalBhOWFGSVVycmpON0xHQ3BEeVdwWjdtNkRHOHM0RHlvam1xTW1YVGM?oc=5",
+            "published_at": "2026-08-25T22:14:00+00:00",
+            "collected_at": "2026-08-26T10:49:33.010254+00:00",
+            "source": "JPNN.com",
+            "match_score": 0.7666,
+            "priority": "low",
+            "scope": "negative",
+            "category": "NEGATIF - NARKOBA / NARKOTIKA",
+            "region": "BELUM TERPETAKAN",
+            "locality": "",
+            "is_jatim": false,
+            "polres": null,
+            "polsek": null,
+            "issue_type": "NARKOBA",
+            "issue_subtype": "Narkoba / Narkotika",
+            "handling_status": "BELUM_ADA_INFORMASI",
+            "handling_evidence": [],
+            "polri_relation": null,
+            "polri_relation_points": 0,
+            "polri_relation_evidence": [],
+            "attention_score": 16,
+            "attention_label": "Rendah",
+            "attention_components": {
+              "severity": 11,
+              "polri_relation": 0,
+              "authority": 0,
+              "public_impact": 4,
+              "handling": 0,
+              "evidence": 1,
+              "context_risk": 0,
+              "routine_enforcement_cap": null
+            }
+          },
+          {
+            "id": "4304d1044be8a32dbb3706f04f36ed8d000bb00c",
+            "title": "Foto Fakta Baru Kasus Penganiayaan Sadis Dua Bocah di Kabupaten Dairi, Polisi: Pelaku Positif Gunakan Sabu-sabu - VIVA Medan",
+            "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxNYWRfUmh4QmxCTGRwWHpyaDdKbXZMdHVrNDUtRVFXcGhxM1hNZkJRSGZzaVJkbmFLYjAxYVdVMFZqZGUxZUFrQmpyNFh4OGJwak85dzBkYjU0bURRbUNRY3lfdktMbldwWXRTa1FrNE4tMGNXc053MFBrVlJNc3ZFTEZ1S0FHSlVleGR4b0t5WEhCM2VENjdadVFZUl9IcDluQzd4UTJoWGlvSkFzMzU2OG1nUURGXzhpVFc1OEFfcjN3SnF6RUtXSFlrTnZrMU9KTUNLTWNCRQ?oc=5",
+            "published_at": "2026-08-24T11:03:31+00:00",
+            "collected_at": "2026-08-26T10:49:33.010254+00:00",
+            "source": "VIVA Medan",
+            "match_score": 0.6521,
+            "priority": "low",
+            "scope": "negative",
+            "category": "NEGATIF - KEKERASAN / PENGGUNAAN KEKUATAN",
+            "region": "BELUM TERPETAKAN",
+            "locality": "",
+            "is_jatim": false,
+            "polres": null,
+            "polsek": null,
+            "issue_type": "KEKERASAN_DAN_KEKUATAN",
+            "issue_subtype": "Kekerasan / Penggunaan Kekuatan",
+            "handling_status": "BELUM_ADA_INFORMASI",
+            "handling_evidence": [],
+            "polri_relation": null,
+            "polri_relation_points": 0,
+            "polri_relation_evidence": [],
+            "attention_score": 39,
+            "attention_label": "Rendah",
+            "attention_components": {
+              "severity": 28,
+              "polri_relation": 0,
+              "authority": 0,
+              "public_impact": 4,
+              "handling": 0,
+              "evidence": 1,
+              "context_risk": 0,
+              "routine_enforcement_cap": null
+            }
+          },
+          {
+            "id": "8398c8b7da92943f4236d2832426b4bbf75b7552",
+            "title": "Seorang Oknum Satpam Ditangkap Polisi Edarkan Narkoba di Jalan Tanjung Sari Medan, Ganja 3 0ns Dista - Pewarta.co",
+            "url": "https://pewarta.co/news/medan/seorang-oknum-satpam-ditangkap-polisi-edarkan-narkoba-di-jalan-tanjung-sari-medan-ganja-3-0ns-dista",
+            "published_at": "2026-09-04T15:10:21+00:00",
+            "collected_at": "2026-09-04T16:24:12.941671+00:00",
+            "source": "Pewarta.co",
+            "match_score": 0.7131,
+            "priority": "low",
+            "scope": "negative",
+            "category": "NEGATIF - NARKOBA / NARKOTIKA",
+            "region": "BELUM TERPETAKAN",
+            "locality": "",
+            "is_jatim": false,
+            "polres": null,
+            "polsek": null,
+            "issue_type": "NARKOBA",
+            "issue_subtype": "Narkoba / Narkotika",
+            "handling_status": "BELUM_ADA_INFORMASI",
+            "handling_evidence": [],
+            "polri_relation": null,
+            "polri_relation_points": 0,
+            "polri_relation_evidence": [],
+            "attention_score": 16,
+            "attention_label": "Rendah",
+            "attention_components": {
+              "severity": 11,
+              "polri_relation": 0,
+              "authority": 0,
+              "public_impact": 4,
+              "handling": 0,
+              "evidence": 1,
+              "context_risk": 0,
+              "routine_enforcement_cap": null
+            }
+          },
+          {
+            "id": "d8b254f755dac702e29b51bab65e30c63bdf299e",
+            "title": "Oknum Kepala Lingkungan Wanita di Medan Ditangkap Polisi karena Edarkan Narkoba - waspada.id",
+            "url": "https://www.waspada.id/berita/oknum-kepala-lingkungan-wanita-di-medan-ditangkap-polisi-karena-edarkan-narkoba",
+            "published_at": "2026-09-04T14:28:43+00:00",
+            "collected_at": "2026-09-04T16:24:12.941671+00:00",
+            "source": "waspada.id",
+            "match_score": 0.6957,
+            "priority": "low",
+            "scope": "negative",
+            "category": "NEGATIF - NARKOBA / NARKOTIKA",
+            "region": "BELUM TERPETAKAN",
+            "locality": "",
+            "is_jatim": false,
+            "polres": null,
+            "polsek": null,
+            "issue_type": "NARKOBA",
+            "issue_subtype": "Narkoba / Narkotika",
+            "handling_status": "BELUM_ADA_INFORMASI",
+            "handling_evidence": [],
+            "polri_relation": null,
+            "polri_relation_points": 0,
+            "polri_relation_evidence": [],
+            "attention_score": 16,
+            "attention_label": "Rendah",
+            "attention_components": {
+              "severity": 11,
+              "polri_relation": 0,
+              "authority": 0,
+              "public_impact": 4,
+              "handling": 0,
+              "evidence": 1,
+              "context_risk": 0,
+              "routine_enforcement_cap": null
+            }
+          },
+          {
+            "id": "cedbf68105d9c96133e7504bd574dee0336d30b0",
+            "title": "Polisi Gerebek Sarang Narkoba di Medan Maimun, 11 Gram Sabu Disita - harianSIB.com",
+            "url": "https://www.hariansib.com/Kriminal/449451/polisi-gerebek-sarang-narkoba-di-medan-maimun-11-gram-sabu-disita/",
+            "published_at": "2026-09-05T02:38:00+00:00",
+            "collected_at": "2026-09-05T05:47:02.400621+00:00",
+            "source": "harianSIB.com",
+            "match_score": 0.9505,
+            "priority": "low",
+            "scope": "negative",
+            "category": "NEGATIF - NARKOBA / NARKOTIKA",
+            "region": "BELUM TERPETAKAN",
+            "locality": "",
+            "is_jatim": false,
+            "polres": null,
+            "polsek": null,
+            "issue_type": "NARKOBA",
+            "issue_subtype": "Narkoba / Narkotika",
+            "handling_status": "BELUM_ADA_INFORMASI",
+            "handling_evidence": [],
+            "polri_relation": null,
+            "polri_relation_points": 0,
+            "polri_relation_evidence": [],
+            "attention_score": 16,
+            "attention_label": "Rendah",
+            "attention_components": {
+              "severity": 11,
+              "polri_relation": 0,
+              "authority": 0,
+              "public_impact": 4,
+              "handling": 0,
+              "evidence": 1,
+              "context_risk": 0,
+              "routine_enforcement_cap": null
+            }
+          },
+          {
+            "id": "20e9d4293ad4e4e1c9b43957a06a58751ddc1f1b",
+            "title": "Nyambi Edarkan Narkoba, Oknum Kepling di Medan Ditangkap Polisi, 2 Pod Getar dan Ekstasi Disita - DNABerita",
+            "url": "https://dnaberita.com/nyambi-edarkan-narkoba-oknum-kepling-di-medan-ditangkap-polisi-2-pod-getar-dan-ekstasi-disita/",
+            "published_at": "2026-09-05T01:18:57+00:00",
+            "collected_at": "2026-09-05T05:47:02.400621+00:00",
+            "source": "DNABerita",
+            "match_score": 0.7689,
+            "priority": "low",
+            "scope": "negative",
+            "category": "NEGATIF - NARKOBA / NARKOTIKA",
+            "region": "BELUM TERPETAKAN",
+            "locality": "",
+            "is_jatim": false,
+            "polres": null,
+            "polsek": null,
+            "issue_type": "NARKOBA",
+            "issue_subtype": "Narkoba / Narkotika",
+            "handling_status": "BELUM_ADA_INFORMASI",
+            "handling_evidence": [],
+            "polri_relation": null,
+            "polri_relation_points": 0,
+            "polri_relation_evidence": [],
+            "attention_score": 16,
+            "attention_label": "Rendah",
+            "attention_components": {
+              "severity": 11,
+              "polri_relation": 0,
+              "authority": 0,
+              "public_impact": 4,
+              "handling": 0,
+              "evidence": 1,
+              "context_risk": 0,
+              "routine_enforcement_cap": null
+            }
+          },
+          {
+            "id": "ec585d4d15527b5bf16e8b199824d94a9becea35",
+            "title": "Wanita Kepling di Medan Ini Ditangkap Polisi terkait Narkoba - JPNN.com",
+            "url": "https://m.jpnn.com/news/wanita-kepling-di-medan-ini-ditangkap-polisi-terkait-narkoba",
+            "published_at": "2026-09-06T23:30:00+00:00",
+            "collected_at": "2026-09-06T23:57:09.680947+00:00",
+            "source": "JPNN.com",
+            "match_score": 0.7692,
+            "priority": "low",
+            "scope": "negative",
+            "category": "NEGATIF - NARKOBA / NARKOTIKA",
+            "region": "BELUM TERPETAKAN",
+            "locality": "",
+            "is_jatim": false,
+            "polres": null,
+            "polsek": null,
+            "issue_type": "NARKOBA",
+            "issue_subtype": "Narkoba / Narkotika",
+            "handling_status": "BELUM_ADA_INFORMASI",
+            "handling_evidence": [],
+            "polri_relation": null,
+            "polri_relation_points": 0,
+            "polri_relation_evidence": [],
+            "attention_score": 16,
+            "attention_label": "Rendah",
+            "attention_components": {
+              "severity": 11,
+              "polri_relation": 0,
+              "authority": 0,
+              "public_impact": 4,
+              "handling": 0,
+              "evidence": 1,
+              "context_risk": 0,
+              "routine_enforcement_cap": null
+            }
+          },
+          {
+            "id": "02baec5abf470fc9dfbea41b669b43fba207f8c6",
+            "title": "Residivis Pencurian Jadi Bandar Ganja di Medan, Polisi Sita 141 Paket Narkoba Siap Edar - iNews.ID",
+            "url": "https://sumut.inews.id/berita/residivis-pencurian-jadi-bandar-ganja-di-medan-polisi-sita-141-paket-narkoba-siap-edar",
+            "published_at": "2026-09-07T12:23:00+00:00",
+            "collected_at": "2026-09-07T16:29:39.511352+00:00",
+            "source": "iNews.ID",
+            "match_score": 0.9234,
+            "priority": "low",
+            "scope": "negative",
+            "category": "NEGATIF - NARKOBA / NARKOTIKA",
+            "region": "BELUM TERPETAKAN",
+            "locality": "",
+            "is_jatim": false,
+            "polres": null,
+            "polsek": null,
+            "issue_type": "NARKOBA",
+            "issue_subtype": "Narkoba / Narkotika",
+            "handling_status": "BELUM_ADA_INFORMASI",
+            "handling_evidence": [],
+            "polri_relation": null,
+            "polri_relation_points": 0,
+            "polri_relation_evidence": [],
+            "attention_score": 18,
+            "attention_label": "Rendah",
+            "attention_components": {
+              "severity": 11,
+              "polri_relation": 2,
+              "authority": 0,
+              "public_impact": 4,
+              "handling": 0,
+              "evidence": 1,
+              "context_risk": 0,
+              "routine_enforcement_cap": 35
+            }
+          },
+          {
+            "id": "d11a83277820758a17dedc298d99e2bedc81c129",
+            "title": "Residivis Pencurian Jadi Bandar Ganja di Medan, Polisi Sita 141 Paket Narkoba Siap Edar - RCTI+",
+            "url": "https://www.rctiplus.com/news/detail/nasional/5468059/residivis-pencurian-jadi-bandar-ganja-di-medan-polisi-sita-141-paket-narkoba-siap-edar?utm_source=mpi_widget&utm_medium=referral&utm_campaign=news_article_5468059",
+            "published_at": "2026-09-07T12:23:00+00:00",
+            "collected_at": "2026-09-07T16:29:39.511352+00:00",
+            "source": "RCTI+",
+            "match_score": 1.0,
+            "priority": "low",
+            "scope": "negative",
+            "category": "NEGATIF - NARKOBA / NARKOTIKA",
+            "region": "BELUM TERPETAKAN",
+            "locality": "",
+            "is_jatim": false,
+            "polres": null,
+            "polsek": null,
+            "issue_type": "NARKOBA",
+            "issue_subtype": "Narkoba / Narkotika",
+            "handling_status": "BELUM_ADA_INFORMASI",
+            "handling_evidence": [],
+            "polri_relation": null,
+            "polri_relation_points": 0,
+            "polri_relation_evidence": [],
+            "attention_score": 18,
+            "attention_label": "Rendah",
+            "attention_components": {
+              "severity": 11,
+              "polri_relation": 2,
+              "authority": 0,
+              "public_impact": 4,
+              "handling": 0,
+              "evidence": 1,
+              "context_risk": 0,
+              "routine_enforcement_cap": 35
+            }
+          },
+          {
+            "id": "1d69b4645f4ae275f4e888b3c65cceee412653fc",
+            "title": "Polisi Gerebek Rumah Narkoba di Jalan Bilal Medan Polonia, 2 Pengedar Sabu Diringkus - Mimbar Umum Online",
+            "url": "https://mimbarumum.co.id/polisi-gerebek-rumah-narkoba-di-jalan-bilal-medan-polonia-2-pengedar-sabu-diringkus/",
+            "published_at": "2026-09-10T14:16:55+00:00",
+            "collected_at": "2026-09-10T16:27:15.069105+00:00",
+            "source": "Mimbar Umum Online",
+            "match_score": 0.9506,
+            "priority": "low",
+            "scope": "negative",
+            "category": "NEGATIF - NARKOBA / NARKOTIKA",
+            "region": "BELUM TERPETAKAN",
+            "locality": "",
+            "is_jatim": false,
+            "polres": null,
+            "polsek": null,
+            "issue_type": "NARKOBA",
+            "issue_subtype": "Narkoba / Narkotika",
+            "handling_status": "BELUM_ADA_INFORMASI",
+            "handling_evidence": [],
+            "polri_relation": null,
+            "polri_relation_points": 0,
+            "polri_relation_evidence": [],
+            "attention_score": 16,
+            "attention_label": "Rendah",
+            "attention_components": {
+              "severity": 11,
+              "polri_relation": 0,
+              "authority": 0,
+              "public_impact": 4,
+              "handling": 0,
+              "evidence": 1,
+              "context_risk": 0,
+              "routine_enforcement_cap": null
+            }
+          },
+          {
+            "id": "907bba80e94bc3d3bc6494384ee0b6cdd7ab5ac3",
+            "title": "Kejar-kejaran di Atap Rumah, Polisi Tangkap 2 Pengedar Narkoba di Medan | BERITA UTAMA - Kompas.tv",
+            "url": "https://www.kompas.tv/regional/690007/kejar-kejaran-di-atap-rumah-polisi-tangkap-2-pengedar-narkoba-di-medan-berita-utama",
+            "published_at": "2026-09-10T13:25:00+00:00",
+            "collected_at": "2026-09-10T16:27:15.069105+00:00",
+            "source": "Kompas.tv",
+            "match_score": 0.7733,
+            "priority": "low",
+            "scope": "negative",
+            "category": "NEGATIF - NARKOBA / NARKOTIKA",
+            "region": "BELUM TERPETAKAN",
+            "locality": "",
+            "is_jatim": false,
+            "polres": null,
+            "polsek": null,
+            "issue_type": "NARKOBA",
+            "issue_subtype": "Narkoba / Narkotika",
+            "handling_status": "BELUM_ADA_INFORMASI",
+            "handling_evidence": [],
+            "polri_relation": null,
+            "polri_relation_points": 0,
+            "polri_relation_evidence": [],
+            "attention_score": 16,
+            "attention_label": "Rendah",
+            "attention_components": {
+              "severity": 11,
+              "polri_relation": 0,
+              "authority": 0,
+              "public_impact": 4,
+              "handling": 0,
+              "evidence": 1,
+              "context_risk": 0,
+              "routine_enforcement_cap": null
+            }
+          },
+          {
+            "id": "bbed467ac172448496359a0a62c31a748b3d4587",
+            "title": "Nekat Jual Narkoba Demi Biaya Nikah, Pemuda di Medan Ditangkap Polisi - MetroTVNews.com",
+            "url": "https://www.metrotvnews.com/play/Ky6C5XOj-nekat-jual-narkoba-demi-biaya-nikah-pemuda-di-medan-ditangkap-polisi",
+            "published_at": "2026-09-12T17:27:28+00:00",
+            "collected_at": "2026-09-12T19:24:50.151431+00:00",
+            "source": "MetroTVNews.com",
+            "match_score": 0.7645,
+            "priority": "low",
+            "scope": "negative",
+            "category": "NEGATIF - NARKOBA / NARKOTIKA",
+            "region": "BELUM TERPETAKAN",
+            "locality": "",
+            "is_jatim": false,
+            "polres": null,
+            "polsek": null,
+            "issue_type": "NARKOBA",
+            "issue_subtype": "Narkoba / Narkotika",
+            "handling_status": "BELUM_ADA_INFORMASI",
+            "handling_evidence": [],
+            "polri_relation": null,
+            "polri_relation_points": 0,
+            "polri_relation_evidence": [],
+            "attention_score": 16,
+            "attention_label": "Rendah",
+            "attention_components": {
+              "severity": 11,
+              "polri_relation": 0,
+              "authority": 0,
+              "public_impact": 4,
+              "handling": 0,
+              "evidence": 1,
+              "context_risk": 0,
+              "routine_enforcement_cap": null
+            }
+          }
+        ],
+        "article_count": 19,
+        "created_at": "2026-08-31T07:59:59.650913+00:00",
+        "updated_at": "2026-09-12T19:57:43.667950+00:00",
+        "engine_version": "case-v6.5.4",
+        "priority_score": 61,
+        "priority_breakdown": {
+          "severity": 28,
+          "polri_relation": 2,
+          "authority_context": 4,
+          "public_impact": 4,
+          "handling": 2,
+          "evidence": 5,
+          "spread": 15,
+          "escalation": 0,
+          "current_activity": 1,
+          "context_risk": 0
+        },
+        "priority_evidence": {
+          "unique_sources": 16,
+          "active_today_articles": 1,
+          "escalation": [],
+          "issue_type": "KEKERASAN_DAN_KEKUATAN",
+          "issue_subtype": "Kekerasan / Penggunaan Kekuatan",
+          "sentiment": "negative",
+          "polri_relation": "INFORMASI_UMUM",
+          "handling_status": "BELUM_ADA_INFORMASI",
+          "reasons": [
+            "sifat berita: negatif",
+            "sifat berita: negatif",
+            "Kekerasan / Penggunaan Kekuatan",
+            "Hubungan Polri belum spesifik",
+            "pemberitaan lintas 16 sumber"
+          ]
+        }
+      },
       {
         "case_id": "CASE-001380",
         "title": "Tiga Kasus Sabu Dibongkar, Polres Probolinggo Kota Amankan 3 Tersangka dan 56 Paket Narkotika - beritanasional.id",
@@ -3145,7 +4783,7 @@
         ],
         "article_count": 2,
         "created_at": "2026-09-12T14:42:25.467903+00:00",
-        "updated_at": "2026-09-12T17:48:45.573960+00:00",
+        "updated_at": "2026-09-12T19:57:47.277119+00:00",
         "engine_version": "case-v6.5.4",
         "priority_score": 26,
         "priority_breakdown": {
@@ -3253,7 +4891,7 @@
         ],
         "article_count": 1,
         "created_at": "2026-09-12T17:44:04.135006+00:00",
-        "updated_at": "2026-09-12T17:48:45.583074+00:00",
+        "updated_at": "2026-09-12T19:57:47.285663+00:00",
         "engine_version": "case-v6.5.4",
         "priority_score": 17,
         "priority_breakdown": {
@@ -3294,20 +4932,23 @@
         "is_jatim": null,
         "polres": null,
         "polsek": null,
-        "priority": "low",
-        "attention_score": 38,
-        "attention_label": "Rendah",
+        "priority": "medium",
+        "attention_score": 44,
+        "attention_label": "Sedang",
         "signature": "BELUM TERPETAKAN",
         "incident_terms": [
           "artis",
           "detiknews",
+          "dilaporkan",
           "dipolisikan",
           "dugaan",
           "inisial",
+          "jaya",
           "kekerasan",
           "metro",
           "polda",
-          "seksual"
+          "seksual",
+          "viva"
         ],
         "event_terms": [
           "kekerasan",
@@ -3318,10 +4959,11 @@
           "ethics_personal_misconduct"
         ],
         "first_seen": "2026-09-12T16:53:10+00:00",
-        "last_seen": "2026-09-12T17:13:13.833484+00:00",
-        "last_detected_at": "2026-09-12T17:13:13.833484+00:00",
+        "last_seen": "2026-09-12T19:24:50.151431+00:00",
+        "last_detected_at": "2026-09-12T19:24:50.151431+00:00",
         "article_ids": [
-          "82ccfdb736b1142d79b8ae50ab1d44a65464fa0e"
+          "82ccfdb736b1142d79b8ae50ab1d44a65464fa0e",
+          "c6fcd84c704008a7f41638fecfed3acd81c56eae"
         ],
         "articles": [
           {
@@ -3359,28 +5001,64 @@
               "context_risk": 0,
               "routine_enforcement_cap": null
             }
+          },
+          {
+            "id": "c6fcd84c704008a7f41638fecfed3acd81c56eae",
+            "title": "Artis Inisial BP Dilaporkan ke Polda Metro Jaya terkait Dugaan Kekerasan Seksual - VIVA.co.id",
+            "url": "https://www.viva.co.id/berita/metro/1928170-artis-inisial-bp-dilaporkan-ke-polda-metro-jaya-terkait-dugaan-kekerasan-seksual",
+            "published_at": "2026-09-12T18:10:00+00:00",
+            "collected_at": "2026-09-12T19:24:50.151431+00:00",
+            "source": "VIVA.co.id",
+            "match_score": 0.7871,
+            "priority": "low",
+            "scope": "negative",
+            "category": "NEGATIF - KEJAHATAN SEKSUAL",
+            "region": "BELUM TERPETAKAN",
+            "locality": "",
+            "is_jatim": false,
+            "polres": null,
+            "polsek": null,
+            "issue_type": "KEJAHATAN_SEKSUAL",
+            "issue_subtype": "Kejahatan Seksual",
+            "handling_status": "BELUM_ADA_INFORMASI",
+            "handling_evidence": [],
+            "polri_relation": null,
+            "polri_relation_points": 0,
+            "polri_relation_evidence": [],
+            "attention_score": 39,
+            "attention_label": "Rendah",
+            "attention_components": {
+              "severity": 26,
+              "polri_relation": 0,
+              "authority": 0,
+              "public_impact": 10,
+              "handling": 0,
+              "evidence": 1,
+              "context_risk": 0,
+              "routine_enforcement_cap": null
+            }
           }
         ],
-        "article_count": 1,
+        "article_count": 2,
         "created_at": "2026-09-12T17:44:04.603404+00:00",
-        "updated_at": "2026-09-12T17:48:45.586038+00:00",
+        "updated_at": "2026-09-12T19:57:47.291108+00:00",
         "engine_version": "case-v6.5.4",
-        "priority_score": 38,
+        "priority_score": 44,
         "priority_breakdown": {
           "severity": 26,
           "polri_relation": 0,
           "authority_context": 0,
           "public_impact": 10,
           "handling": 0,
-          "evidence": 1,
-          "spread": 0,
+          "evidence": 3,
+          "spread": 3,
           "escalation": 0,
-          "current_activity": 1,
+          "current_activity": 2,
           "context_risk": 0
         },
         "priority_evidence": {
-          "unique_sources": 1,
-          "active_today_articles": 1,
+          "unique_sources": 2,
+          "active_today_articles": 2,
           "escalation": [],
           "issue_type": "KEJAHATAN_SEKSUAL",
           "issue_subtype": "Kejahatan Seksual",
@@ -3391,7 +5069,8 @@
             "sifat berita: negatif",
             "sifat berita: negatif",
             "Kejahatan Seksual",
-            "Hubungan Polri belum spesifik"
+            "Hubungan Polri belum spesifik",
+            "ada perkembangan pemberitaan hari ini"
           ]
         }
       },
@@ -3469,7 +5148,7 @@
         ],
         "article_count": 1,
         "created_at": "2026-09-12T17:44:05.044974+00:00",
-        "updated_at": "2026-09-12T17:48:45.589109+00:00",
+        "updated_at": "2026-09-12T19:57:47.293931+00:00",
         "engine_version": "case-v6.5.4",
         "priority_score": 8,
         "priority_breakdown": {
@@ -3571,7 +5250,7 @@
         ],
         "article_count": 1,
         "created_at": "2026-09-12T17:44:05.951825+00:00",
-        "updated_at": "2026-09-12T17:48:45.591845+00:00",
+        "updated_at": "2026-09-12T19:57:47.296437+00:00",
         "engine_version": "case-v6.5.4",
         "priority_score": 35,
         "priority_breakdown": {
@@ -3677,7 +5356,7 @@
         ],
         "article_count": 1,
         "created_at": "2026-09-12T17:44:06.384105+00:00",
-        "updated_at": "2026-09-12T17:48:45.594850+00:00",
+        "updated_at": "2026-09-12T19:57:47.299198+00:00",
         "engine_version": "case-v6.5.4",
         "priority_score": 48,
         "priority_breakdown": {
@@ -3788,7 +5467,7 @@
         ],
         "article_count": 1,
         "created_at": "2026-09-12T17:44:06.848337+00:00",
-        "updated_at": "2026-09-12T17:48:45.597613+00:00",
+        "updated_at": "2026-09-12T19:57:47.301722+00:00",
         "engine_version": "case-v6.5.4",
         "priority_score": 46,
         "priority_breakdown": {
@@ -3900,7 +5579,7 @@
         ],
         "article_count": 1,
         "created_at": "2026-09-12T17:44:07.380119+00:00",
-        "updated_at": "2026-09-12T17:48:45.600593+00:00",
+        "updated_at": "2026-09-12T19:57:47.304495+00:00",
         "engine_version": "case-v6.5.4",
         "priority_score": 38,
         "priority_breakdown": {
@@ -3943,7 +5622,7 @@
         "polres": null,
         "polsek": null,
         "priority": "medium",
-        "attention_score": 44,
+        "attention_score": 49,
         "attention_label": "Sedang",
         "signature": "BELUM TERPETAKAN",
         "incident_terms": [
@@ -3953,7 +5632,9 @@
           "inisial",
           "kekerasan",
           "medcom",
+          "muda",
           "seksual",
+          "sudutpandang",
           "topik"
         ],
         "event_terms": [
@@ -3965,11 +5646,12 @@
           "ethics_personal_misconduct"
         ],
         "first_seen": "2026-09-12T14:31:21+00:00",
-        "last_seen": "2026-09-12T17:13:13.833484+00:00",
-        "last_detected_at": "2026-09-12T17:13:13.833484+00:00",
+        "last_seen": "2026-09-12T19:24:50.151431+00:00",
+        "last_detected_at": "2026-09-12T19:24:50.151431+00:00",
         "article_ids": [
           "2bd8c59fee00c066b1346109748ea9dc6f832f80",
-          "f46ef55fe659b74c98d895addbf46ada6531fe22"
+          "f46ef55fe659b74c98d895addbf46ada6531fe22",
+          "15cdaa6230e74a809737ec4cd3cba4f4def638ca"
         ],
         "articles": [
           {
@@ -4043,28 +5725,64 @@
               "context_risk": 0,
               "routine_enforcement_cap": null
             }
+          },
+          {
+            "id": "15cdaa6230e74a809737ec4cd3cba4f4def638ca",
+            "title": "Artis Muda Inisial BP Dilaporkan ke Polisi Terkait Dugaan Kekerasan Seksual - Sudutpandang.id",
+            "url": "https://sudutpandang.id/artis-muda-inisial-bp-dilaporkan-ke-polisi-terkait-dugaan-kekerasan-seksual/",
+            "published_at": "2026-09-12T19:18:36+00:00",
+            "collected_at": "2026-09-12T19:24:50.151431+00:00",
+            "source": "Sudutpandang.id",
+            "match_score": 0.789,
+            "priority": "low",
+            "scope": "negative",
+            "category": "NEGATIF - KEJAHATAN SEKSUAL",
+            "region": "BELUM TERPETAKAN",
+            "locality": "",
+            "is_jatim": false,
+            "polres": null,
+            "polsek": null,
+            "issue_type": "KEJAHATAN_SEKSUAL",
+            "issue_subtype": "Kejahatan Seksual",
+            "handling_status": "BELUM_ADA_INFORMASI",
+            "handling_evidence": [],
+            "polri_relation": null,
+            "polri_relation_points": 0,
+            "polri_relation_evidence": [],
+            "attention_score": 39,
+            "attention_label": "Rendah",
+            "attention_components": {
+              "severity": 26,
+              "polri_relation": 0,
+              "authority": 0,
+              "public_impact": 10,
+              "handling": 0,
+              "evidence": 1,
+              "context_risk": 0,
+              "routine_enforcement_cap": null
+            }
           }
         ],
-        "article_count": 2,
+        "article_count": 3,
         "created_at": "2026-09-12T17:44:07.796173+00:00",
-        "updated_at": "2026-09-12T17:48:45.606073+00:00",
+        "updated_at": "2026-09-12T19:57:47.312180+00:00",
         "engine_version": "case-v6.5.4",
-        "priority_score": 44,
+        "priority_score": 49,
         "priority_breakdown": {
           "severity": 26,
           "polri_relation": 0,
           "authority_context": 0,
           "public_impact": 10,
           "handling": 0,
-          "evidence": 3,
-          "spread": 3,
+          "evidence": 5,
+          "spread": 6,
           "escalation": 0,
           "current_activity": 2,
           "context_risk": 0
         },
         "priority_evidence": {
-          "unique_sources": 2,
-          "active_today_articles": 2,
+          "unique_sources": 3,
+          "active_today_articles": 3,
           "escalation": [],
           "issue_type": "KEJAHATAN_SEKSUAL",
           "issue_subtype": "Kejahatan Seksual",
@@ -4160,7 +5878,7 @@
         ],
         "article_count": 1,
         "created_at": "2026-09-12T17:44:08.289021+00:00",
-        "updated_at": "2026-09-12T17:48:45.609121+00:00",
+        "updated_at": "2026-09-12T19:57:47.315007+00:00",
         "engine_version": "case-v6.5.4",
         "priority_score": 38,
         "priority_breakdown": {
@@ -4272,7 +5990,7 @@
         ],
         "article_count": 1,
         "created_at": "2026-09-12T17:44:09.199123+00:00",
-        "updated_at": "2026-09-12T17:48:45.612743+00:00",
+        "updated_at": "2026-09-12T19:57:47.318378+00:00",
         "engine_version": "case-v6.5.4",
         "priority_score": 19,
         "priority_breakdown": {
@@ -4381,7 +6099,118 @@
         ],
         "article_count": 1,
         "created_at": "2026-09-12T17:44:09.687451+00:00",
-        "updated_at": "2026-09-12T17:48:45.615630+00:00",
+        "updated_at": "2026-09-12T19:57:47.321028+00:00",
+        "engine_version": "case-v6.5.4",
+        "priority_score": 38,
+        "priority_breakdown": {
+          "severity": 26,
+          "polri_relation": 0,
+          "authority_context": 0,
+          "public_impact": 10,
+          "handling": 0,
+          "evidence": 1,
+          "spread": 0,
+          "escalation": 0,
+          "current_activity": 1,
+          "context_risk": 0
+        },
+        "priority_evidence": {
+          "unique_sources": 1,
+          "active_today_articles": 1,
+          "escalation": [],
+          "issue_type": "KEJAHATAN_SEKSUAL",
+          "issue_subtype": "Kejahatan Seksual",
+          "sentiment": "negative",
+          "polri_relation": "INFORMASI_UMUM",
+          "handling_status": "BELUM_ADA_INFORMASI",
+          "reasons": [
+            "sifat berita: negatif",
+            "sifat berita: negatif",
+            "Kejahatan Seksual",
+            "Hubungan Polri belum spesifik"
+          ]
+        }
+      },
+      {
+        "case_id": "CASE-001394",
+        "title": "Heboh! Artis Muda Inisial BP Dilaporkan atas Dugaan Kekerasan Seksual ke Polisi - VIVA.co.id",
+        "category": "NEGATIF - KEJAHATAN SEKSUAL",
+        "scope": "negative",
+        "region": "BELUM TERPETAKAN",
+        "locality": "",
+        "is_jatim": null,
+        "polres": null,
+        "polsek": null,
+        "priority": "low",
+        "attention_score": 38,
+        "attention_label": "Rendah",
+        "signature": "BELUM TERPETAKAN",
+        "incident_terms": [
+          "artis",
+          "dilaporkan",
+          "dugaan",
+          "heboh",
+          "inisial",
+          "kekerasan",
+          "muda",
+          "seksual",
+          "viva"
+        ],
+        "event_terms": [
+          "kekerasan",
+          "seksual"
+        ],
+        "location_terms": [],
+        "discovery_families": [
+          "ethics_personal_misconduct"
+        ],
+        "first_seen": "2026-09-12T17:14:03+00:00",
+        "last_seen": "2026-09-12T19:24:50.151431+00:00",
+        "last_detected_at": "2026-09-12T19:24:50.151431+00:00",
+        "article_ids": [
+          "9a65427a80b9038c5af493429f24b9ede8c8d192"
+        ],
+        "articles": [
+          {
+            "id": "9a65427a80b9038c5af493429f24b9ede8c8d192",
+            "title": "Heboh! Artis Muda Inisial BP Dilaporkan atas Dugaan Kekerasan Seksual ke Polisi - VIVA.co.id",
+            "url": "https://www.viva.co.id/gaya-hidup/showbiz/1928177-heboh-artis-muda-inisial-bp-dilaporkan-atas-dugaan-kekerasan-seksual-ke-polisi",
+            "published_at": "2026-09-12T17:14:03+00:00",
+            "collected_at": "2026-09-12T19:24:50.151431+00:00",
+            "source": "VIVA.co.id",
+            "match_score": 1.0,
+            "priority": "low",
+            "scope": "negative",
+            "category": "NEGATIF - KEJAHATAN SEKSUAL",
+            "region": "BELUM TERPETAKAN",
+            "locality": "",
+            "is_jatim": false,
+            "polres": null,
+            "polsek": null,
+            "issue_type": "KEJAHATAN_SEKSUAL",
+            "issue_subtype": "Kejahatan Seksual",
+            "handling_status": "BELUM_ADA_INFORMASI",
+            "handling_evidence": [],
+            "polri_relation": null,
+            "polri_relation_points": 0,
+            "polri_relation_evidence": [],
+            "attention_score": 39,
+            "attention_label": "Rendah",
+            "attention_components": {
+              "severity": 26,
+              "polri_relation": 0,
+              "authority": 0,
+              "public_impact": 10,
+              "handling": 0,
+              "evidence": 1,
+              "context_risk": 0,
+              "routine_enforcement_cap": null
+            }
+          }
+        ],
+        "article_count": 1,
+        "created_at": "2026-09-12T19:53:44.565544+00:00",
+        "updated_at": "2026-09-12T19:57:47.323830+00:00",
         "engine_version": "case-v6.5.4",
         "priority_score": 38,
         "priority_breakdown": {
@@ -4535,7 +6364,7 @@
         ],
         "article_count": 2,
         "created_at": "2026-09-12T14:42:25.467903+00:00",
-        "updated_at": "2026-09-12T17:48:45.573960+00:00",
+        "updated_at": "2026-09-12T19:57:47.277119+00:00",
         "engine_version": "case-v6.5.4",
         "priority_score": 26,
         "priority_breakdown": {
@@ -4570,16 +6399,17 @@
     ]
   },
   "social": {
-    "detected": 55,
+    "detected": 60,
     "jatim": 2,
-    "negative": 19,
-    "priority_high": 15,
+    "negative": 22,
+    "priority_high": 18,
     "video_ids": [
       "Kl9CsCb2sD0",
       "zsUyqJk5xoI",
       "tXvMSXHe8nI",
       "ZktbTO5Lkwo",
       "0jvhA4NSXsM",
+      "6_d4WqqNJh8",
       "ARK6RN_fTrI",
       "FTzJ2fFv8Vw",
       "nuDtWNNn3pk",
@@ -4609,21 +6439,25 @@
       "2sjME8-SZvI",
       "6aY_tLrhAl4",
       "gzYEjZTNkB4",
+      "VEFqz-gJjtc",
       "J5VSZnWD-7o",
       "KSoGXjzzUQg",
       "bQRLBtXAAlw",
       "D7MkrByGpPw",
       "VkmuJiGGbEs",
       "37LL3y_0xdo",
+      "KhOlIIZhNO0",
       "8HFdhnAkuJw",
       "bD2-KKjiNeY",
       "vK6lPsrszX4",
       "7IxomXRZKgY",
+      "5aP3I7mexU8",
       "pB2fDGOpYHY",
       "NE0BtUAJeas",
       "oB7wJqKyMNM",
       "tKo9WvK5WeQ",
       "G4uxFZxlTiU",
+      "8Ul2AzgdndY",
       "ps24VUWk2xA",
       "fiBmkCUQNcQ",
       "S2X35GMYI7w",
@@ -4641,7 +6475,7 @@
     "case_today": 1,
     "case_high_active": 0,
     "article_high_today": 0,
-    "outside_jatim_today": 12
+    "outside_jatim_today": 17
   },
   "regions": [
     {
@@ -4694,9 +6528,9 @@
     }
   ],
   "summary": {
-    "news_today": 20,
-    "negative_today": 13,
-    "cases_today": 12,
+    "news_today": 25,
+    "negative_today": 17,
+    "cases_today": 14,
     "priority_high": 0,
     "article_priority_high": 0,
     "jatim_news": 8,
@@ -4706,7 +6540,7 @@
     "jatim_neutral": 7,
     "jatim_cases_today": 1,
     "jatim_case_high_active": 0,
-    "luar_jatim_news": 12,
-    "youtube_today": 55
+    "luar_jatim_news": 17,
+    "youtube_today": 60
   }
 }
