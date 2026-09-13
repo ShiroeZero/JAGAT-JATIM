@@ -1,23 +1,23 @@
 {
-  "generated_at": "2026-09-13T20:07:12.715661+00:00",
+  "generated_at": "2026-09-13T23:01:12.258519+00:00",
   "platform": "YouTube",
-  "query_cursor": 4,
+  "query_cursor": 7,
   "query_batch_size": 3,
   "query_success": 3,
   "query_skipped": 0,
   "quota_warning": false,
   "quota_block_date": null,
   "total": 1500,
-  "new_videos": 30,
+  "new_videos": 1,
   "statistics": {
     "total": 1500,
     "jatim": 88,
-    "negative": 579,
+    "negative": 580,
     "incident": 32,
     "case": 248,
-    "neutral": 631,
+    "neutral": 630,
     "noise": 10,
-    "high_priority": 263
+    "high_priority": 264
   },
   "items": [
     {
@@ -42,7 +42,7 @@
       "location_source": null,
       "location_evidence": [],
       "priority": "high",
-      "collected_at": "2026-09-13T20:07:12.715661+00:00"
+      "collected_at": "2026-09-13T23:01:12.258519+00:00"
     },
     {
       "id": "630c4e67168ab65bccf9b48ade62412e4da13e5e",
@@ -443,6 +443,30 @@
       ],
       "priority": "high",
       "collected_at": "2026-09-13T20:07:12.715661+00:00"
+    },
+    {
+      "id": "a980b4e3924d7bd93f0e8d2c3f9a6ddbb25fcd11",
+      "video_id": "lgQRTKRkYRA",
+      "platform": "YouTube",
+      "type": "video",
+      "title": "Rumah Megah Anggota Polisi Digeledah KPK Terkait Kasus Korupsi Ijon Proyek #oknumpolisi #korupsi",
+      "channel": "Mang Lolis",
+      "published_at": "2026-09-13T09:10:40Z",
+      "url": "https://www.youtube.com/watch?v=lgQRTKRkYRA",
+      "thumbnail": "https://i.ytimg.com/vi/lgQRTKRkYRA/hqdefault.jpg",
+      "description": "Anggota polisi diperiksa kpk terkait kasus korupsi ijon proyek mantan bupati Bekasi terhadap Sarjan Terima kasih sudah ...",
+      "relevance": "high",
+      "scope": "negative",
+      "category": "Oknum / Korupsi / Pungli",
+      "classification_score": 100,
+      "is_jatim": false,
+      "region": "Indonesia",
+      "polres": null,
+      "location_confidence": 0,
+      "location_source": null,
+      "location_evidence": [],
+      "priority": "high",
+      "collected_at": "2026-09-13T23:01:12.258519+00:00"
     },
     {
       "id": "573492e2cb0b31a3ae60d04d85f1a6c685b04d56",
@@ -1362,7 +1386,7 @@
       "location_source": null,
       "location_evidence": [],
       "priority": "low",
-      "collected_at": "2026-09-13T06:49:16.409620+00:00"
+      "collected_at": "2026-09-13T23:01:12.258519+00:00"
     },
     {
       "id": "fb239038b365f9a4206814ed0cdf52f4fdedf08e",
@@ -1746,7 +1770,7 @@
       "location_source": null,
       "location_evidence": [],
       "priority": "high",
-      "collected_at": "2026-09-13T12:35:14.402585+00:00"
+      "collected_at": "2026-09-13T23:01:12.258519+00:00"
     },
     {
       "id": "aeab2da8144c2e37ed28b5c44e560e49579fac69",
@@ -2110,7 +2134,7 @@
       "location_source": null,
       "location_evidence": [],
       "priority": "low",
-      "collected_at": "2026-09-13T06:49:16.409620+00:00"
+      "collected_at": "2026-09-13T23:01:12.258519+00:00"
     },
     {
       "id": "6ab89d8ad022f940abffc63c6b0c090163716929",
@@ -2573,7 +2597,7 @@
       "location_source": null,
       "location_evidence": [],
       "priority": "low",
-      "collected_at": "2026-09-13T06:49:16.409620+00:00"
+      "collected_at": "2026-09-13T23:01:12.258519+00:00"
     },
     {
       "id": "77b0fc2bfc11e4562f1965bdb954fd3047242e85",
@@ -2887,7 +2911,7 @@
       "location_source": null,
       "location_evidence": [],
       "priority": "low",
-      "collected_at": "2026-09-13T06:49:16.409620+00:00"
+      "collected_at": "2026-09-13T23:01:12.258519+00:00"
     },
     {
       "id": "7138c8a547478e4aba617df529fc65195aae1a2d",
@@ -2983,7 +3007,7 @@
       "location_source": null,
       "location_evidence": [],
       "priority": "high",
-      "collected_at": "2026-09-13T06:49:16.409620+00:00"
+      "collected_at": "2026-09-13T23:01:12.258519+00:00"
     },
     {
       "id": "d15272f15659e3ad36cb2f9cb689d6797088a004",
@@ -3007,7 +3031,7 @@
       "location_source": null,
       "location_evidence": [],
       "priority": "low",
-      "collected_at": "2026-09-13T12:35:14.402585+00:00"
+      "collected_at": "2026-09-13T23:01:12.258519+00:00"
     },
     {
       "id": "7b22c83eb177523c3a9acc319aaf68d28bcf0b65",
@@ -36592,30 +36616,6 @@
       "url": "https://www.youtube.com/watch?v=ubj0vsTZ2nE",
       "thumbnail": "https://i.ytimg.com/vi/ubj0vsTZ2nE/hqdefault.jpg",
       "description": "Calgary police have released security images of a vehicle they believe is connected to a random sexual assault at the Southland ...",
-      "relevance": "low",
-      "scope": "neutral",
-      "category": "Tidak Relevan",
-      "classification_score": 0,
-      "is_jatim": false,
-      "region": "Indonesia",
-      "polres": null,
-      "location_confidence": 0,
-      "location_source": null,
-      "location_evidence": [],
-      "priority": "low",
-      "collected_at": "2026-08-28T18:48:00.214052+00:00"
-    },
-    {
-      "id": "4b0c5847c88d8a5ecabac88517c7c4988c719325",
-      "video_id": "nQQ5W7mQYH4",
-      "platform": "YouTube",
-      "type": "video",
-      "title": "제주 경찰관 298건 셀프 종결 사태에 국민들 난리 난 이유",
-      "channel": "정치창고",
-      "published_at": "2026-08-27T21:30:04Z",
-      "url": "https://www.youtube.com/watch?v=nQQ5W7mQYH4",
-      "thumbnail": "https://i.ytimg.com/vi/nQQ5W7mQYH4/hqdefault.jpg",
-      "description": "제주경찰 #실종수사 #주기자라이브 #경찰비리 제주 경찰관 한 명이 실종 신고 298건을 손수 덮어버리는 동안 경찰 조직은 도대체 ...",
       "relevance": "low",
       "scope": "neutral",
       "category": "Tidak Relevan",

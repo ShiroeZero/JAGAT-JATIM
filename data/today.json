@@ -2,18 +2,19 @@
   "schema_version": "today-v3",
   "date": "2026-09-14",
   "timezone": "Asia/Jakarta",
-  "updated_at": "2026-09-14T03:07:13.904823+07:00",
-  "last_successful_update": "2026-09-14T03:07:13.904823+07:00",
+  "updated_at": "2026-09-14T06:01:13.546698+07:00",
+  "last_successful_update": "2026-09-14T06:01:13.546698+07:00",
   "news": {
-    "detected": 6,
+    "detected": 7,
     "negative": 2,
     "positive": 0,
     "case": 0,
-    "neutral": 4,
-    "jatim": 1,
+    "neutral": 5,
+    "jatim": 2,
     "luar_jatim": 5,
     "priority_high": 0,
     "article_ids": [
+      "20e1ed154fd3f0872a29db2e7407d74289a2d693",
       "20fd743581a21ca9ddab8705f1ac90a29695dcf5",
       "8c44bc1d03e4201ad08a8a4116b1de40a00bc31e",
       "95515db2dd54ae4bd4842a33f3002b2ee7ef1d0d",
@@ -22,6 +23,74 @@
       "c5960f740cd62c078b280c32bc1c5bfbe47f0ef6"
     ],
     "items": [
+      {
+        "id": "20e1ed154fd3f0872a29db2e7407d74289a2d693",
+        "title": "Musim Kemarau, Polresta Sumenep Salurkan Bantuan Air Bersih untuk 440 KK di Desa Gendang Barat - Metro Surya",
+        "url": "https://metrosurya.com/amp/news-11959-musim-kemarau-polresta-sumenep-salurkan-bantuan-air-bersih-untuk-440-kk-di-desa-gendang-barat",
+        "source": "Metro Surya",
+        "published_at": "2026-09-13T20:42:00+00:00",
+        "collected_at": "2026-09-13T22:26:22.218570+00:00",
+        "region": "Jawa Timur",
+        "area_label": "Sumenep",
+        "is_jatim": true,
+        "polres": "POLRESTA SUMENEP",
+        "category": "NETRAL / LAINNYA",
+        "scope": "neutral",
+        "scope_label": "Netral",
+        "priority": "low",
+        "summary": "Musim Kemarau, Polresta Sumenep Salurkan Bantuan Air Bersih untuk 440 KK di Desa Gendang Barat Metro Surya",
+        "processing_status": "processed",
+        "classifier_version": "news-v6",
+        "classified_at": "2026-09-13T22:26:22.218570+00:00",
+        "case_id": null,
+        "discovery_families": [],
+        "discovery_tags": [],
+        "discovery_hits": [],
+        "discovery_version": "discovery-v6.5.4",
+        "google_news_url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQcEpzeUtDOWVYVUFEc3hpOEtOcGFscVZ0QVBKMERzY0k5ZmpXbFFjYXpuUW1NZldQNS1id3E0SGtOV1pqTlVTYXUtbW1sazl6dXdfTmU1NG5TLVFDb3dxMmcyeDhvbUxxTkp2ZFhGeGFEWVJoR19yaGt5WFV0YUFkdUNlZmN2Y0drV2hwMEozamdjUXBNMEJvWHoxSF9VY1R0Ti1ReWVtUEJLNzZhTUJlRUg5VGwxZWNRUlhFTmVHSUZOWTZibmwwV0JHd9IBywFBVV95cUxQcEpzeUtDOWVYVUFEc3hpOEtOcGFscVZ0QVBKMERzY0k5ZmpXbFFjYXpuUW1NZldQNS1id3E0SGtOV1pqTlVTYXUtbW1sazl6dXdfTmU1NG5TLVFDb3dxMmcyeDhvbUxxTkp2ZFhGeGFEWVJoR19yaGt5WFV0YUFkdUNlZmN2Y0drV2hwMEozamdjUXBNMEJvWHoxSF9VY1R0Ti1ReWVtUEJLNzZhTUJlRUg5VGwxZWNRUlhFTmVHSUZOWTZibmwwV0JHdw?oc=5",
+        "original_url": "https://metrosurya.com/amp/news-11959-musim-kemarau-polresta-sumenep-salurkan-bantuan-air-bersih-untuk-440-kk-di-desa-gendang-barat",
+        "locality": "Sumenep",
+        "polsek": null,
+        "location_confidence": 100,
+        "location_evidence": [
+          "polresta sumenep",
+          "Sumenep"
+        ],
+        "location_status": "JAWA_TIMUR",
+        "location_source": "title",
+        "issue_type": "UMUM",
+        "issue_subtype": "Belum Teridentifikasi",
+        "issue_evidence": [],
+        "handling_status": "BELUM_ADA_INFORMASI",
+        "handling_evidence": [],
+        "attention_score": 7,
+        "attention_label": "Rendah",
+        "attention_components": {
+          "severity": 2,
+          "polri_relation": 0,
+          "authority": 0,
+          "public_impact": 4,
+          "handling": 0,
+          "evidence": 1,
+          "context_risk": 0,
+          "routine_enforcement_cap": null
+        },
+        "attention_evidence": {
+          "severity": [],
+          "authority": [],
+          "public_impact": [],
+          "evidence": [
+            "satu sumber / informasi awal"
+          ],
+          "role": [],
+          "issue": [],
+          "handling": [],
+          "context": [],
+          "positive": []
+        },
+        "case_engine_version": "case-v6.5.4",
+        "case_processed_at": "2026-09-13T22:31:13.026959+00:00"
+      },
       {
         "id": "20fd743581a21ca9ddab8705f1ac90a29695dcf5",
         "title": "Polri Perkuat Operasi SAR KM Virgo Transport 8, Tiga Kapal Polisi Diberangkatkan - tribratanews.polrespasuruankota.com",
@@ -85,7 +154,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-09-13T19:36:14.863339+00:00"
+        "case_processed_at": "2026-09-13T22:31:13.577960+00:00"
       },
       {
         "id": "8c44bc1d03e4201ad08a8a4116b1de40a00bc31e",
@@ -156,7 +225,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-09-13T20:07:12.155122+00:00"
+        "case_processed_at": "2026-09-13T23:01:11.683211+00:00"
       },
       {
         "id": "95515db2dd54ae4bd4842a33f3002b2ee7ef1d0d",
@@ -223,7 +292,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-09-13T19:36:15.452352+00:00"
+        "case_processed_at": "2026-09-13T22:31:14.139904+00:00"
       },
       {
         "id": "fd24b1ecb460453f1ff7f3630f820a460fd7c89d",
@@ -291,7 +360,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-09-13T19:36:15.858849+00:00"
+        "case_processed_at": "2026-09-13T22:31:14.527200+00:00"
       },
       {
         "id": "5465296d19ce8cf06d2c8a0b8a90ea7d1ecb8268",
@@ -366,7 +435,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-09-13T19:36:16.408281+00:00"
+        "case_processed_at": "2026-09-13T22:31:15.050876+00:00"
       },
       {
         "id": "c5960f740cd62c078b280c32bc1c5bfbe47f0ef6",
@@ -437,10 +506,78 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-09-13T20:07:12.155128+00:00"
+        "case_processed_at": "2026-09-13T23:01:11.683218+00:00"
       }
     ],
     "jatim_items": [
+      {
+        "id": "20e1ed154fd3f0872a29db2e7407d74289a2d693",
+        "title": "Musim Kemarau, Polresta Sumenep Salurkan Bantuan Air Bersih untuk 440 KK di Desa Gendang Barat - Metro Surya",
+        "url": "https://metrosurya.com/amp/news-11959-musim-kemarau-polresta-sumenep-salurkan-bantuan-air-bersih-untuk-440-kk-di-desa-gendang-barat",
+        "source": "Metro Surya",
+        "published_at": "2026-09-13T20:42:00+00:00",
+        "collected_at": "2026-09-13T22:26:22.218570+00:00",
+        "region": "Jawa Timur",
+        "area_label": "Sumenep",
+        "is_jatim": true,
+        "polres": "POLRESTA SUMENEP",
+        "category": "NETRAL / LAINNYA",
+        "scope": "neutral",
+        "scope_label": "Netral",
+        "priority": "low",
+        "summary": "Musim Kemarau, Polresta Sumenep Salurkan Bantuan Air Bersih untuk 440 KK di Desa Gendang Barat Metro Surya",
+        "processing_status": "processed",
+        "classifier_version": "news-v6",
+        "classified_at": "2026-09-13T22:26:22.218570+00:00",
+        "case_id": null,
+        "discovery_families": [],
+        "discovery_tags": [],
+        "discovery_hits": [],
+        "discovery_version": "discovery-v6.5.4",
+        "google_news_url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQcEpzeUtDOWVYVUFEc3hpOEtOcGFscVZ0QVBKMERzY0k5ZmpXbFFjYXpuUW1NZldQNS1id3E0SGtOV1pqTlVTYXUtbW1sazl6dXdfTmU1NG5TLVFDb3dxMmcyeDhvbUxxTkp2ZFhGeGFEWVJoR19yaGt5WFV0YUFkdUNlZmN2Y0drV2hwMEozamdjUXBNMEJvWHoxSF9VY1R0Ti1ReWVtUEJLNzZhTUJlRUg5VGwxZWNRUlhFTmVHSUZOWTZibmwwV0JHd9IBywFBVV95cUxQcEpzeUtDOWVYVUFEc3hpOEtOcGFscVZ0QVBKMERzY0k5ZmpXbFFjYXpuUW1NZldQNS1id3E0SGtOV1pqTlVTYXUtbW1sazl6dXdfTmU1NG5TLVFDb3dxMmcyeDhvbUxxTkp2ZFhGeGFEWVJoR19yaGt5WFV0YUFkdUNlZmN2Y0drV2hwMEozamdjUXBNMEJvWHoxSF9VY1R0Ti1ReWVtUEJLNzZhTUJlRUg5VGwxZWNRUlhFTmVHSUZOWTZibmwwV0JHdw?oc=5",
+        "original_url": "https://metrosurya.com/amp/news-11959-musim-kemarau-polresta-sumenep-salurkan-bantuan-air-bersih-untuk-440-kk-di-desa-gendang-barat",
+        "locality": "Sumenep",
+        "polsek": null,
+        "location_confidence": 100,
+        "location_evidence": [
+          "polresta sumenep",
+          "Sumenep"
+        ],
+        "location_status": "JAWA_TIMUR",
+        "location_source": "title",
+        "issue_type": "UMUM",
+        "issue_subtype": "Belum Teridentifikasi",
+        "issue_evidence": [],
+        "handling_status": "BELUM_ADA_INFORMASI",
+        "handling_evidence": [],
+        "attention_score": 7,
+        "attention_label": "Rendah",
+        "attention_components": {
+          "severity": 2,
+          "polri_relation": 0,
+          "authority": 0,
+          "public_impact": 4,
+          "handling": 0,
+          "evidence": 1,
+          "context_risk": 0,
+          "routine_enforcement_cap": null
+        },
+        "attention_evidence": {
+          "severity": [],
+          "authority": [],
+          "public_impact": [],
+          "evidence": [
+            "satu sumber / informasi awal"
+          ],
+          "role": [],
+          "issue": [],
+          "handling": [],
+          "context": [],
+          "positive": []
+        },
+        "case_engine_version": "case-v6.5.4",
+        "case_processed_at": "2026-09-13T22:31:13.026959+00:00"
+      },
       {
         "id": "fd24b1ecb460453f1ff7f3630f820a460fd7c89d",
         "title": "KM Virgo Transport 8 Hilang Kontak, Polresta Sumenep Siagakan 3 Posko - SIGAP88",
@@ -507,7 +644,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-09-13T19:36:15.858849+00:00"
+        "case_processed_at": "2026-09-13T22:31:14.527200+00:00"
       }
     ],
     "luar_jatim_items": [
@@ -574,7 +711,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-09-13T19:36:14.863339+00:00"
+        "case_processed_at": "2026-09-13T22:31:13.577960+00:00"
       },
       {
         "id": "8c44bc1d03e4201ad08a8a4116b1de40a00bc31e",
@@ -645,7 +782,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-09-13T20:07:12.155122+00:00"
+        "case_processed_at": "2026-09-13T23:01:11.683211+00:00"
       },
       {
         "id": "95515db2dd54ae4bd4842a33f3002b2ee7ef1d0d",
@@ -712,7 +849,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-09-13T19:36:15.452352+00:00"
+        "case_processed_at": "2026-09-13T22:31:14.139904+00:00"
       },
       {
         "id": "5465296d19ce8cf06d2c8a0b8a90ea7d1ecb8268",
@@ -787,7 +924,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-09-13T19:36:16.408281+00:00"
+        "case_processed_at": "2026-09-13T22:31:15.050876+00:00"
       },
       {
         "id": "c5960f740cd62c078b280c32bc1c5bfbe47f0ef6",
@@ -858,7 +995,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-09-13T20:07:12.155128+00:00"
+        "case_processed_at": "2026-09-13T23:01:11.683218+00:00"
       }
     ]
   },
@@ -949,7 +1086,7 @@
         ],
         "article_count": 1,
         "created_at": "2026-09-13T20:02:16.542007+00:00",
-        "updated_at": "2026-09-13T20:07:12.151230+00:00",
+        "updated_at": "2026-09-13T23:01:11.679374+00:00",
         "engine_version": "case-v6.5.4",
         "priority_score": 25,
         "priority_breakdown": {
@@ -1053,7 +1190,7 @@
         ],
         "article_count": 1,
         "created_at": "2026-09-13T20:02:17.020393+00:00",
-        "updated_at": "2026-09-13T20:07:12.154209+00:00",
+        "updated_at": "2026-09-13T23:01:11.682110+00:00",
         "engine_version": "case-v6.5.4",
         "priority_score": 34,
         "priority_breakdown": {
@@ -1089,10 +1226,10 @@
     "jatim_items": []
   },
   "social": {
-    "detected": 49,
+    "detected": 57,
     "jatim": 0,
-    "negative": 24,
-    "priority_high": 18,
+    "negative": 27,
+    "priority_high": 21,
     "video_ids": [
       "_1-qHqdyyz8",
       "mJz9OmxL_P4",
@@ -1105,6 +1242,7 @@
       "Ko3ZNlkTZBo",
       "_CCYTe5Pk44",
       "TE9yClXkTm8",
+      "lgQRTKRkYRA",
       "IiUGyKMYJ0o",
       "KUamkd5FSgg",
       "92qRm4RyAYg",
@@ -1124,12 +1262,14 @@
       "25aR8BD7Zmk",
       "p7puQi_szMU",
       "vT9RtjoNqO4",
+      "pHv5g0onxiA",
       "pl525CB3f0g",
       "ZrxvkJ9HRIw",
       "jrpNCVniyVQ",
       "xV9lPPjZWQY",
       "Kl9CsCb2sD0",
       "tXvMSXHe8nI",
+      "6_d4WqqNJh8",
       "Rr0V_GjqF4E",
       "FTzJ2fFv8Vw",
       "IiT1cfCe_dU",
@@ -1137,20 +1277,25 @@
       "Qw26IZFjqFY",
       "507BawzaG_s",
       "ZkUcV_PUOAA",
+      "-FZd2IB7gTc",
       "ceoN8QOXBzg",
       "nmMVuSkGzrQ",
+      "rMFn9dWayik",
       "l-2-dlsH5TA",
       "f6ygyUjAMGQ",
       "FnmH_GrUrxw",
-      "gzYEjZTNkB4"
+      "6aY_tLrhAl4",
+      "gzYEjZTNkB4",
+      "VEFqz-gJjtc",
+      "J5VSZnWD-7o"
     ]
   },
   "jatim": {
-    "news_today": 1,
+    "news_today": 2,
     "negative_today": 0,
     "positive_today": 0,
     "case_scope_today": 0,
-    "neutral_today": 1,
+    "neutral_today": 2,
     "case_today": 0,
     "case_high_active": 0,
     "article_high_today": 0,
@@ -1159,35 +1304,35 @@
   "regions": [
     {
       "name": "Sumenep",
-      "count": 1
+      "count": 2
     }
   ],
   "polres": [
     {
       "name": "POLRESTA SUMENEP",
-      "count": 1
+      "count": 2
     }
   ],
   "categories": [
     {
       "name": "NETRAL / LAINNYA",
-      "count": 1
+      "count": 2
     }
   ],
   "summary": {
-    "news_today": 6,
+    "news_today": 7,
     "negative_today": 2,
     "cases_today": 2,
     "priority_high": 0,
     "article_priority_high": 0,
-    "jatim_news": 1,
+    "jatim_news": 2,
     "jatim_negative": 0,
     "jatim_positive": 0,
     "jatim_case_scope": 0,
-    "jatim_neutral": 1,
+    "jatim_neutral": 2,
     "jatim_cases_today": 0,
     "jatim_case_high_active": 0,
     "luar_jatim_news": 5,
-    "youtube_today": 49
+    "youtube_today": 57
   }
 }
