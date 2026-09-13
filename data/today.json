@@ -2,18 +2,22 @@
   "schema_version": "today-v3",
   "date": "2026-09-13",
   "timezone": "Asia/Jakarta",
-  "updated_at": "2026-09-13T05:56:22.161129+07:00",
-  "last_successful_update": "2026-09-13T05:56:22.161129+07:00",
+  "updated_at": "2026-09-13T08:39:20.993150+07:00",
+  "last_successful_update": "2026-09-13T08:39:20.993150+07:00",
   "news": {
-    "detected": 29,
-    "negative": 19,
+    "detected": 33,
+    "negative": 21,
     "positive": 0,
     "case": 0,
-    "neutral": 10,
-    "jatim": 10,
-    "luar_jatim": 19,
+    "neutral": 12,
+    "jatim": 11,
+    "luar_jatim": 22,
     "priority_high": 0,
     "article_ids": [
+      "1d7cffc0b7d3e0b930da50af62d19b1695da0dc4",
+      "240065f83ded747fab8df0c53733b7adf61b7079",
+      "42fa5883c74de06653bc52a03e3900583bb50f9a",
+      "d1017a3a1098a7a8d7d5cd05becb79e0ded1a241",
       "53108187d7645c6b5eacf5f5376f55bb25be0820",
       "05ee6f13d537ceb919aed5ee74bc827181fc4040",
       "0e1041fee2058dc429477fbccc64c8012c01ef90",
@@ -46,6 +50,304 @@
     ],
     "items": [
       {
+        "id": "1d7cffc0b7d3e0b930da50af62d19b1695da0dc4",
+        "title": "Polres Malang Perkuat Patroli Karhutla di Bantur, Sisir Area BKPH Sengguruh - RRI.co.id",
+        "url": "https://rri.co.id/malang/regional/2725235/polres-malang-perkuat-patroli-karhutla-di-bantur-sisir-area-bkph-sengguruh",
+        "source": "RRI.co.id",
+        "published_at": "2026-09-13T00:15:00+00:00",
+        "collected_at": "2026-09-13T01:02:58.424021+00:00",
+        "region": "Jawa Timur",
+        "area_label": "Malang",
+        "is_jatim": true,
+        "polres": "POLRES MALANG",
+        "category": "NETRAL / LAINNYA",
+        "scope": "neutral",
+        "scope_label": "Netral",
+        "priority": "low",
+        "summary": "Polres Malang Perkuat Patroli Karhutla di Bantur, Sisir Area BKPH Sengguruh RRI.co.id",
+        "processing_status": "processed",
+        "classifier_version": "news-v6",
+        "classified_at": "2026-09-13T01:02:58.424021+00:00",
+        "case_id": null,
+        "discovery_families": [],
+        "discovery_tags": [],
+        "discovery_hits": [],
+        "discovery_version": "discovery-v6.5.4",
+        "google_news_url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQTDNYMWlRb2xUZ0VkMXZyR3FmN0l3OXcyQWVtemhRZ1BQdFFmMUJLcTN5am5yUU1DQWRlTFJuWUNZUVdMYVl4dldpMVhHWFlVeWtMR05yRGZrLWo1NTFlZEVheWVxUWs3bkw3NUVNQUlhNXk3Mm90bHRBMlRvYjljSmdPdTB1VWxVQ3RvYkludEdWczZ0YU1SNk5LOFZGb2dYRjFWaTVfVVBLNkhsNDEwMUk5MUpyZXc?oc=5",
+        "original_url": "https://rri.co.id/malang/regional/2725235/polres-malang-perkuat-patroli-karhutla-di-bantur-sisir-area-bkph-sengguruh",
+        "locality": "Malang",
+        "polsek": null,
+        "location_confidence": 100,
+        "location_evidence": [
+          "polres malang",
+          "Malang"
+        ],
+        "location_status": "JAWA_TIMUR",
+        "location_source": "title",
+        "issue_type": "UMUM",
+        "issue_subtype": "Belum Teridentifikasi",
+        "issue_evidence": [],
+        "handling_status": "BELUM_ADA_INFORMASI",
+        "handling_evidence": [],
+        "attention_score": 7,
+        "attention_label": "Rendah",
+        "attention_components": {
+          "severity": 2,
+          "polri_relation": 0,
+          "authority": 0,
+          "public_impact": 4,
+          "handling": 0,
+          "evidence": 1,
+          "context_risk": 0,
+          "routine_enforcement_cap": null
+        },
+        "attention_evidence": {
+          "severity": [],
+          "authority": [],
+          "public_impact": [],
+          "evidence": [
+            "satu sumber / informasi awal"
+          ],
+          "role": [],
+          "issue": [],
+          "handling": [],
+          "context": [],
+          "positive": []
+        },
+        "case_engine_version": "case-v6.5.4",
+        "case_processed_at": "2026-09-13T01:10:35.300047+00:00"
+      },
+      {
+        "id": "240065f83ded747fab8df0c53733b7adf61b7079",
+        "title": "Kronologi Betrand Peto Dilaporkan Kasus Dugaan Kekerasan Seksual, Sudah Dikonfirmasi Polisi - VIVA.co.id",
+        "url": "https://www.viva.co.id/gaya-hidup/showbiz/1928193-kronologi-betrand-peto-dilaporkan-kasus-dugaan-kekerasan-seksual-sudah-dikonfirmasi-polisi",
+        "source": "VIVA.co.id",
+        "published_at": "2026-09-13T00:05:09+00:00",
+        "collected_at": "2026-09-13T01:02:58.424021+00:00",
+        "region": "BELUM TERPETAKAN",
+        "area_label": "BELUM TERPETAKAN",
+        "is_jatim": null,
+        "polres": null,
+        "category": "NEGATIF - KEJAHATAN SEKSUAL",
+        "scope": "negative",
+        "scope_label": "Negatif",
+        "priority": "low",
+        "summary": "Kronologi Betrand Peto Dilaporkan Kasus Dugaan Kekerasan Seksual, Sudah Dikonfirmasi Polisi VIVA.co.id",
+        "processing_status": "processed",
+        "classifier_version": "news-v6",
+        "classified_at": "2026-09-13T01:02:58.424021+00:00",
+        "case_id": "CASE-001397",
+        "discovery_families": [
+          "ethics_personal_misconduct"
+        ],
+        "discovery_tags": [
+          "ethics",
+          "sexual_misconduct",
+          "violence"
+        ],
+        "discovery_hits": [
+          "kekerasan seksual"
+        ],
+        "discovery_version": "discovery-v6.5.4",
+        "google_news_url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxPSGpRcXp3RXlidTRucXBWQjVUeXplYlRUWEhMWThDOG1Gbm41bmpERGpJY1E2aG5QczNoYVh0bTFkVkFpUGx1UHM5UURwcnFqVkMtVzhVNFp0NmxXX3dyOXFQMHVmUUlnUEhEUUVpeDhYMzFsQ1ZDc3JqQ3VGS0t2YVZFLVZEUmhNWDZVSjRTMDVjNm91SUdYcnQzUmNnYkpUR3dqbTVWSkN3SURvcVMyVDZ6N0RLaXpxaWt2ekFUWDhST1JUdFFpTlBBYklnRDNIMHVYVDBKMNIB3AFBVV95cUxQcDlRV0VqYWNfTEpueEYzd0pDb1plV3loR3VpQllBRjRKQUlTSktvQjU3OE9JTGpiY2ZBM2NEMU9JQ3hZYlU1QlVNc0RDcUxqbjZJOUpDb3VuUmJ1aTZ1T3NrRTNsaXhOWVJJZTVmbGsxV2FDLVpfbjdENHBkdGR2c1ozMUNBcHdMem94Y2tXYlU0cS14R0MxRmlybzByOTBiYl9zaEIzRmRzM0Fvbm5LMVNqWlEwWEd6Nko1bGM4TGF5YW4yNDZtVjl6enZmWk5VdWtjREdCbV9zNjlr?oc=5",
+        "original_url": "https://www.viva.co.id/gaya-hidup/showbiz/1928193-kronologi-betrand-peto-dilaporkan-kasus-dugaan-kekerasan-seksual-sudah-dikonfirmasi-polisi",
+        "locality": "",
+        "polsek": null,
+        "location_confidence": 0,
+        "location_evidence": [],
+        "location_status": "BELUM_TERPETAKAN",
+        "location_source": "title",
+        "issue_type": "KEJAHATAN_SEKSUAL",
+        "issue_subtype": "Kejahatan Seksual",
+        "issue_evidence": [
+          "kekerasan seksual"
+        ],
+        "handling_status": "BELUM_ADA_INFORMASI",
+        "handling_evidence": [],
+        "attention_score": 39,
+        "attention_label": "Rendah",
+        "attention_components": {
+          "severity": 26,
+          "polri_relation": 0,
+          "authority": 0,
+          "public_impact": 10,
+          "handling": 0,
+          "evidence": 1,
+          "context_risk": 0,
+          "routine_enforcement_cap": null
+        },
+        "attention_evidence": {
+          "severity": [
+            "kekerasan berat"
+          ],
+          "authority": [],
+          "public_impact": [
+            "dampak peristiwa"
+          ],
+          "evidence": [
+            "satu sumber / informasi awal"
+          ],
+          "role": [],
+          "issue": [
+            "kekerasan seksual"
+          ],
+          "handling": [],
+          "context": [],
+          "positive": []
+        },
+        "case_engine_version": "case-v6.5.4",
+        "case_processed_at": "2026-09-13T01:39:19.387011+00:00"
+      },
+      {
+        "id": "42fa5883c74de06653bc52a03e3900583bb50f9a",
+        "title": "Polisi Usut Badan Hukum Diduga Mendanai Kerusuhan 27 Agustus - suaralandak.co.id",
+        "url": "https://www.suaralandak.co.id/polisi-usut-badan-hukum-kerusuhan",
+        "source": "suaralandak.co.id",
+        "published_at": "2026-09-12T23:26:00+00:00",
+        "collected_at": "2026-09-13T01:02:58.424021+00:00",
+        "region": "BELUM TERPETAKAN",
+        "area_label": "BELUM TERPETAKAN",
+        "is_jatim": null,
+        "polres": null,
+        "category": "NEGATIF - GANGGUAN KEAMANAN / KAMTIBMAS",
+        "scope": "negative",
+        "scope_label": "Negatif",
+        "priority": "medium",
+        "summary": "Polisi Usut Badan Hukum Diduga Mendanai Kerusuhan 27 Agustus suaralandak.co.id",
+        "processing_status": "processed",
+        "classifier_version": "news-v6",
+        "classified_at": "2026-09-13T01:02:58.424021+00:00",
+        "case_id": "CASE-001398",
+        "discovery_families": [
+          "security_public_order"
+        ],
+        "discovery_tags": [
+          "public_order",
+          "security"
+        ],
+        "discovery_hits": [
+          "kerusuhan"
+        ],
+        "discovery_version": "discovery-v6.5.4",
+        "google_news_url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE02aVA4REtVczJ2NlljSE5Ddy1tQ0FDN2hJRUxObmxFdURYdndEMHlZUjRETlpDWU8wWGJHYzRTelRnb21PbnlKLTVhaGhTTlV0ZlAwSjFYQkJWNVdubzBtM1JLam5oR2JNQXJmNGNtSzY?oc=5",
+        "original_url": "https://www.suaralandak.co.id/polisi-usut-badan-hukum-kerusuhan",
+        "locality": "",
+        "polsek": null,
+        "location_confidence": 0,
+        "location_evidence": [],
+        "location_status": "BELUM_TERPETAKAN",
+        "location_source": "title",
+        "issue_type": "KEAMANAN_DAN_KAMTIBMAS",
+        "issue_subtype": "Gangguan Keamanan / Kamtibmas",
+        "issue_evidence": [
+          "kerusuhan"
+        ],
+        "handling_status": "BELUM_ADA_INFORMASI",
+        "handling_evidence": [],
+        "attention_score": 48,
+        "attention_label": "Sedang",
+        "attention_components": {
+          "severity": 21,
+          "polri_relation": 16,
+          "authority": 0,
+          "public_impact": 10,
+          "handling": 0,
+          "evidence": 1,
+          "context_risk": 0,
+          "routine_enforcement_cap": null
+        },
+        "attention_evidence": {
+          "severity": [],
+          "authority": [],
+          "public_impact": [
+            "dampak institusional"
+          ],
+          "evidence": [
+            "satu sumber / informasi awal"
+          ],
+          "role": [
+            "Polri/personel menjadi subjek permasalahan"
+          ],
+          "issue": [
+            "kerusuhan"
+          ],
+          "handling": [],
+          "context": [],
+          "positive": []
+        },
+        "case_engine_version": "case-v6.5.4",
+        "case_processed_at": "2026-09-13T01:39:19.387016+00:00"
+      },
+      {
+        "id": "d1017a3a1098a7a8d7d5cd05becb79e0ded1a241",
+        "title": "Polisi Tetapkan Enam Tersangka Kasus Pengeroyokan Buruh Proyek di Benoa - BALIPOST.com",
+        "url": "https://www.balipost.com/news/2026/09/13/581148/Polisi-Tetapkan-Enam-Tersangka-Kasus...html",
+        "source": "BALIPOST.com",
+        "published_at": "2026-09-12T22:49:40+00:00",
+        "collected_at": "2026-09-13T01:02:58.424021+00:00",
+        "region": "BELUM TERPETAKAN",
+        "area_label": "BELUM TERPETAKAN",
+        "is_jatim": null,
+        "polres": null,
+        "category": "NETRAL / LAINNYA",
+        "scope": "neutral",
+        "scope_label": "Netral",
+        "priority": "low",
+        "summary": "Polisi Tetapkan Enam Tersangka Kasus Pengeroyokan Buruh Proyek di Benoa BALIPOST.com",
+        "processing_status": "processed",
+        "classifier_version": "news-v6",
+        "classified_at": "2026-09-13T01:02:58.424021+00:00",
+        "case_id": null,
+        "discovery_families": [],
+        "discovery_tags": [],
+        "discovery_hits": [],
+        "discovery_version": "discovery-v6.5.4",
+        "google_news_url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPZHZMOFNHVE9wY3otTUM5dEtPTGNqRU10ZUJ1TWhVUm5taEFZRlRBQWxnOF8zNkdfR0dEcjJsd1AyNDVKT2hVYV9FY0R4ZFNUNW1xY3lMbmo0LXAxSE80ZFRzcHQ3ZFo3MkVoTW1aZmtpQ0J2aUtnTEk3SmQ0T2ZGaGxFakFNMi1mVlIxTHBIclE2SlAyWEE?oc=5",
+        "original_url": "https://www.balipost.com/news/2026/09/13/581148/Polisi-Tetapkan-Enam-Tersangka-Kasus...html",
+        "locality": "",
+        "polsek": null,
+        "location_confidence": 0,
+        "location_evidence": [],
+        "location_status": "BELUM_TERPETAKAN",
+        "location_source": "title",
+        "issue_type": "UMUM",
+        "issue_subtype": "Belum Teridentifikasi",
+        "issue_evidence": [],
+        "handling_status": "SUDAH_DITINDAK",
+        "handling_evidence": [
+          "tersangka"
+        ],
+        "attention_score": 9,
+        "attention_label": "Rendah",
+        "attention_components": {
+          "severity": 2,
+          "polri_relation": 0,
+          "authority": 0,
+          "public_impact": 4,
+          "handling": 2,
+          "evidence": 1,
+          "context_risk": 0,
+          "routine_enforcement_cap": null
+        },
+        "attention_evidence": {
+          "severity": [],
+          "authority": [],
+          "public_impact": [],
+          "evidence": [
+            "satu sumber / informasi awal"
+          ],
+          "role": [],
+          "issue": [],
+          "handling": [
+            "tersangka"
+          ],
+          "context": [],
+          "positive": []
+        },
+        "case_engine_version": "case-v6.5.4",
+        "case_processed_at": "2026-09-13T01:10:35.779152+00:00"
+      },
+      {
         "id": "53108187d7645c6b5eacf5f5376f55bb25be0820",
         "title": "Polsek Laren Sita Puluhan Liter Tuak dan Arak di Lamongan - radarbangsa.co.id",
         "url": "https://radarbangsa.co.id/polsek-laren-sita-puluhan-liter-tuak-dan-arak-di-lamongan/",
@@ -111,7 +413,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-09-12T22:27:54.822729+00:00"
+        "case_processed_at": "2026-09-13T01:10:36.246355+00:00"
       },
       {
         "id": "05ee6f13d537ceb919aed5ee74bc827181fc4040",
@@ -180,7 +482,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-09-12T22:56:20.572030+00:00"
+        "case_processed_at": "2026-09-13T01:39:19.387020+00:00"
       },
       {
         "id": "0e1041fee2058dc429477fbccc64c8012c01ef90",
@@ -250,7 +552,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-09-12T22:27:55.239551+00:00"
+        "case_processed_at": "2026-09-13T01:10:36.665259+00:00"
       },
       {
         "id": "243375851ef4951ada2170232394b7d4b885f9e8",
@@ -323,7 +625,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-09-12T22:56:20.572035+00:00"
+        "case_processed_at": "2026-09-13T01:39:19.387023+00:00"
       },
       {
         "id": "15cdaa6230e74a809737ec4cd3cba4f4def638ca",
@@ -404,7 +706,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-09-12T22:56:20.572038+00:00"
+        "case_processed_at": "2026-09-13T01:39:19.387025+00:00"
       },
       {
         "id": "c6fcd84c704008a7f41638fecfed3acd81c56eae",
@@ -485,7 +787,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-09-12T22:56:20.572040+00:00"
+        "case_processed_at": "2026-09-13T01:39:19.387028+00:00"
       },
       {
         "id": "a1ef893cc143722d1f42691bccf8418774e1a84c",
@@ -554,7 +856,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-09-12T22:27:55.792465+00:00"
+        "case_processed_at": "2026-09-13T01:10:37.223849+00:00"
       },
       {
         "id": "bbed467ac172448496359a0a62c31a748b3d4587",
@@ -623,7 +925,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-09-12T22:56:20.572043+00:00"
+        "case_processed_at": "2026-09-13T01:39:19.387031+00:00"
       },
       {
         "id": "9a65427a80b9038c5af493429f24b9ede8c8d192",
@@ -704,7 +1006,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-09-12T22:56:20.572046+00:00"
+        "case_processed_at": "2026-09-13T01:39:19.387033+00:00"
       },
       {
         "id": "bf66db8014ea3b34be04b0430e29ca1a8c4b583c",
@@ -775,7 +1077,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-09-12T22:56:20.572048+00:00"
+        "case_processed_at": "2026-09-13T01:39:19.387036+00:00"
       },
       {
         "id": "82ccfdb736b1142d79b8ae50ab1d44a65464fa0e",
@@ -856,7 +1158,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-09-12T22:56:20.572051+00:00"
+        "case_processed_at": "2026-09-13T01:39:19.387038+00:00"
       },
       {
         "id": "409bdb9904b8dd1f14c40ca6e05ed89dc82f9135",
@@ -924,7 +1226,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-09-12T22:27:56.226743+00:00"
+        "case_processed_at": "2026-09-13T01:10:37.665352+00:00"
       },
       {
         "id": "662aa189569bb3dddb43ac3f8ccaafdaf252100b",
@@ -995,7 +1297,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-09-12T22:56:20.572054+00:00"
+        "case_processed_at": "2026-09-13T01:39:19.387041+00:00"
       },
       {
         "id": "a0892e72d677fa2bf90eea14a9dc7765bd58ac8a",
@@ -1069,7 +1371,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-09-12T22:56:20.572056+00:00"
+        "case_processed_at": "2026-09-13T01:39:19.387044+00:00"
       },
       {
         "id": "a69fb7820153fa72d0a83168f564231f58e88006",
@@ -1137,7 +1439,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-09-12T22:27:56.687539+00:00"
+        "case_processed_at": "2026-09-13T01:10:38.132292+00:00"
       },
       {
         "id": "7cc327c4f8623d1753e0d94f41813ed897dfcb4a",
@@ -1205,7 +1507,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-09-12T22:27:57.156681+00:00"
+        "case_processed_at": "2026-09-13T01:10:38.606207+00:00"
       },
       {
         "id": "f003113e4f36e53752b49eddb2009243d9a89296",
@@ -1287,7 +1589,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-09-12T22:56:20.572059+00:00"
+        "case_processed_at": "2026-09-13T01:39:19.387047+00:00"
       },
       {
         "id": "588f8298e0ff3f61be9a029b5c33c13b37860fa2",
@@ -1358,7 +1660,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-09-12T22:56:20.572062+00:00"
+        "case_processed_at": "2026-09-13T01:39:19.387049+00:00"
       },
       {
         "id": "b9bd30b5f047369785090b505b66ec1118e2a6dd",
@@ -1439,7 +1741,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-09-12T22:56:20.572064+00:00"
+        "case_processed_at": "2026-09-13T01:39:19.387051+00:00"
       },
       {
         "id": "c8fe54b4ea6d471d29cf61ba6c9db296bbc21277",
@@ -1506,7 +1808,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-09-12T22:27:57.658320+00:00"
+        "case_processed_at": "2026-09-13T01:10:39.113161+00:00"
       },
       {
         "id": "66fac8017305d240db90fbd459d38b6acc1f0311",
@@ -1573,7 +1875,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-09-12T22:27:58.206887+00:00"
+        "case_processed_at": "2026-09-13T01:10:39.671397+00:00"
       },
       {
         "id": "67a574993362ffe5e9aa33b4519f916a77869ecd",
@@ -1641,7 +1943,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-09-12T22:27:58.772308+00:00"
+        "case_processed_at": "2026-09-13T01:10:40.244971+00:00"
       },
       {
         "id": "3ddda065c060b5583fefd4563e03547bf516f3e2",
@@ -1722,7 +2024,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-09-12T22:56:20.572067+00:00"
+        "case_processed_at": "2026-09-13T01:39:19.387054+00:00"
       },
       {
         "id": "2bd8c59fee00c066b1346109748ea9dc6f832f80",
@@ -1803,7 +2105,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-09-12T22:56:20.572070+00:00"
+        "case_processed_at": "2026-09-13T01:39:19.387057+00:00"
       },
       {
         "id": "22d7d4ffda5463d855b469c43ae6ffc6774eb0d8",
@@ -1884,7 +2186,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-09-12T22:56:20.572072+00:00"
+        "case_processed_at": "2026-09-13T01:39:19.387060+00:00"
       },
       {
         "id": "f46ef55fe659b74c98d895addbf46ada6531fe22",
@@ -1965,7 +2267,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-09-12T22:56:20.572075+00:00"
+        "case_processed_at": "2026-09-13T01:39:19.387062+00:00"
       },
       {
         "id": "87c5cb1e76cfe469604e2a38131b2fe2b63af62a",
@@ -2033,7 +2335,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-09-12T22:27:59.262694+00:00"
+        "case_processed_at": "2026-09-13T01:10:40.795680+00:00"
       },
       {
         "id": "6402e0a1b884077cc5f3b1eecbabb65387c24730",
@@ -2104,7 +2406,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-09-12T22:56:20.572077+00:00"
+        "case_processed_at": "2026-09-13T01:39:19.387065+00:00"
       },
       {
         "id": "0f1154e840fcba56cf1f0408f6f612e552639c09",
@@ -2185,11 +2487,79 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-09-12T22:56:20.572079+00:00"
+        "case_processed_at": "2026-09-13T01:39:19.387068+00:00"
       }
     ],
     "jatim_items": [
       {
+        "id": "1d7cffc0b7d3e0b930da50af62d19b1695da0dc4",
+        "title": "Polres Malang Perkuat Patroli Karhutla di Bantur, Sisir Area BKPH Sengguruh - RRI.co.id",
+        "url": "https://rri.co.id/malang/regional/2725235/polres-malang-perkuat-patroli-karhutla-di-bantur-sisir-area-bkph-sengguruh",
+        "source": "RRI.co.id",
+        "published_at": "2026-09-13T00:15:00+00:00",
+        "collected_at": "2026-09-13T01:02:58.424021+00:00",
+        "region": "Jawa Timur",
+        "area_label": "Malang",
+        "is_jatim": true,
+        "polres": "POLRES MALANG",
+        "category": "NETRAL / LAINNYA",
+        "scope": "neutral",
+        "scope_label": "Netral",
+        "priority": "low",
+        "summary": "Polres Malang Perkuat Patroli Karhutla di Bantur, Sisir Area BKPH Sengguruh RRI.co.id",
+        "processing_status": "processed",
+        "classifier_version": "news-v6",
+        "classified_at": "2026-09-13T01:02:58.424021+00:00",
+        "case_id": null,
+        "discovery_families": [],
+        "discovery_tags": [],
+        "discovery_hits": [],
+        "discovery_version": "discovery-v6.5.4",
+        "google_news_url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQTDNYMWlRb2xUZ0VkMXZyR3FmN0l3OXcyQWVtemhRZ1BQdFFmMUJLcTN5am5yUU1DQWRlTFJuWUNZUVdMYVl4dldpMVhHWFlVeWtMR05yRGZrLWo1NTFlZEVheWVxUWs3bkw3NUVNQUlhNXk3Mm90bHRBMlRvYjljSmdPdTB1VWxVQ3RvYkludEdWczZ0YU1SNk5LOFZGb2dYRjFWaTVfVVBLNkhsNDEwMUk5MUpyZXc?oc=5",
+        "original_url": "https://rri.co.id/malang/regional/2725235/polres-malang-perkuat-patroli-karhutla-di-bantur-sisir-area-bkph-sengguruh",
+        "locality": "Malang",
+        "polsek": null,
+        "location_confidence": 100,
+        "location_evidence": [
+          "polres malang",
+          "Malang"
+        ],
+        "location_status": "JAWA_TIMUR",
+        "location_source": "title",
+        "issue_type": "UMUM",
+        "issue_subtype": "Belum Teridentifikasi",
+        "issue_evidence": [],
+        "handling_status": "BELUM_ADA_INFORMASI",
+        "handling_evidence": [],
+        "attention_score": 7,
+        "attention_label": "Rendah",
+        "attention_components": {
+          "severity": 2,
+          "polri_relation": 0,
+          "authority": 0,
+          "public_impact": 4,
+          "handling": 0,
+          "evidence": 1,
+          "context_risk": 0,
+          "routine_enforcement_cap": null
+        },
+        "attention_evidence": {
+          "severity": [],
+          "authority": [],
+          "public_impact": [],
+          "evidence": [
+            "satu sumber / informasi awal"
+          ],
+          "role": [],
+          "issue": [],
+          "handling": [],
+          "context": [],
+          "positive": []
+        },
+        "case_engine_version": "case-v6.5.4",
+        "case_processed_at": "2026-09-13T01:10:35.300047+00:00"
+      },
+      {
         "id": "53108187d7645c6b5eacf5f5376f55bb25be0820",
         "title": "Polsek Laren Sita Puluhan Liter Tuak dan Arak di Lamongan - radarbangsa.co.id",
         "url": "https://radarbangsa.co.id/polsek-laren-sita-puluhan-liter-tuak-dan-arak-di-lamongan/",
@@ -2255,7 +2625,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-09-12T22:27:54.822729+00:00"
+        "case_processed_at": "2026-09-13T01:10:36.246355+00:00"
       },
       {
         "id": "0e1041fee2058dc429477fbccc64c8012c01ef90",
@@ -2325,7 +2695,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-09-12T22:27:55.239551+00:00"
+        "case_processed_at": "2026-09-13T01:10:36.665259+00:00"
       },
       {
         "id": "409bdb9904b8dd1f14c40ca6e05ed89dc82f9135",
@@ -2393,7 +2763,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-09-12T22:27:56.226743+00:00"
+        "case_processed_at": "2026-09-13T01:10:37.665352+00:00"
       },
       {
         "id": "a0892e72d677fa2bf90eea14a9dc7765bd58ac8a",
@@ -2467,7 +2837,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-09-12T22:56:20.572056+00:00"
+        "case_processed_at": "2026-09-13T01:39:19.387044+00:00"
       },
       {
         "id": "a69fb7820153fa72d0a83168f564231f58e88006",
@@ -2535,7 +2905,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-09-12T22:27:56.687539+00:00"
+        "case_processed_at": "2026-09-13T01:10:38.132292+00:00"
       },
       {
         "id": "7cc327c4f8623d1753e0d94f41813ed897dfcb4a",
@@ -2603,7 +2973,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-09-12T22:27:57.156681+00:00"
+        "case_processed_at": "2026-09-13T01:10:38.606207+00:00"
       },
       {
         "id": "c8fe54b4ea6d471d29cf61ba6c9db296bbc21277",
@@ -2670,7 +3040,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-09-12T22:27:57.658320+00:00"
+        "case_processed_at": "2026-09-13T01:10:39.113161+00:00"
       },
       {
         "id": "66fac8017305d240db90fbd459d38b6acc1f0311",
@@ -2737,7 +3107,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-09-12T22:27:58.206887+00:00"
+        "case_processed_at": "2026-09-13T01:10:39.671397+00:00"
       },
       {
         "id": "67a574993362ffe5e9aa33b4519f916a77869ecd",
@@ -2805,7 +3175,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-09-12T22:27:58.772308+00:00"
+        "case_processed_at": "2026-09-13T01:10:40.244971+00:00"
       },
       {
         "id": "87c5cb1e76cfe469604e2a38131b2fe2b63af62a",
@@ -2873,10 +3243,240 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-09-12T22:27:59.262694+00:00"
+        "case_processed_at": "2026-09-13T01:10:40.795680+00:00"
       }
     ],
     "luar_jatim_items": [
+      {
+        "id": "240065f83ded747fab8df0c53733b7adf61b7079",
+        "title": "Kronologi Betrand Peto Dilaporkan Kasus Dugaan Kekerasan Seksual, Sudah Dikonfirmasi Polisi - VIVA.co.id",
+        "url": "https://www.viva.co.id/gaya-hidup/showbiz/1928193-kronologi-betrand-peto-dilaporkan-kasus-dugaan-kekerasan-seksual-sudah-dikonfirmasi-polisi",
+        "source": "VIVA.co.id",
+        "published_at": "2026-09-13T00:05:09+00:00",
+        "collected_at": "2026-09-13T01:02:58.424021+00:00",
+        "region": "BELUM TERPETAKAN",
+        "area_label": "BELUM TERPETAKAN",
+        "is_jatim": null,
+        "polres": null,
+        "category": "NEGATIF - KEJAHATAN SEKSUAL",
+        "scope": "negative",
+        "scope_label": "Negatif",
+        "priority": "low",
+        "summary": "Kronologi Betrand Peto Dilaporkan Kasus Dugaan Kekerasan Seksual, Sudah Dikonfirmasi Polisi VIVA.co.id",
+        "processing_status": "processed",
+        "classifier_version": "news-v6",
+        "classified_at": "2026-09-13T01:02:58.424021+00:00",
+        "case_id": "CASE-001397",
+        "discovery_families": [
+          "ethics_personal_misconduct"
+        ],
+        "discovery_tags": [
+          "ethics",
+          "sexual_misconduct",
+          "violence"
+        ],
+        "discovery_hits": [
+          "kekerasan seksual"
+        ],
+        "discovery_version": "discovery-v6.5.4",
+        "google_news_url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxPSGpRcXp3RXlidTRucXBWQjVUeXplYlRUWEhMWThDOG1Gbm41bmpERGpJY1E2aG5QczNoYVh0bTFkVkFpUGx1UHM5UURwcnFqVkMtVzhVNFp0NmxXX3dyOXFQMHVmUUlnUEhEUUVpeDhYMzFsQ1ZDc3JqQ3VGS0t2YVZFLVZEUmhNWDZVSjRTMDVjNm91SUdYcnQzUmNnYkpUR3dqbTVWSkN3SURvcVMyVDZ6N0RLaXpxaWt2ekFUWDhST1JUdFFpTlBBYklnRDNIMHVYVDBKMNIB3AFBVV95cUxQcDlRV0VqYWNfTEpueEYzd0pDb1plV3loR3VpQllBRjRKQUlTSktvQjU3OE9JTGpiY2ZBM2NEMU9JQ3hZYlU1QlVNc0RDcUxqbjZJOUpDb3VuUmJ1aTZ1T3NrRTNsaXhOWVJJZTVmbGsxV2FDLVpfbjdENHBkdGR2c1ozMUNBcHdMem94Y2tXYlU0cS14R0MxRmlybzByOTBiYl9zaEIzRmRzM0Fvbm5LMVNqWlEwWEd6Nko1bGM4TGF5YW4yNDZtVjl6enZmWk5VdWtjREdCbV9zNjlr?oc=5",
+        "original_url": "https://www.viva.co.id/gaya-hidup/showbiz/1928193-kronologi-betrand-peto-dilaporkan-kasus-dugaan-kekerasan-seksual-sudah-dikonfirmasi-polisi",
+        "locality": "",
+        "polsek": null,
+        "location_confidence": 0,
+        "location_evidence": [],
+        "location_status": "BELUM_TERPETAKAN",
+        "location_source": "title",
+        "issue_type": "KEJAHATAN_SEKSUAL",
+        "issue_subtype": "Kejahatan Seksual",
+        "issue_evidence": [
+          "kekerasan seksual"
+        ],
+        "handling_status": "BELUM_ADA_INFORMASI",
+        "handling_evidence": [],
+        "attention_score": 39,
+        "attention_label": "Rendah",
+        "attention_components": {
+          "severity": 26,
+          "polri_relation": 0,
+          "authority": 0,
+          "public_impact": 10,
+          "handling": 0,
+          "evidence": 1,
+          "context_risk": 0,
+          "routine_enforcement_cap": null
+        },
+        "attention_evidence": {
+          "severity": [
+            "kekerasan berat"
+          ],
+          "authority": [],
+          "public_impact": [
+            "dampak peristiwa"
+          ],
+          "evidence": [
+            "satu sumber / informasi awal"
+          ],
+          "role": [],
+          "issue": [
+            "kekerasan seksual"
+          ],
+          "handling": [],
+          "context": [],
+          "positive": []
+        },
+        "case_engine_version": "case-v6.5.4",
+        "case_processed_at": "2026-09-13T01:39:19.387011+00:00"
+      },
+      {
+        "id": "42fa5883c74de06653bc52a03e3900583bb50f9a",
+        "title": "Polisi Usut Badan Hukum Diduga Mendanai Kerusuhan 27 Agustus - suaralandak.co.id",
+        "url": "https://www.suaralandak.co.id/polisi-usut-badan-hukum-kerusuhan",
+        "source": "suaralandak.co.id",
+        "published_at": "2026-09-12T23:26:00+00:00",
+        "collected_at": "2026-09-13T01:02:58.424021+00:00",
+        "region": "BELUM TERPETAKAN",
+        "area_label": "BELUM TERPETAKAN",
+        "is_jatim": null,
+        "polres": null,
+        "category": "NEGATIF - GANGGUAN KEAMANAN / KAMTIBMAS",
+        "scope": "negative",
+        "scope_label": "Negatif",
+        "priority": "medium",
+        "summary": "Polisi Usut Badan Hukum Diduga Mendanai Kerusuhan 27 Agustus suaralandak.co.id",
+        "processing_status": "processed",
+        "classifier_version": "news-v6",
+        "classified_at": "2026-09-13T01:02:58.424021+00:00",
+        "case_id": "CASE-001398",
+        "discovery_families": [
+          "security_public_order"
+        ],
+        "discovery_tags": [
+          "public_order",
+          "security"
+        ],
+        "discovery_hits": [
+          "kerusuhan"
+        ],
+        "discovery_version": "discovery-v6.5.4",
+        "google_news_url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE02aVA4REtVczJ2NlljSE5Ddy1tQ0FDN2hJRUxObmxFdURYdndEMHlZUjRETlpDWU8wWGJHYzRTelRnb21PbnlKLTVhaGhTTlV0ZlAwSjFYQkJWNVdubzBtM1JLam5oR2JNQXJmNGNtSzY?oc=5",
+        "original_url": "https://www.suaralandak.co.id/polisi-usut-badan-hukum-kerusuhan",
+        "locality": "",
+        "polsek": null,
+        "location_confidence": 0,
+        "location_evidence": [],
+        "location_status": "BELUM_TERPETAKAN",
+        "location_source": "title",
+        "issue_type": "KEAMANAN_DAN_KAMTIBMAS",
+        "issue_subtype": "Gangguan Keamanan / Kamtibmas",
+        "issue_evidence": [
+          "kerusuhan"
+        ],
+        "handling_status": "BELUM_ADA_INFORMASI",
+        "handling_evidence": [],
+        "attention_score": 48,
+        "attention_label": "Sedang",
+        "attention_components": {
+          "severity": 21,
+          "polri_relation": 16,
+          "authority": 0,
+          "public_impact": 10,
+          "handling": 0,
+          "evidence": 1,
+          "context_risk": 0,
+          "routine_enforcement_cap": null
+        },
+        "attention_evidence": {
+          "severity": [],
+          "authority": [],
+          "public_impact": [
+            "dampak institusional"
+          ],
+          "evidence": [
+            "satu sumber / informasi awal"
+          ],
+          "role": [
+            "Polri/personel menjadi subjek permasalahan"
+          ],
+          "issue": [
+            "kerusuhan"
+          ],
+          "handling": [],
+          "context": [],
+          "positive": []
+        },
+        "case_engine_version": "case-v6.5.4",
+        "case_processed_at": "2026-09-13T01:39:19.387016+00:00"
+      },
+      {
+        "id": "d1017a3a1098a7a8d7d5cd05becb79e0ded1a241",
+        "title": "Polisi Tetapkan Enam Tersangka Kasus Pengeroyokan Buruh Proyek di Benoa - BALIPOST.com",
+        "url": "https://www.balipost.com/news/2026/09/13/581148/Polisi-Tetapkan-Enam-Tersangka-Kasus...html",
+        "source": "BALIPOST.com",
+        "published_at": "2026-09-12T22:49:40+00:00",
+        "collected_at": "2026-09-13T01:02:58.424021+00:00",
+        "region": "BELUM TERPETAKAN",
+        "area_label": "BELUM TERPETAKAN",
+        "is_jatim": null,
+        "polres": null,
+        "category": "NETRAL / LAINNYA",
+        "scope": "neutral",
+        "scope_label": "Netral",
+        "priority": "low",
+        "summary": "Polisi Tetapkan Enam Tersangka Kasus Pengeroyokan Buruh Proyek di Benoa BALIPOST.com",
+        "processing_status": "processed",
+        "classifier_version": "news-v6",
+        "classified_at": "2026-09-13T01:02:58.424021+00:00",
+        "case_id": null,
+        "discovery_families": [],
+        "discovery_tags": [],
+        "discovery_hits": [],
+        "discovery_version": "discovery-v6.5.4",
+        "google_news_url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPZHZMOFNHVE9wY3otTUM5dEtPTGNqRU10ZUJ1TWhVUm5taEFZRlRBQWxnOF8zNkdfR0dEcjJsd1AyNDVKT2hVYV9FY0R4ZFNUNW1xY3lMbmo0LXAxSE80ZFRzcHQ3ZFo3MkVoTW1aZmtpQ0J2aUtnTEk3SmQ0T2ZGaGxFakFNMi1mVlIxTHBIclE2SlAyWEE?oc=5",
+        "original_url": "https://www.balipost.com/news/2026/09/13/581148/Polisi-Tetapkan-Enam-Tersangka-Kasus...html",
+        "locality": "",
+        "polsek": null,
+        "location_confidence": 0,
+        "location_evidence": [],
+        "location_status": "BELUM_TERPETAKAN",
+        "location_source": "title",
+        "issue_type": "UMUM",
+        "issue_subtype": "Belum Teridentifikasi",
+        "issue_evidence": [],
+        "handling_status": "SUDAH_DITINDAK",
+        "handling_evidence": [
+          "tersangka"
+        ],
+        "attention_score": 9,
+        "attention_label": "Rendah",
+        "attention_components": {
+          "severity": 2,
+          "polri_relation": 0,
+          "authority": 0,
+          "public_impact": 4,
+          "handling": 2,
+          "evidence": 1,
+          "context_risk": 0,
+          "routine_enforcement_cap": null
+        },
+        "attention_evidence": {
+          "severity": [],
+          "authority": [],
+          "public_impact": [],
+          "evidence": [
+            "satu sumber / informasi awal"
+          ],
+          "role": [],
+          "issue": [],
+          "handling": [
+            "tersangka"
+          ],
+          "context": [],
+          "positive": []
+        },
+        "case_engine_version": "case-v6.5.4",
+        "case_processed_at": "2026-09-13T01:10:35.779152+00:00"
+      },
       {
         "id": "05ee6f13d537ceb919aed5ee74bc827181fc4040",
         "title": "Polisi Bongkar Sindikat Peredaran Sabu Pakai Senpi di Paluta, 4 Orang Ditangkap - detikNews",
@@ -2944,7 +3544,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-09-12T22:56:20.572030+00:00"
+        "case_processed_at": "2026-09-13T01:39:19.387020+00:00"
       },
       {
         "id": "243375851ef4951ada2170232394b7d4b885f9e8",
@@ -3017,7 +3617,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-09-12T22:56:20.572035+00:00"
+        "case_processed_at": "2026-09-13T01:39:19.387023+00:00"
       },
       {
         "id": "15cdaa6230e74a809737ec4cd3cba4f4def638ca",
@@ -3098,7 +3698,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-09-12T22:56:20.572038+00:00"
+        "case_processed_at": "2026-09-13T01:39:19.387025+00:00"
       },
       {
         "id": "c6fcd84c704008a7f41638fecfed3acd81c56eae",
@@ -3179,7 +3779,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-09-12T22:56:20.572040+00:00"
+        "case_processed_at": "2026-09-13T01:39:19.387028+00:00"
       },
       {
         "id": "a1ef893cc143722d1f42691bccf8418774e1a84c",
@@ -3248,7 +3848,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-09-12T22:27:55.792465+00:00"
+        "case_processed_at": "2026-09-13T01:10:37.223849+00:00"
       },
       {
         "id": "bbed467ac172448496359a0a62c31a748b3d4587",
@@ -3317,7 +3917,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-09-12T22:56:20.572043+00:00"
+        "case_processed_at": "2026-09-13T01:39:19.387031+00:00"
       },
       {
         "id": "9a65427a80b9038c5af493429f24b9ede8c8d192",
@@ -3398,7 +3998,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-09-12T22:56:20.572046+00:00"
+        "case_processed_at": "2026-09-13T01:39:19.387033+00:00"
       },
       {
         "id": "bf66db8014ea3b34be04b0430e29ca1a8c4b583c",
@@ -3469,7 +4069,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-09-12T22:56:20.572048+00:00"
+        "case_processed_at": "2026-09-13T01:39:19.387036+00:00"
       },
       {
         "id": "82ccfdb736b1142d79b8ae50ab1d44a65464fa0e",
@@ -3550,7 +4150,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-09-12T22:56:20.572051+00:00"
+        "case_processed_at": "2026-09-13T01:39:19.387038+00:00"
       },
       {
         "id": "662aa189569bb3dddb43ac3f8ccaafdaf252100b",
@@ -3621,7 +4221,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-09-12T22:56:20.572054+00:00"
+        "case_processed_at": "2026-09-13T01:39:19.387041+00:00"
       },
       {
         "id": "f003113e4f36e53752b49eddb2009243d9a89296",
@@ -3703,7 +4303,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-09-12T22:56:20.572059+00:00"
+        "case_processed_at": "2026-09-13T01:39:19.387047+00:00"
       },
       {
         "id": "588f8298e0ff3f61be9a029b5c33c13b37860fa2",
@@ -3774,7 +4374,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-09-12T22:56:20.572062+00:00"
+        "case_processed_at": "2026-09-13T01:39:19.387049+00:00"
       },
       {
         "id": "b9bd30b5f047369785090b505b66ec1118e2a6dd",
@@ -3855,7 +4455,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-09-12T22:56:20.572064+00:00"
+        "case_processed_at": "2026-09-13T01:39:19.387051+00:00"
       },
       {
         "id": "3ddda065c060b5583fefd4563e03547bf516f3e2",
@@ -3936,7 +4536,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-09-12T22:56:20.572067+00:00"
+        "case_processed_at": "2026-09-13T01:39:19.387054+00:00"
       },
       {
         "id": "2bd8c59fee00c066b1346109748ea9dc6f832f80",
@@ -4017,7 +4617,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-09-12T22:56:20.572070+00:00"
+        "case_processed_at": "2026-09-13T01:39:19.387057+00:00"
       },
       {
         "id": "22d7d4ffda5463d855b469c43ae6ffc6774eb0d8",
@@ -4098,7 +4698,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-09-12T22:56:20.572072+00:00"
+        "case_processed_at": "2026-09-13T01:39:19.387060+00:00"
       },
       {
         "id": "f46ef55fe659b74c98d895addbf46ada6531fe22",
@@ -4179,7 +4779,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-09-12T22:56:20.572075+00:00"
+        "case_processed_at": "2026-09-13T01:39:19.387062+00:00"
       },
       {
         "id": "6402e0a1b884077cc5f3b1eecbabb65387c24730",
@@ -4250,7 +4850,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-09-12T22:56:20.572077+00:00"
+        "case_processed_at": "2026-09-13T01:39:19.387065+00:00"
       },
       {
         "id": "0f1154e840fcba56cf1f0408f6f612e552639c09",
@@ -4331,16 +4931,16 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-09-12T22:56:20.572079+00:00"
+        "case_processed_at": "2026-09-13T01:39:19.387068+00:00"
       }
     ]
   },
   "cases": {
-    "active": 16,
+    "active": 18,
     "priority_high": 0,
     "jatim": 1,
     "jatim_priority_high": 0,
-    "articles": 38,
+    "articles": 40,
     "case_ids": [
       "CASE-000257",
       "CASE-001380",
@@ -4357,7 +4957,9 @@
       "CASE-001393",
       "CASE-001394",
       "CASE-001395",
-      "CASE-001396"
+      "CASE-001396",
+      "CASE-001397",
+      "CASE-001398"
     ],
     "items": [
       {
@@ -5196,7 +5798,7 @@
         ],
         "article_count": 19,
         "created_at": "2026-08-31T07:59:59.650913+00:00",
-        "updated_at": "2026-09-12T22:56:16.414534+00:00",
+        "updated_at": "2026-09-13T01:39:15.241176+00:00",
         "engine_version": "case-v6.5.4",
         "priority_score": 61,
         "priority_breakdown": {
@@ -5349,7 +5951,7 @@
         ],
         "article_count": 2,
         "created_at": "2026-09-12T14:42:25.467903+00:00",
-        "updated_at": "2026-09-12T22:56:20.512004+00:00",
+        "updated_at": "2026-09-13T01:39:19.320413+00:00",
         "engine_version": "case-v6.5.4",
         "priority_score": 26,
         "priority_breakdown": {
@@ -5457,7 +6059,7 @@
         ],
         "article_count": 1,
         "created_at": "2026-09-12T17:44:04.135006+00:00",
-        "updated_at": "2026-09-12T22:56:20.521583+00:00",
+        "updated_at": "2026-09-13T01:39:19.330040+00:00",
         "engine_version": "case-v6.5.4",
         "priority_score": 17,
         "priority_breakdown": {
@@ -5607,7 +6209,7 @@
         ],
         "article_count": 2,
         "created_at": "2026-09-12T17:44:04.603404+00:00",
-        "updated_at": "2026-09-12T22:56:20.527748+00:00",
+        "updated_at": "2026-09-13T01:39:19.336283+00:00",
         "engine_version": "case-v6.5.4",
         "priority_score": 44,
         "priority_breakdown": {
@@ -5714,7 +6316,7 @@
         ],
         "article_count": 1,
         "created_at": "2026-09-12T17:44:05.044974+00:00",
-        "updated_at": "2026-09-12T22:56:20.530949+00:00",
+        "updated_at": "2026-09-13T01:39:19.339540+00:00",
         "engine_version": "case-v6.5.4",
         "priority_score": 8,
         "priority_breakdown": {
@@ -5816,7 +6418,7 @@
         ],
         "article_count": 1,
         "created_at": "2026-09-12T17:44:05.951825+00:00",
-        "updated_at": "2026-09-12T22:56:20.533828+00:00",
+        "updated_at": "2026-09-13T01:39:19.342440+00:00",
         "engine_version": "case-v6.5.4",
         "priority_score": 35,
         "priority_breakdown": {
@@ -5922,7 +6524,7 @@
         ],
         "article_count": 1,
         "created_at": "2026-09-12T17:44:06.384105+00:00",
-        "updated_at": "2026-09-12T22:56:20.536938+00:00",
+        "updated_at": "2026-09-13T01:39:19.345578+00:00",
         "engine_version": "case-v6.5.4",
         "priority_score": 48,
         "priority_breakdown": {
@@ -6033,7 +6635,7 @@
         ],
         "article_count": 1,
         "created_at": "2026-09-12T17:44:06.848337+00:00",
-        "updated_at": "2026-09-12T22:56:20.539807+00:00",
+        "updated_at": "2026-09-13T01:39:19.348463+00:00",
         "engine_version": "case-v6.5.4",
         "priority_score": 46,
         "priority_breakdown": {
@@ -6145,7 +6747,7 @@
         ],
         "article_count": 1,
         "created_at": "2026-09-12T17:44:07.380119+00:00",
-        "updated_at": "2026-09-12T22:56:20.542936+00:00",
+        "updated_at": "2026-09-13T01:39:19.351610+00:00",
         "engine_version": "case-v6.5.4",
         "priority_score": 38,
         "priority_breakdown": {
@@ -6331,7 +6933,7 @@
         ],
         "article_count": 3,
         "created_at": "2026-09-12T17:44:07.796173+00:00",
-        "updated_at": "2026-09-12T22:56:20.551651+00:00",
+        "updated_at": "2026-09-13T01:39:19.360478+00:00",
         "engine_version": "case-v6.5.4",
         "priority_score": 49,
         "priority_breakdown": {
@@ -6444,7 +7046,7 @@
         ],
         "article_count": 1,
         "created_at": "2026-09-12T17:44:08.289021+00:00",
-        "updated_at": "2026-09-12T22:56:20.554864+00:00",
+        "updated_at": "2026-09-13T01:39:19.363731+00:00",
         "engine_version": "case-v6.5.4",
         "priority_score": 38,
         "priority_breakdown": {
@@ -6556,7 +7158,7 @@
         ],
         "article_count": 1,
         "created_at": "2026-09-12T17:44:09.199123+00:00",
-        "updated_at": "2026-09-12T22:56:20.558700+00:00",
+        "updated_at": "2026-09-13T01:39:19.367563+00:00",
         "engine_version": "case-v6.5.4",
         "priority_score": 19,
         "priority_breakdown": {
@@ -6665,7 +7267,7 @@
         ],
         "article_count": 1,
         "created_at": "2026-09-12T17:44:09.687451+00:00",
-        "updated_at": "2026-09-12T22:56:20.561719+00:00",
+        "updated_at": "2026-09-13T01:39:19.370578+00:00",
         "engine_version": "case-v6.5.4",
         "priority_score": 38,
         "priority_breakdown": {
@@ -6776,7 +7378,7 @@
         ],
         "article_count": 1,
         "created_at": "2026-09-12T19:53:44.565544+00:00",
-        "updated_at": "2026-09-12T22:56:20.564895+00:00",
+        "updated_at": "2026-09-13T01:39:19.373753+00:00",
         "engine_version": "case-v6.5.4",
         "priority_score": 38,
         "priority_breakdown": {
@@ -6883,7 +7485,7 @@
         ],
         "article_count": 1,
         "created_at": "2026-09-12T22:51:47.477518+00:00",
-        "updated_at": "2026-09-12T22:56:20.568042+00:00",
+        "updated_at": "2026-09-13T01:39:19.376936+00:00",
         "engine_version": "case-v6.5.4",
         "priority_score": 17,
         "priority_breakdown": {
@@ -6990,7 +7592,7 @@
         ],
         "article_count": 1,
         "created_at": "2026-09-12T22:51:47.910002+00:00",
-        "updated_at": "2026-09-12T22:56:20.571198+00:00",
+        "updated_at": "2026-09-13T01:39:19.380068+00:00",
         "engine_version": "case-v6.5.4",
         "priority_score": 17,
         "priority_breakdown": {
@@ -7018,6 +7620,224 @@
             "sifat berita: negatif",
             "Narkoba / Narkotika",
             "Hubungan Polri belum spesifik"
+          ]
+        }
+      },
+      {
+        "case_id": "CASE-001397",
+        "title": "Kronologi Betrand Peto Dilaporkan Kasus Dugaan Kekerasan Seksual, Sudah Dikonfirmasi Polisi - VIVA.co.id",
+        "category": "NEGATIF - KEJAHATAN SEKSUAL",
+        "scope": "negative",
+        "region": "BELUM TERPETAKAN",
+        "locality": "",
+        "is_jatim": null,
+        "polres": null,
+        "polsek": null,
+        "priority": "low",
+        "attention_score": 38,
+        "attention_label": "Rendah",
+        "signature": "BELUM TERPETAKAN",
+        "incident_terms": [
+          "betrand",
+          "dikonfirmasi",
+          "dilaporkan",
+          "dugaan",
+          "kekerasan",
+          "peto",
+          "seksual",
+          "sudah",
+          "viva"
+        ],
+        "event_terms": [
+          "kekerasan",
+          "seksual"
+        ],
+        "location_terms": [],
+        "discovery_families": [
+          "ethics_personal_misconduct"
+        ],
+        "first_seen": "2026-09-13T00:05:09+00:00",
+        "last_seen": "2026-09-13T01:02:58.424021+00:00",
+        "last_detected_at": "2026-09-13T01:02:58.424021+00:00",
+        "article_ids": [
+          "240065f83ded747fab8df0c53733b7adf61b7079"
+        ],
+        "articles": [
+          {
+            "id": "240065f83ded747fab8df0c53733b7adf61b7079",
+            "title": "Kronologi Betrand Peto Dilaporkan Kasus Dugaan Kekerasan Seksual, Sudah Dikonfirmasi Polisi - VIVA.co.id",
+            "url": "https://www.viva.co.id/gaya-hidup/showbiz/1928193-kronologi-betrand-peto-dilaporkan-kasus-dugaan-kekerasan-seksual-sudah-dikonfirmasi-polisi",
+            "published_at": "2026-09-13T00:05:09+00:00",
+            "collected_at": "2026-09-13T01:02:58.424021+00:00",
+            "source": "VIVA.co.id",
+            "match_score": 1.0,
+            "priority": "low",
+            "scope": "negative",
+            "category": "NEGATIF - KEJAHATAN SEKSUAL",
+            "region": "BELUM TERPETAKAN",
+            "locality": "",
+            "is_jatim": false,
+            "polres": null,
+            "polsek": null,
+            "issue_type": "KEJAHATAN_SEKSUAL",
+            "issue_subtype": "Kejahatan Seksual",
+            "handling_status": "BELUM_ADA_INFORMASI",
+            "handling_evidence": [],
+            "polri_relation": null,
+            "polri_relation_points": 0,
+            "polri_relation_evidence": [],
+            "attention_score": 39,
+            "attention_label": "Rendah",
+            "attention_components": {
+              "severity": 26,
+              "polri_relation": 0,
+              "authority": 0,
+              "public_impact": 10,
+              "handling": 0,
+              "evidence": 1,
+              "context_risk": 0,
+              "routine_enforcement_cap": null
+            }
+          }
+        ],
+        "article_count": 1,
+        "created_at": "2026-09-13T01:34:42.866891+00:00",
+        "updated_at": "2026-09-13T01:39:19.383299+00:00",
+        "engine_version": "case-v6.5.4",
+        "priority_score": 38,
+        "priority_breakdown": {
+          "severity": 26,
+          "polri_relation": 0,
+          "authority_context": 0,
+          "public_impact": 10,
+          "handling": 0,
+          "evidence": 1,
+          "spread": 0,
+          "escalation": 0,
+          "current_activity": 1,
+          "context_risk": 0
+        },
+        "priority_evidence": {
+          "unique_sources": 1,
+          "active_today_articles": 1,
+          "escalation": [],
+          "issue_type": "KEJAHATAN_SEKSUAL",
+          "issue_subtype": "Kejahatan Seksual",
+          "sentiment": "negative",
+          "polri_relation": "INFORMASI_UMUM",
+          "handling_status": "BELUM_ADA_INFORMASI",
+          "reasons": [
+            "sifat berita: negatif",
+            "sifat berita: negatif",
+            "Kejahatan Seksual",
+            "Hubungan Polri belum spesifik"
+          ]
+        }
+      },
+      {
+        "case_id": "CASE-001398",
+        "title": "Polisi Usut Badan Hukum Diduga Mendanai Kerusuhan 27 Agustus - suaralandak.co.id",
+        "category": "NEGATIF - GANGGUAN KEAMANAN / KAMTIBMAS",
+        "scope": "negative",
+        "region": "BELUM TERPETAKAN",
+        "locality": "",
+        "is_jatim": null,
+        "polres": null,
+        "polsek": null,
+        "priority": "medium",
+        "attention_score": 49,
+        "attention_label": "Sedang",
+        "signature": "BELUM TERPETAKAN",
+        "incident_terms": [
+          "agustus",
+          "badan",
+          "hukum",
+          "kerusuhan",
+          "mendanai",
+          "suaralandak",
+          "usut"
+        ],
+        "event_terms": [
+          "kerusuhan"
+        ],
+        "location_terms": [],
+        "discovery_families": [
+          "security_public_order"
+        ],
+        "first_seen": "2026-09-12T23:26:00+00:00",
+        "last_seen": "2026-09-13T01:02:58.424021+00:00",
+        "last_detected_at": "2026-09-13T01:02:58.424021+00:00",
+        "article_ids": [
+          "42fa5883c74de06653bc52a03e3900583bb50f9a"
+        ],
+        "articles": [
+          {
+            "id": "42fa5883c74de06653bc52a03e3900583bb50f9a",
+            "title": "Polisi Usut Badan Hukum Diduga Mendanai Kerusuhan 27 Agustus - suaralandak.co.id",
+            "url": "https://www.suaralandak.co.id/polisi-usut-badan-hukum-kerusuhan",
+            "published_at": "2026-09-12T23:26:00+00:00",
+            "collected_at": "2026-09-13T01:02:58.424021+00:00",
+            "source": "suaralandak.co.id",
+            "match_score": 1.0,
+            "priority": "medium",
+            "scope": "negative",
+            "category": "NEGATIF - GANGGUAN KEAMANAN / KAMTIBMAS",
+            "region": "BELUM TERPETAKAN",
+            "locality": "",
+            "is_jatim": false,
+            "polres": null,
+            "polsek": null,
+            "issue_type": "KEAMANAN_DAN_KAMTIBMAS",
+            "issue_subtype": "Gangguan Keamanan / Kamtibmas",
+            "handling_status": "BELUM_ADA_INFORMASI",
+            "handling_evidence": [],
+            "polri_relation": null,
+            "polri_relation_points": 0,
+            "polri_relation_evidence": [],
+            "attention_score": 48,
+            "attention_label": "Sedang",
+            "attention_components": {
+              "severity": 21,
+              "polri_relation": 16,
+              "authority": 0,
+              "public_impact": 10,
+              "handling": 0,
+              "evidence": 1,
+              "context_risk": 0,
+              "routine_enforcement_cap": null
+            }
+          }
+        ],
+        "article_count": 1,
+        "created_at": "2026-09-13T01:34:43.330765+00:00",
+        "updated_at": "2026-09-13T01:39:19.386170+00:00",
+        "engine_version": "case-v6.5.4",
+        "priority_score": 49,
+        "priority_breakdown": {
+          "severity": 21,
+          "polri_relation": 16,
+          "authority_context": 0,
+          "public_impact": 10,
+          "handling": 0,
+          "evidence": 1,
+          "spread": 0,
+          "escalation": 0,
+          "current_activity": 1,
+          "context_risk": 0
+        },
+        "priority_evidence": {
+          "unique_sources": 1,
+          "active_today_articles": 1,
+          "escalation": [],
+          "issue_type": "KEAMANAN_DAN_KAMTIBMAS",
+          "issue_subtype": "Gangguan Keamanan / Kamtibmas",
+          "sentiment": "negative",
+          "polri_relation": "SUBJEK_PERMASALAHAN",
+          "handling_status": "BELUM_ADA_INFORMASI",
+          "reasons": [
+            "sifat berita: negatif",
+            "Gangguan Keamanan / Kamtibmas",
+            "polisi + dugaan"
           ]
         }
       }
@@ -7143,7 +7963,7 @@
         ],
         "article_count": 2,
         "created_at": "2026-09-12T14:42:25.467903+00:00",
-        "updated_at": "2026-09-12T22:56:20.512004+00:00",
+        "updated_at": "2026-09-13T01:39:19.320413+00:00",
         "engine_version": "case-v6.5.4",
         "priority_score": 26,
         "priority_breakdown": {
@@ -7178,13 +7998,19 @@
     ]
   },
   "social": {
-    "detected": 85,
+    "detected": 114,
     "jatim": 3,
-    "negative": 26,
-    "priority_high": 18,
+    "negative": 46,
+    "priority_high": 20,
     "video_ids": [
+      "-D0TKRAXwXI",
+      "U_9b-owedcM",
+      "yGDCBm1M8FI",
+      "p7puQi_szMU",
       "cXZpZUOwQkw",
+      "J1_WSX-0GVs",
       "wO8Jb9I8TVI",
+      "I7ZbczXH3a4",
       "xwpOCNRakUM",
       "Kl9CsCb2sD0",
       "zsUyqJk5xoI",
@@ -7203,34 +8029,48 @@
       "ZkUcV_PUOAA",
       "gzKUml02D84",
       "Mcm-tQ4SacI",
+      "LIEyDrQERnc",
+      "sJgtwBnwHU4",
       "WsYtsTMYI08",
+      "a3RlDBJYbAw",
       "X_rQcyS48og",
+      "sMV6TIJ4bVA",
       "rS_zq_SrCCo",
       "KanvoxnUZo4",
       "ceoN8QOXBzg",
       "IiIO61YA0wc",
       "JmDjS9FsZQA",
+      "ccZr8nFnYAI",
       "rsNjccdjbBs",
+      "ZgbClYzApCQ",
+      "v5Nn2HJJcIM",
       "geA7Fg1ncc4",
       "71MxzGIu07s",
+      "0IBil4CYj8U",
       "rMFn9dWayik",
       "l-2-dlsH5TA",
+      "0ehTN61RsPA",
       "KcLAzXTRpsA",
+      "qCEsbYoTr_U",
+      "OMg7PaOTQMw",
       "NcXBKVsPiEI",
       "f6ygyUjAMGQ",
       "Z0aBNDuqBQs",
       "57Jp2X-nWF0",
+      "_J-rIIrJD6Y",
       "FnmH_GrUrxw",
       "2sjME8-SZvI",
       "6aY_tLrhAl4",
       "sQ6tHYUUFds",
       "gzYEjZTNkB4",
+      "RPCWrDq1LJI",
       "VEFqz-gJjtc",
       "J5VSZnWD-7o",
       "KSoGXjzzUQg",
       "5NhW12kpSpo",
       "GVopW_gWh94",
       "cG1e46oLsDw",
+      "qchW-vbgN6Y",
       "bQRLBtXAAlw",
       "D7MkrByGpPw",
       "k9guiBN7s8A",
@@ -7243,8 +8083,14 @@
       "CpxYOJ_KMMk",
       "bD2-KKjiNeY",
       "vK6lPsrszX4",
+      "qkrOZUY8AxQ",
       "7IxomXRZKgY",
       "5aP3I7mexU8",
+      "CPe8bBPqWd8",
+      "7UBmFW2LUiw",
+      "8AszTEMp5AQ",
+      "q8gOzU511fU",
+      "t2dk-Pf4kK4",
       "pB2fDGOpYHY",
       "705px0lGpUA",
       "r56bHZ-x0Is",
@@ -7255,11 +8101,14 @@
       "TLpwhLIfyT8",
       "8Ul2AzgdndY",
       "ps24VUWk2xA",
+      "NVxtkQM6PEA",
+      "MZ2Y99Zyl0E",
       "fiBmkCUQNcQ",
       "hV1JxlUNfgE",
       "S2X35GMYI7w",
       "s3o5cGk_py8",
       "HZmuCoVJIs0",
+      "In9WQPoS9WM",
       "JlWPC9D3z6w",
       "29UsibU4quI",
       "F3ZlboxgRuA",
@@ -7271,15 +8120,15 @@
     ]
   },
   "jatim": {
-    "news_today": 10,
+    "news_today": 11,
     "negative_today": 1,
     "positive_today": 0,
     "case_scope_today": 0,
-    "neutral_today": 9,
+    "neutral_today": 10,
     "case_today": 1,
     "case_high_active": 0,
     "article_high_today": 0,
-    "outside_jatim_today": 19
+    "outside_jatim_today": 22
   },
   "regions": [
     {
@@ -7289,6 +8138,10 @@
     {
       "name": "Surabaya",
       "count": 3
+    },
+    {
+      "name": "Malang",
+      "count": 1
     },
     {
       "name": "Lamongan",
@@ -7311,6 +8164,10 @@
     {
       "name": "POLRES PROBOLINGGO",
       "count": 2
+    },
+    {
+      "name": "POLRES MALANG",
+      "count": 1
     },
     {
       "name": "POLRES BATU",
@@ -7336,7 +8193,7 @@
   "categories": [
     {
       "name": "NETRAL / LAINNYA",
-      "count": 9
+      "count": 10
     },
     {
       "name": "NEGATIF - NARKOBA / NARKOTIKA",
@@ -7344,19 +8201,19 @@
     }
   ],
   "summary": {
-    "news_today": 29,
-    "negative_today": 19,
-    "cases_today": 16,
+    "news_today": 33,
+    "negative_today": 21,
+    "cases_today": 18,
     "priority_high": 0,
     "article_priority_high": 0,
-    "jatim_news": 10,
+    "jatim_news": 11,
     "jatim_negative": 1,
     "jatim_positive": 0,
     "jatim_case_scope": 0,
-    "jatim_neutral": 9,
+    "jatim_neutral": 10,
     "jatim_cases_today": 1,
     "jatim_case_high_active": 0,
-    "luar_jatim_news": 19,
-    "youtube_today": 85
+    "luar_jatim_news": 22,
+    "youtube_today": 114
   }
 }

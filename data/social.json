@@ -1,25 +1,123 @@
 {
-  "generated_at": "2026-09-12T22:56:21.108334+00:00",
+  "generated_at": "2026-09-13T01:39:19.922870+00:00",
   "platform": "YouTube",
-  "query_cursor": 0,
+  "query_cursor": 3,
   "query_batch_size": 3,
   "query_success": 3,
   "query_skipped": 0,
   "quota_warning": false,
   "quota_block_date": null,
   "total": 1500,
-  "new_videos": 4,
+  "new_videos": 10,
   "statistics": {
     "total": 1500,
     "jatim": 89,
-    "negative": 576,
+    "negative": 577,
     "incident": 32,
-    "case": 251,
-    "neutral": 631,
+    "case": 246,
+    "neutral": 635,
     "noise": 10,
     "high_priority": 267
   },
   "items": [
+    {
+      "id": "27729c8baa677a884b02db22f7d9caf9641fccc2",
+      "video_id": "-D0TKRAXwXI",
+      "platform": "YouTube",
+      "type": "video",
+      "title": "berita Viral Bahasa Jawa Biksu Korupsi 53 M, Oknum Polisi Selingkuh, Predator Asusila Anak Kecil",
+      "channel": "Mas Mendi",
+      "published_at": "2026-09-13T01:30:06Z",
+      "url": "https://www.youtube.com/watch?v=-D0TKRAXwXI",
+      "thumbnail": "https://i.ytimg.com/vi/-D0TKRAXwXI/hqdefault.jpg",
+      "description": "berita viral, viral hari ini, berita terbaru, berita terkini, fakta viral, info viral, kabar terbaru, breaking news, update berita, trending ...",
+      "relevance": "high",
+      "scope": "negative",
+      "category": "Oknum / Korupsi / Pungli",
+      "classification_score": 100,
+      "is_jatim": false,
+      "region": "Indonesia",
+      "polres": null,
+      "location_confidence": 0,
+      "location_source": null,
+      "location_evidence": [],
+      "priority": "high",
+      "collected_at": "2026-09-13T01:39:19.922870+00:00"
+    },
+    {
+      "id": "68877f30a9ec6b0a892546da2f746155fce00a8a",
+      "video_id": "U_9b-owedcM",
+      "platform": "YouTube",
+      "type": "video",
+      "title": "Modus Sabu Tempel Terbongkar, Pria Gondrong sang Pengedar Ditangkap Polisi I Snapnews",
+      "channel": "Okezone",
+      "published_at": "2026-09-13T00:49:18Z",
+      "url": "https://www.youtube.com/watch?v=U_9b-owedcM",
+      "thumbnail": "https://i.ytimg.com/vi/U_9b-owedcM/hqdefault.jpg",
+      "description": "Satresnarkoba Polres Maros menangkap seorang pria berinisial F (26), asal Makassar, yang diduga menjadi pengedar sabu.",
+      "relevance": "high",
+      "scope": "negative",
+      "category": "Oknum / Narkoba",
+      "classification_score": 100,
+      "is_jatim": false,
+      "region": "Indonesia",
+      "polres": null,
+      "location_confidence": 0,
+      "location_source": null,
+      "location_evidence": [],
+      "priority": "high",
+      "collected_at": "2026-09-13T01:39:19.922870+00:00"
+    },
+    {
+      "id": "0f7d647e1abff116f44559f85e1d75007fa22467",
+      "video_id": "yGDCBm1M8FI",
+      "platform": "YouTube",
+      "type": "video",
+      "title": "Mau ditangkap mobil polisi",
+      "channel": "Adeo channel",
+      "published_at": "2026-09-13T00:41:50Z",
+      "url": "https://www.youtube.com/watch?v=yGDCBm1M8FI",
+      "thumbnail": "https://i.ytimg.com/vi/yGDCBm1M8FI/hqdefault.jpg",
+      "description": "",
+      "relevance": "medium",
+      "scope": "neutral",
+      "category": "Berita Polisi Lainnya",
+      "classification_score": 25,
+      "is_jatim": false,
+      "region": "Indonesia",
+      "polres": null,
+      "location_confidence": 0,
+      "location_source": null,
+      "location_evidence": [],
+      "priority": "low",
+      "collected_at": "2026-09-13T01:39:19.922870+00:00"
+    },
+    {
+      "id": "817ecabda893936338f7e932ca19ec3a6b0432db",
+      "video_id": "p7puQi_szMU",
+      "platform": "YouTube",
+      "type": "video",
+      "title": "3 Pengeroyok Bambang Setiawan Ditangkap, Polisi Ungkap Kerusuhan 27 Agustus!",
+      "channel": "KOMPASTV JAWA TIMUR",
+      "published_at": "2026-09-12T22:24:35Z",
+      "url": "https://www.youtube.com/watch?v=p7puQi_szMU",
+      "thumbnail": "https://i.ytimg.com/vi/p7puQi_szMU/hqdefault.jpg",
+      "description": "JAKARTA, KOMPAS.TV - Polda Metro Jaya menangkap tiga tersangka pengeroyokan dan penganiayaan terhadap Bambang ...",
+      "relevance": "high",
+      "scope": "negative",
+      "category": "Kekerasan / Penganiayaan",
+      "classification_score": 100,
+      "is_jatim": false,
+      "region": "Indonesia",
+      "polres": null,
+      "location_confidence": 0,
+      "location_source": "outside",
+      "location_evidence": [
+        "LUAR:jakarta"
+      ],
+      "priority": "medium",
+      "collected_at": "2026-09-13T01:39:19.922870+00:00"
+    },
     {
       "id": "e47a5e97c3aeb1ccdb795cebe433394dc65fecdf",
       "video_id": "cXZpZUOwQkw",
@@ -45,6 +143,30 @@
       "collected_at": "2026-09-12T22:56:21.108334+00:00"
     },
     {
+      "id": "fb239038b365f9a4206814ed0cdf52f4fdedf08e",
+      "video_id": "J1_WSX-0GVs",
+      "platform": "YouTube",
+      "type": "video",
+      "title": "Eks Anggota Polri Ungkap Setoran BD Narkoboy ke Oknum Polisi",
+      "channel": "TKPMedanbos",
+      "published_at": "2026-09-12T19:52:57Z",
+      "url": "https://www.youtube.com/watch?v=J1_WSX-0GVs",
+      "thumbnail": "https://i.ytimg.com/vi/J1_WSX-0GVs/hqdefault.jpg",
+      "description": "",
+      "relevance": "high",
+      "scope": "negative",
+      "category": "Oknum / Pelanggaran Anggota",
+      "classification_score": 100,
+      "is_jatim": false,
+      "region": "Indonesia",
+      "polres": null,
+      "location_confidence": 0,
+      "location_source": null,
+      "location_evidence": [],
+      "priority": "low",
+      "collected_at": "2026-09-13T01:39:19.922870+00:00"
+    },
+    {
       "id": "0d56fb07dd4d80c14b243960a52a59d04a0328da",
       "video_id": "wO8Jb9I8TVI",
       "platform": "YouTube",
@@ -67,6 +189,30 @@
       "location_evidence": [],
       "priority": "medium",
       "collected_at": "2026-09-12T22:56:21.108334+00:00"
+    },
+    {
+      "id": "3ab36d62ab4a4e700a7667cf0599233ffc6345be",
+      "video_id": "I7ZbczXH3a4",
+      "platform": "YouTube",
+      "type": "video",
+      "title": "Kisah petugas bongkar oknum polisi jadi backup",
+      "channel": "Bersuara Channel 99",
+      "published_at": "2026-09-12T16:40:22Z",
+      "url": "https://www.youtube.com/watch?v=I7ZbczXH3a4",
+      "thumbnail": "https://i.ytimg.com/vi/I7ZbczXH3a4/hqdefault.jpg",
+      "description": "",
+      "relevance": "high",
+      "scope": "negative",
+      "category": "Oknum / Pelanggaran Anggota",
+      "classification_score": 100,
+      "is_jatim": false,
+      "region": "Indonesia",
+      "polres": null,
+      "location_confidence": 0,
+      "location_source": null,
+      "location_evidence": [],
+      "priority": "low",
+      "collected_at": "2026-09-13T01:39:19.922870+00:00"
     },
     {
       "id": "ec81316036da8bd4ecb69af9f797f2419d1a310f",
@@ -138,7 +284,7 @@
       "location_source": null,
       "location_evidence": [],
       "priority": "low",
-      "collected_at": "2026-09-12T17:48:46.171119+00:00"
+      "collected_at": "2026-09-13T01:39:19.922870+00:00"
     },
     {
       "id": "017ba4ff002f35f1851aa2325fb116aa27c98fc3",
@@ -186,7 +332,7 @@
       "location_source": null,
       "location_evidence": [],
       "priority": "low",
-      "collected_at": "2026-09-12T17:48:46.171119+00:00"
+      "collected_at": "2026-09-13T01:39:19.922870+00:00"
     },
     {
       "id": "dbe64b5fa1d4f0f27ad68ace245b926bcdba998a",
@@ -210,7 +356,7 @@
       "location_source": null,
       "location_evidence": [],
       "priority": "low",
-      "collected_at": "2026-09-12T17:48:46.171119+00:00"
+      "collected_at": "2026-09-13T01:39:19.922870+00:00"
     },
     {
       "id": "3c1a9b535a5b5e45c55689448a035025a3e25832",
@@ -258,7 +404,7 @@
       "location_source": null,
       "location_evidence": [],
       "priority": "medium",
-      "collected_at": "2026-09-12T17:48:46.171119+00:00"
+      "collected_at": "2026-09-13T01:39:19.922870+00:00"
     },
     {
       "id": "90e6dc922ab4b03787c54f29b620247ff79c3bd7",
@@ -308,7 +454,7 @@
       "location_source": null,
       "location_evidence": [],
       "priority": "low",
-      "collected_at": "2026-09-12T17:48:46.171119+00:00"
+      "collected_at": "2026-09-13T01:39:19.922870+00:00"
     },
     {
       "id": "12f696ef1ae0c63987147c8398d1645b0dee84e8",
@@ -332,7 +478,7 @@
       "location_source": null,
       "location_evidence": [],
       "priority": "high",
-      "collected_at": "2026-09-12T17:48:46.171119+00:00"
+      "collected_at": "2026-09-13T01:39:19.922870+00:00"
     },
     {
       "id": "d17f23ebe08cdf4c8ea26dae37931cae49dba6c7",
@@ -382,7 +528,7 @@
         "LUAR:jakarta"
       ],
       "priority": "medium",
-      "collected_at": "2026-09-12T17:48:46.171119+00:00"
+      "collected_at": "2026-09-13T01:39:19.922870+00:00"
     },
     {
       "id": "5d9538815b95394da3b0a8ac75ff3f4850a67591",
@@ -406,7 +552,7 @@
       "location_source": null,
       "location_evidence": [],
       "priority": "low",
-      "collected_at": "2026-09-12T17:48:46.171119+00:00"
+      "collected_at": "2026-09-13T01:39:19.922870+00:00"
     },
     {
       "id": "7a666910e40f50fc4ded5db8b2b9ae011278bcfa",
@@ -454,7 +600,7 @@
       "location_source": null,
       "location_evidence": [],
       "priority": "high",
-      "collected_at": "2026-09-12T17:48:46.171119+00:00"
+      "collected_at": "2026-09-13T01:39:19.922870+00:00"
     },
     {
       "id": "712de1fc29f7a10f55a4da764d50cad0aa776b7a",
@@ -478,7 +624,7 @@
       "location_source": null,
       "location_evidence": [],
       "priority": "medium",
-      "collected_at": "2026-09-12T17:48:46.171119+00:00"
+      "collected_at": "2026-09-13T01:39:19.922870+00:00"
     },
     {
       "id": "65fbb1664b9966f33f1df4ac19e09bc75bd3e7eb",
@@ -502,7 +648,7 @@
       "location_source": null,
       "location_evidence": [],
       "priority": "low",
-      "collected_at": "2026-09-12T17:48:46.171119+00:00"
+      "collected_at": "2026-09-13T01:39:19.922870+00:00"
     },
     {
       "id": "6a54bcefcf3d4497f2156dc62207d49cdb558ca1",
@@ -526,7 +672,7 @@
       "location_source": null,
       "location_evidence": [],
       "priority": "low",
-      "collected_at": "2026-09-12T14:46:53.943655+00:00"
+      "collected_at": "2026-09-13T01:39:19.922870+00:00"
     },
     {
       "id": "6ab89d8ad022f940abffc63c6b0c090163716929",
@@ -550,7 +696,7 @@
       "location_source": null,
       "location_evidence": [],
       "priority": "low",
-      "collected_at": "2026-09-12T14:46:53.943655+00:00"
+      "collected_at": "2026-09-13T01:39:19.922870+00:00"
     },
     {
       "id": "b7a468f8bd5b16871b23612d18aedf3652ad894f",
@@ -574,7 +720,31 @@
       "location_source": null,
       "location_evidence": [],
       "priority": "low",
-      "collected_at": "2026-09-12T17:48:46.171119+00:00"
+      "collected_at": "2026-09-13T01:39:19.922870+00:00"
+    },
+    {
+      "id": "874806d1d6f66bdd0e9672ac5201194c5553404c",
+      "video_id": "a3RlDBJYbAw",
+      "platform": "YouTube",
+      "type": "video",
+      "title": "One question broke this officer entire power trip",
+      "channel": "Audit Justice",
+      "published_at": "2026-09-12T09:23:41Z",
+      "url": "https://www.youtube.com/watch?v=a3RlDBJYbAw",
+      "thumbnail": "https://i.ytimg.com/vi/a3RlDBJYbAw/hqdefault.jpg",
+      "description": "shorts.",
+      "relevance": "low",
+      "scope": "neutral",
+      "category": "Tidak Relevan",
+      "classification_score": 0,
+      "is_jatim": false,
+      "region": "Indonesia",
+      "polres": null,
+      "location_confidence": 0,
+      "location_source": null,
+      "location_evidence": [],
+      "priority": "low",
+      "collected_at": "2026-09-13T01:39:19.922870+00:00"
     },
     {
       "id": "bb9d7efeead37043ed7fab282318c5374514226f",
@@ -600,7 +770,31 @@
         "LUAR:sumatera barat"
       ],
       "priority": "low",
-      "collected_at": "2026-09-12T17:48:46.171119+00:00"
+      "collected_at": "2026-09-13T01:39:19.922870+00:00"
+    },
+    {
+      "id": "98ff645d9754c5b3f7fe7f1103f8fba30e1352ee",
+      "video_id": "sMV6TIJ4bVA",
+      "platform": "YouTube",
+      "type": "video",
+      "title": "GOA POLICE NE PAKAD LIYA || STORYTIME ",
+      "channel": "Lavanya Das Manikpuri",
+      "published_at": "2026-09-12T09:17:33Z",
+      "url": "https://www.youtube.com/watch?v=sMV6TIJ4bVA",
+      "thumbnail": "https://i.ytimg.com/vi/sMV6TIJ4bVA/hqdefault.jpg",
+      "description": "",
+      "relevance": "low",
+      "scope": "neutral",
+      "category": "Tidak Relevan",
+      "classification_score": 0,
+      "is_jatim": false,
+      "region": "Indonesia",
+      "polres": null,
+      "location_confidence": 0,
+      "location_source": null,
+      "location_evidence": [],
+      "priority": "low",
+      "collected_at": "2026-09-13T01:39:19.922870+00:00"
     },
     {
       "id": "1c232ce84f73b98195ad55f5ff17d61b36a30cb5",
@@ -698,7 +892,7 @@
       "location_source": null,
       "location_evidence": [],
       "priority": "low",
-      "collected_at": "2026-09-12T17:48:46.171119+00:00"
+      "collected_at": "2026-09-13T01:39:19.922870+00:00"
     },
     {
       "id": "89a3b4195190ad38cf899f657b97c35c73c3a4af",
@@ -725,7 +919,31 @@
         "bangkalan"
       ],
       "priority": "low",
-      "collected_at": "2026-09-12T17:48:46.171119+00:00"
+      "collected_at": "2026-09-13T01:39:19.922870+00:00"
+    },
+    {
+      "id": "1127497986d1a99df64f0a3539f2e00b28099972",
+      "video_id": "ccZr8nFnYAI",
+      "platform": "YouTube",
+      "type": "video",
+      "title": "내부망 정보 털어 &#39;뒷돈&#39;…현직 경찰관의 &#39;위험한 돈벌이&#39;[PICK]/ 연합뉴스TV(YonhapnewsTV)",
+      "channel": "연합뉴스TV",
+      "published_at": "2026-09-12T07:37:24Z",
+      "url": "https://www.youtube.com/watch?v=ccZr8nFnYAI",
+      "thumbnail": "https://i.ytimg.com/vi/ccZr8nFnYAI/hqdefault.jpg",
+      "description": "경찰 내부망을 통해 얻은 개인정보를 외부로 유출한 경찰관이 경찰에 붙잡혔습니다. 경기북부경찰청 광역범죄수사계는 개인정보 ...",
+      "relevance": "low",
+      "scope": "neutral",
+      "category": "Tidak Relevan",
+      "classification_score": 0,
+      "is_jatim": false,
+      "region": "Indonesia",
+      "polres": null,
+      "location_confidence": 0,
+      "location_source": null,
+      "location_evidence": [],
+      "priority": "low",
+      "collected_at": "2026-09-13T01:39:19.922870+00:00"
     },
     {
       "id": "7a4a60b45ed2a35336a65726e8d6c0296e769b16",
@@ -749,7 +967,31 @@
       "location_source": null,
       "location_evidence": [],
       "priority": "low",
-      "collected_at": "2026-09-12T17:48:46.171119+00:00"
+      "collected_at": "2026-09-13T01:39:19.922870+00:00"
+    },
+    {
+      "id": "ce5235265afbc6465a20f45a83601c52d6836aa1",
+      "video_id": "ZgbClYzApCQ",
+      "platform": "YouTube",
+      "type": "video",
+      "title": "내부망 개인정보 유출…경기북부 현직 경찰관 검거 / 연합뉴스TV (YonhapnewsTV)",
+      "channel": "연합뉴스TV",
+      "published_at": "2026-09-12T06:55:04Z",
+      "url": "https://www.youtube.com/watch?v=ZgbClYzApCQ",
+      "thumbnail": "https://i.ytimg.com/vi/ZgbClYzApCQ/hqdefault.jpg",
+      "description": "경찰 내부망을 통해 얻은 개인정보를 외부로 유출한 경찰관이 경찰에 붙잡혔습니다. 경기북부경찰청 광역범죄수사계는 개인정보 ...",
+      "relevance": "low",
+      "scope": "neutral",
+      "category": "Tidak Relevan",
+      "classification_score": 0,
+      "is_jatim": false,
+      "region": "Indonesia",
+      "polres": null,
+      "location_confidence": 0,
+      "location_source": null,
+      "location_evidence": [],
+      "priority": "low",
+      "collected_at": "2026-09-13T01:39:19.922870+00:00"
     },
     {
       "id": "ad8d13190585a002fbc671372e21ed913af4126f",
@@ -773,7 +1015,7 @@
       "location_source": null,
       "location_evidence": [],
       "priority": "low",
-      "collected_at": "2026-09-12T14:46:53.943655+00:00"
+      "collected_at": "2026-09-13T01:39:19.922870+00:00"
     },
     {
       "id": "6bc3040b081a4df674fe95bebabafacefc40d846",
@@ -821,7 +1063,7 @@
       "location_source": null,
       "location_evidence": [],
       "priority": "medium",
-      "collected_at": "2026-09-12T17:48:46.171119+00:00"
+      "collected_at": "2026-09-13T01:39:19.922870+00:00"
     },
     {
       "id": "1b52d85edd7a27f1dc49c2b302f9f464449ddd13",
@@ -845,7 +1087,7 @@
       "location_source": null,
       "location_evidence": [],
       "priority": "low",
-      "collected_at": "2026-09-12T14:46:53.943655+00:00"
+      "collected_at": "2026-09-13T01:39:19.922870+00:00"
     },
     {
       "id": "0a22168c4a277699f6baa6b6cc20526150c63d57",
@@ -919,7 +1161,7 @@
       "location_source": null,
       "location_evidence": [],
       "priority": "low",
-      "collected_at": "2026-09-12T14:46:53.943655+00:00"
+      "collected_at": "2026-09-13T01:39:19.922870+00:00"
     },
     {
       "id": "2424c24b03fe9f789d7c81882d2360c7d0da6804",
@@ -943,7 +1185,7 @@
       "location_source": null,
       "location_evidence": [],
       "priority": "low",
-      "collected_at": "2026-09-12T17:48:46.171119+00:00"
+      "collected_at": "2026-09-13T01:39:19.922870+00:00"
     },
     {
       "id": "d551aac3327f97bb8368ef843e88d224a947caed",
@@ -967,7 +1209,7 @@
       "location_source": null,
       "location_evidence": [],
       "priority": "low",
-      "collected_at": "2026-09-12T14:46:53.943655+00:00"
+      "collected_at": "2026-09-13T01:39:19.922870+00:00"
     },
     {
       "id": "3eb257d51a3f075bcc5c708353c3cd4127a0cfc8",
@@ -991,7 +1233,7 @@
       "location_source": null,
       "location_evidence": [],
       "priority": "low",
-      "collected_at": "2026-09-12T14:46:53.943655+00:00"
+      "collected_at": "2026-09-13T01:39:19.922870+00:00"
     },
     {
       "id": "a8f52fc06c7ed26843820c69c9e08c1aa4a24c5a",
@@ -1015,7 +1257,7 @@
       "location_source": null,
       "location_evidence": [],
       "priority": "low",
-      "collected_at": "2026-09-12T17:48:46.171119+00:00"
+      "collected_at": "2026-09-13T01:39:19.922870+00:00"
     },
     {
       "id": "faca9338aaa0d39b2a6e4f4d7b43ce2832ab82cb",
@@ -1039,7 +1281,7 @@
       "location_source": null,
       "location_evidence": [],
       "priority": "high",
-      "collected_at": "2026-09-12T17:48:46.171119+00:00"
+      "collected_at": "2026-09-13T01:39:19.922870+00:00"
     },
     {
       "id": "054653f23398ea288f31de97ab2fead44244e6a0",
@@ -1063,7 +1305,7 @@
       "location_source": null,
       "location_evidence": [],
       "priority": "low",
-      "collected_at": "2026-09-12T17:48:46.171119+00:00"
+      "collected_at": "2026-09-13T01:39:19.922870+00:00"
     },
     {
       "id": "2dbb2622731cc841a129e435c71c1ebac800f657",
@@ -1111,7 +1353,7 @@
       "location_source": null,
       "location_evidence": [],
       "priority": "low",
-      "collected_at": "2026-09-12T14:46:53.943655+00:00"
+      "collected_at": "2026-09-13T01:39:19.922870+00:00"
     },
     {
       "id": "c450addf3ace0e9fe79922dd9de7162064f00d76",
@@ -1255,7 +1497,7 @@
       "location_source": null,
       "location_evidence": [],
       "priority": "low",
-      "collected_at": "2026-09-12T14:46:53.943655+00:00"
+      "collected_at": "2026-09-13T01:39:19.922870+00:00"
     },
     {
       "id": "f4ceb60925421f288e23aa3143a1ba0ed83e9115",
@@ -1423,7 +1665,7 @@
       "location_source": null,
       "location_evidence": [],
       "priority": "low",
-      "collected_at": "2026-09-12T14:46:53.943655+00:00"
+      "collected_at": "2026-09-13T01:39:19.922870+00:00"
     },
     {
       "id": "4d922716536a407ad4c1510a119c4d028682a103",
@@ -1783,7 +2025,7 @@
       "location_source": null,
       "location_evidence": [],
       "priority": "low",
-      "collected_at": "2026-09-12T14:46:53.943655+00:00"
+      "collected_at": "2026-09-13T01:39:19.922870+00:00"
     },
     {
       "id": "5fa92a651a485df3d458996692b670defb140255",
@@ -1903,7 +2145,7 @@
       "location_source": null,
       "location_evidence": [],
       "priority": "low",
-      "collected_at": "2026-09-12T14:46:53.943655+00:00"
+      "collected_at": "2026-09-13T01:39:19.922870+00:00"
     },
     {
       "id": "a63fabb6b1db6b7fdecf9c22b4d770ca70ea4e05",
@@ -1927,7 +2169,7 @@
       "location_source": null,
       "location_evidence": [],
       "priority": "low",
-      "collected_at": "2026-09-12T14:46:53.943655+00:00"
+      "collected_at": "2026-09-13T01:39:19.922870+00:00"
     },
     {
       "id": "3a6df1bc14a02fb6f38475011f9964b26c231b7a",
@@ -1951,7 +2193,7 @@
       "location_source": null,
       "location_evidence": [],
       "priority": "low",
-      "collected_at": "2026-09-12T14:46:53.943655+00:00"
+      "collected_at": "2026-09-13T01:39:19.922870+00:00"
     },
     {
       "id": "11c7b5139640c329b4ead1b330a48e8668d134f1",
@@ -1999,7 +2241,7 @@
       "location_source": null,
       "location_evidence": [],
       "priority": "medium",
-      "collected_at": "2026-09-12T14:46:53.943655+00:00"
+      "collected_at": "2026-09-13T01:39:19.922870+00:00"
     },
     {
       "id": "b517277b83352e65752f517f9d94d41fa7e992bc",
@@ -2023,7 +2265,7 @@
       "location_source": null,
       "location_evidence": [],
       "priority": "medium",
-      "collected_at": "2026-09-12T14:46:53.943655+00:00"
+      "collected_at": "2026-09-13T01:39:19.922870+00:00"
     },
     {
       "id": "64b443275aa4490f70421af1d647e6c1310443aa",
@@ -2623,7 +2865,7 @@
       "location_source": null,
       "location_evidence": [],
       "priority": "medium",
-      "collected_at": "2026-09-12T14:46:53.943655+00:00"
+      "collected_at": "2026-09-13T01:39:19.922870+00:00"
     },
     {
       "id": "3c9f224d83618cdd2bd5de4d7bc1f2e390d43247",
@@ -2839,7 +3081,7 @@
       "location_source": null,
       "location_evidence": [],
       "priority": "medium",
-      "collected_at": "2026-09-12T14:46:53.943655+00:00"
+      "collected_at": "2026-09-13T01:39:19.922870+00:00"
     },
     {
       "id": "86847840dfbb45f6429f448cd732df7fc7af4148",
@@ -3151,7 +3393,7 @@
       "location_source": null,
       "location_evidence": [],
       "priority": "low",
-      "collected_at": "2026-09-12T14:46:53.943655+00:00"
+      "collected_at": "2026-09-13T01:39:19.922870+00:00"
     },
     {
       "id": "b093ed651ffa9bd4b0538577f13fb16f4559af8e",
@@ -36378,246 +36620,6 @@
       ],
       "priority": "high",
       "collected_at": "2026-08-28T05:28:21.204117+00:00"
-    },
-    {
-      "id": "a00878350861067a5279e2e17f5ed18cc9a5d17e",
-      "video_id": "__fziWIL91E",
-      "platform": "YouTube",
-      "type": "video",
-      "title": "Polisi Respons Cepat, Pelaku Penganiayaan dengan Parang Diamankan di Tigabinanga",
-      "channel": "HUMAS POLRES KARO",
-      "published_at": "2026-08-27T08:42:33Z",
-      "url": "https://www.youtube.com/watch?v=__fziWIL91E",
-      "thumbnail": "https://i.ytimg.com/vi/__fziWIL91E/hqdefault.jpg",
-      "description": "",
-      "relevance": "high",
-      "scope": "negative",
-      "category": "Kekerasan / Penganiayaan",
-      "classification_score": 100,
-      "is_jatim": false,
-      "region": "Indonesia",
-      "polres": null,
-      "location_confidence": 0,
-      "location_source": null,
-      "location_evidence": [],
-      "priority": "medium",
-      "collected_at": "2026-08-28T05:55:08.122189+00:00"
-    },
-    {
-      "id": "e04a95edb1368f2f0f746d6215df4cd4b690f4e6",
-      "video_id": "r-NT96RFmm0",
-      "platform": "YouTube",
-      "type": "video",
-      "title": "Detik-Detik Barikade Polisi Sempat di Jebol #ytshorts #news #pemerintah #korupsi",
-      "channel": "VIRALITIK",
-      "published_at": "2026-08-27T08:25:21Z",
-      "url": "https://www.youtube.com/watch?v=r-NT96RFmm0",
-      "thumbnail": "https://i.ytimg.com/vi/r-NT96RFmm0/hqdefault.jpg",
-      "description": "",
-      "relevance": "high",
-      "scope": "negative",
-      "category": "Oknum / Korupsi / Pungli",
-      "classification_score": 100,
-      "is_jatim": false,
-      "region": "Indonesia",
-      "polres": null,
-      "location_confidence": 0,
-      "location_source": null,
-      "location_evidence": [],
-      "priority": "high",
-      "collected_at": "2026-08-28T05:28:21.204117+00:00"
-    },
-    {
-      "id": "67f759629ee2eecb6d83a60f88c3b2b885c199ae",
-      "video_id": "dPh2erPlUiw",
-      "platform": "YouTube",
-      "type": "video",
-      "title": "*gua merinding banget ditangkap polisi anjing ini 😭😭* #cute #funny #terening",
-      "channel": "Holil Ho",
-      "published_at": "2026-08-27T08:06:52Z",
-      "url": "https://www.youtube.com/watch?v=dPh2erPlUiw",
-      "thumbnail": "https://i.ytimg.com/vi/dPh2erPlUiw/hqdefault.jpg",
-      "description": "",
-      "relevance": "high",
-      "scope": "case",
-      "category": "Ungkap Kasus",
-      "classification_score": 60,
-      "is_jatim": false,
-      "region": "Indonesia",
-      "polres": null,
-      "location_confidence": 0,
-      "location_source": null,
-      "location_evidence": [],
-      "priority": "low",
-      "collected_at": "2026-08-27T20:35:41.191412+00:00"
-    },
-    {
-      "id": "0b8e6177ee26dba5d3824c6522f561d75f707a89",
-      "video_id": "MVVe-nHPthk",
-      "platform": "YouTube",
-      "type": "video",
-      "title": "Jaringan narkoba lintas provinsi terbongkar, barang bukti besar diamankan Polisi menangkap #Shorts",
-      "channel": "Berita Jawa Tengah",
-      "published_at": "2026-08-27T08:01:41Z",
-      "url": "https://www.youtube.com/watch?v=MVVe-nHPthk",
-      "thumbnail": "https://i.ytimg.com/vi/MVVe-nHPthk/hqdefault.jpg",
-      "description": "Jaringan narkoba lintas provinsi terbongkar, barang bukti besar diamankan Polisi menangkap seorang kurir narkoba dalam ...",
-      "relevance": "high",
-      "scope": "negative",
-      "category": "Oknum / Narkoba",
-      "classification_score": 100,
-      "is_jatim": false,
-      "region": "Indonesia",
-      "polres": null,
-      "location_confidence": 0,
-      "location_source": null,
-      "location_evidence": [],
-      "priority": "high",
-      "collected_at": "2026-08-28T05:28:21.204117+00:00"
-    },
-    {
-      "id": "05df7348c5454f8039d76eecb02687d6d3242b61",
-      "video_id": "LSbKT6CkugU",
-      "platform": "YouTube",
-      "type": "video",
-      "title": "Diduga Setubuhi Murid, Oknum Guru di Tanah Bumbu Ditangkap Polisi",
-      "channel": "Interaksi TV",
-      "published_at": "2026-08-27T08:00:47Z",
-      "url": "https://www.youtube.com/watch?v=LSbKT6CkugU",
-      "thumbnail": "https://i.ytimg.com/vi/LSbKT6CkugU/hqdefault.jpg",
-      "description": "Kasus ini terbongkar setelah perbuatan terlarang tersangka, yang merupakan warga Kecamatan Karang Bintang itu, diketahui ...",
-      "relevance": "high",
-      "scope": "negative",
-      "category": "Oknum / Pelanggaran Anggota",
-      "classification_score": 100,
-      "is_jatim": false,
-      "region": "Indonesia",
-      "polres": null,
-      "location_confidence": 0,
-      "location_source": null,
-      "location_evidence": [],
-      "priority": "medium",
-      "collected_at": "2026-08-27T20:35:41.191412+00:00"
-    },
-    {
-      "id": "2f94b3458a1c8417238a6c202e574215f01f1dd9",
-      "video_id": "gtXQci258cM",
-      "platform": "YouTube",
-      "type": "video",
-      "title": "BAHAYA 😌😏😲 Demo Belum dimulai Sejumlah Orang Sudah Ditangkap Polisi #viral #shorts #demo #pati #AMPB",
-      "channel": "Dunia Harapan",
-      "published_at": "2026-08-27T08:00:08Z",
-      "url": "https://www.youtube.com/watch?v=gtXQci258cM",
-      "thumbnail": "https://i.ytimg.com/vi/gtXQci258cM/hqdefault.jpg",
-      "description": "Menteri Koordinator Bidang Politik dan Keamanan (Menko Polkam) Djamari Chaniago menyebut ada beberapa orang yang ...",
-      "relevance": "high",
-      "scope": "case",
-      "category": "Ungkap Kasus",
-      "classification_score": 60,
-      "is_jatim": false,
-      "region": "Indonesia",
-      "polres": null,
-      "location_confidence": 0,
-      "location_source": null,
-      "location_evidence": [],
-      "priority": "low",
-      "collected_at": "2026-08-27T20:35:41.191412+00:00"
-    },
-    {
-      "id": "63caa17e872f7811e36c64620846912ee4fd98ad",
-      "video_id": "OPMgqsSzyD8",
-      "platform": "YouTube",
-      "type": "video",
-      "title": "Police Corruption पर Judge साहब भड़के😱वर्दी में PC Act भूल गए?Police को Suspension आम आदमी को Jail⚖️",
-      "channel": "Rishabh Kumar",
-      "published_at": "2026-08-27T08:00:06Z",
-      "url": "https://www.youtube.com/watch?v=OPMgqsSzyD8",
-      "thumbnail": "https://i.ytimg.com/vi/OPMgqsSzyD8/hqdefault.jpg",
-      "description": "Police Corruption पर Judge साहब की सख्त टिप्पणी ⚖️ | PC Act | Corruption Case क्या Police ...",
-      "relevance": "low",
-      "scope": "neutral",
-      "category": "Tidak Relevan",
-      "classification_score": 0,
-      "is_jatim": false,
-      "region": "Indonesia",
-      "polres": null,
-      "location_confidence": 0,
-      "location_source": null,
-      "location_evidence": [],
-      "priority": "low",
-      "collected_at": "2026-08-28T05:28:21.204117+00:00"
-    },
-    {
-      "id": "8b150d93697d4b294843f6147f2d140f1353a435",
-      "video_id": "HKhQhhpiwlg",
-      "platform": "YouTube",
-      "type": "video",
-      "title": "RICUH! Ada Golok di Demo DPR, Pemilik Ditangkap Polisi | iNews Terkini",
-      "channel": "Official iNews",
-      "published_at": "2026-08-27T07:50:34Z",
-      "url": "https://www.youtube.com/watch?v=HKhQhhpiwlg",
-      "thumbnail": "https://i.ytimg.com/vi/HKhQhhpiwlg/hqdefault.jpg",
-      "description": "Berita Selengkapnya baca di: https://inews.id/news Join membership channel ini dan nikmati berbagai konten eksklusif: ...",
-      "relevance": "high",
-      "scope": "case",
-      "category": "Ungkap Kasus",
-      "classification_score": 60,
-      "is_jatim": false,
-      "region": "Indonesia",
-      "polres": null,
-      "location_confidence": 0,
-      "location_source": null,
-      "location_evidence": [],
-      "priority": "low",
-      "collected_at": "2026-08-27T20:35:41.191412+00:00"
-    },
-    {
-      "id": "c0592fbedc9f0fb7cc14fab120b495fe8a3e2d60",
-      "video_id": "DJXK1dE2F-c",
-      "platform": "YouTube",
-      "type": "video",
-      "title": "Sejumlah Orang Ditangkap Polisi Jelang Demo 27 Agustus, Pengamat Soroti Transparansi",
-      "channel": "Tribun Kaltara Official",
-      "published_at": "2026-08-27T07:35:31Z",
-      "url": "https://www.youtube.com/watch?v=DJXK1dE2F-c",
-      "thumbnail": "https://i.ytimg.com/vi/DJXK1dE2F-c/hqdefault.jpg",
-      "description": "Download aplikasi berita TribunX di Play Store atau App Store untuk dapatkan pengalaman baru TRIBUN-VIDEO.",
-      "relevance": "high",
-      "scope": "case",
-      "category": "Ungkap Kasus",
-      "classification_score": 60,
-      "is_jatim": false,
-      "region": "Indonesia",
-      "polres": null,
-      "location_confidence": 0,
-      "location_source": null,
-      "location_evidence": [],
-      "priority": "low",
-      "collected_at": "2026-08-27T20:35:41.191412+00:00"
-    },
-    {
-      "id": "579ffe41f3f379da1276d298be3317365271a256",
-      "video_id": "mdqJncJTy70",
-      "platform": "YouTube",
-      "type": "video",
-      "title": "Diduga Sekap Ibu Kandung, Pemuda Ditangkap Polisi",
-      "channel": "Sin Po tv",
-      "published_at": "2026-08-27T07:10:06Z",
-      "url": "https://www.youtube.com/watch?v=mdqJncJTy70",
-      "thumbnail": "https://i.ytimg.com/vi/mdqJncJTy70/hqdefault.jpg",
-      "description": "Petugas Polsek Medan Tembung menangkap seorang pemuda berinisial MH, 18 tahun, di Desa Sampali, Kecamatan Percut Sei ...",
-      "relevance": "high",
-      "scope": "case",
-      "category": "Ungkap Kasus",
-      "classification_score": 60,
-      "is_jatim": false,
-      "region": "Indonesia",
-      "polres": null,
-      "location_confidence": 0,
-      "location_source": null,
-      "location_evidence": [],
-      "priority": "low",
-      "collected_at": "2026-08-27T20:35:41.191412+00:00"
     }
   ]
 }
