@@ -2,18 +2,25 @@
   "schema_version": "today-v3",
   "date": "2026-09-14",
   "timezone": "Asia/Jakarta",
-  "updated_at": "2026-09-14T06:01:13.546698+07:00",
-  "last_successful_update": "2026-09-14T06:01:13.546698+07:00",
+  "updated_at": "2026-09-14T08:36:51.882389+07:00",
+  "last_successful_update": "2026-09-14T08:36:51.882389+07:00",
   "news": {
-    "detected": 7,
+    "detected": 14,
     "negative": 2,
-    "positive": 0,
+    "positive": 1,
     "case": 0,
-    "neutral": 5,
-    "jatim": 2,
-    "luar_jatim": 5,
+    "neutral": 11,
+    "jatim": 8,
+    "luar_jatim": 6,
     "priority_high": 0,
     "article_ids": [
+      "abfdb7d53bc0030a92c2fbfb5387f3f3ebd2484f",
+      "02ca92a42103b08d4486ac2a71e87e598aaf1e76",
+      "c0543618d819eed2a74c232564c75e75e3fcba30",
+      "08b7a46fe2513353ac62f3b589526031d0950ed3",
+      "7a14b6b7361142771ac97917f313882bc545d830",
+      "220167a29fa2d2a2d2aba9d00d9640b83f155619",
+      "30599fe088d47ed6ca7eaa8e47bf1e5ff70b078b",
       "20e1ed154fd3f0872a29db2e7407d74289a2d693",
       "20fd743581a21ca9ddab8705f1ac90a29695dcf5",
       "8c44bc1d03e4201ad08a8a4116b1de40a00bc31e",
@@ -24,6 +31,483 @@
     ],
     "items": [
       {
+        "id": "abfdb7d53bc0030a92c2fbfb5387f3f3ebd2484f",
+        "title": "Tim Klewang Ringkus Tiga Pelaku Curanmor di Padang, Polisi Ungkap Puluhan TKP - Kata Sumbar",
+        "url": "https://katasumbar.com/tim-klewang-ringkus-tiga-pelaku-curanmor-di-padang-polisi-ungkap-puluhan-tkp/",
+        "source": "Kata Sumbar",
+        "published_at": "2026-09-14T01:00:00+00:00",
+        "collected_at": "2026-09-14T01:08:41.364013+00:00",
+        "region": "BELUM TERPETAKAN",
+        "area_label": "BELUM TERPETAKAN",
+        "is_jatim": null,
+        "polres": null,
+        "category": "POSITIF / PENEGAKAN HUKUM",
+        "scope": "positive",
+        "scope_label": "Positif",
+        "priority": "low",
+        "summary": "Tim Klewang Ringkus Tiga Pelaku Curanmor di Padang, Polisi Ungkap Puluhan TKP Kata Sumbar",
+        "processing_status": "processed",
+        "classifier_version": "news-v6",
+        "classified_at": "2026-09-14T01:08:41.364013+00:00",
+        "case_id": null,
+        "discovery_families": [],
+        "discovery_tags": [],
+        "discovery_hits": [],
+        "discovery_version": "discovery-v6.5.4",
+        "google_news_url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQSTd6WkdHeHZIcjJ5SlZja21ob0R1dG4zSXItR0xiN3poTy1kSko1d0tRVmNTaERLbzhaM2FwV3FTdE52aDdzRDFzYi1jV2dwOEVhR3JpQU1jV1FJeVRJdHVyN1NSVEM4c3d4c1Q1aTRyNzllWGhrTHM0OTlXODhnV2gxUDFTbXVvNkhOYW1DcHREcGY1c1QwQWxNUWgxWDYzQlHSAacBQVVfeXFMUHg4Qk0zdlg2STJYZkxJOUJtd01kUmRfMnVKWk1QVndLZmQ2QkZBenU0VjhkWEkxcDUxN2JQM3FpbnpUQXBkcmNEdk5MRjNjRE1fZWNMdmNvZy1iU05HUGwxN2VkOTMzeU5WMGs2Zi1sZ1Q4Skc2b2pUYTJ1eGo5UUdDNEVlcnkxLWZpbEh0ZW1ySkZRUDlXNmZDYVVyeEFER3NFNFRqSVE?oc=5",
+        "original_url": "https://katasumbar.com/tim-klewang-ringkus-tiga-pelaku-curanmor-di-padang-polisi-ungkap-puluhan-tkp/",
+        "locality": "",
+        "polsek": null,
+        "location_confidence": 0,
+        "location_evidence": [],
+        "location_status": "BELUM_TERPETAKAN",
+        "location_source": "title",
+        "issue_type": "UMUM",
+        "issue_subtype": "Belum Teridentifikasi",
+        "issue_evidence": [],
+        "handling_status": "BELUM_ADA_INFORMASI",
+        "handling_evidence": [],
+        "attention_score": 9,
+        "attention_label": "Rendah",
+        "attention_components": {
+          "severity": 2,
+          "polri_relation": 2,
+          "authority": 0,
+          "public_impact": 4,
+          "handling": 0,
+          "evidence": 1,
+          "context_risk": 0,
+          "routine_enforcement_cap": 35
+        },
+        "attention_evidence": {
+          "severity": [],
+          "authority": [],
+          "public_impact": [],
+          "evidence": [
+            "satu sumber / informasi awal"
+          ],
+          "role": [
+            "Polri sebagai pihak penindak"
+          ],
+          "issue": [],
+          "handling": [],
+          "context": [],
+          "positive": []
+        },
+        "case_engine_version": "case-v6.5.4",
+        "case_processed_at": "2026-09-14T01:13:07.345847+00:00"
+      },
+      {
+        "id": "02ca92a42103b08d4486ac2a71e87e598aaf1e76",
+        "title": "Respons Cepat Polsek Mantingan Polres Ngawi Cegah Karhutla Meluas - metrotv9news",
+        "url": "https://metrotv9news.com/daerah/respons-cepat-polsek-mantingan-polres-ngawi-cegah-karhutla-meluas/",
+        "source": "metrotv9news",
+        "published_at": "2026-09-14T00:50:56+00:00",
+        "collected_at": "2026-09-14T01:08:41.364013+00:00",
+        "region": "Jawa Timur",
+        "area_label": "Ngawi",
+        "is_jatim": true,
+        "polres": "POLRES NGAWI",
+        "category": "NETRAL / LAINNYA",
+        "scope": "neutral",
+        "scope_label": "Netral",
+        "priority": "low",
+        "summary": "Respons Cepat Polsek Mantingan Polres Ngawi Cegah Karhutla Meluas metrotv9news",
+        "processing_status": "processed",
+        "classifier_version": "news-v6",
+        "classified_at": "2026-09-14T01:08:41.364013+00:00",
+        "case_id": null,
+        "discovery_families": [],
+        "discovery_tags": [],
+        "discovery_hits": [],
+        "discovery_version": "discovery-v6.5.4",
+        "google_news_url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQUWtNRzE3Uk9TOElGX21MRmliNzd3M1NqMG96dlZQT0pPVjk1WXQ5TXl3UFFnOUxqSW56MjVDVllDYldQcExESm9PZzltQl95VmwwTXByMjRSZzZnOFBLTnBlbHdBaHZMS2hvSFduclQ2UWwzOTlNVGp3OTFld0Y2TFBCWVVYc3R2WGxEdnZHZEJPMEpBanBwakJ5bktVTzQ?oc=5",
+        "original_url": "https://metrotv9news.com/daerah/respons-cepat-polsek-mantingan-polres-ngawi-cegah-karhutla-meluas/",
+        "locality": "Ngawi",
+        "polsek": "POLSEK MANTINGAN POLRES NGAWI",
+        "location_confidence": 100,
+        "location_evidence": [
+          "polres ngawi",
+          "POLSEK MANTINGAN POLRES NGAWI",
+          "Ngawi"
+        ],
+        "location_status": "JAWA_TIMUR",
+        "location_source": "title",
+        "issue_type": "UMUM",
+        "issue_subtype": "Belum Teridentifikasi",
+        "issue_evidence": [],
+        "handling_status": "BELUM_ADA_INFORMASI",
+        "handling_evidence": [],
+        "attention_score": 7,
+        "attention_label": "Rendah",
+        "attention_components": {
+          "severity": 2,
+          "polri_relation": 0,
+          "authority": 0,
+          "public_impact": 4,
+          "handling": 0,
+          "evidence": 1,
+          "context_risk": 0,
+          "routine_enforcement_cap": null
+        },
+        "attention_evidence": {
+          "severity": [],
+          "authority": [],
+          "public_impact": [],
+          "evidence": [
+            "satu sumber / informasi awal"
+          ],
+          "role": [],
+          "issue": [],
+          "handling": [],
+          "context": [],
+          "positive": []
+        },
+        "case_engine_version": "case-v6.5.4",
+        "case_processed_at": "2026-09-14T01:13:07.667980+00:00"
+      },
+      {
+        "id": "c0543618d819eed2a74c232564c75e75e3fcba30",
+        "title": "Tim Medis Polres Malang Turun Tangan Obati Petugas Karhutla yang Roboh dan Terluka - TagarJatim.id",
+        "url": "https://tagarjatim.id/33275/tim-medis-polres-malang-turun-tangan-obati-petugas-karhutla-yang-roboh-dan-terluka/",
+        "source": "TagarJatim.id",
+        "published_at": "2026-09-14T00:38:05+00:00",
+        "collected_at": "2026-09-14T01:08:41.364013+00:00",
+        "region": "Jawa Timur",
+        "area_label": "Malang",
+        "is_jatim": true,
+        "polres": "POLRES MALANG",
+        "category": "NETRAL / LAINNYA",
+        "scope": "neutral",
+        "scope_label": "Netral",
+        "priority": "low",
+        "summary": "Tim Medis Polres Malang Turun Tangan Obati Petugas Karhutla yang Roboh dan Terluka TagarJatim.id",
+        "processing_status": "processed",
+        "classifier_version": "news-v6",
+        "classified_at": "2026-09-14T01:08:41.364013+00:00",
+        "case_id": null,
+        "discovery_families": [],
+        "discovery_tags": [],
+        "discovery_hits": [],
+        "discovery_version": "discovery-v6.5.4",
+        "google_news_url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNcXhaUElKdDZleUo0R1BqQkVSYjBqOVFQTndmVFJxYzFLNTZkU0dwNmF3NkhLZXRDampTd3JTUF9wbkl5Sl9paEpWU29fbXh4Wi1icDhEWXlkM0xzMlVScThKd0NPOFZiNWJOSWhaU1hOalBHSTF0eXQzQ0ZnT0ZTRFI5WHg5RnZNams0Q3ZLVXZDbDdIVXdZYmlKNmlnTGJJN2pzREptNU1BbVpyaFNHRA?oc=5",
+        "original_url": "https://tagarjatim.id/33275/tim-medis-polres-malang-turun-tangan-obati-petugas-karhutla-yang-roboh-dan-terluka/",
+        "locality": "Malang",
+        "polsek": null,
+        "location_confidence": 100,
+        "location_evidence": [
+          "polres malang",
+          "Malang"
+        ],
+        "location_status": "JAWA_TIMUR",
+        "location_source": "title",
+        "issue_type": "UMUM",
+        "issue_subtype": "Belum Teridentifikasi",
+        "issue_evidence": [],
+        "handling_status": "BELUM_ADA_INFORMASI",
+        "handling_evidence": [],
+        "attention_score": 7,
+        "attention_label": "Rendah",
+        "attention_components": {
+          "severity": 2,
+          "polri_relation": 0,
+          "authority": 0,
+          "public_impact": 4,
+          "handling": 0,
+          "evidence": 1,
+          "context_risk": 0,
+          "routine_enforcement_cap": null
+        },
+        "attention_evidence": {
+          "severity": [],
+          "authority": [],
+          "public_impact": [],
+          "evidence": [
+            "satu sumber / informasi awal"
+          ],
+          "role": [],
+          "issue": [],
+          "handling": [],
+          "context": [],
+          "positive": []
+        },
+        "case_engine_version": "case-v6.5.4",
+        "case_processed_at": "2026-09-14T01:13:08.053674+00:00"
+      },
+      {
+        "id": "08b7a46fe2513353ac62f3b589526031d0950ed3",
+        "title": "Polresta Sumenep Siagakan 3 Posko Terpadu Pasca-KM Virgo Transport 8 Hilang Kontak - Website Resmi Polri",
+        "url": "https://tribratanews.jatim.polri.go.id/polresta-sumenep-siagakan-3-posko-terpadu-pasca-km-virgo-transport-8-hilang-kontak",
+        "source": "Website Resmi Polri",
+        "published_at": "2026-09-14T00:32:00+00:00",
+        "collected_at": "2026-09-14T01:08:41.364013+00:00",
+        "region": "Jawa Timur",
+        "area_label": "Sumenep",
+        "is_jatim": true,
+        "polres": "POLRESTA SUMENEP",
+        "category": "NETRAL / LAINNYA",
+        "scope": "neutral",
+        "scope_label": "Netral",
+        "priority": "low",
+        "summary": "Polresta Sumenep Siagakan 3 Posko Terpadu Pasca-KM Virgo Transport 8 Hilang Kontak Website Resmi Polri",
+        "processing_status": "processed",
+        "classifier_version": "news-v6",
+        "classified_at": "2026-09-14T01:08:41.364013+00:00",
+        "case_id": null,
+        "discovery_families": [],
+        "discovery_tags": [],
+        "discovery_hits": [],
+        "discovery_version": "discovery-v6.5.4",
+        "google_news_url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPVGR3R0xWTy0xVl91TUZvZXNZNXlxNmt2alQtRFROc05fUUxwYlZ4YWN4dVpyVl8wQWZLVGs3Y3FOOTRGaDJMa1pDM2pHRDBDRk1tYXU2SFFhLXlqRUQ3MnNkcEhDOWtLOXZWdzlYVDlMNS16WWcwLWJwWDcwSVZsRm51b1NsQl9FOERSVDEzZnRGRlpQc0RUekpCUHRRQTd4dUotUXVMV2VyaVM0cS10blh2WlhaQjIycWFvOU5B?oc=5",
+        "original_url": "https://tribratanews.jatim.polri.go.id/polresta-sumenep-siagakan-3-posko-terpadu-pasca-km-virgo-transport-8-hilang-kontak",
+        "locality": "Sumenep",
+        "polsek": null,
+        "location_confidence": 100,
+        "location_evidence": [
+          "polresta sumenep",
+          "Sumenep"
+        ],
+        "location_status": "JAWA_TIMUR",
+        "location_source": "title",
+        "issue_type": "UMUM",
+        "issue_subtype": "Belum Teridentifikasi",
+        "issue_evidence": [],
+        "handling_status": "BELUM_ADA_INFORMASI",
+        "handling_evidence": [],
+        "attention_score": 7,
+        "attention_label": "Rendah",
+        "attention_components": {
+          "severity": 2,
+          "polri_relation": 0,
+          "authority": 0,
+          "public_impact": 4,
+          "handling": 0,
+          "evidence": 1,
+          "context_risk": 0,
+          "routine_enforcement_cap": null
+        },
+        "attention_evidence": {
+          "severity": [],
+          "authority": [],
+          "public_impact": [],
+          "evidence": [
+            "satu sumber / informasi awal"
+          ],
+          "role": [],
+          "issue": [],
+          "handling": [],
+          "context": [],
+          "positive": []
+        },
+        "case_engine_version": "case-v6.5.4",
+        "case_processed_at": "2026-09-14T01:13:08.453601+00:00"
+      },
+      {
+        "id": "7a14b6b7361142771ac97917f313882bc545d830",
+        "title": "Satgas Pangan Polres Bondowoso Pastikan Harga Beras di Pasar Induk Sesuai HET - Website Resmi Polri",
+        "url": "https://tribratanews.jatim.polri.go.id/satgas-pangan-polres-bondowoso-pastikan-harga-beras-di-pasar-induk-sesuai-het",
+        "source": "Website Resmi Polri",
+        "published_at": "2026-09-14T00:30:00+00:00",
+        "collected_at": "2026-09-14T01:08:41.364013+00:00",
+        "region": "Jawa Timur",
+        "area_label": "Bondowoso",
+        "is_jatim": true,
+        "polres": "POLRES BONDOWOSO",
+        "category": "NETRAL / LAINNYA",
+        "scope": "neutral",
+        "scope_label": "Netral",
+        "priority": "low",
+        "summary": "Satgas Pangan Polres Bondowoso Pastikan Harga Beras di Pasar Induk Sesuai HET Website Resmi Polri",
+        "processing_status": "processed",
+        "classifier_version": "news-v6",
+        "classified_at": "2026-09-14T01:08:41.364013+00:00",
+        "case_id": null,
+        "discovery_families": [],
+        "discovery_tags": [],
+        "discovery_hits": [],
+        "discovery_version": "discovery-v6.5.4",
+        "google_news_url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOdnkydmNVc0tCUnhISE1HTUpTcVQ4bUpBVUhEalhZV291OE9fYmZaSjR4WlF1elMzNjJNa1I4VWJiQWV1dndPczE3UWhoUkNpRFRGdk5waHlCVmd6TVhIbFVjUlkzMUhHNlZMOWViOW1fVEczRU1ncGZWM09meXN6emsydlp3U0tZWi1hNFNYeFhWNlpqaUJxNzVGSU5xblluR3ZlTzlOeVdZWFFjTG9GVktsUUFhS1U?oc=5",
+        "original_url": "https://tribratanews.jatim.polri.go.id/satgas-pangan-polres-bondowoso-pastikan-harga-beras-di-pasar-induk-sesuai-het",
+        "locality": "Bondowoso",
+        "polsek": null,
+        "location_confidence": 100,
+        "location_evidence": [
+          "polres bondowoso",
+          "Bondowoso"
+        ],
+        "location_status": "JAWA_TIMUR",
+        "location_source": "title",
+        "issue_type": "UMUM",
+        "issue_subtype": "Belum Teridentifikasi",
+        "issue_evidence": [],
+        "handling_status": "BELUM_ADA_INFORMASI",
+        "handling_evidence": [],
+        "attention_score": 7,
+        "attention_label": "Rendah",
+        "attention_components": {
+          "severity": 2,
+          "polri_relation": 0,
+          "authority": 0,
+          "public_impact": 4,
+          "handling": 0,
+          "evidence": 1,
+          "context_risk": 0,
+          "routine_enforcement_cap": null
+        },
+        "attention_evidence": {
+          "severity": [],
+          "authority": [],
+          "public_impact": [],
+          "evidence": [
+            "satu sumber / informasi awal"
+          ],
+          "role": [],
+          "issue": [],
+          "handling": [],
+          "context": [],
+          "positive": []
+        },
+        "case_engine_version": "case-v6.5.4",
+        "case_processed_at": "2026-09-14T01:13:08.841542+00:00"
+      },
+      {
+        "id": "220167a29fa2d2a2d2aba9d00d9640b83f155619",
+        "title": "Satlantas Tulungagung gelar edukasi keselamatan berkendara di CFD - Antara News jatim",
+        "url": "https://jatim.antaranews.com/berita/1098385/satlantas-tulungagung-gelar-edukasi-keselamatan-berkendara-di-cfd",
+        "source": "Antara News jatim",
+        "published_at": "2026-09-13T23:17:44+00:00",
+        "collected_at": "2026-09-14T01:08:41.364013+00:00",
+        "region": "Jawa Timur",
+        "area_label": "Tulungagung",
+        "is_jatim": true,
+        "polres": null,
+        "category": "NETRAL / LAINNYA",
+        "scope": "neutral",
+        "scope_label": "Netral",
+        "priority": "low",
+        "summary": "Satlantas Tulungagung gelar edukasi keselamatan berkendara di CFD Antara News jatim",
+        "processing_status": "processed",
+        "classifier_version": "news-v6",
+        "classified_at": "2026-09-14T01:08:41.364013+00:00",
+        "case_id": null,
+        "discovery_families": [],
+        "discovery_tags": [],
+        "discovery_hits": [],
+        "discovery_version": "discovery-v6.5.4",
+        "google_news_url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOc3RFVTYzdVBmdHZuQ1VLMk1yR2pXQ3ozaFVnaExQQjdpdkc5cjhkb0dwQ0lNaGJKVFVjUFVCN2tPbzlzaHI4REpqU2piODNPQ1MxVlBsWkx0MWQ4aFZuLWRKRFJETVV0dTIxaXJaSXpaZ1JxWXNzbjdYQlRXMHlmZWQ1bU12UlpWaGk3MFJkbjI0ZmlxeXFwcE1vRzJFOGNtNG5LblNtUHVOZHNVYWfSAbMBQVVfeXFMTzFMM3BnaDdZRFBBMERkYW1aTUlEenFkVkVvdmhuOW95a3JBU2c2bl9lOXZtNk5ZVUdoMFZMSWVxVmNYdkVTTXZ1QmZ4ZlJFZTRYdlVkRDJuWUJGMDhodzJ2UkhIcXhGZXVfR2VuSm53SVBQaFNKejR5ZGRUekdXRThqLVVEYXNYdktWZWo5T2NPX3RYWDBSUF9LQ0Y3ZGRYWmVGaloxUjZzbmE2TXF2cEJhMEk?oc=5",
+        "original_url": "https://jatim.antaranews.com/berita/1098385/satlantas-tulungagung-gelar-edukasi-keselamatan-berkendara-di-cfd",
+        "locality": "Tulungagung",
+        "polsek": null,
+        "location_confidence": 95,
+        "location_evidence": [
+          "Tulungagung"
+        ],
+        "location_status": "JAWA_TIMUR",
+        "location_source": "title",
+        "issue_type": "UMUM",
+        "issue_subtype": "Belum Teridentifikasi",
+        "issue_evidence": [],
+        "handling_status": "BELUM_ADA_INFORMASI",
+        "handling_evidence": [],
+        "attention_score": 11,
+        "attention_label": "Rendah",
+        "attention_components": {
+          "severity": 2,
+          "polri_relation": 0,
+          "authority": 4,
+          "public_impact": 4,
+          "handling": 0,
+          "evidence": 1,
+          "context_risk": 0,
+          "routine_enforcement_cap": null
+        },
+        "attention_evidence": {
+          "severity": [],
+          "authority": [
+            "satlantas"
+          ],
+          "public_impact": [],
+          "evidence": [
+            "satu sumber / informasi awal"
+          ],
+          "role": [],
+          "issue": [],
+          "handling": [],
+          "context": [],
+          "positive": []
+        },
+        "case_engine_version": "case-v6.5.4",
+        "case_processed_at": "2026-09-14T01:13:09.212649+00:00"
+      },
+      {
+        "id": "30599fe088d47ed6ca7eaa8e47bf1e5ff70b078b",
+        "title": "Polres Malang Perketat Patroli Karhutla, Kawasan BKPH Sengguruh Disisir - BACAMALANG.COM -",
+        "url": "https://bacamalang.com/polres-malang-perketat-patroli-karhutla-kawasan-bkph-sengguruh-disisir/",
+        "source": "BACAMALANG.COM -",
+        "published_at": "2026-09-13T22:52:00+00:00",
+        "collected_at": "2026-09-14T01:08:41.364013+00:00",
+        "region": "Jawa Timur",
+        "area_label": "Malang",
+        "is_jatim": true,
+        "polres": "POLRES MALANG",
+        "category": "NETRAL / LAINNYA",
+        "scope": "neutral",
+        "scope_label": "Netral",
+        "priority": "low",
+        "summary": "Polres Malang Perketat Patroli Karhutla, Kawasan BKPH Sengguruh Disisir BACAMALANG.COM -",
+        "processing_status": "processed",
+        "classifier_version": "news-v6",
+        "classified_at": "2026-09-14T01:08:41.364013+00:00",
+        "case_id": null,
+        "discovery_families": [],
+        "discovery_tags": [],
+        "discovery_hits": [],
+        "discovery_version": "discovery-v6.5.4",
+        "google_news_url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQVEw5Yy00b3VmRzZEczk5MEZ0UWJvS3poaGlUdUwzUTRSUXd6M2RMcTZKRXl4eFlHYVkzWlBncGVFRXFDQkhMV3VaR3RlNFlLZUo1dEcyOTlWU2tmRF92c0FwbUJyMTFZb21IaHJySk5IWFpKX1l5V1oyNTBRVHVFZWpsOFFhMllxN3lZcDl1bGVtUlZXc25HakFB?oc=5",
+        "original_url": "https://bacamalang.com/polres-malang-perketat-patroli-karhutla-kawasan-bkph-sengguruh-disisir/",
+        "locality": "Malang",
+        "polsek": null,
+        "location_confidence": 100,
+        "location_evidence": [
+          "polres malang",
+          "Malang"
+        ],
+        "location_status": "JAWA_TIMUR",
+        "location_source": "title",
+        "issue_type": "UMUM",
+        "issue_subtype": "Belum Teridentifikasi",
+        "issue_evidence": [],
+        "handling_status": "BELUM_ADA_INFORMASI",
+        "handling_evidence": [],
+        "attention_score": 7,
+        "attention_label": "Rendah",
+        "attention_components": {
+          "severity": 2,
+          "polri_relation": 0,
+          "authority": 0,
+          "public_impact": 4,
+          "handling": 0,
+          "evidence": 1,
+          "context_risk": 0,
+          "routine_enforcement_cap": null
+        },
+        "attention_evidence": {
+          "severity": [],
+          "authority": [],
+          "public_impact": [],
+          "evidence": [
+            "satu sumber / informasi awal"
+          ],
+          "role": [],
+          "issue": [],
+          "handling": [],
+          "context": [],
+          "positive": []
+        },
+        "case_engine_version": "case-v6.5.4",
+        "case_processed_at": "2026-09-14T01:13:09.575691+00:00"
+      },
+      {
         "id": "20e1ed154fd3f0872a29db2e7407d74289a2d693",
         "title": "Musim Kemarau, Polresta Sumenep Salurkan Bantuan Air Bersih untuk 440 KK di Desa Gendang Barat - Metro Surya",
         "url": "https://metrosurya.com/amp/news-11959-musim-kemarau-polresta-sumenep-salurkan-bantuan-air-bersih-untuk-440-kk-di-desa-gendang-barat",
@@ -89,7 +573,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-09-13T22:31:13.026959+00:00"
+        "case_processed_at": "2026-09-14T01:13:09.995201+00:00"
       },
       {
         "id": "20fd743581a21ca9ddab8705f1ac90a29695dcf5",
@@ -154,7 +638,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-09-13T22:31:13.577960+00:00"
+        "case_processed_at": "2026-09-14T01:13:10.435629+00:00"
       },
       {
         "id": "8c44bc1d03e4201ad08a8a4116b1de40a00bc31e",
@@ -225,7 +709,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-09-13T23:01:11.683211+00:00"
+        "case_processed_at": "2026-09-14T01:36:50.324352+00:00"
       },
       {
         "id": "95515db2dd54ae4bd4842a33f3002b2ee7ef1d0d",
@@ -292,7 +776,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-09-13T22:31:14.139904+00:00"
+        "case_processed_at": "2026-09-14T01:13:10.884910+00:00"
       },
       {
         "id": "fd24b1ecb460453f1ff7f3630f820a460fd7c89d",
@@ -360,7 +844,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-09-13T22:31:14.527200+00:00"
+        "case_processed_at": "2026-09-14T01:13:11.192913+00:00"
       },
       {
         "id": "5465296d19ce8cf06d2c8a0b8a90ea7d1ecb8268",
@@ -435,7 +919,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-09-13T22:31:15.050876+00:00"
+        "case_processed_at": "2026-09-14T01:13:11.607827+00:00"
       },
       {
         "id": "c5960f740cd62c078b280c32bc1c5bfbe47f0ef6",
@@ -506,11 +990,421 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-09-13T23:01:11.683218+00:00"
+        "case_processed_at": "2026-09-14T01:36:50.324359+00:00"
       }
     ],
     "jatim_items": [
       {
+        "id": "02ca92a42103b08d4486ac2a71e87e598aaf1e76",
+        "title": "Respons Cepat Polsek Mantingan Polres Ngawi Cegah Karhutla Meluas - metrotv9news",
+        "url": "https://metrotv9news.com/daerah/respons-cepat-polsek-mantingan-polres-ngawi-cegah-karhutla-meluas/",
+        "source": "metrotv9news",
+        "published_at": "2026-09-14T00:50:56+00:00",
+        "collected_at": "2026-09-14T01:08:41.364013+00:00",
+        "region": "Jawa Timur",
+        "area_label": "Ngawi",
+        "is_jatim": true,
+        "polres": "POLRES NGAWI",
+        "category": "NETRAL / LAINNYA",
+        "scope": "neutral",
+        "scope_label": "Netral",
+        "priority": "low",
+        "summary": "Respons Cepat Polsek Mantingan Polres Ngawi Cegah Karhutla Meluas metrotv9news",
+        "processing_status": "processed",
+        "classifier_version": "news-v6",
+        "classified_at": "2026-09-14T01:08:41.364013+00:00",
+        "case_id": null,
+        "discovery_families": [],
+        "discovery_tags": [],
+        "discovery_hits": [],
+        "discovery_version": "discovery-v6.5.4",
+        "google_news_url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQUWtNRzE3Uk9TOElGX21MRmliNzd3M1NqMG96dlZQT0pPVjk1WXQ5TXl3UFFnOUxqSW56MjVDVllDYldQcExESm9PZzltQl95VmwwTXByMjRSZzZnOFBLTnBlbHdBaHZMS2hvSFduclQ2UWwzOTlNVGp3OTFld0Y2TFBCWVVYc3R2WGxEdnZHZEJPMEpBanBwakJ5bktVTzQ?oc=5",
+        "original_url": "https://metrotv9news.com/daerah/respons-cepat-polsek-mantingan-polres-ngawi-cegah-karhutla-meluas/",
+        "locality": "Ngawi",
+        "polsek": "POLSEK MANTINGAN POLRES NGAWI",
+        "location_confidence": 100,
+        "location_evidence": [
+          "polres ngawi",
+          "POLSEK MANTINGAN POLRES NGAWI",
+          "Ngawi"
+        ],
+        "location_status": "JAWA_TIMUR",
+        "location_source": "title",
+        "issue_type": "UMUM",
+        "issue_subtype": "Belum Teridentifikasi",
+        "issue_evidence": [],
+        "handling_status": "BELUM_ADA_INFORMASI",
+        "handling_evidence": [],
+        "attention_score": 7,
+        "attention_label": "Rendah",
+        "attention_components": {
+          "severity": 2,
+          "polri_relation": 0,
+          "authority": 0,
+          "public_impact": 4,
+          "handling": 0,
+          "evidence": 1,
+          "context_risk": 0,
+          "routine_enforcement_cap": null
+        },
+        "attention_evidence": {
+          "severity": [],
+          "authority": [],
+          "public_impact": [],
+          "evidence": [
+            "satu sumber / informasi awal"
+          ],
+          "role": [],
+          "issue": [],
+          "handling": [],
+          "context": [],
+          "positive": []
+        },
+        "case_engine_version": "case-v6.5.4",
+        "case_processed_at": "2026-09-14T01:13:07.667980+00:00"
+      },
+      {
+        "id": "c0543618d819eed2a74c232564c75e75e3fcba30",
+        "title": "Tim Medis Polres Malang Turun Tangan Obati Petugas Karhutla yang Roboh dan Terluka - TagarJatim.id",
+        "url": "https://tagarjatim.id/33275/tim-medis-polres-malang-turun-tangan-obati-petugas-karhutla-yang-roboh-dan-terluka/",
+        "source": "TagarJatim.id",
+        "published_at": "2026-09-14T00:38:05+00:00",
+        "collected_at": "2026-09-14T01:08:41.364013+00:00",
+        "region": "Jawa Timur",
+        "area_label": "Malang",
+        "is_jatim": true,
+        "polres": "POLRES MALANG",
+        "category": "NETRAL / LAINNYA",
+        "scope": "neutral",
+        "scope_label": "Netral",
+        "priority": "low",
+        "summary": "Tim Medis Polres Malang Turun Tangan Obati Petugas Karhutla yang Roboh dan Terluka TagarJatim.id",
+        "processing_status": "processed",
+        "classifier_version": "news-v6",
+        "classified_at": "2026-09-14T01:08:41.364013+00:00",
+        "case_id": null,
+        "discovery_families": [],
+        "discovery_tags": [],
+        "discovery_hits": [],
+        "discovery_version": "discovery-v6.5.4",
+        "google_news_url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNcXhaUElKdDZleUo0R1BqQkVSYjBqOVFQTndmVFJxYzFLNTZkU0dwNmF3NkhLZXRDampTd3JTUF9wbkl5Sl9paEpWU29fbXh4Wi1icDhEWXlkM0xzMlVScThKd0NPOFZiNWJOSWhaU1hOalBHSTF0eXQzQ0ZnT0ZTRFI5WHg5RnZNams0Q3ZLVXZDbDdIVXdZYmlKNmlnTGJJN2pzREptNU1BbVpyaFNHRA?oc=5",
+        "original_url": "https://tagarjatim.id/33275/tim-medis-polres-malang-turun-tangan-obati-petugas-karhutla-yang-roboh-dan-terluka/",
+        "locality": "Malang",
+        "polsek": null,
+        "location_confidence": 100,
+        "location_evidence": [
+          "polres malang",
+          "Malang"
+        ],
+        "location_status": "JAWA_TIMUR",
+        "location_source": "title",
+        "issue_type": "UMUM",
+        "issue_subtype": "Belum Teridentifikasi",
+        "issue_evidence": [],
+        "handling_status": "BELUM_ADA_INFORMASI",
+        "handling_evidence": [],
+        "attention_score": 7,
+        "attention_label": "Rendah",
+        "attention_components": {
+          "severity": 2,
+          "polri_relation": 0,
+          "authority": 0,
+          "public_impact": 4,
+          "handling": 0,
+          "evidence": 1,
+          "context_risk": 0,
+          "routine_enforcement_cap": null
+        },
+        "attention_evidence": {
+          "severity": [],
+          "authority": [],
+          "public_impact": [],
+          "evidence": [
+            "satu sumber / informasi awal"
+          ],
+          "role": [],
+          "issue": [],
+          "handling": [],
+          "context": [],
+          "positive": []
+        },
+        "case_engine_version": "case-v6.5.4",
+        "case_processed_at": "2026-09-14T01:13:08.053674+00:00"
+      },
+      {
+        "id": "08b7a46fe2513353ac62f3b589526031d0950ed3",
+        "title": "Polresta Sumenep Siagakan 3 Posko Terpadu Pasca-KM Virgo Transport 8 Hilang Kontak - Website Resmi Polri",
+        "url": "https://tribratanews.jatim.polri.go.id/polresta-sumenep-siagakan-3-posko-terpadu-pasca-km-virgo-transport-8-hilang-kontak",
+        "source": "Website Resmi Polri",
+        "published_at": "2026-09-14T00:32:00+00:00",
+        "collected_at": "2026-09-14T01:08:41.364013+00:00",
+        "region": "Jawa Timur",
+        "area_label": "Sumenep",
+        "is_jatim": true,
+        "polres": "POLRESTA SUMENEP",
+        "category": "NETRAL / LAINNYA",
+        "scope": "neutral",
+        "scope_label": "Netral",
+        "priority": "low",
+        "summary": "Polresta Sumenep Siagakan 3 Posko Terpadu Pasca-KM Virgo Transport 8 Hilang Kontak Website Resmi Polri",
+        "processing_status": "processed",
+        "classifier_version": "news-v6",
+        "classified_at": "2026-09-14T01:08:41.364013+00:00",
+        "case_id": null,
+        "discovery_families": [],
+        "discovery_tags": [],
+        "discovery_hits": [],
+        "discovery_version": "discovery-v6.5.4",
+        "google_news_url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPVGR3R0xWTy0xVl91TUZvZXNZNXlxNmt2alQtRFROc05fUUxwYlZ4YWN4dVpyVl8wQWZLVGs3Y3FOOTRGaDJMa1pDM2pHRDBDRk1tYXU2SFFhLXlqRUQ3MnNkcEhDOWtLOXZWdzlYVDlMNS16WWcwLWJwWDcwSVZsRm51b1NsQl9FOERSVDEzZnRGRlpQc0RUekpCUHRRQTd4dUotUXVMV2VyaVM0cS10blh2WlhaQjIycWFvOU5B?oc=5",
+        "original_url": "https://tribratanews.jatim.polri.go.id/polresta-sumenep-siagakan-3-posko-terpadu-pasca-km-virgo-transport-8-hilang-kontak",
+        "locality": "Sumenep",
+        "polsek": null,
+        "location_confidence": 100,
+        "location_evidence": [
+          "polresta sumenep",
+          "Sumenep"
+        ],
+        "location_status": "JAWA_TIMUR",
+        "location_source": "title",
+        "issue_type": "UMUM",
+        "issue_subtype": "Belum Teridentifikasi",
+        "issue_evidence": [],
+        "handling_status": "BELUM_ADA_INFORMASI",
+        "handling_evidence": [],
+        "attention_score": 7,
+        "attention_label": "Rendah",
+        "attention_components": {
+          "severity": 2,
+          "polri_relation": 0,
+          "authority": 0,
+          "public_impact": 4,
+          "handling": 0,
+          "evidence": 1,
+          "context_risk": 0,
+          "routine_enforcement_cap": null
+        },
+        "attention_evidence": {
+          "severity": [],
+          "authority": [],
+          "public_impact": [],
+          "evidence": [
+            "satu sumber / informasi awal"
+          ],
+          "role": [],
+          "issue": [],
+          "handling": [],
+          "context": [],
+          "positive": []
+        },
+        "case_engine_version": "case-v6.5.4",
+        "case_processed_at": "2026-09-14T01:13:08.453601+00:00"
+      },
+      {
+        "id": "7a14b6b7361142771ac97917f313882bc545d830",
+        "title": "Satgas Pangan Polres Bondowoso Pastikan Harga Beras di Pasar Induk Sesuai HET - Website Resmi Polri",
+        "url": "https://tribratanews.jatim.polri.go.id/satgas-pangan-polres-bondowoso-pastikan-harga-beras-di-pasar-induk-sesuai-het",
+        "source": "Website Resmi Polri",
+        "published_at": "2026-09-14T00:30:00+00:00",
+        "collected_at": "2026-09-14T01:08:41.364013+00:00",
+        "region": "Jawa Timur",
+        "area_label": "Bondowoso",
+        "is_jatim": true,
+        "polres": "POLRES BONDOWOSO",
+        "category": "NETRAL / LAINNYA",
+        "scope": "neutral",
+        "scope_label": "Netral",
+        "priority": "low",
+        "summary": "Satgas Pangan Polres Bondowoso Pastikan Harga Beras di Pasar Induk Sesuai HET Website Resmi Polri",
+        "processing_status": "processed",
+        "classifier_version": "news-v6",
+        "classified_at": "2026-09-14T01:08:41.364013+00:00",
+        "case_id": null,
+        "discovery_families": [],
+        "discovery_tags": [],
+        "discovery_hits": [],
+        "discovery_version": "discovery-v6.5.4",
+        "google_news_url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOdnkydmNVc0tCUnhISE1HTUpTcVQ4bUpBVUhEalhZV291OE9fYmZaSjR4WlF1elMzNjJNa1I4VWJiQWV1dndPczE3UWhoUkNpRFRGdk5waHlCVmd6TVhIbFVjUlkzMUhHNlZMOWViOW1fVEczRU1ncGZWM09meXN6emsydlp3U0tZWi1hNFNYeFhWNlpqaUJxNzVGSU5xblluR3ZlTzlOeVdZWFFjTG9GVktsUUFhS1U?oc=5",
+        "original_url": "https://tribratanews.jatim.polri.go.id/satgas-pangan-polres-bondowoso-pastikan-harga-beras-di-pasar-induk-sesuai-het",
+        "locality": "Bondowoso",
+        "polsek": null,
+        "location_confidence": 100,
+        "location_evidence": [
+          "polres bondowoso",
+          "Bondowoso"
+        ],
+        "location_status": "JAWA_TIMUR",
+        "location_source": "title",
+        "issue_type": "UMUM",
+        "issue_subtype": "Belum Teridentifikasi",
+        "issue_evidence": [],
+        "handling_status": "BELUM_ADA_INFORMASI",
+        "handling_evidence": [],
+        "attention_score": 7,
+        "attention_label": "Rendah",
+        "attention_components": {
+          "severity": 2,
+          "polri_relation": 0,
+          "authority": 0,
+          "public_impact": 4,
+          "handling": 0,
+          "evidence": 1,
+          "context_risk": 0,
+          "routine_enforcement_cap": null
+        },
+        "attention_evidence": {
+          "severity": [],
+          "authority": [],
+          "public_impact": [],
+          "evidence": [
+            "satu sumber / informasi awal"
+          ],
+          "role": [],
+          "issue": [],
+          "handling": [],
+          "context": [],
+          "positive": []
+        },
+        "case_engine_version": "case-v6.5.4",
+        "case_processed_at": "2026-09-14T01:13:08.841542+00:00"
+      },
+      {
+        "id": "220167a29fa2d2a2d2aba9d00d9640b83f155619",
+        "title": "Satlantas Tulungagung gelar edukasi keselamatan berkendara di CFD - Antara News jatim",
+        "url": "https://jatim.antaranews.com/berita/1098385/satlantas-tulungagung-gelar-edukasi-keselamatan-berkendara-di-cfd",
+        "source": "Antara News jatim",
+        "published_at": "2026-09-13T23:17:44+00:00",
+        "collected_at": "2026-09-14T01:08:41.364013+00:00",
+        "region": "Jawa Timur",
+        "area_label": "Tulungagung",
+        "is_jatim": true,
+        "polres": null,
+        "category": "NETRAL / LAINNYA",
+        "scope": "neutral",
+        "scope_label": "Netral",
+        "priority": "low",
+        "summary": "Satlantas Tulungagung gelar edukasi keselamatan berkendara di CFD Antara News jatim",
+        "processing_status": "processed",
+        "classifier_version": "news-v6",
+        "classified_at": "2026-09-14T01:08:41.364013+00:00",
+        "case_id": null,
+        "discovery_families": [],
+        "discovery_tags": [],
+        "discovery_hits": [],
+        "discovery_version": "discovery-v6.5.4",
+        "google_news_url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOc3RFVTYzdVBmdHZuQ1VLMk1yR2pXQ3ozaFVnaExQQjdpdkc5cjhkb0dwQ0lNaGJKVFVjUFVCN2tPbzlzaHI4REpqU2piODNPQ1MxVlBsWkx0MWQ4aFZuLWRKRFJETVV0dTIxaXJaSXpaZ1JxWXNzbjdYQlRXMHlmZWQ1bU12UlpWaGk3MFJkbjI0ZmlxeXFwcE1vRzJFOGNtNG5LblNtUHVOZHNVYWfSAbMBQVVfeXFMTzFMM3BnaDdZRFBBMERkYW1aTUlEenFkVkVvdmhuOW95a3JBU2c2bl9lOXZtNk5ZVUdoMFZMSWVxVmNYdkVTTXZ1QmZ4ZlJFZTRYdlVkRDJuWUJGMDhodzJ2UkhIcXhGZXVfR2VuSm53SVBQaFNKejR5ZGRUekdXRThqLVVEYXNYdktWZWo5T2NPX3RYWDBSUF9LQ0Y3ZGRYWmVGaloxUjZzbmE2TXF2cEJhMEk?oc=5",
+        "original_url": "https://jatim.antaranews.com/berita/1098385/satlantas-tulungagung-gelar-edukasi-keselamatan-berkendara-di-cfd",
+        "locality": "Tulungagung",
+        "polsek": null,
+        "location_confidence": 95,
+        "location_evidence": [
+          "Tulungagung"
+        ],
+        "location_status": "JAWA_TIMUR",
+        "location_source": "title",
+        "issue_type": "UMUM",
+        "issue_subtype": "Belum Teridentifikasi",
+        "issue_evidence": [],
+        "handling_status": "BELUM_ADA_INFORMASI",
+        "handling_evidence": [],
+        "attention_score": 11,
+        "attention_label": "Rendah",
+        "attention_components": {
+          "severity": 2,
+          "polri_relation": 0,
+          "authority": 4,
+          "public_impact": 4,
+          "handling": 0,
+          "evidence": 1,
+          "context_risk": 0,
+          "routine_enforcement_cap": null
+        },
+        "attention_evidence": {
+          "severity": [],
+          "authority": [
+            "satlantas"
+          ],
+          "public_impact": [],
+          "evidence": [
+            "satu sumber / informasi awal"
+          ],
+          "role": [],
+          "issue": [],
+          "handling": [],
+          "context": [],
+          "positive": []
+        },
+        "case_engine_version": "case-v6.5.4",
+        "case_processed_at": "2026-09-14T01:13:09.212649+00:00"
+      },
+      {
+        "id": "30599fe088d47ed6ca7eaa8e47bf1e5ff70b078b",
+        "title": "Polres Malang Perketat Patroli Karhutla, Kawasan BKPH Sengguruh Disisir - BACAMALANG.COM -",
+        "url": "https://bacamalang.com/polres-malang-perketat-patroli-karhutla-kawasan-bkph-sengguruh-disisir/",
+        "source": "BACAMALANG.COM -",
+        "published_at": "2026-09-13T22:52:00+00:00",
+        "collected_at": "2026-09-14T01:08:41.364013+00:00",
+        "region": "Jawa Timur",
+        "area_label": "Malang",
+        "is_jatim": true,
+        "polres": "POLRES MALANG",
+        "category": "NETRAL / LAINNYA",
+        "scope": "neutral",
+        "scope_label": "Netral",
+        "priority": "low",
+        "summary": "Polres Malang Perketat Patroli Karhutla, Kawasan BKPH Sengguruh Disisir BACAMALANG.COM -",
+        "processing_status": "processed",
+        "classifier_version": "news-v6",
+        "classified_at": "2026-09-14T01:08:41.364013+00:00",
+        "case_id": null,
+        "discovery_families": [],
+        "discovery_tags": [],
+        "discovery_hits": [],
+        "discovery_version": "discovery-v6.5.4",
+        "google_news_url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQVEw5Yy00b3VmRzZEczk5MEZ0UWJvS3poaGlUdUwzUTRSUXd6M2RMcTZKRXl4eFlHYVkzWlBncGVFRXFDQkhMV3VaR3RlNFlLZUo1dEcyOTlWU2tmRF92c0FwbUJyMTFZb21IaHJySk5IWFpKX1l5V1oyNTBRVHVFZWpsOFFhMllxN3lZcDl1bGVtUlZXc25HakFB?oc=5",
+        "original_url": "https://bacamalang.com/polres-malang-perketat-patroli-karhutla-kawasan-bkph-sengguruh-disisir/",
+        "locality": "Malang",
+        "polsek": null,
+        "location_confidence": 100,
+        "location_evidence": [
+          "polres malang",
+          "Malang"
+        ],
+        "location_status": "JAWA_TIMUR",
+        "location_source": "title",
+        "issue_type": "UMUM",
+        "issue_subtype": "Belum Teridentifikasi",
+        "issue_evidence": [],
+        "handling_status": "BELUM_ADA_INFORMASI",
+        "handling_evidence": [],
+        "attention_score": 7,
+        "attention_label": "Rendah",
+        "attention_components": {
+          "severity": 2,
+          "polri_relation": 0,
+          "authority": 0,
+          "public_impact": 4,
+          "handling": 0,
+          "evidence": 1,
+          "context_risk": 0,
+          "routine_enforcement_cap": null
+        },
+        "attention_evidence": {
+          "severity": [],
+          "authority": [],
+          "public_impact": [],
+          "evidence": [
+            "satu sumber / informasi awal"
+          ],
+          "role": [],
+          "issue": [],
+          "handling": [],
+          "context": [],
+          "positive": []
+        },
+        "case_engine_version": "case-v6.5.4",
+        "case_processed_at": "2026-09-14T01:13:09.575691+00:00"
+      },
+      {
         "id": "20e1ed154fd3f0872a29db2e7407d74289a2d693",
         "title": "Musim Kemarau, Polresta Sumenep Salurkan Bantuan Air Bersih untuk 440 KK di Desa Gendang Barat - Metro Surya",
         "url": "https://metrosurya.com/amp/news-11959-musim-kemarau-polresta-sumenep-salurkan-bantuan-air-bersih-untuk-440-kk-di-desa-gendang-barat",
@@ -576,7 +1470,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-09-13T22:31:13.026959+00:00"
+        "case_processed_at": "2026-09-14T01:13:09.995201+00:00"
       },
       {
         "id": "fd24b1ecb460453f1ff7f3630f820a460fd7c89d",
@@ -644,10 +1538,77 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-09-13T22:31:14.527200+00:00"
+        "case_processed_at": "2026-09-14T01:13:11.192913+00:00"
       }
     ],
     "luar_jatim_items": [
+      {
+        "id": "abfdb7d53bc0030a92c2fbfb5387f3f3ebd2484f",
+        "title": "Tim Klewang Ringkus Tiga Pelaku Curanmor di Padang, Polisi Ungkap Puluhan TKP - Kata Sumbar",
+        "url": "https://katasumbar.com/tim-klewang-ringkus-tiga-pelaku-curanmor-di-padang-polisi-ungkap-puluhan-tkp/",
+        "source": "Kata Sumbar",
+        "published_at": "2026-09-14T01:00:00+00:00",
+        "collected_at": "2026-09-14T01:08:41.364013+00:00",
+        "region": "BELUM TERPETAKAN",
+        "area_label": "BELUM TERPETAKAN",
+        "is_jatim": null,
+        "polres": null,
+        "category": "POSITIF / PENEGAKAN HUKUM",
+        "scope": "positive",
+        "scope_label": "Positif",
+        "priority": "low",
+        "summary": "Tim Klewang Ringkus Tiga Pelaku Curanmor di Padang, Polisi Ungkap Puluhan TKP Kata Sumbar",
+        "processing_status": "processed",
+        "classifier_version": "news-v6",
+        "classified_at": "2026-09-14T01:08:41.364013+00:00",
+        "case_id": null,
+        "discovery_families": [],
+        "discovery_tags": [],
+        "discovery_hits": [],
+        "discovery_version": "discovery-v6.5.4",
+        "google_news_url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQSTd6WkdHeHZIcjJ5SlZja21ob0R1dG4zSXItR0xiN3poTy1kSko1d0tRVmNTaERLbzhaM2FwV3FTdE52aDdzRDFzYi1jV2dwOEVhR3JpQU1jV1FJeVRJdHVyN1NSVEM4c3d4c1Q1aTRyNzllWGhrTHM0OTlXODhnV2gxUDFTbXVvNkhOYW1DcHREcGY1c1QwQWxNUWgxWDYzQlHSAacBQVVfeXFMUHg4Qk0zdlg2STJYZkxJOUJtd01kUmRfMnVKWk1QVndLZmQ2QkZBenU0VjhkWEkxcDUxN2JQM3FpbnpUQXBkcmNEdk5MRjNjRE1fZWNMdmNvZy1iU05HUGwxN2VkOTMzeU5WMGs2Zi1sZ1Q4Skc2b2pUYTJ1eGo5UUdDNEVlcnkxLWZpbEh0ZW1ySkZRUDlXNmZDYVVyeEFER3NFNFRqSVE?oc=5",
+        "original_url": "https://katasumbar.com/tim-klewang-ringkus-tiga-pelaku-curanmor-di-padang-polisi-ungkap-puluhan-tkp/",
+        "locality": "",
+        "polsek": null,
+        "location_confidence": 0,
+        "location_evidence": [],
+        "location_status": "BELUM_TERPETAKAN",
+        "location_source": "title",
+        "issue_type": "UMUM",
+        "issue_subtype": "Belum Teridentifikasi",
+        "issue_evidence": [],
+        "handling_status": "BELUM_ADA_INFORMASI",
+        "handling_evidence": [],
+        "attention_score": 9,
+        "attention_label": "Rendah",
+        "attention_components": {
+          "severity": 2,
+          "polri_relation": 2,
+          "authority": 0,
+          "public_impact": 4,
+          "handling": 0,
+          "evidence": 1,
+          "context_risk": 0,
+          "routine_enforcement_cap": 35
+        },
+        "attention_evidence": {
+          "severity": [],
+          "authority": [],
+          "public_impact": [],
+          "evidence": [
+            "satu sumber / informasi awal"
+          ],
+          "role": [
+            "Polri sebagai pihak penindak"
+          ],
+          "issue": [],
+          "handling": [],
+          "context": [],
+          "positive": []
+        },
+        "case_engine_version": "case-v6.5.4",
+        "case_processed_at": "2026-09-14T01:13:07.345847+00:00"
+      },
       {
         "id": "20fd743581a21ca9ddab8705f1ac90a29695dcf5",
         "title": "Polri Perkuat Operasi SAR KM Virgo Transport 8, Tiga Kapal Polisi Diberangkatkan - tribratanews.polrespasuruankota.com",
@@ -711,7 +1672,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-09-13T22:31:13.577960+00:00"
+        "case_processed_at": "2026-09-14T01:13:10.435629+00:00"
       },
       {
         "id": "8c44bc1d03e4201ad08a8a4116b1de40a00bc31e",
@@ -782,7 +1743,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-09-13T23:01:11.683211+00:00"
+        "case_processed_at": "2026-09-14T01:36:50.324352+00:00"
       },
       {
         "id": "95515db2dd54ae4bd4842a33f3002b2ee7ef1d0d",
@@ -849,7 +1810,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-09-13T22:31:14.139904+00:00"
+        "case_processed_at": "2026-09-14T01:13:10.884910+00:00"
       },
       {
         "id": "5465296d19ce8cf06d2c8a0b8a90ea7d1ecb8268",
@@ -924,7 +1885,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-09-13T22:31:15.050876+00:00"
+        "case_processed_at": "2026-09-14T01:13:11.607827+00:00"
       },
       {
         "id": "c5960f740cd62c078b280c32bc1c5bfbe47f0ef6",
@@ -995,7 +1956,7 @@
           "positive": []
         },
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-09-13T23:01:11.683218+00:00"
+        "case_processed_at": "2026-09-14T01:36:50.324359+00:00"
       }
     ]
   },
@@ -1086,7 +2047,7 @@
         ],
         "article_count": 1,
         "created_at": "2026-09-13T20:02:16.542007+00:00",
-        "updated_at": "2026-09-13T23:01:11.679374+00:00",
+        "updated_at": "2026-09-14T01:36:50.321024+00:00",
         "engine_version": "case-v6.5.4",
         "priority_score": 25,
         "priority_breakdown": {
@@ -1190,7 +2151,7 @@
         ],
         "article_count": 1,
         "created_at": "2026-09-13T20:02:17.020393+00:00",
-        "updated_at": "2026-09-13T23:01:11.682110+00:00",
+        "updated_at": "2026-09-14T01:36:50.323221+00:00",
         "engine_version": "case-v6.5.4",
         "priority_score": 34,
         "priority_breakdown": {
@@ -1226,24 +2187,36 @@
     "jatim_items": []
   },
   "social": {
-    "detected": 57,
+    "detected": 85,
     "jatim": 0,
-    "negative": 27,
+    "negative": 44,
     "priority_high": 21,
     "video_ids": [
+      "5dF9hYp9Kd8",
+      "DBIu7exBn7o",
+      "Mo_hQwECzCM",
+      "pnBGrKsni38",
+      "4dOGuglIPek",
+      "WlmyvnXCWKA",
       "_1-qHqdyyz8",
+      "TZzDiAgkgx8",
+      "dNr4WObnnfI",
       "mJz9OmxL_P4",
       "bsABpIoQvFs",
       "rTM_eKSC5M8",
       "OQwFs2a6NNc",
       "YPnSk7d3RYI",
+      "RHNGZZO153c",
       "c4abIF-uaOQ",
       "JxXwQu6Z0xc",
+      "E-7KoKTacp0",
       "Ko3ZNlkTZBo",
+      "rPrY19cfiUg",
       "_CCYTe5Pk44",
       "TE9yClXkTm8",
       "lgQRTKRkYRA",
       "IiUGyKMYJ0o",
+      "_oBn0_nf5mQ",
       "KUamkd5FSgg",
       "92qRm4RyAYg",
       "g-SfHVnLU4o",
@@ -1251,19 +2224,30 @@
       "M-xxA10OGQU",
       "oO_l9TbP_9s",
       "p7mT2xyXewk",
+      "MAkEuHHXn3M",
+      "g-GS8lX769o",
       "FnqafpLb8-U",
+      "bOvdnm3mB9g",
+      "qVE3yOWrq8A",
+      "wZDKC5i_9oA",
+      "19IkdwMIedo",
+      "mA24VL5II9k",
+      "KWs9njOZWcw",
       "X44tjAR_BS4",
       "RHGj4O5bM4w",
       "fXPoWDveDP8",
       "MKd_LKNoNzQ",
+      "Ytw2OZ3AfUg",
       "U_9b-owedcM",
       "yGDCBm1M8FI",
       "_qGLz77_nrs",
       "25aR8BD7Zmk",
       "p7puQi_szMU",
+      "cXZpZUOwQkw",
       "vT9RtjoNqO4",
       "pHv5g0onxiA",
       "pl525CB3f0g",
+      "wO8Jb9I8TVI",
       "ZrxvkJ9HRIw",
       "jrpNCVniyVQ",
       "xV9lPPjZWQY",
@@ -1278,61 +2262,94 @@
       "507BawzaG_s",
       "ZkUcV_PUOAA",
       "-FZd2IB7gTc",
+      "rS_zq_SrCCo",
+      "KanvoxnUZo4",
       "ceoN8QOXBzg",
       "nmMVuSkGzrQ",
+      "geA7Fg1ncc4",
       "rMFn9dWayik",
       "l-2-dlsH5TA",
       "f6ygyUjAMGQ",
+      "7cV9TAcAe8k",
       "FnmH_GrUrxw",
       "6aY_tLrhAl4",
+      "sQ6tHYUUFds",
       "gzYEjZTNkB4",
       "VEFqz-gJjtc",
       "J5VSZnWD-7o"
     ]
   },
   "jatim": {
-    "news_today": 2,
+    "news_today": 8,
     "negative_today": 0,
     "positive_today": 0,
     "case_scope_today": 0,
-    "neutral_today": 2,
+    "neutral_today": 8,
     "case_today": 0,
     "case_high_active": 0,
     "article_high_today": 0,
-    "outside_jatim_today": 5
+    "outside_jatim_today": 6
   },
   "regions": [
     {
       "name": "Sumenep",
+      "count": 3
+    },
+    {
+      "name": "Malang",
       "count": 2
+    },
+    {
+      "name": "Ngawi",
+      "count": 1
+    },
+    {
+      "name": "Bondowoso",
+      "count": 1
+    },
+    {
+      "name": "Tulungagung",
+      "count": 1
     }
   ],
   "polres": [
     {
       "name": "POLRESTA SUMENEP",
+      "count": 3
+    },
+    {
+      "name": "POLRES MALANG",
       "count": 2
+    },
+    {
+      "name": "POLRES NGAWI",
+      "count": 1
+    },
+    {
+      "name": "POLRES BONDOWOSO",
+      "count": 1
     }
   ],
   "categories": [
     {
       "name": "NETRAL / LAINNYA",
-      "count": 2
+      "count": 8
     }
   ],
   "summary": {
-    "news_today": 7,
+    "news_today": 14,
     "negative_today": 2,
     "cases_today": 2,
     "priority_high": 0,
     "article_priority_high": 0,
-    "jatim_news": 2,
+    "jatim_news": 8,
     "jatim_negative": 0,
     "jatim_positive": 0,
     "jatim_case_scope": 0,
-    "jatim_neutral": 2,
+    "jatim_neutral": 8,
     "jatim_cases_today": 0,
     "jatim_case_high_active": 0,
-    "luar_jatim_news": 5,
-    "youtube_today": 57
+    "luar_jatim_news": 6,
+    "youtube_today": 85
   }
 }
