@@ -118,46 +118,54 @@ def contextualize(title, summary=""):
 
     issue_type = base.get("issue_type", "UMUM")
     issue_subtype = base.get("issue_subtype", "Informasi Umum")
+    scope = "neutral"
 
     if assertion == "DENIAL" and not any_phrase(text, ["diperiksa propam", "ditahan", "ditetapkan sebagai tersangka", "dipecat", "sidang etik", "terbukti"]):
         sentiment = "neutral"
         sentiment_label = "Netral"
+        scope = "neutral"
         category = "NETRAL / BANTAHAN / KLARIFIKASI"
         score = min(int(base.get("attention_score", 0)), 39)
         reason = ["frasa dugaan dibarengi bantahan/penyangkalan", "bantahan diprioritaskan sampai ada bukti tindak lanjut yang lebih kuat"]
     elif relation == "SUBJEK_PERMASALAHAN" and misconduct:
         sentiment = "negative"
         sentiment_label = "Negatif"
+        scope = "negative"
         category = "NEGATIF - " + str(issue_subtype).upper()
         score = int(base.get("attention_score", 0))
         reason = ["Polri/personel menjadi subjek permasalahan", str(issue_subtype)]
     elif relation == "PENEGAKAN_HUKUM" and (explicit_enforcer or direct_positive):
         sentiment = "positive"
         sentiment_label = "Positif"
-        category = "POSITIF / PENEGAKAN HUKUM"
+        scope = "case"
+        category = "UNGKAP KASUS / PENINDAKAN"
         score = min(int(base.get("attention_score", 0)), 39)
         reason = ["Polri berperan sebagai pihak penindak", "tidak ditemukan indikator utama misconduct oleh personel"]
     elif relation == "KORBAN":
         sentiment = "neutral"
         sentiment_label = "Netral"
+        scope = "neutral"
         category = "NETRAL / POLRI SEBAGAI KORBAN"
         score = min(int(base.get("attention_score", 0)), 39)
         reason = ["Polri/personel terdeteksi sebagai korban, bukan pelaku"]
     elif service_negative and relation in {"SUBJEK_PERMASALAHAN", "RESPONS_TERHADAP_ISU", "INFORMASI_UMUM"}:
         sentiment = "negative"
         sentiment_label = "Negatif"
+        scope = "negative"
         category = "NEGATIF - KINERJA/LAYANAN POLRI"
         score = max(int(base.get("attention_score", 0)), 40)
         reason = ["terdapat keluhan/kritik terkait layanan atau respons Polri"]
     elif issue_type != "UMUM" and relation in {"INFORMASI_UMUM", "KORBAN"}:
         sentiment = "neutral"
         sentiment_label = "Netral"
+        scope = "neutral"
         category = "NETRAL / PERISTIWA"
         score = min(int(base.get("attention_score", 0)), 39)
         reason = ["isu/peristiwa ditemukan tetapi relasi Polri sebagai pihak bermasalah tidak cukup kuat"]
     else:
         sentiment = base.get("sentiment", "neutral")
         sentiment_label = base.get("sentiment_label", "Netral")
+        scope = "negative" if sentiment == "negative" else "positive" if sentiment == "positive" else "neutral"
         category = base.get("classification_category") or (
             "POSITIF / PENEGAKAN HUKUM" if sentiment == "positive" else
             "NEGATIF - " + str(issue_subtype).upper() if sentiment == "negative" else
@@ -175,6 +183,8 @@ def contextualize(title, summary=""):
         **base,
         "sentiment": sentiment,
         "sentiment_label": sentiment_label,
+        "scope": scope,
+        "scope_label": {"negative": "Negatif", "case": "Ungkap Kasus", "positive": "Positif", "neutral": "Netral"}.get(scope, "Netral"),
         "classification_category": category,
         "polri_relation": relation,
         "polri_relation_evidence": relation_reason,
