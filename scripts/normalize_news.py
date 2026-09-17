@@ -1,38 +1,33 @@
-"""JAGAT V6.5 - reclassify existing news using shared engines."""
+"""JAGAT contextual normalization pass.
+
+Runs after collection so every article is re-evaluated from title + summary,
+with location and contextual relation resolved before snapshots/case clustering.
+"""
 import json
 import os
 import sys
 from datetime import datetime, timezone
 
 BASE = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-sys.path.insert(0, os.path.join(BASE, "scripts"))
+SCRIPTS = os.path.join(BASE, "scripts")
+sys.path.insert(0, SCRIPTS)
 
 from location_engine import detect_location
-from analysis_engine import analyze_article
-from fetch_news import discovery_matches, POLICE_ANCHORS
+from fetch_news import discovery_matches
+from contextual_engine import contextualize
 
 NEWS_FILE = os.path.join(BASE, "data", "news.json")
-ENGINE_VERSION = "normalizer-v6.5.4"
-
-
-def has_any(text, terms):
-    from fetch_news import contains_term
-    return any(contains_term(text, term) for term in terms)
+ENGINE_VERSION = "contextual-v1.0"
 
 
 def classify_existing(item):
     title = item.get("title", "")
-    summary = item.get("summary", "")
-    text = f"{title} {summary}".lower()
-    location = detect_location(
-        title,
-        source=item.get("source") or item.get("publisher") or "",
-    )
-    analysis = analyze_article(
-        title,
-        summary,
-        police_context=has_any(text, POLICE_ANCHORS),
-    )
+    summary = item.get("summary", "") or item.get("description", "")
+    source = item.get("source") or item.get("publisher") or ""
+    text = f"{title} {summary}".strip()
+
+    location = detect_location(title, summary, source=source)
+    analysis = contextualize(title, summary)
     families, tags, hits = discovery_matches(text)
 
     item.update({
@@ -45,795 +40,33 @@ def classify_existing(item):
         "location_confidence": location.get("confidence", 0),
         "location_evidence": location.get("evidence", []),
         "location_status": location.get("location_status"),
-        "location_source": location.get("source") or "title",
-        "category": analysis.get("classification_category") or (
-            "NEGATIF - " + analysis["issue_subtype"].upper()
-            if analysis.get("sentiment") == "negative"
-            else "POSITIF / PENEGAKAN HUKUM"
-            if analysis.get("sentiment") == "positive"
-            else "NETRAL / LAINNYA"
-        ),
-        "scope": analysis.get("sentiment", item.get("scope", "neutral")),
-        "scope_label": analysis.get("sentiment_label", item.get("scope_label", "NETRAL")),
-        "category": analysis.get("classification_category") or (
-            "NEGATIF - " + analysis["issue_subtype"].upper()
-            if analysis.get("sentiment") == "negative"
-            else "POSITIF / PENEGAKAN HUKUM"
-            if analysis.get("sentiment") == "positive"
-            else "NETRAL / LAINNYA"
-        ),
-        "scope": analysis.get("sentiment", item.get("scope", "neutral")),
-        "scope_label": analysis.get("sentiment_label", item.get("scope_label", "NETRAL")),
-        "category": analysis.get("classification_category") or (
-            "NEGATIF - " + analysis["issue_subtype"].upper()
-            if analysis.get("sentiment") == "negative"
-            else "POSITIF / PENEGAKAN HUKUM"
-            if analysis.get("sentiment") == "positive"
-            else "NETRAL / LAINNYA"
-        ),
-        "scope": analysis.get("sentiment", item.get("scope", "neutral")),
-        "scope_label": analysis.get("sentiment_label", item.get("scope_label", "NETRAL")),
-        "category": analysis.get("classification_category") or (
-            "NEGATIF - " + analysis["issue_subtype"].upper()
-            if analysis.get("sentiment") == "negative"
-            else "POSITIF / PENEGAKAN HUKUM"
-            if analysis.get("sentiment") == "positive"
-            else "NETRAL / LAINNYA"
-        ),
-        "scope": analysis.get("sentiment", item.get("scope", "neutral")),
-        "scope_label": analysis.get("sentiment_label", item.get("scope_label", "NETRAL")),
-        "category": analysis.get("classification_category") or (
-            "NEGATIF - " + analysis["issue_subtype"].upper()
-            if analysis.get("sentiment") == "negative"
-            else "POSITIF / PENEGAKAN HUKUM"
-            if analysis.get("sentiment") == "positive"
-            else "NETRAL / LAINNYA"
-        ),
-        "scope": analysis.get("sentiment", item.get("scope", "neutral")),
-        "scope_label": analysis.get("sentiment_label", item.get("scope_label", "NETRAL")),
-        "category": analysis.get("classification_category") or (
-            "NEGATIF - " + analysis["issue_subtype"].upper()
-            if analysis.get("sentiment") == "negative"
-            else "POSITIF / PENEGAKAN HUKUM"
-            if analysis.get("sentiment") == "positive"
-            else "NETRAL / LAINNYA"
-        ),
-        "scope": analysis.get("sentiment", item.get("scope", "neutral")),
-        "scope_label": analysis.get("sentiment_label", item.get("scope_label", "NETRAL")),
-        "category": analysis.get("classification_category") or (
-            "NEGATIF - " + analysis["issue_subtype"].upper()
-            if analysis.get("sentiment") == "negative"
-            else "POSITIF / PENEGAKAN HUKUM"
-            if analysis.get("sentiment") == "positive"
-            else "NETRAL / LAINNYA"
-        ),
-        "scope": analysis.get("sentiment", item.get("scope", "neutral")),
-        "scope_label": analysis.get("sentiment_label", item.get("scope_label", "NETRAL")),
-        "category": analysis.get("classification_category") or (
-            "NEGATIF - " + analysis["issue_subtype"].upper()
-            if analysis.get("sentiment") == "negative"
-            else "POSITIF / PENEGAKAN HUKUM"
-            if analysis.get("sentiment") == "positive"
-            else "NETRAL / LAINNYA"
-        ),
-        "scope": analysis.get("sentiment", item.get("scope", "neutral")),
-        "scope_label": analysis.get("sentiment_label", item.get("scope_label", "NETRAL")),
-        "category": analysis.get("classification_category") or (
-            "NEGATIF - " + analysis["issue_subtype"].upper()
-            if analysis.get("sentiment") == "negative"
-            else "POSITIF / PENEGAKAN HUKUM"
-            if analysis.get("sentiment") == "positive"
-            else "NETRAL / LAINNYA"
-        ),
-        "scope": analysis.get("sentiment", item.get("scope", "neutral")),
-        "scope_label": analysis.get("sentiment_label", item.get("scope_label", "NETRAL")),
-        "category": analysis.get("classification_category") or (
-            "NEGATIF - " + analysis["issue_subtype"].upper()
-            if analysis.get("sentiment") == "negative"
-            else "POSITIF / PENEGAKAN HUKUM"
-            if analysis.get("sentiment") == "positive"
-            else "NETRAL / LAINNYA"
-        ),
-        "scope": analysis.get("sentiment", item.get("scope", "neutral")),
-        "scope_label": analysis.get("sentiment_label", item.get("scope_label", "NETRAL")),
-        "category": analysis.get("classification_category") or (
-            "NEGATIF - " + analysis["issue_subtype"].upper()
-            if analysis.get("sentiment") == "negative"
-            else "POSITIF / PENEGAKAN HUKUM"
-            if analysis.get("sentiment") == "positive"
-            else "NETRAL / LAINNYA"
-        ),
-        "scope": analysis.get("sentiment", item.get("scope", "neutral")),
-        "scope_label": analysis.get("sentiment_label", item.get("scope_label", "NETRAL")),
-        "category": analysis.get("classification_category") or (
-            "NEGATIF - " + analysis["issue_subtype"].upper()
-            if analysis.get("sentiment") == "negative"
-            else "POSITIF / PENEGAKAN HUKUM"
-            if analysis.get("sentiment") == "positive"
-            else "NETRAL / LAINNYA"
-        ),
-        "scope": analysis.get("sentiment", item.get("scope", "neutral")),
-        "scope_label": analysis.get("sentiment_label", item.get("scope_label", "NETRAL")),
-        "category": analysis.get("classification_category") or (
-            "NEGATIF - " + analysis["issue_subtype"].upper()
-            if analysis.get("sentiment") == "negative"
-            else "POSITIF / PENEGAKAN HUKUM"
-            if analysis.get("sentiment") == "positive"
-            else "NETRAL / LAINNYA"
-        ),
-        "scope": analysis.get("sentiment", item.get("scope", "neutral")),
-        "scope_label": analysis.get("sentiment_label", item.get("scope_label", "NETRAL")),
-        "category": analysis.get("classification_category") or (
-            "NEGATIF - " + analysis["issue_subtype"].upper()
-            if analysis.get("sentiment") == "negative"
-            else "POSITIF / PENEGAKAN HUKUM"
-            if analysis.get("sentiment") == "positive"
-            else "NETRAL / LAINNYA"
-        ),
-        "scope": analysis.get("sentiment", item.get("scope", "neutral")),
-        "scope_label": analysis.get("sentiment_label", item.get("scope_label", "NETRAL")),
-        "category": analysis.get("classification_category") or (
-            "NEGATIF - " + analysis["issue_subtype"].upper()
-            if analysis.get("sentiment") == "negative"
-            else "POSITIF / PENEGAKAN HUKUM"
-            if analysis.get("sentiment") == "positive"
-            else "NETRAL / LAINNYA"
-        ),
-        "scope": analysis.get("sentiment", item.get("scope", "neutral")),
-        "scope_label": analysis.get("sentiment_label", item.get("scope_label", "NETRAL")),
-        "category": analysis.get("classification_category") or (
-            "NEGATIF - " + analysis["issue_subtype"].upper()
-            if analysis.get("sentiment") == "negative"
-            else "POSITIF / PENEGAKAN HUKUM"
-            if analysis.get("sentiment") == "positive"
-            else "NETRAL / LAINNYA"
-        ),
-        "scope": analysis.get("sentiment", item.get("scope", "neutral")),
-        "scope_label": analysis.get("sentiment_label", item.get("scope_label", "NETRAL")),
-        "category": analysis.get("classification_category") or (
-            "NEGATIF - " + analysis["issue_subtype"].upper()
-            if analysis.get("sentiment") == "negative"
-            else "POSITIF / PENEGAKAN HUKUM"
-            if analysis.get("sentiment") == "positive"
-            else "NETRAL / LAINNYA"
-        ),
-        "scope": analysis.get("sentiment", item.get("scope", "neutral")),
-        "scope_label": analysis.get("sentiment_label", item.get("scope_label", "NETRAL")),
-        "category": analysis.get("classification_category") or (
-            "NEGATIF - " + analysis["issue_subtype"].upper()
-            if analysis.get("sentiment") == "negative"
-            else "POSITIF / PENEGAKAN HUKUM"
-            if analysis.get("sentiment") == "positive"
-            else "NETRAL / LAINNYA"
-        ),
-        "scope": analysis.get("sentiment", item.get("scope", "neutral")),
-        "scope_label": analysis.get("sentiment_label", item.get("scope_label", "NETRAL")),
-        "category": analysis.get("classification_category") or (
-            "NEGATIF - " + analysis["issue_subtype"].upper()
-            if analysis.get("sentiment") == "negative"
-            else "POSITIF / PENEGAKAN HUKUM"
-            if analysis.get("sentiment") == "positive"
-            else "NETRAL / LAINNYA"
-        ),
-        "scope": analysis.get("sentiment", item.get("scope", "neutral")),
-        "scope_label": analysis.get("sentiment_label", item.get("scope_label", "NETRAL")),
-        "category": analysis.get("classification_category") or (
-            "NEGATIF - " + analysis["issue_subtype"].upper()
-            if analysis.get("sentiment") == "negative"
-            else "POSITIF / PENEGAKAN HUKUM"
-            if analysis.get("sentiment") == "positive"
-            else "NETRAL / LAINNYA"
-        ),
-        "scope": analysis.get("sentiment", item.get("scope", "neutral")),
-        "scope_label": analysis.get("sentiment_label", item.get("scope_label", "NETRAL")),
-        "category": analysis.get("classification_category") or (
-            "NEGATIF - " + analysis["issue_subtype"].upper()
-            if analysis.get("sentiment") == "negative"
-            else "POSITIF / PENEGAKAN HUKUM"
-            if analysis.get("sentiment") == "positive"
-            else "NETRAL / LAINNYA"
-        ),
-        "scope": analysis.get("sentiment", item.get("scope", "neutral")),
-        "scope_label": analysis.get("sentiment_label", item.get("scope_label", "NETRAL")),
-        "category": analysis.get("classification_category") or (
-            "NEGATIF - " + analysis["issue_subtype"].upper()
-            if analysis.get("sentiment") == "negative"
-            else "POSITIF / PENEGAKAN HUKUM"
-            if analysis.get("sentiment") == "positive"
-            else "NETRAL / LAINNYA"
-        ),
-        "scope": analysis.get("sentiment", item.get("scope", "neutral")),
-        "scope_label": analysis.get("sentiment_label", item.get("scope_label", "NETRAL")),
-        "category": analysis.get("classification_category") or (
-            "NEGATIF - " + analysis["issue_subtype"].upper()
-            if analysis.get("sentiment") == "negative"
-            else "POSITIF / PENEGAKAN HUKUM"
-            if analysis.get("sentiment") == "positive"
-            else "NETRAL / LAINNYA"
-        ),
-        "scope": analysis.get("sentiment", item.get("scope", "neutral")),
-        "scope_label": analysis.get("sentiment_label", item.get("scope_label", "NETRAL")),
-        "category": analysis.get("classification_category") or (
-            "NEGATIF - " + analysis["issue_subtype"].upper()
-            if analysis.get("sentiment") == "negative"
-            else "POSITIF / PENEGAKAN HUKUM"
-            if analysis.get("sentiment") == "positive"
-            else "NETRAL / LAINNYA"
-        ),
-        "scope": analysis.get("sentiment", item.get("scope", "neutral")),
-        "scope_label": analysis.get("sentiment_label", item.get("scope_label", "NETRAL")),
-        "category": analysis.get("classification_category") or (
-            "NEGATIF - " + analysis["issue_subtype"].upper()
-            if analysis.get("sentiment") == "negative"
-            else "POSITIF / PENEGAKAN HUKUM"
-            if analysis.get("sentiment") == "positive"
-            else "NETRAL / LAINNYA"
-        ),
-        "scope": analysis.get("sentiment", item.get("scope", "neutral")),
-        "scope_label": analysis.get("sentiment_label", item.get("scope_label", "NETRAL")),
-        "category": analysis.get("classification_category") or (
-            "NEGATIF - " + analysis["issue_subtype"].upper()
-            if analysis.get("sentiment") == "negative"
-            else "POSITIF / PENEGAKAN HUKUM"
-            if analysis.get("sentiment") == "positive"
-            else "NETRAL / LAINNYA"
-        ),
-        "scope": analysis.get("sentiment", item.get("scope", "neutral")),
-        "scope_label": analysis.get("sentiment_label", item.get("scope_label", "NETRAL")),
-        "category": analysis.get("classification_category") or (
-            "NEGATIF - " + analysis["issue_subtype"].upper()
-            if analysis.get("sentiment") == "negative"
-            else "POSITIF / PENEGAKAN HUKUM"
-            if analysis.get("sentiment") == "positive"
-            else "NETRAL / LAINNYA"
-        ),
-        "scope": analysis.get("sentiment", item.get("scope", "neutral")),
-        "scope_label": analysis.get("sentiment_label", item.get("scope_label", "NETRAL")),
-        "category": analysis.get("classification_category") or (
-            "NEGATIF - " + analysis["issue_subtype"].upper()
-            if analysis.get("sentiment") == "negative"
-            else "POSITIF / PENEGAKAN HUKUM"
-            if analysis.get("sentiment") == "positive"
-            else "NETRAL / LAINNYA"
-        ),
-        "scope": analysis.get("sentiment", item.get("scope", "neutral")),
-        "scope_label": analysis.get("sentiment_label", item.get("scope_label", "NETRAL")),
-        "category": analysis.get("classification_category") or (
-            "NEGATIF - " + analysis["issue_subtype"].upper()
-            if analysis.get("sentiment") == "negative"
-            else "POSITIF / PENEGAKAN HUKUM"
-            if analysis.get("sentiment") == "positive"
-            else "NETRAL / LAINNYA"
-        ),
-        "scope": analysis.get("sentiment", item.get("scope", "neutral")),
-        "scope_label": analysis.get("sentiment_label", item.get("scope_label", "NETRAL")),
-        "category": analysis.get("classification_category") or (
-            "NEGATIF - " + analysis["issue_subtype"].upper()
-            if analysis.get("sentiment") == "negative"
-            else "POSITIF / PENEGAKAN HUKUM"
-            if analysis.get("sentiment") == "positive"
-            else "NETRAL / LAINNYA"
-        ),
-        "scope": analysis.get("sentiment", item.get("scope", "neutral")),
-        "scope_label": analysis.get("sentiment_label", item.get("scope_label", "NETRAL")),
-        "category": analysis.get("classification_category") or (
-            "NEGATIF - " + analysis["issue_subtype"].upper()
-            if analysis.get("sentiment") == "negative"
-            else "POSITIF / PENEGAKAN HUKUM"
-            if analysis.get("sentiment") == "positive"
-            else "NETRAL / LAINNYA"
-        ),
-        "scope": analysis.get("sentiment", item.get("scope", "neutral")),
-        "scope_label": analysis.get("sentiment_label", item.get("scope_label", "NETRAL")),
-        "category": analysis.get("classification_category") or (
-            "NEGATIF - " + analysis["issue_subtype"].upper()
-            if analysis.get("sentiment") == "negative"
-            else "POSITIF / PENEGAKAN HUKUM"
-            if analysis.get("sentiment") == "positive"
-            else "NETRAL / LAINNYA"
-        ),
-        "scope": analysis.get("sentiment", item.get("scope", "neutral")),
-        "scope_label": analysis.get("sentiment_label", item.get("scope_label", "NETRAL")),
-        "category": analysis.get("classification_category") or (
-            "NEGATIF - " + analysis["issue_subtype"].upper()
-            if analysis.get("sentiment") == "negative"
-            else "POSITIF / PENEGAKAN HUKUM"
-            if analysis.get("sentiment") == "positive"
-            else "NETRAL / LAINNYA"
-        ),
-        "scope": analysis.get("sentiment", item.get("scope", "neutral")),
-        "scope_label": analysis.get("sentiment_label", item.get("scope_label", "NETRAL")),
-        "category": analysis.get("classification_category") or (
-            "NEGATIF - " + analysis["issue_subtype"].upper()
-            if analysis.get("sentiment") == "negative"
-            else "POSITIF / PENEGAKAN HUKUM"
-            if analysis.get("sentiment") == "positive"
-            else "NETRAL / LAINNYA"
-        ),
-        "scope": analysis.get("sentiment", item.get("scope", "neutral")),
-        "scope_label": analysis.get("sentiment_label", item.get("scope_label", "NETRAL")),
-        "category": analysis.get("classification_category") or (
-            "NEGATIF - " + analysis["issue_subtype"].upper()
-            if analysis.get("sentiment") == "negative"
-            else "POSITIF / PENEGAKAN HUKUM"
-            if analysis.get("sentiment") == "positive"
-            else "NETRAL / LAINNYA"
-        ),
-        "scope": analysis.get("sentiment", item.get("scope", "neutral")),
-        "scope_label": analysis.get("sentiment_label", item.get("scope_label", "NETRAL")),
-        "category": analysis.get("classification_category") or (
-            "NEGATIF - " + analysis["issue_subtype"].upper()
-            if analysis.get("sentiment") == "negative"
-            else "POSITIF / PENEGAKAN HUKUM"
-            if analysis.get("sentiment") == "positive"
-            else "NETRAL / LAINNYA"
-        ),
-        "scope": analysis.get("sentiment", item.get("scope", "neutral")),
-        "scope_label": analysis.get("sentiment_label", item.get("scope_label", "NETRAL")),
-        "category": analysis.get("classification_category") or (
-            "NEGATIF - " + analysis["issue_subtype"].upper()
-            if analysis.get("sentiment") == "negative"
-            else "POSITIF / PENEGAKAN HUKUM"
-            if analysis.get("sentiment") == "positive"
-            else "NETRAL / LAINNYA"
-        ),
-        "scope": analysis.get("sentiment", item.get("scope", "neutral")),
-        "scope_label": analysis.get("sentiment_label", item.get("scope_label", "NETRAL")),
-        "category": analysis.get("classification_category") or (
-            "NEGATIF - " + analysis["issue_subtype"].upper()
-            if analysis.get("sentiment") == "negative"
-            else "POSITIF / PENEGAKAN HUKUM"
-            if analysis.get("sentiment") == "positive"
-            else "NETRAL / LAINNYA"
-        ),
-        "scope": analysis.get("sentiment", item.get("scope", "neutral")),
-        "scope_label": analysis.get("sentiment_label", item.get("scope_label", "NETRAL")),
-        "category": analysis.get("classification_category") or (
-            "NEGATIF - " + analysis["issue_subtype"].upper()
-            if analysis.get("sentiment") == "negative"
-            else "POSITIF / PENEGAKAN HUKUM"
-            if analysis.get("sentiment") == "positive"
-            else "NETRAL / LAINNYA"
-        ),
-        "scope": analysis.get("sentiment", item.get("scope", "neutral")),
-        "scope_label": analysis.get("sentiment_label", item.get("scope_label", "NETRAL")),
-        "category": analysis.get("classification_category") or (
-            "NEGATIF - " + analysis["issue_subtype"].upper()
-            if analysis.get("sentiment") == "negative"
-            else "POSITIF / PENEGAKAN HUKUM"
-            if analysis.get("sentiment") == "positive"
-            else "NETRAL / LAINNYA"
-        ),
-        "scope": analysis.get("sentiment", item.get("scope", "neutral")),
-        "scope_label": analysis.get("sentiment_label", item.get("scope_label", "NETRAL")),
-        "category": analysis.get("classification_category") or (
-            "NEGATIF - " + analysis["issue_subtype"].upper()
-            if analysis.get("sentiment") == "negative"
-            else "POSITIF / PENEGAKAN HUKUM"
-            if analysis.get("sentiment") == "positive"
-            else "NETRAL / LAINNYA"
-        ),
-        "scope": analysis.get("sentiment", item.get("scope", "neutral")),
-        "scope_label": analysis.get("sentiment_label", item.get("scope_label", "NETRAL")),
-        "category": analysis.get("classification_category") or (
-            "NEGATIF - " + analysis["issue_subtype"].upper()
-            if analysis.get("sentiment") == "negative"
-            else "POSITIF / PENEGAKAN HUKUM"
-            if analysis.get("sentiment") == "positive"
-            else "NETRAL / LAINNYA"
-        ),
-        "scope": analysis.get("sentiment", item.get("scope", "neutral")),
-        "scope_label": analysis.get("sentiment_label", item.get("scope_label", "NETRAL")),
-        "category": analysis.get("classification_category") or (
-            "NEGATIF - " + analysis["issue_subtype"].upper()
-            if analysis.get("sentiment") == "negative"
-            else "POSITIF / PENEGAKAN HUKUM"
-            if analysis.get("sentiment") == "positive"
-            else "NETRAL / LAINNYA"
-        ),
-        "scope": analysis.get("sentiment", item.get("scope", "neutral")),
-        "scope_label": analysis.get("sentiment_label", item.get("scope_label", "NETRAL")),
-        "category": analysis.get("classification_category") or (
-            "NEGATIF - " + analysis["issue_subtype"].upper()
-            if analysis.get("sentiment") == "negative"
-            else "POSITIF / PENEGAKAN HUKUM"
-            if analysis.get("sentiment") == "positive"
-            else "NETRAL / LAINNYA"
-        ),
-        "scope": analysis.get("sentiment", item.get("scope", "neutral")),
-        "scope_label": analysis.get("sentiment_label", item.get("scope_label", "NETRAL")),
-        "category": analysis.get("classification_category") or (
-            "NEGATIF - " + analysis["issue_subtype"].upper()
-            if analysis.get("sentiment") == "negative"
-            else "POSITIF / PENEGAKAN HUKUM"
-            if analysis.get("sentiment") == "positive"
-            else "NETRAL / LAINNYA"
-        ),
-        "scope": analysis.get("sentiment", item.get("scope", "neutral")),
-        "scope_label": analysis.get("sentiment_label", item.get("scope_label", "NETRAL")),
-        "category": analysis.get("classification_category") or (
-            "NEGATIF - " + analysis["issue_subtype"].upper()
-            if analysis.get("sentiment") == "negative"
-            else "POSITIF / PENEGAKAN HUKUM"
-            if analysis.get("sentiment") == "positive"
-            else "NETRAL / LAINNYA"
-        ),
-        "scope": analysis.get("sentiment", item.get("scope", "neutral")),
-        "scope_label": analysis.get("sentiment_label", item.get("scope_label", "NETRAL")),
-        "category": analysis.get("classification_category") or (
-            "NEGATIF - " + analysis["issue_subtype"].upper()
-            if analysis.get("sentiment") == "negative"
-            else "POSITIF / PENEGAKAN HUKUM"
-            if analysis.get("sentiment") == "positive"
-            else "NETRAL / LAINNYA"
-        ),
-        "scope": analysis.get("sentiment", item.get("scope", "neutral")),
-        "scope_label": analysis.get("sentiment_label", item.get("scope_label", "NETRAL")),
-        "category": analysis.get("classification_category") or (
-            "NEGATIF - " + analysis["issue_subtype"].upper()
-            if analysis.get("sentiment") == "negative"
-            else "POSITIF / PENEGAKAN HUKUM"
-            if analysis.get("sentiment") == "positive"
-            else "NETRAL / LAINNYA"
-        ),
-        "scope": analysis.get("sentiment", item.get("scope", "neutral")),
-        "scope_label": analysis.get("sentiment_label", item.get("scope_label", "NETRAL")),
-        "category": analysis.get("classification_category") or (
-            "NEGATIF - " + analysis["issue_subtype"].upper()
-            if analysis.get("sentiment") == "negative"
-            else "POSITIF / PENEGAKAN HUKUM"
-            if analysis.get("sentiment") == "positive"
-            else "NETRAL / LAINNYA"
-        ),
-        "scope": analysis.get("sentiment", item.get("scope", "neutral")),
-        "scope_label": analysis.get("sentiment_label", item.get("scope_label", "NETRAL")),
-        "category": analysis.get("classification_category") or (
-            "NEGATIF - " + analysis["issue_subtype"].upper()
-            if analysis.get("sentiment") == "negative"
-            else "POSITIF / PENEGAKAN HUKUM"
-            if analysis.get("sentiment") == "positive"
-            else "NETRAL / LAINNYA"
-        ),
-        "scope": analysis.get("sentiment", item.get("scope", "neutral")),
-        "scope_label": analysis.get("sentiment_label", item.get("scope_label", "NETRAL")),
-        "category": analysis.get("classification_category") or (
-            "NEGATIF - " + analysis["issue_subtype"].upper()
-            if analysis.get("sentiment") == "negative"
-            else "POSITIF / PENEGAKAN HUKUM"
-            if analysis.get("sentiment") == "positive"
-            else "NETRAL / LAINNYA"
-        ),
-        "scope": analysis.get("sentiment", item.get("scope", "neutral")),
-        "scope_label": analysis.get("sentiment_label", item.get("scope_label", "NETRAL")),
-        "category": analysis.get("classification_category") or (
-            "NEGATIF - " + analysis["issue_subtype"].upper()
-            if analysis.get("sentiment") == "negative"
-            else "POSITIF / PENEGAKAN HUKUM"
-            if analysis.get("sentiment") == "positive"
-            else "NETRAL / LAINNYA"
-        ),
-        "scope": analysis.get("sentiment", item.get("scope", "neutral")),
-        "scope_label": analysis.get("sentiment_label", item.get("scope_label", "NETRAL")),
-        "category": analysis.get("classification_category") or (
-            "NEGATIF - " + analysis["issue_subtype"].upper()
-            if analysis.get("sentiment") == "negative"
-            else "POSITIF / PENEGAKAN HUKUM"
-            if analysis.get("sentiment") == "positive"
-            else "NETRAL / LAINNYA"
-        ),
-        "scope": analysis.get("sentiment", item.get("scope", "neutral")),
-        "scope_label": analysis.get("sentiment_label", item.get("scope_label", "NETRAL")),
-        "category": analysis.get("classification_category") or (
-            "NEGATIF - " + analysis["issue_subtype"].upper()
-            if analysis.get("sentiment") == "negative"
-            else "POSITIF / PENEGAKAN HUKUM"
-            if analysis.get("sentiment") == "positive"
-            else "NETRAL / LAINNYA"
-        ),
-        "scope": analysis.get("sentiment", item.get("scope", "neutral")),
-        "scope_label": analysis.get("sentiment_label", item.get("scope_label", "NETRAL")),
-        "category": analysis.get("classification_category") or (
-            "NEGATIF - " + analysis["issue_subtype"].upper()
-            if analysis.get("sentiment") == "negative"
-            else "POSITIF / PENEGAKAN HUKUM"
-            if analysis.get("sentiment") == "positive"
-            else "NETRAL / LAINNYA"
-        ),
-        "scope": analysis.get("sentiment", item.get("scope", "neutral")),
-        "scope_label": analysis.get("sentiment_label", item.get("scope_label", "NETRAL")),
-        "category": analysis.get("classification_category") or (
-            "NEGATIF - " + analysis["issue_subtype"].upper()
-            if analysis.get("sentiment") == "negative"
-            else "POSITIF / PENEGAKAN HUKUM"
-            if analysis.get("sentiment") == "positive"
-            else "NETRAL / LAINNYA"
-        ),
-        "scope": analysis.get("sentiment", item.get("scope", "neutral")),
-        "scope_label": analysis.get("sentiment_label", item.get("scope_label", "NETRAL")),
-        "category": analysis.get("classification_category") or (
-            "NEGATIF - " + analysis["issue_subtype"].upper()
-            if analysis.get("sentiment") == "negative"
-            else "POSITIF / PENEGAKAN HUKUM"
-            if analysis.get("sentiment") == "positive"
-            else "NETRAL / LAINNYA"
-        ),
-        "scope": analysis.get("sentiment", item.get("scope", "neutral")),
-        "scope_label": analysis.get("sentiment_label", item.get("scope_label", "NETRAL")),
-        "category": analysis.get("classification_category") or (
-            "NEGATIF - " + analysis["issue_subtype"].upper()
-            if analysis.get("sentiment") == "negative"
-            else "POSITIF / PENEGAKAN HUKUM"
-            if analysis.get("sentiment") == "positive"
-            else "NETRAL / LAINNYA"
-        ),
-        "scope": analysis.get("sentiment", item.get("scope", "neutral")),
-        "scope_label": analysis.get("sentiment_label", item.get("scope_label", "NETRAL")),
-        "category": analysis.get("classification_category") or (
-            "NEGATIF - " + analysis["issue_subtype"].upper()
-            if analysis.get("sentiment") == "negative"
-            else "POSITIF / PENEGAKAN HUKUM"
-            if analysis.get("sentiment") == "positive"
-            else "NETRAL / LAINNYA"
-        ),
-        "scope": analysis.get("sentiment", item.get("scope", "neutral")),
-        "scope_label": analysis.get("sentiment_label", item.get("scope_label", "NETRAL")),
-        "category": analysis.get("classification_category") or (
-            "NEGATIF - " + analysis["issue_subtype"].upper()
-            if analysis.get("sentiment") == "negative"
-            else "POSITIF / PENEGAKAN HUKUM"
-            if analysis.get("sentiment") == "positive"
-            else "NETRAL / LAINNYA"
-        ),
-        "scope": analysis.get("sentiment", item.get("scope", "neutral")),
-        "scope_label": analysis.get("sentiment_label", item.get("scope_label", "NETRAL")),
-        "category": analysis.get("classification_category") or (
-            "NEGATIF - " + analysis["issue_subtype"].upper()
-            if analysis.get("sentiment") == "negative"
-            else "POSITIF / PENEGAKAN HUKUM"
-            if analysis.get("sentiment") == "positive"
-            else "NETRAL / LAINNYA"
-        ),
-        "scope": analysis.get("sentiment", item.get("scope", "neutral")),
-        "scope_label": analysis.get("sentiment_label", item.get("scope_label", "NETRAL")),
-        "category": analysis.get("classification_category") or (
-            "NEGATIF - " + analysis["issue_subtype"].upper()
-            if analysis.get("sentiment") == "negative"
-            else "POSITIF / PENEGAKAN HUKUM"
-            if analysis.get("sentiment") == "positive"
-            else "NETRAL / LAINNYA"
-        ),
-        "scope": analysis.get("sentiment", item.get("scope", "neutral")),
-        "scope_label": analysis.get("sentiment_label", item.get("scope_label", "NETRAL")),
-        "category": analysis.get("classification_category") or (
-            "NEGATIF - " + analysis["issue_subtype"].upper()
-            if analysis.get("sentiment") == "negative"
-            else "POSITIF / PENEGAKAN HUKUM"
-            if analysis.get("sentiment") == "positive"
-            else "NETRAL / LAINNYA"
-        ),
-        "scope": analysis.get("sentiment", item.get("scope", "neutral")),
-        "scope_label": analysis.get("sentiment_label", item.get("scope_label", "NETRAL")),
-        "category": analysis.get("classification_category") or (
-            "NEGATIF - " + analysis["issue_subtype"].upper()
-            if analysis.get("sentiment") == "negative"
-            else "POSITIF / PENEGAKAN HUKUM"
-            if analysis.get("sentiment") == "positive"
-            else "NETRAL / LAINNYA"
-        ),
-        "scope": analysis.get("sentiment", item.get("scope", "neutral")),
-        "scope_label": analysis.get("sentiment_label", item.get("scope_label", "NETRAL")),
-        "category": analysis.get("classification_category") or (
-            "NEGATIF - " + analysis["issue_subtype"].upper()
-            if analysis.get("sentiment") == "negative"
-            else "POSITIF / PENEGAKAN HUKUM"
-            if analysis.get("sentiment") == "positive"
-            else "NETRAL / LAINNYA"
-        ),
-        "scope": analysis.get("sentiment", item.get("scope", "neutral")),
-        "scope_label": analysis.get("sentiment_label", item.get("scope_label", "NETRAL")),
-        "category": analysis.get("classification_category") or (
-            "NEGATIF - " + analysis["issue_subtype"].upper()
-            if analysis.get("sentiment") == "negative"
-            else "POSITIF / PENEGAKAN HUKUM"
-            if analysis.get("sentiment") == "positive"
-            else "NETRAL / LAINNYA"
-        ),
-        "scope": analysis.get("sentiment", item.get("scope", "neutral")),
-        "scope_label": analysis.get("sentiment_label", item.get("scope_label", "NETRAL")),
-        "category": analysis.get("classification_category") or (
-            "NEGATIF - " + analysis["issue_subtype"].upper()
-            if analysis.get("sentiment") == "negative"
-            else "POSITIF / PENEGAKAN HUKUM"
-            if analysis.get("sentiment") == "positive"
-            else "NETRAL / LAINNYA"
-        ),
-        "scope": analysis.get("sentiment", item.get("scope", "neutral")),
-        "scope_label": analysis.get("sentiment_label", item.get("scope_label", "NETRAL")),
-        "category": analysis.get("classification_category") or (
-            "NEGATIF - " + analysis["issue_subtype"].upper()
-            if analysis.get("sentiment") == "negative"
-            else "POSITIF / PENEGAKAN HUKUM"
-            if analysis.get("sentiment") == "positive"
-            else "NETRAL / LAINNYA"
-        ),
-        "scope": analysis.get("sentiment", item.get("scope", "neutral")),
-        "scope_label": analysis.get("sentiment_label", item.get("scope_label", "NETRAL")),
-        "category": analysis.get("classification_category") or (
-            "NEGATIF - " + analysis["issue_subtype"].upper()
-            if analysis.get("sentiment") == "negative"
-            else "POSITIF / PENEGAKAN HUKUM"
-            if analysis.get("sentiment") == "positive"
-            else "NETRAL / LAINNYA"
-        ),
-        "scope": analysis.get("sentiment", item.get("scope", "neutral")),
-        "scope_label": analysis.get("sentiment_label", item.get("scope_label", "NETRAL")),
-        "category": analysis.get("classification_category") or (
-            "NEGATIF - " + analysis["issue_subtype"].upper()
-            if analysis.get("sentiment") == "negative"
-            else "POSITIF / PENEGAKAN HUKUM"
-            if analysis.get("sentiment") == "positive"
-            else "NETRAL / LAINNYA"
-        ),
-        "scope": analysis.get("sentiment", item.get("scope", "neutral")),
-        "scope_label": analysis.get("sentiment_label", item.get("scope_label", "NETRAL")),
-        "category": analysis.get("classification_category") or (
-            "NEGATIF - " + analysis["issue_subtype"].upper()
-            if analysis.get("sentiment") == "negative"
-            else "POSITIF / PENEGAKAN HUKUM"
-            if analysis.get("sentiment") == "positive"
-            else "NETRAL / LAINNYA"
-        ),
-        "scope": analysis.get("sentiment", item.get("scope", "neutral")),
-        "scope_label": analysis.get("sentiment_label", item.get("scope_label", "NETRAL")),
-        "category": analysis.get("classification_category") or (
-            "NEGATIF - " + analysis["issue_subtype"].upper()
-            if analysis.get("sentiment") == "negative"
-            else "POSITIF / PENEGAKAN HUKUM"
-            if analysis.get("sentiment") == "positive"
-            else "NETRAL / LAINNYA"
-        ),
-        "scope": analysis.get("sentiment", item.get("scope", "neutral")),
-        "scope_label": analysis.get("sentiment_label", item.get("scope_label", "NETRAL")),
-        "category": analysis.get("classification_category") or (
-            "NEGATIF - " + analysis["issue_subtype"].upper()
-            if analysis.get("sentiment") == "negative"
-            else "POSITIF / PENEGAKAN HUKUM"
-            if analysis.get("sentiment") == "positive"
-            else "NETRAL / LAINNYA"
-        ),
-        "scope": analysis.get("sentiment", item.get("scope", "neutral")),
-        "scope_label": analysis.get("sentiment_label", item.get("scope_label", "NETRAL")),
-        "category": analysis.get("classification_category") or (
-            "NEGATIF - " + analysis["issue_subtype"].upper()
-            if analysis.get("sentiment") == "negative"
-            else "POSITIF / PENEGAKAN HUKUM"
-            if analysis.get("sentiment") == "positive"
-            else "NETRAL / LAINNYA"
-        ),
-        "scope": analysis.get("sentiment", item.get("scope", "neutral")),
-        "scope_label": analysis.get("sentiment_label", item.get("scope_label", "NETRAL")),
-        "category": analysis.get("classification_category") or (
-            "NEGATIF - " + analysis["issue_subtype"].upper()
-            if analysis.get("sentiment") == "negative"
-            else "POSITIF / PENEGAKAN HUKUM"
-            if analysis.get("sentiment") == "positive"
-            else "NETRAL / LAINNYA"
-        ),
-        "scope": analysis.get("sentiment", item.get("scope", "neutral")),
-        "scope_label": analysis.get("sentiment_label", item.get("scope_label", "NETRAL")),
-        "category": analysis.get("classification_category") or (
-            "NEGATIF - " + analysis["issue_subtype"].upper()
-            if analysis.get("sentiment") == "negative"
-            else "POSITIF / PENEGAKAN HUKUM"
-            if analysis.get("sentiment") == "positive"
-            else "NETRAL / LAINNYA"
-        ),
-        "scope": analysis.get("sentiment", item.get("scope", "neutral")),
-        "scope_label": analysis.get("sentiment_label", item.get("scope_label", "NETRAL")),
-        "category": analysis.get("classification_category") or (
-            "NEGATIF - " + analysis["issue_subtype"].upper()
-            if analysis.get("sentiment") == "negative"
-            else "POSITIF / PENEGAKAN HUKUM"
-            if analysis.get("sentiment") == "positive"
-            else "NETRAL / LAINNYA"
-        ),
-        "scope": analysis.get("sentiment", item.get("scope", "neutral")),
-        "scope_label": analysis.get("sentiment_label", item.get("scope_label", "NETRAL")),
-        "category": analysis.get("classification_category") or (
-            "NEGATIF - " + analysis["issue_subtype"].upper()
-            if analysis.get("sentiment") == "negative"
-            else "POSITIF / PENEGAKAN HUKUM"
-            if analysis.get("sentiment") == "positive"
-            else "NETRAL / LAINNYA"
-        ),
-        "scope": analysis.get("sentiment", item.get("scope", "neutral")),
-        "scope_label": analysis.get("sentiment_label", item.get("scope_label", "NETRAL")),
-        "category": analysis.get("classification_category") or (
-            "NEGATIF - " + analysis["issue_subtype"].upper()
-            if analysis.get("sentiment") == "negative"
-            else "POSITIF / PENEGAKAN HUKUM"
-            if analysis.get("sentiment") == "positive"
-            else "NETRAL / LAINNYA"
-        ),
-        "scope": analysis.get("sentiment", item.get("scope", "neutral")),
-        "scope_label": analysis.get("sentiment_label", item.get("scope_label", "NETRAL")),
-        "category": analysis.get("classification_category") or (
-            "NEGATIF - " + analysis["issue_subtype"].upper()
-            if analysis.get("sentiment") == "negative"
-            else "POSITIF / PENEGAKAN HUKUM"
-            if analysis.get("sentiment") == "positive"
-            else "NETRAL / LAINNYA"
-        ),
-        "scope": analysis.get("sentiment", item.get("scope", "neutral")),
-        "scope_label": analysis.get("sentiment_label", item.get("scope_label", "NETRAL")),
-        "category": analysis.get("classification_category") or (
-            "NEGATIF - " + analysis["issue_subtype"].upper()
-            if analysis.get("sentiment") == "negative"
-            else "POSITIF / PENEGAKAN HUKUM"
-            if analysis.get("sentiment") == "positive"
-            else "NETRAL / LAINNYA"
-        ),
-        "scope": analysis.get("sentiment", item.get("scope", "neutral")),
-        "scope_label": analysis.get("sentiment_label", item.get("scope_label", "NETRAL")),
-        "category": analysis.get("classification_category") or (
-            "NEGATIF - " + analysis["issue_subtype"].upper()
-            if analysis.get("sentiment") == "negative"
-            else "POSITIF / PENEGAKAN HUKUM"
-            if analysis.get("sentiment") == "positive"
-            else "NETRAL / LAINNYA"
-        ),
-        "scope": analysis.get("sentiment", item.get("scope", "neutral")),
-        "scope_label": analysis.get("sentiment_label", item.get("scope_label", "NETRAL")),
-        "category": analysis.get("classification_category") or (
-            "NEGATIF - " + analysis["issue_subtype"].upper()
-            if analysis.get("sentiment") == "negative"
-            else "POSITIF / PENEGAKAN HUKUM"
-            if analysis.get("sentiment") == "positive"
-            else "NETRAL / LAINNYA"
-        ),
-        "scope": analysis.get("sentiment", item.get("scope", "neutral")),
-        "scope_label": analysis.get("sentiment_label", item.get("scope_label", "NETRAL")),
-        "category": analysis.get("classification_category") or (
-            "NEGATIF - " + analysis["issue_subtype"].upper()
-            if analysis.get("sentiment") == "negative"
-            else "POSITIF / PENEGAKAN HUKUM"
-            if analysis.get("sentiment") == "positive"
-            else "NETRAL / LAINNYA"
-        ),
-        "scope": analysis.get("sentiment", item.get("scope", "neutral")),
-        "scope_label": analysis.get("sentiment_label", item.get("scope_label", "NETRAL")),
-        "category": analysis.get("classification_category") or (
-            "NEGATIF - " + analysis["issue_subtype"].upper()
-            if analysis.get("sentiment") == "negative"
-            else "POSITIF / PENEGAKAN HUKUM"
-            if analysis.get("sentiment") == "positive"
-            else "NETRAL / LAINNYA"
-        ),
-        "scope": analysis.get("sentiment", item.get("scope", "neutral")),
-        "scope_label": analysis.get("sentiment_label", item.get("scope_label", "NETRAL")),
-        "category": analysis.get("classification_category") or (
-            "NEGATIF - " + analysis["issue_subtype"].upper()
-            if analysis.get("sentiment") == "negative"
-            else "POSITIF / PENEGAKAN HUKUM"
-            if analysis.get("sentiment") == "positive"
-            else "NETRAL / LAINNYA"
-        ),
-        "scope": analysis.get("sentiment", item.get("scope", "neutral")),
-        "scope_label": analysis.get("sentiment_label", item.get("scope_label", "NETRAL")),
-        "issue_type": analysis["issue_type"],
-        "issue_subtype": analysis["issue_subtype"],
-        "issue_evidence": analysis["issue_evidence"],
-        "handling_status": analysis["handling_status"],
-        "handling_evidence": analysis["handling_evidence"],
-        "attention_score": analysis["attention_score"],
-        "attention_label": analysis["attention_label"],
-        "attention_components": analysis["attention_components"],
-        "attention_evidence": analysis["attention_evidence"],
-        "priority": analysis["legacy_priority"],
+        "location_source": location.get("source") or "title_description",
+        "category": analysis.get("classification_category") or "NETRAL / LAINNYA",
+        "scope": analysis.get("sentiment", "neutral"),
+        "scope_label": analysis.get("sentiment_label", "Netral"),
+        "issue_type": analysis.get("issue_type"),
+        "issue_subtype": analysis.get("issue_subtype"),
+        "issue_evidence": analysis.get("issue_evidence", []),
+        "polri_relation": analysis.get("polri_relation"),
+        "polri_relation_evidence": analysis.get("polri_relation_evidence", []),
+        "handling_status": analysis.get("handling_status"),
+        "handling_evidence": analysis.get("handling_evidence", []),
+        "assertion_status": analysis.get("assertion_status"),
+        "assertion_confidence": analysis.get("assertion_confidence", 0),
+        "assertion_evidence": analysis.get("assertion_evidence", []),
+        "attention_score": analysis.get("contextual_attention_score", analysis.get("attention_score", 0)),
+        "attention_label": analysis.get("attention_label"),
+        "attention_components": analysis.get("attention_components", {}),
+        "attention_evidence": analysis.get("attention_evidence", {}),
+        "attention_reasons": analysis.get("contextual_reason", analysis.get("attention_reasons", [])),
+        "priority": analysis.get("legacy_priority", "low"),
         "discovery_families": families,
         "discovery_tags": tags,
         "discovery_hits": hits,
-        "discovery_version": "discovery-v6.5.4",
+        "classifier_version": ENGINE_VERSION,
+        "analysis_engine_version": ENGINE_VERSION,
+        "location_engine_version": "location-context-title-description",
+        "classified_at": datetime.now(timezone.utc).isoformat(),
     })
     return item
 
@@ -843,36 +76,56 @@ def main():
         db = json.load(f)
 
     items = db.get("items", [])
-    db.pop("ai_case_adjudicator", None)
-    db.pop("ai_case_adjudicator_version", None)
-    before = json.dumps(items, ensure_ascii=False, sort_keys=True)
+    before_scope = {str(x.get("id") or x.get("url")): x.get("scope") for x in items}
+    before_negative = sum(1 for x in items if x.get("scope") == "negative")
+
     for item in items:
         classify_existing(item)
-    after = json.dumps(items, ensure_ascii=False, sort_keys=True)
 
-    db["location_engine_version"] = "location-v6.5-title-only"
-    db["classifier_version"] = "news-v6.5.4"
-    db["analysis_engine_version"] = "analysis-v6.5.4"
+    after_negative = sum(1 for x in items if x.get("scope") == "negative")
+    after_positive = sum(1 for x in items if x.get("scope") == "positive")
+    after_neutral = sum(1 for x in items if x.get("scope") == "neutral")
+    downgraded = 0
+    promoted = 0
+    for item in items:
+        key = str(item.get("id") or item.get("url"))
+        old = before_scope.get(key)
+        new = item.get("scope")
+        if old == "negative" and new == "neutral":
+            downgraded += 1
+        if old != "negative" and new == "negative":
+            promoted += 1
+
+    db["contextual_engine_version"] = ENGINE_VERSION
+    db["location_engine_version"] = "location-context-title-description"
+    db["classifier_version"] = ENGINE_VERSION
     db["normalized_at"] = datetime.now(timezone.utc).isoformat()
+    db["contextual_audit"] = {
+        "records": len(items),
+        "negative_before": before_negative,
+        "negative_after": after_negative,
+        "positive_after": after_positive,
+        "neutral_after": after_neutral,
+        "downgraded_negative_to_neutral": downgraded,
+        "promoted_to_negative": promoted,
+    }
 
     tmp = NEWS_FILE + ".tmp"
     with open(tmp, "w", encoding="utf-8") as f:
         json.dump(db, f, ensure_ascii=False, indent=2)
     os.replace(tmp, NEWS_FILE)
 
-    jatim = sum(1 for x in items if x.get("is_jatim") is True)
-    outside = sum(1 for x in items if x.get("region") == "LUAR JATIM")
-    unknown = sum(1 for x in items if x.get("region") == "BELUM TERPETAKAN")
-
     print("========================================")
-    print("JAGAT NORMALISASI V6.5.3")
+    print("JAGAT CONTEXTUAL NORMALIZATION")
     print("========================================")
-    print(f"News records     : {len(items)}")
-    print(f"Jawa Timur       : {jatim}")
-    print(f"Luar Jatim       : {outside}")
-    print(f"Belum terpetakan : {unknown}")
-    print(f"Changed          : {before != after}")
-    print(f"Engine           : {ENGINE_VERSION}")
+    print(f"Records                     : {len(items)}")
+    print(f"Negative before             : {before_negative}")
+    print(f"Negative after              : {after_negative}")
+    print(f"Positive after              : {after_positive}")
+    print(f"Neutral after               : {after_neutral}")
+    print(f"Negative -> Neutral         : {downgraded}")
+    print(f"Promoted to Negative        : {promoted}")
+    print(f"Engine                      : {ENGINE_VERSION}")
     print("========================================")
 
 
