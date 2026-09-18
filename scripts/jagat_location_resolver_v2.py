@@ -74,11 +74,25 @@ def detect_polda_unit(text):
     return any(contains_word(t, term) for term in base.JATIM_PUSAT_TERMS)
 
 
+HARD_OUTSIDE_JATIM_TERMS = [
+    "batu bara", "polres batu bara", "kepolisian resor batu bara",
+    "sumatera utara", "sumatera barat", "sumatera selatan", "lampung",
+    "jambi", "riau", "kepulauan riau", "bengkulu", "kalimantan",
+    "sulawesi", "papua", "maluku", "bali", "ntb", "ntt", "jawa tengah",
+    "jateng", "jawa barat", "jabar", "banten", "dki jakarta", "jakarta",
+    "yogyakarta", "polda sulsel", "polda sumsel",
+]
+
+
 def detect_location(title, description="", source=""):
     clean_title = strip_publisher_suffix(title, source)
     text = combined_text(clean_title, description, source)
 
-    outside = [x for x in base.NON_JATIM_TERMS if contains_word(text, x)]
+    # Hard exclusion for clearly non-Jatim locations. Keep this independent
+    # from the mutable master list so a workflow cannot regress Batu Bara and
+    # similar outside-Jatim cases when the master data changes.
+    outside = [x for x in HARD_OUTSIDE_JATIM_TERMS if contains_word(text, x)]
+    outside += [x for x in base.NON_JATIM_TERMS if contains_word(text, x) and x not in outside]
     if outside:
         # A direct Jatim institutional hit in the same text outranks a generic
         # outside-Jatim place mention because news snippets often mention both.
