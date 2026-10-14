@@ -287,7 +287,7 @@ def choose_case(item, cases, recovery=False):
             and (
                 bool(evidence["shared_locations"])
                 or bool(evidence.get("shared_families")) and bool(n["polres"] and case.get("polres") and n["polres"] == case.get("polres"))
-                or bool(n["polres"] and c["polres"] and n["polres"] == c["polres"])
+                or bool(n["polres"] and case.get("polres") and n["polres"] == case.get("polres"))
                 or evidence["title"] >= 0.82
             )
         )
@@ -296,7 +296,7 @@ def choose_case(item, cases, recovery=False):
             len(evidence["shared_events"]) >= 2
             and (
                 bool(evidence["shared_locations"])
-                or bool(n["polres"] and c["polres"] and n["polres"] == c["polres"])
+                or bool(n["polres"] and case.get("polres") and n["polres"] == case.get("polres"))
                 or evidence["title"] >= 0.86
             )
         )
