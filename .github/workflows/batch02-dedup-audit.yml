@@ -26,7 +26,7 @@ jobs:
         with:
           python-version: "3.12"
 
-      - name: Preflight syntax and existing engine tests
+      - name: Preflight syntax and existing engine tests (Batch 02 regression included)
         run: |
           python -m py_compile scripts/*.py
           python scripts/test_location_engine.py
