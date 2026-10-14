@@ -1,0 +1,220 @@
+name: JAGAT-JATIM — Batch 02 Deduplication Audit
+
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - ".github/workflows/batch02-dedup-audit.yml"
+
+permissions:
+  contents: read
+
+concurrency:
+  group: jagat-batch02-dedup-audit
+  cancel-in-progress: false
+
+jobs:
+  dedup-audit:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v6
+
+      - name: Setup Python
+        uses: actions/setup-python@v6
+        with:
+          python-version: "3.12"
+
+      - name: Preflight syntax and existing engine tests
+        run: |
+          python -m py_compile scripts/*.py
+          python scripts/test_location_engine.py
+          python scripts/test_analysis_engine.py
+          python scripts/test_analysis_v655.py
+          python scripts/test_analysis_v656.py
+          python scripts/test_analysis_v657.py
+
+      - name: Read-only duplicate and clustering candidate audit
+        run: |
+          python - <<'PY'
+          import json, re, hashlib, os, time
+          from pathlib import Path
+          from collections import defaultdict, Counter
+          from datetime import datetime, timezone
+          from urllib.parse import urlsplit, urlunsplit, parse_qsl, urlencode
+
+          start = time.perf_counter()
+          def load(path):
+              p = Path(path)
+              if not p.exists():
+                  raise SystemExit(f"Required file missing: {path}")
+              raw = p.read_bytes()
+              try:
+                  value = json.loads(raw.decode("utf-8-sig"))
+              except Exception as exc:
+                  raise SystemExit(f"Cannot parse {path}: {exc}")
+              return value, {"bytes": len(raw), "sha256": hashlib.sha256(raw).hexdigest()}
+
+          news_db, news_meta = load("data/news.json")
+          case_db, case_meta = load("data/case_clusters.json")
+          news = news_db.get("items", []) if isinstance(news_db, dict) else news_db
+          cases = case_db.get("cases", case_db.get("items", [])) if isinstance(case_db, dict) else case_db
+          if not isinstance(news, list) or not isinstance(cases, list):
+              raise SystemExit("Unexpected dataset schema; expected news and case lists")
+
+          def norm_title(value):
+              value = str(value or "").lower()
+              value = re.sub(r"https?://\\S+", " ", value)
+              value = re.sub(r"[^a-z0-9\\s]", " ", value)
+              return re.sub(r"\\s+", " ", value).strip()
+
+          tracking_keys = {"utm_source","utm_medium","utm_campaign","utm_term","utm_content","gclid","fbclid","ocid","ref","source"}
+          def norm_url(value):
+              raw = str(value or "").strip()
+              if not raw:
+                  return ""
+              try:
+                  p = urlsplit(raw)
+                  host = (p.hostname or "").lower()
+                  if host.startswith("www."):
+                      host = host[4:]
+                  path = re.sub(r"/+$", "", p.path or "")
+                  query = [(k,v) for k,v in parse_qsl(p.query, keep_blank_values=True) if k.lower() not in tracking_keys]
+                  query.sort()
+                  return urlunsplit((p.scheme.lower() or "https", host, path, urlencode(query, doseq=True), ""))
+              except Exception:
+                  return raw.rstrip("/")
+
+          def groups_for(items, key_fn):
+              groups = defaultdict(list)
+              for item in items:
+                  if not isinstance(item, dict):
+                      continue
+                  key = key_fn(item)
+                  if key:
+                      groups[key].append(item)
+              return [g for g in groups.values() if len(g) > 1]
+
+          def article_summary(item):
+              return {
+                  "id": item.get("id"),
+                  "title": str(item.get("title") or "")[:220],
+                  "url": item.get("url"),
+                  "source": item.get("source") or item.get("publisher"),
+                  "published_at": item.get("published_at") or item.get("date"),
+                  "region": item.get("region"),
+                  "locality": item.get("locality"),
+                  "polres": item.get("polres"),
+                  "case_id": item.get("case_id"),
+              }
+
+          url_groups = groups_for(news, lambda x: norm_url(x.get("url")))
+          title_groups = groups_for(news, lambda x: norm_title(x.get("title")))
+          exact_title_candidates = []
+          for group in sorted(title_groups, key=lambda g: (-len(g), norm_title(g[0].get("title")))):
+              exact_title_candidates.append({
+                  "normalized_title": norm_title(group[0].get("title"))[:220],
+                  "count": len(group),
+                  "articles": [article_summary(x) for x in group[:8]],
+                  "review_note": "Same normalized title is a candidate only; verify URL, publisher, date, location and incident identity before any merge."
+              })
+
+          duplicate_url_candidates = []
+          for group in sorted(url_groups, key=lambda g: (-len(g), norm_url(g[0].get("url")))):
+              duplicate_url_candidates.append({
+                  "canonical_url": norm_url(group[0].get("url"))[:500],
+                  "count": len(group),
+                  "articles": [article_summary(x) for x in group[:10]],
+                  "review_note": "Canonical URL match is strong evidence of duplicate article records, but preserve all metadata/source provenance until the resolution rule is validated."
+              })
+
+          # Candidate case pairs are suggestions for human review, never automatic merges.
+          case_pairs = []
+          for i, a in enumerate(cases):
+              if not isinstance(a, dict):
+                  continue
+              ae = set(a.get("event_terms") or [])
+              al = set(a.get("location_terms") or [])
+              ap = str(a.get("polres") or "").strip().upper()
+              aa = set(a.get("article_ids") or [])
+              for b in cases[i+1:]:
+                  if not isinstance(b, dict):
+                      continue
+                  bp = str(b.get("polres") or "").strip().upper()
+                  if ap and bp and ap != bp:
+                      continue
+                  be = set(b.get("event_terms") or [])
+                  bl = set(b.get("location_terms") or [])
+                  shared_events = sorted(ae & be)
+                  shared_locations = sorted(al & bl)
+                  same_locality = bool(a.get("locality") and b.get("locality") and str(a.get("locality")).strip().lower() == str(b.get("locality")).strip().lower())
+                  if len(shared_events) >= 2 and (shared_locations or same_locality or (ap and ap == bp)):
+                      case_pairs.append({
+                          "case_a": a.get("case_id"),
+                          "title_a": str(a.get("title") or "")[:180],
+                          "article_count_a": a.get("article_count", len(aa)),
+                          "case_b": b.get("case_id"),
+                          "title_b": str(b.get("title") or "")[:180],
+                          "article_count_b": b.get("article_count", len(set(b.get("article_ids") or []))),
+                          "same_polres": bool(ap and ap == bp),
+                          "same_locality": same_locality,
+                          "shared_events": shared_events[:12],
+                          "shared_locations": shared_locations[:12],
+                          "review_note": "Candidate only. Confirm event identity and dates before merging."
+                      })
+          case_pairs.sort(key=lambda x: (-len(x["shared_events"]), -len(x["shared_locations"]), str(x["case_a"]), str(x["case_b"])))
+
+          report = {
+            "audit": "JAGAT-JATIM Batch 02 — read-only deduplication and clustering candidates",
+            "generated_at": datetime.now(timezone.utc).isoformat(),
+            "commit": os.environ.get("GITHUB_SHA", "unknown"),
+            "mode": "read-only; no article/case data mutation; no collector; no deployment",
+            "dataset": {
+              "news_count": len(news),
+              "case_count": len(cases),
+              "news_file": news_meta,
+              "case_file": case_meta,
+              "engine_version": case_db.get("engine_version") if isinstance(case_db, dict) else None,
+            },
+            "counts": {
+              "duplicate_canonical_url_groups": len(url_groups),
+              "duplicate_canonical_url_excess_records": sum(len(g)-1 for g in url_groups),
+              "duplicate_normalized_title_groups": len(title_groups),
+              "duplicate_normalized_title_excess_records": sum(len(g)-1 for g in title_groups),
+              "candidate_case_pairs": len(case_pairs),
+              "news_records_without_id": sum(1 for x in news if isinstance(x, dict) and not str(x.get("id") or "").strip()),
+            },
+            "duplicate_url_candidates": duplicate_url_candidates[:200],
+            "normalized_title_candidates": exact_title_candidates[:200],
+            "candidate_case_pairs": case_pairs[:500],
+            "limitations": [
+              "No records are deleted, rewritten, re-keyed, or merged by this workflow.",
+              "Repeated titles and similar case terms are review candidates, not proof of duplicate incidents.",
+              "The candidate case-pair heuristic is intentionally conservative and may miss duplicates.",
+              "A separate implementation change requires candidate review and tests."
+            ],
+            "elapsed_seconds": round(time.perf_counter()-start, 3)
+          }
+          Path("batch02-dedup-audit.json").write_text(json.dumps(report, ensure_ascii=False, indent=2), encoding="utf-8")
+          print(json.dumps({
+            "audit": report["audit"],
+            "generated_at": report["generated_at"],
+            "commit": report["commit"],
+            "mode": report["mode"],
+            "dataset": report["dataset"],
+            "counts": report["counts"],
+            "case_candidate_sample": case_pairs[:15],
+            "url_candidate_sample": duplicate_url_candidates[:10],
+            "title_candidate_sample": exact_title_candidates[:10],
+            "elapsed_seconds": report["elapsed_seconds"]
+          }, ensure_ascii=False, indent=2))
+          PY
+
+      - name: Upload candidate audit artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: jagat-batch02-dedup-audit
+          path: batch02-dedup-audit.json
+          if-no-files-found: error
+          retention-days: 30
