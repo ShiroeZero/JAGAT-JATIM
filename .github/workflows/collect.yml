@@ -24,8 +24,9 @@ permissions:
   pages: write
   id-token: write
 
+# Move to a fresh concurrency group to bypass stale queued runs from the old group.
 concurrency:
-  group: "jagat-collector"
+  group: "jagat-collector-v2"
   cancel-in-progress: false
 
 jobs:
