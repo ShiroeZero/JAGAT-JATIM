@@ -95,7 +95,7 @@ jobs:
         run: python -u scripts/fetch_news.py
       - name: Resolve original publisher URLs
         env:
-          JAGAT_URL_RESOLVE_LIMIT: "60"
+          JAGAT_URL_RESOLVE_LIMIT: "120"
           JAGAT_URL_RESOLVE_INTERVAL: "1"
         run: python -u scripts/resolve_google_urls.py
       - name: Annotate canonical article duplicates
