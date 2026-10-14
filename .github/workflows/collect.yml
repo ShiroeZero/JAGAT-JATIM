@@ -58,6 +58,8 @@ jobs:
           python scripts/test_analysis_v655.py
           python scripts/test_analysis_v656.py
           python scripts/test_analysis_v657.py
+          python scripts/test_batch02_dedup.py
+          python scripts/test_article_identity.py
       - name: Collect news
         run: python -u scripts/fetch_news.py
       - name: Resolve original publisher URLs
@@ -65,6 +67,8 @@ jobs:
           JAGAT_URL_RESOLVE_LIMIT: "60"
           JAGAT_URL_RESOLVE_INTERVAL: "1"
         run: python -u scripts/resolve_google_urls.py
+      - name: Annotate canonical article duplicates
+        run: python -u scripts/annotate_article_duplicates.py
       - name: Normalize and classify data
         run: python -u scripts/normalize_news.py
       - name: Build case clusters
