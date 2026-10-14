@@ -474,8 +474,57 @@ def sync_news_case_ids(news, cases):
         if aid in mapping:
             mark_case(item, mapping[aid])
 
+def case_merge_candidate(a, b):
+    """Return whether two case clusters have enough evidence to be merged.
+
+    Case merging is intentionally conservative: event vocabulary alone is not
+    incident identity. Explicit geography conflicts, distant time windows, or
+    weak headline similarity prevent automatic consolidation.
+    """
+    ap = str(a.get("polres") or "").strip().upper()
+    bp = str(b.get("polres") or "").strip().upper()
+    al = str(a.get("locality") or "").strip().lower()
+    bl = str(b.get("locality") or "").strip().lower()
+
+    if ap and bp and ap != bp:
+        return False
+    if al and bl and al != bl:
+        return False
+
+    # Missing dates are not sufficient evidence for an automatic merge.
+    a_start = parse_dt(a.get("first_seen"))
+    a_end = parse_dt(a.get("last_seen")) or a_start
+    b_start = parse_dt(b.get("first_seen"))
+    b_end = parse_dt(b.get("last_seen")) or b_start
+    if not all((a_start, a_end, b_start, b_end)):
+        return False
+    if a_end < b_start:
+        gap_days = (b_start - a_end).total_seconds() / 86400
+    elif b_end < a_start:
+        gap_days = (a_start - b_end).total_seconds() / 86400
+    else:
+        gap_days = 0
+    if gap_days > MAX_CASE_AGE_DAYS:
+        return False
+
+    shared_locations = set(a.get("location_terms", [])) & set(b.get("location_terms", []))
+    shared_events = set(a.get("event_terms", [])) & set(b.get("event_terms", []))
+    same_polres = bool(ap and bp and ap == bp)
+    same_locality = bool(al and bl and al == bl)
+    same_geography = bool(same_polres or same_locality or shared_locations)
+    if not same_geography or not shared_events:
+        return False
+
+    title_score = similarity(a.get("title", ""), b.get("title", ""))
+    # Multiple event anchors need moderate headline agreement; one event anchor
+    # requires a near-identical headline and shared explicit location evidence.
+    if len(shared_events) >= 2:
+        return title_score >= 0.62
+    return bool(shared_locations) and title_score >= 0.82
+
+
 def merge_duplicate_cases(cases):
-    """Consolidate cases that were created separately for the same incident."""
+    """Consolidate cases only when event, geography, time and title agree."""
     changed = True
     merge_count = 0
 
@@ -490,35 +539,7 @@ def merge_duplicate_cases(cases):
             for j in range(i + 1, len(cases)):
                 b = cases[j]
 
-                aloc = set(a.get("location_terms", []))
-                bloc = set(b.get("location_terms", []))
-                aevents = set(a.get("event_terms", []))
-                bevents = set(b.get("event_terms", []))
-
-                shared_locations = aloc & bloc
-                shared_events = aevents & bevents
-
-                explicit_polres_conflict = bool(a.get("polres") and b.get("polres") and a.get("polres") != b.get("polres"))
-                explicit_locality_conflict = bool(a.get("locality") and b.get("locality") and a.get("locality") != b.get("locality"))
-                same_polres = (
-                    a.get("polres")
-                    and b.get("polres")
-                    and a.get("polres") == b.get("polres")
-                )
-                if explicit_polres_conflict or explicit_locality_conflict:
-                    continue
-
-                # Preserve the exact merge rule, but only compute title similarity
-                # for the one branch that actually requires it. The former code ran
-                # SequenceMatcher for every pair of cases (millions of comparisons).
-                identity = bool(same_polres and len(shared_events) >= 2)
-                if not identity and shared_locations and len(shared_events) >= 2:
-                    identity = True
-                elif not identity and shared_locations and len(shared_events) == 1:
-                    title_score = similarity(a.get("title", ""), b.get("title", ""))
-                    identity = title_score >= 0.55
-
-                if not identity:
+                if not case_merge_candidate(a, b):
                     continue
 
                 # Prefer the case with more articles as the survivor.
