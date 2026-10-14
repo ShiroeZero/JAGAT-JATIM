@@ -31,7 +31,7 @@ def resolve(url: str) -> str | None:
 
     try:
         result = gnewsdecoder(url, interval=INTERVAL_SECONDS)
-        if isinstance(result, dict) and result.get("status"):
+        if isinstance(result, dict) and (result.get("status") or result.get("success")):
             decoded = str(result.get("decoded_url") or "").strip()
             if decoded and not is_google_news_url(decoded):
                 return decoded
