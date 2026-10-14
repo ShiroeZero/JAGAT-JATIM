@@ -116,7 +116,17 @@ jobs:
           git config user.name "JAGAT Bot"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add data/ scripts/ assets/ .github/workflows/collect.yml index.html app.js styles.css config.js dashboard-modern.css dashboard-modern.js map-situasional.js laporan.css laporan.js .gitignore README.md docs/
-          if git diff --cached --quiet; then echo "Tidak ada perubahan Git."; else git commit -m "chore: update JAGAT v7.1 monitoring"; git push; fi
+          if git diff --cached --quiet; then echo "Tidak ada perubahan Git."; else
+            git commit -m "chore: update JAGAT v7.1 monitoring"
+            # Integrate commits that landed while collection was running. Never force-push.
+            git fetch origin main
+            if ! git rebase origin/main; then
+              echo "::error::Monitoring commit could not be rebased safely onto latest main; stopping without force-push."
+              git rebase --abort || true
+              exit 1
+            fi
+            git push origin HEAD:main
+          fi
       - name: Configure GitHub Pages
         uses: actions/configure-pages@v5
       - name: Prepare Pages site
