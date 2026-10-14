@@ -14,6 +14,9 @@ on:
       - "scripts/resolve_google_urls.py"
       - "scripts/restore_legacy_dashboard.py"
       - "scripts/apply_frontend_ui.py"
+      - "laporan.js"
+      - "laporan.css"
+      - "index.html"
       - ".github/workflows/collect.yml"
   workflow_dispatch:
   schedule:
