@@ -2,21 +2,219 @@
   "schema_version": "today-v3",
   "date": "2026-10-15",
   "timezone": "Asia/Jakarta",
-  "updated_at": "2026-10-15T00:01:57.417353+07:00",
-  "last_successful_update": "2026-10-15T00:01:57.417353+07:00",
+  "updated_at": "2026-10-15T00:13:22.324795+07:00",
+  "last_successful_update": "2026-10-15T00:13:22.324795+07:00",
   "news": {
-    "detected": 0,
+    "detected": 1,
     "negative": 0,
     "positive": 0,
     "case": 0,
-    "neutral": 0,
+    "neutral": 1,
     "jatim": 0,
-    "luar_jatim": 0,
+    "luar_jatim": 1,
     "priority_high": 0,
-    "article_ids": [],
-    "items": [],
+    "article_ids": [
+      "08623a4413900c297b05d851f0840a0720825c88"
+    ],
+    "items": [
+      {
+        "id": "08623a4413900c297b05d851f0840a0720825c88",
+        "title": "Sehari Usai Lapak Narkoba Digempur Polisi, 3 Orang Ditembak dan Ditikam di Kampung Ambon - VIVA.co.id",
+        "url": "https://www.viva.co.id/berita/metro/1935890-sehari-usai-lapak-narkoba-digempur-polisi-3-orang-ditembak-dan-ditikam-di-kampung-ambon",
+        "source": "VIVA.co.id",
+        "published_at": "2026-10-14T16:54:37+00:00",
+        "collected_at": "2026-10-14T17:03:22.310053+00:00",
+        "region": "BELUM TERPETAKAN",
+        "area_label": "BELUM TERPETAKAN",
+        "is_jatim": null,
+        "polres": null,
+        "category": "NETRAL / POLRI SEBAGAI KORBAN",
+        "scope": "neutral",
+        "scope_label": "Netral",
+        "priority": "low",
+        "summary": "Sehari Usai Lapak Narkoba Digempur Polisi, 3 Orang Ditembak dan Ditikam di Kampung Ambon VIVA.co.id",
+        "processing_status": "processed",
+        "classifier_version": "contextual-v1.1",
+        "classified_at": "2026-10-14T17:10:56.647882+00:00",
+        "case_id": null,
+        "discovery_families": [],
+        "discovery_tags": [],
+        "discovery_hits": [],
+        "discovery_version": "discovery-v6",
+        "google_news_url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOZ2pHXzc2N3hKVGVYMFBoWnpSU2dXdzFUaG5RS2xGS3NhX29oc3hYekZTN0NXN3JTeXV3UEhpMWhFamJPMEdNUnQ5djZsRWxHRGQ1cnNTY1huUGN4VHd1d3dFRndGTGhmU0Vqd1lUQlhhQm9zWGhlcV9mYXQ4SEJrZFdXUW85NHRKeG1vVk8xYXVQUURBMjN2VkZnOVNkVDZQQjBQNDU1MHYwZUxKelo4M1NUd0k0RVhGZVpkTzlZWU8zRlZUZU15YjE1RdIB0AFBVV95cUxQN3Q4NmJhSG9SX3FvRTRWaEUwVFJWbk9yYl8zMHIycURpYUp2clN0MmRNa21yUXhnVE5jRzcxUl9KT0RXV2dsZERmNW9Sd2FiblJZVWtKQ0psY0VXb2JEelo2U1lzbmZlV0dtNmM3cUM3eHVjYUZjc2NjR2lkSGxuclJBb0VTN1dqcTRfdlAxaUY4QkszdFItRXFKQ2tnbE4zYU80Q25RQmNIMUhSX25NS2RBdEZSd3lSVWZxb0JPcHowR09iVWRxZnN5cTJ4SHZB?oc=5",
+        "original_url": "https://www.viva.co.id/berita/metro/1935890-sehari-usai-lapak-narkoba-digempur-polisi-3-orang-ditembak-dan-ditikam-di-kampung-ambon",
+        "canonical_url": "https://viva.co.id/berita/metro/1935890-sehari-usai-lapak-narkoba-digempur-polisi-3-orang-ditembak-dan-ditikam-di-kampung-ambon",
+        "duplicate_article": false,
+        "locality": "",
+        "polsek": null,
+        "location_confidence": 0,
+        "location_evidence": [],
+        "location_status": "BELUM_TERPETAKAN",
+        "location_source": "title_description",
+        "sentiment": "neutral",
+        "sentiment_label": "Netral",
+        "issue_type": "KEKERASAN_DAN_KEKUATAN",
+        "issue_subtype": "Kekerasan / Penggunaan Kekuatan",
+        "issue_evidence": [
+          "ditembak"
+        ],
+        "polri_relation": "KORBAN",
+        "polri_relation_evidence": [
+          "Polri/personel terdeteksi sebagai korban peristiwa"
+        ],
+        "handling_status": "BELUM_ADA_INFORMASI",
+        "handling_evidence": [],
+        "assertion_status": "FACTUAL",
+        "assertion_confidence": 75,
+        "assertion_evidence": [],
+        "attention_score": 25,
+        "attention_label": "Rendah",
+        "attention_components": {
+          "severity": 14,
+          "polri_relation": 6,
+          "authority": 0,
+          "public_impact": 4,
+          "handling": 0,
+          "evidence": 1,
+          "context_risk": 0,
+          "routine_enforcement_cap": null
+        },
+        "attention_evidence": {
+          "severity": [
+            "kekerasan berat"
+          ],
+          "authority": [],
+          "public_impact": [],
+          "evidence": [
+            "satu sumber / informasi awal"
+          ],
+          "role": [
+            "Polisi sebagai korban"
+          ],
+          "issue": [
+            "ditembak"
+          ],
+          "handling": [],
+          "context": [],
+          "positive": []
+        },
+        "attention_reasons": [
+          "Polri/personel terdeteksi sebagai korban, bukan pelaku"
+        ],
+        "contextual_flags": {
+          "explicit_polri_subject": false,
+          "explicit_polri_enforcer": false,
+          "polri_victim": true,
+          "service_negative": false,
+          "misconduct_signal": true,
+          "direct_positive_enforcement": false
+        },
+        "analysis_engine_version": "contextual-v1.1",
+        "location_engine_version": "location-v2-title-snippet-source",
+        "case_engine_version": "case-v6.5.4",
+        "case_processed_at": "2026-10-14T17:12:57.632028+00:00"
+      }
+    ],
     "jatim_items": [],
-    "luar_jatim_items": []
+    "luar_jatim_items": [
+      {
+        "id": "08623a4413900c297b05d851f0840a0720825c88",
+        "title": "Sehari Usai Lapak Narkoba Digempur Polisi, 3 Orang Ditembak dan Ditikam di Kampung Ambon - VIVA.co.id",
+        "url": "https://www.viva.co.id/berita/metro/1935890-sehari-usai-lapak-narkoba-digempur-polisi-3-orang-ditembak-dan-ditikam-di-kampung-ambon",
+        "source": "VIVA.co.id",
+        "published_at": "2026-10-14T16:54:37+00:00",
+        "collected_at": "2026-10-14T17:03:22.310053+00:00",
+        "region": "BELUM TERPETAKAN",
+        "area_label": "BELUM TERPETAKAN",
+        "is_jatim": null,
+        "polres": null,
+        "category": "NETRAL / POLRI SEBAGAI KORBAN",
+        "scope": "neutral",
+        "scope_label": "Netral",
+        "priority": "low",
+        "summary": "Sehari Usai Lapak Narkoba Digempur Polisi, 3 Orang Ditembak dan Ditikam di Kampung Ambon VIVA.co.id",
+        "processing_status": "processed",
+        "classifier_version": "contextual-v1.1",
+        "classified_at": "2026-10-14T17:10:56.647882+00:00",
+        "case_id": null,
+        "discovery_families": [],
+        "discovery_tags": [],
+        "discovery_hits": [],
+        "discovery_version": "discovery-v6",
+        "google_news_url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOZ2pHXzc2N3hKVGVYMFBoWnpSU2dXdzFUaG5RS2xGS3NhX29oc3hYekZTN0NXN3JTeXV3UEhpMWhFamJPMEdNUnQ5djZsRWxHRGQ1cnNTY1huUGN4VHd1d3dFRndGTGhmU0Vqd1lUQlhhQm9zWGhlcV9mYXQ4SEJrZFdXUW85NHRKeG1vVk8xYXVQUURBMjN2VkZnOVNkVDZQQjBQNDU1MHYwZUxKelo4M1NUd0k0RVhGZVpkTzlZWU8zRlZUZU15YjE1RdIB0AFBVV95cUxQN3Q4NmJhSG9SX3FvRTRWaEUwVFJWbk9yYl8zMHIycURpYUp2clN0MmRNa21yUXhnVE5jRzcxUl9KT0RXV2dsZERmNW9Sd2FiblJZVWtKQ0psY0VXb2JEelo2U1lzbmZlV0dtNmM3cUM3eHVjYUZjc2NjR2lkSGxuclJBb0VTN1dqcTRfdlAxaUY4QkszdFItRXFKQ2tnbE4zYU80Q25RQmNIMUhSX25NS2RBdEZSd3lSVWZxb0JPcHowR09iVWRxZnN5cTJ4SHZB?oc=5",
+        "original_url": "https://www.viva.co.id/berita/metro/1935890-sehari-usai-lapak-narkoba-digempur-polisi-3-orang-ditembak-dan-ditikam-di-kampung-ambon",
+        "canonical_url": "https://viva.co.id/berita/metro/1935890-sehari-usai-lapak-narkoba-digempur-polisi-3-orang-ditembak-dan-ditikam-di-kampung-ambon",
+        "duplicate_article": false,
+        "locality": "",
+        "polsek": null,
+        "location_confidence": 0,
+        "location_evidence": [],
+        "location_status": "BELUM_TERPETAKAN",
+        "location_source": "title_description",
+        "sentiment": "neutral",
+        "sentiment_label": "Netral",
+        "issue_type": "KEKERASAN_DAN_KEKUATAN",
+        "issue_subtype": "Kekerasan / Penggunaan Kekuatan",
+        "issue_evidence": [
+          "ditembak"
+        ],
+        "polri_relation": "KORBAN",
+        "polri_relation_evidence": [
+          "Polri/personel terdeteksi sebagai korban peristiwa"
+        ],
+        "handling_status": "BELUM_ADA_INFORMASI",
+        "handling_evidence": [],
+        "assertion_status": "FACTUAL",
+        "assertion_confidence": 75,
+        "assertion_evidence": [],
+        "attention_score": 25,
+        "attention_label": "Rendah",
+        "attention_components": {
+          "severity": 14,
+          "polri_relation": 6,
+          "authority": 0,
+          "public_impact": 4,
+          "handling": 0,
+          "evidence": 1,
+          "context_risk": 0,
+          "routine_enforcement_cap": null
+        },
+        "attention_evidence": {
+          "severity": [
+            "kekerasan berat"
+          ],
+          "authority": [],
+          "public_impact": [],
+          "evidence": [
+            "satu sumber / informasi awal"
+          ],
+          "role": [
+            "Polisi sebagai korban"
+          ],
+          "issue": [
+            "ditembak"
+          ],
+          "handling": [],
+          "context": [],
+          "positive": []
+        },
+        "attention_reasons": [
+          "Polri/personel terdeteksi sebagai korban, bukan pelaku"
+        ],
+        "contextual_flags": {
+          "explicit_polri_subject": false,
+          "explicit_polri_enforcer": false,
+          "polri_victim": true,
+          "service_negative": false,
+          "misconduct_signal": true,
+          "direct_positive_enforcement": false
+        },
+        "analysis_engine_version": "contextual-v1.1",
+        "location_engine_version": "location-v2-title-snippet-source",
+        "case_engine_version": "case-v6.5.4",
+        "case_processed_at": "2026-10-14T17:12:57.632028+00:00"
+      }
+    ]
   },
   "cases": {
     "active": 0,
@@ -29,10 +227,10 @@
     "jatim_items": []
   },
   "social": {
-    "detected": 49,
+    "detected": 64,
     "jatim": 3,
-    "negative": 31,
-    "priority_high": 27,
+    "negative": 42,
+    "priority_high": 38,
     "video_ids": [
       "6-tgERmtbc4",
       "mVuLJB5zD5U",
@@ -42,34 +240,42 @@
       "6GBceXk79y4",
       "CLZa4K8SVtU",
       "P96LhqPzZQM",
+      "UFyLKrDamOQ",
       "v-N5KqxEsmg",
       "AB8n_nafGLs",
       "K2nmlLvK070",
       "hSg2KR2E7ZY",
       "xqop4KL2Y9w",
+      "0h851D3klHI",
       "JKbJpoqO1pY",
       "aYkYcjk7WpM",
       "zFv0dAcavMw",
       "FQU_8dDbSC0",
       "7sXx9rP5OFk",
+      "4wbJ8xZps1I",
       "HCcl6ZhqYT4",
       "EaO81otTjGM",
       "4euq2M7RXxc",
       "ZiDrJjR14jI",
       "R3WVc3XycIg",
       "etletb7ds88",
+      "DhS941q0sok",
       "-OwfZJ6ISfI",
       "JIixNYBQZis",
       "X3QflxI5ep8",
       "5CXU3KxkQOw",
       "Dkvpga5HKVw",
+      "6Pr88fMA_M8",
       "iR2n169-z8M",
       "egb94TRDhSo",
+      "OYW0gy7oxLE",
       "ZA48J2pHIPc",
       "A-thpiG7TNw",
       "N3v9lz6u59g",
       "wE77R4oHD3Y",
       "9nuShfMs924",
+      "GiNWRFFC9cM",
+      "l5GbhOPIbjQ",
       "KC3PTYGWPOs",
       "LVy8ZNAlZ6s",
       "T-XZVyTAp2k",
@@ -80,9 +286,16 @@
       "I9VReKVzfkI",
       "FDJ4xTsRluE",
       "_xtYDMZA2no",
+      "9QKDql1fE0I",
       "SeFvcdaGgkw",
       "rEr76D1giOA",
-      "Dofe4U54N9I"
+      "Dofe4U54N9I",
+      "C38t3LTCoiU",
+      "-mzZrXDcqMw",
+      "5gwFwNEL2z4",
+      "tSABwRD0nUc",
+      "L9NBGxX0jXE",
+      "q33byGP16jE"
     ]
   },
   "jatim": {
@@ -94,13 +307,13 @@
     "case_today": 0,
     "case_high_active": 0,
     "article_high_today": 0,
-    "outside_jatim_today": 0
+    "outside_jatim_today": 1
   },
   "regions": [],
   "polres": [],
   "categories": [],
   "summary": {
-    "news_today": 0,
+    "news_today": 1,
     "negative_today": 0,
     "cases_today": 0,
     "priority_high": 0,
@@ -112,7 +325,7 @@
     "jatim_neutral": 0,
     "jatim_cases_today": 0,
     "jatim_case_high_active": 0,
-    "luar_jatim_news": 0,
-    "youtube_today": 49
+    "luar_jatim_news": 1,
+    "youtube_today": 64
   }
 }
