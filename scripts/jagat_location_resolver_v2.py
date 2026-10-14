@@ -96,7 +96,7 @@ def detect_location(title, description="", source=""):
     if outside:
         # A direct Jatim institutional hit in the same text outranks a generic
         # outside-Jatim place mention because news snippets often mention both.
-        if not detect_polres(text) and not detect_polsek(text)[1] and not detect_polda_unit(text):
+        if not detect_polres(text)[0] and not detect_polsek(text)[1] and not detect_polda_unit(text):
             return {
                 "is_jatim": False,
                 "region": "LUAR JATIM",
