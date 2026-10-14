@@ -27,6 +27,12 @@ let activeArchive = null;
 let map = null;
 let mapMarkers = [];
 let initialized = false;
+let regionDrawerState = { name: "", items: [], filter: "all" };
+const SENTIMENT_OVERRIDE_KEY = "jagat.sentiment.overrides.v1";
+let sentimentOverridesCache = null;
+function readSentimentOverrides() { if (sentimentOverridesCache) return sentimentOverridesCache; try { sentimentOverridesCache = JSON.parse(localStorage.getItem(SENTIMENT_OVERRIDE_KEY) || "{}"); } catch (_) { sentimentOverridesCache = {}; } return sentimentOverridesCache; }
+function getManualScope(x) { if (!x?.id) return ""; return String(readSentimentOverrides()[String(x.id)]?.scope || "").toLowerCase(); }
+function setManualScope(id, scope) { if (!id) return; const overrides = { ...readSentimentOverrides() }; if (!scope || scope === "auto") delete overrides[String(id)]; else overrides[String(id)] = { scope, updated_at: new Date().toISOString() }; try { localStorage.setItem(SENTIMENT_OVERRIDE_KEY, JSON.stringify(overrides)); sentimentOverridesCache = overrides; } catch (_) { alert("Koreksi tidak dapat disimpan di browser ini."); return; } renderAll(); if (regionDrawerState.name) openRegionDrawer(regionDrawerState.name, todayJatimItems(), regionDrawerState.filter); }
 
 const $ = (id) => document.getElementById(id);
 const number = (v) => Number.isFinite(Number(v)) ? Number(v).toLocaleString("id-ID") : "0";
@@ -106,7 +112,9 @@ function matchesAttentionBand(article, value, cases = activeCases()) {
   const [lo, hi] = value.split("-").map(Number);
   return Number.isFinite(lo) && Number.isFinite(hi) && n >= lo && n <= hi;
 }
-function getScope(x) { return String(x?.scope || "neutral").toLowerCase(); }
+function getScope(x) { return getManualScope(x) || String(x?.scope || "neutral").toLowerCase(); }
+function sentimentLabel(scope) { return ({ negative: "NEGATIF", positive: "POSITIF", neutral: "NETRAL", case: "UNGKAP KASUS", uncertain: "BELUM PASTI" })[scope] || "NETRAL"; }
+function sentimentClass(scope) { return ({ negative: "sentiment-negative", positive: "sentiment-positive", neutral: "sentiment-neutral", case: "sentiment-case", uncertain: "sentiment-uncertain" })[scope] || "sentiment-neutral"; }
 function getCategory(x) { return x?.category || "NETRAL / LAINNYA"; }
 function isJatim(x) { return x?.is_jatim === true || String(x?.region || "").toLowerCase() === "jawa timur"; }
 function priorityRank(v) { return ({ high: 3, medium: 2, low: 1 })[String(v || "low").toLowerCase()] || 1; }
@@ -431,42 +439,43 @@ function renderRegionsToday(items) {
   }));
 }
 
-function openRegionDrawer(name, items) {
+function openRegionDrawer(name, items, filter = "all") {
   const selected = String(name || "");
-  let regionItems = items.filter(isJatim);
-  if (selected !== "Jawa Timur") {
-    regionItems = regionItems.filter(item => getFilterArea(item) === selected);
-  }
+  let regionItems = (items || []).filter(isJatim);
+  if (selected !== "Jawa Timur") regionItems = regionItems.filter(item => getFilterArea(item) === selected);
+  regionItems.sort((a,b)=>new Date(getItemDate(b)||0)-new Date(getItemDate(a)||0));
+  const counts = { negative: 0, positive: 0, neutral: 0, case: 0, uncertain: 0 };
+  regionItems.forEach(item => { const scope = getScope(item); if (Object.hasOwn(counts, scope)) counts[scope]++; else counts.neutral++; });
   const allCases = globalCases().filter(c => regionItems.some(item => item.case_id === c.case_id));
   const title = selected === "Jawa Timur" ? "Seluruh Berita Jawa Timur" : `Berita ${selected}`;
-  const grouped = new Map();
-  regionItems.slice().sort((a,b)=>new Date(getItemDate(b)||0)-new Date(getItemDate(a)||0)).forEach(item => {
-    const cid = item.case_id || `article-${item.id}`;
-    if (!grouped.has(cid)) grouped.set(cid, []);
-    grouped.get(cid).push(item);
-  });
-
-  $("drawerEyebrow").textContent = "WILAYAH";
+  regionDrawerState = { name: selected, items: regionItems, filter };
+  const visibleItems = filter === "all" ? regionItems : regionItems.filter(item => getScope(item) === filter);
+  const filterOptions = [["all","Semua",regionItems.length],["negative","Negatif",counts.negative],["positive","Positif",counts.positive],["neutral","Netral",counts.neutral],["case","Ungkap kasus",counts.case],["uncertain","Belum pasti",counts.uncertain]];
+  $("drawerEyebrow").textContent = "WILAYAH · KLASIFIKASI BERITA";
   $("drawerContent").innerHTML = `
     <div class="drawer-title">${escapeHtml(title)}</div>
     <div class="drawer-meta">${number(regionItems.length)} berita · ${number(allCases.length)} kasus · hari ini</div>
-    <div class="drawer-pills"><span class="pill low">JAWA TIMUR</span></div>
-    <div class="source-list">
-      <h4>Seluruh berita (${number(regionItems.length)})</h4>
-      ${regionItems.length ? regionItems.map(item => {
-        const url = normalizeUrl(item.url);
-        return `<div class="source-row">
-          <div><b>${escapeHtml(getTitle(item))}</b><div>${escapeHtml(getSource(item))}</div><small>${escapeHtml(formatDateTime(getItemDate(item)))} · ${escapeHtml(getCategory(item))}</small></div>
-          <span class="source-row-actions">
-            ${copyButtonMarkup(url)}
-            ${url ? `<a href="${escapeHtml(url)}" target="_blank" rel="noopener noreferrer" class="open-link-btn"><i class="fa-solid fa-arrow-up-right-from-square" aria-hidden="true"></i> Buka</a>` : `<span class="muted">Tanpa tautan</span>`}
-          </span>
-        </div>`;
-      }).join("") : `<div class="empty">Tidak ada berita pada wilayah ini.</div>`}
+    <div class="region-sentiment-summary">
+      <span class="sentiment-chip sentiment-negative">Negatif <b>${number(counts.negative)}</b></span><span class="sentiment-chip sentiment-positive">Positif <b>${number(counts.positive)}</b></span><span class="sentiment-chip sentiment-neutral">Netral <b>${number(counts.neutral)}</b></span><span class="sentiment-chip sentiment-case">Ungkap kasus <b>${number(counts.case)}</b></span><span class="sentiment-chip sentiment-uncertain">Belum pasti <b>${number(counts.uncertain)}</b></span>
+    </div>
+    <div class="region-sentiment-filters" role="group" aria-label="Filter sentimen wilayah">
+      ${filterOptions.map(([value,label,count]) => `<button type="button" class="region-sentiment-filter ${filter===value?"active":""} ${sentimentClass(value)}" data-region-sentiment-filter="${value}">${label} <b>${number(count)}</b></button>`).join("")}
+    </div>
+    <div class="sentiment-help">Warna menunjukkan klasifikasi artikel. Koreksi manual tersimpan di browser ini; belum mengubah data server atau perangkat lain.</div>
+    <div class="source-list"><h4>${filter === "all" ? "Seluruh berita" : "Berita " + escapeHtml(sentimentLabel(filter))} (${number(visibleItems.length)})</h4>
+      ${visibleItems.length ? visibleItems.map(item => {
+        const url = normalizeUrl(item.url), scope = getScope(item), manual = Boolean(getManualScope(item));
+        return `<div class="source-row sentiment-source-row ${sentimentClass(scope)}"><div class="source-row-main">
+          <span class="sentiment-chip ${sentimentClass(scope)}">${sentimentLabel(scope)}${manual ? " · MANUAL" : ""}</span><b>${escapeHtml(getTitle(item))}</b><div>${escapeHtml(getSource(item))}</div><small>${escapeHtml(formatDateTime(getItemDate(item)))} · ${escapeHtml(getCategory(item))}</small>
+          <label class="manual-scope-label" for="manual-scope-${escapeHtml(item.id)}">Koreksi klasifikasi</label>
+          <select id="manual-scope-${escapeHtml(item.id)}" class="manual-scope-select" data-manual-scope-id="${escapeHtml(item.id)}">${[["auto","Ikuti sistem"],["negative","Negatif"],["positive","Positif"],["neutral","Netral"],["uncertain","Belum pasti"]].map(([v,l])=>`<option value="${v}" ${(manual ? scope : "auto")===v?"selected":""}>${l}</option>`).join("")}</select>
+        </div><span class="source-row-actions">${copyButtonMarkup(url)}${url ? `<a href="${escapeHtml(url)}" target="_blank" rel="noopener noreferrer" class="open-link-btn"><i class="fa-solid fa-arrow-up-right-from-square" aria-hidden="true"></i> Buka</a>` : `<span class="muted">Tanpa tautan</span>`}</span></div>`;
+      }).join("") : `<div class="empty">Tidak ada berita pada klasifikasi ini.</div>`}
     </div>`;
-  openDrawer();
+  $("drawerContent").querySelectorAll("[data-region-sentiment-filter]").forEach(button => button.addEventListener("click", () => openRegionDrawer(selected, items, button.dataset.regionSentimentFilter)));
+  $("drawerContent").querySelectorAll("[data-manual-scope-id]").forEach(select => select.addEventListener("change", () => setManualScope(select.dataset.manualScopeId, select.value)));
+  bindCopyButtons($("drawerContent")); openDrawer();
 }
-
 
 function renderCategories(items) {
   const target = $("categories");
@@ -499,7 +508,7 @@ function articleCard(item) {
       </div>
       <div class="badges">
         <span class="pill ${aClass}">ATENSI ${number(attention)}/100 · ${escapeHtml(attentionLabel)}</span>
-        ${c ? `<span class="pill ${attentionClass(getAttentionScore(c))}">KASUS ${number(getAttentionScore(c))}/100</span>` : `<span class="pill">${escapeHtml(getScope(item).toUpperCase())}</span>`}
+        ${`<span class="pill ${sentimentClass(getScope(item))}">${escapeHtml(sentimentLabel(getScope(item)))}</span>`}${c ? `<span class="pill ${attentionClass(getAttentionScore(c))}">KASUS ${number(getAttentionScore(c))}/100</span>` : ""}
       </div>
     </div>
     <div class="card-actions-bottom">

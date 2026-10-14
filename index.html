@@ -7,7 +7,7 @@
   <meta name="description" content="JAGAT — Jejaring Analisis & Garda Atensi Terpadu">
   <title>JAGAT — Jejaring Analisis &amp; Garda Atensi Terpadu</title>
   <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" crossorigin="">
-  <link rel="stylesheet" href="styles.css?v=6.5.5">
+  <link rel="stylesheet" href="styles.css?v=6.5.6">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css">
   <link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
   <link rel="stylesheet" href="laporan.css?v=7.0.1">
@@ -73,16 +73,17 @@
           <div class="panel-head">
             <div>
               <h3>Status Wilayah</h3>
-              <div class="muted">Warna mengikuti tingkat atensi wilayah; jumlah berita negatif ditampilkan sebagai indikator, bukan status setiap berita.</div>
+              <div class="muted">Klik wilayah untuk melihat berita berwarna menurut klasifikasi: merah negatif, hijau positif, abu netral, biru ungkap kasus, kuning belum pasti.</div>
             </div>
             <span id="mapCount" class="map-count">0 wilayah</span>
           </div>
           <div id="regionToday" class="region-status-grid"></div>
           <div class="region-status-legend">
-            <span><i class="status-dot danger"></i>Atensi tinggi</span>
-            <span><i class="status-dot warning"></i>Berita negatif / atensi sedang</span>
-            <span><i class="status-dot success"></i>Positif saja</span>
-            <span><i class="status-dot neutral"></i>Netral</span>
+            <span><i class="sentiment-legend-dot sentiment-negative"></i>Negatif</span>
+            <span><i class="sentiment-legend-dot sentiment-positive"></i>Positif</span>
+            <span><i class="sentiment-legend-dot sentiment-neutral"></i>Netral</span>
+            <span><i class="sentiment-legend-dot sentiment-case"></i>Ungkap kasus</span>
+            <span><i class="sentiment-legend-dot sentiment-uncertain"></i>Belum pasti</span>
           </div>
         </section>
 
@@ -273,7 +274,7 @@
   </aside>
 
   <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" crossorigin=""></script>
-  <script src="app.js?v=6.5.6"></script>
+  <script src="app.js?v=6.5.7"></script>
   <script defer src="map-situasional.js?v=6.7.1"></script>
   <script defer src="laporan.js?v=7.0.1"></script>
   <script>
