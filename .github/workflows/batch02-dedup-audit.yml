@@ -34,6 +34,7 @@ jobs:
           python scripts/test_analysis_v655.py
           python scripts/test_analysis_v656.py
           python scripts/test_analysis_v657.py
+          python scripts/test_batch02_dedup.py
 
       - name: Read-only duplicate and clustering candidate audit
         run: |
