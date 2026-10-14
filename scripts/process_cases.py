@@ -146,6 +146,11 @@ def next_case_id(cases):
             highest = max(highest, int(match.group(1)))
     return f"CASE-{highest + 1:06d}"
 
+def is_duplicate_article(item):
+    """Whether this record is a secondary copy of a canonical publisher URL."""
+    return item.get("duplicate_article") is True
+
+
 def is_case_candidate(item):
     scope = str(item.get("scope") or "").lower()
     return scope in {"negative", "case"}
@@ -651,8 +656,14 @@ def main():
         print("Mode              : INCREMENTAL")
 
     cases = []
-    candidates = [i for i in news if is_case_candidate(i)]
-    recovery_candidates = [i for i in news if not is_case_candidate(i)]
+    # Duplicate records remain in news.json, but only the canonical primary
+    # article may contribute to case membership and article_count.
+    duplicate_records = [i for i in news if is_duplicate_article(i)]
+    for item in duplicate_records:
+        mark_no_case(item)
+    eligible_news = [i for i in news if not is_duplicate_article(i)]
+    candidates = [i for i in eligible_news if is_case_candidate(i)]
+    recovery_candidates = [i for i in eligible_news if not is_case_candidate(i)]
 
     # Always rebuild the current case database exactly once when the
     # engine version changes, avoiding contaminated legacy matches.
@@ -706,7 +717,10 @@ def main():
             for article in case.get("articles", []):
                 aid = article.get("id")
                 source_item = news_by_id.get(aid)
-                if not aid or source_item is None or aid in seen_article_ids:
+                if (
+                    not aid or source_item is None or aid in seen_article_ids
+                    or is_duplicate_article(source_item)
+                ):
                     continue
                 source_case_id = source_item.get("case_id")
                 if source_case_id and source_case_id != case.get("case_id"):
@@ -741,6 +755,9 @@ def main():
         new_cases = 0
 
         for item in news:
+            if is_duplicate_article(item):
+                mark_no_case(item)
+                continue
             case_id = item.get("case_id")
             if item.get("processing_status") == "processed" and case_id in by_case:
                 continue
@@ -817,6 +834,7 @@ def main():
     print(f"Mode              : {'REBUILD' if rebuild else 'INCREMENTAL'}")
     print(f"Rebuild           : {'YES' if rebuild else 'NO'}")
     print(f"Total news        : {len(news)}")
+    print(f"Duplicate records : {len(duplicate_records)} (preserved, excluded from case counts)")
     print(f"Recovery checked  : {recovery_checked}")
     print(f"Recovery matched  : {recovery_matched}")
     print(f"Matched existing  : {matched_existing}")
