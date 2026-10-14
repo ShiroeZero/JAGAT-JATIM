@@ -1,0 +1,132 @@
+name: JAGAT-JATIM — Batch 01 Audit Baseline
+
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - ".github/workflows/batch01-audit.yml"
+
+permissions:
+  contents: read
+
+concurrency:
+  group: jagat-batch01-audit
+  cancel-in-progress: false
+
+jobs:
+  audit-baseline:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v6
+
+      - name: Setup Python
+        uses: actions/setup-python@v6
+        with:
+          python-version: "3.12"
+
+      - name: Preflight syntax and engine tests
+        run: |
+          python -m py_compile scripts/*.py
+          python scripts/test_location_engine.py
+          python scripts/test_analysis_engine.py
+          python scripts/test_analysis_v655.py
+          python scripts/test_analysis_v656.py
+          python scripts/test_analysis_v657.py
+
+      - name: Read-only data and code baseline
+        run: |
+          python - <<'PY'
+          import json, re, hashlib, time
+          from pathlib import Path
+          from collections import Counter
+          from datetime import datetime, timezone
+
+          start = time.perf_counter()
+          root = Path(".")
+          def load(path, fallback):
+              p = root / path
+              if not p.exists():
+                  return fallback, {"exists": False, "bytes": 0}
+              raw = p.read_bytes()
+              try:
+                  value = json.loads(raw.decode("utf-8-sig"))
+              except Exception as exc:
+                  raise SystemExit(f"Cannot parse {path}: {exc}")
+              return value, {"exists": True, "bytes": len(raw), "sha256": hashlib.sha256(raw).hexdigest()}
+
+          news_db, news_file = load("data/news.json", {})
+          cases_db, cases_file = load("data/case_clusters.json", {})
+          news = news_db.get("items", []) if isinstance(news_db, dict) else news_db
+          cases = cases_db.get("cases", cases_db.get("items", [])) if isinstance(cases_db, dict) else cases_db
+          if not isinstance(news, list) or not isinstance(cases, list):
+              raise SystemExit("Unexpected dataset schema: expected article/case lists")
+
+          def norm(s):
+              return re.sub(r"[^a-z0-9]+", " ", str(s or "").lower()).strip()
+
+          ids = [str(x.get("id") or "").strip() for x in news if isinstance(x, dict)]
+          nonempty_ids = [x for x in ids if x]
+          title_keys = [norm(x.get("title")) for x in news if isinstance(x, dict) and norm(x.get("title"))]
+          urls = [str(x.get("url") or "").strip() for x in news if isinstance(x, dict)]
+          scopes = Counter(str(x.get("scope") or "missing").lower() for x in news if isinstance(x, dict))
+          sentiments = Counter(str(x.get("sentiment") or "missing").lower() for x in news if isinstance(x, dict))
+          regions = Counter(str(x.get("region") or "missing") for x in news if isinstance(x, dict))
+          missing_title = sum(not str(x.get("title") or "").strip() for x in news if isinstance(x, dict))
+          missing_date = sum(not str(x.get("published_at") or x.get("published") or x.get("date") or "").strip() for x in news if isinstance(x, dict))
+          missing_url = sum(not str(x.get("url") or "").strip() for x in news if isinstance(x, dict))
+          exact_title_duplicates = sum(n-1 for n in Counter(title_keys).values() if n > 1)
+          duplicate_ids = sum(n-1 for n in Counter(nonempty_ids).values() if n > 1)
+          duplicate_urls = sum(n-1 for n in Counter(u for u in urls if u).values() if n > 1)
+          scope_sentiment_pairs = Counter((str(x.get("scope") or "missing").lower(), str(x.get("sentiment") or "missing").lower()) for x in news if isinstance(x, dict))
+          rel_count = 0
+          case_ids = [str(c.get("case_id") or c.get("id") or "") for c in cases if isinstance(c, dict)]
+          for c in cases:
+              if isinstance(c, dict):
+                  arr = c.get("article_ids", [])
+                  if isinstance(arr, list):
+                      rel_count += len(arr)
+          py_files = list((root / "scripts").glob("*.py"))
+          code_stats = {str(p): {"lines": len(p.read_text(encoding="utf-8", errors="replace").splitlines()), "bytes": p.stat().st_size} for p in sorted(py_files)}
+          report = {
+            "audit": "JAGAT-JATIM Batch 01 — read-only baseline",
+            "generated_at": datetime.now(timezone.utc).isoformat(),
+            "commit": __import__("os").environ.get("GITHUB_SHA", "unknown"),
+            "mode": "read-only; no collector; no data mutation",
+            "preflight": "passed (workflow continues only if every test passes)",
+            "news_file": news_file,
+            "case_file": cases_file,
+            "counts": {"news": len(news), "cases": len(cases), "case_article_links_from_article_ids": rel_count, "python_scripts": len(py_files)},
+            "quality_signals": {
+              "duplicate_nonempty_news_ids": duplicate_ids,
+              "duplicate_nonempty_urls": duplicate_urls,
+              "duplicate_normalized_titles_excess_count": exact_title_duplicates,
+              "missing_titles": missing_title,
+              "missing_dates": missing_date,
+              "missing_urls": missing_url,
+              "scope_counts": dict(scopes),
+              "sentiment_counts": dict(sentiments),
+              "region_counts_top_15": regions.most_common(15),
+              "scope_sentiment_pairs_top_20": [{"scope": k[0], "sentiment": k[1], "count": v} for k,v in scope_sentiment_pairs.most_common(20)],
+              "duplicate_case_ids": sum(n-1 for n in Counter(x for x in case_ids if x).values() if n > 1)
+            },
+            "python_code_stats": code_stats,
+            "elapsed_seconds": round(time.perf_counter()-start, 3),
+            "limitations": [
+              "Exact/normalized title matches are review candidates, not proof of duplicate incidents.",
+              "This audit does not rewrite data or run the production collector.",
+              "Historical workflow timing is not replaced by this read-only runtime."
+            ]
+          }
+          Path("batch01-baseline.json").write_text(json.dumps(report, ensure_ascii=False, indent=2), encoding="utf-8")
+          print(json.dumps(report, ensure_ascii=False, indent=2))
+          PY
+
+      - name: Upload audit baseline artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: jagat-batch01-baseline
+          path: batch01-baseline.json
+          if-no-files-found: error
+          retention-days: 30
