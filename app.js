@@ -737,8 +737,9 @@ function renderActiveFilterChips() {
     : `<span class="active-filter-empty"><i class="fa-solid fa-filter" aria-hidden="true"></i> Belum ada filter tambahan</span>`;
 }
 
-function renderMonitoring() {
-  populateMonitoringFilters();
+function renderMonitoring(refreshFacets = true) {
+  // Facet rebuilding scans the full dataset several times; text search does not need it.
+  if (refreshFacets) populateMonitoringFilters();
 
   const base = currentMonitoringBase();
   const items = applyMonitoringFilters(base);
@@ -1153,7 +1154,7 @@ function initEvents() {
     if (monitoringSearchTimer) clearTimeout(monitoringSearchTimer);
     monitoringSearchTimer = setTimeout(() => {
       monitoringSearchTimer = null;
-      renderMonitoring();
+      renderMonitoring(false);
     }, 220);
   };
 
@@ -1161,7 +1162,7 @@ function initEvents() {
   $("search")?.addEventListener("change", () => {
     if (monitoringSearchTimer) clearTimeout(monitoringSearchTimer);
     monitoringSearchTimer = null;
-    renderMonitoring();
+    renderMonitoring(false);
   });
 
   // Selects and date inputs commit on change; avoid duplicate input+change renders.
