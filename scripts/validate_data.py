@@ -237,7 +237,8 @@ def main():
     if scripts_dir not in sys.path:
         sys.path.insert(0, scripts_dir)
     try:
-        from location_engine import detect_location, POLRES_MAP
+        from jagat_location_resolver_v2 import detect_location
+        from location_engine import POLRES_MAP
         if len(POLRES_MAP) != 39:
             errors.append(
                 f"location master expected 39 Polres, found={len(POLRES_MAP)}"
@@ -245,6 +246,7 @@ def main():
         for item in news:
             expected = detect_location(
                 item.get("title", ""),
+                item.get("summary") or item.get("description") or "",
                 source=item.get("source") or item.get("publisher") or "",
             )
             actual = (
