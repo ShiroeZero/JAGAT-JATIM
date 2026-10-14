@@ -11,6 +11,8 @@ on:
       - "scripts/normalize_news.py"
       - "scripts/process_cases.py"
       - "scripts/validate_data.py"
+      - "scripts/test_batch02_dedup.py"
+      - "scripts/test_article_identity.py"
       - "scripts/test_analysis_engine.py"
       - "scripts/test_location_engine.py"
       - "scripts/resolve_google_urls.py"
