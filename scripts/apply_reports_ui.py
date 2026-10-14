@@ -4,8 +4,8 @@ import re
 
 BASE = Path(__file__).resolve().parent.parent
 INDEX = BASE / "index.html"
-STYLE_MARKER = 'laporan.css?v=7.0.0'
-SCRIPT_MARKER = 'laporan.js?v=7.0.0'
+STYLE_MARKER = 'laporan.css?v=7.0.1'
+SCRIPT_MARKER = 'laporan.js?v=7.0.1'
 STYLE_TAG = f'<link rel="stylesheet" href="{STYLE_MARKER}">'
 SCRIPT_TAG = f'<script defer src="{SCRIPT_MARKER}"></script>'
 
