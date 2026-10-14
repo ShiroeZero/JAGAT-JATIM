@@ -44,8 +44,10 @@ jobs:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
     steps:
-      - name: Checkout repository
+      - name: Checkout latest main
         uses: actions/checkout@v6
+        with:
+          ref: main
       - name: Setup Python
         uses: actions/setup-python@v6
         with:
