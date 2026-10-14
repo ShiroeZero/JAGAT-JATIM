@@ -54,6 +54,33 @@ jobs:
           python-version: "3.12"
       - name: Install URL resolver
         run: python -m pip install --disable-pip-version-check --no-cache-dir "googlenewsdecoder==0.1.7"
+      - name: Switch URL resolver to Lexbor
+        run: |
+          python - <<'PY'
+          import importlib.util
+          from pathlib import Path
+
+          spec = importlib.util.find_spec("googlenewsdecoder")
+          if spec is None or not spec.submodule_search_locations:
+              raise SystemExit("googlenewsdecoder package not found after install")
+          root = Path(next(iter(spec.submodule_search_locations)))
+          changed = []
+          legacy = []
+          for path in root.rglob("*.py"):
+              source = path.read_text(encoding="utf-8")
+              old = "from selectolax.parser import HTMLParser"
+              new = "from selectolax.lexbor import LexborHTMLParser as HTMLParser"
+              if old in source:
+                  path.write_text(source.replace(old, new), encoding="utf-8")
+                  changed.append(str(path))
+              elif "selectolax.parser" in source:
+                  legacy.append(str(path))
+          if legacy:
+              raise SystemExit("Unsupported legacy selectolax import found: " + ", ".join(legacy))
+          print("Lexbor parser patch applied to: " + (", ".join(changed) if changed else "package already uses a supported import"))
+          from googlenewsdecoder import gnewsdecoder
+          print("googlenewsdecoder import check: OK")
+          PY
       - name: Preflight engine tests (Batch 02 canonical URL fix)
         run: |
           python -m py_compile scripts/*.py
