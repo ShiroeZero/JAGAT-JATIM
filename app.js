@@ -1146,26 +1146,27 @@ function initEvents() {
     showView("monitoring");
   }));
 
-  ["search", "priority", "scope", "category"].forEach(id => {
-    $(id)?.addEventListener("input", () => {
-      if (id === "search") populateMonitoringFilters();
+  // Keep typing responsive: debounce the text search and render only once
+  // per pause in typing. renderMonitoring() itself refreshes the facet options.
+  let monitoringSearchTimer = null;
+  const queueMonitoringSearch = () => {
+    if (monitoringSearchTimer) clearTimeout(monitoringSearchTimer);
+    monitoringSearchTimer = setTimeout(() => {
+      monitoringSearchTimer = null;
       renderMonitoring();
-    });
-    $(id)?.addEventListener("change", () => {
-      if (id === "search") populateMonitoringFilters();
-      renderMonitoring();
-    });
+    }, 220);
+  };
+
+  $("search")?.addEventListener("input", queueMonitoringSearch);
+  $("search")?.addEventListener("change", () => {
+    if (monitoringSearchTimer) clearTimeout(monitoringSearchTimer);
+    monitoringSearchTimer = null;
+    renderMonitoring();
   });
 
-  ["region", "polres", "dateFrom", "dateTo"].forEach(id => {
-    $(id)?.addEventListener("input", () => {
-      populateMonitoringFilters();
-      renderMonitoring();
-    });
-    $(id)?.addEventListener("change", () => {
-      populateMonitoringFilters();
-      renderMonitoring();
-    });
+  // Selects and date inputs commit on change; avoid duplicate input+change renders.
+  ["priority", "scope", "category", "region", "polres", "dateFrom", "dateTo"].forEach(id => {
+    $(id)?.addEventListener("change", renderMonitoring);
   });
   $("clearFilters")?.addEventListener("click", resetMonitoringFilters);
 
