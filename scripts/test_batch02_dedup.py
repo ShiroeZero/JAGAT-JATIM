@@ -43,7 +43,7 @@ different_incident = case(
     events=["penganiayaan", "tangkap"],
     locations=["manyar"],
 )
-different_incident["title"] = "Polres Gresik Tangkap Pelaku Penganiayaan Kasus Lain di Manyar"
+different_incident["title"] = "Polres Gresik Ringkus Jaringan Judi Online di Manyar"
 assert not case_merge_candidate(same_a, different_incident)
 
 # Explicit Polres and locality conflicts are hard boundaries.
