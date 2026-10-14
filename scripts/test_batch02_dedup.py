@@ -1,5 +1,5 @@
 """Batch 02 regression tests for conservative case deduplication."""
-from process_cases import case_merge_candidate, merge_duplicate_cases
+from process_cases import case_merge_candidate, merge_duplicate_cases, is_duplicate_article
 
 
 def case(case_id, title, *, polres="POLRES GRESIK", locality="Gresik",
@@ -76,3 +76,10 @@ assert set(merged[0]["article_ids"]) == {"news-a", "news-b"}, merged[0]["article
 assert merged[0]["article_count"] == 2, merged[0]["article_count"]
 
 print("BATCH 02 DEDUP REGRESSION TESTS: OK")
+
+# Canonical duplicate article records are preserved but excluded from case counts.
+primary_article = {"id": "news-primary", "duplicate_article": False}
+duplicate_article = {"id": "news-copy", "duplicate_article": True, "duplicate_of_id": "news-primary"}
+assert not is_duplicate_article(primary_article)
+assert is_duplicate_article(duplicate_article)
+print("BATCH 02 ARTICLE IDENTITY INTEGRATION TESTS: OK")
