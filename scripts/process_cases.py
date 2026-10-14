@@ -204,37 +204,48 @@ def within_window(item, case):
     nearest = min(abs((new_time-first).total_seconds()), abs((new_time-last).total_seconds())) / 86400.0
     return nearest <= MAX_CASE_AGE_DAYS
 
-def score_match(item, case):
-    n = item_fingerprint(item)
+def score_match(item, case, recovery=False, item_fp=None):
+    # Cache the incoming article fingerprint across all candidate cases.
+    n = item_fp if item_fp is not None else item_fingerprint(item)
     c = case_fingerprint(case)
 
     # Hard identity boundary: two different explicit Polres cannot
     # belong to the same incident merely because their headlines are similar.
-    if (
-        n["polres"]
-        and c["polres"]
-        and n["polres"] != c["polres"]
-    ):
+    if n["polres"] and c["polres"] and n["polres"] != c["polres"]:
         return 0.0, {
-            "shared_events": set(),
-            "shared_locations": set(),
-            "shared_rare": set(),
-            "title": 0.0,
+            "shared_events": set(), "shared_locations": set(),
+            "shared_rare": set(), "shared_families": set(), "title": 0.0,
         }
 
     if not within_window(item, case):
-        return 0.0, {"shared_events": set(), "shared_locations": set(), "shared_rare": set(), "title": 0.0}
+        return 0.0, {
+            "shared_events": set(), "shared_locations": set(),
+            "shared_rare": set(), "shared_families": set(), "title": 0.0,
+        }
 
     shared_events = n["events"] & c["events"]
     shared_locations = n["locations"] & c["locations"]
     shared_rare = n["rare"] & c["rare"]
     shared_families = n["families"] & c["families"]
+
+    # Event identity is mandatory in choose_case(). Avoid expensive
+    # SequenceMatcher calls when the pair can never satisfy its identity rule.
+    min_events = 2 if recovery else 1
+    if len(shared_events) < min_events:
+        return 0.0, {
+            "shared_events": shared_events,
+            "shared_locations": shared_locations,
+            "shared_rare": shared_rare,
+            "shared_families": shared_families,
+            "title": 0.0,
+        }
+
     title_score = similarity(n["title"], c["title"])
 
     # Location is an identity signal, not merely a topic.
     location_bonus = 0.30 if shared_locations else 0.0
     locality_bonus = 0.12 if n["locality"] and c["locality"] and n["locality"] == c["locality"] else 0.0
-    polres_bonus = 0.20 if n["polres"] and c["polres"] and n["polres"] == c["polres"] else 0.0
+    polres_bonus = 0.20 if n["polres"] and case.get("polres") and n["polres"] == case.get("polres") else 0.0
     region_bonus = 0.03 if n["region"] and c["region"] and n["region"] == c["region"] else 0.0
 
     event_score = min(len(shared_events), 3) * 0.18
@@ -264,20 +275,18 @@ def score_match(item, case):
 
 def choose_case(item, cases, recovery=False):
     best = None
+    n = item_fingerprint(item)
 
     for case in cases:
-        score, evidence = score_match(item, case)
+        score, evidence = score_match(item, case, recovery=recovery, item_fp=n)
         if score <= 0:
             continue
-
-        n = item_fingerprint(item)
-        c = case_fingerprint(case)
 
         normal_identity = (
             len(evidence["shared_events"]) >= 1
             and (
                 bool(evidence["shared_locations"])
-                or bool(evidence.get("shared_families")) and bool(n["polres"] and c["polres"] and n["polres"] == c["polres"])
+                or bool(evidence.get("shared_families")) and bool(n["polres"] and case.get("polres") and n["polres"] == case.get("polres"))
                 or bool(n["polres"] and c["polres"] and n["polres"] == c["polres"])
                 or evidence["title"] >= 0.82
             )
@@ -673,10 +682,44 @@ def main():
         new_cases = len(cases)
 
     else:
-        # Incremental: only unprocessed records are considered, but a
-        # processed/no-case neutral article may recover to an existing case
-        # under the same strict identity rules.
-        cases = old_db.get("cases", [])
+        # Incremental runs must reconcile persisted cases against the current
+        # news database. Collection can prune old news; stale case references
+        # otherwise fail validation and make every deployment stop.
+        news_by_id = {item.get("id"): item for item in news if item.get("id")}
+        cleaned_cases = []
+        seen_article_ids = set()
+        for case in old_db.get("cases", []):
+            valid_articles = []
+            for article in case.get("articles", []):
+                aid = article.get("id")
+                source_item = news_by_id.get(aid)
+                if not aid or source_item is None or aid in seen_article_ids:
+                    continue
+                source_case_id = source_item.get("case_id")
+                if source_case_id and source_case_id != case.get("case_id"):
+                    continue
+                valid_articles.append(article)
+                seen_article_ids.add(aid)
+            case["articles"] = valid_articles
+            case["article_ids"] = [article["id"] for article in valid_articles]
+            case["article_count"] = len(case["article_ids"])
+            if valid_articles:
+                cleaned_cases.append(case)
+
+        cases = cleaned_cases
+        attached_case_by_article = {
+            aid: case.get("case_id")
+            for case in cases
+            for aid in case.get("article_ids", [])
+        }
+        for item in news:
+            aid = item.get("id")
+            if item.get("case_id") and attached_case_by_article.get(aid) != item.get("case_id"):
+                item.pop("processing_status", None)
+                item.pop("case_id", None)
+                item.pop("case_processed_at", None)
+                item.pop("case_engine_version", None)
+
         by_case = {c.get("case_id"): c for c in cases}
         pending = []
         recovery_checked = 0
