@@ -1,5 +1,5 @@
 """Regression tests for canonical article URL identity."""
-from scripts.article_identity import canonical_article_url, annotate_duplicate_articles
+from article_identity import canonical_article_url, annotate_duplicate_articles
 
 
 def test_url_normalization():
