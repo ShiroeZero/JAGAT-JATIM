@@ -497,10 +497,6 @@ def merge_duplicate_cases(cases):
 
                 shared_locations = aloc & bloc
                 shared_events = aevents & bevents
-                title_score = similarity(
-                    a.get("title", ""),
-                    b.get("title", ""),
-                )
 
                 explicit_polres_conflict = bool(a.get("polres") and b.get("polres") and a.get("polres") != b.get("polres"))
                 explicit_locality_conflict = bool(a.get("locality") and b.get("locality") and a.get("locality") != b.get("locality"))
@@ -512,19 +508,15 @@ def merge_duplicate_cases(cases):
                 if explicit_polres_conflict or explicit_locality_conflict:
                     continue
 
-                identity = (
-                    same_polres
-                    and len(shared_events) >= 2
-                ) or (
-                    len(shared_locations) >= 1
-                    and (
-                        len(shared_events) >= 2
-                        or (
-                            len(shared_events) >= 1
-                            and title_score >= 0.55
-                        )
-                    )
-                )
+                # Preserve the exact merge rule, but only compute title similarity
+                # for the one branch that actually requires it. The former code ran
+                # SequenceMatcher for every pair of cases (millions of comparisons).
+                identity = bool(same_polres and len(shared_events) >= 2)
+                if not identity and shared_locations and len(shared_events) >= 2:
+                    identity = True
+                elif not identity and shared_locations and len(shared_events) == 1:
+                    title_score = similarity(a.get("title", ""), b.get("title", ""))
+                    identity = title_score >= 0.55
 
                 if not identity:
                     continue
