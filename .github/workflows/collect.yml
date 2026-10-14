@@ -50,7 +50,7 @@ jobs:
           python-version: "3.12"
       - name: Install URL resolver
         run: python -m pip install --disable-pip-version-check --no-cache-dir "googlenewsdecoder==0.1.7"
-      - name: Preflight engine tests
+      - name: Preflight engine tests (Batch 02 canonical URL fix)
         run: |
           python -m py_compile scripts/*.py
           python scripts/test_location_engine.py
