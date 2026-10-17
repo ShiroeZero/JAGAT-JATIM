@@ -1,23 +1,23 @@
 {
-  "generated_at": "2026-10-17T19:39:35.262513+00:00",
+  "generated_at": "2026-10-17T22:33:39.736430+00:00",
   "platform": "YouTube",
-  "query_cursor": 9,
+  "query_cursor": 1,
   "query_batch_size": 3,
   "query_success": 3,
   "query_skipped": 0,
   "quota_warning": false,
   "quota_block_date": null,
   "total": 1500,
-  "new_videos": 2,
+  "new_videos": 16,
   "statistics": {
     "total": 1500,
     "jatim": 66,
-    "negative": 603,
+    "negative": 600,
     "incident": 20,
-    "case": 248,
-    "neutral": 619,
-    "noise": 10,
-    "high_priority": 298
+    "case": 246,
+    "neutral": 625,
+    "noise": 9,
+    "high_priority": 297
   },
   "items": [
     {
@@ -67,6 +67,30 @@
       "location_evidence": [],
       "priority": "high",
       "collected_at": "2026-10-17T17:24:20.915021+00:00"
+    },
+    {
+      "id": "e888ea7076e285531bcbf1e5863c55ab37bb9449",
+      "video_id": "Jd3sIsNc8Y0",
+      "platform": "YouTube",
+      "type": "video",
+      "title": "MENYOROTI KINERJA POLISI Laporan Dugaan Kekerasan Seksual terhadap Anak Mengapa Belum Ada Kepastian?",
+      "channel": "TARGETNEWS TV.",
+      "published_at": "2026-10-17T16:18:13Z",
+      "url": "https://www.youtube.com/watch?v=Jd3sIsNc8Y0",
+      "thumbnail": "https://i.ytimg.com/vi/Jd3sIsNc8Y0/hqdefault.jpg",
+      "description": "",
+      "relevance": "high",
+      "scope": "negative",
+      "category": "Kekerasan / Penganiayaan",
+      "classification_score": 100,
+      "is_jatim": false,
+      "region": "Indonesia",
+      "polres": null,
+      "location_confidence": 0,
+      "location_source": null,
+      "location_evidence": [],
+      "priority": "medium",
+      "collected_at": "2026-10-17T22:33:39.736430+00:00"
     },
     {
       "id": "700f259630a4aa53991c60dac124a4257159251c",
@@ -141,6 +165,32 @@
       "collected_at": "2026-10-17T13:55:54.052928+00:00"
     },
     {
+      "id": "5ea4420280722b5c2347a78b53fa63cd0fd95ffb",
+      "video_id": "VqaVm0roXko",
+      "platform": "YouTube",
+      "type": "video",
+      "title": "Polisi Periksa Mantan Kepala SMPN 18 Malang, Restorative Justice Masih Dipertimbangkan",
+      "channel": "Blok-acom",
+      "published_at": "2026-10-17T13:30:06Z",
+      "url": "https://www.youtube.com/watch?v=VqaVm0roXko",
+      "thumbnail": "https://i.ytimg.com/vi/VqaVm0roXko/hqdefault.jpg",
+      "description": "Penanganan kasus dugaan kekerasan terhadap siswa SMPN 18 Malang terus berlanjut. Polisi telah memeriksa mantan kepala ...",
+      "relevance": "medium",
+      "scope": "neutral",
+      "category": "Berita Polisi Lainnya",
+      "classification_score": 25,
+      "is_jatim": true,
+      "region": "Jawa Timur",
+      "polres": null,
+      "location_confidence": 60,
+      "location_source": "location",
+      "location_evidence": [
+        "malang"
+      ],
+      "priority": "low",
+      "collected_at": "2026-10-17T22:33:39.736430+00:00"
+    },
+    {
       "id": "d4e068e2619507f7ffda55132a66ff963c2f7acf",
       "video_id": "yrZcLWeOL9M",
       "platform": "YouTube",
@@ -162,7 +212,7 @@
       "location_source": null,
       "location_evidence": [],
       "priority": "low",
-      "collected_at": "2026-10-17T13:55:54.052928+00:00"
+      "collected_at": "2026-10-17T22:33:39.736430+00:00"
     },
     {
       "id": "1360cbdb457401d126adb361687e1a0a26886583",
@@ -186,7 +236,31 @@
       "location_source": null,
       "location_evidence": [],
       "priority": "low",
-      "collected_at": "2026-10-17T13:55:54.052928+00:00"
+      "collected_at": "2026-10-17T22:33:39.736430+00:00"
+    },
+    {
+      "id": "2b1b749a2f21f1a26675205c5f0a510cfde78366",
+      "video_id": "6XdPHRA29iA",
+      "platform": "YouTube",
+      "type": "video",
+      "title": "[2026.10.17] 경찰 반복 신고에도 참변…&quot;위험신호 공유했어야&quot;  / 대전·천안 미식가 입맛 사로잡는 &#39;빵 축제&#39; 열려 ",
+      "channel": "KBS대전 뉴스",
+      "published_at": "2026-10-17T12:27:38Z",
+      "url": "https://www.youtube.com/watch?v=6XdPHRA29iA",
+      "thumbnail": "https://i.ytimg.com/vi/6XdPHRA29iA/hqdefault.jpg",
+      "description": "경찰 반복 신고에도 참변…\"위험신호 공유했어야\" △대전·천안 미식가 입맛 사로잡는 '빵 축제' 열려 △논산강경젓갈축제 오늘 조기 ...",
+      "relevance": "low",
+      "scope": "neutral",
+      "category": "Tidak Relevan",
+      "classification_score": 0,
+      "is_jatim": false,
+      "region": "Indonesia",
+      "polres": null,
+      "location_confidence": 0,
+      "location_source": null,
+      "location_evidence": [],
+      "priority": "low",
+      "collected_at": "2026-10-17T22:33:39.736430+00:00"
     },
     {
       "id": "df1fdbee8f629b54461291694418995bb79008a2",
@@ -236,7 +310,7 @@
       "location_source": null,
       "location_evidence": [],
       "priority": "low",
-      "collected_at": "2026-10-17T13:55:54.052928+00:00"
+      "collected_at": "2026-10-17T22:33:39.736430+00:00"
     },
     {
       "id": "c92caf16cf80bdc1a3ec2e419930e40485615fa9",
@@ -335,6 +409,30 @@
       "collected_at": "2026-10-17T17:24:20.915021+00:00"
     },
     {
+      "id": "c11a3d4917de2510d41ffdbc15abdabcc07997c7",
+      "video_id": "WFKDk6tWKXQ",
+      "platform": "YouTube",
+      "type": "video",
+      "title": "Persib Kawal Kasus Kekerasan di Batang, Polisi Minta Suporter Tetap Tenang",
+      "channel": "Ujang Legend",
+      "published_at": "2026-10-17T11:18:02Z",
+      "url": "https://www.youtube.com/watch?v=WFKDk6tWKXQ",
+      "thumbnail": "https://i.ytimg.com/vi/WFKDk6tWKXQ/hqdefault.jpg",
+      "description": "Persib Kawal Kasus Kekerasan di Batang, Polisi Minta Suporter Tetap Tenang - Manajemen Persib berkoordinasi dengan ...",
+      "relevance": "high",
+      "scope": "negative",
+      "category": "Kekerasan / Penganiayaan",
+      "classification_score": 100,
+      "is_jatim": false,
+      "region": "Indonesia",
+      "polres": null,
+      "location_confidence": 0,
+      "location_source": null,
+      "location_evidence": [],
+      "priority": "medium",
+      "collected_at": "2026-10-17T22:33:39.736430+00:00"
+    },
+    {
       "id": "431d090af53444a768d47ce2bb34271ee2504008",
       "video_id": "GMjrM_l5GuU",
       "platform": "YouTube",
@@ -380,7 +478,7 @@
       "location_source": null,
       "location_evidence": [],
       "priority": "low",
-      "collected_at": "2026-10-17T13:55:54.052928+00:00"
+      "collected_at": "2026-10-17T22:33:39.736430+00:00"
     },
     {
       "id": "57eda6e60745a1608b2e45d6afe70c88434844f4",
@@ -455,7 +553,7 @@
       "location_source": null,
       "location_evidence": [],
       "priority": "low",
-      "collected_at": "2026-10-17T13:55:54.052928+00:00"
+      "collected_at": "2026-10-17T22:33:39.736430+00:00"
     },
     {
       "id": "6646e70865939db6046660e85282db4a4c0daef0",
@@ -480,6 +578,30 @@
       "location_evidence": [],
       "priority": "high",
       "collected_at": "2026-10-17T17:24:20.915021+00:00"
+    },
+    {
+      "id": "a53a8eef6d22eb8d23c2bbdb2f92b3a1a7ccd670",
+      "video_id": "bFrD9puXy2E",
+      "platform": "YouTube",
+      "type": "video",
+      "title": "Secret System Prevents Police Abuse: How It Works",
+      "channel": "Lionbliss",
+      "published_at": "2026-10-17T10:00:38Z",
+      "url": "https://www.youtube.com/watch?v=bFrD9puXy2E",
+      "thumbnail": "https://i.ytimg.com/vi/bFrD9puXy2E/hqdefault.jpg",
+      "description": "Exploring how police tracking systems are set up, and the critical question of who can initiate a search. Discussing the need for ...",
+      "relevance": "low",
+      "scope": "neutral",
+      "category": "Tidak Relevan",
+      "classification_score": 0,
+      "is_jatim": false,
+      "region": "Indonesia",
+      "polres": null,
+      "location_confidence": 0,
+      "location_source": null,
+      "location_evidence": [],
+      "priority": "low",
+      "collected_at": "2026-10-17T22:33:39.736430+00:00"
     },
     {
       "id": "b8ddf963320b1b8ee98a8e73a4c24ed214810e34",
@@ -557,6 +679,30 @@
       "location_evidence": [],
       "priority": "low",
       "collected_at": "2026-10-17T17:24:20.915021+00:00"
+    },
+    {
+      "id": "21fa0f35e693b227abdea1d3b32354324fd72621",
+      "video_id": "cTekv-i2urw",
+      "platform": "YouTube",
+      "type": "video",
+      "title": "Woman Tries to Flee in Her Car, Police Smash Window and Drag Her Out Par2/2",
+      "channel": "nestor kengne",
+      "published_at": "2026-10-17T09:35:41Z",
+      "url": "https://www.youtube.com/watch?v=cTekv-i2urw",
+      "thumbnail": "https://i.ytimg.com/vi/cTekv-i2urw/hqdefault.jpg",
+      "description": "A routine trip to a courthouse parking lot escalates into a violent, high-stakes showdown caught entirely on police bodycam.",
+      "relevance": "low",
+      "scope": "neutral",
+      "category": "Tidak Relevan",
+      "classification_score": 0,
+      "is_jatim": false,
+      "region": "Indonesia",
+      "polres": null,
+      "location_confidence": 0,
+      "location_source": null,
+      "location_evidence": [],
+      "priority": "low",
+      "collected_at": "2026-10-17T22:33:39.736430+00:00"
     },
     {
       "id": "7d604e58f0272356c182be24b93374da41458c64",
@@ -752,6 +898,30 @@
       "location_evidence": [],
       "priority": "high",
       "collected_at": "2026-10-17T17:24:20.915021+00:00"
+    },
+    {
+      "id": "450f32fce929a4f674cd112f48739bc1f38aa75c",
+      "video_id": "ydIQW7da6L8",
+      "platform": "YouTube",
+      "type": "video",
+      "title": "Women’s Groups Protest At Delhi Police HQ Over Alleged Sexual Violence During SIR Protests | News18",
+      "channel": "CNN-News18",
+      "published_at": "2026-10-17T07:37:32Z",
+      "url": "https://www.youtube.com/watch?v=ydIQW7da6L8",
+      "thumbnail": "https://i.ytimg.com/vi/ydIQW7da6L8/hqdefault.jpg",
+      "description": "Women's groups and activists marched to the Delhi Police Headquarters on October 17, demanding accountability and legal ...",
+      "relevance": "low",
+      "scope": "neutral",
+      "category": "Tidak Relevan",
+      "classification_score": 0,
+      "is_jatim": false,
+      "region": "Indonesia",
+      "polres": null,
+      "location_confidence": 0,
+      "location_source": null,
+      "location_evidence": [],
+      "priority": "low",
+      "collected_at": "2026-10-17T22:33:39.736430+00:00"
     },
     {
       "id": "03de9f79db5d2156cb4c9543ef7d06f7eedaae19",
@@ -953,6 +1123,30 @@
       "collected_at": "2026-10-17T17:24:20.915021+00:00"
     },
     {
+      "id": "f633daedc0d6c8b71e90f4fe44081651db100d52",
+      "video_id": "HUlOpHW_w1A",
+      "platform": "YouTube",
+      "type": "video",
+      "title": "Viral video of Donora arrest sparks questions over police use of force",
+      "channel": "WTAE-TV Pittsburgh",
+      "published_at": "2026-10-17T03:15:26Z",
+      "url": "https://www.youtube.com/watch?v=HUlOpHW_w1A",
+      "thumbnail": "https://i.ytimg.com/vi/HUlOpHW_w1A/hqdefault.jpg",
+      "description": "Viral video of Donora arrest sparks questions over police use of force Pittsburgh's Action News 4 is your home for Pennsylvania ...",
+      "relevance": "low",
+      "scope": "neutral",
+      "category": "Tidak Relevan",
+      "classification_score": 0,
+      "is_jatim": false,
+      "region": "Indonesia",
+      "polres": null,
+      "location_confidence": 0,
+      "location_source": null,
+      "location_evidence": [],
+      "priority": "low",
+      "collected_at": "2026-10-17T22:33:39.736430+00:00"
+    },
+    {
       "id": "4316d74fc879480e53cdcdefdbc6df0dd886a5f9",
       "video_id": "c0tHXtuFaXU",
       "platform": "YouTube",
@@ -998,7 +1192,7 @@
       "location_source": null,
       "location_evidence": [],
       "priority": "low",
-      "collected_at": "2026-10-17T13:55:54.052928+00:00"
+      "collected_at": "2026-10-17T22:33:39.736430+00:00"
     },
     {
       "id": "5c43ff16e58d5206235f236bfc434e5d4dfb0f13",
@@ -1077,6 +1271,30 @@
       "collected_at": "2026-10-17T17:24:20.915021+00:00"
     },
     {
+      "id": "3ae810e9b16298eb4fcf92c527f5af5c7f7dcfe6",
+      "video_id": "JrT5BryMSfg",
+      "platform": "YouTube",
+      "type": "video",
+      "title": "A silent cop protects a brutalized assault victim from corrupt thugs 🤫⚖️ #Vengeance #Action #Movie",
+      "channel": "VH.Mrecaps",
+      "published_at": "2026-10-17T02:29:08Z",
+      "url": "https://www.youtube.com/watch?v=JrT5BryMSfg",
+      "thumbnail": "https://i.ytimg.com/vi/JrT5BryMSfg/hqdefault.jpg",
+      "description": "",
+      "relevance": "low",
+      "scope": "neutral",
+      "category": "Tidak Relevan",
+      "classification_score": 0,
+      "is_jatim": false,
+      "region": "Indonesia",
+      "polres": null,
+      "location_confidence": 0,
+      "location_source": null,
+      "location_evidence": [],
+      "priority": "low",
+      "collected_at": "2026-10-17T22:33:39.736430+00:00"
+    },
+    {
       "id": "4dc1668b1696f26c91a419b70cc738ff2e573e52",
       "video_id": "YWhow3CfxB0",
       "platform": "YouTube",
@@ -1099,6 +1317,30 @@
       "location_evidence": [],
       "priority": "low",
       "collected_at": "2026-10-17T19:39:35.262513+00:00"
+    },
+    {
+      "id": "c4a649ab462c36862e41bf2f83c8cedcbaa167f3",
+      "video_id": "7dqIsRGOIys",
+      "platform": "YouTube",
+      "type": "video",
+      "title": "‘대리 협박’은 송치…교제 폭력은 ‘증거부족’? / KBS 2026.10.16.",
+      "channel": "KBS News",
+      "published_at": "2026-10-17T01:55:37Z",
+      "url": "https://www.youtube.com/watch?v=7dqIsRGOIys",
+      "thumbnail": "https://i.ytimg.com/vi/7dqIsRGOIys/hqdefault.jpg",
+      "description": "교제하던 남성에게 폭력과 위협을 당했다며 여성이 고소했지만, 경찰이 스토킹 등 7개 혐의를 모두 불송치한 사건, 앞서 전해 ...",
+      "relevance": "low",
+      "scope": "neutral",
+      "category": "Tidak Relevan",
+      "classification_score": 0,
+      "is_jatim": false,
+      "region": "Indonesia",
+      "polres": null,
+      "location_confidence": 0,
+      "location_source": null,
+      "location_evidence": [],
+      "priority": "low",
+      "collected_at": "2026-10-17T22:33:39.736430+00:00"
     },
     {
       "id": "eaec864d786d791ec3974f3f1b7fb9552db85ef0",
@@ -1170,7 +1412,7 @@
       "location_source": null,
       "location_evidence": [],
       "priority": "low",
-      "collected_at": "2026-10-17T09:36:33.238698+00:00"
+      "collected_at": "2026-10-17T22:33:39.736430+00:00"
     },
     {
       "id": "190626ecf4efb5def234b7645530b82bc6684cf0",
@@ -1218,7 +1460,7 @@
       "location_source": null,
       "location_evidence": [],
       "priority": "low",
-      "collected_at": "2026-10-17T13:55:54.052928+00:00"
+      "collected_at": "2026-10-17T22:33:39.736430+00:00"
     },
     {
       "id": "1517b765eb35fb64fd07c7b88211c2bd058d8600",
@@ -1242,7 +1484,7 @@
       "location_source": null,
       "location_evidence": [],
       "priority": "low",
-      "collected_at": "2026-10-17T09:36:33.238698+00:00"
+      "collected_at": "2026-10-17T22:33:39.736430+00:00"
     },
     {
       "id": "102e2c03717a11274aeadc84416ddc1f64d14e1e",
@@ -1314,7 +1556,7 @@
       "location_source": null,
       "location_evidence": [],
       "priority": "low",
-      "collected_at": "2026-10-17T09:36:33.238698+00:00"
+      "collected_at": "2026-10-17T22:33:39.736430+00:00"
     },
     {
       "id": "b4171b71319ee390f425e9e1fa340e04a0f4520d",
@@ -1338,7 +1580,7 @@
       "location_source": null,
       "location_evidence": [],
       "priority": "low",
-      "collected_at": "2026-10-17T13:55:54.052928+00:00"
+      "collected_at": "2026-10-17T22:33:39.736430+00:00"
     },
     {
       "id": "9b59f0e1cdc0687b5e5146ba9ba55ad6ea27a847",
@@ -1415,6 +1657,30 @@
       "collected_at": "2026-10-17T13:55:54.052928+00:00"
     },
     {
+      "id": "b0ec5b3b91b3f7b919cc4b506158432cc1ac96d5",
+      "video_id": "Xl-Bn7clrVM",
+      "platform": "YouTube",
+      "type": "video",
+      "title": "Arizona Troopers Investigate Leaked Prison Violence Videos",
+      "channel": "ABC15 Arizona",
+      "published_at": "2026-10-16T20:05:58Z",
+      "url": "https://www.youtube.com/watch?v=Xl-Bn7clrVM",
+      "thumbnail": "https://i.ytimg.com/vi/Xl-Bn7clrVM/hqdefault.jpg",
+      "description": "As state prison officials try to stop the flow of leaked videos showing violent attacks on officers, ABC15 has obtained more footage ...",
+      "relevance": "low",
+      "scope": "neutral",
+      "category": "Tidak Relevan",
+      "classification_score": 0,
+      "is_jatim": false,
+      "region": "Indonesia",
+      "polres": null,
+      "location_confidence": 0,
+      "location_source": null,
+      "location_evidence": [],
+      "priority": "low",
+      "collected_at": "2026-10-17T22:33:39.736430+00:00"
+    },
+    {
       "id": "f83bb3e9dc08434315df921d13629b953d8777b9",
       "video_id": "NDVqLitJx8U",
       "platform": "YouTube",
@@ -1436,7 +1702,7 @@
       "location_source": null,
       "location_evidence": [],
       "priority": "low",
-      "collected_at": "2026-10-17T13:55:54.052928+00:00"
+      "collected_at": "2026-10-17T22:33:39.736430+00:00"
     },
     {
       "id": "84ac2090f9d844ce94623e1b354b2ef8b53955fa",
@@ -1484,7 +1750,7 @@
       "location_source": null,
       "location_evidence": [],
       "priority": "low",
-      "collected_at": "2026-10-17T09:36:33.238698+00:00"
+      "collected_at": "2026-10-17T22:33:39.736430+00:00"
     },
     {
       "id": "9f0d57fb686509c84c9337725df3ded5c162290c",
@@ -1511,6 +1777,30 @@
       "collected_at": "2026-10-17T13:55:54.052928+00:00"
     },
     {
+      "id": "a02c95bd9ec0ff1841df04c0f880f83be4b36a34",
+      "video_id": "LRtpawXDyM8",
+      "platform": "YouTube",
+      "type": "video",
+      "title": "New Haven police officer arrested for alleged excessive force during 2025 arrest",
+      "channel": "WTNH News8",
+      "published_at": "2026-10-16T16:39:30Z",
+      "url": "https://www.youtube.com/watch?v=LRtpawXDyM8",
+      "thumbnail": "https://i.ytimg.com/vi/LRtpawXDyM8/hqdefault.jpg",
+      "description": "A New Haven police officer is facing an assault charge for allegedly using excessive force during an arrest last fall, according to ...",
+      "relevance": "low",
+      "scope": "neutral",
+      "category": "Tidak Relevan",
+      "classification_score": 0,
+      "is_jatim": false,
+      "region": "Indonesia",
+      "polres": null,
+      "location_confidence": 0,
+      "location_source": null,
+      "location_evidence": [],
+      "priority": "low",
+      "collected_at": "2026-10-17T22:33:39.736430+00:00"
+    },
+    {
       "id": "be97c9945f2c5ab5d4711f2b61500c7bdfc86be3",
       "video_id": "dGbmZVwz-ik",
       "platform": "YouTube",
@@ -1535,6 +1825,30 @@
       "collected_at": "2026-10-16T23:50:53.027825+00:00"
     },
     {
+      "id": "7fb34b8ca522ee8e7cf00223d10b552df27b81bd",
+      "video_id": "IaytB6wqqHI",
+      "platform": "YouTube",
+      "type": "video",
+      "title": "COPS CONDUCT FELONY TAKEDOWN ON KIDS FOR THIS?!",
+      "channel": "Barry Cooper's NeverGetBusted",
+      "published_at": "2026-10-16T15:51:48Z",
+      "url": "https://www.youtube.com/watch?v=IaytB6wqqHI",
+      "thumbnail": "https://i.ytimg.com/vi/IaytB6wqqHI/hqdefault.jpg",
+      "description": "Police arresting an 11-year-old boy over an e-bike incident raises serious questions about police overreach and how far the ...",
+      "relevance": "low",
+      "scope": "neutral",
+      "category": "Tidak Relevan",
+      "classification_score": 0,
+      "is_jatim": false,
+      "region": "Indonesia",
+      "polres": null,
+      "location_confidence": 0,
+      "location_source": null,
+      "location_evidence": [],
+      "priority": "low",
+      "collected_at": "2026-10-17T22:33:39.736430+00:00"
+    },
+    {
       "id": "2020132ccd517fd212b61dd5de439116163e84a9",
       "video_id": "zzz7MZO0S7c",
       "platform": "YouTube",
@@ -1556,7 +1870,7 @@
       "location_source": null,
       "location_evidence": [],
       "priority": "low",
-      "collected_at": "2026-10-17T09:36:33.238698+00:00"
+      "collected_at": "2026-10-17T22:33:39.736430+00:00"
     },
     {
       "id": "148dd493a950a31f4b3a88701cdd4ce023db5c8c",
@@ -1581,6 +1895,30 @@
       "location_evidence": [],
       "priority": "high",
       "collected_at": "2026-10-16T23:50:53.027825+00:00"
+    },
+    {
+      "id": "e996ffb5d356569baf4377b221e7427d8883e311",
+      "video_id": "s2uuWTMN--o",
+      "platform": "YouTube",
+      "type": "video",
+      "title": "Kebebasan Pers Terancam? Polisi Didesak Usut Pengeroyokan Jurnalis #shorts",
+      "channel": "METRO TV ",
+      "published_at": "2026-10-16T15:19:55Z",
+      "url": "https://www.youtube.com/watch?v=s2uuWTMN--o",
+      "thumbnail": "https://i.ytimg.com/vi/s2uuWTMN--o/hqdefault.jpg",
+      "description": "MetroTV, Desakan agar kepolisian mengusut organisasi kemasyarakatan (ormas) yang diduga terlibat dalam pengeroyokan ...",
+      "relevance": "high",
+      "scope": "negative",
+      "category": "Oknum / Pelanggaran Anggota",
+      "classification_score": 100,
+      "is_jatim": false,
+      "region": "Indonesia",
+      "polres": null,
+      "location_confidence": 0,
+      "location_source": null,
+      "location_evidence": [],
+      "priority": "medium",
+      "collected_at": "2026-10-17T22:33:39.736430+00:00"
     },
     {
       "id": "922409e3baacba2e77617e8fa1f8c11a44942996",
@@ -1679,6 +2017,30 @@
       "collected_at": "2026-10-17T19:39:35.262513+00:00"
     },
     {
+      "id": "f28e5d2f01e9d19ddd1d69e5cc2f954bded92279",
+      "video_id": "hpwG_C0aXTs",
+      "platform": "YouTube",
+      "type": "video",
+      "title": "Bapak Tega 4 Kali Cabuli Anak Tirinya, Ibu Korban Lapor Polisi| OneNews Update",
+      "channel": "tvOnenewscom",
+      "published_at": "2026-10-16T14:30:22Z",
+      "url": "https://www.youtube.com/watch?v=hpwG_C0aXTs",
+      "thumbnail": "https://i.ytimg.com/vi/hpwG_C0aXTs/hqdefault.jpg",
+      "description": "OneNews Update, https://www.tvOnenews.com - Bapak Tega 4 Kali Cabuli Anak Tirinya, Ibu Korban Lapor Polisi| OneNews ...",
+      "relevance": "medium",
+      "scope": "neutral",
+      "category": "Berita Polisi Lainnya",
+      "classification_score": 25,
+      "is_jatim": false,
+      "region": "Indonesia",
+      "polres": null,
+      "location_confidence": 0,
+      "location_source": null,
+      "location_evidence": [],
+      "priority": "low",
+      "collected_at": "2026-10-17T22:33:39.736430+00:00"
+    },
+    {
       "id": "09643d45a6a699d962243877128936df0cb60217",
       "video_id": "OYNEOpXYg3E",
       "platform": "YouTube",
@@ -1774,7 +2136,7 @@
       "location_source": null,
       "location_evidence": [],
       "priority": "high",
-      "collected_at": "2026-10-17T09:36:33.238698+00:00"
+      "collected_at": "2026-10-17T22:33:39.736430+00:00"
     },
     {
       "id": "58267d26bcb7861d43a5e99a22579eb9664c9414",
@@ -1825,6 +2187,30 @@
       ],
       "priority": "low",
       "collected_at": "2026-10-17T13:55:54.052928+00:00"
+    },
+    {
+      "id": "5a9fb4856d2b4e24e452fe44a98308aba51bff23",
+      "video_id": "TSZzA8oFCto",
+      "platform": "YouTube",
+      "type": "video",
+      "title": "‘대리 협박’은 송치…교제 폭력은 ‘증거부족’? / KBS  2026.10.16.",
+      "channel": "KBS 뉴스 부산",
+      "published_at": "2026-10-16T13:18:35Z",
+      "url": "https://www.youtube.com/watch?v=TSZzA8oFCto",
+      "thumbnail": "https://i.ytimg.com/vi/TSZzA8oFCto/hqdefault.jpg",
+      "description": "[앵커] 교제하던 남성에게 폭력과 위협을 당했다며 여성이 고소했지만, 경찰이 스토킹 등 7개 혐의를 모두 불송치한 사건, 앞서 전해 ...",
+      "relevance": "low",
+      "scope": "neutral",
+      "category": "Tidak Relevan",
+      "classification_score": 0,
+      "is_jatim": false,
+      "region": "Indonesia",
+      "polres": null,
+      "location_confidence": 0,
+      "location_source": null,
+      "location_evidence": [],
+      "priority": "low",
+      "collected_at": "2026-10-17T22:33:39.736430+00:00"
     },
     {
       "id": "336e93199f1ea5f915da3273a1a380ad408d6c04",
@@ -1896,7 +2282,7 @@
       "location_source": null,
       "location_evidence": [],
       "priority": "low",
-      "collected_at": "2026-10-17T13:55:54.052928+00:00"
+      "collected_at": "2026-10-17T22:33:39.736430+00:00"
     },
     {
       "id": "45867519ecafdbf71f5efd1fd060e7df779819a2",
@@ -1920,7 +2306,7 @@
       "location_source": null,
       "location_evidence": [],
       "priority": "low",
-      "collected_at": "2026-10-17T09:36:33.238698+00:00"
+      "collected_at": "2026-10-17T22:33:39.736430+00:00"
     },
     {
       "id": "906788ee8249f1ddc8116a08cbae0c83ccef528f",
@@ -2428,7 +2814,7 @@
       "location_source": null,
       "location_evidence": [],
       "priority": "medium",
-      "collected_at": "2026-10-17T19:39:35.262513+00:00"
+      "collected_at": "2026-10-17T22:33:39.736430+00:00"
     },
     {
       "id": "46ec7edd04a3bfa14cb5a57cfb71fd9474639a70",
@@ -2476,7 +2862,7 @@
       "location_source": null,
       "location_evidence": [],
       "priority": "low",
-      "collected_at": "2026-10-17T13:55:54.052928+00:00"
+      "collected_at": "2026-10-17T22:33:39.736430+00:00"
     },
     {
       "id": "0e5c03f1daf09de1fe5f807b13df9b227ef36b62",
@@ -2500,7 +2886,7 @@
       "location_source": null,
       "location_evidence": [],
       "priority": "low",
-      "collected_at": "2026-10-17T09:36:33.238698+00:00"
+      "collected_at": "2026-10-17T22:33:39.736430+00:00"
     },
     {
       "id": "377b65798e172b9575c8c32cc6b220ee708cb5d1",
@@ -2598,7 +2984,7 @@
       "location_source": null,
       "location_evidence": [],
       "priority": "low",
-      "collected_at": "2026-10-17T09:36:33.238698+00:00"
+      "collected_at": "2026-10-17T22:33:39.736430+00:00"
     },
     {
       "id": "1a3ca6c89323850eb846bec7819faaaf5f3a094a",
@@ -2646,7 +3032,7 @@
       "location_source": null,
       "location_evidence": [],
       "priority": "low",
-      "collected_at": "2026-10-17T09:36:33.238698+00:00"
+      "collected_at": "2026-10-17T22:33:39.736430+00:00"
     },
     {
       "id": "c6f3f15c1a024db61ceb9d30017f74fbaf728f22",
@@ -2886,7 +3272,7 @@
       "location_source": null,
       "location_evidence": [],
       "priority": "low",
-      "collected_at": "2026-10-17T09:36:33.238698+00:00"
+      "collected_at": "2026-10-17T22:33:39.736430+00:00"
     },
     {
       "id": "4200aeee0d2e55becd1c04a9386563534a570360",
@@ -3084,7 +3470,7 @@
       "location_source": null,
       "location_evidence": [],
       "priority": "low",
-      "collected_at": "2026-10-17T09:36:33.238698+00:00"
+      "collected_at": "2026-10-17T22:33:39.736430+00:00"
     },
     {
       "id": "c5a03b086d68a7ee3744d3d194920d7992776886",
@@ -3108,7 +3494,7 @@
       "location_source": null,
       "location_evidence": [],
       "priority": "low",
-      "collected_at": "2026-10-17T13:55:54.052928+00:00"
+      "collected_at": "2026-10-17T22:33:39.736430+00:00"
     },
     {
       "id": "1e6f5c53338cc04a28f2de8555ec45e50ec5aa38",
@@ -3183,7 +3569,7 @@
       "location_source": null,
       "location_evidence": [],
       "priority": "medium",
-      "collected_at": "2026-10-17T09:36:33.238698+00:00"
+      "collected_at": "2026-10-17T22:33:39.736430+00:00"
     },
     {
       "id": "ef71238c5277fcc924906488fff86f94121cd926",
@@ -3800,7 +4186,7 @@
       "location_source": null,
       "location_evidence": [],
       "priority": "low",
-      "collected_at": "2026-10-17T09:36:33.238698+00:00"
+      "collected_at": "2026-10-17T22:33:39.736430+00:00"
     },
     {
       "id": "e26abba042b25f417ffc5f3ea3ff3e39384cd5ba",
@@ -3944,7 +4330,7 @@
       "location_source": null,
       "location_evidence": [],
       "priority": "low",
-      "collected_at": "2026-10-17T13:55:54.052928+00:00"
+      "collected_at": "2026-10-17T22:33:39.736430+00:00"
     },
     {
       "id": "2d17e4a565e5eb1d8d90898b36ce798559ac8943",
@@ -3968,7 +4354,7 @@
       "location_source": null,
       "location_evidence": [],
       "priority": "low",
-      "collected_at": "2026-10-17T13:55:54.052928+00:00"
+      "collected_at": "2026-10-17T22:33:39.736430+00:00"
     },
     {
       "id": "2a68756cff4721bd51cccfb76d3a02a058e20e0b",
@@ -36187,396 +36573,6 @@
       "location_evidence": [],
       "priority": "low",
       "collected_at": "2026-09-02T04:56:53.487818+00:00"
-    },
-    {
-      "id": "5ce71bd5cfbfd546641f473290f1cff3f3cf8c06",
-      "video_id": "HXKdI7zhXg8",
-      "platform": "YouTube",
-      "type": "video",
-      "title": "Demo 27 Agustus Tewaskan Seorang Warga, Polisi Tetapkan 49 Tersangka | Headline iNews.ID",
-      "channel": "Official iNews",
-      "published_at": "2026-09-01T14:16:46Z",
-      "url": "https://www.youtube.com/watch?v=HXKdI7zhXg8",
-      "thumbnail": "https://i.ytimg.com/vi/HXKdI7zhXg8/hqdefault.jpg",
-      "description": "Polisi menetapkan 49 orang sebagai tersangka terkait kericuhan yang terjadi setelah demonstrasi di depan Gedung DPR, pada ...",
-      "relevance": "high",
-      "scope": "negative",
-      "category": "Oknum / Pelanggaran Anggota",
-      "classification_score": 100,
-      "is_jatim": false,
-      "region": "Indonesia",
-      "polres": null,
-      "location_confidence": 0,
-      "location_source": null,
-      "location_evidence": [],
-      "priority": "medium",
-      "collected_at": "2026-09-03T06:03:42.164327+00:00"
-    },
-    {
-      "id": "1989928bef48489b424e48e9b2ae72d8f2a4a538",
-      "video_id": "OFZ7tedsSwE",
-      "platform": "YouTube",
-      "type": "video",
-      "title": "Polisi Gerebek Sarang Narkoba Medan, Ibu Rumah Tangga Diduga Bandar Ditangkap - [Top News]",
-      "channel": "METRO TV ",
-      "published_at": "2026-09-01T14:14:30Z",
-      "url": "https://www.youtube.com/watch?v=OFZ7tedsSwE",
-      "thumbnail": "https://i.ytimg.com/vi/OFZ7tedsSwE/hqdefault.jpg",
-      "description": "MetroTV, Satresnarkoba Polrestabes Medan menggerebek lokasi yang diduga menjadi sarang peredaran narkoba di Jalan PWI, ...",
-      "relevance": "high",
-      "scope": "negative",
-      "category": "Oknum / Narkoba",
-      "classification_score": 100,
-      "is_jatim": false,
-      "region": "Indonesia",
-      "polres": null,
-      "location_confidence": 0,
-      "location_source": null,
-      "location_evidence": [],
-      "priority": "high",
-      "collected_at": "2026-09-02T22:04:36.951428+00:00"
-    },
-    {
-      "id": "398cd271e0c652013aa4039b30c65f8190865e40",
-      "video_id": "y4rmoxzhUZc",
-      "platform": "YouTube",
-      "type": "video",
-      "title": "Disgraced officer faces perjury charges after being caught in another courtroom lie.",
-      "channel": "Relationship Secrets",
-      "published_at": "2026-09-01T14:12:55Z",
-      "url": "https://www.youtube.com/watch?v=y4rmoxzhUZc",
-      "thumbnail": "https://i.ytimg.com/vi/y4rmoxzhUZc/hqdefault.jpg",
-      "description": "\"When a Cop's Lies Catch Up with Him\" I'm Jason. For 30 years, I've watched the justice system from the inside, and today we're ...",
-      "relevance": "low",
-      "scope": "neutral",
-      "category": "Tidak Relevan",
-      "classification_score": 0,
-      "is_jatim": false,
-      "region": "Indonesia",
-      "polres": null,
-      "location_confidence": 0,
-      "location_source": null,
-      "location_evidence": [],
-      "priority": "low",
-      "collected_at": "2026-09-02T18:57:35.156943+00:00"
-    },
-    {
-      "id": "e482134c4806285d662dfc132452bf2539a8965c",
-      "video_id": "AgTFIn8Jh3U",
-      "platform": "YouTube",
-      "type": "video",
-      "title": "Coretan Kontroversial Kurt Cobain Yang Membuatnya Ditangkap Polisi. #kurtcobain #nirvana",
-      "channel": "Mr Black 8",
-      "published_at": "2026-09-01T13:31:28Z",
-      "url": "https://www.youtube.com/watch?v=AgTFIn8Jh3U",
-      "thumbnail": "https://i.ytimg.com/vi/AgTFIn8Jh3U/hqdefault.jpg",
-      "description": "",
-      "relevance": "high",
-      "scope": "case",
-      "category": "Ungkap Kasus",
-      "classification_score": 60,
-      "is_jatim": false,
-      "region": "Indonesia",
-      "polres": null,
-      "location_confidence": 0,
-      "location_source": null,
-      "location_evidence": [],
-      "priority": "low",
-      "collected_at": "2026-09-02T04:56:53.487818+00:00"
-    },
-    {
-      "id": "badb784bd48243ee183d682dd62613fd4a515028",
-      "video_id": "CWryUGcaigo",
-      "platform": "YouTube",
-      "type": "video",
-      "title": "DRIVER OJOL DITANGKAP POLISI! Diduga Edarkan Sabu dalam Mainan Mobil, Modusnya Bikin Kaget!",
-      "channel": "Kurasi Channel",
-      "published_at": "2026-09-01T13:16:35Z",
-      "url": "https://www.youtube.com/watch?v=CWryUGcaigo",
-      "thumbnail": "https://i.ytimg.com/vi/CWryUGcaigo/hqdefault.jpg",
-      "description": "driverojol #berantasnarkoba #satresnarkoba #polrescimahi #poldajabar #jawabarat.",
-      "relevance": "noise",
-      "scope": "noise",
-      "category": "Tidak Relevan",
-      "classification_score": 0,
-      "is_jatim": false,
-      "region": "Indonesia",
-      "polres": null,
-      "location_confidence": 0,
-      "location_source": null,
-      "location_evidence": [],
-      "priority": "low",
-      "collected_at": "2026-09-02T04:56:53.487818+00:00"
-    },
-    {
-      "id": "fc72a3d268d27a63352e5f512a934fd380e70697",
-      "video_id": "UjqzcPeeUCc",
-      "platform": "YouTube",
-      "type": "video",
-      "title": "Man raises concern about police use of force involving 84-year-old grandfather in Lancaster",
-      "channel": "LEX News",
-      "published_at": "2026-09-01T13:13:37Z",
-      "url": "https://www.youtube.com/watch?v=UjqzcPeeUCc",
-      "thumbnail": "https://i.ytimg.com/vi/UjqzcPeeUCc/hqdefault.jpg",
-      "description": "Man raises concern about police use of force involving 84-year-old grandfather in Lancaster.",
-      "relevance": "low",
-      "scope": "neutral",
-      "category": "Tidak Relevan",
-      "classification_score": 0,
-      "is_jatim": false,
-      "region": "Indonesia",
-      "polres": null,
-      "location_confidence": 0,
-      "location_source": null,
-      "location_evidence": [],
-      "priority": "low",
-      "collected_at": "2026-09-03T06:03:42.164327+00:00"
-    },
-    {
-      "id": "4ca74d4f5538cf3a336e92d1bf1437195ca5554b",
-      "video_id": "UxEzeyagiW0",
-      "platform": "YouTube",
-      "type": "video",
-      "title": "계룡시청 올해 세 번째 압수수색…경찰, 공무원 ‘납품 비리 의혹’ 수사-충남경찰청, 회계과 등 2곳에 수사관 투입 -이응우 계룡시장 공직선거법 위반 의혹 수사와는 별개",
-      "channel": "충청24시뉴스 ",
-      "published_at": "2026-09-01T13:03:04Z",
-      "url": "https://www.youtube.com/watch?v=UxEzeyagiW0",
-      "thumbnail": "https://i.ytimg.com/vi/UxEzeyagiW0/hqdefault.jpg",
-      "description": "계룡시청 올해 세 번째 압수수색…경찰, 공무원 '납품 비리 의혹' 수사 -충남경찰청, 회계과 등 2곳에 수사관 투입 -이응우 계룡시장 ...",
-      "relevance": "low",
-      "scope": "neutral",
-      "category": "Tidak Relevan",
-      "classification_score": 0,
-      "is_jatim": false,
-      "region": "Indonesia",
-      "polres": null,
-      "location_confidence": 0,
-      "location_source": null,
-      "location_evidence": [],
-      "priority": "low",
-      "collected_at": "2026-09-03T00:27:44.562950+00:00"
-    },
-    {
-      "id": "2d33e1715eab3106816b809728b241d6951b8b5e",
-      "video_id": "6K9ShXjwuSg",
-      "platform": "YouTube",
-      "type": "video",
-      "title": "Akun Media Sosial Diduga Sebar Racikan Molotov, Pemiliknya Diamankan Polisi Polda Metro Ja #Shorts",
-      "channel": "Berita Jakarta",
-      "published_at": "2026-09-01T13:00:39Z",
-      "url": "https://www.youtube.com/watch?v=6K9ShXjwuSg",
-      "thumbnail": "https://i.ytimg.com/vi/6K9ShXjwuSg/hqdefault.jpg",
-      "description": "Akun Media Sosial Diduga Sebar Racikan Molotov, Pemiliknya Diamankan Polisi Polda Metro Jaya mengamankan pemilik akun ...",
-      "relevance": "high",
-      "scope": "negative",
-      "category": "Oknum / Pelanggaran Anggota",
-      "classification_score": 100,
-      "is_jatim": false,
-      "region": "Indonesia",
-      "polres": null,
-      "location_confidence": 0,
-      "location_source": null,
-      "location_evidence": [],
-      "priority": "medium",
-      "collected_at": "2026-09-03T06:03:42.164327+00:00"
-    },
-    {
-      "id": "b7bdc1245f5f920ae5d22a38c795fd78362b7c3d",
-      "video_id": "VxfoFOeyHIw",
-      "platform": "YouTube",
-      "type": "video",
-      "title": "Mencekam! Geng Motor Bersenjata Serang Polisi Pakai Kembang Api, 2 Remaja Ditangkap | Snapnews",
-      "channel": "Okezone",
-      "published_at": "2026-09-01T13:00:14Z",
-      "url": "https://www.youtube.com/watch?v=VxfoFOeyHIw",
-      "thumbnail": "https://i.ytimg.com/vi/VxfoFOeyHIw/hqdefault.jpg",
-      "description": "Aksi kelompok geng motor di Makassar, Sulawesi Selatan, berujung pengejaran polisi. Kelompok tersebut diduga hendak ...",
-      "relevance": "high",
-      "scope": "negative",
-      "category": "Oknum / Pelanggaran Anggota",
-      "classification_score": 100,
-      "is_jatim": false,
-      "region": "Indonesia",
-      "polres": null,
-      "location_confidence": 0,
-      "location_source": "outside",
-      "location_evidence": [
-        "LUAR:sulawesi"
-      ],
-      "priority": "medium",
-      "collected_at": "2026-09-02T04:56:53.487818+00:00"
-    },
-    {
-      "id": "214509efe234750be031c7fc597e9e977e667db8",
-      "video_id": "_NlgrZZynro",
-      "platform": "YouTube",
-      "type": "video",
-      "title": "&#39;납품 대가 금품 수수 의혹&#39;..경찰, 계룡시청 압수수색｜ TJB 대전·세종·충남뉴스",
-      "channel": "TJB NEWS",
-      "published_at": "2026-09-01T12:57:55Z",
-      "url": "https://www.youtube.com/watch?v=_NlgrZZynro",
-      "thumbnail": "https://i.ytimg.com/vi/_NlgrZZynro/hqdefault.jpg",
-      "description": "충남경찰청 반부패수사대가 계룡시청 공무원의 납품 비리 및 금품 수수 의혹과 관련해 계룡시청 등 2곳을 압수수색했습니다. 경찰은 ...",
-      "relevance": "low",
-      "scope": "neutral",
-      "category": "Tidak Relevan",
-      "classification_score": 0,
-      "is_jatim": false,
-      "region": "Indonesia",
-      "polres": null,
-      "location_confidence": 0,
-      "location_source": null,
-      "location_evidence": [],
-      "priority": "low",
-      "collected_at": "2026-09-03T00:27:44.562950+00:00"
-    },
-    {
-      "id": "46150e528aa381f1e8f1c2b0c092711af3ec5463",
-      "video_id": "dColmVv0B6w",
-      "platform": "YouTube",
-      "type": "video",
-      "title": "‘가정폭력’ 피해자 피살…30대 남편 검거 [9시 뉴스] / KBS  2026.09.01.",
-      "channel": "KBS News",
-      "published_at": "2026-09-01T12:41:08Z",
-      "url": "https://www.youtube.com/watch?v=dColmVv0B6w",
-      "thumbnail": "https://i.ytimg.com/vi/dColmVv0B6w/hqdefault.jpg",
-      "description": "오늘(1일) 경기 광주에서 30대 남성이 이혼 소송 중이던 아내를 찾아가 살해했습니다. 현장엔 5살 딸도 함께 있었습니다. 숨진 여성은 ...",
-      "relevance": "low",
-      "scope": "neutral",
-      "category": "Tidak Relevan",
-      "classification_score": 0,
-      "is_jatim": false,
-      "region": "Indonesia",
-      "polres": null,
-      "location_confidence": 0,
-      "location_source": null,
-      "location_evidence": [],
-      "priority": "low",
-      "collected_at": "2026-09-03T06:03:42.164327+00:00"
-    },
-    {
-      "id": "228c9eeb3929a09371f49f537642b1749dacdb63",
-      "video_id": "WGQ6cqEqSXY",
-      "platform": "YouTube",
-      "type": "video",
-      "title": "KEPERGOK CURI KABEL TOWER DI PAPAR KEDIRI, DUA PEMUDA GROGOL DITANGKAP POLISI",
-      "channel": "PANJALU WARTA TV",
-      "published_at": "2026-09-01T12:40:52Z",
-      "url": "https://www.youtube.com/watch?v=WGQ6cqEqSXY",
-      "thumbnail": "https://i.ytimg.com/vi/WGQ6cqEqSXY/hqdefault.jpg",
-      "description": "Aksi nekat dua pemuda yang diduga mencuri kabel power di area tower seluler berakhir di kantor polisi. Tim gabungan dari Unit ...",
-      "relevance": "high",
-      "scope": "negative",
-      "category": "Oknum / Pelanggaran Anggota",
-      "classification_score": 100,
-      "is_jatim": true,
-      "region": "Jawa Timur",
-      "polres": null,
-      "location_confidence": 60,
-      "location_source": "location",
-      "location_evidence": [
-        "kediri"
-      ],
-      "priority": "medium",
-      "collected_at": "2026-09-02T04:56:53.487818+00:00"
-    },
-    {
-      "id": "3ba722175ed78f354a8416fc3cdfa1d403c53c46",
-      "video_id": "yTiGbIkKa-M",
-      "platform": "YouTube",
-      "type": "video",
-      "title": "THM Batam Berikrar Bersih dari Narkoba, Polisi Tegaskan Pengawasan Tak Berhenti",
-      "channel": "batampos",
-      "published_at": "2026-09-01T12:32:40Z",
-      "url": "https://www.youtube.com/watch?v=yTiGbIkKa-M",
-      "thumbnail": "https://i.ytimg.com/vi/yTiGbIkKa-M/hqdefault.jpg",
-      "description": "Pengelola tempat hiburan malam (THM) di Batam menandatangani deklarasi pencegahan dan pemberantasan penyalahgunaan ...",
-      "relevance": "medium",
-      "scope": "neutral",
-      "category": "Berita Polisi Lainnya",
-      "classification_score": 25,
-      "is_jatim": false,
-      "region": "Indonesia",
-      "polres": null,
-      "location_confidence": 0,
-      "location_source": "outside",
-      "location_evidence": [
-        "LUAR:batam"
-      ],
-      "priority": "low",
-      "collected_at": "2026-09-02T22:04:36.951428+00:00"
-    },
-    {
-      "id": "c6d222849778d0b2d001d5f812a4f4b3552c11bb",
-      "video_id": "hIp718f8mPE",
-      "platform": "YouTube",
-      "type": "video",
-      "title": "Police snatched man out of car by hair #violence #hatred #rage #anger 😡",
-      "channel": "IUIC IOWA",
-      "published_at": "2026-09-01T12:29:30Z",
-      "url": "https://www.youtube.com/watch?v=hIp718f8mPE",
-      "thumbnail": "https://i.ytimg.com/vi/hIp718f8mPE/hqdefault.jpg",
-      "description": "",
-      "relevance": "low",
-      "scope": "neutral",
-      "category": "Tidak Relevan",
-      "classification_score": 0,
-      "is_jatim": false,
-      "region": "Indonesia",
-      "polres": null,
-      "location_confidence": 0,
-      "location_source": null,
-      "location_evidence": [],
-      "priority": "low",
-      "collected_at": "2026-09-02T18:57:35.156943+00:00"
-    },
-    {
-      "id": "90b9b22ee07ff87ef5a3eb254066510253b64d39",
-      "video_id": "Orv8eQtEhN0",
-      "platform": "YouTube",
-      "type": "video",
-      "title": "Tatonya baru siap setengah, tukang tatonya ditangkap polisi",
-      "channel": "inform news",
-      "published_at": "2026-09-01T12:21:27Z",
-      "url": "https://www.youtube.com/watch?v=Orv8eQtEhN0",
-      "thumbnail": "https://i.ytimg.com/vi/Orv8eQtEhN0/hqdefault.jpg",
-      "description": "",
-      "relevance": "high",
-      "scope": "case",
-      "category": "Ungkap Kasus",
-      "classification_score": 60,
-      "is_jatim": false,
-      "region": "Indonesia",
-      "polres": null,
-      "location_confidence": 0,
-      "location_source": null,
-      "location_evidence": [],
-      "priority": "low",
-      "collected_at": "2026-09-02T04:56:53.487818+00:00"
-    },
-    {
-      "id": "e96ca0e2a8baedcc4c9238cc3ac632f5be76bb42",
-      "video_id": "IWFll7K9AoM",
-      "platform": "YouTube",
-      "type": "video",
-      "title": "Mayat Perempuan Terbakar di Pos Ronda Demak, Polisi Duga Ada Unsur Kekerasan",
-      "channel": "Tribun Lampung Official",
-      "published_at": "2026-09-01T12:17:24Z",
-      "url": "https://www.youtube.com/watch?v=IWFll7K9AoM",
-      "thumbnail": "https://i.ytimg.com/vi/IWFll7K9AoM/hqdefault.jpg",
-      "description": "tribunlampung - Mayat Perempuan Terbakar di Pos Ronda Demak, Polisi Duga Ada Unsur Kekerasan Channel YouTube Tribun ...",
-      "relevance": "high",
-      "scope": "negative",
-      "category": "Kekerasan / Penganiayaan",
-      "classification_score": 100,
-      "is_jatim": false,
-      "region": "Indonesia",
-      "polres": null,
-      "location_confidence": 0,
-      "location_source": null,
-      "location_evidence": [],
-      "priority": "medium",
-      "collected_at": "2026-09-02T18:57:35.156943+00:00"
     }
   ]
 }
