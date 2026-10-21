@@ -2,18 +2,26 @@
   "schema_version": "today-v3",
   "date": "2026-10-22",
   "timezone": "Asia/Jakarta",
-  "updated_at": "2026-10-22T03:20:17.731644+07:00",
-  "last_successful_update": "2026-10-22T03:20:17.731644+07:00",
+  "updated_at": "2026-10-22T06:30:12.822967+07:00",
+  "last_successful_update": "2026-10-22T06:30:12.822967+07:00",
   "news": {
-    "detected": 26,
-    "negative": 0,
+    "detected": 34,
+    "negative": 2,
     "positive": 0,
-    "case": 5,
-    "neutral": 21,
-    "jatim": 14,
-    "luar_jatim": 12,
+    "case": 7,
+    "neutral": 25,
+    "jatim": 15,
+    "luar_jatim": 19,
     "priority_high": 0,
     "article_ids": [
+      "af8d6ec551979fee4c2a586e5ce59233d434fa48",
+      "e8214fbafeb9394a496e4a0218c42d883c0a6a70",
+      "be6556f9e36b1045a6b049ec7bf5aa1c68d64e55",
+      "37641d8f388655ea4f97f1c5a45a1f0a6e909b5c",
+      "816b8608ca95d601851f731ea6bb6d0b8458508c",
+      "23ff934010d4be253ac13c21614bec0b5e3141ef",
+      "1d2cc18071b574f59a0139f86210d2ba76f736ab",
+      "1d952916f7265d06d3d887d4ac2f439c066c3e16",
       "0da69aee26950ea8f7ff475b9b0bcaa984db5cee",
       "ba17ffcd4b790efd011db621a03c06f693cbce3a",
       "4c3ae6813270930c06472545936934c13123eb2a",
@@ -43,6 +51,755 @@
     ],
     "items": [
       {
+        "id": "af8d6ec551979fee4c2a586e5ce59233d434fa48",
+        "title": "Polisi buru jaringan pengedar narkoba di Desa Campor Pamekasan - ANTARA News",
+        "url": "https://jatim.antaranews.com/berita/1109877/polisi-buru-jaringan-pengedar-narkoba-di-desa-campor-pamekasan",
+        "source": "ANTARA News",
+        "published_at": "2026-10-21T23:05:05+00:00",
+        "collected_at": "2026-10-21T23:23:34.009083+00:00",
+        "region": "Jawa Timur",
+        "area_label": "Pamekasan",
+        "is_jatim": true,
+        "polres": null,
+        "category": "NETRAL / PERISTIWA",
+        "scope": "neutral",
+        "scope_label": "Netral",
+        "priority": "low",
+        "summary": "Polisi buru jaringan pengedar narkoba di Desa Campor Pamekasan ANTARA News",
+        "processing_status": "processed",
+        "classifier_version": "contextual-v1.1",
+        "classified_at": "2026-10-21T23:25:55.367392+00:00",
+        "case_id": null,
+        "discovery_families": [],
+        "discovery_tags": [],
+        "discovery_hits": [],
+        "discovery_version": "discovery-v6",
+        "google_news_url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQRUk3WjFUMnRyMUpaRmNNNF9yZ3YwN1QwZ2cwVmtJOEhaNzZSWUVlNmh4dk9aUXdBZ1NTRVJ2ck9RS2g2dVhCanhES09lMzZrRkp4b29fQ05DY0xrREkxM1N2UVlUUHlOelZzOXlWTjhrWWpNUWxFN3RzbVFNeGNsekxoRE1TR204VW5YNWVsWnQ1ZHdFeWw3NnlMNGlVRHNleXI3WVhzMVFyUdIBrwFBVV95cUxPb1NCQU5LQzhQcmhqUGc1QWdwZXRvRVFQeVpNbVBpR3hXSmx1RnZtRkhubXRzc3QtSmxDSEtjRHVRNUhrXzhlYmdvTG41SWx5VzNvOV81X202LVAzMUVwbWRaWnV2MUNZYmFaRE93cmd1MVBDVzBES1RJWHFnXzhLdU5TVS1zWU1lbE5zejlzMG1YVk1odXllZ3h4TU5JaGNxaUY5ZGRWdS1ZTUtXaEFj?oc=5",
+        "original_url": "https://jatim.antaranews.com/berita/1109877/polisi-buru-jaringan-pengedar-narkoba-di-desa-campor-pamekasan",
+        "canonical_url": "https://jatim.antaranews.com/berita/1109877/polisi-buru-jaringan-pengedar-narkoba-di-desa-campor-pamekasan",
+        "duplicate_article": false,
+        "locality": "Pamekasan",
+        "polsek": null,
+        "location_confidence": 95,
+        "location_evidence": [
+          "Pamekasan"
+        ],
+        "location_status": "JAWA_TIMUR",
+        "location_source": "title_description",
+        "sentiment": "neutral",
+        "sentiment_label": "Netral",
+        "issue_type": "NARKOBA",
+        "issue_subtype": "Narkoba / Narkotika",
+        "issue_evidence": [
+          "narkoba"
+        ],
+        "polri_relation": "INFORMASI_UMUM",
+        "polri_relation_evidence": [
+          "Hubungan Polri belum spesifik"
+        ],
+        "handling_status": "BELUM_ADA_INFORMASI",
+        "handling_evidence": [],
+        "assertion_status": "FACTUAL",
+        "assertion_confidence": 75,
+        "assertion_evidence": [],
+        "attention_score": 16,
+        "attention_label": "Rendah",
+        "attention_components": {
+          "severity": 11,
+          "polri_relation": 0,
+          "authority": 0,
+          "public_impact": 4,
+          "handling": 0,
+          "evidence": 1,
+          "context_risk": 0,
+          "routine_enforcement_cap": null
+        },
+        "attention_evidence": {
+          "severity": [],
+          "authority": [],
+          "public_impact": [],
+          "evidence": [
+            "satu sumber / informasi awal"
+          ],
+          "role": [],
+          "issue": [
+            "narkoba"
+          ],
+          "handling": [],
+          "context": [],
+          "positive": []
+        },
+        "attention_reasons": [
+          "isu/peristiwa ditemukan tetapi relasi Polri sebagai pihak bermasalah tidak cukup kuat"
+        ],
+        "contextual_flags": {
+          "explicit_polri_subject": false,
+          "explicit_polri_enforcer": false,
+          "polri_victim": false,
+          "service_negative": false,
+          "misconduct_signal": true,
+          "direct_positive_enforcement": false
+        },
+        "analysis_engine_version": "contextual-v1.1",
+        "location_engine_version": "location-v2-title-snippet-source",
+        "case_engine_version": "case-v6.5.4",
+        "case_processed_at": "2026-10-21T23:29:38.471182+00:00"
+      },
+      {
+        "id": "e8214fbafeb9394a496e4a0218c42d883c0a6a70",
+        "title": "Polisi Tangkap Dua Pelaku TPPO di Sulsel, Modus Rekrut Pekerja Sawit ke Malaysia - Kompas.com",
+        "url": "https://regional.kompas.com/read/2026/10/22/055353578/polisi-tangkap-dua-pelaku-tppo-di-sulsel-modus-rekrut-pekerja-sawit-ke",
+        "source": "Kompas.com",
+        "published_at": "2026-10-21T22:53:00+00:00",
+        "collected_at": "2026-10-21T23:23:34.009083+00:00",
+        "region": "LUAR JATIM",
+        "area_label": "LUAR JATIM",
+        "is_jatim": false,
+        "polres": null,
+        "category": "UNGKAP KASUS / PENINDAKAN",
+        "scope": "case",
+        "scope_label": "Ungkap Kasus",
+        "priority": "low",
+        "summary": "Polisi Tangkap Dua Pelaku TPPO di Sulsel, Modus Rekrut Pekerja Sawit ke Malaysia Kompas.com",
+        "processing_status": "processed",
+        "classifier_version": "contextual-v1.1",
+        "classified_at": "2026-10-21T23:25:55.413583+00:00",
+        "case_id": "CASE-002874",
+        "discovery_families": [],
+        "discovery_tags": [],
+        "discovery_hits": [],
+        "discovery_version": "discovery-v6",
+        "google_news_url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQQ0haRXI1Y2EwNnMySEZFYXJRNzN4UUhIZjBITWV4Wk1BaHRnUGdpTkJJSkVFSjJ1RnlVMkxQNU4wdldUcWdtRW8yMFBJc2d0TkdVUUN4ZWJ4b2did3U0bi1UaElDc3JJT2thVXJDZE5nbW1YTldnMWNnZVN1QzVkZDNOZ2dSdXBXMmdPRnJIZmpMRFB6alc0TlJBNzROWU1WMldqbWpKZ00xc1BMRGhaS2M2dXhxbGcybW9TQWhXdDFIZw?oc=5",
+        "original_url": "https://regional.kompas.com/read/2026/10/22/055353578/polisi-tangkap-dua-pelaku-tppo-di-sulsel-modus-rekrut-pekerja-sawit-ke",
+        "canonical_url": "https://regional.kompas.com/read/2026/10/22/055353578/polisi-tangkap-dua-pelaku-tppo-di-sulsel-modus-rekrut-pekerja-sawit-ke",
+        "duplicate_article": false,
+        "locality": "",
+        "polsek": null,
+        "location_confidence": 100,
+        "location_evidence": [
+          "sulsel"
+        ],
+        "location_status": "LUAR_JATIM",
+        "location_source": "title_description",
+        "sentiment": "positive",
+        "sentiment_label": "Positif",
+        "issue_type": "UMUM",
+        "issue_subtype": "Belum Teridentifikasi",
+        "issue_evidence": [],
+        "polri_relation": "PENEGAKAN_HUKUM",
+        "polri_relation_evidence": [
+          "Polri berperan sebagai pihak penindak"
+        ],
+        "handling_status": "BELUM_ADA_INFORMASI",
+        "handling_evidence": [],
+        "assertion_status": "FACTUAL",
+        "assertion_confidence": 75,
+        "assertion_evidence": [],
+        "attention_score": 7,
+        "attention_label": "Rendah",
+        "attention_components": {
+          "severity": 2,
+          "polri_relation": 0,
+          "authority": 0,
+          "public_impact": 4,
+          "handling": 0,
+          "evidence": 1,
+          "context_risk": 0,
+          "routine_enforcement_cap": null
+        },
+        "attention_evidence": {
+          "severity": [],
+          "authority": [],
+          "public_impact": [],
+          "evidence": [
+            "satu sumber / informasi awal"
+          ],
+          "role": [],
+          "issue": [],
+          "handling": [],
+          "context": [],
+          "positive": []
+        },
+        "attention_reasons": [
+          "Polri berperan sebagai pihak penindak",
+          "tidak ditemukan indikator utama misconduct oleh personel"
+        ],
+        "contextual_flags": {
+          "explicit_polri_subject": false,
+          "explicit_polri_enforcer": true,
+          "polri_victim": false,
+          "service_negative": false,
+          "misconduct_signal": false,
+          "direct_positive_enforcement": false
+        },
+        "analysis_engine_version": "contextual-v1.1",
+        "location_engine_version": "location-v2-title-snippet-source",
+        "case_engine_version": "case-v6.5.4",
+        "case_processed_at": "2026-10-21T23:30:10.954809+00:00"
+      },
+      {
+        "id": "be6556f9e36b1045a6b049ec7bf5aa1c68d64e55",
+        "title": "Komandan Polisi Chechnya Ancam Tembak Warga Tanpa Pengadilan - Arrahmah.id",
+        "url": "https://www.arrahmah.id/komandan-polisi-chechnya-ancam-tembak-warga-tanpa-pengadilan",
+        "source": "Arrahmah.id",
+        "published_at": "2026-10-21T22:49:27+00:00",
+        "collected_at": "2026-10-21T23:23:34.009083+00:00",
+        "region": "BELUM TERPETAKAN",
+        "area_label": "BELUM TERPETAKAN",
+        "is_jatim": null,
+        "polres": null,
+        "category": "NETRAL / LAINNYA",
+        "scope": "neutral",
+        "scope_label": "Netral",
+        "priority": "low",
+        "summary": "Komandan Polisi Chechnya Ancam Tembak Warga Tanpa Pengadilan Arrahmah.id",
+        "processing_status": "processed",
+        "classifier_version": "contextual-v1.1",
+        "classified_at": "2026-10-21T23:25:55.459710+00:00",
+        "case_id": null,
+        "discovery_families": [],
+        "discovery_tags": [],
+        "discovery_hits": [],
+        "discovery_version": "discovery-v6",
+        "google_news_url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOYTUwWDhBN3JNbEdrRlk3dWt6eFZ5VVppZVljbmZjbHZLdkx2MEFMMXRKV0ZZZkx5cVVxcFh4UWhUbDdVOXlhWDNXYU1Zc0d6anEzeGN4dVM5NnZ6OGVIUlNoS0FjREdSOTlvY3ZEanZ6NlRLWFQyd3IzQlZ1TjRlNmFheEFHWGdtZElQUQ?oc=5",
+        "original_url": "https://www.arrahmah.id/komandan-polisi-chechnya-ancam-tembak-warga-tanpa-pengadilan",
+        "canonical_url": "https://arrahmah.id/komandan-polisi-chechnya-ancam-tembak-warga-tanpa-pengadilan",
+        "duplicate_article": false,
+        "locality": "",
+        "polsek": null,
+        "location_confidence": 0,
+        "location_evidence": [],
+        "location_status": "BELUM_TERPETAKAN",
+        "location_source": "title_description",
+        "sentiment": "neutral",
+        "sentiment_label": "Netral",
+        "issue_type": "UMUM",
+        "issue_subtype": "Belum Teridentifikasi",
+        "issue_evidence": [],
+        "polri_relation": "INFORMASI_UMUM",
+        "polri_relation_evidence": [
+          "Hubungan Polri belum spesifik"
+        ],
+        "handling_status": "BELUM_ADA_INFORMASI",
+        "handling_evidence": [],
+        "assertion_status": "FACTUAL",
+        "assertion_confidence": 75,
+        "assertion_evidence": [],
+        "attention_score": 15,
+        "attention_label": "Rendah",
+        "attention_components": {
+          "severity": 2,
+          "polri_relation": 0,
+          "authority": 0,
+          "public_impact": 12,
+          "handling": 0,
+          "evidence": 1,
+          "context_risk": 0,
+          "routine_enforcement_cap": null
+        },
+        "attention_evidence": {
+          "severity": [],
+          "authority": [],
+          "public_impact": [
+            "dampak kepada masyarakat"
+          ],
+          "evidence": [
+            "satu sumber / informasi awal"
+          ],
+          "role": [],
+          "issue": [],
+          "handling": [],
+          "context": [],
+          "positive": []
+        },
+        "attention_reasons": [
+          "sifat berita: netral",
+          "Hubungan Polri belum spesifik"
+        ],
+        "contextual_flags": {
+          "explicit_polri_subject": false,
+          "explicit_polri_enforcer": false,
+          "polri_victim": false,
+          "service_negative": false,
+          "misconduct_signal": false,
+          "direct_positive_enforcement": false
+        },
+        "analysis_engine_version": "contextual-v1.1",
+        "location_engine_version": "location-v2-title-snippet-source",
+        "case_engine_version": "case-v6.5.4",
+        "case_processed_at": "2026-10-21T23:29:38.478530+00:00"
+      },
+      {
+        "id": "37641d8f388655ea4f97f1c5a45a1f0a6e909b5c",
+        "title": "Polisi Diminta Gercep Tangkap Uus, Diduga Tipu Puluhan Warga Serang Modus Loker di PT Mayora Jayanti - Serangtimur.co.id",
+        "url": "https://www.serangtimur.co.id/2026/10/polisi-diminta-gercep-tangkap-uus.html",
+        "source": "Serangtimur.co.id",
+        "published_at": "2026-10-21T22:44:00+00:00",
+        "collected_at": "2026-10-21T23:23:34.009083+00:00",
+        "region": "BELUM TERPETAKAN",
+        "area_label": "BELUM TERPETAKAN",
+        "is_jatim": null,
+        "polres": null,
+        "category": "NEGATIF - BELUM TERIDENTIFIKASI",
+        "scope": "negative",
+        "scope_label": "Negatif",
+        "priority": "low",
+        "summary": "Polisi Diminta Gercep Tangkap Uus, Diduga Tipu Puluhan Warga Serang Modus Loker di PT Mayora Jayanti Serangtimur.co.id",
+        "processing_status": "processed",
+        "classifier_version": "contextual-v1.1",
+        "classified_at": "2026-10-21T23:25:55.508900+00:00",
+        "case_id": "CASE-002875",
+        "discovery_families": [],
+        "discovery_tags": [],
+        "discovery_hits": [],
+        "discovery_version": "discovery-v6",
+        "google_news_url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQUEtERXFoWk1aZ3JmeUExZlM4QS1wRnkxYktTSGpNaEllM0xfOWxNR2JGYkp5NGNNUURCYVJqVWhqZjhvZUJKV2tEUWdGVnh5VXluakhKN0dneTMtV1hMdGhYU3htRllFZEFDY2l1Y2xud1lhd0lxUWdBb2xhV2pFWVRB?oc=5",
+        "original_url": "https://www.serangtimur.co.id/2026/10/polisi-diminta-gercep-tangkap-uus.html",
+        "canonical_url": "https://serangtimur.co.id/2026/10/polisi-diminta-gercep-tangkap-uus.html",
+        "duplicate_article": false,
+        "locality": "",
+        "polsek": null,
+        "location_confidence": 0,
+        "location_evidence": [],
+        "location_status": "BELUM_TERPETAKAN",
+        "location_source": "title_description",
+        "sentiment": "negative",
+        "sentiment_label": "Negatif",
+        "issue_type": "UMUM",
+        "issue_subtype": "Belum Teridentifikasi",
+        "issue_evidence": [],
+        "polri_relation": "SUBJEK_PERMASALAHAN",
+        "polri_relation_evidence": [
+          "Polri/personel menjadi subjek masalah"
+        ],
+        "handling_status": "BELUM_ADA_INFORMASI",
+        "handling_evidence": [],
+        "assertion_status": "ALLEGATION",
+        "assertion_confidence": 73,
+        "assertion_evidence": [
+          "terdapat frasa dugaan/tuduhan"
+        ],
+        "attention_score": 31,
+        "attention_label": "Rendah",
+        "attention_components": {
+          "severity": 2,
+          "polri_relation": 16,
+          "authority": 0,
+          "public_impact": 12,
+          "handling": 0,
+          "evidence": 1,
+          "context_risk": 0,
+          "routine_enforcement_cap": null
+        },
+        "attention_evidence": {
+          "severity": [],
+          "authority": [],
+          "public_impact": [
+            "dampak kepada masyarakat"
+          ],
+          "evidence": [
+            "satu sumber / informasi awal"
+          ],
+          "role": [
+            "Polri/personel menjadi subjek permasalahan"
+          ],
+          "issue": [],
+          "handling": [],
+          "context": [],
+          "positive": []
+        },
+        "attention_reasons": [
+          "sifat berita: negatif",
+          "polisi + dugaan",
+          "status klaim: dugaan/tuduhan"
+        ],
+        "contextual_flags": {
+          "explicit_polri_subject": true,
+          "explicit_polri_enforcer": true,
+          "polri_victim": false,
+          "service_negative": false,
+          "misconduct_signal": false,
+          "direct_positive_enforcement": false
+        },
+        "analysis_engine_version": "contextual-v1.1",
+        "location_engine_version": "location-v2-title-snippet-source",
+        "case_engine_version": "case-v6.5.4",
+        "case_processed_at": "2026-10-21T23:30:10.954814+00:00"
+      },
+      {
+        "id": "816b8608ca95d601851f731ea6bb6d0b8458508c",
+        "title": "Pelaku Tembak Polisi di Pondok Cabe Serahkan Diri ke Polda - Tempo.co",
+        "url": "https://www.tempo.co/hukum/pelaku-tembak-polisi-di-pondok-cabe-2301443",
+        "source": "Tempo.co",
+        "published_at": "2026-10-21T22:25:00+00:00",
+        "collected_at": "2026-10-21T23:23:34.009083+00:00",
+        "region": "BELUM TERPETAKAN",
+        "area_label": "BELUM TERPETAKAN",
+        "is_jatim": null,
+        "polres": null,
+        "category": "NETRAL / LAINNYA",
+        "scope": "neutral",
+        "scope_label": "Netral",
+        "priority": "low",
+        "summary": "Pelaku Tembak Polisi di Pondok Cabe Serahkan Diri ke Polda Tempo.co",
+        "processing_status": "processed",
+        "classifier_version": "contextual-v1.1",
+        "classified_at": "2026-10-21T23:25:55.556186+00:00",
+        "case_id": null,
+        "discovery_families": [],
+        "discovery_tags": [],
+        "discovery_hits": [],
+        "discovery_version": "discovery-v6",
+        "google_news_url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9nZTk3MUthWkZMVDh0bkJ3R2JKZjNKelBoNUVmNkRqNFk4Y2RHd29hOWhiNXo1b3d0TGlDUEowdHBwbmxZRHZ0N09MMFNEdGhsRVBlTDJnLTkzX2NwV1dzX253Qjg3T0dTMkxyUTlBbV9yUkh6cUUtWFdR?oc=5",
+        "original_url": "https://www.tempo.co/hukum/pelaku-tembak-polisi-di-pondok-cabe-2301443",
+        "canonical_url": "https://tempo.co/hukum/pelaku-tembak-polisi-di-pondok-cabe-2301443",
+        "duplicate_article": false,
+        "locality": "",
+        "polsek": null,
+        "location_confidence": 0,
+        "location_evidence": [],
+        "location_status": "BELUM_TERPETAKAN",
+        "location_source": "title_description",
+        "sentiment": "neutral",
+        "sentiment_label": "Netral",
+        "issue_type": "UMUM",
+        "issue_subtype": "Belum Teridentifikasi",
+        "issue_evidence": [],
+        "polri_relation": "INFORMASI_UMUM",
+        "polri_relation_evidence": [
+          "Hubungan Polri belum spesifik"
+        ],
+        "handling_status": "BELUM_ADA_INFORMASI",
+        "handling_evidence": [],
+        "assertion_status": "FACTUAL",
+        "assertion_confidence": 75,
+        "assertion_evidence": [],
+        "attention_score": 7,
+        "attention_label": "Rendah",
+        "attention_components": {
+          "severity": 2,
+          "polri_relation": 0,
+          "authority": 0,
+          "public_impact": 4,
+          "handling": 0,
+          "evidence": 1,
+          "context_risk": 0,
+          "routine_enforcement_cap": null
+        },
+        "attention_evidence": {
+          "severity": [],
+          "authority": [],
+          "public_impact": [],
+          "evidence": [
+            "satu sumber / informasi awal"
+          ],
+          "role": [],
+          "issue": [],
+          "handling": [],
+          "context": [],
+          "positive": []
+        },
+        "attention_reasons": [
+          "sifat berita: netral",
+          "Hubungan Polri belum spesifik"
+        ],
+        "contextual_flags": {
+          "explicit_polri_subject": false,
+          "explicit_polri_enforcer": false,
+          "polri_victim": false,
+          "service_negative": false,
+          "misconduct_signal": false,
+          "direct_positive_enforcement": false
+        },
+        "analysis_engine_version": "contextual-v1.1",
+        "location_engine_version": "location-v2-title-snippet-source",
+        "case_engine_version": "case-v6.5.4",
+        "case_processed_at": "2026-10-21T23:29:38.485861+00:00"
+      },
+      {
+        "id": "23ff934010d4be253ac13c21614bec0b5e3141ef",
+        "title": "Dokter di Bandung Diduga Cabuli Anak Kandung, Polisi Turun Tangan - Pikiran Rakyat Koran",
+        "url": "https://koran.pikiran-rakyat.com/news/pr-30310516205/dokter-di-bandung-diduga-cabuli-anak-kandung-polisi-turun-tangan",
+        "source": "Pikiran Rakyat Koran",
+        "published_at": "2026-10-21T22:00:00+00:00",
+        "collected_at": "2026-10-21T23:23:34.009083+00:00",
+        "region": "BELUM TERPETAKAN",
+        "area_label": "BELUM TERPETAKAN",
+        "is_jatim": null,
+        "polres": null,
+        "category": "NEGATIF - BELUM TERIDENTIFIKASI",
+        "scope": "negative",
+        "scope_label": "Negatif",
+        "priority": "low",
+        "summary": "Dokter di Bandung Diduga Cabuli Anak Kandung, Polisi Turun Tangan Pikiran Rakyat Koran",
+        "processing_status": "processed",
+        "classifier_version": "contextual-v1.1",
+        "classified_at": "2026-10-21T23:25:55.602599+00:00",
+        "case_id": "CASE-002876",
+        "discovery_families": [],
+        "discovery_tags": [],
+        "discovery_hits": [],
+        "discovery_version": "discovery-v6",
+        "google_news_url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPWEw0RjMyaEZ4WFBwOWJjaUo3Sktna2szX2NRb0N0Nk1WVXBBN1IyUVE0UEJhSWN4dmhqcER2anVDbXFpdi1BMUxkVVpTQnhlM3VwczA4R0p2TzUtbTBITHpzQUVuM0NWZ2JtZkh0cDF4cDY4Ti1LX1VKTkhTZFp5Nkx4REx0TDVMcTFyZWJfRWtBVURmNjdlM2FYZWc1WXBNbVpWekc0bEZsakVRLUloOTNXcmpYcEto?oc=5",
+        "original_url": "https://koran.pikiran-rakyat.com/news/pr-30310516205/dokter-di-bandung-diduga-cabuli-anak-kandung-polisi-turun-tangan",
+        "canonical_url": "https://koran.pikiran-rakyat.com/news/pr-30310516205/dokter-di-bandung-diduga-cabuli-anak-kandung-polisi-turun-tangan",
+        "duplicate_article": false,
+        "locality": "",
+        "polsek": null,
+        "location_confidence": 0,
+        "location_evidence": [],
+        "location_status": "BELUM_TERPETAKAN",
+        "location_source": "title_description",
+        "sentiment": "negative",
+        "sentiment_label": "Negatif",
+        "issue_type": "UMUM",
+        "issue_subtype": "Belum Teridentifikasi",
+        "issue_evidence": [],
+        "polri_relation": "SUBJEK_PERMASALAHAN",
+        "polri_relation_evidence": [
+          "Polri/personel menjadi subjek masalah"
+        ],
+        "handling_status": "BELUM_ADA_INFORMASI",
+        "handling_evidence": [],
+        "assertion_status": "ALLEGATION",
+        "assertion_confidence": 73,
+        "assertion_evidence": [
+          "terdapat frasa dugaan/tuduhan"
+        ],
+        "attention_score": 37,
+        "attention_label": "Rendah",
+        "attention_components": {
+          "severity": 2,
+          "polri_relation": 16,
+          "authority": 0,
+          "public_impact": 18,
+          "handling": 0,
+          "evidence": 1,
+          "context_risk": 0,
+          "routine_enforcement_cap": null
+        },
+        "attention_evidence": {
+          "severity": [],
+          "authority": [],
+          "public_impact": [
+            "kelompok/korban publik rentan"
+          ],
+          "evidence": [
+            "satu sumber / informasi awal"
+          ],
+          "role": [
+            "Polri/personel menjadi subjek permasalahan"
+          ],
+          "issue": [],
+          "handling": [],
+          "context": [],
+          "positive": []
+        },
+        "attention_reasons": [
+          "sifat berita: negatif",
+          "polisi + dugaan",
+          "status klaim: dugaan/tuduhan"
+        ],
+        "contextual_flags": {
+          "explicit_polri_subject": true,
+          "explicit_polri_enforcer": false,
+          "polri_victim": false,
+          "service_negative": false,
+          "misconduct_signal": false,
+          "direct_positive_enforcement": false
+        },
+        "analysis_engine_version": "contextual-v1.1",
+        "location_engine_version": "location-v2-title-snippet-source",
+        "case_engine_version": "case-v6.5.4",
+        "case_processed_at": "2026-10-21T23:30:10.954817+00:00"
+      },
+      {
+        "id": "1d2cc18071b574f59a0139f86210d2ba76f736ab",
+        "title": "Kasus Kriminal Majalengka, Polisi Ungkap 18 Perkara dan Amankan 32 Tersangka - Pikiran Rakyat Koran",
+        "url": "https://koran.pikiran-rakyat.com/news/pr-30310516258/kasus-kriminal-majalengka-polisi-ungkap-18-perkara-dan-amankan-32-tersangka",
+        "source": "Pikiran Rakyat Koran",
+        "published_at": "2026-10-21T22:00:00+00:00",
+        "collected_at": "2026-10-21T23:23:34.009083+00:00",
+        "region": "BELUM TERPETAKAN",
+        "area_label": "BELUM TERPETAKAN",
+        "is_jatim": null,
+        "polres": null,
+        "category": "UNGKAP KASUS / PENINDAKAN",
+        "scope": "case",
+        "scope_label": "Ungkap Kasus",
+        "priority": "low",
+        "summary": "Kasus Kriminal Majalengka, Polisi Ungkap 18 Perkara dan Amankan 32 Tersangka Pikiran Rakyat Koran",
+        "processing_status": "processed",
+        "classifier_version": "contextual-v1.1",
+        "classified_at": "2026-10-21T23:25:55.650954+00:00",
+        "case_id": "CASE-002877",
+        "discovery_families": [],
+        "discovery_tags": [],
+        "discovery_hits": [],
+        "discovery_version": "discovery-v6",
+        "google_news_url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQX1B6aGRWMVpOUEN6TUFhekdNZV9DdmlhMnJtOVhsblhXOTllZU9NYTUxQkN4M1dVUTF6bDBGUUI0b0tDbm5jaEl0Q3pXS2p0NWJ4aS1SSWJFSFRkMUZlOXVXY1h2cmpQaVd5YzJnUnBTUVdIY2pCOG5uTHF4N2xLc2doQUIzSE1EdFhpYl9XY19FWmc1YzRyZXh0ejh3VXFMbkgxREk3M1hmeGZkMmk3MXFHbVl0cW53Z1QwYlY0TlpSLWRTWVRn?oc=5",
+        "original_url": "https://koran.pikiran-rakyat.com/news/pr-30310516258/kasus-kriminal-majalengka-polisi-ungkap-18-perkara-dan-amankan-32-tersangka",
+        "canonical_url": "https://koran.pikiran-rakyat.com/news/pr-30310516258/kasus-kriminal-majalengka-polisi-ungkap-18-perkara-dan-amankan-32-tersangka",
+        "duplicate_article": false,
+        "locality": "",
+        "polsek": null,
+        "location_confidence": 0,
+        "location_evidence": [],
+        "location_status": "BELUM_TERPETAKAN",
+        "location_source": "title_description",
+        "sentiment": "positive",
+        "sentiment_label": "Positif",
+        "issue_type": "UMUM",
+        "issue_subtype": "Belum Teridentifikasi",
+        "issue_evidence": [],
+        "polri_relation": "PENEGAKAN_HUKUM",
+        "polri_relation_evidence": [
+          "Polri berperan sebagai pihak penindak"
+        ],
+        "handling_status": "SUDAH_DITINDAK",
+        "handling_evidence": [
+          "tersangka"
+        ],
+        "assertion_status": "FACTUAL",
+        "assertion_confidence": 75,
+        "assertion_evidence": [],
+        "attention_score": 11,
+        "attention_label": "Rendah",
+        "attention_components": {
+          "severity": 2,
+          "polri_relation": 2,
+          "authority": 0,
+          "public_impact": 4,
+          "handling": 2,
+          "evidence": 1,
+          "context_risk": 0,
+          "routine_enforcement_cap": 35
+        },
+        "attention_evidence": {
+          "severity": [],
+          "authority": [],
+          "public_impact": [],
+          "evidence": [
+            "satu sumber / informasi awal"
+          ],
+          "role": [
+            "Polri sebagai pihak penindak"
+          ],
+          "issue": [],
+          "handling": [
+            "tersangka"
+          ],
+          "context": [],
+          "positive": []
+        },
+        "attention_reasons": [
+          "Polri berperan sebagai pihak penindak",
+          "tidak ditemukan indikator utama misconduct oleh personel"
+        ],
+        "contextual_flags": {
+          "explicit_polri_subject": false,
+          "explicit_polri_enforcer": true,
+          "polri_victim": false,
+          "service_negative": false,
+          "misconduct_signal": false,
+          "direct_positive_enforcement": false
+        },
+        "analysis_engine_version": "contextual-v1.1",
+        "location_engine_version": "location-v2-title-snippet-source",
+        "case_engine_version": "case-v6.5.4",
+        "case_processed_at": "2026-10-21T23:30:10.954820+00:00"
+      },
+      {
+        "id": "1d952916f7265d06d3d887d4ac2f439c066c3e16",
+        "title": "Kasus Polisi Tembak Polisi, Momentum Kapolri Suyudi Audit Menyeluruh - Inilah.com",
+        "url": "https://www.inilah.com/pengamat-soroti-pengawasan-senjata-api-polri-usai-polisi-tembak-polisi-di-pondok-cabe",
+        "source": "Inilah.com",
+        "published_at": "2026-10-21T20:18:00+00:00",
+        "collected_at": "2026-10-21T23:23:34.009083+00:00",
+        "region": "BELUM TERPETAKAN",
+        "area_label": "BELUM TERPETAKAN",
+        "is_jatim": null,
+        "polres": null,
+        "category": "NETRAL / LAINNYA",
+        "scope": "neutral",
+        "scope_label": "Netral",
+        "priority": "low",
+        "summary": "Kasus Polisi Tembak Polisi, Momentum Kapolri Suyudi Audit Menyeluruh Inilah.com",
+        "processing_status": "processed",
+        "classifier_version": "contextual-v1.1",
+        "classified_at": "2026-10-21T23:25:55.698760+00:00",
+        "case_id": null,
+        "discovery_families": [],
+        "discovery_tags": [],
+        "discovery_hits": [],
+        "discovery_version": "discovery-v6",
+        "google_news_url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQVG5PUVlpcVRaVXc2T1kxLWJfRXFqM3pNUzF3T1N6VzExQ3FPMVhuV0otcVdPd3g4SHRmNGlkTjZIUkJyS2U5WlF5N2hpa3V0Z2xadTVqcmJKOWEweWVRaEJrd3I2cmJEN1dIc0E0Z1paR20xWXhJLUFFLXZfYU9UczhyZXk4RDRGMnFxS0FMdmtSSTJYRy1FbUk3bVNNZkVKSU1wTlFuVE95bW03?oc=5",
+        "original_url": "https://www.inilah.com/pengamat-soroti-pengawasan-senjata-api-polri-usai-polisi-tembak-polisi-di-pondok-cabe",
+        "canonical_url": "https://inilah.com/pengamat-soroti-pengawasan-senjata-api-polri-usai-polisi-tembak-polisi-di-pondok-cabe",
+        "duplicate_article": false,
+        "locality": "",
+        "polsek": null,
+        "location_confidence": 0,
+        "location_evidence": [],
+        "location_status": "BELUM_TERPETAKAN",
+        "location_source": "title_description",
+        "sentiment": "neutral",
+        "sentiment_label": "Netral",
+        "issue_type": "UMUM",
+        "issue_subtype": "Belum Teridentifikasi",
+        "issue_evidence": [],
+        "polri_relation": "INFORMASI_UMUM",
+        "polri_relation_evidence": [
+          "Hubungan Polri belum spesifik"
+        ],
+        "handling_status": "BELUM_ADA_INFORMASI",
+        "handling_evidence": [],
+        "assertion_status": "FACTUAL",
+        "assertion_confidence": 75,
+        "assertion_evidence": [],
+        "attention_score": 7,
+        "attention_label": "Rendah",
+        "attention_components": {
+          "severity": 2,
+          "polri_relation": 0,
+          "authority": 0,
+          "public_impact": 4,
+          "handling": 0,
+          "evidence": 1,
+          "context_risk": 0,
+          "routine_enforcement_cap": null
+        },
+        "attention_evidence": {
+          "severity": [],
+          "authority": [],
+          "public_impact": [],
+          "evidence": [
+            "satu sumber / informasi awal"
+          ],
+          "role": [],
+          "issue": [],
+          "handling": [],
+          "context": [],
+          "positive": []
+        },
+        "attention_reasons": [
+          "sifat berita: netral",
+          "Hubungan Polri belum spesifik"
+        ],
+        "contextual_flags": {
+          "explicit_polri_subject": false,
+          "explicit_polri_enforcer": false,
+          "polri_victim": false,
+          "service_negative": false,
+          "misconduct_signal": false,
+          "direct_positive_enforcement": false
+        },
+        "analysis_engine_version": "contextual-v1.1",
+        "location_engine_version": "location-v2-title-snippet-source",
+        "case_engine_version": "case-v6.5.4",
+        "case_processed_at": "2026-10-21T23:29:38.493187+00:00"
+      },
+      {
         "id": "0da69aee26950ea8f7ff475b9b0bcaa984db5cee",
         "title": "Bareskrim Polri Ungkap Dugaan Beras Fortifikasi Tak Sesuai Label, Sita 1.194 Kemasan Senilai Rp155 Juta - Polres Kediri Kota",
         "url": "https://polreskedirikota.com/bareskrim-polri-ungkap-dugaan-beras-fortifikasi-tak-sesuai-label-sita-1-194-kemasan-senilai-rp155-juta/",
@@ -60,7 +817,7 @@
         "summary": "Bareskrim Polri Ungkap Dugaan Beras Fortifikasi Tak Sesuai Label, Sita 1.194 Kemasan Senilai Rp155 Juta Polres Kediri Kota",
         "processing_status": "processed",
         "classifier_version": "contextual-v1.1",
-        "classified_at": "2026-10-21T20:15:58.375738+00:00",
+        "classified_at": "2026-10-21T23:25:55.745965+00:00",
         "case_id": "CASE-002872",
         "discovery_families": [],
         "discovery_tags": [],
@@ -136,7 +893,7 @@
         "analysis_engine_version": "contextual-v1.1",
         "location_engine_version": "location-v2-title-snippet-source",
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-10-21T20:20:16.097823+00:00"
+        "case_processed_at": "2026-10-21T23:30:10.954823+00:00"
       },
       {
         "id": "ba17ffcd4b790efd011db621a03c06f693cbce3a",
@@ -156,7 +913,7 @@
         "summary": "Perkuat Sinergi Penegakan Hukum, Kapolda Jatim Gelar Courtesy Call ke Kajati Polres Kediri Kota",
         "processing_status": "processed",
         "classifier_version": "contextual-v1.1",
-        "classified_at": "2026-10-21T20:15:58.386980+00:00",
+        "classified_at": "2026-10-21T23:25:55.757099+00:00",
         "case_id": null,
         "discovery_families": [],
         "discovery_tags": [],
@@ -230,7 +987,7 @@
         "analysis_engine_version": "contextual-v1.1",
         "location_engine_version": "location-v2-title-snippet-source",
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-10-21T20:19:41.455034+00:00"
+        "case_processed_at": "2026-10-21T23:29:38.500489+00:00"
       },
       {
         "id": "4c3ae6813270930c06472545936934c13123eb2a",
@@ -250,7 +1007,7 @@
         "summary": "Polda Jatim Luncurkan Polisi Jogo Sekolah, Perkuat Perlindungan Pelajar Menuju Indonesia Emas 2045 Polres Kediri Kota",
         "processing_status": "processed",
         "classifier_version": "contextual-v1.1",
-        "classified_at": "2026-10-21T20:15:58.395015+00:00",
+        "classified_at": "2026-10-21T23:25:55.765157+00:00",
         "case_id": null,
         "discovery_families": [],
         "discovery_tags": [],
@@ -323,7 +1080,7 @@
         "analysis_engine_version": "contextual-v1.1",
         "location_engine_version": "location-v2-title-snippet-source",
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-10-21T20:19:41.462929+00:00"
+        "case_processed_at": "2026-10-21T23:29:38.507839+00:00"
       },
       {
         "id": "31188842c170302585a8fc277d7db2bf71b4f549",
@@ -343,7 +1100,7 @@
         "summary": "Polisi Tembak Polisi, Bharada Andika Rahmadani Dijerat Pasal Pembunuhan Berencana JPNN.com",
         "processing_status": "processed",
         "classifier_version": "contextual-v1.1",
-        "classified_at": "2026-10-21T20:15:58.440155+00:00",
+        "classified_at": "2026-10-21T23:25:55.809913+00:00",
         "case_id": null,
         "discovery_families": [],
         "discovery_tags": [],
@@ -418,7 +1175,7 @@
         "analysis_engine_version": "contextual-v1.1",
         "location_engine_version": "location-v2-title-snippet-source",
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-10-21T20:19:41.470849+00:00"
+        "case_processed_at": "2026-10-21T23:29:38.515129+00:00"
       },
       {
         "id": "3c823bcbdd464b5d6ad007d8af3a67972ad5681e",
@@ -438,7 +1195,7 @@
         "summary": "Polda Jatim Luncurkan Polisi Jogo Sekolah, Perkuat Perlindungan Pelajar Menuju Indonesia Emas 2045 https://tribratanews.polrespasuruankota.com/",
         "processing_status": "processed",
         "classifier_version": "contextual-v1.1",
-        "classified_at": "2026-10-21T20:15:58.452309+00:00",
+        "classified_at": "2026-10-21T23:25:55.822108+00:00",
         "case_id": null,
         "discovery_families": [],
         "discovery_tags": [],
@@ -511,7 +1268,7 @@
         "analysis_engine_version": "contextual-v1.1",
         "location_engine_version": "location-v2-title-snippet-source",
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-10-21T20:19:41.478792+00:00"
+        "case_processed_at": "2026-10-21T23:29:38.523246+00:00"
       },
       {
         "id": "12aa10c83b3c9e68acf86753f5331a9e1096fabe",
@@ -531,7 +1288,7 @@
         "summary": "Satresnarkoba Polres Pelabuhan Tanjung Perak Ungkap Peredaran Narkoba di Surabaya, 5,65 Gram Sabu Disita TargetNews.ID",
         "processing_status": "processed",
         "classifier_version": "contextual-v1.1",
-        "classified_at": "2026-10-21T20:15:58.497196+00:00",
+        "classified_at": "2026-10-21T23:25:55.866045+00:00",
         "case_id": "CASE-001713",
         "discovery_families": [],
         "discovery_tags": [],
@@ -612,7 +1369,7 @@
         "analysis_engine_version": "contextual-v1.1",
         "location_engine_version": "location-v2-title-snippet-source",
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-10-21T20:20:16.097831+00:00"
+        "case_processed_at": "2026-10-21T23:30:10.954828+00:00"
       },
       {
         "id": "278091195363032eeca6b7d01c96e831b357c0ed",
@@ -632,7 +1389,7 @@
         "summary": "Oknum Polisi Intimidasi Mahasiwa GMNI Terancam Dipecat Langgar Arahan Kapolri \"Polri Bersama Rakyat\" Harian Pelita -",
         "processing_status": "processed",
         "classifier_version": "contextual-v1.1",
-        "classified_at": "2026-10-21T20:15:58.546179+00:00",
+        "classified_at": "2026-10-21T23:25:55.914833+00:00",
         "case_id": null,
         "discovery_families": [
           "abuse_of_power",
@@ -721,7 +1478,7 @@
         "analysis_engine_version": "contextual-v1.1",
         "location_engine_version": "location-v2-title-snippet-source",
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-10-21T20:19:41.489334+00:00"
+        "case_processed_at": "2026-10-21T23:29:38.532605+00:00"
       },
       {
         "id": "59f793c0af0f031ffbd257a153f4f1838709f4cc",
@@ -741,7 +1498,7 @@
         "summary": "Polres Batu Bara Ungkap Kasus Narkoba dalam Operasi Sarang Narkoba, Dua Pria Diamankan dan Sita 111 Gram Sabu Website Resmi Polri",
         "processing_status": "processed",
         "classifier_version": "contextual-v1.1",
-        "classified_at": "2026-10-21T20:15:58.559602+00:00",
+        "classified_at": "2026-10-21T23:25:55.928088+00:00",
         "case_id": "CASE-001440",
         "discovery_families": [],
         "discovery_tags": [],
@@ -824,7 +1581,7 @@
         "analysis_engine_version": "contextual-v1.1",
         "location_engine_version": "location-v2-title-snippet-source",
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-10-21T20:20:16.097834+00:00"
+        "case_processed_at": "2026-10-21T23:30:10.954831+00:00"
       },
       {
         "id": "9f2d7f4bccf379623a2634d264cdcb4550a605d5",
@@ -844,7 +1601,7 @@
         "summary": "Positif Metabolit Sabu, Dua Kades Dibekuk Satreskoba Polresta Sumenep SIGAP88",
         "processing_status": "processed",
         "classifier_version": "contextual-v1.1",
-        "classified_at": "2026-10-21T20:15:58.602680+00:00",
+        "classified_at": "2026-10-21T23:25:55.970135+00:00",
         "case_id": null,
         "discovery_families": [],
         "discovery_tags": [],
@@ -920,7 +1677,7 @@
         "analysis_engine_version": "contextual-v1.1",
         "location_engine_version": "location-v2-title-snippet-source",
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-10-21T20:19:41.496767+00:00"
+        "case_processed_at": "2026-10-21T23:29:38.540143+00:00"
       },
       {
         "id": "563374a1ae650bf946ffe3b5995e61f2566da62a",
@@ -940,7 +1697,7 @@
         "summary": "Waspadai Modus Baru Ini, Polres Batu Ringkus Petani yang Membeli Ganja 5 Kilogram dari Medsos Koran Jakarta ®",
         "processing_status": "processed",
         "classifier_version": "contextual-v1.1",
-        "classified_at": "2026-10-21T20:15:58.654687+00:00",
+        "classified_at": "2026-10-21T23:25:56.020619+00:00",
         "case_id": null,
         "discovery_families": [],
         "discovery_tags": [],
@@ -1016,7 +1773,7 @@
         "analysis_engine_version": "contextual-v1.1",
         "location_engine_version": "location-v2-title-snippet-source",
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-10-21T20:19:41.504155+00:00"
+        "case_processed_at": "2026-10-21T23:29:38.547778+00:00"
       },
       {
         "id": "ed19620f857fc83b090663db132d9c026422be22",
@@ -1036,7 +1793,7 @@
         "summary": "Patroli Siang Hari Polsek Rejoso, Tingkatkan Stabilitas Kamtibmas Kewilayahan https://tribratanews.polrespasuruankota.com/",
         "processing_status": "processed",
         "classifier_version": "contextual-v1.1",
-        "classified_at": "2026-10-21T20:15:58.702402+00:00",
+        "classified_at": "2026-10-21T23:25:56.067808+00:00",
         "case_id": null,
         "discovery_families": [],
         "discovery_tags": [],
@@ -1108,7 +1865,7 @@
         "analysis_engine_version": "contextual-v1.1",
         "location_engine_version": "location-v2-title-snippet-source",
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-10-21T20:19:41.512640+00:00"
+        "case_processed_at": "2026-10-21T23:29:38.555859+00:00"
       },
       {
         "id": "e2c85415ba1f14b5c4cfe13af0490b96baa3fa74",
@@ -1128,7 +1885,7 @@
         "summary": "Polres Batu Ringkus Petani Beli Ganja 5 Kg via Medsos, Modus Kirim Paket Ekspedisi republika.co.id",
         "processing_status": "processed",
         "classifier_version": "contextual-v1.1",
-        "classified_at": "2026-10-21T20:15:58.751107+00:00",
+        "classified_at": "2026-10-21T23:25:56.114353+00:00",
         "case_id": null,
         "discovery_families": [],
         "discovery_tags": [],
@@ -1204,7 +1961,7 @@
         "analysis_engine_version": "contextual-v1.1",
         "location_engine_version": "location-v2-title-snippet-source",
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-10-21T20:19:41.520480+00:00"
+        "case_processed_at": "2026-10-21T23:29:38.563201+00:00"
       },
       {
         "id": "50b35e8461b9841d200f25f8a7a09efcf9057e4b",
@@ -1224,7 +1981,7 @@
         "summary": "Patroli Dialogis Polsek Grati, Teruskan Semangat Polisi Bersama Masyarakat https://tribratanews.polrespasuruankota.com/",
         "processing_status": "processed",
         "classifier_version": "contextual-v1.1",
-        "classified_at": "2026-10-21T20:15:58.800220+00:00",
+        "classified_at": "2026-10-21T23:25:56.162987+00:00",
         "case_id": null,
         "discovery_families": [],
         "discovery_tags": [],
@@ -1299,7 +2056,7 @@
         "analysis_engine_version": "contextual-v1.1",
         "location_engine_version": "location-v2-title-snippet-source",
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-10-21T20:19:41.528679+00:00"
+        "case_processed_at": "2026-10-21T23:29:38.571003+00:00"
       },
       {
         "id": "5d0cabaf19f59d5c62a0fb00921382eca727c3c5",
@@ -1319,7 +2076,7 @@
         "summary": "Dukung Ketahanan Pangan, Ps. Kanit Binmas Polsek Nguling Sambangi Petani di Desa Sumberanyar https://tribratanews.polrespasuruankota.com/",
         "processing_status": "processed",
         "classifier_version": "contextual-v1.1",
-        "classified_at": "2026-10-21T20:15:58.850439+00:00",
+        "classified_at": "2026-10-21T23:25:56.213163+00:00",
         "case_id": null,
         "discovery_families": [],
         "discovery_tags": [],
@@ -1391,7 +2148,7 @@
         "analysis_engine_version": "contextual-v1.1",
         "location_engine_version": "location-v2-title-snippet-source",
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-10-21T20:19:41.537014+00:00"
+        "case_processed_at": "2026-10-21T23:29:38.578489+00:00"
       },
       {
         "id": "cdc2581417bec673763d6f7d30e5664148411ba5",
@@ -1411,7 +2168,7 @@
         "summary": "Cegah Bullying Sejak Dini, Polisi Bekali Pelajar Cara Melapor RRI.co.id",
         "processing_status": "processed",
         "classifier_version": "contextual-v1.1",
-        "classified_at": "2026-10-21T20:15:58.897437+00:00",
+        "classified_at": "2026-10-21T23:25:56.261254+00:00",
         "case_id": null,
         "discovery_families": [],
         "discovery_tags": [],
@@ -1481,7 +2238,7 @@
         "analysis_engine_version": "contextual-v1.1",
         "location_engine_version": "location-v2-title-snippet-source",
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-10-21T20:19:41.545260+00:00"
+        "case_processed_at": "2026-10-21T23:29:38.586950+00:00"
       },
       {
         "id": "2fd087f90f88d800bcbbd949dcf9d3d5b94b9977",
@@ -1501,7 +2258,7 @@
         "summary": "Dugaan Pelecehan Sesama Jenis di Instansi Kukar Dilaporkan ke Polisi, TRC PPA Minta Pelaku Diberhentikan Seputar Fakta",
         "processing_status": "processed",
         "classifier_version": "contextual-v1.1",
-        "classified_at": "2026-10-21T20:15:58.946621+00:00",
+        "classified_at": "2026-10-21T23:25:56.311098+00:00",
         "case_id": null,
         "discovery_families": [
           "general_police_misconduct"
@@ -1586,7 +2343,7 @@
         "analysis_engine_version": "contextual-v1.1",
         "location_engine_version": "location-v2-title-snippet-source",
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-10-21T20:19:41.553603+00:00"
+        "case_processed_at": "2026-10-21T23:29:38.595918+00:00"
       },
       {
         "id": "d68b01636c8a1dda628809a0ce015402e0fdac1c",
@@ -1606,7 +2363,7 @@
         "summary": "Polisi Bunuh Polisi Melonjak Dua Kali Lipat pada 2026 Rmol.id",
         "processing_status": "processed",
         "classifier_version": "contextual-v1.1",
-        "classified_at": "2026-10-21T20:15:58.993519+00:00",
+        "classified_at": "2026-10-21T23:25:56.357682+00:00",
         "case_id": null,
         "discovery_families": [],
         "discovery_tags": [],
@@ -1676,7 +2433,7 @@
         "analysis_engine_version": "contextual-v1.1",
         "location_engine_version": "location-v2-title-snippet-source",
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-10-21T20:19:41.561714+00:00"
+        "case_processed_at": "2026-10-21T23:29:38.604268+00:00"
       },
       {
         "id": "a36a5265bd11a447b495ef4dbe9dab09bcb2f053",
@@ -1696,7 +2453,7 @@
         "summary": "Aksi ALAT BANTU Berlangsung Kondusif, Polresta Malang Kota Beri Apresiasi MalangVoice",
         "processing_status": "processed",
         "classifier_version": "contextual-v1.1",
-        "classified_at": "2026-10-21T20:15:59.039989+00:00",
+        "classified_at": "2026-10-21T23:25:56.403589+00:00",
         "case_id": null,
         "discovery_families": [],
         "discovery_tags": [],
@@ -1769,7 +2526,7 @@
         "analysis_engine_version": "contextual-v1.1",
         "location_engine_version": "location-v2-title-snippet-source",
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-10-21T20:19:41.569201+00:00"
+        "case_processed_at": "2026-10-21T23:29:38.611584+00:00"
       },
       {
         "id": "8319b5846f17f39c64e5326aeba47cb8e0abf912",
@@ -1789,7 +2546,7 @@
         "summary": "Pengedar Sabu di Surabaya Dibekuk, 11 Paket Seberat 5,65 Gram Disita Polisi - memorandum.disway.id Memorandum.co.id",
         "processing_status": "processed",
         "classifier_version": "contextual-v1.1",
-        "classified_at": "2026-10-21T20:15:59.090593+00:00",
+        "classified_at": "2026-10-21T23:25:56.454055+00:00",
         "case_id": null,
         "discovery_families": [],
         "discovery_tags": [],
@@ -1864,7 +2621,7 @@
         "analysis_engine_version": "contextual-v1.1",
         "location_engine_version": "location-v2-title-snippet-source",
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-10-21T20:19:41.577542+00:00"
+        "case_processed_at": "2026-10-21T23:29:38.619839+00:00"
       },
       {
         "id": "34ebbd446c885b673a775b704bcc56466dd3c1cf",
@@ -1884,7 +2641,7 @@
         "summary": "Polisi Gerebek Poskamling yang Jadi Sarang Narkoba di Medan MetroTVNews.com",
         "processing_status": "processed",
         "classifier_version": "contextual-v1.1",
-        "classified_at": "2026-10-21T20:15:59.138205+00:00",
+        "classified_at": "2026-10-21T23:25:56.501231+00:00",
         "case_id": null,
         "discovery_families": [],
         "discovery_tags": [],
@@ -1957,7 +2714,7 @@
         "analysis_engine_version": "contextual-v1.1",
         "location_engine_version": "location-v2-title-snippet-source",
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-10-21T20:19:41.586155+00:00"
+        "case_processed_at": "2026-10-21T23:29:38.628398+00:00"
       },
       {
         "id": "b4c88734eb2b56208737d1ba8ab4ee51ad82bc47",
@@ -1977,7 +2734,7 @@
         "summary": "Polres Blitar Cek Dua SPBU, Stok BBM Dipastikan Aman dan Distribusi Lancar News Nusantara Terkini",
         "processing_status": "processed",
         "classifier_version": "contextual-v1.1",
-        "classified_at": "2026-10-21T20:15:59.185313+00:00",
+        "classified_at": "2026-10-21T23:25:56.547785+00:00",
         "case_id": null,
         "discovery_families": [],
         "discovery_tags": [],
@@ -2050,7 +2807,7 @@
         "analysis_engine_version": "contextual-v1.1",
         "location_engine_version": "location-v2-title-snippet-source",
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-10-21T20:19:41.594143+00:00"
+        "case_processed_at": "2026-10-21T23:29:38.636261+00:00"
       },
       {
         "id": "b01a7a7c0eb54ee0b96985cca1104f6144bbccda",
@@ -2070,7 +2827,7 @@
         "summary": "Tiga Terduga Pelaku Penganiayaan Maut di Dumu Diamankan Tim Gabungan Polres Bima Kota Berita11.com",
         "processing_status": "processed",
         "classifier_version": "contextual-v1.1",
-        "classified_at": "2026-10-21T20:15:59.234056+00:00",
+        "classified_at": "2026-10-21T23:25:56.595974+00:00",
         "case_id": "CASE-002873",
         "discovery_families": [],
         "discovery_tags": [],
@@ -2144,7 +2901,7 @@
         "analysis_engine_version": "contextual-v1.1",
         "location_engine_version": "location-v2-title-snippet-source",
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-10-21T20:20:16.097841+00:00"
+        "case_processed_at": "2026-10-21T23:30:10.954838+00:00"
       },
       {
         "id": "4a38f57419cb242d41471a8944e6292d367bf71e",
@@ -2164,7 +2921,7 @@
         "summary": "Sinergi Polres Blitar Kota dan BPBD, Cegah Karhutla Sejak Dini News Nusantara Terkini",
         "processing_status": "processed",
         "classifier_version": "contextual-v1.1",
-        "classified_at": "2026-10-21T20:15:59.280372+00:00",
+        "classified_at": "2026-10-21T23:25:56.641744+00:00",
         "case_id": null,
         "discovery_families": [],
         "discovery_tags": [],
@@ -2237,7 +2994,7 @@
         "analysis_engine_version": "contextual-v1.1",
         "location_engine_version": "location-v2-title-snippet-source",
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-10-21T20:19:41.601665+00:00"
+        "case_processed_at": "2026-10-21T23:29:38.644021+00:00"
       },
       {
         "id": "177ca06eccf11a67520ded16a896d7dbd8c8c82a",
@@ -2257,7 +3014,7 @@
         "summary": "Polres Lamongan Ungkap Peredaran Sabu di Tikung, Dua Tersangka Diamankan Radar Bangsa",
         "processing_status": "processed",
         "classifier_version": "contextual-v1.1",
-        "classified_at": "2026-10-21T20:15:59.325768+00:00",
+        "classified_at": "2026-10-21T23:25:56.686540+00:00",
         "case_id": "CASE-000071",
         "discovery_families": [],
         "discovery_tags": [],
@@ -2340,7 +3097,7 @@
         "analysis_engine_version": "contextual-v1.1",
         "location_engine_version": "location-v2-title-snippet-source",
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-10-21T20:20:16.097844+00:00"
+        "case_processed_at": "2026-10-21T23:30:10.954841+00:00"
       },
       {
         "id": "04f36a50c5a16d79e5f9ec7af94fe390577b4bcf",
@@ -2360,7 +3117,7 @@
         "summary": "Polres Blitar Kota Salurkan 3.000 Liter Air Bersih untuk Warga Terdampak Kekeringan FigurNews.com",
         "processing_status": "processed",
         "classifier_version": "contextual-v1.1",
-        "classified_at": "2026-10-21T20:15:59.372193+00:00",
+        "classified_at": "2026-10-21T23:25:56.732383+00:00",
         "case_id": null,
         "discovery_families": [],
         "discovery_tags": [],
@@ -2435,7 +3192,7 @@
         "analysis_engine_version": "contextual-v1.1",
         "location_engine_version": "location-v2-title-snippet-source",
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-10-21T20:19:41.609154+00:00"
+        "case_processed_at": "2026-10-21T23:29:38.652144+00:00"
       },
       {
         "id": "fb34f8a885eb36cc29b5dcbabeed237cd4c50d35",
@@ -2455,7 +3212,7 @@
         "summary": "Tak Ada Ampun! Polisi, TNI dan Warga Turun Malam-Malam Sapu Bersih Daerah Rawan Narkoba di Inhil BUALBUAL.com",
         "processing_status": "processed",
         "classifier_version": "contextual-v1.1",
-        "classified_at": "2026-10-21T20:15:59.421643+00:00",
+        "classified_at": "2026-10-21T23:25:56.781727+00:00",
         "case_id": null,
         "discovery_families": [],
         "discovery_tags": [],
@@ -2530,11 +3287,106 @@
         "analysis_engine_version": "contextual-v1.1",
         "location_engine_version": "location-v2-title-snippet-source",
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-10-21T20:19:41.617437+00:00"
+        "case_processed_at": "2026-10-21T23:29:38.661448+00:00"
       }
     ],
     "jatim_items": [
       {
+        "id": "af8d6ec551979fee4c2a586e5ce59233d434fa48",
+        "title": "Polisi buru jaringan pengedar narkoba di Desa Campor Pamekasan - ANTARA News",
+        "url": "https://jatim.antaranews.com/berita/1109877/polisi-buru-jaringan-pengedar-narkoba-di-desa-campor-pamekasan",
+        "source": "ANTARA News",
+        "published_at": "2026-10-21T23:05:05+00:00",
+        "collected_at": "2026-10-21T23:23:34.009083+00:00",
+        "region": "Jawa Timur",
+        "area_label": "Pamekasan",
+        "is_jatim": true,
+        "polres": null,
+        "category": "NETRAL / PERISTIWA",
+        "scope": "neutral",
+        "scope_label": "Netral",
+        "priority": "low",
+        "summary": "Polisi buru jaringan pengedar narkoba di Desa Campor Pamekasan ANTARA News",
+        "processing_status": "processed",
+        "classifier_version": "contextual-v1.1",
+        "classified_at": "2026-10-21T23:25:55.367392+00:00",
+        "case_id": null,
+        "discovery_families": [],
+        "discovery_tags": [],
+        "discovery_hits": [],
+        "discovery_version": "discovery-v6",
+        "google_news_url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQRUk3WjFUMnRyMUpaRmNNNF9yZ3YwN1QwZ2cwVmtJOEhaNzZSWUVlNmh4dk9aUXdBZ1NTRVJ2ck9RS2g2dVhCanhES09lMzZrRkp4b29fQ05DY0xrREkxM1N2UVlUUHlOelZzOXlWTjhrWWpNUWxFN3RzbVFNeGNsekxoRE1TR204VW5YNWVsWnQ1ZHdFeWw3NnlMNGlVRHNleXI3WVhzMVFyUdIBrwFBVV95cUxPb1NCQU5LQzhQcmhqUGc1QWdwZXRvRVFQeVpNbVBpR3hXSmx1RnZtRkhubXRzc3QtSmxDSEtjRHVRNUhrXzhlYmdvTG41SWx5VzNvOV81X202LVAzMUVwbWRaWnV2MUNZYmFaRE93cmd1MVBDVzBES1RJWHFnXzhLdU5TVS1zWU1lbE5zejlzMG1YVk1odXllZ3h4TU5JaGNxaUY5ZGRWdS1ZTUtXaEFj?oc=5",
+        "original_url": "https://jatim.antaranews.com/berita/1109877/polisi-buru-jaringan-pengedar-narkoba-di-desa-campor-pamekasan",
+        "canonical_url": "https://jatim.antaranews.com/berita/1109877/polisi-buru-jaringan-pengedar-narkoba-di-desa-campor-pamekasan",
+        "duplicate_article": false,
+        "locality": "Pamekasan",
+        "polsek": null,
+        "location_confidence": 95,
+        "location_evidence": [
+          "Pamekasan"
+        ],
+        "location_status": "JAWA_TIMUR",
+        "location_source": "title_description",
+        "sentiment": "neutral",
+        "sentiment_label": "Netral",
+        "issue_type": "NARKOBA",
+        "issue_subtype": "Narkoba / Narkotika",
+        "issue_evidence": [
+          "narkoba"
+        ],
+        "polri_relation": "INFORMASI_UMUM",
+        "polri_relation_evidence": [
+          "Hubungan Polri belum spesifik"
+        ],
+        "handling_status": "BELUM_ADA_INFORMASI",
+        "handling_evidence": [],
+        "assertion_status": "FACTUAL",
+        "assertion_confidence": 75,
+        "assertion_evidence": [],
+        "attention_score": 16,
+        "attention_label": "Rendah",
+        "attention_components": {
+          "severity": 11,
+          "polri_relation": 0,
+          "authority": 0,
+          "public_impact": 4,
+          "handling": 0,
+          "evidence": 1,
+          "context_risk": 0,
+          "routine_enforcement_cap": null
+        },
+        "attention_evidence": {
+          "severity": [],
+          "authority": [],
+          "public_impact": [],
+          "evidence": [
+            "satu sumber / informasi awal"
+          ],
+          "role": [],
+          "issue": [
+            "narkoba"
+          ],
+          "handling": [],
+          "context": [],
+          "positive": []
+        },
+        "attention_reasons": [
+          "isu/peristiwa ditemukan tetapi relasi Polri sebagai pihak bermasalah tidak cukup kuat"
+        ],
+        "contextual_flags": {
+          "explicit_polri_subject": false,
+          "explicit_polri_enforcer": false,
+          "polri_victim": false,
+          "service_negative": false,
+          "misconduct_signal": true,
+          "direct_positive_enforcement": false
+        },
+        "analysis_engine_version": "contextual-v1.1",
+        "location_engine_version": "location-v2-title-snippet-source",
+        "case_engine_version": "case-v6.5.4",
+        "case_processed_at": "2026-10-21T23:29:38.471182+00:00"
+      },
+      {
         "id": "0da69aee26950ea8f7ff475b9b0bcaa984db5cee",
         "title": "Bareskrim Polri Ungkap Dugaan Beras Fortifikasi Tak Sesuai Label, Sita 1.194 Kemasan Senilai Rp155 Juta - Polres Kediri Kota",
         "url": "https://polreskedirikota.com/bareskrim-polri-ungkap-dugaan-beras-fortifikasi-tak-sesuai-label-sita-1-194-kemasan-senilai-rp155-juta/",
@@ -2552,7 +3404,7 @@
         "summary": "Bareskrim Polri Ungkap Dugaan Beras Fortifikasi Tak Sesuai Label, Sita 1.194 Kemasan Senilai Rp155 Juta Polres Kediri Kota",
         "processing_status": "processed",
         "classifier_version": "contextual-v1.1",
-        "classified_at": "2026-10-21T20:15:58.375738+00:00",
+        "classified_at": "2026-10-21T23:25:55.745965+00:00",
         "case_id": "CASE-002872",
         "discovery_families": [],
         "discovery_tags": [],
@@ -2628,7 +3480,7 @@
         "analysis_engine_version": "contextual-v1.1",
         "location_engine_version": "location-v2-title-snippet-source",
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-10-21T20:20:16.097823+00:00"
+        "case_processed_at": "2026-10-21T23:30:10.954823+00:00"
       },
       {
         "id": "ba17ffcd4b790efd011db621a03c06f693cbce3a",
@@ -2648,7 +3500,7 @@
         "summary": "Perkuat Sinergi Penegakan Hukum, Kapolda Jatim Gelar Courtesy Call ke Kajati Polres Kediri Kota",
         "processing_status": "processed",
         "classifier_version": "contextual-v1.1",
-        "classified_at": "2026-10-21T20:15:58.386980+00:00",
+        "classified_at": "2026-10-21T23:25:55.757099+00:00",
         "case_id": null,
         "discovery_families": [],
         "discovery_tags": [],
@@ -2722,7 +3574,7 @@
         "analysis_engine_version": "contextual-v1.1",
         "location_engine_version": "location-v2-title-snippet-source",
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-10-21T20:19:41.455034+00:00"
+        "case_processed_at": "2026-10-21T23:29:38.500489+00:00"
       },
       {
         "id": "4c3ae6813270930c06472545936934c13123eb2a",
@@ -2742,7 +3594,7 @@
         "summary": "Polda Jatim Luncurkan Polisi Jogo Sekolah, Perkuat Perlindungan Pelajar Menuju Indonesia Emas 2045 Polres Kediri Kota",
         "processing_status": "processed",
         "classifier_version": "contextual-v1.1",
-        "classified_at": "2026-10-21T20:15:58.395015+00:00",
+        "classified_at": "2026-10-21T23:25:55.765157+00:00",
         "case_id": null,
         "discovery_families": [],
         "discovery_tags": [],
@@ -2815,7 +3667,7 @@
         "analysis_engine_version": "contextual-v1.1",
         "location_engine_version": "location-v2-title-snippet-source",
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-10-21T20:19:41.462929+00:00"
+        "case_processed_at": "2026-10-21T23:29:38.507839+00:00"
       },
       {
         "id": "3c823bcbdd464b5d6ad007d8af3a67972ad5681e",
@@ -2835,7 +3687,7 @@
         "summary": "Polda Jatim Luncurkan Polisi Jogo Sekolah, Perkuat Perlindungan Pelajar Menuju Indonesia Emas 2045 https://tribratanews.polrespasuruankota.com/",
         "processing_status": "processed",
         "classifier_version": "contextual-v1.1",
-        "classified_at": "2026-10-21T20:15:58.452309+00:00",
+        "classified_at": "2026-10-21T23:25:55.822108+00:00",
         "case_id": null,
         "discovery_families": [],
         "discovery_tags": [],
@@ -2908,7 +3760,7 @@
         "analysis_engine_version": "contextual-v1.1",
         "location_engine_version": "location-v2-title-snippet-source",
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-10-21T20:19:41.478792+00:00"
+        "case_processed_at": "2026-10-21T23:29:38.523246+00:00"
       },
       {
         "id": "12aa10c83b3c9e68acf86753f5331a9e1096fabe",
@@ -2928,7 +3780,7 @@
         "summary": "Satresnarkoba Polres Pelabuhan Tanjung Perak Ungkap Peredaran Narkoba di Surabaya, 5,65 Gram Sabu Disita TargetNews.ID",
         "processing_status": "processed",
         "classifier_version": "contextual-v1.1",
-        "classified_at": "2026-10-21T20:15:58.497196+00:00",
+        "classified_at": "2026-10-21T23:25:55.866045+00:00",
         "case_id": "CASE-001713",
         "discovery_families": [],
         "discovery_tags": [],
@@ -3009,7 +3861,7 @@
         "analysis_engine_version": "contextual-v1.1",
         "location_engine_version": "location-v2-title-snippet-source",
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-10-21T20:20:16.097831+00:00"
+        "case_processed_at": "2026-10-21T23:30:10.954828+00:00"
       },
       {
         "id": "9f2d7f4bccf379623a2634d264cdcb4550a605d5",
@@ -3029,7 +3881,7 @@
         "summary": "Positif Metabolit Sabu, Dua Kades Dibekuk Satreskoba Polresta Sumenep SIGAP88",
         "processing_status": "processed",
         "classifier_version": "contextual-v1.1",
-        "classified_at": "2026-10-21T20:15:58.602680+00:00",
+        "classified_at": "2026-10-21T23:25:55.970135+00:00",
         "case_id": null,
         "discovery_families": [],
         "discovery_tags": [],
@@ -3105,7 +3957,7 @@
         "analysis_engine_version": "contextual-v1.1",
         "location_engine_version": "location-v2-title-snippet-source",
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-10-21T20:19:41.496767+00:00"
+        "case_processed_at": "2026-10-21T23:29:38.540143+00:00"
       },
       {
         "id": "563374a1ae650bf946ffe3b5995e61f2566da62a",
@@ -3125,7 +3977,7 @@
         "summary": "Waspadai Modus Baru Ini, Polres Batu Ringkus Petani yang Membeli Ganja 5 Kilogram dari Medsos Koran Jakarta ®",
         "processing_status": "processed",
         "classifier_version": "contextual-v1.1",
-        "classified_at": "2026-10-21T20:15:58.654687+00:00",
+        "classified_at": "2026-10-21T23:25:56.020619+00:00",
         "case_id": null,
         "discovery_families": [],
         "discovery_tags": [],
@@ -3201,7 +4053,7 @@
         "analysis_engine_version": "contextual-v1.1",
         "location_engine_version": "location-v2-title-snippet-source",
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-10-21T20:19:41.504155+00:00"
+        "case_processed_at": "2026-10-21T23:29:38.547778+00:00"
       },
       {
         "id": "e2c85415ba1f14b5c4cfe13af0490b96baa3fa74",
@@ -3221,7 +4073,7 @@
         "summary": "Polres Batu Ringkus Petani Beli Ganja 5 Kg via Medsos, Modus Kirim Paket Ekspedisi republika.co.id",
         "processing_status": "processed",
         "classifier_version": "contextual-v1.1",
-        "classified_at": "2026-10-21T20:15:58.751107+00:00",
+        "classified_at": "2026-10-21T23:25:56.114353+00:00",
         "case_id": null,
         "discovery_families": [],
         "discovery_tags": [],
@@ -3297,7 +4149,7 @@
         "analysis_engine_version": "contextual-v1.1",
         "location_engine_version": "location-v2-title-snippet-source",
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-10-21T20:19:41.520480+00:00"
+        "case_processed_at": "2026-10-21T23:29:38.563201+00:00"
       },
       {
         "id": "a36a5265bd11a447b495ef4dbe9dab09bcb2f053",
@@ -3317,7 +4169,7 @@
         "summary": "Aksi ALAT BANTU Berlangsung Kondusif, Polresta Malang Kota Beri Apresiasi MalangVoice",
         "processing_status": "processed",
         "classifier_version": "contextual-v1.1",
-        "classified_at": "2026-10-21T20:15:59.039989+00:00",
+        "classified_at": "2026-10-21T23:25:56.403589+00:00",
         "case_id": null,
         "discovery_families": [],
         "discovery_tags": [],
@@ -3390,7 +4242,7 @@
         "analysis_engine_version": "contextual-v1.1",
         "location_engine_version": "location-v2-title-snippet-source",
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-10-21T20:19:41.569201+00:00"
+        "case_processed_at": "2026-10-21T23:29:38.611584+00:00"
       },
       {
         "id": "8319b5846f17f39c64e5326aeba47cb8e0abf912",
@@ -3410,7 +4262,7 @@
         "summary": "Pengedar Sabu di Surabaya Dibekuk, 11 Paket Seberat 5,65 Gram Disita Polisi - memorandum.disway.id Memorandum.co.id",
         "processing_status": "processed",
         "classifier_version": "contextual-v1.1",
-        "classified_at": "2026-10-21T20:15:59.090593+00:00",
+        "classified_at": "2026-10-21T23:25:56.454055+00:00",
         "case_id": null,
         "discovery_families": [],
         "discovery_tags": [],
@@ -3485,7 +4337,7 @@
         "analysis_engine_version": "contextual-v1.1",
         "location_engine_version": "location-v2-title-snippet-source",
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-10-21T20:19:41.577542+00:00"
+        "case_processed_at": "2026-10-21T23:29:38.619839+00:00"
       },
       {
         "id": "b4c88734eb2b56208737d1ba8ab4ee51ad82bc47",
@@ -3505,7 +4357,7 @@
         "summary": "Polres Blitar Cek Dua SPBU, Stok BBM Dipastikan Aman dan Distribusi Lancar News Nusantara Terkini",
         "processing_status": "processed",
         "classifier_version": "contextual-v1.1",
-        "classified_at": "2026-10-21T20:15:59.185313+00:00",
+        "classified_at": "2026-10-21T23:25:56.547785+00:00",
         "case_id": null,
         "discovery_families": [],
         "discovery_tags": [],
@@ -3578,7 +4430,7 @@
         "analysis_engine_version": "contextual-v1.1",
         "location_engine_version": "location-v2-title-snippet-source",
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-10-21T20:19:41.594143+00:00"
+        "case_processed_at": "2026-10-21T23:29:38.636261+00:00"
       },
       {
         "id": "4a38f57419cb242d41471a8944e6292d367bf71e",
@@ -3598,7 +4450,7 @@
         "summary": "Sinergi Polres Blitar Kota dan BPBD, Cegah Karhutla Sejak Dini News Nusantara Terkini",
         "processing_status": "processed",
         "classifier_version": "contextual-v1.1",
-        "classified_at": "2026-10-21T20:15:59.280372+00:00",
+        "classified_at": "2026-10-21T23:25:56.641744+00:00",
         "case_id": null,
         "discovery_families": [],
         "discovery_tags": [],
@@ -3671,7 +4523,7 @@
         "analysis_engine_version": "contextual-v1.1",
         "location_engine_version": "location-v2-title-snippet-source",
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-10-21T20:19:41.601665+00:00"
+        "case_processed_at": "2026-10-21T23:29:38.644021+00:00"
       },
       {
         "id": "177ca06eccf11a67520ded16a896d7dbd8c8c82a",
@@ -3691,7 +4543,7 @@
         "summary": "Polres Lamongan Ungkap Peredaran Sabu di Tikung, Dua Tersangka Diamankan Radar Bangsa",
         "processing_status": "processed",
         "classifier_version": "contextual-v1.1",
-        "classified_at": "2026-10-21T20:15:59.325768+00:00",
+        "classified_at": "2026-10-21T23:25:56.686540+00:00",
         "case_id": "CASE-000071",
         "discovery_families": [],
         "discovery_tags": [],
@@ -3774,7 +4626,7 @@
         "analysis_engine_version": "contextual-v1.1",
         "location_engine_version": "location-v2-title-snippet-source",
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-10-21T20:20:16.097844+00:00"
+        "case_processed_at": "2026-10-21T23:30:10.954841+00:00"
       },
       {
         "id": "04f36a50c5a16d79e5f9ec7af94fe390577b4bcf",
@@ -3794,7 +4646,7 @@
         "summary": "Polres Blitar Kota Salurkan 3.000 Liter Air Bersih untuk Warga Terdampak Kekeringan FigurNews.com",
         "processing_status": "processed",
         "classifier_version": "contextual-v1.1",
-        "classified_at": "2026-10-21T20:15:59.372193+00:00",
+        "classified_at": "2026-10-21T23:25:56.732383+00:00",
         "case_id": null,
         "discovery_families": [],
         "discovery_tags": [],
@@ -3869,10 +4721,664 @@
         "analysis_engine_version": "contextual-v1.1",
         "location_engine_version": "location-v2-title-snippet-source",
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-10-21T20:19:41.609154+00:00"
+        "case_processed_at": "2026-10-21T23:29:38.652144+00:00"
       }
     ],
     "luar_jatim_items": [
+      {
+        "id": "e8214fbafeb9394a496e4a0218c42d883c0a6a70",
+        "title": "Polisi Tangkap Dua Pelaku TPPO di Sulsel, Modus Rekrut Pekerja Sawit ke Malaysia - Kompas.com",
+        "url": "https://regional.kompas.com/read/2026/10/22/055353578/polisi-tangkap-dua-pelaku-tppo-di-sulsel-modus-rekrut-pekerja-sawit-ke",
+        "source": "Kompas.com",
+        "published_at": "2026-10-21T22:53:00+00:00",
+        "collected_at": "2026-10-21T23:23:34.009083+00:00",
+        "region": "LUAR JATIM",
+        "area_label": "LUAR JATIM",
+        "is_jatim": false,
+        "polres": null,
+        "category": "UNGKAP KASUS / PENINDAKAN",
+        "scope": "case",
+        "scope_label": "Ungkap Kasus",
+        "priority": "low",
+        "summary": "Polisi Tangkap Dua Pelaku TPPO di Sulsel, Modus Rekrut Pekerja Sawit ke Malaysia Kompas.com",
+        "processing_status": "processed",
+        "classifier_version": "contextual-v1.1",
+        "classified_at": "2026-10-21T23:25:55.413583+00:00",
+        "case_id": "CASE-002874",
+        "discovery_families": [],
+        "discovery_tags": [],
+        "discovery_hits": [],
+        "discovery_version": "discovery-v6",
+        "google_news_url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQQ0haRXI1Y2EwNnMySEZFYXJRNzN4UUhIZjBITWV4Wk1BaHRnUGdpTkJJSkVFSjJ1RnlVMkxQNU4wdldUcWdtRW8yMFBJc2d0TkdVUUN4ZWJ4b2did3U0bi1UaElDc3JJT2thVXJDZE5nbW1YTldnMWNnZVN1QzVkZDNOZ2dSdXBXMmdPRnJIZmpMRFB6alc0TlJBNzROWU1WMldqbWpKZ00xc1BMRGhaS2M2dXhxbGcybW9TQWhXdDFIZw?oc=5",
+        "original_url": "https://regional.kompas.com/read/2026/10/22/055353578/polisi-tangkap-dua-pelaku-tppo-di-sulsel-modus-rekrut-pekerja-sawit-ke",
+        "canonical_url": "https://regional.kompas.com/read/2026/10/22/055353578/polisi-tangkap-dua-pelaku-tppo-di-sulsel-modus-rekrut-pekerja-sawit-ke",
+        "duplicate_article": false,
+        "locality": "",
+        "polsek": null,
+        "location_confidence": 100,
+        "location_evidence": [
+          "sulsel"
+        ],
+        "location_status": "LUAR_JATIM",
+        "location_source": "title_description",
+        "sentiment": "positive",
+        "sentiment_label": "Positif",
+        "issue_type": "UMUM",
+        "issue_subtype": "Belum Teridentifikasi",
+        "issue_evidence": [],
+        "polri_relation": "PENEGAKAN_HUKUM",
+        "polri_relation_evidence": [
+          "Polri berperan sebagai pihak penindak"
+        ],
+        "handling_status": "BELUM_ADA_INFORMASI",
+        "handling_evidence": [],
+        "assertion_status": "FACTUAL",
+        "assertion_confidence": 75,
+        "assertion_evidence": [],
+        "attention_score": 7,
+        "attention_label": "Rendah",
+        "attention_components": {
+          "severity": 2,
+          "polri_relation": 0,
+          "authority": 0,
+          "public_impact": 4,
+          "handling": 0,
+          "evidence": 1,
+          "context_risk": 0,
+          "routine_enforcement_cap": null
+        },
+        "attention_evidence": {
+          "severity": [],
+          "authority": [],
+          "public_impact": [],
+          "evidence": [
+            "satu sumber / informasi awal"
+          ],
+          "role": [],
+          "issue": [],
+          "handling": [],
+          "context": [],
+          "positive": []
+        },
+        "attention_reasons": [
+          "Polri berperan sebagai pihak penindak",
+          "tidak ditemukan indikator utama misconduct oleh personel"
+        ],
+        "contextual_flags": {
+          "explicit_polri_subject": false,
+          "explicit_polri_enforcer": true,
+          "polri_victim": false,
+          "service_negative": false,
+          "misconduct_signal": false,
+          "direct_positive_enforcement": false
+        },
+        "analysis_engine_version": "contextual-v1.1",
+        "location_engine_version": "location-v2-title-snippet-source",
+        "case_engine_version": "case-v6.5.4",
+        "case_processed_at": "2026-10-21T23:30:10.954809+00:00"
+      },
+      {
+        "id": "be6556f9e36b1045a6b049ec7bf5aa1c68d64e55",
+        "title": "Komandan Polisi Chechnya Ancam Tembak Warga Tanpa Pengadilan - Arrahmah.id",
+        "url": "https://www.arrahmah.id/komandan-polisi-chechnya-ancam-tembak-warga-tanpa-pengadilan",
+        "source": "Arrahmah.id",
+        "published_at": "2026-10-21T22:49:27+00:00",
+        "collected_at": "2026-10-21T23:23:34.009083+00:00",
+        "region": "BELUM TERPETAKAN",
+        "area_label": "BELUM TERPETAKAN",
+        "is_jatim": null,
+        "polres": null,
+        "category": "NETRAL / LAINNYA",
+        "scope": "neutral",
+        "scope_label": "Netral",
+        "priority": "low",
+        "summary": "Komandan Polisi Chechnya Ancam Tembak Warga Tanpa Pengadilan Arrahmah.id",
+        "processing_status": "processed",
+        "classifier_version": "contextual-v1.1",
+        "classified_at": "2026-10-21T23:25:55.459710+00:00",
+        "case_id": null,
+        "discovery_families": [],
+        "discovery_tags": [],
+        "discovery_hits": [],
+        "discovery_version": "discovery-v6",
+        "google_news_url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOYTUwWDhBN3JNbEdrRlk3dWt6eFZ5VVppZVljbmZjbHZLdkx2MEFMMXRKV0ZZZkx5cVVxcFh4UWhUbDdVOXlhWDNXYU1Zc0d6anEzeGN4dVM5NnZ6OGVIUlNoS0FjREdSOTlvY3ZEanZ6NlRLWFQyd3IzQlZ1TjRlNmFheEFHWGdtZElQUQ?oc=5",
+        "original_url": "https://www.arrahmah.id/komandan-polisi-chechnya-ancam-tembak-warga-tanpa-pengadilan",
+        "canonical_url": "https://arrahmah.id/komandan-polisi-chechnya-ancam-tembak-warga-tanpa-pengadilan",
+        "duplicate_article": false,
+        "locality": "",
+        "polsek": null,
+        "location_confidence": 0,
+        "location_evidence": [],
+        "location_status": "BELUM_TERPETAKAN",
+        "location_source": "title_description",
+        "sentiment": "neutral",
+        "sentiment_label": "Netral",
+        "issue_type": "UMUM",
+        "issue_subtype": "Belum Teridentifikasi",
+        "issue_evidence": [],
+        "polri_relation": "INFORMASI_UMUM",
+        "polri_relation_evidence": [
+          "Hubungan Polri belum spesifik"
+        ],
+        "handling_status": "BELUM_ADA_INFORMASI",
+        "handling_evidence": [],
+        "assertion_status": "FACTUAL",
+        "assertion_confidence": 75,
+        "assertion_evidence": [],
+        "attention_score": 15,
+        "attention_label": "Rendah",
+        "attention_components": {
+          "severity": 2,
+          "polri_relation": 0,
+          "authority": 0,
+          "public_impact": 12,
+          "handling": 0,
+          "evidence": 1,
+          "context_risk": 0,
+          "routine_enforcement_cap": null
+        },
+        "attention_evidence": {
+          "severity": [],
+          "authority": [],
+          "public_impact": [
+            "dampak kepada masyarakat"
+          ],
+          "evidence": [
+            "satu sumber / informasi awal"
+          ],
+          "role": [],
+          "issue": [],
+          "handling": [],
+          "context": [],
+          "positive": []
+        },
+        "attention_reasons": [
+          "sifat berita: netral",
+          "Hubungan Polri belum spesifik"
+        ],
+        "contextual_flags": {
+          "explicit_polri_subject": false,
+          "explicit_polri_enforcer": false,
+          "polri_victim": false,
+          "service_negative": false,
+          "misconduct_signal": false,
+          "direct_positive_enforcement": false
+        },
+        "analysis_engine_version": "contextual-v1.1",
+        "location_engine_version": "location-v2-title-snippet-source",
+        "case_engine_version": "case-v6.5.4",
+        "case_processed_at": "2026-10-21T23:29:38.478530+00:00"
+      },
+      {
+        "id": "37641d8f388655ea4f97f1c5a45a1f0a6e909b5c",
+        "title": "Polisi Diminta Gercep Tangkap Uus, Diduga Tipu Puluhan Warga Serang Modus Loker di PT Mayora Jayanti - Serangtimur.co.id",
+        "url": "https://www.serangtimur.co.id/2026/10/polisi-diminta-gercep-tangkap-uus.html",
+        "source": "Serangtimur.co.id",
+        "published_at": "2026-10-21T22:44:00+00:00",
+        "collected_at": "2026-10-21T23:23:34.009083+00:00",
+        "region": "BELUM TERPETAKAN",
+        "area_label": "BELUM TERPETAKAN",
+        "is_jatim": null,
+        "polres": null,
+        "category": "NEGATIF - BELUM TERIDENTIFIKASI",
+        "scope": "negative",
+        "scope_label": "Negatif",
+        "priority": "low",
+        "summary": "Polisi Diminta Gercep Tangkap Uus, Diduga Tipu Puluhan Warga Serang Modus Loker di PT Mayora Jayanti Serangtimur.co.id",
+        "processing_status": "processed",
+        "classifier_version": "contextual-v1.1",
+        "classified_at": "2026-10-21T23:25:55.508900+00:00",
+        "case_id": "CASE-002875",
+        "discovery_families": [],
+        "discovery_tags": [],
+        "discovery_hits": [],
+        "discovery_version": "discovery-v6",
+        "google_news_url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQUEtERXFoWk1aZ3JmeUExZlM4QS1wRnkxYktTSGpNaEllM0xfOWxNR2JGYkp5NGNNUURCYVJqVWhqZjhvZUJKV2tEUWdGVnh5VXluakhKN0dneTMtV1hMdGhYU3htRllFZEFDY2l1Y2xud1lhd0lxUWdBb2xhV2pFWVRB?oc=5",
+        "original_url": "https://www.serangtimur.co.id/2026/10/polisi-diminta-gercep-tangkap-uus.html",
+        "canonical_url": "https://serangtimur.co.id/2026/10/polisi-diminta-gercep-tangkap-uus.html",
+        "duplicate_article": false,
+        "locality": "",
+        "polsek": null,
+        "location_confidence": 0,
+        "location_evidence": [],
+        "location_status": "BELUM_TERPETAKAN",
+        "location_source": "title_description",
+        "sentiment": "negative",
+        "sentiment_label": "Negatif",
+        "issue_type": "UMUM",
+        "issue_subtype": "Belum Teridentifikasi",
+        "issue_evidence": [],
+        "polri_relation": "SUBJEK_PERMASALAHAN",
+        "polri_relation_evidence": [
+          "Polri/personel menjadi subjek masalah"
+        ],
+        "handling_status": "BELUM_ADA_INFORMASI",
+        "handling_evidence": [],
+        "assertion_status": "ALLEGATION",
+        "assertion_confidence": 73,
+        "assertion_evidence": [
+          "terdapat frasa dugaan/tuduhan"
+        ],
+        "attention_score": 31,
+        "attention_label": "Rendah",
+        "attention_components": {
+          "severity": 2,
+          "polri_relation": 16,
+          "authority": 0,
+          "public_impact": 12,
+          "handling": 0,
+          "evidence": 1,
+          "context_risk": 0,
+          "routine_enforcement_cap": null
+        },
+        "attention_evidence": {
+          "severity": [],
+          "authority": [],
+          "public_impact": [
+            "dampak kepada masyarakat"
+          ],
+          "evidence": [
+            "satu sumber / informasi awal"
+          ],
+          "role": [
+            "Polri/personel menjadi subjek permasalahan"
+          ],
+          "issue": [],
+          "handling": [],
+          "context": [],
+          "positive": []
+        },
+        "attention_reasons": [
+          "sifat berita: negatif",
+          "polisi + dugaan",
+          "status klaim: dugaan/tuduhan"
+        ],
+        "contextual_flags": {
+          "explicit_polri_subject": true,
+          "explicit_polri_enforcer": true,
+          "polri_victim": false,
+          "service_negative": false,
+          "misconduct_signal": false,
+          "direct_positive_enforcement": false
+        },
+        "analysis_engine_version": "contextual-v1.1",
+        "location_engine_version": "location-v2-title-snippet-source",
+        "case_engine_version": "case-v6.5.4",
+        "case_processed_at": "2026-10-21T23:30:10.954814+00:00"
+      },
+      {
+        "id": "816b8608ca95d601851f731ea6bb6d0b8458508c",
+        "title": "Pelaku Tembak Polisi di Pondok Cabe Serahkan Diri ke Polda - Tempo.co",
+        "url": "https://www.tempo.co/hukum/pelaku-tembak-polisi-di-pondok-cabe-2301443",
+        "source": "Tempo.co",
+        "published_at": "2026-10-21T22:25:00+00:00",
+        "collected_at": "2026-10-21T23:23:34.009083+00:00",
+        "region": "BELUM TERPETAKAN",
+        "area_label": "BELUM TERPETAKAN",
+        "is_jatim": null,
+        "polres": null,
+        "category": "NETRAL / LAINNYA",
+        "scope": "neutral",
+        "scope_label": "Netral",
+        "priority": "low",
+        "summary": "Pelaku Tembak Polisi di Pondok Cabe Serahkan Diri ke Polda Tempo.co",
+        "processing_status": "processed",
+        "classifier_version": "contextual-v1.1",
+        "classified_at": "2026-10-21T23:25:55.556186+00:00",
+        "case_id": null,
+        "discovery_families": [],
+        "discovery_tags": [],
+        "discovery_hits": [],
+        "discovery_version": "discovery-v6",
+        "google_news_url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9nZTk3MUthWkZMVDh0bkJ3R2JKZjNKelBoNUVmNkRqNFk4Y2RHd29hOWhiNXo1b3d0TGlDUEowdHBwbmxZRHZ0N09MMFNEdGhsRVBlTDJnLTkzX2NwV1dzX253Qjg3T0dTMkxyUTlBbV9yUkh6cUUtWFdR?oc=5",
+        "original_url": "https://www.tempo.co/hukum/pelaku-tembak-polisi-di-pondok-cabe-2301443",
+        "canonical_url": "https://tempo.co/hukum/pelaku-tembak-polisi-di-pondok-cabe-2301443",
+        "duplicate_article": false,
+        "locality": "",
+        "polsek": null,
+        "location_confidence": 0,
+        "location_evidence": [],
+        "location_status": "BELUM_TERPETAKAN",
+        "location_source": "title_description",
+        "sentiment": "neutral",
+        "sentiment_label": "Netral",
+        "issue_type": "UMUM",
+        "issue_subtype": "Belum Teridentifikasi",
+        "issue_evidence": [],
+        "polri_relation": "INFORMASI_UMUM",
+        "polri_relation_evidence": [
+          "Hubungan Polri belum spesifik"
+        ],
+        "handling_status": "BELUM_ADA_INFORMASI",
+        "handling_evidence": [],
+        "assertion_status": "FACTUAL",
+        "assertion_confidence": 75,
+        "assertion_evidence": [],
+        "attention_score": 7,
+        "attention_label": "Rendah",
+        "attention_components": {
+          "severity": 2,
+          "polri_relation": 0,
+          "authority": 0,
+          "public_impact": 4,
+          "handling": 0,
+          "evidence": 1,
+          "context_risk": 0,
+          "routine_enforcement_cap": null
+        },
+        "attention_evidence": {
+          "severity": [],
+          "authority": [],
+          "public_impact": [],
+          "evidence": [
+            "satu sumber / informasi awal"
+          ],
+          "role": [],
+          "issue": [],
+          "handling": [],
+          "context": [],
+          "positive": []
+        },
+        "attention_reasons": [
+          "sifat berita: netral",
+          "Hubungan Polri belum spesifik"
+        ],
+        "contextual_flags": {
+          "explicit_polri_subject": false,
+          "explicit_polri_enforcer": false,
+          "polri_victim": false,
+          "service_negative": false,
+          "misconduct_signal": false,
+          "direct_positive_enforcement": false
+        },
+        "analysis_engine_version": "contextual-v1.1",
+        "location_engine_version": "location-v2-title-snippet-source",
+        "case_engine_version": "case-v6.5.4",
+        "case_processed_at": "2026-10-21T23:29:38.485861+00:00"
+      },
+      {
+        "id": "23ff934010d4be253ac13c21614bec0b5e3141ef",
+        "title": "Dokter di Bandung Diduga Cabuli Anak Kandung, Polisi Turun Tangan - Pikiran Rakyat Koran",
+        "url": "https://koran.pikiran-rakyat.com/news/pr-30310516205/dokter-di-bandung-diduga-cabuli-anak-kandung-polisi-turun-tangan",
+        "source": "Pikiran Rakyat Koran",
+        "published_at": "2026-10-21T22:00:00+00:00",
+        "collected_at": "2026-10-21T23:23:34.009083+00:00",
+        "region": "BELUM TERPETAKAN",
+        "area_label": "BELUM TERPETAKAN",
+        "is_jatim": null,
+        "polres": null,
+        "category": "NEGATIF - BELUM TERIDENTIFIKASI",
+        "scope": "negative",
+        "scope_label": "Negatif",
+        "priority": "low",
+        "summary": "Dokter di Bandung Diduga Cabuli Anak Kandung, Polisi Turun Tangan Pikiran Rakyat Koran",
+        "processing_status": "processed",
+        "classifier_version": "contextual-v1.1",
+        "classified_at": "2026-10-21T23:25:55.602599+00:00",
+        "case_id": "CASE-002876",
+        "discovery_families": [],
+        "discovery_tags": [],
+        "discovery_hits": [],
+        "discovery_version": "discovery-v6",
+        "google_news_url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPWEw0RjMyaEZ4WFBwOWJjaUo3Sktna2szX2NRb0N0Nk1WVXBBN1IyUVE0UEJhSWN4dmhqcER2anVDbXFpdi1BMUxkVVpTQnhlM3VwczA4R0p2TzUtbTBITHpzQUVuM0NWZ2JtZkh0cDF4cDY4Ti1LX1VKTkhTZFp5Nkx4REx0TDVMcTFyZWJfRWtBVURmNjdlM2FYZWc1WXBNbVpWekc0bEZsakVRLUloOTNXcmpYcEto?oc=5",
+        "original_url": "https://koran.pikiran-rakyat.com/news/pr-30310516205/dokter-di-bandung-diduga-cabuli-anak-kandung-polisi-turun-tangan",
+        "canonical_url": "https://koran.pikiran-rakyat.com/news/pr-30310516205/dokter-di-bandung-diduga-cabuli-anak-kandung-polisi-turun-tangan",
+        "duplicate_article": false,
+        "locality": "",
+        "polsek": null,
+        "location_confidence": 0,
+        "location_evidence": [],
+        "location_status": "BELUM_TERPETAKAN",
+        "location_source": "title_description",
+        "sentiment": "negative",
+        "sentiment_label": "Negatif",
+        "issue_type": "UMUM",
+        "issue_subtype": "Belum Teridentifikasi",
+        "issue_evidence": [],
+        "polri_relation": "SUBJEK_PERMASALAHAN",
+        "polri_relation_evidence": [
+          "Polri/personel menjadi subjek masalah"
+        ],
+        "handling_status": "BELUM_ADA_INFORMASI",
+        "handling_evidence": [],
+        "assertion_status": "ALLEGATION",
+        "assertion_confidence": 73,
+        "assertion_evidence": [
+          "terdapat frasa dugaan/tuduhan"
+        ],
+        "attention_score": 37,
+        "attention_label": "Rendah",
+        "attention_components": {
+          "severity": 2,
+          "polri_relation": 16,
+          "authority": 0,
+          "public_impact": 18,
+          "handling": 0,
+          "evidence": 1,
+          "context_risk": 0,
+          "routine_enforcement_cap": null
+        },
+        "attention_evidence": {
+          "severity": [],
+          "authority": [],
+          "public_impact": [
+            "kelompok/korban publik rentan"
+          ],
+          "evidence": [
+            "satu sumber / informasi awal"
+          ],
+          "role": [
+            "Polri/personel menjadi subjek permasalahan"
+          ],
+          "issue": [],
+          "handling": [],
+          "context": [],
+          "positive": []
+        },
+        "attention_reasons": [
+          "sifat berita: negatif",
+          "polisi + dugaan",
+          "status klaim: dugaan/tuduhan"
+        ],
+        "contextual_flags": {
+          "explicit_polri_subject": true,
+          "explicit_polri_enforcer": false,
+          "polri_victim": false,
+          "service_negative": false,
+          "misconduct_signal": false,
+          "direct_positive_enforcement": false
+        },
+        "analysis_engine_version": "contextual-v1.1",
+        "location_engine_version": "location-v2-title-snippet-source",
+        "case_engine_version": "case-v6.5.4",
+        "case_processed_at": "2026-10-21T23:30:10.954817+00:00"
+      },
+      {
+        "id": "1d2cc18071b574f59a0139f86210d2ba76f736ab",
+        "title": "Kasus Kriminal Majalengka, Polisi Ungkap 18 Perkara dan Amankan 32 Tersangka - Pikiran Rakyat Koran",
+        "url": "https://koran.pikiran-rakyat.com/news/pr-30310516258/kasus-kriminal-majalengka-polisi-ungkap-18-perkara-dan-amankan-32-tersangka",
+        "source": "Pikiran Rakyat Koran",
+        "published_at": "2026-10-21T22:00:00+00:00",
+        "collected_at": "2026-10-21T23:23:34.009083+00:00",
+        "region": "BELUM TERPETAKAN",
+        "area_label": "BELUM TERPETAKAN",
+        "is_jatim": null,
+        "polres": null,
+        "category": "UNGKAP KASUS / PENINDAKAN",
+        "scope": "case",
+        "scope_label": "Ungkap Kasus",
+        "priority": "low",
+        "summary": "Kasus Kriminal Majalengka, Polisi Ungkap 18 Perkara dan Amankan 32 Tersangka Pikiran Rakyat Koran",
+        "processing_status": "processed",
+        "classifier_version": "contextual-v1.1",
+        "classified_at": "2026-10-21T23:25:55.650954+00:00",
+        "case_id": "CASE-002877",
+        "discovery_families": [],
+        "discovery_tags": [],
+        "discovery_hits": [],
+        "discovery_version": "discovery-v6",
+        "google_news_url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQX1B6aGRWMVpOUEN6TUFhekdNZV9DdmlhMnJtOVhsblhXOTllZU9NYTUxQkN4M1dVUTF6bDBGUUI0b0tDbm5jaEl0Q3pXS2p0NWJ4aS1SSWJFSFRkMUZlOXVXY1h2cmpQaVd5YzJnUnBTUVdIY2pCOG5uTHF4N2xLc2doQUIzSE1EdFhpYl9XY19FWmc1YzRyZXh0ejh3VXFMbkgxREk3M1hmeGZkMmk3MXFHbVl0cW53Z1QwYlY0TlpSLWRTWVRn?oc=5",
+        "original_url": "https://koran.pikiran-rakyat.com/news/pr-30310516258/kasus-kriminal-majalengka-polisi-ungkap-18-perkara-dan-amankan-32-tersangka",
+        "canonical_url": "https://koran.pikiran-rakyat.com/news/pr-30310516258/kasus-kriminal-majalengka-polisi-ungkap-18-perkara-dan-amankan-32-tersangka",
+        "duplicate_article": false,
+        "locality": "",
+        "polsek": null,
+        "location_confidence": 0,
+        "location_evidence": [],
+        "location_status": "BELUM_TERPETAKAN",
+        "location_source": "title_description",
+        "sentiment": "positive",
+        "sentiment_label": "Positif",
+        "issue_type": "UMUM",
+        "issue_subtype": "Belum Teridentifikasi",
+        "issue_evidence": [],
+        "polri_relation": "PENEGAKAN_HUKUM",
+        "polri_relation_evidence": [
+          "Polri berperan sebagai pihak penindak"
+        ],
+        "handling_status": "SUDAH_DITINDAK",
+        "handling_evidence": [
+          "tersangka"
+        ],
+        "assertion_status": "FACTUAL",
+        "assertion_confidence": 75,
+        "assertion_evidence": [],
+        "attention_score": 11,
+        "attention_label": "Rendah",
+        "attention_components": {
+          "severity": 2,
+          "polri_relation": 2,
+          "authority": 0,
+          "public_impact": 4,
+          "handling": 2,
+          "evidence": 1,
+          "context_risk": 0,
+          "routine_enforcement_cap": 35
+        },
+        "attention_evidence": {
+          "severity": [],
+          "authority": [],
+          "public_impact": [],
+          "evidence": [
+            "satu sumber / informasi awal"
+          ],
+          "role": [
+            "Polri sebagai pihak penindak"
+          ],
+          "issue": [],
+          "handling": [
+            "tersangka"
+          ],
+          "context": [],
+          "positive": []
+        },
+        "attention_reasons": [
+          "Polri berperan sebagai pihak penindak",
+          "tidak ditemukan indikator utama misconduct oleh personel"
+        ],
+        "contextual_flags": {
+          "explicit_polri_subject": false,
+          "explicit_polri_enforcer": true,
+          "polri_victim": false,
+          "service_negative": false,
+          "misconduct_signal": false,
+          "direct_positive_enforcement": false
+        },
+        "analysis_engine_version": "contextual-v1.1",
+        "location_engine_version": "location-v2-title-snippet-source",
+        "case_engine_version": "case-v6.5.4",
+        "case_processed_at": "2026-10-21T23:30:10.954820+00:00"
+      },
+      {
+        "id": "1d952916f7265d06d3d887d4ac2f439c066c3e16",
+        "title": "Kasus Polisi Tembak Polisi, Momentum Kapolri Suyudi Audit Menyeluruh - Inilah.com",
+        "url": "https://www.inilah.com/pengamat-soroti-pengawasan-senjata-api-polri-usai-polisi-tembak-polisi-di-pondok-cabe",
+        "source": "Inilah.com",
+        "published_at": "2026-10-21T20:18:00+00:00",
+        "collected_at": "2026-10-21T23:23:34.009083+00:00",
+        "region": "BELUM TERPETAKAN",
+        "area_label": "BELUM TERPETAKAN",
+        "is_jatim": null,
+        "polres": null,
+        "category": "NETRAL / LAINNYA",
+        "scope": "neutral",
+        "scope_label": "Netral",
+        "priority": "low",
+        "summary": "Kasus Polisi Tembak Polisi, Momentum Kapolri Suyudi Audit Menyeluruh Inilah.com",
+        "processing_status": "processed",
+        "classifier_version": "contextual-v1.1",
+        "classified_at": "2026-10-21T23:25:55.698760+00:00",
+        "case_id": null,
+        "discovery_families": [],
+        "discovery_tags": [],
+        "discovery_hits": [],
+        "discovery_version": "discovery-v6",
+        "google_news_url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQVG5PUVlpcVRaVXc2T1kxLWJfRXFqM3pNUzF3T1N6VzExQ3FPMVhuV0otcVdPd3g4SHRmNGlkTjZIUkJyS2U5WlF5N2hpa3V0Z2xadTVqcmJKOWEweWVRaEJrd3I2cmJEN1dIc0E0Z1paR20xWXhJLUFFLXZfYU9UczhyZXk4RDRGMnFxS0FMdmtSSTJYRy1FbUk3bVNNZkVKSU1wTlFuVE95bW03?oc=5",
+        "original_url": "https://www.inilah.com/pengamat-soroti-pengawasan-senjata-api-polri-usai-polisi-tembak-polisi-di-pondok-cabe",
+        "canonical_url": "https://inilah.com/pengamat-soroti-pengawasan-senjata-api-polri-usai-polisi-tembak-polisi-di-pondok-cabe",
+        "duplicate_article": false,
+        "locality": "",
+        "polsek": null,
+        "location_confidence": 0,
+        "location_evidence": [],
+        "location_status": "BELUM_TERPETAKAN",
+        "location_source": "title_description",
+        "sentiment": "neutral",
+        "sentiment_label": "Netral",
+        "issue_type": "UMUM",
+        "issue_subtype": "Belum Teridentifikasi",
+        "issue_evidence": [],
+        "polri_relation": "INFORMASI_UMUM",
+        "polri_relation_evidence": [
+          "Hubungan Polri belum spesifik"
+        ],
+        "handling_status": "BELUM_ADA_INFORMASI",
+        "handling_evidence": [],
+        "assertion_status": "FACTUAL",
+        "assertion_confidence": 75,
+        "assertion_evidence": [],
+        "attention_score": 7,
+        "attention_label": "Rendah",
+        "attention_components": {
+          "severity": 2,
+          "polri_relation": 0,
+          "authority": 0,
+          "public_impact": 4,
+          "handling": 0,
+          "evidence": 1,
+          "context_risk": 0,
+          "routine_enforcement_cap": null
+        },
+        "attention_evidence": {
+          "severity": [],
+          "authority": [],
+          "public_impact": [],
+          "evidence": [
+            "satu sumber / informasi awal"
+          ],
+          "role": [],
+          "issue": [],
+          "handling": [],
+          "context": [],
+          "positive": []
+        },
+        "attention_reasons": [
+          "sifat berita: netral",
+          "Hubungan Polri belum spesifik"
+        ],
+        "contextual_flags": {
+          "explicit_polri_subject": false,
+          "explicit_polri_enforcer": false,
+          "polri_victim": false,
+          "service_negative": false,
+          "misconduct_signal": false,
+          "direct_positive_enforcement": false
+        },
+        "analysis_engine_version": "contextual-v1.1",
+        "location_engine_version": "location-v2-title-snippet-source",
+        "case_engine_version": "case-v6.5.4",
+        "case_processed_at": "2026-10-21T23:29:38.493187+00:00"
+      },
       {
         "id": "31188842c170302585a8fc277d7db2bf71b4f549",
         "title": "Polisi Tembak Polisi, Bharada Andika Rahmadani Dijerat Pasal Pembunuhan Berencana - JPNN.com",
@@ -3891,7 +5397,7 @@
         "summary": "Polisi Tembak Polisi, Bharada Andika Rahmadani Dijerat Pasal Pembunuhan Berencana JPNN.com",
         "processing_status": "processed",
         "classifier_version": "contextual-v1.1",
-        "classified_at": "2026-10-21T20:15:58.440155+00:00",
+        "classified_at": "2026-10-21T23:25:55.809913+00:00",
         "case_id": null,
         "discovery_families": [],
         "discovery_tags": [],
@@ -3966,7 +5472,7 @@
         "analysis_engine_version": "contextual-v1.1",
         "location_engine_version": "location-v2-title-snippet-source",
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-10-21T20:19:41.470849+00:00"
+        "case_processed_at": "2026-10-21T23:29:38.515129+00:00"
       },
       {
         "id": "278091195363032eeca6b7d01c96e831b357c0ed",
@@ -3986,7 +5492,7 @@
         "summary": "Oknum Polisi Intimidasi Mahasiwa GMNI Terancam Dipecat Langgar Arahan Kapolri \"Polri Bersama Rakyat\" Harian Pelita -",
         "processing_status": "processed",
         "classifier_version": "contextual-v1.1",
-        "classified_at": "2026-10-21T20:15:58.546179+00:00",
+        "classified_at": "2026-10-21T23:25:55.914833+00:00",
         "case_id": null,
         "discovery_families": [
           "abuse_of_power",
@@ -4075,7 +5581,7 @@
         "analysis_engine_version": "contextual-v1.1",
         "location_engine_version": "location-v2-title-snippet-source",
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-10-21T20:19:41.489334+00:00"
+        "case_processed_at": "2026-10-21T23:29:38.532605+00:00"
       },
       {
         "id": "59f793c0af0f031ffbd257a153f4f1838709f4cc",
@@ -4095,7 +5601,7 @@
         "summary": "Polres Batu Bara Ungkap Kasus Narkoba dalam Operasi Sarang Narkoba, Dua Pria Diamankan dan Sita 111 Gram Sabu Website Resmi Polri",
         "processing_status": "processed",
         "classifier_version": "contextual-v1.1",
-        "classified_at": "2026-10-21T20:15:58.559602+00:00",
+        "classified_at": "2026-10-21T23:25:55.928088+00:00",
         "case_id": "CASE-001440",
         "discovery_families": [],
         "discovery_tags": [],
@@ -4178,7 +5684,7 @@
         "analysis_engine_version": "contextual-v1.1",
         "location_engine_version": "location-v2-title-snippet-source",
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-10-21T20:20:16.097834+00:00"
+        "case_processed_at": "2026-10-21T23:30:10.954831+00:00"
       },
       {
         "id": "ed19620f857fc83b090663db132d9c026422be22",
@@ -4198,7 +5704,7 @@
         "summary": "Patroli Siang Hari Polsek Rejoso, Tingkatkan Stabilitas Kamtibmas Kewilayahan https://tribratanews.polrespasuruankota.com/",
         "processing_status": "processed",
         "classifier_version": "contextual-v1.1",
-        "classified_at": "2026-10-21T20:15:58.702402+00:00",
+        "classified_at": "2026-10-21T23:25:56.067808+00:00",
         "case_id": null,
         "discovery_families": [],
         "discovery_tags": [],
@@ -4270,7 +5776,7 @@
         "analysis_engine_version": "contextual-v1.1",
         "location_engine_version": "location-v2-title-snippet-source",
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-10-21T20:19:41.512640+00:00"
+        "case_processed_at": "2026-10-21T23:29:38.555859+00:00"
       },
       {
         "id": "50b35e8461b9841d200f25f8a7a09efcf9057e4b",
@@ -4290,7 +5796,7 @@
         "summary": "Patroli Dialogis Polsek Grati, Teruskan Semangat Polisi Bersama Masyarakat https://tribratanews.polrespasuruankota.com/",
         "processing_status": "processed",
         "classifier_version": "contextual-v1.1",
-        "classified_at": "2026-10-21T20:15:58.800220+00:00",
+        "classified_at": "2026-10-21T23:25:56.162987+00:00",
         "case_id": null,
         "discovery_families": [],
         "discovery_tags": [],
@@ -4365,7 +5871,7 @@
         "analysis_engine_version": "contextual-v1.1",
         "location_engine_version": "location-v2-title-snippet-source",
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-10-21T20:19:41.528679+00:00"
+        "case_processed_at": "2026-10-21T23:29:38.571003+00:00"
       },
       {
         "id": "5d0cabaf19f59d5c62a0fb00921382eca727c3c5",
@@ -4385,7 +5891,7 @@
         "summary": "Dukung Ketahanan Pangan, Ps. Kanit Binmas Polsek Nguling Sambangi Petani di Desa Sumberanyar https://tribratanews.polrespasuruankota.com/",
         "processing_status": "processed",
         "classifier_version": "contextual-v1.1",
-        "classified_at": "2026-10-21T20:15:58.850439+00:00",
+        "classified_at": "2026-10-21T23:25:56.213163+00:00",
         "case_id": null,
         "discovery_families": [],
         "discovery_tags": [],
@@ -4457,7 +5963,7 @@
         "analysis_engine_version": "contextual-v1.1",
         "location_engine_version": "location-v2-title-snippet-source",
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-10-21T20:19:41.537014+00:00"
+        "case_processed_at": "2026-10-21T23:29:38.578489+00:00"
       },
       {
         "id": "cdc2581417bec673763d6f7d30e5664148411ba5",
@@ -4477,7 +5983,7 @@
         "summary": "Cegah Bullying Sejak Dini, Polisi Bekali Pelajar Cara Melapor RRI.co.id",
         "processing_status": "processed",
         "classifier_version": "contextual-v1.1",
-        "classified_at": "2026-10-21T20:15:58.897437+00:00",
+        "classified_at": "2026-10-21T23:25:56.261254+00:00",
         "case_id": null,
         "discovery_families": [],
         "discovery_tags": [],
@@ -4547,7 +6053,7 @@
         "analysis_engine_version": "contextual-v1.1",
         "location_engine_version": "location-v2-title-snippet-source",
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-10-21T20:19:41.545260+00:00"
+        "case_processed_at": "2026-10-21T23:29:38.586950+00:00"
       },
       {
         "id": "2fd087f90f88d800bcbbd949dcf9d3d5b94b9977",
@@ -4567,7 +6073,7 @@
         "summary": "Dugaan Pelecehan Sesama Jenis di Instansi Kukar Dilaporkan ke Polisi, TRC PPA Minta Pelaku Diberhentikan Seputar Fakta",
         "processing_status": "processed",
         "classifier_version": "contextual-v1.1",
-        "classified_at": "2026-10-21T20:15:58.946621+00:00",
+        "classified_at": "2026-10-21T23:25:56.311098+00:00",
         "case_id": null,
         "discovery_families": [
           "general_police_misconduct"
@@ -4652,7 +6158,7 @@
         "analysis_engine_version": "contextual-v1.1",
         "location_engine_version": "location-v2-title-snippet-source",
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-10-21T20:19:41.553603+00:00"
+        "case_processed_at": "2026-10-21T23:29:38.595918+00:00"
       },
       {
         "id": "d68b01636c8a1dda628809a0ce015402e0fdac1c",
@@ -4672,7 +6178,7 @@
         "summary": "Polisi Bunuh Polisi Melonjak Dua Kali Lipat pada 2026 Rmol.id",
         "processing_status": "processed",
         "classifier_version": "contextual-v1.1",
-        "classified_at": "2026-10-21T20:15:58.993519+00:00",
+        "classified_at": "2026-10-21T23:25:56.357682+00:00",
         "case_id": null,
         "discovery_families": [],
         "discovery_tags": [],
@@ -4742,7 +6248,7 @@
         "analysis_engine_version": "contextual-v1.1",
         "location_engine_version": "location-v2-title-snippet-source",
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-10-21T20:19:41.561714+00:00"
+        "case_processed_at": "2026-10-21T23:29:38.604268+00:00"
       },
       {
         "id": "34ebbd446c885b673a775b704bcc56466dd3c1cf",
@@ -4762,7 +6268,7 @@
         "summary": "Polisi Gerebek Poskamling yang Jadi Sarang Narkoba di Medan MetroTVNews.com",
         "processing_status": "processed",
         "classifier_version": "contextual-v1.1",
-        "classified_at": "2026-10-21T20:15:59.138205+00:00",
+        "classified_at": "2026-10-21T23:25:56.501231+00:00",
         "case_id": null,
         "discovery_families": [],
         "discovery_tags": [],
@@ -4835,7 +6341,7 @@
         "analysis_engine_version": "contextual-v1.1",
         "location_engine_version": "location-v2-title-snippet-source",
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-10-21T20:19:41.586155+00:00"
+        "case_processed_at": "2026-10-21T23:29:38.628398+00:00"
       },
       {
         "id": "b01a7a7c0eb54ee0b96985cca1104f6144bbccda",
@@ -4855,7 +6361,7 @@
         "summary": "Tiga Terduga Pelaku Penganiayaan Maut di Dumu Diamankan Tim Gabungan Polres Bima Kota Berita11.com",
         "processing_status": "processed",
         "classifier_version": "contextual-v1.1",
-        "classified_at": "2026-10-21T20:15:59.234056+00:00",
+        "classified_at": "2026-10-21T23:25:56.595974+00:00",
         "case_id": "CASE-002873",
         "discovery_families": [],
         "discovery_tags": [],
@@ -4929,7 +6435,7 @@
         "analysis_engine_version": "contextual-v1.1",
         "location_engine_version": "location-v2-title-snippet-source",
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-10-21T20:20:16.097841+00:00"
+        "case_processed_at": "2026-10-21T23:30:10.954838+00:00"
       },
       {
         "id": "fb34f8a885eb36cc29b5dcbabeed237cd4c50d35",
@@ -4949,7 +6455,7 @@
         "summary": "Tak Ada Ampun! Polisi, TNI dan Warga Turun Malam-Malam Sapu Bersih Daerah Rawan Narkoba di Inhil BUALBUAL.com",
         "processing_status": "processed",
         "classifier_version": "contextual-v1.1",
-        "classified_at": "2026-10-21T20:15:59.421643+00:00",
+        "classified_at": "2026-10-21T23:25:56.781727+00:00",
         "case_id": null,
         "discovery_families": [],
         "discovery_tags": [],
@@ -5024,22 +6530,26 @@
         "analysis_engine_version": "contextual-v1.1",
         "location_engine_version": "location-v2-title-snippet-source",
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-10-21T20:19:41.617437+00:00"
+        "case_processed_at": "2026-10-21T23:29:38.661448+00:00"
       }
     ]
   },
   "cases": {
-    "active": 5,
+    "active": 9,
     "priority_high": 0,
     "jatim": 4,
     "jatim_priority_high": 0,
-    "articles": 60,
+    "articles": 64,
     "case_ids": [
       "CASE-000071",
       "CASE-001440",
       "CASE-001713",
       "CASE-002872",
-      "CASE-002873"
+      "CASE-002873",
+      "CASE-002874",
+      "CASE-002875",
+      "CASE-002876",
+      "CASE-002877"
     ],
     "items": [
       {
@@ -5660,7 +7170,7 @@
         ],
         "article_count": 12,
         "created_at": "2026-08-31T07:38:16.632195+00:00",
-        "updated_at": "2026-10-21T20:20:11.396179+00:00",
+        "updated_at": "2026-10-21T23:30:06.271850+00:00",
         "engine_version": "case-v6.5.4",
         "priority_score": 39,
         "priority_breakdown": {
@@ -6458,7 +7968,7 @@
         ],
         "article_count": 17,
         "created_at": "2026-09-13T16:44:28.964078+00:00",
-        "updated_at": "2026-10-21T20:20:11.660816+00:00",
+        "updated_at": "2026-10-21T23:30:06.535292+00:00",
         "engine_version": "case-v6.5.4",
         "priority_score": 50,
         "priority_breakdown": {
@@ -7768,7 +9278,7 @@
         ],
         "article_count": 29,
         "created_at": "2026-10-14T14:06:25.570155+00:00",
-        "updated_at": "2026-10-21T20:20:12.839511+00:00",
+        "updated_at": "2026-10-21T23:30:07.717921+00:00",
         "engine_version": "case-v6.5.4",
         "priority_score": 58,
         "priority_breakdown": {
@@ -7885,7 +9395,7 @@
         ],
         "article_count": 1,
         "created_at": "2026-10-21T20:20:08.701955+00:00",
-        "updated_at": "2026-10-21T20:20:16.093783+00:00",
+        "updated_at": "2026-10-21T23:30:10.937489+00:00",
         "engine_version": "case-v6.5.4",
         "priority_score": 8,
         "priority_breakdown": {
@@ -7995,7 +9505,7 @@
         ],
         "article_count": 1,
         "created_at": "2026-10-21T20:20:08.909031+00:00",
-        "updated_at": "2026-10-21T20:20:16.097066+00:00",
+        "updated_at": "2026-10-21T23:30:10.940793+00:00",
         "engine_version": "case-v6.5.4",
         "priority_score": 34,
         "priority_breakdown": {
@@ -8024,6 +9534,434 @@
             "sifat berita: negatif",
             "Kekerasan / Penggunaan Kekuatan",
             "Hubungan Polri belum spesifik"
+          ]
+        }
+      },
+      {
+        "case_id": "CASE-002874",
+        "title": "Polisi Tangkap Dua Pelaku TPPO di Sulsel, Modus Rekrut Pekerja Sawit ke Malaysia - Kompas.com",
+        "category": "UNGKAP KASUS / PENINDAKAN",
+        "scope": "case",
+        "region": "LUAR JATIM",
+        "locality": "",
+        "is_jatim": false,
+        "polres": null,
+        "polsek": null,
+        "priority": "low",
+        "attention_score": 8,
+        "attention_label": "Rendah",
+        "signature": "LUAR JATIM",
+        "incident_terms": [
+          "com",
+          "kompas",
+          "malaysia",
+          "modus",
+          "pekerja",
+          "rekrut",
+          "sawit",
+          "sulsel",
+          "tppo"
+        ],
+        "event_terms": [],
+        "location_terms": [],
+        "discovery_families": [],
+        "first_seen": "2026-10-21T22:53:00+00:00",
+        "last_seen": "2026-10-21T23:23:34.009083+00:00",
+        "last_detected_at": "2026-10-21T23:23:34.009083+00:00",
+        "article_ids": [
+          "e8214fbafeb9394a496e4a0218c42d883c0a6a70"
+        ],
+        "articles": [
+          {
+            "id": "e8214fbafeb9394a496e4a0218c42d883c0a6a70",
+            "title": "Polisi Tangkap Dua Pelaku TPPO di Sulsel, Modus Rekrut Pekerja Sawit ke Malaysia - Kompas.com",
+            "url": "https://regional.kompas.com/read/2026/10/22/055353578/polisi-tangkap-dua-pelaku-tppo-di-sulsel-modus-rekrut-pekerja-sawit-ke",
+            "published_at": "2026-10-21T22:53:00+00:00",
+            "collected_at": "2026-10-21T23:23:34.009083+00:00",
+            "source": "Kompas.com",
+            "match_score": 1.0,
+            "priority": "low",
+            "scope": "case",
+            "category": "UNGKAP KASUS / PENINDAKAN",
+            "region": "LUAR JATIM",
+            "locality": "",
+            "is_jatim": false,
+            "polres": null,
+            "polsek": null,
+            "issue_type": "UMUM",
+            "issue_subtype": "Belum Teridentifikasi",
+            "handling_status": "BELUM_ADA_INFORMASI",
+            "handling_evidence": [],
+            "polri_relation": "PENEGAKAN_HUKUM",
+            "polri_relation_points": 0,
+            "polri_relation_evidence": [
+              "Polri berperan sebagai pihak penindak"
+            ],
+            "attention_score": 7,
+            "attention_label": "Rendah",
+            "attention_components": {
+              "severity": 2,
+              "polri_relation": 0,
+              "authority": 0,
+              "public_impact": 4,
+              "handling": 0,
+              "evidence": 1,
+              "context_risk": 0,
+              "routine_enforcement_cap": null
+            }
+          }
+        ],
+        "article_count": 1,
+        "created_at": "2026-10-21T23:30:03.783922+00:00",
+        "updated_at": "2026-10-21T23:30:10.944051+00:00",
+        "engine_version": "case-v6.5.4",
+        "priority_score": 8,
+        "priority_breakdown": {
+          "severity": 2,
+          "polri_relation": 0,
+          "authority_context": 0,
+          "public_impact": 4,
+          "handling": 0,
+          "evidence": 1,
+          "spread": 0,
+          "escalation": 0,
+          "current_activity": 1,
+          "context_risk": 0
+        },
+        "priority_evidence": {
+          "unique_sources": 1,
+          "active_today_articles": 1,
+          "escalation": [],
+          "issue_type": "UMUM",
+          "issue_subtype": "Belum Teridentifikasi",
+          "sentiment": "neutral",
+          "polri_relation": "INFORMASI_UMUM",
+          "handling_status": "BELUM_ADA_INFORMASI",
+          "reasons": [
+            "sifat berita: netral",
+            "Hubungan Polri belum spesifik"
+          ]
+        }
+      },
+      {
+        "case_id": "CASE-002875",
+        "title": "Polisi Diminta Gercep Tangkap Uus, Diduga Tipu Puluhan Warga Serang Modus Loker di PT Mayora Jayanti - Serangtimur.co.id",
+        "category": "NEGATIF - BELUM TERIDENTIFIKASI",
+        "scope": "negative",
+        "region": "BELUM TERPETAKAN",
+        "locality": "",
+        "is_jatim": null,
+        "polres": null,
+        "polsek": null,
+        "priority": "low",
+        "attention_score": 32,
+        "attention_label": "Rendah",
+        "signature": "BELUM TERPETAKAN",
+        "incident_terms": [
+          "diminta",
+          "gercep",
+          "jayanti",
+          "loker",
+          "mayora",
+          "modus",
+          "puluhan",
+          "serang",
+          "serangtimur",
+          "tipu",
+          "uus"
+        ],
+        "event_terms": [],
+        "location_terms": [],
+        "discovery_families": [],
+        "first_seen": "2026-10-21T22:44:00+00:00",
+        "last_seen": "2026-10-21T23:23:34.009083+00:00",
+        "last_detected_at": "2026-10-21T23:23:34.009083+00:00",
+        "article_ids": [
+          "37641d8f388655ea4f97f1c5a45a1f0a6e909b5c"
+        ],
+        "articles": [
+          {
+            "id": "37641d8f388655ea4f97f1c5a45a1f0a6e909b5c",
+            "title": "Polisi Diminta Gercep Tangkap Uus, Diduga Tipu Puluhan Warga Serang Modus Loker di PT Mayora Jayanti - Serangtimur.co.id",
+            "url": "https://www.serangtimur.co.id/2026/10/polisi-diminta-gercep-tangkap-uus.html",
+            "published_at": "2026-10-21T22:44:00+00:00",
+            "collected_at": "2026-10-21T23:23:34.009083+00:00",
+            "source": "Serangtimur.co.id",
+            "match_score": 1.0,
+            "priority": "low",
+            "scope": "negative",
+            "category": "NEGATIF - BELUM TERIDENTIFIKASI",
+            "region": "BELUM TERPETAKAN",
+            "locality": "",
+            "is_jatim": false,
+            "polres": null,
+            "polsek": null,
+            "issue_type": "UMUM",
+            "issue_subtype": "Belum Teridentifikasi",
+            "handling_status": "BELUM_ADA_INFORMASI",
+            "handling_evidence": [],
+            "polri_relation": "SUBJEK_PERMASALAHAN",
+            "polri_relation_points": 0,
+            "polri_relation_evidence": [
+              "Polri/personel menjadi subjek masalah"
+            ],
+            "attention_score": 31,
+            "attention_label": "Rendah",
+            "attention_components": {
+              "severity": 2,
+              "polri_relation": 16,
+              "authority": 0,
+              "public_impact": 12,
+              "handling": 0,
+              "evidence": 1,
+              "context_risk": 0,
+              "routine_enforcement_cap": null
+            }
+          }
+        ],
+        "article_count": 1,
+        "created_at": "2026-10-21T23:30:03.793111+00:00",
+        "updated_at": "2026-10-21T23:30:10.947555+00:00",
+        "engine_version": "case-v6.5.4",
+        "priority_score": 32,
+        "priority_breakdown": {
+          "severity": 2,
+          "polri_relation": 16,
+          "authority_context": 0,
+          "public_impact": 12,
+          "handling": 0,
+          "evidence": 1,
+          "spread": 0,
+          "escalation": 0,
+          "current_activity": 1,
+          "context_risk": 0
+        },
+        "priority_evidence": {
+          "unique_sources": 1,
+          "active_today_articles": 1,
+          "escalation": [],
+          "issue_type": "UMUM",
+          "issue_subtype": "Belum Teridentifikasi",
+          "sentiment": "negative",
+          "polri_relation": "SUBJEK_PERMASALAHAN",
+          "handling_status": "BELUM_ADA_INFORMASI",
+          "reasons": [
+            "sifat berita: negatif",
+            "polisi + dugaan"
+          ]
+        }
+      },
+      {
+        "case_id": "CASE-002876",
+        "title": "Dokter di Bandung Diduga Cabuli Anak Kandung, Polisi Turun Tangan - Pikiran Rakyat Koran",
+        "category": "NEGATIF - BELUM TERIDENTIFIKASI",
+        "scope": "negative",
+        "region": "BELUM TERPETAKAN",
+        "locality": "",
+        "is_jatim": null,
+        "polres": null,
+        "polsek": null,
+        "priority": "low",
+        "attention_score": 22,
+        "attention_label": "Rendah",
+        "signature": "BELUM TERPETAKAN",
+        "incident_terms": [
+          "anak",
+          "bandung",
+          "cabuli",
+          "dokter",
+          "kandung",
+          "koran",
+          "pikiran",
+          "rakyat",
+          "tangan",
+          "turun"
+        ],
+        "event_terms": [],
+        "location_terms": [],
+        "discovery_families": [],
+        "first_seen": "2026-10-21T22:00:00+00:00",
+        "last_seen": "2026-10-21T23:23:34.009083+00:00",
+        "last_detected_at": "2026-10-21T23:23:34.009083+00:00",
+        "article_ids": [
+          "23ff934010d4be253ac13c21614bec0b5e3141ef"
+        ],
+        "articles": [
+          {
+            "id": "23ff934010d4be253ac13c21614bec0b5e3141ef",
+            "title": "Dokter di Bandung Diduga Cabuli Anak Kandung, Polisi Turun Tangan - Pikiran Rakyat Koran",
+            "url": "https://koran.pikiran-rakyat.com/news/pr-30310516205/dokter-di-bandung-diduga-cabuli-anak-kandung-polisi-turun-tangan",
+            "published_at": "2026-10-21T22:00:00+00:00",
+            "collected_at": "2026-10-21T23:23:34.009083+00:00",
+            "source": "Pikiran Rakyat Koran",
+            "match_score": 1.0,
+            "priority": "low",
+            "scope": "negative",
+            "category": "NEGATIF - BELUM TERIDENTIFIKASI",
+            "region": "BELUM TERPETAKAN",
+            "locality": "",
+            "is_jatim": false,
+            "polres": null,
+            "polsek": null,
+            "issue_type": "UMUM",
+            "issue_subtype": "Belum Teridentifikasi",
+            "handling_status": "BELUM_ADA_INFORMASI",
+            "handling_evidence": [],
+            "polri_relation": "SUBJEK_PERMASALAHAN",
+            "polri_relation_points": 0,
+            "polri_relation_evidence": [
+              "Polri/personel menjadi subjek masalah"
+            ],
+            "attention_score": 37,
+            "attention_label": "Rendah",
+            "attention_components": {
+              "severity": 2,
+              "polri_relation": 16,
+              "authority": 0,
+              "public_impact": 18,
+              "handling": 0,
+              "evidence": 1,
+              "context_risk": 0,
+              "routine_enforcement_cap": null
+            }
+          }
+        ],
+        "article_count": 1,
+        "created_at": "2026-10-21T23:30:03.802221+00:00",
+        "updated_at": "2026-10-21T23:30:10.950598+00:00",
+        "engine_version": "case-v6.5.4",
+        "priority_score": 22,
+        "priority_breakdown": {
+          "severity": 2,
+          "polri_relation": 0,
+          "authority_context": 0,
+          "public_impact": 18,
+          "handling": 0,
+          "evidence": 1,
+          "spread": 0,
+          "escalation": 0,
+          "current_activity": 1,
+          "context_risk": 0
+        },
+        "priority_evidence": {
+          "unique_sources": 1,
+          "active_today_articles": 1,
+          "escalation": [],
+          "issue_type": "KEJAHATAN_SEKSUAL",
+          "issue_subtype": "Kejahatan Seksual",
+          "sentiment": "negative",
+          "polri_relation": "INFORMASI_UMUM",
+          "handling_status": "BELUM_ADA_INFORMASI",
+          "reasons": [
+            "sifat berita: negatif",
+            "sifat berita: netral",
+            "Hubungan Polri belum spesifik"
+          ]
+        }
+      },
+      {
+        "case_id": "CASE-002877",
+        "title": "Kasus Kriminal Majalengka, Polisi Ungkap 18 Perkara dan Amankan 32 Tersangka - Pikiran Rakyat Koran",
+        "category": "UNGKAP KASUS / PENINDAKAN",
+        "scope": "case",
+        "region": "BELUM TERPETAKAN",
+        "locality": "",
+        "is_jatim": null,
+        "polres": null,
+        "polsek": null,
+        "priority": "low",
+        "attention_score": 12,
+        "attention_label": "Rendah",
+        "signature": "BELUM TERPETAKAN",
+        "incident_terms": [
+          "koran",
+          "kriminal",
+          "majalengka",
+          "perkara",
+          "pikiran",
+          "rakyat"
+        ],
+        "event_terms": [],
+        "location_terms": [],
+        "discovery_families": [],
+        "first_seen": "2026-10-21T22:00:00+00:00",
+        "last_seen": "2026-10-21T23:23:34.009083+00:00",
+        "last_detected_at": "2026-10-21T23:23:34.009083+00:00",
+        "article_ids": [
+          "1d2cc18071b574f59a0139f86210d2ba76f736ab"
+        ],
+        "articles": [
+          {
+            "id": "1d2cc18071b574f59a0139f86210d2ba76f736ab",
+            "title": "Kasus Kriminal Majalengka, Polisi Ungkap 18 Perkara dan Amankan 32 Tersangka - Pikiran Rakyat Koran",
+            "url": "https://koran.pikiran-rakyat.com/news/pr-30310516258/kasus-kriminal-majalengka-polisi-ungkap-18-perkara-dan-amankan-32-tersangka",
+            "published_at": "2026-10-21T22:00:00+00:00",
+            "collected_at": "2026-10-21T23:23:34.009083+00:00",
+            "source": "Pikiran Rakyat Koran",
+            "match_score": 1.0,
+            "priority": "low",
+            "scope": "case",
+            "category": "UNGKAP KASUS / PENINDAKAN",
+            "region": "BELUM TERPETAKAN",
+            "locality": "",
+            "is_jatim": false,
+            "polres": null,
+            "polsek": null,
+            "issue_type": "UMUM",
+            "issue_subtype": "Belum Teridentifikasi",
+            "handling_status": "SUDAH_DITINDAK",
+            "handling_evidence": [
+              "tersangka"
+            ],
+            "polri_relation": "PENEGAKAN_HUKUM",
+            "polri_relation_points": 0,
+            "polri_relation_evidence": [
+              "Polri berperan sebagai pihak penindak"
+            ],
+            "attention_score": 11,
+            "attention_label": "Rendah",
+            "attention_components": {
+              "severity": 2,
+              "polri_relation": 2,
+              "authority": 0,
+              "public_impact": 4,
+              "handling": 2,
+              "evidence": 1,
+              "context_risk": 0,
+              "routine_enforcement_cap": 35
+            }
+          }
+        ],
+        "article_count": 1,
+        "created_at": "2026-10-21T23:30:03.811384+00:00",
+        "updated_at": "2026-10-21T23:30:10.954119+00:00",
+        "engine_version": "case-v6.5.4",
+        "priority_score": 12,
+        "priority_breakdown": {
+          "severity": 2,
+          "polri_relation": 2,
+          "authority_context": 0,
+          "public_impact": 4,
+          "handling": 2,
+          "evidence": 1,
+          "spread": 0,
+          "escalation": 0,
+          "current_activity": 1,
+          "context_risk": 0
+        },
+        "priority_evidence": {
+          "unique_sources": 1,
+          "active_today_articles": 1,
+          "escalation": [],
+          "issue_type": "UMUM",
+          "issue_subtype": "Belum Teridentifikasi",
+          "sentiment": "positive",
+          "polri_relation": "PENEGAKAN_HUKUM",
+          "handling_status": "SUDAH_DITINDAK",
+          "reasons": [
+            "sifat berita: positif",
+            "Polri sebagai pihak penindak",
+            "status: sudah ditindak"
           ]
         }
       }
@@ -8647,7 +10585,7 @@
         ],
         "article_count": 12,
         "created_at": "2026-08-31T07:38:16.632195+00:00",
-        "updated_at": "2026-10-21T20:20:11.396179+00:00",
+        "updated_at": "2026-10-21T23:30:06.271850+00:00",
         "engine_version": "case-v6.5.4",
         "priority_score": 39,
         "priority_breakdown": {
@@ -9445,7 +11383,7 @@
         ],
         "article_count": 17,
         "created_at": "2026-09-13T16:44:28.964078+00:00",
-        "updated_at": "2026-10-21T20:20:11.660816+00:00",
+        "updated_at": "2026-10-21T23:30:06.535292+00:00",
         "engine_version": "case-v6.5.4",
         "priority_score": 50,
         "priority_breakdown": {
@@ -10755,7 +12693,7 @@
         ],
         "article_count": 29,
         "created_at": "2026-10-14T14:06:25.570155+00:00",
-        "updated_at": "2026-10-21T20:20:12.839511+00:00",
+        "updated_at": "2026-10-21T23:30:07.717921+00:00",
         "engine_version": "case-v6.5.4",
         "priority_score": 58,
         "priority_breakdown": {
@@ -10872,7 +12810,7 @@
         ],
         "article_count": 1,
         "created_at": "2026-10-21T20:20:08.701955+00:00",
-        "updated_at": "2026-10-21T20:20:16.093783+00:00",
+        "updated_at": "2026-10-21T23:30:10.937489+00:00",
         "engine_version": "case-v6.5.4",
         "priority_score": 8,
         "priority_breakdown": {
@@ -10905,36 +12843,74 @@
     ]
   },
   "social": {
-    "detected": 13,
-    "jatim": 2,
-    "negative": 9,
-    "priority_high": 1,
+    "detected": 51,
+    "jatim": 4,
+    "negative": 23,
+    "priority_high": 3,
     "video_ids": [
+      "HyzYUeEUwXs",
+      "-RwgTySkAl8",
+      "nIQzJWWgoKU",
+      "xiLpzkG0Z84",
+      "YMJVOjbOQ7c",
+      "c6_h3Lu0HTE",
+      "j2jHk3f5ZPI",
+      "xzML6vKaANc",
+      "focormnG8UM",
+      "bO8UC77iXoo",
+      "_Mpaz1i68Pg",
       "PXpmtS2wWsU",
+      "gqfE3xbsrM4",
       "qqTg_GI98kg",
       "CjtCFZ5HcYw",
       "XBQc1Bf3-2c",
+      "t3RAl5Ftw1Y",
+      "j3AEw6iK5rk",
+      "sN2dzJWkYuY",
       "brc75vIFPoY",
+      "d2DrohUjC0o",
+      "GLq9SRFG4X8",
+      "FKbRpSFdfSU",
+      "6Pu9GRch6LE",
+      "xAzwC2E43xI",
+      "vwgwzKpEG40",
+      "CpMrWKSJbiI",
+      "iMib7kFF7xo",
+      "gWMwUUo4cYI",
+      "DrlRdaqwlps",
+      "zjOofdKTmLw",
+      "EvDFmZ9W63Y",
+      "SAnN35rjuQA",
+      "pjkbgnQj1aM",
+      "7z9OWfoAA0s",
+      "WoPhkz64vEA",
       "eA7pNSG-3WU",
+      "tXgBJZ5kVB8",
+      "ggggo2dIpEM",
+      "5OLH-68QKQg",
       "b9p_Wzluiag",
       "NDUPkeGT-oE",
+      "WkkvQvuh6kU",
+      "4eNBSzotYqQ",
+      "wH-bRDTWqa4",
       "oDhzcr1z36I",
       "aQvOaJCZCrk",
       "fY2ZAoRIuls",
+      "USIT0mcuMpw",
       "rMPyhIF1rWE",
       "oeandQHSHz8"
     ]
   },
   "jatim": {
-    "news_today": 14,
+    "news_today": 15,
     "negative_today": 0,
     "positive_today": 0,
     "case_scope_today": 3,
-    "neutral_today": 11,
+    "neutral_today": 12,
     "case_today": 4,
     "case_high_active": 0,
     "article_high_today": 0,
-    "outside_jatim_today": 12
+    "outside_jatim_today": 19
   },
   "regions": [
     {
@@ -10952,6 +12928,10 @@
     {
       "name": "Batu",
       "count": 2
+    },
+    {
+      "name": "Pamekasan",
+      "count": 1
     },
     {
       "name": "Kediri",
@@ -11011,7 +12991,7 @@
     },
     {
       "name": "NETRAL / PERISTIWA",
-      "count": 4
+      "count": 5
     },
     {
       "name": "UNGKAP KASUS / PENINDAKAN",
@@ -11019,19 +12999,19 @@
     }
   ],
   "summary": {
-    "news_today": 26,
-    "negative_today": 0,
-    "cases_today": 5,
+    "news_today": 34,
+    "negative_today": 2,
+    "cases_today": 9,
     "priority_high": 0,
     "article_priority_high": 0,
-    "jatim_news": 14,
+    "jatim_news": 15,
     "jatim_negative": 0,
     "jatim_positive": 0,
     "jatim_case_scope": 3,
-    "jatim_neutral": 11,
+    "jatim_neutral": 12,
     "jatim_cases_today": 4,
     "jatim_case_high_active": 0,
-    "luar_jatim_news": 12,
-    "youtube_today": 13
+    "luar_jatim_news": 19,
+    "youtube_today": 51
   }
 }
