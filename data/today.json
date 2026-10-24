@@ -2,18 +2,21 @@
   "schema_version": "today-v3",
   "date": "2026-10-25",
   "timezone": "Asia/Jakarta",
-  "updated_at": "2026-10-25T02:36:56.829888+07:00",
-  "last_successful_update": "2026-10-25T02:36:56.829888+07:00",
+  "updated_at": "2026-10-25T05:36:04.718531+07:00",
+  "last_successful_update": "2026-10-25T05:36:04.718531+07:00",
   "news": {
-    "detected": 9,
+    "detected": 12,
     "negative": 1,
     "positive": 0,
-    "case": 2,
-    "neutral": 6,
-    "jatim": 6,
-    "luar_jatim": 3,
+    "case": 3,
+    "neutral": 8,
+    "jatim": 8,
+    "luar_jatim": 4,
     "priority_high": 0,
     "article_ids": [
+      "690a4d3368928a43f8043ace7ae8c11946fe1bdc",
+      "c20e2cadb9bacb3982af566ca6f9dc6db827f300",
+      "b327045f142f9dada499152898820d6615121fff",
       "35212d9e3828425efc29a338854c1e4e3bc91f86",
       "634373a72dfaaa3eaa6882c942e27ac0f27699df",
       "4a70795bb52e7988adf58495381e7fe41f6fb4d1",
@@ -26,6 +29,289 @@
     ],
     "items": [
       {
+        "id": "690a4d3368928a43f8043ace7ae8c11946fe1bdc",
+        "title": "Respons Cepat Polisi, Pelaku Penganiayaan di Rendani Ditangkap - papuadalamberita.com",
+        "url": "https://papuadalamberita.com/respons-cepat-polisi-pelaku-penganiayaan-di-rendani-ditangkap/",
+        "source": "papuadalamberita.com",
+        "published_at": "2026-10-24T20:56:05+00:00",
+        "collected_at": "2026-10-24T22:30:50.417477+00:00",
+        "region": "BELUM TERPETAKAN",
+        "area_label": "BELUM TERPETAKAN",
+        "is_jatim": null,
+        "polres": null,
+        "category": "UNGKAP KASUS / PENINDAKAN",
+        "scope": "case",
+        "scope_label": "Ungkap Kasus",
+        "priority": "low",
+        "summary": "Respons Cepat Polisi, Pelaku Penganiayaan di Rendani Ditangkap papuadalamberita.com",
+        "processing_status": "processed",
+        "classifier_version": "contextual-v1.1",
+        "classified_at": "2026-10-24T22:33:20.551402+00:00",
+        "case_id": "CASE-003107",
+        "discovery_families": [],
+        "discovery_tags": [],
+        "discovery_hits": [],
+        "discovery_version": "discovery-v6",
+        "google_news_url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQVHpwakdySWN0b3NFb1A3bkI0cndnVDhWUi1RRVNreVR5Wm9OTTFybzQwd1VieklOVm82ZmtUSEdyLU9vU1RjdXlCd0ZtZUpRcFhBbDFuNTdpWHpuTTVMSzdyR0FuYkstQjN1VDdfMW82SWZpNjN6WG82ci1FQzBoNFM4UUw2ZTN5OUxsSm9RbXRuSHAzSEE?oc=5",
+        "original_url": "https://papuadalamberita.com/respons-cepat-polisi-pelaku-penganiayaan-di-rendani-ditangkap/",
+        "canonical_url": "https://papuadalamberita.com/respons-cepat-polisi-pelaku-penganiayaan-di-rendani-ditangkap",
+        "duplicate_article": false,
+        "locality": "",
+        "polsek": null,
+        "location_confidence": 0,
+        "location_evidence": [],
+        "location_status": "BELUM_TERPETAKAN",
+        "location_source": "title_description",
+        "sentiment": "positive",
+        "sentiment_label": "Positif",
+        "issue_type": "KEKERASAN_DAN_KEKUATAN",
+        "issue_subtype": "Kekerasan / Penggunaan Kekuatan",
+        "issue_evidence": [
+          "penganiayaan"
+        ],
+        "polri_relation": "PENEGAKAN_HUKUM",
+        "polri_relation_evidence": [
+          "Polri berperan sebagai pihak penindak"
+        ],
+        "handling_status": "BELUM_ADA_INFORMASI",
+        "handling_evidence": [],
+        "assertion_status": "FACTUAL",
+        "assertion_confidence": 75,
+        "assertion_evidence": [],
+        "attention_score": 39,
+        "attention_label": "Rendah",
+        "attention_components": {
+          "severity": 28,
+          "polri_relation": 0,
+          "authority": 0,
+          "public_impact": 4,
+          "handling": 0,
+          "evidence": 1,
+          "context_risk": 0,
+          "routine_enforcement_cap": null
+        },
+        "attention_evidence": {
+          "severity": [],
+          "authority": [],
+          "public_impact": [],
+          "evidence": [
+            "satu sumber / informasi awal"
+          ],
+          "role": [],
+          "issue": [
+            "penganiayaan"
+          ],
+          "handling": [],
+          "context": [],
+          "positive": []
+        },
+        "attention_reasons": [
+          "Polri berperan sebagai pihak penindak",
+          "tidak ditemukan indikator utama misconduct oleh personel"
+        ],
+        "contextual_flags": {
+          "explicit_polri_subject": false,
+          "explicit_polri_enforcer": true,
+          "polri_victim": false,
+          "service_negative": false,
+          "misconduct_signal": true,
+          "direct_positive_enforcement": false
+        },
+        "analysis_engine_version": "contextual-v1.1",
+        "location_engine_version": "location-v2-title-snippet-source",
+        "case_engine_version": "case-v6.5.4",
+        "case_processed_at": "2026-10-24T22:36:02.881055+00:00"
+      },
+      {
+        "id": "c20e2cadb9bacb3982af566ca6f9dc6db827f300",
+        "title": "Alami Sesak Napas di Kapal, Satpolairud Polres Gresik Bantu Evakuasi ABK ke Rumah Sakit - memorandum.disway.id - Memorandum.co.id",
+        "url": "https://memorandum.disway.id/polres-gresik/read/173005/alami-sesak-napas-di-kapal-satpolairud-polres-gresik-bantu-evakuasi-abk-ke-rumah-sakit",
+        "source": "Memorandum.co.id",
+        "published_at": "2026-10-24T20:19:00+00:00",
+        "collected_at": "2026-10-24T22:30:50.417477+00:00",
+        "region": "Jawa Timur",
+        "area_label": "Gresik",
+        "is_jatim": true,
+        "polres": "POLRES GRESIK",
+        "category": "NETRAL / LAINNYA",
+        "scope": "neutral",
+        "scope_label": "Netral",
+        "priority": "low",
+        "summary": "Alami Sesak Napas di Kapal, Satpolairud Polres Gresik Bantu Evakuasi ABK ke Rumah Sakit - memorandum.disway.id Memorandum.co.id",
+        "processing_status": "processed",
+        "classifier_version": "contextual-v1.1",
+        "classified_at": "2026-10-24T22:33:20.581189+00:00",
+        "case_id": null,
+        "discovery_families": [],
+        "discovery_tags": [],
+        "discovery_hits": [],
+        "discovery_version": "discovery-v6",
+        "google_news_url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxNM1VLTFk5aHQxSXJPNlh1T0ViTm4xMU1iTVpDMS15LWQ4YjIyNU5zUnF3RjRSQ0dtQnRfWDFvNFV3ZWM0Rmxna291LTFIOVg4NWkyODBMNXAwR2k3SnpfamhBSnJ5Q0Fyd29PSUhUTnB6a1BnY0F5MlVncmpiX3RlanZvQmdsVDZ4bjF6N1hWbzc2bFFtSGlXaEZPRVV0ZG9CRnp2MlJ6ZEY1MlVvUjktM0FOTGNRNFE1Q2xwZl9uS2NVYUxWaGl0dUZHbG1nemQtR3ZCamNGWTLSAcQBQVVfeXFMT0xJM2hQWlhRRWR2ajRER1lqZTl2bUJydWcyaDVubmVfcFpVdnBnVnFNZ1hRcEVJRUo4RVFrcHdHX3JxVzg1eV9pOHh0ZWpYVktHc1p4YzI0Y1BkTHd2VUVTeHJuMkRNQnJEU0pSdGN6a0hGZzFaNElCS1dla1RLVC0zVENGMWFGZ0RUdmFuMFlISWtGaVU4UFFRcHc0NXUwMkFTeG85cEVEWEF6WUY1RlBLamF2R1JYdTRpLWRzYzZQVnpYeQ?oc=5",
+        "original_url": "https://memorandum.disway.id/polres-gresik/read/173005/alami-sesak-napas-di-kapal-satpolairud-polres-gresik-bantu-evakuasi-abk-ke-rumah-sakit",
+        "canonical_url": "https://memorandum.disway.id/polres-gresik/read/173005/alami-sesak-napas-di-kapal-satpolairud-polres-gresik-bantu-evakuasi-abk-ke-rumah-sakit",
+        "duplicate_article": false,
+        "locality": "Gresik",
+        "polsek": null,
+        "location_confidence": 100,
+        "location_evidence": [
+          "polres gresik",
+          "Gresik"
+        ],
+        "location_status": "JAWA_TIMUR",
+        "location_source": "master_entity",
+        "sentiment": "neutral",
+        "sentiment_label": "Netral",
+        "issue_type": "UMUM",
+        "issue_subtype": "Belum Teridentifikasi",
+        "issue_evidence": [],
+        "polri_relation": "INFORMASI_UMUM",
+        "polri_relation_evidence": [
+          "Hubungan Polri belum spesifik"
+        ],
+        "handling_status": "BELUM_ADA_INFORMASI",
+        "handling_evidence": [],
+        "assertion_status": "FACTUAL",
+        "assertion_confidence": 75,
+        "assertion_evidence": [],
+        "attention_score": 7,
+        "attention_label": "Rendah",
+        "attention_components": {
+          "severity": 2,
+          "polri_relation": 0,
+          "authority": 0,
+          "public_impact": 4,
+          "handling": 0,
+          "evidence": 1,
+          "context_risk": 0,
+          "routine_enforcement_cap": null
+        },
+        "attention_evidence": {
+          "severity": [],
+          "authority": [],
+          "public_impact": [],
+          "evidence": [
+            "satu sumber / informasi awal"
+          ],
+          "role": [],
+          "issue": [],
+          "handling": [],
+          "context": [],
+          "positive": []
+        },
+        "attention_reasons": [
+          "sifat berita: netral",
+          "Hubungan Polri belum spesifik"
+        ],
+        "contextual_flags": {
+          "explicit_polri_subject": false,
+          "explicit_polri_enforcer": false,
+          "polri_victim": false,
+          "service_negative": false,
+          "misconduct_signal": false,
+          "direct_positive_enforcement": false
+        },
+        "analysis_engine_version": "contextual-v1.1",
+        "location_engine_version": "location-v2-title-snippet-source",
+        "case_engine_version": "case-v6.5.4",
+        "case_processed_at": "2026-10-24T22:35:38.490122+00:00"
+      },
+      {
+        "id": "b327045f142f9dada499152898820d6615121fff",
+        "title": "Tekan Peredaran Narkotika, Polres Pelabuhan Tanjung Perak Gelar KRYD, Sasar Rumah Kos - TargetNews.ID",
+        "url": "https://targetnews.id/2026/10/25/tekan-peredaran-narkotika-polres-pelabuhan-tanjung-perak-gelar-kryd-sasar-rumah-kos/",
+        "source": "TargetNews.ID",
+        "published_at": "2026-10-24T19:45:00+00:00",
+        "collected_at": "2026-10-24T22:30:50.417477+00:00",
+        "region": "Jawa Timur",
+        "area_label": "Surabaya",
+        "is_jatim": true,
+        "polres": "POLRES PELABUHAN TANJUNG PERAK",
+        "category": "NETRAL / PERISTIWA",
+        "scope": "neutral",
+        "scope_label": "Netral",
+        "priority": "low",
+        "summary": "Tekan Peredaran Narkotika, Polres Pelabuhan Tanjung Perak Gelar KRYD, Sasar Rumah Kos TargetNews.ID",
+        "processing_status": "processed",
+        "classifier_version": "contextual-v1.1",
+        "classified_at": "2026-10-24T22:33:20.609544+00:00",
+        "case_id": null,
+        "discovery_families": [],
+        "discovery_tags": [],
+        "discovery_hits": [],
+        "discovery_version": "discovery-v6",
+        "google_news_url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPQmVVY0ZtMF9Hc3A5NDYyaGxYSEd3R1dlQ2ZxNXVfaWJfWnliOGMzcGNydjNJOEFZT3ZNSGpyMjEwUUMzeDBSN2hrZEJqa09EWHFPVTBKX1Q5TVZ6NHlYSkc2anRUTWNXNHRTeFhXZzB5RUpDV1RjU3RPVWIwMjRpaDF4bUdSaGtLWS1tTWxIaHZzZTk0TGVPdEdXbzA0NnREMlJnOThSR0pXc1dwa3RVN2dxUDBnRUxQ?oc=5",
+        "original_url": "https://targetnews.id/2026/10/25/tekan-peredaran-narkotika-polres-pelabuhan-tanjung-perak-gelar-kryd-sasar-rumah-kos/",
+        "canonical_url": "https://targetnews.id/2026/10/25/tekan-peredaran-narkotika-polres-pelabuhan-tanjung-perak-gelar-kryd-sasar-rumah-kos",
+        "duplicate_article": false,
+        "locality": "Surabaya",
+        "polsek": null,
+        "location_confidence": 100,
+        "location_evidence": [
+          "polres pelabuhan tanjung perak",
+          "Surabaya"
+        ],
+        "location_status": "JAWA_TIMUR",
+        "location_source": "master_entity",
+        "sentiment": "neutral",
+        "sentiment_label": "Netral",
+        "issue_type": "NARKOBA",
+        "issue_subtype": "Narkoba / Narkotika",
+        "issue_evidence": [
+          "narkotika"
+        ],
+        "polri_relation": "INFORMASI_UMUM",
+        "polri_relation_evidence": [
+          "Hubungan Polri belum spesifik"
+        ],
+        "handling_status": "BELUM_ADA_INFORMASI",
+        "handling_evidence": [],
+        "assertion_status": "FACTUAL",
+        "assertion_confidence": 75,
+        "assertion_evidence": [],
+        "attention_score": 16,
+        "attention_label": "Rendah",
+        "attention_components": {
+          "severity": 11,
+          "polri_relation": 0,
+          "authority": 0,
+          "public_impact": 4,
+          "handling": 0,
+          "evidence": 1,
+          "context_risk": 0,
+          "routine_enforcement_cap": null
+        },
+        "attention_evidence": {
+          "severity": [],
+          "authority": [],
+          "public_impact": [],
+          "evidence": [
+            "satu sumber / informasi awal"
+          ],
+          "role": [],
+          "issue": [
+            "narkotika"
+          ],
+          "handling": [],
+          "context": [],
+          "positive": []
+        },
+        "attention_reasons": [
+          "isu/peristiwa ditemukan tetapi relasi Polri sebagai pihak bermasalah tidak cukup kuat"
+        ],
+        "contextual_flags": {
+          "explicit_polri_subject": false,
+          "explicit_polri_enforcer": false,
+          "polri_victim": false,
+          "service_negative": false,
+          "misconduct_signal": false,
+          "direct_positive_enforcement": false
+        },
+        "analysis_engine_version": "contextual-v1.1",
+        "location_engine_version": "location-v2-title-snippet-source",
+        "case_engine_version": "case-v6.5.4",
+        "case_processed_at": "2026-10-24T22:35:38.495112+00:00"
+      },
+      {
         "id": "35212d9e3828425efc29a338854c1e4e3bc91f86",
         "title": "Mendadak Sesak Napas di Kapal, Satpolairud Polres Gresik Bantu Evakuasi ABK ke Rumah Sakit - Nusantara Abadi News",
         "url": "https://nusantaraabadinews.com/2026/10/24/mendadak-sesak-napas-di-kapal-satpolairud-polres-gresik-bantu-evakuasi-abk-ke-rumah-sakit/",
@@ -43,7 +329,7 @@
         "summary": "Mendadak Sesak Napas di Kapal, Satpolairud Polres Gresik Bantu Evakuasi ABK ke Rumah Sakit Nusantara Abadi News",
         "processing_status": "processed",
         "classifier_version": "contextual-v1.1",
-        "classified_at": "2026-10-24T19:33:32.805141+00:00",
+        "classified_at": "2026-10-24T22:33:20.638548+00:00",
         "case_id": null,
         "discovery_families": [],
         "discovery_tags": [],
@@ -116,7 +402,7 @@
         "analysis_engine_version": "contextual-v1.1",
         "location_engine_version": "location-v2-title-snippet-source",
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-10-24T19:36:28.322942+00:00"
+        "case_processed_at": "2026-10-24T22:35:38.500100+00:00"
       },
       {
         "id": "634373a72dfaaa3eaa6882c942e27ac0f27699df",
@@ -136,7 +422,7 @@
         "summary": "Tekan Balap Liar, Polrestabes Surabaya Gelar Hoofdbureau City Night Race – Kapolrestabes Surabaya Cup 2026 Nusantara Abadi News",
         "processing_status": "processed",
         "classifier_version": "contextual-v1.1",
-        "classified_at": "2026-10-24T19:33:32.845850+00:00",
+        "classified_at": "2026-10-24T22:33:20.669813+00:00",
         "case_id": null,
         "discovery_families": [],
         "discovery_tags": [],
@@ -209,7 +495,7 @@
         "analysis_engine_version": "contextual-v1.1",
         "location_engine_version": "location-v2-title-snippet-source",
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-10-24T19:36:28.328832+00:00"
+        "case_processed_at": "2026-10-24T22:35:38.505084+00:00"
       },
       {
         "id": "4a70795bb52e7988adf58495381e7fe41f6fb4d1",
@@ -229,7 +515,7 @@
         "summary": "Satlantas Polres Kediri Kota Intensifkan Patroli Blue Light di Ringin Sirah dan Simpang Lonceng Polres Kediri Kota",
         "processing_status": "processed",
         "classifier_version": "contextual-v1.1",
-        "classified_at": "2026-10-24T19:33:32.883242+00:00",
+        "classified_at": "2026-10-24T22:33:20.698992+00:00",
         "case_id": null,
         "discovery_families": [],
         "discovery_tags": [],
@@ -305,7 +591,7 @@
         "analysis_engine_version": "contextual-v1.1",
         "location_engine_version": "location-v2-title-snippet-source",
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-10-24T19:36:28.334542+00:00"
+        "case_processed_at": "2026-10-24T22:35:38.510058+00:00"
       },
       {
         "id": "8bfa6bac17f5808d15ef08c0ed43751bcf09224b",
@@ -325,7 +611,7 @@
         "summary": "Tekan Peredaran Narkotika, Polres Pelabuhan Tanjung Perak Gelar KRYD Sasar Rumah Kos Klikwarta.com",
         "processing_status": "processed",
         "classifier_version": "contextual-v1.1",
-        "classified_at": "2026-10-24T19:33:32.924224+00:00",
+        "classified_at": "2026-10-24T22:33:20.727240+00:00",
         "case_id": null,
         "discovery_families": [],
         "discovery_tags": [],
@@ -401,7 +687,7 @@
         "analysis_engine_version": "contextual-v1.1",
         "location_engine_version": "location-v2-title-snippet-source",
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-10-24T19:36:28.340086+00:00"
+        "case_processed_at": "2026-10-24T22:35:38.515147+00:00"
       },
       {
         "id": "9c9d3eb0d76c12783c479d2b0a5e327862ead435",
@@ -421,7 +707,7 @@
         "summary": "Dugaan Sabung Ayam di Boro Gragal Disorot, Polres Malang Didesak Lakukan Penelusuran SERGAP",
         "processing_status": "processed",
         "classifier_version": "contextual-v1.1",
-        "classified_at": "2026-10-24T19:33:32.966639+00:00",
+        "classified_at": "2026-10-24T22:33:20.755467+00:00",
         "case_id": null,
         "discovery_families": [
           "illegal_activity_backing"
@@ -505,7 +791,7 @@
         "analysis_engine_version": "contextual-v1.1",
         "location_engine_version": "location-v2-title-snippet-source",
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-10-24T19:36:28.346660+00:00"
+        "case_processed_at": "2026-10-24T22:35:38.520192+00:00"
       },
       {
         "id": "033ee440989f9cb1d0b3c4e97402b39d57f26a63",
@@ -525,7 +811,7 @@
         "summary": "Polisi Ciduk Warga Subulussalam Diduga Timbun Solar Subsidi RRI.co.id",
         "processing_status": "processed",
         "classifier_version": "contextual-v1.1",
-        "classified_at": "2026-10-24T19:33:33.003151+00:00",
+        "classified_at": "2026-10-24T22:33:20.783442+00:00",
         "case_id": "CASE-003104",
         "discovery_families": [
           "illegal_activity_backing"
@@ -615,7 +901,7 @@
         "analysis_engine_version": "contextual-v1.1",
         "location_engine_version": "location-v2-title-snippet-source",
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-10-24T19:36:55.288338+00:00"
+        "case_processed_at": "2026-10-24T22:36:02.881063+00:00"
       },
       {
         "id": "e4104b72f4f603d7506f44f317a9db37b00097cc",
@@ -635,7 +921,7 @@
         "summary": "Razia Gabungan di Sumedang, Polisi Amankan Perempuan Positif Narkotika dan Sita 200 Botol Miras Harapan Rakyat",
         "processing_status": "processed",
         "classifier_version": "contextual-v1.1",
-        "classified_at": "2026-10-24T19:33:33.042789+00:00",
+        "classified_at": "2026-10-24T22:33:20.813453+00:00",
         "case_id": "CASE-003105",
         "discovery_families": [
           "illegal_activity_backing"
@@ -721,7 +1007,7 @@
         "analysis_engine_version": "contextual-v1.1",
         "location_engine_version": "location-v2-title-snippet-source",
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-10-24T19:36:55.288343+00:00"
+        "case_processed_at": "2026-10-24T22:36:02.881066+00:00"
       },
       {
         "id": "a501e1f0db1be09667b3fc2da9c11510d689d807",
@@ -741,7 +1027,7 @@
         "summary": "Polisi Tangkap Lima Pelaku Pemerasan Terapis Pijat di Johar Baru شبكة تواصل الإخبارية",
         "processing_status": "processed",
         "classifier_version": "contextual-v1.1",
-        "classified_at": "2026-10-24T19:33:33.081037+00:00",
+        "classified_at": "2026-10-24T22:33:20.844090+00:00",
         "case_id": "CASE-003106",
         "discovery_families": [
           "financial_misconduct"
@@ -822,7 +1108,7 @@
         "analysis_engine_version": "contextual-v1.1",
         "location_engine_version": "location-v2-title-snippet-source",
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-10-24T19:36:55.288345+00:00"
+        "case_processed_at": "2026-10-24T22:36:02.881068+00:00"
       },
       {
         "id": "85dbf2e9dd038a09f5b14632315b97df921aa65b",
@@ -842,7 +1128,7 @@
         "summary": "Karhutla Tahura Raden Soerjo Padam, 55 Personel Brimob Mojokerto Jalani Pemeriksaan Kesehatan beritajatim.com",
         "processing_status": "processed",
         "classifier_version": "contextual-v1.1",
-        "classified_at": "2026-10-24T19:33:33.120986+00:00",
+        "classified_at": "2026-10-24T22:33:20.874337+00:00",
         "case_id": null,
         "discovery_families": [],
         "discovery_tags": [],
@@ -915,11 +1201,200 @@
         "analysis_engine_version": "contextual-v1.1",
         "location_engine_version": "location-v2-title-snippet-source",
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-10-24T19:36:28.353871+00:00"
+        "case_processed_at": "2026-10-24T22:35:38.525873+00:00"
       }
     ],
     "jatim_items": [
       {
+        "id": "c20e2cadb9bacb3982af566ca6f9dc6db827f300",
+        "title": "Alami Sesak Napas di Kapal, Satpolairud Polres Gresik Bantu Evakuasi ABK ke Rumah Sakit - memorandum.disway.id - Memorandum.co.id",
+        "url": "https://memorandum.disway.id/polres-gresik/read/173005/alami-sesak-napas-di-kapal-satpolairud-polres-gresik-bantu-evakuasi-abk-ke-rumah-sakit",
+        "source": "Memorandum.co.id",
+        "published_at": "2026-10-24T20:19:00+00:00",
+        "collected_at": "2026-10-24T22:30:50.417477+00:00",
+        "region": "Jawa Timur",
+        "area_label": "Gresik",
+        "is_jatim": true,
+        "polres": "POLRES GRESIK",
+        "category": "NETRAL / LAINNYA",
+        "scope": "neutral",
+        "scope_label": "Netral",
+        "priority": "low",
+        "summary": "Alami Sesak Napas di Kapal, Satpolairud Polres Gresik Bantu Evakuasi ABK ke Rumah Sakit - memorandum.disway.id Memorandum.co.id",
+        "processing_status": "processed",
+        "classifier_version": "contextual-v1.1",
+        "classified_at": "2026-10-24T22:33:20.581189+00:00",
+        "case_id": null,
+        "discovery_families": [],
+        "discovery_tags": [],
+        "discovery_hits": [],
+        "discovery_version": "discovery-v6",
+        "google_news_url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxNM1VLTFk5aHQxSXJPNlh1T0ViTm4xMU1iTVpDMS15LWQ4YjIyNU5zUnF3RjRSQ0dtQnRfWDFvNFV3ZWM0Rmxna291LTFIOVg4NWkyODBMNXAwR2k3SnpfamhBSnJ5Q0Fyd29PSUhUTnB6a1BnY0F5MlVncmpiX3RlanZvQmdsVDZ4bjF6N1hWbzc2bFFtSGlXaEZPRVV0ZG9CRnp2MlJ6ZEY1MlVvUjktM0FOTGNRNFE1Q2xwZl9uS2NVYUxWaGl0dUZHbG1nemQtR3ZCamNGWTLSAcQBQVVfeXFMT0xJM2hQWlhRRWR2ajRER1lqZTl2bUJydWcyaDVubmVfcFpVdnBnVnFNZ1hRcEVJRUo4RVFrcHdHX3JxVzg1eV9pOHh0ZWpYVktHc1p4YzI0Y1BkTHd2VUVTeHJuMkRNQnJEU0pSdGN6a0hGZzFaNElCS1dla1RLVC0zVENGMWFGZ0RUdmFuMFlISWtGaVU4UFFRcHc0NXUwMkFTeG85cEVEWEF6WUY1RlBLamF2R1JYdTRpLWRzYzZQVnpYeQ?oc=5",
+        "original_url": "https://memorandum.disway.id/polres-gresik/read/173005/alami-sesak-napas-di-kapal-satpolairud-polres-gresik-bantu-evakuasi-abk-ke-rumah-sakit",
+        "canonical_url": "https://memorandum.disway.id/polres-gresik/read/173005/alami-sesak-napas-di-kapal-satpolairud-polres-gresik-bantu-evakuasi-abk-ke-rumah-sakit",
+        "duplicate_article": false,
+        "locality": "Gresik",
+        "polsek": null,
+        "location_confidence": 100,
+        "location_evidence": [
+          "polres gresik",
+          "Gresik"
+        ],
+        "location_status": "JAWA_TIMUR",
+        "location_source": "master_entity",
+        "sentiment": "neutral",
+        "sentiment_label": "Netral",
+        "issue_type": "UMUM",
+        "issue_subtype": "Belum Teridentifikasi",
+        "issue_evidence": [],
+        "polri_relation": "INFORMASI_UMUM",
+        "polri_relation_evidence": [
+          "Hubungan Polri belum spesifik"
+        ],
+        "handling_status": "BELUM_ADA_INFORMASI",
+        "handling_evidence": [],
+        "assertion_status": "FACTUAL",
+        "assertion_confidence": 75,
+        "assertion_evidence": [],
+        "attention_score": 7,
+        "attention_label": "Rendah",
+        "attention_components": {
+          "severity": 2,
+          "polri_relation": 0,
+          "authority": 0,
+          "public_impact": 4,
+          "handling": 0,
+          "evidence": 1,
+          "context_risk": 0,
+          "routine_enforcement_cap": null
+        },
+        "attention_evidence": {
+          "severity": [],
+          "authority": [],
+          "public_impact": [],
+          "evidence": [
+            "satu sumber / informasi awal"
+          ],
+          "role": [],
+          "issue": [],
+          "handling": [],
+          "context": [],
+          "positive": []
+        },
+        "attention_reasons": [
+          "sifat berita: netral",
+          "Hubungan Polri belum spesifik"
+        ],
+        "contextual_flags": {
+          "explicit_polri_subject": false,
+          "explicit_polri_enforcer": false,
+          "polri_victim": false,
+          "service_negative": false,
+          "misconduct_signal": false,
+          "direct_positive_enforcement": false
+        },
+        "analysis_engine_version": "contextual-v1.1",
+        "location_engine_version": "location-v2-title-snippet-source",
+        "case_engine_version": "case-v6.5.4",
+        "case_processed_at": "2026-10-24T22:35:38.490122+00:00"
+      },
+      {
+        "id": "b327045f142f9dada499152898820d6615121fff",
+        "title": "Tekan Peredaran Narkotika, Polres Pelabuhan Tanjung Perak Gelar KRYD, Sasar Rumah Kos - TargetNews.ID",
+        "url": "https://targetnews.id/2026/10/25/tekan-peredaran-narkotika-polres-pelabuhan-tanjung-perak-gelar-kryd-sasar-rumah-kos/",
+        "source": "TargetNews.ID",
+        "published_at": "2026-10-24T19:45:00+00:00",
+        "collected_at": "2026-10-24T22:30:50.417477+00:00",
+        "region": "Jawa Timur",
+        "area_label": "Surabaya",
+        "is_jatim": true,
+        "polres": "POLRES PELABUHAN TANJUNG PERAK",
+        "category": "NETRAL / PERISTIWA",
+        "scope": "neutral",
+        "scope_label": "Netral",
+        "priority": "low",
+        "summary": "Tekan Peredaran Narkotika, Polres Pelabuhan Tanjung Perak Gelar KRYD, Sasar Rumah Kos TargetNews.ID",
+        "processing_status": "processed",
+        "classifier_version": "contextual-v1.1",
+        "classified_at": "2026-10-24T22:33:20.609544+00:00",
+        "case_id": null,
+        "discovery_families": [],
+        "discovery_tags": [],
+        "discovery_hits": [],
+        "discovery_version": "discovery-v6",
+        "google_news_url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPQmVVY0ZtMF9Hc3A5NDYyaGxYSEd3R1dlQ2ZxNXVfaWJfWnliOGMzcGNydjNJOEFZT3ZNSGpyMjEwUUMzeDBSN2hrZEJqa09EWHFPVTBKX1Q5TVZ6NHlYSkc2anRUTWNXNHRTeFhXZzB5RUpDV1RjU3RPVWIwMjRpaDF4bUdSaGtLWS1tTWxIaHZzZTk0TGVPdEdXbzA0NnREMlJnOThSR0pXc1dwa3RVN2dxUDBnRUxQ?oc=5",
+        "original_url": "https://targetnews.id/2026/10/25/tekan-peredaran-narkotika-polres-pelabuhan-tanjung-perak-gelar-kryd-sasar-rumah-kos/",
+        "canonical_url": "https://targetnews.id/2026/10/25/tekan-peredaran-narkotika-polres-pelabuhan-tanjung-perak-gelar-kryd-sasar-rumah-kos",
+        "duplicate_article": false,
+        "locality": "Surabaya",
+        "polsek": null,
+        "location_confidence": 100,
+        "location_evidence": [
+          "polres pelabuhan tanjung perak",
+          "Surabaya"
+        ],
+        "location_status": "JAWA_TIMUR",
+        "location_source": "master_entity",
+        "sentiment": "neutral",
+        "sentiment_label": "Netral",
+        "issue_type": "NARKOBA",
+        "issue_subtype": "Narkoba / Narkotika",
+        "issue_evidence": [
+          "narkotika"
+        ],
+        "polri_relation": "INFORMASI_UMUM",
+        "polri_relation_evidence": [
+          "Hubungan Polri belum spesifik"
+        ],
+        "handling_status": "BELUM_ADA_INFORMASI",
+        "handling_evidence": [],
+        "assertion_status": "FACTUAL",
+        "assertion_confidence": 75,
+        "assertion_evidence": [],
+        "attention_score": 16,
+        "attention_label": "Rendah",
+        "attention_components": {
+          "severity": 11,
+          "polri_relation": 0,
+          "authority": 0,
+          "public_impact": 4,
+          "handling": 0,
+          "evidence": 1,
+          "context_risk": 0,
+          "routine_enforcement_cap": null
+        },
+        "attention_evidence": {
+          "severity": [],
+          "authority": [],
+          "public_impact": [],
+          "evidence": [
+            "satu sumber / informasi awal"
+          ],
+          "role": [],
+          "issue": [
+            "narkotika"
+          ],
+          "handling": [],
+          "context": [],
+          "positive": []
+        },
+        "attention_reasons": [
+          "isu/peristiwa ditemukan tetapi relasi Polri sebagai pihak bermasalah tidak cukup kuat"
+        ],
+        "contextual_flags": {
+          "explicit_polri_subject": false,
+          "explicit_polri_enforcer": false,
+          "polri_victim": false,
+          "service_negative": false,
+          "misconduct_signal": false,
+          "direct_positive_enforcement": false
+        },
+        "analysis_engine_version": "contextual-v1.1",
+        "location_engine_version": "location-v2-title-snippet-source",
+        "case_engine_version": "case-v6.5.4",
+        "case_processed_at": "2026-10-24T22:35:38.495112+00:00"
+      },
+      {
         "id": "35212d9e3828425efc29a338854c1e4e3bc91f86",
         "title": "Mendadak Sesak Napas di Kapal, Satpolairud Polres Gresik Bantu Evakuasi ABK ke Rumah Sakit - Nusantara Abadi News",
         "url": "https://nusantaraabadinews.com/2026/10/24/mendadak-sesak-napas-di-kapal-satpolairud-polres-gresik-bantu-evakuasi-abk-ke-rumah-sakit/",
@@ -937,7 +1412,7 @@
         "summary": "Mendadak Sesak Napas di Kapal, Satpolairud Polres Gresik Bantu Evakuasi ABK ke Rumah Sakit Nusantara Abadi News",
         "processing_status": "processed",
         "classifier_version": "contextual-v1.1",
-        "classified_at": "2026-10-24T19:33:32.805141+00:00",
+        "classified_at": "2026-10-24T22:33:20.638548+00:00",
         "case_id": null,
         "discovery_families": [],
         "discovery_tags": [],
@@ -1010,7 +1485,7 @@
         "analysis_engine_version": "contextual-v1.1",
         "location_engine_version": "location-v2-title-snippet-source",
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-10-24T19:36:28.322942+00:00"
+        "case_processed_at": "2026-10-24T22:35:38.500100+00:00"
       },
       {
         "id": "634373a72dfaaa3eaa6882c942e27ac0f27699df",
@@ -1030,7 +1505,7 @@
         "summary": "Tekan Balap Liar, Polrestabes Surabaya Gelar Hoofdbureau City Night Race – Kapolrestabes Surabaya Cup 2026 Nusantara Abadi News",
         "processing_status": "processed",
         "classifier_version": "contextual-v1.1",
-        "classified_at": "2026-10-24T19:33:32.845850+00:00",
+        "classified_at": "2026-10-24T22:33:20.669813+00:00",
         "case_id": null,
         "discovery_families": [],
         "discovery_tags": [],
@@ -1103,7 +1578,7 @@
         "analysis_engine_version": "contextual-v1.1",
         "location_engine_version": "location-v2-title-snippet-source",
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-10-24T19:36:28.328832+00:00"
+        "case_processed_at": "2026-10-24T22:35:38.505084+00:00"
       },
       {
         "id": "4a70795bb52e7988adf58495381e7fe41f6fb4d1",
@@ -1123,7 +1598,7 @@
         "summary": "Satlantas Polres Kediri Kota Intensifkan Patroli Blue Light di Ringin Sirah dan Simpang Lonceng Polres Kediri Kota",
         "processing_status": "processed",
         "classifier_version": "contextual-v1.1",
-        "classified_at": "2026-10-24T19:33:32.883242+00:00",
+        "classified_at": "2026-10-24T22:33:20.698992+00:00",
         "case_id": null,
         "discovery_families": [],
         "discovery_tags": [],
@@ -1199,7 +1674,7 @@
         "analysis_engine_version": "contextual-v1.1",
         "location_engine_version": "location-v2-title-snippet-source",
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-10-24T19:36:28.334542+00:00"
+        "case_processed_at": "2026-10-24T22:35:38.510058+00:00"
       },
       {
         "id": "8bfa6bac17f5808d15ef08c0ed43751bcf09224b",
@@ -1219,7 +1694,7 @@
         "summary": "Tekan Peredaran Narkotika, Polres Pelabuhan Tanjung Perak Gelar KRYD Sasar Rumah Kos Klikwarta.com",
         "processing_status": "processed",
         "classifier_version": "contextual-v1.1",
-        "classified_at": "2026-10-24T19:33:32.924224+00:00",
+        "classified_at": "2026-10-24T22:33:20.727240+00:00",
         "case_id": null,
         "discovery_families": [],
         "discovery_tags": [],
@@ -1295,7 +1770,7 @@
         "analysis_engine_version": "contextual-v1.1",
         "location_engine_version": "location-v2-title-snippet-source",
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-10-24T19:36:28.340086+00:00"
+        "case_processed_at": "2026-10-24T22:35:38.515147+00:00"
       },
       {
         "id": "9c9d3eb0d76c12783c479d2b0a5e327862ead435",
@@ -1315,7 +1790,7 @@
         "summary": "Dugaan Sabung Ayam di Boro Gragal Disorot, Polres Malang Didesak Lakukan Penelusuran SERGAP",
         "processing_status": "processed",
         "classifier_version": "contextual-v1.1",
-        "classified_at": "2026-10-24T19:33:32.966639+00:00",
+        "classified_at": "2026-10-24T22:33:20.755467+00:00",
         "case_id": null,
         "discovery_families": [
           "illegal_activity_backing"
@@ -1399,7 +1874,7 @@
         "analysis_engine_version": "contextual-v1.1",
         "location_engine_version": "location-v2-title-snippet-source",
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-10-24T19:36:28.346660+00:00"
+        "case_processed_at": "2026-10-24T22:35:38.520192+00:00"
       },
       {
         "id": "85dbf2e9dd038a09f5b14632315b97df921aa65b",
@@ -1419,7 +1894,7 @@
         "summary": "Karhutla Tahura Raden Soerjo Padam, 55 Personel Brimob Mojokerto Jalani Pemeriksaan Kesehatan beritajatim.com",
         "processing_status": "processed",
         "classifier_version": "contextual-v1.1",
-        "classified_at": "2026-10-24T19:33:33.120986+00:00",
+        "classified_at": "2026-10-24T22:33:20.874337+00:00",
         "case_id": null,
         "discovery_families": [],
         "discovery_tags": [],
@@ -1492,10 +1967,104 @@
         "analysis_engine_version": "contextual-v1.1",
         "location_engine_version": "location-v2-title-snippet-source",
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-10-24T19:36:28.353871+00:00"
+        "case_processed_at": "2026-10-24T22:35:38.525873+00:00"
       }
     ],
     "luar_jatim_items": [
+      {
+        "id": "690a4d3368928a43f8043ace7ae8c11946fe1bdc",
+        "title": "Respons Cepat Polisi, Pelaku Penganiayaan di Rendani Ditangkap - papuadalamberita.com",
+        "url": "https://papuadalamberita.com/respons-cepat-polisi-pelaku-penganiayaan-di-rendani-ditangkap/",
+        "source": "papuadalamberita.com",
+        "published_at": "2026-10-24T20:56:05+00:00",
+        "collected_at": "2026-10-24T22:30:50.417477+00:00",
+        "region": "BELUM TERPETAKAN",
+        "area_label": "BELUM TERPETAKAN",
+        "is_jatim": null,
+        "polres": null,
+        "category": "UNGKAP KASUS / PENINDAKAN",
+        "scope": "case",
+        "scope_label": "Ungkap Kasus",
+        "priority": "low",
+        "summary": "Respons Cepat Polisi, Pelaku Penganiayaan di Rendani Ditangkap papuadalamberita.com",
+        "processing_status": "processed",
+        "classifier_version": "contextual-v1.1",
+        "classified_at": "2026-10-24T22:33:20.551402+00:00",
+        "case_id": "CASE-003107",
+        "discovery_families": [],
+        "discovery_tags": [],
+        "discovery_hits": [],
+        "discovery_version": "discovery-v6",
+        "google_news_url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQVHpwakdySWN0b3NFb1A3bkI0cndnVDhWUi1RRVNreVR5Wm9OTTFybzQwd1VieklOVm82ZmtUSEdyLU9vU1RjdXlCd0ZtZUpRcFhBbDFuNTdpWHpuTTVMSzdyR0FuYkstQjN1VDdfMW82SWZpNjN6WG82ci1FQzBoNFM4UUw2ZTN5OUxsSm9RbXRuSHAzSEE?oc=5",
+        "original_url": "https://papuadalamberita.com/respons-cepat-polisi-pelaku-penganiayaan-di-rendani-ditangkap/",
+        "canonical_url": "https://papuadalamberita.com/respons-cepat-polisi-pelaku-penganiayaan-di-rendani-ditangkap",
+        "duplicate_article": false,
+        "locality": "",
+        "polsek": null,
+        "location_confidence": 0,
+        "location_evidence": [],
+        "location_status": "BELUM_TERPETAKAN",
+        "location_source": "title_description",
+        "sentiment": "positive",
+        "sentiment_label": "Positif",
+        "issue_type": "KEKERASAN_DAN_KEKUATAN",
+        "issue_subtype": "Kekerasan / Penggunaan Kekuatan",
+        "issue_evidence": [
+          "penganiayaan"
+        ],
+        "polri_relation": "PENEGAKAN_HUKUM",
+        "polri_relation_evidence": [
+          "Polri berperan sebagai pihak penindak"
+        ],
+        "handling_status": "BELUM_ADA_INFORMASI",
+        "handling_evidence": [],
+        "assertion_status": "FACTUAL",
+        "assertion_confidence": 75,
+        "assertion_evidence": [],
+        "attention_score": 39,
+        "attention_label": "Rendah",
+        "attention_components": {
+          "severity": 28,
+          "polri_relation": 0,
+          "authority": 0,
+          "public_impact": 4,
+          "handling": 0,
+          "evidence": 1,
+          "context_risk": 0,
+          "routine_enforcement_cap": null
+        },
+        "attention_evidence": {
+          "severity": [],
+          "authority": [],
+          "public_impact": [],
+          "evidence": [
+            "satu sumber / informasi awal"
+          ],
+          "role": [],
+          "issue": [
+            "penganiayaan"
+          ],
+          "handling": [],
+          "context": [],
+          "positive": []
+        },
+        "attention_reasons": [
+          "Polri berperan sebagai pihak penindak",
+          "tidak ditemukan indikator utama misconduct oleh personel"
+        ],
+        "contextual_flags": {
+          "explicit_polri_subject": false,
+          "explicit_polri_enforcer": true,
+          "polri_victim": false,
+          "service_negative": false,
+          "misconduct_signal": true,
+          "direct_positive_enforcement": false
+        },
+        "analysis_engine_version": "contextual-v1.1",
+        "location_engine_version": "location-v2-title-snippet-source",
+        "case_engine_version": "case-v6.5.4",
+        "case_processed_at": "2026-10-24T22:36:02.881055+00:00"
+      },
       {
         "id": "033ee440989f9cb1d0b3c4e97402b39d57f26a63",
         "title": "Polisi Ciduk Warga Subulussalam Diduga Timbun Solar Subsidi - RRI.co.id",
@@ -1514,7 +2083,7 @@
         "summary": "Polisi Ciduk Warga Subulussalam Diduga Timbun Solar Subsidi RRI.co.id",
         "processing_status": "processed",
         "classifier_version": "contextual-v1.1",
-        "classified_at": "2026-10-24T19:33:33.003151+00:00",
+        "classified_at": "2026-10-24T22:33:20.783442+00:00",
         "case_id": "CASE-003104",
         "discovery_families": [
           "illegal_activity_backing"
@@ -1604,7 +2173,7 @@
         "analysis_engine_version": "contextual-v1.1",
         "location_engine_version": "location-v2-title-snippet-source",
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-10-24T19:36:55.288338+00:00"
+        "case_processed_at": "2026-10-24T22:36:02.881063+00:00"
       },
       {
         "id": "e4104b72f4f603d7506f44f317a9db37b00097cc",
@@ -1624,7 +2193,7 @@
         "summary": "Razia Gabungan di Sumedang, Polisi Amankan Perempuan Positif Narkotika dan Sita 200 Botol Miras Harapan Rakyat",
         "processing_status": "processed",
         "classifier_version": "contextual-v1.1",
-        "classified_at": "2026-10-24T19:33:33.042789+00:00",
+        "classified_at": "2026-10-24T22:33:20.813453+00:00",
         "case_id": "CASE-003105",
         "discovery_families": [
           "illegal_activity_backing"
@@ -1710,7 +2279,7 @@
         "analysis_engine_version": "contextual-v1.1",
         "location_engine_version": "location-v2-title-snippet-source",
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-10-24T19:36:55.288343+00:00"
+        "case_processed_at": "2026-10-24T22:36:02.881066+00:00"
       },
       {
         "id": "a501e1f0db1be09667b3fc2da9c11510d689d807",
@@ -1730,7 +2299,7 @@
         "summary": "Polisi Tangkap Lima Pelaku Pemerasan Terapis Pijat di Johar Baru شبكة تواصل الإخبارية",
         "processing_status": "processed",
         "classifier_version": "contextual-v1.1",
-        "classified_at": "2026-10-24T19:33:33.081037+00:00",
+        "classified_at": "2026-10-24T22:33:20.844090+00:00",
         "case_id": "CASE-003106",
         "discovery_families": [
           "financial_misconduct"
@@ -1811,20 +2380,21 @@
         "analysis_engine_version": "contextual-v1.1",
         "location_engine_version": "location-v2-title-snippet-source",
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-10-24T19:36:55.288345+00:00"
+        "case_processed_at": "2026-10-24T22:36:02.881068+00:00"
       }
     ]
   },
   "cases": {
-    "active": 3,
+    "active": 4,
     "priority_high": 0,
     "jatim": 0,
     "jatim_priority_high": 0,
-    "articles": 3,
+    "articles": 4,
     "case_ids": [
       "CASE-003104",
       "CASE-003105",
-      "CASE-003106"
+      "CASE-003106",
+      "CASE-003107"
     ],
     "items": [
       {
@@ -1902,7 +2472,7 @@
         ],
         "article_count": 1,
         "created_at": "2026-10-24T19:36:49.556204+00:00",
-        "updated_at": "2026-10-24T19:36:55.281682+00:00",
+        "updated_at": "2026-10-24T22:36:02.872577+00:00",
         "engine_version": "case-v6.5.4",
         "priority_score": 44,
         "priority_breakdown": {
@@ -2016,7 +2586,7 @@
         ],
         "article_count": 1,
         "created_at": "2026-10-24T19:36:49.566755+00:00",
-        "updated_at": "2026-10-24T19:36:55.284624+00:00",
+        "updated_at": "2026-10-24T22:36:02.875374+00:00",
         "engine_version": "case-v6.5.4",
         "priority_score": 19,
         "priority_breakdown": {
@@ -2124,7 +2694,7 @@
         ],
         "article_count": 1,
         "created_at": "2026-10-24T19:36:49.575866+00:00",
-        "updated_at": "2026-10-24T19:36:55.287577+00:00",
+        "updated_at": "2026-10-24T22:36:02.878099+00:00",
         "engine_version": "case-v6.5.4",
         "priority_score": 30,
         "priority_breakdown": {
@@ -2154,65 +2724,225 @@
             "Hubungan Polri belum spesifik"
           ]
         }
+      },
+      {
+        "case_id": "CASE-003107",
+        "title": "Respons Cepat Polisi, Pelaku Penganiayaan di Rendani Ditangkap - papuadalamberita.com",
+        "category": "UNGKAP KASUS / PENINDAKAN",
+        "scope": "case",
+        "region": "BELUM TERPETAKAN",
+        "locality": "",
+        "is_jatim": null,
+        "polres": null,
+        "polsek": null,
+        "priority": "low",
+        "attention_score": 34,
+        "attention_label": "Rendah",
+        "signature": "BELUM TERPETAKAN",
+        "incident_terms": [
+          "cepat",
+          "com",
+          "papuadalamberita",
+          "penganiayaan",
+          "rendani",
+          "respons"
+        ],
+        "event_terms": [
+          "penganiayaan"
+        ],
+        "location_terms": [],
+        "discovery_families": [],
+        "first_seen": "2026-10-24T20:56:05+00:00",
+        "last_seen": "2026-10-24T22:30:50.417477+00:00",
+        "last_detected_at": "2026-10-24T22:30:50.417477+00:00",
+        "article_ids": [
+          "690a4d3368928a43f8043ace7ae8c11946fe1bdc"
+        ],
+        "articles": [
+          {
+            "id": "690a4d3368928a43f8043ace7ae8c11946fe1bdc",
+            "title": "Respons Cepat Polisi, Pelaku Penganiayaan di Rendani Ditangkap - papuadalamberita.com",
+            "url": "https://papuadalamberita.com/respons-cepat-polisi-pelaku-penganiayaan-di-rendani-ditangkap/",
+            "published_at": "2026-10-24T20:56:05+00:00",
+            "collected_at": "2026-10-24T22:30:50.417477+00:00",
+            "source": "papuadalamberita.com",
+            "match_score": 1.0,
+            "priority": "low",
+            "scope": "case",
+            "category": "UNGKAP KASUS / PENINDAKAN",
+            "region": "BELUM TERPETAKAN",
+            "locality": "",
+            "is_jatim": false,
+            "polres": null,
+            "polsek": null,
+            "issue_type": "KEKERASAN_DAN_KEKUATAN",
+            "issue_subtype": "Kekerasan / Penggunaan Kekuatan",
+            "handling_status": "BELUM_ADA_INFORMASI",
+            "handling_evidence": [],
+            "polri_relation": "PENEGAKAN_HUKUM",
+            "polri_relation_points": 0,
+            "polri_relation_evidence": [
+              "Polri berperan sebagai pihak penindak"
+            ],
+            "attention_score": 39,
+            "attention_label": "Rendah",
+            "attention_components": {
+              "severity": 28,
+              "polri_relation": 0,
+              "authority": 0,
+              "public_impact": 4,
+              "handling": 0,
+              "evidence": 1,
+              "context_risk": 0,
+              "routine_enforcement_cap": null
+            }
+          }
+        ],
+        "article_count": 1,
+        "created_at": "2026-10-24T22:35:57.718569+00:00",
+        "updated_at": "2026-10-24T22:36:02.880263+00:00",
+        "engine_version": "case-v6.5.4",
+        "priority_score": 34,
+        "priority_breakdown": {
+          "severity": 28,
+          "polri_relation": 0,
+          "authority_context": 0,
+          "public_impact": 4,
+          "handling": 0,
+          "evidence": 1,
+          "spread": 0,
+          "escalation": 0,
+          "current_activity": 1,
+          "context_risk": 0
+        },
+        "priority_evidence": {
+          "unique_sources": 1,
+          "active_today_articles": 1,
+          "escalation": [],
+          "issue_type": "KEKERASAN_DAN_KEKUATAN",
+          "issue_subtype": "Kekerasan / Penggunaan Kekuatan",
+          "sentiment": "negative",
+          "polri_relation": "INFORMASI_UMUM",
+          "handling_status": "BELUM_ADA_INFORMASI",
+          "reasons": [
+            "sifat berita: negatif",
+            "sifat berita: negatif",
+            "Kekerasan / Penggunaan Kekuatan",
+            "Hubungan Polri belum spesifik"
+          ]
+        }
       }
     ],
     "jatim_items": []
   },
   "social": {
-    "detected": 28,
-    "jatim": 0,
-    "negative": 19,
-    "priority_high": 1,
+    "detected": 81,
+    "jatim": 6,
+    "negative": 48,
+    "priority_high": 20,
     "video_ids": [
+      "JS9c_1UQ6k8",
+      "p-J7WPHVTVY",
+      "hcd7E8hrmo0",
+      "ahefOFDkk14",
+      "GeOVH0fbcYs",
+      "ARwTS0jAlkM",
+      "EOi7SMdlbcU",
+      "bHASvssMjfA",
+      "DuA7I7AJq6k",
+      "QOAN08NAdf4",
+      "cMUPe4-IEl4",
       "D2MAkBPKZk4",
+      "GHw2-3kZiqU",
+      "-qEiwyITDh4",
+      "Pp71Vh72Kiw",
       "aawSR3FlcoQ",
+      "-fboBPndLWs",
+      "a1XmiproQJs",
       "yOs3o46hJ-o",
+      "68Rci1lU0K8",
       "LlzvuA1LWG8",
+      "JdIpv-b1TFo",
+      "izmBWksz0MM",
       "1eRUNSRqc7g",
+      "ghvMrAG3Goc",
+      "jQJQvooSbpE",
+      "GQha7QBasJw",
+      "wZYrj0IzHgs",
+      "FfH8BW9Z3LU",
+      "f-YN_3z-1Uk",
+      "S60luJN27mU",
       "t_zD-PXs4hA",
+      "Vljv3P94Mh8",
+      "0ZdC3sFslh8",
       "-EWGgQsqyXY",
+      "-lZ_5aty-MY",
+      "svUTnvYShW4",
+      "WnDCpTVy--o",
       "i8wb1S-zk8s",
       "wbtFBCr4vig",
+      "jFumO-bQtAI",
+      "qaUKcUwiv8E",
+      "DMpOC9mwpgQ",
+      "8J5ZTMwelyc",
+      "WfQNS2ypbMI",
       "KgVukTxT5qk",
       "OwXfhCOxmzg",
       "kkE1ZvVaSWU",
       "GQENtnaxqcI",
+      "7vnl_C5vnD4",
       "jztdQqjMdBc",
+      "07EGP5VD1B0",
+      "tyVf-L6wtDY",
+      "HhA-9B_0OG8",
+      "xfpWH5MV_10",
+      "1okalx0Wb68",
+      "TvWjbLpZuaY",
       "iPxrkwQp__8",
+      "cfIKUELAGL8",
+      "Ex1bFaoaYJE",
+      "-0rMkEmSito",
+      "45pNWi9QchI",
       "FK3X_Dy0Zzc",
       "450oGX_Zr7Y",
+      "1QPJQ6aNJm0",
       "MRN_LTePouI",
       "UpHrzF304lc",
       "Tpv_x5d4m7A",
       "8z4jJI4HR7U",
       "tpjUURMwgug",
       "Z0Wk6xDjVu0",
+      "BlkgU-bUK4g",
+      "JNxArHAPKJU",
       "BFvu72mQwV0",
       "fa-daGu1Shg",
+      "yET52-yhSmw",
+      "dqXL12LwyUU",
       "u2V9WhrdeSk",
+      "t5uu7ciB8B0",
       "0zfjaDOsiik",
       "Fz6b8HG2TAI"
     ]
   },
   "jatim": {
-    "news_today": 6,
+    "news_today": 8,
     "negative_today": 0,
     "positive_today": 0,
     "case_scope_today": 0,
-    "neutral_today": 6,
+    "neutral_today": 8,
     "case_today": 0,
     "case_high_active": 0,
     "article_high_today": 0,
-    "outside_jatim_today": 3
+    "outside_jatim_today": 4
   },
   "regions": [
     {
       "name": "Surabaya",
-      "count": 2
+      "count": 3
     },
     {
       "name": "Gresik",
-      "count": 1
+      "count": 2
     },
     {
       "name": "Kediri",
@@ -2230,7 +2960,11 @@
   "polres": [
     {
       "name": "POLRES GRESIK",
-      "count": 1
+      "count": 2
+    },
+    {
+      "name": "POLRES PELABUHAN TANJUNG PERAK",
+      "count": 2
     },
     {
       "name": "POLRESTABES SURABAYA",
@@ -2241,10 +2975,6 @@
       "count": 1
     },
     {
-      "name": "POLRES PELABUHAN TANJUNG PERAK",
-      "count": 1
-    },
-    {
       "name": "POLRES MALANG",
       "count": 1
     }
@@ -2252,27 +2982,27 @@
   "categories": [
     {
       "name": "NETRAL / LAINNYA",
-      "count": 4
+      "count": 5
     },
     {
       "name": "NETRAL / PERISTIWA",
-      "count": 2
+      "count": 3
     }
   ],
   "summary": {
-    "news_today": 9,
+    "news_today": 12,
     "negative_today": 1,
-    "cases_today": 3,
+    "cases_today": 4,
     "priority_high": 0,
     "article_priority_high": 0,
-    "jatim_news": 6,
+    "jatim_news": 8,
     "jatim_negative": 0,
     "jatim_positive": 0,
     "jatim_case_scope": 0,
-    "jatim_neutral": 6,
+    "jatim_neutral": 8,
     "jatim_cases_today": 0,
     "jatim_case_high_active": 0,
-    "luar_jatim_news": 3,
-    "youtube_today": 28
+    "luar_jatim_news": 4,
+    "youtube_today": 81
   }
 }
