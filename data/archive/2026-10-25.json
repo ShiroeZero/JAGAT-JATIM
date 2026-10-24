@@ -1,0 +1,2278 @@
+{
+  "schema_version": "today-v3",
+  "date": "2026-10-25",
+  "timezone": "Asia/Jakarta",
+  "updated_at": "2026-10-25T02:36:56.829888+07:00",
+  "last_successful_update": "2026-10-25T02:36:56.829888+07:00",
+  "news": {
+    "detected": 9,
+    "negative": 1,
+    "positive": 0,
+    "case": 2,
+    "neutral": 6,
+    "jatim": 6,
+    "luar_jatim": 3,
+    "priority_high": 0,
+    "article_ids": [
+      "35212d9e3828425efc29a338854c1e4e3bc91f86",
+      "634373a72dfaaa3eaa6882c942e27ac0f27699df",
+      "4a70795bb52e7988adf58495381e7fe41f6fb4d1",
+      "8bfa6bac17f5808d15ef08c0ed43751bcf09224b",
+      "9c9d3eb0d76c12783c479d2b0a5e327862ead435",
+      "033ee440989f9cb1d0b3c4e97402b39d57f26a63",
+      "e4104b72f4f603d7506f44f317a9db37b00097cc",
+      "a501e1f0db1be09667b3fc2da9c11510d689d807",
+      "85dbf2e9dd038a09f5b14632315b97df921aa65b"
+    ],
+    "items": [
+      {
+        "id": "35212d9e3828425efc29a338854c1e4e3bc91f86",
+        "title": "Mendadak Sesak Napas di Kapal, Satpolairud Polres Gresik Bantu Evakuasi ABK ke Rumah Sakit - Nusantara Abadi News",
+        "url": "https://nusantaraabadinews.com/2026/10/24/mendadak-sesak-napas-di-kapal-satpolairud-polres-gresik-bantu-evakuasi-abk-ke-rumah-sakit/",
+        "source": "Nusantara Abadi News",
+        "published_at": "2026-10-24T19:24:38+00:00",
+        "collected_at": "2026-10-24T19:30:56.054773+00:00",
+        "region": "Jawa Timur",
+        "area_label": "Gresik",
+        "is_jatim": true,
+        "polres": "POLRES GRESIK",
+        "category": "NETRAL / LAINNYA",
+        "scope": "neutral",
+        "scope_label": "Netral",
+        "priority": "low",
+        "summary": "Mendadak Sesak Napas di Kapal, Satpolairud Polres Gresik Bantu Evakuasi ABK ke Rumah Sakit Nusantara Abadi News",
+        "processing_status": "processed",
+        "classifier_version": "contextual-v1.1",
+        "classified_at": "2026-10-24T19:33:32.805141+00:00",
+        "case_id": null,
+        "discovery_families": [],
+        "discovery_tags": [],
+        "discovery_hits": [],
+        "discovery_version": "discovery-v6",
+        "google_news_url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPSWsycWpzZDdneE5SNUhJX3ZuUHlvVlBNMndRSkRzZmwzU29ZU0F5Tk5jTDJmQnVFNWpBMGhfWWNudFp6bmFDTkJPRDlQb050Mk1UUHg4TEdRZmo4YnZXN1Rlb0Y1eE11eU5jR2FuOEtCQnNzOXA4dkdLQmdKTExIQzI2eTRCTW5va2szenFmYW1EUkN1cGQ1TlpXeGxmNnk1U2NuOXZVUkd3UmhiR05acTNrSEEyd0dNSE1kQnZIeVE5eWVQZS1sRVpCQlY?oc=5",
+        "original_url": "https://nusantaraabadinews.com/2026/10/24/mendadak-sesak-napas-di-kapal-satpolairud-polres-gresik-bantu-evakuasi-abk-ke-rumah-sakit/",
+        "canonical_url": "https://nusantaraabadinews.com/2026/10/24/mendadak-sesak-napas-di-kapal-satpolairud-polres-gresik-bantu-evakuasi-abk-ke-rumah-sakit",
+        "duplicate_article": false,
+        "locality": "Gresik",
+        "polsek": null,
+        "location_confidence": 100,
+        "location_evidence": [
+          "polres gresik",
+          "Gresik"
+        ],
+        "location_status": "JAWA_TIMUR",
+        "location_source": "master_entity",
+        "sentiment": "neutral",
+        "sentiment_label": "Netral",
+        "issue_type": "UMUM",
+        "issue_subtype": "Belum Teridentifikasi",
+        "issue_evidence": [],
+        "polri_relation": "INFORMASI_UMUM",
+        "polri_relation_evidence": [
+          "Hubungan Polri belum spesifik"
+        ],
+        "handling_status": "BELUM_ADA_INFORMASI",
+        "handling_evidence": [],
+        "assertion_status": "FACTUAL",
+        "assertion_confidence": 75,
+        "assertion_evidence": [],
+        "attention_score": 7,
+        "attention_label": "Rendah",
+        "attention_components": {
+          "severity": 2,
+          "polri_relation": 0,
+          "authority": 0,
+          "public_impact": 4,
+          "handling": 0,
+          "evidence": 1,
+          "context_risk": 0,
+          "routine_enforcement_cap": null
+        },
+        "attention_evidence": {
+          "severity": [],
+          "authority": [],
+          "public_impact": [],
+          "evidence": [
+            "satu sumber / informasi awal"
+          ],
+          "role": [],
+          "issue": [],
+          "handling": [],
+          "context": [],
+          "positive": []
+        },
+        "attention_reasons": [
+          "sifat berita: netral",
+          "Hubungan Polri belum spesifik"
+        ],
+        "contextual_flags": {
+          "explicit_polri_subject": false,
+          "explicit_polri_enforcer": false,
+          "polri_victim": false,
+          "service_negative": false,
+          "misconduct_signal": false,
+          "direct_positive_enforcement": false
+        },
+        "analysis_engine_version": "contextual-v1.1",
+        "location_engine_version": "location-v2-title-snippet-source",
+        "case_engine_version": "case-v6.5.4",
+        "case_processed_at": "2026-10-24T19:36:28.322942+00:00"
+      },
+      {
+        "id": "634373a72dfaaa3eaa6882c942e27ac0f27699df",
+        "title": "Tekan Balap Liar, Polrestabes Surabaya Gelar Hoofdbureau City Night Race – Kapolrestabes Surabaya Cup 2026 - Nusantara Abadi News",
+        "url": "https://nusantaraabadinews.com/2026/10/24/tekan-balap-liar-polrestabes-surabaya-gelar-hoofdbureau-city-night-race-kapolrestabes-surabaya-cup-2026/",
+        "source": "Nusantara Abadi News",
+        "published_at": "2026-10-24T17:59:52+00:00",
+        "collected_at": "2026-10-24T19:30:56.054773+00:00",
+        "region": "Jawa Timur",
+        "area_label": "Surabaya",
+        "is_jatim": true,
+        "polres": "POLRESTABES SURABAYA",
+        "category": "NETRAL / LAINNYA",
+        "scope": "neutral",
+        "scope_label": "Netral",
+        "priority": "low",
+        "summary": "Tekan Balap Liar, Polrestabes Surabaya Gelar Hoofdbureau City Night Race – Kapolrestabes Surabaya Cup 2026 Nusantara Abadi News",
+        "processing_status": "processed",
+        "classifier_version": "contextual-v1.1",
+        "classified_at": "2026-10-24T19:33:32.845850+00:00",
+        "case_id": null,
+        "discovery_families": [],
+        "discovery_tags": [],
+        "discovery_hits": [],
+        "discovery_version": "discovery-v6",
+        "google_news_url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxOMFRaSnhLeW9nRjdrTFFkRVZaWm1DQ0xFc1pBMHJzTDZmcTN2bkQ4a0xldUY5WExKcWJjN3YxbXZJREZSUEVYMUI2bDRDM0FkcHNmLTN2ZFRsR2xhc0dIMWlKdmVoQnFEbEphOEhIbGhRaVlUMnk5MU40V3NBVWlKMFl5TWlOcGgzbXRCM2taUE1oUXFMZl9sT2pXczdPcWNfVXBwX0tJX3pyaXhsbWJhMlBOa1p4Qko5WGVwRkhyVUhCTWYwUk0waUV1YnpmU0Y1Z0ZTbHZCTDgtQk1rcGRv?oc=5",
+        "original_url": "https://nusantaraabadinews.com/2026/10/24/tekan-balap-liar-polrestabes-surabaya-gelar-hoofdbureau-city-night-race-kapolrestabes-surabaya-cup-2026/",
+        "canonical_url": "https://nusantaraabadinews.com/2026/10/24/tekan-balap-liar-polrestabes-surabaya-gelar-hoofdbureau-city-night-race-kapolrestabes-surabaya-cup-2026",
+        "duplicate_article": false,
+        "locality": "Surabaya",
+        "polsek": null,
+        "location_confidence": 100,
+        "location_evidence": [
+          "polrestabes surabaya",
+          "Surabaya"
+        ],
+        "location_status": "JAWA_TIMUR",
+        "location_source": "master_entity",
+        "sentiment": "neutral",
+        "sentiment_label": "Netral",
+        "issue_type": "UMUM",
+        "issue_subtype": "Belum Teridentifikasi",
+        "issue_evidence": [],
+        "polri_relation": "INFORMASI_UMUM",
+        "polri_relation_evidence": [
+          "Hubungan Polri belum spesifik"
+        ],
+        "handling_status": "BELUM_ADA_INFORMASI",
+        "handling_evidence": [],
+        "assertion_status": "FACTUAL",
+        "assertion_confidence": 75,
+        "assertion_evidence": [],
+        "attention_score": 7,
+        "attention_label": "Rendah",
+        "attention_components": {
+          "severity": 2,
+          "polri_relation": 0,
+          "authority": 0,
+          "public_impact": 4,
+          "handling": 0,
+          "evidence": 1,
+          "context_risk": 0,
+          "routine_enforcement_cap": null
+        },
+        "attention_evidence": {
+          "severity": [],
+          "authority": [],
+          "public_impact": [],
+          "evidence": [
+            "satu sumber / informasi awal"
+          ],
+          "role": [],
+          "issue": [],
+          "handling": [],
+          "context": [],
+          "positive": []
+        },
+        "attention_reasons": [
+          "sifat berita: netral",
+          "Hubungan Polri belum spesifik"
+        ],
+        "contextual_flags": {
+          "explicit_polri_subject": false,
+          "explicit_polri_enforcer": false,
+          "polri_victim": false,
+          "service_negative": false,
+          "misconduct_signal": false,
+          "direct_positive_enforcement": false
+        },
+        "analysis_engine_version": "contextual-v1.1",
+        "location_engine_version": "location-v2-title-snippet-source",
+        "case_engine_version": "case-v6.5.4",
+        "case_processed_at": "2026-10-24T19:36:28.328832+00:00"
+      },
+      {
+        "id": "4a70795bb52e7988adf58495381e7fe41f6fb4d1",
+        "title": "Satlantas Polres Kediri Kota Intensifkan Patroli Blue Light di Ringin Sirah dan Simpang Lonceng - Polres Kediri Kota",
+        "url": "https://polreskedirikota.com/satlantas-polres-kediri-kota-intensifkan-patroli-blue-light-di-ringin-sirah-dan-simpang-lonceng/",
+        "source": "Polres Kediri Kota",
+        "published_at": "2026-10-24T17:38:26+00:00",
+        "collected_at": "2026-10-24T19:30:56.054773+00:00",
+        "region": "Jawa Timur",
+        "area_label": "Kediri",
+        "is_jatim": true,
+        "polres": "POLRES KEDIRI KOTA",
+        "category": "NETRAL / LAINNYA",
+        "scope": "neutral",
+        "scope_label": "Netral",
+        "priority": "low",
+        "summary": "Satlantas Polres Kediri Kota Intensifkan Patroli Blue Light di Ringin Sirah dan Simpang Lonceng Polres Kediri Kota",
+        "processing_status": "processed",
+        "classifier_version": "contextual-v1.1",
+        "classified_at": "2026-10-24T19:33:32.883242+00:00",
+        "case_id": null,
+        "discovery_families": [],
+        "discovery_tags": [],
+        "discovery_hits": [],
+        "discovery_version": "discovery-v6",
+        "google_news_url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOckliM2tFRTBaTENNQUlEQWtDNTNWd0pDVXVWNHVnLXJYQ2ZYaE1DR2tGNVUtOFU4RzhuemV6blFyLVB6bXFvLW1jeGJWN3BkWG1tR2xlLTdvaXZYUjY1RTlrNm4zc1owTkN4WDVYWHdYZGtrdVozVU95WDRyWjRfcUpEQ2ppWkI4Z210V3c3VktFZUttM2JBc3V5THNlZGZqVUx5cTBYRWY1TmVRbXF3dU9nSDNiOWRMNWNDT0pVTTROVHM?oc=5",
+        "original_url": "https://polreskedirikota.com/satlantas-polres-kediri-kota-intensifkan-patroli-blue-light-di-ringin-sirah-dan-simpang-lonceng/",
+        "canonical_url": "https://polreskedirikota.com/satlantas-polres-kediri-kota-intensifkan-patroli-blue-light-di-ringin-sirah-dan-simpang-lonceng",
+        "duplicate_article": false,
+        "duplicate_group_id": "561425c1fa1ec5a0",
+        "locality": "Kediri",
+        "polsek": null,
+        "location_confidence": 100,
+        "location_evidence": [
+          "polres kediri kota",
+          "Kediri"
+        ],
+        "location_status": "JAWA_TIMUR",
+        "location_source": "master_entity",
+        "sentiment": "neutral",
+        "sentiment_label": "Netral",
+        "issue_type": "UMUM",
+        "issue_subtype": "Belum Teridentifikasi",
+        "issue_evidence": [],
+        "polri_relation": "INFORMASI_UMUM",
+        "polri_relation_evidence": [
+          "Hubungan Polri belum spesifik"
+        ],
+        "handling_status": "BELUM_ADA_INFORMASI",
+        "handling_evidence": [],
+        "assertion_status": "FACTUAL",
+        "assertion_confidence": 75,
+        "assertion_evidence": [],
+        "attention_score": 11,
+        "attention_label": "Rendah",
+        "attention_components": {
+          "severity": 2,
+          "polri_relation": 0,
+          "authority": 4,
+          "public_impact": 4,
+          "handling": 0,
+          "evidence": 1,
+          "context_risk": 0,
+          "routine_enforcement_cap": null
+        },
+        "attention_evidence": {
+          "severity": [],
+          "authority": [
+            "satlantas"
+          ],
+          "public_impact": [],
+          "evidence": [
+            "satu sumber / informasi awal"
+          ],
+          "role": [],
+          "issue": [],
+          "handling": [],
+          "context": [],
+          "positive": []
+        },
+        "attention_reasons": [
+          "sifat berita: netral",
+          "Hubungan Polri belum spesifik"
+        ],
+        "contextual_flags": {
+          "explicit_polri_subject": false,
+          "explicit_polri_enforcer": false,
+          "polri_victim": false,
+          "service_negative": false,
+          "misconduct_signal": false,
+          "direct_positive_enforcement": false
+        },
+        "analysis_engine_version": "contextual-v1.1",
+        "location_engine_version": "location-v2-title-snippet-source",
+        "case_engine_version": "case-v6.5.4",
+        "case_processed_at": "2026-10-24T19:36:28.334542+00:00"
+      },
+      {
+        "id": "8bfa6bac17f5808d15ef08c0ed43751bcf09224b",
+        "title": "Tekan Peredaran Narkotika, Polres Pelabuhan Tanjung Perak Gelar KRYD Sasar Rumah Kos - Klikwarta.com",
+        "url": "https://www.klikwarta.com/index.php/tekan-peredaran-narkotika-polres-pelabuhan-tanjung-perak-gelar-kryd-sasar-rumah-kos",
+        "source": "Klikwarta.com",
+        "published_at": "2026-10-24T17:15:02+00:00",
+        "collected_at": "2026-10-24T19:30:56.054773+00:00",
+        "region": "Jawa Timur",
+        "area_label": "Surabaya",
+        "is_jatim": true,
+        "polres": "POLRES PELABUHAN TANJUNG PERAK",
+        "category": "NETRAL / PERISTIWA",
+        "scope": "neutral",
+        "scope_label": "Netral",
+        "priority": "low",
+        "summary": "Tekan Peredaran Narkotika, Polres Pelabuhan Tanjung Perak Gelar KRYD Sasar Rumah Kos Klikwarta.com",
+        "processing_status": "processed",
+        "classifier_version": "contextual-v1.1",
+        "classified_at": "2026-10-24T19:33:32.924224+00:00",
+        "case_id": null,
+        "discovery_families": [],
+        "discovery_tags": [],
+        "discovery_hits": [],
+        "discovery_version": "discovery-v6",
+        "google_news_url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPZDE5YTRKb05IbHlJVWYwODlzbjRZUTdBZHR1T1VsUXZZTk9SSFJDOVVoUjNiRTNMUHdmMEplNGpuc3lzOUllZjdRcEtIemMxejJHakx2S1ZoV2JocE04enRiNlByTVZGZHNJSUozMUoyVlNSRWJMa3RseVpjWDhoOUc1Yk1vWThTQlhoeW1EYUs3WnVuYWtDSENjUlhRMU1ycF9ObkdteDlmc2FjMkdQVTRVWlczT292MUdv?oc=5",
+        "original_url": "https://www.klikwarta.com/index.php/tekan-peredaran-narkotika-polres-pelabuhan-tanjung-perak-gelar-kryd-sasar-rumah-kos",
+        "canonical_url": "https://klikwarta.com/index.php/tekan-peredaran-narkotika-polres-pelabuhan-tanjung-perak-gelar-kryd-sasar-rumah-kos",
+        "duplicate_article": false,
+        "locality": "Surabaya",
+        "polsek": null,
+        "location_confidence": 100,
+        "location_evidence": [
+          "polres pelabuhan tanjung perak",
+          "Surabaya"
+        ],
+        "location_status": "JAWA_TIMUR",
+        "location_source": "master_entity",
+        "sentiment": "neutral",
+        "sentiment_label": "Netral",
+        "issue_type": "NARKOBA",
+        "issue_subtype": "Narkoba / Narkotika",
+        "issue_evidence": [
+          "narkotika"
+        ],
+        "polri_relation": "INFORMASI_UMUM",
+        "polri_relation_evidence": [
+          "Hubungan Polri belum spesifik"
+        ],
+        "handling_status": "BELUM_ADA_INFORMASI",
+        "handling_evidence": [],
+        "assertion_status": "FACTUAL",
+        "assertion_confidence": 75,
+        "assertion_evidence": [],
+        "attention_score": 16,
+        "attention_label": "Rendah",
+        "attention_components": {
+          "severity": 11,
+          "polri_relation": 0,
+          "authority": 0,
+          "public_impact": 4,
+          "handling": 0,
+          "evidence": 1,
+          "context_risk": 0,
+          "routine_enforcement_cap": null
+        },
+        "attention_evidence": {
+          "severity": [],
+          "authority": [],
+          "public_impact": [],
+          "evidence": [
+            "satu sumber / informasi awal"
+          ],
+          "role": [],
+          "issue": [
+            "narkotika"
+          ],
+          "handling": [],
+          "context": [],
+          "positive": []
+        },
+        "attention_reasons": [
+          "isu/peristiwa ditemukan tetapi relasi Polri sebagai pihak bermasalah tidak cukup kuat"
+        ],
+        "contextual_flags": {
+          "explicit_polri_subject": false,
+          "explicit_polri_enforcer": false,
+          "polri_victim": false,
+          "service_negative": false,
+          "misconduct_signal": false,
+          "direct_positive_enforcement": false
+        },
+        "analysis_engine_version": "contextual-v1.1",
+        "location_engine_version": "location-v2-title-snippet-source",
+        "case_engine_version": "case-v6.5.4",
+        "case_processed_at": "2026-10-24T19:36:28.340086+00:00"
+      },
+      {
+        "id": "9c9d3eb0d76c12783c479d2b0a5e327862ead435",
+        "title": "Dugaan Sabung Ayam di Boro Gragal Disorot, Polres Malang Didesak Lakukan Penelusuran - SERGAP",
+        "url": "https://sergap.co.id/2026/10/25/dugaan-sabung-ayam-di-boro-gragal-disorot-polres-malang-didesak-lakukan-penelusuran/",
+        "source": "SERGAP",
+        "published_at": "2026-10-24T17:14:06+00:00",
+        "collected_at": "2026-10-24T19:30:56.054773+00:00",
+        "region": "Jawa Timur",
+        "area_label": "Malang",
+        "is_jatim": true,
+        "polres": "POLRES MALANG",
+        "category": "NETRAL / PERISTIWA",
+        "scope": "neutral",
+        "scope_label": "Netral",
+        "priority": "low",
+        "summary": "Dugaan Sabung Ayam di Boro Gragal Disorot, Polres Malang Didesak Lakukan Penelusuran SERGAP",
+        "processing_status": "processed",
+        "classifier_version": "contextual-v1.1",
+        "classified_at": "2026-10-24T19:33:32.966639+00:00",
+        "case_id": null,
+        "discovery_families": [
+          "illegal_activity_backing"
+        ],
+        "discovery_tags": [
+          "backing",
+          "illegal_activity",
+          "public_order"
+        ],
+        "discovery_hits": [
+          "sabung ayam"
+        ],
+        "discovery_version": "discovery-v6",
+        "google_news_url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNakNpQ3BTczlWM3g0Y25yTGNTQ1J3dTRodGpSWFZ3a2F2eno3SDNzYzdBRTdLS0w1Z2lFTUFDVFFMZTBNTUpJMmlES3lFQUYzZXcyVnAzdnhoT2xoZE1vWHB5YkRBY1RRR2MycmpFQmJSek0zSzJEeTdqRlQxS3huRXNDMF9CSDd3ZnljcnpqWHVDMk1zNWJvekVxeEZSVWdIcDJtX3ZIU1ROVmRVYXFsWlY1eFE3LWM?oc=5",
+        "original_url": "https://sergap.co.id/2026/10/25/dugaan-sabung-ayam-di-boro-gragal-disorot-polres-malang-didesak-lakukan-penelusuran/",
+        "canonical_url": "https://sergap.co.id/2026/10/25/dugaan-sabung-ayam-di-boro-gragal-disorot-polres-malang-didesak-lakukan-penelusuran",
+        "duplicate_article": false,
+        "locality": "Malang",
+        "polsek": null,
+        "location_confidence": 100,
+        "location_evidence": [
+          "polres malang",
+          "Malang"
+        ],
+        "location_status": "JAWA_TIMUR",
+        "location_source": "master_entity",
+        "sentiment": "neutral",
+        "sentiment_label": "Netral",
+        "issue_type": "AKTIVITAS_ILEGAL",
+        "issue_subtype": "Aktivitas Ilegal",
+        "issue_evidence": [
+          "sabung ayam"
+        ],
+        "polri_relation": "INFORMASI_UMUM",
+        "polri_relation_evidence": [
+          "Hubungan Polri belum spesifik"
+        ],
+        "handling_status": "BELUM_ADA_INFORMASI",
+        "handling_evidence": [],
+        "assertion_status": "FACTUAL",
+        "assertion_confidence": 75,
+        "assertion_evidence": [],
+        "attention_score": 19,
+        "attention_label": "Rendah",
+        "attention_components": {
+          "severity": 14,
+          "polri_relation": 0,
+          "authority": 0,
+          "public_impact": 4,
+          "handling": 0,
+          "evidence": 1,
+          "context_risk": 0,
+          "routine_enforcement_cap": null
+        },
+        "attention_evidence": {
+          "severity": [],
+          "authority": [],
+          "public_impact": [],
+          "evidence": [
+            "satu sumber / informasi awal"
+          ],
+          "role": [],
+          "issue": [
+            "sabung ayam"
+          ],
+          "handling": [],
+          "context": [],
+          "positive": []
+        },
+        "attention_reasons": [
+          "isu/peristiwa ditemukan tetapi relasi Polri sebagai pihak bermasalah tidak cukup kuat"
+        ],
+        "contextual_flags": {
+          "explicit_polri_subject": false,
+          "explicit_polri_enforcer": false,
+          "polri_victim": false,
+          "service_negative": false,
+          "misconduct_signal": false,
+          "direct_positive_enforcement": false
+        },
+        "analysis_engine_version": "contextual-v1.1",
+        "location_engine_version": "location-v2-title-snippet-source",
+        "case_engine_version": "case-v6.5.4",
+        "case_processed_at": "2026-10-24T19:36:28.346660+00:00"
+      },
+      {
+        "id": "033ee440989f9cb1d0b3c4e97402b39d57f26a63",
+        "title": "Polisi Ciduk Warga Subulussalam Diduga Timbun Solar Subsidi - RRI.co.id",
+        "url": "https://rri.co.id/aceh-singkil/hukum/kriminalitas/2839159/polisi-ciduk-warga-subulussalam-diduga-timbun-solar-subsidi",
+        "source": "RRI.co.id",
+        "published_at": "2026-10-24T17:13:00+00:00",
+        "collected_at": "2026-10-24T19:30:56.054773+00:00",
+        "region": "BELUM TERPETAKAN",
+        "area_label": "BELUM TERPETAKAN",
+        "is_jatim": null,
+        "polres": null,
+        "category": "NEGATIF - AKTIVITAS ILEGAL",
+        "scope": "negative",
+        "scope_label": "Negatif",
+        "priority": "medium",
+        "summary": "Polisi Ciduk Warga Subulussalam Diduga Timbun Solar Subsidi RRI.co.id",
+        "processing_status": "processed",
+        "classifier_version": "contextual-v1.1",
+        "classified_at": "2026-10-24T19:33:33.003151+00:00",
+        "case_id": "CASE-003104",
+        "discovery_families": [
+          "illegal_activity_backing"
+        ],
+        "discovery_tags": [
+          "backing",
+          "illegal_activity",
+          "public_order"
+        ],
+        "discovery_hits": [
+          "solar subsidi"
+        ],
+        "discovery_version": "discovery-v6",
+        "google_news_url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOU0cwd0hoRFF1WWNMWEluX0Njdi1HdmxLXzc1eGZ3eUJ6UDgwcGtxbHdIanN1aWd0WUdCWFN2dUJwLXdFRFJETEh3S05JZWZJWmdVVW5pQ05wbzk2VW1YUjVqZlp1UUhOaGJ1OXJ4alhiNllBengyYnlKNU5BRTQzd0ZCdlphQk9NRGhZcndFMDZ4M2RJZk1BSXA2anpodV83elFXSGlocmVzdGJIcHBjemtCUzdZeHMw?oc=5",
+        "original_url": "https://rri.co.id/aceh-singkil/hukum/kriminalitas/2839159/polisi-ciduk-warga-subulussalam-diduga-timbun-solar-subsidi",
+        "canonical_url": "https://rri.co.id/aceh-singkil/hukum/kriminalitas/2839159/polisi-ciduk-warga-subulussalam-diduga-timbun-solar-subsidi",
+        "duplicate_article": false,
+        "locality": "",
+        "polsek": null,
+        "location_confidence": 0,
+        "location_evidence": [],
+        "location_status": "BELUM_TERPETAKAN",
+        "location_source": "title_description",
+        "sentiment": "negative",
+        "sentiment_label": "Negatif",
+        "issue_type": "AKTIVITAS_ILEGAL",
+        "issue_subtype": "Aktivitas Ilegal",
+        "issue_evidence": [
+          "solar subsidi"
+        ],
+        "polri_relation": "SUBJEK_PERMASALAHAN",
+        "polri_relation_evidence": [
+          "Polri/personel menjadi subjek masalah"
+        ],
+        "handling_status": "BELUM_ADA_INFORMASI",
+        "handling_evidence": [],
+        "assertion_status": "ALLEGATION",
+        "assertion_confidence": 73,
+        "assertion_evidence": [
+          "terdapat frasa dugaan/tuduhan"
+        ],
+        "attention_score": 43,
+        "attention_label": "Sedang",
+        "attention_components": {
+          "severity": 14,
+          "polri_relation": 16,
+          "authority": 0,
+          "public_impact": 12,
+          "handling": 0,
+          "evidence": 1,
+          "context_risk": 0,
+          "routine_enforcement_cap": null
+        },
+        "attention_evidence": {
+          "severity": [],
+          "authority": [],
+          "public_impact": [
+            "dampak kepada masyarakat"
+          ],
+          "evidence": [
+            "satu sumber / informasi awal"
+          ],
+          "role": [
+            "Polri/personel menjadi subjek permasalahan"
+          ],
+          "issue": [
+            "solar subsidi"
+          ],
+          "handling": [],
+          "context": [],
+          "positive": []
+        },
+        "attention_reasons": [
+          "sifat berita: negatif",
+          "Aktivitas Ilegal",
+          "polisi + dugaan",
+          "status klaim: dugaan/tuduhan"
+        ],
+        "contextual_flags": {
+          "explicit_polri_subject": true,
+          "explicit_polri_enforcer": false,
+          "polri_victim": false,
+          "service_negative": false,
+          "misconduct_signal": false,
+          "direct_positive_enforcement": false
+        },
+        "analysis_engine_version": "contextual-v1.1",
+        "location_engine_version": "location-v2-title-snippet-source",
+        "case_engine_version": "case-v6.5.4",
+        "case_processed_at": "2026-10-24T19:36:55.288338+00:00"
+      },
+      {
+        "id": "e4104b72f4f603d7506f44f317a9db37b00097cc",
+        "title": "Razia Gabungan di Sumedang, Polisi Amankan Perempuan Positif Narkotika dan Sita 200 Botol Miras - Harapan Rakyat",
+        "url": "https://www.harapanrakyat.com/2026/10/razia-gabungan-di-sumedang-polisi-amankan-perempuan-positif-narkotika-dan-sita-200-botol-miras/",
+        "source": "Harapan Rakyat",
+        "published_at": "2026-10-24T17:06:57+00:00",
+        "collected_at": "2026-10-24T19:30:56.054773+00:00",
+        "region": "BELUM TERPETAKAN",
+        "area_label": "BELUM TERPETAKAN",
+        "is_jatim": null,
+        "polres": null,
+        "category": "UNGKAP KASUS / PENINDAKAN",
+        "scope": "case",
+        "scope_label": "Ungkap Kasus",
+        "priority": "low",
+        "summary": "Razia Gabungan di Sumedang, Polisi Amankan Perempuan Positif Narkotika dan Sita 200 Botol Miras Harapan Rakyat",
+        "processing_status": "processed",
+        "classifier_version": "contextual-v1.1",
+        "classified_at": "2026-10-24T19:33:33.042789+00:00",
+        "case_id": "CASE-003105",
+        "discovery_families": [
+          "illegal_activity_backing"
+        ],
+        "discovery_tags": [
+          "backing",
+          "illegal_activity",
+          "public_order"
+        ],
+        "discovery_hits": [
+          "miras"
+        ],
+        "discovery_version": "discovery-v6",
+        "google_news_url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPbzJpUk9YNW10N3ZxeWNHTTdQWnBfdmFOcURtblZUbTAtTW55T045NGotMXV6REx4aVl6dWV2M2JvNnFYYjd3aWVCUkR5Y2tfRFdCNmpjVlpBS2tHQlFxTTVHLVI1VFc4MGRRdXlRdUhwdlhHNDlrZzZqYS0wcEhRVTdjWWFfWUJEbWZfYnBTaGZnSWY5ZU9fRTFfQUlTQjZZa3N4ZG9oaTRpUnp1Z0FJM3JxR3VfSWZjTFpJY1pOUC0yWnZHZl9mLUExdGl4QQ?oc=5",
+        "original_url": "https://www.harapanrakyat.com/2026/10/razia-gabungan-di-sumedang-polisi-amankan-perempuan-positif-narkotika-dan-sita-200-botol-miras/",
+        "canonical_url": "https://harapanrakyat.com/2026/10/razia-gabungan-di-sumedang-polisi-amankan-perempuan-positif-narkotika-dan-sita-200-botol-miras",
+        "duplicate_article": false,
+        "locality": "",
+        "polsek": null,
+        "location_confidence": 0,
+        "location_evidence": [],
+        "location_status": "BELUM_TERPETAKAN",
+        "location_source": "title_description",
+        "sentiment": "positive",
+        "sentiment_label": "Positif",
+        "issue_type": "NARKOBA",
+        "issue_subtype": "Narkoba / Narkotika",
+        "issue_evidence": [
+          "narkotika"
+        ],
+        "polri_relation": "PENEGAKAN_HUKUM",
+        "polri_relation_evidence": [
+          "Polri berperan sebagai pihak penindak"
+        ],
+        "handling_status": "BELUM_ADA_INFORMASI",
+        "handling_evidence": [],
+        "assertion_status": "FACTUAL",
+        "assertion_confidence": 75,
+        "assertion_evidence": [],
+        "attention_score": 18,
+        "attention_label": "Rendah",
+        "attention_components": {
+          "severity": 11,
+          "polri_relation": 2,
+          "authority": 0,
+          "public_impact": 4,
+          "handling": 0,
+          "evidence": 1,
+          "context_risk": 0,
+          "routine_enforcement_cap": 35
+        },
+        "attention_evidence": {
+          "severity": [],
+          "authority": [],
+          "public_impact": [],
+          "evidence": [
+            "satu sumber / informasi awal"
+          ],
+          "role": [
+            "Polri sebagai pihak penindak"
+          ],
+          "issue": [
+            "narkotika"
+          ],
+          "handling": [],
+          "context": [],
+          "positive": [
+            "\\b(?:operasi|operasi tumpas|razia|pengungkapan)\\b.{0,120}\\b(?:ungkap|tangkap|amankan|sita|tersangka)\\b"
+          ]
+        },
+        "attention_reasons": [
+          "Polri berperan sebagai pihak penindak",
+          "tidak ditemukan indikator utama misconduct oleh personel"
+        ],
+        "contextual_flags": {
+          "explicit_polri_subject": false,
+          "explicit_polri_enforcer": true,
+          "polri_victim": false,
+          "service_negative": false,
+          "misconduct_signal": false,
+          "direct_positive_enforcement": false
+        },
+        "analysis_engine_version": "contextual-v1.1",
+        "location_engine_version": "location-v2-title-snippet-source",
+        "case_engine_version": "case-v6.5.4",
+        "case_processed_at": "2026-10-24T19:36:55.288343+00:00"
+      },
+      {
+        "id": "a501e1f0db1be09667b3fc2da9c11510d689d807",
+        "title": "Polisi Tangkap Lima Pelaku Pemerasan Terapis Pijat di Johar Baru - شبكة تواصل الإخبارية",
+        "url": "https://twaslnews1.twaslnews.com/6527370/",
+        "source": "شبكة تواصل الإخبارية",
+        "published_at": "2026-10-24T17:00:55+00:00",
+        "collected_at": "2026-10-24T19:30:56.054773+00:00",
+        "region": "BELUM TERPETAKAN",
+        "area_label": "BELUM TERPETAKAN",
+        "is_jatim": null,
+        "polres": null,
+        "category": "UNGKAP KASUS / PENINDAKAN",
+        "scope": "case",
+        "scope_label": "Ungkap Kasus",
+        "priority": "medium",
+        "summary": "Polisi Tangkap Lima Pelaku Pemerasan Terapis Pijat di Johar Baru شبكة تواصل الإخبارية",
+        "processing_status": "processed",
+        "classifier_version": "contextual-v1.1",
+        "classified_at": "2026-10-24T19:33:33.081037+00:00",
+        "case_id": "CASE-003106",
+        "discovery_families": [
+          "financial_misconduct"
+        ],
+        "discovery_tags": [
+          "financial_misconduct",
+          "integrity"
+        ],
+        "discovery_hits": [
+          "pemerasan"
+        ],
+        "discovery_version": "discovery-v6",
+        "google_news_url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE92eWhQQU9mMGk1SXFtbEZSSTRjb01Pd2xXb2MtN0F1b0lELUd3TXlHTF9aa1dKUC1IYjViYnFGZXFmY0Jxck1OaWs4WXBTRElvQ2kw?oc=5",
+        "original_url": "https://twaslnews1.twaslnews.com/6527370/",
+        "canonical_url": "https://twaslnews1.twaslnews.com/6527370",
+        "duplicate_article": false,
+        "locality": "",
+        "polsek": null,
+        "location_confidence": 0,
+        "location_evidence": [],
+        "location_status": "BELUM_TERPETAKAN",
+        "location_source": "title_description",
+        "sentiment": "positive",
+        "sentiment_label": "Positif",
+        "issue_type": "INTEGRITAS_DAN_KEUANGAN",
+        "issue_subtype": "Pungli / Suap / Pemerasan",
+        "issue_evidence": [
+          "pemerasan"
+        ],
+        "polri_relation": "PENEGAKAN_HUKUM",
+        "polri_relation_evidence": [
+          "Polri berperan sebagai pihak penindak"
+        ],
+        "handling_status": "BELUM_ADA_INFORMASI",
+        "handling_evidence": [],
+        "assertion_status": "FACTUAL",
+        "assertion_confidence": 75,
+        "assertion_evidence": [],
+        "attention_score": 39,
+        "attention_label": "Rendah",
+        "attention_components": {
+          "severity": 24,
+          "polri_relation": 0,
+          "authority": 0,
+          "public_impact": 4,
+          "handling": 0,
+          "evidence": 1,
+          "context_risk": 0,
+          "routine_enforcement_cap": null
+        },
+        "attention_evidence": {
+          "severity": [],
+          "authority": [],
+          "public_impact": [],
+          "evidence": [
+            "satu sumber / informasi awal"
+          ],
+          "role": [],
+          "issue": [
+            "pemerasan"
+          ],
+          "handling": [],
+          "context": [],
+          "positive": []
+        },
+        "attention_reasons": [
+          "Polri berperan sebagai pihak penindak",
+          "tidak ditemukan indikator utama misconduct oleh personel"
+        ],
+        "contextual_flags": {
+          "explicit_polri_subject": false,
+          "explicit_polri_enforcer": true,
+          "polri_victim": false,
+          "service_negative": false,
+          "misconduct_signal": true,
+          "direct_positive_enforcement": false
+        },
+        "analysis_engine_version": "contextual-v1.1",
+        "location_engine_version": "location-v2-title-snippet-source",
+        "case_engine_version": "case-v6.5.4",
+        "case_processed_at": "2026-10-24T19:36:55.288345+00:00"
+      },
+      {
+        "id": "85dbf2e9dd038a09f5b14632315b97df921aa65b",
+        "title": "Karhutla Tahura Raden Soerjo Padam, 55 Personel Brimob Mojokerto Jalani Pemeriksaan Kesehatan - beritajatim.com",
+        "url": "https://beritajatim.com/karhutla-tahura-raden-soerjo-padam-55-personel-brimob-mojokerto-jalani-pemeriksaan-kesehatan",
+        "source": "beritajatim.com",
+        "published_at": "2026-10-24T16:47:45+00:00",
+        "collected_at": "2026-10-24T19:30:56.054773+00:00",
+        "region": "Jawa Timur",
+        "area_label": "Mojokerto",
+        "is_jatim": true,
+        "polres": null,
+        "category": "NETRAL / LAINNYA",
+        "scope": "neutral",
+        "scope_label": "Netral",
+        "priority": "low",
+        "summary": "Karhutla Tahura Raden Soerjo Padam, 55 Personel Brimob Mojokerto Jalani Pemeriksaan Kesehatan beritajatim.com",
+        "processing_status": "processed",
+        "classifier_version": "contextual-v1.1",
+        "classified_at": "2026-10-24T19:33:33.120986+00:00",
+        "case_id": null,
+        "discovery_families": [],
+        "discovery_tags": [],
+        "discovery_hits": [],
+        "discovery_version": "discovery-v6",
+        "google_news_url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNOTE2NU1wNFE1ZmVpMXZwMVpkcWV2WUpVdlZnRnhHWlR5Q3Y4MGU0VU9kZDRmc1dTSFBFVVhvWHBTanRZYmRib2xRM2paX1VDck9qTzlmazl1ZTlyRVFGRWtydVJkRmQ5U21rdkhKUC1kMkpCelYtaG9kTll0ellFWUF4MktxdUwxZXM5ekJMRTB6QWl0aERyNm5mUDJuTGVqZmMyRGF5S2NVX0FvQkNUYmpzYlljbjQ?oc=5",
+        "original_url": "https://beritajatim.com/karhutla-tahura-raden-soerjo-padam-55-personel-brimob-mojokerto-jalani-pemeriksaan-kesehatan",
+        "canonical_url": "https://beritajatim.com/karhutla-tahura-raden-soerjo-padam-55-personel-brimob-mojokerto-jalani-pemeriksaan-kesehatan",
+        "duplicate_article": false,
+        "locality": "Mojokerto",
+        "polsek": null,
+        "location_confidence": 95,
+        "location_evidence": [
+          "Mojokerto"
+        ],
+        "location_status": "JAWA_TIMUR",
+        "location_source": "title_description",
+        "sentiment": "neutral",
+        "sentiment_label": "Netral",
+        "issue_type": "UMUM",
+        "issue_subtype": "Belum Teridentifikasi",
+        "issue_evidence": [],
+        "polri_relation": "INFORMASI_UMUM",
+        "polri_relation_evidence": [
+          "Hubungan Polri belum spesifik"
+        ],
+        "handling_status": "BELUM_ADA_INFORMASI",
+        "handling_evidence": [],
+        "assertion_status": "FACTUAL",
+        "assertion_confidence": 75,
+        "assertion_evidence": [],
+        "attention_score": 9,
+        "attention_label": "Rendah",
+        "attention_components": {
+          "severity": 2,
+          "polri_relation": 0,
+          "authority": 0,
+          "public_impact": 4,
+          "handling": 0,
+          "evidence": 3,
+          "context_risk": 0,
+          "routine_enforcement_cap": null
+        },
+        "attention_evidence": {
+          "severity": [],
+          "authority": [],
+          "public_impact": [],
+          "evidence": [
+            "satu sumber / informasi awal",
+            "ada tindak lanjut resmi"
+          ],
+          "role": [],
+          "issue": [],
+          "handling": [],
+          "context": [],
+          "positive": []
+        },
+        "attention_reasons": [
+          "sifat berita: netral",
+          "Hubungan Polri belum spesifik"
+        ],
+        "contextual_flags": {
+          "explicit_polri_subject": false,
+          "explicit_polri_enforcer": false,
+          "polri_victim": false,
+          "service_negative": false,
+          "misconduct_signal": false,
+          "direct_positive_enforcement": false
+        },
+        "analysis_engine_version": "contextual-v1.1",
+        "location_engine_version": "location-v2-title-snippet-source",
+        "case_engine_version": "case-v6.5.4",
+        "case_processed_at": "2026-10-24T19:36:28.353871+00:00"
+      }
+    ],
+    "jatim_items": [
+      {
+        "id": "35212d9e3828425efc29a338854c1e4e3bc91f86",
+        "title": "Mendadak Sesak Napas di Kapal, Satpolairud Polres Gresik Bantu Evakuasi ABK ke Rumah Sakit - Nusantara Abadi News",
+        "url": "https://nusantaraabadinews.com/2026/10/24/mendadak-sesak-napas-di-kapal-satpolairud-polres-gresik-bantu-evakuasi-abk-ke-rumah-sakit/",
+        "source": "Nusantara Abadi News",
+        "published_at": "2026-10-24T19:24:38+00:00",
+        "collected_at": "2026-10-24T19:30:56.054773+00:00",
+        "region": "Jawa Timur",
+        "area_label": "Gresik",
+        "is_jatim": true,
+        "polres": "POLRES GRESIK",
+        "category": "NETRAL / LAINNYA",
+        "scope": "neutral",
+        "scope_label": "Netral",
+        "priority": "low",
+        "summary": "Mendadak Sesak Napas di Kapal, Satpolairud Polres Gresik Bantu Evakuasi ABK ke Rumah Sakit Nusantara Abadi News",
+        "processing_status": "processed",
+        "classifier_version": "contextual-v1.1",
+        "classified_at": "2026-10-24T19:33:32.805141+00:00",
+        "case_id": null,
+        "discovery_families": [],
+        "discovery_tags": [],
+        "discovery_hits": [],
+        "discovery_version": "discovery-v6",
+        "google_news_url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPSWsycWpzZDdneE5SNUhJX3ZuUHlvVlBNMndRSkRzZmwzU29ZU0F5Tk5jTDJmQnVFNWpBMGhfWWNudFp6bmFDTkJPRDlQb050Mk1UUHg4TEdRZmo4YnZXN1Rlb0Y1eE11eU5jR2FuOEtCQnNzOXA4dkdLQmdKTExIQzI2eTRCTW5va2szenFmYW1EUkN1cGQ1TlpXeGxmNnk1U2NuOXZVUkd3UmhiR05acTNrSEEyd0dNSE1kQnZIeVE5eWVQZS1sRVpCQlY?oc=5",
+        "original_url": "https://nusantaraabadinews.com/2026/10/24/mendadak-sesak-napas-di-kapal-satpolairud-polres-gresik-bantu-evakuasi-abk-ke-rumah-sakit/",
+        "canonical_url": "https://nusantaraabadinews.com/2026/10/24/mendadak-sesak-napas-di-kapal-satpolairud-polres-gresik-bantu-evakuasi-abk-ke-rumah-sakit",
+        "duplicate_article": false,
+        "locality": "Gresik",
+        "polsek": null,
+        "location_confidence": 100,
+        "location_evidence": [
+          "polres gresik",
+          "Gresik"
+        ],
+        "location_status": "JAWA_TIMUR",
+        "location_source": "master_entity",
+        "sentiment": "neutral",
+        "sentiment_label": "Netral",
+        "issue_type": "UMUM",
+        "issue_subtype": "Belum Teridentifikasi",
+        "issue_evidence": [],
+        "polri_relation": "INFORMASI_UMUM",
+        "polri_relation_evidence": [
+          "Hubungan Polri belum spesifik"
+        ],
+        "handling_status": "BELUM_ADA_INFORMASI",
+        "handling_evidence": [],
+        "assertion_status": "FACTUAL",
+        "assertion_confidence": 75,
+        "assertion_evidence": [],
+        "attention_score": 7,
+        "attention_label": "Rendah",
+        "attention_components": {
+          "severity": 2,
+          "polri_relation": 0,
+          "authority": 0,
+          "public_impact": 4,
+          "handling": 0,
+          "evidence": 1,
+          "context_risk": 0,
+          "routine_enforcement_cap": null
+        },
+        "attention_evidence": {
+          "severity": [],
+          "authority": [],
+          "public_impact": [],
+          "evidence": [
+            "satu sumber / informasi awal"
+          ],
+          "role": [],
+          "issue": [],
+          "handling": [],
+          "context": [],
+          "positive": []
+        },
+        "attention_reasons": [
+          "sifat berita: netral",
+          "Hubungan Polri belum spesifik"
+        ],
+        "contextual_flags": {
+          "explicit_polri_subject": false,
+          "explicit_polri_enforcer": false,
+          "polri_victim": false,
+          "service_negative": false,
+          "misconduct_signal": false,
+          "direct_positive_enforcement": false
+        },
+        "analysis_engine_version": "contextual-v1.1",
+        "location_engine_version": "location-v2-title-snippet-source",
+        "case_engine_version": "case-v6.5.4",
+        "case_processed_at": "2026-10-24T19:36:28.322942+00:00"
+      },
+      {
+        "id": "634373a72dfaaa3eaa6882c942e27ac0f27699df",
+        "title": "Tekan Balap Liar, Polrestabes Surabaya Gelar Hoofdbureau City Night Race – Kapolrestabes Surabaya Cup 2026 - Nusantara Abadi News",
+        "url": "https://nusantaraabadinews.com/2026/10/24/tekan-balap-liar-polrestabes-surabaya-gelar-hoofdbureau-city-night-race-kapolrestabes-surabaya-cup-2026/",
+        "source": "Nusantara Abadi News",
+        "published_at": "2026-10-24T17:59:52+00:00",
+        "collected_at": "2026-10-24T19:30:56.054773+00:00",
+        "region": "Jawa Timur",
+        "area_label": "Surabaya",
+        "is_jatim": true,
+        "polres": "POLRESTABES SURABAYA",
+        "category": "NETRAL / LAINNYA",
+        "scope": "neutral",
+        "scope_label": "Netral",
+        "priority": "low",
+        "summary": "Tekan Balap Liar, Polrestabes Surabaya Gelar Hoofdbureau City Night Race – Kapolrestabes Surabaya Cup 2026 Nusantara Abadi News",
+        "processing_status": "processed",
+        "classifier_version": "contextual-v1.1",
+        "classified_at": "2026-10-24T19:33:32.845850+00:00",
+        "case_id": null,
+        "discovery_families": [],
+        "discovery_tags": [],
+        "discovery_hits": [],
+        "discovery_version": "discovery-v6",
+        "google_news_url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxOMFRaSnhLeW9nRjdrTFFkRVZaWm1DQ0xFc1pBMHJzTDZmcTN2bkQ4a0xldUY5WExKcWJjN3YxbXZJREZSUEVYMUI2bDRDM0FkcHNmLTN2ZFRsR2xhc0dIMWlKdmVoQnFEbEphOEhIbGhRaVlUMnk5MU40V3NBVWlKMFl5TWlOcGgzbXRCM2taUE1oUXFMZl9sT2pXczdPcWNfVXBwX0tJX3pyaXhsbWJhMlBOa1p4Qko5WGVwRkhyVUhCTWYwUk0waUV1YnpmU0Y1Z0ZTbHZCTDgtQk1rcGRv?oc=5",
+        "original_url": "https://nusantaraabadinews.com/2026/10/24/tekan-balap-liar-polrestabes-surabaya-gelar-hoofdbureau-city-night-race-kapolrestabes-surabaya-cup-2026/",
+        "canonical_url": "https://nusantaraabadinews.com/2026/10/24/tekan-balap-liar-polrestabes-surabaya-gelar-hoofdbureau-city-night-race-kapolrestabes-surabaya-cup-2026",
+        "duplicate_article": false,
+        "locality": "Surabaya",
+        "polsek": null,
+        "location_confidence": 100,
+        "location_evidence": [
+          "polrestabes surabaya",
+          "Surabaya"
+        ],
+        "location_status": "JAWA_TIMUR",
+        "location_source": "master_entity",
+        "sentiment": "neutral",
+        "sentiment_label": "Netral",
+        "issue_type": "UMUM",
+        "issue_subtype": "Belum Teridentifikasi",
+        "issue_evidence": [],
+        "polri_relation": "INFORMASI_UMUM",
+        "polri_relation_evidence": [
+          "Hubungan Polri belum spesifik"
+        ],
+        "handling_status": "BELUM_ADA_INFORMASI",
+        "handling_evidence": [],
+        "assertion_status": "FACTUAL",
+        "assertion_confidence": 75,
+        "assertion_evidence": [],
+        "attention_score": 7,
+        "attention_label": "Rendah",
+        "attention_components": {
+          "severity": 2,
+          "polri_relation": 0,
+          "authority": 0,
+          "public_impact": 4,
+          "handling": 0,
+          "evidence": 1,
+          "context_risk": 0,
+          "routine_enforcement_cap": null
+        },
+        "attention_evidence": {
+          "severity": [],
+          "authority": [],
+          "public_impact": [],
+          "evidence": [
+            "satu sumber / informasi awal"
+          ],
+          "role": [],
+          "issue": [],
+          "handling": [],
+          "context": [],
+          "positive": []
+        },
+        "attention_reasons": [
+          "sifat berita: netral",
+          "Hubungan Polri belum spesifik"
+        ],
+        "contextual_flags": {
+          "explicit_polri_subject": false,
+          "explicit_polri_enforcer": false,
+          "polri_victim": false,
+          "service_negative": false,
+          "misconduct_signal": false,
+          "direct_positive_enforcement": false
+        },
+        "analysis_engine_version": "contextual-v1.1",
+        "location_engine_version": "location-v2-title-snippet-source",
+        "case_engine_version": "case-v6.5.4",
+        "case_processed_at": "2026-10-24T19:36:28.328832+00:00"
+      },
+      {
+        "id": "4a70795bb52e7988adf58495381e7fe41f6fb4d1",
+        "title": "Satlantas Polres Kediri Kota Intensifkan Patroli Blue Light di Ringin Sirah dan Simpang Lonceng - Polres Kediri Kota",
+        "url": "https://polreskedirikota.com/satlantas-polres-kediri-kota-intensifkan-patroli-blue-light-di-ringin-sirah-dan-simpang-lonceng/",
+        "source": "Polres Kediri Kota",
+        "published_at": "2026-10-24T17:38:26+00:00",
+        "collected_at": "2026-10-24T19:30:56.054773+00:00",
+        "region": "Jawa Timur",
+        "area_label": "Kediri",
+        "is_jatim": true,
+        "polres": "POLRES KEDIRI KOTA",
+        "category": "NETRAL / LAINNYA",
+        "scope": "neutral",
+        "scope_label": "Netral",
+        "priority": "low",
+        "summary": "Satlantas Polres Kediri Kota Intensifkan Patroli Blue Light di Ringin Sirah dan Simpang Lonceng Polres Kediri Kota",
+        "processing_status": "processed",
+        "classifier_version": "contextual-v1.1",
+        "classified_at": "2026-10-24T19:33:32.883242+00:00",
+        "case_id": null,
+        "discovery_families": [],
+        "discovery_tags": [],
+        "discovery_hits": [],
+        "discovery_version": "discovery-v6",
+        "google_news_url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOckliM2tFRTBaTENNQUlEQWtDNTNWd0pDVXVWNHVnLXJYQ2ZYaE1DR2tGNVUtOFU4RzhuemV6blFyLVB6bXFvLW1jeGJWN3BkWG1tR2xlLTdvaXZYUjY1RTlrNm4zc1owTkN4WDVYWHdYZGtrdVozVU95WDRyWjRfcUpEQ2ppWkI4Z210V3c3VktFZUttM2JBc3V5THNlZGZqVUx5cTBYRWY1TmVRbXF3dU9nSDNiOWRMNWNDT0pVTTROVHM?oc=5",
+        "original_url": "https://polreskedirikota.com/satlantas-polres-kediri-kota-intensifkan-patroli-blue-light-di-ringin-sirah-dan-simpang-lonceng/",
+        "canonical_url": "https://polreskedirikota.com/satlantas-polres-kediri-kota-intensifkan-patroli-blue-light-di-ringin-sirah-dan-simpang-lonceng",
+        "duplicate_article": false,
+        "duplicate_group_id": "561425c1fa1ec5a0",
+        "locality": "Kediri",
+        "polsek": null,
+        "location_confidence": 100,
+        "location_evidence": [
+          "polres kediri kota",
+          "Kediri"
+        ],
+        "location_status": "JAWA_TIMUR",
+        "location_source": "master_entity",
+        "sentiment": "neutral",
+        "sentiment_label": "Netral",
+        "issue_type": "UMUM",
+        "issue_subtype": "Belum Teridentifikasi",
+        "issue_evidence": [],
+        "polri_relation": "INFORMASI_UMUM",
+        "polri_relation_evidence": [
+          "Hubungan Polri belum spesifik"
+        ],
+        "handling_status": "BELUM_ADA_INFORMASI",
+        "handling_evidence": [],
+        "assertion_status": "FACTUAL",
+        "assertion_confidence": 75,
+        "assertion_evidence": [],
+        "attention_score": 11,
+        "attention_label": "Rendah",
+        "attention_components": {
+          "severity": 2,
+          "polri_relation": 0,
+          "authority": 4,
+          "public_impact": 4,
+          "handling": 0,
+          "evidence": 1,
+          "context_risk": 0,
+          "routine_enforcement_cap": null
+        },
+        "attention_evidence": {
+          "severity": [],
+          "authority": [
+            "satlantas"
+          ],
+          "public_impact": [],
+          "evidence": [
+            "satu sumber / informasi awal"
+          ],
+          "role": [],
+          "issue": [],
+          "handling": [],
+          "context": [],
+          "positive": []
+        },
+        "attention_reasons": [
+          "sifat berita: netral",
+          "Hubungan Polri belum spesifik"
+        ],
+        "contextual_flags": {
+          "explicit_polri_subject": false,
+          "explicit_polri_enforcer": false,
+          "polri_victim": false,
+          "service_negative": false,
+          "misconduct_signal": false,
+          "direct_positive_enforcement": false
+        },
+        "analysis_engine_version": "contextual-v1.1",
+        "location_engine_version": "location-v2-title-snippet-source",
+        "case_engine_version": "case-v6.5.4",
+        "case_processed_at": "2026-10-24T19:36:28.334542+00:00"
+      },
+      {
+        "id": "8bfa6bac17f5808d15ef08c0ed43751bcf09224b",
+        "title": "Tekan Peredaran Narkotika, Polres Pelabuhan Tanjung Perak Gelar KRYD Sasar Rumah Kos - Klikwarta.com",
+        "url": "https://www.klikwarta.com/index.php/tekan-peredaran-narkotika-polres-pelabuhan-tanjung-perak-gelar-kryd-sasar-rumah-kos",
+        "source": "Klikwarta.com",
+        "published_at": "2026-10-24T17:15:02+00:00",
+        "collected_at": "2026-10-24T19:30:56.054773+00:00",
+        "region": "Jawa Timur",
+        "area_label": "Surabaya",
+        "is_jatim": true,
+        "polres": "POLRES PELABUHAN TANJUNG PERAK",
+        "category": "NETRAL / PERISTIWA",
+        "scope": "neutral",
+        "scope_label": "Netral",
+        "priority": "low",
+        "summary": "Tekan Peredaran Narkotika, Polres Pelabuhan Tanjung Perak Gelar KRYD Sasar Rumah Kos Klikwarta.com",
+        "processing_status": "processed",
+        "classifier_version": "contextual-v1.1",
+        "classified_at": "2026-10-24T19:33:32.924224+00:00",
+        "case_id": null,
+        "discovery_families": [],
+        "discovery_tags": [],
+        "discovery_hits": [],
+        "discovery_version": "discovery-v6",
+        "google_news_url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPZDE5YTRKb05IbHlJVWYwODlzbjRZUTdBZHR1T1VsUXZZTk9SSFJDOVVoUjNiRTNMUHdmMEplNGpuc3lzOUllZjdRcEtIemMxejJHakx2S1ZoV2JocE04enRiNlByTVZGZHNJSUozMUoyVlNSRWJMa3RseVpjWDhoOUc1Yk1vWThTQlhoeW1EYUs3WnVuYWtDSENjUlhRMU1ycF9ObkdteDlmc2FjMkdQVTRVWlczT292MUdv?oc=5",
+        "original_url": "https://www.klikwarta.com/index.php/tekan-peredaran-narkotika-polres-pelabuhan-tanjung-perak-gelar-kryd-sasar-rumah-kos",
+        "canonical_url": "https://klikwarta.com/index.php/tekan-peredaran-narkotika-polres-pelabuhan-tanjung-perak-gelar-kryd-sasar-rumah-kos",
+        "duplicate_article": false,
+        "locality": "Surabaya",
+        "polsek": null,
+        "location_confidence": 100,
+        "location_evidence": [
+          "polres pelabuhan tanjung perak",
+          "Surabaya"
+        ],
+        "location_status": "JAWA_TIMUR",
+        "location_source": "master_entity",
+        "sentiment": "neutral",
+        "sentiment_label": "Netral",
+        "issue_type": "NARKOBA",
+        "issue_subtype": "Narkoba / Narkotika",
+        "issue_evidence": [
+          "narkotika"
+        ],
+        "polri_relation": "INFORMASI_UMUM",
+        "polri_relation_evidence": [
+          "Hubungan Polri belum spesifik"
+        ],
+        "handling_status": "BELUM_ADA_INFORMASI",
+        "handling_evidence": [],
+        "assertion_status": "FACTUAL",
+        "assertion_confidence": 75,
+        "assertion_evidence": [],
+        "attention_score": 16,
+        "attention_label": "Rendah",
+        "attention_components": {
+          "severity": 11,
+          "polri_relation": 0,
+          "authority": 0,
+          "public_impact": 4,
+          "handling": 0,
+          "evidence": 1,
+          "context_risk": 0,
+          "routine_enforcement_cap": null
+        },
+        "attention_evidence": {
+          "severity": [],
+          "authority": [],
+          "public_impact": [],
+          "evidence": [
+            "satu sumber / informasi awal"
+          ],
+          "role": [],
+          "issue": [
+            "narkotika"
+          ],
+          "handling": [],
+          "context": [],
+          "positive": []
+        },
+        "attention_reasons": [
+          "isu/peristiwa ditemukan tetapi relasi Polri sebagai pihak bermasalah tidak cukup kuat"
+        ],
+        "contextual_flags": {
+          "explicit_polri_subject": false,
+          "explicit_polri_enforcer": false,
+          "polri_victim": false,
+          "service_negative": false,
+          "misconduct_signal": false,
+          "direct_positive_enforcement": false
+        },
+        "analysis_engine_version": "contextual-v1.1",
+        "location_engine_version": "location-v2-title-snippet-source",
+        "case_engine_version": "case-v6.5.4",
+        "case_processed_at": "2026-10-24T19:36:28.340086+00:00"
+      },
+      {
+        "id": "9c9d3eb0d76c12783c479d2b0a5e327862ead435",
+        "title": "Dugaan Sabung Ayam di Boro Gragal Disorot, Polres Malang Didesak Lakukan Penelusuran - SERGAP",
+        "url": "https://sergap.co.id/2026/10/25/dugaan-sabung-ayam-di-boro-gragal-disorot-polres-malang-didesak-lakukan-penelusuran/",
+        "source": "SERGAP",
+        "published_at": "2026-10-24T17:14:06+00:00",
+        "collected_at": "2026-10-24T19:30:56.054773+00:00",
+        "region": "Jawa Timur",
+        "area_label": "Malang",
+        "is_jatim": true,
+        "polres": "POLRES MALANG",
+        "category": "NETRAL / PERISTIWA",
+        "scope": "neutral",
+        "scope_label": "Netral",
+        "priority": "low",
+        "summary": "Dugaan Sabung Ayam di Boro Gragal Disorot, Polres Malang Didesak Lakukan Penelusuran SERGAP",
+        "processing_status": "processed",
+        "classifier_version": "contextual-v1.1",
+        "classified_at": "2026-10-24T19:33:32.966639+00:00",
+        "case_id": null,
+        "discovery_families": [
+          "illegal_activity_backing"
+        ],
+        "discovery_tags": [
+          "backing",
+          "illegal_activity",
+          "public_order"
+        ],
+        "discovery_hits": [
+          "sabung ayam"
+        ],
+        "discovery_version": "discovery-v6",
+        "google_news_url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNakNpQ3BTczlWM3g0Y25yTGNTQ1J3dTRodGpSWFZ3a2F2eno3SDNzYzdBRTdLS0w1Z2lFTUFDVFFMZTBNTUpJMmlES3lFQUYzZXcyVnAzdnhoT2xoZE1vWHB5YkRBY1RRR2MycmpFQmJSek0zSzJEeTdqRlQxS3huRXNDMF9CSDd3ZnljcnpqWHVDMk1zNWJvekVxeEZSVWdIcDJtX3ZIU1ROVmRVYXFsWlY1eFE3LWM?oc=5",
+        "original_url": "https://sergap.co.id/2026/10/25/dugaan-sabung-ayam-di-boro-gragal-disorot-polres-malang-didesak-lakukan-penelusuran/",
+        "canonical_url": "https://sergap.co.id/2026/10/25/dugaan-sabung-ayam-di-boro-gragal-disorot-polres-malang-didesak-lakukan-penelusuran",
+        "duplicate_article": false,
+        "locality": "Malang",
+        "polsek": null,
+        "location_confidence": 100,
+        "location_evidence": [
+          "polres malang",
+          "Malang"
+        ],
+        "location_status": "JAWA_TIMUR",
+        "location_source": "master_entity",
+        "sentiment": "neutral",
+        "sentiment_label": "Netral",
+        "issue_type": "AKTIVITAS_ILEGAL",
+        "issue_subtype": "Aktivitas Ilegal",
+        "issue_evidence": [
+          "sabung ayam"
+        ],
+        "polri_relation": "INFORMASI_UMUM",
+        "polri_relation_evidence": [
+          "Hubungan Polri belum spesifik"
+        ],
+        "handling_status": "BELUM_ADA_INFORMASI",
+        "handling_evidence": [],
+        "assertion_status": "FACTUAL",
+        "assertion_confidence": 75,
+        "assertion_evidence": [],
+        "attention_score": 19,
+        "attention_label": "Rendah",
+        "attention_components": {
+          "severity": 14,
+          "polri_relation": 0,
+          "authority": 0,
+          "public_impact": 4,
+          "handling": 0,
+          "evidence": 1,
+          "context_risk": 0,
+          "routine_enforcement_cap": null
+        },
+        "attention_evidence": {
+          "severity": [],
+          "authority": [],
+          "public_impact": [],
+          "evidence": [
+            "satu sumber / informasi awal"
+          ],
+          "role": [],
+          "issue": [
+            "sabung ayam"
+          ],
+          "handling": [],
+          "context": [],
+          "positive": []
+        },
+        "attention_reasons": [
+          "isu/peristiwa ditemukan tetapi relasi Polri sebagai pihak bermasalah tidak cukup kuat"
+        ],
+        "contextual_flags": {
+          "explicit_polri_subject": false,
+          "explicit_polri_enforcer": false,
+          "polri_victim": false,
+          "service_negative": false,
+          "misconduct_signal": false,
+          "direct_positive_enforcement": false
+        },
+        "analysis_engine_version": "contextual-v1.1",
+        "location_engine_version": "location-v2-title-snippet-source",
+        "case_engine_version": "case-v6.5.4",
+        "case_processed_at": "2026-10-24T19:36:28.346660+00:00"
+      },
+      {
+        "id": "85dbf2e9dd038a09f5b14632315b97df921aa65b",
+        "title": "Karhutla Tahura Raden Soerjo Padam, 55 Personel Brimob Mojokerto Jalani Pemeriksaan Kesehatan - beritajatim.com",
+        "url": "https://beritajatim.com/karhutla-tahura-raden-soerjo-padam-55-personel-brimob-mojokerto-jalani-pemeriksaan-kesehatan",
+        "source": "beritajatim.com",
+        "published_at": "2026-10-24T16:47:45+00:00",
+        "collected_at": "2026-10-24T19:30:56.054773+00:00",
+        "region": "Jawa Timur",
+        "area_label": "Mojokerto",
+        "is_jatim": true,
+        "polres": null,
+        "category": "NETRAL / LAINNYA",
+        "scope": "neutral",
+        "scope_label": "Netral",
+        "priority": "low",
+        "summary": "Karhutla Tahura Raden Soerjo Padam, 55 Personel Brimob Mojokerto Jalani Pemeriksaan Kesehatan beritajatim.com",
+        "processing_status": "processed",
+        "classifier_version": "contextual-v1.1",
+        "classified_at": "2026-10-24T19:33:33.120986+00:00",
+        "case_id": null,
+        "discovery_families": [],
+        "discovery_tags": [],
+        "discovery_hits": [],
+        "discovery_version": "discovery-v6",
+        "google_news_url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNOTE2NU1wNFE1ZmVpMXZwMVpkcWV2WUpVdlZnRnhHWlR5Q3Y4MGU0VU9kZDRmc1dTSFBFVVhvWHBTanRZYmRib2xRM2paX1VDck9qTzlmazl1ZTlyRVFGRWtydVJkRmQ5U21rdkhKUC1kMkpCelYtaG9kTll0ellFWUF4MktxdUwxZXM5ekJMRTB6QWl0aERyNm5mUDJuTGVqZmMyRGF5S2NVX0FvQkNUYmpzYlljbjQ?oc=5",
+        "original_url": "https://beritajatim.com/karhutla-tahura-raden-soerjo-padam-55-personel-brimob-mojokerto-jalani-pemeriksaan-kesehatan",
+        "canonical_url": "https://beritajatim.com/karhutla-tahura-raden-soerjo-padam-55-personel-brimob-mojokerto-jalani-pemeriksaan-kesehatan",
+        "duplicate_article": false,
+        "locality": "Mojokerto",
+        "polsek": null,
+        "location_confidence": 95,
+        "location_evidence": [
+          "Mojokerto"
+        ],
+        "location_status": "JAWA_TIMUR",
+        "location_source": "title_description",
+        "sentiment": "neutral",
+        "sentiment_label": "Netral",
+        "issue_type": "UMUM",
+        "issue_subtype": "Belum Teridentifikasi",
+        "issue_evidence": [],
+        "polri_relation": "INFORMASI_UMUM",
+        "polri_relation_evidence": [
+          "Hubungan Polri belum spesifik"
+        ],
+        "handling_status": "BELUM_ADA_INFORMASI",
+        "handling_evidence": [],
+        "assertion_status": "FACTUAL",
+        "assertion_confidence": 75,
+        "assertion_evidence": [],
+        "attention_score": 9,
+        "attention_label": "Rendah",
+        "attention_components": {
+          "severity": 2,
+          "polri_relation": 0,
+          "authority": 0,
+          "public_impact": 4,
+          "handling": 0,
+          "evidence": 3,
+          "context_risk": 0,
+          "routine_enforcement_cap": null
+        },
+        "attention_evidence": {
+          "severity": [],
+          "authority": [],
+          "public_impact": [],
+          "evidence": [
+            "satu sumber / informasi awal",
+            "ada tindak lanjut resmi"
+          ],
+          "role": [],
+          "issue": [],
+          "handling": [],
+          "context": [],
+          "positive": []
+        },
+        "attention_reasons": [
+          "sifat berita: netral",
+          "Hubungan Polri belum spesifik"
+        ],
+        "contextual_flags": {
+          "explicit_polri_subject": false,
+          "explicit_polri_enforcer": false,
+          "polri_victim": false,
+          "service_negative": false,
+          "misconduct_signal": false,
+          "direct_positive_enforcement": false
+        },
+        "analysis_engine_version": "contextual-v1.1",
+        "location_engine_version": "location-v2-title-snippet-source",
+        "case_engine_version": "case-v6.5.4",
+        "case_processed_at": "2026-10-24T19:36:28.353871+00:00"
+      }
+    ],
+    "luar_jatim_items": [
+      {
+        "id": "033ee440989f9cb1d0b3c4e97402b39d57f26a63",
+        "title": "Polisi Ciduk Warga Subulussalam Diduga Timbun Solar Subsidi - RRI.co.id",
+        "url": "https://rri.co.id/aceh-singkil/hukum/kriminalitas/2839159/polisi-ciduk-warga-subulussalam-diduga-timbun-solar-subsidi",
+        "source": "RRI.co.id",
+        "published_at": "2026-10-24T17:13:00+00:00",
+        "collected_at": "2026-10-24T19:30:56.054773+00:00",
+        "region": "BELUM TERPETAKAN",
+        "area_label": "BELUM TERPETAKAN",
+        "is_jatim": null,
+        "polres": null,
+        "category": "NEGATIF - AKTIVITAS ILEGAL",
+        "scope": "negative",
+        "scope_label": "Negatif",
+        "priority": "medium",
+        "summary": "Polisi Ciduk Warga Subulussalam Diduga Timbun Solar Subsidi RRI.co.id",
+        "processing_status": "processed",
+        "classifier_version": "contextual-v1.1",
+        "classified_at": "2026-10-24T19:33:33.003151+00:00",
+        "case_id": "CASE-003104",
+        "discovery_families": [
+          "illegal_activity_backing"
+        ],
+        "discovery_tags": [
+          "backing",
+          "illegal_activity",
+          "public_order"
+        ],
+        "discovery_hits": [
+          "solar subsidi"
+        ],
+        "discovery_version": "discovery-v6",
+        "google_news_url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOU0cwd0hoRFF1WWNMWEluX0Njdi1HdmxLXzc1eGZ3eUJ6UDgwcGtxbHdIanN1aWd0WUdCWFN2dUJwLXdFRFJETEh3S05JZWZJWmdVVW5pQ05wbzk2VW1YUjVqZlp1UUhOaGJ1OXJ4alhiNllBengyYnlKNU5BRTQzd0ZCdlphQk9NRGhZcndFMDZ4M2RJZk1BSXA2anpodV83elFXSGlocmVzdGJIcHBjemtCUzdZeHMw?oc=5",
+        "original_url": "https://rri.co.id/aceh-singkil/hukum/kriminalitas/2839159/polisi-ciduk-warga-subulussalam-diduga-timbun-solar-subsidi",
+        "canonical_url": "https://rri.co.id/aceh-singkil/hukum/kriminalitas/2839159/polisi-ciduk-warga-subulussalam-diduga-timbun-solar-subsidi",
+        "duplicate_article": false,
+        "locality": "",
+        "polsek": null,
+        "location_confidence": 0,
+        "location_evidence": [],
+        "location_status": "BELUM_TERPETAKAN",
+        "location_source": "title_description",
+        "sentiment": "negative",
+        "sentiment_label": "Negatif",
+        "issue_type": "AKTIVITAS_ILEGAL",
+        "issue_subtype": "Aktivitas Ilegal",
+        "issue_evidence": [
+          "solar subsidi"
+        ],
+        "polri_relation": "SUBJEK_PERMASALAHAN",
+        "polri_relation_evidence": [
+          "Polri/personel menjadi subjek masalah"
+        ],
+        "handling_status": "BELUM_ADA_INFORMASI",
+        "handling_evidence": [],
+        "assertion_status": "ALLEGATION",
+        "assertion_confidence": 73,
+        "assertion_evidence": [
+          "terdapat frasa dugaan/tuduhan"
+        ],
+        "attention_score": 43,
+        "attention_label": "Sedang",
+        "attention_components": {
+          "severity": 14,
+          "polri_relation": 16,
+          "authority": 0,
+          "public_impact": 12,
+          "handling": 0,
+          "evidence": 1,
+          "context_risk": 0,
+          "routine_enforcement_cap": null
+        },
+        "attention_evidence": {
+          "severity": [],
+          "authority": [],
+          "public_impact": [
+            "dampak kepada masyarakat"
+          ],
+          "evidence": [
+            "satu sumber / informasi awal"
+          ],
+          "role": [
+            "Polri/personel menjadi subjek permasalahan"
+          ],
+          "issue": [
+            "solar subsidi"
+          ],
+          "handling": [],
+          "context": [],
+          "positive": []
+        },
+        "attention_reasons": [
+          "sifat berita: negatif",
+          "Aktivitas Ilegal",
+          "polisi + dugaan",
+          "status klaim: dugaan/tuduhan"
+        ],
+        "contextual_flags": {
+          "explicit_polri_subject": true,
+          "explicit_polri_enforcer": false,
+          "polri_victim": false,
+          "service_negative": false,
+          "misconduct_signal": false,
+          "direct_positive_enforcement": false
+        },
+        "analysis_engine_version": "contextual-v1.1",
+        "location_engine_version": "location-v2-title-snippet-source",
+        "case_engine_version": "case-v6.5.4",
+        "case_processed_at": "2026-10-24T19:36:55.288338+00:00"
+      },
+      {
+        "id": "e4104b72f4f603d7506f44f317a9db37b00097cc",
+        "title": "Razia Gabungan di Sumedang, Polisi Amankan Perempuan Positif Narkotika dan Sita 200 Botol Miras - Harapan Rakyat",
+        "url": "https://www.harapanrakyat.com/2026/10/razia-gabungan-di-sumedang-polisi-amankan-perempuan-positif-narkotika-dan-sita-200-botol-miras/",
+        "source": "Harapan Rakyat",
+        "published_at": "2026-10-24T17:06:57+00:00",
+        "collected_at": "2026-10-24T19:30:56.054773+00:00",
+        "region": "BELUM TERPETAKAN",
+        "area_label": "BELUM TERPETAKAN",
+        "is_jatim": null,
+        "polres": null,
+        "category": "UNGKAP KASUS / PENINDAKAN",
+        "scope": "case",
+        "scope_label": "Ungkap Kasus",
+        "priority": "low",
+        "summary": "Razia Gabungan di Sumedang, Polisi Amankan Perempuan Positif Narkotika dan Sita 200 Botol Miras Harapan Rakyat",
+        "processing_status": "processed",
+        "classifier_version": "contextual-v1.1",
+        "classified_at": "2026-10-24T19:33:33.042789+00:00",
+        "case_id": "CASE-003105",
+        "discovery_families": [
+          "illegal_activity_backing"
+        ],
+        "discovery_tags": [
+          "backing",
+          "illegal_activity",
+          "public_order"
+        ],
+        "discovery_hits": [
+          "miras"
+        ],
+        "discovery_version": "discovery-v6",
+        "google_news_url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPbzJpUk9YNW10N3ZxeWNHTTdQWnBfdmFOcURtblZUbTAtTW55T045NGotMXV6REx4aVl6dWV2M2JvNnFYYjd3aWVCUkR5Y2tfRFdCNmpjVlpBS2tHQlFxTTVHLVI1VFc4MGRRdXlRdUhwdlhHNDlrZzZqYS0wcEhRVTdjWWFfWUJEbWZfYnBTaGZnSWY5ZU9fRTFfQUlTQjZZa3N4ZG9oaTRpUnp1Z0FJM3JxR3VfSWZjTFpJY1pOUC0yWnZHZl9mLUExdGl4QQ?oc=5",
+        "original_url": "https://www.harapanrakyat.com/2026/10/razia-gabungan-di-sumedang-polisi-amankan-perempuan-positif-narkotika-dan-sita-200-botol-miras/",
+        "canonical_url": "https://harapanrakyat.com/2026/10/razia-gabungan-di-sumedang-polisi-amankan-perempuan-positif-narkotika-dan-sita-200-botol-miras",
+        "duplicate_article": false,
+        "locality": "",
+        "polsek": null,
+        "location_confidence": 0,
+        "location_evidence": [],
+        "location_status": "BELUM_TERPETAKAN",
+        "location_source": "title_description",
+        "sentiment": "positive",
+        "sentiment_label": "Positif",
+        "issue_type": "NARKOBA",
+        "issue_subtype": "Narkoba / Narkotika",
+        "issue_evidence": [
+          "narkotika"
+        ],
+        "polri_relation": "PENEGAKAN_HUKUM",
+        "polri_relation_evidence": [
+          "Polri berperan sebagai pihak penindak"
+        ],
+        "handling_status": "BELUM_ADA_INFORMASI",
+        "handling_evidence": [],
+        "assertion_status": "FACTUAL",
+        "assertion_confidence": 75,
+        "assertion_evidence": [],
+        "attention_score": 18,
+        "attention_label": "Rendah",
+        "attention_components": {
+          "severity": 11,
+          "polri_relation": 2,
+          "authority": 0,
+          "public_impact": 4,
+          "handling": 0,
+          "evidence": 1,
+          "context_risk": 0,
+          "routine_enforcement_cap": 35
+        },
+        "attention_evidence": {
+          "severity": [],
+          "authority": [],
+          "public_impact": [],
+          "evidence": [
+            "satu sumber / informasi awal"
+          ],
+          "role": [
+            "Polri sebagai pihak penindak"
+          ],
+          "issue": [
+            "narkotika"
+          ],
+          "handling": [],
+          "context": [],
+          "positive": [
+            "\\b(?:operasi|operasi tumpas|razia|pengungkapan)\\b.{0,120}\\b(?:ungkap|tangkap|amankan|sita|tersangka)\\b"
+          ]
+        },
+        "attention_reasons": [
+          "Polri berperan sebagai pihak penindak",
+          "tidak ditemukan indikator utama misconduct oleh personel"
+        ],
+        "contextual_flags": {
+          "explicit_polri_subject": false,
+          "explicit_polri_enforcer": true,
+          "polri_victim": false,
+          "service_negative": false,
+          "misconduct_signal": false,
+          "direct_positive_enforcement": false
+        },
+        "analysis_engine_version": "contextual-v1.1",
+        "location_engine_version": "location-v2-title-snippet-source",
+        "case_engine_version": "case-v6.5.4",
+        "case_processed_at": "2026-10-24T19:36:55.288343+00:00"
+      },
+      {
+        "id": "a501e1f0db1be09667b3fc2da9c11510d689d807",
+        "title": "Polisi Tangkap Lima Pelaku Pemerasan Terapis Pijat di Johar Baru - شبكة تواصل الإخبارية",
+        "url": "https://twaslnews1.twaslnews.com/6527370/",
+        "source": "شبكة تواصل الإخبارية",
+        "published_at": "2026-10-24T17:00:55+00:00",
+        "collected_at": "2026-10-24T19:30:56.054773+00:00",
+        "region": "BELUM TERPETAKAN",
+        "area_label": "BELUM TERPETAKAN",
+        "is_jatim": null,
+        "polres": null,
+        "category": "UNGKAP KASUS / PENINDAKAN",
+        "scope": "case",
+        "scope_label": "Ungkap Kasus",
+        "priority": "medium",
+        "summary": "Polisi Tangkap Lima Pelaku Pemerasan Terapis Pijat di Johar Baru شبكة تواصل الإخبارية",
+        "processing_status": "processed",
+        "classifier_version": "contextual-v1.1",
+        "classified_at": "2026-10-24T19:33:33.081037+00:00",
+        "case_id": "CASE-003106",
+        "discovery_families": [
+          "financial_misconduct"
+        ],
+        "discovery_tags": [
+          "financial_misconduct",
+          "integrity"
+        ],
+        "discovery_hits": [
+          "pemerasan"
+        ],
+        "discovery_version": "discovery-v6",
+        "google_news_url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE92eWhQQU9mMGk1SXFtbEZSSTRjb01Pd2xXb2MtN0F1b0lELUd3TXlHTF9aa1dKUC1IYjViYnFGZXFmY0Jxck1OaWs4WXBTRElvQ2kw?oc=5",
+        "original_url": "https://twaslnews1.twaslnews.com/6527370/",
+        "canonical_url": "https://twaslnews1.twaslnews.com/6527370",
+        "duplicate_article": false,
+        "locality": "",
+        "polsek": null,
+        "location_confidence": 0,
+        "location_evidence": [],
+        "location_status": "BELUM_TERPETAKAN",
+        "location_source": "title_description",
+        "sentiment": "positive",
+        "sentiment_label": "Positif",
+        "issue_type": "INTEGRITAS_DAN_KEUANGAN",
+        "issue_subtype": "Pungli / Suap / Pemerasan",
+        "issue_evidence": [
+          "pemerasan"
+        ],
+        "polri_relation": "PENEGAKAN_HUKUM",
+        "polri_relation_evidence": [
+          "Polri berperan sebagai pihak penindak"
+        ],
+        "handling_status": "BELUM_ADA_INFORMASI",
+        "handling_evidence": [],
+        "assertion_status": "FACTUAL",
+        "assertion_confidence": 75,
+        "assertion_evidence": [],
+        "attention_score": 39,
+        "attention_label": "Rendah",
+        "attention_components": {
+          "severity": 24,
+          "polri_relation": 0,
+          "authority": 0,
+          "public_impact": 4,
+          "handling": 0,
+          "evidence": 1,
+          "context_risk": 0,
+          "routine_enforcement_cap": null
+        },
+        "attention_evidence": {
+          "severity": [],
+          "authority": [],
+          "public_impact": [],
+          "evidence": [
+            "satu sumber / informasi awal"
+          ],
+          "role": [],
+          "issue": [
+            "pemerasan"
+          ],
+          "handling": [],
+          "context": [],
+          "positive": []
+        },
+        "attention_reasons": [
+          "Polri berperan sebagai pihak penindak",
+          "tidak ditemukan indikator utama misconduct oleh personel"
+        ],
+        "contextual_flags": {
+          "explicit_polri_subject": false,
+          "explicit_polri_enforcer": true,
+          "polri_victim": false,
+          "service_negative": false,
+          "misconduct_signal": true,
+          "direct_positive_enforcement": false
+        },
+        "analysis_engine_version": "contextual-v1.1",
+        "location_engine_version": "location-v2-title-snippet-source",
+        "case_engine_version": "case-v6.5.4",
+        "case_processed_at": "2026-10-24T19:36:55.288345+00:00"
+      }
+    ]
+  },
+  "cases": {
+    "active": 3,
+    "priority_high": 0,
+    "jatim": 0,
+    "jatim_priority_high": 0,
+    "articles": 3,
+    "case_ids": [
+      "CASE-003104",
+      "CASE-003105",
+      "CASE-003106"
+    ],
+    "items": [
+      {
+        "case_id": "CASE-003104",
+        "title": "Polisi Ciduk Warga Subulussalam Diduga Timbun Solar Subsidi - RRI.co.id",
+        "category": "NEGATIF - AKTIVITAS ILEGAL",
+        "scope": "negative",
+        "region": "BELUM TERPETAKAN",
+        "locality": "",
+        "is_jatim": null,
+        "polres": null,
+        "polsek": null,
+        "priority": "medium",
+        "attention_score": 44,
+        "attention_label": "Sedang",
+        "signature": "BELUM TERPETAKAN",
+        "incident_terms": [
+          "ciduk",
+          "rri",
+          "solar",
+          "subsidi",
+          "subulussalam",
+          "timbun"
+        ],
+        "event_terms": [],
+        "location_terms": [],
+        "discovery_families": [
+          "illegal_activity_backing"
+        ],
+        "first_seen": "2026-10-24T17:13:00+00:00",
+        "last_seen": "2026-10-24T19:30:56.054773+00:00",
+        "last_detected_at": "2026-10-24T19:30:56.054773+00:00",
+        "article_ids": [
+          "033ee440989f9cb1d0b3c4e97402b39d57f26a63"
+        ],
+        "articles": [
+          {
+            "id": "033ee440989f9cb1d0b3c4e97402b39d57f26a63",
+            "title": "Polisi Ciduk Warga Subulussalam Diduga Timbun Solar Subsidi - RRI.co.id",
+            "url": "https://rri.co.id/aceh-singkil/hukum/kriminalitas/2839159/polisi-ciduk-warga-subulussalam-diduga-timbun-solar-subsidi",
+            "published_at": "2026-10-24T17:13:00+00:00",
+            "collected_at": "2026-10-24T19:30:56.054773+00:00",
+            "source": "RRI.co.id",
+            "match_score": 1.0,
+            "priority": "medium",
+            "scope": "negative",
+            "category": "NEGATIF - AKTIVITAS ILEGAL",
+            "region": "BELUM TERPETAKAN",
+            "locality": "",
+            "is_jatim": false,
+            "polres": null,
+            "polsek": null,
+            "issue_type": "AKTIVITAS_ILEGAL",
+            "issue_subtype": "Aktivitas Ilegal",
+            "handling_status": "BELUM_ADA_INFORMASI",
+            "handling_evidence": [],
+            "polri_relation": "SUBJEK_PERMASALAHAN",
+            "polri_relation_points": 0,
+            "polri_relation_evidence": [
+              "Polri/personel menjadi subjek masalah"
+            ],
+            "attention_score": 43,
+            "attention_label": "Sedang",
+            "attention_components": {
+              "severity": 14,
+              "polri_relation": 16,
+              "authority": 0,
+              "public_impact": 12,
+              "handling": 0,
+              "evidence": 1,
+              "context_risk": 0,
+              "routine_enforcement_cap": null
+            }
+          }
+        ],
+        "article_count": 1,
+        "created_at": "2026-10-24T19:36:49.556204+00:00",
+        "updated_at": "2026-10-24T19:36:55.281682+00:00",
+        "engine_version": "case-v6.5.4",
+        "priority_score": 44,
+        "priority_breakdown": {
+          "severity": 14,
+          "polri_relation": 16,
+          "authority_context": 0,
+          "public_impact": 12,
+          "handling": 0,
+          "evidence": 1,
+          "spread": 0,
+          "escalation": 0,
+          "current_activity": 1,
+          "context_risk": 0
+        },
+        "priority_evidence": {
+          "unique_sources": 1,
+          "active_today_articles": 1,
+          "escalation": [],
+          "issue_type": "AKTIVITAS_ILEGAL",
+          "issue_subtype": "Aktivitas Ilegal",
+          "sentiment": "negative",
+          "polri_relation": "SUBJEK_PERMASALAHAN",
+          "handling_status": "BELUM_ADA_INFORMASI",
+          "reasons": [
+            "sifat berita: negatif",
+            "Aktivitas Ilegal",
+            "polisi + dugaan"
+          ]
+        }
+      },
+      {
+        "case_id": "CASE-003105",
+        "title": "Razia Gabungan di Sumedang, Polisi Amankan Perempuan Positif Narkotika dan Sita 200 Botol Miras - Harapan Rakyat",
+        "category": "UNGKAP KASUS / PENINDAKAN",
+        "scope": "case",
+        "region": "BELUM TERPETAKAN",
+        "locality": "",
+        "is_jatim": null,
+        "polres": null,
+        "polsek": null,
+        "priority": "low",
+        "attention_score": 19,
+        "attention_label": "Rendah",
+        "signature": "BELUM TERPETAKAN",
+        "incident_terms": [
+          "200",
+          "botol",
+          "gabungan",
+          "harapan",
+          "miras",
+          "narkotika",
+          "perempuan",
+          "positif",
+          "rakyat",
+          "razia",
+          "sita",
+          "sumedang"
+        ],
+        "event_terms": [
+          "miras"
+        ],
+        "location_terms": [],
+        "discovery_families": [
+          "illegal_activity_backing"
+        ],
+        "first_seen": "2026-10-24T17:06:57+00:00",
+        "last_seen": "2026-10-24T19:30:56.054773+00:00",
+        "last_detected_at": "2026-10-24T19:30:56.054773+00:00",
+        "article_ids": [
+          "e4104b72f4f603d7506f44f317a9db37b00097cc"
+        ],
+        "articles": [
+          {
+            "id": "e4104b72f4f603d7506f44f317a9db37b00097cc",
+            "title": "Razia Gabungan di Sumedang, Polisi Amankan Perempuan Positif Narkotika dan Sita 200 Botol Miras - Harapan Rakyat",
+            "url": "https://www.harapanrakyat.com/2026/10/razia-gabungan-di-sumedang-polisi-amankan-perempuan-positif-narkotika-dan-sita-200-botol-miras/",
+            "published_at": "2026-10-24T17:06:57+00:00",
+            "collected_at": "2026-10-24T19:30:56.054773+00:00",
+            "source": "Harapan Rakyat",
+            "match_score": 1.0,
+            "priority": "low",
+            "scope": "case",
+            "category": "UNGKAP KASUS / PENINDAKAN",
+            "region": "BELUM TERPETAKAN",
+            "locality": "",
+            "is_jatim": false,
+            "polres": null,
+            "polsek": null,
+            "issue_type": "NARKOBA",
+            "issue_subtype": "Narkoba / Narkotika",
+            "handling_status": "BELUM_ADA_INFORMASI",
+            "handling_evidence": [],
+            "polri_relation": "PENEGAKAN_HUKUM",
+            "polri_relation_points": 0,
+            "polri_relation_evidence": [
+              "Polri berperan sebagai pihak penindak"
+            ],
+            "attention_score": 18,
+            "attention_label": "Rendah",
+            "attention_components": {
+              "severity": 11,
+              "polri_relation": 2,
+              "authority": 0,
+              "public_impact": 4,
+              "handling": 0,
+              "evidence": 1,
+              "context_risk": 0,
+              "routine_enforcement_cap": 35
+            }
+          }
+        ],
+        "article_count": 1,
+        "created_at": "2026-10-24T19:36:49.566755+00:00",
+        "updated_at": "2026-10-24T19:36:55.284624+00:00",
+        "engine_version": "case-v6.5.4",
+        "priority_score": 19,
+        "priority_breakdown": {
+          "severity": 11,
+          "polri_relation": 2,
+          "authority_context": 0,
+          "public_impact": 4,
+          "handling": 0,
+          "evidence": 1,
+          "spread": 0,
+          "escalation": 0,
+          "current_activity": 1,
+          "context_risk": 0
+        },
+        "priority_evidence": {
+          "unique_sources": 1,
+          "active_today_articles": 1,
+          "escalation": [],
+          "issue_type": "NARKOBA",
+          "issue_subtype": "Narkoba / Narkotika",
+          "sentiment": "positive",
+          "polri_relation": "PENEGAKAN_HUKUM",
+          "handling_status": "BELUM_ADA_INFORMASI",
+          "reasons": [
+            "sifat berita: positif",
+            "Narkoba / Narkotika",
+            "Polri sebagai pihak penindak",
+            "frasa penegakan/hasil positif terdeteksi"
+          ]
+        }
+      },
+      {
+        "case_id": "CASE-003106",
+        "title": "Polisi Tangkap Lima Pelaku Pemerasan Terapis Pijat di Johar Baru - شبكة تواصل الإخبارية",
+        "category": "UNGKAP KASUS / PENINDAKAN",
+        "scope": "case",
+        "region": "BELUM TERPETAKAN",
+        "locality": "",
+        "is_jatim": null,
+        "polres": null,
+        "polsek": null,
+        "priority": "low",
+        "attention_score": 30,
+        "attention_label": "Rendah",
+        "signature": "BELUM TERPETAKAN",
+        "incident_terms": [
+          "baru",
+          "johar",
+          "pemerasan",
+          "pijat",
+          "terapis"
+        ],
+        "event_terms": [
+          "pemerasan"
+        ],
+        "location_terms": [],
+        "discovery_families": [
+          "financial_misconduct"
+        ],
+        "first_seen": "2026-10-24T17:00:55+00:00",
+        "last_seen": "2026-10-24T19:30:56.054773+00:00",
+        "last_detected_at": "2026-10-24T19:30:56.054773+00:00",
+        "article_ids": [
+          "a501e1f0db1be09667b3fc2da9c11510d689d807"
+        ],
+        "articles": [
+          {
+            "id": "a501e1f0db1be09667b3fc2da9c11510d689d807",
+            "title": "Polisi Tangkap Lima Pelaku Pemerasan Terapis Pijat di Johar Baru - شبكة تواصل الإخبارية",
+            "url": "https://twaslnews1.twaslnews.com/6527370/",
+            "published_at": "2026-10-24T17:00:55+00:00",
+            "collected_at": "2026-10-24T19:30:56.054773+00:00",
+            "source": "شبكة تواصل الإخبارية",
+            "match_score": 1.0,
+            "priority": "medium",
+            "scope": "case",
+            "category": "UNGKAP KASUS / PENINDAKAN",
+            "region": "BELUM TERPETAKAN",
+            "locality": "",
+            "is_jatim": false,
+            "polres": null,
+            "polsek": null,
+            "issue_type": "INTEGRITAS_DAN_KEUANGAN",
+            "issue_subtype": "Pungli / Suap / Pemerasan",
+            "handling_status": "BELUM_ADA_INFORMASI",
+            "handling_evidence": [],
+            "polri_relation": "PENEGAKAN_HUKUM",
+            "polri_relation_points": 0,
+            "polri_relation_evidence": [
+              "Polri berperan sebagai pihak penindak"
+            ],
+            "attention_score": 39,
+            "attention_label": "Rendah",
+            "attention_components": {
+              "severity": 24,
+              "polri_relation": 0,
+              "authority": 0,
+              "public_impact": 4,
+              "handling": 0,
+              "evidence": 1,
+              "context_risk": 0,
+              "routine_enforcement_cap": null
+            }
+          }
+        ],
+        "article_count": 1,
+        "created_at": "2026-10-24T19:36:49.575866+00:00",
+        "updated_at": "2026-10-24T19:36:55.287577+00:00",
+        "engine_version": "case-v6.5.4",
+        "priority_score": 30,
+        "priority_breakdown": {
+          "severity": 24,
+          "polri_relation": 0,
+          "authority_context": 0,
+          "public_impact": 4,
+          "handling": 0,
+          "evidence": 1,
+          "spread": 0,
+          "escalation": 0,
+          "current_activity": 1,
+          "context_risk": 0
+        },
+        "priority_evidence": {
+          "unique_sources": 1,
+          "active_today_articles": 1,
+          "escalation": [],
+          "issue_type": "INTEGRITAS_DAN_KEUANGAN",
+          "issue_subtype": "Pungli / Suap / Pemerasan",
+          "sentiment": "negative",
+          "polri_relation": "INFORMASI_UMUM",
+          "handling_status": "BELUM_ADA_INFORMASI",
+          "reasons": [
+            "sifat berita: negatif",
+            "Pungli / Suap / Pemerasan",
+            "Hubungan Polri belum spesifik"
+          ]
+        }
+      }
+    ],
+    "jatim_items": []
+  },
+  "social": {
+    "detected": 28,
+    "jatim": 0,
+    "negative": 19,
+    "priority_high": 1,
+    "video_ids": [
+      "D2MAkBPKZk4",
+      "aawSR3FlcoQ",
+      "yOs3o46hJ-o",
+      "LlzvuA1LWG8",
+      "1eRUNSRqc7g",
+      "t_zD-PXs4hA",
+      "-EWGgQsqyXY",
+      "i8wb1S-zk8s",
+      "wbtFBCr4vig",
+      "KgVukTxT5qk",
+      "OwXfhCOxmzg",
+      "kkE1ZvVaSWU",
+      "GQENtnaxqcI",
+      "jztdQqjMdBc",
+      "iPxrkwQp__8",
+      "FK3X_Dy0Zzc",
+      "450oGX_Zr7Y",
+      "MRN_LTePouI",
+      "UpHrzF304lc",
+      "Tpv_x5d4m7A",
+      "8z4jJI4HR7U",
+      "tpjUURMwgug",
+      "Z0Wk6xDjVu0",
+      "BFvu72mQwV0",
+      "fa-daGu1Shg",
+      "u2V9WhrdeSk",
+      "0zfjaDOsiik",
+      "Fz6b8HG2TAI"
+    ]
+  },
+  "jatim": {
+    "news_today": 6,
+    "negative_today": 0,
+    "positive_today": 0,
+    "case_scope_today": 0,
+    "neutral_today": 6,
+    "case_today": 0,
+    "case_high_active": 0,
+    "article_high_today": 0,
+    "outside_jatim_today": 3
+  },
+  "regions": [
+    {
+      "name": "Surabaya",
+      "count": 2
+    },
+    {
+      "name": "Gresik",
+      "count": 1
+    },
+    {
+      "name": "Kediri",
+      "count": 1
+    },
+    {
+      "name": "Malang",
+      "count": 1
+    },
+    {
+      "name": "Mojokerto",
+      "count": 1
+    }
+  ],
+  "polres": [
+    {
+      "name": "POLRES GRESIK",
+      "count": 1
+    },
+    {
+      "name": "POLRESTABES SURABAYA",
+      "count": 1
+    },
+    {
+      "name": "POLRES KEDIRI KOTA",
+      "count": 1
+    },
+    {
+      "name": "POLRES PELABUHAN TANJUNG PERAK",
+      "count": 1
+    },
+    {
+      "name": "POLRES MALANG",
+      "count": 1
+    }
+  ],
+  "categories": [
+    {
+      "name": "NETRAL / LAINNYA",
+      "count": 4
+    },
+    {
+      "name": "NETRAL / PERISTIWA",
+      "count": 2
+    }
+  ],
+  "summary": {
+    "news_today": 9,
+    "negative_today": 1,
+    "cases_today": 3,
+    "priority_high": 0,
+    "article_priority_high": 0,
+    "jatim_news": 6,
+    "jatim_negative": 0,
+    "jatim_positive": 0,
+    "jatim_case_scope": 0,
+    "jatim_neutral": 6,
+    "jatim_cases_today": 0,
+    "jatim_case_high_active": 0,
+    "luar_jatim_news": 3,
+    "youtube_today": 28
+  }
+}
