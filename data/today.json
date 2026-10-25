@@ -2,18 +2,26 @@
   "schema_version": "today-v3",
   "date": "2026-10-26",
   "timezone": "Asia/Jakarta",
-  "updated_at": "2026-10-26T02:47:16.932515+07:00",
-  "last_successful_update": "2026-10-26T02:47:16.932515+07:00",
+  "updated_at": "2026-10-26T05:42:44.831899+07:00",
+  "last_successful_update": "2026-10-26T05:42:44.831899+07:00",
   "news": {
-    "detected": 7,
-    "negative": 2,
-    "positive": 0,
+    "detected": 15,
+    "negative": 3,
+    "positive": 1,
     "case": 1,
-    "neutral": 4,
-    "jatim": 3,
-    "luar_jatim": 4,
-    "priority_high": 1,
+    "neutral": 10,
+    "jatim": 8,
+    "luar_jatim": 7,
+    "priority_high": 2,
     "article_ids": [
+      "edb033ef961808fa2ba13c6c2b5291453df8ddb7",
+      "d472cfddf0f0582d572dfa081171b6deeb788e8d",
+      "176e73d1e7bd2aea2f61657f7b04bdeaf5f7308a",
+      "8f1eb0a0c28a43bbf696b0275b796d3bffc5d6d2",
+      "8519d0991b49cf3e8c991d5ce444d82ae3649ec7",
+      "b63b631bcf38e66b50a0753915e960c29b3a6d15",
+      "efbf62fb606fcbc205a0840671aa6ea754584d0d",
+      "25c09104ca4d8173b48eaa9cd9aa552f87c0a43e",
       "f64420f5c9ea89abe31fdd561e64ed24fe4f6aec",
       "7a5ff0adffcf11ce38110b90f3610342b99e1b69",
       "fe0d0a8760ab1c494d3a01208456f1ee7594d4e2",
@@ -24,6 +32,757 @@
     ],
     "items": [
       {
+        "id": "edb033ef961808fa2ba13c6c2b5291453df8ddb7",
+        "title": "Program Polisi Jaga Sekolah di Sampang upaya cegah perundungan - Antara News jatim",
+        "url": "https://jatim.antaranews.com/berita/1111407/program-polisi-jaga-sekolah-di-sampang-upaya-cegah-perundungan",
+        "source": "Antara News jatim",
+        "published_at": "2026-10-25T22:18:22+00:00",
+        "collected_at": "2026-10-25T22:35:57.460694+00:00",
+        "region": "Jawa Timur",
+        "area_label": "Sampang",
+        "is_jatim": true,
+        "polres": null,
+        "category": "NETRAL / LAINNYA",
+        "scope": "neutral",
+        "scope_label": "Netral",
+        "priority": "low",
+        "summary": "Program Polisi Jaga Sekolah di Sampang upaya cegah perundungan Antara News jatim",
+        "processing_status": "processed",
+        "classifier_version": "contextual-v1.1",
+        "classified_at": "2026-10-25T22:38:34.134504+00:00",
+        "case_id": null,
+        "discovery_families": [],
+        "discovery_tags": [],
+        "discovery_hits": [],
+        "discovery_version": "discovery-v6",
+        "google_news_url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPZVdUeHR0Mk9UcnRCSzJtTk9UNnpiMlVvN3Q2MXhjX2dOSUl3dUxhWkNFeEFIcnMzODFBLThmMkUtLTlfX0xObWVMbGhMcW04dHRiRXZuMUg0YjNZalpmZ1RTRVFRLTBQNVpOMUdxVGFyb2RuNjNmZXE1QXVNVXlfM3M5c1FiS0s4QkFDNzhqRy1CSW11eVRTT2ltM0JtOG1GRDV1ejdRTFItZ9IBrwFBVV95cUxQQVJXYl90MlpvakFfWUNZUnNCa2VqRVRjMFh2NU91MC1YQ3laWW5DLXpuLTI4SndBRjZpNFM1MnA4czFoaE0wZlZUS2dSQTdoMnNGeGZoMFBST0dlaXgwckd5WVdpN1d1UFd6MXU3MmhxM1JVWXpYVDVpOWZqZGZYMUt5M2I1VmxWWXpMY1lfd2x1WWw1eEZkVEFGRmVvMmZiYkVFNkE5eUJYSVN3ZVJn?oc=5",
+        "original_url": "https://jatim.antaranews.com/berita/1111407/program-polisi-jaga-sekolah-di-sampang-upaya-cegah-perundungan",
+        "canonical_url": "https://jatim.antaranews.com/berita/1111407/program-polisi-jaga-sekolah-di-sampang-upaya-cegah-perundungan",
+        "duplicate_article": false,
+        "locality": "Sampang",
+        "polsek": null,
+        "location_confidence": 95,
+        "location_evidence": [
+          "Sampang",
+          "Jawa Timur/Jatim"
+        ],
+        "location_status": "JAWA_TIMUR",
+        "location_source": "title_description",
+        "sentiment": "neutral",
+        "sentiment_label": "Netral",
+        "issue_type": "UMUM",
+        "issue_subtype": "Belum Teridentifikasi",
+        "issue_evidence": [],
+        "polri_relation": "INFORMASI_UMUM",
+        "polri_relation_evidence": [
+          "Hubungan Polri belum spesifik"
+        ],
+        "handling_status": "BELUM_ADA_INFORMASI",
+        "handling_evidence": [],
+        "assertion_status": "FACTUAL",
+        "assertion_confidence": 75,
+        "assertion_evidence": [],
+        "attention_score": 7,
+        "attention_label": "Rendah",
+        "attention_components": {
+          "severity": 2,
+          "polri_relation": 0,
+          "authority": 0,
+          "public_impact": 4,
+          "handling": 0,
+          "evidence": 1,
+          "context_risk": 0,
+          "routine_enforcement_cap": null
+        },
+        "attention_evidence": {
+          "severity": [],
+          "authority": [],
+          "public_impact": [],
+          "evidence": [
+            "satu sumber / informasi awal"
+          ],
+          "role": [],
+          "issue": [],
+          "handling": [],
+          "context": [],
+          "positive": []
+        },
+        "attention_reasons": [
+          "sifat berita: netral",
+          "Hubungan Polri belum spesifik"
+        ],
+        "contextual_flags": {
+          "explicit_polri_subject": false,
+          "explicit_polri_enforcer": false,
+          "polri_victim": false,
+          "service_negative": false,
+          "misconduct_signal": false,
+          "direct_positive_enforcement": false
+        },
+        "analysis_engine_version": "contextual-v1.1",
+        "location_engine_version": "location-v2-title-snippet-source",
+        "case_engine_version": "case-v6.5.4",
+        "case_processed_at": "2026-10-25T22:42:09.880209+00:00"
+      },
+      {
+        "id": "d472cfddf0f0582d572dfa081171b6deeb788e8d",
+        "title": "Rawat Ratusan ODGJ, Anggota Polres Lamongan Raih Penghargaan Santri Inspiratif - Kompas.com",
+        "url": "http://surabaya.kompas.com/read/2026/10/26/050700978/rawat-ratusan-odgj-anggota-polres-lamongan-raih-penghargaan-santri?source=terkini_artikel",
+        "source": "Kompas.com",
+        "published_at": "2026-10-25T22:07:00+00:00",
+        "collected_at": "2026-10-25T22:35:57.460694+00:00",
+        "region": "Jawa Timur",
+        "area_label": "Lamongan",
+        "is_jatim": true,
+        "polres": "POLRES LAMONGAN",
+        "category": "POSITIF / PENEGAKAN HUKUM",
+        "scope": "positive",
+        "scope_label": "Positif",
+        "priority": "low",
+        "summary": "Rawat Ratusan ODGJ, Anggota Polres Lamongan Raih Penghargaan Santri Inspiratif Kompas.com",
+        "processing_status": "processed",
+        "classifier_version": "contextual-v1.1",
+        "classified_at": "2026-10-25T22:38:34.179251+00:00",
+        "case_id": null,
+        "discovery_families": [],
+        "discovery_tags": [],
+        "discovery_hits": [],
+        "discovery_version": "discovery-v6",
+        "google_news_url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxNWG0xSko0WG1taENVOUdHRmhzR1ItSFItaXo5cUNCaEEwMnFVZC1NSl95Q25hb09aaF9KZGdYNExLWjlhb3hEWnd3eE1EQkRIcHptX0YtXzVLdEtlT3dPajRUVE5UY1hhS3dpRnZDOXhzaTlrUHBHZ21fVGdrTnlMcEVCVVUtLUh6dC12MHVSOXBBb0x3MGhSOFRucVVtZHVWYTFHbEhfSXduZG5ldHQzZjhKa00zNnZGTVdoc09uR0NQTXZQY3NBb0ZCTFYzT0haaEV5ejhpQkJQZw?oc=5",
+        "original_url": "http://surabaya.kompas.com/read/2026/10/26/050700978/rawat-ratusan-odgj-anggota-polres-lamongan-raih-penghargaan-santri?source=terkini_artikel",
+        "canonical_url": "http://surabaya.kompas.com/read/2026/10/26/050700978/rawat-ratusan-odgj-anggota-polres-lamongan-raih-penghargaan-santri",
+        "duplicate_article": false,
+        "locality": "Lamongan",
+        "polsek": null,
+        "location_confidence": 100,
+        "location_evidence": [
+          "polres lamongan",
+          "Lamongan"
+        ],
+        "location_status": "JAWA_TIMUR",
+        "location_source": "master_entity",
+        "sentiment": "positive",
+        "sentiment_label": "Positif",
+        "issue_type": "UMUM",
+        "issue_subtype": "Belum Teridentifikasi",
+        "issue_evidence": [],
+        "polri_relation": "INFORMASI_UMUM",
+        "polri_relation_evidence": [
+          "Hubungan Polri belum spesifik"
+        ],
+        "handling_status": "BELUM_ADA_INFORMASI",
+        "handling_evidence": [],
+        "assertion_status": "FACTUAL",
+        "assertion_confidence": 75,
+        "assertion_evidence": [],
+        "attention_score": 7,
+        "attention_label": "Rendah",
+        "attention_components": {
+          "severity": 2,
+          "polri_relation": 0,
+          "authority": 0,
+          "public_impact": 4,
+          "handling": 0,
+          "evidence": 1,
+          "context_risk": 0,
+          "routine_enforcement_cap": null
+        },
+        "attention_evidence": {
+          "severity": [],
+          "authority": [],
+          "public_impact": [],
+          "evidence": [
+            "satu sumber / informasi awal"
+          ],
+          "role": [],
+          "issue": [],
+          "handling": [],
+          "context": [],
+          "positive": [
+            "\\b(?:pelayanan|inovasi|prestasi|penghargaan|apresiasi)\\b.{0,100}\\b(?:polisi|polres|polda|polri)\\b"
+          ]
+        },
+        "attention_reasons": [
+          "sifat berita: positif",
+          "Hubungan Polri belum spesifik",
+          "frasa penegakan/hasil positif terdeteksi"
+        ],
+        "contextual_flags": {
+          "explicit_polri_subject": false,
+          "explicit_polri_enforcer": false,
+          "polri_victim": false,
+          "service_negative": false,
+          "misconduct_signal": false,
+          "direct_positive_enforcement": false
+        },
+        "analysis_engine_version": "contextual-v1.1",
+        "location_engine_version": "location-v2-title-snippet-source",
+        "case_engine_version": "case-v6.5.4",
+        "case_processed_at": "2026-10-25T22:42:09.887473+00:00"
+      },
+      {
+        "id": "176e73d1e7bd2aea2f61657f7b04bdeaf5f7308a",
+        "title": "Polres Sampang Siap Gelar Operasi Patuh Semeru 2026 - RRI.co.id",
+        "url": "https://rri.co.id/sampang/regional/2841323/polres-sampang-siap-gelar-operasi-patuh-semeru-2026",
+        "source": "RRI.co.id",
+        "published_at": "2026-10-25T21:56:00+00:00",
+        "collected_at": "2026-10-25T22:35:57.460694+00:00",
+        "region": "Jawa Timur",
+        "area_label": "Sampang",
+        "is_jatim": true,
+        "polres": "POLRES SAMPANG",
+        "category": "NETRAL / LAINNYA",
+        "scope": "neutral",
+        "scope_label": "Netral",
+        "priority": "low",
+        "summary": "Polres Sampang Siap Gelar Operasi Patuh Semeru 2026 RRI.co.id",
+        "processing_status": "processed",
+        "classifier_version": "contextual-v1.1",
+        "classified_at": "2026-10-25T22:38:34.222497+00:00",
+        "case_id": null,
+        "discovery_families": [],
+        "discovery_tags": [],
+        "discovery_hits": [],
+        "discovery_version": "discovery-v6",
+        "google_news_url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQdW9GMk1Fbk1YMWFDUEotLXhkRkFGdFp6S0Qxd01NMFpaVWoySl81cVB5LS1XQThWMURPemNoV1RTVnRvSUFCS0R2bWRFenJSMkZMUDlMaEktdDhQQUJzYnUtaUdRcG1Xa296RmRKc0ROYjZOUm9rSFVvbkNSa3lYMjE1aEtCbFJJYVRNYzNvbk96TXFZV1QyT0ln?oc=5",
+        "original_url": "https://rri.co.id/sampang/regional/2841323/polres-sampang-siap-gelar-operasi-patuh-semeru-2026",
+        "canonical_url": "https://rri.co.id/sampang/regional/2841323/polres-sampang-siap-gelar-operasi-patuh-semeru-2026",
+        "duplicate_article": false,
+        "locality": "Sampang",
+        "polsek": null,
+        "location_confidence": 100,
+        "location_evidence": [
+          "polres sampang",
+          "Sampang"
+        ],
+        "location_status": "JAWA_TIMUR",
+        "location_source": "master_entity",
+        "sentiment": "neutral",
+        "sentiment_label": "Netral",
+        "issue_type": "UMUM",
+        "issue_subtype": "Belum Teridentifikasi",
+        "issue_evidence": [],
+        "polri_relation": "INFORMASI_UMUM",
+        "polri_relation_evidence": [
+          "Hubungan Polri belum spesifik"
+        ],
+        "handling_status": "BELUM_ADA_INFORMASI",
+        "handling_evidence": [],
+        "assertion_status": "FACTUAL",
+        "assertion_confidence": 75,
+        "assertion_evidence": [],
+        "attention_score": 7,
+        "attention_label": "Rendah",
+        "attention_components": {
+          "severity": 2,
+          "polri_relation": 0,
+          "authority": 0,
+          "public_impact": 4,
+          "handling": 0,
+          "evidence": 1,
+          "context_risk": 0,
+          "routine_enforcement_cap": null
+        },
+        "attention_evidence": {
+          "severity": [],
+          "authority": [],
+          "public_impact": [],
+          "evidence": [
+            "satu sumber / informasi awal"
+          ],
+          "role": [],
+          "issue": [],
+          "handling": [],
+          "context": [],
+          "positive": []
+        },
+        "attention_reasons": [
+          "sifat berita: netral",
+          "Hubungan Polri belum spesifik"
+        ],
+        "contextual_flags": {
+          "explicit_polri_subject": false,
+          "explicit_polri_enforcer": false,
+          "polri_victim": false,
+          "service_negative": false,
+          "misconduct_signal": false,
+          "direct_positive_enforcement": false
+        },
+        "analysis_engine_version": "contextual-v1.1",
+        "location_engine_version": "location-v2-title-snippet-source",
+        "case_engine_version": "case-v6.5.4",
+        "case_processed_at": "2026-10-25T22:42:09.894406+00:00"
+      },
+      {
+        "id": "8f1eb0a0c28a43bbf696b0275b796d3bffc5d6d2",
+        "title": "Polsek Sreseh Gencarkan Patroli Harkamtibmas di Desa Labuhan - RRI.co.id",
+        "url": "https://rri.co.id/sampang/regional/2841322/polsek-sreseh-gencarkan-patroli-harkamtibmas-di-desa-labuhan",
+        "source": "RRI.co.id",
+        "published_at": "2026-10-25T21:55:00+00:00",
+        "collected_at": "2026-10-25T22:35:57.460694+00:00",
+        "region": "BELUM TERPETAKAN",
+        "area_label": "BELUM TERPETAKAN",
+        "is_jatim": null,
+        "polres": null,
+        "category": "NETRAL / LAINNYA",
+        "scope": "neutral",
+        "scope_label": "Netral",
+        "priority": "low",
+        "summary": "Polsek Sreseh Gencarkan Patroli Harkamtibmas di Desa Labuhan RRI.co.id",
+        "processing_status": "processed",
+        "classifier_version": "contextual-v1.1",
+        "classified_at": "2026-10-25T22:38:34.268179+00:00",
+        "case_id": null,
+        "discovery_families": [],
+        "discovery_tags": [],
+        "discovery_hits": [],
+        "discovery_version": "discovery-v6",
+        "google_news_url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNYkRyaFRVM1RXMlRGa2NuOGdTMnlMb0xLajZHaUl5b2dLTlhQOEZKSVVTakZRSzhMT2dMV1pGUENfbHR6cDRoUV80UWFraFNXVkVBblNLUkZrRkVGUXRUZUlWZzNma0o3QWxGdWRMZ3hNOVlIUzI0ZTJocHhQMkFrRXB6YUZxelFCNTdmM0wwSE0zVi1GNHBVVFVtSTNTc0htRm91TG13?oc=5",
+        "original_url": "https://rri.co.id/sampang/regional/2841322/polsek-sreseh-gencarkan-patroli-harkamtibmas-di-desa-labuhan",
+        "canonical_url": "https://rri.co.id/sampang/regional/2841322/polsek-sreseh-gencarkan-patroli-harkamtibmas-di-desa-labuhan",
+        "duplicate_article": false,
+        "locality": "",
+        "polsek": "POLSEK SRESEH",
+        "location_confidence": 0,
+        "location_evidence": [
+          "POLSEK SRESEH"
+        ],
+        "location_status": "BELUM_TERPETAKAN",
+        "location_source": "title_description",
+        "sentiment": "neutral",
+        "sentiment_label": "Netral",
+        "issue_type": "UMUM",
+        "issue_subtype": "Belum Teridentifikasi",
+        "issue_evidence": [],
+        "polri_relation": "INFORMASI_UMUM",
+        "polri_relation_evidence": [
+          "Hubungan Polri belum spesifik"
+        ],
+        "handling_status": "BELUM_ADA_INFORMASI",
+        "handling_evidence": [],
+        "assertion_status": "FACTUAL",
+        "assertion_confidence": 75,
+        "assertion_evidence": [],
+        "attention_score": 7,
+        "attention_label": "Rendah",
+        "attention_components": {
+          "severity": 2,
+          "polri_relation": 0,
+          "authority": 0,
+          "public_impact": 4,
+          "handling": 0,
+          "evidence": 1,
+          "context_risk": 0,
+          "routine_enforcement_cap": null
+        },
+        "attention_evidence": {
+          "severity": [],
+          "authority": [],
+          "public_impact": [],
+          "evidence": [
+            "satu sumber / informasi awal"
+          ],
+          "role": [],
+          "issue": [],
+          "handling": [],
+          "context": [],
+          "positive": []
+        },
+        "attention_reasons": [
+          "sifat berita: netral",
+          "Hubungan Polri belum spesifik"
+        ],
+        "contextual_flags": {
+          "explicit_polri_subject": false,
+          "explicit_polri_enforcer": false,
+          "polri_victim": false,
+          "service_negative": false,
+          "misconduct_signal": false,
+          "direct_positive_enforcement": false
+        },
+        "analysis_engine_version": "contextual-v1.1",
+        "location_engine_version": "location-v2-title-snippet-source",
+        "case_engine_version": "case-v6.5.4",
+        "case_processed_at": "2026-10-25T22:42:09.902218+00:00"
+      },
+      {
+        "id": "8519d0991b49cf3e8c991d5ce444d82ae3649ec7",
+        "title": "Polsek Ketapang Patroli di Sejumlah SPBU hingga Jalur Trans Nasional - RRI.co.id",
+        "url": "https://rri.co.id/sampang/regional/2841316/polsek-ketapang-patroli-di-sejumlah-spbu-hingga-jalur-trans-nasional",
+        "source": "RRI.co.id",
+        "published_at": "2026-10-25T21:54:00+00:00",
+        "collected_at": "2026-10-25T22:35:57.460694+00:00",
+        "region": "BELUM TERPETAKAN",
+        "area_label": "BELUM TERPETAKAN",
+        "is_jatim": null,
+        "polres": null,
+        "category": "NETRAL / LAINNYA",
+        "scope": "neutral",
+        "scope_label": "Netral",
+        "priority": "low",
+        "summary": "Polsek Ketapang Patroli di Sejumlah SPBU hingga Jalur Trans Nasional RRI.co.id",
+        "processing_status": "processed",
+        "classifier_version": "contextual-v1.1",
+        "classified_at": "2026-10-25T22:38:34.314488+00:00",
+        "case_id": null,
+        "discovery_families": [],
+        "discovery_tags": [],
+        "discovery_hits": [],
+        "discovery_version": "discovery-v6",
+        "google_news_url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQRG9EUFdZMjJQYzVqazZfczRnWDFzdWl1Z2VnY0JPTnh4bTkwNndBamFQaUhMTnFIcTFJWWFhMllDRTVXTmJycm1QQWpqeDU1RG9pRGhSNC1VN01sYlpUWVo5aHNsMGF6d3pBVllubzBmeEVmZ1VuTXRxbzIxaTZoVEx4Zl9jMlpLUXB6QzFabkhyR2tGc1NwcUIzMXZQNGMtWjNjZWtGOS1HaWQ5NEJUVA?oc=5",
+        "original_url": "https://rri.co.id/sampang/regional/2841316/polsek-ketapang-patroli-di-sejumlah-spbu-hingga-jalur-trans-nasional",
+        "canonical_url": "https://rri.co.id/sampang/regional/2841316/polsek-ketapang-patroli-di-sejumlah-spbu-hingga-jalur-trans-nasional",
+        "duplicate_article": false,
+        "locality": "",
+        "polsek": "POLSEK KETAPANG",
+        "location_confidence": 0,
+        "location_evidence": [
+          "POLSEK KETAPANG"
+        ],
+        "location_status": "BELUM_TERPETAKAN",
+        "location_source": "title_description",
+        "sentiment": "neutral",
+        "sentiment_label": "Netral",
+        "issue_type": "UMUM",
+        "issue_subtype": "Belum Teridentifikasi",
+        "issue_evidence": [],
+        "polri_relation": "INFORMASI_UMUM",
+        "polri_relation_evidence": [
+          "Hubungan Polri belum spesifik"
+        ],
+        "handling_status": "BELUM_ADA_INFORMASI",
+        "handling_evidence": [],
+        "assertion_status": "FACTUAL",
+        "assertion_confidence": 75,
+        "assertion_evidence": [],
+        "attention_score": 7,
+        "attention_label": "Rendah",
+        "attention_components": {
+          "severity": 2,
+          "polri_relation": 0,
+          "authority": 0,
+          "public_impact": 4,
+          "handling": 0,
+          "evidence": 1,
+          "context_risk": 0,
+          "routine_enforcement_cap": null
+        },
+        "attention_evidence": {
+          "severity": [],
+          "authority": [],
+          "public_impact": [],
+          "evidence": [
+            "satu sumber / informasi awal"
+          ],
+          "role": [],
+          "issue": [],
+          "handling": [],
+          "context": [],
+          "positive": []
+        },
+        "attention_reasons": [
+          "sifat berita: netral",
+          "Hubungan Polri belum spesifik"
+        ],
+        "contextual_flags": {
+          "explicit_polri_subject": false,
+          "explicit_polri_enforcer": false,
+          "polri_victim": false,
+          "service_negative": false,
+          "misconduct_signal": false,
+          "direct_positive_enforcement": false
+        },
+        "analysis_engine_version": "contextual-v1.1",
+        "location_engine_version": "location-v2-title-snippet-source",
+        "case_engine_version": "case-v6.5.4",
+        "case_processed_at": "2026-10-25T22:42:09.909775+00:00"
+      },
+      {
+        "id": "b63b631bcf38e66b50a0753915e960c29b3a6d15",
+        "title": "Polres Sampang Gelar Patroli Dini Hari - RRI.co.id",
+        "url": "https://rri.co.id/sampang/regional/2841312/polres-sampang-gelar-patroli-dini-hari",
+        "source": "RRI.co.id",
+        "published_at": "2026-10-25T21:53:00+00:00",
+        "collected_at": "2026-10-25T22:35:57.460694+00:00",
+        "region": "Jawa Timur",
+        "area_label": "Sampang",
+        "is_jatim": true,
+        "polres": "POLRES SAMPANG",
+        "category": "NETRAL / LAINNYA",
+        "scope": "neutral",
+        "scope_label": "Netral",
+        "priority": "low",
+        "summary": "Polres Sampang Gelar Patroli Dini Hari RRI.co.id",
+        "processing_status": "processed",
+        "classifier_version": "contextual-v1.1",
+        "classified_at": "2026-10-25T22:38:34.356722+00:00",
+        "case_id": null,
+        "discovery_families": [],
+        "discovery_tags": [],
+        "discovery_hits": [],
+        "discovery_version": "discovery-v6",
+        "google_news_url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNODdvQy1ZLVAwNXU5UHRXNkp6bjBLbG5WeFJCRTk1YTJVVURJZS1OZnVoSldieUotUU9weXpPYXRENE9tSDA5NGlVU3BpNThQVkpFbzZOT3Z4S1ZndEE0QVhxRDlqVF9zV0stamxfeFFTdEdkZ2xSLWUwbFBUNzc3ZF94bFVvQV9p?oc=5",
+        "original_url": "https://rri.co.id/sampang/regional/2841312/polres-sampang-gelar-patroli-dini-hari",
+        "canonical_url": "https://rri.co.id/sampang/regional/2841312/polres-sampang-gelar-patroli-dini-hari",
+        "duplicate_article": false,
+        "locality": "Sampang",
+        "polsek": null,
+        "location_confidence": 100,
+        "location_evidence": [
+          "polres sampang",
+          "Sampang"
+        ],
+        "location_status": "JAWA_TIMUR",
+        "location_source": "master_entity",
+        "sentiment": "neutral",
+        "sentiment_label": "Netral",
+        "issue_type": "UMUM",
+        "issue_subtype": "Belum Teridentifikasi",
+        "issue_evidence": [],
+        "polri_relation": "INFORMASI_UMUM",
+        "polri_relation_evidence": [
+          "Hubungan Polri belum spesifik"
+        ],
+        "handling_status": "BELUM_ADA_INFORMASI",
+        "handling_evidence": [],
+        "assertion_status": "FACTUAL",
+        "assertion_confidence": 75,
+        "assertion_evidence": [],
+        "attention_score": 7,
+        "attention_label": "Rendah",
+        "attention_components": {
+          "severity": 2,
+          "polri_relation": 0,
+          "authority": 0,
+          "public_impact": 4,
+          "handling": 0,
+          "evidence": 1,
+          "context_risk": 0,
+          "routine_enforcement_cap": null
+        },
+        "attention_evidence": {
+          "severity": [],
+          "authority": [],
+          "public_impact": [],
+          "evidence": [
+            "satu sumber / informasi awal"
+          ],
+          "role": [],
+          "issue": [],
+          "handling": [],
+          "context": [],
+          "positive": []
+        },
+        "attention_reasons": [
+          "sifat berita: netral",
+          "Hubungan Polri belum spesifik"
+        ],
+        "contextual_flags": {
+          "explicit_polri_subject": false,
+          "explicit_polri_enforcer": false,
+          "polri_victim": false,
+          "service_negative": false,
+          "misconduct_signal": false,
+          "direct_positive_enforcement": false
+        },
+        "analysis_engine_version": "contextual-v1.1",
+        "location_engine_version": "location-v2-title-snippet-source",
+        "case_engine_version": "case-v6.5.4",
+        "case_processed_at": "2026-10-25T22:42:09.916447+00:00"
+      },
+      {
+        "id": "efbf62fb606fcbc205a0840671aa6ea754584d0d",
+        "title": "Somasi Rp100 Juta Salah Sasaran: Wilson Lalengke Desak Polisi Usut Dugaan Pemerasan oleh Advokat Kamal Sugandi - AMBARITA NEWS",
+        "url": "https://www.ambaritanews.com/2026/10/somasi-rp100-juta-salah-sasaran-wilson.html",
+        "source": "AMBARITA NEWS",
+        "published_at": "2026-10-25T21:10:00+00:00",
+        "collected_at": "2026-10-25T22:35:57.460694+00:00",
+        "region": "BELUM TERPETAKAN",
+        "area_label": "BELUM TERPETAKAN",
+        "is_jatim": null,
+        "polres": null,
+        "category": "NEGATIF - PUNGLI / SUAP / PEMERASAN",
+        "scope": "negative",
+        "scope_label": "Negatif",
+        "priority": "high",
+        "summary": "Somasi Rp100 Juta Salah Sasaran: Wilson Lalengke Desak Polisi Usut Dugaan Pemerasan oleh Advokat Kamal Sugandi AMBARITA NEWS",
+        "processing_status": "processed",
+        "classifier_version": "contextual-v1.1",
+        "classified_at": "2026-10-25T22:38:34.406641+00:00",
+        "case_id": "CASE-003147",
+        "discovery_families": [
+          "financial_misconduct"
+        ],
+        "discovery_tags": [
+          "financial_misconduct",
+          "integrity"
+        ],
+        "discovery_hits": [
+          "pemerasan"
+        ],
+        "discovery_version": "discovery-v6",
+        "google_news_url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQNUhCN2pPdlBGQ2l5TjNXRXAxYnlIRVpoQnBDLV80NzZxcFZjYUIyYWRQR1ZEdVNPT2F2RVBVbVZaQVNnUlRJeGN1N2dlV19DOEJnVmR3SFhnS2g3ZUFjdk5VcHBSalRPQlU1UDlDckVJUTU1ZUE3dHlPMEhnWVJQZkR5YXVYN1k?oc=5",
+        "original_url": "https://www.ambaritanews.com/2026/10/somasi-rp100-juta-salah-sasaran-wilson.html",
+        "canonical_url": "https://ambaritanews.com/2026/10/somasi-rp100-juta-salah-sasaran-wilson.html",
+        "duplicate_article": false,
+        "locality": "",
+        "polsek": null,
+        "location_confidence": 0,
+        "location_evidence": [],
+        "location_status": "BELUM_TERPETAKAN",
+        "location_source": "title_description",
+        "sentiment": "negative",
+        "sentiment_label": "Negatif",
+        "issue_type": "INTEGRITAS_DAN_KEUANGAN",
+        "issue_subtype": "Pungli / Suap / Pemerasan",
+        "issue_evidence": [],
+        "polri_relation": "SUBJEK_PERMASALAHAN",
+        "polri_relation_evidence": [
+          "Hubungan Polri belum spesifik"
+        ],
+        "handling_status": "BELUM_ADA_INFORMASI",
+        "handling_evidence": [],
+        "assertion_status": "FACTUAL",
+        "assertion_confidence": 75,
+        "assertion_evidence": [],
+        "attention_score": 70,
+        "attention_label": "Tinggi",
+        "attention_components": {
+          "severity": 24,
+          "polri_relation": 0,
+          "authority": 0,
+          "public_impact": 4,
+          "handling": 0,
+          "evidence": 1,
+          "context_risk": 0,
+          "routine_enforcement_cap": null
+        },
+        "attention_evidence": {
+          "severity": [],
+          "authority": [],
+          "public_impact": [],
+          "evidence": [
+            "satu sumber / informasi awal"
+          ],
+          "role": [],
+          "issue": [
+            "pemerasan"
+          ],
+          "handling": [],
+          "context": [],
+          "positive": []
+        },
+        "attention_reasons": [
+          "Polri/personel menjadi subjek permasalahan",
+          "Pungli / Suap / Pemerasan"
+        ],
+        "contextual_flags": {
+          "explicit_polri_subject": false,
+          "explicit_polri_enforcer": false,
+          "polri_victim": false,
+          "service_negative": false,
+          "misconduct_signal": true,
+          "direct_positive_enforcement": false
+        },
+        "analysis_engine_version": "contextual-v1.1",
+        "location_engine_version": "location-v2-title-snippet-source",
+        "case_engine_version": "case-v6.5.4",
+        "case_processed_at": "2026-10-25T22:42:42.899285+00:00"
+      },
+      {
+        "id": "25c09104ca4d8173b48eaa9cd9aa552f87c0a43e",
+        "title": "Polres Magetan Matangkan Kesiapan Personel Jelang Operasi Patuh Semeru 2026 - RRI.co.id",
+        "url": "https://rri.co.id/madiun/regional/2841398/polres-magetan-matangkan-kesiapan-personel-jelang-operasi-patuh-semeru-2026",
+        "source": "RRI.co.id",
+        "published_at": "2026-10-25T20:02:49+00:00",
+        "collected_at": "2026-10-25T22:35:57.460694+00:00",
+        "region": "Jawa Timur",
+        "area_label": "Magetan",
+        "is_jatim": true,
+        "polres": "POLRES MAGETAN",
+        "category": "NETRAL / LAINNYA",
+        "scope": "neutral",
+        "scope_label": "Netral",
+        "priority": "low",
+        "summary": "Polres Magetan Matangkan Kesiapan Personel Jelang Operasi Patuh Semeru 2026 RRI.co.id",
+        "processing_status": "processed",
+        "classifier_version": "contextual-v1.1",
+        "classified_at": "2026-10-25T22:38:34.452485+00:00",
+        "case_id": null,
+        "discovery_families": [],
+        "discovery_tags": [],
+        "discovery_hits": [],
+        "discovery_version": "discovery-v6",
+        "google_news_url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPZzNYWUZHUE5TSXNQUGJqUFRHR3ZqVURwZjQ5T1g0MU1LZjZaNFIyelEwT2FYVmJDRS1hMEFUNWJvMXNHaTBNcTJzMWZCRXNqX2g0LXh6M3BuMFg5eC1rR1dNX2xYUW90R0I2WFBQQUNXOVdoMWV5ekFPZVFBOGY3TmV0VGdaSDYxMEZtVU42cV8tUnJNSFU1S1Z5WnE2dVFRV3FGWngtQlJqRmk5S2FQaWJGLVZ6M2N1?oc=5",
+        "original_url": "https://rri.co.id/madiun/regional/2841398/polres-magetan-matangkan-kesiapan-personel-jelang-operasi-patuh-semeru-2026",
+        "canonical_url": "https://rri.co.id/madiun/regional/2841398/polres-magetan-matangkan-kesiapan-personel-jelang-operasi-patuh-semeru-2026",
+        "duplicate_article": false,
+        "locality": "Magetan",
+        "polsek": null,
+        "location_confidence": 100,
+        "location_evidence": [
+          "polres magetan",
+          "Magetan"
+        ],
+        "location_status": "JAWA_TIMUR",
+        "location_source": "master_entity",
+        "sentiment": "neutral",
+        "sentiment_label": "Netral",
+        "issue_type": "UMUM",
+        "issue_subtype": "Belum Teridentifikasi",
+        "issue_evidence": [],
+        "polri_relation": "INFORMASI_UMUM",
+        "polri_relation_evidence": [
+          "Hubungan Polri belum spesifik"
+        ],
+        "handling_status": "BELUM_ADA_INFORMASI",
+        "handling_evidence": [],
+        "assertion_status": "FACTUAL",
+        "assertion_confidence": 75,
+        "assertion_evidence": [],
+        "attention_score": 7,
+        "attention_label": "Rendah",
+        "attention_components": {
+          "severity": 2,
+          "polri_relation": 0,
+          "authority": 0,
+          "public_impact": 4,
+          "handling": 0,
+          "evidence": 1,
+          "context_risk": 0,
+          "routine_enforcement_cap": null
+        },
+        "attention_evidence": {
+          "severity": [],
+          "authority": [],
+          "public_impact": [],
+          "evidence": [
+            "satu sumber / informasi awal"
+          ],
+          "role": [],
+          "issue": [],
+          "handling": [],
+          "context": [],
+          "positive": []
+        },
+        "attention_reasons": [
+          "sifat berita: netral",
+          "Hubungan Polri belum spesifik"
+        ],
+        "contextual_flags": {
+          "explicit_polri_subject": false,
+          "explicit_polri_enforcer": false,
+          "polri_victim": false,
+          "service_negative": false,
+          "misconduct_signal": false,
+          "direct_positive_enforcement": false
+        },
+        "analysis_engine_version": "contextual-v1.1",
+        "location_engine_version": "location-v2-title-snippet-source",
+        "case_engine_version": "case-v6.5.4",
+        "case_processed_at": "2026-10-25T22:42:09.923165+00:00"
+      },
+      {
         "id": "f64420f5c9ea89abe31fdd561e64ed24fe4f6aec",
         "title": "Somasi Rp100 Juta Salah Sasaran: Wilson Lalengke Desak Polisi Usut Dugaan Pemerasan oleh Advokat Kamal Sugandi - Media Realita News",
         "url": "https://www.mediarealitanews.com/2026/10/somasi-rp100-juta-salah-sasaran-wilson.html",
@@ -41,7 +800,7 @@
         "summary": "Somasi Rp100 Juta Salah Sasaran: Wilson Lalengke Desak Polisi Usut Dugaan Pemerasan oleh Advokat Kamal Sugandi Media Realita News",
         "processing_status": "processed",
         "classifier_version": "contextual-v1.1",
-        "classified_at": "2026-10-25T19:42:57.099375+00:00",
+        "classified_at": "2026-10-25T22:38:34.501669+00:00",
         "case_id": "CASE-003147",
         "discovery_families": [
           "financial_misconduct"
@@ -120,7 +879,7 @@
         "analysis_engine_version": "contextual-v1.1",
         "location_engine_version": "location-v2-title-snippet-source",
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-10-25T19:47:15.473538+00:00"
+        "case_processed_at": "2026-10-25T22:42:42.899291+00:00"
       },
       {
         "id": "7a5ff0adffcf11ce38110b90f3610342b99e1b69",
@@ -140,7 +899,7 @@
         "summary": "Pesantren Culture Fest 2026 Meriahkan Hari Kebudayaan Nasional, Jaranan Gabungan Tampil di Lapangan Gajahmada Kediri Polres Kediri Kota",
         "processing_status": "processed",
         "classifier_version": "contextual-v1.1",
-        "classified_at": "2026-10-25T19:42:57.149601+00:00",
+        "classified_at": "2026-10-25T22:38:34.548961+00:00",
         "case_id": null,
         "discovery_families": [],
         "discovery_tags": [],
@@ -213,7 +972,7 @@
         "analysis_engine_version": "contextual-v1.1",
         "location_engine_version": "location-v2-title-snippet-source",
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-10-25T19:46:38.119145+00:00"
+        "case_processed_at": "2026-10-25T22:42:09.930118+00:00"
       },
       {
         "id": "fe0d0a8760ab1c494d3a01208456f1ee7594d4e2",
@@ -233,7 +992,7 @@
         "summary": "Wakil Wali Kota Kediri Berangkatkan Jalan Sehat Sarungan di Kelurahan Betet, Warga Meriahkan Peringatan Hari Santri Polres Kediri Kota",
         "processing_status": "processed",
         "classifier_version": "contextual-v1.1",
-        "classified_at": "2026-10-25T19:42:57.197328+00:00",
+        "classified_at": "2026-10-25T22:38:34.596158+00:00",
         "case_id": null,
         "discovery_families": [],
         "discovery_tags": [],
@@ -308,7 +1067,7 @@
         "analysis_engine_version": "contextual-v1.1",
         "location_engine_version": "location-v2-title-snippet-source",
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-10-25T19:46:38.127252+00:00"
+        "case_processed_at": "2026-10-25T22:42:09.936968+00:00"
       },
       {
         "id": "4450e51760d63adca2c568ac121fa723cfc468a1",
@@ -328,7 +1087,7 @@
         "summary": "Polisi Tangkap 3 Pengedar Narkoba di Jakbar, Sita 4,38 Gram Sabu detikNews",
         "processing_status": "processed",
         "classifier_version": "contextual-v1.1",
-        "classified_at": "2026-10-25T19:42:57.244840+00:00",
+        "classified_at": "2026-10-25T22:38:34.641801+00:00",
         "case_id": "CASE-003148",
         "discovery_families": [],
         "discovery_tags": [],
@@ -406,7 +1165,7 @@
         "analysis_engine_version": "contextual-v1.1",
         "location_engine_version": "location-v2-title-snippet-source",
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-10-25T19:47:15.473545+00:00"
+        "case_processed_at": "2026-10-25T22:42:42.899295+00:00"
       },
       {
         "id": "b62c63442fd87ad37381be536bd9aff932cb1e9f",
@@ -426,7 +1185,7 @@
         "summary": "Visi Polisi Bersama Masyarakat Terbukti, Forkogakum Apresiasi Gebrakan Narkoba Kapolri Suyudi Kabarindoraya.com",
         "processing_status": "processed",
         "classifier_version": "contextual-v1.1",
-        "classified_at": "2026-10-25T19:42:57.293068+00:00",
+        "classified_at": "2026-10-25T22:38:34.688271+00:00",
         "case_id": null,
         "discovery_families": [],
         "discovery_tags": [],
@@ -503,7 +1262,7 @@
         "analysis_engine_version": "contextual-v1.1",
         "location_engine_version": "location-v2-title-snippet-source",
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-10-25T19:46:38.136220+00:00"
+        "case_processed_at": "2026-10-25T22:42:09.944756+00:00"
       },
       {
         "id": "c4e68dfd0d246bf2e119a4f9e6725aea679a26a4",
@@ -523,7 +1282,7 @@
         "summary": "Jaga Personel Brimob Siaga Karhutla Arjuno-Welirang, Polres Mojokerto Turunkan Tim Medis - memorandum.disway.id Memorandum.co.id",
         "processing_status": "processed",
         "classifier_version": "contextual-v1.1",
-        "classified_at": "2026-10-25T19:42:57.340158+00:00",
+        "classified_at": "2026-10-25T22:38:34.734498+00:00",
         "case_id": null,
         "discovery_families": [],
         "discovery_tags": [],
@@ -596,7 +1355,7 @@
         "analysis_engine_version": "contextual-v1.1",
         "location_engine_version": "location-v2-title-snippet-source",
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-10-25T19:46:38.144235+00:00"
+        "case_processed_at": "2026-10-25T22:42:09.951620+00:00"
       },
       {
         "id": "3d3724bdacba5ada23d9b81bbc9c0efda514839f",
@@ -616,7 +1375,7 @@
         "summary": "Diduga Jadi Tempat Transaksi Sabu, Rumah di Kateman Digerebek Polisi BUALBUAL.com",
         "processing_status": "processed",
         "classifier_version": "contextual-v1.1",
-        "classified_at": "2026-10-25T19:42:57.386599+00:00",
+        "classified_at": "2026-10-25T22:38:34.779918+00:00",
         "case_id": "CASE-003149",
         "discovery_families": [],
         "discovery_tags": [],
@@ -698,11 +1457,479 @@
         "analysis_engine_version": "contextual-v1.1",
         "location_engine_version": "location-v2-title-snippet-source",
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-10-25T19:47:15.473549+00:00"
+        "case_processed_at": "2026-10-25T22:42:42.899298+00:00"
       }
     ],
     "jatim_items": [
       {
+        "id": "edb033ef961808fa2ba13c6c2b5291453df8ddb7",
+        "title": "Program Polisi Jaga Sekolah di Sampang upaya cegah perundungan - Antara News jatim",
+        "url": "https://jatim.antaranews.com/berita/1111407/program-polisi-jaga-sekolah-di-sampang-upaya-cegah-perundungan",
+        "source": "Antara News jatim",
+        "published_at": "2026-10-25T22:18:22+00:00",
+        "collected_at": "2026-10-25T22:35:57.460694+00:00",
+        "region": "Jawa Timur",
+        "area_label": "Sampang",
+        "is_jatim": true,
+        "polres": null,
+        "category": "NETRAL / LAINNYA",
+        "scope": "neutral",
+        "scope_label": "Netral",
+        "priority": "low",
+        "summary": "Program Polisi Jaga Sekolah di Sampang upaya cegah perundungan Antara News jatim",
+        "processing_status": "processed",
+        "classifier_version": "contextual-v1.1",
+        "classified_at": "2026-10-25T22:38:34.134504+00:00",
+        "case_id": null,
+        "discovery_families": [],
+        "discovery_tags": [],
+        "discovery_hits": [],
+        "discovery_version": "discovery-v6",
+        "google_news_url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPZVdUeHR0Mk9UcnRCSzJtTk9UNnpiMlVvN3Q2MXhjX2dOSUl3dUxhWkNFeEFIcnMzODFBLThmMkUtLTlfX0xObWVMbGhMcW04dHRiRXZuMUg0YjNZalpmZ1RTRVFRLTBQNVpOMUdxVGFyb2RuNjNmZXE1QXVNVXlfM3M5c1FiS0s4QkFDNzhqRy1CSW11eVRTT2ltM0JtOG1GRDV1ejdRTFItZ9IBrwFBVV95cUxQQVJXYl90MlpvakFfWUNZUnNCa2VqRVRjMFh2NU91MC1YQ3laWW5DLXpuLTI4SndBRjZpNFM1MnA4czFoaE0wZlZUS2dSQTdoMnNGeGZoMFBST0dlaXgwckd5WVdpN1d1UFd6MXU3MmhxM1JVWXpYVDVpOWZqZGZYMUt5M2I1VmxWWXpMY1lfd2x1WWw1eEZkVEFGRmVvMmZiYkVFNkE5eUJYSVN3ZVJn?oc=5",
+        "original_url": "https://jatim.antaranews.com/berita/1111407/program-polisi-jaga-sekolah-di-sampang-upaya-cegah-perundungan",
+        "canonical_url": "https://jatim.antaranews.com/berita/1111407/program-polisi-jaga-sekolah-di-sampang-upaya-cegah-perundungan",
+        "duplicate_article": false,
+        "locality": "Sampang",
+        "polsek": null,
+        "location_confidence": 95,
+        "location_evidence": [
+          "Sampang",
+          "Jawa Timur/Jatim"
+        ],
+        "location_status": "JAWA_TIMUR",
+        "location_source": "title_description",
+        "sentiment": "neutral",
+        "sentiment_label": "Netral",
+        "issue_type": "UMUM",
+        "issue_subtype": "Belum Teridentifikasi",
+        "issue_evidence": [],
+        "polri_relation": "INFORMASI_UMUM",
+        "polri_relation_evidence": [
+          "Hubungan Polri belum spesifik"
+        ],
+        "handling_status": "BELUM_ADA_INFORMASI",
+        "handling_evidence": [],
+        "assertion_status": "FACTUAL",
+        "assertion_confidence": 75,
+        "assertion_evidence": [],
+        "attention_score": 7,
+        "attention_label": "Rendah",
+        "attention_components": {
+          "severity": 2,
+          "polri_relation": 0,
+          "authority": 0,
+          "public_impact": 4,
+          "handling": 0,
+          "evidence": 1,
+          "context_risk": 0,
+          "routine_enforcement_cap": null
+        },
+        "attention_evidence": {
+          "severity": [],
+          "authority": [],
+          "public_impact": [],
+          "evidence": [
+            "satu sumber / informasi awal"
+          ],
+          "role": [],
+          "issue": [],
+          "handling": [],
+          "context": [],
+          "positive": []
+        },
+        "attention_reasons": [
+          "sifat berita: netral",
+          "Hubungan Polri belum spesifik"
+        ],
+        "contextual_flags": {
+          "explicit_polri_subject": false,
+          "explicit_polri_enforcer": false,
+          "polri_victim": false,
+          "service_negative": false,
+          "misconduct_signal": false,
+          "direct_positive_enforcement": false
+        },
+        "analysis_engine_version": "contextual-v1.1",
+        "location_engine_version": "location-v2-title-snippet-source",
+        "case_engine_version": "case-v6.5.4",
+        "case_processed_at": "2026-10-25T22:42:09.880209+00:00"
+      },
+      {
+        "id": "d472cfddf0f0582d572dfa081171b6deeb788e8d",
+        "title": "Rawat Ratusan ODGJ, Anggota Polres Lamongan Raih Penghargaan Santri Inspiratif - Kompas.com",
+        "url": "http://surabaya.kompas.com/read/2026/10/26/050700978/rawat-ratusan-odgj-anggota-polres-lamongan-raih-penghargaan-santri?source=terkini_artikel",
+        "source": "Kompas.com",
+        "published_at": "2026-10-25T22:07:00+00:00",
+        "collected_at": "2026-10-25T22:35:57.460694+00:00",
+        "region": "Jawa Timur",
+        "area_label": "Lamongan",
+        "is_jatim": true,
+        "polres": "POLRES LAMONGAN",
+        "category": "POSITIF / PENEGAKAN HUKUM",
+        "scope": "positive",
+        "scope_label": "Positif",
+        "priority": "low",
+        "summary": "Rawat Ratusan ODGJ, Anggota Polres Lamongan Raih Penghargaan Santri Inspiratif Kompas.com",
+        "processing_status": "processed",
+        "classifier_version": "contextual-v1.1",
+        "classified_at": "2026-10-25T22:38:34.179251+00:00",
+        "case_id": null,
+        "discovery_families": [],
+        "discovery_tags": [],
+        "discovery_hits": [],
+        "discovery_version": "discovery-v6",
+        "google_news_url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxNWG0xSko0WG1taENVOUdHRmhzR1ItSFItaXo5cUNCaEEwMnFVZC1NSl95Q25hb09aaF9KZGdYNExLWjlhb3hEWnd3eE1EQkRIcHptX0YtXzVLdEtlT3dPajRUVE5UY1hhS3dpRnZDOXhzaTlrUHBHZ21fVGdrTnlMcEVCVVUtLUh6dC12MHVSOXBBb0x3MGhSOFRucVVtZHVWYTFHbEhfSXduZG5ldHQzZjhKa00zNnZGTVdoc09uR0NQTXZQY3NBb0ZCTFYzT0haaEV5ejhpQkJQZw?oc=5",
+        "original_url": "http://surabaya.kompas.com/read/2026/10/26/050700978/rawat-ratusan-odgj-anggota-polres-lamongan-raih-penghargaan-santri?source=terkini_artikel",
+        "canonical_url": "http://surabaya.kompas.com/read/2026/10/26/050700978/rawat-ratusan-odgj-anggota-polres-lamongan-raih-penghargaan-santri",
+        "duplicate_article": false,
+        "locality": "Lamongan",
+        "polsek": null,
+        "location_confidence": 100,
+        "location_evidence": [
+          "polres lamongan",
+          "Lamongan"
+        ],
+        "location_status": "JAWA_TIMUR",
+        "location_source": "master_entity",
+        "sentiment": "positive",
+        "sentiment_label": "Positif",
+        "issue_type": "UMUM",
+        "issue_subtype": "Belum Teridentifikasi",
+        "issue_evidence": [],
+        "polri_relation": "INFORMASI_UMUM",
+        "polri_relation_evidence": [
+          "Hubungan Polri belum spesifik"
+        ],
+        "handling_status": "BELUM_ADA_INFORMASI",
+        "handling_evidence": [],
+        "assertion_status": "FACTUAL",
+        "assertion_confidence": 75,
+        "assertion_evidence": [],
+        "attention_score": 7,
+        "attention_label": "Rendah",
+        "attention_components": {
+          "severity": 2,
+          "polri_relation": 0,
+          "authority": 0,
+          "public_impact": 4,
+          "handling": 0,
+          "evidence": 1,
+          "context_risk": 0,
+          "routine_enforcement_cap": null
+        },
+        "attention_evidence": {
+          "severity": [],
+          "authority": [],
+          "public_impact": [],
+          "evidence": [
+            "satu sumber / informasi awal"
+          ],
+          "role": [],
+          "issue": [],
+          "handling": [],
+          "context": [],
+          "positive": [
+            "\\b(?:pelayanan|inovasi|prestasi|penghargaan|apresiasi)\\b.{0,100}\\b(?:polisi|polres|polda|polri)\\b"
+          ]
+        },
+        "attention_reasons": [
+          "sifat berita: positif",
+          "Hubungan Polri belum spesifik",
+          "frasa penegakan/hasil positif terdeteksi"
+        ],
+        "contextual_flags": {
+          "explicit_polri_subject": false,
+          "explicit_polri_enforcer": false,
+          "polri_victim": false,
+          "service_negative": false,
+          "misconduct_signal": false,
+          "direct_positive_enforcement": false
+        },
+        "analysis_engine_version": "contextual-v1.1",
+        "location_engine_version": "location-v2-title-snippet-source",
+        "case_engine_version": "case-v6.5.4",
+        "case_processed_at": "2026-10-25T22:42:09.887473+00:00"
+      },
+      {
+        "id": "176e73d1e7bd2aea2f61657f7b04bdeaf5f7308a",
+        "title": "Polres Sampang Siap Gelar Operasi Patuh Semeru 2026 - RRI.co.id",
+        "url": "https://rri.co.id/sampang/regional/2841323/polres-sampang-siap-gelar-operasi-patuh-semeru-2026",
+        "source": "RRI.co.id",
+        "published_at": "2026-10-25T21:56:00+00:00",
+        "collected_at": "2026-10-25T22:35:57.460694+00:00",
+        "region": "Jawa Timur",
+        "area_label": "Sampang",
+        "is_jatim": true,
+        "polres": "POLRES SAMPANG",
+        "category": "NETRAL / LAINNYA",
+        "scope": "neutral",
+        "scope_label": "Netral",
+        "priority": "low",
+        "summary": "Polres Sampang Siap Gelar Operasi Patuh Semeru 2026 RRI.co.id",
+        "processing_status": "processed",
+        "classifier_version": "contextual-v1.1",
+        "classified_at": "2026-10-25T22:38:34.222497+00:00",
+        "case_id": null,
+        "discovery_families": [],
+        "discovery_tags": [],
+        "discovery_hits": [],
+        "discovery_version": "discovery-v6",
+        "google_news_url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQdW9GMk1Fbk1YMWFDUEotLXhkRkFGdFp6S0Qxd01NMFpaVWoySl81cVB5LS1XQThWMURPemNoV1RTVnRvSUFCS0R2bWRFenJSMkZMUDlMaEktdDhQQUJzYnUtaUdRcG1Xa296RmRKc0ROYjZOUm9rSFVvbkNSa3lYMjE1aEtCbFJJYVRNYzNvbk96TXFZV1QyT0ln?oc=5",
+        "original_url": "https://rri.co.id/sampang/regional/2841323/polres-sampang-siap-gelar-operasi-patuh-semeru-2026",
+        "canonical_url": "https://rri.co.id/sampang/regional/2841323/polres-sampang-siap-gelar-operasi-patuh-semeru-2026",
+        "duplicate_article": false,
+        "locality": "Sampang",
+        "polsek": null,
+        "location_confidence": 100,
+        "location_evidence": [
+          "polres sampang",
+          "Sampang"
+        ],
+        "location_status": "JAWA_TIMUR",
+        "location_source": "master_entity",
+        "sentiment": "neutral",
+        "sentiment_label": "Netral",
+        "issue_type": "UMUM",
+        "issue_subtype": "Belum Teridentifikasi",
+        "issue_evidence": [],
+        "polri_relation": "INFORMASI_UMUM",
+        "polri_relation_evidence": [
+          "Hubungan Polri belum spesifik"
+        ],
+        "handling_status": "BELUM_ADA_INFORMASI",
+        "handling_evidence": [],
+        "assertion_status": "FACTUAL",
+        "assertion_confidence": 75,
+        "assertion_evidence": [],
+        "attention_score": 7,
+        "attention_label": "Rendah",
+        "attention_components": {
+          "severity": 2,
+          "polri_relation": 0,
+          "authority": 0,
+          "public_impact": 4,
+          "handling": 0,
+          "evidence": 1,
+          "context_risk": 0,
+          "routine_enforcement_cap": null
+        },
+        "attention_evidence": {
+          "severity": [],
+          "authority": [],
+          "public_impact": [],
+          "evidence": [
+            "satu sumber / informasi awal"
+          ],
+          "role": [],
+          "issue": [],
+          "handling": [],
+          "context": [],
+          "positive": []
+        },
+        "attention_reasons": [
+          "sifat berita: netral",
+          "Hubungan Polri belum spesifik"
+        ],
+        "contextual_flags": {
+          "explicit_polri_subject": false,
+          "explicit_polri_enforcer": false,
+          "polri_victim": false,
+          "service_negative": false,
+          "misconduct_signal": false,
+          "direct_positive_enforcement": false
+        },
+        "analysis_engine_version": "contextual-v1.1",
+        "location_engine_version": "location-v2-title-snippet-source",
+        "case_engine_version": "case-v6.5.4",
+        "case_processed_at": "2026-10-25T22:42:09.894406+00:00"
+      },
+      {
+        "id": "b63b631bcf38e66b50a0753915e960c29b3a6d15",
+        "title": "Polres Sampang Gelar Patroli Dini Hari - RRI.co.id",
+        "url": "https://rri.co.id/sampang/regional/2841312/polres-sampang-gelar-patroli-dini-hari",
+        "source": "RRI.co.id",
+        "published_at": "2026-10-25T21:53:00+00:00",
+        "collected_at": "2026-10-25T22:35:57.460694+00:00",
+        "region": "Jawa Timur",
+        "area_label": "Sampang",
+        "is_jatim": true,
+        "polres": "POLRES SAMPANG",
+        "category": "NETRAL / LAINNYA",
+        "scope": "neutral",
+        "scope_label": "Netral",
+        "priority": "low",
+        "summary": "Polres Sampang Gelar Patroli Dini Hari RRI.co.id",
+        "processing_status": "processed",
+        "classifier_version": "contextual-v1.1",
+        "classified_at": "2026-10-25T22:38:34.356722+00:00",
+        "case_id": null,
+        "discovery_families": [],
+        "discovery_tags": [],
+        "discovery_hits": [],
+        "discovery_version": "discovery-v6",
+        "google_news_url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNODdvQy1ZLVAwNXU5UHRXNkp6bjBLbG5WeFJCRTk1YTJVVURJZS1OZnVoSldieUotUU9weXpPYXRENE9tSDA5NGlVU3BpNThQVkpFbzZOT3Z4S1ZndEE0QVhxRDlqVF9zV0stamxfeFFTdEdkZ2xSLWUwbFBUNzc3ZF94bFVvQV9p?oc=5",
+        "original_url": "https://rri.co.id/sampang/regional/2841312/polres-sampang-gelar-patroli-dini-hari",
+        "canonical_url": "https://rri.co.id/sampang/regional/2841312/polres-sampang-gelar-patroli-dini-hari",
+        "duplicate_article": false,
+        "locality": "Sampang",
+        "polsek": null,
+        "location_confidence": 100,
+        "location_evidence": [
+          "polres sampang",
+          "Sampang"
+        ],
+        "location_status": "JAWA_TIMUR",
+        "location_source": "master_entity",
+        "sentiment": "neutral",
+        "sentiment_label": "Netral",
+        "issue_type": "UMUM",
+        "issue_subtype": "Belum Teridentifikasi",
+        "issue_evidence": [],
+        "polri_relation": "INFORMASI_UMUM",
+        "polri_relation_evidence": [
+          "Hubungan Polri belum spesifik"
+        ],
+        "handling_status": "BELUM_ADA_INFORMASI",
+        "handling_evidence": [],
+        "assertion_status": "FACTUAL",
+        "assertion_confidence": 75,
+        "assertion_evidence": [],
+        "attention_score": 7,
+        "attention_label": "Rendah",
+        "attention_components": {
+          "severity": 2,
+          "polri_relation": 0,
+          "authority": 0,
+          "public_impact": 4,
+          "handling": 0,
+          "evidence": 1,
+          "context_risk": 0,
+          "routine_enforcement_cap": null
+        },
+        "attention_evidence": {
+          "severity": [],
+          "authority": [],
+          "public_impact": [],
+          "evidence": [
+            "satu sumber / informasi awal"
+          ],
+          "role": [],
+          "issue": [],
+          "handling": [],
+          "context": [],
+          "positive": []
+        },
+        "attention_reasons": [
+          "sifat berita: netral",
+          "Hubungan Polri belum spesifik"
+        ],
+        "contextual_flags": {
+          "explicit_polri_subject": false,
+          "explicit_polri_enforcer": false,
+          "polri_victim": false,
+          "service_negative": false,
+          "misconduct_signal": false,
+          "direct_positive_enforcement": false
+        },
+        "analysis_engine_version": "contextual-v1.1",
+        "location_engine_version": "location-v2-title-snippet-source",
+        "case_engine_version": "case-v6.5.4",
+        "case_processed_at": "2026-10-25T22:42:09.916447+00:00"
+      },
+      {
+        "id": "25c09104ca4d8173b48eaa9cd9aa552f87c0a43e",
+        "title": "Polres Magetan Matangkan Kesiapan Personel Jelang Operasi Patuh Semeru 2026 - RRI.co.id",
+        "url": "https://rri.co.id/madiun/regional/2841398/polres-magetan-matangkan-kesiapan-personel-jelang-operasi-patuh-semeru-2026",
+        "source": "RRI.co.id",
+        "published_at": "2026-10-25T20:02:49+00:00",
+        "collected_at": "2026-10-25T22:35:57.460694+00:00",
+        "region": "Jawa Timur",
+        "area_label": "Magetan",
+        "is_jatim": true,
+        "polres": "POLRES MAGETAN",
+        "category": "NETRAL / LAINNYA",
+        "scope": "neutral",
+        "scope_label": "Netral",
+        "priority": "low",
+        "summary": "Polres Magetan Matangkan Kesiapan Personel Jelang Operasi Patuh Semeru 2026 RRI.co.id",
+        "processing_status": "processed",
+        "classifier_version": "contextual-v1.1",
+        "classified_at": "2026-10-25T22:38:34.452485+00:00",
+        "case_id": null,
+        "discovery_families": [],
+        "discovery_tags": [],
+        "discovery_hits": [],
+        "discovery_version": "discovery-v6",
+        "google_news_url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPZzNYWUZHUE5TSXNQUGJqUFRHR3ZqVURwZjQ5T1g0MU1LZjZaNFIyelEwT2FYVmJDRS1hMEFUNWJvMXNHaTBNcTJzMWZCRXNqX2g0LXh6M3BuMFg5eC1rR1dNX2xYUW90R0I2WFBQQUNXOVdoMWV5ekFPZVFBOGY3TmV0VGdaSDYxMEZtVU42cV8tUnJNSFU1S1Z5WnE2dVFRV3FGWngtQlJqRmk5S2FQaWJGLVZ6M2N1?oc=5",
+        "original_url": "https://rri.co.id/madiun/regional/2841398/polres-magetan-matangkan-kesiapan-personel-jelang-operasi-patuh-semeru-2026",
+        "canonical_url": "https://rri.co.id/madiun/regional/2841398/polres-magetan-matangkan-kesiapan-personel-jelang-operasi-patuh-semeru-2026",
+        "duplicate_article": false,
+        "locality": "Magetan",
+        "polsek": null,
+        "location_confidence": 100,
+        "location_evidence": [
+          "polres magetan",
+          "Magetan"
+        ],
+        "location_status": "JAWA_TIMUR",
+        "location_source": "master_entity",
+        "sentiment": "neutral",
+        "sentiment_label": "Netral",
+        "issue_type": "UMUM",
+        "issue_subtype": "Belum Teridentifikasi",
+        "issue_evidence": [],
+        "polri_relation": "INFORMASI_UMUM",
+        "polri_relation_evidence": [
+          "Hubungan Polri belum spesifik"
+        ],
+        "handling_status": "BELUM_ADA_INFORMASI",
+        "handling_evidence": [],
+        "assertion_status": "FACTUAL",
+        "assertion_confidence": 75,
+        "assertion_evidence": [],
+        "attention_score": 7,
+        "attention_label": "Rendah",
+        "attention_components": {
+          "severity": 2,
+          "polri_relation": 0,
+          "authority": 0,
+          "public_impact": 4,
+          "handling": 0,
+          "evidence": 1,
+          "context_risk": 0,
+          "routine_enforcement_cap": null
+        },
+        "attention_evidence": {
+          "severity": [],
+          "authority": [],
+          "public_impact": [],
+          "evidence": [
+            "satu sumber / informasi awal"
+          ],
+          "role": [],
+          "issue": [],
+          "handling": [],
+          "context": [],
+          "positive": []
+        },
+        "attention_reasons": [
+          "sifat berita: netral",
+          "Hubungan Polri belum spesifik"
+        ],
+        "contextual_flags": {
+          "explicit_polri_subject": false,
+          "explicit_polri_enforcer": false,
+          "polri_victim": false,
+          "service_negative": false,
+          "misconduct_signal": false,
+          "direct_positive_enforcement": false
+        },
+        "analysis_engine_version": "contextual-v1.1",
+        "location_engine_version": "location-v2-title-snippet-source",
+        "case_engine_version": "case-v6.5.4",
+        "case_processed_at": "2026-10-25T22:42:09.923165+00:00"
+      },
+      {
         "id": "7a5ff0adffcf11ce38110b90f3610342b99e1b69",
         "title": "Pesantren Culture Fest 2026 Meriahkan Hari Kebudayaan Nasional, Jaranan Gabungan Tampil di Lapangan Gajahmada Kediri - Polres Kediri Kota",
         "url": "https://polreskedirikota.com/pesantren-culture-fest-2026-meriahkan-hari-kebudayaan-nasional-jaranan-gabungan-tampil-di-lapangan-gajahmada-kediri/",
@@ -720,7 +1947,7 @@
         "summary": "Pesantren Culture Fest 2026 Meriahkan Hari Kebudayaan Nasional, Jaranan Gabungan Tampil di Lapangan Gajahmada Kediri Polres Kediri Kota",
         "processing_status": "processed",
         "classifier_version": "contextual-v1.1",
-        "classified_at": "2026-10-25T19:42:57.149601+00:00",
+        "classified_at": "2026-10-25T22:38:34.548961+00:00",
         "case_id": null,
         "discovery_families": [],
         "discovery_tags": [],
@@ -793,7 +2020,7 @@
         "analysis_engine_version": "contextual-v1.1",
         "location_engine_version": "location-v2-title-snippet-source",
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-10-25T19:46:38.119145+00:00"
+        "case_processed_at": "2026-10-25T22:42:09.930118+00:00"
       },
       {
         "id": "fe0d0a8760ab1c494d3a01208456f1ee7594d4e2",
@@ -813,7 +2040,7 @@
         "summary": "Wakil Wali Kota Kediri Berangkatkan Jalan Sehat Sarungan di Kelurahan Betet, Warga Meriahkan Peringatan Hari Santri Polres Kediri Kota",
         "processing_status": "processed",
         "classifier_version": "contextual-v1.1",
-        "classified_at": "2026-10-25T19:42:57.197328+00:00",
+        "classified_at": "2026-10-25T22:38:34.596158+00:00",
         "case_id": null,
         "discovery_families": [],
         "discovery_tags": [],
@@ -888,7 +2115,7 @@
         "analysis_engine_version": "contextual-v1.1",
         "location_engine_version": "location-v2-title-snippet-source",
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-10-25T19:46:38.127252+00:00"
+        "case_processed_at": "2026-10-25T22:42:09.936968+00:00"
       },
       {
         "id": "c4e68dfd0d246bf2e119a4f9e6725aea679a26a4",
@@ -908,7 +2135,7 @@
         "summary": "Jaga Personel Brimob Siaga Karhutla Arjuno-Welirang, Polres Mojokerto Turunkan Tim Medis - memorandum.disway.id Memorandum.co.id",
         "processing_status": "processed",
         "classifier_version": "contextual-v1.1",
-        "classified_at": "2026-10-25T19:42:57.340158+00:00",
+        "classified_at": "2026-10-25T22:38:34.734498+00:00",
         "case_id": null,
         "discovery_families": [],
         "discovery_tags": [],
@@ -981,10 +2208,293 @@
         "analysis_engine_version": "contextual-v1.1",
         "location_engine_version": "location-v2-title-snippet-source",
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-10-25T19:46:38.144235+00:00"
+        "case_processed_at": "2026-10-25T22:42:09.951620+00:00"
       }
     ],
     "luar_jatim_items": [
+      {
+        "id": "8f1eb0a0c28a43bbf696b0275b796d3bffc5d6d2",
+        "title": "Polsek Sreseh Gencarkan Patroli Harkamtibmas di Desa Labuhan - RRI.co.id",
+        "url": "https://rri.co.id/sampang/regional/2841322/polsek-sreseh-gencarkan-patroli-harkamtibmas-di-desa-labuhan",
+        "source": "RRI.co.id",
+        "published_at": "2026-10-25T21:55:00+00:00",
+        "collected_at": "2026-10-25T22:35:57.460694+00:00",
+        "region": "BELUM TERPETAKAN",
+        "area_label": "BELUM TERPETAKAN",
+        "is_jatim": null,
+        "polres": null,
+        "category": "NETRAL / LAINNYA",
+        "scope": "neutral",
+        "scope_label": "Netral",
+        "priority": "low",
+        "summary": "Polsek Sreseh Gencarkan Patroli Harkamtibmas di Desa Labuhan RRI.co.id",
+        "processing_status": "processed",
+        "classifier_version": "contextual-v1.1",
+        "classified_at": "2026-10-25T22:38:34.268179+00:00",
+        "case_id": null,
+        "discovery_families": [],
+        "discovery_tags": [],
+        "discovery_hits": [],
+        "discovery_version": "discovery-v6",
+        "google_news_url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNYkRyaFRVM1RXMlRGa2NuOGdTMnlMb0xLajZHaUl5b2dLTlhQOEZKSVVTakZRSzhMT2dMV1pGUENfbHR6cDRoUV80UWFraFNXVkVBblNLUkZrRkVGUXRUZUlWZzNma0o3QWxGdWRMZ3hNOVlIUzI0ZTJocHhQMkFrRXB6YUZxelFCNTdmM0wwSE0zVi1GNHBVVFVtSTNTc0htRm91TG13?oc=5",
+        "original_url": "https://rri.co.id/sampang/regional/2841322/polsek-sreseh-gencarkan-patroli-harkamtibmas-di-desa-labuhan",
+        "canonical_url": "https://rri.co.id/sampang/regional/2841322/polsek-sreseh-gencarkan-patroli-harkamtibmas-di-desa-labuhan",
+        "duplicate_article": false,
+        "locality": "",
+        "polsek": "POLSEK SRESEH",
+        "location_confidence": 0,
+        "location_evidence": [
+          "POLSEK SRESEH"
+        ],
+        "location_status": "BELUM_TERPETAKAN",
+        "location_source": "title_description",
+        "sentiment": "neutral",
+        "sentiment_label": "Netral",
+        "issue_type": "UMUM",
+        "issue_subtype": "Belum Teridentifikasi",
+        "issue_evidence": [],
+        "polri_relation": "INFORMASI_UMUM",
+        "polri_relation_evidence": [
+          "Hubungan Polri belum spesifik"
+        ],
+        "handling_status": "BELUM_ADA_INFORMASI",
+        "handling_evidence": [],
+        "assertion_status": "FACTUAL",
+        "assertion_confidence": 75,
+        "assertion_evidence": [],
+        "attention_score": 7,
+        "attention_label": "Rendah",
+        "attention_components": {
+          "severity": 2,
+          "polri_relation": 0,
+          "authority": 0,
+          "public_impact": 4,
+          "handling": 0,
+          "evidence": 1,
+          "context_risk": 0,
+          "routine_enforcement_cap": null
+        },
+        "attention_evidence": {
+          "severity": [],
+          "authority": [],
+          "public_impact": [],
+          "evidence": [
+            "satu sumber / informasi awal"
+          ],
+          "role": [],
+          "issue": [],
+          "handling": [],
+          "context": [],
+          "positive": []
+        },
+        "attention_reasons": [
+          "sifat berita: netral",
+          "Hubungan Polri belum spesifik"
+        ],
+        "contextual_flags": {
+          "explicit_polri_subject": false,
+          "explicit_polri_enforcer": false,
+          "polri_victim": false,
+          "service_negative": false,
+          "misconduct_signal": false,
+          "direct_positive_enforcement": false
+        },
+        "analysis_engine_version": "contextual-v1.1",
+        "location_engine_version": "location-v2-title-snippet-source",
+        "case_engine_version": "case-v6.5.4",
+        "case_processed_at": "2026-10-25T22:42:09.902218+00:00"
+      },
+      {
+        "id": "8519d0991b49cf3e8c991d5ce444d82ae3649ec7",
+        "title": "Polsek Ketapang Patroli di Sejumlah SPBU hingga Jalur Trans Nasional - RRI.co.id",
+        "url": "https://rri.co.id/sampang/regional/2841316/polsek-ketapang-patroli-di-sejumlah-spbu-hingga-jalur-trans-nasional",
+        "source": "RRI.co.id",
+        "published_at": "2026-10-25T21:54:00+00:00",
+        "collected_at": "2026-10-25T22:35:57.460694+00:00",
+        "region": "BELUM TERPETAKAN",
+        "area_label": "BELUM TERPETAKAN",
+        "is_jatim": null,
+        "polres": null,
+        "category": "NETRAL / LAINNYA",
+        "scope": "neutral",
+        "scope_label": "Netral",
+        "priority": "low",
+        "summary": "Polsek Ketapang Patroli di Sejumlah SPBU hingga Jalur Trans Nasional RRI.co.id",
+        "processing_status": "processed",
+        "classifier_version": "contextual-v1.1",
+        "classified_at": "2026-10-25T22:38:34.314488+00:00",
+        "case_id": null,
+        "discovery_families": [],
+        "discovery_tags": [],
+        "discovery_hits": [],
+        "discovery_version": "discovery-v6",
+        "google_news_url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQRG9EUFdZMjJQYzVqazZfczRnWDFzdWl1Z2VnY0JPTnh4bTkwNndBamFQaUhMTnFIcTFJWWFhMllDRTVXTmJycm1QQWpqeDU1RG9pRGhSNC1VN01sYlpUWVo5aHNsMGF6d3pBVllubzBmeEVmZ1VuTXRxbzIxaTZoVEx4Zl9jMlpLUXB6QzFabkhyR2tGc1NwcUIzMXZQNGMtWjNjZWtGOS1HaWQ5NEJUVA?oc=5",
+        "original_url": "https://rri.co.id/sampang/regional/2841316/polsek-ketapang-patroli-di-sejumlah-spbu-hingga-jalur-trans-nasional",
+        "canonical_url": "https://rri.co.id/sampang/regional/2841316/polsek-ketapang-patroli-di-sejumlah-spbu-hingga-jalur-trans-nasional",
+        "duplicate_article": false,
+        "locality": "",
+        "polsek": "POLSEK KETAPANG",
+        "location_confidence": 0,
+        "location_evidence": [
+          "POLSEK KETAPANG"
+        ],
+        "location_status": "BELUM_TERPETAKAN",
+        "location_source": "title_description",
+        "sentiment": "neutral",
+        "sentiment_label": "Netral",
+        "issue_type": "UMUM",
+        "issue_subtype": "Belum Teridentifikasi",
+        "issue_evidence": [],
+        "polri_relation": "INFORMASI_UMUM",
+        "polri_relation_evidence": [
+          "Hubungan Polri belum spesifik"
+        ],
+        "handling_status": "BELUM_ADA_INFORMASI",
+        "handling_evidence": [],
+        "assertion_status": "FACTUAL",
+        "assertion_confidence": 75,
+        "assertion_evidence": [],
+        "attention_score": 7,
+        "attention_label": "Rendah",
+        "attention_components": {
+          "severity": 2,
+          "polri_relation": 0,
+          "authority": 0,
+          "public_impact": 4,
+          "handling": 0,
+          "evidence": 1,
+          "context_risk": 0,
+          "routine_enforcement_cap": null
+        },
+        "attention_evidence": {
+          "severity": [],
+          "authority": [],
+          "public_impact": [],
+          "evidence": [
+            "satu sumber / informasi awal"
+          ],
+          "role": [],
+          "issue": [],
+          "handling": [],
+          "context": [],
+          "positive": []
+        },
+        "attention_reasons": [
+          "sifat berita: netral",
+          "Hubungan Polri belum spesifik"
+        ],
+        "contextual_flags": {
+          "explicit_polri_subject": false,
+          "explicit_polri_enforcer": false,
+          "polri_victim": false,
+          "service_negative": false,
+          "misconduct_signal": false,
+          "direct_positive_enforcement": false
+        },
+        "analysis_engine_version": "contextual-v1.1",
+        "location_engine_version": "location-v2-title-snippet-source",
+        "case_engine_version": "case-v6.5.4",
+        "case_processed_at": "2026-10-25T22:42:09.909775+00:00"
+      },
+      {
+        "id": "efbf62fb606fcbc205a0840671aa6ea754584d0d",
+        "title": "Somasi Rp100 Juta Salah Sasaran: Wilson Lalengke Desak Polisi Usut Dugaan Pemerasan oleh Advokat Kamal Sugandi - AMBARITA NEWS",
+        "url": "https://www.ambaritanews.com/2026/10/somasi-rp100-juta-salah-sasaran-wilson.html",
+        "source": "AMBARITA NEWS",
+        "published_at": "2026-10-25T21:10:00+00:00",
+        "collected_at": "2026-10-25T22:35:57.460694+00:00",
+        "region": "BELUM TERPETAKAN",
+        "area_label": "BELUM TERPETAKAN",
+        "is_jatim": null,
+        "polres": null,
+        "category": "NEGATIF - PUNGLI / SUAP / PEMERASAN",
+        "scope": "negative",
+        "scope_label": "Negatif",
+        "priority": "high",
+        "summary": "Somasi Rp100 Juta Salah Sasaran: Wilson Lalengke Desak Polisi Usut Dugaan Pemerasan oleh Advokat Kamal Sugandi AMBARITA NEWS",
+        "processing_status": "processed",
+        "classifier_version": "contextual-v1.1",
+        "classified_at": "2026-10-25T22:38:34.406641+00:00",
+        "case_id": "CASE-003147",
+        "discovery_families": [
+          "financial_misconduct"
+        ],
+        "discovery_tags": [
+          "financial_misconduct",
+          "integrity"
+        ],
+        "discovery_hits": [
+          "pemerasan"
+        ],
+        "discovery_version": "discovery-v6",
+        "google_news_url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQNUhCN2pPdlBGQ2l5TjNXRXAxYnlIRVpoQnBDLV80NzZxcFZjYUIyYWRQR1ZEdVNPT2F2RVBVbVZaQVNnUlRJeGN1N2dlV19DOEJnVmR3SFhnS2g3ZUFjdk5VcHBSalRPQlU1UDlDckVJUTU1ZUE3dHlPMEhnWVJQZkR5YXVYN1k?oc=5",
+        "original_url": "https://www.ambaritanews.com/2026/10/somasi-rp100-juta-salah-sasaran-wilson.html",
+        "canonical_url": "https://ambaritanews.com/2026/10/somasi-rp100-juta-salah-sasaran-wilson.html",
+        "duplicate_article": false,
+        "locality": "",
+        "polsek": null,
+        "location_confidence": 0,
+        "location_evidence": [],
+        "location_status": "BELUM_TERPETAKAN",
+        "location_source": "title_description",
+        "sentiment": "negative",
+        "sentiment_label": "Negatif",
+        "issue_type": "INTEGRITAS_DAN_KEUANGAN",
+        "issue_subtype": "Pungli / Suap / Pemerasan",
+        "issue_evidence": [],
+        "polri_relation": "SUBJEK_PERMASALAHAN",
+        "polri_relation_evidence": [
+          "Hubungan Polri belum spesifik"
+        ],
+        "handling_status": "BELUM_ADA_INFORMASI",
+        "handling_evidence": [],
+        "assertion_status": "FACTUAL",
+        "assertion_confidence": 75,
+        "assertion_evidence": [],
+        "attention_score": 70,
+        "attention_label": "Tinggi",
+        "attention_components": {
+          "severity": 24,
+          "polri_relation": 0,
+          "authority": 0,
+          "public_impact": 4,
+          "handling": 0,
+          "evidence": 1,
+          "context_risk": 0,
+          "routine_enforcement_cap": null
+        },
+        "attention_evidence": {
+          "severity": [],
+          "authority": [],
+          "public_impact": [],
+          "evidence": [
+            "satu sumber / informasi awal"
+          ],
+          "role": [],
+          "issue": [
+            "pemerasan"
+          ],
+          "handling": [],
+          "context": [],
+          "positive": []
+        },
+        "attention_reasons": [
+          "Polri/personel menjadi subjek permasalahan",
+          "Pungli / Suap / Pemerasan"
+        ],
+        "contextual_flags": {
+          "explicit_polri_subject": false,
+          "explicit_polri_enforcer": false,
+          "polri_victim": false,
+          "service_negative": false,
+          "misconduct_signal": true,
+          "direct_positive_enforcement": false
+        },
+        "analysis_engine_version": "contextual-v1.1",
+        "location_engine_version": "location-v2-title-snippet-source",
+        "case_engine_version": "case-v6.5.4",
+        "case_processed_at": "2026-10-25T22:42:42.899285+00:00"
+      },
       {
         "id": "f64420f5c9ea89abe31fdd561e64ed24fe4f6aec",
         "title": "Somasi Rp100 Juta Salah Sasaran: Wilson Lalengke Desak Polisi Usut Dugaan Pemerasan oleh Advokat Kamal Sugandi - Media Realita News",
@@ -1003,7 +2513,7 @@
         "summary": "Somasi Rp100 Juta Salah Sasaran: Wilson Lalengke Desak Polisi Usut Dugaan Pemerasan oleh Advokat Kamal Sugandi Media Realita News",
         "processing_status": "processed",
         "classifier_version": "contextual-v1.1",
-        "classified_at": "2026-10-25T19:42:57.099375+00:00",
+        "classified_at": "2026-10-25T22:38:34.501669+00:00",
         "case_id": "CASE-003147",
         "discovery_families": [
           "financial_misconduct"
@@ -1082,7 +2592,7 @@
         "analysis_engine_version": "contextual-v1.1",
         "location_engine_version": "location-v2-title-snippet-source",
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-10-25T19:47:15.473538+00:00"
+        "case_processed_at": "2026-10-25T22:42:42.899291+00:00"
       },
       {
         "id": "4450e51760d63adca2c568ac121fa723cfc468a1",
@@ -1102,7 +2612,7 @@
         "summary": "Polisi Tangkap 3 Pengedar Narkoba di Jakbar, Sita 4,38 Gram Sabu detikNews",
         "processing_status": "processed",
         "classifier_version": "contextual-v1.1",
-        "classified_at": "2026-10-25T19:42:57.244840+00:00",
+        "classified_at": "2026-10-25T22:38:34.641801+00:00",
         "case_id": "CASE-003148",
         "discovery_families": [],
         "discovery_tags": [],
@@ -1180,7 +2690,7 @@
         "analysis_engine_version": "contextual-v1.1",
         "location_engine_version": "location-v2-title-snippet-source",
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-10-25T19:47:15.473545+00:00"
+        "case_processed_at": "2026-10-25T22:42:42.899295+00:00"
       },
       {
         "id": "b62c63442fd87ad37381be536bd9aff932cb1e9f",
@@ -1200,7 +2710,7 @@
         "summary": "Visi Polisi Bersama Masyarakat Terbukti, Forkogakum Apresiasi Gebrakan Narkoba Kapolri Suyudi Kabarindoraya.com",
         "processing_status": "processed",
         "classifier_version": "contextual-v1.1",
-        "classified_at": "2026-10-25T19:42:57.293068+00:00",
+        "classified_at": "2026-10-25T22:38:34.688271+00:00",
         "case_id": null,
         "discovery_families": [],
         "discovery_tags": [],
@@ -1277,7 +2787,7 @@
         "analysis_engine_version": "contextual-v1.1",
         "location_engine_version": "location-v2-title-snippet-source",
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-10-25T19:46:38.136220+00:00"
+        "case_processed_at": "2026-10-25T22:42:09.944756+00:00"
       },
       {
         "id": "3d3724bdacba5ada23d9b81bbc9c0efda514839f",
@@ -1297,7 +2807,7 @@
         "summary": "Diduga Jadi Tempat Transaksi Sabu, Rumah di Kateman Digerebek Polisi BUALBUAL.com",
         "processing_status": "processed",
         "classifier_version": "contextual-v1.1",
-        "classified_at": "2026-10-25T19:42:57.386599+00:00",
+        "classified_at": "2026-10-25T22:38:34.779918+00:00",
         "case_id": "CASE-003149",
         "discovery_families": [],
         "discovery_tags": [],
@@ -1379,7 +2889,7 @@
         "analysis_engine_version": "contextual-v1.1",
         "location_engine_version": "location-v2-title-snippet-source",
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-10-25T19:47:15.473549+00:00"
+        "case_processed_at": "2026-10-25T22:42:42.899298+00:00"
       }
     ]
   },
@@ -1388,7 +2898,7 @@
     "priority_high": 1,
     "jatim": 0,
     "jatim_priority_high": 0,
-    "articles": 3,
+    "articles": 4,
     "case_ids": [
       "CASE-003147",
       "CASE-003148",
@@ -1411,6 +2921,7 @@
         "signature": "BELUM TERPETAKAN",
         "incident_terms": [
           "advokat",
+          "ambarita",
           "desak",
           "dugaan",
           "juta",
@@ -1436,10 +2947,11 @@
           "financial_misconduct"
         ],
         "first_seen": "2026-10-25T18:17:00+00:00",
-        "last_seen": "2026-10-25T19:40:35.464517+00:00",
-        "last_detected_at": "2026-10-25T19:40:35.464517+00:00",
+        "last_seen": "2026-10-25T22:35:57.460694+00:00",
+        "last_detected_at": "2026-10-25T22:35:57.460694+00:00",
         "article_ids": [
-          "f64420f5c9ea89abe31fdd561e64ed24fe4f6aec"
+          "f64420f5c9ea89abe31fdd561e64ed24fe4f6aec",
+          "efbf62fb606fcbc205a0840671aa6ea754584d0d"
         ],
         "articles": [
           {
@@ -1479,11 +2991,49 @@
               "context_risk": 0,
               "routine_enforcement_cap": null
             }
+          },
+          {
+            "id": "efbf62fb606fcbc205a0840671aa6ea754584d0d",
+            "title": "Somasi Rp100 Juta Salah Sasaran: Wilson Lalengke Desak Polisi Usut Dugaan Pemerasan oleh Advokat Kamal Sugandi - AMBARITA NEWS",
+            "url": "https://www.ambaritanews.com/2026/10/somasi-rp100-juta-salah-sasaran-wilson.html",
+            "published_at": "2026-10-25T21:10:00+00:00",
+            "collected_at": "2026-10-25T22:35:57.460694+00:00",
+            "source": "AMBARITA NEWS",
+            "match_score": 0.6239,
+            "priority": "high",
+            "scope": "negative",
+            "category": "NEGATIF - PUNGLI / SUAP / PEMERASAN",
+            "region": "BELUM TERPETAKAN",
+            "locality": "",
+            "is_jatim": false,
+            "polres": null,
+            "polsek": null,
+            "issue_type": "INTEGRITAS_DAN_KEUANGAN",
+            "issue_subtype": "Pungli / Suap / Pemerasan",
+            "handling_status": "BELUM_ADA_INFORMASI",
+            "handling_evidence": [],
+            "polri_relation": "SUBJEK_PERMASALAHAN",
+            "polri_relation_points": 0,
+            "polri_relation_evidence": [
+              "Hubungan Polri belum spesifik"
+            ],
+            "attention_score": 70,
+            "attention_label": "Tinggi",
+            "attention_components": {
+              "severity": 24,
+              "polri_relation": 0,
+              "authority": 0,
+              "public_impact": 4,
+              "handling": 0,
+              "evidence": 1,
+              "context_risk": 0,
+              "routine_enforcement_cap": null
+            }
           }
         ],
-        "article_count": 1,
+        "article_count": 2,
         "created_at": "2026-10-25T19:47:07.979531+00:00",
-        "updated_at": "2026-10-25T19:47:15.466817+00:00",
+        "updated_at": "2026-10-25T22:42:42.892473+00:00",
         "engine_version": "case-v6.5.4",
         "priority_score": 70,
         "priority_breakdown": {
@@ -1492,15 +3042,15 @@
           "authority_context": 0,
           "public_impact": 4,
           "handling": 0,
-          "evidence": 1,
-          "spread": 0,
+          "evidence": 3,
+          "spread": 3,
           "escalation": 0,
-          "current_activity": 1,
+          "current_activity": 2,
           "context_risk": 0
         },
         "priority_evidence": {
-          "unique_sources": 1,
-          "active_today_articles": 1,
+          "unique_sources": 2,
+          "active_today_articles": 2,
           "escalation": [],
           "issue_type": "INTEGRITAS_DAN_KEUANGAN",
           "issue_subtype": "Pungli / Suap / Pemerasan",
@@ -1509,7 +3059,8 @@
           "handling_status": "BELUM_ADA_INFORMASI",
           "reasons": [
             "indikasi pelanggaran integritas/keuangan terdeteksi secara kontekstual",
-            "kata kunci dibaca bersama konteks dugaan, aktor, dan/atau lokasi Polri"
+            "kata kunci dibaca bersama konteks dugaan, aktor, dan/atau lokasi Polri",
+            "ada perkembangan pemberitaan hari ini"
           ]
         }
       },
@@ -1590,7 +3141,7 @@
         ],
         "article_count": 1,
         "created_at": "2026-10-25T19:47:08.056772+00:00",
-        "updated_at": "2026-10-25T19:47:15.469942+00:00",
+        "updated_at": "2026-10-25T22:42:42.895642+00:00",
         "engine_version": "case-v6.5.4",
         "priority_score": 19,
         "priority_breakdown": {
@@ -1698,7 +3249,7 @@
         ],
         "article_count": 1,
         "created_at": "2026-10-25T19:47:08.102198+00:00",
-        "updated_at": "2026-10-25T19:47:15.472810+00:00",
+        "updated_at": "2026-10-25T22:42:42.898551+00:00",
         "engine_version": "case-v6.5.4",
         "priority_score": 17,
         "priority_breakdown": {
@@ -1733,36 +3284,92 @@
     "jatim_items": []
   },
   "social": {
-    "detected": 8,
+    "detected": 52,
     "jatim": 1,
-    "negative": 4,
-    "priority_high": 0,
+    "negative": 17,
+    "priority_high": 1,
     "video_ids": [
+      "VQ1wctH9K88",
       "CMZhfy0YwnU",
       "xYsU4_fXpnQ",
+      "8rUMSLw6SL8",
+      "JXXeKOl111k",
+      "3VYxlcLDe_Y",
+      "V0mTC8jpACA",
+      "uacaIx30dFw",
+      "u3cqsPwuVds",
+      "vwZRtwWyx40",
+      "TCEYgBiC-TY",
+      "t2Qb0OhObDM",
+      "mk79O2dOXHU",
+      "OcxUJJTZpgg",
+      "GfjUoxF_8qM",
+      "wC0To7a-I2M",
+      "seQh8WY05Ks",
+      "Bd7rq1aq8LU",
+      "ho4Tbptw7_U",
+      "wcqRTtWs2ZM",
       "xBvyrtCLHus",
+      "nYAfcHseBz4",
+      "xkRV4o271d0",
+      "hyy_n-Vs5eQ",
       "F6qNvFmUMtk",
       "5VE1IfdIUbM",
+      "NZni8JSfXzg",
+      "OU78rDz6dWs",
+      "hMRJjvWv1as",
+      "V7Xa5lUrl6w",
+      "IPYAVzU98ss",
+      "FpKv2IjBmIw",
+      "QQxEKos4DkE",
+      "HBcirszKuyQ",
+      "CmvZJgHPGao",
+      "DXs7dsCM0tk",
+      "oybq0ThtzMk",
+      "UxH0ne4o5pA",
+      "V_1GpxUYqWk",
+      "BefKBngIWm8",
+      "73miSv-ssII",
+      "b_6yGHvp9DI",
       "J87ofQZ6oX8",
+      "ieXO3gT0gS4",
+      "D2MAkBPKZk4",
+      "Rerqy9dHjY0",
+      "hwzA2eMHMao",
+      "aawSR3FlcoQ",
+      "yOs3o46hJ-o",
+      "-EWGgQsqyXY",
       "QATk8wqxsls",
       "vZWaTsLyHR4"
     ]
   },
   "jatim": {
-    "news_today": 3,
+    "news_today": 8,
     "negative_today": 0,
-    "positive_today": 0,
+    "positive_today": 1,
     "case_scope_today": 0,
-    "neutral_today": 3,
+    "neutral_today": 7,
     "case_today": 0,
     "case_high_active": 0,
     "article_high_today": 0,
-    "outside_jatim_today": 4
+    "outside_jatim_today": 7
   },
   "regions": [
     {
+      "name": "Sampang",
+      "count": 3
+    },
+    {
       "name": "Kediri",
       "count": 2
+    },
+    {
+      "name": "Lamongan",
+      "count": 1
+    },
+    {
+      "name": "Magetan",
+      "count": 1
     },
     {
       "name": "Mojokerto",
@@ -1771,8 +3378,20 @@
   ],
   "polres": [
     {
+      "name": "POLRES SAMPANG",
+      "count": 2
+    },
+    {
       "name": "POLRES KEDIRI KOTA",
       "count": 2
+    },
+    {
+      "name": "POLRES LAMONGAN",
+      "count": 1
+    },
+    {
+      "name": "POLRES MAGETAN",
+      "count": 1
     },
     {
       "name": "POLRES MOJOKERTO",
@@ -1782,23 +3401,27 @@
   "categories": [
     {
       "name": "NETRAL / LAINNYA",
-      "count": 3
+      "count": 7
+    },
+    {
+      "name": "POSITIF / PENEGAKAN HUKUM",
+      "count": 1
     }
   ],
   "summary": {
-    "news_today": 7,
-    "negative_today": 2,
+    "news_today": 15,
+    "negative_today": 3,
     "cases_today": 3,
     "priority_high": 1,
-    "article_priority_high": 1,
-    "jatim_news": 3,
+    "article_priority_high": 2,
+    "jatim_news": 8,
     "jatim_negative": 0,
-    "jatim_positive": 0,
+    "jatim_positive": 1,
     "jatim_case_scope": 0,
-    "jatim_neutral": 3,
+    "jatim_neutral": 7,
     "jatim_cases_today": 0,
     "jatim_case_high_active": 0,
-    "luar_jatim_news": 4,
-    "youtube_today": 8
+    "luar_jatim_news": 7,
+    "youtube_today": 52
   }
 }
