@@ -1,23 +1,23 @@
 {
-  "generated_at": "2026-10-27T00:40:39.663336+00:00",
+  "generated_at": "2026-10-27T06:29:50.794990+00:00",
   "platform": "YouTube",
-  "query_cursor": 5,
+  "query_cursor": 8,
   "query_batch_size": 3,
   "query_success": 3,
   "query_skipped": 0,
   "quota_warning": false,
   "quota_block_date": null,
   "total": 1500,
-  "new_videos": 53,
+  "new_videos": 1,
   "statistics": {
     "total": 1500,
     "jatim": 68,
-    "negative": 663,
+    "negative": 662,
     "incident": 34,
-    "case": 220,
+    "case": 221,
     "neutral": 568,
     "noise": 15,
-    "high_priority": 382
+    "high_priority": 381
   },
   "items": [
     {
@@ -824,6 +824,32 @@
       "collected_at": "2026-10-27T00:40:39.663336+00:00"
     },
     {
+      "id": "852b0824666bb61b1d2ee44dd4d96434cf5f048a",
+      "video_id": "JTrGi9waWSU",
+      "platform": "YouTube",
+      "type": "video",
+      "title": "TIGA PELAKU PUNGLI DIAMANKAN POLISI",
+      "channel": "PALTV Official",
+      "published_at": "2026-10-26T11:42:17Z",
+      "url": "https://www.youtube.com/watch?v=JTrGi9waWSU",
+      "thumbnail": "https://i.ytimg.com/vi/JTrGi9waWSU/hqdefault.jpg",
+      "description": "LIPUTANMETROPOLISPALTV #PALEMBANG #NEWS Subscribe, comment dan share videonya serta klik tombol lonceng untuk ...",
+      "relevance": "high",
+      "scope": "case",
+      "category": "Ungkap Kasus",
+      "classification_score": 60,
+      "is_jatim": false,
+      "region": "Indonesia",
+      "polres": null,
+      "location_confidence": 0,
+      "location_source": "outside",
+      "location_evidence": [
+        "LUAR:palembang"
+      ],
+      "priority": "low",
+      "collected_at": "2026-10-27T06:29:50.794990+00:00"
+    },
+    {
       "id": "1c19fde16047598c514b4782aae585510b39a674",
       "video_id": "rJH_nhPejwQ",
       "platform": "YouTube",
@@ -1604,7 +1630,7 @@
         "LUAR:riau"
       ],
       "priority": "high",
-      "collected_at": "2026-10-26T06:32:04.743433+00:00"
+      "collected_at": "2026-10-27T06:29:50.794990+00:00"
     },
     {
       "id": "af834faeaed1bed0850ff2f7e391f7c91c93cdc3",
@@ -36686,30 +36712,6 @@
       "published_at": "2026-09-11T07:08:07Z",
       "url": "https://www.youtube.com/watch?v=1M6tK26cT7I",
       "thumbnail": "https://i.ytimg.com/vi/1M6tK26cT7I/hqdefault.jpg",
-      "description": "",
-      "relevance": "high",
-      "scope": "negative",
-      "category": "Oknum / Narkoba",
-      "classification_score": 100,
-      "is_jatim": false,
-      "region": "Indonesia",
-      "polres": null,
-      "location_confidence": 0,
-      "location_source": null,
-      "location_evidence": [],
-      "priority": "high",
-      "collected_at": "2026-09-12T01:42:25.058577+00:00"
-    },
-    {
-      "id": "70c67cc1aa069519c306bac23830a12c8cb9179b",
-      "video_id": "UDnBcBrD87M",
-      "platform": "YouTube",
-      "type": "video",
-      "title": "Aksi Kejar-Kejaran Polisi Tangkap 2 Pengedar Narkoba di Medan | SONORA UPDATE",
-      "channel": "SMARTFM MANADO",
-      "published_at": "2026-09-11T07:07:47Z",
-      "url": "https://www.youtube.com/watch?v=UDnBcBrD87M",
-      "thumbnail": "https://i.ytimg.com/vi/UDnBcBrD87M/hqdefault.jpg",
       "description": "",
       "relevance": "high",
       "scope": "negative",
