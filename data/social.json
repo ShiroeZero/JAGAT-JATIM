@@ -1,25 +1,49 @@
 {
-  "generated_at": "2026-10-27T23:07:54.145581+00:00",
+  "generated_at": "2026-10-28T02:30:57.810823+00:00",
   "platform": "YouTube",
-  "query_cursor": 6,
+  "query_cursor": 9,
   "query_batch_size": 3,
   "query_success": 3,
   "query_skipped": 0,
   "quota_warning": false,
   "quota_block_date": null,
   "total": 1500,
-  "new_videos": 28,
+  "new_videos": 7,
   "statistics": {
     "total": 1500,
     "jatim": 61,
-    "negative": 669,
-    "incident": 38,
-    "case": 208,
+    "negative": 666,
+    "incident": 42,
+    "case": 207,
     "neutral": 571,
     "noise": 14,
     "high_priority": 385
   },
   "items": [
+    {
+      "id": "79f0acdb3a6e3529703be411fb81b444f9c51911",
+      "video_id": "h8q7QowBt-8",
+      "platform": "YouTube",
+      "type": "video",
+      "title": "Ayahku Perwira Polisi, Tapi Aku Tetap Jadi Korban Pungli Anak Buahnya",
+      "channel": "SAMUDRA KISAH",
+      "published_at": "2026-10-27T22:00:17Z",
+      "url": "https://www.youtube.com/watch?v=h8q7QowBt-8",
+      "thumbnail": "https://i.ytimg.com/vi/h8q7QowBt-8/hqdefault.jpg",
+      "description": "\"Aku bukan penjahat, aku cuma menolak bayar suap.\" Bayangkan saat Anda hanya ingin mengikuti prosedur resmi, namun justru ...",
+      "relevance": "high",
+      "scope": "incident",
+      "category": "Peristiwa Melibatkan Polisi",
+      "classification_score": 70,
+      "is_jatim": false,
+      "region": "Indonesia",
+      "polres": null,
+      "location_confidence": 0,
+      "location_source": null,
+      "location_evidence": [],
+      "priority": "low",
+      "collected_at": "2026-10-28T02:30:57.810823+00:00"
+    },
     {
       "id": "df7ba31f3a87227db47804f78f7988c18583c0a4",
       "video_id": "fTR-Eyp40wg",
@@ -99,6 +123,54 @@
       "collected_at": "2026-10-27T18:55:15.558380+00:00"
     },
     {
+      "id": "79e778ec371c955da9f2848f63a582433dfdc108",
+      "video_id": "L0wg2ekrmW4",
+      "platform": "YouTube",
+      "type": "video",
+      "title": "Warga Negara Belanda Dianiaya di Manokwari, Polisi Berhasil Tangkap Pelaku",
+      "channel": "KOMPASTV JEMBER",
+      "published_at": "2026-10-27T16:36:09Z",
+      "url": "https://www.youtube.com/watch?v=L0wg2ekrmW4",
+      "thumbnail": "https://i.ytimg.com/vi/L0wg2ekrmW4/hqdefault.jpg",
+      "description": "KOMPAS.TV - Seorang warga negara asing (WNA) asal Belanda menjadi korban penganiayaan di Manokwari, Papua Barat.",
+      "relevance": "high",
+      "scope": "incident",
+      "category": "Peristiwa Melibatkan Polisi",
+      "classification_score": 70,
+      "is_jatim": false,
+      "region": "Indonesia",
+      "polres": null,
+      "location_confidence": 0,
+      "location_source": null,
+      "location_evidence": [],
+      "priority": "low",
+      "collected_at": "2026-10-28T02:30:57.810823+00:00"
+    },
+    {
+      "id": "e3ebd7385108df3fa59ce54c47e60033b15600ed",
+      "video_id": "S8GJ56PYg8A",
+      "platform": "YouTube",
+      "type": "video",
+      "title": "He Bites Florida Police Officer and Refuses to Let Go",
+      "channel": "PoliceCam Busts",
+      "published_at": "2026-10-27T16:30:19Z",
+      "url": "https://www.youtube.com/watch?v=S8GJ56PYg8A",
+      "thumbnail": "https://i.ytimg.com/vi/S8GJ56PYg8A/hqdefault.jpg",
+      "description": "Bodycam footage captured a violent struggle as Sarasota police officers attempted to arrest Darryl Williams, who was wanted in ...",
+      "relevance": "low",
+      "scope": "neutral",
+      "category": "Tidak Relevan",
+      "classification_score": 0,
+      "is_jatim": false,
+      "region": "Indonesia",
+      "polres": null,
+      "location_confidence": 0,
+      "location_source": null,
+      "location_evidence": [],
+      "priority": "low",
+      "collected_at": "2026-10-28T02:30:57.810823+00:00"
+    },
+    {
       "id": "660ea547bfe1c9b148feff069e50ecd96556eced",
       "video_id": "w5r0Uq994PU",
       "platform": "YouTube",
@@ -147,6 +219,54 @@
       ],
       "priority": "low",
       "collected_at": "2026-10-27T18:55:15.558380+00:00"
+    },
+    {
+      "id": "ea3ba6f701c850035b93166b9149733df2d233be",
+      "video_id": "vIrg7OpbtYQ",
+      "platform": "YouTube",
+      "type": "video",
+      "title": "WNA Belanda Jadi Korban Penganiayaan di Manokwari, Polisi Tangkap Pelaku | BERITA UTAMA",
+      "channel": "KOMPASTV KENDARI",
+      "published_at": "2026-10-27T15:45:49Z",
+      "url": "https://www.youtube.com/watch?v=vIrg7OpbtYQ",
+      "thumbnail": "https://i.ytimg.com/vi/vIrg7OpbtYQ/hqdefault.jpg",
+      "description": "",
+      "relevance": "medium",
+      "scope": "neutral",
+      "category": "Berita Polisi Lainnya",
+      "classification_score": 25,
+      "is_jatim": false,
+      "region": "Indonesia",
+      "polres": null,
+      "location_confidence": 0,
+      "location_source": null,
+      "location_evidence": [],
+      "priority": "low",
+      "collected_at": "2026-10-28T02:30:57.810823+00:00"
+    },
+    {
+      "id": "4160d9c6e87d7647381da1ad137541d18f30afec",
+      "video_id": "GkNO4riAzUI",
+      "platform": "YouTube",
+      "type": "video",
+      "title": "WNA Belanda Jadi Korban Penganiayaan di Manokwari, Polisi Tangkap Pelaku | BERITA UTAMA",
+      "channel": "KOMPASTV",
+      "published_at": "2026-10-27T15:25:05Z",
+      "url": "https://www.youtube.com/watch?v=GkNO4riAzUI",
+      "thumbnail": "https://i.ytimg.com/vi/GkNO4riAzUI/hqdefault.jpg",
+      "description": "MANOKWARI, KOMPAS.TV - Seorang warga negara asing asal Belanda jadi korban penganiayaan di Manokwari, Papua Barat.",
+      "relevance": "high",
+      "scope": "incident",
+      "category": "Peristiwa Melibatkan Polisi",
+      "classification_score": 70,
+      "is_jatim": false,
+      "region": "Indonesia",
+      "polres": null,
+      "location_confidence": 0,
+      "location_source": null,
+      "location_evidence": [],
+      "priority": "low",
+      "collected_at": "2026-10-28T02:30:57.810823+00:00"
     },
     {
       "id": "db5ef33f7a222ae1eecbc2f8e4b00ee171f14aae",
@@ -278,6 +398,30 @@
       "collected_at": "2026-10-27T18:55:15.558380+00:00"
     },
     {
+      "id": "1465f612aa5f4e77ca53daab30993818d69fcf39",
+      "video_id": "OlmTxPVZ-j4",
+      "platform": "YouTube",
+      "type": "video",
+      "title": "Pungli Jembatan Ciloa Tasikmalaya Viral di Medsos, Polisi Turun Tangan",
+      "channel": "Harapan Rakyat",
+      "published_at": "2026-10-27T14:42:07Z",
+      "url": "https://www.youtube.com/watch?v=OlmTxPVZ-j4",
+      "thumbnail": "https://i.ytimg.com/vi/OlmTxPVZ-j4/hqdefault.jpg",
+      "description": "ihak kepolisian memastikan tidak ada lagi praktik pungutan liar (pungli) di Jembatan Ciloa, Kabupaten Tasikmalaya. Kepastian ini ...",
+      "relevance": "high",
+      "scope": "negative",
+      "category": "Oknum / Korupsi / Pungli",
+      "classification_score": 100,
+      "is_jatim": false,
+      "region": "Indonesia",
+      "polres": null,
+      "location_confidence": 0,
+      "location_source": null,
+      "location_evidence": [],
+      "priority": "high",
+      "collected_at": "2026-10-28T02:30:57.810823+00:00"
+    },
+    {
       "id": "614671e483c642657cd201ba83bb0b228dbcbc26",
       "video_id": "ly5PonGfix4",
       "platform": "YouTube",
@@ -347,7 +491,7 @@
       "location_source": null,
       "location_evidence": [],
       "priority": "high",
-      "collected_at": "2026-10-27T18:55:15.558380+00:00"
+      "collected_at": "2026-10-28T02:30:57.810823+00:00"
     },
     {
       "id": "a923d8625f9eb8f87d0e665c674ef37160968c88",
@@ -689,7 +833,7 @@
       "location_source": null,
       "location_evidence": [],
       "priority": "medium",
-      "collected_at": "2026-10-27T13:27:22.517669+00:00"
+      "collected_at": "2026-10-28T02:30:57.810823+00:00"
     },
     {
       "id": "9f064668f347d46fa00437e63e4474ddfa894bf9",
@@ -1103,7 +1247,7 @@
       "location_source": null,
       "location_evidence": [],
       "priority": "low",
-      "collected_at": "2026-10-27T13:27:22.517669+00:00"
+      "collected_at": "2026-10-28T02:30:57.810823+00:00"
     },
     {
       "id": "9b5c06bedab3b8fd2fa1a74519855ec520d34d88",
@@ -1154,7 +1298,7 @@
         "LUAR:jakarta utara"
       ],
       "priority": "low",
-      "collected_at": "2026-10-27T13:27:22.517669+00:00"
+      "collected_at": "2026-10-28T02:30:57.810823+00:00"
     },
     {
       "id": "e38da9d97ba459f4e2b6ff3bed74720f613e7672",
@@ -1204,7 +1348,7 @@
       "location_source": null,
       "location_evidence": [],
       "priority": "medium",
-      "collected_at": "2026-10-27T18:55:15.558380+00:00"
+      "collected_at": "2026-10-28T02:30:57.810823+00:00"
     },
     {
       "id": "0b460a29a38cc5b4602c96bb370992e3b3637463",
@@ -1472,7 +1616,7 @@
       "location_source": null,
       "location_evidence": [],
       "priority": "medium",
-      "collected_at": "2026-10-27T13:27:22.517669+00:00"
+      "collected_at": "2026-10-28T02:30:57.810823+00:00"
     },
     {
       "id": "acf59c5e78ca8c5ce99fac420270f043cc63ec90",
@@ -1715,6 +1859,30 @@
       "collected_at": "2026-10-27T13:27:22.517669+00:00"
     },
     {
+      "id": "4b8538e66d99440cca7b47eb09ca9ff3a0e2313e",
+      "video_id": "kE9S1aMVG6o",
+      "platform": "YouTube",
+      "type": "video",
+      "title": "DPO Penganiayaan di Tanggamus Tewas Ditembak Polisi, Melawan saat Ditangkap",
+      "channel": "Tribun Lampung Update",
+      "published_at": "2026-10-27T02:28:32Z",
+      "url": "https://www.youtube.com/watch?v=kE9S1aMVG6o",
+      "thumbnail": "https://i.ytimg.com/vi/kE9S1aMVG6o/hqdefault.jpg",
+      "description": "Informasi lain @tribunlampungupdate ----- DPO Penganiayaan di Tanggamus Tewas Ditembak Polisi, Melawan saat Ditangkap ...",
+      "relevance": "high",
+      "scope": "incident",
+      "category": "Peristiwa Melibatkan Polisi",
+      "classification_score": 70,
+      "is_jatim": false,
+      "region": "Indonesia",
+      "polres": null,
+      "location_confidence": 0,
+      "location_source": null,
+      "location_evidence": [],
+      "priority": "low",
+      "collected_at": "2026-10-28T02:30:57.810823+00:00"
+    },
+    {
       "id": "59b47ef2dee76ea8ed90ecb2b70b73a4c2f55fd7",
       "video_id": "i4-Oenc9Hsk",
       "platform": "YouTube",
@@ -1739,7 +1907,7 @@
         "LUAR:bandung"
       ],
       "priority": "low",
-      "collected_at": "2026-10-27T13:27:22.517669+00:00"
+      "collected_at": "2026-10-28T02:30:57.810823+00:00"
     },
     {
       "id": "22bdc02743593dd329c5c43d7aac64a46503eff7",
@@ -2788,7 +2956,7 @@
       "location_source": null,
       "location_evidence": [],
       "priority": "medium",
-      "collected_at": "2026-10-27T18:55:15.558380+00:00"
+      "collected_at": "2026-10-28T02:30:57.810823+00:00"
     },
     {
       "id": "0d3f9dc36f040324158f97e567d448c007ff6440",
@@ -2884,7 +3052,7 @@
       "location_source": null,
       "location_evidence": [],
       "priority": "medium",
-      "collected_at": "2026-10-27T13:27:22.517669+00:00"
+      "collected_at": "2026-10-28T02:30:57.810823+00:00"
     },
     {
       "id": "68a6218f578c35334528ca4e38f0ad347d4ddb69",
@@ -3150,7 +3318,7 @@
         "LUAR:palembang"
       ],
       "priority": "low",
-      "collected_at": "2026-10-27T06:29:50.794990+00:00"
+      "collected_at": "2026-10-28T02:30:57.810823+00:00"
     },
     {
       "id": "1c19fde16047598c514b4782aae585510b39a674",
@@ -3322,7 +3490,7 @@
         "LUAR:bandung"
       ],
       "priority": "medium",
-      "collected_at": "2026-10-27T13:27:22.517669+00:00"
+      "collected_at": "2026-10-28T02:30:57.810823+00:00"
     },
     {
       "id": "2cde688ac6cd4d83b10d409d1dda0df10c334d16",
@@ -4007,7 +4175,7 @@
         "LUAR:riau"
       ],
       "priority": "high",
-      "collected_at": "2026-10-27T06:29:50.794990+00:00"
+      "collected_at": "2026-10-28T02:30:57.810823+00:00"
     },
     {
       "id": "de12330cac8af12bea6f06d952434e00e3073dec",
@@ -4031,7 +4199,7 @@
       "location_source": null,
       "location_evidence": [],
       "priority": "low",
-      "collected_at": "2026-10-27T13:27:22.517669+00:00"
+      "collected_at": "2026-10-28T02:30:57.810823+00:00"
     },
     {
       "id": "af834faeaed1bed0850ff2f7e391f7c91c93cdc3",
@@ -36573,174 +36741,6 @@
       "location_evidence": [],
       "priority": "high",
       "collected_at": "2026-09-13T20:07:12.715661+00:00"
-    },
-    {
-      "id": "4ae212e59eecb6d0e98e484e0ad38c54baa867b1",
-      "video_id": "ZkUcV_PUOAA",
-      "platform": "YouTube",
-      "type": "video",
-      "title": "Viral Video Ungkap Dugaan Setoran Bandar Sabu ke Oknum Polisi Langkat",
-      "channel": "YONG GANAS",
-      "published_at": "2026-09-12T11:13:11Z",
-      "url": "https://www.youtube.com/watch?v=ZkUcV_PUOAA",
-      "thumbnail": "https://i.ytimg.com/vi/ZkUcV_PUOAA/hqdefault.jpg",
-      "description": "Viral Video Ungkap Dugaan Setoran Bandar Sabu ke Oknum Polisi Langkat, Nama Brigadir Ega Disebut LANGKAT — Sebuah ...",
-      "relevance": "high",
-      "scope": "negative",
-      "category": "Oknum / Narkoba",
-      "classification_score": 100,
-      "is_jatim": false,
-      "region": "Indonesia",
-      "polres": null,
-      "location_confidence": 0,
-      "location_source": null,
-      "location_evidence": [],
-      "priority": "high",
-      "collected_at": "2026-09-14T06:59:37.235264+00:00"
-    },
-    {
-      "id": "712de1fc29f7a10f55a4da764d50cad0aa776b7a",
-      "video_id": "gzKUml02D84",
-      "platform": "YouTube",
-      "type": "video",
-      "title": "3 Pengeroyok Bambang Setiawan Ditangkap Polisi | Metro Hari Ini",
-      "channel": "METRO TV ",
-      "published_at": "2026-09-12T10:35:58Z",
-      "url": "https://www.youtube.com/watch?v=gzKUml02D84",
-      "thumbnail": "https://i.ytimg.com/vi/gzKUml02D84/hqdefault.jpg",
-      "description": "MetroTV, Polda Metro Jaya menetapkan tiga orang sebagai tersangka dalam kasus pengeroyokan terhadap Bambang Setiawan, ...",
-      "relevance": "high",
-      "scope": "negative",
-      "category": "Oknum / Pelanggaran Anggota",
-      "classification_score": 100,
-      "is_jatim": false,
-      "region": "Indonesia",
-      "polres": null,
-      "location_confidence": 0,
-      "location_source": null,
-      "location_evidence": [],
-      "priority": "medium",
-      "collected_at": "2026-09-13T01:39:19.922870+00:00"
-    },
-    {
-      "id": "65fbb1664b9966f33f1df4ac19e09bc75bd3e7eb",
-      "video_id": "Mcm-tQ4SacI",
-      "platform": "YouTube",
-      "type": "video",
-      "title": "BAGONG LAGI MANDI SAMBIL NYANYI NYANYI DITANGKAP PAK POLISI",
-      "channel": "Bekasa Studio",
-      "published_at": "2026-09-12T10:29:06Z",
-      "url": "https://www.youtube.com/watch?v=Mcm-tQ4SacI",
-      "thumbnail": "https://i.ytimg.com/vi/Mcm-tQ4SacI/hqdefault.jpg",
-      "description": "wayanganimasi.",
-      "relevance": "medium",
-      "scope": "neutral",
-      "category": "Berita Polisi Lainnya",
-      "classification_score": 25,
-      "is_jatim": false,
-      "region": "Indonesia",
-      "polres": null,
-      "location_confidence": 0,
-      "location_source": null,
-      "location_evidence": [],
-      "priority": "low",
-      "collected_at": "2026-09-13T01:39:19.922870+00:00"
-    },
-    {
-      "id": "6a54bcefcf3d4497f2156dc62207d49cdb558ca1",
-      "video_id": "LIEyDrQERnc",
-      "platform": "YouTube",
-      "type": "video",
-      "title": "GAK NGOTAK‼️OKNUM POLISI AROGAN NEKAT KEPUNG &amp; TODONG SEORANG JENDERAL TNI KOPASSUS!",
-      "channel": "Epic Story HD",
-      "published_at": "2026-09-12T10:00:26Z",
-      "url": "https://www.youtube.com/watch?v=LIEyDrQERnc",
-      "thumbnail": "https://i.ytimg.com/vi/LIEyDrQERnc/hqdefault.jpg",
-      "description": "DISCLAIMER: Semua gambar dalam video ini dibuat dengan bantuan kecerdasan buatan (AI) semata-mata untuk hiburan, ...",
-      "relevance": "high",
-      "scope": "negative",
-      "category": "Oknum / Pelanggaran Anggota",
-      "classification_score": 100,
-      "is_jatim": false,
-      "region": "Indonesia",
-      "polres": null,
-      "location_confidence": 0,
-      "location_source": null,
-      "location_evidence": [],
-      "priority": "low",
-      "collected_at": "2026-09-14T06:59:37.235264+00:00"
-    },
-    {
-      "id": "434982fc60d056c8ba5f1dddb5d0a1801128ad6a",
-      "video_id": "-FZd2IB7gTc",
-      "platform": "YouTube",
-      "type": "video",
-      "title": "Lakshmi Nivas | Raj kyun de raha hai police officer ko rishvat?",
-      "channel": "Zee TV",
-      "published_at": "2026-09-12T10:00:09Z",
-      "url": "https://www.youtube.com/watch?v=-FZd2IB7gTc",
-      "thumbnail": "https://i.ytimg.com/vi/-FZd2IB7gTc/hqdefault.jpg",
-      "description": "Lakshmi and Sriniwas worry about the patient while Raj assures them of Bhoomika's safety. Police investigate an attack, but ...",
-      "relevance": "low",
-      "scope": "neutral",
-      "category": "Tidak Relevan",
-      "classification_score": 0,
-      "is_jatim": false,
-      "region": "Indonesia",
-      "polres": null,
-      "location_confidence": 0,
-      "location_source": null,
-      "location_evidence": [],
-      "priority": "low",
-      "collected_at": "2026-09-13T23:01:12.258519+00:00"
-    },
-    {
-      "id": "6ab89d8ad022f940abffc63c6b0c090163716929",
-      "video_id": "sJgtwBnwHU4",
-      "platform": "YouTube",
-      "type": "video",
-      "title": "Oknum Polisi Menyalahgunakan Kamera Flock untuk Melacak Mantan, Kata Jaksa",
-      "channel": "Law&Crime Network dalam Bahasa Indonesia",
-      "published_at": "2026-09-12T10:00:07Z",
-      "url": "https://www.youtube.com/watch?v=sJgtwBnwHU4",
-      "thumbnail": "https://i.ytimg.com/vi/sJgtwBnwHU4/hqdefault.jpg",
-      "description": "Pernah penasaran gimana jadinya kalau polisi sendiri yang kena masalah hukum? Di episode Crime Fix kali ini, kita kupas tuntas ...",
-      "relevance": "high",
-      "scope": "negative",
-      "category": "Oknum / Pelanggaran Anggota",
-      "classification_score": 100,
-      "is_jatim": false,
-      "region": "Indonesia",
-      "polres": null,
-      "location_confidence": 0,
-      "location_source": null,
-      "location_evidence": [],
-      "priority": "low",
-      "collected_at": "2026-09-14T06:59:37.235264+00:00"
-    },
-    {
-      "id": "b7a468f8bd5b16871b23612d18aedf3652ad894f",
-      "video_id": "WsYtsTMYI08",
-      "platform": "YouTube",
-      "type": "video",
-      "title": "Aku Ditangkap Polisi Karena Mencuri Uang  | SUAMI ISTRI PEMAKAN SUMBANGAN MASJID | CAHAYA HIKMAH",
-      "channel": "MNCTV OFFICIAL ",
-      "published_at": "2026-09-12T10:00:04Z",
-      "url": "https://www.youtube.com/watch?v=WsYtsTMYI08",
-      "thumbnail": "https://i.ytimg.com/vi/WsYtsTMYI08/hqdefault.jpg",
-      "description": "Suka Dengan Programnya? Tekan SUBSCRIBE https://bit.ly/44Aovdt dan tonton terus program-program terbaik dari MNCTV.",
-      "relevance": "high",
-      "scope": "case",
-      "category": "Ungkap Kasus",
-      "classification_score": 60,
-      "is_jatim": false,
-      "region": "Indonesia",
-      "polres": null,
-      "location_confidence": 0,
-      "location_source": null,
-      "location_evidence": [],
-      "priority": "low",
-      "collected_at": "2026-09-13T01:39:19.922870+00:00"
     }
   ]
 }
