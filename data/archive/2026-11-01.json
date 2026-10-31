@@ -2,18 +2,21 @@
   "schema_version": "today-v3",
   "date": "2026-11-01",
   "timezone": "Asia/Jakarta",
-  "updated_at": "2026-11-01T00:57:51.907083+07:00",
-  "last_successful_update": "2026-11-01T00:57:51.907083+07:00",
+  "updated_at": "2026-11-01T04:49:43.572629+07:00",
+  "last_successful_update": "2026-11-01T04:49:43.572629+07:00",
   "news": {
-    "detected": 54,
+    "detected": 57,
     "negative": 3,
     "positive": 0,
-    "case": 18,
-    "neutral": 33,
-    "jatim": 29,
-    "luar_jatim": 25,
+    "case": 20,
+    "neutral": 34,
+    "jatim": 30,
+    "luar_jatim": 27,
     "priority_high": 1,
     "article_ids": [
+      "929f4b1a42af45ba01e037169d0d475cebecfba5",
+      "4e44710eb4fda39f78b494b810c0b9ba378ae64d",
+      "c098b91baeca2f363eb8ccfdd7a00e683a13a02e",
       "858bea024d77df81aac5fc6481ff5ec0589a1720",
       "32d7a1a70d3d8c5b875f8f4227e3831307aec2b9",
       "7b553f9ae8b9a10662c6bd57811977e149bbf8f3",
@@ -71,6 +74,294 @@
     ],
     "items": [
       {
+        "id": "929f4b1a42af45ba01e037169d0d475cebecfba5",
+        "title": "Kapolres Pasuruan Gelar Subuh Keliling di Masjid Abdul Rahman Bangil, Perkuat Sinergi Polisi Bersama Masyarakat - LintasJatimNews.com",
+        "url": "https://lintasjatimnews.com/2026/11/01/kapolres-pasuruan-gelar-subuh-keliling-di-masjid-abdul-rahman-bangil-perkuat-sinergi-polisi-bersama-masyarakat/",
+        "source": "LintasJatimNews.com",
+        "published_at": "2026-10-31T19:42:13+00:00",
+        "collected_at": "2026-10-31T21:39:02.570624+00:00",
+        "region": "Jawa Timur",
+        "area_label": "Pasuruan",
+        "is_jatim": true,
+        "polres": null,
+        "category": "NETRAL / LAINNYA",
+        "scope": "neutral",
+        "scope_label": "Netral",
+        "priority": "low",
+        "summary": "Kapolres Pasuruan Gelar Subuh Keliling di Masjid Abdul Rahman Bangil, Perkuat Sinergi Polisi Bersama Masyarakat LintasJatimNews.com",
+        "processing_status": "processed",
+        "classifier_version": "contextual-v1.1",
+        "classified_at": "2026-10-31T21:45:29.616013+00:00",
+        "case_id": null,
+        "discovery_families": [],
+        "discovery_tags": [],
+        "discovery_hits": [],
+        "discovery_version": "discovery-v6",
+        "google_news_url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxOVmZsN0JOTmcxNlZCMXJCT1lTN05vMkExUjJ3SzJ1ckYzZU0tcTRiZ1daTUVoaUI4ZUdKdEQ3VGlXZFRsbkR1Y1FLa1dNblZZSk5Lb1o5YkxCZ2kwMDRhd3hkUkNPbXZlN3dvdVdaTURFUk9HY1JPdS1JRk13MWExTE9UeE1DWWJGb2ZibmJwNlc0WkMyN3o5RmVXUFFqbVpyY0pxcTBJeDBUZk5xdDRJNTRFVFRqYjNGQ0FObmN3Y0o1OGI4Sm5fSG9OdzlCVl9wTlhsTF9lVWNIV25iMi1nb3Y0ZkE?oc=5",
+        "original_url": "https://lintasjatimnews.com/2026/11/01/kapolres-pasuruan-gelar-subuh-keliling-di-masjid-abdul-rahman-bangil-perkuat-sinergi-polisi-bersama-masyarakat/",
+        "canonical_url": "https://lintasjatimnews.com/2026/11/01/kapolres-pasuruan-gelar-subuh-keliling-di-masjid-abdul-rahman-bangil-perkuat-sinergi-polisi-bersama-masyarakat",
+        "duplicate_article": false,
+        "locality": "Pasuruan",
+        "polsek": null,
+        "location_confidence": 95,
+        "location_evidence": [
+          "Pasuruan"
+        ],
+        "location_status": "JAWA_TIMUR",
+        "location_source": "title_description",
+        "sentiment": "neutral",
+        "sentiment_label": "Netral",
+        "issue_type": "UMUM",
+        "issue_subtype": "Belum Teridentifikasi",
+        "issue_evidence": [],
+        "polri_relation": "INFORMASI_UMUM",
+        "polri_relation_evidence": [
+          "Hubungan Polri belum spesifik"
+        ],
+        "handling_status": "BELUM_ADA_INFORMASI",
+        "handling_evidence": [],
+        "assertion_status": "FACTUAL",
+        "assertion_confidence": 75,
+        "assertion_evidence": [],
+        "attention_score": 19,
+        "attention_label": "Rendah",
+        "attention_components": {
+          "severity": 2,
+          "polri_relation": 0,
+          "authority": 4,
+          "public_impact": 12,
+          "handling": 0,
+          "evidence": 1,
+          "context_risk": 0,
+          "routine_enforcement_cap": null
+        },
+        "attention_evidence": {
+          "severity": [],
+          "authority": [
+            "kapolres"
+          ],
+          "public_impact": [
+            "dampak kepada masyarakat"
+          ],
+          "evidence": [
+            "satu sumber / informasi awal"
+          ],
+          "role": [],
+          "issue": [],
+          "handling": [],
+          "context": [],
+          "positive": []
+        },
+        "attention_reasons": [
+          "sifat berita: netral",
+          "Hubungan Polri belum spesifik"
+        ],
+        "contextual_flags": {
+          "explicit_polri_subject": false,
+          "explicit_polri_enforcer": false,
+          "polri_victim": false,
+          "service_negative": false,
+          "misconduct_signal": false,
+          "direct_positive_enforcement": false
+        },
+        "analysis_engine_version": "contextual-v1.1",
+        "location_engine_version": "location-v2-title-snippet-source",
+        "case_engine_version": "case-v6.5.4",
+        "case_processed_at": "2026-10-31T21:49:07.740366+00:00"
+      },
+      {
+        "id": "4e44710eb4fda39f78b494b810c0b9ba378ae64d",
+        "title": "Polisi Tangkap Pelaku Pembacokan dan Penembakan di Kampung Ambon - JPNN.com",
+        "url": "https://www.jpnn.com/news/polisi-tangkap-pelaku-pembacokan-dan-penembakan-di-kampung-ambon",
+        "source": "JPNN.com",
+        "published_at": "2026-10-31T18:09:00+00:00",
+        "collected_at": "2026-10-31T21:39:02.570624+00:00",
+        "region": "BELUM TERPETAKAN",
+        "area_label": "BELUM TERPETAKAN",
+        "is_jatim": null,
+        "polres": null,
+        "category": "UNGKAP KASUS / PENINDAKAN",
+        "scope": "case",
+        "scope_label": "Ungkap Kasus",
+        "priority": "low",
+        "summary": "Polisi Tangkap Pelaku Pembacokan dan Penembakan di Kampung Ambon JPNN.com",
+        "processing_status": "processed",
+        "classifier_version": "contextual-v1.1",
+        "classified_at": "2026-10-31T21:45:29.661966+00:00",
+        "case_id": "CASE-003888",
+        "discovery_families": [],
+        "discovery_tags": [],
+        "discovery_hits": [],
+        "discovery_version": "discovery-v6",
+        "google_news_url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPb2swb0lIWGNHUVNBZFo2d2R0MnNENTJXVXNWSGl0YmhBMjN0dkVsZ3dHLXN5UlJFclRETDVjZU5BeFJIbGlDY1hLTS04a0NuMGhVOHRHMXNrM2RrQ1hDMW1rNDRSQzg4djE1dUpRMjVld2hUczdSazdSVEZtVnBBMGh5Sy1MNWlxN3VaMnFTRWh4Uld30gGXAUFVX3lxTE03bWQ1YVk5N3FpelgwLUk0UXdXSW1fUWRhRmZnUWtJcjY2Qm9nejdvUWxfSkdwclFhRnVYRmhBbWZVNmkxa2VnU19kWWZta0tFWDFZbkhZUzhpSk1NSGMxbHU2eDN2dnVJUTYwbmNmbkFiTWplTjAyZFJ5cDI5TVJkQ1BOYnYwOUVXWmd4X1E0b2NNem92emM?oc=5",
+        "original_url": "https://www.jpnn.com/news/polisi-tangkap-pelaku-pembacokan-dan-penembakan-di-kampung-ambon",
+        "canonical_url": "https://jpnn.com/news/polisi-tangkap-pelaku-pembacokan-dan-penembakan-di-kampung-ambon",
+        "duplicate_article": false,
+        "locality": "",
+        "polsek": null,
+        "location_confidence": 0,
+        "location_evidence": [],
+        "location_status": "BELUM_TERPETAKAN",
+        "location_source": "title_description",
+        "sentiment": "positive",
+        "sentiment_label": "Positif",
+        "issue_type": "KEKERASAN_DAN_KEKUATAN",
+        "issue_subtype": "Kekerasan / Penggunaan Kekuatan",
+        "issue_evidence": [
+          "penembakan"
+        ],
+        "polri_relation": "PENEGAKAN_HUKUM",
+        "polri_relation_evidence": [
+          "Polri berperan sebagai pihak penindak"
+        ],
+        "handling_status": "BELUM_ADA_INFORMASI",
+        "handling_evidence": [],
+        "assertion_status": "FACTUAL",
+        "assertion_confidence": 75,
+        "assertion_evidence": [],
+        "attention_score": 39,
+        "attention_label": "Rendah",
+        "attention_components": {
+          "severity": 28,
+          "polri_relation": 0,
+          "authority": 0,
+          "public_impact": 4,
+          "handling": 0,
+          "evidence": 1,
+          "context_risk": 0,
+          "routine_enforcement_cap": null
+        },
+        "attention_evidence": {
+          "severity": [
+            "kekerasan berat"
+          ],
+          "authority": [],
+          "public_impact": [],
+          "evidence": [
+            "satu sumber / informasi awal"
+          ],
+          "role": [],
+          "issue": [
+            "penembakan"
+          ],
+          "handling": [],
+          "context": [],
+          "positive": []
+        },
+        "attention_reasons": [
+          "Polri berperan sebagai pihak penindak",
+          "tidak ditemukan indikator utama misconduct oleh personel"
+        ],
+        "contextual_flags": {
+          "explicit_polri_subject": false,
+          "explicit_polri_enforcer": true,
+          "polri_victim": false,
+          "service_negative": false,
+          "misconduct_signal": true,
+          "direct_positive_enforcement": false
+        },
+        "analysis_engine_version": "contextual-v1.1",
+        "location_engine_version": "location-v2-title-snippet-source",
+        "case_engine_version": "case-v6.5.4",
+        "case_processed_at": "2026-10-31T21:49:41.866691+00:00"
+      },
+      {
+        "id": "c098b91baeca2f363eb8ccfdd7a00e683a13a02e",
+        "title": "Polisi Tangkap Pelaku Pembacokan dan Penembakan di Kampung Ambon - JPNN.com",
+        "url": "https://m.jpnn.com/news/polisi-tangkap-pelaku-pembacokan-dan-penembakan-di-kampung-ambon",
+        "source": "JPNN.com",
+        "published_at": "2026-10-31T18:09:00+00:00",
+        "collected_at": "2026-10-31T21:39:02.570624+00:00",
+        "region": "BELUM TERPETAKAN",
+        "area_label": "BELUM TERPETAKAN",
+        "is_jatim": null,
+        "polres": null,
+        "category": "UNGKAP KASUS / PENINDAKAN",
+        "scope": "case",
+        "scope_label": "Ungkap Kasus",
+        "priority": "low",
+        "summary": "Polisi Tangkap Pelaku Pembacokan dan Penembakan di Kampung Ambon JPNN.com",
+        "processing_status": "processed",
+        "classifier_version": "contextual-v1.1",
+        "classified_at": "2026-10-31T21:45:29.707919+00:00",
+        "case_id": "CASE-003889",
+        "discovery_families": [],
+        "discovery_tags": [],
+        "discovery_hits": [],
+        "discovery_version": "discovery-v6",
+        "google_news_url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPUVAzSlVFMEs4QjBoV09lZkpHQkdneWgwT0V5eGF5UHFYamwzQlQ4VjFfSThMR1JBQm1kOFVDN1d2ZGpzNmx6RkdINTRELWxQczVvY1BVcUdBZVl1ekI2c21BU0JBa0VRalFscVFOcmQ1ZFJjUVo0eFV5LVZ6SUgzZUVVMkQwWUh6Ui0xZ003YldJZ9IBlwFBVV95cUxNN21kNWFZOTdxaXpYMC1JNFF3V0ltX1FkYUZmZ1FrSXI2NkJvZ3o3b1FsX0pHcHJRYUZ1WEZoQW1mVTZpMWtlZ1NfZFlmbWtLRVgxWW5IWVM4aUpNTUhjMWx1NngzdnZ1SVE2MG5jZm5BYk1qZU4wMmRSeXAyOU1SZENQTmJ2MDlFV1pneF9RNG9jTXpvdnpj?oc=5",
+        "original_url": "https://m.jpnn.com/news/polisi-tangkap-pelaku-pembacokan-dan-penembakan-di-kampung-ambon",
+        "canonical_url": "https://m.jpnn.com/news/polisi-tangkap-pelaku-pembacokan-dan-penembakan-di-kampung-ambon",
+        "duplicate_article": false,
+        "locality": "",
+        "polsek": null,
+        "location_confidence": 0,
+        "location_evidence": [],
+        "location_status": "BELUM_TERPETAKAN",
+        "location_source": "title_description",
+        "sentiment": "positive",
+        "sentiment_label": "Positif",
+        "issue_type": "KEKERASAN_DAN_KEKUATAN",
+        "issue_subtype": "Kekerasan / Penggunaan Kekuatan",
+        "issue_evidence": [
+          "penembakan"
+        ],
+        "polri_relation": "PENEGAKAN_HUKUM",
+        "polri_relation_evidence": [
+          "Polri berperan sebagai pihak penindak"
+        ],
+        "handling_status": "BELUM_ADA_INFORMASI",
+        "handling_evidence": [],
+        "assertion_status": "FACTUAL",
+        "assertion_confidence": 75,
+        "assertion_evidence": [],
+        "attention_score": 39,
+        "attention_label": "Rendah",
+        "attention_components": {
+          "severity": 28,
+          "polri_relation": 0,
+          "authority": 0,
+          "public_impact": 4,
+          "handling": 0,
+          "evidence": 1,
+          "context_risk": 0,
+          "routine_enforcement_cap": null
+        },
+        "attention_evidence": {
+          "severity": [
+            "kekerasan berat"
+          ],
+          "authority": [],
+          "public_impact": [],
+          "evidence": [
+            "satu sumber / informasi awal"
+          ],
+          "role": [],
+          "issue": [
+            "penembakan"
+          ],
+          "handling": [],
+          "context": [],
+          "positive": []
+        },
+        "attention_reasons": [
+          "Polri berperan sebagai pihak penindak",
+          "tidak ditemukan indikator utama misconduct oleh personel"
+        ],
+        "contextual_flags": {
+          "explicit_polri_subject": false,
+          "explicit_polri_enforcer": true,
+          "polri_victim": false,
+          "service_negative": false,
+          "misconduct_signal": true,
+          "direct_positive_enforcement": false
+        },
+        "analysis_engine_version": "contextual-v1.1",
+        "location_engine_version": "location-v2-title-snippet-source",
+        "case_engine_version": "case-v6.5.4",
+        "case_processed_at": "2026-10-31T21:49:41.866696+00:00"
+      },
+      {
         "id": "858bea024d77df81aac5fc6481ff5ec0589a1720",
         "title": "Kanit beserta Anggota Sat Resnarkoba dimutasi pasca penangkapan 3 oknum DPRD dari Gerindra, IPW duga intervensi politik - lensaindonesia",
         "url": "https://www.lensaindonesia.com/kanit-beserta-anggota-sat-resnarkoba-dimutasi-pasca-penangkapan-3-oknum-dprd-dari-gerindra-ipw-duga-intervensi-politik/",
@@ -88,7 +379,7 @@
         "summary": "Kanit beserta Anggota Sat Resnarkoba dimutasi pasca penangkapan 3 oknum DPRD dari Gerindra, IPW duga intervensi politik lensaindonesia",
         "processing_status": "processed",
         "classifier_version": "contextual-v1.1",
-        "classified_at": "2026-10-31T17:53:37.799298+00:00",
+        "classified_at": "2026-10-31T21:45:29.757391+00:00",
         "case_id": null,
         "discovery_families": [
           "abuse_of_power"
@@ -170,7 +461,7 @@
         "analysis_engine_version": "contextual-v1.1",
         "location_engine_version": "location-v2-title-snippet-source",
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-10-31T17:57:15.704517+00:00"
+        "case_processed_at": "2026-10-31T21:49:07.748554+00:00"
       },
       {
         "id": "32d7a1a70d3d8c5b875f8f4227e3831307aec2b9",
@@ -190,7 +481,7 @@
         "summary": "Kasus Dugaan Kekerasan terhadap Anak di Aceh Barat, Polisi Mulai Periksa Saksi Serambinews.com",
         "processing_status": "processed",
         "classifier_version": "contextual-v1.1",
-        "classified_at": "2026-10-31T17:53:37.846603+00:00",
+        "classified_at": "2026-10-31T21:45:29.804872+00:00",
         "case_id": null,
         "discovery_families": [
           "ethics_personal_misconduct"
@@ -273,7 +564,7 @@
         "analysis_engine_version": "contextual-v1.1",
         "location_engine_version": "location-v2-title-snippet-source",
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-10-31T17:57:15.712766+00:00"
+        "case_processed_at": "2026-10-31T21:49:07.756649+00:00"
       },
       {
         "id": "7b553f9ae8b9a10662c6bd57811977e149bbf8f3",
@@ -293,7 +584,7 @@
         "summary": "Pelaku Penganiayaan Cengkareng Menyerahkan diri, 1 Orang Diburu Polisi MetroTVNews.com",
         "processing_status": "processed",
         "classifier_version": "contextual-v1.1",
-        "classified_at": "2026-10-31T17:53:37.893122+00:00",
+        "classified_at": "2026-10-31T21:45:29.851596+00:00",
         "case_id": null,
         "discovery_families": [],
         "discovery_tags": [],
@@ -366,7 +657,7 @@
         "analysis_engine_version": "contextual-v1.1",
         "location_engine_version": "location-v2-title-snippet-source",
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-10-31T17:57:15.720830+00:00"
+        "case_processed_at": "2026-10-31T21:49:07.764658+00:00"
       },
       {
         "id": "69a24448b902b79fccc26fb416262f5c6f109fae",
@@ -386,7 +677,7 @@
         "summary": "Polisi Tangkap Pelaku Penembakan di Kampung Ambon, Ini Motifnya Rmol.id",
         "processing_status": "processed",
         "classifier_version": "contextual-v1.1",
-        "classified_at": "2026-10-31T17:53:37.939568+00:00",
+        "classified_at": "2026-10-31T21:45:29.897888+00:00",
         "case_id": "CASE-003872",
         "discovery_families": [],
         "discovery_tags": [],
@@ -462,7 +753,7 @@
         "analysis_engine_version": "contextual-v1.1",
         "location_engine_version": "location-v2-title-snippet-source",
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-10-31T17:57:50.370514+00:00"
+        "case_processed_at": "2026-10-31T21:49:41.866701+00:00"
       },
       {
         "id": "d5c485cc6699404e3282dcb46506b43042520621",
@@ -482,7 +773,7 @@
         "summary": "Satu Pelaku Curas di Bekasi Ditangkap, Polisi Dalami Keterkaitan dengan 12 Kasus Lain Suarajabar.id",
         "processing_status": "processed",
         "classifier_version": "contextual-v1.1",
-        "classified_at": "2026-10-31T17:53:37.987063+00:00",
+        "classified_at": "2026-10-31T21:45:29.945721+00:00",
         "case_id": "CASE-003873",
         "discovery_families": [],
         "discovery_tags": [],
@@ -552,7 +843,7 @@
         "analysis_engine_version": "contextual-v1.1",
         "location_engine_version": "location-v2-title-snippet-source",
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-10-31T17:57:50.370520+00:00"
+        "case_processed_at": "2026-10-31T21:49:41.866703+00:00"
       },
       {
         "id": "dd74bf379c7dba6489054d227a8709eda6899363",
@@ -572,7 +863,7 @@
         "summary": "Polisi Ungkap Motif Penyerangan Pakai Senpi dan Sajam di Kampung Ambon, Dipicu Dendam Pribadi Poskota",
         "processing_status": "processed",
         "classifier_version": "contextual-v1.1",
-        "classified_at": "2026-10-31T17:53:38.034142+00:00",
+        "classified_at": "2026-10-31T21:45:29.993155+00:00",
         "case_id": "CASE-003874",
         "discovery_families": [],
         "discovery_tags": [],
@@ -644,7 +935,7 @@
         "analysis_engine_version": "contextual-v1.1",
         "location_engine_version": "location-v2-title-snippet-source",
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-10-31T17:57:50.370522+00:00"
+        "case_processed_at": "2026-10-31T21:49:41.866706+00:00"
       },
       {
         "id": "d105dd83e3dcee911f23bf4b6a79c777e0135b9f",
@@ -664,7 +955,7 @@
         "summary": "Sterilisasi Stadion Surajaya Ungkap Dugaan Konsumsi Miras, Polres Lamongan Siapkan Blacklist realita.co",
         "processing_status": "processed",
         "classifier_version": "contextual-v1.1",
-        "classified_at": "2026-10-31T17:53:38.079639+00:00",
+        "classified_at": "2026-10-31T21:45:30.038420+00:00",
         "case_id": "CASE-002881",
         "discovery_families": [
           "illegal_activity_backing"
@@ -751,7 +1042,7 @@
         "analysis_engine_version": "contextual-v1.1",
         "location_engine_version": "location-v2-title-snippet-source",
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-10-31T17:57:50.370525+00:00"
+        "case_processed_at": "2026-10-31T21:49:41.866708+00:00"
       },
       {
         "id": "6d3677cb3459e2d6890c9da0f1095e0e4a5fdfc9",
@@ -771,7 +1062,7 @@
         "summary": "Sembilan Pondok Diduga Jadi Sarang Narkoba di Serigeni Lama Dibongkar, Polisi Temukan Sabu Radar Bahtera",
         "processing_status": "processed",
         "classifier_version": "contextual-v1.1",
-        "classified_at": "2026-10-31T17:53:38.127045+00:00",
+        "classified_at": "2026-10-31T21:45:30.085344+00:00",
         "case_id": "CASE-003875",
         "discovery_families": [],
         "discovery_tags": [],
@@ -854,7 +1145,7 @@
         "analysis_engine_version": "contextual-v1.1",
         "location_engine_version": "location-v2-title-snippet-source",
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-10-31T17:57:50.370527+00:00"
+        "case_processed_at": "2026-10-31T21:49:41.866711+00:00"
       },
       {
         "id": "5090460bdbeb7623c13b23974fc8e5c3088e4f08",
@@ -874,7 +1165,7 @@
         "summary": "Polres Kediri Tilang 19 Kendaraan dalam Operasi Patuh Semeru 2026 bsinews.id",
         "processing_status": "processed",
         "classifier_version": "contextual-v1.1",
-        "classified_at": "2026-10-31T17:53:38.172187+00:00",
+        "classified_at": "2026-10-31T21:45:30.130062+00:00",
         "case_id": null,
         "discovery_families": [],
         "discovery_tags": [],
@@ -947,7 +1238,7 @@
         "analysis_engine_version": "contextual-v1.1",
         "location_engine_version": "location-v2-title-snippet-source",
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-10-31T17:57:15.727735+00:00"
+        "case_processed_at": "2026-10-31T21:49:07.771562+00:00"
       },
       {
         "id": "1205ef44ae26952e6f0414a566147dde548af7e0",
@@ -967,7 +1258,7 @@
         "summary": "Polisi Tilang Belasan Kendaraan Balap Liar dan Knalpot Brong di Kediri detikcom",
         "processing_status": "processed",
         "classifier_version": "contextual-v1.1",
-        "classified_at": "2026-10-31T17:53:38.218756+00:00",
+        "classified_at": "2026-10-31T21:45:30.176791+00:00",
         "case_id": null,
         "discovery_families": [],
         "discovery_tags": [],
@@ -1039,7 +1330,7 @@
         "analysis_engine_version": "contextual-v1.1",
         "location_engine_version": "location-v2-title-snippet-source",
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-10-31T17:57:15.735738+00:00"
+        "case_processed_at": "2026-10-31T21:49:07.779531+00:00"
       },
       {
         "id": "3986cb25fbd516037797cfd1e6477ea5746dcec2",
@@ -1059,7 +1350,7 @@
         "summary": "Polres Lamongan Amankan 14 Orang Konsumsi Miras di Stadion Radar Bangsa",
         "processing_status": "processed",
         "classifier_version": "contextual-v1.1",
-        "classified_at": "2026-10-31T17:53:38.265480+00:00",
+        "classified_at": "2026-10-31T21:45:30.221748+00:00",
         "case_id": "CASE-002881",
         "discovery_families": [
           "illegal_activity_backing"
@@ -1146,7 +1437,7 @@
         "analysis_engine_version": "contextual-v1.1",
         "location_engine_version": "location-v2-title-snippet-source",
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-10-31T17:57:50.370530+00:00"
+        "case_processed_at": "2026-10-31T21:49:41.866714+00:00"
       },
       {
         "id": "2305aa88f2e7ea651e44cf4dbbf4cef3ab35fae3",
@@ -1166,7 +1457,7 @@
         "summary": "Betrand Peto Hadapi Penyidikan Dugaan Kekerasan Seksual Setelah Polisi Periksa Saksi dan Barang Bukti gadget.qoo10.co.id",
         "processing_status": "processed",
         "classifier_version": "contextual-v1.1",
-        "classified_at": "2026-10-31T17:53:38.312908+00:00",
+        "classified_at": "2026-10-31T21:45:30.269772+00:00",
         "case_id": null,
         "discovery_families": [
           "ethics_personal_misconduct"
@@ -1252,7 +1543,7 @@
         "analysis_engine_version": "contextual-v1.1",
         "location_engine_version": "location-v2-title-snippet-source",
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-10-31T17:57:15.749105+00:00"
+        "case_processed_at": "2026-10-31T21:49:07.792731+00:00"
       },
       {
         "id": "a2cecdfc617b056698e964fbe3f1c90f7f1bb051",
@@ -1272,7 +1563,7 @@
         "summary": "14 Suporter Kedapatan Minum Miras di Stadion Surajaya, Polres Lamongan Larang Masuk iNews.ID",
         "processing_status": "processed",
         "classifier_version": "contextual-v1.1",
-        "classified_at": "2026-10-31T17:53:38.357643+00:00",
+        "classified_at": "2026-10-31T21:45:30.314950+00:00",
         "case_id": null,
         "discovery_families": [
           "illegal_activity_backing"
@@ -1356,7 +1647,7 @@
         "analysis_engine_version": "contextual-v1.1",
         "location_engine_version": "location-v2-title-snippet-source",
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-10-31T17:57:15.756335+00:00"
+        "case_processed_at": "2026-10-31T21:49:07.799857+00:00"
       },
       {
         "id": "060030e58a6a0d70d5447a1800ead3bb1d344043",
@@ -1376,7 +1667,7 @@
         "summary": "Cegah Penyalahgunaan BBM, Polres Sampang Intensifkan Patroli SPBU RRI.co.id",
         "processing_status": "processed",
         "classifier_version": "contextual-v1.1",
-        "classified_at": "2026-10-31T17:53:38.401570+00:00",
+        "classified_at": "2026-10-31T21:45:30.358502+00:00",
         "case_id": null,
         "discovery_families": [],
         "discovery_tags": [],
@@ -1449,7 +1740,7 @@
         "analysis_engine_version": "contextual-v1.1",
         "location_engine_version": "location-v2-title-snippet-source",
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-10-31T17:57:15.763401+00:00"
+        "case_processed_at": "2026-10-31T21:49:07.806783+00:00"
       },
       {
         "id": "ecaa2dfe4fb7cbed737a19785261ba8957aaf53c",
@@ -1469,7 +1760,7 @@
         "summary": "Polres Sampang Cegah Bullying dan Tawuran Lewat Jogo Sekolah RRI.co.id",
         "processing_status": "processed",
         "classifier_version": "contextual-v1.1",
-        "classified_at": "2026-10-31T17:53:38.444703+00:00",
+        "classified_at": "2026-10-31T21:45:30.402296+00:00",
         "case_id": null,
         "discovery_families": [
           "security_public_order"
@@ -1554,7 +1845,7 @@
         "analysis_engine_version": "contextual-v1.1",
         "location_engine_version": "location-v2-title-snippet-source",
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-10-31T17:57:15.770288+00:00"
+        "case_processed_at": "2026-10-31T21:49:07.813699+00:00"
       },
       {
         "id": "4581ae002cf5395d031337c3eafb66aa17231b5c",
@@ -1574,7 +1865,7 @@
         "summary": "Cegah Penimbunan BBM Subsidi, Polres Sampang Ajak Masyarakat Aktif Melapor RRI.co.id",
         "processing_status": "processed",
         "classifier_version": "contextual-v1.1",
-        "classified_at": "2026-10-31T17:53:38.488613+00:00",
+        "classified_at": "2026-10-31T21:45:30.446602+00:00",
         "case_id": null,
         "discovery_families": [
           "illegal_activity_backing"
@@ -1660,7 +1951,7 @@
         "analysis_engine_version": "contextual-v1.1",
         "location_engine_version": "location-v2-title-snippet-source",
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-10-31T17:57:15.777236+00:00"
+        "case_processed_at": "2026-10-31T21:49:07.820648+00:00"
       },
       {
         "id": "1f29691d5e44408400e37f6178b2b3349745035a",
@@ -1680,7 +1971,7 @@
         "summary": "Polres Sampang: Penimbunan BBM Subsidi Pasti Disanksi Hukum! RRI.co.id",
         "processing_status": "processed",
         "classifier_version": "contextual-v1.1",
-        "classified_at": "2026-10-31T17:53:38.532013+00:00",
+        "classified_at": "2026-10-31T21:45:30.489881+00:00",
         "case_id": null,
         "discovery_families": [
           "illegal_activity_backing"
@@ -1764,7 +2055,7 @@
         "analysis_engine_version": "contextual-v1.1",
         "location_engine_version": "location-v2-title-snippet-source",
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-10-31T17:57:15.784151+00:00"
+        "case_processed_at": "2026-10-31T21:49:07.827543+00:00"
       },
       {
         "id": "cddf0b2c35bfda7cf045282d9745135db8a5f317",
@@ -1784,7 +2075,7 @@
         "summary": "Green Policing, Polsek Sampang Ajak Pedagang Jaga Kebersihan Pasar RRI.co.id",
         "processing_status": "processed",
         "classifier_version": "contextual-v1.1",
-        "classified_at": "2026-10-31T17:53:38.577410+00:00",
+        "classified_at": "2026-10-31T21:45:30.536050+00:00",
         "case_id": null,
         "discovery_families": [],
         "discovery_tags": [],
@@ -1857,7 +2148,7 @@
         "analysis_engine_version": "contextual-v1.1",
         "location_engine_version": "location-v2-title-snippet-source",
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-10-31T17:57:15.792271+00:00"
+        "case_processed_at": "2026-10-31T21:49:07.835597+00:00"
       },
       {
         "id": "be256ed1e03e359d5dce19c723dd1491822d70de",
@@ -1877,7 +2168,7 @@
         "summary": "Polres Sampang Ajak Warga Tangkal Hoaks Demi Jaga Ketertiban Umum RRI.co.id",
         "processing_status": "processed",
         "classifier_version": "contextual-v1.1",
-        "classified_at": "2026-10-31T17:53:38.620567+00:00",
+        "classified_at": "2026-10-31T21:45:30.580053+00:00",
         "case_id": null,
         "discovery_families": [],
         "discovery_tags": [],
@@ -1952,7 +2243,7 @@
         "analysis_engine_version": "contextual-v1.1",
         "location_engine_version": "location-v2-title-snippet-source",
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-10-31T17:57:15.799232+00:00"
+        "case_processed_at": "2026-10-31T21:49:07.842503+00:00"
       },
       {
         "id": "dee1a3bc84f846cb529365da7538304cf0536147",
@@ -1972,7 +2263,7 @@
         "summary": "Polisi Olah TKP dan Amankan Motor Konvoi Ugal-ugalan Diduga Melindas Korban hingga Tewas Kabar Banyuwangi",
         "processing_status": "processed",
         "classifier_version": "contextual-v1.1",
-        "classified_at": "2026-10-31T17:53:38.666837+00:00",
+        "classified_at": "2026-10-31T21:45:30.626657+00:00",
         "case_id": "CASE-003876",
         "discovery_families": [],
         "discovery_tags": [],
@@ -2058,7 +2349,7 @@
         "analysis_engine_version": "contextual-v1.1",
         "location_engine_version": "location-v2-title-snippet-source",
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-10-31T17:57:50.370535+00:00"
+        "case_processed_at": "2026-10-31T21:49:41.866719+00:00"
       },
       {
         "id": "7195f472f63195ca5a88430cbfb0659f8fbd95dc",
@@ -2078,7 +2369,7 @@
         "summary": "Polsek Torjun Siaga Pagi, Amankan Lalu Lintas dan Cegah Kriminalitas di Sampang RRI.co.id",
         "processing_status": "processed",
         "classifier_version": "contextual-v1.1",
-        "classified_at": "2026-10-31T17:53:38.713546+00:00",
+        "classified_at": "2026-10-31T21:45:30.672955+00:00",
         "case_id": "CASE-003877",
         "discovery_families": [],
         "discovery_tags": [],
@@ -2151,7 +2442,7 @@
         "analysis_engine_version": "contextual-v1.1",
         "location_engine_version": "location-v2-title-snippet-source",
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-10-31T17:57:50.370537+00:00"
+        "case_processed_at": "2026-10-31T21:49:41.866721+00:00"
       },
       {
         "id": "3b7d02c742150119c027567690032c3a182d4dc3",
@@ -2171,7 +2462,7 @@
         "summary": "Patroli SAE Polres Pasuruan Kota, Wujud Nyata Komitmen Polri Melindungi, Mengayomi, Dan Melayani Masyarakat polrespasuruankota.com",
         "processing_status": "processed",
         "classifier_version": "contextual-v1.1",
-        "classified_at": "2026-10-31T17:53:38.759592+00:00",
+        "classified_at": "2026-10-31T21:45:30.718869+00:00",
         "case_id": null,
         "discovery_families": [],
         "discovery_tags": [],
@@ -2246,7 +2537,7 @@
         "analysis_engine_version": "contextual-v1.1",
         "location_engine_version": "location-v2-title-snippet-source",
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-10-31T17:57:15.806269+00:00"
+        "case_processed_at": "2026-10-31T21:49:07.849520+00:00"
       },
       {
         "id": "145fd5d0b4c605f3fac57cf4aff6049c23ef13cb",
@@ -2266,7 +2557,7 @@
         "summary": "Polisi Ungkap Kasus Curanmor di Sibolga, Pelaku Ditangkap Beserta Barang Bukti MohgaNews",
         "processing_status": "processed",
         "classifier_version": "contextual-v1.1",
-        "classified_at": "2026-10-31T17:53:38.805675+00:00",
+        "classified_at": "2026-10-31T21:45:30.764657+00:00",
         "case_id": "CASE-003878",
         "discovery_families": [],
         "discovery_tags": [],
@@ -2338,7 +2629,7 @@
         "analysis_engine_version": "contextual-v1.1",
         "location_engine_version": "location-v2-title-snippet-source",
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-10-31T17:57:50.370540+00:00"
+        "case_processed_at": "2026-10-31T21:49:41.866724+00:00"
       },
       {
         "id": "0f774a45b74bbb1971d8b01d2f4954b44d83f41c",
@@ -2358,7 +2649,7 @@
         "summary": "Polres Simalungun Ungkap Tiga Kasus Pencurian Selama Oktober SBNpro.com",
         "processing_status": "processed",
         "classifier_version": "contextual-v1.1",
-        "classified_at": "2026-10-31T17:53:38.851098+00:00",
+        "classified_at": "2026-10-31T21:45:30.809875+00:00",
         "case_id": "CASE-003879",
         "discovery_families": [],
         "discovery_tags": [],
@@ -2430,7 +2721,7 @@
         "analysis_engine_version": "contextual-v1.1",
         "location_engine_version": "location-v2-title-snippet-source",
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-10-31T17:57:50.370542+00:00"
+        "case_processed_at": "2026-10-31T21:49:41.866726+00:00"
       },
       {
         "id": "2596e621b5e6d5a49a28f38698e7c2fb5cff9323",
@@ -2450,7 +2741,7 @@
         "summary": "Polres Gresik Amankan 47 Botol Miras di Kebomas Jatimnet.com",
         "processing_status": "processed",
         "classifier_version": "contextual-v1.1",
-        "classified_at": "2026-10-31T17:53:38.894214+00:00",
+        "classified_at": "2026-10-31T21:45:30.853415+00:00",
         "case_id": "CASE-003812",
         "discovery_families": [
           "illegal_activity_backing"
@@ -2537,7 +2828,7 @@
         "analysis_engine_version": "contextual-v1.1",
         "location_engine_version": "location-v2-title-snippet-source",
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-10-31T17:57:50.370545+00:00"
+        "case_processed_at": "2026-10-31T21:49:41.866729+00:00"
       },
       {
         "id": "8f5b8bfb068b2ed3734d7a07bd5f9707f3fefe25",
@@ -2557,7 +2848,7 @@
         "summary": "Gerak Cepat Polres Lumajang Bantu Bersihkan Permukiman Terdampak Longsor di Pronojiwo Klikwarta.com",
         "processing_status": "processed",
         "classifier_version": "contextual-v1.1",
-        "classified_at": "2026-10-31T17:53:38.939099+00:00",
+        "classified_at": "2026-10-31T21:45:30.897890+00:00",
         "case_id": null,
         "discovery_families": [],
         "discovery_tags": [],
@@ -2630,7 +2921,7 @@
         "analysis_engine_version": "contextual-v1.1",
         "location_engine_version": "location-v2-title-snippet-source",
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-10-31T17:57:15.813308+00:00"
+        "case_processed_at": "2026-10-31T21:49:07.856493+00:00"
       },
       {
         "id": "90ee122f28d889c6dcf73fb6ede89e08ba7fcdb4",
@@ -2650,7 +2941,7 @@
         "summary": "Polisi Buru Tersangka Lain di Kasus Penyerangan Dekat Kampung Ambon detikNews",
         "processing_status": "processed",
         "classifier_version": "contextual-v1.1",
-        "classified_at": "2026-10-31T17:53:38.984328+00:00",
+        "classified_at": "2026-10-31T21:45:30.943493+00:00",
         "case_id": null,
         "discovery_families": [],
         "discovery_tags": [],
@@ -2725,7 +3016,7 @@
         "analysis_engine_version": "contextual-v1.1",
         "location_engine_version": "location-v2-title-snippet-source",
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-10-31T17:57:15.821369+00:00"
+        "case_processed_at": "2026-10-31T21:49:07.864532+00:00"
       },
       {
         "id": "c1da7083cf4b950e81144dcc04ad02334e04b7c4",
@@ -2745,7 +3036,7 @@
         "summary": "Polres Pasuruan Amankan 4 Tersangka Pengemasan Ulang Beras Subsidi Jadi Nonsubsidi Klikwarta.com",
         "processing_status": "processed",
         "classifier_version": "contextual-v1.1",
-        "classified_at": "2026-10-31T17:53:39.028152+00:00",
+        "classified_at": "2026-10-31T21:45:30.987428+00:00",
         "case_id": "CASE-003880",
         "discovery_families": [],
         "discovery_tags": [],
@@ -2824,7 +3115,7 @@
         "analysis_engine_version": "contextual-v1.1",
         "location_engine_version": "location-v2-title-snippet-source",
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-10-31T17:57:50.370547+00:00"
+        "case_processed_at": "2026-10-31T21:49:41.866731+00:00"
       },
       {
         "id": "782b19aeb5b5afca81c65c88acca87690aabfe4f",
@@ -2844,7 +3135,7 @@
         "summary": "14 SEPORTER PERSELA DIAMANKAN POLISI KARENA TENGGAK MIRAS di STADION SURAJAYA Pojokkiri",
         "processing_status": "processed",
         "classifier_version": "contextual-v1.1",
-        "classified_at": "2026-10-31T17:53:39.074730+00:00",
+        "classified_at": "2026-10-31T21:45:31.033550+00:00",
         "case_id": "CASE-003881",
         "discovery_families": [
           "illegal_activity_backing"
@@ -2926,7 +3217,7 @@
         "analysis_engine_version": "contextual-v1.1",
         "location_engine_version": "location-v2-title-snippet-source",
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-10-31T17:57:50.370550+00:00"
+        "case_processed_at": "2026-10-31T21:49:41.866734+00:00"
       },
       {
         "id": "328b8afb1f2c5d3b0997edfa3f3aa322d46887d1",
@@ -2946,7 +3237,7 @@
         "summary": "Betrand Peto Bakal Diperiksa Lagi, Polisi Dalami Visum dan CCTV Posnews.co.id",
         "processing_status": "processed",
         "classifier_version": "contextual-v1.1",
-        "classified_at": "2026-10-31T17:53:39.120410+00:00",
+        "classified_at": "2026-10-31T21:45:31.079193+00:00",
         "case_id": null,
         "discovery_families": [],
         "discovery_tags": [],
@@ -3017,7 +3308,7 @@
         "analysis_engine_version": "contextual-v1.1",
         "location_engine_version": "location-v2-title-snippet-source",
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-10-31T17:57:15.829504+00:00"
+        "case_processed_at": "2026-10-31T21:49:07.872574+00:00"
       },
       {
         "id": "c3ac844825b1eab4d35662ce77629619aebb31cc",
@@ -3037,7 +3328,7 @@
         "summary": "Polisi Ungkap Kasus Penyiraman Air Keras di Tangerang RRI.co.id",
         "processing_status": "processed",
         "classifier_version": "contextual-v1.1",
-        "classified_at": "2026-10-31T17:53:39.164495+00:00",
+        "classified_at": "2026-10-31T21:45:31.123915+00:00",
         "case_id": "CASE-003882",
         "discovery_families": [],
         "discovery_tags": [],
@@ -3109,7 +3400,7 @@
         "analysis_engine_version": "contextual-v1.1",
         "location_engine_version": "location-v2-title-snippet-source",
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-10-31T17:57:50.370552+00:00"
+        "case_processed_at": "2026-10-31T21:49:41.866736+00:00"
       },
       {
         "id": "e71aaacaad164ef2ea14a608933f4e406cb3df10",
@@ -3129,7 +3420,7 @@
         "summary": "Polisi Tangkap 20 Pelaku Curanmor Sepanjang Oktober 2026 Tirto.id",
         "processing_status": "processed",
         "classifier_version": "contextual-v1.1",
-        "classified_at": "2026-10-31T17:53:39.209134+00:00",
+        "classified_at": "2026-10-31T21:45:31.169096+00:00",
         "case_id": "CASE-003883",
         "discovery_families": [],
         "discovery_tags": [],
@@ -3199,7 +3490,7 @@
         "analysis_engine_version": "contextual-v1.1",
         "location_engine_version": "location-v2-title-snippet-source",
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-10-31T17:57:50.370555+00:00"
+        "case_processed_at": "2026-10-31T21:49:41.866739+00:00"
       },
       {
         "id": "29c1caa91448b56293e03c1674473e41548e9169",
@@ -3219,7 +3510,7 @@
         "summary": "Gerak Cepat Polres Lumajang Bantu Bersihkan Permukiman Terdampak Longsor di Pronojiwo Tribratanews Polres Ponorogo",
         "processing_status": "processed",
         "classifier_version": "contextual-v1.1",
-        "classified_at": "2026-10-31T17:53:39.264758+00:00",
+        "classified_at": "2026-10-31T21:45:31.214835+00:00",
         "case_id": null,
         "discovery_families": [],
         "discovery_tags": [],
@@ -3292,7 +3583,7 @@
         "analysis_engine_version": "contextual-v1.1",
         "location_engine_version": "location-v2-title-snippet-source",
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-10-31T17:57:15.836602+00:00"
+        "case_processed_at": "2026-10-31T21:49:07.879542+00:00"
       },
       {
         "id": "400a52bd8d8f8b9ee118eba3fa470c1a1045a310",
@@ -3312,7 +3603,7 @@
         "summary": "Kasus Penembakan Mako Polairud, Polisi Periksa Psikologi Bharada AR news.okezone.com",
         "processing_status": "processed",
         "classifier_version": "contextual-v1.1",
-        "classified_at": "2026-10-31T17:53:39.314559+00:00",
+        "classified_at": "2026-10-31T21:45:31.260628+00:00",
         "case_id": null,
         "discovery_families": [],
         "discovery_tags": [],
@@ -3387,7 +3678,7 @@
         "analysis_engine_version": "contextual-v1.1",
         "location_engine_version": "location-v2-title-snippet-source",
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-10-31T17:57:15.844797+00:00"
+        "case_processed_at": "2026-10-31T21:49:07.887609+00:00"
       },
       {
         "id": "67c674826ee4bb69331c6fe69150f323c935210b",
@@ -3407,7 +3698,7 @@
         "summary": "Polres Malang ajak ojol jadi pelopor keselamatan lalu lintas Antara News jatim",
         "processing_status": "processed",
         "classifier_version": "contextual-v1.1",
-        "classified_at": "2026-10-31T17:53:39.358416+00:00",
+        "classified_at": "2026-10-31T21:45:31.304956+00:00",
         "case_id": null,
         "discovery_families": [],
         "discovery_tags": [],
@@ -3481,7 +3772,7 @@
         "analysis_engine_version": "contextual-v1.1",
         "location_engine_version": "location-v2-title-snippet-source",
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-10-31T17:57:15.851940+00:00"
+        "case_processed_at": "2026-10-31T21:49:07.894664+00:00"
       },
       {
         "id": "501aad599e15f36d16ad48e1fb02bca21ed5e0e6",
@@ -3501,7 +3792,7 @@
         "summary": "Usai Kawal Aksi Demo, Polres Jember dan Mahasiswa Bersihkan Sampah Bersama File Satu",
         "processing_status": "processed",
         "classifier_version": "contextual-v1.1",
-        "classified_at": "2026-10-31T17:53:39.402537+00:00",
+        "classified_at": "2026-10-31T21:45:31.349258+00:00",
         "case_id": null,
         "discovery_families": [
           "security_public_order"
@@ -3581,7 +3872,7 @@
         "analysis_engine_version": "contextual-v1.1",
         "location_engine_version": "location-v2-title-snippet-source",
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-10-31T17:57:15.859084+00:00"
+        "case_processed_at": "2026-10-31T21:49:07.901592+00:00"
       },
       {
         "id": "bdc58743d147af0d45a06dc4fcb28954b05e883b",
@@ -3601,7 +3892,7 @@
         "summary": "Di Hari Jadi ke-757 Sumenep, Polresta Terima Penghargaan Keterbukaan Informasi Publik Media Pribumi",
         "processing_status": "processed",
         "classifier_version": "contextual-v1.1",
-        "classified_at": "2026-10-31T17:53:39.449495+00:00",
+        "classified_at": "2026-10-31T21:45:31.396002+00:00",
         "case_id": null,
         "discovery_families": [],
         "discovery_tags": [],
@@ -3673,7 +3964,7 @@
         "analysis_engine_version": "contextual-v1.1",
         "location_engine_version": "location-v2-title-snippet-source",
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-10-31T17:57:15.867368+00:00"
+        "case_processed_at": "2026-10-31T21:49:07.909701+00:00"
       },
       {
         "id": "77121e45314c3278c751254cb66a52ce30016b5a",
@@ -3693,7 +3984,7 @@
         "summary": "Peduli Pendidikan Satlinmas Polres Pasuruan Berikan Pembinaan Kepada, 58 Dewan Guru MTsN 1 Pasuruan Radar Indonesia Online",
         "processing_status": "processed",
         "classifier_version": "contextual-v1.1",
-        "classified_at": "2026-10-31T17:53:39.495908+00:00",
+        "classified_at": "2026-10-31T21:45:31.442224+00:00",
         "case_id": null,
         "discovery_families": [],
         "discovery_tags": [],
@@ -3766,7 +4057,7 @@
         "analysis_engine_version": "contextual-v1.1",
         "location_engine_version": "location-v2-title-snippet-source",
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-10-31T17:57:15.874513+00:00"
+        "case_processed_at": "2026-10-31T21:49:07.916731+00:00"
       },
       {
         "id": "29258f271aaa018ecb1918af728ef85e93038b57",
@@ -3786,7 +4077,7 @@
         "summary": "Satlantas Polres Blitar, Sosialisasikan Sasaran Operasi Patuh Semeru 2026 infobanua.co.id",
         "processing_status": "processed",
         "classifier_version": "contextual-v1.1",
-        "classified_at": "2026-10-31T17:53:39.539665+00:00",
+        "classified_at": "2026-10-31T21:45:31.486322+00:00",
         "case_id": null,
         "discovery_families": [],
         "discovery_tags": [],
@@ -3861,7 +4152,7 @@
         "analysis_engine_version": "contextual-v1.1",
         "location_engine_version": "location-v2-title-snippet-source",
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-10-31T17:57:15.881520+00:00"
+        "case_processed_at": "2026-10-31T21:49:07.923681+00:00"
       },
       {
         "id": "3bcd1230a135d865564ea290fede2880ebf18f5c",
@@ -3881,7 +4172,7 @@
         "summary": "Patroli Dialogis Polsek Grati, Wujud Nyata Polri Hadir Bersama Masyarakat https://tribratanews.polrespasuruankota.com/",
         "processing_status": "processed",
         "classifier_version": "contextual-v1.1",
-        "classified_at": "2026-10-31T17:53:39.586858+00:00",
+        "classified_at": "2026-10-31T21:45:31.533351+00:00",
         "case_id": null,
         "discovery_families": [],
         "discovery_tags": [],
@@ -3955,7 +4246,7 @@
         "analysis_engine_version": "contextual-v1.1",
         "location_engine_version": "location-v2-title-snippet-source",
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-10-31T17:57:15.889527+00:00"
+        "case_processed_at": "2026-10-31T21:49:07.931626+00:00"
       },
       {
         "id": "4f8090c388f6cd0693950188792f37488dc48551",
@@ -3975,7 +4266,7 @@
         "summary": "Cegah Bullying dan Tawuran, Polres Mojokerto Sambangi SMKN 1 Pungging beritajatim.com",
         "processing_status": "processed",
         "classifier_version": "contextual-v1.1",
-        "classified_at": "2026-10-31T17:53:39.631096+00:00",
+        "classified_at": "2026-10-31T21:45:31.577743+00:00",
         "case_id": null,
         "discovery_families": [
           "security_public_order"
@@ -4060,7 +4351,7 @@
         "analysis_engine_version": "contextual-v1.1",
         "location_engine_version": "location-v2-title-snippet-source",
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-10-31T17:57:15.896531+00:00"
+        "case_processed_at": "2026-10-31T21:49:07.938727+00:00"
       },
       {
         "id": "1a7fb7413afefa14ebbff62f88c92dfb8f34aa9e",
@@ -4080,7 +4371,7 @@
         "summary": "Polresta Tuban Amankan Pemuda Residivis dalam Kasus Curanmor RRI.co.id",
         "processing_status": "processed",
         "classifier_version": "contextual-v1.1",
-        "classified_at": "2026-10-31T17:53:39.674023+00:00",
+        "classified_at": "2026-10-31T21:45:31.620867+00:00",
         "case_id": "CASE-003850",
         "discovery_families": [],
         "discovery_tags": [],
@@ -4155,7 +4446,7 @@
         "analysis_engine_version": "contextual-v1.1",
         "location_engine_version": "location-v2-title-snippet-source",
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-10-31T17:57:50.370560+00:00"
+        "case_processed_at": "2026-10-31T21:49:41.866745+00:00"
       },
       {
         "id": "cea411325db0e3d5495fd0edc842f0429be452b1",
@@ -4175,7 +4466,7 @@
         "summary": "Dipicu Balas Dendam, Polisi Pastikan Pembacokan 3 Warga d Kampung Ambon Tak Terkait Narkoba news.okezone.com",
         "processing_status": "processed",
         "classifier_version": "contextual-v1.1",
-        "classified_at": "2026-10-31T17:53:39.721750+00:00",
+        "classified_at": "2026-10-31T21:45:31.668233+00:00",
         "case_id": null,
         "discovery_families": [],
         "discovery_tags": [],
@@ -4247,7 +4538,7 @@
         "analysis_engine_version": "contextual-v1.1",
         "location_engine_version": "location-v2-title-snippet-source",
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-10-31T17:57:15.904642+00:00"
+        "case_processed_at": "2026-10-31T21:49:07.946958+00:00"
       },
       {
         "id": "6bb26f1a3d1811858634cde78a98856e98a70c7f",
@@ -4267,7 +4558,7 @@
         "summary": "Diduga Ngangsu dan Timbun Solar Subsidi, 2 Warga Sragen Ditangkap Polisi Espos.id",
         "processing_status": "processed",
         "classifier_version": "contextual-v1.1",
-        "classified_at": "2026-10-31T17:53:39.767295+00:00",
+        "classified_at": "2026-10-31T21:45:31.713693+00:00",
         "case_id": "CASE-003884",
         "discovery_families": [
           "illegal_activity_backing"
@@ -4357,7 +4648,7 @@
         "analysis_engine_version": "contextual-v1.1",
         "location_engine_version": "location-v2-title-snippet-source",
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-10-31T17:57:50.370562+00:00"
+        "case_processed_at": "2026-10-31T21:49:41.866747+00:00"
       },
       {
         "id": "9da1e7a09c0b7d396147339ead1b83e8def37d26",
@@ -4377,7 +4668,7 @@
         "summary": "Kawal Pembangunan Jembatan Kedungcangkring, Tipidkor Polres Tulungagung Lakukan Klarifikasi dan Pengecekan Lapangan Tribratanews Polres Tulungagung",
         "processing_status": "processed",
         "classifier_version": "contextual-v1.1",
-        "classified_at": "2026-10-31T17:53:39.813567+00:00",
+        "classified_at": "2026-10-31T21:45:31.760304+00:00",
         "case_id": null,
         "discovery_families": [],
         "discovery_tags": [],
@@ -4451,7 +4742,7 @@
         "analysis_engine_version": "contextual-v1.1",
         "location_engine_version": "location-v2-title-snippet-source",
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-10-31T17:57:15.911609+00:00"
+        "case_processed_at": "2026-10-31T21:49:07.953984+00:00"
       },
       {
         "id": "2d3fe3a09a5ba5274ed42243ac0dd731c3bba616",
@@ -4471,7 +4762,7 @@
         "summary": "Polisi Bantah Pelaku Pembunuhan Bobotoh Terafiliasi Suporter Klub Asal Bogor Bogor24Update",
         "processing_status": "processed",
         "classifier_version": "contextual-v1.1",
-        "classified_at": "2026-10-31T17:53:39.859914+00:00",
+        "classified_at": "2026-10-31T21:45:31.807163+00:00",
         "case_id": null,
         "discovery_families": [],
         "discovery_tags": [],
@@ -4550,7 +4841,7 @@
         "analysis_engine_version": "contextual-v1.1",
         "location_engine_version": "location-v2-title-snippet-source",
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-10-31T17:57:15.919672+00:00"
+        "case_processed_at": "2026-10-31T21:49:07.962014+00:00"
       },
       {
         "id": "50a6e1c950809935b47da78746793a455bbb18f8",
@@ -4570,7 +4861,7 @@
         "summary": "Kasus Kekerasan Seks Naik Penyidikan, Polisi Segera Periksa Onyo Publicanews",
         "processing_status": "processed",
         "classifier_version": "contextual-v1.1",
-        "classified_at": "2026-10-31T17:53:39.905801+00:00",
+        "classified_at": "2026-10-31T21:45:31.853422+00:00",
         "case_id": null,
         "discovery_families": [],
         "discovery_tags": [],
@@ -4644,7 +4935,7 @@
         "analysis_engine_version": "contextual-v1.1",
         "location_engine_version": "location-v2-title-snippet-source",
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-10-31T17:57:15.927892+00:00"
+        "case_processed_at": "2026-10-31T21:49:07.970059+00:00"
       },
       {
         "id": "284c94ce69ac5b1e81805b832a20e83e3726eda3",
@@ -4664,7 +4955,7 @@
         "summary": "Operasi Patuh, Satlantas Polres Kediri Tindak 19 Motor di SLG metrotv9news",
         "processing_status": "processed",
         "classifier_version": "contextual-v1.1",
-        "classified_at": "2026-10-31T17:53:39.949904+00:00",
+        "classified_at": "2026-10-31T21:45:31.896658+00:00",
         "case_id": "CASE-003854",
         "discovery_families": [],
         "discovery_tags": [],
@@ -4741,7 +5032,7 @@
         "analysis_engine_version": "contextual-v1.1",
         "location_engine_version": "location-v2-title-snippet-source",
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-10-31T17:57:50.370565+00:00"
+        "case_processed_at": "2026-10-31T21:49:41.866750+00:00"
       },
       {
         "id": "c15392fb11d26f377a02bca6be4649ec4aaa1040",
@@ -4761,7 +5052,7 @@
         "summary": "Reda Lewat Audiensi, Polres Probolinggo Tetap Usut Rokok Ilegal dan Aksi Blokade Pantura Harian Bhirawa",
         "processing_status": "processed",
         "classifier_version": "contextual-v1.1",
-        "classified_at": "2026-10-31T17:53:39.994949+00:00",
+        "classified_at": "2026-10-31T21:45:31.941650+00:00",
         "case_id": null,
         "discovery_families": [
           "illegal_activity_backing"
@@ -4847,7 +5138,7 @@
         "analysis_engine_version": "contextual-v1.1",
         "location_engine_version": "location-v2-title-snippet-source",
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-10-31T17:57:15.934930+00:00"
+        "case_processed_at": "2026-10-31T21:49:07.977055+00:00"
       },
       {
         "id": "4df4760ea82f2a9945d3fad200160b2ea745d7f2",
@@ -4867,7 +5158,7 @@
         "summary": "Dua Tersangka Dugaan Penyalahgunaan Solar Subsidi di Sragen Ditahan, Polisi Sita 923 Liter iNews.ID",
         "processing_status": "processed",
         "classifier_version": "contextual-v1.1",
-        "classified_at": "2026-10-31T17:53:40.041620+00:00",
+        "classified_at": "2026-10-31T21:45:31.988391+00:00",
         "case_id": "CASE-003885",
         "discovery_families": [
           "illegal_activity_backing"
@@ -4957,7 +5248,7 @@
         "analysis_engine_version": "contextual-v1.1",
         "location_engine_version": "location-v2-title-snippet-source",
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-10-31T17:57:50.370568+00:00"
+        "case_processed_at": "2026-10-31T21:49:41.866753+00:00"
       },
       {
         "id": "45c83598bd8c940fb71b2e01a72adf1312a3cc11",
@@ -4977,7 +5268,7 @@
         "summary": "Dialog Pemberantasan Tambang Ilegal di Pamekasan Melahirkan 6 Rekomendasi jurnalpolisi.co.id",
         "processing_status": "processed",
         "classifier_version": "contextual-v1.1",
-        "classified_at": "2026-10-31T17:53:40.087817+00:00",
+        "classified_at": "2026-10-31T21:45:32.034525+00:00",
         "case_id": null,
         "discovery_families": [
           "illegal_activity_backing"
@@ -5062,7 +5353,7 @@
         "analysis_engine_version": "contextual-v1.1",
         "location_engine_version": "location-v2-title-snippet-source",
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-10-31T17:57:15.943689+00:00"
+        "case_processed_at": "2026-10-31T21:49:07.985883+00:00"
       },
       {
         "id": "3a3efca611fafc5ff37c8857a3e6a70b68ccf4f8",
@@ -5082,7 +5373,7 @@
         "summary": "Polisi Amankan Pelaku Penembakan Dekat Kampung Ambon Suara Independent News",
         "processing_status": "processed",
         "classifier_version": "contextual-v1.1",
-        "classified_at": "2026-10-31T17:53:40.133399+00:00",
+        "classified_at": "2026-10-31T21:45:32.080078+00:00",
         "case_id": "CASE-003886",
         "discovery_families": [],
         "discovery_tags": [],
@@ -5160,7 +5451,7 @@
         "analysis_engine_version": "contextual-v1.1",
         "location_engine_version": "location-v2-title-snippet-source",
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-10-31T17:57:50.370571+00:00"
+        "case_processed_at": "2026-10-31T21:49:41.866756+00:00"
       },
       {
         "id": "2f09c805d28a6fe3e37bd3752cd54f8778cb419c",
@@ -5180,7 +5471,7 @@
         "summary": "Pelaku Penembakan Kampung Ambon Serahkan Diri ke Polisi Demokratis.co.id",
         "processing_status": "processed",
         "classifier_version": "contextual-v1.1",
-        "classified_at": "2026-10-31T17:53:40.179206+00:00",
+        "classified_at": "2026-10-31T21:45:32.125665+00:00",
         "case_id": null,
         "discovery_families": [],
         "discovery_tags": [],
@@ -5255,7 +5546,7 @@
         "analysis_engine_version": "contextual-v1.1",
         "location_engine_version": "location-v2-title-snippet-source",
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-10-31T17:57:15.951811+00:00"
+        "case_processed_at": "2026-10-31T21:49:07.994017+00:00"
       },
       {
         "id": "6f5110e65892ffc6bd08f7383e02b411314933ee",
@@ -5275,7 +5566,7 @@
         "summary": "Polisi Amankan Pelaku Penembakan Dekat Kampung Ambon Peradaban.id",
         "processing_status": "processed",
         "classifier_version": "contextual-v1.1",
-        "classified_at": "2026-10-31T17:53:40.224074+00:00",
+        "classified_at": "2026-10-31T21:45:32.169867+00:00",
         "case_id": "CASE-003887",
         "discovery_families": [],
         "discovery_tags": [],
@@ -5353,11 +5644,107 @@
         "analysis_engine_version": "contextual-v1.1",
         "location_engine_version": "location-v2-title-snippet-source",
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-10-31T17:57:50.370574+00:00"
+        "case_processed_at": "2026-10-31T21:49:41.866758+00:00"
       }
     ],
     "jatim_items": [
       {
+        "id": "929f4b1a42af45ba01e037169d0d475cebecfba5",
+        "title": "Kapolres Pasuruan Gelar Subuh Keliling di Masjid Abdul Rahman Bangil, Perkuat Sinergi Polisi Bersama Masyarakat - LintasJatimNews.com",
+        "url": "https://lintasjatimnews.com/2026/11/01/kapolres-pasuruan-gelar-subuh-keliling-di-masjid-abdul-rahman-bangil-perkuat-sinergi-polisi-bersama-masyarakat/",
+        "source": "LintasJatimNews.com",
+        "published_at": "2026-10-31T19:42:13+00:00",
+        "collected_at": "2026-10-31T21:39:02.570624+00:00",
+        "region": "Jawa Timur",
+        "area_label": "Pasuruan",
+        "is_jatim": true,
+        "polres": null,
+        "category": "NETRAL / LAINNYA",
+        "scope": "neutral",
+        "scope_label": "Netral",
+        "priority": "low",
+        "summary": "Kapolres Pasuruan Gelar Subuh Keliling di Masjid Abdul Rahman Bangil, Perkuat Sinergi Polisi Bersama Masyarakat LintasJatimNews.com",
+        "processing_status": "processed",
+        "classifier_version": "contextual-v1.1",
+        "classified_at": "2026-10-31T21:45:29.616013+00:00",
+        "case_id": null,
+        "discovery_families": [],
+        "discovery_tags": [],
+        "discovery_hits": [],
+        "discovery_version": "discovery-v6",
+        "google_news_url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxOVmZsN0JOTmcxNlZCMXJCT1lTN05vMkExUjJ3SzJ1ckYzZU0tcTRiZ1daTUVoaUI4ZUdKdEQ3VGlXZFRsbkR1Y1FLa1dNblZZSk5Lb1o5YkxCZ2kwMDRhd3hkUkNPbXZlN3dvdVdaTURFUk9HY1JPdS1JRk13MWExTE9UeE1DWWJGb2ZibmJwNlc0WkMyN3o5RmVXUFFqbVpyY0pxcTBJeDBUZk5xdDRJNTRFVFRqYjNGQ0FObmN3Y0o1OGI4Sm5fSG9OdzlCVl9wTlhsTF9lVWNIV25iMi1nb3Y0ZkE?oc=5",
+        "original_url": "https://lintasjatimnews.com/2026/11/01/kapolres-pasuruan-gelar-subuh-keliling-di-masjid-abdul-rahman-bangil-perkuat-sinergi-polisi-bersama-masyarakat/",
+        "canonical_url": "https://lintasjatimnews.com/2026/11/01/kapolres-pasuruan-gelar-subuh-keliling-di-masjid-abdul-rahman-bangil-perkuat-sinergi-polisi-bersama-masyarakat",
+        "duplicate_article": false,
+        "locality": "Pasuruan",
+        "polsek": null,
+        "location_confidence": 95,
+        "location_evidence": [
+          "Pasuruan"
+        ],
+        "location_status": "JAWA_TIMUR",
+        "location_source": "title_description",
+        "sentiment": "neutral",
+        "sentiment_label": "Netral",
+        "issue_type": "UMUM",
+        "issue_subtype": "Belum Teridentifikasi",
+        "issue_evidence": [],
+        "polri_relation": "INFORMASI_UMUM",
+        "polri_relation_evidence": [
+          "Hubungan Polri belum spesifik"
+        ],
+        "handling_status": "BELUM_ADA_INFORMASI",
+        "handling_evidence": [],
+        "assertion_status": "FACTUAL",
+        "assertion_confidence": 75,
+        "assertion_evidence": [],
+        "attention_score": 19,
+        "attention_label": "Rendah",
+        "attention_components": {
+          "severity": 2,
+          "polri_relation": 0,
+          "authority": 4,
+          "public_impact": 12,
+          "handling": 0,
+          "evidence": 1,
+          "context_risk": 0,
+          "routine_enforcement_cap": null
+        },
+        "attention_evidence": {
+          "severity": [],
+          "authority": [
+            "kapolres"
+          ],
+          "public_impact": [
+            "dampak kepada masyarakat"
+          ],
+          "evidence": [
+            "satu sumber / informasi awal"
+          ],
+          "role": [],
+          "issue": [],
+          "handling": [],
+          "context": [],
+          "positive": []
+        },
+        "attention_reasons": [
+          "sifat berita: netral",
+          "Hubungan Polri belum spesifik"
+        ],
+        "contextual_flags": {
+          "explicit_polri_subject": false,
+          "explicit_polri_enforcer": false,
+          "polri_victim": false,
+          "service_negative": false,
+          "misconduct_signal": false,
+          "direct_positive_enforcement": false
+        },
+        "analysis_engine_version": "contextual-v1.1",
+        "location_engine_version": "location-v2-title-snippet-source",
+        "case_engine_version": "case-v6.5.4",
+        "case_processed_at": "2026-10-31T21:49:07.740366+00:00"
+      },
+      {
         "id": "d105dd83e3dcee911f23bf4b6a79c777e0135b9f",
         "title": "Sterilisasi Stadion Surajaya Ungkap Dugaan Konsumsi Miras, Polres Lamongan Siapkan Blacklist - realita.co",
         "url": "https://realita.co/baca-52018-sterilisasi-stadion-surajaya-ungkap-dugaan-konsumsi-miras-polres-lamongan-siapkan-blacklist",
@@ -5375,7 +5762,7 @@
         "summary": "Sterilisasi Stadion Surajaya Ungkap Dugaan Konsumsi Miras, Polres Lamongan Siapkan Blacklist realita.co",
         "processing_status": "processed",
         "classifier_version": "contextual-v1.1",
-        "classified_at": "2026-10-31T17:53:38.079639+00:00",
+        "classified_at": "2026-10-31T21:45:30.038420+00:00",
         "case_id": "CASE-002881",
         "discovery_families": [
           "illegal_activity_backing"
@@ -5462,7 +5849,7 @@
         "analysis_engine_version": "contextual-v1.1",
         "location_engine_version": "location-v2-title-snippet-source",
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-10-31T17:57:50.370525+00:00"
+        "case_processed_at": "2026-10-31T21:49:41.866708+00:00"
       },
       {
         "id": "5090460bdbeb7623c13b23974fc8e5c3088e4f08",
@@ -5482,7 +5869,7 @@
         "summary": "Polres Kediri Tilang 19 Kendaraan dalam Operasi Patuh Semeru 2026 bsinews.id",
         "processing_status": "processed",
         "classifier_version": "contextual-v1.1",
-        "classified_at": "2026-10-31T17:53:38.172187+00:00",
+        "classified_at": "2026-10-31T21:45:30.130062+00:00",
         "case_id": null,
         "discovery_families": [],
         "discovery_tags": [],
@@ -5555,7 +5942,7 @@
         "analysis_engine_version": "contextual-v1.1",
         "location_engine_version": "location-v2-title-snippet-source",
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-10-31T17:57:15.727735+00:00"
+        "case_processed_at": "2026-10-31T21:49:07.771562+00:00"
       },
       {
         "id": "1205ef44ae26952e6f0414a566147dde548af7e0",
@@ -5575,7 +5962,7 @@
         "summary": "Polisi Tilang Belasan Kendaraan Balap Liar dan Knalpot Brong di Kediri detikcom",
         "processing_status": "processed",
         "classifier_version": "contextual-v1.1",
-        "classified_at": "2026-10-31T17:53:38.218756+00:00",
+        "classified_at": "2026-10-31T21:45:30.176791+00:00",
         "case_id": null,
         "discovery_families": [],
         "discovery_tags": [],
@@ -5647,7 +6034,7 @@
         "analysis_engine_version": "contextual-v1.1",
         "location_engine_version": "location-v2-title-snippet-source",
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-10-31T17:57:15.735738+00:00"
+        "case_processed_at": "2026-10-31T21:49:07.779531+00:00"
       },
       {
         "id": "3986cb25fbd516037797cfd1e6477ea5746dcec2",
@@ -5667,7 +6054,7 @@
         "summary": "Polres Lamongan Amankan 14 Orang Konsumsi Miras di Stadion Radar Bangsa",
         "processing_status": "processed",
         "classifier_version": "contextual-v1.1",
-        "classified_at": "2026-10-31T17:53:38.265480+00:00",
+        "classified_at": "2026-10-31T21:45:30.221748+00:00",
         "case_id": "CASE-002881",
         "discovery_families": [
           "illegal_activity_backing"
@@ -5754,7 +6141,7 @@
         "analysis_engine_version": "contextual-v1.1",
         "location_engine_version": "location-v2-title-snippet-source",
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-10-31T17:57:50.370530+00:00"
+        "case_processed_at": "2026-10-31T21:49:41.866714+00:00"
       },
       {
         "id": "a2cecdfc617b056698e964fbe3f1c90f7f1bb051",
@@ -5774,7 +6161,7 @@
         "summary": "14 Suporter Kedapatan Minum Miras di Stadion Surajaya, Polres Lamongan Larang Masuk iNews.ID",
         "processing_status": "processed",
         "classifier_version": "contextual-v1.1",
-        "classified_at": "2026-10-31T17:53:38.357643+00:00",
+        "classified_at": "2026-10-31T21:45:30.314950+00:00",
         "case_id": null,
         "discovery_families": [
           "illegal_activity_backing"
@@ -5858,7 +6245,7 @@
         "analysis_engine_version": "contextual-v1.1",
         "location_engine_version": "location-v2-title-snippet-source",
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-10-31T17:57:15.756335+00:00"
+        "case_processed_at": "2026-10-31T21:49:07.799857+00:00"
       },
       {
         "id": "060030e58a6a0d70d5447a1800ead3bb1d344043",
@@ -5878,7 +6265,7 @@
         "summary": "Cegah Penyalahgunaan BBM, Polres Sampang Intensifkan Patroli SPBU RRI.co.id",
         "processing_status": "processed",
         "classifier_version": "contextual-v1.1",
-        "classified_at": "2026-10-31T17:53:38.401570+00:00",
+        "classified_at": "2026-10-31T21:45:30.358502+00:00",
         "case_id": null,
         "discovery_families": [],
         "discovery_tags": [],
@@ -5951,7 +6338,7 @@
         "analysis_engine_version": "contextual-v1.1",
         "location_engine_version": "location-v2-title-snippet-source",
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-10-31T17:57:15.763401+00:00"
+        "case_processed_at": "2026-10-31T21:49:07.806783+00:00"
       },
       {
         "id": "ecaa2dfe4fb7cbed737a19785261ba8957aaf53c",
@@ -5971,7 +6358,7 @@
         "summary": "Polres Sampang Cegah Bullying dan Tawuran Lewat Jogo Sekolah RRI.co.id",
         "processing_status": "processed",
         "classifier_version": "contextual-v1.1",
-        "classified_at": "2026-10-31T17:53:38.444703+00:00",
+        "classified_at": "2026-10-31T21:45:30.402296+00:00",
         "case_id": null,
         "discovery_families": [
           "security_public_order"
@@ -6056,7 +6443,7 @@
         "analysis_engine_version": "contextual-v1.1",
         "location_engine_version": "location-v2-title-snippet-source",
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-10-31T17:57:15.770288+00:00"
+        "case_processed_at": "2026-10-31T21:49:07.813699+00:00"
       },
       {
         "id": "4581ae002cf5395d031337c3eafb66aa17231b5c",
@@ -6076,7 +6463,7 @@
         "summary": "Cegah Penimbunan BBM Subsidi, Polres Sampang Ajak Masyarakat Aktif Melapor RRI.co.id",
         "processing_status": "processed",
         "classifier_version": "contextual-v1.1",
-        "classified_at": "2026-10-31T17:53:38.488613+00:00",
+        "classified_at": "2026-10-31T21:45:30.446602+00:00",
         "case_id": null,
         "discovery_families": [
           "illegal_activity_backing"
@@ -6162,7 +6549,7 @@
         "analysis_engine_version": "contextual-v1.1",
         "location_engine_version": "location-v2-title-snippet-source",
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-10-31T17:57:15.777236+00:00"
+        "case_processed_at": "2026-10-31T21:49:07.820648+00:00"
       },
       {
         "id": "1f29691d5e44408400e37f6178b2b3349745035a",
@@ -6182,7 +6569,7 @@
         "summary": "Polres Sampang: Penimbunan BBM Subsidi Pasti Disanksi Hukum! RRI.co.id",
         "processing_status": "processed",
         "classifier_version": "contextual-v1.1",
-        "classified_at": "2026-10-31T17:53:38.532013+00:00",
+        "classified_at": "2026-10-31T21:45:30.489881+00:00",
         "case_id": null,
         "discovery_families": [
           "illegal_activity_backing"
@@ -6266,7 +6653,7 @@
         "analysis_engine_version": "contextual-v1.1",
         "location_engine_version": "location-v2-title-snippet-source",
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-10-31T17:57:15.784151+00:00"
+        "case_processed_at": "2026-10-31T21:49:07.827543+00:00"
       },
       {
         "id": "cddf0b2c35bfda7cf045282d9745135db8a5f317",
@@ -6286,7 +6673,7 @@
         "summary": "Green Policing, Polsek Sampang Ajak Pedagang Jaga Kebersihan Pasar RRI.co.id",
         "processing_status": "processed",
         "classifier_version": "contextual-v1.1",
-        "classified_at": "2026-10-31T17:53:38.577410+00:00",
+        "classified_at": "2026-10-31T21:45:30.536050+00:00",
         "case_id": null,
         "discovery_families": [],
         "discovery_tags": [],
@@ -6359,7 +6746,7 @@
         "analysis_engine_version": "contextual-v1.1",
         "location_engine_version": "location-v2-title-snippet-source",
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-10-31T17:57:15.792271+00:00"
+        "case_processed_at": "2026-10-31T21:49:07.835597+00:00"
       },
       {
         "id": "be256ed1e03e359d5dce19c723dd1491822d70de",
@@ -6379,7 +6766,7 @@
         "summary": "Polres Sampang Ajak Warga Tangkal Hoaks Demi Jaga Ketertiban Umum RRI.co.id",
         "processing_status": "processed",
         "classifier_version": "contextual-v1.1",
-        "classified_at": "2026-10-31T17:53:38.620567+00:00",
+        "classified_at": "2026-10-31T21:45:30.580053+00:00",
         "case_id": null,
         "discovery_families": [],
         "discovery_tags": [],
@@ -6454,7 +6841,7 @@
         "analysis_engine_version": "contextual-v1.1",
         "location_engine_version": "location-v2-title-snippet-source",
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-10-31T17:57:15.799232+00:00"
+        "case_processed_at": "2026-10-31T21:49:07.842503+00:00"
       },
       {
         "id": "dee1a3bc84f846cb529365da7538304cf0536147",
@@ -6474,7 +6861,7 @@
         "summary": "Polisi Olah TKP dan Amankan Motor Konvoi Ugal-ugalan Diduga Melindas Korban hingga Tewas Kabar Banyuwangi",
         "processing_status": "processed",
         "classifier_version": "contextual-v1.1",
-        "classified_at": "2026-10-31T17:53:38.666837+00:00",
+        "classified_at": "2026-10-31T21:45:30.626657+00:00",
         "case_id": "CASE-003876",
         "discovery_families": [],
         "discovery_tags": [],
@@ -6560,7 +6947,7 @@
         "analysis_engine_version": "contextual-v1.1",
         "location_engine_version": "location-v2-title-snippet-source",
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-10-31T17:57:50.370535+00:00"
+        "case_processed_at": "2026-10-31T21:49:41.866719+00:00"
       },
       {
         "id": "7195f472f63195ca5a88430cbfb0659f8fbd95dc",
@@ -6580,7 +6967,7 @@
         "summary": "Polsek Torjun Siaga Pagi, Amankan Lalu Lintas dan Cegah Kriminalitas di Sampang RRI.co.id",
         "processing_status": "processed",
         "classifier_version": "contextual-v1.1",
-        "classified_at": "2026-10-31T17:53:38.713546+00:00",
+        "classified_at": "2026-10-31T21:45:30.672955+00:00",
         "case_id": "CASE-003877",
         "discovery_families": [],
         "discovery_tags": [],
@@ -6653,7 +7040,7 @@
         "analysis_engine_version": "contextual-v1.1",
         "location_engine_version": "location-v2-title-snippet-source",
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-10-31T17:57:50.370537+00:00"
+        "case_processed_at": "2026-10-31T21:49:41.866721+00:00"
       },
       {
         "id": "3b7d02c742150119c027567690032c3a182d4dc3",
@@ -6673,7 +7060,7 @@
         "summary": "Patroli SAE Polres Pasuruan Kota, Wujud Nyata Komitmen Polri Melindungi, Mengayomi, Dan Melayani Masyarakat polrespasuruankota.com",
         "processing_status": "processed",
         "classifier_version": "contextual-v1.1",
-        "classified_at": "2026-10-31T17:53:38.759592+00:00",
+        "classified_at": "2026-10-31T21:45:30.718869+00:00",
         "case_id": null,
         "discovery_families": [],
         "discovery_tags": [],
@@ -6748,7 +7135,7 @@
         "analysis_engine_version": "contextual-v1.1",
         "location_engine_version": "location-v2-title-snippet-source",
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-10-31T17:57:15.806269+00:00"
+        "case_processed_at": "2026-10-31T21:49:07.849520+00:00"
       },
       {
         "id": "2596e621b5e6d5a49a28f38698e7c2fb5cff9323",
@@ -6768,7 +7155,7 @@
         "summary": "Polres Gresik Amankan 47 Botol Miras di Kebomas Jatimnet.com",
         "processing_status": "processed",
         "classifier_version": "contextual-v1.1",
-        "classified_at": "2026-10-31T17:53:38.894214+00:00",
+        "classified_at": "2026-10-31T21:45:30.853415+00:00",
         "case_id": "CASE-003812",
         "discovery_families": [
           "illegal_activity_backing"
@@ -6855,7 +7242,7 @@
         "analysis_engine_version": "contextual-v1.1",
         "location_engine_version": "location-v2-title-snippet-source",
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-10-31T17:57:50.370545+00:00"
+        "case_processed_at": "2026-10-31T21:49:41.866729+00:00"
       },
       {
         "id": "8f5b8bfb068b2ed3734d7a07bd5f9707f3fefe25",
@@ -6875,7 +7262,7 @@
         "summary": "Gerak Cepat Polres Lumajang Bantu Bersihkan Permukiman Terdampak Longsor di Pronojiwo Klikwarta.com",
         "processing_status": "processed",
         "classifier_version": "contextual-v1.1",
-        "classified_at": "2026-10-31T17:53:38.939099+00:00",
+        "classified_at": "2026-10-31T21:45:30.897890+00:00",
         "case_id": null,
         "discovery_families": [],
         "discovery_tags": [],
@@ -6948,7 +7335,7 @@
         "analysis_engine_version": "contextual-v1.1",
         "location_engine_version": "location-v2-title-snippet-source",
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-10-31T17:57:15.813308+00:00"
+        "case_processed_at": "2026-10-31T21:49:07.856493+00:00"
       },
       {
         "id": "c1da7083cf4b950e81144dcc04ad02334e04b7c4",
@@ -6968,7 +7355,7 @@
         "summary": "Polres Pasuruan Amankan 4 Tersangka Pengemasan Ulang Beras Subsidi Jadi Nonsubsidi Klikwarta.com",
         "processing_status": "processed",
         "classifier_version": "contextual-v1.1",
-        "classified_at": "2026-10-31T17:53:39.028152+00:00",
+        "classified_at": "2026-10-31T21:45:30.987428+00:00",
         "case_id": "CASE-003880",
         "discovery_families": [],
         "discovery_tags": [],
@@ -7047,7 +7434,7 @@
         "analysis_engine_version": "contextual-v1.1",
         "location_engine_version": "location-v2-title-snippet-source",
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-10-31T17:57:50.370547+00:00"
+        "case_processed_at": "2026-10-31T21:49:41.866731+00:00"
       },
       {
         "id": "29c1caa91448b56293e03c1674473e41548e9169",
@@ -7067,7 +7454,7 @@
         "summary": "Gerak Cepat Polres Lumajang Bantu Bersihkan Permukiman Terdampak Longsor di Pronojiwo Tribratanews Polres Ponorogo",
         "processing_status": "processed",
         "classifier_version": "contextual-v1.1",
-        "classified_at": "2026-10-31T17:53:39.264758+00:00",
+        "classified_at": "2026-10-31T21:45:31.214835+00:00",
         "case_id": null,
         "discovery_families": [],
         "discovery_tags": [],
@@ -7140,7 +7527,7 @@
         "analysis_engine_version": "contextual-v1.1",
         "location_engine_version": "location-v2-title-snippet-source",
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-10-31T17:57:15.836602+00:00"
+        "case_processed_at": "2026-10-31T21:49:07.879542+00:00"
       },
       {
         "id": "67c674826ee4bb69331c6fe69150f323c935210b",
@@ -7160,7 +7547,7 @@
         "summary": "Polres Malang ajak ojol jadi pelopor keselamatan lalu lintas Antara News jatim",
         "processing_status": "processed",
         "classifier_version": "contextual-v1.1",
-        "classified_at": "2026-10-31T17:53:39.358416+00:00",
+        "classified_at": "2026-10-31T21:45:31.304956+00:00",
         "case_id": null,
         "discovery_families": [],
         "discovery_tags": [],
@@ -7234,7 +7621,7 @@
         "analysis_engine_version": "contextual-v1.1",
         "location_engine_version": "location-v2-title-snippet-source",
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-10-31T17:57:15.851940+00:00"
+        "case_processed_at": "2026-10-31T21:49:07.894664+00:00"
       },
       {
         "id": "501aad599e15f36d16ad48e1fb02bca21ed5e0e6",
@@ -7254,7 +7641,7 @@
         "summary": "Usai Kawal Aksi Demo, Polres Jember dan Mahasiswa Bersihkan Sampah Bersama File Satu",
         "processing_status": "processed",
         "classifier_version": "contextual-v1.1",
-        "classified_at": "2026-10-31T17:53:39.402537+00:00",
+        "classified_at": "2026-10-31T21:45:31.349258+00:00",
         "case_id": null,
         "discovery_families": [
           "security_public_order"
@@ -7334,7 +7721,7 @@
         "analysis_engine_version": "contextual-v1.1",
         "location_engine_version": "location-v2-title-snippet-source",
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-10-31T17:57:15.859084+00:00"
+        "case_processed_at": "2026-10-31T21:49:07.901592+00:00"
       },
       {
         "id": "bdc58743d147af0d45a06dc4fcb28954b05e883b",
@@ -7354,7 +7741,7 @@
         "summary": "Di Hari Jadi ke-757 Sumenep, Polresta Terima Penghargaan Keterbukaan Informasi Publik Media Pribumi",
         "processing_status": "processed",
         "classifier_version": "contextual-v1.1",
-        "classified_at": "2026-10-31T17:53:39.449495+00:00",
+        "classified_at": "2026-10-31T21:45:31.396002+00:00",
         "case_id": null,
         "discovery_families": [],
         "discovery_tags": [],
@@ -7426,7 +7813,7 @@
         "analysis_engine_version": "contextual-v1.1",
         "location_engine_version": "location-v2-title-snippet-source",
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-10-31T17:57:15.867368+00:00"
+        "case_processed_at": "2026-10-31T21:49:07.909701+00:00"
       },
       {
         "id": "77121e45314c3278c751254cb66a52ce30016b5a",
@@ -7446,7 +7833,7 @@
         "summary": "Peduli Pendidikan Satlinmas Polres Pasuruan Berikan Pembinaan Kepada, 58 Dewan Guru MTsN 1 Pasuruan Radar Indonesia Online",
         "processing_status": "processed",
         "classifier_version": "contextual-v1.1",
-        "classified_at": "2026-10-31T17:53:39.495908+00:00",
+        "classified_at": "2026-10-31T21:45:31.442224+00:00",
         "case_id": null,
         "discovery_families": [],
         "discovery_tags": [],
@@ -7519,7 +7906,7 @@
         "analysis_engine_version": "contextual-v1.1",
         "location_engine_version": "location-v2-title-snippet-source",
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-10-31T17:57:15.874513+00:00"
+        "case_processed_at": "2026-10-31T21:49:07.916731+00:00"
       },
       {
         "id": "29258f271aaa018ecb1918af728ef85e93038b57",
@@ -7539,7 +7926,7 @@
         "summary": "Satlantas Polres Blitar, Sosialisasikan Sasaran Operasi Patuh Semeru 2026 infobanua.co.id",
         "processing_status": "processed",
         "classifier_version": "contextual-v1.1",
-        "classified_at": "2026-10-31T17:53:39.539665+00:00",
+        "classified_at": "2026-10-31T21:45:31.486322+00:00",
         "case_id": null,
         "discovery_families": [],
         "discovery_tags": [],
@@ -7614,7 +8001,7 @@
         "analysis_engine_version": "contextual-v1.1",
         "location_engine_version": "location-v2-title-snippet-source",
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-10-31T17:57:15.881520+00:00"
+        "case_processed_at": "2026-10-31T21:49:07.923681+00:00"
       },
       {
         "id": "4f8090c388f6cd0693950188792f37488dc48551",
@@ -7634,7 +8021,7 @@
         "summary": "Cegah Bullying dan Tawuran, Polres Mojokerto Sambangi SMKN 1 Pungging beritajatim.com",
         "processing_status": "processed",
         "classifier_version": "contextual-v1.1",
-        "classified_at": "2026-10-31T17:53:39.631096+00:00",
+        "classified_at": "2026-10-31T21:45:31.577743+00:00",
         "case_id": null,
         "discovery_families": [
           "security_public_order"
@@ -7719,7 +8106,7 @@
         "analysis_engine_version": "contextual-v1.1",
         "location_engine_version": "location-v2-title-snippet-source",
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-10-31T17:57:15.896531+00:00"
+        "case_processed_at": "2026-10-31T21:49:07.938727+00:00"
       },
       {
         "id": "1a7fb7413afefa14ebbff62f88c92dfb8f34aa9e",
@@ -7739,7 +8126,7 @@
         "summary": "Polresta Tuban Amankan Pemuda Residivis dalam Kasus Curanmor RRI.co.id",
         "processing_status": "processed",
         "classifier_version": "contextual-v1.1",
-        "classified_at": "2026-10-31T17:53:39.674023+00:00",
+        "classified_at": "2026-10-31T21:45:31.620867+00:00",
         "case_id": "CASE-003850",
         "discovery_families": [],
         "discovery_tags": [],
@@ -7814,7 +8201,7 @@
         "analysis_engine_version": "contextual-v1.1",
         "location_engine_version": "location-v2-title-snippet-source",
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-10-31T17:57:50.370560+00:00"
+        "case_processed_at": "2026-10-31T21:49:41.866745+00:00"
       },
       {
         "id": "9da1e7a09c0b7d396147339ead1b83e8def37d26",
@@ -7834,7 +8221,7 @@
         "summary": "Kawal Pembangunan Jembatan Kedungcangkring, Tipidkor Polres Tulungagung Lakukan Klarifikasi dan Pengecekan Lapangan Tribratanews Polres Tulungagung",
         "processing_status": "processed",
         "classifier_version": "contextual-v1.1",
-        "classified_at": "2026-10-31T17:53:39.813567+00:00",
+        "classified_at": "2026-10-31T21:45:31.760304+00:00",
         "case_id": null,
         "discovery_families": [],
         "discovery_tags": [],
@@ -7908,7 +8295,7 @@
         "analysis_engine_version": "contextual-v1.1",
         "location_engine_version": "location-v2-title-snippet-source",
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-10-31T17:57:15.911609+00:00"
+        "case_processed_at": "2026-10-31T21:49:07.953984+00:00"
       },
       {
         "id": "284c94ce69ac5b1e81805b832a20e83e3726eda3",
@@ -7928,7 +8315,7 @@
         "summary": "Operasi Patuh, Satlantas Polres Kediri Tindak 19 Motor di SLG metrotv9news",
         "processing_status": "processed",
         "classifier_version": "contextual-v1.1",
-        "classified_at": "2026-10-31T17:53:39.949904+00:00",
+        "classified_at": "2026-10-31T21:45:31.896658+00:00",
         "case_id": "CASE-003854",
         "discovery_families": [],
         "discovery_tags": [],
@@ -8005,7 +8392,7 @@
         "analysis_engine_version": "contextual-v1.1",
         "location_engine_version": "location-v2-title-snippet-source",
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-10-31T17:57:50.370565+00:00"
+        "case_processed_at": "2026-10-31T21:49:41.866750+00:00"
       },
       {
         "id": "c15392fb11d26f377a02bca6be4649ec4aaa1040",
@@ -8025,7 +8412,7 @@
         "summary": "Reda Lewat Audiensi, Polres Probolinggo Tetap Usut Rokok Ilegal dan Aksi Blokade Pantura Harian Bhirawa",
         "processing_status": "processed",
         "classifier_version": "contextual-v1.1",
-        "classified_at": "2026-10-31T17:53:39.994949+00:00",
+        "classified_at": "2026-10-31T21:45:31.941650+00:00",
         "case_id": null,
         "discovery_families": [
           "illegal_activity_backing"
@@ -8111,7 +8498,7 @@
         "analysis_engine_version": "contextual-v1.1",
         "location_engine_version": "location-v2-title-snippet-source",
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-10-31T17:57:15.934930+00:00"
+        "case_processed_at": "2026-10-31T21:49:07.977055+00:00"
       },
       {
         "id": "45c83598bd8c940fb71b2e01a72adf1312a3cc11",
@@ -8131,7 +8518,7 @@
         "summary": "Dialog Pemberantasan Tambang Ilegal di Pamekasan Melahirkan 6 Rekomendasi jurnalpolisi.co.id",
         "processing_status": "processed",
         "classifier_version": "contextual-v1.1",
-        "classified_at": "2026-10-31T17:53:40.087817+00:00",
+        "classified_at": "2026-10-31T21:45:32.034525+00:00",
         "case_id": null,
         "discovery_families": [
           "illegal_activity_backing"
@@ -8216,10 +8603,202 @@
         "analysis_engine_version": "contextual-v1.1",
         "location_engine_version": "location-v2-title-snippet-source",
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-10-31T17:57:15.943689+00:00"
+        "case_processed_at": "2026-10-31T21:49:07.985883+00:00"
       }
     ],
     "luar_jatim_items": [
+      {
+        "id": "4e44710eb4fda39f78b494b810c0b9ba378ae64d",
+        "title": "Polisi Tangkap Pelaku Pembacokan dan Penembakan di Kampung Ambon - JPNN.com",
+        "url": "https://www.jpnn.com/news/polisi-tangkap-pelaku-pembacokan-dan-penembakan-di-kampung-ambon",
+        "source": "JPNN.com",
+        "published_at": "2026-10-31T18:09:00+00:00",
+        "collected_at": "2026-10-31T21:39:02.570624+00:00",
+        "region": "BELUM TERPETAKAN",
+        "area_label": "BELUM TERPETAKAN",
+        "is_jatim": null,
+        "polres": null,
+        "category": "UNGKAP KASUS / PENINDAKAN",
+        "scope": "case",
+        "scope_label": "Ungkap Kasus",
+        "priority": "low",
+        "summary": "Polisi Tangkap Pelaku Pembacokan dan Penembakan di Kampung Ambon JPNN.com",
+        "processing_status": "processed",
+        "classifier_version": "contextual-v1.1",
+        "classified_at": "2026-10-31T21:45:29.661966+00:00",
+        "case_id": "CASE-003888",
+        "discovery_families": [],
+        "discovery_tags": [],
+        "discovery_hits": [],
+        "discovery_version": "discovery-v6",
+        "google_news_url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPb2swb0lIWGNHUVNBZFo2d2R0MnNENTJXVXNWSGl0YmhBMjN0dkVsZ3dHLXN5UlJFclRETDVjZU5BeFJIbGlDY1hLTS04a0NuMGhVOHRHMXNrM2RrQ1hDMW1rNDRSQzg4djE1dUpRMjVld2hUczdSazdSVEZtVnBBMGh5Sy1MNWlxN3VaMnFTRWh4Uld30gGXAUFVX3lxTE03bWQ1YVk5N3FpelgwLUk0UXdXSW1fUWRhRmZnUWtJcjY2Qm9nejdvUWxfSkdwclFhRnVYRmhBbWZVNmkxa2VnU19kWWZta0tFWDFZbkhZUzhpSk1NSGMxbHU2eDN2dnVJUTYwbmNmbkFiTWplTjAyZFJ5cDI5TVJkQ1BOYnYwOUVXWmd4X1E0b2NNem92emM?oc=5",
+        "original_url": "https://www.jpnn.com/news/polisi-tangkap-pelaku-pembacokan-dan-penembakan-di-kampung-ambon",
+        "canonical_url": "https://jpnn.com/news/polisi-tangkap-pelaku-pembacokan-dan-penembakan-di-kampung-ambon",
+        "duplicate_article": false,
+        "locality": "",
+        "polsek": null,
+        "location_confidence": 0,
+        "location_evidence": [],
+        "location_status": "BELUM_TERPETAKAN",
+        "location_source": "title_description",
+        "sentiment": "positive",
+        "sentiment_label": "Positif",
+        "issue_type": "KEKERASAN_DAN_KEKUATAN",
+        "issue_subtype": "Kekerasan / Penggunaan Kekuatan",
+        "issue_evidence": [
+          "penembakan"
+        ],
+        "polri_relation": "PENEGAKAN_HUKUM",
+        "polri_relation_evidence": [
+          "Polri berperan sebagai pihak penindak"
+        ],
+        "handling_status": "BELUM_ADA_INFORMASI",
+        "handling_evidence": [],
+        "assertion_status": "FACTUAL",
+        "assertion_confidence": 75,
+        "assertion_evidence": [],
+        "attention_score": 39,
+        "attention_label": "Rendah",
+        "attention_components": {
+          "severity": 28,
+          "polri_relation": 0,
+          "authority": 0,
+          "public_impact": 4,
+          "handling": 0,
+          "evidence": 1,
+          "context_risk": 0,
+          "routine_enforcement_cap": null
+        },
+        "attention_evidence": {
+          "severity": [
+            "kekerasan berat"
+          ],
+          "authority": [],
+          "public_impact": [],
+          "evidence": [
+            "satu sumber / informasi awal"
+          ],
+          "role": [],
+          "issue": [
+            "penembakan"
+          ],
+          "handling": [],
+          "context": [],
+          "positive": []
+        },
+        "attention_reasons": [
+          "Polri berperan sebagai pihak penindak",
+          "tidak ditemukan indikator utama misconduct oleh personel"
+        ],
+        "contextual_flags": {
+          "explicit_polri_subject": false,
+          "explicit_polri_enforcer": true,
+          "polri_victim": false,
+          "service_negative": false,
+          "misconduct_signal": true,
+          "direct_positive_enforcement": false
+        },
+        "analysis_engine_version": "contextual-v1.1",
+        "location_engine_version": "location-v2-title-snippet-source",
+        "case_engine_version": "case-v6.5.4",
+        "case_processed_at": "2026-10-31T21:49:41.866691+00:00"
+      },
+      {
+        "id": "c098b91baeca2f363eb8ccfdd7a00e683a13a02e",
+        "title": "Polisi Tangkap Pelaku Pembacokan dan Penembakan di Kampung Ambon - JPNN.com",
+        "url": "https://m.jpnn.com/news/polisi-tangkap-pelaku-pembacokan-dan-penembakan-di-kampung-ambon",
+        "source": "JPNN.com",
+        "published_at": "2026-10-31T18:09:00+00:00",
+        "collected_at": "2026-10-31T21:39:02.570624+00:00",
+        "region": "BELUM TERPETAKAN",
+        "area_label": "BELUM TERPETAKAN",
+        "is_jatim": null,
+        "polres": null,
+        "category": "UNGKAP KASUS / PENINDAKAN",
+        "scope": "case",
+        "scope_label": "Ungkap Kasus",
+        "priority": "low",
+        "summary": "Polisi Tangkap Pelaku Pembacokan dan Penembakan di Kampung Ambon JPNN.com",
+        "processing_status": "processed",
+        "classifier_version": "contextual-v1.1",
+        "classified_at": "2026-10-31T21:45:29.707919+00:00",
+        "case_id": "CASE-003889",
+        "discovery_families": [],
+        "discovery_tags": [],
+        "discovery_hits": [],
+        "discovery_version": "discovery-v6",
+        "google_news_url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPUVAzSlVFMEs4QjBoV09lZkpHQkdneWgwT0V5eGF5UHFYamwzQlQ4VjFfSThMR1JBQm1kOFVDN1d2ZGpzNmx6RkdINTRELWxQczVvY1BVcUdBZVl1ekI2c21BU0JBa0VRalFscVFOcmQ1ZFJjUVo0eFV5LVZ6SUgzZUVVMkQwWUh6Ui0xZ003YldJZ9IBlwFBVV95cUxNN21kNWFZOTdxaXpYMC1JNFF3V0ltX1FkYUZmZ1FrSXI2NkJvZ3o3b1FsX0pHcHJRYUZ1WEZoQW1mVTZpMWtlZ1NfZFlmbWtLRVgxWW5IWVM4aUpNTUhjMWx1NngzdnZ1SVE2MG5jZm5BYk1qZU4wMmRSeXAyOU1SZENQTmJ2MDlFV1pneF9RNG9jTXpvdnpj?oc=5",
+        "original_url": "https://m.jpnn.com/news/polisi-tangkap-pelaku-pembacokan-dan-penembakan-di-kampung-ambon",
+        "canonical_url": "https://m.jpnn.com/news/polisi-tangkap-pelaku-pembacokan-dan-penembakan-di-kampung-ambon",
+        "duplicate_article": false,
+        "locality": "",
+        "polsek": null,
+        "location_confidence": 0,
+        "location_evidence": [],
+        "location_status": "BELUM_TERPETAKAN",
+        "location_source": "title_description",
+        "sentiment": "positive",
+        "sentiment_label": "Positif",
+        "issue_type": "KEKERASAN_DAN_KEKUATAN",
+        "issue_subtype": "Kekerasan / Penggunaan Kekuatan",
+        "issue_evidence": [
+          "penembakan"
+        ],
+        "polri_relation": "PENEGAKAN_HUKUM",
+        "polri_relation_evidence": [
+          "Polri berperan sebagai pihak penindak"
+        ],
+        "handling_status": "BELUM_ADA_INFORMASI",
+        "handling_evidence": [],
+        "assertion_status": "FACTUAL",
+        "assertion_confidence": 75,
+        "assertion_evidence": [],
+        "attention_score": 39,
+        "attention_label": "Rendah",
+        "attention_components": {
+          "severity": 28,
+          "polri_relation": 0,
+          "authority": 0,
+          "public_impact": 4,
+          "handling": 0,
+          "evidence": 1,
+          "context_risk": 0,
+          "routine_enforcement_cap": null
+        },
+        "attention_evidence": {
+          "severity": [
+            "kekerasan berat"
+          ],
+          "authority": [],
+          "public_impact": [],
+          "evidence": [
+            "satu sumber / informasi awal"
+          ],
+          "role": [],
+          "issue": [
+            "penembakan"
+          ],
+          "handling": [],
+          "context": [],
+          "positive": []
+        },
+        "attention_reasons": [
+          "Polri berperan sebagai pihak penindak",
+          "tidak ditemukan indikator utama misconduct oleh personel"
+        ],
+        "contextual_flags": {
+          "explicit_polri_subject": false,
+          "explicit_polri_enforcer": true,
+          "polri_victim": false,
+          "service_negative": false,
+          "misconduct_signal": true,
+          "direct_positive_enforcement": false
+        },
+        "analysis_engine_version": "contextual-v1.1",
+        "location_engine_version": "location-v2-title-snippet-source",
+        "case_engine_version": "case-v6.5.4",
+        "case_processed_at": "2026-10-31T21:49:41.866696+00:00"
+      },
       {
         "id": "858bea024d77df81aac5fc6481ff5ec0589a1720",
         "title": "Kanit beserta Anggota Sat Resnarkoba dimutasi pasca penangkapan 3 oknum DPRD dari Gerindra, IPW duga intervensi politik - lensaindonesia",
@@ -8238,7 +8817,7 @@
         "summary": "Kanit beserta Anggota Sat Resnarkoba dimutasi pasca penangkapan 3 oknum DPRD dari Gerindra, IPW duga intervensi politik lensaindonesia",
         "processing_status": "processed",
         "classifier_version": "contextual-v1.1",
-        "classified_at": "2026-10-31T17:53:37.799298+00:00",
+        "classified_at": "2026-10-31T21:45:29.757391+00:00",
         "case_id": null,
         "discovery_families": [
           "abuse_of_power"
@@ -8320,7 +8899,7 @@
         "analysis_engine_version": "contextual-v1.1",
         "location_engine_version": "location-v2-title-snippet-source",
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-10-31T17:57:15.704517+00:00"
+        "case_processed_at": "2026-10-31T21:49:07.748554+00:00"
       },
       {
         "id": "32d7a1a70d3d8c5b875f8f4227e3831307aec2b9",
@@ -8340,7 +8919,7 @@
         "summary": "Kasus Dugaan Kekerasan terhadap Anak di Aceh Barat, Polisi Mulai Periksa Saksi Serambinews.com",
         "processing_status": "processed",
         "classifier_version": "contextual-v1.1",
-        "classified_at": "2026-10-31T17:53:37.846603+00:00",
+        "classified_at": "2026-10-31T21:45:29.804872+00:00",
         "case_id": null,
         "discovery_families": [
           "ethics_personal_misconduct"
@@ -8423,7 +9002,7 @@
         "analysis_engine_version": "contextual-v1.1",
         "location_engine_version": "location-v2-title-snippet-source",
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-10-31T17:57:15.712766+00:00"
+        "case_processed_at": "2026-10-31T21:49:07.756649+00:00"
       },
       {
         "id": "7b553f9ae8b9a10662c6bd57811977e149bbf8f3",
@@ -8443,7 +9022,7 @@
         "summary": "Pelaku Penganiayaan Cengkareng Menyerahkan diri, 1 Orang Diburu Polisi MetroTVNews.com",
         "processing_status": "processed",
         "classifier_version": "contextual-v1.1",
-        "classified_at": "2026-10-31T17:53:37.893122+00:00",
+        "classified_at": "2026-10-31T21:45:29.851596+00:00",
         "case_id": null,
         "discovery_families": [],
         "discovery_tags": [],
@@ -8516,7 +9095,7 @@
         "analysis_engine_version": "contextual-v1.1",
         "location_engine_version": "location-v2-title-snippet-source",
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-10-31T17:57:15.720830+00:00"
+        "case_processed_at": "2026-10-31T21:49:07.764658+00:00"
       },
       {
         "id": "69a24448b902b79fccc26fb416262f5c6f109fae",
@@ -8536,7 +9115,7 @@
         "summary": "Polisi Tangkap Pelaku Penembakan di Kampung Ambon, Ini Motifnya Rmol.id",
         "processing_status": "processed",
         "classifier_version": "contextual-v1.1",
-        "classified_at": "2026-10-31T17:53:37.939568+00:00",
+        "classified_at": "2026-10-31T21:45:29.897888+00:00",
         "case_id": "CASE-003872",
         "discovery_families": [],
         "discovery_tags": [],
@@ -8612,7 +9191,7 @@
         "analysis_engine_version": "contextual-v1.1",
         "location_engine_version": "location-v2-title-snippet-source",
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-10-31T17:57:50.370514+00:00"
+        "case_processed_at": "2026-10-31T21:49:41.866701+00:00"
       },
       {
         "id": "d5c485cc6699404e3282dcb46506b43042520621",
@@ -8632,7 +9211,7 @@
         "summary": "Satu Pelaku Curas di Bekasi Ditangkap, Polisi Dalami Keterkaitan dengan 12 Kasus Lain Suarajabar.id",
         "processing_status": "processed",
         "classifier_version": "contextual-v1.1",
-        "classified_at": "2026-10-31T17:53:37.987063+00:00",
+        "classified_at": "2026-10-31T21:45:29.945721+00:00",
         "case_id": "CASE-003873",
         "discovery_families": [],
         "discovery_tags": [],
@@ -8702,7 +9281,7 @@
         "analysis_engine_version": "contextual-v1.1",
         "location_engine_version": "location-v2-title-snippet-source",
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-10-31T17:57:50.370520+00:00"
+        "case_processed_at": "2026-10-31T21:49:41.866703+00:00"
       },
       {
         "id": "dd74bf379c7dba6489054d227a8709eda6899363",
@@ -8722,7 +9301,7 @@
         "summary": "Polisi Ungkap Motif Penyerangan Pakai Senpi dan Sajam di Kampung Ambon, Dipicu Dendam Pribadi Poskota",
         "processing_status": "processed",
         "classifier_version": "contextual-v1.1",
-        "classified_at": "2026-10-31T17:53:38.034142+00:00",
+        "classified_at": "2026-10-31T21:45:29.993155+00:00",
         "case_id": "CASE-003874",
         "discovery_families": [],
         "discovery_tags": [],
@@ -8794,7 +9373,7 @@
         "analysis_engine_version": "contextual-v1.1",
         "location_engine_version": "location-v2-title-snippet-source",
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-10-31T17:57:50.370522+00:00"
+        "case_processed_at": "2026-10-31T21:49:41.866706+00:00"
       },
       {
         "id": "6d3677cb3459e2d6890c9da0f1095e0e4a5fdfc9",
@@ -8814,7 +9393,7 @@
         "summary": "Sembilan Pondok Diduga Jadi Sarang Narkoba di Serigeni Lama Dibongkar, Polisi Temukan Sabu Radar Bahtera",
         "processing_status": "processed",
         "classifier_version": "contextual-v1.1",
-        "classified_at": "2026-10-31T17:53:38.127045+00:00",
+        "classified_at": "2026-10-31T21:45:30.085344+00:00",
         "case_id": "CASE-003875",
         "discovery_families": [],
         "discovery_tags": [],
@@ -8897,7 +9476,7 @@
         "analysis_engine_version": "contextual-v1.1",
         "location_engine_version": "location-v2-title-snippet-source",
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-10-31T17:57:50.370527+00:00"
+        "case_processed_at": "2026-10-31T21:49:41.866711+00:00"
       },
       {
         "id": "2305aa88f2e7ea651e44cf4dbbf4cef3ab35fae3",
@@ -8917,7 +9496,7 @@
         "summary": "Betrand Peto Hadapi Penyidikan Dugaan Kekerasan Seksual Setelah Polisi Periksa Saksi dan Barang Bukti gadget.qoo10.co.id",
         "processing_status": "processed",
         "classifier_version": "contextual-v1.1",
-        "classified_at": "2026-10-31T17:53:38.312908+00:00",
+        "classified_at": "2026-10-31T21:45:30.269772+00:00",
         "case_id": null,
         "discovery_families": [
           "ethics_personal_misconduct"
@@ -9003,7 +9582,7 @@
         "analysis_engine_version": "contextual-v1.1",
         "location_engine_version": "location-v2-title-snippet-source",
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-10-31T17:57:15.749105+00:00"
+        "case_processed_at": "2026-10-31T21:49:07.792731+00:00"
       },
       {
         "id": "145fd5d0b4c605f3fac57cf4aff6049c23ef13cb",
@@ -9023,7 +9602,7 @@
         "summary": "Polisi Ungkap Kasus Curanmor di Sibolga, Pelaku Ditangkap Beserta Barang Bukti MohgaNews",
         "processing_status": "processed",
         "classifier_version": "contextual-v1.1",
-        "classified_at": "2026-10-31T17:53:38.805675+00:00",
+        "classified_at": "2026-10-31T21:45:30.764657+00:00",
         "case_id": "CASE-003878",
         "discovery_families": [],
         "discovery_tags": [],
@@ -9095,7 +9674,7 @@
         "analysis_engine_version": "contextual-v1.1",
         "location_engine_version": "location-v2-title-snippet-source",
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-10-31T17:57:50.370540+00:00"
+        "case_processed_at": "2026-10-31T21:49:41.866724+00:00"
       },
       {
         "id": "0f774a45b74bbb1971d8b01d2f4954b44d83f41c",
@@ -9115,7 +9694,7 @@
         "summary": "Polres Simalungun Ungkap Tiga Kasus Pencurian Selama Oktober SBNpro.com",
         "processing_status": "processed",
         "classifier_version": "contextual-v1.1",
-        "classified_at": "2026-10-31T17:53:38.851098+00:00",
+        "classified_at": "2026-10-31T21:45:30.809875+00:00",
         "case_id": "CASE-003879",
         "discovery_families": [],
         "discovery_tags": [],
@@ -9187,7 +9766,7 @@
         "analysis_engine_version": "contextual-v1.1",
         "location_engine_version": "location-v2-title-snippet-source",
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-10-31T17:57:50.370542+00:00"
+        "case_processed_at": "2026-10-31T21:49:41.866726+00:00"
       },
       {
         "id": "90ee122f28d889c6dcf73fb6ede89e08ba7fcdb4",
@@ -9207,7 +9786,7 @@
         "summary": "Polisi Buru Tersangka Lain di Kasus Penyerangan Dekat Kampung Ambon detikNews",
         "processing_status": "processed",
         "classifier_version": "contextual-v1.1",
-        "classified_at": "2026-10-31T17:53:38.984328+00:00",
+        "classified_at": "2026-10-31T21:45:30.943493+00:00",
         "case_id": null,
         "discovery_families": [],
         "discovery_tags": [],
@@ -9282,7 +9861,7 @@
         "analysis_engine_version": "contextual-v1.1",
         "location_engine_version": "location-v2-title-snippet-source",
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-10-31T17:57:15.821369+00:00"
+        "case_processed_at": "2026-10-31T21:49:07.864532+00:00"
       },
       {
         "id": "782b19aeb5b5afca81c65c88acca87690aabfe4f",
@@ -9302,7 +9881,7 @@
         "summary": "14 SEPORTER PERSELA DIAMANKAN POLISI KARENA TENGGAK MIRAS di STADION SURAJAYA Pojokkiri",
         "processing_status": "processed",
         "classifier_version": "contextual-v1.1",
-        "classified_at": "2026-10-31T17:53:39.074730+00:00",
+        "classified_at": "2026-10-31T21:45:31.033550+00:00",
         "case_id": "CASE-003881",
         "discovery_families": [
           "illegal_activity_backing"
@@ -9384,7 +9963,7 @@
         "analysis_engine_version": "contextual-v1.1",
         "location_engine_version": "location-v2-title-snippet-source",
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-10-31T17:57:50.370550+00:00"
+        "case_processed_at": "2026-10-31T21:49:41.866734+00:00"
       },
       {
         "id": "328b8afb1f2c5d3b0997edfa3f3aa322d46887d1",
@@ -9404,7 +9983,7 @@
         "summary": "Betrand Peto Bakal Diperiksa Lagi, Polisi Dalami Visum dan CCTV Posnews.co.id",
         "processing_status": "processed",
         "classifier_version": "contextual-v1.1",
-        "classified_at": "2026-10-31T17:53:39.120410+00:00",
+        "classified_at": "2026-10-31T21:45:31.079193+00:00",
         "case_id": null,
         "discovery_families": [],
         "discovery_tags": [],
@@ -9475,7 +10054,7 @@
         "analysis_engine_version": "contextual-v1.1",
         "location_engine_version": "location-v2-title-snippet-source",
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-10-31T17:57:15.829504+00:00"
+        "case_processed_at": "2026-10-31T21:49:07.872574+00:00"
       },
       {
         "id": "c3ac844825b1eab4d35662ce77629619aebb31cc",
@@ -9495,7 +10074,7 @@
         "summary": "Polisi Ungkap Kasus Penyiraman Air Keras di Tangerang RRI.co.id",
         "processing_status": "processed",
         "classifier_version": "contextual-v1.1",
-        "classified_at": "2026-10-31T17:53:39.164495+00:00",
+        "classified_at": "2026-10-31T21:45:31.123915+00:00",
         "case_id": "CASE-003882",
         "discovery_families": [],
         "discovery_tags": [],
@@ -9567,7 +10146,7 @@
         "analysis_engine_version": "contextual-v1.1",
         "location_engine_version": "location-v2-title-snippet-source",
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-10-31T17:57:50.370552+00:00"
+        "case_processed_at": "2026-10-31T21:49:41.866736+00:00"
       },
       {
         "id": "e71aaacaad164ef2ea14a608933f4e406cb3df10",
@@ -9587,7 +10166,7 @@
         "summary": "Polisi Tangkap 20 Pelaku Curanmor Sepanjang Oktober 2026 Tirto.id",
         "processing_status": "processed",
         "classifier_version": "contextual-v1.1",
-        "classified_at": "2026-10-31T17:53:39.209134+00:00",
+        "classified_at": "2026-10-31T21:45:31.169096+00:00",
         "case_id": "CASE-003883",
         "discovery_families": [],
         "discovery_tags": [],
@@ -9657,7 +10236,7 @@
         "analysis_engine_version": "contextual-v1.1",
         "location_engine_version": "location-v2-title-snippet-source",
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-10-31T17:57:50.370555+00:00"
+        "case_processed_at": "2026-10-31T21:49:41.866739+00:00"
       },
       {
         "id": "400a52bd8d8f8b9ee118eba3fa470c1a1045a310",
@@ -9677,7 +10256,7 @@
         "summary": "Kasus Penembakan Mako Polairud, Polisi Periksa Psikologi Bharada AR news.okezone.com",
         "processing_status": "processed",
         "classifier_version": "contextual-v1.1",
-        "classified_at": "2026-10-31T17:53:39.314559+00:00",
+        "classified_at": "2026-10-31T21:45:31.260628+00:00",
         "case_id": null,
         "discovery_families": [],
         "discovery_tags": [],
@@ -9752,7 +10331,7 @@
         "analysis_engine_version": "contextual-v1.1",
         "location_engine_version": "location-v2-title-snippet-source",
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-10-31T17:57:15.844797+00:00"
+        "case_processed_at": "2026-10-31T21:49:07.887609+00:00"
       },
       {
         "id": "3bcd1230a135d865564ea290fede2880ebf18f5c",
@@ -9772,7 +10351,7 @@
         "summary": "Patroli Dialogis Polsek Grati, Wujud Nyata Polri Hadir Bersama Masyarakat https://tribratanews.polrespasuruankota.com/",
         "processing_status": "processed",
         "classifier_version": "contextual-v1.1",
-        "classified_at": "2026-10-31T17:53:39.586858+00:00",
+        "classified_at": "2026-10-31T21:45:31.533351+00:00",
         "case_id": null,
         "discovery_families": [],
         "discovery_tags": [],
@@ -9846,7 +10425,7 @@
         "analysis_engine_version": "contextual-v1.1",
         "location_engine_version": "location-v2-title-snippet-source",
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-10-31T17:57:15.889527+00:00"
+        "case_processed_at": "2026-10-31T21:49:07.931626+00:00"
       },
       {
         "id": "cea411325db0e3d5495fd0edc842f0429be452b1",
@@ -9866,7 +10445,7 @@
         "summary": "Dipicu Balas Dendam, Polisi Pastikan Pembacokan 3 Warga d Kampung Ambon Tak Terkait Narkoba news.okezone.com",
         "processing_status": "processed",
         "classifier_version": "contextual-v1.1",
-        "classified_at": "2026-10-31T17:53:39.721750+00:00",
+        "classified_at": "2026-10-31T21:45:31.668233+00:00",
         "case_id": null,
         "discovery_families": [],
         "discovery_tags": [],
@@ -9938,7 +10517,7 @@
         "analysis_engine_version": "contextual-v1.1",
         "location_engine_version": "location-v2-title-snippet-source",
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-10-31T17:57:15.904642+00:00"
+        "case_processed_at": "2026-10-31T21:49:07.946958+00:00"
       },
       {
         "id": "6bb26f1a3d1811858634cde78a98856e98a70c7f",
@@ -9958,7 +10537,7 @@
         "summary": "Diduga Ngangsu dan Timbun Solar Subsidi, 2 Warga Sragen Ditangkap Polisi Espos.id",
         "processing_status": "processed",
         "classifier_version": "contextual-v1.1",
-        "classified_at": "2026-10-31T17:53:39.767295+00:00",
+        "classified_at": "2026-10-31T21:45:31.713693+00:00",
         "case_id": "CASE-003884",
         "discovery_families": [
           "illegal_activity_backing"
@@ -10048,7 +10627,7 @@
         "analysis_engine_version": "contextual-v1.1",
         "location_engine_version": "location-v2-title-snippet-source",
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-10-31T17:57:50.370562+00:00"
+        "case_processed_at": "2026-10-31T21:49:41.866747+00:00"
       },
       {
         "id": "2d3fe3a09a5ba5274ed42243ac0dd731c3bba616",
@@ -10068,7 +10647,7 @@
         "summary": "Polisi Bantah Pelaku Pembunuhan Bobotoh Terafiliasi Suporter Klub Asal Bogor Bogor24Update",
         "processing_status": "processed",
         "classifier_version": "contextual-v1.1",
-        "classified_at": "2026-10-31T17:53:39.859914+00:00",
+        "classified_at": "2026-10-31T21:45:31.807163+00:00",
         "case_id": null,
         "discovery_families": [],
         "discovery_tags": [],
@@ -10147,7 +10726,7 @@
         "analysis_engine_version": "contextual-v1.1",
         "location_engine_version": "location-v2-title-snippet-source",
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-10-31T17:57:15.919672+00:00"
+        "case_processed_at": "2026-10-31T21:49:07.962014+00:00"
       },
       {
         "id": "50a6e1c950809935b47da78746793a455bbb18f8",
@@ -10167,7 +10746,7 @@
         "summary": "Kasus Kekerasan Seks Naik Penyidikan, Polisi Segera Periksa Onyo Publicanews",
         "processing_status": "processed",
         "classifier_version": "contextual-v1.1",
-        "classified_at": "2026-10-31T17:53:39.905801+00:00",
+        "classified_at": "2026-10-31T21:45:31.853422+00:00",
         "case_id": null,
         "discovery_families": [],
         "discovery_tags": [],
@@ -10241,7 +10820,7 @@
         "analysis_engine_version": "contextual-v1.1",
         "location_engine_version": "location-v2-title-snippet-source",
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-10-31T17:57:15.927892+00:00"
+        "case_processed_at": "2026-10-31T21:49:07.970059+00:00"
       },
       {
         "id": "4df4760ea82f2a9945d3fad200160b2ea745d7f2",
@@ -10261,7 +10840,7 @@
         "summary": "Dua Tersangka Dugaan Penyalahgunaan Solar Subsidi di Sragen Ditahan, Polisi Sita 923 Liter iNews.ID",
         "processing_status": "processed",
         "classifier_version": "contextual-v1.1",
-        "classified_at": "2026-10-31T17:53:40.041620+00:00",
+        "classified_at": "2026-10-31T21:45:31.988391+00:00",
         "case_id": "CASE-003885",
         "discovery_families": [
           "illegal_activity_backing"
@@ -10351,7 +10930,7 @@
         "analysis_engine_version": "contextual-v1.1",
         "location_engine_version": "location-v2-title-snippet-source",
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-10-31T17:57:50.370568+00:00"
+        "case_processed_at": "2026-10-31T21:49:41.866753+00:00"
       },
       {
         "id": "3a3efca611fafc5ff37c8857a3e6a70b68ccf4f8",
@@ -10371,7 +10950,7 @@
         "summary": "Polisi Amankan Pelaku Penembakan Dekat Kampung Ambon Suara Independent News",
         "processing_status": "processed",
         "classifier_version": "contextual-v1.1",
-        "classified_at": "2026-10-31T17:53:40.133399+00:00",
+        "classified_at": "2026-10-31T21:45:32.080078+00:00",
         "case_id": "CASE-003886",
         "discovery_families": [],
         "discovery_tags": [],
@@ -10449,7 +11028,7 @@
         "analysis_engine_version": "contextual-v1.1",
         "location_engine_version": "location-v2-title-snippet-source",
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-10-31T17:57:50.370571+00:00"
+        "case_processed_at": "2026-10-31T21:49:41.866756+00:00"
       },
       {
         "id": "2f09c805d28a6fe3e37bd3752cd54f8778cb419c",
@@ -10469,7 +11048,7 @@
         "summary": "Pelaku Penembakan Kampung Ambon Serahkan Diri ke Polisi Demokratis.co.id",
         "processing_status": "processed",
         "classifier_version": "contextual-v1.1",
-        "classified_at": "2026-10-31T17:53:40.179206+00:00",
+        "classified_at": "2026-10-31T21:45:32.125665+00:00",
         "case_id": null,
         "discovery_families": [],
         "discovery_tags": [],
@@ -10544,7 +11123,7 @@
         "analysis_engine_version": "contextual-v1.1",
         "location_engine_version": "location-v2-title-snippet-source",
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-10-31T17:57:15.951811+00:00"
+        "case_processed_at": "2026-10-31T21:49:07.994017+00:00"
       },
       {
         "id": "6f5110e65892ffc6bd08f7383e02b411314933ee",
@@ -10564,7 +11143,7 @@
         "summary": "Polisi Amankan Pelaku Penembakan Dekat Kampung Ambon Peradaban.id",
         "processing_status": "processed",
         "classifier_version": "contextual-v1.1",
-        "classified_at": "2026-10-31T17:53:40.224074+00:00",
+        "classified_at": "2026-10-31T21:45:32.169867+00:00",
         "case_id": "CASE-003887",
         "discovery_families": [],
         "discovery_tags": [],
@@ -10642,16 +11221,16 @@
         "analysis_engine_version": "contextual-v1.1",
         "location_engine_version": "location-v2-title-snippet-source",
         "case_engine_version": "case-v6.5.4",
-        "case_processed_at": "2026-10-31T17:57:50.370574+00:00"
+        "case_processed_at": "2026-10-31T21:49:41.866758+00:00"
       }
     ]
   },
   "cases": {
-    "active": 20,
+    "active": 22,
     "priority_high": 1,
     "jatim": 7,
     "jatim_priority_high": 1,
-    "articles": 39,
+    "articles": 41,
     "case_ids": [
       "CASE-002881",
       "CASE-003812",
@@ -10672,7 +11251,9 @@
       "CASE-003884",
       "CASE-003885",
       "CASE-003886",
-      "CASE-003887"
+      "CASE-003887",
+      "CASE-003888",
+      "CASE-003889"
     ],
     "items": [
       {
@@ -11224,7 +11805,7 @@
         ],
         "article_count": 12,
         "created_at": "2026-10-22T05:02:58.431621+00:00",
-        "updated_at": "2026-10-31T17:57:46.722871+00:00",
+        "updated_at": "2026-10-31T21:49:38.189343+00:00",
         "engine_version": "case-v6.5.4",
         "priority_score": 39,
         "priority_breakdown": {
@@ -11593,7 +12174,7 @@
         ],
         "article_count": 7,
         "created_at": "2026-10-31T06:00:24.690042+00:00",
-        "updated_at": "2026-10-31T17:57:50.120365+00:00",
+        "updated_at": "2026-10-31T21:49:41.614910+00:00",
         "engine_version": "case-v6.5.4",
         "priority_score": 39,
         "priority_breakdown": {
@@ -11743,7 +12324,7 @@
         ],
         "article_count": 2,
         "created_at": "2026-10-31T12:49:42.525931+00:00",
-        "updated_at": "2026-10-31T17:57:50.246763+00:00",
+        "updated_at": "2026-10-31T21:49:41.740134+00:00",
         "engine_version": "case-v6.5.4",
         "priority_score": 15,
         "priority_breakdown": {
@@ -11894,7 +12475,7 @@
         ],
         "article_count": 2,
         "created_at": "2026-10-31T12:49:42.618034+00:00",
-        "updated_at": "2026-10-31T17:57:50.262302+00:00",
+        "updated_at": "2026-10-31T21:49:41.755415+00:00",
         "engine_version": "case-v6.5.4",
         "priority_score": 19,
         "priority_breakdown": {
@@ -11998,7 +12579,7 @@
         ],
         "article_count": 1,
         "created_at": "2026-10-31T17:57:42.505932+00:00",
-        "updated_at": "2026-10-31T17:57:50.322192+00:00",
+        "updated_at": "2026-10-31T21:49:41.814058+00:00",
         "engine_version": "case-v6.5.4",
         "priority_score": 34,
         "priority_breakdown": {
@@ -12103,7 +12684,7 @@
         ],
         "article_count": 1,
         "created_at": "2026-10-31T17:57:42.515790+00:00",
-        "updated_at": "2026-10-31T17:57:50.325493+00:00",
+        "updated_at": "2026-10-31T21:49:41.817284+00:00",
         "engine_version": "case-v6.5.4",
         "priority_score": 8,
         "priority_breakdown": {
@@ -12211,7 +12792,7 @@
         ],
         "article_count": 1,
         "created_at": "2026-10-31T17:57:42.525713+00:00",
-        "updated_at": "2026-10-31T17:57:50.329125+00:00",
+        "updated_at": "2026-10-31T21:49:41.820834+00:00",
         "engine_version": "case-v6.5.4",
         "priority_score": 10,
         "priority_breakdown": {
@@ -12321,7 +12902,7 @@
         ],
         "article_count": 1,
         "created_at": "2026-10-31T17:57:42.606944+00:00",
-        "updated_at": "2026-10-31T17:57:50.332500+00:00",
+        "updated_at": "2026-10-31T21:49:41.824107+00:00",
         "engine_version": "case-v6.5.4",
         "priority_score": 17,
         "priority_breakdown": {
@@ -12433,7 +13014,7 @@
         ],
         "article_count": 1,
         "created_at": "2026-10-31T17:57:42.639553+00:00",
-        "updated_at": "2026-10-31T17:57:50.335842+00:00",
+        "updated_at": "2026-10-31T21:49:41.827348+00:00",
         "engine_version": "case-v6.5.4",
         "priority_score": 70,
         "priority_breakdown": {
@@ -12543,7 +13124,7 @@
         ],
         "article_count": 1,
         "created_at": "2026-10-31T17:57:42.649515+00:00",
-        "updated_at": "2026-10-31T17:57:50.338987+00:00",
+        "updated_at": "2026-10-31T21:49:41.830422+00:00",
         "engine_version": "case-v6.5.4",
         "priority_score": 8,
         "priority_breakdown": {
@@ -12648,7 +13229,7 @@
         ],
         "article_count": 1,
         "created_at": "2026-10-31T17:57:42.668747+00:00",
-        "updated_at": "2026-10-31T17:57:50.342364+00:00",
+        "updated_at": "2026-10-31T21:49:41.833755+00:00",
         "engine_version": "case-v6.5.4",
         "priority_score": 10,
         "priority_breakdown": {
@@ -12754,7 +13335,7 @@
         ],
         "article_count": 1,
         "created_at": "2026-10-31T17:57:42.686642+00:00",
-        "updated_at": "2026-10-31T17:57:50.345411+00:00",
+        "updated_at": "2026-10-31T21:49:41.836727+00:00",
         "engine_version": "case-v6.5.4",
         "priority_score": 10,
         "priority_breakdown": {
@@ -12864,7 +13445,7 @@
         ],
         "article_count": 1,
         "created_at": "2026-10-31T17:57:42.703646+00:00",
-        "updated_at": "2026-10-31T17:57:50.348742+00:00",
+        "updated_at": "2026-10-31T21:49:41.839976+00:00",
         "engine_version": "case-v6.5.4",
         "priority_score": 12,
         "priority_breakdown": {
@@ -12973,7 +13554,7 @@
         ],
         "article_count": 1,
         "created_at": "2026-10-31T17:57:42.716467+00:00",
-        "updated_at": "2026-10-31T17:57:50.351815+00:00",
+        "updated_at": "2026-10-31T21:49:41.843002+00:00",
         "engine_version": "case-v6.5.4",
         "priority_score": 20,
         "priority_breakdown": {
@@ -13078,7 +13659,7 @@
         ],
         "article_count": 1,
         "created_at": "2026-10-31T17:57:42.726432+00:00",
-        "updated_at": "2026-10-31T17:57:50.354790+00:00",
+        "updated_at": "2026-10-31T21:49:41.845930+00:00",
         "engine_version": "case-v6.5.4",
         "priority_score": 10,
         "priority_breakdown": {
@@ -13182,7 +13763,7 @@
         ],
         "article_count": 1,
         "created_at": "2026-10-31T17:57:42.743585+00:00",
-        "updated_at": "2026-10-31T17:57:50.357572+00:00",
+        "updated_at": "2026-10-31T21:49:41.848644+00:00",
         "engine_version": "case-v6.5.4",
         "priority_score": 8,
         "priority_breakdown": {
@@ -13287,7 +13868,7 @@
         ],
         "article_count": 1,
         "created_at": "2026-10-31T17:57:42.765611+00:00",
-        "updated_at": "2026-10-31T17:57:50.360579+00:00",
+        "updated_at": "2026-10-31T21:49:41.851590+00:00",
         "engine_version": "case-v6.5.4",
         "priority_score": 28,
         "priority_breakdown": {
@@ -13401,7 +13982,7 @@
         ],
         "article_count": 1,
         "created_at": "2026-10-31T17:57:42.795108+00:00",
-        "updated_at": "2026-10-31T17:57:50.364060+00:00",
+        "updated_at": "2026-10-31T21:49:41.854989+00:00",
         "engine_version": "case-v6.5.4",
         "priority_score": 26,
         "priority_breakdown": {
@@ -13512,7 +14093,7 @@
         ],
         "article_count": 1,
         "created_at": "2026-10-31T17:57:42.810691+00:00",
-        "updated_at": "2026-10-31T17:57:50.366953+00:00",
+        "updated_at": "2026-10-31T21:49:41.857702+00:00",
         "engine_version": "case-v6.5.4",
         "priority_score": 22,
         "priority_breakdown": {
@@ -13618,7 +14199,7 @@
         ],
         "article_count": 1,
         "created_at": "2026-10-31T17:57:42.825627+00:00",
-        "updated_at": "2026-10-31T17:57:50.369685+00:00",
+        "updated_at": "2026-10-31T21:49:41.860257+00:00",
         "engine_version": "case-v6.5.4",
         "priority_score": 22,
         "priority_breakdown": {
@@ -13647,6 +14228,220 @@
             "sifat berita: negatif",
             "sifat berita: negatif",
             "Kekerasan / Penggunaan Kekuatan"
+          ]
+        }
+      },
+      {
+        "case_id": "CASE-003888",
+        "title": "Polisi Tangkap Pelaku Pembacokan dan Penembakan di Kampung Ambon - JPNN.com",
+        "category": "UNGKAP KASUS / PENINDAKAN",
+        "scope": "case",
+        "region": "BELUM TERPETAKAN",
+        "locality": "",
+        "is_jatim": null,
+        "polres": null,
+        "polsek": null,
+        "priority": "low",
+        "attention_score": 34,
+        "attention_label": "Rendah",
+        "signature": "BELUM TERPETAKAN",
+        "incident_terms": [
+          "ambon",
+          "com",
+          "jpnn",
+          "kampung",
+          "pembacokan",
+          "penembakan"
+        ],
+        "event_terms": [
+          "penembakan"
+        ],
+        "location_terms": [],
+        "discovery_families": [],
+        "first_seen": "2026-10-31T18:09:00+00:00",
+        "last_seen": "2026-10-31T21:39:02.570624+00:00",
+        "last_detected_at": "2026-10-31T21:39:02.570624+00:00",
+        "article_ids": [
+          "4e44710eb4fda39f78b494b810c0b9ba378ae64d"
+        ],
+        "articles": [
+          {
+            "id": "4e44710eb4fda39f78b494b810c0b9ba378ae64d",
+            "title": "Polisi Tangkap Pelaku Pembacokan dan Penembakan di Kampung Ambon - JPNN.com",
+            "url": "https://www.jpnn.com/news/polisi-tangkap-pelaku-pembacokan-dan-penembakan-di-kampung-ambon",
+            "published_at": "2026-10-31T18:09:00+00:00",
+            "collected_at": "2026-10-31T21:39:02.570624+00:00",
+            "source": "JPNN.com",
+            "match_score": 1.0,
+            "priority": "low",
+            "scope": "case",
+            "category": "UNGKAP KASUS / PENINDAKAN",
+            "region": "BELUM TERPETAKAN",
+            "locality": "",
+            "is_jatim": false,
+            "polres": null,
+            "polsek": null,
+            "issue_type": "KEKERASAN_DAN_KEKUATAN",
+            "issue_subtype": "Kekerasan / Penggunaan Kekuatan",
+            "handling_status": "BELUM_ADA_INFORMASI",
+            "handling_evidence": [],
+            "polri_relation": "PENEGAKAN_HUKUM",
+            "polri_relation_points": 0,
+            "polri_relation_evidence": [
+              "Polri berperan sebagai pihak penindak"
+            ],
+            "attention_score": 39,
+            "attention_label": "Rendah",
+            "attention_components": {
+              "severity": 28,
+              "polri_relation": 0,
+              "authority": 0,
+              "public_impact": 4,
+              "handling": 0,
+              "evidence": 1,
+              "context_risk": 0,
+              "routine_enforcement_cap": null
+            }
+          }
+        ],
+        "article_count": 1,
+        "created_at": "2026-10-31T21:49:34.259322+00:00",
+        "updated_at": "2026-10-31T21:49:41.863080+00:00",
+        "engine_version": "case-v6.5.4",
+        "priority_score": 34,
+        "priority_breakdown": {
+          "severity": 28,
+          "polri_relation": 0,
+          "authority_context": 0,
+          "public_impact": 4,
+          "handling": 0,
+          "evidence": 1,
+          "spread": 0,
+          "escalation": 0,
+          "current_activity": 1,
+          "context_risk": 0
+        },
+        "priority_evidence": {
+          "unique_sources": 1,
+          "active_today_articles": 1,
+          "escalation": [],
+          "issue_type": "KEKERASAN_DAN_KEKUATAN",
+          "issue_subtype": "Kekerasan / Penggunaan Kekuatan",
+          "sentiment": "negative",
+          "polri_relation": "INFORMASI_UMUM",
+          "handling_status": "BELUM_ADA_INFORMASI",
+          "reasons": [
+            "sifat berita: negatif",
+            "sifat berita: negatif",
+            "Kekerasan / Penggunaan Kekuatan",
+            "Hubungan Polri belum spesifik"
+          ]
+        }
+      },
+      {
+        "case_id": "CASE-003889",
+        "title": "Polisi Tangkap Pelaku Pembacokan dan Penembakan di Kampung Ambon - JPNN.com",
+        "category": "UNGKAP KASUS / PENINDAKAN",
+        "scope": "case",
+        "region": "BELUM TERPETAKAN",
+        "locality": "",
+        "is_jatim": null,
+        "polres": null,
+        "polsek": null,
+        "priority": "low",
+        "attention_score": 34,
+        "attention_label": "Rendah",
+        "signature": "BELUM TERPETAKAN",
+        "incident_terms": [
+          "ambon",
+          "com",
+          "jpnn",
+          "kampung",
+          "pembacokan",
+          "penembakan"
+        ],
+        "event_terms": [
+          "penembakan"
+        ],
+        "location_terms": [],
+        "discovery_families": [],
+        "first_seen": "2026-10-31T18:09:00+00:00",
+        "last_seen": "2026-10-31T21:39:02.570624+00:00",
+        "last_detected_at": "2026-10-31T21:39:02.570624+00:00",
+        "article_ids": [
+          "c098b91baeca2f363eb8ccfdd7a00e683a13a02e"
+        ],
+        "articles": [
+          {
+            "id": "c098b91baeca2f363eb8ccfdd7a00e683a13a02e",
+            "title": "Polisi Tangkap Pelaku Pembacokan dan Penembakan di Kampung Ambon - JPNN.com",
+            "url": "https://m.jpnn.com/news/polisi-tangkap-pelaku-pembacokan-dan-penembakan-di-kampung-ambon",
+            "published_at": "2026-10-31T18:09:00+00:00",
+            "collected_at": "2026-10-31T21:39:02.570624+00:00",
+            "source": "JPNN.com",
+            "match_score": 1.0,
+            "priority": "low",
+            "scope": "case",
+            "category": "UNGKAP KASUS / PENINDAKAN",
+            "region": "BELUM TERPETAKAN",
+            "locality": "",
+            "is_jatim": false,
+            "polres": null,
+            "polsek": null,
+            "issue_type": "KEKERASAN_DAN_KEKUATAN",
+            "issue_subtype": "Kekerasan / Penggunaan Kekuatan",
+            "handling_status": "BELUM_ADA_INFORMASI",
+            "handling_evidence": [],
+            "polri_relation": "PENEGAKAN_HUKUM",
+            "polri_relation_points": 0,
+            "polri_relation_evidence": [
+              "Polri berperan sebagai pihak penindak"
+            ],
+            "attention_score": 39,
+            "attention_label": "Rendah",
+            "attention_components": {
+              "severity": 28,
+              "polri_relation": 0,
+              "authority": 0,
+              "public_impact": 4,
+              "handling": 0,
+              "evidence": 1,
+              "context_risk": 0,
+              "routine_enforcement_cap": null
+            }
+          }
+        ],
+        "article_count": 1,
+        "created_at": "2026-10-31T21:49:34.274471+00:00",
+        "updated_at": "2026-10-31T21:49:41.865905+00:00",
+        "engine_version": "case-v6.5.4",
+        "priority_score": 34,
+        "priority_breakdown": {
+          "severity": 28,
+          "polri_relation": 0,
+          "authority_context": 0,
+          "public_impact": 4,
+          "handling": 0,
+          "evidence": 1,
+          "spread": 0,
+          "escalation": 0,
+          "current_activity": 1,
+          "context_risk": 0
+        },
+        "priority_evidence": {
+          "unique_sources": 1,
+          "active_today_articles": 1,
+          "escalation": [],
+          "issue_type": "KEKERASAN_DAN_KEKUATAN",
+          "issue_subtype": "Kekerasan / Penggunaan Kekuatan",
+          "sentiment": "negative",
+          "polri_relation": "INFORMASI_UMUM",
+          "handling_status": "BELUM_ADA_INFORMASI",
+          "reasons": [
+            "sifat berita: negatif",
+            "sifat berita: negatif",
+            "Kekerasan / Penggunaan Kekuatan",
+            "Hubungan Polri belum spesifik"
           ]
         }
       }
@@ -14201,7 +14996,7 @@
         ],
         "article_count": 12,
         "created_at": "2026-10-22T05:02:58.431621+00:00",
-        "updated_at": "2026-10-31T17:57:46.722871+00:00",
+        "updated_at": "2026-10-31T21:49:38.189343+00:00",
         "engine_version": "case-v6.5.4",
         "priority_score": 39,
         "priority_breakdown": {
@@ -14570,7 +15365,7 @@
         ],
         "article_count": 7,
         "created_at": "2026-10-31T06:00:24.690042+00:00",
-        "updated_at": "2026-10-31T17:57:50.120365+00:00",
+        "updated_at": "2026-10-31T21:49:41.614910+00:00",
         "engine_version": "case-v6.5.4",
         "priority_score": 39,
         "priority_breakdown": {
@@ -14720,7 +15515,7 @@
         ],
         "article_count": 2,
         "created_at": "2026-10-31T12:49:42.525931+00:00",
-        "updated_at": "2026-10-31T17:57:50.246763+00:00",
+        "updated_at": "2026-10-31T21:49:41.740134+00:00",
         "engine_version": "case-v6.5.4",
         "priority_score": 15,
         "priority_breakdown": {
@@ -14871,7 +15666,7 @@
         ],
         "article_count": 2,
         "created_at": "2026-10-31T12:49:42.618034+00:00",
-        "updated_at": "2026-10-31T17:57:50.262302+00:00",
+        "updated_at": "2026-10-31T21:49:41.755415+00:00",
         "engine_version": "case-v6.5.4",
         "priority_score": 19,
         "priority_breakdown": {
@@ -14982,7 +15777,7 @@
         ],
         "article_count": 1,
         "created_at": "2026-10-31T17:57:42.639553+00:00",
-        "updated_at": "2026-10-31T17:57:50.335842+00:00",
+        "updated_at": "2026-10-31T21:49:41.827348+00:00",
         "engine_version": "case-v6.5.4",
         "priority_score": 70,
         "priority_breakdown": {
@@ -15092,7 +15887,7 @@
         ],
         "article_count": 1,
         "created_at": "2026-10-31T17:57:42.649515+00:00",
-        "updated_at": "2026-10-31T17:57:50.338987+00:00",
+        "updated_at": "2026-10-31T21:49:41.830422+00:00",
         "engine_version": "case-v6.5.4",
         "priority_score": 8,
         "priority_breakdown": {
@@ -15202,7 +15997,7 @@
         ],
         "article_count": 1,
         "created_at": "2026-10-31T17:57:42.703646+00:00",
-        "updated_at": "2026-10-31T17:57:50.348742+00:00",
+        "updated_at": "2026-10-31T21:49:41.839976+00:00",
         "engine_version": "case-v6.5.4",
         "priority_score": 12,
         "priority_breakdown": {
@@ -15236,33 +16031,63 @@
     ]
   },
   "social": {
-    "detected": 10,
-    "jatim": 0,
-    "negative": 3,
+    "detected": 40,
+    "jatim": 1,
+    "negative": 10,
     "priority_high": 3,
     "video_ids": [
+      "MMeiTuvfG3Y",
+      "V6EL81S14fU",
+      "2AMQyoJAASI",
+      "qqK-Jrxd21I",
+      "1pqjfcnqkVc",
+      "yA6jdaLpcew",
       "I8BF66ttbVc",
       "y3GW3I3HZKk",
+      "GogjkLf9fQQ",
+      "nggUeDP4J28",
+      "U-nbJ6bxuCE",
       "b2Gbe-i6BQE",
       "e47MUjviiKY",
+      "Auz98CLqIHE",
+      "53Z0qKMtFx0",
+      "Obj16KSCUOg",
+      "eSHREdfpq-0",
+      "JnrjgTeOVQc",
+      "8nvibElEBMQ",
+      "MZRoOLB6cSM",
+      "FqcBdpoPAJE",
+      "T3gx9nDS9yI",
+      "7cc2Dj8OlpA",
+      "xSkd77pUqwI",
       "Bzqd6JVgmyU",
+      "IsjSb7aEZBg",
+      "xRI8qYUW5dw",
+      "mMZfqdPZ5ko",
       "RMUtm-6vW7U",
       "iPunVS6k25k",
+      "APv05nACa6c",
+      "gB1K0q7N67c",
       "-QcQAzMypgk",
+      "rTmjoh5it8U",
+      "uKqWquDwi6s",
+      "jQuRo1F0AkA",
+      "Ts8m113Tsb8",
       "XjTiPhANyO4",
-      "00hrvSmNEFc"
+      "00hrvSmNEFc",
+      "SzyW0Ma674g"
     ]
   },
   "jatim": {
-    "news_today": 29,
+    "news_today": 30,
     "negative_today": 1,
     "positive_today": 0,
     "case_scope_today": 7,
-    "neutral_today": 21,
+    "neutral_today": 22,
     "case_today": 7,
     "case_high_active": 1,
     "article_high_today": 1,
-    "outside_jatim_today": 25
+    "outside_jatim_today": 27
   },
   "regions": [
     {
@@ -15270,15 +16095,15 @@
       "count": 7
     },
     {
+      "name": "Pasuruan",
+      "count": 4
+    },
+    {
       "name": "Lamongan",
       "count": 3
     },
     {
       "name": "Kediri",
-      "count": 3
-    },
-    {
-      "name": "Pasuruan",
       "count": 3
     },
     {
@@ -15391,7 +16216,7 @@
   "categories": [
     {
       "name": "NETRAL / LAINNYA",
-      "count": 14
+      "count": 15
     },
     {
       "name": "UNGKAP KASUS / PENINDAKAN",
@@ -15407,19 +16232,19 @@
     }
   ],
   "summary": {
-    "news_today": 54,
+    "news_today": 57,
     "negative_today": 3,
-    "cases_today": 20,
+    "cases_today": 22,
     "priority_high": 1,
     "article_priority_high": 1,
-    "jatim_news": 29,
+    "jatim_news": 30,
     "jatim_negative": 1,
     "jatim_positive": 0,
     "jatim_case_scope": 7,
-    "jatim_neutral": 21,
+    "jatim_neutral": 22,
     "jatim_cases_today": 7,
     "jatim_case_high_active": 1,
-    "luar_jatim_news": 25,
-    "youtube_today": 10
+    "luar_jatim_news": 27,
+    "youtube_today": 40
   }
 }
