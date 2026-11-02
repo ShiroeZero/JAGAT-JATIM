@@ -78,6 +78,10 @@ def main():
     # --------------------------------------------------------
     news_ids = [x.get("id") for x in news if x.get("id")]
     case_ids = [x.get("case_id") for x in cases if x.get("case_id")]
+    if len(news_ids) != len(news):
+        errors.append("News records with missing IDs detected")
+    if len(case_ids) != len(cases):
+        errors.append("Case records with missing IDs detected")
     if len(news_ids) != len(set(news_ids)):
         errors.append("Duplicate news IDs detected")
     if len(case_ids) != len(set(case_ids)):
@@ -112,6 +116,10 @@ def main():
                 errors.append(f"{cid} includes duplicate_article {aid}")
 
         object_ids = [a.get("id") for a in article_objects if a.get("id")]
+        if len(object_ids) != len(article_objects):
+            errors.append(f"{cid} has article objects with missing IDs")
+        if len(object_ids) != len(set(object_ids)):
+            errors.append(f"{cid} has duplicate article objects")
         if set(object_ids) != set(article_ids):
             errors.append(f"{cid} article_ids/articles mismatch")
 
