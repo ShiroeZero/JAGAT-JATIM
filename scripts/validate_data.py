@@ -139,6 +139,15 @@ def main():
                 )
             seen_case_articles[aid] = cid
 
+    # Every news record assigned to a case must appear in that case exactly once.
+    for item in news:
+        cid = item.get("case_id")
+        aid = item.get("id")
+        if cid and cid in case_map and seen_case_articles.get(aid) != cid:
+            errors.append(f"news {aid} assigned to {cid} but missing from case article_ids")
+        if item.get("duplicate_article") is True and cid:
+            errors.append(f"duplicate news {aid} must not have case_id={cid}")
+
     # --------------------------------------------------------
     # Canonical Case score validation
     # Same active_today definition as process_cases.compute_case_priority.
