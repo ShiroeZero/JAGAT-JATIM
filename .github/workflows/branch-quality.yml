@@ -33,3 +33,6 @@ jobs:
           python scripts/test_analysis_v657.py
           python scripts/test_batch02_dedup.py
           python scripts/test_article_identity.py
+          python scripts/test_contextual_engine.py
+      - name: Validate committed monitoring dataset
+        run: python -u scripts/validate_data.py
