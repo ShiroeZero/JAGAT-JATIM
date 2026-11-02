@@ -83,3 +83,41 @@ duplicate_article = {"id": "news-copy", "duplicate_article": True, "duplicate_of
 assert not is_duplicate_article(primary_article)
 assert is_duplicate_article(duplicate_article)
 print("BATCH 02 ARTICLE IDENTITY INTEGRATION TESTS: OK")
+
+
+# Headline normalization is stable across publisher punctuation and casing.
+from process_cases import normalize, choose_case, make_case, attach
+
+assert normalize("POLRES GRESIK: Tangkap Pelaku Penganiayaan!") == normalize(
+    "Polres Gresik - Tangkap Pelaku Penganiayaan"
+)
+
+# Two publishers reporting the same identified incident should share one case.
+publisher_a = {
+    "id": "publisher-a", "title": "Polres Gresik Tangkap Pelaku Penganiayaan di Balongpanggang",
+    "scope": "negative", "polres": "POLRES GRESIK", "locality": "Gresik",
+    "region": "Jawa Timur", "published_at": "2026-09-01T09:00:00+00:00",
+    "source": "Publisher A",
+}
+publisher_b = dict(publisher_a, id="publisher-b",
+                   title="Polres Gresik Tangkap Pelaku Penganiayaan Balongpanggang",
+                   source="Publisher B")
+case_record = make_case(publisher_a, [])
+attach(case_record, publisher_a, 1.0)
+match = choose_case(publisher_b, [case_record])
+assert match is not None, "Same incident from another publisher must match"
+attach(match[0], publisher_b, match[1])
+assert case_record["article_count"] == 2
+assert set(case_record["article_ids"]) == {"publisher-a", "publisher-b"}
+
+# Similar headlines must not cross explicit Polres boundaries.
+other_area = dict(publisher_b, id="publisher-c", polres="POLRES SIDOARJO",
+                  locality="Sidoarjo", source="Publisher C")
+assert choose_case(other_area, [case_record]) is None
+
+# An exact title alone is not sufficient evidence when no incident terms exist.
+generic = dict(publisher_a, id="generic-a", title="Polisi Berikan Keterangan Terbaru")
+generic_case = make_case(generic, [])
+assert choose_case(dict(generic, id="generic-b", source="Publisher B"),
+                   [generic_case]) is None
+print("BATCH 02 MULTI-PUBLISHER CASE CLUSTER TESTS: OK")
