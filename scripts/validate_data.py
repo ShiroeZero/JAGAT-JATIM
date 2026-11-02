@@ -103,6 +103,14 @@ def main():
         if len(article_ids) != len(set(article_ids)):
             errors.append(f"{cid} has duplicate article_ids")
 
+        if case.get("article_count") != len(article_ids):
+            errors.append(f"{cid} article_count mismatch: stored={case.get('article_count')}, actual={len(article_ids)}")
+
+        for aid in article_ids:
+            source = news_map.get(aid)
+            if source and source.get("duplicate_article") is True:
+                errors.append(f"{cid} includes duplicate_article {aid}")
+
         object_ids = [a.get("id") for a in article_objects if a.get("id")]
         if set(object_ids) != set(article_ids):
             errors.append(f"{cid} article_ids/articles mismatch")
