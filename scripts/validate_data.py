@@ -78,6 +78,10 @@ def main():
     # --------------------------------------------------------
     news_ids = [x.get("id") for x in news if x.get("id")]
     case_ids = [x.get("case_id") for x in cases if x.get("case_id")]
+    if len(news_ids) != len(news):
+        errors.append("News records with missing IDs detected")
+    if len(case_ids) != len(cases):
+        errors.append("Case records with missing IDs detected")
     if len(news_ids) != len(set(news_ids)):
         errors.append("Duplicate news IDs detected")
     if len(case_ids) != len(set(case_ids)):
@@ -103,7 +107,19 @@ def main():
         if len(article_ids) != len(set(article_ids)):
             errors.append(f"{cid} has duplicate article_ids")
 
+        if case.get("article_count") != len(article_ids):
+            errors.append(f"{cid} article_count mismatch: stored={case.get('article_count')}, actual={len(article_ids)}")
+
+        for aid in article_ids:
+            source = news_map.get(aid)
+            if source and source.get("duplicate_article") is True:
+                errors.append(f"{cid} includes duplicate_article {aid}")
+
         object_ids = [a.get("id") for a in article_objects if a.get("id")]
+        if len(object_ids) != len(article_objects):
+            errors.append(f"{cid} has article objects with missing IDs")
+        if len(object_ids) != len(set(object_ids)):
+            errors.append(f"{cid} has duplicate article objects")
         if set(object_ids) != set(article_ids):
             errors.append(f"{cid} article_ids/articles mismatch")
 
@@ -122,6 +138,15 @@ def main():
                     f"article {aid} appears in multiple cases: {previous}, {cid}"
                 )
             seen_case_articles[aid] = cid
+
+    # Every news record assigned to a case must appear in that case exactly once.
+    for item in news:
+        cid = item.get("case_id")
+        aid = item.get("id")
+        if cid and cid in case_map and seen_case_articles.get(aid) != cid:
+            errors.append(f"news {aid} assigned to {cid} but missing from case article_ids")
+        if item.get("duplicate_article") is True and cid:
+            errors.append(f"duplicate news {aid} must not have case_id={cid}")
 
     # --------------------------------------------------------
     # Canonical Case score validation

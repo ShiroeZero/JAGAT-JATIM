@@ -4,6 +4,8 @@ name: JAGAT — Pengumpulan & Pembaruan Data V7.1
 # Google News RSS results are normalized again before snapshots/case clustering.
 on:
   push:
+    branches:
+      - main
     paths:
       - "scripts/contextual_engine.py"
       - "scripts/jagat_location_resolver_v2.py"
@@ -39,6 +41,8 @@ concurrency:
 
 jobs:
   collect-and-deploy:
+    # Production collection/deployment must never run from feature-branch pushes.
+    if: github.event_name != 'push' || github.ref == 'refs/heads/main'
     runs-on: ubuntu-latest
     environment:
       name: github-pages

@@ -1,0 +1,38 @@
+name: JAGAT — Branch Quality Checks
+
+on:
+  pull_request:
+  push:
+    branches-ignore:
+      - main
+    paths:
+      - "scripts/**"
+      - ".github/workflows/**"
+
+permissions:
+  contents: read
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout tested revision
+        uses: actions/checkout@v4
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Compile Python
+        run: python -m py_compile scripts/*.py
+      - name: Run engine regression tests
+        run: |
+          python scripts/test_location_engine.py
+          python scripts/test_analysis_engine.py
+          python scripts/test_analysis_v655.py
+          python scripts/test_analysis_v656.py
+          python scripts/test_analysis_v657.py
+          python scripts/test_batch02_dedup.py
+          python scripts/test_article_identity.py
+          python scripts/test_contextual_engine.py
+      - name: Validate committed monitoring dataset
+        run: python -u scripts/validate_data.py
