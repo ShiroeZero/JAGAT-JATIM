@@ -4,6 +4,8 @@ name: JAGAT — Pengumpulan & Pembaruan Data V7.1
 # Google News RSS results are normalized again before snapshots/case clustering.
 on:
   push:
+    branches:
+      - main
     paths:
       - "scripts/contextual_engine.py"
       - "scripts/jagat_location_resolver_v2.py"
