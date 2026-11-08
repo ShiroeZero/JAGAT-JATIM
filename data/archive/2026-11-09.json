@@ -1,0 +1,2630 @@
+{
+  "schema_version": "today-v3",
+  "date": "2026-11-09",
+  "timezone": "Asia/Jakarta",
+  "updated_at": "2026-11-09T02:55:55.929720+07:00",
+  "last_successful_update": "2026-11-09T02:55:55.929720+07:00",
+  "news": {
+    "detected": 10,
+    "negative": 0,
+    "positive": 1,
+    "case": 3,
+    "neutral": 6,
+    "jatim": 6,
+    "luar_jatim": 4,
+    "priority_high": 0,
+    "article_ids": [
+      "4a1d5e7422f9bbc26c757f015b6de284015bb236",
+      "d62a02809e3097d120ff445b6f59f8ab76041a80",
+      "44aee7f8d71f51952bfaa3a3a96c7bc272996d03",
+      "81af6dead545a93ff402d39d725a8cba83b13099",
+      "1758d8798fe8d4cc9df72f5b1e68711a4bcbf216",
+      "d9fb4f5a759ac363520cdf253c51e17685fdf979",
+      "489cbaecbca69daef1b743f6219e9eac4f88c4df",
+      "e893a56530ef9c2c7b400d21650e5e1eea9552e4",
+      "2a85dad231998f373e79c604ba53487d501dbaa7",
+      "0b122d3392500a4c824f4e7a4070248b8821e997"
+    ],
+    "items": [
+      {
+        "id": "4a1d5e7422f9bbc26c757f015b6de284015bb236",
+        "title": "Polda Lampung Kerahkan 401 Personel Gerebek Sarang Narkoba di Pesawaran, Polisi Sita Bong hingga Selongsong Peluru - AFU.id",
+        "url": "https://afu.id/hukum-kriminal/polda-lampung-kerahkan-401-personel-gerebek-sarang-narkoba-di-pesawaran-polisi-sita-bong-hingga-selongsong-peluru",
+        "source": "AFU.id",
+        "published_at": "2026-11-08T19:15:00+00:00",
+        "collected_at": "2026-11-08T19:46:09.256958+00:00",
+        "region": "LUAR JATIM",
+        "area_label": "LUAR JATIM",
+        "is_jatim": false,
+        "polres": null,
+        "category": "UNGKAP KASUS / PENINDAKAN",
+        "scope": "case",
+        "scope_label": "Ungkap Kasus",
+        "priority": "low",
+        "summary": "Polda Lampung Kerahkan 401 Personel Gerebek Sarang Narkoba di Pesawaran, Polisi Sita Bong hingga Selongsong Peluru AFU.id",
+        "processing_status": "processed",
+        "classifier_version": "contextual-v1.1",
+        "classified_at": "2026-11-08T19:53:45.396978+00:00",
+        "case_id": "CASE-000234",
+        "discovery_families": [],
+        "discovery_tags": [],
+        "discovery_hits": [],
+        "discovery_version": "discovery-v6",
+        "google_news_url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxOZlRlVGdBQnJ2aDljcDNzT1gwaTZNWjk1LUlUSmVsNlZiYnY1aUNLOUx3SWpKRm1XUHZNeUx2cTFXNEQ2dGVrSG1uNkEwM1NJcWp6T3p6eXB3OVp5VENRMmg4RWt4Q3FmdGNXVU0tM25SVzF3VjFCcHZJUEs0Tzk1dXBzWHNudDFLMHFTNDNzVXFldWRZSVA3MXE3OFQwazE3YkRtTk5fVXR5ZFJ3Qkpxb255MmFRYWlTbTNmTnptODlma0Jjekt5dUFka1VGUkNoNXphYndGRmJTNjQ?oc=5",
+        "original_url": "https://afu.id/hukum-kriminal/polda-lampung-kerahkan-401-personel-gerebek-sarang-narkoba-di-pesawaran-polisi-sita-bong-hingga-selongsong-peluru",
+        "canonical_url": "https://afu.id/hukum-kriminal/polda-lampung-kerahkan-401-personel-gerebek-sarang-narkoba-di-pesawaran-polisi-sita-bong-hingga-selongsong-peluru",
+        "duplicate_article": false,
+        "locality": "",
+        "polsek": null,
+        "location_confidence": 100,
+        "location_evidence": [
+          "lampung"
+        ],
+        "location_status": "LUAR_JATIM",
+        "location_source": "title_description",
+        "sentiment": "positive",
+        "sentiment_label": "Positif",
+        "issue_type": "NARKOBA",
+        "issue_subtype": "Narkoba / Narkotika",
+        "issue_evidence": [
+          "narkoba"
+        ],
+        "polri_relation": "PENEGAKAN_HUKUM",
+        "polri_relation_evidence": [
+          "Polri berperan sebagai pihak penindak"
+        ],
+        "handling_status": "BELUM_ADA_INFORMASI",
+        "handling_evidence": [],
+        "assertion_status": "FACTUAL",
+        "assertion_confidence": 75,
+        "assertion_evidence": [],
+        "attention_score": 18,
+        "attention_label": "Rendah",
+        "attention_components": {
+          "severity": 11,
+          "polri_relation": 2,
+          "authority": 0,
+          "public_impact": 4,
+          "handling": 0,
+          "evidence": 1,
+          "context_risk": 0,
+          "routine_enforcement_cap": 35
+        },
+        "attention_evidence": {
+          "severity": [],
+          "authority": [],
+          "public_impact": [],
+          "evidence": [
+            "satu sumber / informasi awal"
+          ],
+          "role": [
+            "Polri sebagai pihak penindak"
+          ],
+          "issue": [
+            "narkoba"
+          ],
+          "handling": [],
+          "context": [],
+          "positive": []
+        },
+        "attention_reasons": [
+          "Polri berperan sebagai pihak penindak",
+          "tidak ditemukan indikator utama misconduct oleh personel"
+        ],
+        "contextual_flags": {
+          "explicit_polri_subject": false,
+          "explicit_polri_enforcer": true,
+          "polri_victim": false,
+          "service_negative": false,
+          "misconduct_signal": true,
+          "direct_positive_enforcement": false
+        },
+        "analysis_engine_version": "contextual-v1.1",
+        "location_engine_version": "location-v2-title-snippet-source",
+        "case_engine_version": "case-v6.5.4",
+        "case_processed_at": "2026-11-08T19:55:54.562270+00:00"
+      },
+      {
+        "id": "d62a02809e3097d120ff445b6f59f8ab76041a80",
+        "title": "Bikin Resah Warga Lamongan, 12 Motor Knalpot Brong Ditilang Polisi - Media Cahaya Baru",
+        "url": "https://mediacahayabaru.id/2026/11/08/bikin-resah-warga-lamongan-12-motor-knalpot-brong-ditilang-polisi/",
+        "source": "Media Cahaya Baru",
+        "published_at": "2026-11-08T16:59:30+00:00",
+        "collected_at": "2026-11-08T19:46:09.256958+00:00",
+        "region": "Jawa Timur",
+        "area_label": "Lamongan",
+        "is_jatim": true,
+        "polres": null,
+        "category": "NETRAL / LAINNYA",
+        "scope": "neutral",
+        "scope_label": "Netral",
+        "priority": "low",
+        "summary": "Bikin Resah Warga Lamongan, 12 Motor Knalpot Brong Ditilang Polisi Media Cahaya Baru",
+        "processing_status": "processed",
+        "classifier_version": "contextual-v1.1",
+        "classified_at": "2026-11-08T19:53:45.418594+00:00",
+        "case_id": null,
+        "discovery_families": [],
+        "discovery_tags": [],
+        "discovery_hits": [],
+        "discovery_version": "discovery-v6",
+        "google_news_url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQOWxrUWtRRnJWb3NPcFJycC1La3lLMEpFWnlKMENLbHNmSmd4SVBPZDJHUlF2dTJ5MXhpTzlaUjZlU2JiMElNd1BBSjJ6UmRDa2N3WXM2anlJV1Budks4M1oyOGJPRU5RcEo2ZmNINUE0VlBYV0FLU0ZCSFpJMmJNZlpDZElFLTh0NkU5Mm5ZYjFpcGlETFBFcmg3RC12LXVwa3dBd3hHdw?oc=5",
+        "original_url": "https://mediacahayabaru.id/2026/11/08/bikin-resah-warga-lamongan-12-motor-knalpot-brong-ditilang-polisi/",
+        "canonical_url": "https://mediacahayabaru.id/2026/11/08/bikin-resah-warga-lamongan-12-motor-knalpot-brong-ditilang-polisi",
+        "duplicate_article": false,
+        "locality": "Lamongan",
+        "polsek": null,
+        "location_confidence": 95,
+        "location_evidence": [
+          "Lamongan"
+        ],
+        "location_status": "JAWA_TIMUR",
+        "location_source": "title_description",
+        "sentiment": "neutral",
+        "sentiment_label": "Netral",
+        "issue_type": "UMUM",
+        "issue_subtype": "Belum Teridentifikasi",
+        "issue_evidence": [],
+        "polri_relation": "INFORMASI_UMUM",
+        "polri_relation_evidence": [
+          "Hubungan Polri belum spesifik"
+        ],
+        "handling_status": "BELUM_ADA_INFORMASI",
+        "handling_evidence": [],
+        "assertion_status": "FACTUAL",
+        "assertion_confidence": 75,
+        "assertion_evidence": [],
+        "attention_score": 15,
+        "attention_label": "Rendah",
+        "attention_components": {
+          "severity": 2,
+          "polri_relation": 0,
+          "authority": 0,
+          "public_impact": 12,
+          "handling": 0,
+          "evidence": 1,
+          "context_risk": 0,
+          "routine_enforcement_cap": null
+        },
+        "attention_evidence": {
+          "severity": [],
+          "authority": [],
+          "public_impact": [
+            "dampak kepada masyarakat"
+          ],
+          "evidence": [
+            "satu sumber / informasi awal"
+          ],
+          "role": [],
+          "issue": [],
+          "handling": [],
+          "context": [],
+          "positive": []
+        },
+        "attention_reasons": [
+          "sifat berita: netral",
+          "Hubungan Polri belum spesifik"
+        ],
+        "contextual_flags": {
+          "explicit_polri_subject": false,
+          "explicit_polri_enforcer": false,
+          "polri_victim": false,
+          "service_negative": false,
+          "misconduct_signal": false,
+          "direct_positive_enforcement": false
+        },
+        "analysis_engine_version": "contextual-v1.1",
+        "location_engine_version": "location-v2-title-snippet-source",
+        "case_engine_version": "case-v6.5.4",
+        "case_processed_at": "2026-11-08T19:55:34.470682+00:00"
+      },
+      {
+        "id": "44aee7f8d71f51952bfaa3a3a96c7bc272996d03",
+        "title": "Polres Batu Tindak Lanjuti Pengaduan Dugaan Tindak Pidana Yang Melibatkan Oknum Anggota Polri - Infokotabatu.com",
+        "url": "https://www.infokotabatu.com/2026/11/polres-batu-tindak-lanjuti-pengaduan.html",
+        "source": "Infokotabatu.com",
+        "published_at": "2026-11-08T16:28:00+00:00",
+        "collected_at": "2026-11-08T19:46:09.256958+00:00",
+        "region": "Jawa Timur",
+        "area_label": "Batu",
+        "is_jatim": true,
+        "polres": "POLRES BATU",
+        "category": "POSITIF / PENEGAKAN HUKUM",
+        "scope": "positive",
+        "scope_label": "Positif",
+        "priority": "low",
+        "summary": "Polres Batu Tindak Lanjuti Pengaduan Dugaan Tindak Pidana Yang Melibatkan Oknum Anggota Polri Infokotabatu.com",
+        "processing_status": "processed",
+        "classifier_version": "contextual-v1.1",
+        "classified_at": "2026-11-08T19:53:45.440476+00:00",
+        "case_id": null,
+        "discovery_families": [
+          "general_police_misconduct"
+        ],
+        "discovery_tags": [
+          "ethics",
+          "oknum"
+        ],
+        "discovery_hits": [
+          "oknum anggota polri"
+        ],
+        "discovery_version": "discovery-v6",
+        "google_news_url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQZzBuT3k1M0dkTmtJY3Y1Yk5QTzIya19zdFYwUEsxUnY3VU9FeUcxNU1SV3ZfNDcwdFc1S3dfWjVBN0t3d3hZY2ZIS0JJVEg0ay15cnJKNW9mZ1RaQXkzRnF0SGk5SUVWdG1PTFBMMkNpaHJnZ2pwdnRnLU5rSG4zVjE5bm8?oc=5",
+        "original_url": "https://www.infokotabatu.com/2026/11/polres-batu-tindak-lanjuti-pengaduan.html",
+        "canonical_url": "https://infokotabatu.com/2026/11/polres-batu-tindak-lanjuti-pengaduan.html",
+        "duplicate_article": false,
+        "locality": "Batu",
+        "polsek": null,
+        "location_confidence": 100,
+        "location_evidence": [
+          "polres batu",
+          "Batu"
+        ],
+        "location_status": "JAWA_TIMUR",
+        "location_source": "master_entity",
+        "sentiment": "positive",
+        "sentiment_label": "Positif",
+        "issue_type": "UMUM",
+        "issue_subtype": "Belum Teridentifikasi",
+        "issue_evidence": [],
+        "polri_relation": "SUBJEK_PERMASALAHAN",
+        "polri_relation_evidence": [
+          "Polri/personel menjadi subjek masalah"
+        ],
+        "handling_status": "BELUM_ADA_INFORMASI",
+        "handling_evidence": [],
+        "assertion_status": "FACTUAL",
+        "assertion_confidence": 75,
+        "assertion_evidence": [],
+        "attention_score": 9,
+        "attention_label": "Rendah",
+        "attention_components": {
+          "severity": 2,
+          "polri_relation": 2,
+          "authority": 0,
+          "public_impact": 4,
+          "handling": 0,
+          "evidence": 1,
+          "context_risk": 0,
+          "routine_enforcement_cap": 35
+        },
+        "attention_evidence": {
+          "severity": [],
+          "authority": [
+            "anggota polri"
+          ],
+          "public_impact": [],
+          "evidence": [
+            "satu sumber / informasi awal"
+          ],
+          "role": [
+            "Polri sebagai pihak penindak"
+          ],
+          "issue": [],
+          "handling": [],
+          "context": [],
+          "positive": []
+        },
+        "attention_reasons": [
+          "sifat berita: positif",
+          "Polri sebagai pihak penindak"
+        ],
+        "contextual_flags": {
+          "explicit_polri_subject": true,
+          "explicit_polri_enforcer": true,
+          "polri_victim": false,
+          "service_negative": false,
+          "misconduct_signal": false,
+          "direct_positive_enforcement": false
+        },
+        "analysis_engine_version": "contextual-v1.1",
+        "location_engine_version": "location-v2-title-snippet-source",
+        "case_engine_version": "case-v6.5.4",
+        "case_processed_at": "2026-11-08T19:55:34.474911+00:00"
+      },
+      {
+        "id": "81af6dead545a93ff402d39d725a8cba83b13099",
+        "title": "Cemburu Buta? Polisi Ungkap Motif Pengeroyokan Maut di Warudoyong Sukabumi - Sukabumi Update - Sukabumi Update",
+        "url": "https://www.sukabumiupdate.com/sukabumi/183262/cemburu-buta-polisi-ungkap-motif-pengeroyokan-maut-di-warudoyong-sukabumi",
+        "source": "Sukabumi Update",
+        "published_at": "2026-11-08T16:26:00+00:00",
+        "collected_at": "2026-11-08T19:46:09.256958+00:00",
+        "region": "BELUM TERPETAKAN",
+        "area_label": "BELUM TERPETAKAN",
+        "is_jatim": null,
+        "polres": null,
+        "category": "UNGKAP KASUS / PENINDAKAN",
+        "scope": "case",
+        "scope_label": "Ungkap Kasus",
+        "priority": "low",
+        "summary": "Cemburu Buta? Polisi Ungkap Motif Pengeroyokan Maut di Warudoyong Sukabumi - Sukabumi Update Sukabumi Update",
+        "processing_status": "processed",
+        "classifier_version": "contextual-v1.1",
+        "classified_at": "2026-11-08T19:53:45.463506+00:00",
+        "case_id": "CASE-004798",
+        "discovery_families": [],
+        "discovery_tags": [],
+        "discovery_hits": [],
+        "discovery_version": "discovery-v6",
+        "google_news_url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNZ3JNcno5Z2ZxZC1lMEpzS01hN3hqLUp4YTktMU9oQXpRbG8zNE1vcDl1TU1YSXpKd3U0akNKay04LUpPOWdKcmJKRTVwVXhhMTZyMjA0amplX3k1OHFyd293TnpROG5LMTNTZnVRMzl2eVB6eU1vNU52SjZibV83bWtja1g1RnEtczA1UWExeXFVd1ZuNTJDQTcySl94WlZnT29YNnVUYk5qbHl1NzB3RXF3bWFXem1ZVVFQd9IBvAFBVV95cUxOUEtiYVp6NFlzaHp4RnBfR1NzYU14a0Q1VVRTbkFya2V5eWVWeDVmYTJ5S3M1UFNhWU1xazhJeXhyOWoydlVIOE1BU1RsRGYwWGVKdHBHQlRUY0kxT21nMHl1M2JPM2dxS1ZKVXpyTzBOYVh6T0x0elp1bXhDLXA0UkZFaThvQTVTWEYxU1JINF9MUTY2elQ3MEZCbm0yaFM1ZFAzS2JScUdhZktGakM3Z3lBWjB1S3BFSjItQw?oc=5",
+        "original_url": "https://www.sukabumiupdate.com/sukabumi/183262/cemburu-buta-polisi-ungkap-motif-pengeroyokan-maut-di-warudoyong-sukabumi",
+        "canonical_url": "https://sukabumiupdate.com/sukabumi/183262/cemburu-buta-polisi-ungkap-motif-pengeroyokan-maut-di-warudoyong-sukabumi",
+        "duplicate_article": false,
+        "locality": "",
+        "polsek": null,
+        "location_confidence": 0,
+        "location_evidence": [],
+        "location_status": "BELUM_TERPETAKAN",
+        "location_source": "title_description",
+        "sentiment": "positive",
+        "sentiment_label": "Positif",
+        "issue_type": "UMUM",
+        "issue_subtype": "Belum Teridentifikasi",
+        "issue_evidence": [],
+        "polri_relation": "PENEGAKAN_HUKUM",
+        "polri_relation_evidence": [
+          "Polri berperan sebagai pihak penindak"
+        ],
+        "handling_status": "BELUM_ADA_INFORMASI",
+        "handling_evidence": [],
+        "assertion_status": "FACTUAL",
+        "assertion_confidence": 75,
+        "assertion_evidence": [],
+        "attention_score": 9,
+        "attention_label": "Rendah",
+        "attention_components": {
+          "severity": 2,
+          "polri_relation": 2,
+          "authority": 0,
+          "public_impact": 4,
+          "handling": 0,
+          "evidence": 1,
+          "context_risk": 0,
+          "routine_enforcement_cap": 35
+        },
+        "attention_evidence": {
+          "severity": [],
+          "authority": [],
+          "public_impact": [],
+          "evidence": [
+            "satu sumber / informasi awal"
+          ],
+          "role": [
+            "Polri sebagai pihak penindak"
+          ],
+          "issue": [],
+          "handling": [],
+          "context": [],
+          "positive": []
+        },
+        "attention_reasons": [
+          "Polri berperan sebagai pihak penindak",
+          "tidak ditemukan indikator utama misconduct oleh personel"
+        ],
+        "contextual_flags": {
+          "explicit_polri_subject": false,
+          "explicit_polri_enforcer": true,
+          "polri_victim": false,
+          "service_negative": false,
+          "misconduct_signal": false,
+          "direct_positive_enforcement": false
+        },
+        "analysis_engine_version": "contextual-v1.1",
+        "location_engine_version": "location-v2-title-snippet-source",
+        "case_engine_version": "case-v6.5.4",
+        "case_processed_at": "2026-11-08T19:55:54.562274+00:00"
+      },
+      {
+        "id": "1758d8798fe8d4cc9df72f5b1e68711a4bcbf216",
+        "title": "Program Minggu Kasih Polda Jatim Sapa Jemaat GKI Rungkut Surabaya, Serukan Perang Lawan Narkoba - Surya.co.id",
+        "url": "https://surabaya.tribunnews.com/surabaya-metro/1954074/program-minggu-kasih-polda-jatim-sapa-jemaat-gki-rungkut-surabaya-serukan-perang-lawan-narkoba",
+        "source": "Surya.co.id",
+        "published_at": "2026-11-08T16:23:30+00:00",
+        "collected_at": "2026-11-08T19:46:09.256958+00:00",
+        "region": "Jawa Timur",
+        "area_label": "Polda Jatim",
+        "is_jatim": true,
+        "polres": null,
+        "category": "NETRAL / PERISTIWA",
+        "scope": "neutral",
+        "scope_label": "Netral",
+        "priority": "low",
+        "summary": "Program Minggu Kasih Polda Jatim Sapa Jemaat GKI Rungkut Surabaya, Serukan Perang Lawan Narkoba Surya.co.id",
+        "processing_status": "processed",
+        "classifier_version": "contextual-v1.1",
+        "classified_at": "2026-11-08T19:53:45.469369+00:00",
+        "case_id": null,
+        "discovery_families": [],
+        "discovery_tags": [],
+        "discovery_hits": [],
+        "discovery_version": "discovery-v6",
+        "google_news_url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxPb2ZHQjZJQTlaR3RfM1VrOGpobmh1b2NZZVEyVTJkX1NLTU5QSmRKNUVlVTJ4VHlCaWR1a2gwaUtYUjV4a1hYMUFscExqblJHSC10NzAyd1NSaVZucnpZSFV6N0ZyWFotZVpmdUVRNHdiVTRtbUM2X1RJTDRLZUVDZDVKTFVBOHR3NlhwdF9nWEpxMVV2dVRwUWJlZnNkUU9wN1FvNFJQOUIySUN3MkxKdnNmQXBsdjV6WmxrQ2stcG93Sk1wamVmNjdVVzA1X2hFUXhROWphdHRGWWMyZ3RvUFJ2SQ?oc=5",
+        "original_url": "https://surabaya.tribunnews.com/surabaya-metro/1954074/program-minggu-kasih-polda-jatim-sapa-jemaat-gki-rungkut-surabaya-serukan-perang-lawan-narkoba",
+        "canonical_url": "https://surabaya.tribunnews.com/surabaya-metro/1954074/program-minggu-kasih-polda-jatim-sapa-jemaat-gki-rungkut-surabaya-serukan-perang-lawan-narkoba",
+        "duplicate_article": false,
+        "locality": "Polda Jatim",
+        "polsek": null,
+        "location_confidence": 100,
+        "location_evidence": [
+          "polda jatim"
+        ],
+        "location_status": "JAWA_TIMUR",
+        "location_source": "master_jatim_unit",
+        "sentiment": "neutral",
+        "sentiment_label": "Netral",
+        "issue_type": "NARKOBA",
+        "issue_subtype": "Narkoba / Narkotika",
+        "issue_evidence": [
+          "narkoba"
+        ],
+        "polri_relation": "INFORMASI_UMUM",
+        "polri_relation_evidence": [
+          "Hubungan Polri belum spesifik"
+        ],
+        "handling_status": "BELUM_ADA_INFORMASI",
+        "handling_evidence": [],
+        "assertion_status": "FACTUAL",
+        "assertion_confidence": 75,
+        "assertion_evidence": [],
+        "attention_score": 16,
+        "attention_label": "Rendah",
+        "attention_components": {
+          "severity": 11,
+          "polri_relation": 0,
+          "authority": 0,
+          "public_impact": 4,
+          "handling": 0,
+          "evidence": 1,
+          "context_risk": 0,
+          "routine_enforcement_cap": null
+        },
+        "attention_evidence": {
+          "severity": [],
+          "authority": [],
+          "public_impact": [],
+          "evidence": [
+            "satu sumber / informasi awal"
+          ],
+          "role": [],
+          "issue": [
+            "narkoba"
+          ],
+          "handling": [],
+          "context": [],
+          "positive": []
+        },
+        "attention_reasons": [
+          "isu/peristiwa ditemukan tetapi relasi Polri sebagai pihak bermasalah tidak cukup kuat"
+        ],
+        "contextual_flags": {
+          "explicit_polri_subject": false,
+          "explicit_polri_enforcer": false,
+          "polri_victim": false,
+          "service_negative": false,
+          "misconduct_signal": true,
+          "direct_positive_enforcement": false
+        },
+        "analysis_engine_version": "contextual-v1.1",
+        "location_engine_version": "location-v2-title-snippet-source",
+        "case_engine_version": "case-v6.5.4",
+        "case_processed_at": "2026-11-08T19:55:34.479695+00:00"
+      },
+      {
+        "id": "d9fb4f5a759ac363520cdf253c51e17685fdf979",
+        "title": "Polsek Pesantren Kediri Ingatkan Warga Kleco soal Jejak Digital Judi Online - Polres Kediri Kota",
+        "url": "https://polreskedirikota.com/polsek-pesantren-kediri-ingatkan-warga-kleco-soal-jejak-digital-judi-online/",
+        "source": "Polres Kediri Kota",
+        "published_at": "2026-11-08T15:52:04+00:00",
+        "collected_at": "2026-11-08T19:46:09.256958+00:00",
+        "region": "Jawa Timur",
+        "area_label": "Kediri",
+        "is_jatim": true,
+        "polres": "POLRES KEDIRI KOTA",
+        "category": "NETRAL / PERISTIWA",
+        "scope": "neutral",
+        "scope_label": "Netral",
+        "priority": "low",
+        "summary": "Polsek Pesantren Kediri Ingatkan Warga Kleco soal Jejak Digital Judi Online Polres Kediri Kota",
+        "processing_status": "processed",
+        "classifier_version": "contextual-v1.1",
+        "classified_at": "2026-11-08T19:53:45.489819+00:00",
+        "case_id": null,
+        "discovery_families": [
+          "illegal_activity_backing"
+        ],
+        "discovery_tags": [
+          "backing",
+          "illegal_activity",
+          "public_order"
+        ],
+        "discovery_hits": [
+          "judi online"
+        ],
+        "discovery_version": "discovery-v6",
+        "google_news_url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNdWlpaGR0TWtreGg3R3NvX0RVeU1ZNkZkcDE4aHpxN0p6Y2djZ0FGdmJ6cHBCMndTQkNCbXRqVmpPZktJbHRERTE4Qzk5TkNGWHp3S1BxS192alVkMW5LdW8zRVV5d05QTkQ5WGxQekdqem5PV052UDRIRG9uSHJFelEzT29Sa2NVWGhxUXFxbUxSZTA5RnhfV1lidDJydTh1VElveWNNcVc?oc=5",
+        "original_url": "https://polreskedirikota.com/polsek-pesantren-kediri-ingatkan-warga-kleco-soal-jejak-digital-judi-online/",
+        "canonical_url": "https://polreskedirikota.com/polsek-pesantren-kediri-ingatkan-warga-kleco-soal-jejak-digital-judi-online",
+        "duplicate_article": false,
+        "duplicate_group_id": "b2feef324e6c462c",
+        "locality": "Kediri",
+        "polsek": "POLSEK PESANTREN",
+        "location_confidence": 100,
+        "location_evidence": [
+          "polres kediri kota",
+          "POLSEK PESANTREN",
+          "Kediri"
+        ],
+        "location_status": "JAWA_TIMUR",
+        "location_source": "master_entity",
+        "sentiment": "neutral",
+        "sentiment_label": "Netral",
+        "issue_type": "AKTIVITAS_ILEGAL",
+        "issue_subtype": "Aktivitas Ilegal",
+        "issue_evidence": [
+          "judi online"
+        ],
+        "polri_relation": "INFORMASI_UMUM",
+        "polri_relation_evidence": [
+          "Hubungan Polri belum spesifik"
+        ],
+        "handling_status": "BELUM_ADA_INFORMASI",
+        "handling_evidence": [],
+        "assertion_status": "FACTUAL",
+        "assertion_confidence": 75,
+        "assertion_evidence": [],
+        "attention_score": 27,
+        "attention_label": "Rendah",
+        "attention_components": {
+          "severity": 14,
+          "polri_relation": 0,
+          "authority": 0,
+          "public_impact": 12,
+          "handling": 0,
+          "evidence": 1,
+          "context_risk": 0,
+          "routine_enforcement_cap": null
+        },
+        "attention_evidence": {
+          "severity": [],
+          "authority": [],
+          "public_impact": [
+            "dampak kepada masyarakat"
+          ],
+          "evidence": [
+            "satu sumber / informasi awal"
+          ],
+          "role": [],
+          "issue": [
+            "judi online"
+          ],
+          "handling": [],
+          "context": [],
+          "positive": []
+        },
+        "attention_reasons": [
+          "isu/peristiwa ditemukan tetapi relasi Polri sebagai pihak bermasalah tidak cukup kuat"
+        ],
+        "contextual_flags": {
+          "explicit_polri_subject": false,
+          "explicit_polri_enforcer": false,
+          "polri_victim": false,
+          "service_negative": false,
+          "misconduct_signal": false,
+          "direct_positive_enforcement": false
+        },
+        "analysis_engine_version": "contextual-v1.1",
+        "location_engine_version": "location-v2-title-snippet-source",
+        "case_engine_version": "case-v6.5.4",
+        "case_processed_at": "2026-11-08T19:55:34.483992+00:00"
+      },
+      {
+        "id": "489cbaecbca69daef1b743f6219e9eac4f88c4df",
+        "title": "Polisi Tangkap 5 Pelaku Tawuran yang Tewaskan 1 Warga di Makassar | BERUT - Kompas.tv",
+        "url": "https://www.kompas.tv/regional/700458/polisi-tangkap-5-pelaku-tawuran-yang-tewaskan-1-warga-di-makassar-berut",
+        "source": "Kompas.tv",
+        "published_at": "2026-11-08T15:50:00+00:00",
+        "collected_at": "2026-11-08T19:46:09.256958+00:00",
+        "region": "BELUM TERPETAKAN",
+        "area_label": "BELUM TERPETAKAN",
+        "is_jatim": null,
+        "polres": null,
+        "category": "UNGKAP KASUS / PENINDAKAN",
+        "scope": "case",
+        "scope_label": "Ungkap Kasus",
+        "priority": "medium",
+        "summary": "Polisi Tangkap 5 Pelaku Tawuran yang Tewaskan 1 Warga di Makassar | BERUT Kompas.tv",
+        "processing_status": "processed",
+        "classifier_version": "contextual-v1.1",
+        "classified_at": "2026-11-08T19:53:45.512425+00:00",
+        "case_id": "CASE-004799",
+        "discovery_families": [
+          "security_public_order"
+        ],
+        "discovery_tags": [
+          "public_order",
+          "security"
+        ],
+        "discovery_hits": [
+          "tawuran"
+        ],
+        "discovery_version": "discovery-v6",
+        "google_news_url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQSTlwZkpuMHFyU1hhQldGUlFCcnJMWkFNUzQ0MXpILTFfd2NlNmZPemNvTFpoTjZ2SXI4NkR6d3Rva3A0MXJ0Z3dlU1dVbU9fVjBpRUdoa09RSkM2Y3QxLUVFZnY0Qmt2NlVGT0hjeS1WRFlsaVZsbGg3VGlVWFN3ME4xRVJhMGk1a0RLdXZSQ3R2ZFF1c3E2azBTZFBZU1Nmc0ozWWJVR1ZFSTBab0E?oc=5",
+        "original_url": "https://www.kompas.tv/regional/700458/polisi-tangkap-5-pelaku-tawuran-yang-tewaskan-1-warga-di-makassar-berut",
+        "canonical_url": "https://kompas.tv/regional/700458/polisi-tangkap-5-pelaku-tawuran-yang-tewaskan-1-warga-di-makassar-berut",
+        "duplicate_article": false,
+        "locality": "",
+        "polsek": null,
+        "location_confidence": 0,
+        "location_evidence": [],
+        "location_status": "BELUM_TERPETAKAN",
+        "location_source": "title_description",
+        "sentiment": "positive",
+        "sentiment_label": "Positif",
+        "issue_type": "KEAMANAN_DAN_KAMTIBMAS",
+        "issue_subtype": "Gangguan Keamanan / Kamtibmas",
+        "issue_evidence": [
+          "tawuran"
+        ],
+        "polri_relation": "PENEGAKAN_HUKUM",
+        "polri_relation_evidence": [
+          "Polri berperan sebagai pihak penindak"
+        ],
+        "handling_status": "BELUM_ADA_INFORMASI",
+        "handling_evidence": [],
+        "assertion_status": "FACTUAL",
+        "assertion_confidence": 75,
+        "assertion_evidence": [],
+        "attention_score": 39,
+        "attention_label": "Rendah",
+        "attention_components": {
+          "severity": 21,
+          "polri_relation": 0,
+          "authority": 0,
+          "public_impact": 12,
+          "handling": 0,
+          "evidence": 1,
+          "context_risk": 0,
+          "routine_enforcement_cap": null
+        },
+        "attention_evidence": {
+          "severity": [],
+          "authority": [],
+          "public_impact": [
+            "dampak kepada masyarakat"
+          ],
+          "evidence": [
+            "satu sumber / informasi awal"
+          ],
+          "role": [],
+          "issue": [
+            "tawuran"
+          ],
+          "handling": [],
+          "context": [],
+          "positive": []
+        },
+        "attention_reasons": [
+          "Polri berperan sebagai pihak penindak",
+          "tidak ditemukan indikator utama misconduct oleh personel"
+        ],
+        "contextual_flags": {
+          "explicit_polri_subject": false,
+          "explicit_polri_enforcer": true,
+          "polri_victim": false,
+          "service_negative": false,
+          "misconduct_signal": false,
+          "direct_positive_enforcement": false
+        },
+        "analysis_engine_version": "contextual-v1.1",
+        "location_engine_version": "location-v2-title-snippet-source",
+        "case_engine_version": "case-v6.5.4",
+        "case_processed_at": "2026-11-08T19:55:54.562277+00:00"
+      },
+      {
+        "id": "e893a56530ef9c2c7b400d21650e5e1eea9552e4",
+        "title": "Polri Terjunkan 400 Personel Gerebek 3 Desa di Lampung, Buru Bandar Narkoba | BERUT - Kompas.tv",
+        "url": "https://www.kompas.tv/regional/700455/polri-terjunkan-400-personel-gerebek-3-desa-di-lampung-buru-bandar-narkoba-berut",
+        "source": "Kompas.tv",
+        "published_at": "2026-11-08T15:40:00+00:00",
+        "collected_at": "2026-11-08T19:46:09.256958+00:00",
+        "region": "LUAR JATIM",
+        "area_label": "LUAR JATIM",
+        "is_jatim": false,
+        "polres": null,
+        "category": "NETRAL / PERISTIWA",
+        "scope": "neutral",
+        "scope_label": "Netral",
+        "priority": "low",
+        "summary": "Polri Terjunkan 400 Personel Gerebek 3 Desa di Lampung, Buru Bandar Narkoba | BERUT Kompas.tv",
+        "processing_status": "processed",
+        "classifier_version": "contextual-v1.1",
+        "classified_at": "2026-11-08T19:53:45.534366+00:00",
+        "case_id": null,
+        "discovery_families": [],
+        "discovery_tags": [],
+        "discovery_hits": [],
+        "discovery_version": "discovery-v6",
+        "google_news_url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPT3h6QzFXNTUydGI4Nm5lSGMxcllyVjhFMThoNkI4Qzl3bnFqbUxZLWF4bEdYZDNDY3pGamxucXBWVExkdEFqNjVWbVE0cTR5UjlYSzA1amZ1SGstel84OHZ0N2c0WVQ0OGp2aHlmQjFFMElCLWg3UnFkRzNabVV2VjVlTVFnX0lmMnlRRFlKUU0tdm9SOWFwNjBLSnFab25OeXdyQ0FybktQQUtJczNteXZXOFNTcjFJT2fSAb8BQVVfeXFMTnZfZ2VDY0psZ25VWnJUektqb0tHQVZ6eHAyem5feHpRT1R3UnVpTm84YnIxWmFVTzM4dWhKRm1jbktoN2Jwdy1nNlFZdXpvVWxoYWQ0TmluUFhXQTdiRlItdkNhRElwQUMwb1FnMEhsQ0I1c3RCWHp3YmFxWkZ4RVNKMm56RHE0Tzlld05BSlVJdFM3X0NUaDVVVm8yV0pxdkdBYVJqdFVBZ3R5SGJCTFg0SWlfVWZHN085Q2JwZU0?oc=5",
+        "original_url": "https://www.kompas.tv/regional/700455/polri-terjunkan-400-personel-gerebek-3-desa-di-lampung-buru-bandar-narkoba-berut",
+        "canonical_url": "https://kompas.tv/regional/700455/polri-terjunkan-400-personel-gerebek-3-desa-di-lampung-buru-bandar-narkoba-berut",
+        "duplicate_article": false,
+        "locality": "",
+        "polsek": null,
+        "location_confidence": 100,
+        "location_evidence": [
+          "lampung"
+        ],
+        "location_status": "LUAR_JATIM",
+        "location_source": "title_description",
+        "sentiment": "neutral",
+        "sentiment_label": "Netral",
+        "issue_type": "NARKOBA",
+        "issue_subtype": "Narkoba / Narkotika",
+        "issue_evidence": [
+          "narkoba"
+        ],
+        "polri_relation": "INFORMASI_UMUM",
+        "polri_relation_evidence": [
+          "Hubungan Polri belum spesifik"
+        ],
+        "handling_status": "BELUM_ADA_INFORMASI",
+        "handling_evidence": [],
+        "assertion_status": "FACTUAL",
+        "assertion_confidence": 75,
+        "assertion_evidence": [],
+        "attention_score": 16,
+        "attention_label": "Rendah",
+        "attention_components": {
+          "severity": 11,
+          "polri_relation": 0,
+          "authority": 0,
+          "public_impact": 4,
+          "handling": 0,
+          "evidence": 1,
+          "context_risk": 0,
+          "routine_enforcement_cap": null
+        },
+        "attention_evidence": {
+          "severity": [],
+          "authority": [],
+          "public_impact": [],
+          "evidence": [
+            "satu sumber / informasi awal"
+          ],
+          "role": [],
+          "issue": [
+            "narkoba"
+          ],
+          "handling": [],
+          "context": [],
+          "positive": []
+        },
+        "attention_reasons": [
+          "isu/peristiwa ditemukan tetapi relasi Polri sebagai pihak bermasalah tidak cukup kuat"
+        ],
+        "contextual_flags": {
+          "explicit_polri_subject": false,
+          "explicit_polri_enforcer": false,
+          "polri_victim": false,
+          "service_negative": false,
+          "misconduct_signal": true,
+          "direct_positive_enforcement": false
+        },
+        "analysis_engine_version": "contextual-v1.1",
+        "location_engine_version": "location-v2-title-snippet-source",
+        "case_engine_version": "case-v6.5.4",
+        "case_processed_at": "2026-11-08T19:55:34.488824+00:00"
+      },
+      {
+        "id": "2a85dad231998f373e79c604ba53487d501dbaa7",
+        "title": "Polres Batu Dalami Dugaan Perzinaan yang Melibatkan Oknum Polisi dan Kepala Desa - BACAMALANG.COM -",
+        "url": "https://bacamalang.com/polres-batu-dalami-dugaan-perzinaan-yang-melibatkan-oknum-polisi-dan-kepala-desa/",
+        "source": "BACAMALANG.COM -",
+        "published_at": "2026-11-08T15:38:00+00:00",
+        "collected_at": "2026-11-08T19:46:09.256958+00:00",
+        "region": "Jawa Timur",
+        "area_label": "Batu",
+        "is_jatim": true,
+        "polres": "POLRES BATU",
+        "category": "NETRAL / LAINNYA",
+        "scope": "neutral",
+        "scope_label": "Netral",
+        "priority": "low",
+        "summary": "Polres Batu Dalami Dugaan Perzinaan yang Melibatkan Oknum Polisi dan Kepala Desa BACAMALANG.COM -",
+        "processing_status": "processed",
+        "classifier_version": "contextual-v1.1",
+        "classified_at": "2026-11-08T19:53:45.555610+00:00",
+        "case_id": null,
+        "discovery_families": [
+          "general_police_misconduct"
+        ],
+        "discovery_tags": [
+          "ethics",
+          "oknum"
+        ],
+        "discovery_hits": [
+          "oknum polisi"
+        ],
+        "discovery_version": "discovery-v6",
+        "google_news_url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQckxPSGVqdXhJM1l6cVU2aUY4UTcwVUwzLUtlVDc3b3dOSjZUb0ZnMzZCaDBHT0RTNVBKdDFXa3FiTjQxb0hfb2h5RjFoVzNzcGlCMmFtQWhJQjFCUUdOSHZUcm5LMC1qQ2RSNFRrNWpJRml4TTN1UEhlTE9wWmtPTmtYSUtQLUwwNHpyaTZpQXFqSXJEaFJUMFRqMDFTbTE3TlliVkhPVQ?oc=5",
+        "original_url": "https://bacamalang.com/polres-batu-dalami-dugaan-perzinaan-yang-melibatkan-oknum-polisi-dan-kepala-desa/",
+        "canonical_url": "https://bacamalang.com/polres-batu-dalami-dugaan-perzinaan-yang-melibatkan-oknum-polisi-dan-kepala-desa",
+        "duplicate_article": false,
+        "locality": "Batu",
+        "polsek": null,
+        "location_confidence": 100,
+        "location_evidence": [
+          "polres batu",
+          "Batu"
+        ],
+        "location_status": "JAWA_TIMUR",
+        "location_source": "master_entity",
+        "sentiment": "neutral",
+        "sentiment_label": "Netral",
+        "issue_type": "UMUM",
+        "issue_subtype": "Belum Teridentifikasi",
+        "issue_evidence": [],
+        "polri_relation": "SUBJEK_PERMASALAHAN",
+        "polri_relation_evidence": [
+          "Polri/personel menjadi subjek masalah"
+        ],
+        "handling_status": "BELUM_ADA_INFORMASI",
+        "handling_evidence": [],
+        "assertion_status": "FACTUAL",
+        "assertion_confidence": 75,
+        "assertion_evidence": [],
+        "attention_score": 7,
+        "attention_label": "Rendah",
+        "attention_components": {
+          "severity": 2,
+          "polri_relation": 0,
+          "authority": 0,
+          "public_impact": 4,
+          "handling": 0,
+          "evidence": 1,
+          "context_risk": 0,
+          "routine_enforcement_cap": null
+        },
+        "attention_evidence": {
+          "severity": [],
+          "authority": [
+            "oknum polisi"
+          ],
+          "public_impact": [],
+          "evidence": [
+            "satu sumber / informasi awal"
+          ],
+          "role": [],
+          "issue": [],
+          "handling": [],
+          "context": [],
+          "positive": []
+        },
+        "attention_reasons": [
+          "sifat berita: netral",
+          "Hubungan Polri belum spesifik"
+        ],
+        "contextual_flags": {
+          "explicit_polri_subject": true,
+          "explicit_polri_enforcer": false,
+          "polri_victim": false,
+          "service_negative": false,
+          "misconduct_signal": false,
+          "direct_positive_enforcement": false
+        },
+        "analysis_engine_version": "contextual-v1.1",
+        "location_engine_version": "location-v2-title-snippet-source",
+        "case_engine_version": "case-v6.5.4",
+        "case_processed_at": "2026-11-08T19:55:34.493009+00:00"
+      },
+      {
+        "id": "0b122d3392500a4c824f4e7a4070248b8821e997",
+        "title": "Ratusan Polisi Mojokerto Disiagakan di Daerah Rawan Bencana Hidrometeorologi - Tribunjatim.com",
+        "url": "https://jatim.tribunnews.com/mojokerto/565919/ratusan-polisi-mojokerto-disiagakan-di-daerah-rawan-bencana-hidrometeorologi",
+        "source": "Tribunjatim.com",
+        "published_at": "2026-11-08T15:19:59+00:00",
+        "collected_at": "2026-11-08T19:46:09.256958+00:00",
+        "region": "Jawa Timur",
+        "area_label": "Mojokerto",
+        "is_jatim": true,
+        "polres": null,
+        "category": "NETRAL / LAINNYA",
+        "scope": "neutral",
+        "scope_label": "Netral",
+        "priority": "low",
+        "summary": "Ratusan Polisi Mojokerto Disiagakan di Daerah Rawan Bencana Hidrometeorologi Tribunjatim.com",
+        "processing_status": "processed",
+        "classifier_version": "contextual-v1.1",
+        "classified_at": "2026-11-08T19:53:45.578128+00:00",
+        "case_id": null,
+        "discovery_families": [],
+        "discovery_tags": [],
+        "discovery_hits": [],
+        "discovery_version": "discovery-v6",
+        "google_news_url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQSXZPZDJxZXpTT2VkVEF3c0ZuM3RkTF85dF9idUFfYVNJcUxsdmdVQjBHTXJqeGlQX1VZWW1DLTl3YUx1NHRURlpuMENHWDRsYWZvN3h5SXMxN0FRRXdsOHlGeFNaUkhQQ1lWRmllZXFUOGw3RWxRVFRHZVVWUDIxdVgyWXlCMVAtQm5RdUVhZnd1OUJzOGF3UW0xSFJDMHZIZG9JdzdiVERfRDJWM0dIQnFFdnk0TldnOExKNWhxRQ?oc=5",
+        "original_url": "https://jatim.tribunnews.com/mojokerto/565919/ratusan-polisi-mojokerto-disiagakan-di-daerah-rawan-bencana-hidrometeorologi",
+        "canonical_url": "https://jatim.tribunnews.com/mojokerto/565919/ratusan-polisi-mojokerto-disiagakan-di-daerah-rawan-bencana-hidrometeorologi",
+        "duplicate_article": false,
+        "locality": "Mojokerto",
+        "polsek": null,
+        "location_confidence": 95,
+        "location_evidence": [
+          "Mojokerto"
+        ],
+        "location_status": "JAWA_TIMUR",
+        "location_source": "title_description",
+        "sentiment": "neutral",
+        "sentiment_label": "Netral",
+        "issue_type": "UMUM",
+        "issue_subtype": "Belum Teridentifikasi",
+        "issue_evidence": [],
+        "polri_relation": "INFORMASI_UMUM",
+        "polri_relation_evidence": [
+          "Hubungan Polri belum spesifik"
+        ],
+        "handling_status": "BELUM_ADA_INFORMASI",
+        "handling_evidence": [],
+        "assertion_status": "FACTUAL",
+        "assertion_confidence": 75,
+        "assertion_evidence": [],
+        "attention_score": 7,
+        "attention_label": "Rendah",
+        "attention_components": {
+          "severity": 2,
+          "polri_relation": 0,
+          "authority": 0,
+          "public_impact": 4,
+          "handling": 0,
+          "evidence": 1,
+          "context_risk": 0,
+          "routine_enforcement_cap": null
+        },
+        "attention_evidence": {
+          "severity": [],
+          "authority": [],
+          "public_impact": [],
+          "evidence": [
+            "satu sumber / informasi awal"
+          ],
+          "role": [],
+          "issue": [],
+          "handling": [],
+          "context": [],
+          "positive": []
+        },
+        "attention_reasons": [
+          "sifat berita: netral",
+          "Hubungan Polri belum spesifik"
+        ],
+        "contextual_flags": {
+          "explicit_polri_subject": false,
+          "explicit_polri_enforcer": false,
+          "polri_victim": false,
+          "service_negative": false,
+          "misconduct_signal": false,
+          "direct_positive_enforcement": false
+        },
+        "analysis_engine_version": "contextual-v1.1",
+        "location_engine_version": "location-v2-title-snippet-source",
+        "case_engine_version": "case-v6.5.4",
+        "case_processed_at": "2026-11-08T19:55:34.497638+00:00"
+      }
+    ],
+    "jatim_items": [
+      {
+        "id": "d62a02809e3097d120ff445b6f59f8ab76041a80",
+        "title": "Bikin Resah Warga Lamongan, 12 Motor Knalpot Brong Ditilang Polisi - Media Cahaya Baru",
+        "url": "https://mediacahayabaru.id/2026/11/08/bikin-resah-warga-lamongan-12-motor-knalpot-brong-ditilang-polisi/",
+        "source": "Media Cahaya Baru",
+        "published_at": "2026-11-08T16:59:30+00:00",
+        "collected_at": "2026-11-08T19:46:09.256958+00:00",
+        "region": "Jawa Timur",
+        "area_label": "Lamongan",
+        "is_jatim": true,
+        "polres": null,
+        "category": "NETRAL / LAINNYA",
+        "scope": "neutral",
+        "scope_label": "Netral",
+        "priority": "low",
+        "summary": "Bikin Resah Warga Lamongan, 12 Motor Knalpot Brong Ditilang Polisi Media Cahaya Baru",
+        "processing_status": "processed",
+        "classifier_version": "contextual-v1.1",
+        "classified_at": "2026-11-08T19:53:45.418594+00:00",
+        "case_id": null,
+        "discovery_families": [],
+        "discovery_tags": [],
+        "discovery_hits": [],
+        "discovery_version": "discovery-v6",
+        "google_news_url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQOWxrUWtRRnJWb3NPcFJycC1La3lLMEpFWnlKMENLbHNmSmd4SVBPZDJHUlF2dTJ5MXhpTzlaUjZlU2JiMElNd1BBSjJ6UmRDa2N3WXM2anlJV1Budks4M1oyOGJPRU5RcEo2ZmNINUE0VlBYV0FLU0ZCSFpJMmJNZlpDZElFLTh0NkU5Mm5ZYjFpcGlETFBFcmg3RC12LXVwa3dBd3hHdw?oc=5",
+        "original_url": "https://mediacahayabaru.id/2026/11/08/bikin-resah-warga-lamongan-12-motor-knalpot-brong-ditilang-polisi/",
+        "canonical_url": "https://mediacahayabaru.id/2026/11/08/bikin-resah-warga-lamongan-12-motor-knalpot-brong-ditilang-polisi",
+        "duplicate_article": false,
+        "locality": "Lamongan",
+        "polsek": null,
+        "location_confidence": 95,
+        "location_evidence": [
+          "Lamongan"
+        ],
+        "location_status": "JAWA_TIMUR",
+        "location_source": "title_description",
+        "sentiment": "neutral",
+        "sentiment_label": "Netral",
+        "issue_type": "UMUM",
+        "issue_subtype": "Belum Teridentifikasi",
+        "issue_evidence": [],
+        "polri_relation": "INFORMASI_UMUM",
+        "polri_relation_evidence": [
+          "Hubungan Polri belum spesifik"
+        ],
+        "handling_status": "BELUM_ADA_INFORMASI",
+        "handling_evidence": [],
+        "assertion_status": "FACTUAL",
+        "assertion_confidence": 75,
+        "assertion_evidence": [],
+        "attention_score": 15,
+        "attention_label": "Rendah",
+        "attention_components": {
+          "severity": 2,
+          "polri_relation": 0,
+          "authority": 0,
+          "public_impact": 12,
+          "handling": 0,
+          "evidence": 1,
+          "context_risk": 0,
+          "routine_enforcement_cap": null
+        },
+        "attention_evidence": {
+          "severity": [],
+          "authority": [],
+          "public_impact": [
+            "dampak kepada masyarakat"
+          ],
+          "evidence": [
+            "satu sumber / informasi awal"
+          ],
+          "role": [],
+          "issue": [],
+          "handling": [],
+          "context": [],
+          "positive": []
+        },
+        "attention_reasons": [
+          "sifat berita: netral",
+          "Hubungan Polri belum spesifik"
+        ],
+        "contextual_flags": {
+          "explicit_polri_subject": false,
+          "explicit_polri_enforcer": false,
+          "polri_victim": false,
+          "service_negative": false,
+          "misconduct_signal": false,
+          "direct_positive_enforcement": false
+        },
+        "analysis_engine_version": "contextual-v1.1",
+        "location_engine_version": "location-v2-title-snippet-source",
+        "case_engine_version": "case-v6.5.4",
+        "case_processed_at": "2026-11-08T19:55:34.470682+00:00"
+      },
+      {
+        "id": "44aee7f8d71f51952bfaa3a3a96c7bc272996d03",
+        "title": "Polres Batu Tindak Lanjuti Pengaduan Dugaan Tindak Pidana Yang Melibatkan Oknum Anggota Polri - Infokotabatu.com",
+        "url": "https://www.infokotabatu.com/2026/11/polres-batu-tindak-lanjuti-pengaduan.html",
+        "source": "Infokotabatu.com",
+        "published_at": "2026-11-08T16:28:00+00:00",
+        "collected_at": "2026-11-08T19:46:09.256958+00:00",
+        "region": "Jawa Timur",
+        "area_label": "Batu",
+        "is_jatim": true,
+        "polres": "POLRES BATU",
+        "category": "POSITIF / PENEGAKAN HUKUM",
+        "scope": "positive",
+        "scope_label": "Positif",
+        "priority": "low",
+        "summary": "Polres Batu Tindak Lanjuti Pengaduan Dugaan Tindak Pidana Yang Melibatkan Oknum Anggota Polri Infokotabatu.com",
+        "processing_status": "processed",
+        "classifier_version": "contextual-v1.1",
+        "classified_at": "2026-11-08T19:53:45.440476+00:00",
+        "case_id": null,
+        "discovery_families": [
+          "general_police_misconduct"
+        ],
+        "discovery_tags": [
+          "ethics",
+          "oknum"
+        ],
+        "discovery_hits": [
+          "oknum anggota polri"
+        ],
+        "discovery_version": "discovery-v6",
+        "google_news_url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQZzBuT3k1M0dkTmtJY3Y1Yk5QTzIya19zdFYwUEsxUnY3VU9FeUcxNU1SV3ZfNDcwdFc1S3dfWjVBN0t3d3hZY2ZIS0JJVEg0ay15cnJKNW9mZ1RaQXkzRnF0SGk5SUVWdG1PTFBMMkNpaHJnZ2pwdnRnLU5rSG4zVjE5bm8?oc=5",
+        "original_url": "https://www.infokotabatu.com/2026/11/polres-batu-tindak-lanjuti-pengaduan.html",
+        "canonical_url": "https://infokotabatu.com/2026/11/polres-batu-tindak-lanjuti-pengaduan.html",
+        "duplicate_article": false,
+        "locality": "Batu",
+        "polsek": null,
+        "location_confidence": 100,
+        "location_evidence": [
+          "polres batu",
+          "Batu"
+        ],
+        "location_status": "JAWA_TIMUR",
+        "location_source": "master_entity",
+        "sentiment": "positive",
+        "sentiment_label": "Positif",
+        "issue_type": "UMUM",
+        "issue_subtype": "Belum Teridentifikasi",
+        "issue_evidence": [],
+        "polri_relation": "SUBJEK_PERMASALAHAN",
+        "polri_relation_evidence": [
+          "Polri/personel menjadi subjek masalah"
+        ],
+        "handling_status": "BELUM_ADA_INFORMASI",
+        "handling_evidence": [],
+        "assertion_status": "FACTUAL",
+        "assertion_confidence": 75,
+        "assertion_evidence": [],
+        "attention_score": 9,
+        "attention_label": "Rendah",
+        "attention_components": {
+          "severity": 2,
+          "polri_relation": 2,
+          "authority": 0,
+          "public_impact": 4,
+          "handling": 0,
+          "evidence": 1,
+          "context_risk": 0,
+          "routine_enforcement_cap": 35
+        },
+        "attention_evidence": {
+          "severity": [],
+          "authority": [
+            "anggota polri"
+          ],
+          "public_impact": [],
+          "evidence": [
+            "satu sumber / informasi awal"
+          ],
+          "role": [
+            "Polri sebagai pihak penindak"
+          ],
+          "issue": [],
+          "handling": [],
+          "context": [],
+          "positive": []
+        },
+        "attention_reasons": [
+          "sifat berita: positif",
+          "Polri sebagai pihak penindak"
+        ],
+        "contextual_flags": {
+          "explicit_polri_subject": true,
+          "explicit_polri_enforcer": true,
+          "polri_victim": false,
+          "service_negative": false,
+          "misconduct_signal": false,
+          "direct_positive_enforcement": false
+        },
+        "analysis_engine_version": "contextual-v1.1",
+        "location_engine_version": "location-v2-title-snippet-source",
+        "case_engine_version": "case-v6.5.4",
+        "case_processed_at": "2026-11-08T19:55:34.474911+00:00"
+      },
+      {
+        "id": "1758d8798fe8d4cc9df72f5b1e68711a4bcbf216",
+        "title": "Program Minggu Kasih Polda Jatim Sapa Jemaat GKI Rungkut Surabaya, Serukan Perang Lawan Narkoba - Surya.co.id",
+        "url": "https://surabaya.tribunnews.com/surabaya-metro/1954074/program-minggu-kasih-polda-jatim-sapa-jemaat-gki-rungkut-surabaya-serukan-perang-lawan-narkoba",
+        "source": "Surya.co.id",
+        "published_at": "2026-11-08T16:23:30+00:00",
+        "collected_at": "2026-11-08T19:46:09.256958+00:00",
+        "region": "Jawa Timur",
+        "area_label": "Polda Jatim",
+        "is_jatim": true,
+        "polres": null,
+        "category": "NETRAL / PERISTIWA",
+        "scope": "neutral",
+        "scope_label": "Netral",
+        "priority": "low",
+        "summary": "Program Minggu Kasih Polda Jatim Sapa Jemaat GKI Rungkut Surabaya, Serukan Perang Lawan Narkoba Surya.co.id",
+        "processing_status": "processed",
+        "classifier_version": "contextual-v1.1",
+        "classified_at": "2026-11-08T19:53:45.469369+00:00",
+        "case_id": null,
+        "discovery_families": [],
+        "discovery_tags": [],
+        "discovery_hits": [],
+        "discovery_version": "discovery-v6",
+        "google_news_url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxPb2ZHQjZJQTlaR3RfM1VrOGpobmh1b2NZZVEyVTJkX1NLTU5QSmRKNUVlVTJ4VHlCaWR1a2gwaUtYUjV4a1hYMUFscExqblJHSC10NzAyd1NSaVZucnpZSFV6N0ZyWFotZVpmdUVRNHdiVTRtbUM2X1RJTDRLZUVDZDVKTFVBOHR3NlhwdF9nWEpxMVV2dVRwUWJlZnNkUU9wN1FvNFJQOUIySUN3MkxKdnNmQXBsdjV6WmxrQ2stcG93Sk1wamVmNjdVVzA1X2hFUXhROWphdHRGWWMyZ3RvUFJ2SQ?oc=5",
+        "original_url": "https://surabaya.tribunnews.com/surabaya-metro/1954074/program-minggu-kasih-polda-jatim-sapa-jemaat-gki-rungkut-surabaya-serukan-perang-lawan-narkoba",
+        "canonical_url": "https://surabaya.tribunnews.com/surabaya-metro/1954074/program-minggu-kasih-polda-jatim-sapa-jemaat-gki-rungkut-surabaya-serukan-perang-lawan-narkoba",
+        "duplicate_article": false,
+        "locality": "Polda Jatim",
+        "polsek": null,
+        "location_confidence": 100,
+        "location_evidence": [
+          "polda jatim"
+        ],
+        "location_status": "JAWA_TIMUR",
+        "location_source": "master_jatim_unit",
+        "sentiment": "neutral",
+        "sentiment_label": "Netral",
+        "issue_type": "NARKOBA",
+        "issue_subtype": "Narkoba / Narkotika",
+        "issue_evidence": [
+          "narkoba"
+        ],
+        "polri_relation": "INFORMASI_UMUM",
+        "polri_relation_evidence": [
+          "Hubungan Polri belum spesifik"
+        ],
+        "handling_status": "BELUM_ADA_INFORMASI",
+        "handling_evidence": [],
+        "assertion_status": "FACTUAL",
+        "assertion_confidence": 75,
+        "assertion_evidence": [],
+        "attention_score": 16,
+        "attention_label": "Rendah",
+        "attention_components": {
+          "severity": 11,
+          "polri_relation": 0,
+          "authority": 0,
+          "public_impact": 4,
+          "handling": 0,
+          "evidence": 1,
+          "context_risk": 0,
+          "routine_enforcement_cap": null
+        },
+        "attention_evidence": {
+          "severity": [],
+          "authority": [],
+          "public_impact": [],
+          "evidence": [
+            "satu sumber / informasi awal"
+          ],
+          "role": [],
+          "issue": [
+            "narkoba"
+          ],
+          "handling": [],
+          "context": [],
+          "positive": []
+        },
+        "attention_reasons": [
+          "isu/peristiwa ditemukan tetapi relasi Polri sebagai pihak bermasalah tidak cukup kuat"
+        ],
+        "contextual_flags": {
+          "explicit_polri_subject": false,
+          "explicit_polri_enforcer": false,
+          "polri_victim": false,
+          "service_negative": false,
+          "misconduct_signal": true,
+          "direct_positive_enforcement": false
+        },
+        "analysis_engine_version": "contextual-v1.1",
+        "location_engine_version": "location-v2-title-snippet-source",
+        "case_engine_version": "case-v6.5.4",
+        "case_processed_at": "2026-11-08T19:55:34.479695+00:00"
+      },
+      {
+        "id": "d9fb4f5a759ac363520cdf253c51e17685fdf979",
+        "title": "Polsek Pesantren Kediri Ingatkan Warga Kleco soal Jejak Digital Judi Online - Polres Kediri Kota",
+        "url": "https://polreskedirikota.com/polsek-pesantren-kediri-ingatkan-warga-kleco-soal-jejak-digital-judi-online/",
+        "source": "Polres Kediri Kota",
+        "published_at": "2026-11-08T15:52:04+00:00",
+        "collected_at": "2026-11-08T19:46:09.256958+00:00",
+        "region": "Jawa Timur",
+        "area_label": "Kediri",
+        "is_jatim": true,
+        "polres": "POLRES KEDIRI KOTA",
+        "category": "NETRAL / PERISTIWA",
+        "scope": "neutral",
+        "scope_label": "Netral",
+        "priority": "low",
+        "summary": "Polsek Pesantren Kediri Ingatkan Warga Kleco soal Jejak Digital Judi Online Polres Kediri Kota",
+        "processing_status": "processed",
+        "classifier_version": "contextual-v1.1",
+        "classified_at": "2026-11-08T19:53:45.489819+00:00",
+        "case_id": null,
+        "discovery_families": [
+          "illegal_activity_backing"
+        ],
+        "discovery_tags": [
+          "backing",
+          "illegal_activity",
+          "public_order"
+        ],
+        "discovery_hits": [
+          "judi online"
+        ],
+        "discovery_version": "discovery-v6",
+        "google_news_url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNdWlpaGR0TWtreGg3R3NvX0RVeU1ZNkZkcDE4aHpxN0p6Y2djZ0FGdmJ6cHBCMndTQkNCbXRqVmpPZktJbHRERTE4Qzk5TkNGWHp3S1BxS192alVkMW5LdW8zRVV5d05QTkQ5WGxQekdqem5PV052UDRIRG9uSHJFelEzT29Sa2NVWGhxUXFxbUxSZTA5RnhfV1lidDJydTh1VElveWNNcVc?oc=5",
+        "original_url": "https://polreskedirikota.com/polsek-pesantren-kediri-ingatkan-warga-kleco-soal-jejak-digital-judi-online/",
+        "canonical_url": "https://polreskedirikota.com/polsek-pesantren-kediri-ingatkan-warga-kleco-soal-jejak-digital-judi-online",
+        "duplicate_article": false,
+        "duplicate_group_id": "b2feef324e6c462c",
+        "locality": "Kediri",
+        "polsek": "POLSEK PESANTREN",
+        "location_confidence": 100,
+        "location_evidence": [
+          "polres kediri kota",
+          "POLSEK PESANTREN",
+          "Kediri"
+        ],
+        "location_status": "JAWA_TIMUR",
+        "location_source": "master_entity",
+        "sentiment": "neutral",
+        "sentiment_label": "Netral",
+        "issue_type": "AKTIVITAS_ILEGAL",
+        "issue_subtype": "Aktivitas Ilegal",
+        "issue_evidence": [
+          "judi online"
+        ],
+        "polri_relation": "INFORMASI_UMUM",
+        "polri_relation_evidence": [
+          "Hubungan Polri belum spesifik"
+        ],
+        "handling_status": "BELUM_ADA_INFORMASI",
+        "handling_evidence": [],
+        "assertion_status": "FACTUAL",
+        "assertion_confidence": 75,
+        "assertion_evidence": [],
+        "attention_score": 27,
+        "attention_label": "Rendah",
+        "attention_components": {
+          "severity": 14,
+          "polri_relation": 0,
+          "authority": 0,
+          "public_impact": 12,
+          "handling": 0,
+          "evidence": 1,
+          "context_risk": 0,
+          "routine_enforcement_cap": null
+        },
+        "attention_evidence": {
+          "severity": [],
+          "authority": [],
+          "public_impact": [
+            "dampak kepada masyarakat"
+          ],
+          "evidence": [
+            "satu sumber / informasi awal"
+          ],
+          "role": [],
+          "issue": [
+            "judi online"
+          ],
+          "handling": [],
+          "context": [],
+          "positive": []
+        },
+        "attention_reasons": [
+          "isu/peristiwa ditemukan tetapi relasi Polri sebagai pihak bermasalah tidak cukup kuat"
+        ],
+        "contextual_flags": {
+          "explicit_polri_subject": false,
+          "explicit_polri_enforcer": false,
+          "polri_victim": false,
+          "service_negative": false,
+          "misconduct_signal": false,
+          "direct_positive_enforcement": false
+        },
+        "analysis_engine_version": "contextual-v1.1",
+        "location_engine_version": "location-v2-title-snippet-source",
+        "case_engine_version": "case-v6.5.4",
+        "case_processed_at": "2026-11-08T19:55:34.483992+00:00"
+      },
+      {
+        "id": "2a85dad231998f373e79c604ba53487d501dbaa7",
+        "title": "Polres Batu Dalami Dugaan Perzinaan yang Melibatkan Oknum Polisi dan Kepala Desa - BACAMALANG.COM -",
+        "url": "https://bacamalang.com/polres-batu-dalami-dugaan-perzinaan-yang-melibatkan-oknum-polisi-dan-kepala-desa/",
+        "source": "BACAMALANG.COM -",
+        "published_at": "2026-11-08T15:38:00+00:00",
+        "collected_at": "2026-11-08T19:46:09.256958+00:00",
+        "region": "Jawa Timur",
+        "area_label": "Batu",
+        "is_jatim": true,
+        "polres": "POLRES BATU",
+        "category": "NETRAL / LAINNYA",
+        "scope": "neutral",
+        "scope_label": "Netral",
+        "priority": "low",
+        "summary": "Polres Batu Dalami Dugaan Perzinaan yang Melibatkan Oknum Polisi dan Kepala Desa BACAMALANG.COM -",
+        "processing_status": "processed",
+        "classifier_version": "contextual-v1.1",
+        "classified_at": "2026-11-08T19:53:45.555610+00:00",
+        "case_id": null,
+        "discovery_families": [
+          "general_police_misconduct"
+        ],
+        "discovery_tags": [
+          "ethics",
+          "oknum"
+        ],
+        "discovery_hits": [
+          "oknum polisi"
+        ],
+        "discovery_version": "discovery-v6",
+        "google_news_url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQckxPSGVqdXhJM1l6cVU2aUY4UTcwVUwzLUtlVDc3b3dOSjZUb0ZnMzZCaDBHT0RTNVBKdDFXa3FiTjQxb0hfb2h5RjFoVzNzcGlCMmFtQWhJQjFCUUdOSHZUcm5LMC1qQ2RSNFRrNWpJRml4TTN1UEhlTE9wWmtPTmtYSUtQLUwwNHpyaTZpQXFqSXJEaFJUMFRqMDFTbTE3TlliVkhPVQ?oc=5",
+        "original_url": "https://bacamalang.com/polres-batu-dalami-dugaan-perzinaan-yang-melibatkan-oknum-polisi-dan-kepala-desa/",
+        "canonical_url": "https://bacamalang.com/polres-batu-dalami-dugaan-perzinaan-yang-melibatkan-oknum-polisi-dan-kepala-desa",
+        "duplicate_article": false,
+        "locality": "Batu",
+        "polsek": null,
+        "location_confidence": 100,
+        "location_evidence": [
+          "polres batu",
+          "Batu"
+        ],
+        "location_status": "JAWA_TIMUR",
+        "location_source": "master_entity",
+        "sentiment": "neutral",
+        "sentiment_label": "Netral",
+        "issue_type": "UMUM",
+        "issue_subtype": "Belum Teridentifikasi",
+        "issue_evidence": [],
+        "polri_relation": "SUBJEK_PERMASALAHAN",
+        "polri_relation_evidence": [
+          "Polri/personel menjadi subjek masalah"
+        ],
+        "handling_status": "BELUM_ADA_INFORMASI",
+        "handling_evidence": [],
+        "assertion_status": "FACTUAL",
+        "assertion_confidence": 75,
+        "assertion_evidence": [],
+        "attention_score": 7,
+        "attention_label": "Rendah",
+        "attention_components": {
+          "severity": 2,
+          "polri_relation": 0,
+          "authority": 0,
+          "public_impact": 4,
+          "handling": 0,
+          "evidence": 1,
+          "context_risk": 0,
+          "routine_enforcement_cap": null
+        },
+        "attention_evidence": {
+          "severity": [],
+          "authority": [
+            "oknum polisi"
+          ],
+          "public_impact": [],
+          "evidence": [
+            "satu sumber / informasi awal"
+          ],
+          "role": [],
+          "issue": [],
+          "handling": [],
+          "context": [],
+          "positive": []
+        },
+        "attention_reasons": [
+          "sifat berita: netral",
+          "Hubungan Polri belum spesifik"
+        ],
+        "contextual_flags": {
+          "explicit_polri_subject": true,
+          "explicit_polri_enforcer": false,
+          "polri_victim": false,
+          "service_negative": false,
+          "misconduct_signal": false,
+          "direct_positive_enforcement": false
+        },
+        "analysis_engine_version": "contextual-v1.1",
+        "location_engine_version": "location-v2-title-snippet-source",
+        "case_engine_version": "case-v6.5.4",
+        "case_processed_at": "2026-11-08T19:55:34.493009+00:00"
+      },
+      {
+        "id": "0b122d3392500a4c824f4e7a4070248b8821e997",
+        "title": "Ratusan Polisi Mojokerto Disiagakan di Daerah Rawan Bencana Hidrometeorologi - Tribunjatim.com",
+        "url": "https://jatim.tribunnews.com/mojokerto/565919/ratusan-polisi-mojokerto-disiagakan-di-daerah-rawan-bencana-hidrometeorologi",
+        "source": "Tribunjatim.com",
+        "published_at": "2026-11-08T15:19:59+00:00",
+        "collected_at": "2026-11-08T19:46:09.256958+00:00",
+        "region": "Jawa Timur",
+        "area_label": "Mojokerto",
+        "is_jatim": true,
+        "polres": null,
+        "category": "NETRAL / LAINNYA",
+        "scope": "neutral",
+        "scope_label": "Netral",
+        "priority": "low",
+        "summary": "Ratusan Polisi Mojokerto Disiagakan di Daerah Rawan Bencana Hidrometeorologi Tribunjatim.com",
+        "processing_status": "processed",
+        "classifier_version": "contextual-v1.1",
+        "classified_at": "2026-11-08T19:53:45.578128+00:00",
+        "case_id": null,
+        "discovery_families": [],
+        "discovery_tags": [],
+        "discovery_hits": [],
+        "discovery_version": "discovery-v6",
+        "google_news_url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQSXZPZDJxZXpTT2VkVEF3c0ZuM3RkTF85dF9idUFfYVNJcUxsdmdVQjBHTXJqeGlQX1VZWW1DLTl3YUx1NHRURlpuMENHWDRsYWZvN3h5SXMxN0FRRXdsOHlGeFNaUkhQQ1lWRmllZXFUOGw3RWxRVFRHZVVWUDIxdVgyWXlCMVAtQm5RdUVhZnd1OUJzOGF3UW0xSFJDMHZIZG9JdzdiVERfRDJWM0dIQnFFdnk0TldnOExKNWhxRQ?oc=5",
+        "original_url": "https://jatim.tribunnews.com/mojokerto/565919/ratusan-polisi-mojokerto-disiagakan-di-daerah-rawan-bencana-hidrometeorologi",
+        "canonical_url": "https://jatim.tribunnews.com/mojokerto/565919/ratusan-polisi-mojokerto-disiagakan-di-daerah-rawan-bencana-hidrometeorologi",
+        "duplicate_article": false,
+        "locality": "Mojokerto",
+        "polsek": null,
+        "location_confidence": 95,
+        "location_evidence": [
+          "Mojokerto"
+        ],
+        "location_status": "JAWA_TIMUR",
+        "location_source": "title_description",
+        "sentiment": "neutral",
+        "sentiment_label": "Netral",
+        "issue_type": "UMUM",
+        "issue_subtype": "Belum Teridentifikasi",
+        "issue_evidence": [],
+        "polri_relation": "INFORMASI_UMUM",
+        "polri_relation_evidence": [
+          "Hubungan Polri belum spesifik"
+        ],
+        "handling_status": "BELUM_ADA_INFORMASI",
+        "handling_evidence": [],
+        "assertion_status": "FACTUAL",
+        "assertion_confidence": 75,
+        "assertion_evidence": [],
+        "attention_score": 7,
+        "attention_label": "Rendah",
+        "attention_components": {
+          "severity": 2,
+          "polri_relation": 0,
+          "authority": 0,
+          "public_impact": 4,
+          "handling": 0,
+          "evidence": 1,
+          "context_risk": 0,
+          "routine_enforcement_cap": null
+        },
+        "attention_evidence": {
+          "severity": [],
+          "authority": [],
+          "public_impact": [],
+          "evidence": [
+            "satu sumber / informasi awal"
+          ],
+          "role": [],
+          "issue": [],
+          "handling": [],
+          "context": [],
+          "positive": []
+        },
+        "attention_reasons": [
+          "sifat berita: netral",
+          "Hubungan Polri belum spesifik"
+        ],
+        "contextual_flags": {
+          "explicit_polri_subject": false,
+          "explicit_polri_enforcer": false,
+          "polri_victim": false,
+          "service_negative": false,
+          "misconduct_signal": false,
+          "direct_positive_enforcement": false
+        },
+        "analysis_engine_version": "contextual-v1.1",
+        "location_engine_version": "location-v2-title-snippet-source",
+        "case_engine_version": "case-v6.5.4",
+        "case_processed_at": "2026-11-08T19:55:34.497638+00:00"
+      }
+    ],
+    "luar_jatim_items": [
+      {
+        "id": "4a1d5e7422f9bbc26c757f015b6de284015bb236",
+        "title": "Polda Lampung Kerahkan 401 Personel Gerebek Sarang Narkoba di Pesawaran, Polisi Sita Bong hingga Selongsong Peluru - AFU.id",
+        "url": "https://afu.id/hukum-kriminal/polda-lampung-kerahkan-401-personel-gerebek-sarang-narkoba-di-pesawaran-polisi-sita-bong-hingga-selongsong-peluru",
+        "source": "AFU.id",
+        "published_at": "2026-11-08T19:15:00+00:00",
+        "collected_at": "2026-11-08T19:46:09.256958+00:00",
+        "region": "LUAR JATIM",
+        "area_label": "LUAR JATIM",
+        "is_jatim": false,
+        "polres": null,
+        "category": "UNGKAP KASUS / PENINDAKAN",
+        "scope": "case",
+        "scope_label": "Ungkap Kasus",
+        "priority": "low",
+        "summary": "Polda Lampung Kerahkan 401 Personel Gerebek Sarang Narkoba di Pesawaran, Polisi Sita Bong hingga Selongsong Peluru AFU.id",
+        "processing_status": "processed",
+        "classifier_version": "contextual-v1.1",
+        "classified_at": "2026-11-08T19:53:45.396978+00:00",
+        "case_id": "CASE-000234",
+        "discovery_families": [],
+        "discovery_tags": [],
+        "discovery_hits": [],
+        "discovery_version": "discovery-v6",
+        "google_news_url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxOZlRlVGdBQnJ2aDljcDNzT1gwaTZNWjk1LUlUSmVsNlZiYnY1aUNLOUx3SWpKRm1XUHZNeUx2cTFXNEQ2dGVrSG1uNkEwM1NJcWp6T3p6eXB3OVp5VENRMmg4RWt4Q3FmdGNXVU0tM25SVzF3VjFCcHZJUEs0Tzk1dXBzWHNudDFLMHFTNDNzVXFldWRZSVA3MXE3OFQwazE3YkRtTk5fVXR5ZFJ3Qkpxb255MmFRYWlTbTNmTnptODlma0Jjekt5dUFka1VGUkNoNXphYndGRmJTNjQ?oc=5",
+        "original_url": "https://afu.id/hukum-kriminal/polda-lampung-kerahkan-401-personel-gerebek-sarang-narkoba-di-pesawaran-polisi-sita-bong-hingga-selongsong-peluru",
+        "canonical_url": "https://afu.id/hukum-kriminal/polda-lampung-kerahkan-401-personel-gerebek-sarang-narkoba-di-pesawaran-polisi-sita-bong-hingga-selongsong-peluru",
+        "duplicate_article": false,
+        "locality": "",
+        "polsek": null,
+        "location_confidence": 100,
+        "location_evidence": [
+          "lampung"
+        ],
+        "location_status": "LUAR_JATIM",
+        "location_source": "title_description",
+        "sentiment": "positive",
+        "sentiment_label": "Positif",
+        "issue_type": "NARKOBA",
+        "issue_subtype": "Narkoba / Narkotika",
+        "issue_evidence": [
+          "narkoba"
+        ],
+        "polri_relation": "PENEGAKAN_HUKUM",
+        "polri_relation_evidence": [
+          "Polri berperan sebagai pihak penindak"
+        ],
+        "handling_status": "BELUM_ADA_INFORMASI",
+        "handling_evidence": [],
+        "assertion_status": "FACTUAL",
+        "assertion_confidence": 75,
+        "assertion_evidence": [],
+        "attention_score": 18,
+        "attention_label": "Rendah",
+        "attention_components": {
+          "severity": 11,
+          "polri_relation": 2,
+          "authority": 0,
+          "public_impact": 4,
+          "handling": 0,
+          "evidence": 1,
+          "context_risk": 0,
+          "routine_enforcement_cap": 35
+        },
+        "attention_evidence": {
+          "severity": [],
+          "authority": [],
+          "public_impact": [],
+          "evidence": [
+            "satu sumber / informasi awal"
+          ],
+          "role": [
+            "Polri sebagai pihak penindak"
+          ],
+          "issue": [
+            "narkoba"
+          ],
+          "handling": [],
+          "context": [],
+          "positive": []
+        },
+        "attention_reasons": [
+          "Polri berperan sebagai pihak penindak",
+          "tidak ditemukan indikator utama misconduct oleh personel"
+        ],
+        "contextual_flags": {
+          "explicit_polri_subject": false,
+          "explicit_polri_enforcer": true,
+          "polri_victim": false,
+          "service_negative": false,
+          "misconduct_signal": true,
+          "direct_positive_enforcement": false
+        },
+        "analysis_engine_version": "contextual-v1.1",
+        "location_engine_version": "location-v2-title-snippet-source",
+        "case_engine_version": "case-v6.5.4",
+        "case_processed_at": "2026-11-08T19:55:54.562270+00:00"
+      },
+      {
+        "id": "81af6dead545a93ff402d39d725a8cba83b13099",
+        "title": "Cemburu Buta? Polisi Ungkap Motif Pengeroyokan Maut di Warudoyong Sukabumi - Sukabumi Update - Sukabumi Update",
+        "url": "https://www.sukabumiupdate.com/sukabumi/183262/cemburu-buta-polisi-ungkap-motif-pengeroyokan-maut-di-warudoyong-sukabumi",
+        "source": "Sukabumi Update",
+        "published_at": "2026-11-08T16:26:00+00:00",
+        "collected_at": "2026-11-08T19:46:09.256958+00:00",
+        "region": "BELUM TERPETAKAN",
+        "area_label": "BELUM TERPETAKAN",
+        "is_jatim": null,
+        "polres": null,
+        "category": "UNGKAP KASUS / PENINDAKAN",
+        "scope": "case",
+        "scope_label": "Ungkap Kasus",
+        "priority": "low",
+        "summary": "Cemburu Buta? Polisi Ungkap Motif Pengeroyokan Maut di Warudoyong Sukabumi - Sukabumi Update Sukabumi Update",
+        "processing_status": "processed",
+        "classifier_version": "contextual-v1.1",
+        "classified_at": "2026-11-08T19:53:45.463506+00:00",
+        "case_id": "CASE-004798",
+        "discovery_families": [],
+        "discovery_tags": [],
+        "discovery_hits": [],
+        "discovery_version": "discovery-v6",
+        "google_news_url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNZ3JNcno5Z2ZxZC1lMEpzS01hN3hqLUp4YTktMU9oQXpRbG8zNE1vcDl1TU1YSXpKd3U0akNKay04LUpPOWdKcmJKRTVwVXhhMTZyMjA0amplX3k1OHFyd293TnpROG5LMTNTZnVRMzl2eVB6eU1vNU52SjZibV83bWtja1g1RnEtczA1UWExeXFVd1ZuNTJDQTcySl94WlZnT29YNnVUYk5qbHl1NzB3RXF3bWFXem1ZVVFQd9IBvAFBVV95cUxOUEtiYVp6NFlzaHp4RnBfR1NzYU14a0Q1VVRTbkFya2V5eWVWeDVmYTJ5S3M1UFNhWU1xazhJeXhyOWoydlVIOE1BU1RsRGYwWGVKdHBHQlRUY0kxT21nMHl1M2JPM2dxS1ZKVXpyTzBOYVh6T0x0elp1bXhDLXA0UkZFaThvQTVTWEYxU1JINF9MUTY2elQ3MEZCbm0yaFM1ZFAzS2JScUdhZktGakM3Z3lBWjB1S3BFSjItQw?oc=5",
+        "original_url": "https://www.sukabumiupdate.com/sukabumi/183262/cemburu-buta-polisi-ungkap-motif-pengeroyokan-maut-di-warudoyong-sukabumi",
+        "canonical_url": "https://sukabumiupdate.com/sukabumi/183262/cemburu-buta-polisi-ungkap-motif-pengeroyokan-maut-di-warudoyong-sukabumi",
+        "duplicate_article": false,
+        "locality": "",
+        "polsek": null,
+        "location_confidence": 0,
+        "location_evidence": [],
+        "location_status": "BELUM_TERPETAKAN",
+        "location_source": "title_description",
+        "sentiment": "positive",
+        "sentiment_label": "Positif",
+        "issue_type": "UMUM",
+        "issue_subtype": "Belum Teridentifikasi",
+        "issue_evidence": [],
+        "polri_relation": "PENEGAKAN_HUKUM",
+        "polri_relation_evidence": [
+          "Polri berperan sebagai pihak penindak"
+        ],
+        "handling_status": "BELUM_ADA_INFORMASI",
+        "handling_evidence": [],
+        "assertion_status": "FACTUAL",
+        "assertion_confidence": 75,
+        "assertion_evidence": [],
+        "attention_score": 9,
+        "attention_label": "Rendah",
+        "attention_components": {
+          "severity": 2,
+          "polri_relation": 2,
+          "authority": 0,
+          "public_impact": 4,
+          "handling": 0,
+          "evidence": 1,
+          "context_risk": 0,
+          "routine_enforcement_cap": 35
+        },
+        "attention_evidence": {
+          "severity": [],
+          "authority": [],
+          "public_impact": [],
+          "evidence": [
+            "satu sumber / informasi awal"
+          ],
+          "role": [
+            "Polri sebagai pihak penindak"
+          ],
+          "issue": [],
+          "handling": [],
+          "context": [],
+          "positive": []
+        },
+        "attention_reasons": [
+          "Polri berperan sebagai pihak penindak",
+          "tidak ditemukan indikator utama misconduct oleh personel"
+        ],
+        "contextual_flags": {
+          "explicit_polri_subject": false,
+          "explicit_polri_enforcer": true,
+          "polri_victim": false,
+          "service_negative": false,
+          "misconduct_signal": false,
+          "direct_positive_enforcement": false
+        },
+        "analysis_engine_version": "contextual-v1.1",
+        "location_engine_version": "location-v2-title-snippet-source",
+        "case_engine_version": "case-v6.5.4",
+        "case_processed_at": "2026-11-08T19:55:54.562274+00:00"
+      },
+      {
+        "id": "489cbaecbca69daef1b743f6219e9eac4f88c4df",
+        "title": "Polisi Tangkap 5 Pelaku Tawuran yang Tewaskan 1 Warga di Makassar | BERUT - Kompas.tv",
+        "url": "https://www.kompas.tv/regional/700458/polisi-tangkap-5-pelaku-tawuran-yang-tewaskan-1-warga-di-makassar-berut",
+        "source": "Kompas.tv",
+        "published_at": "2026-11-08T15:50:00+00:00",
+        "collected_at": "2026-11-08T19:46:09.256958+00:00",
+        "region": "BELUM TERPETAKAN",
+        "area_label": "BELUM TERPETAKAN",
+        "is_jatim": null,
+        "polres": null,
+        "category": "UNGKAP KASUS / PENINDAKAN",
+        "scope": "case",
+        "scope_label": "Ungkap Kasus",
+        "priority": "medium",
+        "summary": "Polisi Tangkap 5 Pelaku Tawuran yang Tewaskan 1 Warga di Makassar | BERUT Kompas.tv",
+        "processing_status": "processed",
+        "classifier_version": "contextual-v1.1",
+        "classified_at": "2026-11-08T19:53:45.512425+00:00",
+        "case_id": "CASE-004799",
+        "discovery_families": [
+          "security_public_order"
+        ],
+        "discovery_tags": [
+          "public_order",
+          "security"
+        ],
+        "discovery_hits": [
+          "tawuran"
+        ],
+        "discovery_version": "discovery-v6",
+        "google_news_url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQSTlwZkpuMHFyU1hhQldGUlFCcnJMWkFNUzQ0MXpILTFfd2NlNmZPemNvTFpoTjZ2SXI4NkR6d3Rva3A0MXJ0Z3dlU1dVbU9fVjBpRUdoa09RSkM2Y3QxLUVFZnY0Qmt2NlVGT0hjeS1WRFlsaVZsbGg3VGlVWFN3ME4xRVJhMGk1a0RLdXZSQ3R2ZFF1c3E2azBTZFBZU1Nmc0ozWWJVR1ZFSTBab0E?oc=5",
+        "original_url": "https://www.kompas.tv/regional/700458/polisi-tangkap-5-pelaku-tawuran-yang-tewaskan-1-warga-di-makassar-berut",
+        "canonical_url": "https://kompas.tv/regional/700458/polisi-tangkap-5-pelaku-tawuran-yang-tewaskan-1-warga-di-makassar-berut",
+        "duplicate_article": false,
+        "locality": "",
+        "polsek": null,
+        "location_confidence": 0,
+        "location_evidence": [],
+        "location_status": "BELUM_TERPETAKAN",
+        "location_source": "title_description",
+        "sentiment": "positive",
+        "sentiment_label": "Positif",
+        "issue_type": "KEAMANAN_DAN_KAMTIBMAS",
+        "issue_subtype": "Gangguan Keamanan / Kamtibmas",
+        "issue_evidence": [
+          "tawuran"
+        ],
+        "polri_relation": "PENEGAKAN_HUKUM",
+        "polri_relation_evidence": [
+          "Polri berperan sebagai pihak penindak"
+        ],
+        "handling_status": "BELUM_ADA_INFORMASI",
+        "handling_evidence": [],
+        "assertion_status": "FACTUAL",
+        "assertion_confidence": 75,
+        "assertion_evidence": [],
+        "attention_score": 39,
+        "attention_label": "Rendah",
+        "attention_components": {
+          "severity": 21,
+          "polri_relation": 0,
+          "authority": 0,
+          "public_impact": 12,
+          "handling": 0,
+          "evidence": 1,
+          "context_risk": 0,
+          "routine_enforcement_cap": null
+        },
+        "attention_evidence": {
+          "severity": [],
+          "authority": [],
+          "public_impact": [
+            "dampak kepada masyarakat"
+          ],
+          "evidence": [
+            "satu sumber / informasi awal"
+          ],
+          "role": [],
+          "issue": [
+            "tawuran"
+          ],
+          "handling": [],
+          "context": [],
+          "positive": []
+        },
+        "attention_reasons": [
+          "Polri berperan sebagai pihak penindak",
+          "tidak ditemukan indikator utama misconduct oleh personel"
+        ],
+        "contextual_flags": {
+          "explicit_polri_subject": false,
+          "explicit_polri_enforcer": true,
+          "polri_victim": false,
+          "service_negative": false,
+          "misconduct_signal": false,
+          "direct_positive_enforcement": false
+        },
+        "analysis_engine_version": "contextual-v1.1",
+        "location_engine_version": "location-v2-title-snippet-source",
+        "case_engine_version": "case-v6.5.4",
+        "case_processed_at": "2026-11-08T19:55:54.562277+00:00"
+      },
+      {
+        "id": "e893a56530ef9c2c7b400d21650e5e1eea9552e4",
+        "title": "Polri Terjunkan 400 Personel Gerebek 3 Desa di Lampung, Buru Bandar Narkoba | BERUT - Kompas.tv",
+        "url": "https://www.kompas.tv/regional/700455/polri-terjunkan-400-personel-gerebek-3-desa-di-lampung-buru-bandar-narkoba-berut",
+        "source": "Kompas.tv",
+        "published_at": "2026-11-08T15:40:00+00:00",
+        "collected_at": "2026-11-08T19:46:09.256958+00:00",
+        "region": "LUAR JATIM",
+        "area_label": "LUAR JATIM",
+        "is_jatim": false,
+        "polres": null,
+        "category": "NETRAL / PERISTIWA",
+        "scope": "neutral",
+        "scope_label": "Netral",
+        "priority": "low",
+        "summary": "Polri Terjunkan 400 Personel Gerebek 3 Desa di Lampung, Buru Bandar Narkoba | BERUT Kompas.tv",
+        "processing_status": "processed",
+        "classifier_version": "contextual-v1.1",
+        "classified_at": "2026-11-08T19:53:45.534366+00:00",
+        "case_id": null,
+        "discovery_families": [],
+        "discovery_tags": [],
+        "discovery_hits": [],
+        "discovery_version": "discovery-v6",
+        "google_news_url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPT3h6QzFXNTUydGI4Nm5lSGMxcllyVjhFMThoNkI4Qzl3bnFqbUxZLWF4bEdYZDNDY3pGamxucXBWVExkdEFqNjVWbVE0cTR5UjlYSzA1amZ1SGstel84OHZ0N2c0WVQ0OGp2aHlmQjFFMElCLWg3UnFkRzNabVV2VjVlTVFnX0lmMnlRRFlKUU0tdm9SOWFwNjBLSnFab25OeXdyQ0FybktQQUtJczNteXZXOFNTcjFJT2fSAb8BQVVfeXFMTnZfZ2VDY0psZ25VWnJUektqb0tHQVZ6eHAyem5feHpRT1R3UnVpTm84YnIxWmFVTzM4dWhKRm1jbktoN2Jwdy1nNlFZdXpvVWxoYWQ0TmluUFhXQTdiRlItdkNhRElwQUMwb1FnMEhsQ0I1c3RCWHp3YmFxWkZ4RVNKMm56RHE0Tzlld05BSlVJdFM3X0NUaDVVVm8yV0pxdkdBYVJqdFVBZ3R5SGJCTFg0SWlfVWZHN085Q2JwZU0?oc=5",
+        "original_url": "https://www.kompas.tv/regional/700455/polri-terjunkan-400-personel-gerebek-3-desa-di-lampung-buru-bandar-narkoba-berut",
+        "canonical_url": "https://kompas.tv/regional/700455/polri-terjunkan-400-personel-gerebek-3-desa-di-lampung-buru-bandar-narkoba-berut",
+        "duplicate_article": false,
+        "locality": "",
+        "polsek": null,
+        "location_confidence": 100,
+        "location_evidence": [
+          "lampung"
+        ],
+        "location_status": "LUAR_JATIM",
+        "location_source": "title_description",
+        "sentiment": "neutral",
+        "sentiment_label": "Netral",
+        "issue_type": "NARKOBA",
+        "issue_subtype": "Narkoba / Narkotika",
+        "issue_evidence": [
+          "narkoba"
+        ],
+        "polri_relation": "INFORMASI_UMUM",
+        "polri_relation_evidence": [
+          "Hubungan Polri belum spesifik"
+        ],
+        "handling_status": "BELUM_ADA_INFORMASI",
+        "handling_evidence": [],
+        "assertion_status": "FACTUAL",
+        "assertion_confidence": 75,
+        "assertion_evidence": [],
+        "attention_score": 16,
+        "attention_label": "Rendah",
+        "attention_components": {
+          "severity": 11,
+          "polri_relation": 0,
+          "authority": 0,
+          "public_impact": 4,
+          "handling": 0,
+          "evidence": 1,
+          "context_risk": 0,
+          "routine_enforcement_cap": null
+        },
+        "attention_evidence": {
+          "severity": [],
+          "authority": [],
+          "public_impact": [],
+          "evidence": [
+            "satu sumber / informasi awal"
+          ],
+          "role": [],
+          "issue": [
+            "narkoba"
+          ],
+          "handling": [],
+          "context": [],
+          "positive": []
+        },
+        "attention_reasons": [
+          "isu/peristiwa ditemukan tetapi relasi Polri sebagai pihak bermasalah tidak cukup kuat"
+        ],
+        "contextual_flags": {
+          "explicit_polri_subject": false,
+          "explicit_polri_enforcer": false,
+          "polri_victim": false,
+          "service_negative": false,
+          "misconduct_signal": true,
+          "direct_positive_enforcement": false
+        },
+        "analysis_engine_version": "contextual-v1.1",
+        "location_engine_version": "location-v2-title-snippet-source",
+        "case_engine_version": "case-v6.5.4",
+        "case_processed_at": "2026-11-08T19:55:34.488824+00:00"
+      }
+    ]
+  },
+  "cases": {
+    "active": 3,
+    "priority_high": 0,
+    "jatim": 0,
+    "jatim_priority_high": 0,
+    "articles": 6,
+    "case_ids": [
+      "CASE-000234",
+      "CASE-004798",
+      "CASE-004799"
+    ],
+    "items": [
+      {
+        "case_id": "CASE-000234",
+        "title": "Polisi Bongkar Industri Rumahan Sabu-Ekstasi di Lampung, 10 Orang Ditangkap - kumparan.com - Kumparan.com",
+        "category": "NEGATIF - NARKOBA / NARKOTIKA",
+        "scope": "negative",
+        "region": "LUAR JATIM",
+        "locality": "",
+        "is_jatim": false,
+        "polres": null,
+        "polsek": null,
+        "priority": "medium",
+        "attention_score": 49,
+        "attention_label": "Sedang",
+        "signature": "LUAR JATIM",
+        "incident_terms": [
+          "169",
+          "174",
+          "401",
+          "afu",
+          "ancam",
+          "antara",
+          "apartemen",
+          "bandar",
+          "bandarnya",
+          "barang",
+          "berkat",
+          "bong",
+          "bongkar",
+          "bukti",
+          "com",
+          "detikcom",
+          "detiknews",
+          "diciduk",
+          "disita",
+          "ekstasi",
+          "gerebek",
+          "gram",
+          "grebek",
+          "home",
+          "industri",
+          "irt",
+          "jabung",
+          "jaringan",
+          "jaya",
+          "jiwa",
+          "kerahkan",
+          "kompas",
+          "kumparan",
+          "kupas",
+          "lampung",
+          "laporan",
+          "lokasi",
+          "menyita",
+          "mesuji",
+          "metrotvnews",
+          "miliar",
+          "narkoba",
+          "news",
+          "nunyai",
+          "peluru",
+          "penggerebekan",
+          "peredaran",
+          "personel",
+          "pesawaran",
+          "polda",
+          "polres",
+          "pria",
+          "rakitan",
+          "ratusan",
+          "reslampungselatan",
+          "resmi",
+          "revolver",
+          "ringkus",
+          "rp125",
+          "rumahan",
+          "sabu",
+          "saibumi",
+          "sarang",
+          "sebulan",
+          "selama",
+          "selamatkan",
+          "selatan",
+          "selongsong",
+          "senpi",
+          "sita",
+          "suara",
+          "tak",
+          "tapi",
+          "tegas",
+          "tempat",
+          "tengah",
+          "terlibat",
+          "terungkap",
+          "terusan",
+          "timur",
+          "tindak",
+          "tirto",
+          "transit",
+          "tribratanews",
+          "tribunlampung",
+          "tuba",
+          "tuntas",
+          "viva",
+          "way",
+          "website"
+        ],
+        "event_terms": [
+          "ancam",
+          "narkoba",
+          "sabu"
+        ],
+        "location_terms": [
+          "lampung"
+        ],
+        "discovery_families": [],
+        "first_seen": "2026-08-26T15:05:00+00:00",
+        "last_seen": "2026-11-08T19:46:09.256958+00:00",
+        "last_detected_at": "2026-11-08T19:46:09.256958+00:00",
+        "article_ids": [
+          "3e181325fc98bc3b7b8aeacb8a56222ff56e47d9",
+          "60e2493b813e28a7d3c1114ef8baa55747014455",
+          "403a7c7d13a75eca21f95ab2f0ff3a31cf475e7f",
+          "4a1d5e7422f9bbc26c757f015b6de284015bb236"
+        ],
+        "articles": [
+          {
+            "id": "3e181325fc98bc3b7b8aeacb8a56222ff56e47d9",
+            "title": "Sabu 11,34 Gram Disita, Bandar Narkoba di Bandar Lampung Ditangkap Polisi - Tribratanews Polda Lampung",
+            "url": "https://tribratanews.lampung.polri.go.id/detail-post/sabu-11-34-gram-disita-bandar-narkoba-di-bandar-lampung-ditangkap-polisi",
+            "published_at": "2026-10-29T05:38:12+00:00",
+            "collected_at": "2026-10-29T08:33:25.502414+00:00",
+            "source": "Tribratanews Polda Lampung",
+            "match_score": 0.9407,
+            "priority": "low",
+            "scope": "case",
+            "category": "UNGKAP KASUS / PENINDAKAN",
+            "region": "LUAR JATIM",
+            "locality": "",
+            "is_jatim": false,
+            "polres": null,
+            "polsek": null,
+            "issue_type": "NARKOBA",
+            "issue_subtype": "Narkoba / Narkotika",
+            "handling_status": "BELUM_ADA_INFORMASI",
+            "handling_evidence": [],
+            "polri_relation": "PENEGAKAN_HUKUM",
+            "polri_relation_points": 0,
+            "polri_relation_evidence": [
+              "Polri berperan sebagai pihak penindak"
+            ],
+            "attention_score": 16,
+            "attention_label": "Rendah",
+            "attention_components": {
+              "severity": 11,
+              "polri_relation": 0,
+              "authority": 0,
+              "public_impact": 4,
+              "handling": 0,
+              "evidence": 1,
+              "context_risk": 0,
+              "routine_enforcement_cap": null
+            }
+          },
+          {
+            "id": "60e2493b813e28a7d3c1114ef8baa55747014455",
+            "title": "Selama Sebulan Lima Kasus Narkoba Terungkap di Lampung Selatan, Polisi Sita Barang Bukti Rp125 Miliar - Saibumi.com",
+            "url": "https://www.saibumi.com/artikel-141079-selama-sebulan-lima-kasus-narkoba-terungkap-di-lampung-selatan-polisi-sita-barang-bukti-rp125-miliar.html",
+            "published_at": "2026-11-05T06:22:18+00:00",
+            "collected_at": "2026-11-05T06:52:42.478774+00:00",
+            "source": "Saibumi.com",
+            "match_score": 0.7575,
+            "priority": "low",
+            "scope": "case",
+            "category": "UNGKAP KASUS / PENINDAKAN",
+            "region": "LUAR JATIM",
+            "locality": "",
+            "is_jatim": false,
+            "polres": null,
+            "polsek": null,
+            "issue_type": "NARKOBA",
+            "issue_subtype": "Narkoba / Narkotika",
+            "handling_status": "BELUM_ADA_INFORMASI",
+            "handling_evidence": [],
+            "polri_relation": "PENEGAKAN_HUKUM",
+            "polri_relation_points": 0,
+            "polri_relation_evidence": [
+              "Polri berperan sebagai pihak penindak"
+            ],
+            "attention_score": 18,
+            "attention_label": "Rendah",
+            "attention_components": {
+              "severity": 11,
+              "polri_relation": 2,
+              "authority": 0,
+              "public_impact": 4,
+              "handling": 0,
+              "evidence": 1,
+              "context_risk": 0,
+              "routine_enforcement_cap": 35
+            }
+          },
+          {
+            "id": "403a7c7d13a75eca21f95ab2f0ff3a31cf475e7f",
+            "title": "Ratusan Polisi Gerebek 3 Lokasi Diduga Sarang Narkoba di Pesawaran Lampung, tapi Tak Berhasil Tangkap Bandarnya - Kompas.com",
+            "url": "https://regional.kompas.com/read/2026/11/07/193007678/ratusan-polisi-gerebek-3-lokasi-diduga-sarang-narkoba-di-pesawaran-lampung",
+            "published_at": "2026-11-07T12:30:00+00:00",
+            "collected_at": "2026-11-07T16:32:01.419259+00:00",
+            "source": "Kompas.com",
+            "match_score": 0.767,
+            "priority": "low",
+            "scope": "negative",
+            "category": "NEGATIF - NARKOBA / NARKOTIKA",
+            "region": "LUAR JATIM",
+            "locality": "",
+            "is_jatim": false,
+            "polres": null,
+            "polsek": null,
+            "issue_type": "NARKOBA",
+            "issue_subtype": "Narkoba / Narkotika",
+            "handling_status": "BELUM_ADA_INFORMASI",
+            "handling_evidence": [],
+            "polri_relation": "SUBJEK_PERMASALAHAN",
+            "polri_relation_points": 0,
+            "polri_relation_evidence": [
+              "Polri/personel menjadi subjek masalah"
+            ],
+            "attention_score": 38,
+            "attention_label": "Rendah",
+            "attention_components": {
+              "severity": 11,
+              "polri_relation": 16,
+              "authority": 0,
+              "public_impact": 10,
+              "handling": 0,
+              "evidence": 1,
+              "context_risk": 0,
+              "routine_enforcement_cap": null
+            }
+          },
+          {
+            "id": "4a1d5e7422f9bbc26c757f015b6de284015bb236",
+            "title": "Polda Lampung Kerahkan 401 Personel Gerebek Sarang Narkoba di Pesawaran, Polisi Sita Bong hingga Selongsong Peluru - AFU.id",
+            "url": "https://afu.id/hukum-kriminal/polda-lampung-kerahkan-401-personel-gerebek-sarang-narkoba-di-pesawaran-polisi-sita-bong-hingga-selongsong-peluru",
+            "published_at": "2026-11-08T19:15:00+00:00",
+            "collected_at": "2026-11-08T19:46:09.256958+00:00",
+            "source": "AFU.id",
+            "match_score": 0.7507,
+            "priority": "low",
+            "scope": "case",
+            "category": "UNGKAP KASUS / PENINDAKAN",
+            "region": "LUAR JATIM",
+            "locality": "",
+            "is_jatim": false,
+            "polres": null,
+            "polsek": null,
+            "issue_type": "NARKOBA",
+            "issue_subtype": "Narkoba / Narkotika",
+            "handling_status": "BELUM_ADA_INFORMASI",
+            "handling_evidence": [],
+            "polri_relation": "PENEGAKAN_HUKUM",
+            "polri_relation_points": 0,
+            "polri_relation_evidence": [
+              "Polri berperan sebagai pihak penindak"
+            ],
+            "attention_score": 18,
+            "attention_label": "Rendah",
+            "attention_components": {
+              "severity": 11,
+              "polri_relation": 2,
+              "authority": 0,
+              "public_impact": 4,
+              "handling": 0,
+              "evidence": 1,
+              "context_risk": 0,
+              "routine_enforcement_cap": 35
+            }
+          }
+        ],
+        "article_count": 4,
+        "created_at": "2026-08-31T07:59:56.930340+00:00",
+        "updated_at": "2026-11-08T19:55:51.763566+00:00",
+        "engine_version": "case-v6.5.4",
+        "priority_score": 49,
+        "priority_breakdown": {
+          "severity": 11,
+          "polri_relation": 16,
+          "authority_context": 0,
+          "public_impact": 10,
+          "handling": 0,
+          "evidence": 5,
+          "spread": 6,
+          "escalation": 0,
+          "current_activity": 1,
+          "context_risk": 0
+        },
+        "priority_evidence": {
+          "unique_sources": 4,
+          "active_today_articles": 1,
+          "escalation": [],
+          "issue_type": "NARKOBA",
+          "issue_subtype": "Narkoba / Narkotika",
+          "sentiment": "negative",
+          "polri_relation": "SUBJEK_PERMASALAHAN",
+          "handling_status": "BELUM_ADA_INFORMASI",
+          "reasons": [
+            "sifat berita: negatif",
+            "Narkoba / Narkotika",
+            "polisi + dugaan",
+            "frasa penegakan/hasil positif terdeteksi"
+          ]
+        }
+      },
+      {
+        "case_id": "CASE-004798",
+        "title": "Cemburu Buta? Polisi Ungkap Motif Pengeroyokan Maut di Warudoyong Sukabumi - Sukabumi Update - Sukabumi Update",
+        "category": "UNGKAP KASUS / PENINDAKAN",
+        "scope": "case",
+        "region": "BELUM TERPETAKAN",
+        "locality": "",
+        "is_jatim": null,
+        "polres": null,
+        "polsek": null,
+        "priority": "low",
+        "attention_score": 10,
+        "attention_label": "Rendah",
+        "signature": "BELUM TERPETAKAN",
+        "incident_terms": [
+          "buta",
+          "cemburu",
+          "maut",
+          "motif",
+          "pengeroyokan",
+          "sukabumi",
+          "update",
+          "warudoyong"
+        ],
+        "event_terms": [],
+        "location_terms": [],
+        "discovery_families": [],
+        "first_seen": "2026-11-08T16:26:00+00:00",
+        "last_seen": "2026-11-08T19:46:09.256958+00:00",
+        "last_detected_at": "2026-11-08T19:46:09.256958+00:00",
+        "article_ids": [
+          "81af6dead545a93ff402d39d725a8cba83b13099"
+        ],
+        "articles": [
+          {
+            "id": "81af6dead545a93ff402d39d725a8cba83b13099",
+            "title": "Cemburu Buta? Polisi Ungkap Motif Pengeroyokan Maut di Warudoyong Sukabumi - Sukabumi Update - Sukabumi Update",
+            "url": "https://www.sukabumiupdate.com/sukabumi/183262/cemburu-buta-polisi-ungkap-motif-pengeroyokan-maut-di-warudoyong-sukabumi",
+            "published_at": "2026-11-08T16:26:00+00:00",
+            "collected_at": "2026-11-08T19:46:09.256958+00:00",
+            "source": "Sukabumi Update",
+            "match_score": 1.0,
+            "priority": "low",
+            "scope": "case",
+            "category": "UNGKAP KASUS / PENINDAKAN",
+            "region": "BELUM TERPETAKAN",
+            "locality": "",
+            "is_jatim": false,
+            "polres": null,
+            "polsek": null,
+            "issue_type": "UMUM",
+            "issue_subtype": "Belum Teridentifikasi",
+            "handling_status": "BELUM_ADA_INFORMASI",
+            "handling_evidence": [],
+            "polri_relation": "PENEGAKAN_HUKUM",
+            "polri_relation_points": 0,
+            "polri_relation_evidence": [
+              "Polri berperan sebagai pihak penindak"
+            ],
+            "attention_score": 9,
+            "attention_label": "Rendah",
+            "attention_components": {
+              "severity": 2,
+              "polri_relation": 2,
+              "authority": 0,
+              "public_impact": 4,
+              "handling": 0,
+              "evidence": 1,
+              "context_risk": 0,
+              "routine_enforcement_cap": 35
+            }
+          }
+        ],
+        "article_count": 1,
+        "created_at": "2026-11-08T19:55:50.102550+00:00",
+        "updated_at": "2026-11-08T19:55:54.559912+00:00",
+        "engine_version": "case-v6.5.4",
+        "priority_score": 10,
+        "priority_breakdown": {
+          "severity": 2,
+          "polri_relation": 2,
+          "authority_context": 0,
+          "public_impact": 4,
+          "handling": 0,
+          "evidence": 1,
+          "spread": 0,
+          "escalation": 0,
+          "current_activity": 1,
+          "context_risk": 0
+        },
+        "priority_evidence": {
+          "unique_sources": 1,
+          "active_today_articles": 1,
+          "escalation": [],
+          "issue_type": "UMUM",
+          "issue_subtype": "Belum Teridentifikasi",
+          "sentiment": "positive",
+          "polri_relation": "PENEGAKAN_HUKUM",
+          "handling_status": "BELUM_ADA_INFORMASI",
+          "reasons": [
+            "sifat berita: positif",
+            "Polri sebagai pihak penindak"
+          ]
+        }
+      },
+      {
+        "case_id": "CASE-004799",
+        "title": "Polisi Tangkap 5 Pelaku Tawuran yang Tewaskan 1 Warga di Makassar | BERUT - Kompas.tv",
+        "category": "UNGKAP KASUS / PENINDAKAN",
+        "scope": "case",
+        "region": "BELUM TERPETAKAN",
+        "locality": "",
+        "is_jatim": null,
+        "polres": null,
+        "polsek": null,
+        "priority": "low",
+        "attention_score": 35,
+        "attention_label": "Rendah",
+        "signature": "BELUM TERPETAKAN",
+        "incident_terms": [
+          "berut",
+          "kompas",
+          "makassar",
+          "tawuran",
+          "tewaskan"
+        ],
+        "event_terms": [],
+        "location_terms": [],
+        "discovery_families": [
+          "security_public_order"
+        ],
+        "first_seen": "2026-11-08T15:50:00+00:00",
+        "last_seen": "2026-11-08T19:46:09.256958+00:00",
+        "last_detected_at": "2026-11-08T19:46:09.256958+00:00",
+        "article_ids": [
+          "489cbaecbca69daef1b743f6219e9eac4f88c4df"
+        ],
+        "articles": [
+          {
+            "id": "489cbaecbca69daef1b743f6219e9eac4f88c4df",
+            "title": "Polisi Tangkap 5 Pelaku Tawuran yang Tewaskan 1 Warga di Makassar | BERUT - Kompas.tv",
+            "url": "https://www.kompas.tv/regional/700458/polisi-tangkap-5-pelaku-tawuran-yang-tewaskan-1-warga-di-makassar-berut",
+            "published_at": "2026-11-08T15:50:00+00:00",
+            "collected_at": "2026-11-08T19:46:09.256958+00:00",
+            "source": "Kompas.tv",
+            "match_score": 1.0,
+            "priority": "medium",
+            "scope": "case",
+            "category": "UNGKAP KASUS / PENINDAKAN",
+            "region": "BELUM TERPETAKAN",
+            "locality": "",
+            "is_jatim": false,
+            "polres": null,
+            "polsek": null,
+            "issue_type": "KEAMANAN_DAN_KAMTIBMAS",
+            "issue_subtype": "Gangguan Keamanan / Kamtibmas",
+            "handling_status": "BELUM_ADA_INFORMASI",
+            "handling_evidence": [],
+            "polri_relation": "PENEGAKAN_HUKUM",
+            "polri_relation_points": 0,
+            "polri_relation_evidence": [
+              "Polri berperan sebagai pihak penindak"
+            ],
+            "attention_score": 39,
+            "attention_label": "Rendah",
+            "attention_components": {
+              "severity": 21,
+              "polri_relation": 0,
+              "authority": 0,
+              "public_impact": 12,
+              "handling": 0,
+              "evidence": 1,
+              "context_risk": 0,
+              "routine_enforcement_cap": null
+            }
+          }
+        ],
+        "article_count": 1,
+        "created_at": "2026-11-08T19:55:50.108905+00:00",
+        "updated_at": "2026-11-08T19:55:54.561558+00:00",
+        "engine_version": "case-v6.5.4",
+        "priority_score": 35,
+        "priority_breakdown": {
+          "severity": 21,
+          "polri_relation": 0,
+          "authority_context": 0,
+          "public_impact": 12,
+          "handling": 0,
+          "evidence": 1,
+          "spread": 0,
+          "escalation": 0,
+          "current_activity": 1,
+          "context_risk": 0
+        },
+        "priority_evidence": {
+          "unique_sources": 1,
+          "active_today_articles": 1,
+          "escalation": [],
+          "issue_type": "KEAMANAN_DAN_KAMTIBMAS",
+          "issue_subtype": "Gangguan Keamanan / Kamtibmas",
+          "sentiment": "negative",
+          "polri_relation": "INFORMASI_UMUM",
+          "handling_status": "BELUM_ADA_INFORMASI",
+          "reasons": [
+            "sifat berita: negatif",
+            "Gangguan Keamanan / Kamtibmas",
+            "Hubungan Polri belum spesifik"
+          ]
+        }
+      }
+    ],
+    "jatim_items": []
+  },
+  "social": {
+    "detected": 11,
+    "jatim": 0,
+    "negative": 6,
+    "priority_high": 6,
+    "video_ids": [
+      "L9UGE9HQ7Cg",
+      "j88EA7AiRG4",
+      "xrhYpOV8Xq0",
+      "sEol-NocQnE",
+      "Z8DfQvBDn_E",
+      "VHaVvbDYQqk",
+      "Tjd608wf91w",
+      "W95Dt5Trrqk",
+      "MWQF2osZTyk",
+      "2dv7OtgwjNc",
+      "Lx-6a_shE48"
+    ]
+  },
+  "jatim": {
+    "news_today": 6,
+    "negative_today": 0,
+    "positive_today": 1,
+    "case_scope_today": 0,
+    "neutral_today": 5,
+    "case_today": 0,
+    "case_high_active": 0,
+    "article_high_today": 0,
+    "outside_jatim_today": 4
+  },
+  "regions": [
+    {
+      "name": "Batu",
+      "count": 2
+    },
+    {
+      "name": "Lamongan",
+      "count": 1
+    },
+    {
+      "name": "Polda Jatim",
+      "count": 1
+    },
+    {
+      "name": "Kediri",
+      "count": 1
+    },
+    {
+      "name": "Mojokerto",
+      "count": 1
+    }
+  ],
+  "polres": [
+    {
+      "name": "POLRES BATU",
+      "count": 2
+    },
+    {
+      "name": "POLRES KEDIRI KOTA",
+      "count": 1
+    }
+  ],
+  "categories": [
+    {
+      "name": "NETRAL / LAINNYA",
+      "count": 3
+    },
+    {
+      "name": "NETRAL / PERISTIWA",
+      "count": 2
+    },
+    {
+      "name": "POSITIF / PENEGAKAN HUKUM",
+      "count": 1
+    }
+  ],
+  "summary": {
+    "news_today": 10,
+    "negative_today": 0,
+    "cases_today": 3,
+    "priority_high": 0,
+    "article_priority_high": 0,
+    "jatim_news": 6,
+    "jatim_negative": 0,
+    "jatim_positive": 1,
+    "jatim_case_scope": 0,
+    "jatim_neutral": 5,
+    "jatim_cases_today": 0,
+    "jatim_case_high_active": 0,
+    "luar_jatim_news": 4,
+    "youtube_today": 11
+  }
+}
