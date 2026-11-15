@@ -1,25 +1,102 @@
 {
-  "generated_at": "2026-11-15T11:10:49.909641+00:00",
+  "generated_at": "2026-11-15T17:55:29.322808+00:00",
   "platform": "YouTube",
-  "query_cursor": 10,
+  "query_cursor": 2,
   "query_batch_size": 3,
   "query_success": 3,
   "query_skipped": 0,
   "quota_warning": false,
   "quota_block_date": null,
   "total": 1500,
-  "new_videos": 17,
+  "new_videos": 8,
   "statistics": {
     "total": 1500,
-    "jatim": 101,
-    "negative": 772,
+    "jatim": 103,
+    "negative": 775,
     "incident": 28,
-    "case": 162,
+    "case": 160,
     "neutral": 531,
-    "noise": 7,
-    "high_priority": 337
+    "noise": 6,
+    "high_priority": 338
   },
   "items": [
+    {
+      "id": "178c3b1b97ad32ab8aca5ac7ce70f615db0e8fad",
+      "video_id": "4MRxS9Da4Y8",
+      "platform": "YouTube",
+      "type": "video",
+      "title": "Fakta Dibalik Isu Dugaan Skandal Kades Cantik Lamongan Angely Emitasari dan Oknum Aparat",
+      "channel": "Miaw TV",
+      "published_at": "2026-11-15T14:08:42Z",
+      "url": "https://www.youtube.com/watch?v=4MRxS9Da4Y8",
+      "thumbnail": "https://i.ytimg.com/vi/4MRxS9Da4Y8/hqdefault.jpg",
+      "description": "Berita heboh dan viral datang dari Lamongan! Kasus dugaan skandal yang melibatkan Kepala Desa (Kades) cantik Angely ...",
+      "relevance": "low",
+      "scope": "neutral",
+      "category": "Tidak Relevan",
+      "classification_score": 0,
+      "is_jatim": true,
+      "region": "Jawa Timur",
+      "polres": "POLRES LAMONGAN",
+      "location_confidence": 100,
+      "location_source": "polres",
+      "location_evidence": [
+        "lamongan",
+        "lamongan"
+      ],
+      "priority": "low",
+      "collected_at": "2026-11-15T17:55:29.322808+00:00"
+    },
+    {
+      "id": "4b859f3babe48212026d1ad0a41b350d95c955ab",
+      "video_id": "cHduWwbVHfE",
+      "platform": "YouTube",
+      "type": "video",
+      "title": "DEMO JOGJA BERBUNTUT PANJANG! Kompolnas Usut Dugaan Kekerasan Oknum Polisi | Sindo Siang | 15/11",
+      "channel": "SINDOnews",
+      "published_at": "2026-11-15T11:20:24Z",
+      "url": "https://www.youtube.com/watch?v=cHduWwbVHfE",
+      "thumbnail": "https://i.ytimg.com/vi/cHduWwbVHfE/hqdefault.jpg",
+      "description": "Kericuhan dalam aksi demonstrasi di Yogyakarta berbuntut panjang. Dugaan provokasi dan tindakan kekerasan di tengah ...",
+      "relevance": "high",
+      "scope": "negative",
+      "category": "Kekerasan / Penganiayaan",
+      "classification_score": 100,
+      "is_jatim": false,
+      "region": "Indonesia",
+      "polres": null,
+      "location_confidence": 0,
+      "location_source": "outside",
+      "location_evidence": [
+        "LUAR:yogyakarta"
+      ],
+      "priority": "medium",
+      "collected_at": "2026-11-15T17:55:29.322808+00:00"
+    },
+    {
+      "id": "dd8a8cc443dd5b29546619b4add8552f6cd47800",
+      "video_id": "1bDOkWOubQk",
+      "platform": "YouTube",
+      "type": "video",
+      "title": "VIRAL OKNUM POLISI KONSUMSI POD ETOMIDATE KINI DI PATSUS",
+      "channel": "TVRI SUMATERA UTARA",
+      "published_at": "2026-11-15T10:29:23Z",
+      "url": "https://www.youtube.com/watch?v=1bDOkWOubQk",
+      "thumbnail": "https://i.ytimg.com/vi/1bDOkWOubQk/hqdefault.jpg",
+      "description": "tvrisumaterautara #tvrisumut #tvri #lpptvri #MediaPemersatuBangsa #liputansumut #beritadaerah #budayasumut #wisatasumut ...",
+      "relevance": "high",
+      "scope": "negative",
+      "category": "Oknum / Pelanggaran Anggota",
+      "classification_score": 100,
+      "is_jatim": false,
+      "region": "Indonesia",
+      "polres": null,
+      "location_confidence": 0,
+      "location_source": null,
+      "location_evidence": [],
+      "priority": "low",
+      "collected_at": "2026-11-15T17:55:29.322808+00:00"
+    },
     {
       "id": "dd85e06ca87c24e19c9e9dd00c9ec6e897724a93",
       "video_id": "5sedpEZaRd8",
@@ -215,6 +292,57 @@
       "collected_at": "2026-11-15T11:10:49.909641+00:00"
     },
     {
+      "id": "33fd1782ac6511b42e210783fc71cb86300ece7e",
+      "video_id": "j4OcWVt18OI",
+      "platform": "YouTube",
+      "type": "video",
+      "title": "KADES DAN OKNUM POLISI #beritaviral #shorts #polisi #kades",
+      "channel": "satrio plat R",
+      "published_at": "2026-11-15T03:24:08Z",
+      "url": "https://www.youtube.com/watch?v=j4OcWVt18OI",
+      "thumbnail": "https://i.ytimg.com/vi/j4OcWVt18OI/hqdefault.jpg",
+      "description": "",
+      "relevance": "high",
+      "scope": "negative",
+      "category": "Oknum / Pelanggaran Anggota",
+      "classification_score": 100,
+      "is_jatim": false,
+      "region": "Indonesia",
+      "polres": null,
+      "location_confidence": 0,
+      "location_source": null,
+      "location_evidence": [],
+      "priority": "low",
+      "collected_at": "2026-11-15T17:55:29.322808+00:00"
+    },
+    {
+      "id": "e8511a99eb387d99e840fa561c8323248fc10d47",
+      "video_id": "UhXNgbrlyUw",
+      "platform": "YouTube",
+      "type": "video",
+      "title": "Detik detik ibu kades Lamongan kepergok selingkuh dengan oknum polisi di dalam hotel",
+      "channel": "Reenaa",
+      "published_at": "2026-11-15T02:21:00Z",
+      "url": "https://www.youtube.com/watch?v=UhXNgbrlyUw",
+      "thumbnail": "https://i.ytimg.com/vi/UhXNgbrlyUw/hqdefault.jpg",
+      "description": "",
+      "relevance": "high",
+      "scope": "negative",
+      "category": "Oknum / Pelanggaran Anggota",
+      "classification_score": 100,
+      "is_jatim": true,
+      "region": "Jawa Timur",
+      "polres": "POLRES LAMONGAN",
+      "location_confidence": 100,
+      "location_source": "polres",
+      "location_evidence": [
+        "lamongan",
+        "lamongan"
+      ],
+      "priority": "low",
+      "collected_at": "2026-11-15T17:55:29.322808+00:00"
+    },
+    {
       "id": "9d388c6f9ab24f702c20cf4a69e6a796c8042d62",
       "video_id": "wT_oLZS_o_g",
       "platform": "YouTube",
@@ -237,6 +365,54 @@
       "location_evidence": [],
       "priority": "low",
       "collected_at": "2026-11-15T11:10:49.909641+00:00"
+    },
+    {
+      "id": "cd46c3fe4b4e06cee75a510d81826339e29a2a27",
+      "video_id": "bwC_KBDDeD4",
+      "platform": "YouTube",
+      "type": "video",
+      "title": "OKNUM POLISI JEBAK TERSANGKA NARKOBA BUAT NAIK JABATAN #prabowo #jokowi #gibran #kapolri #mahfudmd",
+      "channel": "Eco-Pol Creator",
+      "published_at": "2026-11-15T02:10:40Z",
+      "url": "https://www.youtube.com/watch?v=bwC_KBDDeD4",
+      "thumbnail": "https://i.ytimg.com/vi/bwC_KBDDeD4/hqdefault.jpg",
+      "description": "OKNUM POLISI JEBAK ORANG JADI TSK NARKOBA BUAT NAIK JABATAN#prabowo #jokowi #gibran #kapolri #mahfudmd ...",
+      "relevance": "high",
+      "scope": "negative",
+      "category": "Oknum / Narkoba",
+      "classification_score": 100,
+      "is_jatim": false,
+      "region": "Indonesia",
+      "polres": null,
+      "location_confidence": 0,
+      "location_source": null,
+      "location_evidence": [],
+      "priority": "high",
+      "collected_at": "2026-11-15T17:55:29.322808+00:00"
+    },
+    {
+      "id": "2e2e873d1cf755e8024f30465070d431e9b345a8",
+      "video_id": "vR5kXMldHdU",
+      "platform": "YouTube",
+      "type": "video",
+      "title": "OVERREACH? Can police demand your dating &amp; medical data without a warrant under Bill C-22?",
+      "channel": "Canada Info",
+      "published_at": "2026-11-15T01:45:01Z",
+      "url": "https://www.youtube.com/watch?v=vR5kXMldHdU",
+      "thumbnail": "https://i.ytimg.com/vi/vR5kXMldHdU/hqdefault.jpg",
+      "description": "Could Canadian law enforcement soon access your personal subscriber data from telecom providers, dating apps, and online ...",
+      "relevance": "low",
+      "scope": "neutral",
+      "category": "Tidak Relevan",
+      "classification_score": 0,
+      "is_jatim": false,
+      "region": "Indonesia",
+      "polres": null,
+      "location_confidence": 0,
+      "location_source": null,
+      "location_evidence": [],
+      "priority": "low",
+      "collected_at": "2026-11-15T17:55:29.322808+00:00"
     },
     {
       "id": "f44b988284278a667d948d592e9e5b958106b53c",
@@ -335,6 +511,30 @@
       "collected_at": "2026-11-15T02:55:07.990099+00:00"
     },
     {
+      "id": "81a9d23895db331a5bb882d46aa24cf64098600a",
+      "video_id": "dkN1VQhCgqE",
+      "platform": "YouTube",
+      "type": "video",
+      "title": "Oknum Polisi Ditangkap #indonesia #Prabowo #Gibran",
+      "channel": "ViralScope",
+      "published_at": "2026-11-14T22:45:35Z",
+      "url": "https://www.youtube.com/watch?v=dkN1VQhCgqE",
+      "thumbnail": "https://i.ytimg.com/vi/dkN1VQhCgqE/hqdefault.jpg",
+      "description": "Berita viral Trending news Kabar terbaru Berita hari ini Berita terkini Info viral Fakta unik Hot news Trending topic Update berita ...",
+      "relevance": "high",
+      "scope": "negative",
+      "category": "Oknum / Pelanggaran Anggota",
+      "classification_score": 100,
+      "is_jatim": false,
+      "region": "Indonesia",
+      "polres": null,
+      "location_confidence": 0,
+      "location_source": null,
+      "location_evidence": [],
+      "priority": "medium",
+      "collected_at": "2026-11-15T17:55:29.322808+00:00"
+    },
+    {
       "id": "ce78d89c978f8028c3f7179aaa06ebab59902060",
       "video_id": "sQ9jJqt4cis",
       "platform": "YouTube",
@@ -380,7 +580,7 @@
       "location_source": null,
       "location_evidence": [],
       "priority": "high",
-      "collected_at": "2026-11-14T22:40:13.822869+00:00"
+      "collected_at": "2026-11-15T17:55:29.322808+00:00"
     },
     {
       "id": "c512cd07ffb9b72b0f490803b1ae716f4b59e3cd",
@@ -572,7 +772,7 @@
       "location_source": null,
       "location_evidence": [],
       "priority": "high",
-      "collected_at": "2026-11-15T02:55:07.990099+00:00"
+      "collected_at": "2026-11-15T17:55:29.322808+00:00"
     },
     {
       "id": "4097941d2c824ca221c34653827863f9e0fbe0e9",
@@ -699,7 +899,7 @@
       "location_source": null,
       "location_evidence": [],
       "priority": "low",
-      "collected_at": "2026-11-14T18:20:41.555260+00:00"
+      "collected_at": "2026-11-15T17:55:29.322808+00:00"
     },
     {
       "id": "c9e1839a3fc0383894909397227ff267e5b1612f",
@@ -750,7 +950,7 @@
         "lamongan"
       ],
       "priority": "low",
-      "collected_at": "2026-11-14T18:20:41.555260+00:00"
+      "collected_at": "2026-11-15T17:55:29.322808+00:00"
     },
     {
       "id": "db7c0decea4de799de1d3fbf720d6e77cb61e2c0",
@@ -875,7 +1075,7 @@
       "location_source": null,
       "location_evidence": [],
       "priority": "low",
-      "collected_at": "2026-11-14T18:20:41.555260+00:00"
+      "collected_at": "2026-11-15T17:55:29.322808+00:00"
     },
     {
       "id": "ecc10a24d6fc28814ea80b25e498e2a472c23a57",
@@ -1047,7 +1247,7 @@
       "location_source": null,
       "location_evidence": [],
       "priority": "high",
-      "collected_at": "2026-11-14T22:40:13.822869+00:00"
+      "collected_at": "2026-11-15T17:55:29.322808+00:00"
     },
     {
       "id": "45adf103af1fae1114e61ab25fbabf938fa5f970",
@@ -1435,7 +1635,7 @@
       "location_source": null,
       "location_evidence": [],
       "priority": "low",
-      "collected_at": "2026-11-14T18:20:41.555260+00:00"
+      "collected_at": "2026-11-15T17:55:29.322808+00:00"
     },
     {
       "id": "e6836fba7c337f7445854e9611a3f98b824a8d34",
@@ -1582,7 +1782,7 @@
       "location_source": null,
       "location_evidence": [],
       "priority": "low",
-      "collected_at": "2026-11-14T18:20:41.555260+00:00"
+      "collected_at": "2026-11-15T17:55:29.322808+00:00"
     },
     {
       "id": "66cb8f986d2ac5b2c7c1f5454fd6833fdfb245e6",
@@ -1776,7 +1976,7 @@
       "location_source": null,
       "location_evidence": [],
       "priority": "low",
-      "collected_at": "2026-11-14T18:20:41.555260+00:00"
+      "collected_at": "2026-11-15T17:55:29.322808+00:00"
     },
     {
       "id": "bdd267f4f0d8b641a4a86cdf25459b7fcf5fced9",
@@ -1920,7 +2120,7 @@
       "location_source": null,
       "location_evidence": [],
       "priority": "low",
-      "collected_at": "2026-11-14T18:20:41.555260+00:00"
+      "collected_at": "2026-11-15T17:55:29.322808+00:00"
     },
     {
       "id": "d6ccb3be6851ef731918ba6f8d55955ee79b9e55",
@@ -1944,7 +2144,7 @@
       "location_source": null,
       "location_evidence": [],
       "priority": "low",
-      "collected_at": "2026-11-14T18:20:41.555260+00:00"
+      "collected_at": "2026-11-15T17:55:29.322808+00:00"
     },
     {
       "id": "f81dc478c2a10ef775ca6669c6aa52eb065734b5",
@@ -1970,7 +2170,7 @@
         "batu"
       ],
       "priority": "low",
-      "collected_at": "2026-11-14T18:20:41.555260+00:00"
+      "collected_at": "2026-11-15T17:55:29.322808+00:00"
     },
     {
       "id": "1f1eff3999492999cb3bbfbffbbf8a80b28fa162",
@@ -36620,202 +36820,6 @@
       "location_evidence": [],
       "priority": "low",
       "collected_at": "2026-10-31T21:49:42.507730+00:00"
-    },
-    {
-      "id": "a8d845579e1b488cd07442d91995e47a3da6c1e0",
-      "video_id": "frfigMv07Mc",
-      "platform": "YouTube",
-      "type": "video",
-      "title": "wartawan dilarang oknum polisi saat meliput berita #wartawan #polisi #oknumpolisi #pers #jurnalis",
-      "channel": "Komedi SKB ",
-      "published_at": "2026-10-30T00:05:58Z",
-      "url": "https://www.youtube.com/watch?v=frfigMv07Mc",
-      "thumbnail": "https://i.ytimg.com/vi/frfigMv07Mc/hqdefault.jpg",
-      "description": "",
-      "relevance": "high",
-      "scope": "negative",
-      "category": "Oknum / Pelanggaran Anggota",
-      "classification_score": 100,
-      "is_jatim": false,
-      "region": "Indonesia",
-      "polres": null,
-      "location_confidence": 0,
-      "location_source": null,
-      "location_evidence": [],
-      "priority": "low",
-      "collected_at": "2026-10-31T06:00:33.033050+00:00"
-    },
-    {
-      "id": "2251eee06a9f477fd24f1571addc65f887cf36f0",
-      "video_id": "jM8p3j7mpZY",
-      "platform": "YouTube",
-      "type": "video",
-      "title": "Klien Saya Diintimidasi Oknum Polisi #fypシ",
-      "channel": "Lentera Viral Podcast",
-      "published_at": "2026-10-30T00:00:38Z",
-      "url": "https://www.youtube.com/watch?v=jM8p3j7mpZY",
-      "thumbnail": "https://i.ytimg.com/vi/jM8p3j7mpZY/hqdefault.jpg",
-      "description": "",
-      "relevance": "high",
-      "scope": "negative",
-      "category": "Oknum / Pelanggaran Anggota",
-      "classification_score": 100,
-      "is_jatim": false,
-      "region": "Indonesia",
-      "polres": null,
-      "location_confidence": 0,
-      "location_source": null,
-      "location_evidence": [],
-      "priority": "low",
-      "collected_at": "2026-10-30T07:23:08.134804+00:00"
-    },
-    {
-      "id": "80e0bd5567f93ab8bb35fe468c69eb90547415b4",
-      "video_id": "BQ3wa6N-NFk",
-      "platform": "YouTube",
-      "type": "video",
-      "title": "Penjahat itu hampir ditangkap polisi namun dia menyamar #sakura #sakuraschoolsimulator #sss #shorts",
-      "channel": "Savilla Aisyah",
-      "published_at": "2026-10-30T00:00:21Z",
-      "url": "https://www.youtube.com/watch?v=BQ3wa6N-NFk",
-      "thumbnail": "https://i.ytimg.com/vi/BQ3wa6N-NFk/hqdefault.jpg",
-      "description": "",
-      "relevance": "high",
-      "scope": "case",
-      "category": "Ungkap Kasus",
-      "classification_score": 60,
-      "is_jatim": false,
-      "region": "Indonesia",
-      "polres": null,
-      "location_confidence": 0,
-      "location_source": null,
-      "location_evidence": [],
-      "priority": "low",
-      "collected_at": "2026-10-30T07:23:08.134804+00:00"
-    },
-    {
-      "id": "a1067145f2f148aab33d73d140ae91dcc9cdadb1",
-      "video_id": "zU-lwlsL4x0",
-      "platform": "YouTube",
-      "type": "video",
-      "title": "[LIVE] 19 Orang Ditangkap Saat Demo Jakarta, Polisi Sita Sajam | NTV CRIME",
-      "channel": "ntvnewsdotid",
-      "published_at": "2026-10-29T23:54:11Z",
-      "url": "https://www.youtube.com/watch?v=zU-lwlsL4x0",
-      "thumbnail": "https://i.ytimg.com/vi/zU-lwlsL4x0/hqdefault.jpg",
-      "description": "https://www.ntvnews.id/ - [LIVE] 19 Orang Ditangkap Saat Demo Jakarta, Polisi Sita Sajam | NTV CRIME #nusantaratv ...",
-      "relevance": "high",
-      "scope": "negative",
-      "category": "Oknum / Pelanggaran Anggota",
-      "classification_score": 100,
-      "is_jatim": false,
-      "region": "Indonesia",
-      "polres": null,
-      "location_confidence": 0,
-      "location_source": "outside",
-      "location_evidence": [
-        "LUAR:jakarta"
-      ],
-      "priority": "medium",
-      "collected_at": "2026-10-30T07:23:08.134804+00:00"
-    },
-    {
-      "id": "a68c171ce660f1a3083d8c29d7efa39079440930",
-      "video_id": "VKdc3urL4Pk",
-      "platform": "YouTube",
-      "type": "video",
-      "title": "Papa Ditangkap Polisi semua sedih #sakuraschoolsimulator",
-      "channel": "Ceeka Sakura",
-      "published_at": "2026-10-29T23:30:39Z",
-      "url": "https://www.youtube.com/watch?v=VKdc3urL4Pk",
-      "thumbnail": "https://i.ytimg.com/vi/VKdc3urL4Pk/hqdefault.jpg",
-      "description": "SAKURA SCHOOL SIMULATOR ‎ ‎DISCLAIMER ‼️ ‎ ‎Video ini dibuat dari game Sakura School Simulator. Video ini hanya ...",
-      "relevance": "noise",
-      "scope": "noise",
-      "category": "Tidak Relevan",
-      "classification_score": 0,
-      "is_jatim": false,
-      "region": "Indonesia",
-      "polres": null,
-      "location_confidence": 0,
-      "location_source": null,
-      "location_evidence": [],
-      "priority": "low",
-      "collected_at": "2026-10-30T07:23:08.134804+00:00"
-    },
-    {
-      "id": "9cdfff02e3d0641625e27a82c11639fc546bfdbc",
-      "video_id": "VBrk5KfL8ZU",
-      "platform": "YouTube",
-      "type": "video",
-      "title": "Perjuangan Kompol Aditia #ceritadibalikberita #polisi #shorts #story #wonogiri #profile",
-      "channel": "Cerita di Balik Berita",
-      "published_at": "2026-10-29T23:00:24Z",
-      "url": "https://www.youtube.com/watch?v=VBrk5KfL8ZU",
-      "thumbnail": "https://i.ytimg.com/vi/VBrk5KfL8ZU/hqdefault.jpg",
-      "description": "Selama hampir tujuh tahun, Kompol Aditia Mulya Ramdhani bertahan dalam kondisi koma setelah menjadi korban pngr0y0kn ...",
-      "relevance": "medium",
-      "scope": "neutral",
-      "category": "Berita Polisi Lainnya",
-      "classification_score": 25,
-      "is_jatim": false,
-      "region": "Indonesia",
-      "polres": null,
-      "location_confidence": 0,
-      "location_source": null,
-      "location_evidence": [],
-      "priority": "low",
-      "collected_at": "2026-10-31T06:00:33.033050+00:00"
-    },
-    {
-      "id": "69c54d2aece076fcae1f800e8ff9046b65c3a060",
-      "video_id": "mSw_H5FdGcg",
-      "platform": "YouTube",
-      "type": "video",
-      "title": "🔴LIVE: Pelaku Pembunuhan Wanita di Kos Batam Ditangkap, Polisi: Tersinggung Disebut Mesum",
-      "channel": "Tribunnews Bogor",
-      "published_at": "2026-10-29T22:53:26Z",
-      "url": "https://www.youtube.com/watch?v=mSw_H5FdGcg",
-      "thumbnail": "https://i.ytimg.com/vi/mSw_H5FdGcg/hqdefault.jpg",
-      "description": "Download aplikasi berita TribunX di Play Store atau App Store untuk dapatkan pengalaman baru TRIBUN-VIDEO.COM - Polisi ...",
-      "relevance": "medium",
-      "scope": "neutral",
-      "category": "Berita Polisi Lainnya",
-      "classification_score": 25,
-      "is_jatim": false,
-      "region": "Indonesia",
-      "polres": null,
-      "location_confidence": 0,
-      "location_source": "outside",
-      "location_evidence": [
-        "LUAR:batam"
-      ],
-      "priority": "low",
-      "collected_at": "2026-10-30T07:23:08.134804+00:00"
-    },
-    {
-      "id": "11d9775bb943468c5efd0014f97e4b2cf326386d",
-      "video_id": "B_we9C8JvQY",
-      "platform": "YouTube",
-      "type": "video",
-      "title": "AKHIRNYA EDISTV DITANGKAP POLISI DAN SEMUA UMAT ISLAM DI DUNIA BEREFORIA. @SuaraPenginjil-e4x ",
-      "channel": "Suara Penginjil",
-      "published_at": "2026-10-29T22:30:37Z",
-      "url": "https://www.youtube.com/watch?v=B_we9C8JvQY",
-      "thumbnail": "https://i.ytimg.com/vi/B_we9C8JvQY/hqdefault.jpg",
-      "description": "debatlintasagama #debatlintasagama2024 #debatlintasagama2025 #debatlintasagamaterbaru #debatlintasiman #diskusiiman ...",
-      "relevance": "high",
-      "scope": "case",
-      "category": "Ungkap Kasus",
-      "classification_score": 60,
-      "is_jatim": false,
-      "region": "Indonesia",
-      "polres": null,
-      "location_confidence": 0,
-      "location_source": null,
-      "location_evidence": [],
-      "priority": "low",
-      "collected_at": "2026-10-30T07:23:08.134804+00:00"
     }
   ]
 }
